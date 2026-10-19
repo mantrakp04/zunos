@@ -1,0 +1,103 @@
+require File.join(File.dirname(`node --print "require.resolve('expo/package.json')"`), "scripts/autolinking")
+require 'pathname'
+
+ws_dir = Pathname.new(__dir__)
+ws_dir = ws_dir.parent until
+  File.exist?("#{ws_dir}/node_modules/react-native-macos/scripts/react_native_pods.rb") ||
+  ws_dir.expand_path.to_s == '/'
+require "#{ws_dir}/node_modules/react-native-macos/scripts/react_native_pods.rb"
+
+prepare_react_native_project!
+
+target 'zunos-macOS' do
+  platform :macos, '14.0'
+  use_expo_modules!
+
+  config_command = [
+    'npx',
+    'expo-modules-autolinking',
+    'react-native-config',
+    '--json',
+    '--platform',
+    'ios'
+  ]
+  config = use_native_modules!(config_command)
+
+  # Flags change depending on the env values.
+  flags = get_default_flags()
+
+  use_react_native!(
+    :path => "#{config[:reactNativePath]}-macos",
+    :fabric_enabled => ENV['RCT_NEW_ARCH_ENABLED'] == '1',
+    # An absolute path to your application root.
+    :app_path => "#{Pod::Config.instance.installation_root}/.."
+  )
+
+  post_install do |installer|
+    react_native_post_install(installer)
+
+    # Monorepo: react-native is hoisted to the repo root, not apps/mac/node_modules.
+    # react_native_post_install hardcodes ${PODS_ROOT}/../../node_modules/react-native.
+    rn_dir = File.dirname(`node --print "require.resolve('react-native/package.json')"`.strip)
+    rn_path = "${PODS_ROOT}/#{Pathname.new(rn_dir).relative_path_from(installer.sandbox.root)}"
+    projects = [installer.pods_project] + installer.aggregate_targets.map(&:user_project).uniq
+    projects.each do |project|
+      project.build_configurations.each { |c| c.build_settings['REACT_NATIVE_PATH'] = rn_path }
+      project.targets.each do |t|
+        t.build_configurations.each do |c|
+          c.build_settings['REACT_NATIVE_PATH'] = rn_path if c.build_settings.key?('REACT_NATIVE_PATH')
+        end
+      end
+      project.save
+    end
+
+    # Dev server on 8090 so zunos never attaches to another project's Metro on 8081.
+    installer.pods_project.targets.each do |t|
+      next unless t.name.start_with?('React')
+      t.build_configurations.each do |c|
+        defs = c.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] || ['$(inherited)']
+        defs = [defs] if defs.is_a?(String)
+        c.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = defs | ['RCT_METRO_PORT=8090']
+      end
+    end
+
+    # RN macOS 0.83 already declares this Objective-C alias, which Expo's
+    # preprocessor guard cannot detect. Remove Expo's duplicate declaration.
+    react_uikit_header = installer.sandbox.pod_dir('React-RCTUIKit').join('RCTUIKitCompat.h')
+    expo_platform_header = installer.sandbox.pod_dir('ExpoModulesCore').join('ios/Platform/Platform.h')
+    application_alias = '@compatibility_alias UIApplication NSApplication;'
+    if react_uikit_header.file? && expo_platform_header.file? &&
+        react_uikit_header.read.include?(application_alias)
+      contents = expo_platform_header.read
+      if contents.include?(application_alias)
+        patched_contents = contents.sub("#ifndef UIApplication\n#{application_alias}\n#endif", '')
+        raise "Unexpected UIApplication alias in #{expo_platform_header}" if patched_contents == contents
+
+        expo_platform_header.write(patched_contents)
+      end
+    end
+
+    # react_native_post_install updates pod targets, but not the resource-bundle
+    # targets that CocoaPods creates for privacy manifests. Xcode 27 no longer
+    # supports building those targets with macOS 11 as their deployment target.
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        current_deployment_target = config.build_settings['MACOSX_DEPLOYMENT_TARGET']
+        config.build_settings['MACOSX_DEPLOYMENT_TARGET'] = [
+          min_macos_version_supported.to_f,
+          current_deployment_target ? current_deployment_target.to_f : 0,
+        ].max.to_s
+      end
+    end
+
+    # Fix for Xcode 26.4 build error
+    # https://stackoverflow.com/a/79921410/5951226
+    installer.pods_project.targets.each do |target|
+      if target.name == 'fmt'
+        target.build_configurations.each do |config|
+          config.build_settings['CLANG_CXX_LANGUAGE_STANDARD'] = 'c++17'
+        end
+      end
+    end
+  end
+end

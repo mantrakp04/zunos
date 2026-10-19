@@ -9,5 +9,8 @@
   "devDependencies": {
     "@hexclave/cli": "^1.0.132",
     "@hexclave/js": "^1.0.132"
+  },
+  "patchedDependencies": {
+    "expo@55.0.31": "patches/expo@55.0.31.patch"
   }
 }

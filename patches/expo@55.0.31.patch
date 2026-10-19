@@ -1,0 +1,14 @@
+diff --git a/src/dom/base.ts b/src/dom/base.ts
+index 2288c0af0f669b573b7e13315619c541c3f548c2..5aeb552e575a3e3f33896d85e2562bd2b9a4c92e 100644
+--- a/src/dom/base.ts
++++ b/src/dom/base.ts
+@@ -24,7 +24,8 @@ export function getBaseURL(): string {
+   if (process.env.NODE_ENV === 'production') {
+     if (process.env.EXPO_OS === 'android') {
+       cachedBaseUrl = 'file:///android_asset/www.bundle';
+-    } else if (process.env.EXPO_OS === 'ios') {
++    } else if (process.env.EXPO_OS === 'ios' || process.env.EXPO_OS === 'macos') {
++      // zunos: react-native-macos embeds DOM bundles in Resources/www.bundle like iOS.
+       cachedBaseUrl = 'www.bundle';
+     } else {
+       cachedBaseUrl = process.env.EXPO_BASE_URL ?? '';
