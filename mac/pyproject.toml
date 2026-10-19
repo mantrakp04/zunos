@@ -1,0 +1,27 @@
+[project]
+name = "voicemac"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mantrakp04", email = "mantrakp@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=2.2.0",
+    "mlx-whisper>=0.4.3",
+    "numpy>=2.5.4",
+    "safetensors>=0.8.0",
+    "sounddevice>=0.5.6",
+    "soundfile>=0.14.0",
+    "torch>=2.14.1",
+    "tqdm>=4.70.1",
+    "transformers>=5.20.1",
+]
+
+[project.scripts]
+voicemac = "voicemac:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"

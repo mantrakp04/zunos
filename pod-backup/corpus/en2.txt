@@ -1,0 +1,140 @@
+The patient came in with a mild fever, a dry cough, and some body ache since Tuesday.
+Prescribe paracetamol twice a day for three days and ask him to come back if the fever doesn't drop.
+Her blood sugar was one hundred and forty fasting, which is a little high.
+Please book a follow up appointment for Mrs. Kapoor next Wednesday at eleven.
+The lab report shows low vitamin D and slightly low haemoglobin.
+Ask the receptionist to call all the patients who missed their appointments this week.
+He's allergic to penicillin, make sure that's written clearly in his file.
+We need to restock gloves, masks, and syringes before the weekend.
+The X-ray looks normal, but let's get an ultrasound just to be sure.
+Tell the patient to take the medicine after food, not on an empty stomach.
+The clinic opens at nine, but the doctor usually arrives by nine thirty.
+I've moved the dentist appointment to Saturday morning.
+My father's blood pressure has been stable since he started the new tablets.
+Please scan the prescription and send it on WhatsApp.
+The nurse will check your weight, height, and blood pressure first.
+If the pain gets worse at night, go to the emergency ward immediately.
+We have three walk-ins waiting and the doctor is still in surgery.
+The insurance claim was rejected because one of the bills was missing.
+Can you print the discharge summary and the list of medicines?
+Ask him whether he's had any surgeries or major illnesses in the past.
+Last summer we drove from Pune to Goa, and it took almost twelve hours with all the stops.
+I grew up in a small town near Vadodara, where everyone knew everyone.
+The trick to a good dal is patience, you let it cook slowly with the tadka at the end.
+We spent the whole evening on the terrace, talking about nothing and everything.
+When I was a kid, I wanted to be a pilot, then a cricketer, then an astronaut.
+The old bookshop near the station finally shut down after forty years.
+If you think about it, most of our problems at work are really communication problems.
+I tried meditating every morning for a month, and it actually helped with my sleep.
+The neighbours are renovating their flat, so there's drilling from nine to six every day.
+We took the night train to Jaipur, and the sunrise from the window was beautiful.
+My grandmother still writes letters by hand, and she expects a reply by post.
+The stray cat that lives in our building has had four kittens.
+Learning Python was easier than I expected, the hard part was staying consistent.
+Every Diwali, the whole street lights up and the kids burst crackers till midnight.
+The monsoon came early this year and flooded half the roads in the city.
+I've been reading a lot more since I deleted social media from my phone.
+We need a better way to track expenses, the spreadsheet is a mess.
+The interview went okay, but I fumbled the system design question.
+The startup raised a small round from angel investors and two friends of the founder.
+He talks so fast that I only understand half of what he says.
+Honestly, the best biryani I've ever had was from a tiny stall in Hyderabad.
+The library has a quiet room upstairs where you can work without any noise.
+I'm trying to wake up earlier, but my body refuses to cooperate.
+It's not the money that bothers me, it's the fact that he never even said sorry.
+Next year I want to travel somewhere cold, maybe Ladakh or Spiti.
+The festival crowd was so big that we couldn't even get close to the stage.
+My phone fell in the water, and now the speaker sounds like it's underwater.
+We should automate the weekly report, it takes three hours every Monday.
+The deadline is tight, but if we cut the extra features, we can make it.
+I accidentally deleted the folder, but luckily there was a backup from yesterday.
+Could you walk me through the setup? I'm not very good with this stuff.
+The temperature dropped to eight degrees last night, which is rare for here.
+My cousin is getting married in January, and the whole family is already planning outfits.
+The traffic police stopped us because the pollution certificate had expired.
+I'll be honest, I didn't read the whole document, just the summary.
+Whenever it rains, the power goes out and the lift stops working.
+The bakery downstairs makes the softest pav in the whole area.
+We need to talk about the roadmap, priorities have shifted since the last review.
+My handwriting is so bad that even I can't read my own notes sometimes.
+The auto driver refused to go by meter, so we just walked.
+I want the voice assistant to understand me even when I'm mumbling half asleep.
+Sometimes I speak too fast when I'm excited and the words just blur together.
+Sorry, I'm a bit tired, I might be slurring, but please note this down anyway.
+Ugh, I can't think straight right now, let's continue tomorrow morning.
+Wait, no, not Tuesday, I meant Thursday, Thursday at four.
+So basically, um, the idea is that, uh, the app listens and just writes everything down.
+Yeah, yeah, I know, I know, I'll fix it first thing tomorrow, promise.
+Okay, okay, let me start again from the beginning.
+Is it working? Can you hear me? Hello? Okay, good.
+Sorry, there's a lot of noise here, I'm at a wedding.
+I'm on the bike right now, I'll call you when I stop.
+I'm walking back from the market, so I'm a bit out of breath.
+The kids are screaming in the background, give me one second.
+I'm in the car with the windows down, can you hear me okay?
+Listen, I've had a few drinks, so don't take anything I say tonight seriously.
+I'm half asleep, just set an alarm for seven and remind me about the meeting.
+My mouth is full, sorry, one second, okay, go on.
+I have a cold, so my voice sounds a bit weird today.
+Let me whisper, everyone's sleeping, send me the file please.
+Kubernetes, Docker, and Terraform are on the list of things I want to learn.
+We should migrate from the old monolith to smaller services, but carefully.
+The latency is around two hundred milliseconds, which is too slow for voice.
+Use the staging environment, not production, for the load tests.
+Can you rebase your branch on main and resolve the conflicts?
+The model was trained on eight GPUs for three days.
+The database migration failed halfway, so we restored from the snapshot.
+Make the button blue, increase the padding, and centre the text.
+The chatbot answers in English even when the user writes in Hindi.
+We need better error messages, nobody understands what invalid token means.
+The cache hit rate dropped after the deploy, something's off.
+Turn on two factor authentication for all the admin accounts.
+The release notes should be short and written in plain language.
+I'll pair with you on the bug after lunch, it's probably a race condition.
+The free plan is limited to three projects and one gigabyte of storage.
+Add logging around the webhook handler so we can see what's failing.
+The dashboard should show daily active users, revenue, and churn.
+Archive the old channels, nobody's posted in them for months.
+Ask the vendor for a quote, and then compare it with the other two.
+Peter's sister sells fresh fish at the fish shop near the fire station.
+Six slippery snails slid slowly seaward on Saturday.
+A big black bug bit a big black bear on its big black back.
+Fresh fried fish, fish fresh fried, fried fish fresh, fish fried fresh.
+Thirty three thirsty thieves thought they thrilled the throne throughout Thursday.
+The quick brown fox jumps over the lazy dog near the riverbank.
+Lesser leather never weathered wetter weather better.
+Truly rural, truly rural, truly rural.
+Betty bought a bit of better butter to make the bitter batter better.
+Which witch wished which wicked wish while watching the window?
+Good morning everyone, today's agenda has three items, so let's be quick.
+Thank you so much for coming, it really means a lot to us.
+Please find attached the invoice for the month of September.
+I'm writing to follow up on my previous email regarding the refund.
+Kindly confirm your availability for a call on Friday at three.
+Best regards, and have a great weekend.
+Looking forward to hearing from you soon.
+As discussed, I've shared the access with the whole team.
+Just a gentle reminder that the payment is still pending.
+Apologies for the delay, I was travelling and had limited access to email.
+Happy birthday, have an amazing year ahead, lots of love.
+Congratulations on the new job, you totally deserve it.
+Get well soon, let me know if you need anything at all.
+Can't wait to see you guys next month, it's been way too long.
+Thanks for dinner last night, the food was amazing.
+We'll be there by eight, should we bring anything?
+Ha, that's hilarious, send me the video.
+No worries at all, take your time.
+That sounds perfect, let's lock it in.
+I don't know, man, it just doesn't feel right to me.
+Seriously? Again? This is the third time this week.
+Fine, whatever you think is best, I'm okay with it.
+Could you double check the spelling of her name? It's Shreya with an S H.
+The address is flat number twelve, second floor, Shanti Niwas, near the post office.
+My number is nine eight two five, zero one three, four four seven.
+The order number is A B seven seven three nine, please check the status.
+Meet me at gate number three of the stadium at quarter to six.
+The total, including tax, comes to eleven thousand five hundred and sixty rupees.
+The train is the Shatabdi, coach C four, seats thirty one and thirty two.
+Pay the first instalment by the tenth and the rest by the end of the month.
+It's about two and a half kilometres from the station, maybe fifteen minutes by auto.
+The meeting is at nine a.m. Pacific, which is ten thirty p.m. for us.

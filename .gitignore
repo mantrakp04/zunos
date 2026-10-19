@@ -1,0 +1,16 @@
+models/
+synth_fish/
+data/**/*.wav
+data/segments/
+data2/
+pod-backup/synth16/
+pod-backup/refs/
+pod-backup/refs_fish/
+dashboard/samples/
+mac/.venv/
+mac/whisper.cpp/
+mac/whisper-openai/
+__pycache__/
+*.log
+*.rms
+.DS_Store

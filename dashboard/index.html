@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice model training</title>
+<style>
+  :root { color-scheme: dark; --bg:#121211; --card:#1a1a19; --line:#2c2c2a; --grid:#262624; --text:#f0efec; --muted:#c3c2b7; --faint:#8d8c84;
+          --en:#3987e5; --hi:#d95926; --gu:#199e70; --ok:#3ecf8e; --warn:#e8a33d; --bad:#e66767; --radius:12px; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.5 -apple-system, system-ui, sans-serif; }
+  .wrap { max-width:1180px; margin:0 auto; padding:28px 28px 60px; }
+  header { display:flex; align-items:flex-end; gap:24px; flex-wrap:wrap; margin-bottom:22px; }
+  h1 { font-size:24px; margin:0; letter-spacing:-.01em; }
+  .now { color:var(--muted); margin-top:4px; }
+  .kpis { margin-left:auto; display:flex; gap:22px; }
+  .kpi b { display:block; font-size:20px; font-variant-numeric:tabular-nums; }
+  .kpi span { color:var(--faint); font-size:12px; }
+  .steps { display:grid; grid-template-columns:repeat(5,1fr); gap:8px; margin-bottom:18px; }
+  .step { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:12px 14px; }
+  .step .n { font-size:12px; color:var(--faint); }
+  .step .t { font-weight:600; margin:2px 0 6px; }
+  .step .s { font-size:13px; color:var(--muted); display:flex; align-items:center; gap:6px; }
+  .dot { width:8px; height:8px; border-radius:50%; background:var(--line); flex:none; }
+  .running .dot { background:var(--warn); box-shadow:0 0 0 4px rgba(232,163,61,.15); animation:pulse 1.6s infinite; }
+  .done .dot { background:var(--ok); }
+  .running { border-color:#4a3d22; }
+  @keyframes pulse { 50% { box-shadow:0 0 0 7px rgba(232,163,61,.05); } }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:18px 20px; }
+  .card.wide { grid-column:1 / -1; }
+  h2 { font-size:15px; margin:0 0 2px; }
+  .sub { color:var(--faint); font-size:13px; margin:0 0 14px; }
+  .bar { display:grid; grid-template-columns:150px 1fr 110px; align-items:center; gap:12px; margin:9px 0; font-size:13px; }
+  .bar .track { height:10px; background:var(--grid); border-radius:5px; overflow:hidden; }
+  .bar .fill { height:100%; border-radius:0 4px 4px 0; transition:width .6s; }
+  .bar .v { color:var(--muted); text-align:right; font-variant-numeric:tabular-nums; }
+  .chip { display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:7px; vertical-align:baseline; }
+  .meta { display:flex; gap:18px; flex-wrap:wrap; color:var(--muted); font-size:13px; margin-top:12px; }
+  .meta b { color:var(--text); font-weight:600; }
+  svg text { fill:var(--faint); font-size:11px; font-family:inherit; }
+  .samples { display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:10px; }
+  .sample { border:1px solid var(--line); border-radius:10px; padding:10px 12px; }
+  .sample p { margin:0 0 8px; font-size:13px; color:var(--muted); }
+  .sample .lbl { font-size:12px; color:var(--faint); margin-bottom:4px; }
+  audio { width:100%; height:32px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th { text-align:left; color:var(--faint); font-weight:500; padding:6px 8px; border-bottom:1px solid var(--line); }
+  td { padding:8px; border-bottom:1px solid var(--grid); vertical-align:top; }
+  td.num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .del { color:var(--bad); text-decoration:line-through; }
+  .ins { color:var(--ok); }
+  .err { color:var(--bad); font-size:13px; }
+  .scoretable td, .scoretable th { text-align:right; }
+  .scoretable td:first-child, .scoretable th:first-child { text-align:left; }
+  .tip { position:fixed; pointer-events:none; background:#252523; border:1px solid var(--line); border-radius:8px; padding:7px 10px; font-size:12px; display:none; z-index:9; }
+  .legend { display:flex; gap:16px; font-size:12px; color:var(--muted); margin-bottom:6px; flex-wrap:wrap; }
+  .empty { color:var(--faint); font-size:13px; padding:24px 0; text-align:center; }
+  @media (max-width:860px) { .grid { grid-template-columns:1fr; } .steps { grid-template-columns:1fr 1fr; } .kpis { margin-left:0; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Your personal speech model</h1>
+      <div class="now" id="now">Connecting to the training machine…</div>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><b id="k-cost">–</b><span>spent so far</span></div>
+      <div class="kpi"><b id="k-gpu">–</b><span>GPU busy</span></div>
+      <div class="kpi"><b id="k-upd">–</b><span>last update</span></div>
+    </div>
+  </header>
+
+  <div class="steps" id="steps"></div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>1 · Making practice audio in your voice</h2>
+      <p class="sub">Your voice, cloned, reading sentences in English, Hindi and Gujarati.</p>
+      <div id="gen"></div>
+      <div class="meta" id="gen-meta"></div>
+    </div>
+    <div class="card">
+      <h2>2 · Quality check</h2>
+      <p class="sub">Each clip is checked by a second model; clips that skipped or garbled words are thrown away.</p>
+      <div id="filter"></div>
+      <div class="meta" id="filter-meta"></div>
+    </div>
+
+    <div class="card wide">
+      <h2>Listen</h2>
+      <p class="sub">Newest practice clips made from your voice. Compare with your real recording on the right.</p>
+      <div class="samples" id="samples"></div>
+    </div>
+
+    <div class="card">
+      <h2>3 · Training</h2>
+      <p class="sub">Training loss: how far off the model is on practice audio. Lower is better.</p>
+      <div id="loss"></div>
+      <div class="meta" id="train-meta"></div>
+    </div>
+    <div class="card">
+      <h2>4 · Accuracy on your real voice</h2>
+      <p class="sub">Word error rate on recordings it never trained on. Lower is better; 0% is perfect.</p>
+      <div class="legend" id="acc-legend"></div>
+      <div id="acc"></div>
+    </div>
+
+    <div class="card wide">
+      <h2>Before vs now</h2>
+      <p class="sub">Word error rate on your held-back recordings, spelling differences in Hindi/Gujarati forgiven (chhe = che).</p>
+      <div id="scores"></div>
+    </div>
+
+    <div class="card wide">
+      <h2>What it heard</h2>
+      <p class="sub">Latest check on your held-back recordings. <span class="del">red</span> = missed or wrong, <span class="ins">green</span> = what it wrote instead.</p>
+      <div id="rows"></div>
+    </div>
+  </div>
+</div>
+<div class="tip" id="tip"></div>
+<script>
+const C = { en: "var(--en)", hi: "var(--hi)", gu: "var(--gu)" };
+const NAME = { en: "English", hi: "Hindi", gu: "Gujarati" };
+const SARVAM = {"en": 0.175, "hi": 0.176, "gu": 0.397};
+const $ = (id) => document.getElementById(id);
+const pct = (x) => (x * 100).toFixed(1) + "%";
+const tip = $("tip");
+const showTip = (e, html) => { tip.innerHTML = html; tip.style.display = "block"; tip.style.left = Math.min(e.clientX + 14, innerWidth - 240) + "px"; tip.style.top = e.clientY + 12 + "px"; };
+const hideTip = () => (tip.style.display = "none");
+let baseline = null;
+
+function fmtAgo(ms) { const s = Math.round((Date.now() - ms) / 1000); return s < 60 ? `${s}s ago` : `${Math.round(s / 60)}m ago`; }
+function eta(rem, perMin) { if (!perMin || rem <= 0) return ""; const m = rem / perMin; return m < 60 ? `~${Math.round(m)} min left` : `~${(m / 60).toFixed(1)} h left`; }
+
+function bar(label, chip, done, total, right) {
+  return `<div class="bar"><div>${chip ? `<span class="chip" style="background:${chip}"></span>` : ""}${label}</div>
+    <div class="track"><div class="fill" style="width:${total ? (done / total) * 100 : 0}%;background:${chip || "var(--en)"}"></div></div>
+    <div class="v">${right}</div></div>`;
+}
+
+function lineChart(el, series, opts) {
+  const W = el.clientWidth || 520, H = opts.h || 220, m = { l: 44, r: 70, t: 10, b: 26 };
+  const all = series.flatMap((s) => s.pts);
+  if (!all.length) { el.innerHTML = `<div class="empty">${opts.empty}</div>`; return; }
+  const xs = all.map((p) => p.x), ys = all.map((p) => p.y);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs, x0 + 1);
+  const y0 = opts.y0 ?? 0, y1 = opts.y1 ?? (Math.max(...ys) * 1.08 || 1);
+  const X = (v) => m.l + ((v - x0) / (x1 - x0)) * (W - m.l - m.r), Y = (v) => H - m.b - ((v - y0) / (y1 - y0)) * (H - m.t - m.b);
+  let s = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`;
+  for (let i = 0; i <= 4; i++) { const v = y0 + ((y1 - y0) * i) / 4; s += `<line x1="${m.l}" x2="${W - m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--grid)"/><text x="${m.l - 6}" y="${Y(v) + 4}" text-anchor="end">${opts.fmt(v)}</text>`; }
+  s += `<text x="${(m.l + W - m.r) / 2}" y="${H - 4}" text-anchor="middle">${opts.xlabel}</text>`;
+  for (const ser of series) {
+    if (ser.ref != null) { s += `<line x1="${m.l}" x2="${W - m.r}" y1="${Y(ser.ref)}" y2="${Y(ser.ref)}" stroke="${ser.color}" stroke-dasharray="4 4" opacity=".55"/>`; }
+    if (!ser.pts.length) continue;
+    const d = ser.pts.map((p, i) => `${i ? "L" : "M"}${X(p.x).toFixed(1)},${Y(p.y).toFixed(1)}`).join("");
+    s += `<path d="${d}" fill="none" stroke="${ser.color}" stroke-width="2" stroke-linejoin="round"/>`;
+    const last = ser.pts[ser.pts.length - 1];
+    if (ser.markers) for (const p of ser.pts) s += `<circle cx="${X(p.x)}" cy="${Y(p.y)}" r="4" fill="${ser.color}" stroke="var(--card)" stroke-width="2"/>`;
+    if (ser.label) s += `<text x="${X(last.x) + 8}" y="${Y(last.y) + 4}" style="fill:var(--muted)">${ser.label} ${opts.fmt(last.y)}</text>`;
+  }
+  s += `<rect class="hit" x="${m.l}" y="${m.t}" width="${W - m.l - m.r}" height="${H - m.t - m.b}" fill="transparent"/></svg>`;
+  el.innerHTML = s;
+  const hit = el.querySelector(".hit");
+  hit.addEventListener("mousemove", (e) => {
+    const r = hit.getBoundingClientRect(), xv = x0 + ((e.clientX - r.left) / r.width) * (x1 - x0);
+    const lines = series.filter((q) => q.pts.length).map((q) => { const p = q.pts.reduce((a, b) => (Math.abs(b.x - xv) < Math.abs(a.x - xv) ? b : a)); return `<span class="chip" style="background:${q.color}"></span>${q.name}: <b>${opts.fmt(p.y)}</b> at ${opts.xlabel.toLowerCase()} ${p.x}`; });
+    showTip(e, lines.join("<br>"));
+  });
+  hit.addEventListener("mouseleave", hideTip);
+}
+
+function diffWords(ref, hyp) {
+  const norm = (s) => s.toLowerCase().replace(/[^\p{L}\p{N}\s']/gu, " ").split(/\s+/).filter(Boolean);
+  const a = norm(ref), b = norm(hyp), n = a.length, m = b.length;
+  const d = Array.from({ length: n + 1 }, (_, i) => Array.from({ length: m + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0)));
+  for (let i = 1; i <= n; i++) for (let j = 1; j <= m; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  const out = []; let i = n, j = m;
+  while (i > 0 || j > 0) {
+    if (i > 0 && j > 0 && d[i][j] === d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)) {
+      if (a[i - 1] === b[j - 1]) out.push(a[i - 1]); else out.push(`<span class="del">${a[i - 1]}</span> <span class="ins">${b[j - 1]}</span>`);
+      i--; j--;
+    } else if (i > 0 && d[i][j] === d[i - 1][j] + 1) { out.push(`<span class="del">${a[i - 1]}</span>`); i--; }
+    else { out.push(`<span class="ins">${b[j - 1]}</span>`); j--; }
+  }
+  return { html: out.reverse().join(" "), wer: n ? d[n][m] / n : 0 };
+}
+
+function render(d) {
+  $("k-cost").textContent = d.cost != null ? `$${d.cost.toFixed(2)}` : "–";
+  $("k-gpu").textContent = d.gpu ? `${d.gpu.util}%` : "–";
+  $("k-upd").textContent = d.fetchedAt ? fmtAgo(d.fetchedAt) : "–";
+  if (d.error && !d.gen) { $("now").innerHTML = `<span class="err">${d.error}</span>`; return; }
+
+  const genDone = d.gen.reduce((s, g) => s + g.done, 0), genTotal = d.gen.reduce((s, g) => s + g.total, 0);
+  const scored = (d.filter || []).reduce((s, f) => s + f.scored, 0), kept = (d.filter || []).reduce((s, f) => s + f.kept, 0);
+  const run = (d.runs || []).filter((r) => r.train.length || r.evals.length).at(-1) || (d.runs || []).at(-1);
+  const lastT = run?.train.at(-1);
+  const r = d.running || {};
+  const st = [
+    { t: "Make practice audio", state: r["gen_f5.py"] + r["gen_cb.py"] ? "running" : genDone >= genTotal * 0.97 ? "done" : "wait", s: `${genDone} / ${genTotal} clips` },
+    { t: "Quality check", state: r["filter.py"] ? "running" : scored && scored >= genDone * 0.97 ? "done" : "wait", s: scored ? `${kept} kept of ${scored}` : "waiting" },
+    { t: "Train", state: r["train.py"] ? "running" : run?.done ? "done" : "wait", s: lastT ? `step ${lastT.step} / ${run.total}` : "waiting" },
+    { t: "Test on your voice", state: run?.evals.length > 1 ? (run.done ? "done" : "running") : "wait", s: run?.best ? `best ${pct(run.best.score)} errors` : "waiting" },
+    { t: "Package for your Mac", state: d.stage?.mac === "done" ? "done" : d.stage?.mac === "running" ? "running" : "wait", s: d.stage?.mac === "done" ? "ready" : "after training" },
+  ];
+  $("steps").innerHTML = st.map((x, i) => `<div class="step ${x.state}"><div class="n">Step ${i + 1}</div><div class="t">${x.t}</div><div class="s"><span class="dot"></span>${x.state === "running" ? "In progress · " : x.state === "done" ? "Done · " : ""}${x.s}</div></div>`).join("");
+  const cur = st.find((x) => x.state === "running");
+  $("now").textContent = cur ? `Now: ${cur.t.toLowerCase()} — ${cur.s}` : st.every((x) => x.state === "done") ? "All done." : "Waiting for the next step";
+
+  $("gen").innerHTML = d.gen.map((g) => bar(`${NAME[g.lang]} · ${g.engine}`, C[g.lang], g.done, g.total, `${g.done} / ${g.total}`)).join("");
+  $("gen-meta").innerHTML = `<span><b>${d.gen_rate_per_min}</b> clips / min</span><span>${eta(genTotal - genDone, d.gen_rate_per_min)}</span><span><b>${d.gen_fails}</b> failed</span>`;
+
+  $("filter").innerHTML = d.filter?.length ? d.filter.map((f) => bar(NAME[f.lang], C[f.lang], f.kept, f.scored, `${f.kept} kept / ${f.scored}`)).join("") : `<div class="empty">Starts when the practice audio is ready.</div>`;
+  $("filter-meta").innerHTML = d.kept_hours ? `<span><b>${d.kept_hours} h</b> of good practice audio</span>` : "";
+
+  const have = new Set([...document.querySelectorAll("#samples [data-id]")].map((e) => e.dataset.id));
+  const want = d.samples.map((s) => s.id);
+  if (want.join() !== [...have].join()) {
+    const realRef = { en: "para-en-00", hi: "para-hi-08", gu: "para-gu-16" };
+    $("samples").innerHTML = d.samples.map((s) => `<div class="sample" data-id="${s.id}"><div class="lbl"><span class="chip" style="background:${C[s.lang]}"></span>${NAME[s.lang]} · cloned voice</div><p>${s.text}</p><audio controls preload="none" src="/samples/${s.id}.wav"></audio></div>`).join("") +
+      `<div class="sample"><div class="lbl">Your real voice (for comparison)</div><p>English, Hindi, Gujarati originals.</p>${["en", "hi", "gu"].map((l) => `<audio controls preload="none" src="/real/${realRef[l]}.wav" title="${NAME[l]}"></audio>`).join("")}</div>`;
+  }
+
+  lineChart($("loss"), run ? [{ name: "Loss", color: "var(--en)", pts: run.train.map((p) => ({ x: p.step, y: p.loss })), label: "" }] : [], { xlabel: "Step", fmt: (v) => v.toFixed(2), empty: "Training starts after the quality check.", h: 220 });
+  if (run && lastT) {
+    const perStep = lastT.t / lastT.step, rem = (run.total - lastT.step) * perStep / 60;
+    $("train-meta").innerHTML = `<span>Run <b>${run.name}</b></span><span>Step <b>${lastT.step}</b> of ${run.total}</span><span>${rem > 1 ? `~${Math.round(rem)} min left` : ""}</span>`;
+  } else $("train-meta").innerHTML = "";
+
+  $("acc-legend").innerHTML = ["en", "hi", "gu"].map((l) => `<span><span class="chip" style="background:${C[l]}"></span>${NAME[l]}</span>`).join("") + `<span style="color:var(--faint)">dashed = before training</span>`;
+  const allRuns = (d.runs || []).filter((x) => x.evals.length);
+  const base = allRuns.flatMap((x) => x.evals).find((e) => e.step === 0);
+  const ev = (run?.evals || []).filter((e) => e.step > 0);
+  const capped = (v) => Math.min(v, 1);
+  lineChart($("acc"), ["en", "hi", "gu"].map((l) => ({ name: NAME[l], color: C[l], pts: ev.map((e) => ({ x: e.step, y: e.res[l][1] })), label: NAME[l], markers: true, ref: base ? capped(base.res[l][1]) : null })),
+    { xlabel: `Step (run ${run?.name ?? ""})`, fmt: (v) => pct(v), y0: 0, y1: 1.02, empty: "First check runs when training starts.", h: 220 });
+
+  if (base || ev.length) {
+    const last = ev.at(-1) || base;
+    const row = (label, e) => `<tr><td>${label}</td>${["en", "hi", "gu"].map((l) => `<td class="num">${e.res[l][1] > 1 ? "unusable" : pct(e.res[l][1])}</td>`).join("")}<td class="num"><b>${e.score > 1 ? "unusable" : pct(e.score)}</b></td></tr>`;
+    const sv = SARVAM ? `<tr><td>Sarvam (what you use today)<span style="color:var(--faint)"> · flattered: the answer key was partly built from its output</span></td>${["en", "hi", "gu"].map((l) => `<td class="num">${pct(SARVAM[l])}</td>`).join("")}<td class="num"><b>${pct((SARVAM.en + SARVAM.hi + SARVAM.gu) / 3)}</b></td></tr>` : "";
+    const bests = allRuns.map((x) => ({ x, e: x.evals.filter((e) => e.step > 0).reduce((a, b) => (!a || b.score < a.score ? b : a), null) })).filter((b) => b.e);
+    $("scores").innerHTML = `<table class="scoretable"><tr><th>Model</th><th>English</th><th>Hindi</th><th>Gujarati</th><th>Average</th></tr>${sv}${base ? row("Whisper before training (writes Urdu/Hindi script)", base) : ""}${bests.map((b) => row(`Your model, run ${b.x.name} (best, step ${b.e.step})`, b.e)).join("")}</table>`;
+    $("rows").innerHTML = `<table><tr><th>Clip</th><th>What it heard vs what you said</th><th>Errors</th></tr>${last.rows.map((x) => { const df = diffWords(x.ref, x.hyp); return `<tr><td style="white-space:nowrap"><span class="chip" style="background:${C[x.id.split("-")[1]]}"></span>${x.id}</td><td>${df.html}</td><td class="num">${pct(df.wer)}</td></tr>`; }).join("")}</table>`;
+  } else {
+    $("scores").innerHTML = `<div class="empty">Appears when training starts.</div>`;
+    $("rows").innerHTML = `<div class="empty">Appears when training starts.</div>`;
+  }
+}
+
+let last = null;
+async function tick() {
+  try { last = await (await fetch("/status")).json(); render(last); } catch (e) { $("now").innerHTML = `<span class="err">Dashboard server stopped.</span>`; }
+}
+tick(); setInterval(tick, 10000);
+addEventListener("resize", () => last && render(last));
+</script>
+</body>
+</html>

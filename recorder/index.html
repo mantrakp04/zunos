@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice recording</title>
+<style>
+  :root { color-scheme: dark; --bg:#0e0f12; --card:#17191e; --line:#2a2d35; --text:#e9eaee; --muted:#8b8f9a; --accent:#5b8cff; --rec:#ff4d5e; --ok:#3ecf8e; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.5 -apple-system, system-ui, sans-serif; display:grid; grid-template-columns:260px 1fr; height:100vh; }
+  nav { border-right:1px solid var(--line); overflow:auto; padding:16px 10px; }
+  nav h2 { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:16px 8px 6px; }
+  nav button { display:flex; width:100%; align-items:center; gap:8px; text-align:left; background:none; border:0; color:var(--text); padding:7px 8px; border-radius:8px; font:inherit; font-size:14px; cursor:pointer; }
+  nav button:hover { background:var(--card); }
+  nav button.active { background:var(--card); outline:1px solid var(--line); }
+  nav .dot { width:8px; height:8px; border-radius:50%; background:var(--line); flex:none; }
+  nav .done .dot { background:var(--ok); }
+  main { overflow:auto; padding:32px 48px 140px; }
+  .tag { display:inline-block; font-size:12px; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:2px 10px; margin-bottom:10px; }
+  h1 { font-size:22px; margin:0 0 6px; }
+  .hint { color:var(--muted); font-size:14px; margin:0 0 24px; }
+  .lines p { font-size:24px; line-height:1.55; margin:0 0 14px; padding:8px 14px; border-radius:10px; border-left:3px solid transparent; color:var(--muted); transition:color .15s, background .15s; }
+  .lines p.now { color:var(--text); background:var(--card); border-left-color:var(--accent); }
+  .lines p.past { color:#5c606b; }
+  .lines.single p { font-size:34px; color:var(--text); }
+  footer { position:fixed; left:260px; right:0; bottom:0; background:rgba(14,15,18,.92); backdrop-filter:blur(8px); border-top:1px solid var(--line); padding:14px 48px; display:flex; gap:14px; align-items:center; }
+  footer button { font:inherit; font-size:15px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--text); padding:10px 18px; cursor:pointer; }
+  footer button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  footer button.rec { background:var(--rec); border-color:var(--rec); color:#fff; }
+  footer button:disabled { opacity:.4; cursor:default; }
+  .meter { width:140px; height:8px; background:var(--card); border-radius:4px; overflow:hidden; }
+  .meter i { display:block; height:100%; width:0; background:var(--ok); transition:width .05s; }
+  .meter.hot i { background:var(--rec); }
+  .time { font-variant-numeric:tabular-nums; color:var(--muted); min-width:52px; }
+  .status { color:var(--muted); font-size:14px; margin-left:auto; }
+  audio { height:36px; }
+  kbd { font:12px ui-monospace, monospace; border:1px solid var(--line); border-bottom-width:2px; border-radius:4px; padding:1px 5px; color:var(--text); }
+</style>
+</head>
+<body>
+<nav id="nav"></nav>
+<main>
+  <span class="tag" id="tag"></span>
+  <h1 id="title"></h1>
+  <p class="hint" id="hint"></p>
+  <div class="lines" id="lines"></div>
+</main>
+<footer>
+  <button id="recBtn" class="primary">Start recording</button>
+  <div class="meter" id="meter"><i></i></div>
+  <span class="time" id="time">0:00</span>
+  <audio id="player" controls hidden></audio>
+  <button id="nextBtn">Next</button>
+  <span class="status" id="status"></span>
+</footer>
+<script>
+const LANG = { en: "English", hi: "Hindi", gu: "Gujarati" };
+const $ = (id) => document.getElementById(id);
+let prompts = [], done = new Set(), index = 0;
+let ctx, stream, node, chunks = [], recording = false, line = 0, marks = [], samples = 0, startedAt = 0, timer;
+
+const worklet = `class Tap extends AudioWorkletProcessor {
+  process(inputs) { const c = inputs[0][0]; if (c) this.port.postMessage(c.slice(0)); return true; }
+}
+registerProcessor("tap", Tap);`;
+
+async function load() {
+  const state = await (await fetch("/state")).json();
+  prompts = state.prompts;
+  done = new Set(state.done);
+  const first = prompts.findIndex((p) => !done.has(p.id));
+  index = first === -1 ? 0 : first;
+  render();
+}
+
+function render() {
+  const nav = $("nav");
+  nav.innerHTML = "";
+  let section = "";
+  prompts.forEach((p, i) => {
+    const s = "Paragraphs";
+    if (s !== section) { section = s; nav.insertAdjacentHTML("beforeend", `<h2>${s}</h2>`); }
+    const b = document.createElement("button");
+    b.className = (i === index ? "active " : "") + (done.has(p.id) ? "done" : "");
+    b.innerHTML = `<span class="dot"></span>${p.title.replace(" (typed in English)","")}`;
+    b.onclick = () => { if (!recording) { index = i; render(); } };
+    nav.appendChild(b);
+  });
+  const p = prompts[index];
+  $("tag").textContent = `${LANG[p.lang]}${p.lang === "en" ? "" : ", typed in English"}`;
+  $("title").textContent = p.title;
+  $("hint").innerHTML = p.kind === "para"
+    ? "Read at your normal pace, the way you'd talk. Press <kbd>Space</kbd> when you move to the next line. Mistakes are fine: just keep going. About a minute. Talk like you normally would; mumbling is fine."
+    : "Say it at a natural speed, then a bit faster if you like. Stumbles are useful data, keep going.";
+  const box = $("lines");
+  box.className = "lines" + (p.kind === "twister" ? " single" : "");
+  box.innerHTML = p.lines.map((l) => `<p>${l}</p>`).join("");
+  $("player").hidden = !done.has(p.id);
+  if (done.has(p.id)) $("player").src = `/clips/${p.id}.wav?${Date.now()}`;
+  $("recBtn").textContent = done.has(p.id) ? "Record again" : "Start recording";
+  $("nextBtn").disabled = index >= prompts.length - 1;
+  $("status").textContent = `${done.size} of ${prompts.length} recorded`;
+  highlight();
+}
+
+function highlight() {
+  [...$("lines").children].forEach((el, i) => {
+    el.className = !recording || prompts[index].kind === "twister" ? "" : i === line ? "now" : i < line ? "past" : "";
+  });
+  const now = $("lines").children[line];
+  if (recording && now && prompts[index].kind === "para") now.scrollIntoView({ block: "center", behavior: "smooth" });
+}
+
+async function start() {
+  stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false, channelCount: 1 } });
+  ctx = new AudioContext();
+  await ctx.audioWorklet.addModule(URL.createObjectURL(new Blob([worklet], { type: "text/javascript" })));
+  const src = ctx.createMediaStreamSource(stream);
+  node = new AudioWorkletNode(ctx, "tap");
+  chunks = []; samples = 0; line = 0; marks = [];
+  node.port.onmessage = (e) => {
+    chunks.push(e.data); samples += e.data.length;
+    let peak = 0; for (const v of e.data) peak = Math.max(peak, Math.abs(v));
+    $("meter").firstChild.style.width = Math.min(100, peak * 140) + "%";
+    $("meter").classList.toggle("hot", peak > 0.95);
+  };
+  src.connect(node);
+  recording = true; startedAt = Date.now();
+  timer = setInterval(() => { const s = Math.floor((Date.now() - startedAt) / 1000); $("time").textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; }, 250);
+  $("recBtn").textContent = "Stop and save"; $("recBtn").className = "rec";
+  $("player").hidden = true; $("nextBtn").disabled = true;
+  $("status").textContent = "Recording…";
+  highlight();
+}
+
+async function stop() {
+  recording = false; clearInterval(timer);
+  node.disconnect(); stream.getTracks().forEach((t) => t.stop());
+  const rate = ctx.sampleRate; await ctx.close();
+  $("meter").firstChild.style.width = "0";
+  $("recBtn").className = "primary";
+  const p = prompts[index];
+  if (p.kind === "para") marks.push(samples / rate);
+  $("status").textContent = "Saving…";
+  const res = await fetch(`/save?id=${p.id}&rate=${rate}&seconds=${(samples / rate).toFixed(2)}&marks=${encodeURIComponent(JSON.stringify(marks))}`, { method: "POST", body: wav(chunks, samples, rate) });
+  if (!res.ok) { $("status").textContent = "Save failed: " + (await res.text()); return; }
+  done.add(p.id);
+  render();
+  $("status").textContent = `Saved ${(samples / rate).toFixed(1)} s. ${done.size} of ${prompts.length} recorded`;
+}
+
+function wav(parts, n, rate) {
+  const buf = new ArrayBuffer(44 + n * 2), v = new DataView(buf);
+  const str = (o, s) => [...s].forEach((c, i) => v.setUint8(o + i, c.charCodeAt(0)));
+  str(0, "RIFF"); v.setUint32(4, 36 + n * 2, true); str(8, "WAVE"); str(12, "fmt ");
+  v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+  str(36, "data"); v.setUint32(40, n * 2, true);
+  let o = 44;
+  for (const part of parts) for (const s of part) { v.setInt16(o, Math.max(-1, Math.min(1, s)) * 0x7fff, true); o += 2; }
+  return buf;
+}
+
+function advanceLine() {
+  const p = prompts[index];
+  if (!recording || p.kind !== "para" || line >= p.lines.length - 1) return;
+  marks.push(samples / ctx.sampleRate);
+  line++; highlight();
+}
+
+$("recBtn").onclick = () => (recording ? stop() : start());
+$("nextBtn").onclick = () => { if (!recording && index < prompts.length - 1) { index++; render(); } };
+addEventListener("keydown", (e) => {
+  if (e.code === "Space") { e.preventDefault(); recording ? advanceLine() : null; }
+  if (e.code === "Enter") { e.preventDefault(); recording ? stop() : start(); }
+  if (e.code === "ArrowRight" && !recording) $("nextBtn").click();
+});
+load();
+</script>
+</body>
+</html>

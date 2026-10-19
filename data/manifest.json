@@ -1,0 +1,197 @@
+{
+  "para-en": {
+    "file": "clips/para-en.wav",
+    "lang": "en",
+    "kind": "para",
+    "text": "Every morning at a quarter past six, Meera unlocks the small clinic on Station Road and switches on the old radio by the window. The first patient is usually Mr. Desai, who is seventy-two, walks with a carved wooden stick, and insists that his blood pressure is perfectly fine. It never is, of course, but he likes to argue about it while she wraps the cuff around his arm and counts quietly under her breath. By eight o'clock the waiting room is full: a carpenter with a bandaged thumb, two schoolgirls with fevers, and a young father holding twins who refuse to stop crying. Meera keeps a notebook with everyone's names, their medicines, and the dates of their next visits, because the computer crashes whenever it rains. Last Thursday the power went out for almost three hours, and the doctor had to write fourteen prescriptions by hand, squinting under a torch. Nobody complained. The carpenter fixed the broken hinge on the cupboard, the twins finally fell asleep, and Mr. Desai brought everyone a box of sweets from the market. Around noon the rush slows down, and Meera eats her lunch of rice, dal, and pickled mango while reading the newspaper backwards, starting with the crossword. In the afternoon she phones patients who missed their appointments, reminds them gently, and books new slots for Monday, Wednesday, or Friday. Some people answer on the first ring; others call back late at night, apologising, asking whether the doctor can still see them tomorrow. She always says yes, even when the diary is already full, because she knows how far some of them travel just to get here. When the clinic finally closes at seven, she counts the cash twice, waters the plants on the balcony, and switches off the radio, which has been playing the same song all day.",
+    "lines": [
+      "Every morning at a quarter past six, Meera unlocks the small clinic on Station Road and switches on the old radio by the window.",
+      "The first patient is usually Mr. Desai, who is seventy-two, walks with a carved wooden stick, and insists that his blood pressure is perfectly fine.",
+      "It never is, of course, but he likes to argue about it while she wraps the cuff around his arm and counts quietly under her breath.",
+      "By eight o'clock the waiting room is full: a carpenter with a bandaged thumb, two schoolgirls with fevers, and a young father holding twins who refuse to stop crying.",
+      "Meera keeps a notebook with everyone's names, their medicines, and the dates of their next visits, because the computer crashes whenever it rains.",
+      "Last Thursday the power went out for almost three hours, and the doctor had to write fourteen prescriptions by hand, squinting under a torch.",
+      "Nobody complained. The carpenter fixed the broken hinge on the cupboard, the twins finally fell asleep, and Mr. Desai brought everyone a box of sweets from the market.",
+      "Around noon the rush slows down, and Meera eats her lunch of rice, dal, and pickled mango while reading the newspaper backwards, starting with the crossword.",
+      "In the afternoon she phones patients who missed their appointments, reminds them gently, and books new slots for Monday, Wednesday, or Friday.",
+      "Some people answer on the first ring; others call back late at night, apologising, asking whether the doctor can still see them tomorrow.",
+      "She always says yes, even when the diary is already full, because she knows how far some of them travel just to get here.",
+      "When the clinic finally closes at seven, she counts the cash twice, waters the plants on the balcony, and switches off the radio, which has been playing the same song all day."
+    ],
+    "marks": [
+      109.01333333333334
+    ],
+    "sampleRate": 48000,
+    "seconds": 109.01,
+    "recordedAt": "2026-10-18T18:04:24.201Z"
+  },
+  "para-hi": {
+    "file": "clips/para-hi.wav",
+    "lang": "hi",
+    "kind": "para",
+    "text": "Har subah saade chhe baje Ramesh apni purani cycle uthata hai aur sabzi mandi ki taraf nikal padta hai. Raaste mein chai wale bhaiya hamesha awaaz lagate hain, aur Ramesh bina ruke haath hila kar aage badh jaata hai. Mandi mein bheed itni hoti hai ki pair rakhne ki jagah nahi milti, phir bhi sab log hans hans kar mol bhaav karte rehte hain. Aaj tamatar chaalis rupaye kilo hain, pyaaz pachchees ke, aur dhaniya toh mufat mein mil raha hai agar aap do kilo aaloo le lo. Ramesh ki maa ne kaha tha ki bhindi zaroor laana, kyunki shaam ko mehmaan aane wale hain aur unhe bhindi ki sabzi bahut pasand hai. Lekin bhindi wali aunty aaj nahi aayi, toh Ramesh ne socha ki baingan le leta hoon, bharta bhi toh sabko achha lagta hai. Wapas aate waqt baarish shuru ho gayi, aur usne ek dukaan ke chhajje ke neeche khade ho kar das minute intezaar kiya. Wahan ek budhe chacha mile jo pichhle chaalis saal se usi dukaan par baith kar akhbaar padhte hain aur har kisi ko salah dete hain. Unhone kaha, beta, zindagi mein jaldi mat karo, baarish ruk jaayegi, sabzi kahin bhaag nahi rahi. Ramesh muskuraya, chai pi, aur jab baadal chhate tab dheere dheere ghar ki taraf chal diya. Ghar pahunch kar pata chala ki mehmaan pehle hi aa chuke the aur maa ne jaldi jaldi daal chawal bana diye the. Sabne milkar khaana khaaya, purani baatein yaad ki, aur der raat tak hanste rahe, baingan ka bharta kal ke liye bach gaya.",
+    "lines": [
+      "Har subah saade chhe baje Ramesh apni purani cycle uthata hai aur sabzi mandi ki taraf nikal padta hai.",
+      "Raaste mein chai wale bhaiya hamesha awaaz lagate hain, aur Ramesh bina ruke haath hila kar aage badh jaata hai.",
+      "Mandi mein bheed itni hoti hai ki pair rakhne ki jagah nahi milti, phir bhi sab log hans hans kar mol bhaav karte rehte hain.",
+      "Aaj tamatar chaalis rupaye kilo hain, pyaaz pachchees ke, aur dhaniya toh mufat mein mil raha hai agar aap do kilo aaloo le lo.",
+      "Ramesh ki maa ne kaha tha ki bhindi zaroor laana, kyunki shaam ko mehmaan aane wale hain aur unhe bhindi ki sabzi bahut pasand hai.",
+      "Lekin bhindi wali aunty aaj nahi aayi, toh Ramesh ne socha ki baingan le leta hoon, bharta bhi toh sabko achha lagta hai.",
+      "Wapas aate waqt baarish shuru ho gayi, aur usne ek dukaan ke chhajje ke neeche khade ho kar das minute intezaar kiya.",
+      "Wahan ek budhe chacha mile jo pichhle chaalis saal se usi dukaan par baith kar akhbaar padhte hain aur har kisi ko salah dete hain.",
+      "Unhone kaha, beta, zindagi mein jaldi mat karo, baarish ruk jaayegi, sabzi kahin bhaag nahi rahi.",
+      "Ramesh muskuraya, chai pi, aur jab baadal chhate tab dheere dheere ghar ki taraf chal diya.",
+      "Ghar pahunch kar pata chala ki mehmaan pehle hi aa chuke the aur maa ne jaldi jaldi daal chawal bana diye the.",
+      "Sabne milkar khaana khaaya, purani baatein yaad ki, aur der raat tak hanste rahe, baingan ka bharta kal ke liye bach gaya."
+    ],
+    "marks": [
+      129.82933333333332
+    ],
+    "sampleRate": 48000,
+    "seconds": 129.83,
+    "recordedAt": "2026-10-18T18:06:42.785Z"
+  },
+  "para-gu": {
+    "file": "clips/para-gu.wav",
+    "lang": "gu",
+    "kind": "para",
+    "text": "Roj savaare saat vaagye Kavita ben potaana ghar ni baari kholi ne aangna ma tulsi ne paani paay chhe. Pachhi te rasoda ma jaay chhe ane aakhaa parivaar maate garam garam chaa ane thepla banaave chhe. Temno dikro Jay haji pan oonghto hoy chhe, ane tene uthaadva maate traN vaar bum paadvi pade chhe. Aaje Jay ni school ma pariksha chhe, etle Kavita ben e raat na j tena chopda ane pen thela ma muki didha hata. Bus stand ghar thi lagbhag paanch minute door chhe, pan Jay hammesha chhelli ghadiye doDto doDto pahonche chhe. Bapore Kavita ben bajaar jaay chhe, jyaan shaakbhaaji vaala kaka temne joine j kahe chhe, aavo ben, aaje bhinda taaja chhe. Te be kilo bataka, ek kilo tameta, ane thoDi kothmir le chhe, ane hammesha ni jem bhaav ma thoDi rakjhak kare chhe. Ghare paachha aavi ne te paDosan sathe otla par besi ne vaato kare chhe, ke kono dikro Amerika gayo ane kone tyaan lagna chhe. Saanje Jay khushkhush thai ne aave chhe ane kahe chhe ke pariksha saari gai, ganit na badha sawaal aavDi gaya. Raat na jamvaa ma khichdi, kadhi, ane bhakhri bane chhe, ane Jay na pappa office thi moDa aave toh pan sau saathe j jame chhe. Jamya pachhi sau TV saame besi ne cricket match jue chhe, ane Jay dar chhagga par uchhaLi ne taaLi paaDe chhe. Chhelle Kavita ben badha divaa bandh kare chhe, darvaajo tapaase chhe, ane vichaare chhe ke kaale bapore shu banaavvu.",
+    "lines": [
+      "Roj savaare saat vaagye Kavita ben potaana ghar ni baari kholi ne aangna ma tulsi ne paani paay chhe.",
+      "Pachhi te rasoda ma jaay chhe ane aakhaa parivaar maate garam garam chaa ane thepla banaave chhe.",
+      "Temno dikro Jay haji pan oonghto hoy chhe, ane tene uthaadva maate traN vaar bum paadvi pade chhe.",
+      "Aaje Jay ni school ma pariksha chhe, etle Kavita ben e raat na j tena chopda ane pen thela ma muki didha hata.",
+      "Bus stand ghar thi lagbhag paanch minute door chhe, pan Jay hammesha chhelli ghadiye doDto doDto pahonche chhe.",
+      "Bapore Kavita ben bajaar jaay chhe, jyaan shaakbhaaji vaala kaka temne joine j kahe chhe, aavo ben, aaje bhinda taaja chhe.",
+      "Te be kilo bataka, ek kilo tameta, ane thoDi kothmir le chhe, ane hammesha ni jem bhaav ma thoDi rakjhak kare chhe.",
+      "Ghare paachha aavi ne te paDosan sathe otla par besi ne vaato kare chhe, ke kono dikro Amerika gayo ane kone tyaan lagna chhe.",
+      "Saanje Jay khushkhush thai ne aave chhe ane kahe chhe ke pariksha saari gai, ganit na badha sawaal aavDi gaya.",
+      "Raat na jamvaa ma khichdi, kadhi, ane bhakhri bane chhe, ane Jay na pappa office thi moDa aave toh pan sau saathe j jame chhe.",
+      "Jamya pachhi sau TV saame besi ne cricket match jue chhe, ane Jay dar chhagga par uchhaLi ne taaLi paaDe chhe.",
+      "Chhelle Kavita ben badha divaa bandh kare chhe, darvaajo tapaase chhe, ane vichaare chhe ke kaale bapore shu banaavvu."
+    ],
+    "marks": [
+      163.36
+    ],
+    "sampleRate": 48000,
+    "seconds": 163.36,
+    "recordedAt": "2026-10-18T18:09:33.522Z"
+  },
+  "twister-01-en": {
+    "file": "clips/twister-01-en.wav",
+    "lang": "en",
+    "kind": "twister",
+    "text": "She sells seashells by the seashore, and the shells she sells are surely seashells.",
+    "lines": [
+      "She sells seashells by the seashore, and the shells she sells are surely seashells."
+    ],
+    "marks": [],
+    "sampleRate": 48000,
+    "seconds": 8.21,
+    "recordedAt": "2026-10-18T18:09:52.982Z"
+  },
+  "twister-02-en": {
+    "file": "clips/twister-02-en.wav",
+    "lang": "en",
+    "kind": "twister",
+    "text": "Peter Piper picked a peck of pickled peppers; where's the peck of pickled peppers Peter Piper picked?",
+    "lines": [
+      "Peter Piper picked a peck of pickled peppers; where's the peck of pickled peppers Peter Piper picked?"
+    ],
+    "marks": [],
+    "sampleRate": 48000,
+    "seconds": 6.07,
+    "recordedAt": "2026-10-18T18:10:02.869Z"
+  },
+  "twister-03-en": {
+    "file": "clips/twister-03-en.wav",
+    "lang": "en",
+    "kind": "twister",
+    "text": "How much wood would a woodchuck chuck if a woodchuck could chuck wood?",
+    "lines": [
+      "How much wood would a woodchuck chuck if a woodchuck could chuck wood?"
+    ],
+    "marks": [],
+    "sampleRate": 48000,
+    "seconds": 4.99,
+    "recordedAt": "2026-10-18T18:10:10.513Z"
+  },
+  "twister-04-en": {
+    "file": "clips/twister-04-en.wav",
+    "lang": "en",
+    "kind": "twister",
+    "text": "Red lorry, yellow lorry, red lorry, yellow lorry, red lorry, yellow lorry.",
+    "lines": [
+      "Red lorry, yellow lorry, red lorry, yellow lorry, red lorry, yellow lorry."
+    ],
+    "marks": [],
+    "sampleRate": 48000,
+    "seconds": 5.51,
+    "recordedAt": "2026-10-18T18:10:18.199Z"
+  },
+  "twister-05-en": {
+    "file": "clips/twister-05-en.wav",
+    "lang": "en",
+    "kind": "twister",
+    "text": "Unique New York, unique New York, you know you need unique New York.",
+    "lines": [
+      "Unique New York, unique New York, you know you need unique New York."
+    ],
+    "marks": [],
+    "sampleRate": 48000,
+    "seconds": 4.7,
+    "recordedAt": "2026-10-18T18:10:25.366Z"
+  },
+  "twister-06-en": {
+    "file": "clips/twister-06-en.wav",
+    "lang": "en",
+    "kind": "twister",
+    "text": "The sixth sick sheikh's sixth sheep's sick.",
+    "lines": [
+      "The sixth sick sheikh's sixth sheep's sick."
+    ],
+    "marks": [],
+    "sampleRate": 48000,
+    "seconds": 5.06,
+    "recordedAt": "2026-10-18T18:10:32.702Z"
+  },
+  "twister-07-en": {
+    "file": "clips/twister-07-en.wav",
+    "lang": "en",
+    "kind": "twister",
+    "text": "Irish wristwatch, Swiss wristwatch, Irish wristwatch, Swiss wristwatch.",
+    "lines": [
+      "Irish wristwatch, Swiss wristwatch, Irish wristwatch, Swiss wristwatch."
+    ],
+    "marks": [],
+    "sampleRate": 48000,
+    "seconds": 5.97,
+    "recordedAt": "2026-10-18T18:10:40.492Z"
+  },
+  "twister-08-hi": {
+    "file": "clips/twister-08-hi.wav",
+    "lang": "hi",
+    "kind": "twister",
+    "text": "Kachcha papad, pakka papad, kachcha papad, pakka papad, kachcha papad, pakka papad.",
+    "lines": [
+      "Kachcha papad, pakka papad, kachcha papad, pakka papad, kachcha papad, pakka papad."
+    ],
+    "marks": [],
+    "sampleRate": 48000,
+    "seconds": 6.25,
+    "recordedAt": "2026-10-18T18:10:48.674Z"
+  },
+  "twister-09-hi": {
+    "file": "clips/twister-09-hi.wav",
+    "lang": "hi",
+    "kind": "twister",
+    "text": "Chandu ke chacha ne Chandu ki chachi ko chaandni raat mein chaandi ke chammach se chatni chatayi.",
+    "lines": [
+      "Chandu ke chacha ne Chandu ki chachi ko chaandni raat mein chaandi ke chammach se chatni chatayi."
+    ],
+    "marks": [],
+    "sampleRate": 48000,
+    "seconds": 7.4,
+    "recordedAt": "2026-10-18T18:10:58.287Z"
+  }
+}

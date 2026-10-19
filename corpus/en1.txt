@@ -1,0 +1,164 @@
+Hey, can you send me the updated deck before the call tomorrow morning?
+I'll be there in about ten minutes, the traffic near the flyover is terrible.
+Remind me to pay the electricity bill on Friday.
+Okay so the plan is, we ship the beta on Monday and fix the bugs over the week.
+Can you check if the server is still down? I'm getting a five hundred error on every request.
+Mom asked if we're coming for dinner on Sunday, let me know by tonight.
+Book a table for four at eight thirty, somewhere near Bandra if possible.
+The meeting got pushed to three o'clock, so I'll grab lunch first.
+Um, actually, scratch that, let's move it to Thursday instead.
+I need to buy milk, eggs, bread, and a packet of tea on the way home.
+Please don't forget to water the plants while I'm away.
+The flight lands at six forty in the morning, so I'll take a cab straight to the office.
+What time does the pharmacy close on Saturdays?
+Tell Rahul that the invoice is pending and he needs to sign it today.
+I think the bug is in the payment flow, the callback never fires when the user cancels.
+Let's do a quick standup at ten and then everyone can go back to their tasks.
+Send a message to the group saying I'll be late by twenty minutes.
+The new phone is great, but the battery drains really fast when I use maps.
+Can we push the deadline by two days? The client changed the requirements again.
+My order still hasn't arrived, it was supposed to come yesterday.
+I'm going to the gym after work, so don't call me between seven and eight.
+Add a note: follow up with the landlord about the leaking tap in the kitchen.
+Honestly, I don't think we need another meeting for this, an email is enough.
+Write this down, the password reset link expires after twenty four hours.
+We should hire one more backend engineer before the end of the quarter.
+Can you turn the volume down a little? I'm on a call.
+I'll pick up the kids from school today, you handle dinner.
+The doctor said I should walk at least thirty minutes every day.
+Please share the location, I can't find the building.
+Let me think about it and get back to you by the evening.
+Okay, new line. Dear team, thanks for all the hard work this month.
+The rent is due on the fifth, and the maintenance charges went up again.
+Open the document and change the heading to quarterly report.
+I'm so tired, I barely slept last night because of the noise outside.
+Did you see the match yesterday? That last over was insane.
+Order two large pizzas, one margherita and one with paneer and onions.
+The train is delayed by forty five minutes, typical.
+Schedule a call with the design team for Wednesday afternoon.
+I need you to review the pull request before you log off today.
+Uh, what was I saying? Oh right, the budget for the trip.
+Text Priya that the cake is ready and she can collect it after six.
+The car needs servicing, the brakes are making a weird sound.
+Let's keep this between us until the announcement next week.
+Turn on the air conditioner, it's way too hot in here.
+I'm running low on cash, is there an ATM nearby?
+Can you explain that again, slowly? I didn't get the second part.
+We closed the deal, the contract is signed, let's celebrate on Friday.
+Set an alarm for five thirty, I have an early flight.
+The kids want to go to the zoo this weekend if it doesn't rain.
+Save this as a draft and I'll send it after lunch.
+My laptop keeps freezing whenever I open more than ten tabs.
+Make sure the backup runs every night at two in the morning.
+I'll transfer the money once I reach home, the app isn't working on mobile data.
+Can you ask the cook to make less oil in the food from tomorrow?
+This coffee is cold, can I get a fresh one please?
+Call the plumber and ask him to come tomorrow before eleven.
+Put the meeting notes in the shared folder so everyone can see them.
+I lost my keys again, have you seen them anywhere?
+Grandpa's birthday is on the twelfth, we should plan something small at home.
+The Wi-Fi is so slow today, I can't even load my email.
+Please cancel my subscription, I'm not using it anymore.
+I'm stuck in a meeting, I'll call you back in half an hour.
+Let's use Postgres for this, we already have it running in production.
+Write a reminder to renew the car insurance before the end of the month.
+Could you please resend the file? The attachment didn't come through.
+The weather's lovely today, let's go for a walk by the lake.
+Tell the driver to wait near the main gate, not the back entrance.
+I'll need the report by nine tomorrow, no excuses this time.
+She said she's fine, but I think she's just tired from the trip.
+Can you add Aditya and Neha to the email thread?
+The baby finally fell asleep, please keep your voice down.
+I think we're overthinking this, let's just try it and see what happens.
+Remind me in two hours to stretch and drink some water.
+I want to learn to cook properly this year, at least the basics.
+Hold on, let me check my calendar before I say yes.
+We're out of detergent and toilet paper, add them to the list.
+Deploy the hotfix now and we'll do the proper fix in the next sprint.
+How long will it take to get to the airport from here at this time?
+My knee has been hurting since I went running last week.
+Message the landlord: the cheque is ready, you can collect it anytime.
+Okay listen, if the client calls, tell them I'm travelling and will respond tonight.
+The movie starts at nine fifteen, let's leave by eight forty five.
+I keep forgetting to drink water when I'm working.
+Can you summarise the main points of the meeting in three lines?
+The logs show a timeout from the payment gateway around midnight.
+We need to finish the slides, rehearse once, and then we're done.
+Don't put sugar in my tea, I've stopped taking it.
+I'm thinking of switching jobs, but I want to finish this project first.
+Please print two copies of the agreement and keep them on my desk.
+Let's catch up over coffee sometime next week, I'm free on Tuesday.
+The parcel is with the security guard downstairs, just collect it from him.
+Increase the font size, nobody can read this on a projector.
+Mark this email as important and flag it for follow up.
+I've been meaning to call you, sorry it took so long.
+Where did I park the car? I think it was level two, near the lift.
+The electricity went out again, the inverter is beeping.
+Okay, comma, I agree with most of it, full stop.
+My sister is coming from Ahmedabad on Saturday, we need to clean the guest room.
+The API returns a four oh four when the user ID has a space in it.
+Can you remind me what we decided about the logo?
+I'll do the dishes tonight, you did them yesterday.
+We should split the bill, it's not fair if you pay every time.
+I need a haircut, it's getting out of control.
+Let's not take the highway, there's construction work all along that route.
+Text my brother that I'll call him after the meeting.
+Turn left after the petrol pump and then it's the third building on the right.
+Please confirm the booking and send the receipt to my email.
+I'm allergic to peanuts, so check the ingredients before you order.
+The presentation went well, the investors asked a lot of good questions.
+Can we do the review on a video call instead of meeting in person?
+I don't remember saying that, are you sure it was me?
+Buy a gift for the housewarming, something useful, not decorative.
+Restart the router and see if the internet comes back.
+Hmm, I'm not sure, let me ask around and confirm.
+The school fees have to be paid before the fifteenth of next month.
+I'm cutting down on sugar, so no desserts for me.
+Write an email to the bank asking why they charged me twice.
+The dog needs to go out, can you take him for a short walk?
+I'll be working from home tomorrow, the society has a water problem.
+Can you speak a little louder? The line is breaking up.
+Okay, I'm leaving now, I'll message you when I reach.
+We need to fix the onboarding flow, users drop off at the second screen.
+That restaurant was overrated, the portions were tiny and it was expensive.
+Please update the spreadsheet with the latest numbers before the call.
+I'll take the stairs, the lift has been stuck since morning.
+Remind me to call the insurance company first thing on Monday.
+Let me finish this email and then we can talk properly.
+Oh no, I left my charger at the office again.
+Send the photos from the wedding to the family group.
+The new intern is really sharp, she picked things up in two days.
+It's going to rain all week, so carry an umbrella.
+I think the printer is out of ink, can someone order a cartridge?
+I booked the tickets, we leave on the twenty third and come back on the twenty eighth.
+Can you lower the price a bit? I'm buying three of them.
+Note to self: never schedule two calls back to back again.
+The meeting is about the budget, the timeline, and who owns what.
+My mother wants us to visit the temple before the trip.
+Run the tests again, I think the failure was just flaky.
+Okay, so the total comes to two thousand four hundred rupees.
+I'm almost done, give me five more minutes.
+He said he'd send the documents by tonight, but I doubt it.
+Please close the window, the dust is coming in.
+Can we get the bill please? We're in a bit of a hurry.
+Let's start with the easy tasks and leave the migration for last.
+I can't hear anything, I think my headphones are dead.
+Tell everyone the office will be closed on Friday for the festival.
+I'm craving something spicy, let's order Chinese tonight.
+The update broke the login page, we need to roll back.
+Wait, wait, say that again, what's the address?
+I'll send you the link, just click on it and fill in your details.
+Bring your ID card, they won't let you in without it.
+The air quality is really bad today, wear a mask if you go out.
+Let's keep the design simple, fewer buttons, more white space.
+I'm on my way, I'm just stuck at the signal near the mall.
+Can you call me when you're free? It's a bit urgent.
+I need to renew my passport before the trip in December.
+Okay, um, so where were we? Right, the pricing page.
+Please don't touch my desk, I have everything arranged the way I like it.
+We have guests coming at seven, can you get some snacks on the way?
+Write it down before you forget: gate code is four seven one nine.
+The manager approved the leave, so I'm off from Monday to Wednesday.
+My throat is sore, I think I'm coming down with something.
+Can you lend me your charger for a minute?
+Let's revisit this decision after we see the numbers next month.
