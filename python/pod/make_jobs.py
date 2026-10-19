@@ -1,129 +1,140 @@
-"""Build the voice-cloning job list from the dataset the app uploaded.
+"""Plan the synthetic speech: voice references, sentences, pace, and one job per (sentence, path).
 
-Reads /workspace/data/manifest.json (written by run.py from the app's dataset):
-  clips:   [{id, lang, split, text, native_text, seconds}]   audio in real/final/{16k,48k}/<id>.wav
-  prompts: [{id, lang, roman, native}]                        dictation sentences to synthesize
-  ref_text: {clip_id: native-script text}                     filled in by ref_text.py when missing
+    python make_jobs.py <work>        reads <work>/data/{manifest.json, real.jsonl, cfg.json, ref_text.json}
 
-Writes refs/<clip>.wav (24 kHz, loudness-normalized), jobs.jsonl and real.jsonl. Test clips are never
-used as voice references and never trained on.
+Writes:
+  data/refs/<clip>.wav            24 kHz loudness-normalized references (train clips only, 3-10 s)
+  data/pace.json                  the user's letters/second per language (train clips)
+  data/shards.json                [{lang, engine, key, jobs, n}] one shard per language and generation path
+  data/jobs/<key>.jsonl           the shard's jobs
+
+A shard's key (config.digest) covers everything that determines its audio, so cache.py can hand back a shard
+made by an earlier run. References rotate: sentence i of a language uses reference (i + offset) mod n, with a
+per-path offset, so every reference voices a slice of the corpus and the paths don't pair the same ones.
 """
+import hashlib
 import json
 import os
 import random
+import re
 import subprocess
-from collections import Counter
+import sys
 
-random.seed(7)
-W = os.environ.get("ZUNOS_DATA", "/workspace/data")
-REAL = f"{W}/real/final"
-os.makedirs(f"{W}/refs", exist_ok=True)
+import config
+import corpus
+import pace
+import variability
+from data import read_jsonl
 
-manifest = json.load(open(f"{W}/manifest.json", encoding="utf-8"))
-cfg = manifest.get("cfg", {})
-clips = manifest["clips"]
-TEST = {c["id"] for c in clips if c["split"] == "test"}
-ref_text = manifest.get("ref_text", {})
+GEN_VERSION = 4  # bump when generation or post-processing changes what a shard sounds like
 
-
-def pick_refs(lang, n):
-    """The n train clips of a language closest to 12 s (TTS references work best around 6-15 s)."""
-    pool = [c for c in clips if c["lang"] == lang and c["split"] == "train" and c["id"] in ref_text]
-    pool.sort(key=lambda c: abs(c["seconds"] - 12))
-    return [c["id"] for c in pool[:n]]
-
-
+work = sys.argv[1]
+D = f"{work}/data"
+os.makedirs(f"{D}/refs", exist_ok=True)
+os.makedirs(f"{D}/jobs", exist_ok=True)
+manifest = json.load(open(f"{D}/manifest.json", encoding="utf-8"))
+cfg = json.load(open(f"{D}/cfg.json", encoding="utf-8"))
+gen = cfg["gen"]
+real = read_jsonl(f"{D}/real.jsonl")
+ref_text = json.load(open(f"{D}/ref_text.json", encoding="utf-8")) if os.path.exists(f"{D}/ref_text.json") else {}
 langs = manifest["langs"]
-# Which voice-cloning model can read which language. Languages neither covers are trained on the
-# user's real recordings only.
-F5_LANGS = {"as", "bn", "gu", "hi", "kn", "ml", "mr", "or", "pa", "ta", "te"}  # IndicF5
-CB_LANGS = {"ar", "da", "de", "el", "en", "es", "fi", "fr", "he", "hi", "it", "ja", "ko", "ms", "nl", "no", "pl",
-            "pt", "ru", "sv", "sw", "tr", "zh"}  # Chatterbox multilingual
-TAKES = 5  # synthetic takes per sentence (English: 3 Chatterbox + 1 multilingual, as in v3a)
+TEST = {c["id"] for c in real if c["split"] == "test"}
+guard = corpus.TestGuard(real)
 
 
-def refs_for(lang, n):
-    """Own references first; borrow the user's other languages when short (the voice is what matters)."""
-    own = pick_refs(lang, n)
-    others = [r for l in langs if l != lang for r in pick_refs(l, n)]
-    return (own + [r for r in others if r not in own])[:n]
+def src48(cid):
+    p = f"{D}/real/48k/{cid}.wav"
+    return p if os.path.exists(p) else f"{D}/real/16k/{cid}.wav"
 
 
-def plan(lang):
-    """[(engine, takes)] for a language."""
-    if lang == "en":
-        return [("cb_en", 3), ("cb_mtl", 1)]
-    f5, cb = lang in F5_LANGS, lang in CB_LANGS
-    if f5 and cb:
-        return [("f5", 3), ("cb_mtl", TAKES - 3)]
-    if f5:
-        return [("f5", TAKES)]
-    if cb:
-        return [("cb_mtl", TAKES)]
-    return []
+def sha(path):
+    return hashlib.sha256(open(path, "rb").read()).hexdigest()[:16]
 
 
-PLANS = {l: plan(l) for l in langs}
-REFS = {(l, e): refs_for(l, n) for l, p in PLANS.items() for e, n in p}
-assert not (set(sum(REFS.values(), [])) & TEST), "a test clip was picked as a voice reference"
-for (l, e), v in REFS.items():
-    if not v:
-        print(f"warning: no reference clips for {e} {l}", flush=True)
-for l, p in PLANS.items():
-    if not p:
-        print(f"{l}: no voice-cloning model reads it; training on real recordings only", flush=True)
-
-for rid in set(sum(REFS.values(), [])):
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{REAL}/48k/{rid}.wav", "-af",
-                    "highpass=f=70,afftdn=nf=-28,loudnorm=I=-20:TP=-2:LRA=11", "-ar", "24000", "-ac", "1",
-                    f"{W}/refs/{rid}.wav"], check=True)
-
-# (target the model learns to write, text the TTS reads). Romanized prompts carry native script for the
-# TTS; others are read as written.
-prompts = {l: [(p["roman"], p["native"] or p["roman"]) for p in manifest["prompts"] if p["lang"] == l] for l in langs}
-limit = int(cfg.get("sentences_per_lang", 0)) or None
-for l in prompts:
-    prompts[l] = prompts[l][:limit]
-
-jobs = []
+rates = pace.measure(real, lambda c: c["path"])
+json.dump(rates, open(f"{D}/pace.json", "w"), indent=1)
 
 
-def add(engine, lang, i, k, target, gen_text, ref, **params):
-    jobs.append(dict(id=f"{lang}-{i:03d}-{engine}-{k}", engine=engine, lang=lang, target=target, gen_text=gen_text,
-                     ref=f"{W}/refs/{ref}.wav", ref_text=ref_text.get(ref, ""), **params))
+def pick_refs(lang):
+    r = gen["refs"]
+    pool = [c for c in real if c["lang"] == lang and c["split"] == "train" and r["min_s"] <= c["seconds"] <= r["max_s"]]
+    pool.sort(key=lambda c: hashlib.sha256(c["id"].encode()).hexdigest())  # spread over sessions, stable
+    return [c["id"] for c in pool[: r["per_lang"]]]
 
 
-def cb_params():
-    return dict(exaggeration=round(random.uniform(0.25, 0.95), 2), cfg_weight=round(random.uniform(0.2, 0.7), 2),
-                temperature=round(random.uniform(0.7, 1.0), 2))
+REFS = {}
+for lang in langs:
+    src_lang = gen["refs"].get("from", {}).get(lang, lang)
+    own = pick_refs(src_lang if src_lang in langs else lang)
+    if len(own) < 3 and gen["refs"]["borrow"]:
+        # Few clips of this language: the voice matters more than the language of the reference.
+        own += [x for l in langs if l != lang for x in pick_refs(l)][: gen["refs"]["per_lang"] - len(own)]
+    REFS[lang] = own
+REFS_BY_SOURCE = {l: pick_refs(l) for l in langs}
+ALL_REFS = set(sum(REFS.values(), [])) | set(sum(REFS_BY_SOURCE.values(), []))
+assert not (ALL_REFS & TEST), "a test clip was picked as a voice reference"
+assert all(next(c for c in real if c["id"] == x)["split"] == "train" for x in ALL_REFS), "refs must be train clips"
+
+for rid in sorted(ALL_REFS):
+    out = f"{D}/refs/{rid}.wav"
+    if not os.path.exists(out):
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src48(rid), "-af",
+                        "highpass=f=70,loudnorm=I=-20:TP=-2:LRA=11", "-ar", "24000", "-ac", "1", out], check=True)
+REF_SHA = {rid: sha(src48(rid)) for rid in ALL_REFS}
 
 
-for lang, steps in PLANS.items():
-    for i, (target, gen_text) in enumerate(prompts[lang]):
-        k = 0
-        for engine, takes in steps:
-            refs = REFS[(lang, engine)]
-            # IndicF5 reads native script only; skip prompts that only exist in English letters.
-            if not refs or (engine == "f5" and gen_text == target and lang != "en"):
-                k += takes
-                continue
-            for t in range(takes):
-                ref = refs[(i + t) % len(refs)] if engine != "f5" else refs[t % len(refs)]
-                if engine == "f5":
-                    add("f5", lang, i, k, target, gen_text, ref, speed=round(random.uniform(0.8, 1.2), 2))
-                elif engine == "cb_en":
-                    add("cb_en", lang, i, k, target, gen_text, ref, **cb_params())
-                else:
-                    add("cb_mtl", lang, i, k, target, gen_text, ref, language_id=lang, **cb_params())
-                k += 1
+def engine_params(engine, lang):
+    engine = config.base_engine(engine)
+    if engine == "vc":
+        tts = config.vc_tts(gen, lang)
+        return {"vc": dict(gen["vc"], tts=tts, voices=gen["vc"]["voices"].get(lang)), "tts": tts, "tts_params": gen.get(tts, {})}
+    return gen.get(engine, {})
 
-random.shuffle(jobs)
-with open(f"{W}/jobs.jsonl", "w", encoding="utf-8") as f:
-    for j in jobs:
-        f.write(json.dumps(j, ensure_ascii=False) + "\n")
-with open(f"{W}/real.jsonl", "w", encoding="utf-8") as f:
-    for c in clips:
-        f.write(json.dumps(dict(id=c["id"], lang=c["lang"], kind=c.get("kind", "para"), seconds=c["seconds"],
-                                text=c["text"], split=c["split"]), ensure_ascii=False) + "\n")
-print(Counter(j["engine"] + ":" + j["lang"] for j in jobs), len(jobs), flush=True)
-print(Counter(c["split"] + ":" + c["lang"] for c in clips), flush=True)
+
+safe = lambda s: re.sub(r"[^A-Za-z0-9_-]", "_", s)
+shards, summary = [], {}
+for lang in langs:
+    engines = config.engines_for(gen, lang)
+    sents, info = corpus.sentences(lang, manifest, gen, guard)
+    summary[lang] = dict(info, sentences=len(sents), refs=len(REFS[lang]), engines=engines, pace=rates.get(lang))
+    if not engines or not sents or not REFS[lang]:
+        print(f"{lang}: no synthetic speech ({'no path' if not engines else 'no sentences' if not sents else 'no references'})", flush=True)
+        continue
+    cps = rates.get(lang, {}).get("cps") or pace.FALLBACK_CPS
+    for e_i, engine in enumerate(engines):
+        # "omnivoice@hi": this path clones from the user's Hindi references instead of this language's.
+        ref_lang = engine.split("@", 1)[1] if "@" in engine else None
+        refs = REFS_BY_SOURCE[ref_lang] if ref_lang in REFS_BY_SOURCE else REFS[lang]
+        key = config.digest(GEN_VERSION, lang, engine, engine_params(engine, lang), sents,
+                            [(r, REF_SHA[r], ref_text.get(r, "")) for r in refs], gen["pace"], round(cps, 1),
+                            gen["takes"], gen["variability"])
+        rng = random.Random(key)
+        jobs = []
+        offset = rng.randrange(len(refs)) + e_i * 7
+        for i, (sid, label, tts) in enumerate(sents):
+            for t in range(gen["takes"]):
+                ref = refs[(i + offset + t * 3) % len(refs)]
+                f = pace.factor(rng, gen["pace"], lang)
+                seed = rng.randrange(2 ** 31)
+                # The take's style: text edits (TTS input only) and, for OmniVoice, inpainting effects. The label
+                # stays the clean sentence; the duration follows the edited text's length at the same pace.
+                v = variability.plan(random.Random(seed), lang, tts, gen["variability"])
+                scale = pace.letters(v["tts_text"]) / max(1, pace.letters(tts))
+                job = dict(id=safe(f"{lang}-{engine}-{sid}-{t}"), sid=sid, lang=lang, engine=engine, label=label,
+                           tts_text=v["tts_text"], clean_tts=tts, edits=v["edits"], effects=v["effects"],
+                           denoise=v["denoise"], ref=f"{D}/refs/{ref}.wav", ref_id=ref, ref_text=ref_text.get(ref, ""),
+                           pace=f, target_s=round(pace.target_seconds(label, cps, f) * scale, 2), seed=seed)
+                if config.base_engine(engine) == "vc":
+                    voices = gen["vc"]["voices"].get(lang) or []
+                    job["tts_voice"] = voices[i % len(voices)] if voices else None  # {audio, text} | {instruct} | None
+                jobs.append(job)
+        path = f"{D}/jobs/{key}.jsonl"
+        with open(path, "w", encoding="utf-8") as f:
+            for j in jobs:
+                f.write(json.dumps(j, ensure_ascii=False) + "\n")
+        shards.append(dict(lang=lang, engine=engine, key=key, jobs=path, n=len(jobs)))
+
+json.dump(shards, open(f"{D}/shards.json", "w"), indent=1)
+json.dump(summary, open(f"{D}/gen_summary.json", "w"), indent=1, ensure_ascii=False)
+for lang, s in summary.items():
+    print(lang, json.dumps(s, ensure_ascii=False), flush=True)

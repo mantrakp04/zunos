@@ -2,6 +2,8 @@ import random
 import numpy as np, soundfile as sf
 from scipy import signal
 
+from tempo import tempo
+
 SR = 16000
 
 def db(x):
@@ -76,8 +78,8 @@ def add_noise(x, noise, snr):
     return x + noise * gain
 
 def speed(x, f):
-    up, down = 100, int(round(100 * f))
-    return signal.resample_poly(x, up, down).astype(np.float32)
+    """Tempo change by factor f (>1 faster) that keeps the voice's pitch (WSOLA, tempo.py)."""
+    return tempo(x, f, SR)
 
 def rir():
     rt60 = random.uniform(0.15, 0.8)
@@ -112,43 +114,16 @@ def channel(x):
     b = signal.firwin(31, [random.uniform(100, 300), random.uniform(3000, 6000)], pass_zero=False, fs=SR)
     return signal.lfilter(b, 1, x).astype(np.float32)
 
-def slur(x):
-    hop = random.randint(int(0.12 * SR), int(0.3 * SR))
-    parts = []
-    for s in range(0, len(x), hop):
-        seg = x[s:s + hop]
-        if len(seg) < 400:
-            parts.append(seg)
-            continue
-        f = random.uniform(0.75, 1.15)
-        seg = signal.resample(seg, int(len(seg) * f)).astype(np.float32) if f != 1 else seg
-        if random.random() < 0.08:
-            k = random.randint(160, 900)
-            z = random.randint(0, max(1, len(seg) - k))
-            seg = seg.copy()
-            seg[z:z + k] *= random.uniform(0, 0.3)
-        parts.append(seg)
-    fade = 80
-    y = parts[0]
-    for p in parts[1:]:
-        if len(y) > fade and len(p) > fade:
-            w = np.linspace(0, 1, fade, dtype=np.float32)
-            y = np.concatenate([y[:-fade], y[-fade:] * (1 - w) + p[:fade] * w, p[fade:]])
-        else:
-            y = np.concatenate([y, p])
-    y = signal.lfilter(*signal.butter(3, random.uniform(2200, 4200) / (SR / 2)), y)
-    return y.astype(np.float32)
-
-def augment(x, bank, real=False):
+def augment(x, bank, real=False, strength=1.0):
+    """Training-time corruption of a 16 kHz clip. Real clips get half the probability; `strength` scales
+    every probability (stage 2 uses a lighter touch). Slurring lives in variability.py."""
     x = x.astype(np.float32)
-    p = 0.5 if real else 1.0
-    if random.random() < 0.15 * p:
-        x = slur(x)
+    p = (0.5 if real else 1.0) * strength
     if random.random() < 0.5 * p:
         x = speed(x, random.uniform(0.85, 1.2))
     if random.random() < 0.3 * p:
         x = reverb(x)
-    if not real and bank.room and random.random() < 0.55:
+    if not real and bank.room and random.random() < 0.55 * strength:
         x = add_noise(x, bank.room_noise(len(x)), random.uniform(4, 16))
     if random.random() < 0.45 * p:
         x = add_noise(x, bank.sample(len(x)), random.uniform(0, 25))

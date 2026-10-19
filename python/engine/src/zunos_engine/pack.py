@@ -1,7 +1,7 @@
 """Bundle the user's recordings into the dataset a training pod consumes (python/pod/run.py).
 
 dataset.tar.gz:
-  manifest.json         {langs, cfg, clips: [...], prompts: [...]}
+  manifest.json         {langs, cfg, clips: [...], prompts: [...], reference: {test clip id: raw text}}
   clips/16k/<id>.wav    every clip (training input and test set)
   clips/48k/<id>.wav    train clips only (voice-cloning references are cut from these)
   recordings/<id>.wav   full takes behind the train clips (room tone for noise augmentation)
@@ -12,6 +12,16 @@ import os
 import tarfile
 
 
+def _reference(test_clips):
+    try:
+        from .reference import cached_texts
+
+        return cached_texts([{"id": c["id"], "lang": c["lang"], "path": c["path_16k"]} for c in test_clips])
+    except Exception as e:  # never block a training upload over the comparison
+        print("reference answers not packed:", e, flush=True)
+        return {}
+
+
 def pack(out, langs, clips, prompts, recordings, cfg=None):
     """clips: [{id, lang, split, text, native_text, seconds, kind, path_16k, path_48k}];
     prompts: [{id, lang, roman, native}]; recordings: [absolute wav paths]."""
@@ -20,6 +30,9 @@ def pack(out, langs, clips, prompts, recordings, cfg=None):
         "cfg": cfg or {},
         "clips": [{k: c.get(k) for k in ("id", "lang", "split", "text", "native_text", "seconds", "kind")} for c in clips],
         "prompts": prompts,
+        # The reference recognizer's cached answers for the test clips (no network call), so the pod's report
+        # scores both recognizers on the same clips and key.
+        "reference": _reference([c for c in clips if c["split"] == "test"]),
     }
     os.makedirs(os.path.dirname(out), exist_ok=True)
     tmp = out + ".tmp"

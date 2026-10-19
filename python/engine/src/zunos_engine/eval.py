@@ -46,7 +46,8 @@ def main():
     from .model import Model
 
     clips = app_test_clips()
-    model = Model(os.path.expanduser(a.model), beams=a.beams)
+    # Language detection among the languages under test (the user's), as in the app.
+    model = Model(os.path.expanduser(a.model), beams=a.beams, langs=sorted({c["lang"] for c in clips}) or None)
     t0 = time.time()
     out = evaluate(model, clips, a.beams, on_clip=lambda r: print(f"{r['id']:18} {r['wer']:6.1%} {r['hyp'][:80]}", flush=True))
     audio = sum(c["seconds"] for c in clips)

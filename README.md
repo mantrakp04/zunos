@@ -9,8 +9,8 @@ Gujarati, are written that way), then transcribes on your Mac.
 3. **Record**: read the built-in passages (English, Hindi, Gujarati today) or write your own in any
    language. Each take is cut into clips at line breaks; a quarter of every language is held back
    for testing.
-4. **Train**: on a cloud GPU, zunos clones your voice to read thousands of new sentences (IndicF5 for
-   Indian languages, Chatterbox for 23 others), then fine-tunes Whisper on them plus your real
+4. **Train**: on a cloud GPU, zunos clones your voice to read thousands of new sentences (OmniVoice, or a
+   strong voice converted to yours where cloning garbles words), then fine-tunes Whisper on them plus your real
    recordings (about an hour). Languages neither voice model reads train on your recordings alone.
 5. **Test**: word error rate on the held-back clips, next to a reference recognizer (a leading cloud
    speech-to-text model). The goal is half its word error rate.

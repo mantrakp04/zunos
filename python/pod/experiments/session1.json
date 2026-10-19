@@ -1,0 +1,25 @@
+{
+  "name": "session1",
+  "gen": {
+    "engines": {"default": ["omnivoice"], "hi": ["omnivoice", "vc"], "gu": ["omnivoice", "vc", "omnivoice@hi"]},
+    "vc": {"tts": "omnivoice", "model": "seed-vc"},
+    "max_lines_per_lang": 1200
+  },
+  "judge": {"max_err": 0.10},
+  "dev": {"real_per_lang": 0},
+  "train": {"base": "whisper-large-v3", "method": "full", "select": "last", "stage1": {"epochs": 2}},
+  "export": "w-full",
+  "variants": [
+    {"name": "w-full"},
+    {"name": "w-lora", "method": "lora"},
+    {"name": "w-direct", "synth": {"engines": ["omnivoice"]}},
+    {"name": "w-vc", "synth": {"engines": {"hi": ["vc"], "gu": ["vc"], "default": ["omnivoice"]}}},
+    {"name": "w-gu-hirefs", "synth": {"engines": {"gu": ["omnivoice@hi"], "default": ["omnivoice"]}}},
+    {"name": "w-real-only", "synth": {"share": 0.0}, "stage1": {"epochs": 3}},
+    {"name": "w-no-polish", "stage2": {"steps": 0}},
+    {"name": "w-no-aug", "augment": false},
+    {"name": "q-lora", "base": "qwen3-asr-1.7b", "method": "lora", "bs": 8, "accum": 4},
+    {"name": "flex-lora", "base": "flex", "method": "lora", "bs": 8, "accum": 4},
+    {"name": "flex-dec", "base": "flex", "method": "full", "freeze_enc": 1, "lr": 2e-5, "bs": 8, "accum": 4}
+  ]
+}
