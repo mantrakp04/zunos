@@ -8,7 +8,7 @@ import { Ring, ScrollStrip } from "../../ui";
 import { GOAL_SECONDS, PLENTY_SECONDS } from "./model";
 
 /**
- * One dial per language: how far along the 5 minutes that are enough to train. Past that the ring
+ * One dial per language (an even 8px around the ring and text inside its pill): how far along the 5 minutes that are enough to train. Past that the ring
  * stays full and a dotted orbit fills as more is recorded, since more still makes a better model.
  * Also the language switch. With more languages than fit, the tray scrolls sideways and keeps the
  * selected one in view.
@@ -40,7 +40,7 @@ export const LanguageDials = memo(function LanguageDials({ languages, stats, val
               onClick={() => onChange(l.code)}
               title={`${l.name}${s ? `: ${mins} min, ${s.trainClips} training clips, ${s.testClips} held back for testing.${done ? " Enough to train; more makes a better model." : ` ${GOAL_SECONDS / 60} min is enough to train.`}` : ""}`}
               className={cn(
-                "relative flex h-[50px] max-w-[13rem] shrink-0 snap-start items-center gap-2.5 rounded-[16px] pr-4 pl-2 text-left whitespace-nowrap transition-[color,opacity] disabled:opacity-40",
+                "relative flex h-[56px] max-w-[13rem] shrink-0 snap-start items-center gap-2.5 rounded-[16px] pr-2 pl-[11px] text-left whitespace-nowrap transition-[color,opacity] disabled:opacity-40",
                 on ? "text-foreground" : "text-muted-foreground hover:text-foreground",
               )}
             >
@@ -52,7 +52,7 @@ export const LanguageDials = memo(function LanguageDials({ languages, stats, val
                 />
               )}
               <span className="relative shrink-0">
-                <Ring value={v} size={36} stroke={3.5} color={done ? "var(--good)" : on ? "url(#rk-ring)" : "var(--brand)"} className={cn("relative", on ? "text-foreground" : "text-muted-foreground")}>
+                <Ring value={v} size={34} stroke={3.5} color={done ? "var(--good)" : on ? "url(#rk-ring)" : "var(--brand)"} className={cn("relative", on ? "text-foreground" : "text-muted-foreground")}>
                   {done ? (
                     <Check className="size-3.5 text-good" strokeWidth={3} />
                   ) : (
@@ -89,7 +89,7 @@ function MoreOrbit({ value }: { value: number }) {
   const r = 21;
   const c = 2 * Math.PI * r;
   return (
-    <svg viewBox="0 0 46 46" className="pointer-events-none absolute -inset-[5px] -rotate-90">
+    <svg viewBox="0 0 46 46" className="pointer-events-none absolute -inset-[3px] -rotate-90">
       <circle cx="23" cy="23" r={r} fill="none" stroke="var(--good)" strokeOpacity={0.35} strokeWidth={1.5} strokeDasharray="0.5 3.5" strokeLinecap="round" />
       <motion.circle
         cx="23"

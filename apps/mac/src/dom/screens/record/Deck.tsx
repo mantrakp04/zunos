@@ -22,6 +22,7 @@ export const Deck = memo(function Deck({
   onPrimary,
   onFinish,
   onDiscard,
+  aside,
 }: {
   phase: Phase;
   line: number;
@@ -37,6 +38,8 @@ export const Deck = memo(function Deck({
   onPrimary: () => void;
   onFinish: () => void;
   onDiscard: () => void;
+  /** What sits in the right-hand column, opposite the take info (the "enough to train" note). */
+  aside?: React.ReactNode;
 }) {
   const recording = phase === "recording";
   const busy = phase === "starting" || phase === "saving";
@@ -76,7 +79,6 @@ export const Deck = memo(function Deck({
                 <div className="font-display text-[15px] font-semibold whitespace-nowrap text-foreground tabular-nums">
                   {lineCount} line{lineCount === 1 ? "" : "s"} <span className="text-muted-foreground">· about {minutes(estimate)}</span>
                 </div>
-                <div className="@max-[860px]:hidden">{again ? "You've read this one. Another take still helps." : "Read it the way you'd normally talk."}</div>
               </>
             )}
           </motion.div>
@@ -109,7 +111,7 @@ export const Deck = memo(function Deck({
         </button>
       </div>
 
-      <div className="min-w-0 justify-self-end" />
+      <div className="flex min-w-0 justify-self-end">{aside}</div>
     </div>
   );
 });

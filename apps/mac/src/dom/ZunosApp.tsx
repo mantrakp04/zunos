@@ -7,7 +7,7 @@ import { useSystemTheme } from "@zunos/ui/hooks/use-system-theme";
 import { cn } from "@zunos/ui/lib/utils";
 import { AudioLines, FlaskConical, LogOut, Mic, Sparkles, type LucideIcon } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import type { Actions } from "../services/actions";
 import type { LiveState } from "../shared/types";
@@ -44,10 +44,10 @@ export default function ZunosApp({ live, dom: _dom, ...a }: Props) {
   const langs = useAsync(() => a.languages(), [live.user?.id]);
   const [screen, setScreenState] = useState<ScreenId>(savedScreen);
   const [editingLangs, setEditingLangs] = useState(false);
-  const setScreen = (id: ScreenId) => {
+  const setScreen = useCallback((id: ScreenId) => {
     setScreenState(id);
     localStorage.setItem(SCREEN_KEY, id);
-  };
+  }, []);
 
   // ⌘1–⌘4 jump between screens, like tabs.
   useEffect(() => {

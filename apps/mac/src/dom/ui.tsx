@@ -239,6 +239,9 @@ export function ScrollStrip({ active, className, innerClassName, fade = 28, chil
   }, []);
   useLayoutEffect(() => {
     const el = ref.current!;
+    // Snapped items rest at the strip's own padding, the same inset as top and bottom, at both ends.
+    const cs = getComputedStyle(el);
+    el.style.scrollPaddingInline = `${cs.paddingLeft} ${cs.paddingRight}`;
     update();
     const ro = new ResizeObserver(update);
     ro.observe(el);

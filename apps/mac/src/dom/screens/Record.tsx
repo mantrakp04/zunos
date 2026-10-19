@@ -177,17 +177,17 @@ export default function Record({ a, live, go }: ScreenProps) {
   const error = start.error ?? finish.error ?? cancel.error ?? prompts.error;
   const done = list.filter((p) => p.recorded).length;
   const single = (prompt?.lines.length ?? 1) === 1;
+  // Memoised so the Deck (memo) doesn't re-render with every mic level update.
+  const enough = useMemo(
+    () => (locked ? null : <Enough stats={stats.data} current={current} onLang={onLang} onTrain={go && (() => go("train"))} />),
+    [locked, stats.data, current, onLang, go],
+  );
 
   return (
     <div className="@container relative flex h-full min-h-[560px] flex-col px-8 pt-9 pb-3">
       {/* A few languages sit next to the title; more get a row of their own that scrolls. */}
-      <header className={cn("mb-4 flex gap-x-6 gap-y-3", enabled.length > 3 ? "flex-col" : "items-end justify-between")}>
-        <div className="min-w-0 shrink-0">
-          <h1 className="font-display text-[30px] leading-none font-bold tracking-[-0.025em]">Record</h1>
-          <p className="mt-2 hidden max-w-[22rem] text-[13px] leading-snug text-muted-foreground @[880px]:block">
-            Read aloud at your normal pace. Five minutes in each language is enough to train; more makes a better model.
-          </p>
-        </div>
+      <header className={cn("mb-4 flex gap-x-6 gap-y-3", enabled.length > 3 ? "flex-col" : "items-center justify-between")}>
+        <h1 className="shrink-0 font-display text-[30px] leading-none font-bold tracking-[-0.025em]">Record</h1>
         <LanguageDials
           languages={enabled}
           stats={stats.data}
@@ -301,17 +301,14 @@ export default function Record({ a, live, go }: ScreenProps) {
           onPrimary={onPrimary}
           onFinish={onFinish}
           onDiscard={onDiscard}
+          aside={enough}
         />
       </div>
 
       {error && <ErrorNote error={error} className="mt-3" />}
 
-      {/* The "enough to train" card sits beside the takes, or under them when there isn't room. */}
-      <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1">
-        <div className="min-w-[min(100%,20rem)] flex-1">
-          <TakeTray takes={takes} />
-        </div>
-        {!locked && <Enough stats={stats.data} current={current} onLang={onLang} onTrain={go && (() => go("train"))} />}
+      <div className="mt-2">
+        <TakeTray takes={takes} />
       </div>
 
       <AnimatePresence>
