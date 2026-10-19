@@ -36,6 +36,9 @@ public class ZunosNativeModule: Module {
     // MARK: paths
 
     /// ~/Library/Application Support/zunos (created if missing). The app is not sandboxed.
+    /// The app bundle's Resources folder (the packaged engine lives in Resources/engine).
+    Function("resourcePath") { () -> String in Bundle.main.resourcePath ?? "" }
+
     Function("dataDir") { () -> String in
       let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
       let dir = base.appendingPathComponent("zunos", isDirectory: true)

@@ -55,7 +55,8 @@
     "start": "hexclave dev --config-file ../../hexclave.config.ts -- sh -c 'EXPO_PUBLIC_ZUNOS_REPO=$(cd ../.. && pwd) expo start --port 8090'",
     "prebuild": "expo-desktop prebuild -p macos",
     "macos": "expo-desktop run macos",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "package": "bash scripts/package.sh"
   },
   "private": true
 }

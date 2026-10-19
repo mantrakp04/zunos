@@ -55,11 +55,28 @@ export function onEngineState(fn: (state: "ready" | "exited", info?: string) => 
   return () => listeners.delete(fn);
 }
 
-/** Command that starts the engine. Development uses the repo's uv workspace. */
-function engineCommand() {
-  if (config.repoRoot) return { command: `uv run --project "${config.repoRoot}/python" zunos-engine`, cwd: `${config.repoRoot}/python` };
-  // Packaged app: the engine source and a uv binary ship in the app bundle (see apps/mac/scripts/bundle-engine).
-  return { command: `"${dataDir}/engine/bin/uv" run --project "${dataDir}/engine/python" zunos-engine`, cwd: `${dataDir}/engine/python` };
+/**
+ * Command that starts the engine. Development runs the repo's uv workspace. Packaged builds run the
+ * engine source and uv binary shipped in Resources/engine (scripts/package.sh); the signed bundle is
+ * read-only, so the virtualenv, uv cache and Python install go to the data folder. The first launch
+ * downloads Python and the ML libraries.
+ */
+function engineCommand(): { command: string; cwd: string; env: Record<string, string> } {
+  if (config.repoRoot)
+    return { command: `uv run --project "${config.repoRoot}/python" zunos-engine`, cwd: `${config.repoRoot}/python`, env: {} };
+  const res = `${Native.resourcePath()}/engine`;
+  return {
+    // --no-editable copies the engine into the venv and PYTHONPYCACHEPREFIX keeps bytecode out of the
+    // bundle: any file written inside the signed app invalidates its signature.
+    command: `"${res}/bin/uv" run --frozen --no-editable --project "${res}/python" zunos-engine`,
+    cwd: dataDir,
+    env: {
+      PYTHONPYCACHEPREFIX: `${dataDir}/engine/pycache`,
+      UV_PROJECT_ENVIRONMENT: `${dataDir}/engine/venv`,
+      UV_CACHE_DIR: `${dataDir}/engine/cache`,
+      UV_PYTHON_INSTALL_DIR: `${dataDir}/engine/python`,
+    },
+  };
 }
 
 export function startEngine() {
@@ -72,8 +89,8 @@ export function startEngine() {
   }
   ready = new Promise<void>((resolve, reject) => {
     markReady = resolve;
-    const { command, cwd } = engineCommand();
-    Native.startEngine(command, cwd, { PYTHONUNBUFFERED: "1", TOKENIZERS_PARALLELISM: "false" }).catch(reject);
+    const { command, cwd, env } = engineCommand();
+    Native.startEngine(command, cwd, { PYTHONUNBUFFERED: "1", TOKENIZERS_PARALLELISM: "false", ...env }).catch(reject);
     // First start syncs the Python environment, which can take minutes on a new machine.
     setTimeout(() => reject(new EngineError("The speech engine did not start in time.", "timeout")), 20 * 60_000);
   });

@@ -13,6 +13,7 @@ export type MicPermission = "granted" | "denied" | "undetermined";
 
 declare class ZunosNativeModule extends NativeModule<Events> {
   dataDir(): string;
+  resourcePath(): string;
   deleteFile(path: string): Promise<void>;
   copyText(text: string): void;
 
