@@ -56,6 +56,7 @@ def snap(t, mids):
 
 DOUBLE_PRESS = 0.3  # a mark this close after the previous one is the same key press twice
 END_SLACK = 0.5  # a last mark this close to the end of the audio is the end
+TAIL_SPEECH = 0.6  # seconds of speech after the last line's mark below which the rest is the wait before stopping
 LOST_RATE = 1.85  # a line this many times slower per character than the median hides a lost mark (two lines read ~2x)
 
 
@@ -126,8 +127,12 @@ def fix_marks(marks, lines, total, read=None, quiet=None):
         while len(ms) < n:  # more lines read than marked: the slowest line holds a lost mark
             ms = split(ms, int(np.argmax(rates(ms))))
         return ms, n
-    while len(ms) > len(lines):  # extra marks (e.g. one on the last line, then stop): merge the shortest line, keeping the end
-        j = int(np.argmin(np.diff([0.0] + ms)))
+    while len(ms) > len(lines):  # extra marks (e.g. one on the last line, then stop)
+        t = spoken(ms)
+        if len(ms) == len(lines) + 1 and quiet is not None and t[-1] < TAIL_SPEECH:
+            ms = ms[:-1]  # after the last line's mark there's next to no speech: that's the wait before stopping
+            break
+        j = int(np.argmin(np.diff([0.0] + ms)))  # otherwise merge the shortest line, keeping the end
         del ms[min(j, len(ms) - 2)]
     # No word on how far the reader got: a line far slower than the rest, with enough extra speech for the next
     # line, is two lines with a lost mark. Otherwise the take stopped part-way and the unread lines are dropped.

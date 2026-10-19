@@ -135,6 +135,17 @@ def test_double_press_and_mark_on_last_line():
     assert_cuts_in_gaps(g, ends)
 
 
+
+def test_one_line_then_minutes_of_silence():
+    """A one-line take whose recorder kept running: the clip ends at the line, not three minutes later."""
+    audio, ends = take(LINES[:1], tail=180.0)
+    total = len(audio) / RATE
+    g = run(audio, [ends[0] + 0.3, total], LINES[:1])
+    assert read_lines(g) == [0] and g[-1][1] < ends[0] + 1.5, g
+    g = run(audio, [total], LINES[:1])  # no mark at all: nothing says where the line ended, keep it whole
+    assert read_lines(g) == [0]
+
+
 def test_degenerate_inputs():
     audio, _ = take(LINES[:1])
     assert read_lines(run(audio, [], LINES[:1])) == [0]
