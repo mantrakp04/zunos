@@ -9,7 +9,7 @@ Commands:
   load        {model, fast?: bool}       → {"model"}; loads (and warms up) the model once
   transcribe  {path, beams?}             → {"text", "lang", "seconds", "elapsed"}; path is any wav
   eval        {model?, clips, beams?}    → {"rows", "scores"}; clips = [{id, lang, text, path}]
-  segment     {path, marks, out_dir, id} → {"clips": [{id, start, end, path_16k, path_48k}]}
+  segment     {path, marks, lines, out_dir, id_prefix} → {"clips": [{id, start, end, seconds, text, path_16k, path_48k}]}
 """
 import json
 import sys
@@ -74,7 +74,7 @@ class Engine:
     def cmd_segment(self, req):
         from .segment import segment
 
-        return {"clips": segment(req["path"], req["marks"], req["out_dir"], req["id_prefix"])}
+        return {"clips": segment(req["path"], req["marks"], req["out_dir"], req["id_prefix"], req["lines"])}
 
     def handle(self, req):
         fn = getattr(self, f"cmd_{req.get('cmd')}", None)

@@ -174,7 +174,8 @@ for (const r of final.runs.filter((r: any) => r.cfg)) {
   const score = readJson(`pod-backup/ckpt-logs/${r.name}/score.json`);
   const logRel = copy(src("pod-backup/logs", `train_${r.name}.log`), `runs/${r.name}/train.log`);
   runRows.push({
-    id: r.name, name: r.name, base: String(r.cfg.base).replace("/workspace/ckpt/", "").replace("/best", ""), cfg: r.cfg,
+    // dashboard/final.json stores cfg as a Python repr string; score.json has the real object.
+    id: r.name, name: r.name, base: String(score.cfg.base).replace("/workspace/ckpt/", "").replace("/best", ""), cfg: score.cfg,
     status: "done", stage: "done", gpu: null, costUsd: null, remoteId: null,
     bestStep: score.step, bestScore: score.score, logPath: logRel,
     notes: r.name === "v3a" ? "Current model (models/final-hf)." : null, startedAt: null, finishedAt: null,

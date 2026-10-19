@@ -5,5 +5,9 @@
   "scripts": {
     "mac": "bun --cwd apps/mac macos",
     "typecheck": "bun --filter '*' typecheck"
+  },
+  "devDependencies": {
+    "@hexclave/cli": "^1.0.132",
+    "@hexclave/js": "^1.0.132"
   }
 }

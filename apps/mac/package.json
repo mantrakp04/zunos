@@ -4,20 +4,26 @@
   "main": "index.ts",
   "dependencies": {
     "@expo/metro-runtime": "~55.0.12",
+    "@zunos/db": "workspace:*",
     "@zunos/ui": "workspace:*",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.45.4",
     "expo": "~55.0.31",
     "expo-desktop": "^1.0.5",
     "expo-desktop-modules-core": "~55.0.2",
     "expo-desktop-stubs": "~55.0.2",
     "expo-sqlite": "~55.0.20",
     "expo-status-bar": "~55.0.6",
+    "lucide-react": "^1.55.0",
+    "motion": "^14.3.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-native": "0.83.10",
     "react-native-macos": "0.83.0",
     "react-native-web": "^0.21.0",
     "react-native-webview": "13.16.0",
-    "react-native-windows": "0.83.2"
+    "react-native-windows": "0.83.2",
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@react-native-windows/find-dotnet-tools": "0.0.0-canary.3",
@@ -46,7 +52,7 @@
     }
   },
   "scripts": {
-    "start": "expo start --port 8090",
+    "start": "hexclave dev --config-file ../../hexclave.config.ts -- sh -c 'EXPO_PUBLIC_ZUNOS_REPO=$(cd ../.. && pwd) expo start --port 8090'",
     "prebuild": "expo-desktop prebuild -p macos",
     "macos": "expo-desktop run macos",
     "typecheck": "tsc --noEmit"

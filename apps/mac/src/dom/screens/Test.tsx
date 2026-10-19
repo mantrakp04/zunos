@@ -1,0 +1,97 @@
+import { MagneticTabs } from "@zunos/ui/components/ruixen/magnetic-tabs";
+import { ProgressiveFluxLoader } from "@zunos/ui/components/ruixen/progressive-flux-loader";
+import { useState } from "react";
+
+import type { EvalResult, Lang } from "../../shared/types";
+import { Badge, Button, Card, ErrorNote, LANG_NAMES, PageHeader, pct, Stat, useAction, useAsync } from "../ui";
+import type { ScreenProps } from "../ZunosApp";
+
+export default function Test({ a, live }: ScreenProps) {
+  const models = useAsync(() => a.models());
+  const baselines = useAsync(() => a.baselines());
+  const active = models.data?.find((m) => m.active && m.format === "hf");
+  const result = useAsync(() => (active ? a.latestEval(active.id) : Promise.resolve(null)), [active?.id]);
+  const run = useAction(async () => result.setData(await a.evaluate()));
+  const [filter, setFilter] = useState<"all" | Lang>("all");
+  const sarvam = (l: Lang) => baselines.data?.find((b) => b.lang === l)?.wer;
+
+  return (
+    <div>
+      <PageHeader
+        title="Test"
+        subtitle="Scores your model on recordings it never trained on. Word error rate: lower is better. Hindi and Gujarati spelling variants are forgiven (chhe = che)."
+      >
+        <Button variant="brand" loading={run.busy} disabled={!active || live.engine === "error"} onClick={() => run.run()}>
+          Run test
+        </Button>
+      </PageHeader>
+
+      {live.evalProgress && (
+        <Card className="mb-6">
+          <ProgressiveFluxLoader
+            value={(live.evalProgress.done / Math.max(1, live.evalProgress.total)) * 100}
+            phases={[{ at: 0, label: "Transcribing your test clips" }, { at: 99, label: "Scoring" }]}
+            gradient="linear-gradient(90deg, var(--brand), var(--brand-gold))"
+          />
+          <p className="mt-2 text-xs text-muted-foreground">
+            {live.evalProgress.done} of {live.evalProgress.total} clips
+          </p>
+        </Card>
+      )}
+      <ErrorNote error={run.error ?? live.engineError} />
+
+      <div className="mb-6 grid grid-cols-3 gap-3">
+        {(["en", "hi", "gu"] as const).map((l) => {
+          const mine = result.data?.scores[l];
+          const base = sarvam(l);
+          return (
+            <Card key={l}>
+              <Stat
+                label={LANG_NAMES[l]}
+                value={pct(mine)}
+                hint={base != null && <>Sarvam: {pct(base)}{mine != null && base > 0 && <> · {(base / mine).toFixed(2)}× better</>}</>}
+              />
+            </Card>
+          );
+        })}
+      </div>
+
+      {active && (
+        <p className="mb-3 text-sm text-muted-foreground">
+          Model <span className="font-medium text-foreground">{active.name}</span>
+          {result.data && <> · tested {new Date(result.data.createdAt).toLocaleString()} with beam search</>}
+        </p>
+      )}
+
+      {result.data && (
+        <>
+          <MagneticTabs
+            items={[{ value: "all", label: "All" }, ...(["en", "hi", "gu"] as const).map((l) => ({ value: l, label: LANG_NAMES[l] }))]}
+            defaultValue="all"
+            onChange={(v) => setFilter(v as typeof filter)}
+            sound={false}
+          />
+          <ClipTable rows={result.data.rows.filter((r) => filter === "all" || r.lang === filter)} />
+        </>
+      )}
+      {!result.data && !result.loading && active && <Card>No test results for this model yet. Run the test to score it.</Card>}
+    </div>
+  );
+}
+
+function ClipTable({ rows }: { rows: EvalResult["rows"] }) {
+  return (
+    <div className="mt-4 overflow-hidden rounded-xl border">
+      {rows.map((r) => (
+        <div key={r.id} className="grid grid-cols-[6rem_1fr] gap-x-4 gap-y-1 border-b p-3 text-sm last:border-0">
+          <div className="row-span-2 flex flex-col gap-1">
+            <Badge tone={r.wer < 0.15 ? "good" : r.wer < 0.3 ? "muted" : "warn"}>{pct(r.wer)}</Badge>
+            <span className="text-xs text-muted-foreground">{r.id}</span>
+          </div>
+          <p className="text-muted-foreground">{r.ref}</p>
+          <p>{r.hyp}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
