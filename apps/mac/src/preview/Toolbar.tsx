@@ -110,7 +110,7 @@ export function Toolbar({ state }: { state: PreviewState }) {
           <Seg value={live.authReady ? (live.user ? "in" : "out") : "loading"} options={["in", "out", "loading"] as const} onChange={(auth) => set({ auth })} />
         </Row>
         <Row label="Data">
-          <Seg value={sc.data} options={["full", "fresh", "onboarding"] as const} onChange={(data) => set({ data })} />
+          <Seg value={sc.data} options={["full", "fresh", "onboarding", "stress"] as const} onChange={(data) => set({ data })} />
         </Row>
         <Row label="Engine">
           <Pick value={live.engine} options={["stopped", "starting", "loading", "ready", "busy", "error"] as const} onChange={(engine) => set({ engine })} />

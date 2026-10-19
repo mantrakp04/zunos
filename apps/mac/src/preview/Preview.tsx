@@ -12,6 +12,12 @@ import ZunosApp from "../dom/ZunosApp";
 import { actions, store } from "./store";
 import { Toolbar } from "./Toolbar";
 
+// `&screen=record|train|test|use` (and `&tab=history|settings` for Dictate) pick what opens, per tab:
+// localStorage is shared by every preview tab, so a URL beats setting it by hand.
+const q = new URLSearchParams(location.search);
+if (q.get("screen")) localStorage.setItem("zunos.screen", q.get("screen")!);
+if (q.get("tab")) localStorage.setItem("zunos.dictate.tab", q.get("tab")!);
+
 export default function Preview(_: { dom?: DOMProps }) {
   const s = useSyncExternalStore(store.subscribe, store.get);
   return (

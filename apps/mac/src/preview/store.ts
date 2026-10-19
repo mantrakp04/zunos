@@ -11,7 +11,7 @@ import type {
   RunDetail,
   SavedRecording,
 } from "../shared/types";
-import { type Data, type DataKind, evalFor, HEARD, inflightRun, makeData, modelFor, rng, statsOf, USER } from "./fixtures";
+import { type Data, type DataKind, evalFor, HEARD, inflightRun, makeData, modelFor, rng, statsOf, userFor } from "./fixtures";
 
 /* ---- scenario: what the toolbar controls, mirrored into the URL so reloads keep it ------------- */
 
@@ -95,7 +95,7 @@ function transferRunId(d: Data) {
 
 function liveFor(sc: Scenario, d: Data, prev?: LiveState): LiveState {
   return {
-    user: sc.auth === "in" ? USER : null,
+    user: sc.auth === "in" ? userFor(sc.data) : null,
     authReady: sc.auth !== "loading",
     engine: sc.engine,
     engineError: sc.engine === "error" ? "The engine exited (code 1): MPS backend out of memory while loading the model." : null,
@@ -226,10 +226,11 @@ const handlers: Partial<Record<keyof Actions, (...args: never[]) => Promise<unkn
   async verifyCode(code: string) {
     await latency(700);
     if (code === "000000") throw new Error("That code didn't work. Check the latest email and try again.");
-    setLive({ user: USER });
+    const user = userFor(state.scenario.data);
+    setLive({ user });
     state = { ...state, scenario: { ...state.scenario, auth: "in" } };
     writeUrl(state.scenario);
-    return USER;
+    return user;
   },
   async signOut() {
     await latency();
