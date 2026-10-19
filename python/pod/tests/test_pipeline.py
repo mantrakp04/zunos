@@ -60,6 +60,15 @@ def test_dev_split_is_stable_and_leaves_enough_train():
     assert sum(c["split"] == "dev" for c in data.assign(clips[:10], {"real_per_lang": 3, "min_train_left": 12})) == 0
 
 
+def test_minutes_subset_is_nested():
+    clips = [dict(id=f"c{i}", seconds=30.0) for i in range(100)]
+    small, big = data.minutes_subset(clips, 5), data.minutes_subset(clips, 20)
+    assert len(small) == 10 and len(big) == 40
+    assert {c["id"] for c in small} <= {c["id"] for c in big}
+    assert data.minutes_subset(list(reversed(clips)), 5) == small  # order of the input doesn't matter
+    assert len(data.minutes_subset(clips, 1000)) == 100
+
+
 def test_variants_resolve_and_validate():
     cfg = config.load({"variants": [{"name": "a"}, {"name": "b", "method": "lora", "stage2": {"steps": 0}}]})
     assert cfg["runs"][1]["method"] == "lora" and cfg["runs"][1]["stage2"]["lr_mult"] == 0.2

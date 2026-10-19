@@ -32,7 +32,7 @@ from torch.utils.data import DataLoader, Dataset
 
 import variability
 from augment import NoiseBank, augment
-from data import read_jsonl, synth_val_ids, write_jsonl
+from data import minutes_subset, read_jsonl, synth_val_ids, write_jsonl
 from schedule import stage_schedule
 from zunos_core.scoring import bootstrap, comparable, score_clips, verdict
 
@@ -60,6 +60,8 @@ real_test = [r for r in real if r["split"] == "test"]
 if cfg["dev_clips"] == "train":  # this variant doesn't select on dev: the dev clips are training data
     real_train += [dict(r, real=True) for r in real_dev]
     real_dev = []
+if cfg["real_minutes"]:  # data ablation
+    real_train = minutes_subset(real_train, cfg["real_minutes"])
 langs = sorted({r["lang"] for r in real})
 
 
@@ -103,7 +105,8 @@ items = extra + real_train * reps
 counts = {l: dict(synth=len(by_lang[l]), synth_val=sum(r["lang"] == l for r in synth_val),
                   pseudo=sum(r["lang"] == l for r in pseudo),
                   pseudo_min=round(sum(r["dur"] for r in pseudo if r["lang"] == l) / 60, 1),
-                  real_train=sum(r["lang"] == l for r in real_train), real_dev=sum(r["lang"] == l for r in real_dev),
+                  real_train=sum(r["lang"] == l for r in real_train),
+                  real_min=round(sum(r["seconds"] for r in real_train if r["lang"] == l) / 60, 1), real_dev=sum(r["lang"] == l for r in real_dev),
                   test=sum(r["lang"] == l for r in real_test)) for l in langs}
 print("data", json.dumps(dict(counts=counts, real_reps=reps, items=len(items))), flush=True)
 assert not ({r["id"] for r in real_test} & {r["id"] for r in items}), "test clip in training data"

@@ -32,6 +32,18 @@ def assign(clips, dev_cfg):
     return out
 
 
+def minutes_subset(clips, minutes):
+    """The first clips, in a stable hash order of their ids, until `minutes` of audio: a smaller budget is always a
+    subset of a larger one (data ablations)."""
+    out, total = [], 0.0
+    for c in sorted(clips, key=lambda c: hashlib.sha256(f"minutes|{c['id']}".encode()).hexdigest()):
+        if total >= minutes * 60:
+            break
+        out.append(c)
+        total += c["seconds"]
+    return out
+
+
 def write_real(work, clips):
     rows = [dict(id=c["id"], lang=c["lang"], kind=c.get("kind", "para"), seconds=c["seconds"], text=c["text"],
                  native_text=c.get("native_text"), split=c["split"], path=f"{work}/data/real/16k/{c['id']}.wav")

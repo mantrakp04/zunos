@@ -103,6 +103,9 @@ TRAIN = {
     # The real dev clips (spec "dev"): "holdout" keeps them out of training (needed for select=dev); "train" trains
     # on them, so a variant that doesn't select on dev loses no data when another variant of the run does.
     "dev_clips": "holdout",
+    # Data ablation: train on only this many minutes of the real train clips (0 = all). The clips are taken in a
+    # stable hash order of their ids, so a smaller budget is always a subset of a larger one.
+    "real_minutes": 0,
     # Pseudo-labeled audio (a set named in the spec's "pseudo"), mixed into stage 1 like synthetic takes, the real
     # clips oversampled to stage1.real_share; `share` = fraction of the set's kept segments used.
     "pseudo": {"set": None, "share": 1.0},
