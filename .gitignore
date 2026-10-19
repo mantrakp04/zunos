@@ -7,9 +7,6 @@ pod-backup/synth16/
 pod-backup/refs/
 pod-backup/refs_fish/
 dashboard/samples/
-mac/.venv/
-mac/whisper.cpp/
-mac/whisper-openai/
 __pycache__/
 *.log
 *.rms
@@ -20,3 +17,4 @@ apps/mac/macos/build/
 apps/mac/macos/Pods/
 apps/mac/macos/.xcode.env.local
 *.tsbuildinfo
+.venv/

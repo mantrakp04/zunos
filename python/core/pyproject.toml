@@ -1,0 +1,10 @@
+[project]
+name = "zunos-core"
+version = "0.1.0"
+description = "Text normalization and scoring shared by the Mac engine and the GPU pod"
+requires-python = ">=3.10"
+dependencies = ["indic-transliteration>=2.3"]
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"

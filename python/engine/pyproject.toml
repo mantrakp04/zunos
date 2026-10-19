@@ -1,0 +1,28 @@
+[project]
+name = "zunos-engine"
+version = "0.1.0"
+description = "zunos local speech engine: transcription, evaluation and segmentation on the Mac"
+requires-python = ">=3.12"
+dependencies = [
+    "zunos-core",
+    "numpy>=2.5.4",
+    "soundfile>=0.14.0",
+    "sounddevice>=0.5.6",
+    "torch>=2.14.1",
+    "transformers>=5.20.1",
+    "safetensors>=0.8.0",
+    "scipy>=1.14",
+    "mlx-whisper>=0.4.3",
+]
+
+[project.scripts]
+zunos-engine = "zunos_engine.server:main"
+zunos-dictate = "zunos_engine.dictate:main"
+zunos-eval = "zunos_engine.eval:main"
+
+[tool.uv.sources]
+zunos-core = { workspace = true }
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
