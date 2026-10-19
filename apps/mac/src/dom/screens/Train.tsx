@@ -1,18 +1,21 @@
 import "./train/train.css";
 
-import { cn } from "@zunos/ui/lib/utils";
-import { Laptop } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { RunDetail } from "../../shared/types";
-import { Badge, ErrorNote, Eyebrow, PageHeader, shortOf, useAction, useAsync } from "../ui";
+import { ErrorNote, Eyebrow, PageHeader, pct, useAction, useAsync } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
-import { DataStory, LivePanel, StartPanel } from "./train/NextModel";
-import { PipelineTrack, TRACK, trackPos } from "./train/Pipeline";
-import { RunView } from "./train/RunView";
-import { baseLabel, isActive, shortDate, Versions } from "./train/Versions";
+import { ModelDetail } from "./train/ModelDetail";
+import { DataStory, LiveRow, StartRow } from "./train/NextModel";
+import { PipelineTrack, type QuoteInfo, stagesOf, stageTitle, trackPos } from "./train/Pipeline";
+import { isActive, Versions } from "./train/Versions";
 
+/**
+ * Train: the next model (or the one in flight) as one action and its track, what goes into it, then
+ * every version. Pick a version to see how it tests against the reference and how it learned. One
+ * page, grouped by type, space and hairlines rather than boxes.
+ */
 export default function Train({ a, live, go }: ScreenProps) {
   const runs = useAsync(() => a.runs());
   const ids = (runs.data ?? []).map((r) => r.id).join(",");
@@ -23,7 +26,7 @@ export default function Train({ a, live, go }: ScreenProps) {
   }, [ids]);
   const stats = useAsync(() => a.stats());
   const langs = useAsync(() => a.languages());
-  const quote = useAsync(() => a.trainingQuote());
+  const quote = useAsync(() => a.trainingQuote() as Promise<QuoteInfo>);
   const baselineList = useAsync(() => a.baselines());
   const models = useAsync(() => a.models());
 
@@ -51,19 +54,18 @@ export default function Train({ a, live, go }: ScreenProps) {
   }, []);
 
   // Language colors follow the language, in the order you picked them.
+  const enabled = useMemo(() => (langs.data ?? []).filter((l) => l.enabled).map((l) => l.code as string), [langs.data]);
   const langOrder = useMemo(() => {
-    const enabled = (langs.data ?? []).filter((l) => l.enabled).map((l) => l.code as string);
     const extra = [...(stats.data ?? []).map((s) => s.lang as string), ...Object.values(details.data ?? {}).flatMap((d) => d?.evals.flatMap((e) => Object.keys(e.langs)) ?? [])];
     return [...new Set([...enabled, ...extra])];
-  }, [langs.data, stats.data, details.data]);
+  }, [enabled, stats.data, details.data]);
   const colorOf = (l: string) => `var(--zl-${(Math.max(0, langOrder.indexOf(l)) % 12) + 1})`;
 
-  // Training waits until every enabled language has enough recorded (a language with no clips has no stats row).
-  const short = useMemo(() => {
-    if (!stats.data || !langs.data) return null;
-    const enabled = langs.data.filter((l) => l.enabled).map((l) => l.code as string);
-    return shortOf(enabled.map((lang) => stats.data!.find((s) => s.lang === lang) ?? { lang, trainSeconds: 0, testSeconds: 0 }));
-  }, [stats.data, langs.data]);
+  // One entry per enabled language (a language with no clips has no stats row), for Start training.
+  const counts = useMemo(
+    () => (stats.data && langs.data ? enabled.map((lang) => stats.data!.find((s) => s.lang === lang) ?? { lang, trainSeconds: 0, testSeconds: 0 }) : null),
+    [stats.data, langs.data, enabled],
+  );
 
   const baselines = useMemo(() => {
     const out: Record<string, number> = {};
@@ -76,194 +78,160 @@ export default function Train({ a, live, go }: ScreenProps) {
   }, [langOrder, baselines]);
 
   const best = list.filter((r) => r.bestScore != null && !isActive(r)).sort((x, y) => x.bestScore! - y.bestScore!)[0] ?? null;
-  const installed = useMemo(() => new Set((models.data ?? []).map((m) => m.runId).filter((x): x is string => !!x)), [models.data]);
-  const inUse = (models.data ?? []).find((m) => m.active)?.runId ?? null;
+  const hf = (models.data ?? []).filter((m) => m.format === "hf");
+  const installed = useMemo(() => new Set(hf.map((m) => m.runId).filter((x): x is string => !!x)), [models.data]);
+  const inUse = hf.find((m) => m.active)?.runId ?? null;
 
   const [picked, setPicked] = useState<string | null>(null);
-  const selectedId = picked && list.some((r) => r.id === picked) ? picked : (active?.id ?? best?.id ?? list[0]?.id ?? null);
+  const selectedId = picked && list.some((r) => r.id === picked) ? picked : (inUse ?? active?.id ?? best?.id ?? list[0]?.id ?? null);
   const selected = selectedId ? (details.data?.[selectedId] ?? null) : null;
   const selectedSummary = list.find((r) => r.id === selectedId) ?? null;
-  const selectedBase = selected
-    ? `${baseLabel(selected.base, list).branch ? "fine-tuned" : "on Whisper"} ${baseLabel(selected.base, list).text} · ${shortDate(selected.createdAt)}`
-    : "";
 
-  // The hero: a run in flight (or a local transfer for one), otherwise the next model.
+  // The top: a run in flight (or a local transfer for one), otherwise the next model.
   const flightRun = live.transfer ? (list.find((r) => r.id === live.transfer!.runId) ?? null) : active;
   const inFlight = !!live.transfer || !!active;
-  const pos = trackPos(flightRun, live.transfer);
-  const stage = inFlight ? TRACK[Math.min(Math.max(pos.index, 0), TRACK.length - 1)]! : null;
+  const stages = stagesOf(flightRun, quote.data);
+  const pos = trackPos(stages, flightRun, live.transfer);
+  const stage = inFlight ? stages[Math.min(Math.max(pos.index, 0), stages.length - 1)]! : null;
   const flightName = flightRun?.name ?? live.transfer?.runId ?? "";
 
   return (
-    <div className="@container mx-auto max-w-[76rem] px-10 pt-10 pb-14">
-      <PageHeader eyebrow="Train" title="Your models" subtitle="Each training run makes a new version of your voice model. Pick one to see how it learned." />
+    <div className="@container mx-auto max-w-[76rem] px-10 pt-10 pb-16">
+      <PageHeader title="Train" />
 
-      {/* ---- hero: the pipeline ---- */}
-      <section
-        className="zn-surface grain relative overflow-hidden p-6"
-        style={{ "--rx": `calc(24px + (100% - 48px) * ${((Math.max(pos.index, 0) + 0.5) / TRACK.length).toFixed(3)})`, "--ry": "62%" } as React.CSSProperties}
-      >
-        {inFlight && <div className="zn-ripples opacity-90" />}
-        <div className="pointer-events-none absolute -top-24 -right-24 size-72 rounded-full bg-[radial-gradient(closest-side,color-mix(in_oklab,var(--brand-gold)_18%,transparent),transparent)]" />
-
-        <div className="@container relative">
-          <div className="flex flex-col gap-5 @3xl:flex-row @3xl:items-start @3xl:justify-between">
-            <AnimatePresence mode="wait" initial={false}>
-              <motion.div
-                key={!runs.data && !live.transfer ? "loading" : (stage?.id ?? "idle")}
-                initial={{ opacity: 0, y: 6, filter: "blur(4px)" }}
-                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                exit={{ opacity: 0, y: -6, filter: "blur(4px)" }}
-                transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
-                className="max-w-[34rem] min-w-0"
-              >
-                {!runs.data && !live.transfer ? (
-                  <>
-                    <div className="zt-skel h-3 w-24 rounded-full" />
-                    <div className="zt-skel mt-4 h-8 w-72 rounded-lg" />
-                    <div className="zt-skel mt-3 h-3.5 w-[28rem] max-w-full rounded-full" />
-                    <div className="zt-skel mt-2 h-3.5 w-80 rounded-full" />
-                  </>
-                ) : stage ? (
-                  <>
-                    <Eyebrow className="flex items-center gap-2 text-brand">
-                      <span className="relative flex size-2 shrink-0">
-                        <span className="absolute inset-0 animate-ping rounded-full bg-brand opacity-60" />
-                        <span className="relative size-2 rounded-full bg-brand" />
-                      </span>
-                      <span className="min-w-0 truncate" title={flightName}>
-                        Training {flightName}
-                      </span>
-                      <span className="-ml-1 shrink-0 whitespace-nowrap">
-                        · step {Math.min(pos.index + 1, TRACK.length)} of {TRACK.length}
-                      </span>
-                    </Eyebrow>
-                    <h2 className="mt-2.5 font-display text-[30px] leading-[1.08] font-bold tracking-[-0.022em]">
-                      {stage.title}
-                      {pos.progress != null && <span className="ml-2 text-brand tabular-nums">{Math.round(pos.progress * 100)}%</span>}
-                    </h2>
-                    <p className="mt-2 text-[14px] leading-relaxed text-muted-foreground">
-                      {stage.desc} {stage.group === 1 ? "You can close zunos; the GPU keeps going and the model comes back on its own." : "Keep zunos open for this part."}
-                    </p>
-                  </>
-                ) : (
-                  <>
-                    <Eyebrow>Next model</Eyebrow>
-                    <h2 className="mt-2.5 font-display text-[30px] leading-[1.08] font-bold tracking-[-0.022em]">Train a new version</h2>
-                    <p className="mt-2 text-[14px] leading-relaxed text-muted-foreground">
-                      Your clips go to a cloud GPU. It clones your voice to read thousands of new sentences, fine-tunes Whisper large-v3 on all of it, then
-                      sends the model back to this Mac
-                      {quote.data ? `, about ${quote.data.estimatedHours.toFixed(1)} h later.` : "."}
-                    </p>
-                  </>
-                )}
-              </motion.div>
-            </AnimatePresence>
-
-            {inFlight ? (
-              <LivePanel
-                run={flightRun}
-                local={stage?.group === 0 ? "before" : stage?.group === 2 ? "after" : null}
-                busy={stop.busy} error={stop.error} onStop={() => flightRun && stop.run(flightRun.id)} />
+      {/* ---- the next model, or the one in flight ---- */}
+      <section className="pb-9">
+        <AnimatePresence mode="wait" initial={false}>
+          <motion.div
+            key={!runs.data && !live.transfer ? "loading" : (stage?.id ?? "idle")}
+            initial={{ opacity: 0, y: 6, filter: "blur(4px)" }}
+            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            exit={{ opacity: 0, y: -6, filter: "blur(4px)" }}
+            transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+            className="min-w-0"
+          >
+            {stage ? (
+              <>
+                <Eyebrow className="flex min-w-0 items-center gap-2 text-brand">
+                  <span className="relative flex size-2 shrink-0">
+                    <span className="absolute inset-0 animate-ping rounded-full bg-brand opacity-60" />
+                    <span className="relative size-2 rounded-full bg-brand" />
+                  </span>
+                  <span className="min-w-0 truncate" title={flightName}>
+                    Training {flightName}
+                  </span>
+                  <span className="-ml-1 shrink-0 whitespace-nowrap">
+                    · step {Math.min(pos.index + 1, stages.length)} of {stages.length}
+                  </span>
+                </Eyebrow>
+                <h2 className="mt-2 font-display text-[30px] leading-[1.1] font-bold tracking-[-0.022em]">
+                  {stageTitle(stage)}
+                  {pos.progress != null && <span className="ml-2 text-brand tabular-nums">{Math.round(pos.progress * 100)}%</span>}
+                </h2>
+              </>
             ) : (
-              <StartPanel
-                quote={quote.data}
-                quoteError={quote.error}
-                loading={quote.loading}
-                blocked={!!active}
-                // Until the recordings are counted, hold the button (unless counting failed: then the server decides).
-                short={short ?? []}
-                counting={!short && !stats.error && !langs.error}
-                onRecord={go && (() => go("record"))}
-                busy={start.busy}
-                error={start.error}
-                onStart={() => start.run()}
-              />
+              <>
+                <Eyebrow>Next model</Eyebrow>
+                <h2 className="mt-2 font-display text-[30px] leading-[1.1] font-bold tracking-[-0.022em]">Train a new version</h2>
+              </>
             )}
-          </div>
+          </motion.div>
+        </AnimatePresence>
 
-          <div className="mt-7">
-            <PipelineTrack pos={pos} live={inFlight} />
-          </div>
-
-          {stats.data && stats.data.length > 0 && (
-            <div className="mt-6 border-t pt-5">
-              <DataStory stats={stats.data} colorOf={colorOf} />
-            </div>
+        <div className="mt-5">
+          {inFlight ? (
+            <LiveRow
+              run={flightRun}
+              local={stage?.where === "mac" ? (pos.index < stages.findIndex((s) => s.where === "cloud") ? "before" : "after") : null}
+              busy={stop.busy}
+              error={stop.error}
+              onStop={() => flightRun && stop.run(flightRun.id)}
+            />
+          ) : (
+            <StartRow
+              quote={quote.data}
+              quoteError={quote.error}
+              loading={quote.loading}
+              blocked={!!active}
+              counts={counts}
+              onRecord={go && (() => go("record"))}
+              busy={start.busy}
+              error={start.error}
+              onStart={() => start.run()}
+            />
           )}
-          <ErrorNote error={stats.error} className="mt-4" />
+        </div>
+
+        <div className="mt-8">
+          <PipelineTrack stages={stages} pos={pos} live={inFlight} />
         </div>
       </section>
 
-      {/* ---- versions ---- */}
-      <div className="mt-11 mb-4 flex items-end justify-between gap-4">
-        <div>
-          <h2 className="font-display text-[22px] leading-tight font-bold tracking-[-0.015em]">Versions</h2>
-          <p className="mt-1 text-[13px] text-muted-foreground">Oldest on the left. Scores are average word error rate on clips the model never trained on.</p>
-        </div>
-        {referenceAvg != null && (
-          <div className="hidden shrink-0 text-right text-[12px] text-muted-foreground @2xl:block">
-            Reference averages <span className="font-semibold text-foreground tabular-nums">{(referenceAvg * 100).toFixed(1)}%</span>
-          </div>
-        )}
-      </div>
-
-      {runs.data && list.length === 0 ? (
-        <div className="rounded-[18px] p-8 text-center text-[13px] text-muted-foreground shadow-[inset_0_0_0_1px_var(--border)]">
-          No versions yet. Your first model shows up here as soon as you start training.
-        </div>
-      ) : (
-        <Versions
-          runs={list}
-          details={details.data ?? {}}
-          selected={selectedId}
-          onSelect={setPicked}
-          bestId={best?.id ?? null}
-          installed={installed}
-          referenceAvg={referenceAvg}
-        />
+      {/* ---- what goes into it ---- */}
+      {stats.data && stats.data.length > 0 && (
+        <section className="border-t border-border py-8">
+          <DataStory stats={stats.data} colorOf={colorOf} />
+        </section>
       )}
-      <ErrorNote error={runs.error ?? details.error} className="mt-3" />
+      <ErrorNote error={stats.error} className="mb-4" />
 
-      {/* ---- the selected version ---- */}
-      <AnimatePresence mode="wait" initial={false}>
-        {selected && selectedSummary && (
-          <motion.section
-            key={selected.id}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -6 }}
-            transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
-            className="zn-surface mt-3 p-6"
-          >
-            <div className="mb-5 flex flex-wrap items-center gap-x-3 gap-y-2">
-              <h3 title={selected.name} className="max-w-full min-w-0 truncate font-display text-[26px] leading-[1.15] font-bold tracking-[-0.02em]">
-                {selected.name}
-              </h3>
-              <span className="max-w-full min-w-0 truncate text-[13px] text-muted-foreground" title={selectedBase}>
-                {selectedBase}
-              </span>
-              <span className="ml-auto flex items-center gap-1.5">
-                {best?.id === selected.id && <Badge tone="brand">Best so far</Badge>}
-                {inUse === selected.id ? (
-                  <Badge tone="good">
-                    <Laptop className="size-3" /> In use
-                  </Badge>
-                ) : installed.has(selected.id) ? (
-                  <Badge tone="muted">On this Mac</Badge>
-                ) : null}
-                <Badge tone={isActive(selectedSummary) ? "brand" : selectedSummary.status === "failed" ? "warn" : "muted"}>
-                  {isActive(selectedSummary) ? "Training" : cap(selectedSummary.status)}
-                </Badge>
-              </span>
+      {/* ---- versions, and the one you picked ---- */}
+      <section className="border-t border-border pt-8">
+        <div className="grid gap-x-10 gap-y-8 @min-[60rem]:grid-cols-[19rem_minmax(0,1fr)]">
+          {/* Bleeds by the rows' padding so their text lines up with the page. */}
+          <div className="-mx-3 min-w-0 @min-[60rem]:sticky @min-[60rem]:top-6 @min-[60rem]:max-h-[calc(100vh-5rem)] @min-[60rem]:self-start @min-[60rem]:overflow-y-auto @min-[60rem]:scrollbar-none">
+            <div className="mb-2 flex items-baseline justify-between gap-3 px-3">
+              <Eyebrow>Versions</Eyebrow>
+              {referenceAvg != null && <span className="text-[11.5px] whitespace-nowrap tabular-nums text-muted-foreground">Reference {pct(referenceAvg)}</span>}
             </div>
-            <RunView run={{ ...selected, ...selectedSummary }} langs={langOrder} colorOf={colorOf} baselines={baselines} />
-          </motion.section>
-        )}
-      </AnimatePresence>
-      {!selected && details.loading && list.length > 0 && <div className={cn("zt-skel mt-3 h-[420px] rounded-[20px]")} />}
+            {runs.data && list.length === 0 ? (
+              <p className="px-3 py-2 text-[13px] text-muted-foreground">No versions yet.</p>
+            ) : (
+              <Versions
+                runs={list}
+                details={details.data ?? {}}
+                selected={selectedId}
+                onSelect={setPicked}
+                bestId={best?.id ?? null}
+                inUse={inUse}
+                installed={installed}
+                referenceAvg={referenceAvg}
+              />
+            )}
+            <ErrorNote error={runs.error ?? details.error} className="mt-3" />
+          </div>
+
+          <div className="min-w-0">
+            <AnimatePresence mode="wait" initial={false}>
+              {selected && selectedSummary ? (
+                <motion.div
+                  key={selected.id}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -6 }}
+                  transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
+                >
+                  <ModelDetail
+                    a={a}
+                    live={live}
+                    run={{ ...selected, ...selectedSummary }}
+                    runs={list}
+                    model={hf.find((m) => m.runId === selected.id) ?? null}
+                    inUse={inUse === selected.id}
+                    best={best?.id === selected.id}
+                    langs={langOrder}
+                    colorOf={colorOf}
+                    baselines={baselines}
+                    onModels={models.reload}
+                  />
+                </motion.div>
+              ) : details.loading && list.length > 0 ? (
+                <div className="zt-skel h-[420px] rounded-[20px]" />
+              ) : null}
+            </AnimatePresence>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
-
-const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);

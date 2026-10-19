@@ -9,27 +9,18 @@ export function Running({ done, total, ids }: { done: number; total: number; ids
   const scoring = total > 0 && done >= total;
   const current = Math.min(done + 1, total);
   return (
-    <section className="zn-surface grain relative overflow-hidden px-8 pt-7 pb-7">
-      <motion.div
-        className="zn-ripples"
-        style={{ ["--rx" as string]: "84px", ["--ry" as string]: "76px" }}
-        animate={{ opacity: [0.5, 1, 0.5] }}
-        transition={{ duration: 2.4, repeat: Infinity, ease: "easeInOut" }}
-      />
+    <section className="py-2">
       <div className="relative flex items-center gap-6">
-        <Bean mood="thinking" size={92} className="-my-2 shrink-0" />
+        <Bean mood="thinking" size={56} className="-my-2 shrink-0" />
         <div className="min-w-0 flex-1">
           <Eyebrow>Running the test</Eyebrow>
-          <h2 className="mt-1.5 font-display text-[24px] leading-tight font-semibold tracking-[-0.02em]">
+          <h2 className="mt-1 font-display text-[20px] leading-tight font-semibold tracking-[-0.02em]">
             {total === 0 ? "Getting the model ready…" : scoring ? "Scoring every word…" : `Listening to clip ${current} of ${total}`}
           </h2>
-          <p className="mt-1 max-w-[34rem] text-[13px] text-muted-foreground">
-            Your model writes down each clip it never trained on, using beam search. Then every word is checked against what you read.
-          </p>
         </div>
         <div className="shrink-0 font-display leading-none font-semibold tracking-[-0.04em] whitespace-nowrap tabular-nums">
-          <span className="text-[56px]">{done}</span>
-          <span className="text-[24px] text-muted-foreground">/{total}</span>
+          <span className="text-[40px]">{done}</span>
+          <span className="text-[20px] text-muted-foreground">/{total}</span>
         </div>
       </div>
 

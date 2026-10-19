@@ -5,7 +5,7 @@ import "./zunos.css";
 
 import { useSystemTheme } from "@zunos/ui/hooks/use-system-theme";
 import { cn } from "@zunos/ui/lib/utils";
-import { AudioLines, FlaskConical, LogOut, Mic } from "lucide-react";
+import { AudioLines, LogOut, Mic } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 
@@ -16,19 +16,17 @@ import { DictateMark } from "./marks";
 import Languages from "./screens/Languages";
 import Record from "./screens/Record";
 import SignIn from "./screens/SignIn";
-import Test from "./screens/Test";
 import Train from "./screens/Train";
 import Use from "./screens/Use";
 import { Button, ErrorNote, langName, minutes, pct, shortOf, useAction, useAsync } from "./ui";
 
 export type ScreenProps = { a: Actions; live: LiveState; /** Switch to another screen. */ go?: (id: ScreenId) => void };
 
-export type ScreenId = "record" | "train" | "test" | "use";
+export type ScreenId = "record" | "train" | "use";
 
 const NAV: { id: ScreenId; label: string; icon: React.ComponentType<{ className?: string; strokeWidth?: number }>; Screen: (p: ScreenProps) => React.ReactNode }[] = [
   { id: "record", label: "Record", icon: Mic, Screen: Record },
   { id: "train", label: "Train", icon: AudioLines, Screen: Train },
-  { id: "test", label: "Test", icon: FlaskConical, Screen: Test },
   { id: "use", label: "Dictate", icon: DictateMark, Screen: Use },
 ];
 
@@ -50,7 +48,7 @@ export default function ZunosApp({ live, dom: _dom, ...a }: Props) {
     localStorage.setItem(SCREEN_KEY, id);
   }, []);
 
-  // ⌘1–⌘4 jump between screens, like tabs.
+  // ⌘1–⌘3 jump between screens, like tabs.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (!e.metaKey || e.altKey || e.ctrlKey) return;
@@ -147,14 +145,14 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
   const hot = live.dictation?.source === "hotkey" ? live.dictation : null;
   const facts: Record<ScreenId, string | null> = {
     record: recorded > 0 ? minutes(recorded) : null,
-    train: running ? "training…" : runs.data?.length ? `${runs.data.length} runs` : null,
-    test: avg != null ? pct(avg) : null,
+    // The model in use, by its latest test; else how many versions there are.
+    train: running ? "training…" : avg != null ? pct(avg) : runs.data?.length ? `${runs.data.length} runs` : null,
     use: hot ? (hot.phase === "listening" ? "listening" : "writing") : live.engine === "ready" && active ? "ready" : null,
   };
   const done: Record<ScreenId, boolean> = {
     // Every language has the 5 minutes that are enough to train.
     record: !!stats.data?.length && shortOf(stats.data).length === 0,
-    train: !!active, test: avg != null, use: !!active,
+    train: !!active, use: !!active,
   };
 
   const status = mascotStatus(live, !!running);

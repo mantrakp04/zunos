@@ -1,13 +1,10 @@
 import { cn } from "@zunos/ui/lib/utils";
-import { ArrowDownRight, ArrowUpRight, Crown, GitBranch, Laptop } from "lucide-react";
-import { motion } from "motion/react";
-import { useEffect, useRef } from "react";
+import { ChevronDown } from "lucide-react";
+import { useState } from "react";
 
 import type { RunDetail, RunSummary } from "../../../shared/types";
 import { pct } from "../../ui";
 import { Sparkline } from "./LineChart";
-import { money } from "./NextModel";
-import { TRACK } from "./Pipeline";
 
 export const isActive = (r: RunSummary) => ["uploading", "queued", "running"].includes(r.status);
 
@@ -21,153 +18,92 @@ export function baseLabel(base: string, runs: RunSummary[]) {
 
 export const shortDate = (iso: string) => new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" });
 
-/** Your models as releases on a line, oldest on the left. Pick one to see its curves. */
-export function Versions({
-  runs,
-  details,
-  selected,
-  onSelect,
-  bestId,
-  installed,
-  referenceAvg,
-}: {
+const SHOWN = 8;
+
+/**
+ * Every version, newest first: one row each, picked to see how it learned and how it tests. Plain rows
+ * on the page; the picked one sits on a soft wash.
+ */
+export function Versions({ runs, details, selected, onSelect, bestId, inUse, installed, referenceAvg }: {
   runs: RunSummary[];
   details: Record<string, RunDetail | null>;
   selected: string | null;
   onSelect: (id: string) => void;
   bestId: string | null;
+  inUse: string | null;
   installed: Set<string>;
   referenceAvg: number | null;
 }) {
-  // Newest is on the right: start scrolled there when the row overflows.
-  const scroller = useRef<HTMLDivElement>(null);
-  const count = runs.length;
-  useEffect(() => {
-    const el = scroller.current;
-    if (el) el.scrollLeft = el.scrollWidth;
-  }, [count]);
-  // Keep the picked card fully in view.
-  useEffect(() => {
-    const el = scroller.current;
-    const card = el?.querySelector<HTMLElement>("[data-on]");
-    if (!el || !card) return;
-    // offsetLeft is inside the padded row; the 40px padding doubles as the edge fade.
-    const l = card.offsetLeft;
-    const r = card.offsetLeft + card.offsetWidth + 80 - el.clientWidth;
-    if (el.scrollLeft > l) el.scrollTo({ left: l, behavior: "smooth" });
-    else if (el.scrollLeft < r) el.scrollTo({ left: r, behavior: "smooth" });
-  }, [selected]);
-  const ordered = [...runs].reverse().sort((x, y) => new Date(x.createdAt).getTime() - new Date(y.createdAt).getTime());
+  const [all, setAll] = useState(false);
+  const newest = [...runs].sort((x, y) => new Date(y.createdAt).getTime() - new Date(x.createdAt).getTime());
+  // Folded, the picked version stays in the list even when it's older than the latest few.
+  const shown = all || newest.length <= SHOWN ? newest : newest.filter((r, i) => i < SHOWN || r.id === selected);
+
   return (
-    <div
-      ref={scroller}
-      className="scrollbar-none -mx-10 snap-x snap-proximity scroll-px-10 overflow-x-auto overscroll-x-contain px-10 pt-1 pb-3 [mask-image:linear-gradient(90deg,transparent,#000_2.5rem,#000_calc(100%-2.5rem),transparent)]"
-    >
-      {/* 11rem per card, or the full width when they fit: cards share it instead of sizing to their content. */}
-      <div className="relative flex gap-3" style={{ width: `max(100%, ${ordered.length * 11 + (ordered.length - 1) * 0.75}rem)` }}>
-        {/* the timeline */}
-        <div className="pointer-events-none absolute top-[22px] right-2 left-2 h-px bg-[linear-gradient(90deg,transparent,var(--border)_6%,var(--border)_94%,transparent)]" />
-        {ordered.map((r, i) => {
+    <div className="@container/versions">
+      <div role="listbox" aria-label="Versions" className="flex flex-col gap-0.5">
+        {shown.map((r) => {
           const on = r.id === selected;
           const live = isActive(r);
           const base = baseLabel(r.base, runs);
-          const d = details[r.id];
-          const curve = (d?.evals ?? []).filter((e) => e.step != null).map((e) => ({ x: e.step!, y: e.score }));
+          const curve = (details[r.id]?.evals ?? []).filter((e) => e.step != null).map((e) => ({ x: e.step!, y: e.score }));
           const delta = r.bestScore != null && referenceAvg != null ? r.bestScore - referenceAvg : null;
+          const state = live ? "Training" : inUse === r.id ? "In use" : installed.has(r.id) ? "On this Mac" : r.status === "failed" ? "Failed" : r.status === "cancelled" ? "Stopped" : null;
           return (
-            <motion.button
+            <button
               key={r.id}
+              role="option"
+              aria-selected={on}
               onClick={() => onSelect(r.id)}
-              data-on={on || undefined}
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              // Capped: with many runs the newest (in view on the right) would otherwise come in last.
-              transition={{ delay: Math.min(i, 8) * 0.05, type: "spring", stiffness: 260, damping: 26 }}
               className={cn(
-                "group relative flex min-w-0 flex-1 basis-0 snap-start flex-col rounded-[18px] p-4 pt-3 text-left transition-[background-color,box-shadow,transform] duration-200",
-                on
-                  ? "bg-card shadow-[0_0_0_1.5px_var(--brand),var(--elevate)]"
-                  : "bg-card/60 shadow-[0_0_0_1px_var(--border)] hover:-translate-y-0.5 hover:bg-card hover:shadow-[0_0_0_1px_var(--input),var(--elevate)]",
+                "group grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-4 rounded-[12px] px-3 py-2.5 text-left transition-colors @min-[30rem]/versions:grid-cols-[minmax(0,1fr)_4.5rem_auto]",
+                on ? "bg-foreground/[0.055]" : "hover:bg-foreground/[0.03]",
               )}
             >
-              <div className="mb-3 flex items-center gap-2">
-                <span className="relative flex size-[15px] items-center justify-center">
-                  {live && <span className="absolute inset-0 animate-ping rounded-full bg-brand/40" />}
+              <span className="min-w-0">
+                <span className="flex min-w-0 items-baseline gap-2">
                   <span
                     className={cn(
-                      "relative size-[11px] rounded-full ring-[3px] ring-card",
-                      live ? "bg-brand" : r.status === "failed" ? "bg-foreground/25" : on ? "bg-brand" : "bg-foreground/35",
+                      "size-1.5 shrink-0 -translate-y-px rounded-full",
+                      live ? "animate-pulse bg-brand" : inUse === r.id ? "bg-good" : r.status === "failed" ? "bg-warn" : "bg-foreground/25",
                     )}
                   />
+                  <span title={r.name} className={cn("min-w-0 truncate font-display text-[16px] leading-tight font-semibold tracking-[-0.01em]", !on && "text-foreground/85")}>
+                    {r.name}
+                  </span>
+                  {bestId === r.id && <span className="shrink-0 text-[11.5px] font-semibold text-brand">Best</span>}
                 </span>
-                <span className="text-[11px] tabular-nums text-muted-foreground">{shortDate(r.createdAt)}</span>
-                <span className="ml-auto flex items-center gap-1">
-                  {bestId === r.id && (
-                    <span className="flex h-5 items-center gap-1 rounded-full bg-[linear-gradient(180deg,var(--brand-gold),#e98f22)] px-2 text-[10.5px] font-bold text-brand-ink shadow-[inset_0_1px_0_rgb(255_255_255/0.4)]">
-                      <Crown className="size-3" strokeWidth={2.4} /> Best
-                    </span>
-                  )}
-                  {installed.has(r.id) && (
-                    <span title="Installed on this Mac" className="grid size-5 place-items-center rounded-full bg-good/14 text-good">
-                      <Laptop className="size-3" />
-                    </span>
-                  )}
+                <span className="mt-0.5 flex min-w-0 gap-1.5 pl-3.5 text-[11.5px] text-muted-foreground">
+                  <span className="shrink-0 tabular-nums">{shortDate(r.createdAt)}</span>
+                  <span className="min-w-0 truncate" title={base.text}>
+                    · {base.text}
+                  </span>
+                  {state && <span className={cn("shrink-0", state === "In use" && "text-good", state === "Training" && "text-brand")}>· {state}</span>}
                 </span>
-              </div>
-
-              {/* The base drops under a long name; either one truncates when it can't fit the card on its own. */}
-              <div className="flex min-w-0 flex-wrap items-baseline gap-x-2">
-                <span title={r.name} className="max-w-full min-w-0 truncate font-display text-[26px] leading-[1.15] font-bold tracking-[-0.02em]">
-                  {r.name}
+              </span>
+              <span className="hidden @min-[30rem]/versions:block">
+                {curve.length >= 2 && <Sparkline points={curve} best={r.bestStep} className={on ? "text-foreground/55" : "text-foreground/30"} />}
+              </span>
+              <span className="text-right whitespace-nowrap tabular-nums">
+                <span className="block font-display text-[15px] leading-tight font-semibold">{r.bestScore != null ? pct(r.bestScore) : "—"}</span>
+                <span className={cn("block text-[11px]", delta != null && delta <= 0 ? "text-good" : "text-muted-foreground")}>
+                  {delta != null ? `${delta <= 0 ? "−" : "+"}${Math.abs(delta * 100).toFixed(1)} vs ref` : r.costUsd != null ? `$${r.costUsd.toFixed(2)}` : ""}
                 </span>
-                <span title={base.text} className="flex max-w-full min-w-0 items-center gap-1 text-[11.5px] text-muted-foreground">
-                  {base.branch && <GitBranch className="size-3 shrink-0" />}
-                  <span className="min-w-0 truncate">{base.text}</span>
-                </span>
-              </div>
-
-              {live ? (
-                <div className="mt-3 flex flex-col gap-1">
-                  <span className="text-[13px] font-semibold text-brand">{TRACK.find((t) => t.id === r.stage)?.title ?? "Starting"}</span>
-                  <span className="text-[11.5px] tabular-nums text-muted-foreground">{r.costUsd != null ? `${money(r.costUsd)} so far` : "Getting a GPU"}</span>
-                </div>
-              ) : r.status === "failed" ? (
-                <div className="mt-3 text-[12.5px] text-muted-foreground">Didn't finish</div>
-              ) : (
-                <div className="mt-3 flex flex-wrap items-end justify-between gap-x-2 gap-y-1.5">
-                  <div>
-                    <div className="font-display text-[22px] leading-none font-semibold tracking-tight tabular-nums">{pct(r.bestScore)}</div>
-                    <div className="mt-1 text-[10.5px] whitespace-nowrap text-muted-foreground">avg WER{r.bestStep != null && ` · step ${r.bestStep}`}</div>
-                  </div>
-                  {delta != null && (
-                    <span
-                      title={`Reference averages ${pct(referenceAvg)} on the same clips. Fewer points is better.`}
-                      className={cn(
-                        "mb-0.5 flex shrink-0 flex-col items-end text-[11px] font-semibold tabular-nums",
-                        delta <= 0 ? "text-good" : "text-muted-foreground",
-                      )}
-                    >
-                      <span className="flex items-center gap-0.5">
-                        {delta <= 0 ? <ArrowDownRight className="size-3.5" /> : <ArrowUpRight className="size-3.5" />}
-                        {delta <= 0 ? "−" : "+"}
-                        {Math.abs(delta * 100).toFixed(1)} pts
-                      </span>
-                      <span className="text-[10px] font-medium text-muted-foreground">vs reference</span>
-                    </span>
-                  )}
-                </div>
-              )}
-
-              <Sparkline points={curve} best={r.bestStep} className={cn("mt-3", on ? "text-foreground/55" : "text-foreground/30")} />
-
-              <div className="mt-2 flex items-center justify-between gap-2 text-[10.5px] whitespace-nowrap tabular-nums text-muted-foreground">
-                <span className="min-w-0 truncate">{r.costUsd != null ? money(r.costUsd) : "cost not recorded"}</span>
-                <span className="shrink-0 capitalize">{live ? "training" : r.status}</span>
-              </div>
-            </motion.button>
+              </span>
+            </button>
           );
         })}
       </div>
+      {newest.length > SHOWN && (
+        <button
+          onClick={() => setAll((a) => !a)}
+          aria-expanded={all}
+          className="mt-1 flex h-8 items-center gap-1 rounded-full px-3 text-[12px] font-medium text-muted-foreground transition-colors hover:bg-foreground/[0.04] hover:text-foreground"
+        >
+          <ChevronDown className={cn("size-3.5 transition-transform", all && "rotate-180")} />
+          {all ? "Show the latest" : `Show all ${newest.length}`}
+        </button>
+      )}
     </div>
   );
 }

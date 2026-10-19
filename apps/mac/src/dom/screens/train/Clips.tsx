@@ -26,12 +26,9 @@ export function Clips({ rows, langs }: { rows: EvalResult["rows"]; langs: Lang[]
   const forgiving = langs.some(isFuzzyLang);
 
   return (
-    <section className="mt-10">
-      <div className="mb-4 flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
-        <div className="min-w-0">
-          <h2 className="font-display text-[20px] font-semibold tracking-[-0.015em]">Clip by clip</h2>
-          <p className="mt-0.5 text-[13px] text-muted-foreground">What the model heard, with what you actually read written above each mistake.</p>
-        </div>
+    <section>
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
+        <h3 className="shrink-0 text-[10.5px] font-semibold tracking-[0.12em] text-muted-foreground uppercase">Clip by clip</h3>
         {/* With many languages the filter scrolls sideways (keeping the chosen one in view) and the row drops below the title. */}
         <div className="flex max-w-full min-w-0 items-center gap-2">
           <ScrollStrip active={lang} fade={20}>
@@ -61,7 +58,7 @@ export function Clips({ rows, langs }: { rows: EvalResult["rows"]; langs: Lang[]
 
       <Legend forgiving={forgiving} />
 
-      <div className="zn-surface overflow-hidden">
+      <div className="border-y border-border">
         <AnimatePresence initial={false}>
           {shown.map((r, i) => (
             <motion.div

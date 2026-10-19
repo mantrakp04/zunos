@@ -3,7 +3,7 @@ import { ChevronDown } from "lucide-react";
 import { useMemo, useState } from "react";
 
 import type { RunDetail } from "../../../shared/types";
-import { Eyebrow, langName, pct } from "../../ui";
+import { Eyebrow, langName } from "../../ui";
 import { type Line, LineChart, type RefLine } from "./LineChart";
 import { isActive } from "./Versions";
 
@@ -86,7 +86,9 @@ export function RunView({ run, langs, colorOf, baselines }: { run: RunDetail; la
     <div className="flex flex-col gap-5">
       <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
         <div className="min-w-0">
-          <Eyebrow>Word error rate on your held-back clips · lower is better</Eyebrow>
+          <span title="Word error rate on the held-back clips while it trained; lower is better">
+            <Eyebrow>How it learned</Eyebrow>
+          </span>
           {recipe && (
             <div title={recipe} className="mt-1.5 truncate font-mono text-[11px] text-muted-foreground">
               {recipe}
@@ -142,31 +144,28 @@ export function RunView({ run, langs, colorOf, baselines }: { run: RunDetail; la
         <Waiting live={live} every={Number(run.cfg.eval_every) || null} />
       )}
 
-      <div className="grid grid-cols-[minmax(0,1fr)] gap-5 @4xl:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)]">
-        <BestTable best={best} langs={runLangs} colorOf={colorOf} baselines={baselines} step={run.bestStep} />
-        <div className="rounded-[16px] bg-foreground/[0.025] p-3 pb-1 shadow-[inset_0_0_0_1px_var(--border)]">
-          <div className="mb-1 flex items-baseline justify-between gap-3 px-1">
-            <Eyebrow>Training loss</Eyebrow>
-            <span className="text-[11px] whitespace-nowrap tabular-nums text-muted-foreground">{steps.length ? `${steps[steps.length - 1]!.loss!.toFixed(3)} at step ${steps[steps.length - 1]!.step}` : "—"}</span>
-          </div>
-          {steps.length >= 2 ? (
-            <LineChart
-              lines={[{ key: "loss", label: "Loss", color: "var(--brand-gold)", points: steps.map((s) => ({ x: s.step, y: s.loss! })), area: true, width: 1.75, live }]}
-              height={132}
-              xDomain={xDomain}
-              yDomain={[0, lossMax]}
-              yFormat={(v) => v.toFixed(lossMax > 1 ? 1 : 2)}
-              marker={null}
-              hoverX={hoverX}
-              onHoverX={setHoverX}
-              tooltipTitle={titleFor}
-              gutter={false}
-              drawKey={run.id}
-            />
-          ) : (
-            <p className="px-1 py-8 text-center text-[12px] text-muted-foreground">No loss logged yet.</p>
-          )}
+      <div>
+        <div className="mb-1 flex items-baseline justify-between gap-3">
+          <Eyebrow>Training loss</Eyebrow>
+          <span className="text-[11px] whitespace-nowrap tabular-nums text-muted-foreground">{steps.length ? `${steps[steps.length - 1]!.loss!.toFixed(3)} at step ${steps[steps.length - 1]!.step}` : "—"}</span>
         </div>
+        {steps.length >= 2 ? (
+          <LineChart
+            lines={[{ key: "loss", label: "Loss", color: "var(--brand-gold)", points: steps.map((s) => ({ x: s.step, y: s.loss! })), area: true, width: 1.75, live }]}
+            height={110}
+            xDomain={xDomain}
+            yDomain={[0, lossMax]}
+            yFormat={(v) => v.toFixed(lossMax > 1 ? 1 : 2)}
+            marker={null}
+            hoverX={hoverX}
+            onHoverX={setHoverX}
+            tooltipTitle={titleFor}
+            gutter={false}
+            drawKey={run.id}
+          />
+        ) : (
+          <p className="py-6 text-[12px] text-muted-foreground">No loss logged yet.</p>
+        )}
       </div>
     </div>
   );
@@ -188,75 +187,13 @@ function LegendChip({ on, onClick, swatch, children }: { on: boolean; onClick: (
   );
 }
 
-function BestTable({
-  best,
-  langs,
-  colorOf,
-  baselines,
-  step,
-}: {
-  best: RunDetail["evals"][number] | null;
-  langs: string[];
-  colorOf: (l: string) => string;
-  baselines: Record<string, number>;
-  step: number | null;
-}) {
-  if (!best) return <div className="grid place-items-center rounded-[16px] p-6 text-[12.5px] text-muted-foreground shadow-[inset_0_0_0_1px_var(--border)]">No best step yet.</div>;
-  return (
-    <div className="rounded-[16px] p-4 shadow-[inset_0_0_0_1px_var(--border)]">
-      <div className="mb-3 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-        <Eyebrow>At its best step{step != null && ` (${step})`}</Eyebrow>
-        <span className="text-[11px] text-muted-foreground">vs the reference on the same clips</span>
-      </div>
-      <div className="grid gap-2">
-        {langs.map((l) => {
-          const v = best.langs[l];
-          const ref = baselines[l];
-          const d = v != null && ref != null ? (v - ref) * 100 : null;
-          const scale = Math.max(v ?? 0, ref ?? 0, 0.01) * 1.1;
-          return (
-            <div key={l} className="grid grid-cols-[7rem_1fr_5.5rem] items-center gap-3">
-              <span className="flex min-w-0 items-center gap-2 text-[12.5px] font-medium" title={langName(l)}>
-                <span className="size-2 shrink-0 rounded-full" style={{ background: colorOf(l) }} />
-                <span className="truncate">{langName(l)}</span>
-              </span>
-              <div className="relative h-5">
-                <div className="absolute top-1/2 h-2 -translate-y-1/2 rounded-full" style={{ width: `${((v ?? 0) / scale) * 100}%`, background: colorOf(l) }} />
-                {ref != null && (
-                  <div className="absolute top-0 bottom-0 border-l-[1.5px] border-dashed border-foreground/50" style={{ left: `${(ref / scale) * 100}%` }} title={`Reference ${pct(ref)}`} />
-                )}
-              </div>
-              <span className="text-right text-[12px] whitespace-nowrap tabular-nums">
-                <span className="font-semibold">{pct(v)}</span>
-                {d != null && (
-                  <span className={cn("ml-1.5 text-[11px] font-semibold", d <= 0 ? "text-good" : "text-muted-foreground")}>
-                    {d <= 0 ? "−" : "+"}
-                    {Math.abs(d).toFixed(1)}
-                  </span>
-                )}
-              </span>
-            </div>
-          );
-        })}
-        <div className="mt-1 grid grid-cols-[7rem_1fr_5.5rem] items-center gap-3 border-t pt-2.5">
-          <span className="text-[12.5px] font-semibold">Average</span>
-          <span className="text-[11px] text-muted-foreground">dashed line: reference · points of WER</span>
-          <span className="text-right font-display text-[15px] font-bold tabular-nums">{pct(best.score)}</span>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function Waiting({ live, every }: { live: boolean; every: number | null }) {
   return (
-    <div className="grid h-[220px] place-items-center rounded-[16px] text-center shadow-[inset_0_0_0_1px_var(--border)]">
-      <div className="max-w-xs">
-        <div className="text-[13.5px] font-semibold">{live ? "The first score is on its way" : "No scores for this run"}</div>
-        <p className="mt-1 text-[12.5px] text-muted-foreground">
-          {live ? `The model is tested on your held-back clips${every ? ` every ${every} steps` : " as it trains"}. Curves show up after two tests.` : "It stopped before it was tested."}
-        </p>
-      </div>
+    <div className="flex h-[180px] flex-col justify-center border-y border-dashed border-border">
+      <div className="text-[13.5px] font-semibold">{live ? "The first score is on its way" : "No scores for this run"}</div>
+      <p className="mt-1 text-[12.5px] text-muted-foreground">
+        {live ? `Tested${every ? ` every ${every} steps` : " as it trains"}; the curves start after two tests.` : "It stopped before it was tested."}
+      </p>
     </div>
   );
 }
