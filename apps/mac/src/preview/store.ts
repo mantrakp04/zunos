@@ -2,16 +2,46 @@
 // so flows feel live. Only types come from the app; nothing native is imported.
 import type { Actions } from "../services/actions";
 import type {
+  AudioMeasure,
   CleanupState,
   DictationItem,
   DictationResult,
   EngineState,
   LiveState,
+  MicDeviceInfo,
+  MicState,
   PromptItem,
+  RoomCheck,
   RunDetail,
   SavedRecording,
+  TakeQuality,
 } from "../shared/types";
 import { type Data, type DataKind, evalFor, HEARD, inflightRun, makeData, modelFor, rng, statsOf, userFor } from "./fixtures";
+
+/* ---- recording-quality fixtures (services/mic.ts, services/quality.ts) ------------------------------- */
+
+const MIC_DEVICE: MicDeviceInfo = { name: "MacBook Pro Microphone", transport: "builtIn", sampleRate: 48000, inputVolume: 0.75, micMode: "standard" };
+
+function micFixture(roomTone: boolean): MicState {
+  return {
+    phase: "recording", device: MIC_DEVICE, roomTone, noiseDb: -58.2, speechDb: roomTone ? null : -27.5, snrDb: roomTone ? null : 30.7,
+    peakDb: roomTone ? -48 : -9.3, speaking: !roomTone, silenceSec: 0, issues: [],
+  };
+}
+
+function takeQualityFixture(seconds: number): TakeQuality {
+  const measure = (snr: number, lufs: number): AudioMeasure => ({
+    seconds, lufs, speechDb: lufs + 2, noiseDb: lufs + 2 - snr, roomDb: lufs - snr, snrDb: snr, peakDb: -6.2, clippedPct: 0, clipEvents: 0,
+    dc: 0, lowShare: 0.05, humHz: null, humDb: 1.2, bandwidthHz: null, gatedPct: 0, reverbSec: 0.31, pops: 0, speechPct: 82,
+    leadSilence: 1.6, longestPause: 0.9,
+  });
+  return {
+    verdict: "ok", device: MIC_DEVICE, raw: measure(21.4, -29.1), clean: measure(34.8, -20),
+    issues: [{ code: "noisyRoom", severity: "warn", title: "Some background noise",
+      detail: "Your voice was 21 dB above the background. zunos cleaned the copy used for voice cloning; a quieter room would still help." }],
+    cleaning: { strength: 18, wanted: 18, reason: "snr", tried: [{ strength: 18, speechKeptDb: -0.6, asr: 0.04 }] },
+  };
+}
 
 /* ---- scenario: what the toolbar controls, mirrored into the URL so reloads keep it ------------- */
 
@@ -101,6 +131,8 @@ function liveFor(sc: Scenario, d: Data, prev?: LiveState): LiveState {
     engineError: sc.engine === "error" ? "The engine exited (code 1): MPS backend out of memory while loading the model." : null,
     recording: sc.rec || sc.dict === "listening",
     level: 0,
+    mic: sc.rec ? micFixture(false) : null,
+    takeProcessing: null,
     evalProgress: sc.evalRun ? { done: 0, total: 20 } : null,
     transfer: sc.transfer === "off" ? null : { runId: transferRunId(d), phase: sc.transfer, progress: 0.35 },
     cleanup: cleanupOf(sc.cleanup),
@@ -272,15 +304,18 @@ const handlers: Partial<Record<keyof Actions, (...args: never[]) => Promise<unkn
   async startTake(promptId: string) {
     await latency(250);
     take = { promptId, startedAt: Date.now() };
-    setLive({ recording: true, level: 0 });
+    setLive({ recording: true, level: 0, mic: micFixture(true) });
+    // Like the app: the first 1.5 s of a take are room tone.
+    setTimeout(() => take && setLive({ mic: micFixture(false) }), 1500);
   },
   async markLine() {},
   async finishTake() {
     if (!take) throw new Error("Not recording.");
     const t = take;
     take = null;
-    setLive({ recording: false, level: 0 });
+    setLive({ recording: false, level: 0, mic: null, takeProcessing: { phase: "cleaning", progress: 0.4 } });
     await latency(700);
+    setLive({ takeProcessing: null });
     const seconds = Math.max(1.5, (Date.now() - t.startedAt) / 1000);
     const p = state.data.prompts.find((x) => x.id === t.promptId);
     const lines = p?.lines ?? ["(unknown prompt)"];
@@ -300,12 +335,29 @@ const handlers: Partial<Record<keyof Actions, (...args: never[]) => Promise<unkn
         else (c.trainSeconds += k.seconds), c.trainClips++;
       }
     });
-    const saved: SavedRecording = { recordingId: `rec-${Date.now().toString(36)}`, seconds, clips };
+    const saved: SavedRecording = { recordingId: `rec-${Date.now().toString(36)}`, seconds, clips, quality: takeQualityFixture(seconds) };
     return saved;
   },
   async cancelTake() {
     take = null;
-    setLive({ recording: false, level: 0 });
+    setLive({ recording: false, level: 0, mic: null });
+  },
+  async micInfo() {
+    return { device: MIC_DEVICE, issues: [] };
+  },
+  async checkRoom(seconds = 3) {
+    setLive({ recording: true, mic: { ...micFixture(true), phase: "room" } });
+    await sleep(seconds * 1000);
+    setLive({ recording: false, mic: null });
+    const check: RoomCheck = {
+      noiseDb: -52.4, humHz: null, device: MIC_DEVICE, verdict: "ok",
+      issues: [{ code: "noisyRoom", severity: "warn", title: "Some background noise",
+        detail: "zunos can hear the room. It cleans what it can, but keep the mic close (about a hand's width to 30 cm) so your voice stays well above it." }],
+    };
+    return check;
+  },
+  async unsegmentedRecordings() {
+    return [];
   },
 
   // ---- training
@@ -555,7 +607,8 @@ async function advanceRun(id: string) {
 // here (the app spreads `...a` from props, so names must be known up front).
 const NAMES: Record<keyof Actions, true> = {
   sendCode: true, verifyCode: true, signOut: true, languages: true, setLanguages: true, stats: true, prompts: true, createPrompt: true,
-  startTake: true, markLine: true, finishTake: true, cancelTake: true, trainingQuote: true, runs: true, run: true, startTraining: true,
+  startTake: true, markLine: true, finishTake: true, cancelTake: true, micInfo: true, checkRoom: true, resegmentRecording: true,
+  unsegmentedRecordings: true, trainingQuote: true, runs: true, run: true, startTraining: true,
   stopTraining: true, syncRuns: true, models: true, setActiveModel: true, latestEval: true, baselines: true, evaluate: true,
   prepareDictation: true, startDictation: true, stopDictation: true, cancelDictation: true, dictationSettings: true,
   setDictationSettings: true, requestAccessibility: true, cleanupSettings: true, setCleanupSettings: true, downloadCleanupModel: true,

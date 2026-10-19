@@ -10,7 +10,7 @@ import * as engine from "./engine";
 import { createLibrary } from "./library";
 
 const initial: LiveState = {
-  user: null, authReady: false, engine: "stopped", engineError: null, recording: false, level: 0, evalProgress: null, transfer: null,
+  user: null, authReady: false, engine: "stopped", engineError: null, recording: false, level: 0, mic: null, takeProcessing: null, evalProgress: null, transfer: null,
   cleanup: null, dictation: null, access: { trusted: false, hotkey: false }, dictationsVersion: 0,
 };
 
