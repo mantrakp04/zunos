@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 import type { RunDetail } from "../../shared/types";
-import { Badge, Button, Card, ErrorNote, LANG_NAMES, minutes, PageHeader, pct, Stat, useAction, useAsync } from "../ui";
+import { Badge, Button, Card, ErrorNote, langName, minutes, PageHeader, pct, Stat, useAction, useAsync } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 
 const STAGES: Record<string, string> = {
@@ -52,7 +52,7 @@ export default function Train({ a, live }: ScreenProps) {
             {(stats.data ?? []).map((s) => (
               <Stat
                 key={s.lang}
-                label={LANG_NAMES[s.lang]}
+                label={langName(s.lang)}
                 value={minutes(s.trainSeconds)}
                 hint={`${s.trainClips} training clips · ${minutes(s.testSeconds)} held back`}
               />
@@ -123,13 +123,13 @@ export default function Train({ a, live }: ScreenProps) {
 }
 
 function RunCharts({ run }: { run: RunDetail }) {
-  const langs = (["en", "hi", "gu"] as const).filter((l) => run.evals.some((e) => e[l] != null));
+  const langs = [...new Set(run.evals.flatMap((e) => Object.keys(e.langs)))];
   return (
     <div className="grid grid-cols-2 gap-4 border-t p-4">
       <ChartCard title="Average WER on your test clips" data={run.evals.map((e) => e.score)} format={pct} />
       <ChartCard title="Training loss" data={run.steps.map((s) => s.loss ?? 0)} format={(v) => v.toFixed(3)} />
       {langs.map((l) => (
-        <ChartCard key={l} title={`${LANG_NAMES[l]} WER`} data={run.evals.map((e) => e[l] ?? 0)} format={pct} />
+        <ChartCard key={l} title={`${langName(l)} WER`} data={run.evals.map((e) => e.langs[l] ?? 0)} format={pct} />
       ))}
     </div>
   );

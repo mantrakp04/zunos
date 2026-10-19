@@ -6,7 +6,8 @@
   "exports": {
     ".": "./src/index.ts",
     "./schema": "./src/schema.ts",
-    "./bun": "./src/bun.ts"
+    "./bun": "./src/bun.ts",
+    "./languages": "./src/languages.ts"
   },
   "scripts": {
     "generate": "drizzle-kit generate --name ${NAME:-change} && bun scripts/embed-migrations.ts",

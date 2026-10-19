@@ -8,7 +8,6 @@ os.environ.setdefault("TRANSFORMERS_VERBOSITY", "error")
 
 RATE = 16000
 CHUNK = 28 * RATE
-LANGS = ("en", "hi", "gu")
 
 
 class Model:
@@ -21,12 +20,13 @@ class Model:
     def __init__(self, path, device="mps", beams=4):
         import torch
         from transformers import WhisperForConditionalGeneration, WhisperProcessor
+        from transformers.models.whisper.tokenization_whisper import LANGUAGES
 
         self.torch, self.device, self.beams, self.path = torch, device, beams, path
         self.proc = WhisperProcessor.from_pretrained(path)
         self.model = WhisperForConditionalGeneration.from_pretrained(path, torch_dtype=torch.float16).to(device).eval()
         self.model.generation_config.forced_decoder_ids = None
-        self.lang_ids = {self.proc.tokenizer.convert_tokens_to_ids(f"<|{l}|>"): l for l in LANGS}
+        self.lang_ids = {self.proc.tokenizer.convert_tokens_to_ids(f"<|{l}|>"): l for l in LANGUAGES}
 
     def warmup(self):
         self.transcribe(np.zeros(RATE, dtype=np.float32))

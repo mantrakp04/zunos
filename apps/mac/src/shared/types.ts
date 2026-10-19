@@ -44,7 +44,8 @@ export type RunSummary = {
   createdAt: string;
 };
 
-export type EvalPoint = { step: number | null; score: number; en?: number; hi?: number; gu?: number };
+/** One evaluation during training: average WER and WER per language code. */
+export type EvalPoint = { step: number | null; score: number; langs: Record<string, number> };
 
 export type RunDetail = RunSummary & {
   cfg: Record<string, unknown>;
@@ -64,7 +65,7 @@ export type ModelItem = {
 export type EvalResult = {
   modelId: string;
   beams: number;
-  scores: Partial<Record<Lang | "avg", number>>;
+  scores: Record<string, number>;
   rows: { id: string; lang: Lang; ref: string; hyp: string; wer: number }[];
   createdAt: string;
 };

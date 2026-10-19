@@ -17,8 +17,9 @@ const TEST_SHARE = 0.25;
 
 export function createLibrary(db: Db) {
   return {
+    /** All languages, the user's own first. */
     async languages(): Promise<Language[]> {
-      return db.select().from(languages).orderBy(asc(languages.sort));
+      return db.select().from(languages).orderBy(desc(languages.enabled), asc(languages.sort));
     },
 
     async setLanguageEnabled(code: Lang, enabled: boolean) {
@@ -39,7 +40,7 @@ export function createLibrary(db: Db) {
           recorded: sql<number>`sum(exists(select 1 from recordings r where r.prompt_id = "prompts"."id"))`,
         })
         .from(prompts).groupBy(prompts.lang);
-      const langs = await this.languages();
+      const langs = (await this.languages()).filter((l) => l.enabled);
       return langs.map(({ code }) => {
         const get = (split: string) => rows.find((r) => r.lang === code && r.split === split);
         const p = promptRows.find((r) => r.lang === code);
@@ -63,6 +64,16 @@ export function createLibrary(db: Db) {
         .where(eq(prompts.lang, lang))
         .orderBy(sql`case ${prompts.kind} when 'para' then 0 when 'twister' then 1 else 2 end`, asc(prompts.id));
       return rows.map((r) => ({ ...r, recorded: !!r.recorded }));
+    },
+
+    /** A passage the user wrote or pasted, split into lines at sentence ends. */
+    async createPrompt(lang: Lang, text: string): Promise<PromptItem> {
+      const lines = text.split(/(?<=[.!?।॥。！？])\s+|\n+/).map((l) => l.trim()).filter(Boolean);
+      if (!lines.length) throw new Error("Write at least one sentence.");
+      const id = `user-${lang}-${Date.now().toString(36)}`;
+      const title = lines[0]!.slice(0, 60);
+      await db.insert(prompts).values({ id, lang, kind: lines.length > 1 ? "para" : "sentence", title, lines, source: "user" });
+      return { id, lang, kind: lines.length > 1 ? "para" : "sentence", title, lines, recorded: false };
     },
 
     newRecordingPath(promptId: string) {
@@ -124,11 +135,14 @@ export function createLibrary(db: Db) {
       if (!r) return null;
       const steps = await db.select({ step: runSteps.step, loss: runSteps.loss }).from(runSteps).where(eq(runSteps.runId, id)).orderBy(asc(runSteps.step));
       const ev = await db.select().from(evals).where(and(eq(evals.runId, id), sql`${evals.modelId} is null`)).orderBy(asc(evals.step));
-      const fuzzy = (s: any, l: string) => (Array.isArray(s?.[l]) ? s[l][1] : s?.[l]);
+      // scores: {lang: [basicWER, normalizedWER] | WER, synth_val_fuzzy, avg}
+      const perLang = (s: Record<string, unknown>) => Object.fromEntries(Object.entries(s)
+        .filter(([k]) => k !== "avg" && !k.startsWith("synth"))
+        .map(([k, v]) => [k, Array.isArray(v) ? (v[1] as number) : (v as number)]));
       return {
         id: r.id, name: r.name, base: r.base, status: r.status, stage: r.stage, bestStep: r.bestStep, bestScore: r.bestScore,
         costUsd: r.costUsd, createdAt: r.createdAt, cfg: r.cfg, steps,
-        evals: ev.map((e) => ({ step: e.step, score: e.score, en: fuzzy(e.scores, "en"), hi: fuzzy(e.scores, "hi"), gu: fuzzy(e.scores, "gu") })),
+        evals: ev.map((e) => ({ step: e.step, score: e.score, langs: perLang(e.scores) })),
       };
     },
 

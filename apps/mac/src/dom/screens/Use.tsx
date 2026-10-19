@@ -3,7 +3,7 @@ import { cn } from "@zunos/ui/lib/utils";
 import { Copy, Mic, Square } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
-import { Badge, Card, ErrorNote, LANG_NAMES, PageHeader, useAction } from "../ui";
+import { Badge, Card, ErrorNote, langName, PageHeader, useAction } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 
 type Result = { text: string; lang: string; seconds: number; elapsed: number };
@@ -60,7 +60,7 @@ export default function Use({ a, live }: ScreenProps) {
         {history.map((r, i) => (
           <Card key={history.length - i} className="flex flex-col gap-2">
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <Badge>{LANG_NAMES[r.lang as keyof typeof LANG_NAMES] ?? r.lang}</Badge>
+              <Badge>{langName(r.lang)}</Badge>
               <span>
                 {r.seconds.toFixed(1)} s of speech in {r.elapsed.toFixed(1)} s
               </span>

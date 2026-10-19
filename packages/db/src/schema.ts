@@ -7,13 +7,14 @@ import { index, integer, primaryKey, real, sqliteTable, text } from "drizzle-orm
 const json = <T>(name: string) => text(name, { mode: "json" }).$type<T>();
 const createdAt = () => text("created_at").notNull().default(sql`(strftime('%Y-%m-%dT%H:%M:%fZ','now'))`);
 
-export type Lang = "en" | "hi" | "gu";
+/** A Whisper language code (see languages.ts). */
+export type Lang = string;
 export type Split = "train" | "test";
 
 export const languages = sqliteTable("languages", {
   code: text("code").$type<Lang>().primaryKey(),
   name: text("name").notNull(),
-  // Script the user reads and Whisper is trained to write. Hindi and Gujarati are written in English letters.
+  // Script Whisper is trained to write: "Latin (romanized)" for languages typed in English letters.
   script: text("script").notNull(),
   enabled: integer("enabled", { mode: "boolean" }).notNull().default(false),
   sort: integer("sort").notNull().default(0),
@@ -28,7 +29,7 @@ export const prompts = sqliteTable("prompts", {
   lines: json<string[]>("lines").notNull(),
   // Same lines in native script (Devanagari / Gujarati), when known. Used as TTS input.
   nativeLines: json<string[]>("native_lines"),
-  source: text("source").notNull(), // session-1 | recorder | corpus
+  source: text("source").notNull(), // session-1 | recorder | corpus | user
   createdAt: createdAt(),
 }, (t) => [index("prompts_lang").on(t.lang, t.kind)]);
 

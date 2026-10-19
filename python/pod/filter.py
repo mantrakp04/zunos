@@ -2,7 +2,7 @@ import json, os, sys, glob
 import numpy as np, soundfile as sf, librosa, torch
 from concurrent.futures import ThreadPoolExecutor
 from transformers import WhisperForConditionalGeneration, WhisperProcessor
-from zunos_core.textnorm import basic, native_chars, wer, cer, roman_cer
+from zunos_core.scoring import synth_score
 
 W = "/workspace/data"
 OUT16 = f"{W}/synth16"
@@ -33,7 +33,7 @@ proc = WhisperProcessor.from_pretrained("openai/whisper-large-v3-turbo")
 model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-large-v3-turbo", torch_dtype=torch.float16).cuda().eval()
 out = open(f"{W}/synth_scored.jsonl", "a", encoding="utf-8")
 pool = ThreadPoolExecutor(12)
-for lang in ["en", "hi", "gu"]:
+for lang in sorted({j["lang"] for j in jobs.values()}):
     ids = [i for i in todo if jobs[i]["lang"] == lang]
     for b in range(0, len(ids), 48):
         batch = list(pool.map(load, ids[b:b + 48]))
@@ -44,10 +44,7 @@ for lang in ["en", "hi", "gu"]:
         for (i, a), h in zip(batch, hyps):
             j = jobs[i]
             dur = len(a) / 16000
-            if lang == "en":
-                score = wer(basic(h), basic(j["target"]))
-            else:
-                score = roman_cer(h, j["target"])
+            score = synth_score(h, j["target"], lang)
             cps = len(j["target"]) / max(dur - 0.3, 0.1)
             r = dict(id=i, lang=lang, engine=j["engine"], dur=round(dur, 2), score=round(score, 3), cps=round(cps, 1), hyp=h,
                      text=j["target"], path=f"{OUT16}/{i}.wav")

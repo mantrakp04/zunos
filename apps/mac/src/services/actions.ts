@@ -88,6 +88,7 @@ export function createActions(lib: Library, setLive: SetLive) {
     },
     stats: () => lib.stats(),
     prompts: (lang: Lang) => lib.prompts(lang),
+    createPrompt: (lang: Lang, text: string) => lib.createPrompt(lang, text),
 
     // ---- recording a prompt
     async startTake(promptId: string) {

@@ -34,25 +34,53 @@ def pick_refs(lang, n):
 
 
 langs = manifest["langs"]
-REFS = {
-    "cb_en": pick_refs("en", 4) if "en" in langs else [],
-    "cb_hi": pick_refs("hi", 3) if "hi" in langs else [],
-    "f5_hi": pick_refs("hi", 3) if "hi" in langs else [],
-    # Gujarati: own refs first; with fewer than 3, borrow Hindi refs (the voice is what matters).
-    "f5_gu": (pick_refs("gu", 5) + pick_refs("hi", 2))[:5] if "gu" in langs else [],
-}
+# Which voice-cloning model can read which language. Languages neither covers are trained on the
+# user's real recordings only.
+F5_LANGS = {"as", "bn", "gu", "hi", "kn", "ml", "mr", "or", "pa", "ta", "te"}  # IndicF5
+CB_LANGS = {"ar", "da", "de", "el", "en", "es", "fi", "fr", "he", "hi", "it", "ja", "ko", "ms", "nl", "no", "pl",
+            "pt", "ru", "sv", "sw", "tr", "zh"}  # Chatterbox multilingual
+TAKES = 5  # synthetic takes per sentence (English: 3 Chatterbox + 1 multilingual, as in v3a)
+
+
+def refs_for(lang, n):
+    """Own references first; borrow the user's other languages when short (the voice is what matters)."""
+    own = pick_refs(lang, n)
+    others = [r for l in langs if l != lang for r in pick_refs(l, n)]
+    return (own + [r for r in others if r not in own])[:n]
+
+
+def plan(lang):
+    """[(engine, takes)] for a language."""
+    if lang == "en":
+        return [("cb_en", 3), ("cb_mtl", 1)]
+    f5, cb = lang in F5_LANGS, lang in CB_LANGS
+    if f5 and cb:
+        return [("f5", 3), ("cb_mtl", TAKES - 3)]
+    if f5:
+        return [("f5", TAKES)]
+    if cb:
+        return [("cb_mtl", TAKES)]
+    return []
+
+
+PLANS = {l: plan(l) for l in langs}
+REFS = {(l, e): refs_for(l, n) for l, p in PLANS.items() for e, n in p}
 assert not (set(sum(REFS.values(), [])) & TEST), "a test clip was picked as a voice reference"
-for k, v in REFS.items():
-    if not v and any(k.endswith(l) or (k == "f5_gu" and l == "gu") for l in langs):
-        print(f"warning: no reference clips for {k}", flush=True)
+for (l, e), v in REFS.items():
+    if not v:
+        print(f"warning: no reference clips for {e} {l}", flush=True)
+for l, p in PLANS.items():
+    if not p:
+        print(f"{l}: no voice-cloning model reads it; training on real recordings only", flush=True)
 
 for rid in set(sum(REFS.values(), [])):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{REAL}/48k/{rid}.wav", "-af",
                     "highpass=f=70,afftdn=nf=-28,loudnorm=I=-20:TP=-2:LRA=11", "-ar", "24000", "-ac", "1",
                     f"{W}/refs/{rid}.wav"], check=True)
 
-prompts = {l: [(p["roman"], p["native"] or p["roman"]) for p in manifest["prompts"] if p["lang"] == l and (l == "en" or p["native"])]
-           for l in ("en", "hi", "gu")}
+# (target the model learns to write, text the TTS reads). Romanized prompts carry native script for the
+# TTS; others are read as written.
+prompts = {l: [(p["roman"], p["native"] or p["roman"]) for p in manifest["prompts"] if p["lang"] == l] for l in langs}
 limit = int(cfg.get("sentences_per_lang", 0)) or None
 for l in prompts:
     prompts[l] = prompts[l][:limit]
@@ -70,23 +98,24 @@ def cb_params():
                 temperature=round(random.uniform(0.7, 1.0), 2))
 
 
-def cycle(refs, i):
-    return refs[i % len(refs)]
-
-
-if REFS["cb_en"]:
-    for i, (t, g) in enumerate(prompts["en"]):
-        for k in range(3):
-            add("cb_en", "en", i, k, t, g, cycle(REFS["cb_en"], i + k), **cb_params())
-        add("cb_mtl", "en", i, 3, t, g, cycle(REFS["cb_en"], i + 3), language_id="en", **cb_params())
-for i, (t, g) in enumerate(prompts["hi"]):
-    for k, ref in enumerate(REFS["f5_hi"]):
-        add("f5", "hi", i, k, t, g, ref, speed=round(random.uniform(0.8, 1.2), 2))
-    for k in range(2 if REFS["cb_hi"] else 0):
-        add("cb_mtl", "hi", i, 3 + k, t, g, cycle(REFS["cb_hi"], i + k), language_id="hi", **cb_params())
-for i, (t, g) in enumerate(prompts["gu"]):
-    for k, ref in enumerate(REFS["f5_gu"]):
-        add("f5", "gu", i, k, t, g, ref, speed=round(random.uniform(0.8, 1.2), 2))
+for lang, steps in PLANS.items():
+    for i, (target, gen_text) in enumerate(prompts[lang]):
+        k = 0
+        for engine, takes in steps:
+            refs = REFS[(lang, engine)]
+            # IndicF5 reads native script only; skip prompts that only exist in English letters.
+            if not refs or (engine == "f5" and gen_text == target and lang != "en"):
+                k += takes
+                continue
+            for t in range(takes):
+                ref = refs[(i + t) % len(refs)] if engine != "f5" else refs[t % len(refs)]
+                if engine == "f5":
+                    add("f5", lang, i, k, target, gen_text, ref, speed=round(random.uniform(0.8, 1.2), 2))
+                elif engine == "cb_en":
+                    add("cb_en", lang, i, k, target, gen_text, ref, **cb_params())
+                else:
+                    add("cb_mtl", lang, i, k, target, gen_text, ref, language_id=lang, **cb_params())
+                k += 1
 
 random.shuffle(jobs)
 with open(f"{W}/jobs.jsonl", "w", encoding="utf-8") as f:

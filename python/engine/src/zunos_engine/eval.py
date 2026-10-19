@@ -23,7 +23,7 @@ def evaluate(model, clips, beams=4, on_clip=None):
         audio, rate = sf.read(c["path"], dtype="float32")
         assert rate == 16000, f"{c['path']} is {rate} Hz, expected 16000"
         hyp, lang = model.transcribe(audio, beams=beams)
-        e, n = clip_wer(hyp, c["text"])
+        e, n = clip_wer(hyp, c["text"], c["lang"])
         row = {"id": c["id"], "lang": c["lang"], "ref": c["text"], "hyp": hyp, "detected": lang, "wer": round(e, 4), "words": n}
         rows.append(row)
         if on_clip:

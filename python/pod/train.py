@@ -3,10 +3,10 @@ import numpy as np, soundfile as sf, torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import WhisperForConditionalGeneration, WhisperProcessor, get_cosine_schedule_with_warmup
 from augment import augment, NoiseBank
-from zunos_core.textnorm import basic, fuzzy, wer
+from zunos_core.scoring import score_clips
 
 cfg = dict(run="r1", lr=1e-5, epochs=4, bs=16, accum=2, real_rep=20, concat=0.25, freeze_enc=0, eval_every=150, gc=0, base_eval=1,
-           en_max=0.2, hi_max=0.35, gu_max=0.35, warmup=0.08, styled_bonus=0.1, base="openai/whisper-large-v3-turbo")
+           en_max=0.2, other_max=0.35, warmup=0.08, styled_bonus=0.1, base="openai/whisper-large-v3-turbo")
 for a in sys.argv[1:]:
     k, v = a.split("=")
     cfg[k] = type(cfg[k])(v) if k in cfg else v
@@ -16,10 +16,10 @@ W = "/workspace/data"
 OUT = f"/workspace/ckpt/{cfg['run']}"
 os.makedirs(OUT, exist_ok=True)
 
-limits = {"en": cfg["en_max"], "hi": cfg["hi_max"], "gu": cfg["gu_max"]}
+limit = lambda lang: cfg["en_max"] if lang == "en" else cfg.get(f"{lang}_max", cfg["other_max"])
 synth = [json.loads(l) for l in open(f"{W}/synth_scored.jsonl", encoding="utf-8")]
 synth = {r["id"]: r for r in synth}.values()
-synth = [r for r in synth if r["score"] <= limits[r["lang"]] + (cfg["styled_bonus"] if r["id"].endswith("fish-1") else 0) and 5 <= r["cps"] <= 30 and r["dur"] <= 29]
+synth = [r for r in synth if r["score"] <= limit(r["lang"]) + (cfg["styled_bonus"] if r["id"].endswith("fish-1") else 0) and 5 <= r["cps"] <= 30 and r["dur"] <= 29]
 random.shuffle(synth)
 nval = max(30, len(synth) // 30)
 synth_val, synth_train = synth[:nval], synth[nval:]
@@ -29,14 +29,15 @@ for r in real:
 real_train = [dict(r, real=True) for r in real if r["split"] == "train"]
 real_test = [r for r in real if r["split"] == "test"]
 items = synth_train + real_train * cfg["real_rep"]
-by_lang = {l: [r for r in synth_train if r["lang"] == l] for l in ["en", "hi", "gu"]}
+langs = sorted({r["lang"] for r in real} | {r["lang"] for r in synth_train})
+by_lang = {l: [r for r in synth_train if r["lang"] == l] for l in langs}
 print("synth kept", len(synth), {l: len(v) for l, v in by_lang.items()}, "real train", len(real_train), "items", len(items), flush=True)
 
 proc = WhisperProcessor.from_pretrained(cfg["base"])
 tok = proc.tokenizer
 SOT, EOT = tok.convert_tokens_to_ids("<|startoftranscript|>"), tok.convert_tokens_to_ids("<|endoftext|>")
 TR, NOTS = tok.convert_tokens_to_ids("<|transcribe|>"), tok.convert_tokens_to_ids("<|notimestamps|>")
-LANG = {l: tok.convert_tokens_to_ids(f"<|{l}|>") for l in ["en", "hi", "gu"]}
+LANG = {l: tok.convert_tokens_to_ids(f"<|{l}|>") for l in langs}
 
 def labels_for(text, lang):
     return [LANG[lang], TR, NOTS] + tok.encode(" " + text.strip(), add_special_tokens=False) + [EOT]
@@ -82,7 +83,7 @@ def collate(b):
         lab[i, : len(l)] = torch.tensor(l)
     return feats, lab
 
-babble = [r["path"] for r in synth_train if r["lang"] in ("hi", "gu", "en")][:400]
+babble = [r["path"] for r in synth_train][:400]
 bank = NoiseBank(glob.glob(f"{W}/real/clips/*.wav"), babble)
 dl = DataLoader(DS(items, bank), batch_size=cfg["bs"], shuffle=True, num_workers=14, collate_fn=collate,
                 drop_last=True, persistent_workers=True, prefetch_factor=4)
@@ -121,21 +122,16 @@ def transcribe(paths, lang=None):
     return outs
 
 def evaluate(tag):
-    res = {}
+    # res[lang] = (basic WER, WER with the language's normalization); score = mean of the latter.
     hyps = transcribe([r["path"] for r in real_test])
-    rows = []
-    for l in ["en", "hi", "gu"]:
-        rs = [(r, h) for r, h in zip(real_test, hyps) if r["lang"] == l]
-        refw = sum(len(basic(r["text"]).split()) for r, _ in rs)
-        e1 = sum(wer(basic(h), basic(r["text"])) * len(basic(r["text"]).split()) for r, h in rs) / refw
-        e2 = sum(wer(fuzzy(h), fuzzy(r["text"])) * len(fuzzy(r["text"]).split()) for r, h in rs) / refw
-        res[l] = (round(e1, 3), round(e2, 3))
+    scored, _ = score_clips(real_test, hyps)
+    plain, _ = score_clips(real_test, hyps, plain=True)
+    res = {l: (plain[l], scored[l]) for l in scored if l != "avg"}
     sv = synth_val[:120]
-    sh = transcribe([r["path"] for r in sv])
-    res["synth_val_fuzzy"] = round(sum(wer(fuzzy(h), fuzzy(r["text"])) for r, h in zip(sv, sh)) / len(sv), 3)
-    score = sum(res[l][1] for l in ["en", "hi", "gu"]) / 3
+    sval, _ = score_clips([dict(id=r["id"], lang=r["lang"], text=r["text"]) for r in sv], transcribe([r["path"] for r in sv]))
+    res["synth_val_fuzzy"] = sval.get("avg")
     rows = [dict(id=r["id"], ref=r["text"], hyp=h) for r, h in zip(real_test, hyps)]
-    return score, res, rows
+    return scored["avg"], res, rows
 
 log = open(f"{OUT}/log.jsonl", "a")
 best = 9.0

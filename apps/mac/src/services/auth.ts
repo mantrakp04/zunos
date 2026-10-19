@@ -71,6 +71,7 @@ export async function getAccessToken(): Promise<string | null> {
   if (accessToken && accessToken.expiresAt - Date.now() > 30_000) return accessToken.token;
   const refresh = Native.keychainGet(REFRESH_KEY);
   if (!refresh) return null;
+  if (!projectId) throw new AuthError("Hexclave is not configured in this build.", "not_configured");
   const res = await fetch(`${apiUrl}/api/v1/auth/oauth/token`, {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -82,10 +83,15 @@ export async function getAccessToken(): Promise<string | null> {
     }).toString(),
   });
   if (res.status === 400 || res.status === 401) {
-    // Refresh token revoked or expired: the user has to sign in again.
-    Native.keychainDelete(REFRESH_KEY);
-    accessToken = null;
-    return null;
+    // Sign out only when the token itself was rejected (revoked or expired, OAuth "invalid_grant"),
+    // never because of a misconfigured client.
+    const body = await res.json().catch(() => ({}));
+    if (body.error === "invalid_grant" || body.code === "REFRESH_TOKEN_ERROR" || body.code === "REFRESH_TOKEN_NOT_FOUND_OR_EXPIRED") {
+      Native.keychainDelete(REFRESH_KEY);
+      accessToken = null;
+      return null;
+    }
+    throw new AuthError(body.error_description ?? body.error ?? `Could not refresh the session (${res.status})`);
   }
   if (!res.ok) throw new AuthError(`Could not refresh the session (${res.status})`);
   store(await res.json());

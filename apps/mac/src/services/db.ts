@@ -1,4 +1,4 @@
-import { DB_FILE, migrate, PRAGMAS, schema } from "@zunos/db";
+import { DB_FILE, LANGUAGES, migrate, PRAGMAS, schema } from "@zunos/db";
 import { drizzle } from "drizzle-orm/expo-sqlite";
 import * as SQLite from "expo-sqlite";
 
@@ -27,6 +27,10 @@ export async function openDb() {
     exec: (sql) => o.sqlite.execAsync(sql),
     appliedTags: async () => (await o.sqlite.getAllAsync<{ tag: string }>("SELECT tag FROM __migrations")).map((r) => r.tag),
   });
+  // Every language Whisper knows is selectable; existing rows (and their enabled flag) are kept.
+  await o.db.insert(schema.languages).values(LANGUAGES.map((l, i) => ({
+    code: l.code, name: l.name, script: l.romanized ? "Latin (romanized)" : "native", enabled: false, sort: i,
+  }))).onConflictDoNothing();
   opened = o;
   return o;
 }

@@ -3,7 +3,7 @@ import { ProgressiveFluxLoader } from "@zunos/ui/components/ruixen/progressive-f
 import { useState } from "react";
 
 import type { EvalResult, Lang } from "../../shared/types";
-import { Badge, Button, Card, ErrorNote, LANG_NAMES, PageHeader, pct, Stat, useAction, useAsync } from "../ui";
+import { Badge, Button, Card, ErrorNote, langName, PageHeader, pct, Stat, useAction, useAsync } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 
 export default function Test({ a, live }: ScreenProps) {
@@ -17,14 +17,18 @@ export default function Test({ a, live }: ScreenProps) {
     await models.reload();
   });
   const hfModels = (models.data ?? []).filter((m) => m.format === "hf");
+  const languages = useAsync(() => a.languages());
   const [filter, setFilter] = useState<"all" | Lang>("all");
+  // Languages to show: the ones scored in the last test, else the user's languages.
+  const scored = Object.keys(result.data?.scores ?? {}).filter((k) => k !== "avg");
+  const langs = scored.length ? scored : (languages.data ?? []).filter((l) => l.enabled).map((l) => l.code);
   const sarvam = (l: Lang) => baselines.data?.find((b) => b.lang === l)?.wer;
 
   return (
     <div>
       <PageHeader
         title="Test"
-        subtitle="Scores your model on recordings it never trained on. Word error rate: lower is better. Hindi and Gujarati spelling variants are forgiven (chhe = che)."
+        subtitle="Scores your model on recordings it never trained on. Word error rate: lower is better. For languages typed in English letters, spelling variants are forgiven (chhe = che)."
       >
         <Button variant="brand" loading={run.busy} disabled={!active || live.engine === "error"} onClick={() => run.run()}>
           Run test
@@ -46,13 +50,13 @@ export default function Test({ a, live }: ScreenProps) {
       <ErrorNote error={run.error ?? live.engineError} />
 
       <div className="mb-6 grid grid-cols-3 gap-3">
-        {(["en", "hi", "gu"] as const).map((l) => {
+        {langs.map((l) => {
           const mine = result.data?.scores[l];
           const base = sarvam(l);
           return (
             <Card key={l}>
               <Stat
-                label={LANG_NAMES[l]}
+                label={langName(l)}
                 value={pct(mine)}
                 hint={base != null && <>Sarvam: {pct(base)}{mine != null && base > 0 && <> · {(base / mine).toFixed(2)}× better</>}</>}
               />
@@ -83,7 +87,7 @@ export default function Test({ a, live }: ScreenProps) {
       {result.data && (
         <>
           <MagneticTabs
-            items={[{ value: "all", label: "All" }, ...(["en", "hi", "gu"] as const).map((l) => ({ value: l, label: LANG_NAMES[l] }))]}
+            items={[{ value: "all", label: "All" }, ...langs.map((l) => ({ value: l, label: langName(l) }))]}
             defaultValue="all"
             onChange={(v) => setFilter(v as typeof filter)}
             sound={false}

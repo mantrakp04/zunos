@@ -1,10 +1,10 @@
 import LiveWaveform from "@zunos/ui/components/ruixen/live-waveform";
 import { cn } from "@zunos/ui/lib/utils";
-import { CheckCircle2, Circle } from "lucide-react";
+import { CheckCircle2, Circle, PenLine } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 import type { Lang, PromptItem, SavedRecording } from "../../shared/types";
-import { Badge, Button, Card, ErrorNote, LANG_NAMES, minutes, PageHeader, useAction, useAsync } from "../ui";
+import { Badge, Button, Card, ErrorNote, langName, minutes, PageHeader, useAction, useAsync } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 
 // Rough amount of your own speech per language that makes a noticeable difference.
@@ -18,20 +18,21 @@ export default function Record({ a, live }: ScreenProps) {
   const current = lang ?? enabled[0]?.code ?? null;
   const prompts = useAsync(() => (current ? a.prompts(current) : Promise.resolve([])), [current]);
   const [selected, setSelected] = useState<string | null>(null);
+  const [writing, setWriting] = useState(false);
   const prompt = prompts.data?.find((p) => p.id === selected) ?? prompts.data?.find((p) => !p.recorded) ?? prompts.data?.[0] ?? null;
 
   return (
     <div>
       <PageHeader title="Record" subtitle="Read each passage at your normal pace, the way you'd actually talk. Every take becomes training data; about a quarter is kept aside to test the model fairly." />
 
-      <div className="mb-6 grid grid-cols-3 gap-3">
+      <div className="mb-6 grid grid-cols-[repeat(auto-fill,minmax(14rem,1fr))] gap-3">
         {enabled.map((l) => {
           const s = stats.data?.find((x) => x.lang === l.code);
           const total = (s?.trainSeconds ?? 0) + (s?.testSeconds ?? 0);
           return (
             <button
               key={l.code}
-              onClick={() => (setLang(l.code), setSelected(null))}
+              onClick={() => (setLang(l.code), setSelected(null), setWriting(false))}
               className={cn("rounded-xl border p-4 text-left transition-colors", current === l.code ? "border-brand bg-brand/5" : "hover:bg-accent")}
             >
               <div className="flex items-center justify-between">
@@ -50,8 +51,24 @@ export default function Record({ a, live }: ScreenProps) {
       </div>
 
       <div className="grid grid-cols-[18rem_1fr] gap-6">
-        <PromptList prompts={prompts.data ?? []} selected={prompt?.id ?? null} onSelect={setSelected} disabled={live.recording} />
-        {prompt ? (
+        <PromptList
+          prompts={prompts.data ?? []}
+          selected={writing ? null : prompt?.id ?? null}
+          onSelect={(id) => (setSelected(id), setWriting(false))}
+          onWrite={() => setWriting(true)}
+          disabled={live.recording}
+        />
+        {current && (writing || !prompt) ? (
+          <Compose
+            lang={current}
+            a={a}
+            onCreated={async (id) => {
+              await prompts.reload();
+              setSelected(id);
+              setWriting(false);
+            }}
+          />
+        ) : prompt ? (
           <Take
             key={prompt.id}
             prompt={prompt}
@@ -70,12 +87,17 @@ export default function Record({ a, live }: ScreenProps) {
   );
 }
 
-function PromptList({ prompts, selected, onSelect, disabled }: { prompts: PromptItem[]; selected: string | null; onSelect: (id: string) => void; disabled: boolean }) {
+function PromptList({ prompts, selected, onSelect, onWrite, disabled }: {
+  prompts: PromptItem[]; selected: string | null; onSelect: (id: string) => void; onWrite: () => void; disabled: boolean;
+}) {
   const done = prompts.filter((p) => p.recorded).length;
   return (
     <div className="flex max-h-[calc(100vh-18rem)] flex-col overflow-hidden rounded-xl border">
-      <div className="border-b px-3 py-2 text-xs text-muted-foreground">
-        {done} of {prompts.length} read
+      <div className="flex items-center justify-between border-b px-3 py-2 text-xs text-muted-foreground">
+        <span>{prompts.length ? `${done} of ${prompts.length} read` : "No passages yet"}</span>
+        <button disabled={disabled} onClick={onWrite} className="flex items-center gap-1 hover:text-foreground disabled:opacity-50">
+          <PenLine className="size-3" /> Write your own
+        </button>
       </div>
       <div className="overflow-y-auto p-1">
         {prompts.map((p) => (
@@ -142,7 +164,7 @@ function Take({ prompt, a, live, onSaved }: ScreenProps & { prompt: PromptItem; 
   return (
     <Card className="flex flex-col gap-5">
       <div className="flex items-center gap-2">
-        <Badge tone="brand">{LANG_NAMES[prompt.lang]}</Badge>
+        <Badge tone="brand">{langName(prompt.lang)}</Badge>
         <Badge>{prompt.kind === "para" ? "Passage" : prompt.kind === "twister" ? "Tongue twister" : "Sentence"}</Badge>
         {prompt.recorded && <Badge tone="good">Recorded before</Badge>}
       </div>
@@ -205,6 +227,36 @@ function Take({ prompt, a, live, onSaved }: ScreenProps & { prompt: PromptItem; 
           </ul>
         </div>
       )}
+    </Card>
+  );
+}
+
+/** A passage the user writes or pastes: something they'd actually say, in their own words. */
+function Compose({ lang, a, onCreated }: { lang: string; a: ScreenProps["a"]; onCreated: (id: string) => void }) {
+  const [text, setText] = useState("");
+  const save = useAction(async () => onCreated((await a.createPrompt(lang, text)).id));
+  return (
+    <Card className="flex flex-col gap-4">
+      <div>
+        <h2 className="font-medium">Write something to read in {langName(lang)}</h2>
+        <p className="mt-1 text-sm text-muted-foreground">
+          The kind of thing you'd dictate: messages, notes, emails. Write it the way you'd type it, in whatever letters you use. Each sentence becomes a line.
+        </p>
+      </div>
+      <textarea
+        autoFocus
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        rows={8}
+        placeholder="Hey, running ten minutes late. Can you start the meeting without me?"
+        className="resize-y rounded-lg border bg-background p-3 text-base leading-relaxed outline-none focus:border-brand"
+      />
+      <div className="flex items-center gap-3">
+        <Button variant="brand" disabled={!text.trim()} loading={save.busy} onClick={() => save.run()}>
+          Save and read it
+        </Button>
+        <ErrorNote error={save.error} />
+      </div>
     </Card>
   );
 }

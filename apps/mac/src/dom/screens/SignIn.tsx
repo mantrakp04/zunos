@@ -23,7 +23,7 @@ export default function SignIn({ a }: ScreenProps) {
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">zunos</h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            A speech model that learns your voice, in English, Hindi and Gujarati. It runs on your Mac.
+            A speech model that learns your voice, in whatever languages you speak. It runs on your Mac.
           </p>
         </div>
 

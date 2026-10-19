@@ -1,5 +1,6 @@
 import { migrations } from "./migrations.gen";
 
+export * from "./languages";
 export * from "./schema";
 export * as schema from "./schema";
 

@@ -2,7 +2,7 @@ import { cn } from "@zunos/ui/lib/utils";
 import { Loader2 } from "lucide-react";
 import { type ButtonHTMLAttributes, type ReactNode, useCallback, useEffect, useState } from "react";
 
-export const LANG_NAMES = { en: "English", hi: "Hindi", gu: "Gujarati" } as const;
+export { languageName as langName } from "@zunos/db/languages";
 
 export function Button({
   variant = "primary",

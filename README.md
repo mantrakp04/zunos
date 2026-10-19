@@ -1,21 +1,23 @@
 # zunos
 
-A speech model that learns your voice. zunos fine-tunes Whisper large-v3 on how you speak English,
-Hindi and Gujarati (the last two written in English letters, the way you'd type them in a chat),
-then transcribes on your Mac.
+A speech model that learns your voice, in any of the 99 languages Whisper knows. zunos fine-tunes
+Whisper large-v3 on how you speak (languages people usually type in English letters, like Hindi or
+Gujarati, are written that way), then transcribes on your Mac.
 
 1. **Sign in** with an emailed code (Hexclave).
-2. **Pick your languages.**
-3. **Record**: read passages and sentences. Each take is cut into clips at line breaks; a quarter
-   of every language is held back for testing.
-4. **Train**: zunos clones your voice to read thousands of new sentences on a cloud GPU, then
-   fine-tunes Whisper on them plus your real recordings (about an hour).
+2. **Pick your languages**, as many as you speak.
+3. **Record**: read the built-in passages (English, Hindi, Gujarati today) or write your own in any
+   language. Each take is cut into clips at line breaks; a quarter of every language is held back
+   for testing.
+4. **Train**: on a cloud GPU, zunos clones your voice to read thousands of new sentences (IndicF5 for
+   Indian languages, Chatterbox for 23 others), then fine-tunes Whisper on them plus your real
+   recordings (about an hour). Languages neither voice model reads train on your recordings alone.
 5. **Test**: word error rate on the held-back clips, next to Sarvam.
 6. **Dictate**: talk, stop, and the text is on your clipboard.
 
 ## How good it is
 
-Word error rate of the current model (v3a) on 13 recordings it never trained on, decoded on the
+The owner's model (English, Hindi, Gujarati). Word error rate of v3a on 13 recordings it never trained on, decoded on the
 Mac with beam search (lower is better; Hindi/Gujarati spelling variants are forgiven):
 
 | | English | Hindi | Gujarati |

@@ -1,6 +1,6 @@
 import json, sys, torch, numpy as np, soundfile as sf
 from transformers import WhisperForConditionalGeneration, WhisperProcessor
-from zunos_core.textnorm import basic, fuzzy, wer
+from zunos_core.scoring import score_clips
 
 def load(p):
     a, _ = sf.read(p, dtype="float32")
@@ -29,12 +29,7 @@ def score(path, beams=1):
             f = proc.feature_extractor(load(r["path"]), sampling_rate=16000, return_tensors="pt").input_features.cuda().half()
             g = model.generate(f, task="transcribe", max_new_tokens=220, num_beams=beams)
             hyps.append(proc.tokenizer.decode(g[0], skip_special_tokens=True))
-    res = {}
-    for l in ["en", "hi", "gu"]:
-        rs = [(r, h) for r, h in zip(test, hyps) if r["lang"] == l]
-        n = sum(len(fuzzy(r["text"]).split()) for r, _ in rs)
-        res[l] = round(sum(wer(fuzzy(h), fuzzy(r["text"])) * len(fuzzy(r["text"]).split()) for r, h in rs) / n, 3)
-    res["avg"] = round((res["en"] + res["hi"] + res["gu"]) / 3, 3)
+    res, _ = score_clips(test, hyps)
     del model
     torch.cuda.empty_cache()
     return res

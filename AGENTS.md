@@ -1,7 +1,8 @@
 # zunos
 
-A macOS app that fine-tunes Whisper large-v3 on the user's voice: English, plus Hindi and Gujarati
-written in English letters. Flow: sign in (Hexclave) → pick languages → record → train (Runpod GPU,
+A macOS app that fine-tunes Whisper large-v3 on the user's voice, in any Whisper language
+(packages/db/src/languages.ts; languages typed in English letters, like Hindi and Gujarati, are
+trained to write Latin script). Flow: sign in (Hexclave) → pick languages → record → train (Runpod GPU,
 paid by the owner through apps/api) → test → dictate. Decoding runs locally on the Mac. The original
 goal, beating Sarvam (saaras) by 2x word error rate on held-back clips, is tracked in README.md.
 
@@ -31,7 +32,8 @@ User data lives in ~/Library/Application Support/zunos (zunos.db, audio/, models
 ## Rules
 
 - Test set: clips with split='test' (13 from the first session, then one in four of each
-  language's new clips). Never train on them, never use them as voice references, and never write
+  language's new clips). Scoring lives in python/core/scoring.py (fuzzy WER for English and
+  romanized languages, basic WER otherwise); don't reimplement it. Never train on them, never use them as voice references, and never write
   corpus sentences that copy their text. Score with fuzzy WER and score Sarvam on the same key.
 - Owner's budget is under $2/hour of cloud GPU in total. Quote the price before creating a pod,
   and stop or terminate pods as soon as they're idle. apps/api enforces this for app-started runs.
