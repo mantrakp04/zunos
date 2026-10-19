@@ -1,0 +1,113 @@
+/* Train screen: language series colors and the pipeline's motion. */
+
+/* One color per language, assigned in the order of your languages (never by rank).
+   The first three are checked for colour-blind separation on both surfaces. */
+:root {
+  --zl-1: #e8432a;
+  --zl-2: #00917f;
+  --zl-3: #7656f0;
+  --zl-4: #2f6fdc;
+  --zl-5: #c2408f;
+  --zl-6: #8a7a12;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --zl-1: #f2553a;
+    --zl-2: #13a894;
+    --zl-3: #8f78f5;
+    --zl-4: #5b8ff0;
+    --zl-5: #e0609f;
+    --zl-6: #b3a238;
+  }
+}
+
+/* ---- pipeline track ------------------------------------------------------------------------ */
+.zt-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  border: 1.5px solid var(--brand);
+  opacity: 0;
+  animation: zt-ring 2.4s cubic-bezier(0.2, 0.6, 0.3, 1) infinite;
+}
+.zt-ring:nth-child(2) {
+  animation-delay: 0.8s;
+}
+.zt-ring:nth-child(3) {
+  animation-delay: 1.6s;
+}
+@keyframes zt-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(2.3);
+    opacity: 0;
+  }
+}
+
+/* light running along the filled part of the rail while a run is in flight */
+.zt-flow {
+  background-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgb(255 255 255 / 0) 35%,
+    rgb(255 255 255 / 0.85) 50%,
+    rgb(255 255 255 / 0) 65%,
+    transparent 100%
+  );
+  background-size: 180px 100%;
+  background-repeat: no-repeat;
+  animation: zt-flow 1.8s linear infinite;
+}
+@keyframes zt-flow {
+  from {
+    background-position: -180px 0;
+  }
+  to {
+    background-position: calc(100% + 180px) 0;
+  }
+}
+
+/* held-back clips: hatched, so the split never relies on colour alone */
+.zt-hatch {
+  background-image: repeating-linear-gradient(135deg, currentColor 0 1.5px, transparent 1.5px 5px);
+}
+
+/* skeleton shimmer */
+.zt-skel {
+  background: linear-gradient(90deg, var(--muted) 0%, color-mix(in oklab, var(--muted) 50%, var(--card)) 50%, var(--muted) 100%);
+  background-size: 200% 100%;
+  animation: zt-skel 1.4s ease-in-out infinite;
+}
+@keyframes zt-skel {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
+}
+
+/* the live dot at the end of a running curve */
+.zt-live {
+  animation: zt-live 1.6s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+@keyframes zt-live {
+  50% {
+    transform: scale(1.8);
+    opacity: 0.2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .zt-ring,
+  .zt-flow,
+  .zt-skel,
+  .zt-live {
+    animation: none !important;
+  }
+}

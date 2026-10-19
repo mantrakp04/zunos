@@ -1,24 +1,32 @@
-import { SparkChart } from "@zunos/ui/components/ruixen/spark-chart";
-import { cn } from "@zunos/ui/lib/utils";
-import { useState } from "react";
+import "./train/train.css";
 
-import { useEffect } from "react";
+import { cn } from "@zunos/ui/lib/utils";
+import { Laptop } from "lucide-react";
+import { AnimatePresence, motion } from "motion/react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { RunDetail } from "../../shared/types";
-import { Badge, Button, Card, ErrorNote, langName, minutes, PageHeader, pct, Stat, useAction, useAsync } from "../ui";
+import { Badge, ErrorNote, Eyebrow, PageHeader, useAction, useAsync } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
-
-const STAGES: Record<string, string> = {
-  data: "Preparing your recordings", setup: "Setting up the GPU", gen: "Cloning your voice", filter: "Checking clip quality",
-  train: "Fine-tuning Whisper", export: "Packaging the model", upload: "Uploading the model", done: "Done", downloaded: "Installed",
-};
-const PHASES = { packing: "Packing your recordings…", uploading: "Uploading…", starting: "Starting a GPU…", downloading: "Downloading your model…", installing: "Installing…" };
+import { DataStory, LivePanel, StartPanel } from "./train/NextModel";
+import { PipelineTrack, TRACK, trackPos } from "./train/Pipeline";
+import { RunView } from "./train/RunView";
+import { baseLabel, isActive, shortDate, Versions } from "./train/Versions";
 
 export default function Train({ a, live }: ScreenProps) {
   const runs = useAsync(() => a.runs());
+  const ids = (runs.data ?? []).map((r) => r.id).join(",");
+  const details = useAsync(async () => {
+    const list = runs.data ?? [];
+    const got = await Promise.all(list.map((r) => a.run(r.id)));
+    return Object.fromEntries(list.map((r, i) => [r.id, got[i] ?? null])) as Record<string, RunDetail | null>;
+  }, [ids]);
   const stats = useAsync(() => a.stats());
   const langs = useAsync(() => a.languages());
   const quote = useAsync(() => a.trainingQuote());
+  const baselineList = useAsync(() => a.baselines());
+  const models = useAsync(() => a.models());
+
   const start = useAction(async () => {
     await a.startTraining((langs.data ?? []).filter((l) => l.enabled).map((l) => l.code));
     await runs.reload();
@@ -27,124 +35,215 @@ export default function Train({ a, live }: ScreenProps) {
     await a.stopTraining(id);
     await runs.reload();
   });
-  const active = (runs.data ?? []).find((r) => ["uploading", "queued", "running"].includes(r.status));
+
+  const list = runs.data ?? [];
+  const active = list.find(isActive) ?? null;
+
   // Runs are synced by the native shell every 30 s; refresh this view on the same cadence.
+  const tick = useRef(() => {});
+  tick.current = () => {
+    runs.reload();
+    if (active) details.reload();
+  };
   useEffect(() => {
-    const t = setInterval(() => runs.reload(), 15_000);
+    const t = setInterval(() => tick.current(), 15_000);
     return () => clearInterval(t);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-  const [open, setOpen] = useState<string | null>(null);
-  const detail = useAsync(() => (open ? a.run(open) : Promise.resolve(null)), [open]);
-  const best = (runs.data ?? []).filter((r) => r.bestScore != null).sort((x, y) => x.bestScore! - y.bestScore!)[0];
+
+  // Language colors follow the language, in the order you picked them.
+  const langOrder = useMemo(() => {
+    const enabled = (langs.data ?? []).filter((l) => l.enabled).map((l) => l.code as string);
+    const extra = [...(stats.data ?? []).map((s) => s.lang as string), ...Object.values(details.data ?? {}).flatMap((d) => d?.evals.flatMap((e) => Object.keys(e.langs)) ?? [])];
+    return [...new Set([...enabled, ...extra])];
+  }, [langs.data, stats.data, details.data]);
+  const colorOf = (l: string) => `var(--zl-${(Math.max(0, langOrder.indexOf(l)) % 6) + 1})`;
+
+  const baselines = useMemo(() => {
+    const out: Record<string, number> = {};
+    for (const b of baselineList.data ?? []) if (b.provider.startsWith("sarvam")) out[b.lang] = b.wer;
+    return out;
+  }, [baselineList.data]);
+  const sarvamAvg = useMemo(() => {
+    const v = langOrder.map((l) => baselines[l]).filter((x): x is number => x != null);
+    return v.length ? v.reduce((s, x) => s + x, 0) / v.length : null;
+  }, [langOrder, baselines]);
+
+  const best = list.filter((r) => r.bestScore != null && !isActive(r)).sort((x, y) => x.bestScore! - y.bestScore!)[0] ?? null;
+  const installed = useMemo(() => new Set((models.data ?? []).map((m) => m.runId).filter((x): x is string => !!x)), [models.data]);
+  const inUse = (models.data ?? []).find((m) => m.active)?.runId ?? null;
+
+  const [picked, setPicked] = useState<string | null>(null);
+  const selectedId = picked && list.some((r) => r.id === picked) ? picked : (active?.id ?? best?.id ?? list[0]?.id ?? null);
+  const selected = selectedId ? (details.data?.[selectedId] ?? null) : null;
+  const selectedSummary = list.find((r) => r.id === selectedId) ?? null;
+
+  // The hero: a run in flight (or a local transfer for one), otherwise the next model.
+  const flightRun = live.transfer ? (list.find((r) => r.id === live.transfer!.runId) ?? null) : active;
+  const inFlight = !!live.transfer || !!active;
+  const pos = trackPos(flightRun, live.transfer);
+  const stage = inFlight ? TRACK[Math.min(Math.max(pos.index, 0), TRACK.length - 1)]! : null;
+  const flightName = flightRun?.name ?? live.transfer?.runId ?? "";
 
   return (
-    <div>
-      <PageHeader
-        title="Train"
-        subtitle="Training clones your voice to read thousands of new sentences, then fine-tunes Whisper large-v3 on them plus your real recordings. It runs on a cloud GPU and takes about an hour."
-      />
+    <div className="@container mx-auto max-w-[76rem] px-10 pt-10 pb-14">
+      <PageHeader eyebrow="Train" title="Your models" subtitle="Each training run makes a new version of your voice model. Pick one to see how it learned." />
 
-      <div className="mb-6 grid grid-cols-[1fr_20rem] gap-6">
-        <Card>
-          <h2 className="mb-4 font-medium">Your data</h2>
-          <div className="grid grid-cols-3 gap-4">
-            {(stats.data ?? []).map((s) => (
-              <Stat
-                key={s.lang}
-                label={langName(s.lang)}
-                value={minutes(s.trainSeconds)}
-                hint={`${s.trainClips} training clips · ${minutes(s.testSeconds)} held back`}
+      {/* ---- hero: the pipeline ---- */}
+      <section
+        className="zn-surface grain relative overflow-hidden p-6"
+        style={{ "--rx": `calc(24px + (100% - 48px) * ${((Math.max(pos.index, 0) + 0.5) / TRACK.length).toFixed(3)})`, "--ry": "62%" } as React.CSSProperties}
+      >
+        {inFlight && <div className="zn-ripples opacity-90" />}
+        <div className="pointer-events-none absolute -top-24 -right-24 size-72 rounded-full bg-[radial-gradient(closest-side,color-mix(in_oklab,var(--brand-gold)_18%,transparent),transparent)]" />
+
+        <div className="@container relative">
+          <div className="flex flex-col gap-5 @3xl:flex-row @3xl:items-start @3xl:justify-between">
+            <AnimatePresence mode="wait" initial={false}>
+              <motion.div
+                key={!runs.data && !live.transfer ? "loading" : (stage?.id ?? "idle")}
+                initial={{ opacity: 0, y: 6, filter: "blur(4px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                exit={{ opacity: 0, y: -6, filter: "blur(4px)" }}
+                transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+                className="max-w-[34rem] min-w-0"
+              >
+                {!runs.data && !live.transfer ? (
+                  <>
+                    <div className="zt-skel h-3 w-24 rounded-full" />
+                    <div className="zt-skel mt-4 h-8 w-72 rounded-lg" />
+                    <div className="zt-skel mt-3 h-3.5 w-[28rem] max-w-full rounded-full" />
+                    <div className="zt-skel mt-2 h-3.5 w-80 rounded-full" />
+                  </>
+                ) : stage ? (
+                  <>
+                    <Eyebrow className="flex items-center gap-2 text-brand">
+                      <span className="relative flex size-2">
+                        <span className="absolute inset-0 animate-ping rounded-full bg-brand opacity-60" />
+                        <span className="relative size-2 rounded-full bg-brand" />
+                      </span>
+                      Training {flightName} · step {Math.min(pos.index + 1, TRACK.length)} of {TRACK.length}
+                    </Eyebrow>
+                    <h2 className="mt-2.5 font-display text-[30px] leading-[1.08] font-bold tracking-[-0.022em]">
+                      {stage.title}
+                      {pos.progress != null && <span className="ml-2 text-brand tabular-nums">{Math.round(pos.progress * 100)}%</span>}
+                    </h2>
+                    <p className="mt-2 text-[14px] leading-relaxed text-muted-foreground">
+                      {stage.desc} {stage.group === 1 ? "You can close zunos; the GPU keeps going and the model comes back on its own." : "Keep zunos open for this part."}
+                    </p>
+                  </>
+                ) : (
+                  <>
+                    <Eyebrow>Next model</Eyebrow>
+                    <h2 className="mt-2.5 font-display text-[30px] leading-[1.08] font-bold tracking-[-0.022em]">Train a new version</h2>
+                    <p className="mt-2 text-[14px] leading-relaxed text-muted-foreground">
+                      Your clips go to a cloud GPU. It clones your voice to read thousands of new sentences, fine-tunes Whisper large-v3 on all of it, then
+                      sends the model back to this Mac
+                      {quote.data ? `, about ${quote.data.estimatedHours.toFixed(1)} h later.` : "."}
+                    </p>
+                  </>
+                )}
+              </motion.div>
+            </AnimatePresence>
+
+            {inFlight ? (
+              <LivePanel
+                run={flightRun}
+                local={stage?.group === 0 ? "before" : stage?.group === 2 ? "after" : null}
+                busy={stop.busy} error={stop.error} onStop={() => flightRun && stop.run(flightRun.id)} />
+            ) : (
+              <StartPanel
+                quote={quote.data}
+                quoteError={quote.error}
+                loading={quote.loading}
+                blocked={!!active}
+                busy={start.busy}
+                error={start.error}
+                onStart={() => start.run()}
               />
-            ))}
-          </div>
-        </Card>
-        <Card className="flex flex-col gap-3">
-          <h2 className="font-medium">New model</h2>
-          {quote.data ? (
-            <>
-              <p className="text-sm text-muted-foreground">
-                {quote.data.gpu} · about {quote.data.estimatedHours.toFixed(1)} h at ${quote.data.pricePerHour.toFixed(2)}/h
-              </p>
-              <Button variant="brand" disabled={!quote.data.available || !!active} loading={start.busy} onClick={() => start.run()}>
-                Start training · about ${(quote.data.pricePerHour * quote.data.estimatedHours).toFixed(2)}
-              </Button>
-              {!quote.data.available && <p className="text-xs text-muted-foreground">{quote.data.reason}</p>}
-              {live.transfer && (
-                <div className="flex flex-col gap-1 text-xs text-muted-foreground">
-                  <span>{PHASES[live.transfer.phase]}</span>
-                  <div className="h-1 overflow-hidden rounded-full bg-muted">
-                    <div className="h-full bg-brand transition-all" style={{ width: `${Math.round(live.transfer.progress * 100)}%` }} />
-                  </div>
-                </div>
-              )}
-              <ErrorNote error={start.error} />
-            </>
-          ) : quote.loading ? (
-            <p className="text-sm text-muted-foreground">Checking GPU prices…</p>
-          ) : (
-            <ErrorNote error={quote.error} />
-          )}
-        </Card>
-      </div>
-
-      <h2 className="mb-3 font-medium">Training runs</h2>
-      <div className="flex flex-col gap-2">
-        {(runs.data ?? []).map((r) => (
-          <div key={r.id} className="rounded-xl border">
-            <button className="flex w-full items-center gap-4 p-4 text-left" onClick={() => setOpen(open === r.id ? null : r.id)}>
-              <span className="w-16 font-medium">{r.name}</span>
-              <span className="w-56 truncate text-sm text-muted-foreground">{r.base}</span>
-              <Badge tone={r.status === "done" ? "good" : r.status === "failed" ? "warn" : "muted"}>{r.status}</Badge>
-              {best?.id === r.id && <Badge tone="brand">best</Badge>}
-              {["queued", "running"].includes(r.status) && (
-                <span className="text-xs text-muted-foreground">
-                  {STAGES[r.stage ?? ""] ?? r.stage} {r.costUsd != null && `· $${r.costUsd.toFixed(2)} so far`}
-                </span>
-              )}
-              <span className="ml-auto text-sm tabular-nums text-muted-foreground">
-                best avg WER {pct(r.bestScore)} {r.bestStep != null && `at step ${r.bestStep}`}
-              </span>
-            </button>
-            {open === r.id && ["queued", "running"].includes(r.status) && (
-              <div className="flex justify-end border-t px-4 py-2">
-                <Button variant="danger" loading={stop.busy} onClick={() => stop.run(r.id)}>
-                  Stop and release the GPU
-                </Button>
-              </div>
             )}
-            {open === r.id && detail.data && <RunCharts run={detail.data} />}
           </div>
-        ))}
+
+          <div className="mt-7">
+            <PipelineTrack pos={pos} live={inFlight} />
+          </div>
+
+          {stats.data && stats.data.length > 0 && (
+            <div className="mt-6 border-t pt-5">
+              <DataStory stats={stats.data} colorOf={colorOf} />
+            </div>
+          )}
+          <ErrorNote error={stats.error} className="mt-4" />
+        </div>
+      </section>
+
+      {/* ---- versions ---- */}
+      <div className="mt-11 mb-4 flex items-end justify-between gap-4">
+        <div>
+          <h2 className="font-display text-[22px] leading-tight font-bold tracking-[-0.015em]">Versions</h2>
+          <p className="mt-1 text-[13px] text-muted-foreground">Oldest on the left. Scores are average word error rate on clips the model never trained on.</p>
+        </div>
+        {sarvamAvg != null && (
+          <div className="hidden shrink-0 text-right text-[12px] text-muted-foreground @2xl:block">
+            Sarvam averages <span className="font-semibold text-foreground tabular-nums">{(sarvamAvg * 100).toFixed(1)}%</span>
+          </div>
+        )}
       </div>
-      <ErrorNote error={runs.error ?? stop.error} />
+
+      {runs.data && list.length === 0 ? (
+        <div className="rounded-[18px] p-8 text-center text-[13px] text-muted-foreground shadow-[inset_0_0_0_1px_var(--border)]">
+          No versions yet. Your first model shows up here as soon as you start training.
+        </div>
+      ) : (
+        <Versions
+          runs={list}
+          details={details.data ?? {}}
+          selected={selectedId}
+          onSelect={setPicked}
+          bestId={best?.id ?? null}
+          installed={installed}
+          sarvamAvg={sarvamAvg}
+        />
+      )}
+      <ErrorNote error={runs.error ?? details.error} className="mt-3" />
+
+      {/* ---- the selected version ---- */}
+      <AnimatePresence mode="wait" initial={false}>
+        {selected && selectedSummary && (
+          <motion.section
+            key={selected.id}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -6 }}
+            transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
+            className="zn-surface mt-3 p-6"
+          >
+            <div className="mb-5 flex flex-wrap items-center gap-x-3 gap-y-2">
+              <h3 className="font-display text-[26px] leading-none font-bold tracking-[-0.02em]">{selected.name}</h3>
+              <span className="text-[13px] text-muted-foreground">
+                {baseLabel(selected.base, list).branch ? `fine-tuned ${baseLabel(selected.base, list).text}` : `on Whisper ${baseLabel(selected.base, list).text}`} ·{" "}
+                {shortDate(selected.createdAt)}
+              </span>
+              <span className="ml-auto flex items-center gap-1.5">
+                {best?.id === selected.id && <Badge tone="brand">Best so far</Badge>}
+                {inUse === selected.id ? (
+                  <Badge tone="good">
+                    <Laptop className="size-3" /> In use
+                  </Badge>
+                ) : installed.has(selected.id) ? (
+                  <Badge tone="muted">On this Mac</Badge>
+                ) : null}
+                <Badge tone={isActive(selectedSummary) ? "brand" : selectedSummary.status === "failed" ? "warn" : "muted"}>
+                  {isActive(selectedSummary) ? "Training" : cap(selectedSummary.status)}
+                </Badge>
+              </span>
+            </div>
+            <RunView run={{ ...selected, ...selectedSummary }} langs={langOrder} colorOf={colorOf} baselines={baselines} />
+          </motion.section>
+        )}
+      </AnimatePresence>
+      {!selected && details.loading && list.length > 0 && <div className={cn("zt-skel mt-3 h-[420px] rounded-[20px]")} />}
     </div>
   );
 }
 
-function RunCharts({ run }: { run: RunDetail }) {
-  const langs = [...new Set(run.evals.flatMap((e) => Object.keys(e.langs)))];
-  return (
-    <div className="grid grid-cols-2 gap-4 border-t p-4">
-      <ChartCard title="Average WER on your test clips" data={run.evals.map((e) => e.score)} format={pct} />
-      <ChartCard title="Training loss" data={run.steps.map((s) => s.loss ?? 0)} format={(v) => v.toFixed(3)} />
-      {langs.map((l) => (
-        <ChartCard key={l} title={`${langName(l)} WER`} data={run.evals.map((e) => e.langs[l] ?? 0)} format={pct} />
-      ))}
-    </div>
-  );
-}
-
-function ChartCard({ title, data, format }: { title: string; data: number[]; format: (v: number) => string }) {
-  const [hover, setHover] = useState<number | null>(null);
-  if (data.length < 2) return null;
-  return (
-    <div className={cn("rounded-lg bg-muted/40 p-3")}>
-      <div className="mb-2 flex items-baseline justify-between text-xs text-muted-foreground">
-        <span>{title}</span>
-        <span className="tabular-nums text-foreground">{format(hover ?? data[data.length - 1]!)}</span>
-      </div>
-      <SparkChart data={data} height={64} color="var(--brand)" formatValue={format} onValueChange={(v) => setHover(v)} onActiveChange={(on) => !on && setHover(null)} />
-    </div>
-  );
-}
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
