@@ -98,6 +98,8 @@ elif "flex" in base_l or "indic-transcribe" in base_l:
 else:
     from asr_whisper import WhisperBackend as Backend
 be = Backend(cfg, DEV, DTYPE)
+if hasattr(be, "set_modes"):  # flex: output mode per language, fixed here, not in the DataLoader workers
+    print("modes", json.dumps(be.set_modes(real)), flush=True)
 n_train = sum(p.numel() for p in be.params())
 print(f"model {cfg['base']} ({cfg['method']}): {n_train / 1e6:.1f}M trainable", flush=True)
 
@@ -241,6 +243,8 @@ stats = bootstrap(rows, ref_rows if ref_rows else None)
 for l, s in stats.items():
     s["verdict"] = verdict(s)
 write_jsonl(f"{OUT}/test_rows.jsonl", [dict(r, reference=reference.get(r["id"])) for r in rows])
+for r in rows[:3]:  # what the model actually writes, in the log (a WER over 100% is usually script or loops)
+    print("HYP", json.dumps(dict(id=r["id"], wer=r["wer"], ref=r["ref"][:200], hyp=r["hyp"][:300]), ensure_ascii=False), flush=True)
 be.save(f"{OUT}/model")
 report = dict(variant=cfg["name"], cfg=cfg, base=cfg["base"], method=cfg["method"], counts=counts, real_reps=reps,
               steps=step, select=cfg["select"], selected_step=best["step"] if select_dev else step,

@@ -365,7 +365,7 @@ def train_variant(run_cfg, primary, offset):
         elif line.startswith("DEV "):
             d = json.loads(line[4:])
             log(f"{run_cfg['name']} dev @{d['step']} ({d['stage']}): {d['dev']}  {json.dumps(d['res'])}")
-        elif line.startswith(("data ", "model ", "selected ")) or "Error" in line:
+        elif line.startswith(("data ", "model ", "modes ", "selected ", "HYP ")) or "Error" in line:
             log(f"{run_cfg['name']}: {line[:400]}")
         elif time.time() - last[0] > 600:  # keep the backend's stall timer fed during long stages
             last[0] = time.time()

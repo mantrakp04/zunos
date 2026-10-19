@@ -8,9 +8,10 @@ computed here from its logits: decoder input = the model's 10-token prompt (lang
 tokens, cross-entropy on the label tokens and <|endoftext|> only. No NeMo needed. Text ids are the aggregate
 tokenizer's: multilingual SentencePiece pieces offset by the special-token vocab (1152).
 
-Mode per language: romanized when the user's labels are in English letters (and the language isn't English),
-else native. The bake-off: romanized mode beats native + transliteration by 10-19 points, and the model's own
-language ID calls Hindi Urdu, so the language is always restricted to the user's languages.
+Mode per language (set_modes, from the user's clips): romanized when the user's labels are in English letters
+(and the language isn't English), else native. The bake-off: romanized mode beats native + transliteration by
+10-19 points, and the model's own language ID calls Hindi Urdu, so the language is always restricted to the
+user's languages.
 
 Full fine-tune, decoder-only ("partial": freeze_enc > 0 freezes the encoder), or LoRA (decoder attention and
 feed-forward plus encoder attention). The encoder's BatchNorm layers stay in eval mode: batches are small.
@@ -82,17 +83,29 @@ class FlexBackend:
     def params(self):
         return [p for p in self.model.parameters() if p.requires_grad]
 
-    def mode_for(self, lang, text=None):
-        if lang not in self.modes and text is not None:
-            latin = all("LATIN" in __import__("unicodedata").name(c, "") for c in text if c.isalpha())
+    def set_modes(self, rows):
+        """Output mode per language from the user's labels ({lang, text} rows): romanized when most of a
+        language's labels are in English letters (and it isn't English), else native. Call it in the main
+        process before training or decoding: example() runs in DataLoader worker processes, so a mode first
+        learned there never reaches transcribe() or save() (that left the test, and the Mac, on native)."""
+        from zunos_core.scoring import is_latin
+
+        for lang in sorted({r["lang"] for r in rows}):
+            texts = [r["text"] for r in rows if r["lang"] == lang]
+            latin = sum(map(is_latin, texts)) > len(texts) / 2
             self.modes[lang] = "romanized" if latin and lang != "en" else "native"
-        return self.modes.get(lang, "native")
+        return self.modes
+
+    def mode_for(self, lang):
+        if lang not in self.modes:
+            raise KeyError(f"no output mode for {lang!r}: call set_modes() with the user's clips first")
+        return self.modes[lang]
 
     def text_ids(self, text):
         return [self.tok.spl_size + i for i in self.tok.multi.encode(text.strip())]
 
     def example(self, audio, text, lang):
-        mode = self.mode_for(lang, text)
+        mode = self.mode_for(lang)
         prompt = self.tok.encode_prompt(lang, romanized=mode == "romanized")
         ids = (prompt + self.text_ids(text) + [self.tok.eos_id])[: self.base_model().config.max_target_positions]
         return np.asarray(audio[: 30 * 16000], np.float32), ids, len(prompt)
@@ -121,14 +134,16 @@ class FlexBackend:
         logits = self.model(encoder_outputs=enc, decoder_input_ids=batch["inp"].to(self.device), use_cache=False).logits
         return torch.nn.functional.cross_entropy(logits.float().transpose(1, 2), batch["tgt"].to(self.device), ignore_index=-100)
 
-    def transcribe(self, audios, langs=None, beams=1, bs=1, allowed=None):
+    def transcribe(self, audios, langs=None, beams=1, bs=1, allowed=None, mode=None):
+        """`mode` forces one output mode for every clip (compare.py's probe); default: the language's mode."""
         self.model.eval()  # asr.model is the same object; PEFT injects LoRA layers into it in place
         out = []
         allow = [l for l in (allowed or []) if l in self.supported] or None
         with torch.inference_mode(), torch.autocast(self.device.type, dtype=self.dtype, enabled=self.dtype != torch.float32):
             for i, a in enumerate(audios):
                 lang = langs[i] if langs else (self.asr.identify(a, topk=1, allowed_langs=allow)[0][0] if allow else None)
-                text = self.asr.transcribe(np.asarray(a[: 40 * 16000], np.float32), lang=lang, mode=self.mode_for(lang) if lang else "native",
+                text = self.asr.transcribe(np.asarray(a[: 40 * 16000], np.float32), lang=lang,
+                                           mode=mode or (self.mode_for(lang) if lang else "native"),
                                            num_beams=max(1, beams), do_sample=False)
                 out.append(text.strip())
         self.train_mode()
