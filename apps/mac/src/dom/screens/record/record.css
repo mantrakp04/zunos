@@ -1,0 +1,270 @@
+/* Record screen: the stage, the keycaps, the masks. Tailwind handles the rest. */
+
+/* ---- the stage ------------------------------------------------------------------------------ */
+.rk-stage {
+  position: relative;
+  border-radius: 24px;
+  background:
+    radial-gradient(120% 80% at 50% 0%, color-mix(in oklab, var(--brand-cream) 22%, transparent), transparent 60%),
+    linear-gradient(180deg, var(--card), color-mix(in oklab, var(--card) 92%, var(--brand-cream)));
+  box-shadow:
+    0 0 0 1px var(--border),
+    var(--elevate);
+  transition: box-shadow 400ms ease;
+}
+.dark .rk-stage {
+  background:
+    radial-gradient(120% 80% at 50% 0%, color-mix(in oklab, var(--brand) 9%, transparent), transparent 60%),
+    linear-gradient(180deg, color-mix(in oklab, var(--card) 100%, #000), color-mix(in oklab, var(--card) 70%, #000));
+}
+.rk-stage[data-rec="true"] {
+  box-shadow:
+    0 0 0 1.5px color-mix(in oklab, var(--brand) 60%, transparent),
+    0 0 0 6px color-mix(in oklab, var(--brand) 9%, transparent),
+    var(--elevate);
+}
+
+/* fade lines out at the top and bottom of the reading area */
+.rk-fade-y {
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 30%, #000 70%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 30%, #000 70%, transparent 100%);
+}
+.rk-fade-page {
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 28px, #000 calc(100% - 36px), transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 28px, #000 calc(100% - 36px), transparent 100%);
+}
+.rk-fade-x {
+  -webkit-mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 48px), transparent 100%);
+  mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 48px), transparent 100%);
+}
+
+/* one prompter line */
+.rk-line {
+  transition:
+    opacity 520ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 620ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 520ms ease,
+    color 400ms ease,
+    text-shadow 400ms ease;
+  transform-origin: 50% 50%;
+}
+.rk-line[data-now="true"][data-reading="true"] {
+  color: var(--foreground);
+}
+.dark .rk-line[data-now="true"][data-reading="true"] {
+  color: #fff6ea;
+  text-shadow:
+    0 0 22px color-mix(in oklab, var(--brand-gold) 40%, transparent),
+    0 0 2px color-mix(in oklab, var(--brand-cream) 30%, transparent);
+}
+.rk-caret {
+  transition:
+    width 520ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 300ms ease;
+}
+
+/* the warm light behind the line being read; its strength follows the voice (set from rAF) */
+.rk-spot {
+  background: radial-gradient(closest-side, color-mix(in oklab, var(--brand-gold) 34%, transparent), transparent);
+  opacity: 0;
+  will-change: opacity, scale;
+}
+.dark .rk-spot {
+  background: radial-gradient(closest-side, color-mix(in oklab, var(--brand) 30%, transparent), transparent);
+}
+.rk-spot-base {
+  background: radial-gradient(closest-side, color-mix(in oklab, var(--brand-cream) 45%, transparent), transparent);
+  transition: opacity 600ms ease;
+}
+.dark .rk-spot-base {
+  background: radial-gradient(closest-side, color-mix(in oklab, var(--brand-gold) 10%, transparent), transparent);
+}
+
+/* ---- keycaps -------------------------------------------------------------------------------- */
+.rk-key {
+  --top: #ff6c4c;
+  --mid: var(--brand);
+  --bot: var(--brand-deep);
+  --skirt: #a92a1d;
+  --glow: rgb(243 74 45 / 0.55);
+  position: relative;
+  display: inline-flex;
+  height: 60px;
+  min-width: 252px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 16px 0 20px;
+  border-radius: 18px;
+  color: #fff;
+  font: 600 16.5px/1 var(--display-font);
+  letter-spacing: -0.01em;
+  background: linear-gradient(180deg, var(--top), var(--mid) 55%, var(--bot));
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.38),
+    inset 0 -1px 0 rgb(0 0 0 / 0.14),
+    0 4px 0 var(--skirt),
+    0 5px 2px rgb(0 0 0 / 0.14),
+    0 16px 30px -12px var(--glow);
+  transform: translateY(0);
+  transition:
+    transform 70ms ease-out,
+    box-shadow 70ms ease-out,
+    filter 150ms;
+  outline: none;
+  cursor: default;
+}
+.rk-key:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+.rk-key:active:not(:disabled),
+.rk-key[data-pressed="true"] {
+  transform: translateY(3px);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.3),
+    inset 0 -1px 0 rgb(0 0 0 / 0.14),
+    0 1px 0 var(--skirt),
+    0 2px 1px rgb(0 0 0 / 0.12),
+    0 8px 16px -10px var(--glow);
+}
+.rk-key:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 5px;
+}
+.rk-key[data-state="recording"] {
+  --top: #55322a;
+  --mid: #3d211b;
+  --bot: #2b1612;
+  --skirt: #140906;
+  --glow: rgb(42 23 18 / 0.5);
+  color: var(--brand-cream);
+}
+.dark .rk-key[data-state="recording"] {
+  --top: #fff3d6;
+  --mid: var(--brand-cream);
+  --bot: #f3c66f;
+  --skirt: #a87a2c;
+  --glow: rgb(246 165 60 / 0.4);
+  color: var(--brand-ink);
+}
+.rk-key[data-state="busy"] {
+  --top: #f6e7d6;
+  --mid: #efdcc7;
+  --bot: #e3cdb4;
+  --skirt: #c3a98c;
+  --glow: rgb(64 32 25 / 0.2);
+  color: var(--brand-ink);
+}
+.dark .rk-key[data-state="busy"] {
+  --top: #3a2a24;
+  --mid: #30221d;
+  --bot: #261a16;
+  --skirt: #110a08;
+  --glow: rgb(0 0 0 / 0.4);
+  color: var(--foreground);
+}
+.rk-key:disabled {
+  opacity: 0.55;
+}
+
+@container (max-width: 860px) {
+  .rk-key {
+    min-width: 204px;
+    padding: 0 12px 0 16px;
+  }
+  .rk-sub {
+    padding: 0 10px;
+  }
+}
+
+.rk-legend {
+  display: inline-flex;
+  height: 22px;
+  align-items: center;
+  padding: 0 7px;
+  border-radius: 7px;
+  font: 600 10.5px/1 var(--text-font);
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+  box-shadow: inset 0 0 0 1px currentColor;
+  opacity: 0.7;
+}
+
+.rk-sub {
+  display: inline-flex;
+  height: 44px;
+  align-items: center;
+  gap: 9px;
+  padding: 0 14px 0 10px;
+  border-radius: 14px;
+  color: var(--foreground);
+  font: 500 13.5px/1 var(--text-font);
+  background: linear-gradient(180deg, var(--card), color-mix(in oklab, var(--card) 94%, var(--muted)));
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.75),
+    0 0 0 1px var(--input),
+    0 3px 0 var(--input),
+    0 8px 14px -10px rgb(64 32 25 / 0.35);
+  transition:
+    transform 70ms ease-out,
+    box-shadow 70ms ease-out,
+    opacity 250ms ease,
+    scale 250ms cubic-bezier(0.22, 1, 0.36, 1);
+  outline: none;
+  cursor: default;
+}
+.dark .rk-sub {
+  box-shadow:
+    inset 0 1px 0 rgb(255 240 225 / 0.06),
+    0 0 0 1px var(--input),
+    0 3px 0 rgb(0 0 0 / 0.55),
+    0 8px 14px -10px rgb(0 0 0 / 0.6);
+}
+.rk-sub:active:not(:disabled),
+.rk-sub[data-pressed="true"] {
+  transform: translateY(2px);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.6),
+    0 0 0 1px var(--input),
+    0 1px 0 var(--input);
+}
+.rk-sub:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+}
+.rk-sub[data-hidden="true"] {
+  opacity: 0;
+  scale: 0.92;
+  pointer-events: none;
+}
+.rk-sub .zn-kbd {
+  font-size: 10.5px;
+  min-width: 2.4em;
+}
+
+.rk-rec-dot {
+  animation: rk-pulse 1.3s ease-in-out infinite;
+}
+@keyframes rk-pulse {
+  50% {
+    opacity: 0.35;
+    scale: 0.8;
+  }
+}
+
+/* library rows: keep 300 rows cheap */
+.rk-row {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 52px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rk-line,
+  .rk-caret,
+  .rk-track {
+    transition: none !important;
+  }
+  .rk-rec-dot {
+    animation: none;
+  }
+}
