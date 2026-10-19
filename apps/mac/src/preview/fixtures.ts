@@ -20,7 +20,7 @@ import type {
 } from "../shared/types";
 import seed from "../../../../packages/db/src/seed-prompts.json";
 
-export type DataKind = "full" | "fresh" | "onboarding" | "stress";
+export type DataKind = "full" | "fresh" | "onboarding" | "stress" | "partial" | "minimum";
 
 export type Clips = Record<string, { trainSeconds: number; testSeconds: number; trainClips: number; testClips: number }>;
 
@@ -352,19 +352,20 @@ export function makeData(kind: DataKind): Data {
     quote: QUOTE,
   };
   if (kind === "stress") return stressData(common);
-  if (kind !== "full")
+  if (kind === "fresh" || kind === "onboarding")
     return { ...common, prompts: prompts(0), clips: {}, runs: [], models: [], evals: {}, dictations: [] };
 
   const rs = runs();
   const models = [...modelFor(rs[0]!, false), ...modelFor(rs[1]!, true)];
+  // Minutes per language: a full set everywhere, or (partial) one language under the 5-minute
+  // minimum, or (minimum) everything between the minimum and a full set.
+  const mins: Record<string, number> =
+    kind === "partial" ? { en: 6, hi: 6.2, gu: 3 } : kind === "minimum" ? { en: 6.5, hi: 8, gu: 5.4 } : { en: 28.8, hi: 20.1, gu: 13.4 };
+  const clip = (m: number) => ({ trainSeconds: m * 60 * 0.77, testSeconds: m * 60 * 0.23, trainClips: Math.round(m * 4.9), testClips: Math.round(m * 1.6) });
   return {
     ...common,
     prompts: prompts(0.34),
-    clips: {
-      en: { trainSeconds: 1324, testSeconds: 402, trainClips: 141, testClips: 46 },
-      hi: { trainSeconds: 918, testSeconds: 287, trainClips: 97, testClips: 31 },
-      gu: { trainSeconds: 611, testSeconds: 196, trainClips: 66, testClips: 21 },
-    },
+    clips: { en: clip(mins.en!), hi: clip(mins.hi!), gu: clip(mins.gu!) },
     runs: rs,
     models,
     evals: {

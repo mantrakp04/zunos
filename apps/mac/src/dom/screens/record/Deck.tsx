@@ -15,7 +15,6 @@ export const Deck = memo(function Deck({
   lineCount,
   last,
   again,
-  estimate,
   savedNote,
   pressed,
   disabled,
@@ -30,8 +29,6 @@ export const Deck = memo(function Deck({
   last: boolean;
   /** The prompt has been read before. */
   again: boolean;
-  /** Seconds a calm read takes. */
-  estimate: number;
   savedNote: string | null;
   pressed: KeyName | null;
   disabled: boolean;
@@ -74,13 +71,7 @@ export const Deck = memo(function Deck({
                 </div>
                 <div title={savedNote} className="truncate">{savedNote}</div>
               </>
-            ) : (
-              <>
-                <div className="font-display text-[15px] font-semibold whitespace-nowrap text-foreground tabular-nums">
-                  {lineCount} line{lineCount === 1 ? "" : "s"} <span className="text-muted-foreground">· about {minutes(estimate)}</span>
-                </div>
-              </>
-            )}
+            ) : null}
           </motion.div>
         </AnimatePresence>
       </div>

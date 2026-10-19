@@ -210,6 +210,9 @@ export const message = (e: unknown) => (e instanceof Error ? e.message : String(
  */
 export const ENOUGH_SECONDS = 5 * 60;
 
+/** Speech per language that counts as a full set; past the minimum, more keeps improving the model. */
+export const FULL_SECONDS = 10 * 60;
+
 /** Enabled languages still short of ENOUGH_SECONDS, with how many seconds each still needs. */
 export const shortOf = (stats: { lang: string; trainSeconds: number; testSeconds: number }[]) =>
   stats.map((s) => ({ lang: s.lang, need: ENOUGH_SECONDS - s.trainSeconds - s.testSeconds })).filter((s) => s.need > 0);

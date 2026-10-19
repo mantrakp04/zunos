@@ -1,11 +1,11 @@
 // Small pure helpers for the Record screen: grouping the library, labels, clocks.
-import type { PromptItem, SavedRecording } from "../../../shared/types";
-import { ENOUGH_SECONDS } from "../../ui";
+import type { PromptItem } from "../../../shared/types";
+import { ENOUGH_SECONDS, FULL_SECONDS } from "../../ui";
 
 /** Speech per language that's enough to train: the dials fill toward it, then keep counting. */
 export const GOAL_SECONDS = ENOUGH_SECONDS;
-/** Where the dials' "more is better" arc tops out. Past it, more still helps; the arc just stays full. */
-export const PLENTY_SECONDS = 30 * 60;
+/** Where the dials' "more is better" arc tops out: a full set, the same one Start training fills toward. */
+export const PLENTY_SECONDS = FULL_SECONDS;
 
 export type Group = "own" | "para" | "twister" | "sentence";
 
@@ -38,12 +38,6 @@ export function promptLabel(p: PromptItem, list: PromptItem[]) {
 // Built-in titles carry a note the language dial already says ("(typed in English)").
 const cleanTitle = (t: string) => t.replace(/\s*\(typed in [^)]*\)\s*$/i, "");
 
-/** About how long a calm read takes, from word count. */
-export function readingSeconds(lines: string[]) {
-  const words = lines.join(" ").split(/\s+/).filter(Boolean).length;
-  return Math.max(3, Math.round(words / 2.6));
-}
-
 export const clock = (s: number) => {
   const t = Math.max(0, Math.floor(s));
   return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, "0")}`;
@@ -56,4 +50,3 @@ export const splitLines = (text: string) =>
     .map((l) => l.trim())
     .filter(Boolean);
 
-export type Take = { at: number; promptId: string; label: string; saved: SavedRecording };

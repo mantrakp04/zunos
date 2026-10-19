@@ -7,16 +7,15 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import type { Lang, PromptItem } from "../../shared/types";
 import { Bean, type BeanMood } from "../Bean";
+import { TrainButton } from "../TrainButton";
 import { Badge, Button, ErrorNote, langName, minutes, useAction, useAsync, usePresent } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 import { Compose } from "./record/Compose";
-import { Enough } from "./record/Enough";
 import { Clock, Deck, type KeyName, type Phase } from "./record/Deck";
 import { LanguageDials } from "./record/LanguageDials";
 import { Library } from "./record/Library";
-import { promptLabel, readingSeconds, type Take } from "./record/model";
+import { promptLabel } from "./record/model";
 import { Prompter } from "./record/Prompter";
-import { TakeTray } from "./record/TakeTray";
 import { VoiceRibbon } from "./record/VoiceRibbon";
 
 export default function Record({ a, live, go }: ScreenProps) {
@@ -44,7 +43,6 @@ export default function Record({ a, live, go }: ScreenProps) {
   // ---- the take
   const [line, setLine] = useState(-1); // -1: not started
   const [since, setSince] = useState(0);
-  const [takes, setTakes] = useState<Take[]>([]);
   const [savedNote, setSavedNote] = useState<string | null>(null);
   const [cheer, setCheer] = useState(false);
   const levelRef = useRef(0);
@@ -65,8 +63,6 @@ export default function Record({ a, live, go }: ScreenProps) {
     } finally {
       setLine(-1);
     }
-    const { kind, title } = promptLabel(p, list);
-    setTakes((t) => [{ at: Date.now(), promptId: p.id, label: `${kind} ${title}`, saved }, ...t]);
     setSavedNote(`${minutes(saved.seconds)} as ${saved.clips.length} clip${saved.clips.length === 1 ? "" : "s"}`);
     setCheer(true);
     // On to the next one you haven't read yet, so a run of sentences is just Space, Space, Space.
@@ -177,10 +173,14 @@ export default function Record({ a, live, go }: ScreenProps) {
   const error = start.error ?? finish.error ?? cancel.error ?? prompts.error;
   const done = list.filter((p) => p.recorded).length;
   const single = (prompt?.lines.length ?? 1) === 1;
-  // Memoised so the Deck (memo) doesn't re-render with every mic level update.
-  const enough = useMemo(
-    () => (locked ? null : <Enough stats={stats.data} current={current} onLang={onLang} onTrain={go && (() => go("train"))} />),
-    [locked, stats.data, current, onLang, go],
+  // Start training fills as you record. Memoised so the Deck (memo) doesn't re-render with every mic level update.
+  const counts = useMemo(
+    () => enabled.map(({ code }) => stats.data?.find((s) => s.lang === code) ?? { lang: code, trainSeconds: 0, testSeconds: 0 }),
+    [enabled, stats.data],
+  );
+  const trainButton = useMemo(
+    () => (locked ? null : <TrainButton stats={stats.data ? counts : null} onTrain={() => go?.("train")} />),
+    [locked, counts, stats.data, go],
   );
 
   return (
@@ -294,22 +294,17 @@ export default function Record({ a, live, go }: ScreenProps) {
           lineCount={prompt?.lines.length ?? 0}
           last={last}
           again={!!prompt?.recorded}
-          estimate={prompt ? readingSeconds(prompt.lines) : 0}
           savedNote={savedNote}
           pressed={pressed}
           disabled={!prompt || composing}
           onPrimary={onPrimary}
           onFinish={onFinish}
           onDiscard={onDiscard}
-          aside={enough}
+          aside={trainButton}
         />
       </div>
 
       {error && <ErrorNote error={error} className="mt-3" />}
-
-      <div className="mt-2">
-        <TakeTray takes={takes} />
-      </div>
 
       <AnimatePresence>
         {drawer && current && (

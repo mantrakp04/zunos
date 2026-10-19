@@ -38,7 +38,7 @@ export const LanguageDials = memo(function LanguageDials({ languages, stats, val
               data-strip-key={l.code}
               disabled={disabled && !on}
               onClick={() => onChange(l.code)}
-              title={`${l.name}${s ? `: ${mins} min, ${s.trainClips} training clips, ${s.testClips} held back for testing.${done ? " Enough to train; more makes a better model." : ` ${GOAL_SECONDS / 60} min is enough to train.`}` : ""}`}
+              title={`${l.name}${s ? `: ${mins} min.${done ? " Enough to train; more makes a better model." : ` ${GOAL_SECONDS / 60} min is enough to train.`}` : ""}`}
               className={cn(
                 "relative flex h-[56px] max-w-[13rem] shrink-0 snap-start items-center gap-2.5 rounded-[16px] pr-2 pl-[11px] text-left whitespace-nowrap transition-[color,opacity] disabled:opacity-40",
                 on ? "text-foreground" : "text-muted-foreground hover:text-foreground",
