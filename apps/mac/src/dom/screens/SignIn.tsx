@@ -132,9 +132,6 @@ export default function SignIn({ a }: ScreenProps) {
                       {send.busy ? <Loader2 className="size-[18px] animate-spin" /> : <ArrowRight className="size-[19px]" strokeWidth={2.4} />}
                     </motion.button>
                   </div>
-                  <p className="mt-3 px-1 text-[12.5px] leading-relaxed text-muted-foreground">
-                    We'll email you a 6-digit code. New here? The same code creates your account.
-                  </p>
                   <ErrorNote error={send.error} className="mt-3" />
                 </motion.form>
               ) : (

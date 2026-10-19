@@ -48,7 +48,6 @@ export default function Languages({ a, initial, onDone, canCancel = false, onCan
     [initial, q],
   );
   const pickedLangs = picked.map((c) => byCode.get(c)).filter((l): l is Language => !!l);
-  const romanized = pickedLangs.filter((l) => l.script === ROMAN);
 
   // Stable, so the 100 memoized tiles don't re-render on every pick.
   const pickedRef = useRef(picked);
@@ -99,14 +98,10 @@ export default function Languages({ a, initial, onDone, canCancel = false, onCan
             <h1 className="mt-4 font-display text-[32px] leading-[1.04] font-bold tracking-[-0.03em] text-balance">
               Which languages do you speak?
             </h1>
-            <p className="mt-2.5 text-[13.5px] leading-relaxed text-muted-foreground">
-              Pick every language you talk in. Switching between them mid-sentence is fine.
-            </p>
           </div>
 
           <Tray langs={pickedLangs} onRemove={toggle} />
 
-          <RomanNote romanized={romanized} />
 
           <div className="mt-4 flex flex-col gap-2.5">
             <Button variant="brand" size="lg" className="w-full" disabled={!picked.length} loading={save.busy} onClick={() => save.run()}>
@@ -280,42 +275,7 @@ function Tray({ langs, onRemove }: { langs: Language[]; onRemove: (c: Lang) => v
   );
 }
 
-/* ---- romanized languages, explained once ---------------------------------------------------- */
-
-function RomanNote({ romanized }: { romanized: Language[] }) {
-  const names = romanized.map((l) => l.name);
-  // Three names read fine; more would fill the panel, so name two and count the rest.
-  const list =
-    names.length <= 1
-      ? names.join("")
-      : names.length <= 3
-        ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`
-        : `${names.slice(0, 2).join(", ")} and ${names.length - 2} more`;
-  return (
-    <div className="mt-4 flex gap-3 rounded-[14px] px-0.5">
-      <AaBadge className="mt-0.5" />
-      <div className="min-w-0 text-[12.5px] leading-relaxed text-muted-foreground">
-        {romanized.length ? (
-          <>
-            <span className="text-foreground" title={names.length > 3 ? names.join(", ") : undefined}>
-              {list}
-            </span>{" "}
-            {romanized.length === 1 ? "is" : "are"} written in English letters, the way you'd type
-            {romanized.length === 1 ? " it" : " them"} in a chat:{" "}
-            {romanized.slice(0, 2).map((l, i) => (
-              <span key={l.code}>
-                {i > 0 && " · "}
-                <span className="font-medium text-foreground italic">{ROMANIZED_SAMPLE[l.code] ?? l.name.toLowerCase()}</span>
-              </span>
-            ))}
-          </>
-        ) : (
-          <>Languages marked Aa are written in English letters, the way you'd type them in a chat.</>
-        )}
-      </div>
-    </div>
-  );
-}
+/* ---- the mark on languages written in English letters (its tooltip says so) ------------------- */
 
 function AaBadge({ className, on }: { className?: string; on?: boolean }) {
   return (
