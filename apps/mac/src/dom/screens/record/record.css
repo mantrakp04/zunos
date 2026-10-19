@@ -268,3 +268,28 @@
     animation: none;
   }
 }
+
+/* ---- reading text in a native script ---------------------------------------------------------- */
+/* The rounded display face covers Latin only (named directly: --display-font ends in a generic family
+   that would win before these); then the system faces that set each script well
+   at prompter sizes. Shaping needs zero tracking. Urdu's Nastaliq rides high and low: extra leading. */
+.rk-native {
+  font-family:
+    ui-rounded, "SF Pro Rounded", "Kohinoor Devanagari", "Devanagari Sangam MN", "Kohinoor Gujarati", "Gujarati Sangam MN",
+    "Kohinoor Bangla", "Bangla Sangam MN", "Gurmukhi Sangam MN", "Tamil Sangam MN", "Telugu Sangam MN",
+    "Kannada Sangam MN", "Malayalam Sangam MN", "Sinhala Sangam MN", "Oriya Sangam MN", "SF Arabic", "Geeza Pro",
+    "Noto Nastaliq Urdu", "PingFang SC", "Hiragino Sans", "Apple SD Gothic Neo", "Thonburi", system-ui, sans-serif;
+  letter-spacing: 0;
+  font-feature-settings: normal;
+}
+.rk-native:lang(ur) {
+  font-family: "Noto Nastaliq Urdu", "SF Arabic", "Geeza Pro", ui-rounded, "SF Pro Rounded", system-ui, sans-serif;
+  line-height: 2;
+}
+.rk-native:lang(zh),
+.rk-native:lang(ja),
+.rk-native:lang(ko),
+.rk-native:lang(yue) {
+  line-break: strict;
+  word-break: normal;
+}

@@ -5,11 +5,12 @@ import { ArrowLeft, Check, Search, X } from "lucide-react";
 import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-import type { Lang, Language } from "../../shared/types";
+import type { Lang, Language, Script } from "../../shared/types";
 import { Bean } from "../Bean";
 import { Button, ErrorNote, Kbd, useAction } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 import { endonym, GREETINGS, ROMANIZED_SAMPLE } from "./onboarding/endonyms";
+import { ScriptToggle } from "./record/ScriptToggle";
 
 const STEPS = [
   { title: "Languages", description: "What you speak" },
@@ -38,6 +39,30 @@ export default function Languages({ a, initial, onDone, canCancel = false, onCan
   });
 
   const byCode = useMemo(() => new Map(initial.map((l) => [l.code, l])), [initial]);
+
+  // Read in native script or English letters, per language. Saved as soon as it's picked.
+  const [scripts, setScripts] = useState<Partial<Record<Lang, Script>>>(() => Object.fromEntries(initial.map((l) => [l.code, l.script])));
+  // The list we were handed can predate a change made on Record; read the current choices once.
+  const touched = useRef(new Set<Lang>());
+  useEffect(() => {
+    let live = true;
+    a.languages()
+      .then((ls) => live && setScripts((x) => ({ ...x, ...Object.fromEntries(ls.filter((l) => !touched.current.has(l.code)).map((l) => [l.code, l.script])) })))
+      .catch(() => {});
+    return () => void (live = false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  const setScript = useAction(async (lang: Lang, s: Script) => {
+    touched.current.add(lang);
+    const was = scripts[lang];
+    setScripts((x) => ({ ...x, [lang]: s }));
+    try {
+      await a.setLanguageScript(lang, s);
+    } catch (e) {
+      setScripts((x) => ({ ...x, [lang]: was }));
+      throw e;
+    }
+  });
   const q = query.trim().toLowerCase();
   const shown = useMemo(
     () =>
@@ -101,6 +126,9 @@ export default function Languages({ a, initial, onDone, canCancel = false, onCan
 
           <Tray langs={pickedLangs} onRemove={toggle} />
 
+          <ReadIn langs={pickedLangs.filter((l) => l.hasRoman)} scripts={scripts} busy={setScript.busy} onChange={(l, s) => setScript.run(l, s)} />
+          <ErrorNote error={setScript.error} className="mt-2" />
+
 
           <div className="mt-4 flex flex-col gap-2.5">
             <Button variant="brand" size="lg" className="w-full" disabled={!picked.length} loading={save.busy} onClick={() => save.run()}>
@@ -149,7 +177,7 @@ export default function Languages({ a, initial, onDone, canCancel = false, onCan
             {shown.length ? (
               <div className="grid grid-cols-[repeat(auto-fill,minmax(158px,1fr))] gap-2.5">
                 {shown.map((l) => (
-                  <Tile key={l.code} lang={l} on={picked.includes(l.code)} onToggle={toggle} />
+                  <Tile key={l.code} lang={l} on={picked.includes(l.code)} roman={scripts[l.code] === "roman"} onToggle={toggle} />
                 ))}
               </div>
             ) : (
@@ -220,6 +248,28 @@ function Greeting({ hop }: { hop: number }) {
 }
 
 /* ---- your voice: the picked languages collect here ----------------------------------------- */
+
+/** Picked languages that can be read either way, each with its "Read in" choice. */
+function ReadIn({ langs, scripts, busy, onChange }: {
+  langs: Language[]; scripts: Partial<Record<Lang, Script>>; busy: boolean; onChange: (l: Lang, s: Script) => void;
+}) {
+  if (!langs.length) return null;
+  return (
+    <div className="mt-4 shrink-0">
+      <div className="mb-1.5 px-0.5 text-[10.5px] font-semibold tracking-[0.12em] text-muted-foreground uppercase">Read in</div>
+      <div className="flex max-h-[176px] flex-col overflow-y-auto">
+        {langs.map((l) => (
+          <div key={l.code} className="flex min-w-0 items-center justify-between gap-3 border-t border-foreground/[0.06] py-1.5 first:border-t-0">
+            <span className="min-w-0 truncate text-[13px] font-medium" title={l.name}>
+              {l.name}
+            </span>
+            <ScriptToggle lang={l} script={scripts[l.code] ?? l.script} disabled={busy} onChange={(s) => onChange(l.code, s)} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 function Tray({ langs, onRemove }: { langs: Language[]; onRemove: (c: Lang) => void }) {
   // Past a handful, the English names would push most chips out of view; the title still has them.
@@ -293,7 +343,7 @@ function AaBadge({ className, on }: { className?: string; on?: boolean }) {
 
 /* ---- one language ------------------------------------------------------------------------- */
 
-const Tile = memo(function Tile({ lang: l, on, onToggle }: { lang: Language; on: boolean; onToggle: (c: Lang) => void }) {
+const Tile = memo(function Tile({ lang: l, on, roman, onToggle }: { lang: Language; on: boolean; roman: boolean; onToggle: (c: Lang) => void }) {
   const endo = endonym(l.code, l.name);
   const glyph = Array.from(endo)[0];
   const size = endo.length > 14 ? "text-[15px]/[1.15]" : endo.length > 11 ? "text-[16.5px]/[1.15]" : "text-[20px]/[1.15]";
@@ -343,7 +393,7 @@ const Tile = memo(function Tile({ lang: l, on, onToggle }: { lang: Language; on:
       </div>
       <div className="relative flex items-center gap-1.5 text-[12px] text-muted-foreground">
         <span className="min-w-0 truncate">{l.name}</span>
-        {l.script === "roman" && <AaBadge on={on} />}
+        {roman && <AaBadge on={on} />}
       </div>
     </motion.button>
   );

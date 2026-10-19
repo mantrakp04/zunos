@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight, Library as LibraryIcon, PenLine } from "luci
 import { AnimatePresence } from "motion/react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-import type { Lang, PromptItem } from "../../shared/types";
+import type { Lang, PromptItem, Script } from "../../shared/types";
 import { Bean, type BeanMood } from "../Bean";
 import { TrainButton } from "../TrainButton";
 import { Badge, Button, ErrorNote, langName, minutes, useAction, useAsync, usePresent } from "../ui";
@@ -16,6 +16,7 @@ import { LanguageDials } from "./record/LanguageDials";
 import { Library } from "./record/Library";
 import { promptLabel } from "./record/model";
 import { Prompter } from "./record/Prompter";
+import { ScriptToggle } from "./record/ScriptToggle";
 import { VoiceRibbon } from "./record/VoiceRibbon";
 
 export default function Record({ a, live, go }: ScreenProps) {
@@ -25,6 +26,21 @@ export default function Record({ a, live, go }: ScreenProps) {
   const [lang, setLang] = useState<Lang | null>(null);
   const current = lang ?? enabled[0]?.code ?? null;
   const prompts = useAsync(() => (current ? a.prompts(current) : Promise.resolve([])), [current]);
+
+  // What you read in, per language: native script or English letters. Shown at once; the prompts
+  // come back in the new script after the save.
+  const currentLang = enabled.find((l) => l.code === current) ?? null;
+  const [scriptPick, setScriptPick] = useState<Partial<Record<Lang, Script>>>({});
+  const script: Script = (current && scriptPick[current]) || currentLang?.script || "native";
+  const switchScript = useAction(async (lang: Lang, s: Script) => {
+    setScriptPick((p) => ({ ...p, [lang]: s }));
+    try {
+      await a.setLanguageScript(lang, s);
+      await Promise.all([langs.reload(), prompts.reload()]);
+    } finally {
+      setScriptPick(({ [lang]: _, ...rest }) => rest as Partial<Record<Lang, Script>>);
+    }
+  });
 
   // Prompts written this session, in case the list hasn't caught up with them yet.
   const [created, setCreated] = useState<PromptItem[]>([]);
@@ -170,7 +186,10 @@ export default function Record({ a, live, go }: ScreenProps) {
   const mood: BeanMood = live.recording ? "listening" : finish.busy ? "thinking" : cheer ? "happy" : "idle";
   const label = prompt ? promptLabel(prompt, list) : null;
   const composing = !!current && (writing || (!prompts.loading && !prompt));
-  const error = start.error ?? finish.error ?? cancel.error ?? prompts.error;
+  const error = start.error ?? finish.error ?? cancel.error ?? prompts.error ?? switchScript.error;
+  // The starter set comes first in the queue; while you're in it, a quiet count of how far along.
+  const starters = list.filter((p) => p.starter);
+  const startersDone = starters.filter((p) => p.recorded).length;
   const done = list.filter((p) => p.recorded).length;
   const single = (prompt?.lines.length ?? 1) === 1;
   // Start training fills as you record. Memoised so the Deck (memo) doesn't re-render with every mic level update.
@@ -198,26 +217,34 @@ export default function Record({ a, live, go }: ScreenProps) {
         />
       </header>
 
-      <section data-rec={live.recording} className="rk-stage grain flex min-h-[260px] flex-1 flex-col overflow-hidden">
+      <section data-rec={live.recording} className="rk-stage grain flex min-h-[260px] flex-1 flex-col overflow-clip">
         <div className="relative z-10 flex h-[54px] shrink-0 items-center gap-2.5 pr-3 pl-5">
-          {composing ? (
-            <>
-              <Badge tone="brand">
-                <PenLine className="size-3" /> Your own
-              </Badge>
-              <span className="min-w-0 truncate text-[13.5px] font-medium">Write something to read in {current ? langName(current) : ""}</span>
-            </>
-          ) : label ? (
-            <>
-              <Badge tone="brand">{label.kind}</Badge>
-              <span title={label.title} className="min-w-0 truncate text-[13.5px] font-medium tabular-nums">{label.title}</span>
-              {prompt?.recorded && <Badge tone="good">Read before</Badge>}
-            </>
-          ) : (
-            <span className="text-[13px] text-muted-foreground">{prompts.loading ? "Loading…" : null}</span>
-          )}
+          {/* The label side gives way first: the title truncates, the starter count drops on a narrow card. */}
+          <div className="flex min-w-0 flex-1 items-center gap-2.5 overflow-hidden">
+            {composing ? (
+              <>
+                <Badge tone="brand">
+                  <PenLine className="size-3" /> Your own
+                </Badge>
+                <span className="min-w-0 truncate text-[13.5px] font-medium">Write something to read in {current ? langName(current) : ""}</span>
+              </>
+            ) : label ? (
+              <>
+                <Badge tone="brand" className="shrink-0">{label.kind}</Badge>
+                <span title={label.title} className="min-w-0 truncate text-[13.5px] font-medium tabular-nums">{label.title}</span>
+                {prompt?.recorded && <Badge tone="good" className="shrink-0 @max-[820px]:hidden">Read before</Badge>}
+                {prompt?.starter && (
+                  <span title="Starter set" className="shrink-0 text-[11.5px] whitespace-nowrap text-muted-foreground tabular-nums @max-[820px]:hidden">
+                    starter {startersDone}/{starters.length}
+                  </span>
+                )}
+              </>
+            ) : (
+              <span className="text-[13px] text-muted-foreground">{prompts.loading ? "Loading…" : null}</span>
+            )}
+          </div>
 
-          <div className="ml-auto flex shrink-0 items-center gap-1">
+          <div className="flex shrink-0 items-center gap-1">
             {phase === "saving" ? (
               <span className="flex h-7 items-center rounded-full bg-foreground/[0.06] px-3 text-[12px] font-medium text-muted-foreground">Saving…</span>
             ) : live.recording || line >= 0 ? (
@@ -228,6 +255,18 @@ export default function Record({ a, live, go }: ScreenProps) {
               </span>
             ) : (
               <>
+                {currentLang && !composing && (
+                  <>
+                    <ScriptToggle
+                      lang={currentLang}
+                      script={script}
+                      disabled={locked || switchScript.busy}
+                      onChange={(s) => switchScript.run(currentLang.code, s)}
+                      className="mr-1"
+                    />
+                    {currentLang.hasRoman && <span className="mx-1 h-4 w-px bg-border" />}
+                  </>
+                )}
                 <IconButton title="Previous" disabled={locked || composing || index <= 0} onClick={() => onPick(list[index - 1]!.id)}>
                   <ChevronLeft className="size-4" />
                 </IconButton>
@@ -236,8 +275,8 @@ export default function Record({ a, live, go }: ScreenProps) {
                 </IconButton>
                 <span className="mx-1 h-4 w-px bg-border" />
                 {!composing && (
-                  <Button size="sm" variant="ghost" disabled={locked || !current} onClick={onWrite}>
-                    <PenLine className="size-3.5" /> Write your own
+                  <Button size="sm" variant="ghost" disabled={locked || !current} onClick={onWrite} title="Write your own">
+                    <PenLine className="size-3.5" /> <span className="@max-[860px]:hidden">Write your own</span>
                   </Button>
                 )}
                 <Button size="sm" variant="outline" disabled={locked || !current} onClick={() => setDrawer(true)}>

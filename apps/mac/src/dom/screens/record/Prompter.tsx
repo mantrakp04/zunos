@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { memo, useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import type { PromptItem } from "../../../shared/types";
+import { dirOf, needsNativeFont } from "../../scripts";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
@@ -19,6 +20,8 @@ export const Prompter = memo(function Prompter({ prompt, line, reading }: {
 }) {
   // Long passages read like a page before you start; short ones go straight to the big type.
   const page = line < 0 && prompt.lines.length > 2 && prompt.lines.join(" ").length > 220;
+  // Native-script text gets its own font stack (and right-to-left where the language reads that way).
+  const text = { lang: prompt.lang, dir: dirOf(prompt.lang, prompt.script), native: needsNativeFont(prompt.lines.join(" ")) };
   return (
     <div className="absolute inset-0 [container-type:size]">
       <AnimatePresence initial={false}>
@@ -30,7 +33,7 @@ export const Prompter = memo(function Prompter({ prompt, line, reading }: {
           transition={{ duration: 0.42, ease: EASE }}
           className="absolute inset-0"
         >
-          {page ? <Page lines={prompt.lines} /> : <Track lines={prompt.lines} focus={Math.max(0, line)} reading={reading} />}
+          {page ? <Page lines={prompt.lines} text={text} /> : <Track lines={prompt.lines} focus={Math.max(0, line)} reading={reading} text={text} />}
         </motion.div>
       </AnimatePresence>
     </div>
@@ -38,13 +41,22 @@ export const Prompter = memo(function Prompter({ prompt, line, reading }: {
 });
 
 /** The whole passage, before you start. */
-function Page({ lines }: { lines: string[] }) {
+type TextProps = { lang: string; dir: "rtl" | "ltr" | "auto"; native: boolean };
+
+function Page({ lines, text }: { lines: string[]; text: TextProps }) {
   return (
     <div className="rk-fade-page h-full overflow-y-auto scrollbar-none">
       <div className="mx-auto flex min-h-full max-w-[48rem] flex-col justify-center px-12 py-7">
-        <p className="font-display text-[clamp(15px,min(2.2cqi,4.6cqh),23px)] leading-[1.62] tracking-[-0.008em] text-pretty [overflow-wrap:anywhere]">
+        <p
+          lang={text.lang}
+          dir={text.dir}
+          className={cn(
+            "font-display text-[clamp(15px,min(2.2cqi,4.6cqh),23px)] leading-[1.62] text-pretty [overflow-wrap:anywhere]",
+            text.native ? "rk-native leading-[1.8]" : "tracking-[-0.008em]",
+          )}
+        >
           {lines.map((l, i) => (
-            <span key={i} dir="auto">
+            <span key={i} dir={text.dir === "auto" ? "auto" : undefined}>
               <sup className="mr-[0.3em] -top-[0.55em] font-mono text-[0.58em] font-semibold text-brand/70 tabular-nums">{i + 1}</sup>
               {l}
               {i < lines.length - 1 && " "}
@@ -57,7 +69,7 @@ function Page({ lines }: { lines: string[] }) {
 }
 
 /** The prompter: one column of lines that glides so the current one sits at the focal point. */
-function Track({ lines, focus, reading }: { lines: string[]; focus: number; reading: boolean }) {
+function Track({ lines, focus, reading, text }: { lines: string[]; focus: number; reading: boolean; text: TextProps }) {
   const box = useRef<HTMLDivElement>(null);
   const refs = useRef<(HTMLParagraphElement | null)[]>([]);
   const [size, setSize] = useState(0);
@@ -105,11 +117,14 @@ function Track({ lines, focus, reading }: { lines: string[]; focus: number; read
               }}
               data-now={now}
               data-reading={reading}
-              dir="auto"
+              lang={text.lang}
+              dir={text.dir}
               className={cn(
                 // Sized by the stage's width and height, so a long line (or a URL) still fits around the focal point.
-                "rk-line text-center font-display font-semibold tracking-[-0.022em] text-balance [overflow-wrap:anywhere]",
-                single ? "text-[clamp(18px,min(4.4cqi,13cqh),40px)] leading-[1.22]" : "text-[clamp(16px,min(3.6cqi,9cqh),34px)] leading-[1.24]",
+                "rk-line text-center font-display font-semibold text-balance [overflow-wrap:anywhere]",
+                single ? "text-[clamp(18px,min(4.4cqi,13cqh),40px)]" : "text-[clamp(16px,min(3.6cqi,9cqh),34px)]",
+                // Native scripts carry marks above and below the line: more leading, no negative tracking.
+                text.native ? "rk-native leading-[1.5]" : cn("tracking-[-0.022em]", single ? "leading-[1.22]" : "leading-[1.24]"),
                 !now && "text-foreground/90",
               )}
               style={{
