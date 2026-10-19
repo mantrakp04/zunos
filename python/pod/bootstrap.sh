@@ -17,8 +17,9 @@ mkdir -p /workspace/code /workspace/logs /workspace/hf /workspace/cache /root/en
 exec > >(tee -a /workspace/logs/setup.log) 2>&1
 ev '{"type":"stage","stage":"setup","status":"running"}'
 
-# HF_HUB_DISABLE_XET: xet downloads have stalled on small repos; plain HTTP is reliable.
-export HF_HOME=/workspace/hf UV_CACHE_DIR=/root/uv HF_HUB_DISABLE_XET=1 DEBIAN_FRONTEND=noninteractive \
+# HF_HUB_DISABLE_XET: xet downloads have stalled on small repos; plain HTTP is reliable. The Runpod image
+# turns hf_transfer on, but our envs don't install it.
+export HF_HOME=/workspace/hf UV_CACHE_DIR=/root/uv HF_HUB_DISABLE_XET=1 HF_HUB_ENABLE_HF_TRANSFER=0 DEBIAN_FRONTEND=noninteractive \
   ZUNOS_CACHE=${ZUNOS_CACHE:-/workspace/cache} FAIRSEQ2_CACHE_DIR=/root/fairseq2
 
 curl -fsSL "$ZUNOS_CODE_URL" | tar xz -C /workspace/code

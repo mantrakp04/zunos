@@ -97,13 +97,13 @@ def to_audio(model, tokens, prompt):
     from omnivoice.models.omnivoice import OmniVoiceGenerationConfig
 
     with torch.inference_mode():
-        return model._decode_and_post_process(tokens.cpu(), prompt.ref_rms, OmniVoiceGenerationConfig())
+        return model._decode_and_post_process(tokens.to(model.audio_tokenizer.device), prompt.ref_rms, OmniVoiceGenerationConfig())
 
 
 def raw_audio(model, tokens):
     """Decoded audio without post-processing: sample i <-> frame i * sr / FPS."""
     with torch.inference_mode():
-        return model.audio_tokenizer.decode(tokens.cpu().unsqueeze(0)).audio_values[0, 0].cpu().numpy()
+        return model.audio_tokenizer.decode(tokens.to(model.audio_tokenizer.device).unsqueeze(0)).audio_values[0, 0].cpu().numpy()
 
 
 class Aligner:
