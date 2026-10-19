@@ -11,5 +11,9 @@ export const migrations: { tag: string; sql: string }[] = [
   {
     "tag": "0002_drop_legacy_transcripts",
     "sql": "DROP TABLE `transcriptions`;--> statement-breakpoint\nDROP TABLE `segments`;--> statement-breakpoint\nALTER TABLE `clips` DROP COLUMN `segment_ids`;--> statement-breakpoint\nDELETE FROM `baselines` WHERE `provider` <> 'reference';--> statement-breakpoint\nDELETE FROM `settings` WHERE `key` = 'baseline_note';\n"
+  },
+  {
+    "tag": "0003_take_quality",
+    "sql": "ALTER TABLE `clips` ADD `path_48k_clean` text;--> statement-breakpoint\nALTER TABLE `clips` ADD `quality` text;--> statement-breakpoint\nALTER TABLE `recordings` ADD `clean_path` text;--> statement-breakpoint\nALTER TABLE `recordings` ADD `quality` text;"
   }
 ];

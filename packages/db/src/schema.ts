@@ -45,6 +45,11 @@ export const recordings = sqliteTable("recordings", {
   // Seconds at which the reader advanced to the next line (plus the end).
   marks: json<number[]>("marks").notNull(),
   recordedAt: text("recorded_at").notNull(),
+  // The take with its background noise cleaned (python/engine enhance.py); `path` stays the raw original.
+  cleanPath: text("clean_path"),
+  // Measurements of the raw and cleaned take, the cleaning strength used and why, the input device, and the
+  // issues found while recording (apps/mac/src/shared/types.ts TakeQuality).
+  quality: json<Record<string, unknown>>("quality"),
 });
 
 /** A training or test example: audio plus the word-for-word text. */
@@ -56,8 +61,13 @@ export const clips = sqliteTable("clips", {
   start: real("start"),
   end: real("end"),
   seconds: real("seconds").notNull(),
+  // Raw audio: training input and the test set (dictation hears the raw microphone).
   path16k: text("path_16k").notNull(),
   path48k: text("path_48k"),
+  // Cut from the cleaned take: what voice cloning copies the user's voice from.
+  path48kClean: text("path_48k_clean"),
+  // {speechDb, snrDb, peakDb, clippedPct} of the raw clip.
+  quality: json<Record<string, unknown>>("quality"),
   text: text("text").notNull(),
   nativeText: text("native_text"),
   unsure: integer("unsure", { mode: "boolean" }).notNull().default(false),
