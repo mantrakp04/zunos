@@ -3,7 +3,10 @@ import type { CorpusFile } from "./corpus";
 
 /** The reading corpus per language: a content hash, whether it has English-letter lines, and the file. */
 export const CORPUS: Record<string, { version: string; roman: boolean; load: () => CorpusFile }> = {
+  "ar": { version: "04645540ee49", roman: true, load: () => require("../corpus/ar.json") },
   "ca": { version: "0fdaf0f23daa", roman: false, load: () => require("../corpus/ca.json") },
+  "cs": { version: "abc66f8ad247", roman: false, load: () => require("../corpus/cs.json") },
+  "da": { version: "f31f93992642", roman: false, load: () => require("../corpus/da.json") },
   "de": { version: "b2a54e7baf1e", roman: false, load: () => require("../corpus/de.json") },
   "en": { version: "d91764280c4a", roman: false, load: () => require("../corpus/en.json") },
   "es": { version: "66a0c348e947", roman: false, load: () => require("../corpus/es.json") },
@@ -11,11 +14,14 @@ export const CORPUS: Record<string, { version: string; roman: boolean; load: () 
   "fr": { version: "6decaa8fa76b", roman: false, load: () => require("../corpus/fr.json") },
   "gu": { version: "8d3f6006c59c", roman: true, load: () => require("../corpus/gu.json") },
   "hi": { version: "d8177335f649", roman: true, load: () => require("../corpus/hi.json") },
+  "hr": { version: "0350c9011d52", roman: false, load: () => require("../corpus/hr.json") },
+  "hu": { version: "3d3c1a834916", roman: false, load: () => require("../corpus/hu.json") },
   "id": { version: "e8ffaf5d68bf", roman: false, load: () => require("../corpus/id.json") },
   "it": { version: "b26497f56946", roman: false, load: () => require("../corpus/it.json") },
   "ja": { version: "99584da5e1fc", roman: true, load: () => require("../corpus/ja.json") },
   "ms": { version: "2770e43a91f6", roman: false, load: () => require("../corpus/ms.json") },
   "nl": { version: "8a3a57fcde9a", roman: false, load: () => require("../corpus/nl.json") },
+  "no": { version: "490bb4ea1b23", roman: false, load: () => require("../corpus/no.json") },
   "pl": { version: "2d94ec2b2982", roman: false, load: () => require("../corpus/pl.json") },
   "pt": { version: "d2aa79607aa7", roman: false, load: () => require("../corpus/pt.json") },
   "ro": { version: "b7659df1ea78", roman: false, load: () => require("../corpus/ro.json") },

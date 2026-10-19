@@ -34,7 +34,7 @@
  */
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { duplicateIssues, type Item, itemIssues, TestIndex, testIssues } from "./checks";
+import { DupIndex, duplicateIssues, type Item, itemIssues, TestIndex, testIssues } from "./checks";
 import { PROFILES, type Profile, profile } from "./langs";
 import { askJson, CACHE_DIR, REVIEW_MODEL, stats } from "./llm";
 import { clean, getBrief, ideas, lines, loadTestTexts, log, OUT_DIR, parseItem, respell, rng, seconds, shuffle } from "./common";
@@ -434,6 +434,21 @@ async function main() {
       const starterSecs = seconds(p, data.items.filter((x) => data.starter.includes(x.id)));
       console.log(`${p.code}: ${data.items.length} items, ~${(seconds(p, data.items) / 60).toFixed(1)} min, starter ${data.starter.length} items ~${(starterSecs / 60).toFixed(1)} min${problems.length ? `, ${problems.length} problems:\n  ${problems.join("\n  ")}` : ", ok"}`);
       if (problems.length) bad++;
+      const synthFile = join(OUT_DIR, `${p.code}.synth.json`);
+      if (existsSync(synthFile)) {
+        // The synthesis pool: same checks, and no line repeating or nearly repeating any earlier line.
+        const pool = (JSON.parse(await Bun.file(synthFile).text()) as { items: Item[] }).items;
+        const index = new DupIndex(p);
+        for (const it of data.items) for (const l of it.native) index.add(l);
+        const sp = pool.flatMap((it) => {
+          const out = [...itemIssues(p, it), ...testIssues(p, it, tests)];
+          if (index.find(it.native[0]!) >= 0) out.push("near-duplicate");
+          index.add(it.native[0]!);
+          return out.map((x) => `${it.id}: ${x}`);
+        });
+        console.log(`${p.code}.synth: ${pool.length} lines${sp.length ? `, ${sp.length} problems:\n  ${sp.join("\n  ")}` : ", ok"}`);
+        if (sp.length) bad++;
+      }
     }
     process.exit(bad ? 2 : 0);
   }

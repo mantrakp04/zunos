@@ -1,0 +1,1644 @@
+{
+  "lang": "da",
+  "starter": [
+    "da-s045",
+    "da-s157",
+    "da-s120",
+    "da-s119",
+    "da-s147",
+    "da-s135",
+    "da-s127",
+    "da-s108",
+    "da-s125",
+    "da-s162",
+    "da-s066",
+    "da-s075",
+    "da-s165",
+    "da-p07",
+    "da-s032",
+    "da-s126",
+    "da-s073",
+    "da-s006",
+    "da-s027",
+    "da-s080",
+    "da-s169",
+    "da-s087",
+    "da-s118",
+    "da-s155",
+    "da-s017",
+    "da-s077",
+    "da-p01",
+    "da-s064",
+    "da-s099",
+    "da-s029",
+    "da-s092",
+    "da-s128",
+    "da-s082",
+    "da-s078",
+    "da-s008",
+    "da-s170",
+    "da-s138",
+    "da-s152",
+    "da-s007",
+    "da-p04",
+    "da-s089",
+    "da-s086",
+    "da-s051",
+    "da-s124",
+    "da-s149",
+    "da-s107",
+    "da-s026",
+    "da-s136",
+    "da-s011",
+    "da-s173",
+    "da-s085",
+    "da-s069",
+    "da-s116"
+  ],
+  "items": [
+    {
+      "id": "da-p01",
+      "kind": "para",
+      "title": "Moving to Trøjborg",
+      "native": [
+        "Jeg har endelig fået nøglerne til min nye lejlighed på Trøjborg i Aarhus.",
+        "Køkkenet er lidt småt, men der er faktisk plads til dit gamle spisebord.",
+        "Fra stuen kan jeg se ned på en gård med cykler og plantekasser.",
+        "Jeg flytter på lørdag, og flyttebilen kommer allerede klokken 9.",
+        "Har du tid til at hjælpe med kasserne et par timer om formiddagen?",
+        "Min søster Nanna tager også fat, så vi bliver heldigvis flere om det.",
+        "Du skal ikke tage værktøj med, for jeg har lånt en skruemaskine.",
+        "Når vi er færdige, bestiller jeg pizza, og så kan vi indvie altanen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-p02",
+      "kind": "para",
+      "title": "Comparing Desk Quotes",
+      "native": [
+        "Jeg har nu sammenlignet de to tilbud på skriveborde til kontoret i Odense.",
+        "Firmaet fra Nyborg tilbyder seks borde for 12.500 kroner, og leveringen er inkluderet.",
+        "Leverandøren i Middelfart tager 11.800 kroner, men leveringen koster yderligere 1.200 kroner.",
+        "Begge firmaer kan levere i næste uge og samle bordene på stedet.",
+        "Tilbuddet fra Nyborg er derfor billigst, og bordpladerne passer til vores nuværende reoler.",
+        "Jeg foreslår, at vi vælger firmaet fra Nyborg og beholder de stole, vi allerede har.",
+        "De to tilbud ligger i Teams, hvis I vil se mål og billeder.",
+        "Skriv gerne inden torsdag klokken 12, så jeg kan sende bestillingen samme eftermiddag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-p03",
+      "kind": "para",
+      "title": "Help with Spilled Shopping",
+      "native": [
+        "På vej hjem fra torvet i Svendborg gik min papirpose pludselig i stykker.",
+        "Æblerne trillede ud på fortovet, og et af dem endte under en bænk.",
+        "En dame med en gul regnjakke standsede og hjalp mig med at samle æblerne.",
+        "Hun stillede sin cykel op ad muren og fandt en stofpose i cykelkurven.",
+        "Jeg måtte få posen, for hun havde åbenbart flere liggende derhjemme i en skuffe.",
+        "Jeg tilbød at købe en kop kaffe som tak, men hun skulle videre.",
+        "Inden hun cyklede, lagde hun forsigtigt mit brød øverst, så det ikke blev mast.",
+        "Jeg fik ikke hendes navn, men jeg blev virkelig glad for hjælpen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-p04",
+      "kind": "para",
+      "title": "Packing for a Month",
+      "native": [
+        "Begynd med at lægge pas og billetter frem til togrejsen fra Aalborg.",
+        "Pak tøj til en uge, selv om rejsen varer en hel måned.",
+        "Vælg trøjer og bukser, der passer sammen, så du kan nøjes med mindre.",
+        "Tag de tungeste sko på, og læg et par lette sandaler i tasken.",
+        "Læg toiletsagerne i en tæt pose, så shampooen ikke løber ud mellem trøjerne.",
+        "Gem opladeren i en yderlomme, hvor du nemt kan finde den undervejs.",
+        "Lav en madpakke, og fyld drikkedunken, inden du tager hjemmefra om morgenen.",
+        "Tjek til sidst, at du selv kan løfte tasken op på bagagehylden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-p05",
+      "kind": "para",
+      "title": "A Weekend in Ribe",
+      "native": [
+        "Jeg synes, Ribe var lige tilpas til en weekend uden alt for mange planer.",
+        "Vi boede på et lille hotel tæt på domkirken og gik rundt det meste af tiden.",
+        "Det bedste var faktisk den stille morgen langs åen, før butikkerne åbnede.",
+        "På torvet fik vi kaffe og en lun bolle, mens regnen holdt en pause.",
+        "Hotellets morgenmad var fin, men jeg havde nok forventet lidt mere til prisen.",
+        "Til gengæld sov vi godt, og personalet gav os gode tips til aftensmaden.",
+        "Brostenene var lidt træls med kufferten, så næste gang tager jeg en rygsæk.",
+        "Jeg ville gerne komme igen, men helst uden bil og uden et stramt program."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-p06",
+      "kind": "para",
+      "title": "Wedding Shopping in Kolding",
+      "native": [
+        "Til brylluppet i Kolding den 12. juni skal vi købe ind til 36 gæster.",
+        "Jeg tager i Bilka klokken 9.30, så vi kan være hjemme inden frokost.",
+        "På listen står 40 servietter og 4 pakker stearinlys til de lange borde.",
+        "Vi har allerede duge, men jeg skal finde 6 vaser til blomsterne.",
+        "Hos blomsterhandleren vil jeg bestille 3 buketter til højst 250 kroner stykket.",
+        "Der er 5 kilometer fra butikken til festlokalet, så transporten bliver heldigvis nem.",
+        "Jeg sætter 600 kroner af til æblemost og danskvand, og jeg gemmer alle kvitteringer.",
+        "Kagen henter vi den 11. juni klokken 15, og Mikkel tager pynt med."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-p07",
+      "kind": "para",
+      "title": "Rescheduling a Doctor Visit",
+      "native": [
+        "Hej, jeg hedder Lærke, og jeg har en tid hos jer i Roskilde.",
+        "Min aftale er tirsdag den 18. august klokken 10.30.",
+        "Jeg kan desværre ikke komme, fordi jeg skal på kursus med arbejdet.",
+        "Vil I hjælpe mig med at flytte tiden til ugen efter?",
+        "Jeg kan bedst om morgenen, gerne før klokken 9.",
+        "Onsdag den 26. august vil passe mig rigtig fint.",
+        "Vil I sende mig en besked, når den nye tid er på plads?",
+        "Tak for hjælpen, og ring gerne tilbage, hvis I mangler oplysninger."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-p08",
+      "kind": "para",
+      "title": "Music and Community in Tønder",
+      "native": [
+        "Hvert år sidst i august samler Tønder Festival musikglade gæster i Sønderjylland.",
+        "Festivalen er især kendt for folkemusik og sangskrivere fra Danmark og udlandet.",
+        "Koncerterne foregår på flere scener, og publikum bevæger sig rundt mellem teltene.",
+        "Mange overnatter på campingpladsen, mens andre tager hjem, når dagens koncerter er slut.",
+        "Musikken kan også opleves i Tønders gader, hvor mange stopper op og lytter.",
+        "Frivillige hjælper med alt fra billetter til madboder og gør festivalen mulig.",
+        "For mange gæster er fællesskabet lige så vigtigt som navnene på plakaten.",
+        "Nogle kommer for bestemte kunstnere, mens andre går på opdagelse i programmet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s001",
+      "kind": "sentence",
+      "native": [
+        "Sikke en flot fødselsdagskage!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s002",
+      "kind": "sentence",
+      "native": [
+        "Rasmus, spænd beslaget med en unbrakonøgle, før du monterer hylden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s003",
+      "kind": "sentence",
+      "native": [
+        "Ovnen skal stå på 180 grader."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s004",
+      "kind": "sentence",
+      "native": [
+        "På tirsdag skal cyklen afleveres hos mekanikeren inden arbejde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s005",
+      "kind": "sentence",
+      "native": [
+        "Er der en nem måde at dele skærmen med andre på, uden at de skal installere noget?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s006",
+      "kind": "sentence",
+      "native": [
+        "Lyden hakker hele tiden i Teams."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s007",
+      "kind": "sentence",
+      "native": [
+        "Benjamin kender et hyggeligt sted på Jægersborggade med god morgenmad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s008",
+      "kind": "sentence",
+      "native": [
+        "Drypper vandhanen stadig ude i køkkenet?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s009",
+      "kind": "sentence",
+      "native": [
+        "Hov, mente du Samsø eller Fanø?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s010",
+      "kind": "sentence",
+      "native": [
+        "Bliv endelig ved med keramikken, for du har virkelig talent."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s011",
+      "kind": "sentence",
+      "native": [
+        "Tak for hjælpen med at samle den store reol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s012",
+      "kind": "sentence",
+      "native": [
+        "Værkstedet i Næstved har stadig ikke modtaget de bestilte hængsler."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s013",
+      "kind": "sentence",
+      "native": [
+        "Overfør 325,50 kroner til Mette Lund for de 2 teaterbilletter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s014",
+      "kind": "sentence",
+      "native": [
+        "Køb nye gummistøvler til Alma, før de gamle bliver for små."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s015",
+      "kind": "sentence",
+      "native": [
+        "Behøver plastikemballage at være helt ren?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s016",
+      "kind": "sentence",
+      "native": [
+        "Vedhæft gerne et screenshot af fejlen, så it-support kan se, hvad der sker, når du trykker på knappen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s017",
+      "kind": "sentence",
+      "native": [
+        "Kvitteringen viser 2 håndklæder, men jeg købte altså kun ét."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s018",
+      "kind": "sentence",
+      "native": [
+        "Dejen skal hæve lidt længere, før bollerne kommer i ovnen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s019",
+      "kind": "sentence",
+      "native": [
+        "Faktisk behøver du ikke printe programmet, bare læs rækkefølgen op."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s020",
+      "kind": "sentence",
+      "native": [
+        "Nogle gange bliver jeg helt rørt, når min far fortæller, hvor stolt han er af sine børnebørn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s021",
+      "kind": "sentence",
+      "native": [
+        "Vil du sende et billede af jeres nye altan, så vi kan se, hvordan den er blevet?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s022",
+      "kind": "sentence",
+      "native": [
+        "Inden vi bestiller nye skærme, skal Helle lige undersøge, om de gamle stadig er dækket af garantien."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s023",
+      "kind": "sentence",
+      "native": [
+        "Efter 3 vaske er gardinerne krympet fra 220 til 205 centimeter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s024",
+      "kind": "sentence",
+      "native": [
+        "Forny lånet af havebogen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s025",
+      "kind": "sentence",
+      "native": [
+        "Gælder min billet til letbanen i Odense også i bussen, eller skal jeg købe en ny?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s026",
+      "kind": "sentence",
+      "native": [
+        "Betalingen gik igennem på MobilePay, men kvitteringen er ikke kommet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s027",
+      "kind": "sentence",
+      "native": [
+        "Vi ses foran føtex, når du har fri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s028",
+      "kind": "sentence",
+      "native": [
+        "Asta har glemt sin madkasse."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s029",
+      "kind": "sentence",
+      "native": [
+        "Avocadoen må gerne være moden, men ikke helt blød, vel?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s030",
+      "kind": "sentence",
+      "native": [
+        "Rønne var skøn, men opholdet føltes alt for kort."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s031",
+      "kind": "sentence",
+      "native": [
+        "Nøglerne ligger under din hue."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s032",
+      "kind": "sentence",
+      "native": [
+        "Forplejningen må højst koste 275 kroner for hver deltager."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s033",
+      "kind": "sentence",
+      "native": [
+        "Leveringen til Vestergade 28 kommer fredag mellem klokken 8.00 og 12.00, så bliv hjemme om formiddagen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s034",
+      "kind": "sentence",
+      "native": [
+        "Få lagt svømmetræningen ind i kalenderen hver anden onsdag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s035",
+      "kind": "sentence",
+      "native": [
+        "Når jeg siger godnat, skal du fremover sænke temperaturen og trække gardinerne for i hele huset."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s036",
+      "kind": "sentence",
+      "native": [
+        "Headsettet skal oplades, før vi starter videomødet med kunden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s037",
+      "kind": "sentence",
+      "native": [
+        "Elevatoren til perronen har god plads til barnevognen og indkøbsposerne."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s038",
+      "kind": "sentence",
+      "native": [
+        "Moster ønsker sig en dug til sit sølvbryllup næste måned."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s039",
+      "kind": "sentence",
+      "native": [
+        "Nej, tasken skal være grøn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s040",
+      "kind": "sentence",
+      "native": [
+        "Øv, hvor er det irriterende, at lynlåsen allerede er gået."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s041",
+      "kind": "sentence",
+      "native": [
+        "Louise bliver hos os, indtil du er færdig med træning."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s042",
+      "kind": "sentence",
+      "native": [
+        "Bilal tager over på sagen, mens du er væk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s043",
+      "kind": "sentence",
+      "native": [
+        "Printeren mangler papir, så bestil 5 pakker med 500 ark."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s044",
+      "kind": "sentence",
+      "native": [
+        "Opsig streamingabonnementet, før prøveperioden udløber i næste uge."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s045",
+      "kind": "sentence",
+      "native": [
+        "Sluk for lyset i soveværelset om 20 minutter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s046",
+      "kind": "sentence",
+      "native": [
+        "Linket til samtalen virker kun, når du bruger din arbejdsmail."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s047",
+      "kind": "sentence",
+      "native": [
+        "Passer det dig at følges fra stationen i aften?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s048",
+      "kind": "sentence",
+      "native": [
+        "Skolefotoet bliver taget fredag, så trøjen må hellere blive vasket."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s049",
+      "kind": "sentence",
+      "native": [
+        "Angående rengøringen troede jeg, at den var med i prisen, men I har jo lagt 400 kroner oveni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s050",
+      "kind": "sentence",
+      "native": [
+        "Ellers tak, jeg springer over."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s051",
+      "kind": "sentence",
+      "native": [
+        "Skal vi gå en tur omkring Sortedamssøen efter frokost?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s052",
+      "kind": "sentence",
+      "native": [
+        "Fik du afklaret, hvem der står for oplæringen af eleverne?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s053",
+      "kind": "sentence",
+      "native": [
+        "Kontakt mig på 31 68 52 94 efter klokken 17.25."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s054",
+      "kind": "sentence",
+      "native": [
+        "Bestil en tid hos frisøren."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s055",
+      "kind": "sentence",
+      "native": [
+        "Forklar forskellen på et udsagnsord og et tillægsord med et eksempel."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s056",
+      "kind": "sentence",
+      "native": [
+        "Computeren genstarter midt i arbejdet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s057",
+      "kind": "sentence",
+      "native": [
+        "Cykelstien fortsætter bag hallen og fører direkte hen til stranden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s058",
+      "kind": "sentence",
+      "native": [
+        "Brunsvigeren må gerne være lidt lun, når vi serverer den, men fyldet skal ikke løbe af."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s059",
+      "kind": "sentence",
+      "native": [
+        "Amira ville have vinduespladsen, altså den længst væk fra toilettet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s060",
+      "kind": "sentence",
+      "native": [
+        "Kirsten, hvor var det sødt af dig at passe kaninen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s061",
+      "kind": "sentence",
+      "native": [
+        "Husk lige at hente pakken i Brugsen på vej tilbage."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s062",
+      "kind": "sentence",
+      "native": [
+        "Velkommen tilbage fra ferie, alle sammen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s063",
+      "kind": "sentence",
+      "native": [
+        "Ifølge billetten til Randers sidder jeg i vogn 7, plads 46."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s064",
+      "kind": "sentence",
+      "native": [
+        "Sengetøjet skal skiftes, næste gang vi gør rent."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s065",
+      "kind": "sentence",
+      "native": [
+        "Afspil den seneste episode af min yndlingspodcast på højttaleren."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s066",
+      "kind": "sentence",
+      "native": [
+        "Hvorfor kræver jeres webshop en konto for at bytte sko?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s067",
+      "kind": "sentence",
+      "native": [
+        "Fra færgelejet i Svendborg er der kun et kvarters gang til hotellet, hvis du går langs havnen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s068",
+      "kind": "sentence",
+      "native": [
+        "Brug en bredere pensel, så malingen dækker ordentligt langs kanten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s069",
+      "kind": "sentence",
+      "native": [
+        "Må hunden komme med indenfor?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s070",
+      "kind": "sentence",
+      "native": [
+        "Personligt savner jeg lidt ro i læsegruppen, for vi ender tit med at snakke om alt andet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s071",
+      "kind": "sentence",
+      "native": [
+        "Mormor spørger, om I kommer til hendes fødselsdag på søndag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s072",
+      "kind": "sentence",
+      "native": [
+        "Godkendt, beløbet passer med tilbuddet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s073",
+      "kind": "sentence",
+      "native": [
+        "Skuffen måler 58 centimeter indvendigt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s074",
+      "kind": "sentence",
+      "native": [
+        "Sweateren fra Magasin skal retur med kvitteringen, så jeg kan få pengene tilbage i stedet for et tilgodebevis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s075",
+      "kind": "sentence",
+      "native": [
+        "Åbn kameraet på min tablet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s076",
+      "kind": "sentence",
+      "native": [
+        "Uden internet kan du stadig skrive i programmet, og ændringerne bliver gemt, så snart forbindelsen er tilbage."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s077",
+      "kind": "sentence",
+      "native": [
+        "Bagindgangen vender ud mod gården."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s078",
+      "kind": "sentence",
+      "native": [
+        "Tandlægen havde en ledig tid i morgen, som jeg tog."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s079",
+      "kind": "sentence",
+      "native": [
+        "Buret mangler hø, strøelse og en holder til vandflasken."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s080",
+      "kind": "sentence",
+      "native": [
+        "Den mørkeblå jakke klæder dig virkelig godt, synes jeg."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s081",
+      "kind": "sentence",
+      "native": [
+        "Stil bare skoene i gangen, så finder jeg tøfler."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s082",
+      "kind": "sentence",
+      "native": [
+        "Receptionen i Esbjerg låner os gerne en projektor til workshoppen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s083",
+      "kind": "sentence",
+      "native": [
+        "Bilen bruger 6,2 liter på 100 kilometer, så vi skal regne med cirka 28 liter til turen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s084",
+      "kind": "sentence",
+      "native": [
+        "Læg opskriften på koldskål i mappen med sommermad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s085",
+      "kind": "sentence",
+      "native": [
+        "Hvordan bliver vejret i Skagen i morgen tidlig?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s086",
+      "kind": "sentence",
+      "native": [
+        "MitID beder mig scanne mit pas igen efter opdateringen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s087",
+      "kind": "sentence",
+      "native": [
+        "Gæsterne vil hellere sættes af lige ved døren."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s088",
+      "kind": "sentence",
+      "native": [
+        "Selvom himlen ser mørk ud, lader jeg håndklæderne hænge udenfor lidt endnu, for de er næsten tørre."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s089",
+      "kind": "sentence",
+      "native": [
+        "Skal savklingen vende den anden vej?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s090",
+      "kind": "sentence",
+      "native": [
+        "Tusind tak for blomsterne!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s091",
+      "kind": "sentence",
+      "native": [
+        "Okay, så siger vi klokken 18.30 foran indgangen til biografen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s092",
+      "kind": "sentence",
+      "native": [
+        "Undskyld det sene svar, din mail var havnet i spam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s093",
+      "kind": "sentence",
+      "native": [
+        "Rabatten på høretelefonerne er 25 % indtil den 17. juni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s094",
+      "kind": "sentence",
+      "native": [
+        "Ryd op i billederne på mobilen, og slet de uskarpe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s095",
+      "kind": "sentence",
+      "native": [
+        "Start en timer på 12 minutter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s096",
+      "kind": "sentence",
+      "native": [
+        "Nadia mangler adgang til systemet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s097",
+      "kind": "sentence",
+      "native": [
+        "Farmor kommer med færgen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s098",
+      "kind": "sentence",
+      "native": [
+        "Kunne du gå med til 80 kroner for spejlet?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s099",
+      "kind": "sentence",
+      "native": [
+        "Mener du betrækket med striber?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s100",
+      "kind": "sentence",
+      "native": [
+        "Beklager, at jeg afbrød dig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s101",
+      "kind": "sentence",
+      "native": [
+        "Ring, når du har tid."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s102",
+      "kind": "sentence",
+      "native": [
+        "Bytter I arbejdsbukserne til størrelse 50, selvom mærket er klippet af?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s103",
+      "kind": "sentence",
+      "native": [
+        "Adgangskoden udløber efter 30 dage."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s104",
+      "kind": "sentence",
+      "native": [
+        "Mind mig på torsdag om at spørge Mehmet, om han vil passe katten i ferien."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s105",
+      "kind": "sentence",
+      "native": [
+        "Hvilke videoer viser, hvordan man skifter batteriet i en trådløs mus uden at ødelægge låget?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s106",
+      "kind": "sentence",
+      "native": [
+        "Browseren åbner altid den forkerte fane, når jeg starter den."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s107",
+      "kind": "sentence",
+      "native": [
+        "Toget holdt så længe i Fredericia, at jeg ikke nåede bussen hjem til min søster."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s108",
+      "kind": "sentence",
+      "native": [
+        "Puha, det blæser godt i dag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s109",
+      "kind": "sentence",
+      "native": [
+        "Onsdag kan jeg godt hjælpe med teltet. Nej, vent, der skal jeg jo til kor i Roskilde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s110",
+      "kind": "sentence",
+      "native": [
+        "Ærligt talt er ventetiden lidt lang for en kop te."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s111",
+      "kind": "sentence",
+      "native": [
+        "Du får altså en vase, hvis ønskelisten ikke snart dukker op."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s112",
+      "kind": "sentence",
+      "native": [
+        "Kontoret i Viborg er lukket onsdag, fordi vi skal flytte."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s113",
+      "kind": "sentence",
+      "native": [
+        "Matas tog 149,95 kroner for solcremen, selvom prisskiltet sagde 119,95 kroner for 200 milliliter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s114",
+      "kind": "sentence",
+      "native": [
+        "Tilføj havregryn til min indkøbsliste."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s115",
+      "kind": "sentence",
+      "native": [
+        "Send en besked til Pernille Jensen om, at jeg er nedenfor."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s116",
+      "kind": "sentence",
+      "native": [
+        "Musens knapper virker fint, men markøren hopper rundt på skærmen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s117",
+      "kind": "sentence",
+      "native": [
+        "Tag metroen helt ud til endestationen, så slipper du for skift."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s118",
+      "kind": "sentence",
+      "native": [
+        "Posen med pant står klar, hvis nogen skal ud at handle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s119",
+      "kind": "sentence",
+      "native": [
+        "Kostede begge krus 65 kroner, eller var det for ét?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s120",
+      "kind": "sentence",
+      "native": [
+        "Flot klaret med svømmeprøven, Nanna!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s121",
+      "kind": "sentence",
+      "native": [
+        "Jeg er kommet godt hjem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s122",
+      "kind": "sentence",
+      "native": [
+        "Desværre bliver præsentationen ikke færdig i dag, men du får den senest i morgen tidlig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s123",
+      "kind": "sentence",
+      "native": [
+        "Frederik fylder 42 på torsdag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s124",
+      "kind": "sentence",
+      "native": [
+        "Notér farvekoden på vægmalingen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s125",
+      "kind": "sentence",
+      "native": [
+        "Find en opskrift på øllebrød uden tilsat sukker."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s126",
+      "kind": "sentence",
+      "native": [
+        "Touchskærmen er fyldt med fingeraftryk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s127",
+      "kind": "sentence",
+      "native": [
+        "Malthe venter ved kiosken."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s128",
+      "kind": "sentence",
+      "native": [
+        "Jordbærrene fra Netto var virkelig søde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s129",
+      "kind": "sentence",
+      "native": [
+        "Skriv til Niels. Nej, vent, det er Lene, der skal vide det."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s130",
+      "kind": "sentence",
+      "native": [
+        "Forresten har ungerne bygget en hule i stuen, så nu skal vi åbenbart spise aftensmad på gulvet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s131",
+      "kind": "sentence",
+      "native": [
+        "Henrik, har du fået svar fra vores nye leverandør?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s132",
+      "kind": "sentence",
+      "native": [
+        "Holdet vandt med 4 mål mod 0 i aftes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s133",
+      "kind": "sentence",
+      "native": [
+        "Tjek åbningstiderne hos Silvan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s134",
+      "kind": "sentence",
+      "native": [
+        "Hvad koster en voksenbillet til Tivoli uden turpas?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s135",
+      "kind": "sentence",
+      "native": [
+        "Appen lukker af sig selv."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s136",
+      "kind": "sentence",
+      "native": [
+        "Farfar hilste på vores nye nabo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s137",
+      "kind": "sentence",
+      "native": [
+        "Til Kulturnatten tager vi varmt tøj på og bliver ude længe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s138",
+      "kind": "sentence",
+      "native": [
+        "Æg, mælk og gulerødder skal vi have, og også opvasketabs."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s139",
+      "kind": "sentence",
+      "native": [
+        "Gem lidt aftensmad til mig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s140",
+      "kind": "sentence",
+      "native": [
+        "Fredagsvagten kan jeg ikke tage."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s141",
+      "kind": "sentence",
+      "native": [
+        "Skruerne på 45 millimeter er for korte."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s142",
+      "kind": "sentence",
+      "native": [
+        "Book billetter til udstillingen på ARoS, så vi er sikre på at komme ind i efterårsferien."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s143",
+      "kind": "sentence",
+      "native": [
+        "Oversæt godmorgen til spansk for mig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s144",
+      "kind": "sentence",
+      "native": [
+        "Før du installerer den nye version, skal du tage en backup af projektet på en ekstern harddisk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s145",
+      "kind": "sentence",
+      "native": [
+        "Vent ved cykelstativerne på den anden side af vejen, for jeg smutter ud gennem porten om lidt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s146",
+      "kind": "sentence",
+      "native": [
+        "Denne gang holder vi loppemarked i gården, og naboerne har lovet at stille nogle borde frem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s147",
+      "kind": "sentence",
+      "native": [
+        "Viggo har regnet til side 42."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s148",
+      "kind": "sentence",
+      "native": [
+        "Der er plads i bilen til Aarhus på lørdag, hvis nogen har lyst til at køre med."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s149",
+      "kind": "sentence",
+      "native": [
+        "Hej Signe, jeg har vedhæftet billederne af den skæve bordplade."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s150",
+      "kind": "sentence",
+      "native": [
+        "Sommerhuset koster 8.600 kroner for hele ugen, og vi deler regningen mellem 9 voksne."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s151",
+      "kind": "sentence",
+      "native": [
+        "Fold papkasserne sammen, inden de ryger i beholderen til pap."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s152",
+      "kind": "sentence",
+      "native": [
+        "Hvor mange gram mel svarer 4 deciliter egentlig til?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s153",
+      "kind": "sentence",
+      "native": [
+        "Birgitte, din zipfil er beskyttet med en kode, så jeg kan ikke pakke billederne ud endnu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s154",
+      "kind": "sentence",
+      "native": [
+        "Drej til højre efter lyskrydset."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s155",
+      "kind": "sentence",
+      "native": [
+        "Suppen trænger til lidt mere salt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s156",
+      "kind": "sentence",
+      "native": [
+        "Ups, jeg talte vist forkert."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s157",
+      "kind": "sentence",
+      "native": [
+        "Har I lyst til minigolf i Silkeborg på søndag?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s158",
+      "kind": "sentence",
+      "native": [
+        "Boremaskinen går i stå efter få sekunder, så arbejdet med hegnet må vente, til vi har en anden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s159",
+      "kind": "sentence",
+      "native": [
+        "Mødet begynder klokken 10.15 og varer 50 minutter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s160",
+      "kind": "sentence",
+      "native": [
+        "Indstil telefonen til at være lydløs om natten, men lad vækkeuret ringe, som det plejer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s161",
+      "kind": "sentence",
+      "native": [
+        "Jesper, ligger regnearket stadig i den fælles mappe?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s162",
+      "kind": "sentence",
+      "native": [
+        "Overnatter Lærke hos jer, når koncerten i Musikhuset er slut?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s163",
+      "kind": "sentence",
+      "native": [
+        "Kan du købe rugbrød hos Lagkagehuset, når du alligevel skal forbi på vej hen til os?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s164",
+      "kind": "sentence",
+      "native": [
+        "Ved du, om stillingen også bliver slået op internt?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s165",
+      "kind": "sentence",
+      "native": [
+        "Tørretumbleren er færdig klokken 16.45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s166",
+      "kind": "sentence",
+      "native": [
+        "Undersøg, om biblioteket har den lydbog, som læseklubben har valgt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s167",
+      "kind": "sentence",
+      "native": [
+        "Bussen er forsinket, men du kan bare begynde uden mig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s168",
+      "kind": "sentence",
+      "native": [
+        "Hvornår passer det dig at få en kort introduktion?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s169",
+      "kind": "sentence",
+      "native": [
+        "Hos bageren koster 6 rundstykker 35 kroner i weekenden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s170",
+      "kind": "sentence",
+      "native": [
+        "Vaskemaskinen har åbenbart spist endnu en af mine sokker."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s171",
+      "kind": "sentence",
+      "native": [
+        "Sæt gerne dine kommentarer direkte ind i dokumentet inden frokost."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s172",
+      "kind": "sentence",
+      "native": [
+        "Bagagen vejer kun 18 kilo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s173",
+      "kind": "sentence",
+      "native": [
+        "Selvfølgelig må du låne symaskinen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s174",
+      "kind": "sentence",
+      "native": [
+        "Efter kundebesøget skriver du bare et par stikord i chatten, så resten af teamet kan følge med."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s175",
+      "kind": "sentence",
+      "native": [
+        "Lørdag den 19. september løber vi 7 kilometer og mødes ved parkeringspladsen klokken 9.30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s176",
+      "kind": "sentence",
+      "native": [
+        "Tillykke med det nye job!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s177",
+      "kind": "sentence",
+      "native": [
+        "Betyder beskeden om læselektier, at børnene skal læse hele kapitlet hjemme, eller gennemgår I resten i klassen?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s178",
+      "kind": "sentence",
+      "native": [
+        "Værkstedets nummer er 26 83 49 57, og de lukker klokken 15."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s179",
+      "kind": "sentence",
+      "native": [
+        "Sara laver tarteletter, så ingen behøver at tage mad med."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s180",
+      "kind": "sentence",
+      "native": [
+        "Letbanen mod Odder kører fra spor 3 klokken 11.22."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s181",
+      "kind": "sentence",
+      "native": [
+        "Batteriet er nede på 16 %."
+      ],
+      "roman": null
+    },
+    {
+      "id": "da-s182",
+      "kind": "sentence",
+      "native": [
+        "Værelset ligger på 2. sal og har nummer 214."
+      ],
+      "roman": null
+    }
+  ]
+}
