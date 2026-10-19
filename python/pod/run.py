@@ -4,7 +4,7 @@
   (a variant that trains on a pseudo-labeled set first builds it from the unlabeled audio: pseudo.py)
 
 Pod mode (bootstrap.sh starts it): reads the dataset at ZUNOS_DATASET_URL, the experiment spec from its
-manifest's `cfg` (config.py; empty = the production recipe), reports to ZUNOS_EVENTS_URL, keeps synthetic
+manifest's `cfg` (config.py; empty = the production recipe; ZUNOS_SPEC_JSON overrides it), reports to ZUNOS_EVENTS_URL, keeps synthetic
 sets in ZUNOS_CACHE (default /workspace/cache, a network volume if one is mounted) and in the backend
 (ZUNOS_CACHE_URL), uploads the exported variant's model to ZUNOS_MODEL_URL. The backend terminates the pod
 after the final `done` or `error` event.
@@ -504,7 +504,9 @@ def main():
             m = dataset_from_app(ARGS.langs.split(","), ARGS.clips_per_lang, ARGS.app_dir.rstrip("/"))
         else:
             m = fetch_data()
-        spec = json.load(open(ARGS.spec)) if ARGS.spec else (m.get("cfg") or {})
+        # ZUNOS_SPEC_JSON (an inline spec) overrides the dataset's cfg, so one uploaded dataset serves several experiments.
+        env_spec = os.environ.get("ZUNOS_SPEC_JSON")
+        spec = json.load(open(ARGS.spec)) if ARGS.spec else json.loads(env_spec) if env_spec else (m.get("cfg") or {})
         if ARGS.dry_run:
             spec = config.merge(spec, {k: v for k, v in DRY.items() if k != "train"})
             spec["train"] = config.merge(spec.get("train", {}), DRY["train"])
