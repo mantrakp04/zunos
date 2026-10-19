@@ -40,7 +40,12 @@ CLEAN_SNR = 42.0
 MAX_LIMIT = 24.0
 MIN_LIMIT = 6.0
 # Guardrails.
-ASR_SLACK = 0.02  # cleaned may score at most this much worse (WER / CER) than raw on Whisper base
+# The Whisper-base check: cleaned may score at most max(ASR_SLACK, ASR_WORDS / words) worse than raw (a word
+# and a half of slack, so one flipped word in a short take isn't a verdict), and only counts when base can
+# read the raw take at all (error <= ASR_INFORMATIVE): on speech it can't follow, its errors say nothing.
+ASR_SLACK = 0.03
+ASR_WORDS = 1.5
+ASR_INFORMATIVE = 0.6
 LEVEL_DROP_DB = 3.0  # 10th-percentile loss of level on clearly-speech frames (300-4000 Hz)
 
 
@@ -497,12 +502,13 @@ def check_windows(x, sr, lines, marks, read=None, most=8):
 
 
 def windows_score(audio16, wins, lang, root):
-    """Word-weighted error of Whisper base over the windows (audio16 at 16 kHz)."""
+    """Word-weighted error of Whisper base over the windows (audio16 at 16 kHz). Each window's error is capped
+    at 1: a decoding loop (base repeating a phrase) would otherwise outweigh every other window."""
     tot = words = 0.0
     for s, e, text in wins:
         sc, _ = asr_score(audio16[int(s * 16000): int(e * 16000)], text, lang, root)
         n = max(1, len(text.split()))
-        tot += sc * n
+        tot += min(sc, 1.0) * n
         words += n
     return round(tot / words, 4) if words else None
 
@@ -555,6 +561,7 @@ def enhance(path, out, root, lang=None, lines=None, marks=None, room=None, on_pr
 
     raw_score = None
     can_check = bool(wins and have_asr)
+    slack = max(ASR_SLACK, ASR_WORDS / max(1, sum(len(t.split()) for _, _, t in wins)))
     strength, reason = want, "snr" if want > 0 else "clean enough"
     # Candidates: the SNR-based strength, then 8 dB lighter, then none (input conditioning only).
     ladder = [s for s in (want, want - 8) if s >= MIN_LIMIT] + [0.0] if want > 0 else [0.0]
@@ -565,16 +572,21 @@ def enhance(path, out, root, lang=None, lines=None, marks=None, room=None, on_pr
         ok = s == 0 or kept >= -LEVEL_DROP_DB
         if ok and s > 0 and can_check:
             step("checking", len(tried) / len(ladder))
+            sc = None
             try:
                 if raw_score is None:
                     raw_score = windows_score(to_16k(pre, RATE), wins, lang, root)
                     asr = {"raw": raw_score, "windows": len(wins)}
-                sc = windows_score(to_16k(y, RATE), wins, lang, root)
+                    if raw_score is None or raw_score > ASR_INFORMATIVE:
+                        asr["skipped"] = "uninformative"
+                        can_check = False
+                if can_check:
+                    sc = windows_score(to_16k(y, RATE), wins, lang, root)
             except Exception as e:  # the check is a guardrail, not a requirement: keep the level checks
                 print("asr check failed:", e, flush=True)
-                can_check, sc = False, None
+                can_check = False
             entry["asr"] = sc
-            ok = sc is None or raw_score is None or sc <= raw_score + ASR_SLACK
+            ok = sc is None or sc <= raw_score + slack
         tried.append(entry)
         if ok:
             strength = s
