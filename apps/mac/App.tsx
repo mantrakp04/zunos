@@ -11,7 +11,7 @@ import { createLibrary, type Library } from "./src/services/library";
 import type { LiveState } from "./src/shared/types";
 
 const initial: LiveState = {
-  user: null, authReady: false, engine: "stopped", engineError: null, recording: false, level: 0, evalProgress: null, transfer: null,
+  user: null, authReady: false, engine: "stopped", engineError: null, recording: false, level: 0, evalProgress: null, transfer: null, cleanup: null,
 };
 
 export default function App() {

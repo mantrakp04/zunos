@@ -9,7 +9,7 @@ import type {
 import { abs, dataDir, type Db } from "./db";
 import * as engine from "./engine";
 
-const { clips, evals, languages, models, prompts, recordings, runs, runSteps, baselines } = schema;
+const { clips, evals, languages, models, prompts, recordings, runs, runSteps, baselines, settings } = schema;
 
 // Share of each language's clips held back for testing. Test clips are never trained on.
 const TEST_SHARE = 0.25;
@@ -220,6 +220,16 @@ export function createLibrary(db: Db) {
       await db.insert(models).values({ id: `${runId}-hf`, runId, name: runId, format: "hf", path: rel, score, active: false })
         .onConflictDoNothing();
       await db.update(runs).set({ status: "done", stage: "downloaded" }).where(eq(runs.id, runId));
+    },
+
+    // ---- app settings (key → JSON value)
+    async setting<T>(key: string): Promise<T | null> {
+      const [row] = await db.select().from(settings).where(eq(settings.key, key));
+      return (row?.value as T | undefined) ?? null;
+    },
+
+    async setSetting(key: string, value: unknown) {
+      await db.insert(settings).values({ key, value }).onConflictDoUpdate({ target: settings.key, set: { value } });
     },
   };
 }

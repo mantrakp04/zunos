@@ -12,10 +12,16 @@ Commands:
   segment     {path, marks, lines, out_dir, id_prefix} → {"clips": [{id, start, end, seconds, text, path_16k, path_48k}]}
   pack        {out, langs, clips, prompts, recordings, cfg?} → {"path", "bytes", "clips"}; training dataset
   unpack      {archive, dest}            → {"path"}; extracts a downloaded model tar
+  cleanup_status   {dir}                 → {"downloaded", "totalBytes", "loaded"}; the transcript-cleanup LLM
+  cleanup_download {dir}                 → {"path"}; runs in the background (other commands keep working),
+                                           events "progress" {"done", "total"} in bytes
+  cleanup_load     {dir}                 → {"model"}; loads (and warms up) the cleanup model
+  cleanup          {text, style?, vocabulary?} → {"text", "used", "elapsed"}; used=false means the raw text came back
 """
 import json
 import os
 import sys
+import threading
 import time
 import traceback
 
@@ -32,10 +38,14 @@ class Engine:
     def __init__(self, out):
         self.out = out
         self.model = None
+        self.cleaner = None
+        self.lock = threading.Lock()  # background commands emit from their own thread
 
     def emit(self, msg):
-        self.out.write(json.dumps(msg, ensure_ascii=False) + "\n")
-        self.out.flush()
+        line = json.dumps(msg, ensure_ascii=False) + "\n"
+        with self.lock:
+            self.out.write(line)
+            self.out.flush()
 
     def ensure_model(self, path=None, fast=False):
         if path and (self.model is None or self.model.path != path):
@@ -93,6 +103,42 @@ class Engine:
         top = names[0].split("/")[0] if names else ""
         return {"path": os.path.join(req["dest"], top)}
 
+    def cmd_cleanup_status(self, req):
+        from . import cleanup
+
+        have = cleanup.downloaded(req["dir"])
+        total = None
+        if not have:
+            try:
+                total = cleanup.total_bytes()
+            except Exception:  # offline: the app shows the download without a size
+                pass
+        return {"downloaded": have, "totalBytes": total, "loaded": self.cleaner is not None}
+
+    def background_cleanup_download(self, req):
+        from . import cleanup
+
+        on_progress = lambda done, total: self.emit({"id": req["id"], "event": "progress", "data": {"done": done, "total": total}})
+        return {"path": cleanup.download(req["dir"], on_progress)}
+
+    def cmd_cleanup_load(self, req):
+        from . import cleanup
+
+        path = cleanup.model_dir(req["dir"])
+        if not cleanup.downloaded(req["dir"]):
+            raise EngineError("not_downloaded", "The cleanup model isn't downloaded yet.")
+        if self.cleaner is None or self.cleaner.path != path:
+            self.cleaner = cleanup.Cleaner(path)
+            self.cleaner.warmup()
+        return {"model": cleanup.MODEL_REPO}
+
+    def cmd_cleanup(self, req):
+        if self.cleaner is None:
+            raise EngineError("no_cleanup_model", "The cleanup model isn't loaded. Send `cleanup_load` first.")
+        t0 = time.time()
+        text, used = self.cleaner.clean(req["text"], req.get("style", "light"), req.get("vocabulary") or ())
+        return {"text": text, "used": used, "elapsed": round(time.time() - t0, 2)}
+
     def handle(self, req):
         fn = getattr(self, f"cmd_{req.get('cmd')}", None)
         if fn is None:
@@ -108,15 +154,25 @@ def main():
     for line in sys.stdin:
         if not line.strip():
             continue
-        req = {}
         try:
             req = json.loads(line)
-            engine.emit({"id": req.get("id"), "ok": True, "result": engine.handle(req)})
-        except EngineError as e:
-            engine.emit({"id": req.get("id"), "ok": False, "code": e.code, "error": str(e)})
-        except Exception as e:  # report and keep serving
-            traceback.print_exc()
-            engine.emit({"id": req.get("id"), "ok": False, "code": "internal", "error": f"{type(e).__name__}: {e}"})
+        except json.JSONDecodeError:
+            continue
+        bg = getattr(engine, f"background_{req.get('cmd')}", None)
+        if bg:  # long network work that must not hold up transcription
+            threading.Thread(target=respond, args=(engine, req, bg), daemon=True).start()
+        else:
+            respond(engine, req, engine.handle)
+
+
+def respond(engine, req, fn):
+    try:
+        engine.emit({"id": req.get("id"), "ok": True, "result": fn(req)})
+    except EngineError as e:
+        engine.emit({"id": req.get("id"), "ok": False, "code": e.code, "error": str(e)})
+    except Exception as e:  # report and keep serving
+        traceback.print_exc()
+        engine.emit({"id": req.get("id"), "ok": False, "code": "internal", "error": f"{type(e).__name__}: {e}"})
 
 
 if __name__ == "__main__":

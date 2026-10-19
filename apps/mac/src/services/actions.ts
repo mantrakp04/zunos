@@ -1,6 +1,6 @@
 // The async "native actions" the DOM screens call. Inputs and outputs are plain JSON.
 import Native from "../../modules/zunos-native";
-import type { Lang, LiveState, SavedRecording } from "../shared/types";
+import type { CleanupSettings, DictationResult, Lang, LiveState, SavedRecording } from "../shared/types";
 import * as auth from "./auth";
 import { dataDir } from "./db";
 import * as engine from "./engine";
@@ -8,6 +8,9 @@ import type { Library } from "./library";
 import * as training from "./training";
 
 type SetLive = (patch: Partial<LiveState> | ((s: LiveState) => Partial<LiveState>)) => void;
+
+const CLEANUP_DIR = `${dataDir}/models/cleanup`;
+const errorText = (e: unknown) => (e instanceof Error ? e.message : String(e));
 
 const MIC_BLOCKED =
   "macOS gave zunos pure silence, which means microphone access is off. Open System Settings → Privacy & Security → Microphone and turn on zunos.";
@@ -26,6 +29,32 @@ export function createActions(lib: Library, setLive: SetLive) {
     }
     setLive({ engine: "ready" });
     return m;
+  }
+
+  // Transcript cleanup (a small local LLM in the engine). Checked once per session, after the
+  // Whisper model is ready so it never delays dictation.
+  const cleanup = { checked: false, here: false, loaded: false, downloading: false };
+
+  async function cleanupSettings(): Promise<CleanupSettings> {
+    return { style: "light", ...(await lib.setting<CleanupSettings>("cleanup")) };
+  }
+
+  async function loadCleanup() {
+    if (!cleanup.loaded) {
+      setLive({ cleanup: { status: "loading" } });
+      await engine.call("cleanup_load", { dir: CLEANUP_DIR });
+      cleanup.loaded = true;
+    }
+    setLive({ cleanup: { status: "ready" } });
+  }
+
+  async function checkCleanup() {
+    cleanup.checked = true;
+    const st = await engine.call<{ downloaded: boolean; totalBytes: number | null }>("cleanup_status", { dir: CLEANUP_DIR });
+    cleanup.here = st.downloaded;
+    if (!st.downloaded) return setLive({ cleanup: { status: "absent", totalBytes: st.totalBytes ?? 0 } });
+    if ((await cleanupSettings()).style === "off") return setLive({ cleanup: { status: "ready" } });
+    await loadCleanup();
   }
 
   async function installModel(runId: string, url: string) {
@@ -189,19 +218,56 @@ export function createActions(lib: Library, setLive: SetLive) {
     // ---- using: dictation
     async prepareDictation() {
       await ensureModel();
+      if (!cleanup.checked) checkCleanup().catch((e) => setLive({ cleanup: { status: "error", message: errorText(e) } }));
     },
     async startDictation() {
       await beginRecording(`${dataDir}/tmp/dictation.wav`);
     },
-    async stopDictation() {
+    /** Transcribes, cleans up when cleanup is on, and copies the cleaned (or raw) text. */
+    async stopDictation(): Promise<DictationResult> {
       const res = await endRecording();
       setLive({ engine: "busy" });
       try {
         const out = await engine.call<{ text: string; lang: string; seconds: number; elapsed: number }>("transcribe", { path: res.path });
-        if (out.text) Native.copyText(out.text);
-        return out;
+        const { style } = await cleanupSettings();
+        let clean: string | null = null;
+        if (out.text && style !== "off" && cleanup.loaded) {
+          // A failed cleanup still leaves the raw transcript, which is the useful part.
+          const c = await engine.call<{ text: string; used: boolean }>("cleanup", { text: out.text, style }).catch(() => null);
+          if (c?.used) clean = c.text;
+        }
+        if (clean ?? out.text) Native.copyText(clean ?? out.text);
+        return { ...out, clean, style: clean ? style : null };
       } finally {
         setLive({ engine: "ready" });
+      }
+    },
+
+    // ---- using: transcript cleanup
+    cleanupSettings,
+    async setCleanupSettings(s: CleanupSettings) {
+      await lib.setSetting("cleanup", s);
+      if (s.style !== "off" && cleanup.here && !cleanup.loaded)
+        await loadCleanup().catch((e) => setLive({ cleanup: { status: "error", message: errorText(e) } }));
+    },
+    /** Downloads the cleanup model if it isn't here yet, then loads it. Also the retry after an error. */
+    async downloadCleanupModel() {
+      if (cleanup.downloading) return;
+      try {
+        if (!cleanup.here) {
+          cleanup.downloading = true;
+          setLive({ cleanup: { status: "downloading", doneBytes: 0, totalBytes: 0 } });
+          await engine.call("cleanup_download", { dir: CLEANUP_DIR }, (event, d) => {
+            if (event === "progress") setLive({ cleanup: { status: "downloading", doneBytes: d.done, totalBytes: d.total } });
+          });
+          cleanup.here = true;
+        }
+        if ((await cleanupSettings()).style === "off") setLive({ cleanup: { status: "ready" } });
+        else await loadCleanup();
+      } catch (e) {
+        setLive({ cleanup: { status: "error", message: errorText(e) } });
+      } finally {
+        cleanup.downloading = false;
       }
     },
     copyText: async (text: string) => Native.copyText(text),

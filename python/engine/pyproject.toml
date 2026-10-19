@@ -13,6 +13,7 @@ dependencies = [
     "safetensors>=0.8.0",
     "scipy>=1.14",
     "mlx-whisper>=0.4.3",
+    "mlx-lm>=0.32.2",
 ]
 
 [project.scripts]

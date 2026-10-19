@@ -85,6 +85,29 @@ export type LiveState = {
   evalProgress: { done: number; total: number } | null;
   /** Local side of a cloud training run: preparing the dataset, uploading it, fetching the model. */
   transfer: { runId: string; phase: "packing" | "uploading" | "starting" | "downloading" | "installing"; progress: number } | null;
+  /** The transcript-cleanup model; null until dictation has checked for it. */
+  cleanup: CleanupState | null;
+};
+
+/** How dictated text is cleaned up by the local LLM. "off" keeps exactly what Whisper heard. */
+export type CleanupStyle = "off" | "light" | "polished";
+export type CleanupSettings = { style: CleanupStyle };
+
+export type CleanupState =
+  | { status: "absent"; totalBytes: number }
+  | { status: "downloading"; doneBytes: number; totalBytes: number }
+  | { status: "loading" }
+  | { status: "ready" }
+  | { status: "error"; message: string };
+
+/** One dictation: `text` is the raw transcript, `clean` the cleaned version when cleanup ran. */
+export type DictationResult = {
+  text: string;
+  clean: string | null;
+  style: CleanupStyle | null;
+  lang: string;
+  seconds: number;
+  elapsed: number;
 };
 
 export type TrainingQuote = { gpu: string; pricePerHour: number; estimatedHours: number; available: boolean; reason?: string };
