@@ -14,10 +14,37 @@ struct ZunosApp: App {
 
   var body: some Scene {
     Window(windowTitle, id: "main") {
+      // The web UI draws its own title bar: content runs under the traffic lights, and a thin
+      // native strip along the top keeps the window draggable (the WebView would swallow drags).
       ReactNativeView(factory: appDelegate.reactNativeFactory)
+        .ignoresSafeArea()
+        .overlay(alignment: .top) { WindowDragStrip().frame(height: titleBarHeight) }
+        .frame(minWidth: 980, minHeight: 620)
     }
+    .windowStyle(.hiddenTitleBar)
     .defaultSize(width: 1280, height: 720)
   }
+}
+
+/// Height of the draggable band the web UI keeps free of controls (matches --titlebar in CSS).
+private let titleBarHeight: CGFloat = 28
+
+/// Drags the window like a title bar would, and zooms on double-click per the system setting.
+struct WindowDragStrip: NSViewRepresentable {
+  final class StripView: NSView {
+    override var mouseDownCanMoveWindow: Bool { true }
+    override func mouseDown(with event: NSEvent) {
+      if event.clickCount == 2 {
+        let action = UserDefaults.standard.string(forKey: "AppleActionOnDoubleClick") ?? "Maximize"
+        if action == "Minimize" { window?.performMiniaturize(nil) } else if action != "None" { window?.performZoom(nil) }
+        return
+      }
+      window?.performDrag(with: event)
+    }
+  }
+
+  func makeNSView(context: Context) -> NSView { StripView() }
+  func updateNSView(_ nsView: NSView, context: Context) {}
 }
 
 // MARK: - App Delegate
