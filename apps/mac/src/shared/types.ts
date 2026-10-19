@@ -30,7 +30,110 @@ export type SavedRecording = {
   recordingId: string;
   seconds: number;
   clips: { id: string; seconds: number; split: "train" | "test"; text: string }[];
+  /** How the take sounded and what was cleaned; null only when the engine could not measure it. */
+  quality: TakeQuality | null;
 };
+
+// ---- recording quality (services/quality.ts builds the issues; the engine measures, python enhance.py)
+
+export type MicTransport =
+  | "builtIn" | "usb" | "bluetooth" | "bluetoothLE" | "continuity" | "aggregate" | "virtual" | "hdmi" | "displayPort"
+  | "airPlay" | "thunderbolt" | "pci" | "fireWire" | "avb" | "unknown";
+
+/** The default input device. inputVolume is 0-1 when the device exposes one; micMode is macOS's Mic Mode. */
+export type MicDeviceInfo = {
+  name: string | null;
+  transport: MicTransport;
+  sampleRate: number | null;
+  inputVolume: number | null;
+  micMode: "standard" | "voiceIsolation" | "wideSpectrum" | null;
+};
+
+export type MicIssueCode =
+  | "noInput" | "bluetooth" | "narrowband" | "continuity" | "virtualDevice" | "micMode" | "lowInputVolume" | "processedMic"
+  | "noisyRoom" | "lowSnr" | "hum" | "rumble" | "echo" | "roomSpoken" | "tooQuiet" | "tooLoud" | "clipping" | "pops"
+  | "longSilence" | "deviceChanged";
+
+/**
+ * Something about the microphone, the room or the user's delivery, with what to do about it.
+ * info: worth knowing, nothing to fix. warn: the recording works but would be better fixed. bad: fix it and
+ * record again. `title` is a short label, `detail` one or two sentences of guidance; both are display-ready.
+ */
+export type MicIssue = { code: MicIssueCode; severity: "info" | "warn" | "bad"; title: string; detail: string };
+
+/** Live microphone state while a take records or the room check listens (null otherwise). Levels in dBFS. */
+export type MicState = {
+  phase: "room" | "recording";
+  device: MicDeviceInfo | null;
+  /** True during the first seconds of a take, while the user should stay quiet (room tone). */
+  roomTone: boolean;
+  noiseDb: number | null;
+  speechDb: number | null;
+  snrDb: number | null;
+  peakDb: number | null;
+  speaking: boolean;
+  silenceSec: number;
+  /** Current issues, worst first. Recomputed about four times a second; codes are stable keys. */
+  issues: MicIssue[];
+};
+
+/** What the engine measured on a take (python/engine enhance.py measure). Levels in dBFS, times in seconds. */
+export type AudioMeasure = {
+  seconds: number;
+  lufs: number;
+  speechDb: number | null;
+  noiseDb: number;
+  roomDb: number | null;
+  snrDb: number | null;
+  peakDb: number;
+  clippedPct: number;
+  clipEvents: number;
+  dc: number;
+  /** Share of the background's power below 80 Hz (rumble). */
+  lowShare: number | null;
+  humHz: 50 | 60 | null;
+  humDb: number;
+  /** Highest frequency the microphone path carries; null = full band. */
+  bandwidthHz: number | null;
+  gatedPct: number;
+  /** Rough reverberation time; null when the take has too few clean word endings to tell. */
+  reverbSec: number | null;
+  pops: number;
+  speechPct: number;
+  leadSilence: number | null;
+  longestPause: number;
+};
+
+/** A finished take: verdict, issues, and the background-noise cleaning applied to its voice-cloning copy. */
+export type TakeQuality = {
+  /** good: nothing to fix. ok: usable, see issues. redo: record it again (the clips are kept either way). */
+  verdict: "good" | "ok" | "redo";
+  issues: MicIssue[];
+  device: MicDeviceInfo | null;
+  raw: AudioMeasure | null;
+  clean: AudioMeasure | null;
+  cleaning: {
+    /** Most the denoiser may lower the background, in dB; 0 = not denoised (only level and rumble fixes). */
+    strength: number;
+    /** What the measured SNR asked for; lower `strength` means a guardrail stepped it down. */
+    wanted: number;
+    reason: "snr" | "clean enough" | "speech level" | "asr check" | "silent" | "failed";
+    /** Whisper base's error on the raw take and at each strength tried (lower is better). */
+    tried: { strength: number; speechKeptDb: number; asr?: number | null }[];
+  } | null;
+};
+
+/** The room check: a few seconds of listening with the user quiet. */
+export type RoomCheck = {
+  noiseDb: number | null;
+  humHz: number | null;
+  device: MicDeviceInfo | null;
+  issues: MicIssue[];
+  verdict: "good" | "ok" | "noisy";
+};
+
+/** Saving a take: measuring, fetching the cleaning models (first time only), cleaning, checking, cutting. */
+export type TakeProcessing = { phase: "measuring" | "downloading" | "cleaning" | "checking" | "cutting"; progress: number };
 
 export type RunSummary = {
   id: string;
@@ -83,6 +186,10 @@ export type LiveState = {
   engineError: string | null;
   recording: boolean;
   level: number;
+  /** The microphone while a take records or the room check listens; null otherwise. */
+  mic: MicState | null;
+  /** A finished take being cleaned and cut into clips (finishTake is still pending). */
+  takeProcessing: TakeProcessing | null;
   evalProgress: { done: number; total: number } | null;
   /** Local side of a cloud training run: preparing the dataset, uploading it, fetching the model. */
   transfer: { runId: string; phase: "packing" | "uploading" | "starting" | "downloading" | "installing"; progress: number } | null;

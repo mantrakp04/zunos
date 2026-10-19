@@ -13,7 +13,7 @@ public class ZunosNativeModule: Module {
   public func definition() -> ModuleDefinition {
     Name("ZunosNative")
 
-    Events("onLevel", "onEngineLine", "onEngineLog", "onEngineExit", "onTransfer", "onHotkey", "onMenu")
+    Events("onLevel", "onMicStats", "onRecorderEvent", "onEngineLine", "onEngineLog", "onEngineExit", "onTransfer", "onHotkey", "onMenu")
 
     OnCreate {
       recorder.onLevel = { [weak self] rms, peak in
@@ -24,6 +24,12 @@ public class ZunosNativeModule: Module {
         if now.timeIntervalSince(self.lastLevelEvent) < 0.033 { return }
         self.lastLevelEvent = now
         self.sendEvent("onLevel", ["rms": Double(rms), "peak": Double(peak)])
+      }
+      recorder.onStats = { [weak self] stats in self?.sendEvent("onMicStats", stats) }
+      recorder.onEvent = { [weak self] type, data in
+        var e = data
+        e["type"] = type
+        self?.sendEvent("onRecorderEvent", e)
       }
       engine.onLine = { [weak self] line in self?.sendEvent("onEngineLine", ["line": line]) }
       engine.onLog = { [weak self] text in self?.sendEvent("onEngineLog", ["text": text]) }
@@ -115,8 +121,17 @@ public class ZunosNativeModule: Module {
       Recorder.requestPermission { promise.resolve($0) }
     }
 
-    AsyncFunction("startRecording") { (path: String) -> [String: Any] in
-      try self.recorder.start(path: path)
+    /// The default input device (name, transport, sample rate, input volume, mic mode), without recording.
+    Function("micInfo") { () -> [String: Any] in Recorder.deviceInfo() }
+
+    /// roomSeconds: the start of the take the user was asked to keep quiet (room tone).
+    AsyncFunction("startRecording") { (path: String, roomSeconds: Double?) -> [String: Any] in
+      try self.recorder.start(path: path, roomSeconds: roomSeconds ?? 0)
+    }
+
+    /// Listens without writing a file (the room check); stop with stopRecording.
+    AsyncFunction("startListening") { (roomSeconds: Double) -> [String: Any] in
+      try self.recorder.start(path: nil, roomSeconds: roomSeconds)
     }
 
     AsyncFunction("stopRecording") { () -> [String: Any] in
