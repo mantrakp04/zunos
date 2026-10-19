@@ -107,6 +107,9 @@ User data lives in ~/Library/Application Support/zunos (zunos.db, audio/, models
   web, which breaks DOM-component bundles; metro.config.js bypasses it for web.
 - expo-sqlite parses paths with URL(string:): a path with spaces ("Application Support") becomes a
   literal "Application%20Support" folder. Pass the directory as a file:// URL.
+- A stale Contents/Resources/ip.txt in the Debug app (left by an older build; incremental builds never
+  delete it) makes React Native load from the LAN IP instead of localhost. WebKit then runs the DOM
+  screens in its no-JIT process (plain http to a non-local host), about 5x slower JS. Delete it and rebuild.
 - React Native 0.83 no longer forwards console.log to Metro. Read JS logs over CDP:
   `curl localhost:8090/json/list` gives the WebSocket debugger URL.
 - Packaged builds: never let anything write inside the signed .app (it breaks the signature).
