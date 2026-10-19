@@ -15,7 +15,7 @@ export type Line = {
   width?: number;
   /** Soft gradient under the curve. */
   area?: boolean;
-  /** Reference value shown next to this line's value in the tooltip (e.g. Sarvam). */
+  /** Reference value shown next to this line's value in the tooltip (the reference recognizer). */
   ref?: number;
   /** Pulse the last point: the run is still going. */
   live?: boolean;
@@ -350,7 +350,7 @@ export function LineChart({
                     <span className="h-[3px] w-3 shrink-0 rounded-full" style={{ background: line.color }} />
                     <span className={cn("flex-1", line.width && line.width > 2 && "font-semibold")}>{line.label}</span>
                     <span className="font-semibold tabular-nums">{yFormat(p!.y)}</span>
-                    {line.ref != null && <span className="ml-1 text-right text-[11px] whitespace-nowrap tabular-nums text-muted-foreground">Sarvam {yFormat(line.ref)}</span>}
+                    {line.ref != null && <span className="ml-1 text-right text-[11px] whitespace-nowrap tabular-nums text-muted-foreground">Ref {yFormat(line.ref)}</span>}
                   </div>
                 ))}
             </div>

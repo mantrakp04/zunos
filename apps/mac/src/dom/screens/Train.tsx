@@ -60,10 +60,10 @@ export default function Train({ a, live }: ScreenProps) {
 
   const baselines = useMemo(() => {
     const out: Record<string, number> = {};
-    for (const b of baselineList.data ?? []) if (b.provider.startsWith("sarvam")) out[b.lang] = b.wer;
+    for (const b of baselineList.data ?? []) out[b.lang] = b.wer;
     return out;
   }, [baselineList.data]);
-  const sarvamAvg = useMemo(() => {
+  const referenceAvg = useMemo(() => {
     const v = langOrder.map((l) => baselines[l]).filter((x): x is number => x != null);
     return v.length ? v.reduce((s, x) => s + x, 0) / v.length : null;
   }, [langOrder, baselines]);
@@ -182,9 +182,9 @@ export default function Train({ a, live }: ScreenProps) {
           <h2 className="font-display text-[22px] leading-tight font-bold tracking-[-0.015em]">Versions</h2>
           <p className="mt-1 text-[13px] text-muted-foreground">Oldest on the left. Scores are average word error rate on clips the model never trained on.</p>
         </div>
-        {sarvamAvg != null && (
+        {referenceAvg != null && (
           <div className="hidden shrink-0 text-right text-[12px] text-muted-foreground @2xl:block">
-            Sarvam averages <span className="font-semibold text-foreground tabular-nums">{(sarvamAvg * 100).toFixed(1)}%</span>
+            Reference averages <span className="font-semibold text-foreground tabular-nums">{(referenceAvg * 100).toFixed(1)}%</span>
           </div>
         )}
       </div>
@@ -201,7 +201,7 @@ export default function Train({ a, live }: ScreenProps) {
           onSelect={setPicked}
           bestId={best?.id ?? null}
           installed={installed}
-          sarvamAvg={sarvamAvg}
+          referenceAvg={referenceAvg}
         />
       )}
       <ErrorNote error={runs.error ?? details.error} className="mt-3" />

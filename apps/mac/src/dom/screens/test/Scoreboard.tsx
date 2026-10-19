@@ -46,22 +46,22 @@ function when(iso: string) {
   return `${d.toLocaleDateString(undefined, { month: "short", day: "numeric" })} at ${time}`;
 }
 
-/** The hero: one column per language, your word error rate against Sarvam's on the same clips. */
+/** The hero: one column per language, your word error rate against the reference's on the same clips. */
 export function Scoreboard({
   result,
   langs,
-  sarvam,
+  reference,
   modelName,
   replay,
 }: {
   result: EvalResult;
   langs: Lang[];
-  sarvam: (l: Lang) => number | undefined;
+  reference: (l: Lang) => number | undefined;
   modelName: string;
   /** Changes after a fresh run: numbers roll again and the bean hops. */
   replay: number;
 }) {
-  const rows: Row[] = langs.map((l) => ({ lang: l, mine: result.scores[l], base: sarvam(l) }));
+  const rows: Row[] = langs.map((l) => ({ lang: l, mine: result.scores[l], base: reference(l) }));
   const compared = rows.filter((r) => r.mine != null && r.base != null);
   const wins = compared.filter((r) => r.mine! < r.base!);
   const losses = compared.filter((r) => r.mine! > r.base!);
@@ -76,19 +76,19 @@ export function Scoreboard({
   let sub: string | null = null;
   if (compared.length) {
     if (!losses.length && wins.length === compared.length) {
-      headline = compared.length === 1 ? `Better than Sarvam in ${langName(wins[0].lang)}` : "Better than Sarvam in every language";
+      headline = compared.length === 1 ? `Better than the reference in ${langName(wins[0].lang)}` : "Better than the reference in every language";
       sub = mineAvg != null && baseAvg != null ? `${(baseAvg / Math.max(mineAvg, 1e-6)).toFixed(2)}× better on average. The goal is 2×.` : null;
     } else if (wins.length) {
-      headline = `Better than Sarvam in ${list(wins.map((r) => langName(r.lang)))}`;
+      headline = `Better than the reference in ${list(wins.map((r) => langName(r.lang)))}`;
       sub =
         losses.length === 1
-          ? `Sarvam still leads in ${langName(losses[0].lang)}, ${pct(losses[0].base)} to your ${pct(losses[0].mine)}.`
-          : `Sarvam still leads in ${list(losses.map((r) => langName(r.lang)))}.`;
+          ? `The reference still leads in ${langName(losses[0].lang)}, ${pct(losses[0].base)} to your ${pct(losses[0].mine)}.`
+          : `The reference still leads in ${list(losses.map((r) => langName(r.lang)))}.`;
     } else if (losses.length) {
-      headline = "Sarvam leads for now";
+      headline = "The reference leads for now";
       sub = "More recordings and another training run are the surest way to close the gap.";
     } else {
-      headline = "Level with Sarvam";
+      headline = "Level with the reference";
     }
   }
   const happy = wins.length > losses.length;
@@ -110,7 +110,7 @@ export function Scoreboard({
               <RollingNumber value={mineAvg * 100} replay={replay} />
               <span className="text-[15px] text-muted-foreground">%</span>
             </div>
-            {baseAvg != null && <div className="mt-1 text-[11.5px] text-muted-foreground tabular-nums">Sarvam {pct(baseAvg)}</div>}
+            {baseAvg != null && <div className="mt-1 text-[11.5px] text-muted-foreground tabular-nums">Reference {pct(baseAvg)}</div>}
           </div>
         )}
       </div>
@@ -132,7 +132,7 @@ export function Scoreboard({
           <AudioLines className="size-3.5" /> {modelName}, beam search ({result.beams} beams)
         </span>
         <span className="tabular-nums">{result.rows.length} held-back clips</span>
-        {compared.length > 0 && <span className="ml-auto">Sarvam (saaras) is scored on the same clips</span>}
+        {compared.length > 0 && <span className="ml-auto">The reference recognizer is scored on the same clips</span>}
       </div>
     </section>
   );
@@ -164,7 +164,7 @@ function LangColumn({ row, scale, index, replay }: { row: Row; scale: number; in
           <Verdict mine={mine} base={base} delay={delay} />
         </>
       ) : (
-        <p className="mt-6 text-[12px] text-muted-foreground">No Sarvam score for this language.</p>
+        <p className="mt-6 text-[12px] text-muted-foreground">No reference score for this language.</p>
       )}
     </div>
   );
@@ -188,7 +188,7 @@ function Duel({ mine, base, scale, delay, replay }: { mine: number; base: number
       />
     </div>
   );
-  // Label rows sit above full-width bars; the overlay spans from the top of your bar to the bottom of Sarvam's.
+  // Label rows sit above full-width bars; the overlay spans from the top of your bar to the bottom of the reference's.
   return (
     <div className="relative mt-6">
       <div className="pointer-events-none absolute inset-x-0 top-[18px] -bottom-1">
@@ -203,7 +203,7 @@ function Duel({ mine, base, scale, delay, replay }: { mine: number; base: number
           animate={{ opacity: hi > lo ? 1 : 0 }}
           transition={{ delay: delay + 0.8, duration: 0.4 }}
         />
-        <div className="absolute inset-y-0 w-px border-l border-dashed border-foreground/30" style={{ left: x(goal) }} title="The goal: half Sarvam's word error rate">
+        <div className="absolute inset-y-0 w-px border-l border-dashed border-foreground/30" style={{ left: x(goal) }} title="The goal: half the reference's word error rate">
           <span className="absolute -bottom-3.5 -translate-x-1/2 text-[9.5px] leading-none font-semibold text-muted-foreground">2×</span>
         </div>
       </div>
@@ -215,7 +215,7 @@ function Duel({ mine, base, scale, delay, replay }: { mine: number; base: number
         {bar(mine, "bg-[linear-gradient(90deg,var(--brand-gold),var(--brand))] shadow-[0_0_12px_-2px_rgb(243_74_45/0.5)]", delay)}
       </div>
       <div className="relative mt-3 flex h-4 items-center justify-between text-[11.5px] text-muted-foreground">
-        <span>Sarvam</span>
+        <span>Reference</span>
         <span className="tabular-nums">{pct(base)}</span>
       </div>
       <div className="relative mt-1.5">{bar(base, "bg-foreground/35", delay + 0.08)}</div>
@@ -231,10 +231,10 @@ function Verdict({ mine, base, delay }: { mine: number; base: number; delay: num
   let text: string;
   if (mine === base) {
     tone = "bg-muted text-muted-foreground";
-    text = "Level with Sarvam";
+    text = "Level with the reference";
   } else if (mine > base) {
     tone = "bg-warn/14 text-warn";
-    text = `Sarvam leads by ${pts.toFixed(1)} pts`;
+    text = `Reference leads by ${pts.toFixed(1)} pts`;
   } else if (ratio >= 2) {
     tone = "bg-[linear-gradient(90deg,var(--brand-gold),var(--brand))] text-white shadow-[0_4px_14px_-6px_rgb(243_74_45/0.8)]";
     icon = <Trophy className="size-3" strokeWidth={2.5} />;
@@ -242,7 +242,7 @@ function Verdict({ mine, base, delay }: { mine: number; base: number; delay: num
   } else {
     tone = "bg-good/12 text-good dark:bg-good/16";
     icon = <Flag className="size-3" strokeWidth={2.5} />;
-    text = `${ratio.toFixed(2)}× better than Sarvam`;
+    text = `${ratio.toFixed(2)}× better than the reference`;
   }
   return (
     <motion.div

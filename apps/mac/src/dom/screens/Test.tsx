@@ -42,7 +42,7 @@ export default function Test({ a, live }: ScreenProps) {
   const scored = Object.keys(result.data?.scores ?? {}).filter((k) => k !== "avg") as Lang[];
   const rank = (l: Lang) => (mine.includes(l) ? mine.indexOf(l) : mine.length);
   const langs = scored.length ? scored.sort((x, y) => rank(x) - rank(y)) : mine;
-  const sarvam = (l: Lang) => baselines.data?.find((b) => b.lang === l)?.wer;
+  const reference = (l: Lang) => baselines.data?.find((b) => b.lang === l)?.wer;
   const progress = live.evalProgress;
   const running = !!progress || run.busy;
   const canRun = !!active && live.engine !== "error";
@@ -54,7 +54,7 @@ export default function Test({ a, live }: ScreenProps) {
     hero = <Running done={progress?.done ?? 0} total={progress?.total ?? 0} ids={result.data?.rows.map((r) => r.id)} />;
   } else if (result.data && active) {
     heroKey = "board";
-    hero = <Scoreboard result={result.data} langs={langs} sarvam={sarvam} modelName={active.name} replay={replay} />;
+    hero = <Scoreboard result={result.data} langs={langs} reference={reference} modelName={active.name} replay={replay} />;
   } else if (!models.loading && !result.loading) {
     heroKey = "empty";
     hero = <Empty hasModel={!!active} canRun={canRun} onRun={() => run.run()} />;
@@ -69,7 +69,7 @@ export default function Test({ a, live }: ScreenProps) {
         title="Test"
         subtitle={
           <>
-            How often your model gets a word wrong on recordings it never trained on, next to Sarvam on the same clips. Lower is better. For
+            How often your model gets a word wrong on recordings it never trained on, next to a leading cloud recognizer on the same clips. Lower is better. For
             languages typed in English letters, spelling variants count as right (<i>chhe</i> = <i>che</i>).
           </>
         }
@@ -114,7 +114,7 @@ function Empty({ hasModel, canRun, onRun }: { hasModel: boolean; canRun: boolean
       <p className="relative mt-1.5 max-w-[30rem] text-[13.5px] text-muted-foreground">
         {hasModel
           ? "Run the test to score it. Your model writes down every held-back clip, and each word is compared with what you read."
-          : "Train a model first. Once it's installed on this Mac, you can score it here against Sarvam."}
+          : "Train a model first. Once it's installed on this Mac, you can score it here against the reference."}
       </p>
       {hasModel && (
         <Button variant="brand" size="lg" className="relative mt-6" disabled={!canRun} onClick={onRun}>

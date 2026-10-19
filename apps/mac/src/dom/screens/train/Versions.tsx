@@ -28,7 +28,7 @@ export function Versions({
   onSelect,
   bestId,
   installed,
-  sarvamAvg,
+  referenceAvg,
 }: {
   runs: RunSummary[];
   details: Record<string, RunDetail | null>;
@@ -36,7 +36,7 @@ export function Versions({
   onSelect: (id: string) => void;
   bestId: string | null;
   installed: Set<string>;
-  sarvamAvg: number | null;
+  referenceAvg: number | null;
 }) {
   // Newest is on the right: start scrolled there when the row overflows.
   const scroller = useRef<HTMLDivElement>(null);
@@ -71,7 +71,7 @@ export function Versions({
           const base = baseLabel(r.base, runs);
           const d = details[r.id];
           const curve = (d?.evals ?? []).filter((e) => e.step != null).map((e) => ({ x: e.step!, y: e.score }));
-          const delta = r.bestScore != null && sarvamAvg != null ? r.bestScore - sarvamAvg : null;
+          const delta = r.bestScore != null && referenceAvg != null ? r.bestScore - referenceAvg : null;
           return (
             <motion.button
               key={r.id}
@@ -135,7 +135,7 @@ export function Versions({
                   </div>
                   {delta != null && (
                     <span
-                      title={`Sarvam averages ${pct(sarvamAvg)} on the same clips. Fewer points is better.`}
+                      title={`Reference averages ${pct(referenceAvg)} on the same clips. Fewer points is better.`}
                       className={cn(
                         "mb-0.5 flex shrink-0 flex-col items-end text-[11px] font-semibold tabular-nums",
                         delta <= 0 ? "text-good" : "text-muted-foreground",
@@ -146,7 +146,7 @@ export function Versions({
                         {delta <= 0 ? "−" : "+"}
                         {Math.abs(delta * 100).toFixed(1)} pts
                       </span>
-                      <span className="text-[10px] font-medium text-muted-foreground">vs Sarvam</span>
+                      <span className="text-[10px] font-medium text-muted-foreground">vs reference</span>
                     </span>
                   )}
                 </div>

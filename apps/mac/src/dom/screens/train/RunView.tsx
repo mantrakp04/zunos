@@ -6,7 +6,7 @@ import { Eyebrow, langName, pct } from "../../ui";
 import { type Line, LineChart, type RefLine } from "./LineChart";
 import { isActive } from "./Versions";
 
-/** The selected model's curves: word error rate per language with Sarvam for reference, and loss. */
+/** The selected model's curves: word error rate per language with the reference recognizer, and loss. */
 export function RunView({ run, langs, colorOf, baselines }: { run: RunDetail; langs: string[]; colorOf: (l: string) => string; baselines: Record<string, number> }) {
   const [hidden, setHidden] = useState<Set<string>>(new Set());
   const [showRefs, setShowRefs] = useState(true);
@@ -40,7 +40,7 @@ export function RunView({ run, langs, colorOf, baselines }: { run: RunDetail; la
   if (!hidden.has("avg"))
     werLines.unshift({ key: "avg", label: "Average", color: "var(--foreground)", width: 2.75, area: true, points: evals.map((e) => ({ x: e.step!, y: e.score })), live });
   const refs: RefLine[] = showRefs
-    ? runLangs.filter((l) => baselines[l] != null && !hidden.has(l)).map((l) => ({ key: l, label: `Sarvam ${langName(l)}`, color: colorOf(l), y: baselines[l]! }))
+    ? runLangs.filter((l) => baselines[l] != null && !hidden.has(l)).map((l) => ({ key: l, label: `Reference ${langName(l)}`, color: colorOf(l), y: baselines[l]! }))
     : [];
 
   // Keep the y range about the useful part: a first eval of a base model can be 200% WER.
@@ -92,7 +92,7 @@ export function RunView({ run, langs, colorOf, baselines }: { run: RunDetail; la
               onClick={() => setShowRefs((s) => !s)}
               swatch={<span className="w-3.5 border-t-[1.5px] border-dashed border-muted-foreground" />}
             >
-              Sarvam
+              Reference
             </LegendChip>
           )}
         </div>
@@ -180,7 +180,7 @@ function BestTable({
     <div className="rounded-[16px] p-4 shadow-[inset_0_0_0_1px_var(--border)]">
       <div className="mb-3 flex items-baseline justify-between">
         <Eyebrow>At its best step{step != null && ` (${step})`}</Eyebrow>
-        <span className="text-[11px] text-muted-foreground">vs Sarvam on the same clips</span>
+        <span className="text-[11px] text-muted-foreground">vs the reference on the same clips</span>
       </div>
       <div className="grid gap-2">
         {langs.map((l) => {
@@ -197,7 +197,7 @@ function BestTable({
               <div className="relative h-5">
                 <div className="absolute top-1/2 h-2 -translate-y-1/2 rounded-full" style={{ width: `${((v ?? 0) / scale) * 100}%`, background: colorOf(l) }} />
                 {ref != null && (
-                  <div className="absolute top-0 bottom-0 border-l-[1.5px] border-dashed border-foreground/50" style={{ left: `${(ref / scale) * 100}%` }} title={`Sarvam ${pct(ref)}`} />
+                  <div className="absolute top-0 bottom-0 border-l-[1.5px] border-dashed border-foreground/50" style={{ left: `${(ref / scale) * 100}%` }} title={`Reference ${pct(ref)}`} />
                 )}
               </div>
               <span className="text-right text-[12px] tabular-nums">
@@ -214,7 +214,7 @@ function BestTable({
         })}
         <div className="mt-1 grid grid-cols-[5.5rem_1fr_5.5rem] items-center gap-3 border-t pt-2.5">
           <span className="text-[12.5px] font-semibold">Average</span>
-          <span className="text-[11px] text-muted-foreground">dashed line: Sarvam · points of WER</span>
+          <span className="text-[11px] text-muted-foreground">dashed line: reference · points of WER</span>
           <span className="text-right font-display text-[15px] font-bold tabular-nums">{pct(best.score)}</span>
         </div>
       </div>
