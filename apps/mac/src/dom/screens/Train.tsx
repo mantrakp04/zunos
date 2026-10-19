@@ -2,14 +2,38 @@ import { SparkChart } from "@zunos/ui/components/ruixen/spark-chart";
 import { cn } from "@zunos/ui/lib/utils";
 import { useState } from "react";
 
+import { useEffect } from "react";
+
 import type { RunDetail } from "../../shared/types";
-import { Badge, Button, Card, ErrorNote, LANG_NAMES, minutes, PageHeader, pct, Stat, useAsync } from "../ui";
+import { Badge, Button, Card, ErrorNote, LANG_NAMES, minutes, PageHeader, pct, Stat, useAction, useAsync } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 
-export default function Train({ a }: ScreenProps) {
+const STAGES: Record<string, string> = {
+  data: "Preparing your recordings", setup: "Setting up the GPU", gen: "Cloning your voice", filter: "Checking clip quality",
+  train: "Fine-tuning Whisper", export: "Packaging the model", upload: "Uploading the model", done: "Done", downloaded: "Installed",
+};
+const PHASES = { packing: "Packing your recordings…", uploading: "Uploading…", starting: "Starting a GPU…", downloading: "Downloading your model…", installing: "Installing…" };
+
+export default function Train({ a, live }: ScreenProps) {
   const runs = useAsync(() => a.runs());
   const stats = useAsync(() => a.stats());
+  const langs = useAsync(() => a.languages());
   const quote = useAsync(() => a.trainingQuote());
+  const start = useAction(async () => {
+    await a.startTraining((langs.data ?? []).filter((l) => l.enabled).map((l) => l.code));
+    await runs.reload();
+  });
+  const stop = useAction(async (id: string) => {
+    await a.stopTraining(id);
+    await runs.reload();
+  });
+  const active = (runs.data ?? []).find((r) => ["uploading", "queued", "running"].includes(r.status));
+  // Runs are synced by the native shell every 30 s; refresh this view on the same cadence.
+  useEffect(() => {
+    const t = setInterval(() => runs.reload(), 15_000);
+    return () => clearInterval(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const [open, setOpen] = useState<string | null>(null);
   const detail = useAsync(() => (open ? a.run(open) : Promise.resolve(null)), [open]);
   const best = (runs.data ?? []).filter((r) => r.bestScore != null).sort((x, y) => x.bestScore! - y.bestScore!)[0];
@@ -42,10 +66,19 @@ export default function Train({ a }: ScreenProps) {
               <p className="text-sm text-muted-foreground">
                 {quote.data.gpu} · about {quote.data.estimatedHours.toFixed(1)} h at ${quote.data.pricePerHour.toFixed(2)}/h
               </p>
-              <Button variant="brand" disabled={!quote.data.available}>
-                Start training
+              <Button variant="brand" disabled={!quote.data.available || !!active} loading={start.busy} onClick={() => start.run()}>
+                Start training · about ${(quote.data.pricePerHour * quote.data.estimatedHours).toFixed(2)}
               </Button>
               {!quote.data.available && <p className="text-xs text-muted-foreground">{quote.data.reason}</p>}
+              {live.transfer && (
+                <div className="flex flex-col gap-1 text-xs text-muted-foreground">
+                  <span>{PHASES[live.transfer.phase]}</span>
+                  <div className="h-1 overflow-hidden rounded-full bg-muted">
+                    <div className="h-full bg-brand transition-all" style={{ width: `${Math.round(live.transfer.progress * 100)}%` }} />
+                  </div>
+                </div>
+              )}
+              <ErrorNote error={start.error} />
             </>
           ) : quote.loading ? (
             <p className="text-sm text-muted-foreground">Checking GPU prices…</p>
@@ -64,15 +97,27 @@ export default function Train({ a }: ScreenProps) {
               <span className="w-56 truncate text-sm text-muted-foreground">{r.base}</span>
               <Badge tone={r.status === "done" ? "good" : r.status === "failed" ? "warn" : "muted"}>{r.status}</Badge>
               {best?.id === r.id && <Badge tone="brand">best</Badge>}
+              {["queued", "running"].includes(r.status) && (
+                <span className="text-xs text-muted-foreground">
+                  {STAGES[r.stage ?? ""] ?? r.stage} {r.costUsd != null && `· $${r.costUsd.toFixed(2)} so far`}
+                </span>
+              )}
               <span className="ml-auto text-sm tabular-nums text-muted-foreground">
                 best avg WER {pct(r.bestScore)} {r.bestStep != null && `at step ${r.bestStep}`}
               </span>
             </button>
+            {open === r.id && ["queued", "running"].includes(r.status) && (
+              <div className="flex justify-end border-t px-4 py-2">
+                <Button variant="danger" loading={stop.busy} onClick={() => stop.run(r.id)}>
+                  Stop and release the GPU
+                </Button>
+              </div>
+            )}
             {open === r.id && detail.data && <RunCharts run={detail.data} />}
           </div>
         ))}
       </div>
-      <ErrorNote error={runs.error} />
+      <ErrorNote error={runs.error ?? stop.error} />
     </div>
   );
 }

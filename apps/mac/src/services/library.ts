@@ -167,8 +167,60 @@ export function createLibrary(db: Db) {
       return db.select().from(baselines);
     },
 
-    async clipsForTraining(langs: Lang[]) {
-      return db.select().from(clips).where(inArray(clips.lang, langs));
+    /** Everything a training pod needs for these languages (see python/engine/src/zunos_engine/pack.py). */
+    async trainingDataset(langs: Lang[]) {
+      const cs = await db.select().from(clips).where(inArray(clips.lang, langs));
+      const ps = await db.select().from(prompts).where(and(inArray(prompts.lang, langs), eq(prompts.kind, "sentence")));
+      const trainRecordings = [...new Set(cs.filter((c) => c.split === "train" && c.recordingId).map((c) => c.recordingId!))];
+      const recs = trainRecordings.length ? await db.select().from(recordings).where(inArray(recordings.id, trainRecordings)) : [];
+      return {
+        clips: cs.map((c) => ({
+          id: c.id, lang: c.lang, split: c.split, text: c.text, native_text: c.nativeText, seconds: c.seconds, kind: c.kind,
+          path_16k: abs(c.path16k), path_48k: c.path48k ? abs(c.path48k) : null,
+        })),
+        prompts: ps.map((p) => ({ id: p.id, lang: p.lang, roman: p.lines[0]!, native: p.nativeLines?.[0] ?? null })),
+        recordings: recs.map((r) => abs(r.path)),
+      };
+    },
+
+    async createRun(id: string, langs: Lang[], gpu: string | null) {
+      await db.insert(runs).values({
+        id, name: id, base: "openai/whisper-large-v3", cfg: { langs }, status: "uploading", stage: "data", gpu, remoteId: id,
+        startedAt: new Date().toISOString(),
+      });
+    },
+
+    /** Cloud runs still in flight, or finished but whose model hasn't been downloaded yet. */
+    async activeRuns() {
+      return db.select().from(runs).where(and(
+        sql`${runs.remoteId} is not null`,
+        sql`(${runs.status} in ('uploading','queued','running') or (${runs.status} = 'done' and coalesce(${runs.stage}, '') != 'downloaded'))`,
+      ));
+    },
+
+    /** Mirror the backend's view of a run: status, cost, training curve and evals. */
+    async updateRun(id: string, remote: { status: string; stage: string | null; costUsd: number; steps: { step: number; loss: number }[]; evals: { step: number; score: number; res: Record<string, unknown> }[]; error: string | null }) {
+      const best = [...remote.evals].sort((a, b) => a.score - b.score)[0];
+      await db.update(runs).set({
+        status: remote.status as any, stage: remote.stage, costUsd: remote.costUsd, notes: remote.error,
+        bestStep: best?.step ?? null, bestScore: best?.score ?? null,
+        finishedAt: ["done", "failed", "stopped"].includes(remote.status) ? new Date().toISOString() : null,
+      }).where(eq(runs.id, id));
+      await db.delete(runSteps).where(eq(runSteps.runId, id));
+      if (remote.steps.length) await db.insert(runSteps).values(remote.steps.map((s) => ({ runId: id, step: s.step, loss: s.loss })));
+      await db.delete(evals).where(and(eq(evals.runId, id), sql`${evals.modelId} is null`));
+      if (remote.evals.length)
+        await db.insert(evals).values(remote.evals.map((e) => ({ runId: id, step: e.step, beams: 1, score: e.score, scores: e.res })));
+    },
+
+    async hasModelForRun(runId: string) {
+      return (await db.select({ id: models.id }).from(models).where(eq(models.runId, runId))).length > 0;
+    },
+
+    async addModel(runId: string, rel: string, score: Record<string, unknown> | null) {
+      await db.insert(models).values({ id: `${runId}-hf`, runId, name: runId, format: "hf", path: rel, score, active: false })
+        .onConflictDoNothing();
+      await db.update(runs).set({ status: "done", stage: "downloaded" }).where(eq(runs.id, runId));
     },
   };
 }

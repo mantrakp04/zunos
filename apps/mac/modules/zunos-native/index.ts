@@ -5,6 +5,7 @@ type Events = {
   onEngineLine(e: { line: string }): void;
   onEngineLog(e: { text: string }): void;
   onEngineExit(e: { code: number }): void;
+  onTransfer(e: { id: string; done: number; total: number }): void;
 };
 
 export type RecordingResult = { path: string; seconds: number; sampleRate: number; peak: number };
@@ -27,6 +28,9 @@ declare class ZunosNativeModule extends NativeModule<Events> {
   sendEngine(line: string): Promise<void>;
   engineRunning(): boolean;
   stopEngine(): Promise<void>;
+
+  uploadFile(id: string, url: string, path: string, contentType: string): Promise<void>;
+  downloadFile(id: string, url: string, dest: string): Promise<void>;
 
   keychainGet(key: string): string | null;
   keychainSet(key: string, value: string): boolean;

@@ -11,7 +11,7 @@ import { createLibrary, type Library } from "./src/services/library";
 import type { LiveState } from "./src/shared/types";
 
 const initial: LiveState = {
-  user: null, authReady: false, engine: "stopped", engineError: null, recording: false, level: 0, evalProgress: null,
+  user: null, authReady: false, engine: "stopped", engineError: null, recording: false, level: 0, evalProgress: null, transfer: null,
 };
 
 export default function App() {
@@ -46,6 +46,15 @@ export default function App() {
   }, []);
 
   const actions = useMemo(() => (lib ? createActions(lib, setLive) : null), [lib]);
+
+  // Cloud training: poll in-flight runs every 30 s while signed in.
+  useEffect(() => {
+    if (!actions || !live.user) return;
+    const tick = () => actions.syncRuns().catch(() => {});
+    tick();
+    const t = setInterval(tick, 30_000);
+    return () => clearInterval(t);
+  }, [actions, live.user?.id]);
   if (!actions) return <View style={{ flex: 1 }} />;
 
   return (

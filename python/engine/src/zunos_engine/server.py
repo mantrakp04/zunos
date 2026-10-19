@@ -10,8 +10,11 @@ Commands:
   transcribe  {path, beams?}             → {"text", "lang", "seconds", "elapsed"}; path is any wav
   eval        {model?, clips, beams?}    → {"rows", "scores"}; clips = [{id, lang, text, path}]
   segment     {path, marks, lines, out_dir, id_prefix} → {"clips": [{id, start, end, seconds, text, path_16k, path_48k}]}
+  pack        {out, langs, clips, prompts, recordings, cfg?} → {"path", "bytes", "clips"}; training dataset
+  unpack      {archive, dest}            → {"path"}; extracts a downloaded model tar
 """
 import json
+import os
 import sys
 import time
 import traceback
@@ -75,6 +78,20 @@ class Engine:
         from .segment import segment
 
         return {"clips": segment(req["path"], req["marks"], req["out_dir"], req["id_prefix"], req["lines"])}
+
+    def cmd_pack(self, req):
+        from .pack import pack
+
+        return pack(req["out"], req["langs"], req["clips"], req["prompts"], req["recordings"], req.get("cfg"))
+
+    def cmd_unpack(self, req):
+        import tarfile
+
+        with tarfile.open(req["archive"]) as t:
+            names = t.getnames()
+            t.extractall(req["dest"], filter="data")
+        top = names[0].split("/")[0] if names else ""
+        return {"path": os.path.join(req["dest"], top)}
 
     def handle(self, req):
         fn = getattr(self, f"cmd_{req.get('cmd')}", None)

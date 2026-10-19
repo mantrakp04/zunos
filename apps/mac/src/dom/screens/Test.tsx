@@ -12,6 +12,11 @@ export default function Test({ a, live }: ScreenProps) {
   const active = models.data?.find((m) => m.active && m.format === "hf");
   const result = useAsync(() => (active ? a.latestEval(active.id) : Promise.resolve(null)), [active?.id]);
   const run = useAction(async () => result.setData(await a.evaluate()));
+  const choose = useAction(async (id: string) => {
+    await a.setActiveModel(id);
+    await models.reload();
+  });
+  const hfModels = (models.data ?? []).filter((m) => m.format === "hf");
   const [filter, setFilter] = useState<"all" | Lang>("all");
   const sarvam = (l: Lang) => baselines.data?.find((b) => b.lang === l)?.wer;
 
@@ -57,10 +62,22 @@ export default function Test({ a, live }: ScreenProps) {
       </div>
 
       {active && (
-        <p className="mb-3 text-sm text-muted-foreground">
-          Model <span className="font-medium text-foreground">{active.name}</span>
-          {result.data && <> · tested {new Date(result.data.createdAt).toLocaleString()} with beam search</>}
-        </p>
+        <div className="mb-3 flex items-center gap-2 text-sm text-muted-foreground">
+          <span>Model</span>
+          <select
+            className="rounded-md border bg-background px-2 py-1 text-foreground"
+            value={active.id}
+            disabled={choose.busy || run.busy}
+            onChange={(e) => choose.run(e.target.value)}
+          >
+            {hfModels.map((m) => (
+              <option key={m.id} value={m.id}>
+                {m.name}
+              </option>
+            ))}
+          </select>
+          {result.data && <span>· tested {new Date(result.data.createdAt).toLocaleString()} with beam search</span>}
+        </div>
       )}
 
       {result.data && (

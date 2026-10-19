@@ -4,12 +4,13 @@ import ExpoModulesCore
 public class ZunosNativeModule: Module {
   private let recorder = Recorder()
   private let engine = EngineProcess()
+  private let transfer = Transfer()
   private var lastLevelEvent = Date.distantPast
 
   public func definition() -> ModuleDefinition {
     Name("ZunosNative")
 
-    Events("onLevel", "onEngineLine", "onEngineLog", "onEngineExit")
+    Events("onLevel", "onEngineLine", "onEngineLog", "onEngineExit", "onTransfer")
 
     OnCreate {
       recorder.onLevel = { [weak self] rms, peak in
@@ -23,6 +24,9 @@ public class ZunosNativeModule: Module {
       engine.onLine = { [weak self] line in self?.sendEvent("onEngineLine", ["line": line]) }
       engine.onLog = { [weak self] text in self?.sendEvent("onEngineLog", ["text": text]) }
       engine.onExit = { [weak self] code in self?.sendEvent("onEngineExit", ["code": Int(code)]) }
+      transfer.onProgress = { [weak self] id, done, total in
+        self?.sendEvent("onTransfer", ["id": id, "done": Double(done), "total": Double(total)])
+      }
     }
 
     OnDestroy {
@@ -90,6 +94,26 @@ public class ZunosNativeModule: Module {
 
     AsyncFunction("stopEngine") {
       self.engine.stop()
+    }
+
+    // MARK: transfers
+
+    AsyncFunction("uploadFile") { (id: String, url: String, path: String, contentType: String, promise: Promise) in
+      self.transfer.upload(id: id, url: url, path: path, contentType: contentType) { result in
+        switch result {
+        case .success: promise.resolve(nil)
+        case .failure(let e): promise.reject("ERR_UPLOAD", String(describing: e))
+        }
+      }
+    }
+
+    AsyncFunction("downloadFile") { (id: String, url: String, dest: String, promise: Promise) in
+      self.transfer.download(id: id, url: url, dest: dest) { result in
+        switch result {
+        case .success: promise.resolve(nil)
+        case .failure(let e): promise.reject("ERR_DOWNLOAD", String(describing: e))
+        }
+      }
     }
 
     // MARK: keychain

@@ -82,6 +82,8 @@ export type LiveState = {
   recording: boolean;
   level: number;
   evalProgress: { done: number; total: number } | null;
+  /** Local side of a cloud training run: preparing the dataset, uploading it, fetching the model. */
+  transfer: { runId: string; phase: "packing" | "uploading" | "starting" | "downloading" | "installing"; progress: number } | null;
 };
 
 export type TrainingQuote = { gpu: string; pricePerHour: number; estimatedHours: number; available: boolean; reason?: string };
