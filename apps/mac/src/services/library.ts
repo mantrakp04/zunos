@@ -4,17 +4,32 @@ import type { Lang } from "@zunos/db/schema";
 import { and, asc, desc, eq, inArray, sql } from "drizzle-orm";
 
 import type {
-  Baseline, EvalResult, Language, LangStats, ModelItem, PromptItem, RunDetail, RunSummary, SavedRecording,
+  Baseline, CleanupStyle, DictationItem, EvalResult, Language, LangStats, ModelItem, PromptItem, RunDetail, RunSummary, SavedRecording,
 } from "../shared/types";
+import Native from "../../modules/zunos-native";
 import { abs, dataDir, type Db } from "./db";
 import * as engine from "./engine";
 
-const { clips, evals, languages, models, prompts, recordings, runs, runSteps, baselines, settings } = schema;
+const { clips, dictations, evals, languages, models, prompts, recordings, runs, runSteps, baselines, settings } = schema;
 
 // Share of each language's clips held back for testing. Test clips are never trained on.
 const TEST_SHARE = 0.25;
 
 export function createLibrary(db: Db) {
+  /** Splits for `n` new clips of `lang`: about one in four goes to the test set. */
+  async function nextSplits(lang: Lang, n: number) {
+    const [counts] = await db
+      .select({ test: sql<number>`coalesce(sum(${clips.split} = 'test'), 0)`, all: sql<number>`count(*)` })
+      .from(clips).where(eq(clips.lang, lang));
+    let test = counts?.test ?? 0, all = counts?.all ?? 0;
+    return Array.from({ length: n }, () => {
+      const split: "train" | "test" = test < (all + 1) * TEST_SHARE ? "test" : "train";
+      if (split === "test") test++;
+      all++;
+      return split;
+    });
+  }
+
   return {
     /** All languages, the user's own first. */
     async languages(): Promise<Language[]> {
@@ -91,20 +106,12 @@ export function createLibrary(db: Db) {
       const { clips: cut } = await engine.call<{ clips: any[] }>("segment", {
         path: abs(rec.rel), marks: take.marks, lines: prompt.lines, out_dir: `${dataDir}/audio/clips`, id_prefix: rec.id,
       });
-      const [counts] = await db
-        .select({ test: sql<number>`coalesce(sum(${clips.split} = 'test'), 0)`, all: sql<number>`count(*)` })
-        .from(clips).where(eq(clips.lang, prompt.lang));
-      let test = counts?.test ?? 0, all = counts?.all ?? 0;
-      const saved = cut.map((c) => {
-        const split = test < (all + 1) * TEST_SHARE ? "test" : "train";
-        if (split === "test") test++;
-        all++;
-        return {
-          id: c.id, recordingId: rec.id, lang: prompt.lang, kind: prompt.kind, start: c.start, end: c.end, seconds: c.seconds,
-          path16k: c.path_16k.replace(`${dataDir}/`, ""), path48k: c.path_48k.replace(`${dataDir}/`, ""),
-          text: c.text, split: split as "train" | "test", unsure: false,
-        };
-      });
+      const splits = await nextSplits(prompt.lang, cut.length);
+      const saved = cut.map((c, i) => ({
+        id: c.id, recordingId: rec.id, lang: prompt.lang, kind: prompt.kind, start: c.start, end: c.end, seconds: c.seconds,
+        path16k: c.path_16k.replace(`${dataDir}/`, ""), path48k: c.path_48k.replace(`${dataDir}/`, ""),
+        text: c.text, split: splits[i]!, unsure: false,
+      }));
       if (saved.length) await db.insert(clips).values(saved);
       return { recordingId: rec.id, seconds: take.seconds, clips: saved.map(({ id, seconds, split, text }) => ({ id, seconds, split, text })) };
     },
@@ -220,6 +227,71 @@ export function createLibrary(db: Db) {
       await db.insert(models).values({ id: `${runId}-hf`, runId, name: runId, format: "hf", path: rel, score, active: false })
         .onConflictDoNothing();
       await db.update(runs).set({ status: "done", stage: "downloaded" }).where(eq(runs.id, runId));
+    },
+
+    // ---- dictation history
+    newDictation() {
+      const id = `d-${new Date().toISOString().replace(/[-:.TZ]/g, "").slice(0, 17)}`;
+      return { id, rel: `audio/dictations/${id}.wav`, path: `${dataDir}/audio/dictations/${id}.wav` };
+    },
+
+    async addDictation(row: typeof dictations.$inferInsert) {
+      await db.insert(dictations).values(row);
+    },
+
+    async updateDictation(id: string, patch: Partial<typeof dictations.$inferInsert>) {
+      await db.update(dictations).set(patch).where(eq(dictations.id, id));
+    },
+
+    async dictation(id: string) {
+      const [d] = await db.select().from(dictations).where(eq(dictations.id, id));
+      return d ?? null;
+    },
+
+    async dictations(limit = 100): Promise<DictationItem[]> {
+      const rows = await db.select({ d: dictations, split: clips.split }).from(dictations)
+        .leftJoin(clips, eq(clips.id, dictations.clipId)).orderBy(desc(dictations.createdAt)).limit(limit);
+      return rows.map(({ d, split }) => ({
+        id: d.id, createdAt: d.createdAt, seconds: d.seconds, lang: d.lang, raw: d.raw, clean: d.clean,
+        style: d.style as CleanupStyle | null, corrected: d.corrected, appName: d.appName, status: d.status, error: d.error,
+        clip: d.clipId && split ? { id: d.clipId, split } : null, hasAudio: !!d.audio,
+      }));
+    },
+
+    async deleteDictation(id: string) {
+      const d = await this.dictation(id);
+      if (d?.audio) await Native.deleteFile(abs(d.audio));
+      await db.delete(dictations).where(eq(dictations.id, id));
+    },
+
+    /**
+     * Turns a dictation into a clip with the user-confirmed text (the audio is copied, so deleting
+     * the dictation later keeps the clip). Splits follow the same one-in-four rule as recordings.
+     */
+    async clipFromDictation(id: string, text: string, lang: Lang) {
+      const d = await this.dictation(id);
+      if (!d?.audio) throw new Error("This dictation's audio is gone.");
+      const recId = `dict-${d.id}`;
+      await db.insert(recordings).values({
+        id: recId, promptId: null, lang, kind: "dictation", path: d.audio, sampleRate: d.sampleRate, seconds: d.seconds,
+        marks: [d.seconds], recordedAt: d.createdAt,
+      }).onConflictDoNothing();
+      const { clips: cut } = await engine.call<{ clips: any[] }>("segment", {
+        path: abs(d.audio), marks: [d.seconds], lines: [text], out_dir: `${dataDir}/audio/clips`, id_prefix: recId,
+      });
+      const c = cut[0];
+      const [split] = await nextSplits(lang, 1);
+      await db.insert(clips).values({
+        id: c.id, recordingId: recId, lang, kind: "dictation", start: c.start, end: c.end, seconds: c.seconds,
+        path16k: c.path_16k.replace(`${dataDir}/`, ""), path48k: c.path_48k.replace(`${dataDir}/`, ""), text, split: split!, unsure: false,
+      });
+      await db.update(dictations).set({ clipId: c.id }).where(eq(dictations.id, id));
+      return { id: c.id as string, split: split! };
+    },
+
+    /** Replaces a clip's word-for-word text (a corrected dictation that already became a clip). */
+    async setClipText(id: string, text: string) {
+      await db.update(clips).set({ text }).where(eq(clips.id, id));
     },
 
     // ---- app settings (key → JSON value)

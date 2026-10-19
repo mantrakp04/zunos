@@ -6,7 +6,13 @@ type Events = {
   onEngineLog(e: { text: string }): void;
   onEngineExit(e: { code: number }): void;
   onTransfer(e: { id: string; done: number; total: number }): void;
+  onHotkey(e: { type: "down" | "up" | "cancel" }): void;
+  /** A menu-bar item was chosen (AppDelegate posts ZunosMenuAction). */
+  onMenu(e: { action: "pasteLast" }): void;
 };
+
+export type HotkeyKey = "fn" | "rightOption" | "rightCommand";
+export type OverlayState = "hidden" | "listening" | "thinking" | "done" | "error";
 
 export type RecordingResult = { path: string; seconds: number; sampleRate: number; peak: number };
 export type MicPermission = "granted" | "denied" | "undetermined";
@@ -16,6 +22,16 @@ declare class ZunosNativeModule extends NativeModule<Events> {
   resourcePath(): string;
   deleteFile(path: string): Promise<void>;
   copyText(text: string): void;
+
+  accessibilityTrusted(): boolean;
+  requestAccessibility(): boolean;
+  startHotkey(key: HotkeyKey): Promise<boolean>;
+  stopHotkey(): Promise<void>;
+  hotkeyRunning(): boolean;
+  setHotkeyActive(active: boolean): Promise<void>;
+  pasteText(text: string, restoreClipboard: boolean): Promise<boolean>;
+  overlay(state: OverlayState, message?: string | null): Promise<void>;
+  frontmostApp(): { bundleId: string; name: string } | null;
 
   micPermission(): MicPermission;
   requestMicPermission(): Promise<MicPermission>;

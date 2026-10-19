@@ -27,6 +27,31 @@ struct ZunosApp: App {
     }
     .windowStyle(.hiddenTitleBar)
     .defaultSize(width: 1280, height: 720)
+
+    // The menu-bar item keeps zunos running with its window closed, so the dictation hotkey still works.
+    MenuBarExtra("zunos", systemImage: "waveform") {
+      MenuBarMenu()
+    }
+  }
+}
+
+struct MenuBarMenu: View {
+  @Environment(\.openWindow) private var openWindow
+
+  var body: some View {
+    Button("Open zunos") {
+      openWindow(id: "main")
+      NSApp.activate()
+    }
+    .keyboardShortcut("o")
+    // Handled in JS (dictation.ts) through ZunosNativeModule's onMenu event.
+    Button("Paste last dictation") {
+      NotificationCenter.default.post(name: Notification.Name("ZunosMenuAction"), object: nil, userInfo: ["action": "pasteLast"])
+    }
+    .keyboardShortcut("v")
+    Divider()
+    Button("Quit zunos") { NSApp.terminate(nil) }
+      .keyboardShortcut("q")
   }
 }
 

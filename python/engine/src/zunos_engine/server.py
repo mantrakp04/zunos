@@ -16,7 +16,8 @@ Commands:
   cleanup_download {dir}                 → {"path"}; runs in the background (other commands keep working),
                                            events "progress" {"done", "total"} in bytes
   cleanup_load     {dir}                 → {"model"}; loads (and warms up) the cleanup model
-  cleanup          {text, style?, vocabulary?} → {"text", "used", "elapsed"}; used=false means the raw text came back
+  cleanup          {text, style?, vocabulary?, hints?} → {"text", "used", "elapsed"}; used=false means the raw
+                                           text came back; hints = [[heard, meant], ...] from the user's corrections
 """
 import json
 import os
@@ -136,7 +137,7 @@ class Engine:
         if self.cleaner is None:
             raise EngineError("no_cleanup_model", "The cleanup model isn't loaded. Send `cleanup_load` first.")
         t0 = time.time()
-        text, used = self.cleaner.clean(req["text"], req.get("style", "light"), req.get("vocabulary") or ())
+        text, used = self.cleaner.clean(req["text"], req.get("style", "light"), req.get("vocabulary") or (), req.get("hints") or ())
         return {"text": text, "used": used, "elapsed": round(time.time() - t0, 2)}
 
     def handle(self, req):

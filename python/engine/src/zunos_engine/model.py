@@ -35,7 +35,10 @@ class Model:
         torch = self.torch
         f = self.proc.feature_extractor(chunk, sampling_rate=RATE, return_tensors="pt").input_features
         with torch.inference_mode():
-            g = self.model.generate(f.to(self.device, torch.float16), task="transcribe", max_new_tokens=220, num_beams=beams)
+            # Only the dict output keeps the decoder prompt (<|startoftranscript|><|lang|>...), which
+            # is where the detected language is.
+            g = self.model.generate(f.to(self.device, torch.float16), task="transcribe", max_new_tokens=220, num_beams=beams,
+                                    return_dict_in_generate=True).sequences
         text = self.proc.tokenizer.decode(g[0], skip_special_tokens=True).strip()
         lang = self.lang_ids.get(int(g[0][1]), "?") if g.shape[1] > 1 else "?"
         return text, lang

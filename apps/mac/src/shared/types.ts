@@ -87,6 +87,47 @@ export type LiveState = {
   transfer: { runId: string; phase: "packing" | "uploading" | "starting" | "downloading" | "installing"; progress: number } | null;
   /** The transcript-cleanup model; null until dictation has checked for it. */
   cleanup: CleanupState | null;
+  /** A dictation in progress, from the Dictate screen or the global hotkey. */
+  dictation: { source: "window" | "hotkey"; phase: "listening" | "thinking" } | null;
+  /** System-wide dictation needs Accessibility (the hotkey tap and pasting). */
+  access: { trusted: boolean; hotkey: boolean };
+  /** Bumped whenever the dictation history changes, so lists know to reload. */
+  dictationsVersion: number;
+};
+
+export type HotkeyKey = "fn" | "rightOption" | "rightCommand";
+
+/**
+ * hybrid: hold the key to talk, or tap it to start and tap again to stop. hold: only while held.
+ * toggle: every press starts or stops.
+ */
+export type DictationSettings = {
+  hotkey: HotkeyKey | "off";
+  mode: "hybrid" | "hold" | "toggle";
+  /** Paste into the app that was in front; otherwise only copy. */
+  paste: boolean;
+  /** Put the user's clipboard back after pasting. */
+  restoreClipboard: boolean;
+};
+
+export type DictationItem = {
+  id: string;
+  createdAt: string;
+  seconds: number;
+  lang: string | null;
+  /** Exactly what the model heard. */
+  raw: string;
+  /** The cleanup model's version (of `corrected` when there is one). */
+  clean: string | null;
+  style: CleanupStyle | null;
+  /** The user's fix of `raw`: what was really said, word for word. */
+  corrected: string | null;
+  appName: string | null;
+  status: "ok" | "failed";
+  error: string | null;
+  /** Set once the dictation became a training (or test) clip. */
+  clip: { id: string; split: "train" | "test" } | null;
+  hasAudio: boolean;
 };
 
 /** How dictated text is cleaned up by the local LLM. "off" keeps exactly what Whisper heard. */
@@ -102,6 +143,7 @@ export type CleanupState =
 
 /** One dictation: `text` is the raw transcript, `clean` the cleaned version when cleanup ran. */
 export type DictationResult = {
+  id: string;
   text: string;
   clean: string | null;
   style: CleanupStyle | null;

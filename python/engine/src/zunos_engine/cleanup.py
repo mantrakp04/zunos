@@ -122,18 +122,22 @@ class Cleaner:
     def warmup(self):
         self.clean("um so this is just a quick test", "light")
 
-    def prompt(self, text, style, vocabulary=()):
+    def prompt(self, text, style, vocabulary=(), hints=()):
         style = style if style in STYLES else "light"
         system = SYSTEM + "\n" + STYLE_RULES[style]
         if vocabulary:
             system += "\n- Spell these names and terms exactly like this: " + ", ".join(vocabulary)
+        if hints:
+            # Learned from the user's own corrections of earlier dictations.
+            system += "\n- The speech recognizer often mishears these; fix them when they appear: " + "; ".join(
+                f'"{wrong}" should be "{right}"' for wrong, right in hints)
         msgs = [{"role": "system", "content": system}]
         for raw, clean in EXAMPLES + STYLE_EXAMPLES[style]:
             msgs += [{"role": "user", "content": wrap(raw)}, {"role": "assistant", "content": clean}]
         msgs.append({"role": "user", "content": wrap(text)})
         return self.tok.apply_chat_template(msgs, add_generation_prompt=True, tokenize=False, enable_thinking=False)
 
-    def clean(self, text, style="light", vocabulary=()):
+    def clean(self, text, style="light", vocabulary=(), hints=()):
         """→ (cleaned text, whether the model's output was used)."""
         from mlx_lm import stream_generate
 
@@ -143,7 +147,7 @@ class Cleaner:
         out, finish = "", None
         # Room for list formatting and for romanized text, which tokenizes poorly.
         budget = max(256, 2 * len(self.tok.encode(text)))
-        for r in stream_generate(self.model, self.tok, self.prompt(text, style, vocabulary), max_tokens=budget, sampler=self.sampler):
+        for r in stream_generate(self.model, self.tok, self.prompt(text, style, vocabulary, hints), max_tokens=budget, sampler=self.sampler):
             out += r.text
             finish = r.finish_reason
         if finish == "length":  # cut off mid-sentence: the raw text is better

@@ -167,6 +167,31 @@ export const baselines = sqliteTable("baselines", {
   wer: real("wer").notNull(),
 }, (t) => [primaryKey({ columns: [t.provider, t.lang] })]);
 
+/**
+ * One dictation from the Dictate screen or the global hotkey. `raw` is exactly what the model heard;
+ * `corrected` is the user's fix of that raw text, which can become a training clip (`clipId`).
+ */
+export const dictations = sqliteTable("dictations", {
+  id: text("id").primaryKey(),
+  audio: text("audio"), // WAV at the mic's rate, relative path; null once deleted
+  sampleRate: integer("sample_rate").notNull(),
+  seconds: real("seconds").notNull(),
+  lang: text("lang").$type<Lang>(),
+  raw: text("raw").notNull().default(""),
+  clean: text("clean"),
+  style: text("style"),
+  corrected: text("corrected"),
+  modelId: text("model_id"),
+  // Frontmost app when dictation started (bundle id and name), so pasting and modes know the target.
+  app: text("app"),
+  appName: text("app_name"),
+  status: text("status").$type<"ok" | "failed">().notNull().default("ok"),
+  error: text("error"),
+  clipId: text("clip_id").references(() => clips.id),
+  elapsed: real("elapsed"),
+  createdAt: createdAt(),
+}, (t) => [index("dictations_created").on(t.createdAt)]);
+
 export const settings = sqliteTable("settings", {
   key: text("key").primaryKey(),
   value: json<unknown>("value"),
