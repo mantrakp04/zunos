@@ -157,7 +157,7 @@ describe("startup", () => {
   it("migrates the database file in WAL mode and packs the pod code at startup", async () => {
     expect(existsSync(join(dataDir, "zunos-api.db"))).toBe(true);
     expect(server.ctx.db.query("PRAGMA journal_mode").get()).toEqual({ journal_mode: "wal" });
-    expect(server.ctx.db.query("PRAGMA user_version").get()).toEqual({ user_version: 1 });
+    expect(server.ctx.db.query("PRAGMA user_version").get()).toEqual({ user_version: 2 });
 
     const listing = Bun.spawnSync(["tar", "tzf", join(dataDir, "blobs/pod/code.tar.gz")]).stdout.toString().trim().split("\n");
     expect(listing).toContain("python/pod/run.py");

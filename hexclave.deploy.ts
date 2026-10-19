@@ -39,14 +39,19 @@ export const deploy: HexclaveDeploymentConfig = ({ isDev, secret, hexclave }) =>
         // The api's own public URL (e.g. its platform URL from the dashboard). Empty until set: the server
         // runs, but refuses to create or start runs (503 not_configured).
         PUBLIC_URL: isDev ? null : secret("PUBLIC_URL", ""),
+        // Optional: lets the owner's experiment launcher (python/pod/launch.py) start runs as OWNER_EMAIL.
+        OWNER_TOKEN: isDev ? null : secret("OWNER_TOKEN", ""),
+        OWNER_EMAIL: isDev ? null : secret("OWNER_EMAIL", ""),
+        OWNER_USER_ID: isDev ? null : secret("OWNER_USER_ID", ""),
 
         DATA_DIR: isDev ? null : "/data",
         RUNPOD_MOCK: isDev ? null : "0",
         POD_IMAGE: "runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404",
         GPU_TYPES: "NVIDIA A40,NVIDIA RTX A6000,NVIDIA L40S",
-        // The owner's budget: everything on the Runpod account together, USD per hour.
-        MAX_HOURLY_USD: "2",
-        MAX_RUN_HOURS: "4",
+        // The owner's budget: everything on the Runpod account together, USD per hour ($5 while experimenting).
+        MAX_HOURLY_USD: "5",
+        // An experiment session (several variants on one pod) takes 3-5 hours.
+        MAX_RUN_HOURS: "6",
       },
     },
   },

@@ -27,8 +27,14 @@ export interface Env {
 
   POD_IMAGE?: string;
   GPU_TYPES?: string;
+  /** The owner's cap on the whole Runpod account's GPU spend, USD per hour. */
   MAX_HOURLY_USD?: string;
   MAX_RUN_HOURS?: string;
+  /** Optional: a static bearer secret that lets the owner's scripts (python/pod/launch.py) act as OWNER_EMAIL. */
+  OWNER_TOKEN?: string;
+  OWNER_EMAIL?: string;
+  /** The owner's Hexclave user id, so scripted runs share the app's synthetic-speech cache. Default "owner". */
+  OWNER_USER_ID?: string;
 }
 
 export const ENV_KEYS = [
@@ -49,6 +55,9 @@ export const ENV_KEYS = [
   "GPU_TYPES",
   "MAX_HOURLY_USD",
   "MAX_RUN_HOURS",
+  "OWNER_TOKEN",
+  "OWNER_EMAIL",
+  "OWNER_USER_ID",
 ] as const satisfies readonly (keyof Env)[];
 
 export const envFrom = (source: Record<string, string | undefined>): Env =>
@@ -86,7 +95,7 @@ export function settings(env: Env) {
     mock: env.RUNPOD_MOCK === "1",
     podImage: env.POD_IMAGE || "runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404",
     gpuTypes: gpuTypes.length ? gpuTypes : ["NVIDIA A40", "NVIDIA RTX A6000", "NVIDIA L40S"],
-    maxHourlyUsd: positive(env.MAX_HOURLY_USD, 2),
+    maxHourlyUsd: positive(env.MAX_HOURLY_USD, DEFAULT_MAX_HOURLY_USD),
     maxRunHours: positive(env.MAX_RUN_HOURS, 4),
     publicUrl: (env.PUBLIC_URL ?? "").replace(/\/+$/, ""),
     dataDir: resolve(env.DATA_DIR || resolve(API_DIR, "data")),
@@ -97,7 +106,12 @@ export function settings(env: Env) {
 
 export type Settings = ReturnType<typeof settings>;
 
+/** USD/hour for everything on the Runpod account together, unless MAX_HOURLY_USD says otherwise. */
+export const DEFAULT_MAX_HOURLY_USD = 5;
+
 /** Training jobs need hosts with at least this CUDA driver (the image is cu128). */
 export const MIN_CUDA = "12.8";
+/** Host CUDA floors a run may ask for: 13.0 for experiments that serve Higgs TTS 3 (sglang-omni, cu130). */
+export const CUDA_FLOORS = ["12.8", "13.0"] as const;
 export const ESTIMATED_HOURS = 1.5;
 export const POD_PREFIX = "zunos-run-";

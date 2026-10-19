@@ -66,7 +66,8 @@ front if one without a default is missing.
 | `RUNPOD_API_KEY` | yes | Owner's Runpod key |
 | `BLOB_SIGNING_SECRET` | yes | HMAC key for blob URLs; 32+ random characters (`openssl rand -hex 32`). Changing it invalidates every outstanding URL |
 | `ALLOWED_EMAILS` | yes | Who may train, comma-separated, case-insensitive |
-| `HF_TOKEN` | no (default empty) | Passed to the pod (IndicF5 is a gated HF repo) |
+| `HF_TOKEN` | no (default empty) | Passed to the pod (the IndicConformer judge is a gated HF repo) |
+| `OWNER_TOKEN`, `OWNER_EMAIL`, `OWNER_USER_ID` | no (default empty) | Lets `python/pod/launch.py` start experiments as the owner (header `x-zunos-owner-token`) |
 | `PUBLIC_URL` | no (default empty) | The api's own public URL, e.g. its platform URL |
 
 `PUBLIC_URL` is a secret rather than a reference to the service's own URL because a service can't reference
@@ -96,7 +97,7 @@ backend (`hexclave.*` in the deploy file), and the non-secret settings are liter
 | `PORT` | `3000` | |
 | `POD_IMAGE` | `runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404` | |
 | `GPU_TYPES` | `NVIDIA A40,NVIDIA RTX A6000,NVIDIA L40S` | Runpod GPU type ids, priority order |
-| `MAX_HOURLY_USD` | `2` | Cap on the whole account's GPU spend per hour |
+| `MAX_HOURLY_USD` | `5` | Cap on the whole account's GPU spend per hour |
 | `MAX_RUN_HOURS` | `4` | Runs longer than this are stopped |
 
 `POST /runs` refuses with `503 not_configured` if `PUBLIC_URL` or `BLOB_SIGNING_SECRET` is missing (its upload
@@ -122,8 +123,9 @@ Responses are JSON with `Cache-Control: private, no-store`. Errors are `{error, 
 | 503 `provider_unavailable`, `provider_error` | Runpod errored, or the account balance is too low |
 | 503 `not_configured` | Server settings missing (see above) |
 
-- `GET /quote` → `{gpu, pricePerHour, estimatedHours: 1.5, available, reason?}`
-- `POST /runs` `{langs: ("en"|"hi"|"gu")[]}` → `201 {id, uploadUrl}`. `uploadUrl` is a signed PUT for
+- `GET /quote[?minCuda=13.0]` → `{gpu, pricePerHour, estimatedHours: 1.5, available, reason?}`
+- `POST /runs` `{langs: string[], minCuda?: "12.8"|"13.0"}` → `201 {id, uploadUrl}`. `langs` are any codes in
+  packages/db/src/languages.ts; `minCuda` "13.0" is for experiments that serve Higgs TTS 3. `uploadUrl` is a signed PUT for
   `runs/<id>/dataset.tar.gz`, valid 1 hour. The app PUTs the archive to it with `Content-Type:
   application/gzip` and no auth header.
 - `POST /runs/:id/start` → `RemoteRun`. Checks the dataset is stored, re-checks the budget, creates the pod.
@@ -142,6 +144,8 @@ type RemoteRun = {
   steps: { step: number; loss: number }[];   // last 500
   modelUrl: string | null;           // signed GET of runs/<id>/model.tar (24 h) once done; null once deleted
   error: string | null;
+  report: object | null;             // the pod's final experiment report (variants, WER with CIs, verdicts, cost)
+  logs: string[];                    // last 200 pod log lines
 };
 ```
 
@@ -160,6 +164,10 @@ works too.
 | `runs/<id>/dataset.tar.gz` | Mac app (PUT, 1 h URL) | pod (GET, 6 h URL) | Deleted when the run finishes |
 | `runs/<id>/model.tar` | pod (PUT, 6 h URL, `Content-Type: application/x-tar`) | Mac app (GET, 24 h URL, renewed on every `GET /runs/:id`) | Deleted 7 days after the run finishes |
 | `pod/code.tar.gz` | the server, at startup | pod (GET, 6 h URL) | Rebuilt on every start |
+| `cache/<sha256(user)[:16]>/<name>.tar` | pod (`PUT /runs/:id/cache/<name>`, events token) | that user's later pods (`GET`) | Deleted after 30 days unwritten |
+
+The cache holds generated and judged synthetic speech (python/pod/cache.py), named by a hash of everything that
+determines it, so a user's later runs reuse it instead of paying to generate it again.
 
 ### The pod
 
@@ -168,7 +176,7 @@ The pod is created with `POST /v2/pods`:
 ```json
 {
   "name": "zunos-run-<id>", "cloud": "SECURE", "image": "<POD_IMAGE>",
-  "gpu": { "id": "<GPU type>", "count": 1, "minCudaVersion": "12.8" },
+  "gpu": { "id": "<GPU type>", "count": 1, "minCudaVersion": "<run min_cuda: 12.8 | 13.0>" },
   "disk": 150, "ports": [], "env": { ... },
   "entrypoint": ["bash", "-c"], "cmd": ["curl -fsSL \"$ZUNOS_BOOTSTRAP_URL\" | bash"]
 }
@@ -183,6 +191,8 @@ The pod is created with `POST /v2/pods`:
 | `ZUNOS_MODEL_URL` | Signed PUT for `runs/<id>/model.tar`, 6 h (single PUT, < 6 GiB) |
 | `ZUNOS_EVENTS_URL` | `${PUBLIC_URL}/runs/<id>/events` |
 | `ZUNOS_EVENTS_TOKEN` | Random 32-byte hex; only its SHA-256 is stored |
+| `ZUNOS_CACHE_URL` | `${PUBLIC_URL}/runs/<id>/cache` (synthetic-speech cache, same bearer token) |
+| `ZUNOS_PRICE_PER_HOUR` | The GPU's price, for the pod's per-variant cost report |
 | `HF_TOKEN` | From the server's secret, if set |
 
 GPU types are tried in `GPU_TYPES` order, skipping types that are out of stock or over budget. A `400` or
@@ -199,7 +209,8 @@ The pod reports progress with `POST /runs/:id/events`, `Authorization: Bearer <Z
 | `{type:"stage", stage, status}` | Sets `stage` |
 | `{type:"train", step, total, loss, lr}` | Appends `{step, loss}` (last 500 kept) |
 | `{type:"eval", step, score, res}` | Appends to `evals` |
-| `{type:"log", line}` | Appends to the log (last 200 lines, stored in the database, not returned) |
+| `{type:"log", line}` | Appends to the log (last 200 lines) |
+| `{type:"report", report}` | Stores the final experiment report (up to 256 KiB) |
 | `{type:"done", best_step, best_score, model_bytes}` | `done` once `model.tar` is stored, else `failed`; pod terminated |
 | `{type:"error", message}` | `failed` with the message; pod terminated |
 
@@ -208,7 +219,9 @@ The pod reports progress with `POST /runs/:id/events`, `Authorization: Bearer <Z
 The owner's rule is that everything running on the Runpod account together stays under `MAX_HOURLY_USD`
 (default $2/hour). "Committed" spend is the sum of `cost` over every live pod in `GET /v2/pods`, including
 pods that aren't zunos's, plus the price of zunos runs whose pod isn't listed yet. A GPU type is offered only if
-its on-demand Secure Cloud price fits in `MAX_HOURLY_USD − committed`. Quotes and starts both check this, and
+its on-demand Secure Cloud price fits in `MAX_HOURLY_USD − committed`. There is no fallback price table: a
+catalog entry without a live price is not offered, and a live pod without a reported cost (other than a zunos
+run's, counted at its recorded price) makes quotes and starts fail closed (`503`). Quotes and starts both check this, and
 a start fails closed (`503`) if Runpod can't be read. Each user has at most one active run, enforced by a
 unique index.
 

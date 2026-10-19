@@ -12,7 +12,8 @@ const MAX_LINE = 2000;
 
 const append = <T>(json: string, item: T, max: number) => JSON.stringify([...parseJson<T[]>(json, []), item].slice(-max));
 
-export async function handleEvent(ctx: Ctx, runId: string, request: Request): Promise<{ ok: true; status: string }> {
+/** The billing run whose pod holds this bearer token (events and cache requests). */
+export function podRun(ctx: Ctx, runId: string, request: Request): RunRow {
   const auth = request.headers.get("authorization") ?? "";
   const token = auth.startsWith("Bearer ") ? auth.slice(7).trim() : "";
   const row = getRun(ctx, runId);
@@ -22,8 +23,15 @@ export async function handleEvent(ctx: Ctx, runId: string, request: Request): Pr
   const run = row as RunRow;
   // A finished run tells the pod to give up (it is being or has been terminated).
   if (!BILLING.includes(run.status)) fail(409, "run_finished", `Run is ${run.status}.`);
+  return run;
+}
 
-  const ev = await readJson(request);
+/** The final report can carry several variants' per-language statistics. */
+const MAX_REPORT_BYTES = 256 * 1024;
+
+export async function handleEvent(ctx: Ctx, runId: string, request: Request): Promise<{ ok: true; status: string }> {
+  const run = podRun(ctx, runId, request);
+  const ev = await readJson(request, MAX_REPORT_BYTES);
   if (!isObject(ev) || typeof ev.type !== "string") return fail(400, "bad_request", "Event needs a type.");
 
   const now = Date.now();
@@ -45,6 +53,11 @@ export async function handleEvent(ctx: Ctx, runId: string, request: Request): Pr
       if (!isNum(ev.step) || !isNum(ev.score)) fail(400, "bad_request", "eval events need numeric step and score.");
       const res = isObject(ev.res) ? ev.res : {};
       fields.evals = append(run.evals, { step: ev.step, score: ev.score, res }, 1000);
+      break;
+    }
+    case "report": {
+      if (!isObject(ev.report)) fail(400, "bad_request", "report events need a report object.");
+      fields.report = JSON.stringify(ev.report);
       break;
     }
     case "log": {

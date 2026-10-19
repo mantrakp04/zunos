@@ -3,12 +3,15 @@ import { requireUser } from "./auth";
 import { HOUR, keys, presign } from "./blobs";
 import { type Choice, chooseGpu, quoteBody } from "./budget";
 import { ACTIVE, type RemoteRun, type RunRow, activeRunFor, getRun, insertRun, toRemoteRun, updateRun } from "./db";
-import { type Ctx, type Env, MIN_CUDA, POD_PREFIX, type User, settings } from "./env";
+import { LANGUAGES } from "../../../packages/db/src/languages";
+import { CUDA_FLOORS, type Ctx, type Env, MIN_CUDA, POD_PREFIX, type User, settings } from "./env";
 import { fail, isObject, readJson } from "./http";
 import { finishRun, randomHex, sha256Hex, terminatePod } from "./lifecycle";
 import { type CreatePodRequest, RunpodError, runpod } from "./runpod";
 
-const LANGS = new Set(["en", "hi", "gu"]);
+/** Any language the app offers (Whisper's language codes). */
+const LANGS = new Set(LANGUAGES.map((l) => l.code));
+const isCudaFloor = (v: unknown): v is string => typeof v === "string" && (CUDA_FLOORS as readonly string[]).includes(v);
 const ACTIVE_RUN_MESSAGE = "You already have a training run in progress.";
 
 function ownRun(ctx: Ctx, user: User, id: string): RunRow {
@@ -17,9 +20,9 @@ function ownRun(ctx: Ctx, user: User, id: string): RunRow {
   return row;
 }
 
-async function choice(ctx: Ctx): Promise<Choice> {
+async function choice(ctx: Ctx, minCuda = MIN_CUDA): Promise<Choice> {
   try {
-    return await chooseGpu(ctx, runpod(ctx.env));
+    return await chooseGpu(ctx, runpod(ctx.env), minCuda);
   } catch (e) {
     console.error("runpod catalog/pods read failed", String(e));
     return fail(503, "provider_unavailable", "The GPU provider isn't responding. Try again in a few minutes.");
@@ -37,7 +40,8 @@ function requireConfigured(env: Env, required: (keyof Env)[]) {
 
 export async function quote(ctx: Ctx, request: Request) {
   const user = await requireUser(ctx.env, request);
-  const pick = await choice(ctx);
+  const minCuda = new URL(request.url).searchParams.get("minCuda");
+  const pick = await choice(ctx, isCudaFloor(minCuda) ? minCuda : MIN_CUDA);
   const active = activeRunFor(ctx, user.id);
   return quoteBody(pick, active ? { available: false, reason: ACTIVE_RUN_MESSAGE } : undefined);
 }
@@ -47,7 +51,9 @@ export async function createRun(ctx: Ctx, request: Request): Promise<{ id: strin
   const body = await readJson(request);
   const langs = isObject(body) ? body.langs : undefined;
   if (!Array.isArray(langs) || !langs.length || !langs.every((l) => typeof l === "string" && LANGS.has(l)))
-    fail(400, "bad_request", 'langs must be a non-empty list of "en", "hi", "gu".');
+    fail(400, "bad_request", "langs must be a non-empty list of language codes the app supports.");
+  const minCuda = isObject(body) && body.minCuda !== undefined ? body.minCuda : MIN_CUDA;
+  if (!isCudaFloor(minCuda)) fail(400, "bad_request", `minCuda must be one of ${CUDA_FLOORS.join(", ")}.`);
   // Without these the upload URL would point nowhere.
   requireConfigured(ctx.env, ["PUBLIC_URL", "BLOB_SIGNING_SECRET"]);
   if (activeRunFor(ctx, user.id)) fail(409, "run_active", ACTIVE_RUN_MESSAGE);
@@ -60,6 +66,7 @@ export async function createRun(ctx: Ctx, request: Request): Promise<{ id: strin
       email: user.email,
       langs: JSON.stringify([...new Set(langs as string[])]),
       created_at: Date.now(),
+      min_cuda: minCuda as string,
     });
   } catch (e) {
     // runs_one_active_per_user: a concurrent request won the race.
@@ -89,13 +96,15 @@ export async function startRun(ctx: Ctx, request: Request, id: string): Promise<
   const dataset = await ctx.blobs.head(keys.dataset(row.id));
   if (!dataset || dataset.size === 0) fail(409, "dataset_missing", "The recordings haven't finished uploading.");
 
-  const pick = await choice(ctx);
+  const pick = await choice(ctx, row.min_cuda);
   if (!pick.candidates.length) fail(503, pick.code ?? "no_capacity", pick.reason ?? "No GPU is available right now.");
 
   // Claim the run before creating a pod: blocks a double start, and the reaper's orphan sweep keeps a pod
   // whose name matches an active run even before its pod_id is saved.
   const now = Date.now();
-  if (!updateRun(ctx, row.id, { status: "queued", started_at: now, last_event_at: now }, ["uploading"]))
+  // The price is set now (the first candidate's) so a concurrent quote counts this run before its pod is listed.
+  const claim = { status: "queued" as const, started_at: now, last_event_at: now, price_per_hour: pick.candidates[0]!.pricePerHour };
+  if (!updateRun(ctx, row.id, claim, ["uploading"]))
     fail(409, "bad_state", "This run is already starting.");
 
   const token = randomHex(32);
@@ -108,6 +117,8 @@ export async function startRun(ctx: Ctx, request: Request, id: string): Promise<
     ZUNOS_MODEL_URL: presign(env, keys.model(row.id), "PUT", sixHours),
     ZUNOS_EVENTS_URL: `${s.publicUrl}/runs/${row.id}/events`,
     ZUNOS_EVENTS_TOKEN: token,
+    // The user's synthetic-speech cache (cache.ts), with the same bearer token.
+    ZUNOS_CACHE_URL: `${s.publicUrl}/runs/${row.id}/cache`,
   };
   if (env.HF_TOKEN) podEnv.HF_TOKEN = env.HF_TOKEN;
 
@@ -118,10 +129,10 @@ export async function startRun(ctx: Ctx, request: Request, id: string): Promise<
       name: `${POD_PREFIX}${row.id}`,
       cloud: "SECURE",
       image: s.podImage,
-      gpu: { id: gpu.id, count: 1, minCudaVersion: MIN_CUDA },
+      gpu: { id: gpu.id, count: 1, minCudaVersion: row.min_cuda },
       disk: 150,
       ports: [],
-      env: podEnv,
+      env: { ...podEnv, ZUNOS_PRICE_PER_HOUR: String(gpu.pricePerHour) },
       entrypoint: ["bash", "-c"],
       cmd: ['curl -fsSL "$ZUNOS_BOOTSTRAP_URL" | bash'],
     };
@@ -156,7 +167,7 @@ export async function startRun(ctx: Ctx, request: Request, id: string): Promise<
   }
 
   // No pod: release the claim so the user can try again.
-  updateRun(ctx, row.id, { status: "uploading", started_at: null, last_event_at: null }, ["queued"]);
+  updateRun(ctx, row.id, { status: "uploading", started_at: null, last_event_at: null, price_per_hour: null }, ["queued"]);
   if (lastError?.status === 402) {
     console.error(JSON.stringify({ msg: "runpod balance too low", runId: row.id }));
     fail(503, "provider_error", "Training is unavailable right now.");

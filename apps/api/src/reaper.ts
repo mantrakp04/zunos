@@ -1,7 +1,7 @@
 // Every 5 minutes (and once at startup): stops anything that is costing money and shouldn't be, and deletes
 // files nobody needs any more.
 import { keys } from "./blobs";
-import { committedHourly } from "./budget";
+import { UnknownCostError, committedHourly } from "./budget";
 import { FINISHED, type RunRow, billingRuns, runsWithStatus } from "./db";
 import { type Ctx, POD_PREFIX, settings } from "./env";
 import { deleteBlob, finishRun, terminatePod } from "./lifecycle";
@@ -16,6 +16,8 @@ export const MODEL_KEEP_MS = 7 * 24 * 60 * MIN;
 /** Temp files from uploads that died mid-stream. */
 export const TMP_KEEP_MS = 24 * 60 * MIN;
 export const REAP_INTERVAL_MS = 5 * MIN;
+/** Generated and judged synthetic speech, reused by later runs of the same user (see cache.ts). */
+export const CACHE_KEEP_MS = 30 * 24 * 60 * MIN;
 
 export type ReapReport = {
   failed: { runId: string; reason: string }[];
@@ -64,19 +66,27 @@ export async function reap(ctx: Ctx, now = Date.now()): Promise<ReapReport> {
   const killedPods = new Set<string>();
   const live = () => pods.filter((p) => !killedPods.has(p.id) && !killed.has(p.name.slice(POD_PREFIX.length)));
 
-  // Over budget: stop the newest zunos runs until the account total fits. Other pods are never touched.
-  let total = committedHourly(live(), active);
+  // Over budget: stop the newest zunos runs until the account total fits. Other pods are never touched. A pod
+  // with no reported cost makes the total unknowable: starts are refused (budget.ts), but nothing is stopped
+  // on a guess.
+  const totalOrNull = () => {
+    try {
+      return committedHourly(live(), active.filter((r) => !killed.has(r.id)));
+    } catch (e) {
+      if (!(e instanceof UnknownCostError)) throw e;
+      console.error(JSON.stringify({ msg: "reaper: hourly total unknown", pods: e.podIds }));
+      return null;
+    }
+  };
+  let total = report.podsListed ? totalOrNull() : null;
   const newestFirst = [...active].sort((a, b) => (b.started_at ?? 0) - (a.started_at ?? 0));
   for (const row of newestFirst) {
-    if (total <= s.maxHourlyUsd + 1e-9) break;
+    if (total === null || total <= s.maxHourlyUsd + 1e-9) break;
     console.warn(JSON.stringify({ msg: "reaper: over budget", total, max: s.maxHourlyUsd, runId: row.id }));
     await kill(row, "over hourly budget", "Stopped to keep GPU spending within the hourly limit.");
     killed.add(row.id);
     if (row.pod_id) killedPods.add(row.pod_id);
-    total = committedHourly(
-      live(),
-      active.filter((r) => !killed.has(r.id)),
-    );
+    total = totalOrNull();
   }
 
   // Orphans: zunos pods with no active run (crashed start, missed terminate, run finished).
@@ -96,6 +106,11 @@ export async function reap(ctx: Ctx, now = Date.now()): Promise<ReapReport> {
     const finished = row.finished_at ?? row.created_at;
     if (now - finished > MODEL_KEEP_MS && (await deleteBlob(ctx, keys.model(row.id), "model older than 7 days")))
       report.blobsDeleted.push(keys.model(row.id));
+  }
+  // Synthetic-speech caches (cache/<user>/...) not written for CACHE_KEEP_MS.
+  for (const b of ctx.blobs.list("cache")) {
+    if (now - b.mtimeMs > CACHE_KEEP_MS && (await deleteBlob(ctx, b.key, "cache entry unused for 30 days")))
+      report.blobsDeleted.push(b.key);
   }
   ctx.blobs.cleanTmp(TMP_KEEP_MS, now);
 

@@ -1,5 +1,6 @@
 import { type Env, type User, settings } from "./env";
 import { fail } from "./http";
+import { constantTimeEqual, sha256Hex } from "./lifecycle";
 
 const CACHE_MS = 60_000;
 const cache = new Map<string, { user: User; expires: number }>();
@@ -39,8 +40,25 @@ async function verify(env: Env, token: string): Promise<User> {
   return user;
 }
 
-/** Requires a valid Hexclave access token whose primary email is on ALLOWED_EMAILS. */
+/**
+ * The owner's scripts (python/pod/launch.py) send `x-zunos-owner-token: <OWNER_TOKEN>` instead of a Hexclave
+ * token; they act as OWNER_EMAIL (which must still be on ALLOWED_EMAILS), with the same budget and limits.
+ */
+function ownerUser(env: Env, request: Request): User | null {
+  const given = request.headers.get("x-zunos-owner-token");
+  if (!given) return null;
+  if (!env.OWNER_TOKEN || !env.OWNER_EMAIL || !constantTimeEqual(sha256Hex(given), sha256Hex(env.OWNER_TOKEN)))
+    return fail(401, "unauthorized", "Bad owner token.");
+  return { id: env.OWNER_USER_ID || "owner", email: env.OWNER_EMAIL.toLowerCase() };
+}
+
+/** Requires a valid Hexclave access token (or the owner token) whose email is on ALLOWED_EMAILS. */
 export async function requireUser(env: Env, request: Request): Promise<User> {
+  const owner = ownerUser(env, request);
+  if (owner) {
+    if (!settings(env).allowedEmails.has(owner.email)) fail(403, "not_allowed", "Training is invite-only for now.");
+    return owner;
+  }
   const token = request.headers.get("x-stack-access-token");
   if (!token) return fail(401, "unauthorized", "Sign in to train.");
   const user = await verify(env, token);

@@ -14,6 +14,8 @@ export const keys = {
   code: "pod/code.tar.gz",
   dataset: (runId: string) => `runs/${runId}/dataset.tar.gz`,
   model: (runId: string) => `runs/${runId}/model.tar`,
+  /** A user's cached synthetic speech: cache/<sha256(user id)[:16]>/<name> (python/pod/cache.py names). */
+  cache: (userHash: string, name: string) => `cache/${userHash}/${name}`,
 };
 
 // Segments start with a letter or digit, so "..", "." and the ".tmp" directory can never be named.
@@ -97,6 +99,27 @@ export class BlobStore {
     }
     rmSync(p, { force: true });
     return true;
+  }
+
+  /** Every blob under a key prefix (a directory), recursively, with its modification time. */
+  list(prefix: string): { key: string; size: number; mtimeMs: number }[] {
+    const out: { key: string; size: number; mtimeMs: number }[] = [];
+    const walk = (key: string) => {
+      let names: string[];
+      try {
+        names = readdirSync(join(this.root, key));
+      } catch {
+        return;
+      }
+      for (const name of names) {
+        const k = `${key}/${name}`;
+        const s = statSync(join(this.root, k));
+        if (s.isDirectory()) walk(k);
+        else if (s.isFile()) out.push({ key: k, size: s.size, mtimeMs: s.mtimeMs });
+      }
+    };
+    if (isValidKey(prefix)) walk(prefix);
+    return out;
   }
 
   /** Removes temp files left by uploads that died mid-stream. */

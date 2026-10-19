@@ -33,6 +33,8 @@ export type RunRow = {
   started_at: number | null;
   finished_at: number | null;
   last_event_at: number | null;
+  min_cuda: string;
+  report: string | null;
 };
 
 export type RemoteRun = {
@@ -44,6 +46,10 @@ export type RemoteRun = {
   steps: { step: number; loss: number }[];
   modelUrl: string | null;
   error: string | null;
+  /** The pod's final report (variants, per-language WER with CIs, the 2x verdicts, cost), once it sent one. */
+  report: Record<string, unknown> | null;
+  /** Last 200 log lines from the pod (dev scores, judge stats, progress). */
+  logs: string[];
 };
 
 /** Opens (creating if needed) the database file, or ":memory:", and brings its schema up to date. */
@@ -72,10 +78,13 @@ export const runsWithStatus = (ctx: Ctx, statuses: RunStatus[]) =>
 
 export const billingRuns = (ctx: Ctx) => runsWithStatus(ctx, BILLING);
 
-export function insertRun(ctx: Ctx, run: Pick<RunRow, "id" | "user_id" | "email" | "langs" | "created_at">) {
+export function insertRun(
+  ctx: Ctx,
+  run: Pick<RunRow, "id" | "user_id" | "email" | "langs" | "created_at"> & Partial<Pick<RunRow, "min_cuda">>,
+) {
   ctx.db
-    .query("INSERT INTO runs (id, user_id, email, langs, status, created_at) VALUES (?, ?, ?, ?, 'uploading', ?)")
-    .run(run.id, run.user_id, run.email, run.langs, run.created_at);
+    .query("INSERT INTO runs (id, user_id, email, langs, status, created_at, min_cuda) VALUES (?, ?, ?, ?, 'uploading', ?, ?)")
+    .run(run.id, run.user_id, run.email, run.langs, run.created_at, run.min_cuda ?? "12.8");
 }
 
 type SqlValue = string | number | null;
@@ -122,5 +131,7 @@ export async function toRemoteRun(ctx: Ctx, row: RunRow, now = Date.now()): Prom
     steps: parseJson(row.steps, []),
     modelUrl: hasModel ? presign(ctx.env, keys.model(row.id), "GET", 24 * HOUR, now) : null,
     error: row.error,
+    report: parseJson<Record<string, unknown> | null>(row.report, null),
+    logs: parseJson<string[]>(row.logs, []),
   };
 }

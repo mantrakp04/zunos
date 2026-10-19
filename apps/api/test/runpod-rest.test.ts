@@ -83,7 +83,7 @@ describe("Runpod REST v2 client", () => {
   });
 
   it("budget includes every live pod on the account", async () => {
-    fakeRunpod({ pods: [{ id: "x", name: "owner-notebook", status: "RUNNING", cost: 1.7 }] });
+    fakeRunpod({ pods: [{ id: "x", name: "owner-notebook", status: "RUNNING", cost: 4.7 }] });
     const r = await call("/quote", { token: "tok-alice", env: REAL });
     expect(r.json).toMatchObject({ available: false, reason: expect.stringMatching(/spending limit/) });
   });

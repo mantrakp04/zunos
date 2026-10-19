@@ -87,14 +87,14 @@ describe("quote", () => {
   it("picks the first configured GPU that is in stock and in budget", async () => {
     stubFetch();
     const r = await call("/quote", { token: "tok-alice" });
-    expect(r.json).toEqual({ gpu: "NVIDIA A40", pricePerHour: 0.44, estimatedHours: 1.5, available: true });
+    expect(r.json).toEqual({ gpu: "NVIDIA A40", pricePerHour: 0.59, estimatedHours: 1.5, available: true });
   });
 
   it("skips out-of-stock types", async () => {
     stubFetch();
     mockRunpod.offers[0]!.inStock = false;
     const r = await call("/quote", { token: "tok-alice" });
-    expect(r.json).toMatchObject({ gpu: "NVIDIA RTX A6000", pricePerHour: 0.49, available: true });
+    expect(r.json).toMatchObject({ gpu: "NVIDIA RTX A6000", pricePerHour: 0.59, available: true });
   });
 
   it("refuses when nothing fits the remaining budget", async () => {
@@ -105,7 +105,7 @@ describe("quote", () => {
 
   it("counts running pods (including non-zunos pods) against the budget", async () => {
     stubFetch();
-    await startedRun("tok-bob"); // A40 at $0.44/h
+    await startedRun("tok-bob"); // A40 at $0.59/h
     mockRunpod.pods.set("owner-pod", {
       id: "owner-pod",
       name: "owners-own-pod",
@@ -113,9 +113,9 @@ describe("quote", () => {
       costPerHour: 0.9,
       request: {} as never,
     });
-    // $2 - 0.44 - 0.90 = $0.66 left: A40 still fits.
+    // $5 (the default cap) - 0.59 - 0.90 = $3.51 left: A40 still fits.
     expect((await call("/quote", { token: "tok-alice" })).json).toMatchObject({ gpu: "NVIDIA A40", available: true });
-    // $1.5 - 1.34 = $0.16 left: nothing fits.
+    // $1.5 - 1.49 = $0.01 left: nothing fits.
     const r = await call("/quote", { token: "tok-alice", env: { MAX_HOURLY_USD: "1.5" } });
     expect(r.json.available).toBe(false);
   });
@@ -159,7 +159,7 @@ describe("runs", () => {
 
   it("validates langs", async () => {
     stubFetch();
-    for (const body of [{}, { langs: [] }, { langs: ["fr"] }, { langs: "en" }]) {
+    for (const body of [{}, { langs: [] }, { langs: ["xx"] }, { langs: "en" }]) {
       const r = await call("/runs", { token: "tok-alice", method: "POST", body });
       expect(r.status).toBe(400);
       expect(r.json.code).toBe("bad_request");
@@ -219,8 +219,8 @@ describe("runs", () => {
   it("starts a pod (RUNPOD_MOCK=1) with the right request and env", async () => {
     stubFetch();
     const { id, row, pod, podEnv, started } = await startedRun();
-    expect(started).toEqual({ id, status: "queued", stage: null, costUsd: expect.any(Number), evals: [], steps: [], modelUrl: null, error: null });
-    expect(row).toMatchObject({ status: "queued", gpu: "NVIDIA A40", price_per_hour: 0.44, pod_id: pod.id });
+    expect(started).toEqual({ id, status: "queued", stage: null, costUsd: expect.any(Number), evals: [], steps: [], modelUrl: null, error: null, report: null, logs: [] });
+    expect(row).toMatchObject({ status: "queued", gpu: "NVIDIA A40", price_per_hour: 0.59, pod_id: pod.id, min_cuda: "12.8" });
     expect(row.started_at).toBeGreaterThan(0);
     expect(row.events_token_hash).toMatch(/^[0-9a-f]{64}$/);
 
@@ -236,8 +236,10 @@ describe("runs", () => {
       cmd: ['curl -fsSL "$ZUNOS_BOOTSTRAP_URL" | bash'],
     });
     expect(Object.keys(podEnv).sort()).toEqual(
-      ["HF_TOKEN", "ZUNOS_BOOTSTRAP_URL", "ZUNOS_CODE_URL", "ZUNOS_DATASET_URL", "ZUNOS_EVENTS_TOKEN", "ZUNOS_EVENTS_URL", "ZUNOS_MODEL_URL", "ZUNOS_RUN_ID"].sort(),
+      ["HF_TOKEN", "ZUNOS_BOOTSTRAP_URL", "ZUNOS_CACHE_URL", "ZUNOS_CODE_URL", "ZUNOS_DATASET_URL", "ZUNOS_EVENTS_TOKEN", "ZUNOS_EVENTS_URL", "ZUNOS_MODEL_URL", "ZUNOS_PRICE_PER_HOUR", "ZUNOS_RUN_ID"].sort(),
     );
+    expect(podEnv.ZUNOS_CACHE_URL).toBe(`https://api.zunos.test/runs/${id}/cache`);
+    expect(podEnv.ZUNOS_PRICE_PER_HOUR).toBe("0.59");
     expect(podEnv.ZUNOS_RUN_ID).toBe(id);
     expect(podEnv.ZUNOS_BOOTSTRAP_URL).toBe("https://api.zunos.test/pod/bootstrap.sh");
     expect(podEnv.ZUNOS_EVENTS_URL).toBe(`https://api.zunos.test/runs/${id}/events`);
@@ -265,7 +267,7 @@ describe("runs", () => {
     mockRunpod.noCapacity.add("NVIDIA A40");
     const { row } = await startedRun();
     expect(row.gpu).toBe("NVIDIA RTX A6000");
-    expect(row.price_per_hour).toBe(0.49);
+    expect(row.price_per_hour).toBe(0.59);
   });
 
   it("releases the run when no GPU type has capacity", async () => {
@@ -281,7 +283,7 @@ describe("runs", () => {
 
   it("re-checks the budget at start and refuses without creating a pod", async () => {
     stubFetch();
-    await startedRun("tok-bob"); // $0.44/h in use
+    await startedRun("tok-bob"); // $0.59/h in use
     const { json } = await call("/runs", { token: "tok-alice", method: "POST", body: { langs: ["en"] } });
     await uploadDataset(json.uploadUrl, "x");
     const r = await call(`/runs/${json.id}/start`, { token: "tok-alice", method: "POST", env: { MAX_HOURLY_USD: "0.8" } });
@@ -328,9 +330,9 @@ describe("runs", () => {
     const now = Date.now();
     sql("UPDATE runs SET started_at = ? WHERE id = ?", now - 2 * 3_600_000, id);
     const live = (await call(`/runs/${id}`, { token: "tok-alice" })).json.costUsd;
-    expect(live).toBeCloseTo(0.88, 3);
+    expect(live).toBeCloseTo(1.18, 3);
     sql("UPDATE runs SET finished_at = ? WHERE id = ?", now - 1.5 * 3_600_000, id);
-    expect((await call(`/runs/${id}`, { token: "tok-alice" })).json.costUsd).toBeCloseTo(0.22, 4);
+    expect((await call(`/runs/${id}`, { token: "tok-alice" })).json.costUsd).toBeCloseTo(0.295, 4);
 
     expect(costUsd({ price_per_hour: 0.5, started_at: 0, finished_at: 90 * 60_000 })).toBe(0.75);
     expect(costUsd({ price_per_hour: null, started_at: 0, finished_at: 1 })).toBe(0);

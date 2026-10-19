@@ -1,5 +1,6 @@
 // The pod's Python code, packed at startup from the repo the server runs from:
-//   pod/code.tar.gz   python/pod + python/core (paths kept relative to the repo root, no __pycache__ or .venv)
+//   pod/code.tar.gz   python/pod + python/core + packages/db/corpus (paths kept relative to the repo root,
+//                     no __pycache__ or .venv)
 // and python/pod/bootstrap.sh, served at GET /pod/bootstrap.sh.
 import { existsSync, mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
@@ -8,6 +9,8 @@ import { keys } from "./blobs";
 import { type Ctx, settings } from "./env";
 
 export const POD_SOURCES = ["python/pod", "python/core"];
+/** Packed when present: the corpus the pod synthesizes speech from (python/pod/corpus.py). */
+export const OPTIONAL_POD_SOURCES = ["packages/db/corpus"];
 
 export const bootstrapPath = (ctx: Ctx) => join(settings(ctx.env).repoDir, "python/pod/bootstrap.sh");
 
@@ -37,6 +40,7 @@ export async function buildPodCode(ctx: Ctx): Promise<number | null> {
         "--exclude=.venv",
         "--exclude=*.egg-info",
         ...POD_SOURCES,
+        ...OPTIONAL_POD_SOURCES.filter((p) => existsSync(join(repo, p))),
       ],
       { cwd: repo, env: { ...process.env, COPYFILE_DISABLE: "1" }, stderr: "pipe" },
     );

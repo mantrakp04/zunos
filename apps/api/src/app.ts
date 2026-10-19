@@ -1,6 +1,7 @@
 // HTTP routes. The handlers live in platform-free modules; this file only maps routes onto them.
 import { Elysia } from "elysia";
 import { handleBlob } from "./blobs";
+import { handleCache } from "./cache";
 import type { Ctx } from "./env";
 import { handleEvent } from "./events";
 import { ApiError, NO_STORE, errorResponse } from "./http";
@@ -38,6 +39,8 @@ export function createApp(ctx: Ctx) {
 
       // The pod, with its bearer token.
       .post("/runs/:id/events", ({ request, params }) => handleEvent(ctx, params.id, request), raw)
+      .get("/runs/:id/cache/:name", ({ request, params }) => handleCache(ctx, request, params.id, params.name), raw)
+      .put("/runs/:id/cache/:name", ({ request, params }) => handleCache(ctx, request, params.id, params.name), raw)
 
       // The Mac app, with a Hexclave access token.
       .get("/quote", ({ request }) => quote(ctx, request), raw)

@@ -1,18 +1,34 @@
 // The owner's rule: everything running on the Runpod account together stays under MAX_HOURLY_USD.
 import { type RunRow, billingRuns } from "./db";
-import { type Ctx, ESTIMATED_HOURS, type Settings, settings } from "./env";
+import { type Ctx, ESTIMATED_HOURS, MIN_CUDA, type Settings, settings } from "./env";
 import type { GpuOffer, PodSummary, Runpod } from "./runpod";
 
 const LIVE_POD = (p: PodSummary) => p.status !== "TERMINATED" && p.status !== "EXITED";
 
+/** A live pod whose hourly cost Runpod didn't report: spend can't be bounded, so nothing new may start. */
+export class UnknownCostError extends Error {
+  constructor(readonly podIds: string[]) {
+    super(`hourly cost unknown for pod(s) ${podIds.join(", ")}`);
+  }
+}
+
 /**
  * USD/hour already committed: every live pod on the account (zunos or not, using Runpod's own `cost`),
- * plus zunos runs whose pod doesn't show up in the listing yet (just created).
+ * plus zunos runs whose pod doesn't show up in the listing yet (just created). A live pod without a cost
+ * counts at its zunos run's price; any other pod without one throws UnknownCostError (fail closed).
  */
 export function committedHourly(pods: PodSummary[], runs: RunRow[]): number {
   const live = pods.filter(LIVE_POD);
   const listed = new Set(live.map((p) => p.id));
-  const podCost = live.reduce((sum, p) => sum + p.costPerHour, 0);
+  const runPrice = new Map(runs.filter((r) => r.pod_id).map((r) => [r.pod_id!, r.price_per_hour]));
+  const unknown: string[] = [];
+  let podCost = 0;
+  for (const p of live) {
+    const cost = p.costPerHour ?? runPrice.get(p.id) ?? null;
+    if (cost === null) unknown.push(p.id);
+    else podCost += cost;
+  }
+  if (unknown.length) throw new UnknownCostError(unknown);
   const unlisted = runs
     .filter((r) => !r.pod_id || !listed.has(r.pod_id))
     .reduce((sum, r) => sum + (r.price_per_hour ?? 0), 0);
@@ -49,9 +65,12 @@ export function choose(s: Settings, offers: GpuOffer[], committed: number): Choi
   };
 }
 
-/** Reads the catalog and the account's pods, then picks GPUs that fit. Throws RunpodError on API failure. */
-export async function chooseGpu(ctx: Ctx, rp: Runpod): Promise<Choice> {
-  const [offers, pods] = await Promise.all([rp.listGpuOffers(), rp.listPods()]);
+/**
+ * Reads the catalog (hosts with CUDA >= minCuda) and the account's pods, then picks GPUs that fit. Throws
+ * RunpodError on API failure and UnknownCostError when a live pod's cost is unknown.
+ */
+export async function chooseGpu(ctx: Ctx, rp: Runpod, minCuda = MIN_CUDA): Promise<Choice> {
+  const [offers, pods] = await Promise.all([rp.listGpuOffers(minCuda), rp.listPods()]);
   return choose(settings(ctx.env), offers, committedHourly(pods, billingRuns(ctx)));
 }
 

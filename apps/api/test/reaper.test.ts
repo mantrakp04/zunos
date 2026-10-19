@@ -56,12 +56,12 @@ describe("reaper", () => {
   });
 
   it("stops the newest runs when the hourly total exceeds MAX_HOURLY_USD", async () => {
-    const a = await startedRun("tok-alice"); // A40 $0.44
-    const b = await startedRun("tok-bob"); // A40 $0.44
+    const a = await startedRun("tok-alice"); // A40 $0.59
+    const b = await startedRun("tok-bob"); // A40 $0.59
     const now = Date.now();
     setTimes(a.id, now - 20 * MIN, now - MIN);
     setTimes(b.id, now - 10 * MIN, now - MIN);
-    const report = await reap(testCtx({ MAX_HOURLY_USD: "0.5" }), now);
+    const report = await reap(testCtx({ MAX_HOURLY_USD: "1" }), now);
     expect(report.failed).toEqual([{ runId: b.id, reason: "over hourly budget" }]);
     expect(mockRunpod.terminated).toEqual([b.pod.id]);
     expect(getRow(a.id).status).toBe("running");

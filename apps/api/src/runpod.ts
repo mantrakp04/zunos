@@ -10,7 +10,8 @@ export type GpuOffer = {
   inStock: boolean;
 };
 
-export type PodSummary = { id: string; name: string; status: string; costPerHour: number };
+/** costPerHour is null when Runpod didn't say: the budget then can't be known (budget.ts fails closed). */
+export type PodSummary = { id: string; name: string; status: string; costPerHour: number | null };
 
 /** Subset of CreatePodRequest that we send. */
 export type CreatePodRequest = {
@@ -42,7 +43,8 @@ export class RunpodError extends Error {
 }
 
 export interface Runpod {
-  listGpuOffers(): Promise<GpuOffer[]>;
+  /** Offers on hosts whose CUDA driver is at least `minCuda` (the same floor createPod will ask for). */
+  listGpuOffers(minCuda?: string): Promise<GpuOffer[]>;
   createPod(req: CreatePodRequest): Promise<{ id: string; costPerHour: number | null }>;
   terminatePod(id: string): Promise<void>;
   listPods(): Promise<PodSummary[]>;
@@ -56,7 +58,8 @@ function parsePod(p: unknown): PodSummary | null {
     id: p.id,
     name: typeof p.name === "string" ? p.name : "",
     status: typeof p.status === "string" ? p.status : "UNKNOWN",
-    costPerHour: num(p.cost) ?? 0,
+    // Runpod reports cost 0 for EXITED pods; a missing cost is unknown, not free.
+    costPerHour: num(p.cost),
   };
 }
 
@@ -96,9 +99,10 @@ function restRunpod(env: Env): Runpod {
   }
 
   return {
-    async listGpuOffers() {
-      // Availability is scoped by cloud, product, and CUDA floor, matching what createPod will ask for.
-      const qs = new URLSearchParams({ include: "AVAILABILITY", product: "POD", cloud: "SECURE", minCudaVersion: MIN_CUDA });
+    async listGpuOffers(minCuda = MIN_CUDA) {
+      // Availability is scoped by cloud, product, and CUDA floor, matching what createPod will ask for. Offers
+      // without a live price are dropped: there is no fallback price table, so a quote can't under-count.
+      const qs = new URLSearchParams({ include: "AVAILABILITY", product: "POD", cloud: "SECURE", minCudaVersion: minCuda });
       const body = (await (await call("GET", `/catalog/gpus?${qs}`)).json()) as unknown;
       const gpus = Array.isArray(body) ? body : isObject(body) && Array.isArray(body.gpus) ? body.gpus : [];
       const offers: GpuOffer[] = [];
@@ -152,10 +156,11 @@ function restRunpod(env: Env): Runpod {
 
 // ---- RUNPOD_MOCK=1: fake pods held in memory, never touches Runpod. ----
 
+// Secure Cloud on-demand prices as of 2026-10-19. Mock only: the real client reads live prices.
 const DEFAULT_OFFERS: GpuOffer[] = [
-  { id: "NVIDIA A40", pricePerHour: 0.44, inStock: true },
-  { id: "NVIDIA RTX A6000", pricePerHour: 0.49, inStock: true },
-  { id: "NVIDIA L40S", pricePerHour: 0.86, inStock: true },
+  { id: "NVIDIA A40", pricePerHour: 0.59, inStock: true },
+  { id: "NVIDIA RTX A6000", pricePerHour: 0.59, inStock: true },
+  { id: "NVIDIA L40S", pricePerHour: 1.09, inStock: true },
 ];
 
 export const mockRunpod = {
