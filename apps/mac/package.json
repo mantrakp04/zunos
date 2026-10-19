@@ -6,6 +6,7 @@
     "@expo/metro-runtime": "~55.0.12",
     "@zunos/db": "workspace:*",
     "@zunos/ui": "workspace:*",
+    "bot-avatars": "0.2.2",
     "clsx": "^2.1.1",
     "drizzle-orm": "^0.45.4",
     "expo": "~55.0.31",
@@ -23,14 +24,12 @@
     "react-native-web": "^0.21.0",
     "react-native-webview": "13.16.0",
     "react-native-windows": "0.83.2",
-    "tailwind-merge": "^3.7.0",
-    "three": "~0.181.2"
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@react-native-windows/find-dotnet-tools": "0.0.0-canary.3",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/react": "~19.2.17",
-    "@types/three": "~0.181.0",
     "expo-desktop-metro-config": "~55.83.3",
     "expo-desktop-template-bare-minimum": "~55.83.9",
     "postcss": "^8.5.30",

@@ -1,7 +1,7 @@
 import { cn } from "@zunos/ui/lib/utils";
 import { motion } from "motion/react";
 
-import { Bean } from "../../Bean";
+import { Mascot } from "../../Mascot";
 import { Eyebrow, Meter } from "../../ui";
 
 /** The test in progress: the bean listens while each held-back clip turns into a filled tile. */
@@ -11,7 +11,7 @@ export function Running({ done, total, ids }: { done: number; total: number; ids
   return (
     <section className="py-2">
       <div className="relative flex items-center gap-6">
-        <Bean mood="thinking" size={56} className="-my-2 shrink-0" />
+        <Mascot state="thinking" size={56} className="-my-2 shrink-0" />
         <div className="min-w-0 flex-1">
           <Eyebrow>Running the test</Eyebrow>
           <h2 className="mt-1 font-display text-[20px] leading-tight font-semibold tracking-[-0.02em]">

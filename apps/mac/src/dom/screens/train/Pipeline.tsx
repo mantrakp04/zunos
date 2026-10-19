@@ -2,7 +2,7 @@ import { cn } from "@zunos/ui/lib/utils";
 import { motion } from "motion/react";
 
 import type { LiveState, RunSummary, TrainingQuote } from "../../../shared/types";
-import { Bean, type BeanMood } from "../../Bean";
+import { Mascot, type MascotState } from "../../Mascot";
 
 /**
  * One step of the trip a model takes. `where` groups it: packed and sent from this Mac, trained on a
@@ -74,7 +74,7 @@ export function PipelineTrack({ stages, pos, live }: { stages: Stage[]; pos: Tra
   const { index, progress } = pos;
   const idle = index < 0;
   const done = index >= stages.length;
-  const mood: BeanMood = idle ? "idle" : done ? "happy" : "thinking";
+  const mood: MascotState = idle ? "idle" : done ? "happy" : "thinking";
   const groups = groupsOf(stages);
   const current = groups.find((g) => index >= g.from && index < g.from + g.items.length);
 
@@ -95,7 +95,7 @@ export function PipelineTrack({ stages, pos, live }: { stages: Stage[]; pos: Tra
                   <div key={s.id} title={stageTitle(s)} className="relative flex h-full min-w-0 flex-1 items-end">
                     {state === "now" && (
                       <motion.div layoutId="zt-bean" className="absolute bottom-2.5 left-1/2 -translate-x-1/2" transition={{ type: "spring", stiffness: 120, damping: 18 }}>
-                        <Bean mood={mood} size={22} />
+                        <Mascot state={mood} size={22} />
                       </motion.div>
                     )}
                     <span

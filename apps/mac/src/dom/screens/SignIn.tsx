@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowRight, Loader2, Mail } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 
-import { Wordmark } from "../Bean";
+import { Wordmark } from "../marks";
 import { ErrorNote, useAction } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 import { CodeTiles } from "./onboarding/CodeTiles";

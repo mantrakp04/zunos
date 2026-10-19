@@ -1,15 +1,15 @@
 import { cn } from "@zunos/ui/lib/utils";
 import { type Ref, useCallback, useEffect, useImperativeHandle, useRef, useState } from "react";
 
-import { Bean, type BeanMood } from "../../Bean";
+import { Mascot, type MascotState } from "../../Mascot";
 
 export type StageHandle = {
   /** Something happened (a keystroke, a pick): the ear perks up and a ripple leaves it. */
   poke: (strength?: number) => void;
 };
 
-// Where the ear sits in the bean's 256-unit viewBox; ripples leave from here.
-const EAR = { x: 176, y: 92 };
+// Where the ear's bowl sits in the mascot's box, in 256ths of its size; ripples leave from here.
+const EAR = { x: 218, y: 87 };
 // The arcs open toward the upper right, the way the bean's sound waves do.
 const FROM = -100;
 const TO = 22;
@@ -36,7 +36,7 @@ export function Stage({
   ref?: Ref<StageHandle>;
   size: number;
   /** Overrides the poke-driven mood (e.g. "thinking" while a request runs). */
-  mood?: BeanMood;
+  mood?: MascotState;
   ambient?: boolean;
   className?: string;
 }) {
@@ -76,7 +76,7 @@ export function Stage({
   const C = R; // ripple svg is 2R square, centred on the ear
   const left = (EAR.x / 256) * size - R;
   const top = (EAR.y / 256) * size - R;
-  const mood: BeanMood = forced ?? (level > 0.02 ? "listening" : "idle");
+  const mood: MascotState = forced ?? (level > 0.02 ? "listening" : "idle");
 
   return (
     <div className={cn("relative", className)} style={{ width: size, height: size }}>
@@ -117,7 +117,7 @@ export function Stage({
         ))}
       </svg>
       <div className="zn-stage-floor" style={{ width: size * 0.78, height: size * 0.09, top: size * 0.86 }} />
-      <Bean mood={mood} level={level} size={size} className="relative" />
+      <Mascot state={mood} level={level} size={size} className="relative" />
     </div>
   );
 }

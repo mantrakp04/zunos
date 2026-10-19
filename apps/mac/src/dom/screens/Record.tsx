@@ -6,7 +6,7 @@ import { AnimatePresence } from "motion/react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import type { Lang, PromptItem, Script } from "../../shared/types";
-import { Bean, type BeanMood } from "../Bean";
+import { Mascot, type MascotState } from "../Mascot";
 import { TrainButton } from "../TrainButton";
 import { Badge, Button, ErrorNote, langName, minutes, useAction, useAsync, usePresent } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
@@ -243,7 +243,7 @@ export default function Record({ a, live, go }: ScreenProps) {
     el.style.scale = (0.85 + v * 0.3).toFixed(3);
   }, []);
 
-  const mood: BeanMood = live.recording ? "listening" : finish.busy ? "thinking" : cheer ? "happy" : "idle";
+  const mood: MascotState = live.recording ? "listening" : finish.busy ? "thinking" : cheer ? "happy" : "idle";
   const label = prompt ? promptLabel(prompt, list) : null;
   const composing = !!current && (writing || (!prompts.loading && !prompt));
   const error = start.error ?? cancel.error ?? prompts.error ?? switchScript.error;
@@ -385,7 +385,7 @@ export default function Record({ a, live, go }: ScreenProps) {
         </div>
 
         <div className="relative flex h-[78px] shrink-0 items-center pr-6 pl-5">
-          <Bean mood={mood} level={live.level} size={46} className="relative z-10 shrink-0" />
+          <Mascot state={mood} level={live.level} size={46} className="relative z-10 shrink-0" />
           <VoiceRibbon levelRef={levelRef} active={live.recording} onFrame={onFrame} className="-ml-0.5 h-[72px] min-w-0 flex-1" />
         </div>
       </section>

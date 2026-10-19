@@ -11,9 +11,8 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 
 import type { Actions } from "../services/actions";
 import type { LiveState } from "../shared/types";
-import { Bean, Wordmark } from "./Bean";
-import { Mascot3D, type MascotState } from "./Mascot3D";
-import { DictateMark } from "./marks";
+import { Mascot, type MascotState } from "./Mascot";
+import { DictateMark, Wordmark } from "./marks";
 import Languages from "./screens/Languages";
 import Record from "./screens/Record";
 import SignIn from "./screens/SignIn";
@@ -116,7 +115,7 @@ function mascotStatus(live: LiveState, cloudRun: boolean): { state: MascotState;
   if (live.transfer || cloudRun) return { state: "working", label: live.transfer ? "Moving your model" : "Training in the cloud" };
   if (live.engine === "starting" || live.engine === "loading") return { state: "waking", label: live.engine === "loading" ? "Loading your model" : "Waking up" };
   if (live.engine === "stopped") return { state: "sleeping", label: "Asleep" };
-  return { state: "awake", label: "Ready" };
+  return { state: "idle", label: "Ready" };
 }
 
 /* ---- the rail: the mascot as status light, the steps as one journey, your languages, account -- */
@@ -155,7 +154,7 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
   return (
     <aside className="flex w-[232px] shrink-0 flex-col px-3 pt-[calc(var(--titlebar)+14px)] pb-3 select-none">
       <div className="mb-6 flex items-center gap-2.5 px-2">
-        {/* The mascot is the engine's status light: asleep, waking, awake, listening, thinking, working. */}
+        {/* The mascot is the engine's status light: asleep, waking, ready, listening, thinking, working. */}
         <button
           type="button"
           aria-label={`zunos: ${status.label}`}
@@ -163,7 +162,7 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
           onClick={() => status.state === "error" && !wake.busy && wake.run()}
           className={cn("-my-1 -ml-1 shrink-0 rounded-full", status.state === "error" ? "cursor-pointer" : "cursor-default")}
         >
-          <Mascot3D state={status.state} level={status.state === "listening" ? live.level : 0} size={34} />
+          <Mascot state={status.state} level={status.state === "listening" ? live.level : 0} size={34} />
         </button>
         <Wordmark height={17} className="text-brand-ink dark:text-brand-cream" />
       </div>
@@ -346,7 +345,7 @@ function VoiceBars({ level, thinking }: { level: number; thinking: boolean }) {
 function Splash({ error, onRetry }: { error?: string | null; onRetry?: () => void }) {
   return (
     <div className="grain flex h-screen flex-col items-center justify-center gap-5 bg-background">
-      <Bean mood={error ? "sleepy" : "thinking"} size={96} />
+      <Mascot state={error ? "error" : "waking"} size={96} />
       <Wordmark height={26} draw className="text-brand-ink dark:text-brand-cream" />
       {error && (
         <div className="flex max-w-sm flex-col items-center gap-3">

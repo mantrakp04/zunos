@@ -6,7 +6,7 @@ import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import type { Lang, Language, Script } from "../../shared/types";
-import { Bean } from "../Bean";
+import { Mascot } from "../Mascot";
 import { Button, ErrorNote, Kbd, useAction } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 import { endonym, GREETINGS, ROMANIZED_SAMPLE } from "./onboarding/endonyms";
@@ -227,7 +227,7 @@ function Greeting({ hop }: { hop: number }) {
   const g = GREETINGS[i]!;
   return (
     <div className="flex items-end gap-3">
-      <Bean key={hop} mood={hop ? "happy" : "idle"} size={56} className="-ml-1 shrink-0" />
+      <Mascot key={hop} state={hop ? "happy" : "idle"} size={56} className="-ml-1 shrink-0" />
       <div className="relative mb-6 h-8 overflow-hidden rounded-[13px] rounded-bl-[4px] bg-card px-3 shadow-[0_0_0_1px_var(--input),0_4px_12px_-6px_rgb(64_32_25/0.25)]">
         <AnimatePresence mode="popLayout" initial={false}>
           <motion.span

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-import { Bean, type BeanMood } from "../../Bean";
+import { Mascot, type MascotState } from "../../Mascot";
 
 /** What the dictation instrument is doing. */
 export type Phase = "loading" | "ready" | "listening" | "thinking" | "error";
@@ -50,7 +50,7 @@ export function Instrument({
 }: {
   phase: Phase;
   level: number;
-  mood: BeanMood;
+  mood: MascotState;
   disabled: boolean;
   label: string;
   onToggle: () => void;
@@ -272,7 +272,7 @@ export function Instrument({
     };
   }, []);
 
-  const size = Math.round(132 * unit);
+  const size = Math.round(150 * unit);
   return (
     <div ref={box} className="relative min-h-0 flex-1">
       <canvas ref={canvas} aria-hidden className="pointer-events-none absolute inset-x-0 -top-24 -bottom-56 -z-[1] h-[calc(100%+20rem)] w-full" />
@@ -285,8 +285,8 @@ export function Instrument({
         className="group absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-8 focus-visible:ring-offset-card disabled:cursor-default"
         style={{ width: size, height: size }}
       >
-        <span className="block -translate-x-[3%] transition-transform duration-300 ease-out group-hover:scale-[1.035] group-active:scale-[0.96] group-disabled:scale-100">
-          <Bean mood={mood} level={level} size={size} />
+        <span className="block transition-transform duration-300 ease-out group-hover:scale-[1.035] group-active:scale-[0.96] group-disabled:scale-100">
+          <Mascot state={mood} level={level} size={size} />
         </span>
       </button>
     </div>

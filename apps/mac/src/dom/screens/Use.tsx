@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { type ReactNode, useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import type { DictationItem, LiveState } from "../../shared/types";
-import type { BeanMood } from "../Bean";
+import type { MascotState } from "../Mascot";
 import { Button, ErrorNote, PageHeader, Segmented, useAction, useAsync, usePresent } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 import { Instrument, type Phase, Timer } from "./use/Instrument";
@@ -123,8 +123,8 @@ export default function Use({ a, live }: ScreenProps) {
           : live.engine === "error"
             ? "error"
             : "ready";
-  const mood: BeanMood =
-    phase === "listening" ? "listening" : phase === "thinking" ? "thinking" : phase === "loading" || phase === "error" ? "sleepy" : cheer ? "happy" : "idle";
+  const mood: MascotState =
+    phase === "listening" ? "listening" : phase === "thinking" ? "thinking" : phase === "loading" ? "waking" : phase === "error" ? "error" : cheer ? "happy" : "idle";
 
   const toggle = () => {
     if (disabled) return;
