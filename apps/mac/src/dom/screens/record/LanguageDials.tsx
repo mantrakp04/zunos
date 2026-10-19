@@ -51,7 +51,7 @@ export const LanguageDials = memo(function LanguageDials({ languages, stats, val
             <span className="relative flex flex-col gap-0.5">
               <span className="text-[13px] leading-none font-semibold">{l.name}</span>
               <span className="text-[11.5px] leading-none text-muted-foreground tabular-nums">
-                {s ? `${(total / 60).toFixed(1)} of ${GOAL_SECONDS / 60} min` : "…"}
+                {!s ? "…" : done ? `${(total / 60).toFixed(1)} min, goal met` : `${(total / 60).toFixed(1)} of ${GOAL_SECONDS / 60} min`}
               </span>
             </span>
           </button>

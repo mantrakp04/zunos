@@ -7,7 +7,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import type { Lang, PromptItem } from "../../shared/types";
 import { Bean, type BeanMood } from "../Bean";
-import { Badge, Button, ErrorNote, langName, minutes, useAction, useAsync } from "../ui";
+import { Badge, Button, ErrorNote, langName, minutes, useAction, useAsync, usePresent } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 import { Compose } from "./record/Compose";
 import { Clock, Deck, type KeyName, type Phase } from "./record/Deck";
@@ -123,8 +123,10 @@ export default function Record({ a, live }: ScreenProps) {
     recording,
     flash,
   };
+  const present = usePresent();
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (!present.current) return;
       const t = e.target as HTMLElement | null;
       if (t instanceof HTMLInputElement || t instanceof HTMLTextAreaElement || t?.isContentEditable) return;
       if (e.metaKey || e.ctrlKey || e.altKey) return;

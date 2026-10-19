@@ -62,7 +62,8 @@ export function Versions({
       ref={scroller}
       className="scrollbar-none -mx-10 overflow-x-auto px-10 pt-1 pb-3 [mask-image:linear-gradient(90deg,transparent,#000_2.5rem,#000_calc(100%-2.5rem),transparent)]"
     >
-      <div className="relative flex w-max min-w-full gap-3">
+      {/* 11rem per card, or the full width when they fit: cards share it instead of sizing to their content. */}
+      <div className="relative flex gap-3" style={{ width: `max(100%, ${ordered.length * 11 + (ordered.length - 1) * 0.75}rem)` }}>
         {/* the timeline */}
         <div className="pointer-events-none absolute top-[22px] right-2 left-2 h-px bg-[linear-gradient(90deg,transparent,var(--border)_6%,var(--border)_94%,transparent)]" />
         {ordered.map((r, i) => {
@@ -81,7 +82,7 @@ export function Versions({
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.05, type: "spring", stiffness: 260, damping: 26 }}
               className={cn(
-                "group relative flex min-w-[11rem] flex-1 basis-0 flex-col rounded-[18px] p-4 pt-3 text-left transition-[background-color,box-shadow,transform] duration-200",
+                "group relative flex min-w-0 flex-1 basis-0 flex-col rounded-[18px] p-4 pt-3 text-left transition-[background-color,box-shadow,transform] duration-200",
                 on
                   ? "bg-card shadow-[0_0_0_1.5px_var(--brand),var(--elevate)]"
                   : "bg-card/60 shadow-[0_0_0_1px_var(--border)] hover:-translate-y-0.5 hover:bg-card hover:shadow-[0_0_0_1px_var(--input),var(--elevate)]",
@@ -128,7 +129,7 @@ export function Versions({
               ) : r.status === "failed" ? (
                 <div className="mt-3 text-[12.5px] text-muted-foreground">Didn't finish</div>
               ) : (
-                <div className="mt-3 flex items-end justify-between gap-2">
+                <div className="mt-3 flex flex-wrap items-end justify-between gap-x-2 gap-y-1.5">
                   <div>
                     <div className="font-display text-[22px] leading-none font-semibold tracking-tight tabular-nums">{pct(r.bestScore)}</div>
                     <div className="mt-1 text-[10.5px] whitespace-nowrap text-muted-foreground">avg WER{r.bestStep != null && ` · step ${r.bestStep}`}</div>

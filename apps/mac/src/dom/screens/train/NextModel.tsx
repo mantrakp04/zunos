@@ -148,7 +148,7 @@ export function DataStory({ stats, colorOf }: { stats: LangStats[]; colorOf: (la
         {stats.map((s, i) => {
           const c = colorOf(s.lang);
           return (
-            <div key={s.lang} className="grid grid-cols-[6.5rem_1fr_auto] items-center gap-4 @max-[36rem]:grid-cols-[5rem_1fr]">
+            <div key={s.lang} className="grid grid-cols-[6.5rem_1fr_auto] items-center gap-4 @max-[36rem]:grid-cols-[5rem_1fr_auto] @max-[36rem]:gap-3">
               <span className="flex items-center gap-2 text-[13px] font-medium">
                 <span className="size-2 rounded-full" style={{ background: c }} />
                 {langName(s.lang)}
@@ -169,10 +169,18 @@ export function DataStory({ stats, colorOf }: { stats: LangStats[]; colorOf: (la
                   transition={{ type: "spring", stiffness: 70, damping: 18, delay: 0.18 + i * 0.06 }}
                 />
               </div>
-              <span className="text-[12px] whitespace-nowrap tabular-nums text-muted-foreground @max-[36rem]:col-start-2">
-                <span className="font-medium text-foreground">{minutes(s.trainSeconds)}</span> · {s.trainClips} clips
-                <span className="mx-1.5 text-foreground/20">|</span>
-                {minutes(s.testSeconds)} held back
+              {/* Narrow: just the minutes, trained + held back; the full breakdown is in the tooltip. */}
+              <span
+                title={`${minutes(s.trainSeconds)} in ${s.trainClips} clips trains it, ${minutes(s.testSeconds)} is held back to test it`}
+                className="text-[12px] whitespace-nowrap tabular-nums text-muted-foreground"
+              >
+                <span className="font-medium text-foreground">{minutes(s.trainSeconds)}</span>
+                <span className="@max-[36rem]:hidden">
+                  {" "}· {s.trainClips} clips
+                  <span className="mx-1.5 text-foreground/20">|</span>
+                  {minutes(s.testSeconds)} held back
+                </span>
+                <span className="hidden @max-[36rem]:inline"> + {minutes(s.testSeconds)}</span>
               </span>
             </div>
           );

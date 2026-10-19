@@ -169,8 +169,8 @@ export function PipelineTrack({ pos, live }: { pos: TrackPos; live: boolean }) {
         })}
       </div>
 
-      {/* labels */}
-      <div className="relative mt-2 h-8">
+      {/* labels; on a narrow track every other one drops a row so neighbours don't run together */}
+      <div className="relative mt-2 h-8 @max-[46rem]:h-[46px]">
         {TRACK.map((t, i) => {
           const now = !idle && i === index;
           return (
@@ -178,7 +178,8 @@ export function PipelineTrack({ pos, live }: { pos: TrackPos; live: boolean }) {
               key={t.id}
               className={cn(
                 "absolute top-0 flex -translate-x-1/2 flex-col items-center text-center whitespace-nowrap",
-                !now && "@max-[34rem]:hidden",
+                i % 2 === 1 && "@max-[46rem]:top-[16px]",
+                !now && "@max-[26rem]:hidden",
               )}
               style={{ left: `${cx(i)}%` }}
             >

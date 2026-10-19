@@ -1,7 +1,7 @@
 import { cn } from "@zunos/ui/lib/utils";
 import { AlertCircle, Loader2 } from "lucide-react";
-import { motion } from "motion/react";
-import { type ButtonHTMLAttributes, type ReactNode, useCallback, useEffect, useId, useState } from "react";
+import { motion, useIsPresent } from "motion/react";
+import { type ButtonHTMLAttributes, type ReactNode, useCallback, useEffect, useId, useRef, useState } from "react";
 
 export { languageName as langName } from "@zunos/db/languages";
 
@@ -208,6 +208,17 @@ export const minutes = (s: number) => (s < 60 ? `${Math.round(s)} s` : `${(s / 6
 export const pct = (x: number | undefined | null) => (x == null ? "—" : `${(x * 100).toFixed(1)}%`);
 
 /** Runs an async loader on mount (and when deps change); exposes data, error and reload. */
+/**
+ * Whether this screen is still the one on show. A screen you leave stays mounted for its exit
+ * animation, so window-level key handlers check this to stop acting on keys meant for the next one.
+ */
+export function usePresent() {
+  const present = useIsPresent();
+  const ref = useRef(present);
+  ref.current = present;
+  return ref;
+}
+
 export function useAsync<T>(fn: () => Promise<T>, deps: unknown[] = []) {
   const [data, setData] = useState<T | null>(null);
   const [error, setError] = useState<string | null>(null);
