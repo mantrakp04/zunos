@@ -42,10 +42,11 @@ MIN_LIMIT = 6.0
 # Guardrails.
 # The Whisper-base check: cleaned may score at most max(ASR_SLACK, ASR_WORDS / words) worse than raw (a word
 # and a half of slack, so one flipped word in a short take isn't a verdict), and only counts when base can
-# read the raw take at all (error <= ASR_INFORMATIVE): on speech it can't follow, its errors say nothing.
+# read the raw take (error <= ASR_INFORMATIVE): on speech it mostly misreads (base on Hindi and Gujarati sits
+# around 0.55), its errors swing by 0.2 between near-identical inputs and say nothing.
 ASR_SLACK = 0.03
 ASR_WORDS = 1.5
-ASR_INFORMATIVE = 0.6
+ASR_INFORMATIVE = 0.5
 LEVEL_DROP_DB = 3.0  # 10th-percentile loss of level on clearly-speech frames (300-4000 Hz)
 
 
