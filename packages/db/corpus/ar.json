@@ -1,0 +1,1642 @@
+{
+  "lang": "ar",
+  "starter": [
+    "ar-s105",
+    "ar-s016",
+    "ar-s097",
+    "ar-s137",
+    "ar-s073",
+    "ar-s090",
+    "ar-s026",
+    "ar-s096",
+    "ar-s013",
+    "ar-s089",
+    "ar-s067",
+    "ar-s047",
+    "ar-s065",
+    "ar-s132",
+    "ar-s118",
+    "ar-s053",
+    "ar-p01",
+    "ar-s035",
+    "ar-s029",
+    "ar-s131",
+    "ar-s042",
+    "ar-s085",
+    "ar-s103",
+    "ar-s104",
+    "ar-s111",
+    "ar-s135",
+    "ar-s136",
+    "ar-s116",
+    "ar-s021",
+    "ar-s020",
+    "ar-s086",
+    "ar-s015",
+    "ar-p04",
+    "ar-s003",
+    "ar-s064",
+    "ar-s056",
+    "ar-s032",
+    "ar-s099",
+    "ar-s054",
+    "ar-s044",
+    "ar-s081",
+    "ar-s051",
+    "ar-s084",
+    "ar-s017",
+    "ar-s121",
+    "ar-s094",
+    "ar-s008",
+    "ar-s010",
+    "ar-s072"
+  ],
+  "items": [
+    {
+      "id": "ar-p01",
+      "kind": "para",
+      "title": "Our New Cat",
+      "native": [
+        "يا سلمى، عندنا قطة جديدة في البيت.",
+        "وجدتها أختي قرب البقالة، وبحثنا عن صاحبها طوال الأسبوع.",
+        "لم يسأل عنها أحد، فجهزنا لها زاوية بجانب الكنبة.",
+        "سميناها لوزة لأن لونها بني فاتح.",
+        "في البداية اختبأت تحت الطاولة ورفضت الاقتراب من أي شخص.",
+        "الآن تنام قرب قدمي أمي وتلاحق خيطا أزرق في الصالة.",
+        "اشترينا لها طعاما ووعاء للماء وصندوق رمل من محل قريب.",
+        "أخي الصغير يراقبها بحماس، لكنه يتركها ترتاح حين تبتعد عنه.",
+        "تعالي يوم الجمعة لزيارتنا، وسأرسل لك صورتها على واتساب الآن."
+      ],
+      "roman": [
+        "Ya Salma, 3indana qitta jadida fi albayt.",
+        "Wajadatha u5ti qurb albaqqala, waba7athna 3an sa7ibiha tawal al2usbu3.",
+        "Lam yas2al 3anha a7ad, fajahhazna laha zawiya bijanib alkanaba.",
+        "Sammaynaha Lawza li2anna lawnaha bunni fati7.",
+        "Fi albidaya i5taba2at ta7t altawila warafadat aliqtirab min ayy sha5s.",
+        "Al2an tanam qurb qadamay ummi watula7iq 5ayt azraq fi alsala.",
+        "Ishtarayna laha ta3am wawi3a2 lilma2 wasunduq raml min ma7all qarib.",
+        "A5i alsaghir yuraqibuha bi7amas, lakinnahu yatrukuha tarta7 7in tabta3id 3anhu.",
+        "Ta3ali yawm aljum3a liziyaratina, wasa2ursil laki surataha 3ala WhatsApp al2an."
+      ]
+    },
+    {
+      "id": "ar-p02",
+      "kind": "para",
+      "title": "Comparing Office Chair Quotes",
+      "native": [
+        "مرحبا هدى، قارنت عروض توريد الكراسي لمكتبنا الجديد في الرياض.",
+        "لدينا عرضان، وكلاهما يشمل نقل الكراسي إلى المكتب.",
+        "سعر المورد الأول 2400 ريال سعودي مقابل 12 كرسيا أسود.",
+        "أما المورد الثاني فطلب 2700 ريال سعودي مع التركيب.",
+        "العرض الأرخص لا يشمل التركيب، وتكلفته الإضافية 300 ريال سعودي.",
+        "بذلك تتساوى التكلفة، لكن المورد الثاني يمنحنا ضمانا لسنتين.",
+        "المورد الثاني يستطيع تسليم الكراسي يوم الأحد، قبل وصول زملائنا الجدد.",
+        "أقترح اختيار المورد الثاني، بشرط تأكيد موعد التسليم برسالة مكتوبة.",
+        "راجعي المقارنة المرفقة، وأرسلي رأيك اليوم قبل الساعة 2 مساء."
+      ],
+      "roman": [
+        "Mar7aba Huda, qarantu 3urud tawrid alkarasi limaktabina aljadid fi Alriyad.",
+        "Ladayna 3ardan, wakilahuma yashmal naql alkarasi ila almaktab.",
+        "Si3r almuwarrid al2awwal 2400 riyal sa3udi muqabil 12 kursi aswad.",
+        "Amma almuwarrid althani fatalab 2700 riyal sa3udi ma3 altarkib.",
+        "Al3ard al2ar5as la yashmal altarkib, wataklifatuhu al2idafiyya 300 riyal sa3udi.",
+        "Bidhalik tatasawa altaklifa, lakin almuwarrid althani yamna7una daman lisanatayn.",
+        "Almuwarrid althani yastati3 taslim alkarasi yawm al2a7ad, qabl wusul zumala2ina aljudud.",
+        "Aqtari7 i5tiyar almuwarrid althani, bishart ta2kid maw3id altaslim birisala maktuba.",
+        "Raji3i almuqarana almurfaqa, wa2arsili ra2yaki alyawm qabl alsa3a 2 masa2an."
+      ]
+    },
+    {
+      "id": "ar-p03",
+      "kind": "para",
+      "title": "Help Outside the Market",
+      "native": [
+        "خرجت من سوق الحي في الرباط ومعي أكياس الخضار.",
+        "كنت أحاول فتح المظلة حين انقطع مقبض الكيس الورقي.",
+        "تدحرجت حبات البرتقال على الرصيف، وبقيت واقفة تحت المطر.",
+        "اقتربت سيدة تحمل حقيبة قماشية، وسألتني إن كنت أحتاج مساعدة.",
+        "جمعت البرتقال معي، ثم أعطتني كيسا آخر من حقيبتها.",
+        "مشينا معا حتى المخبز، وانتظرنا هناك إلى أن خف المطر.",
+        "عرفت أن اسمها نادية، وأنها تسكن في حي حسان.",
+        "شكرتها ودعوتها لشرب الشاي، فوافقت وحددنا موعدا في الأسبوع التالي.",
+        "ومنذ ذلك اليوم صرنا نتبادل التحية كلما التقينا في السوق."
+      ],
+      "roman": [
+        "5arajtu min suq al7ayy fi Alribat wama3i akyas al5udar.",
+        "Kuntu u7awil fat7 almizalla 7in inqata3 maqbid alkis alwaraqi.",
+        "Tada7rajat 7abbat alburtuqal 3ala alrasif, wabaqitu waqifa ta7t almatar.",
+        "Iqtarabat sayyida ta7mil 7aqiba qumashiyya, wasa2alatni in kuntu a7taj musa3ada.",
+        "Jama3at alburtuqal ma3i, thumma a3tatni kis a5ar min 7aqibatiha.",
+        "Mashayna ma3an 7atta alma5baz, wantazarna hunaka ila an 5affa almatar.",
+        "3araftu anna ismaha Nadia, wa2annaha taskun fi 7ayy 7assan.",
+        "Shakartuha wada3awtuha lishurb alshay, fawafaqat wa7addadna maw3id fi al2usbu3 altali.",
+        "Wamundhu dhalik alyawm sirna natabadal alta7iyya kullama iltaqayna fi alsuq."
+      ]
+    },
+    {
+      "id": "ar-p04",
+      "kind": "para",
+      "title": "Caring for Balcony Plants",
+      "native": [
+        "ابدأ بالنعناع والريحان إذا أردت حديقة صغيرة على شرفتك.",
+        "ضع الأصص قرب الحاجز، واترك ممرا واسعا للوصول إلى النباتات.",
+        "تأكد من وجود فتحات أسفل كل أصيص لتصريف الماء الزائد.",
+        "اسق النباتات صباحا، قبل أن تشتد الشمس.",
+        "المس التراب بإصبعك، ولا تضف الماء إذا كان ما زال رطبا.",
+        "أفرغ الصحون تحت الأصص بعد الري، حتى لا يتجمع فيها الماء.",
+        "قص الأوراق الجافة بمقص نظيف، وأبعد الأغصان عن حبال الغسيل.",
+        "أضف سمادا مناسبا مرة كل شهر، حسب الكمية المكتوبة على العبوة.",
+        "في أيام الحر الشديد، انقل النباتات الحساسة للشمس إلى زاوية فيها ظل."
+      ],
+      "roman": [
+        "Ibda2 bilna3na3 walray7an idha aradta 7adiqa saghira 3ala shurfatika.",
+        "Da3 al2usus qurb al7ajiz, watruk mamarr wasi3 lilwusul ila alnabatat.",
+        "Ta2akkad min wujud fata7at asfal kull asis litasrif alma2 alza2id.",
+        "Isqi alnabatat saba7an, qabl an tashtadd alshams.",
+        "Ilmis alturab bi2isba3ika, wala tudif alma2 idha kan ma zal ratb.",
+        "Afrigh alsu7un ta7t al2usus ba3d alrayy, 7atta la yatajamma3 fiha alma2.",
+        "Quss al2awraq aljaffa bimiqass nazif, wa2ab3id al2aghsan 3an 7ibal alghasil.",
+        "Adif samad munasib marra kull shahr, 7asab alkammiyya almaktuba 3ala al3ubwa.",
+        "Fi ayyam al7arr alshadid, unqul alnabatat al7assasa lilshams ila zawiya fiha zill."
+      ]
+    },
+    {
+      "id": "ar-p05",
+      "kind": "para",
+      "title": "Breakfast in Bahari",
+      "native": [
+        "جربت أمس الفلافل مع رانيا في محل صغير بحي بحري في الإسكندرية.",
+        "المكان بسيط، والخبز فيه ساخن وطازج.",
+        "طلبت ساندويتش فلافل بالطحينة، وأضاف البائع شرائح طماطم.",
+        "أعجبني أن الفلافل مقرمشة من الخارج وطرية من الداخل.",
+        "دفعت 30 جنيها مصريا، وحجم الساندويتش مناسب جدا لفطور خفيف.",
+        "السلطة طازجة، لكن المخلل مالح أكثر مما أحب في الصباح.",
+        "لاحظت أن البائع يجهز الطلبات وحده، لذلك يتأخر قليلا.",
+        "أفضل العودة في يوم عادي، فالزحام يوم الجمعة شديد.",
+        "سأنصح أصدقائي بالمحل، فهو مناسب لفطور سريع بسعر معقول قبل العمل."
+      ],
+      "roman": [
+        "Jarrabtu ams alfalafil ma3 Rania fi ma7all saghir bi7ayy Ba7ri fi Al2iskandariya.",
+        "Almakan basit, wal5ubz fihi sa5in watazaj.",
+        "Talabtu sandwich falafil bilta7ina, wa2adaf alba2i3 shara2i7 tamatim.",
+        "A3jabani anna alfalafil muqarmasha min al5arij watariyya min alda5il.",
+        "Dafa3tu 30 junayh misri, wa7ajm alsandwich munasib jiddan lifutur 5afif.",
+        "Alsalata tazaja, lakin almu5allal mali7 akthar mimma u7ibb fi alsaba7.",
+        "La7aztu anna alba2i3 yujahhiz altalabat wa7dahu, lidhalik yata2a55ar qalilan.",
+        "Ufaddil al3awda fi yawm 3adi, falzi7am yawm aljum3a shadid.",
+        "Sa2ansa7 asdiqa2i bilma7all, fahuwa munasib lifutur sari3 bisi3r ma3qul qabl al3amal."
+      ]
+    },
+    {
+      "id": "ar-p06",
+      "kind": "para",
+      "title": "Three Days in Nizwa",
+      "native": [
+        "سأزور نزوى من 14 نوفمبر إلى 16 نوفمبر مع مازن.",
+        "ميزانيتنا للرحلة 150 ريالا عمانيا، وتشمل مصاريفنا طوال الأيام الثلاثة.",
+        "سنغادر مسقط الساعة 7:30 صباحا، ونقطع نحو 160 كيلومترا.",
+        "حجزت غرفة لليلتين بسعر 28 ريالا عمانيا لليلة، والمجموع 56 ريالا عمانيا.",
+        "سأخصص للبنزين 20 ريالا عمانيا، وللطعام 36 ريالا عمانيا.",
+        "في اليوم الأول سنتمشى في السوق، ونشتري التمر بعد الغداء.",
+        "نزور القلعة صباح اليوم الثاني، ونخصص للزيارات 18 ريالا عمانيا.",
+        "نترك 20 ريالا عمانيا للمصاريف الإضافية، حتى لا نتجاوز الميزانية.",
+        "نعود في اليوم الثالث الساعة 5 مساء، بعد الغداء في بركة الموز."
+      ],
+      "roman": [
+        "Sa2azur Nizwa min 14 Nufambar ila 16 Nufambar ma3 Mazin.",
+        "Mizaniyyatuna lilri7la 150 riyal 3umani, watashmal masarifana tawal al2ayyam althalatha.",
+        "Sanughadir Masqat alsa3a 7:30 saba7an, wanaqta3 na7w 160 kilumitr.",
+        "7ajaztu ghurfa lilaylatayn bisi3r 28 riyal 3umani lilayla, walmajmu3 56 riyal 3umani.",
+        "Sa2u5assis lilbanzin 20 riyal 3umani, walilta3am 36 riyal 3umani.",
+        "Fi alyawm al2awwal sanatamashsha fi alsuq, wanashtari altamr ba3d alghada2.",
+        "Nazur alqal3a saba7 alyawm althani, wanu5assis lilziyarat 18 riyal 3umani.",
+        "Natruk 20 riyal 3umani lilmasarif al2idafiyya, 7atta la natajawaz almizaniyya.",
+        "Na3ud fi alyawm althalith alsa3a 5 masa2an, ba3d alghada2 fi Birkat Almawz."
+      ]
+    },
+    {
+      "id": "ar-p07",
+      "kind": "para",
+      "title": "Checking a Card Charge",
+      "native": [
+        "مرحبا، اسمي مريم الزياني، ولاحظت خصما غير صحيح من بطاقتي.",
+        "اشتريت مستلزمات منزلية من متجر في السيف أمس بعد الظهر.",
+        "دفعت 12 دينارا بحرينيا، لكن التطبيق يعرض خصما بقيمة 24 دينارا.",
+        "راجعت الفاتورة الورقية، والمبلغ المكتوب فيها يطابق السعر الذي دفعته.",
+        "تحدثت مع موظف المتجر، وقال إن المبلغ 12 دينارا.",
+        "العملية ظاهرة بتاريخ أمس، واسم المتجر واضح في تفاصيل الدفع.",
+        "هل يمكنكم مراجعة هذا الخصم؟ أريد أن أعرف سبب الفرق بين المبلغين.",
+        "أستطيع إرسال صورة للفاتورة عبر التطبيق إذا احتجتم إلى نسخة.",
+        "شكرا لمساعدتكم، وأرجو إبلاغي بالنتيجة برسالة نصية على رقمي المسجل لديكم."
+      ],
+      "roman": [
+        "Mar7aba, ismi Maryam Alzayyani, wala7aztu 5asm ghayr sa7i7 min bitaqati.",
+        "Ishtaraytu mustalzamat manziliyya min matjar fi Alsayf ams ba3d alzuhr.",
+        "Dafa3tu 12 dinar ba7rayni, lakin altatbiq ya3rid 5asm biqima 24 dinar.",
+        "Raja3tu alfatura alwaraqiyya, walmablagh almaktub fiha yutabiq alsi3r alladhi dafa3tuhu.",
+        "Ta7addathtu ma3 muwazzaf almatjar, waqal inna almablagh 12 dinar.",
+        "Al3amaliyya zahira bitari5 ams, waism almatjar wadi7 fi tafasil aldaf3.",
+        "Hal yumkinukum muraja3a hadha al5asm? Urid an a3rif sabab alfarq bayn almablaghayn.",
+        "Astati3 irsal sura lilfatura 3abr altatbiq idha i7tajtum ila nus5a.",
+        "Shukran limusa3adatikum, waarju iblaghi bilnatija birisala nassiyya 3ala raqmi almusajjal ladaykum."
+      ]
+    },
+    {
+      "id": "ar-p08",
+      "kind": "para",
+      "title": "Lafayette Through the Years",
+      "native": [
+        "تغير حي لافاييت في تونس العاصمة كثيرا في السنوات الأخيرة.",
+        "ما زالت العمارات القديمة تميز شوارع الحي عن الأحياء الجديدة.",
+        "في شارع الحرية، تجد مخابز ومحلات بقالة ومقاهي صغيرة.",
+        "يعرض بعض أصحاب المحلات منتجاتهم على إنستغرام لجذب زبائن جدد.",
+        "في شوارع لافاييت، ترى طلبة وموظفين وسكانا يعرف بعضهم بعضا.",
+        "يصعب العثور على موقف للسيارة خلال النهار بسبب الزحام.",
+        "يفضل كثير من الزوار المشي، فالمتاجر والمقاهي قريبة من بعضها.",
+        "يتبادل الجيران التحية كل يوم.",
+        "تغيرت واجهات بعض المحلات، لكن العمارات القديمة ما زالت كما هي."
+      ],
+      "roman": [
+        "Taghayyar 7ayy Lafayette fi Tunis al3asima kathiran fi alsanawat ala5ira.",
+        "Ma zalat al3imarat alqadima tumayyiz shawari3 al7ayy 3an ala7ya2 aljadida.",
+        "Fi shari3 Al7urriyya, tajid ma5abiz wama7allat baqala wamaqahi saghira.",
+        "Ya3rid ba3d as7ab alma7allat muntajatihim 3ala Instagram lijadhb zaba2in judud.",
+        "Fi shawari3 Lafayette, tara talaba wamuwazzafin wasukkan ya3rif ba3duhum ba3d.",
+        "Yas3ub al3uthur 3ala mawqif lilsayyara 5ilal alnahar bisabab alzi7am.",
+        "Yufaddil kathir min alzuwwar almashy, falmatajir walmaqahi qariba min ba3diha.",
+        "Yatabadal aljiran alta7iyya kull yawm.",
+        "Taghayyarat wajihat ba3d alma7allat, lakin al3imarat alqadima ma zalat kama hiya."
+      ]
+    },
+    {
+      "id": "ar-s001",
+      "kind": "sentence",
+      "native": [
+        "أمي، سأصطحب الأطفال إلى الحديقة بعد الظهر، وأعيدهم قبل أن يبدأ برنامجك."
+      ],
+      "roman": [
+        "Ummi, sa2asta7ib al2atfal ila al7adiqa ba3d alzuhr, wa2u3iduhum qabl an yabda2 barnamajuki."
+      ]
+    },
+    {
+      "id": "ar-s002",
+      "kind": "sentence",
+      "native": [
+        "نورة النجار ستتابع الطلبات العاجلة أثناء غيابي."
+      ],
+      "roman": [
+        "Nura Alnajjar satutabi3 altalabat al3ajila athna2 ghiyabi."
+      ]
+    },
+    {
+      "id": "ar-s003",
+      "kind": "sentence",
+      "native": [
+        "سجل المتجر 120 طلبا، بزيادة 15% عن أمس."
+      ],
+      "roman": [
+        "Sajjal almatjar 120 talab, biziyada 15% 3an ams."
+      ]
+    },
+    {
+      "id": "ar-s004",
+      "kind": "sentence",
+      "native": [
+        "أضف العدس إلى قائمة المشتريات."
+      ],
+      "roman": [
+        "Adif al3adas ila qa2imat almushtarayat."
+      ]
+    },
+    {
+      "id": "ar-s005",
+      "kind": "sentence",
+      "native": [
+        "أوقف تشغيل الشاشة بعد مرور 20 دقيقة."
+      ],
+      "roman": [
+        "Awqif tashghil alshasha ba3d murur 20 daqiqa."
+      ]
+    },
+    {
+      "id": "ar-s006",
+      "kind": "sentence",
+      "native": [
+        "بعد التحديث، صارت الطابعة تسحب ورقتين معا، مع أن درج الورق غير ممتلئ."
+      ],
+      "roman": [
+        "Ba3d alta7dith, sarat altabi3a tas7ab waraqatayn ma3an, ma3 anna durj alwaraq ghayr mumtali2."
+      ]
+    },
+    {
+      "id": "ar-s007",
+      "kind": "sentence",
+      "native": [
+        "انعطف يمينا عند الإشارة."
+      ],
+      "roman": [
+        "In3atif yaminan 3ind al2ishara."
+      ]
+    },
+    {
+      "id": "ar-s008",
+      "kind": "sentence",
+      "native": [
+        "جهزت ملابس العيد للصغار."
+      ],
+      "roman": [
+        "Jahhaztu malabis al3id lilsighar."
+      ]
+    },
+    {
+      "id": "ar-s009",
+      "kind": "sentence",
+      "native": [
+        "كنت سأرتب الشرفة، لكن الشمس ظهرت، فلنخرج بالدراجات ونؤجل التنظيف إلى المساء."
+      ],
+      "roman": [
+        "Kuntu sa2urattib alshurfa, lakin alshams zaharat, falna5ruj bildarrajat wanu2ajjil altanzif ila almasa2."
+      ]
+    },
+    {
+      "id": "ar-s010",
+      "kind": "sentence",
+      "native": [
+        "واصل التدريب يا مازن، مستواك يتحسن كل أسبوع."
+      ],
+      "roman": [
+        "Wasil altadrib ya Mazin, mustawaka yata7assan kull usbu3."
+      ]
+    },
+    {
+      "id": "ar-s011",
+      "kind": "sentence",
+      "native": [
+        "وصلت إلى البيت بسلام."
+      ],
+      "roman": [
+        "Wasaltu ila albayt bisalam."
+      ]
+    },
+    {
+      "id": "ar-s012",
+      "kind": "sentence",
+      "native": [
+        "يسعدني الانضمام إلى الفريق."
+      ],
+      "roman": [
+        "Yus3iduni alindimam ila alfariq."
+      ]
+    },
+    {
+      "id": "ar-s013",
+      "kind": "sentence",
+      "native": [
+        "يصل القطار إلى طنجة الساعة 10:15 صباحا."
+      ],
+      "roman": [
+        "Yasil alqitar ila Tanja alsa3a 10:15 saba7an."
+      ]
+    },
+    {
+      "id": "ar-s014",
+      "kind": "sentence",
+      "native": [
+        "يجب أن أسأل عادل منصور عن اسم النجار الذي صنع له المكتب الخشبي."
+      ],
+      "roman": [
+        "Yajib an as2al 3adil Mansur 3an ism alnajjar alladhi sana3 lahu almaktab al5ashabi."
+      ]
+    },
+    {
+      "id": "ar-s015",
+      "kind": "sentence",
+      "native": [
+        "شغل الموسيقى بصوت منخفض."
+      ],
+      "roman": [
+        "Shaghghil almusiqa bisawt mun5afid."
+      ]
+    },
+    {
+      "id": "ar-s016",
+      "kind": "sentence",
+      "native": [
+        "اشتركت في باقة للإنترنت بسعر 70 درهما مغربيا."
+      ],
+      "roman": [
+        "Ishtaraktu fi baqa lilinternet bisi3r 70 dirham maghribi."
+      ]
+    },
+    {
+      "id": "ar-s017",
+      "kind": "sentence",
+      "native": [
+        "أدفع ثمن التذكرة هنا أم عند السائق؟"
+      ],
+      "roman": [
+        "Adfa3 thaman altadhkira huna am 3ind alsa2iq?"
+      ]
+    },
+    {
+      "id": "ar-s018",
+      "kind": "sentence",
+      "native": [
+        "اتركي العجين ليرتاح قليلا."
+      ],
+      "roman": [
+        "Utruki al3ajin liyarta7 qalilan."
+      ]
+    },
+    {
+      "id": "ar-s019",
+      "kind": "sentence",
+      "native": [
+        "حقا، انتهى الحبر بهذه السرعة؟"
+      ],
+      "roman": [
+        "7aqqan, intaha al7ibr bihadhihi alsur3a?"
+      ]
+    },
+    {
+      "id": "ar-s020",
+      "kind": "sentence",
+      "native": [
+        "يزعجني الانتظار الطويل عند صندوق الدفع."
+      ],
+      "roman": [
+        "Yuz3ijuni alintizar altawil 3ind sunduq aldaf3."
+      ]
+    },
+    {
+      "id": "ar-s021",
+      "kind": "sentence",
+      "native": [
+        "طبعا، سأحضر الكعكة معي."
+      ],
+      "roman": [
+        "Tab3an, sa2u7dir alka3ka ma3i."
+      ]
+    },
+    {
+      "id": "ar-s022",
+      "kind": "sentence",
+      "native": [
+        "أوافق على التصميم النهائي."
+      ],
+      "roman": [
+        "Uwafiq 3ala altasmim alniha2i."
+      ]
+    },
+    {
+      "id": "ar-s023",
+      "kind": "sentence",
+      "native": [
+        "أضيفي 250 غراما من الدقيق مع 150 ملليلترا من الحليب."
+      ],
+      "roman": [
+        "Adifi 250 ghram min aldaqiq ma3 150 millilitr min al7alib."
+      ]
+    },
+    {
+      "id": "ar-s024",
+      "kind": "sentence",
+      "native": [
+        "سأجدد اشتراك المجلة الليلة."
+      ],
+      "roman": [
+        "Sa2ujaddid ishtirak almajalla allayla."
+      ]
+    },
+    {
+      "id": "ar-s025",
+      "kind": "sentence",
+      "native": [
+        "التقط صورة بالكاميرا الأمامية."
+      ],
+      "roman": [
+        "Iltaqit sura bilcamera al2amamiyya."
+      ]
+    },
+    {
+      "id": "ar-s026",
+      "kind": "sentence",
+      "native": [
+        "الميكروفون مغلق عندك يا سامر."
+      ],
+      "roman": [
+        "Almicrophone mughlaq 3indaka ya Samer."
+      ]
+    },
+    {
+      "id": "ar-s027",
+      "kind": "sentence",
+      "native": [
+        "سبقتني أختي إلى المصعد."
+      ],
+      "roman": [
+        "Sabaqatni u5ti ila almis3ad."
+      ]
+    },
+    {
+      "id": "ar-s028",
+      "kind": "sentence",
+      "native": [
+        "أستاذة إيمان، غاب ابني عن درس القسمة، فهل ترسلين لي التمارين ليحلها في البيت؟"
+      ],
+      "roman": [
+        "Ustadha Iman, ghab ibni 3an dars alqisma, fahal tursilin li altamarin liya7ullaha fi albayt?"
+      ]
+    },
+    {
+      "id": "ar-s029",
+      "kind": "sentence",
+      "native": [
+        "لحظة، أقصد الزر الأخضر."
+      ],
+      "roman": [
+        "La7za, aqsid alzirr ala5dar."
+      ]
+    },
+    {
+      "id": "ar-s030",
+      "kind": "sentence",
+      "native": [
+        "أرتاح أكثر عندما أترك هاتفي بعيدا أثناء القراءة."
+      ],
+      "roman": [
+        "Arta7 akthar 3indama atruk hatifi ba3idan athna2 alqira2a."
+      ]
+    },
+    {
+      "id": "ar-s031",
+      "kind": "sentence",
+      "native": [
+        "لا تنتظروني للعشاء، أكلت مع زملائي."
+      ],
+      "roman": [
+        "La tantaziruni lil3asha2, akaltu ma3 zumala2i."
+      ]
+    },
+    {
+      "id": "ar-s032",
+      "kind": "sentence",
+      "native": [
+        "الرجاء تأكيد استلام العقد."
+      ],
+      "roman": [
+        "Alraja2 ta2kid istilam al3aqd."
+      ]
+    },
+    {
+      "id": "ar-s033",
+      "kind": "sentence",
+      "native": [
+        "رقم المحل 050 000 0000، ويستقبل الطلبات من 11 صباحا حتى 5 مساء."
+      ],
+      "roman": [
+        "Raqm alma7all 050 000 0000, wayastaqbil altalabat min 11 saba7an 7atta 5 masa2an."
+      ]
+    },
+    {
+      "id": "ar-s034",
+      "kind": "sentence",
+      "native": [
+        "خصص ساعة يوم الأربعاء لأرتب أدوات الرسم مع ابنتي وأجهز حقيبتها للمدرسة."
+      ],
+      "roman": [
+        "5assis sa3a yawm alarbi3a2 li2urattib adawat alrasm ma3 ibnati wa2ujahhiz 7aqibatiha lilmadrasa."
+      ]
+    },
+    {
+      "id": "ar-s035",
+      "kind": "sentence",
+      "native": [
+        "اضبط مؤقتا لمدة 6 دقائق."
+      ],
+      "roman": [
+        "Idbit mu2aqqit limuddat 6 daqa2iq."
+      ]
+    },
+    {
+      "id": "ar-s036",
+      "kind": "sentence",
+      "native": [
+        "انقطع الاتصال خلال المقابلة، ففاتني سؤالك الأخير."
+      ],
+      "roman": [
+        "Inqata3 alittisal 5ilal almuqabala, fafatani su2aluka al2a5ir."
+      ]
+    },
+    {
+      "id": "ar-s037",
+      "kind": "sentence",
+      "native": [
+        "موقف الحافلات خلف المكتبة."
+      ],
+      "roman": [
+        "Mawqif al7afilat 5alf almaktaba."
+      ]
+    },
+    {
+      "id": "ar-s038",
+      "kind": "sentence",
+      "native": [
+        "سألت ريم العطار عن مقاس حذاء ابنها لأشتري له هدية عيد ميلاده."
+      ],
+      "roman": [
+        "Sa2altu Reem Al3attar 3an maqas 7idha2 ibniha li2ashtari lahu hadiyyat 3id miladihi."
+      ]
+    },
+    {
+      "id": "ar-s039",
+      "kind": "sentence",
+      "native": [
+        "هل نطلب من المطعم أم نطبخ معكرونة هنا؟"
+      ],
+      "roman": [
+        "Hal natlub min almat3am am natbu5 ma3karuna huna?"
+      ]
+    },
+    {
+      "id": "ar-s040",
+      "kind": "sentence",
+      "native": [
+        "رائع يا هبة، تناسق الألوان مريح للعين."
+      ],
+      "roman": [
+        "Ra2i3 ya Hiba, tanasuq al2alwan muri7 lil3ayn."
+      ]
+    },
+    {
+      "id": "ar-s041",
+      "kind": "sentence",
+      "native": [
+        "سأغسل الصحون، وأنت جففها ورتبها في الخزانة."
+      ],
+      "roman": [
+        "Sa2aghsil alsu7un, waanta jaffifha warattibha fi al5izana."
+      ]
+    },
+    {
+      "id": "ar-s042",
+      "kind": "sentence",
+      "native": [
+        "نحتاج نسخة أوضح من الشعار للطباعة."
+      ],
+      "roman": [
+        "Na7taj nus5a awda7 min alshi3ar liltiba3a."
+      ]
+    },
+    {
+      "id": "ar-s043",
+      "kind": "sentence",
+      "native": [
+        "اختارت نادية الغرفة رقم 306 في الطابق الرابع."
+      ],
+      "roman": [
+        "I5tarat Nadia alghurfa raqm 306 fi altabiq alrabi3."
+      ]
+    },
+    {
+      "id": "ar-s044",
+      "kind": "sentence",
+      "native": [
+        "احفظ عنوان معرض الخزف في حي اللويبدة."
+      ],
+      "roman": [
+        "I7faz 3unwan ma3rid al5azaf fi 7ayy Alluwaybida."
+      ]
+    },
+    {
+      "id": "ar-s045",
+      "kind": "sentence",
+      "native": [
+        "اعرض رسائل البريد الإلكتروني غير المقروءة فقط."
+      ],
+      "roman": [
+        "I3rid rasa2il albarid al2iliktruni ghayr almaqru2a faqat."
+      ]
+    },
+    {
+      "id": "ar-s046",
+      "kind": "sentence",
+      "native": [
+        "أثناء تعديل الفيديو، امتلأت ذاكرة التابلت، فهل أستطيع نقل المقاطع إلى الكمبيوتر بكابل؟"
+      ],
+      "roman": [
+        "Athna2 ta3dil alvideo, imtala2at dhakira altablet, fahal astati3 naql almaqati3 ila alcomputer bikabil?"
+      ]
+    },
+    {
+      "id": "ar-s047",
+      "kind": "sentence",
+      "native": [
+        "سترافقني زينب إلى معرض الكتاب في الرباط."
+      ],
+      "roman": [
+        "Saturafiquni Zaynab ila ma3rid alkitab fi Alribat."
+      ]
+    },
+    {
+      "id": "ar-s048",
+      "kind": "sentence",
+      "native": [
+        "المظلة بجانب الباب، خذها."
+      ],
+      "roman": [
+        "Almazalla bijanib albab, 5udhha."
+      ]
+    },
+    {
+      "id": "ar-s049",
+      "kind": "sentence",
+      "native": [
+        "لن أفك الرف بنفسي. سأنتظر الفني حتى لا أخدش الجدار بمفك البراغي."
+      ],
+      "roman": [
+        "Lan afukk alraff binafsi. Sa2antazir alfanni 7atta la a5dish aljidar bimifakk albaraghi."
+      ]
+    },
+    {
+      "id": "ar-s050",
+      "kind": "sentence",
+      "native": [
+        "كنت أخشى السكن وحدي، لكنني صرت أستمتع بالهدوء وأختار بنفسي كيف أقضي وقتي."
+      ],
+      "roman": [
+        "Kuntu a5sha alsakan wa7di, lakinnani sirtu astamti3 bilhudu2 wa2a5tar binafsi kayf aqdi waqti."
+      ]
+    },
+    {
+      "id": "ar-s051",
+      "kind": "sentence",
+      "native": [
+        "طمئنيني على جدتك يا سلمى عندما تزورينها."
+      ],
+      "roman": [
+        "Tam2inini 3ala jaddatiki ya Salma 3indama tazurinaha."
+      ]
+    },
+    {
+      "id": "ar-s052",
+      "kind": "sentence",
+      "native": [
+        "اسمح لي بإكمال فكرتي."
+      ],
+      "roman": [
+        "Isma7 li bi2ikmal fikrati."
+      ]
+    },
+    {
+      "id": "ar-s053",
+      "kind": "sentence",
+      "native": [
+        "دفعت 85 درهما إماراتيا مقابل قميصين من المحل."
+      ],
+      "roman": [
+        "Dafa3tu 85 dirham imarati muqabil qamisayn min alma7all."
+      ]
+    },
+    {
+      "id": "ar-s054",
+      "kind": "sentence",
+      "native": [
+        "أحتاج إلى إصلاح مقبض الحقيبة."
+      ],
+      "roman": [
+        "A7taj ila isla7 maqbid al7aqiba."
+      ]
+    },
+    {
+      "id": "ar-s055",
+      "kind": "sentence",
+      "native": [
+        "ابحث عن طريقة تحضير الحريرة دون لحم."
+      ],
+      "roman": [
+        "Ib7ath 3an tariqa ta7dir al7arira dun la7m."
+      ]
+    },
+    {
+      "id": "ar-s056",
+      "kind": "sentence",
+      "native": [
+        "اسم المستخدم غير متاح."
+      ],
+      "roman": [
+        "Ism almusta5dim ghayr muta7."
+      ]
+    },
+    {
+      "id": "ar-s057",
+      "kind": "sentence",
+      "native": [
+        "رشح لي ياسين ورشة في حي أكدال لإصلاح دراجتي، لكنني لا أعرف ساعات عملها."
+      ],
+      "roman": [
+        "Rashsha7 li Yasin warsha fi 7ayy Agdal li2isla7 darrajati, lakinnani la a3rif sa3at 3amaliha."
+      ]
+    },
+    {
+      "id": "ar-s058",
+      "kind": "sentence",
+      "native": [
+        "خففي النار تحت الأرز."
+      ],
+      "roman": [
+        "5affifi alnar ta7t alaruzz."
+      ]
+    },
+    {
+      "id": "ar-s059",
+      "kind": "sentence",
+      "native": [
+        "مهلا، ارفع الصوت قليلا."
+      ],
+      "roman": [
+        "Mahlan, irfa3 alsawt qalilan."
+      ]
+    },
+    {
+      "id": "ar-s060",
+      "kind": "sentence",
+      "native": [
+        "شكرا، أسعدتني الهدية."
+      ],
+      "roman": [
+        "Shukran, as3adatni alhadiyya."
+      ]
+    },
+    {
+      "id": "ar-s061",
+      "kind": "sentence",
+      "native": [
+        "هل يناسبك المشي على كورنيش جدة بعد المغرب؟"
+      ],
+      "roman": [
+        "Hal yunasibuka almashy 3ala kurnish Jidda ba3d almaghrib?"
+      ]
+    },
+    {
+      "id": "ar-s062",
+      "kind": "sentence",
+      "native": [
+        "ينتهي استقبال الملاحظات الساعة 2 ظهرا، وبعدها سأرسل النسخة المعدلة للجميع."
+      ],
+      "roman": [
+        "Yantahi istiqbal almula7azat alsa3a 2 zuhran, waba3daha sa2ursil alnus5a almu3addala liljami3."
+      ]
+    },
+    {
+      "id": "ar-s063",
+      "kind": "sentence",
+      "native": [
+        "يسافر خالد إلى مسقط على الرحلة رقم 827، يوم الجمعة الساعة 8:45 مساء."
+      ],
+      "roman": [
+        "Yusafir Khalid ila Masqat 3ala alri7la raqm 827, yawm aljum3a alsa3a 8:45 masa2an."
+      ]
+    },
+    {
+      "id": "ar-s064",
+      "kind": "sentence",
+      "native": [
+        "أطلب تجديد إعارة الرواية حتى أنتهي من قراءتها."
+      ],
+      "roman": [
+        "Atlub tajdid i3arat alriwaya 7atta antahi min qira2atiha."
+      ]
+    },
+    {
+      "id": "ar-s065",
+      "kind": "sentence",
+      "native": [
+        "كيف سيكون الطقس في إربد غدا؟"
+      ],
+      "roman": [
+        "Kayf sayakun altaqs fi Irbid ghadan?"
+      ]
+    },
+    {
+      "id": "ar-s066",
+      "kind": "sentence",
+      "native": [
+        "حسابي يحتاج كلمة مرور جديدة."
+      ],
+      "roman": [
+        "7isabi ya7taj kalimat murur jadida."
+      ]
+    },
+    {
+      "id": "ar-s067",
+      "kind": "sentence",
+      "native": [
+        "ينتظرك فادي أمام المسرح."
+      ],
+      "roman": [
+        "Yantaziruka Fadi amam almasra7."
+      ]
+    },
+    {
+      "id": "ar-s068",
+      "kind": "sentence",
+      "native": [
+        "سأعيد الأطباق إلى الجارة عصر اليوم، فقد أحضرت لنا عشاء لذيذا ولم أجدها صباحا."
+      ],
+      "roman": [
+        "Sa2u3id alatbaq ila aljara 3asr alyawm, faqad a7darat lana 3asha2 ladhidh walam ajidha saba7an."
+      ]
+    },
+    {
+      "id": "ar-s069",
+      "kind": "sentence",
+      "native": [
+        "للوصول إلى صيدا، أبدل الحافلة هنا أم عند الميناء؟"
+      ],
+      "roman": [
+        "Lilwusul ila Sayda, ubaddil al7afila huna am 3ind almina2?"
+      ]
+    },
+    {
+      "id": "ar-s070",
+      "kind": "sentence",
+      "native": [
+        "آسف، قاطعتك دون قصد."
+      ],
+      "roman": [
+        "Asif, qata3tuka dun qasd."
+      ]
+    },
+    {
+      "id": "ar-s071",
+      "kind": "sentence",
+      "native": [
+        "بشرى، أعيدي لي الرواية بعد قراءتها، لأن أختي تريد أخذها معها في السفر."
+      ],
+      "roman": [
+        "Bushra, a3idi li alriwaya ba3d qira2atiha, li2anna u5ti turid a5dhaha ma3aha fi alsafar."
+      ]
+    },
+    {
+      "id": "ar-s072",
+      "kind": "sentence",
+      "native": [
+        "صباح الخير، أرفقت المسودة."
+      ],
+      "roman": [
+        "Saba7 al5ayr, arfaqtu almusawwada."
+      ]
+    },
+    {
+      "id": "ar-s073",
+      "kind": "sentence",
+      "native": [
+        "الخصم 25% حتى السبت."
+      ],
+      "roman": [
+        "Al5asm 25% 7atta alsabt."
+      ]
+    },
+    {
+      "id": "ar-s074",
+      "kind": "sentence",
+      "native": [
+        "سأسأل موظف الاستقبال في نادي الجزيرة عن نظارتي التي نسيتها قرب المسبح."
+      ],
+      "roman": [
+        "Sa2as2al muwazzaf alistiqbal fi nadi Aljazira 3an nazzarati allati nasituha qurb almasba7."
+      ]
+    },
+    {
+      "id": "ar-s075",
+      "kind": "sentence",
+      "native": [
+        "لماذا لا تظهر الترجمة العربية في الفيديو مع أنني فعلتها من الإعدادات؟"
+      ],
+      "roman": [
+        "Limadha la tazhar altarjama al3arabiyya fi alvideo ma3 annani fa33altuha min al2i3dadat?"
+      ]
+    },
+    {
+      "id": "ar-s076",
+      "kind": "sentence",
+      "native": [
+        "جرب إعادة تشغيل الراوتر."
+      ],
+      "roman": [
+        "Jarrib i3adat tashghil alrouter."
+      ]
+    },
+    {
+      "id": "ar-s077",
+      "kind": "sentence",
+      "native": [
+        "خالي يشتري نظارة شمسية من المحل المقابل."
+      ],
+      "roman": [
+        "5ali yashtari nazzara shamsiyya min alma7all almuqabil."
+      ]
+    },
+    {
+      "id": "ar-s078",
+      "kind": "sentence",
+      "native": [
+        "بكم تبيع الكيلو من البرتقال يا عم؟"
+      ],
+      "roman": [
+        "Bikam tabi3 alkilu min alburtuqal ya 3amm?"
+      ]
+    },
+    {
+      "id": "ar-s079",
+      "kind": "sentence",
+      "native": [
+        "اشتريت صابونا ومناديل، آه، ونسيت أكياس القمامة."
+      ],
+      "roman": [
+        "Ishtaraytu sabun wamanadil, ah, wanasitu akyas alqamama."
+      ]
+    },
+    {
+      "id": "ar-s080",
+      "kind": "sentence",
+      "native": [
+        "نسيت شاحني عندكم، سأمر غدا لأخذه إن كنتم موجودين."
+      ],
+      "roman": [
+        "Nasitu sha7ini 3indakum, sa2amurr ghadan li2a5dhihi in kuntum mawjudin."
+      ]
+    },
+    {
+      "id": "ar-s081",
+      "kind": "sentence",
+      "native": [
+        "شكرا على التوضيح، اتضحت الفكرة."
+      ],
+      "roman": [
+        "Shukran 3ala altawdi7, ittada7at alfikra."
+      ]
+    },
+    {
+      "id": "ar-s082",
+      "kind": "sentence",
+      "native": [
+        "خصصنا لرحلة جرش 60 دينارا أردنيا للشخص، وآخر موعد للدفع 22-10-2026."
+      ],
+      "roman": [
+        "5assasna liri7lat Jarash 60 dinar urduni lilsha5s, waa5ar maw3id lildaf3 22-10-2026."
+      ]
+    },
+    {
+      "id": "ar-s083",
+      "kind": "sentence",
+      "native": [
+        "غدا أستلم الستائر من الخياط قبل إغلاق المحل."
+      ],
+      "roman": [
+        "Ghadan astalim alsata2ir min al5ayyat qabl ighlaq alma7all."
+      ]
+    },
+    {
+      "id": "ar-s084",
+      "kind": "sentence",
+      "native": [
+        "أين أقرب محطة لشحن السيارات الكهربائية؟"
+      ],
+      "roman": [
+        "Ayna aqrab ma7atta lisha7n alsayyarat alkahraba2iyya?"
+      ]
+    },
+    {
+      "id": "ar-s085",
+      "kind": "sentence",
+      "native": [
+        "سناء، مشاركة الشاشة لا تتطلب تشغيل الكاميرا."
+      ],
+      "roman": [
+        "Sana2, musharakat alshasha la tatatallab tashghil alcamera."
+      ]
+    },
+    {
+      "id": "ar-s086",
+      "kind": "sentence",
+      "native": [
+        "سيأخذك أخي بسيارته من مدخل الفندق الجانبي."
+      ],
+      "roman": [
+        "Saya25udhuka a5i bisayyaratihi min mad5al alfunduq aljanibi."
+      ]
+    },
+    {
+      "id": "ar-s087",
+      "kind": "sentence",
+      "native": [
+        "تسلمت الطرد من نقطة الاستلام قرب عملي."
+      ],
+      "roman": [
+        "Tasallamtu altard min nuqtat alistilam qurb 3amali."
+      ]
+    },
+    {
+      "id": "ar-s088",
+      "kind": "sentence",
+      "native": [
+        "أحضر الخيط والإبرة والدبابيس، وسأتولى تقصير البنطال."
+      ],
+      "roman": [
+        "A7dir al5ayt wal2ibra waldababis, wasa2atawalla taqsir albantal."
+      ]
+    },
+    {
+      "id": "ar-s089",
+      "kind": "sentence",
+      "native": [
+        "حسنا، نلتقي عند المخبز."
+      ],
+      "roman": [
+        "7asanan, naltaqi 3ind alma5baz."
+      ]
+    },
+    {
+      "id": "ar-s090",
+      "kind": "sentence",
+      "native": [
+        "مريم، أضيفي رابط زوم قبل إرسال الدعوات."
+      ],
+      "roman": [
+        "Maryam, adifi rabit Zoom qabl irsal alda3awat."
+      ]
+    },
+    {
+      "id": "ar-s091",
+      "kind": "sentence",
+      "native": [
+        "تفصلنا 42 كيلومترا عن المخيم، وسنصل خلال 40 دقيقة."
+      ],
+      "roman": [
+        "Tafsiluna 42 kilumitr 3an almu5ayyam, wasanasil 5ilal 40 daqiqa."
+      ]
+    },
+    {
+      "id": "ar-s092",
+      "kind": "sentence",
+      "native": [
+        "أحتاج إلى تذكرتين لحفل في دار الأوبرا المصرية."
+      ],
+      "roman": [
+        "A7taj ila tadhkiratayn li7afl fi Dar Alopera Almisriyya."
+      ]
+    },
+    {
+      "id": "ar-s093",
+      "kind": "sentence",
+      "native": [
+        "دلني على أسرع طريق إلى متحف قطر الوطني مع تجنب الطرق المزدحمة."
+      ],
+      "roman": [
+        "Dullani 3ala asra3 tariq ila mat7af Qatar alwatani ma3 tajannub alturuq almuzda7ima."
+      ]
+    },
+    {
+      "id": "ar-s094",
+      "kind": "sentence",
+      "native": [
+        "رنا، رابط الاجتماع يطلب مني تسجيل الدخول."
+      ],
+      "roman": [
+        "Rana, rabit alijtima3 yatlub minni tasjil aldu5ul."
+      ]
+    },
+    {
+      "id": "ar-s095",
+      "kind": "sentence",
+      "native": [
+        "أيمكنني تبديل القميص بمقاس أكبر؟"
+      ],
+      "roman": [
+        "Ayumkinuni tabdil alqamis bimiqass akbar?"
+      ]
+    },
+    {
+      "id": "ar-s096",
+      "kind": "sentence",
+      "native": [
+        "توصيل هذه السجادة يكلف 30 دينارا كويتيا إضافيا."
+      ],
+      "roman": [
+        "Tawsil hadhihi alsajjada yukallif 30 dinar kuwayti idafi."
+      ]
+    },
+    {
+      "id": "ar-s097",
+      "kind": "sentence",
+      "native": [
+        "أستطيع التصوير هنا؟"
+      ],
+      "roman": [
+        "Astati3 altaswir huna?"
+      ]
+    },
+    {
+      "id": "ar-s098",
+      "kind": "sentence",
+      "native": [
+        "اتصل بي عندما تتفرغ."
+      ],
+      "roman": [
+        "Ittasil bi 3indama tatafarragh."
+      ]
+    },
+    {
+      "id": "ar-s099",
+      "kind": "sentence",
+      "native": [
+        "أفضل أن نكمل النقاش هنا بدلا من التحدث عبر الهاتف."
+      ],
+      "roman": [
+        "Ufaddil an nukmil alniqash huna badalan min alta7adduth 3abr alhatif."
+      ]
+    },
+    {
+      "id": "ar-s100",
+      "kind": "sentence",
+      "native": [
+        "بقيت 12 دقيقة على اكتمال التحميل."
+      ],
+      "roman": [
+        "Baqiyat 12 daqiqa 3ala iktimal alta7mil."
+      ]
+    },
+    {
+      "id": "ar-s101",
+      "kind": "sentence",
+      "native": [
+        "قبل الخروج من المكتب، أتأكد من نسخ المستندات على القرص الخارجي وإيقاف الجهاز."
+      ],
+      "roman": [
+        "Qabl al5uruj min almaktab, ata2akkad min nas5 almustanadat 3ala alqurs al5ariji wa2iqaf aljihaz."
+      ]
+    },
+    {
+      "id": "ar-s102",
+      "kind": "sentence",
+      "native": [
+        "افتح تطبيق الخرائط الآن."
+      ],
+      "roman": [
+        "Ifta7 tatbiq al5ara2it al2an."
+      ]
+    },
+    {
+      "id": "ar-s103",
+      "kind": "sentence",
+      "native": [
+        "المتصفح يتوقف كلما فتحت أكثر من نافذة."
+      ],
+      "roman": [
+        "Almutasaffi7 yatawaqqaf kullama fata7tu akthar min nafidha."
+      ]
+    },
+    {
+      "id": "ar-s104",
+      "kind": "sentence",
+      "native": [
+        "المقهى الذي تقصده انتقل إلى الحي المجاور."
+      ],
+      "roman": [
+        "Almaqha alladhi taqsiduhu intaqal ila al7ayy almujawir."
+      ]
+    },
+    {
+      "id": "ar-s105",
+      "kind": "sentence",
+      "native": [
+        "دلال، موعدك مع مصففة الشعر الساعة 4 عصرا."
+      ],
+      "roman": [
+        "Dalal, maw3iduki ma3 musaffifat alsha3r alsa3a 4 3asran."
+      ]
+    },
+    {
+      "id": "ar-s106",
+      "kind": "sentence",
+      "native": [
+        "إياد، السعر في كريم 45 ريالا سعوديا، انتظر، سأجرب تطبيقا آخر قبل التأكيد."
+      ],
+      "roman": [
+        "Iyad, alsi3r fi Careem 45 riyalan sa3udiyyan, intazir, sa2ujarrib tatbiqan a5ar qabl alta2kid."
+      ]
+    },
+    {
+      "id": "ar-s107",
+      "kind": "sentence",
+      "native": [
+        "يا هناء، هل وجدت خاتمك تحت الأريكة؟"
+      ],
+      "roman": [
+        "Ya Hana2, hal wajadti 5atamaki ta7t al2arika?"
+      ]
+    },
+    {
+      "id": "ar-s108",
+      "kind": "sentence",
+      "native": [
+        "فضلا، اختصر المقدمة واترك التفاصيل للمرفق."
+      ],
+      "roman": [
+        "Fadlan, i5tasir almuqaddima watruk altafasil lilmurfaq."
+      ]
+    },
+    {
+      "id": "ar-s109",
+      "kind": "sentence",
+      "native": [
+        "وزن الحقيبة 18 كيلوغراما."
+      ],
+      "roman": [
+        "Wazn al7aqiba 18 kilughram."
+      ]
+    },
+    {
+      "id": "ar-s110",
+      "kind": "sentence",
+      "native": [
+        "صيانة السيارة يوم الاثنين الساعة 8 صباحا."
+      ],
+      "roman": [
+        "Siyanat alsayyara yawm alithnayn alsa3a 8 saba7an."
+      ]
+    },
+    {
+      "id": "ar-s111",
+      "kind": "sentence",
+      "native": [
+        "اتصل بهدى الإدريسي وشغل مكبر الصوت."
+      ],
+      "roman": [
+        "Ittasil bihuda Al2idrisi washaghghil mukabbir alsawt."
+      ]
+    },
+    {
+      "id": "ar-s112",
+      "kind": "sentence",
+      "native": [
+        "الماوس لا يستجيب للحركة."
+      ],
+      "roman": [
+        "Almouse la yastajib lil7araka."
+      ]
+    },
+    {
+      "id": "ar-s113",
+      "kind": "sentence",
+      "native": [
+        "سيارتنا في المرآب خلف البناية، ويمكنك الوصول إليه من الممر بجوار محل الزهور."
+      ],
+      "roman": [
+        "Sayyaratuna fi almir2ab 5alf albinaya, wayumkinuka alwusul ilayhi min almamarr bijiwar ma7all alzuhur."
+      ]
+    },
+    {
+      "id": "ar-s114",
+      "kind": "sentence",
+      "native": [
+        "وضعت ابنتي دفتر الإملاء في الحقيبة الخطأ."
+      ],
+      "roman": [
+        "Wada3at ibnati daftar alimla2 fi al7aqiba al5ata2."
+      ]
+    },
+    {
+      "id": "ar-s115",
+      "kind": "sentence",
+      "native": [
+        "ليلى، ضعي الحمص جانبا، وسأكتفي بالزيتون والجبن."
+      ],
+      "roman": [
+        "Layla, da3i al7ummus janiban, wasa2aktafi bilzaytun waljubn."
+      ]
+    },
+    {
+      "id": "ar-s116",
+      "kind": "sentence",
+      "native": [
+        "أعطني مقصك لحظة."
+      ],
+      "roman": [
+        "A3tini miqassak la7za."
+      ]
+    },
+    {
+      "id": "ar-s117",
+      "kind": "sentence",
+      "native": [
+        "تواصلت مع الفني، وسيصل لإصلاح جهاز البصمة صباح الأحد، فهل يستقبله حسان؟"
+      ],
+      "roman": [
+        "Tawasaltu ma3 alfanni, wasayasil li2isla7 jihaz albasma saba7 al2a7ad, fahal yastaqbiluhu 7assan?"
+      ]
+    },
+    {
+      "id": "ar-s118",
+      "kind": "sentence",
+      "native": [
+        "عنواني شارع الجامعة، مبنى 14، شقة 7."
+      ],
+      "roman": [
+        "3unwani shari3 aljami3a, mabna 14, shuqqa 7."
+      ]
+    },
+    {
+      "id": "ar-s119",
+      "kind": "sentence",
+      "native": [
+        "ذكرني بتنظيف فلتر المكيف."
+      ],
+      "roman": [
+        "Dhakkirni bitanzif filter almukayyif."
+      ]
+    },
+    {
+      "id": "ar-s120",
+      "kind": "sentence",
+      "native": [
+        "حول هذا المستند إلى ملف قابل للتعديل مع الحفاظ على تنسيق الصفحات الأصلي."
+      ],
+      "roman": [
+        "7awwil hadha almustanad ila milaff qabil lilta3dil ma3 al7ifaz 3ala tansiq alsafa7at al2asli."
+      ]
+    },
+    {
+      "id": "ar-s121",
+      "kind": "sentence",
+      "native": [
+        "حجم المرفق كبير، سأضغطه وأحاول رفعه مجددا."
+      ],
+      "roman": [
+        "7ajm almurfaq kabir, sa2adghatuhu wa2u7awil raf3ahu mujaddadan."
+      ]
+    },
+    {
+      "id": "ar-s122",
+      "kind": "sentence",
+      "native": [
+        "مررت بالمغسلة، لكن ملابسي لم تجهز بعد."
+      ],
+      "roman": [
+        "Marartu bilmaghsala, lakin malabisi lam tajhaz ba3d."
+      ]
+    },
+    {
+      "id": "ar-s123",
+      "kind": "sentence",
+      "native": [
+        "السترة ضيقة عند الكتفين، وأريد إرجاعها مع الفاتورة."
+      ],
+      "roman": [
+        "Alsutra dayyiqa 3ind alkatifayn, waurid irja3aha ma3 alfatura."
+      ]
+    },
+    {
+      "id": "ar-s124",
+      "kind": "sentence",
+      "native": [
+        "مبروك الوظيفة الجديدة، متى نحتفل بهذه المناسبة؟"
+      ],
+      "roman": [
+        "Mabruk alwazifa aljadida, mata na7tafil bihadhihi almunasaba?"
+      ]
+    },
+    {
+      "id": "ar-s125",
+      "kind": "sentence",
+      "native": [
+        "أقترح نقل الورشة في الدار البيضاء إلى الأسبوع المقبل ليحضرها فريق المبيعات."
+      ],
+      "roman": [
+        "Aqtari7 naql alwarsha fi Aldar Albayda2 ila alusbu3 almuqbil liya7duraha fariq almabi3at."
+      ]
+    },
+    {
+      "id": "ar-s126",
+      "kind": "sentence",
+      "native": [
+        "النتيجة 3 مقابل 2 لصالحنا."
+      ],
+      "roman": [
+        "Alnatija 3 muqabil 2 lisali7ina."
+      ]
+    },
+    {
+      "id": "ar-s127",
+      "kind": "sentence",
+      "native": [
+        "ضع تنبيها شهريا لدفع فواتير المياه والكهرباء."
+      ],
+      "roman": [
+        "Da3 tanbih shahri lidaf3 fawatir almiyah walkahraba2."
+      ]
+    },
+    {
+      "id": "ar-s128",
+      "kind": "sentence",
+      "native": [
+        "وجدت نسخة قديمة من العرض في التنزيلات، لكن النسخة التي عدلناها أمس ليست هناك."
+      ],
+      "roman": [
+        "Wajadtu nus5a qadima min al3ard fi altanzilat, lakin alnus5a allati 3addalnaha ams laysat hunaka."
+      ]
+    },
+    {
+      "id": "ar-s129",
+      "kind": "sentence",
+      "native": [
+        "الصنبور يسرب الماء مجددا."
+      ],
+      "roman": [
+        "Alsunbur yusarrib alma2 mujaddadan."
+      ]
+    },
+    {
+      "id": "ar-s130",
+      "kind": "sentence",
+      "native": [
+        "حجزت لنا طاولة قرب النافذة يوم الخميس، فلا تغير رأيك قبل الموعد بساعة."
+      ],
+      "roman": [
+        "7ajaztu lana tawila qurb alnafidha yawm al5amis, fala tughayyir ra2yaka qabl almaw3id bisa3a."
+      ]
+    },
+    {
+      "id": "ar-s131",
+      "kind": "sentence",
+      "native": [
+        "زياد، هل يشمل التدريب الموظفين الجدد أيضا؟"
+      ],
+      "roman": [
+        "Ziyad, hal yashmal altadrib almuwazzafin aljudud aydan?"
+      ]
+    },
+    {
+      "id": "ar-s132",
+      "kind": "sentence",
+      "native": [
+        "يبدأ تدريب التصوير الثلاثاء الساعة 6:30 مساء."
+      ],
+      "roman": [
+        "Yabda2 tadrib altaswir althulatha2 alsa3a 6:30 masa2an."
+      ]
+    },
+    {
+      "id": "ar-s133",
+      "kind": "sentence",
+      "native": [
+        "ينقصني مشبك لحبل الغسيل."
+      ],
+      "roman": [
+        "Yanqusuni mishbak li7abl alghasil."
+      ]
+    },
+    {
+      "id": "ar-s134",
+      "kind": "sentence",
+      "native": [
+        "اختفى الصوت عند توصيل السماعة باللابتوب."
+      ],
+      "roman": [
+        "I5tafa alsawt 3ind tawsil alsamma3a billaptop."
+      ]
+    },
+    {
+      "id": "ar-s135",
+      "kind": "sentence",
+      "native": [
+        "اترك لي بعض المقلوبة، سأتأخر قليلا اليوم."
+      ],
+      "roman": [
+        "Utruk li ba3d almaqluba, sa2ata2a55ar qalilan alyawm."
+      ]
+    },
+    {
+      "id": "ar-s136",
+      "kind": "sentence",
+      "native": [
+        "بخصوص فرع المنامة، اكتمل تركيب الرفوف الجديدة."
+      ],
+      "roman": [
+        "Bi5usus far3 Almanama, iktamal tarkib alrufuf aljadida."
+      ]
+    },
+    {
+      "id": "ar-s137",
+      "kind": "sentence",
+      "native": [
+        "عمري 28 سنة."
+      ],
+      "roman": [
+        "3umri 28 sana."
+      ]
+    }
+  ]
+}

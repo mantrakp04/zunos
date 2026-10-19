@@ -1,0 +1,1633 @@
+{
+  "lang": "cs",
+  "starter": [
+    "cs-s134",
+    "cs-s167",
+    "cs-s014",
+    "cs-s135",
+    "cs-s139",
+    "cs-s086",
+    "cs-s159",
+    "cs-s066",
+    "cs-s121",
+    "cs-s124",
+    "cs-s056",
+    "cs-s047",
+    "cs-p01",
+    "cs-s049",
+    "cs-s070",
+    "cs-s149",
+    "cs-s175",
+    "cs-s125",
+    "cs-s058",
+    "cs-s041",
+    "cs-s083",
+    "cs-s036",
+    "cs-s120",
+    "cs-s028",
+    "cs-p07",
+    "cs-s100",
+    "cs-s118",
+    "cs-s146",
+    "cs-s102",
+    "cs-s080",
+    "cs-s063",
+    "cs-s132",
+    "cs-s055",
+    "cs-s151",
+    "cs-s144",
+    "cs-s030",
+    "cs-s064",
+    "cs-p04",
+    "cs-s107",
+    "cs-s044",
+    "cs-s026",
+    "cs-s142",
+    "cs-s010",
+    "cs-s128",
+    "cs-s015",
+    "cs-s042",
+    "cs-s094",
+    "cs-s005",
+    "cs-s087",
+    "cs-s117"
+  ],
+  "items": [
+    {
+      "id": "cs-p01",
+      "kind": "para",
+      "title": "News About My New Job",
+      "native": [
+        "Tak už mám novou práci v knihkupectví kousek od olomouckého Dolního náměstí.",
+        "Nastupuju příští pondělí a zatím se na to vážně docela těším.",
+        "Vedoucí mi včera ukázala prodejnu i malou kuchyňku schovanou vzadu za skladem.",
+        "Budu hlavně radit zákazníkům, vybalovat knížky a občas taky sedět u pokladny.",
+        "Největší radost mám z toho, že tam můžu chodit z domova pěšky.",
+        "Směna mi začíná v 8:30, takže ráno konečně nebudu muset tolik spěchat.",
+        "Kolegové si prý většinou nosí vlastní oběd a jedí společně vzadu.",
+        "Trochu se bojím pokladny, ale kolegyně mě první týden nenechá samotnou.",
+        "Až budu vědět, jak mám směny, můžeme se domluvit na kávě."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-p02",
+      "kind": "para",
+      "title": "Welcoming Our New Teammate",
+      "native": [
+        "Od pondělí se k našemu týmu v brněnském Králově Poli přidá Tereza Sedláčková.",
+        "Tereza bude pomáhat se zákaznickou podporou a postupně převezme vyřizování dotazů k objednávkám.",
+        "První den dorazí v 9:00 a u recepce ji vyzvedne Martin.",
+        "Pracovní místo jsme pro ni připravili u okna vedle zasedací místnosti.",
+        "V pondělí dopoledne se všichni na chvíli sejdeme v kanceláři, abychom se s Terezou seznámili.",
+        "Potom jí ukážu náš systém a projdeme spolu několik běžných požadavků.",
+        "Jestli máte užitečné návody pro začátek, pošlete mi je prosím během dneška.",
+        "Na oběd zajdeme společně do jídelny, aby měla příležitost všechny trochu poznat.",
+        "Děkuju vám, že Tereze pomůžete se u nás zabydlet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-p03",
+      "kind": "para",
+      "title": "Help With Spilled Groceries",
+      "native": [
+        "Minulou sobotu mě před domem v Hradci Králové překvapil pořádný liják.",
+        "Spěchala jsem od zastávky a v každé ruce nesla plnou papírovou tašku.",
+        "U vchodu jedné tašce povolilo dno a jablka se rozkutálela po chodníku.",
+        "Zrovna šla kolem sousedka Hana, kterou jsem do té doby skoro neznala.",
+        "Beze slova nade mnou rozevřela deštník a pak mi podala látkovou tašku.",
+        "Společně jsme posbíraly jablka a zkontrolovaly, jestli se v nákupu něco nerozbilo.",
+        "Nejvíc mě překvapilo, že se ještě vrátila pro zatoulanou cibuli pod lavičkou.",
+        "Pomohla mi odnést nákup až ke dveřím a nechtěla za to vůbec nic.",
+        "V neděli jsem jí tu tašku vrátila i s několika domácími sušenkami."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-p04",
+      "kind": "para",
+      "title": "Making Czech Style Coffee",
+      "native": [
+        "Takhle si doma připravujeme obyčejného turka do hrnku.",
+        "Nejdřív naplň rychlovarnou konvici čerstvou vodou a zapni ji.",
+        "Mezitím si nachystej větší hrnek, lžičku a sáček jemně mleté kávy.",
+        "Do hrnku nasyp 2 vrchovaté lžičky kávy, aby měl turek pořádnou chuť.",
+        "Jestli máš rád sladkou kávu, přidej ke kávě rovnou trochu cukru.",
+        "Až se konvice vypne, chvilku počkej a pak kávu pomalu zalij horkou vodou.",
+        "Hrnek nenaplňuj až po okraj, aby se ti káva dobře míchala.",
+        "Kávu lehce promíchej lžičkou a nech ji pár minut odstát.",
+        "Nakonec si k turku vezmi oplatku a sedlinu nech na dně."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-p05",
+      "kind": "para",
+      "title": "Lunch Delivery in Liberec",
+      "native": [
+        "Wolt jsem v Liberci zkusil hlavně kvůli obědům během práce z domova.",
+        "Nejvíc mi vyhovuje, že předem vidím cenu dopravy i přibližný čas doručení.",
+        "Minulý čtvrtek jsem si přes aplikaci objednal kuřecí vývar a bramboráky.",
+        "Kurýr k nám do Ruprechtic dorazil asi o 10 minut později, než měl.",
+        "Polévka byla ještě horká, ale bramboráky už bohužel nebyly křupavé.",
+        "Za obal a dopravu jsem dohromady připlatil 59 Kč, což není málo.",
+        "V aplikaci se mi jídlo hledá dobře, ale na fotkách někdy vypadá líp než ve skutečnosti.",
+        "Na běžný oběd mi to připadá drahé, zvlášť když si objednávám jen pro sebe.",
+        "Když ale nestíhám vařit, tahle možnost mi ušetří cestu i spoustu času."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-p06",
+      "kind": "para",
+      "title": "Planning Our Team Offsite",
+      "native": [
+        "Na týmový výjezd do Tábora bych navrhla pátek 19. 6. 2026.",
+        "Z Českých Budějovic vyrazíme v 8:00, abychom měli před začátkem dost času.",
+        "Počítám s 12 lidmi, takže rezervuju zasedací místnost pro 14 osob.",
+        "Dopolední část začneme v 9:30 a na oběd půjdeme ve 12:00.",
+        "Za pronájem zaplatíme 3 600 Kč a oběd vyjde na 240 Kč na osobu.",
+        "Odpoledne bych naplánovala procházku kolem Jordánu dlouhou přibližně 4 kilometry.",
+        "Na společnou práci si potom necháme ještě 90 minut bez telefonů.",
+        "Zpátky bychom jeli autobusem kolem 17:00, ať jsme do večeře doma.",
+        "Celkový rozpočet bych zatím nastavila na 9 000 Kč včetně dopravy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-p07",
+      "kind": "para",
+      "title": "Requesting a School Receipt",
+      "native": [
+        "Dobrý den, potřebovala bych potvrzení o zaplacení školní družiny.",
+        "Dcera Klára chodí do družiny na Základní škole Studánka v Pardubicích.",
+        "Za září jsem zaplatila 500 Kč převodem.",
+        "Platba odešla 4. 9. 2026 z účtu na moje jméno.",
+        "Na potvrzení prosím uveďte jméno dítěte, zaplacenou částku a období, za které jsem platila.",
+        "Doklad potřebuji pro zaměstnavatele, který nám přispívá na péči o děti.",
+        "Stačí mi ho poslat e-mailem na adresu, kterou máte ve školním systému.",
+        "Pokud potřebujete ještě nějaké údaje, ráda je doplním.",
+        "Děkuji za pomoc a přeji hezký den."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-p08",
+      "kind": "para",
+      "title": "Strážnice Folklore Festival",
+      "native": [
+        "Ve Strážnici na Slovácku se každé léto koná mezinárodní folklorní festival.",
+        "Na konci června sem přijíždějí folklorní soubory z Česka i ze zahraničí.",
+        "Hlavní program probíhá na venkovních pódiích v zámeckém parku.",
+        "Na festivalu vystupují taneční soubory, zpěváci a cimbálové muziky.",
+        "Součástí festivalu bývá také průvod městem, ve kterém účinkující předvádějí kroje z různých regionů.",
+        "Ve strážnickém skanzenu se návštěvníci můžou podívat, jak se dřív žilo a pracovalo na vesnici.",
+        "Děti si mohou vyzkoušet jednoduché tance nebo se zapojit do tvořivých dílen.",
+        "U stánků si můžete koupit koláče a další dobroty.",
+        "Večer se lidé scházejí venku s muzikanty, zpívají a tančí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s001",
+      "kind": "sentence",
+      "native": [
+        "Meruňky z Mikulova vám přivezu cestou, letos jsou krásně sladké."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s002",
+      "kind": "sentence",
+      "native": [
+        "Vzorky vám vrátíme příští týden, protože zákazník nakonec zvolil jiný materiál, ale za ochotu moc děkujeme."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s003",
+      "kind": "sentence",
+      "native": [
+        "Ten dětský batoh zlevnili z 890 Kč na 590 Kč, tak jsem rovnou koupila dva."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s004",
+      "kind": "sentence",
+      "native": [
+        "Dneska po obědě zavolám panu Dvořákovi, abych se s ním domluvila na opravě kapajícího kohoutku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s005",
+      "kind": "sentence",
+      "native": [
+        "Kolik místa mi ještě zbývá na pevném disku?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s006",
+      "kind": "sentence",
+      "native": [
+        "Přes WhatsApp radši neposílej celý záznam přednášky."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s007",
+      "kind": "sentence",
+      "native": [
+        "Tramvaj staví hned za rohem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s008",
+      "kind": "sentence",
+      "native": [
+        "Ráda bych se objednala ke kadeřnici na čtvrtek."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s009",
+      "kind": "sentence",
+      "native": [
+        "Tašku bych dala nahoru. Ale v Ústí nad Orlicí vystupujeme, tak ji necháme tady u nohou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s010",
+      "kind": "sentence",
+      "native": [
+        "Vadí mi, když někdo během filmu hlasitě rozbaluje bonbony."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s011",
+      "kind": "sentence",
+      "native": [
+        "Adame, lístky do kina už mám koupené, tak na mě počkej u pokladny v 18:30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s012",
+      "kind": "sentence",
+      "native": [
+        "Jakmile dorazí zásilka s monitory, dám vědět technikovi, aby nám je přišel zapojit přímo do kanceláře."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s013",
+      "kind": "sentence",
+      "native": [
+        "Kláro, za pronájem sálu chtějí 950 Kč. Zálohu 300 Kč už jsme zaplatili, takže zbývá doplatit 650 Kč."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s014",
+      "kind": "sentence",
+      "native": [
+        "Eliščiny narozeniny si zapíšu hned."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s015",
+      "kind": "sentence",
+      "native": [
+        "Vyhledej recept na bramborové šišky s mákem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s016",
+      "kind": "sentence",
+      "native": [
+        "Davide, umíš v Canvě odstranit pozadí z téhle fotky?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s017",
+      "kind": "sentence",
+      "native": [
+        "Než přejdeš přes lávku, podívej se doprava, tam už uvidíš žlutou budovu našeho ateliéru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s018",
+      "kind": "sentence",
+      "native": [
+        "Neměli byste tuhle pánev i v menší velikosti?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s019",
+      "kind": "sentence",
+      "native": [
+        "Pro andulku máme zrní, sépiovou kost a nové bidýlko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s020",
+      "kind": "sentence",
+      "native": [
+        "Dřív jsem se bála ukázat ostatním svoje kresby, ale po včerejším kurzu mám konečně větší odvahu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s021",
+      "kind": "sentence",
+      "native": [
+        "Kočka ti zabrala místo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s022",
+      "kind": "sentence",
+      "native": [
+        "Schvaluju návrh nového firemního loga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s023",
+      "kind": "sentence",
+      "native": [
+        "Na dokončení kurzu potřebuješ aspoň 80 % správných odpovědí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s024",
+      "kind": "sentence",
+      "native": [
+        "Cestou z práce se musím stavit v Balíkovně."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s025",
+      "kind": "sentence",
+      "native": [
+        "Pusť mi nějakou písničku od kapely Chinaski."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s026",
+      "kind": "sentence",
+      "native": [
+        "Tiskárna hlásí prázdný zásobník papíru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s027",
+      "kind": "sentence",
+      "native": [
+        "Radši pojedu metrem, silnice směrem do centra je rozkopaná."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s028",
+      "kind": "sentence",
+      "native": [
+        "Masopustní průvod letos vyráží od hasičské zbrojnice."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s029",
+      "kind": "sentence",
+      "native": [
+        "Nejdřív jsem chtěla odpovědět všem, ale radši napíšu jen vedoucí, ostatních se ta změna netýká."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s030",
+      "kind": "sentence",
+      "native": [
+        "Mrzí mě, že jsme si Ještěd kvůli mlze neužili."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s031",
+      "kind": "sentence",
+      "native": [
+        "Prosím tě, vyzvedneš cestou ze školy mladšího bráchu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s032",
+      "kind": "sentence",
+      "native": [
+        "Opravený odkaz funguje, můžete ho rovnou přeposlat zákazníkovi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s033",
+      "kind": "sentence",
+      "native": [
+        "Do Olomouce pojedeme vlakem v 9:22 z nástupiště 4."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s034",
+      "kind": "sentence",
+      "native": [
+        "Výlet do Litomyšle si naplánuju na příští měsíc."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s035",
+      "kind": "sentence",
+      "native": [
+        "Dokážeš podle téhle fotky poznat, co je to za rostlinu s bílými květy a úzkými listy?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s036",
+      "kind": "sentence",
+      "native": [
+        "Proč po mně prohlížeč znovu chce ověřovací kód?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s037",
+      "kind": "sentence",
+      "native": [
+        "Sousedé, nechte prosím průchod ke kočárkárně volný, s nákupem se tam teď nedá projít."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s038",
+      "kind": "sentence",
+      "native": [
+        "Sušičku bych chtěla tišší, máme ji hned vedle ložnice a často ji pouštíme až večer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s039",
+      "kind": "sentence",
+      "native": [
+        "Zabalte mi prosím tři větrníky a jeden žloutkový řez."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s040",
+      "kind": "sentence",
+      "native": [
+        "Vstupné 290 Kč mi připadá na tak malou výstavu přehnané."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s041",
+      "kind": "sentence",
+      "native": [
+        "Pošlu ti fotky, jakmile najdu kabel od foťáku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s042",
+      "kind": "sentence",
+      "native": [
+        "Přeju hezký víkend a v pondělí se zase uslyšíme."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s043",
+      "kind": "sentence",
+      "native": [
+        "Nové závěsy potřebuju dlouhé 245 centimetrů a široké 120 centimetrů."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s044",
+      "kind": "sentence",
+      "native": [
+        "Chci si stáhnout novou epizodu podcastu na cestu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s045",
+      "kind": "sentence",
+      "native": [
+        "Vypočítej třetinu z 960."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s046",
+      "kind": "sentence",
+      "native": [
+        "Mikrofon máš asi pořád vypnutý."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s047",
+      "kind": "sentence",
+      "native": [
+        "Soňa čeká před knihovnou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s048",
+      "kind": "sentence",
+      "native": [
+        "Polévku už stačí jen dosolit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s049",
+      "kind": "sentence",
+      "native": [
+        "Našel by se menší stůl, nejlépe někde u okna?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s050",
+      "kind": "sentence",
+      "native": [
+        "Teprve během dovolené mi došlo, jak moc mi chyběla rána bez spěchu a věčného sledování hodin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s051",
+      "kind": "sentence",
+      "native": [
+        "Můžeme se sejít před Vaňkovkou někdy po obědě?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s052",
+      "kind": "sentence",
+      "native": [
+        "Aleno, po focení mi prosím vrať služební stativ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s053",
+      "kind": "sentence",
+      "native": [
+        "Odstřeďování jsem nastavila na 800 otáček."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s054",
+      "kind": "sentence",
+      "native": [
+        "Potřebuju změřit místo na koberec."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s055",
+      "kind": "sentence",
+      "native": [
+        "Přelož tuhle větu z češtiny do němčiny."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s056",
+      "kind": "sentence",
+      "native": [
+        "Ondřej mi poslal prezentaci bez vložených obrázků."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s057",
+      "kind": "sentence",
+      "native": [
+        "Tudy vede cesta na nábřeží."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s058",
+      "kind": "sentence",
+      "native": [
+        "Tenhle meloun vypadá krásně zralý."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s059",
+      "kind": "sentence",
+      "native": [
+        "Barboro, jízdenku kup do Jihlavy, ne do Znojma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s060",
+      "kind": "sentence",
+      "native": [
+        "Omlouvám se za ten zmatek."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s061",
+      "kind": "sentence",
+      "native": [
+        "Beru s sebou karetní hru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s062",
+      "kind": "sentence",
+      "native": [
+        "Automatický podpis jsem si v Outlooku úspěšně změnila."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s063",
+      "kind": "sentence",
+      "native": [
+        "Jízdenka platí 90 minut, označila jsem ji v 13:25."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s064",
+      "kind": "sentence",
+      "native": [
+        "Ještě si musím objednat nové struny na kytaru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s065",
+      "kind": "sentence",
+      "native": [
+        "Sniž hlasitost na polovinu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s066",
+      "kind": "sentence",
+      "native": [
+        "Ivano, nevidím tvoji sdílenou obrazovku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s067",
+      "kind": "sentence",
+      "native": [
+        "Děda bydlí hned vedle pošty."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s068",
+      "kind": "sentence",
+      "native": [
+        "K výročí rodičům upečeme dort a děti na něj můžou vyrobit ozdoby z marcipánu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s069",
+      "kind": "sentence",
+      "native": [
+        "Máš hotovost, nebo platíme kartou?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s070",
+      "kind": "sentence",
+      "native": [
+        "Nevzdávej to, s každým tréninkem získáš větší jistotu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s071",
+      "kind": "sentence",
+      "native": [
+        "Táta si pořídil nový mobil a teď nám do rodinné skupiny posílá jenom fotky kocoura."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s072",
+      "kind": "sentence",
+      "native": [
+        "Ohledně přístupů do systému se obrať na Radku Malou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s073",
+      "kind": "sentence",
+      "native": [
+        "Pokoj 218 máme do neděle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s074",
+      "kind": "sentence",
+      "native": [
+        "Příště si před návštěvou zahradnictví vyfotím balkon, abych mohla líp vybrat truhlíky a sazenice."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s075",
+      "kind": "sentence",
+      "native": [
+        "Zavolej prosím Martině na mobil."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s076",
+      "kind": "sentence",
+      "native": [
+        "V Alze mi doporučili tuhle nabíječku, jenže konektor do mého tabletu vůbec nepasuje."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s077",
+      "kind": "sentence",
+      "native": [
+        "Průvodčí říkal, že při přestupu stačí přejít na vedlejší nástupiště a vlak na nás počká."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s078",
+      "kind": "sentence",
+      "native": [
+        "Zip na bundě se zasekl."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s079",
+      "kind": "sentence",
+      "native": [
+        "Je tady ještě volno?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s080",
+      "kind": "sentence",
+      "native": [
+        "Ten účes ti vážně sluší."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s081",
+      "kind": "sentence",
+      "native": [
+        "Karle, půjčíš mi na odpoledne raketu na badminton?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s082",
+      "kind": "sentence",
+      "native": [
+        "Tentokrát vaši nabídku nevyužijeme, děkujeme."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s083",
+      "kind": "sentence",
+      "native": [
+        "Účet vychází na 640 Kč."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s084",
+      "kind": "sentence",
+      "native": [
+        "Připomeň mi večer zalít bylinky."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s085",
+      "kind": "sentence",
+      "native": [
+        "Naviguj mě k hlavnímu vchodu do ostravské zoo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s086",
+      "kind": "sentence",
+      "native": [
+        "Bluetooth se mi pořád odpojuje."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s087",
+      "kind": "sentence",
+      "native": [
+        "U pekárny zahni doleva a pokračuj podél parku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s088",
+      "kind": "sentence",
+      "native": [
+        "Morčeti dnes doplním čerstvé seno."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s089",
+      "kind": "sentence",
+      "native": [
+        "Oldo, patří ten sešit z matematiky tobě, nebo sestře?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s090",
+      "kind": "sentence",
+      "native": [
+        "Děkuju za krásné přání."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s091",
+      "kind": "sentence",
+      "native": [
+        "Nemáš u sebe náhodou moji červenou čepici?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s092",
+      "kind": "sentence",
+      "native": [
+        "Smlouvu máte připravenou k podpisu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s093",
+      "kind": "sentence",
+      "native": [
+        "Vezměte si na túru aspoň 2 litry vody, trasa měří 14 kilometrů a zabere přibližně 5 hodin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s094",
+      "kind": "sentence",
+      "native": [
+        "Povlečení vyměním hned po snídani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s095",
+      "kind": "sentence",
+      "native": [
+        "Zkontroluj, jestli mám v počítači zapnuté automatické aktualizace."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s096",
+      "kind": "sentence",
+      "native": [
+        "Soukromý profil mám oddělený od pracovního a mezi oběma účty přepínám přímo v nastavení aplikace."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s097",
+      "kind": "sentence",
+      "native": [
+        "Hynek vystoupil o zastávku dřív."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s098",
+      "kind": "sentence",
+      "native": [
+        "S účtenkou vám ty boty vymění i bez krabice."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s099",
+      "kind": "sentence",
+      "native": [
+        "Vlastně přijedu až ve čtvrtek."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s100",
+      "kind": "sentence",
+      "native": [
+        "Hanko, tvoje svíčková chutná líp než v restauraci."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s101",
+      "kind": "sentence",
+      "native": [
+        "Řetěz mám konečně promazaný, kolo jede krásně potichu a tvoji pumpičku ti přivezu při příští návštěvě."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s102",
+      "kind": "sentence",
+      "native": [
+        "Zdravím všechny po delší dovolené."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s103",
+      "kind": "sentence",
+      "native": [
+        "Synovi bude v září 11."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s104",
+      "kind": "sentence",
+      "native": [
+        "Přidej do seznamu ovesné vločky."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s105",
+      "kind": "sentence",
+      "native": [
+        "Vyber pro mě nějaký nenáročný film na dnešní večer, nejlépe komedii s českým dabingem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s106",
+      "kind": "sentence",
+      "native": [
+        "Po restartu routeru nám internet zase normálně běží."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s107",
+      "kind": "sentence",
+      "native": [
+        "Paní Benešová má krejčovství naproti divadlu v Táboře."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s108",
+      "kind": "sentence",
+      "native": [
+        "Čerstvé pstruhy koupím v Třeboni, ale nejdřív si ověřím, jestli má rybářství vůbec otevřeno."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s109",
+      "kind": "sentence",
+      "native": [
+        "Jitko, zavřela jsi sklep?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s110",
+      "kind": "sentence",
+      "native": [
+        "Ozvi se, až budeš moct."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s111",
+      "kind": "sentence",
+      "native": [
+        "Kolegům v Jablonci pošleme přebytečné kancelářské židle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s112",
+      "kind": "sentence",
+      "native": [
+        "Ve středu začíná plavání v 16:15 a končí v 17:00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s113",
+      "kind": "sentence",
+      "native": [
+        "Zítra vyčistím zanesený filtr vysavače."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s114",
+      "kind": "sentence",
+      "native": [
+        "Spusť odpočet na 7 minut."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s115",
+      "kind": "sentence",
+      "native": [
+        "Zálohování běží automaticky každou noc."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s116",
+      "kind": "sentence",
+      "native": [
+        "Počkejte uvnitř na recepci, kolegyně si pro vás přijde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s117",
+      "kind": "sentence",
+      "native": [
+        "Anežko, zlomky si spolu projdeme po svačině."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s118",
+      "kind": "sentence",
+      "native": [
+        "Přibal hřeben, plavky a ručník, vlastně radši dva."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s119",
+      "kind": "sentence",
+      "native": [
+        "Díky, tohle mi fakt pomohlo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s120",
+      "kind": "sentence",
+      "native": [
+        "Co přesně má zákazník na mysli úspornějším balením?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s121",
+      "kind": "sentence",
+      "native": [
+        "Budík nastav na 6:45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s122",
+      "kind": "sentence",
+      "native": [
+        "Každý měsíc si vyhradím chvíli na třídění fotek, abych v počítači neměla tolik nepovedených záběrů."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s123",
+      "kind": "sentence",
+      "native": [
+        "Jaké počasí bude zítra ráno v Liberci?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s124",
+      "kind": "sentence",
+      "native": [
+        "Navigace mi v Jeseníkách fungovala i v režimu offline."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s125",
+      "kind": "sentence",
+      "native": [
+        "Strýc nás vyzvedne autem přímo před penzionem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s126",
+      "kind": "sentence",
+      "native": [
+        "Pod dřezem se uvolnil pant, takže dvířka teď drhnou o vedlejší skříňku a nejdou zavřít."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s127",
+      "kind": "sentence",
+      "native": [
+        "Zelenou látku schovej na ubrus, ne, radši z ní ušijeme potahy na ty zahradní židle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s128",
+      "kind": "sentence",
+      "native": [
+        "Terezo, vezmeš zítra na výlet i svého psa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s129",
+      "kind": "sentence",
+      "native": [
+        "Tabulku najdeš ve sdílené složce."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s130",
+      "kind": "sentence",
+      "native": [
+        "Kolem Pardubic jsme ujeli 32 kilometrů za 2 hodiny, baterie elektrokola pořád ukazuje 65 %."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s131",
+      "kind": "sentence",
+      "native": [
+        "Blance mám do pátku vrátit vypůjčený dalekohled i s pouzdrem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s132",
+      "kind": "sentence",
+      "native": [
+        "Najdi nejbližší poštu, která má dnes odpoledne otevřeno."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s133",
+      "kind": "sentence",
+      "native": [
+        "Když připojím notebook k dokovací stanici, přestane mi fungovat klávesnice, ale myš reaguje normálně."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s134",
+      "kind": "sentence",
+      "native": [
+        "Zuzanu potkáš v sobotu na farmářském trhu v Holešovicích."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s135",
+      "kind": "sentence",
+      "native": [
+        "Dáte mi tu komodu za 700 Kč, když si ji odvezu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s136",
+      "kind": "sentence",
+      "native": [
+        "Chutná ti ta kulajda?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s137",
+      "kind": "sentence",
+      "native": [
+        "Kdyby se vám v neděli nechtělo vařit, stavte se u nás, uděláme zapečené těstoviny se zeleninou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s138",
+      "kind": "sentence",
+      "native": [
+        "Navýšení rozpočtu za mě schvaluju."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s139",
+      "kind": "sentence",
+      "native": [
+        "Výtah uveze nejvýš 450 kilogramů."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s140",
+      "kind": "sentence",
+      "native": [
+        "Před odjezdem nezapomeň zavřít přívod vody k pračce."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s141",
+      "kind": "sentence",
+      "native": [
+        "Otevři poslední stažený soubor."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s142",
+      "kind": "sentence",
+      "native": [
+        "Veroniko, ten komentář v dokumentu nebyl určený tobě."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s143",
+      "kind": "sentence",
+      "native": [
+        "Autobus nám ujel, další spoj jede až za hodinu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s144",
+      "kind": "sentence",
+      "native": [
+        "Utěrky jsou v horní zásuvce."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s145",
+      "kind": "sentence",
+      "native": [
+        "Promiň, myslela jsem tyrkysovou přízi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s146",
+      "kind": "sentence",
+      "native": [
+        "Večeře bude asi později, těsto mi vůbec nechce kynout."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s147",
+      "kind": "sentence",
+      "native": [
+        "Mohl byste mi upřesnit, které položky máme nacenit zvlášť?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s148",
+      "kind": "sentence",
+      "native": [
+        "Představení trvá 95 minut."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s149",
+      "kind": "sentence",
+      "native": [
+        "Heslo k domácí Wi-Fi si potřebuju uložit někam bokem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s150",
+      "kind": "sentence",
+      "native": [
+        "Zobraz mi všechny nepřečtené e-maily od včerejšího rána a seřaď je od nejnovějšího po nejstarší."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s151",
+      "kind": "sentence",
+      "native": [
+        "Nová verze Excelu mi rozházela formátování celého přehledu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s152",
+      "kind": "sentence",
+      "native": [
+        "Batoh se vejde pod sedadlo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s153",
+      "kind": "sentence",
+      "native": [
+        "Venku se docela prudce ochladilo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s154",
+      "kind": "sentence",
+      "native": [
+        "Stačí obyčejná obálka, nebo chcete tu s bublinkami?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s155",
+      "kind": "sentence",
+      "native": [
+        "Nech mi prosím kousek vánočky."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s156",
+      "kind": "sentence",
+      "native": [
+        "Stihnete mi ještě dnes poslat podklady k výběrovému řízení?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s157",
+      "kind": "sentence",
+      "native": [
+        "Troubu předehřej na 180 stupňů."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s158",
+      "kind": "sentence",
+      "native": [
+        "Večer si v bankovnictví upravím trvalý příkaz na nájem a zkontroluju číslo účtu příjemce."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s159",
+      "kind": "sentence",
+      "native": [
+        "Kvůli údržbě serveru dnes večer nepůjde firemní portál."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s160",
+      "kind": "sentence",
+      "native": [
+        "Renáta venčí sousedům jezevčíka u Botiče."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s161",
+      "kind": "sentence",
+      "native": [
+        "Plastové kelímky patří do žlutého kontejneru za domem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s162",
+      "kind": "sentence",
+      "native": [
+        "Babička vzkazuje, že ti ten svetr ráda zkrátí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s163",
+      "kind": "sentence",
+      "native": [
+        "Petře, můžeš převzít úterní školení pro nové kolegy?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s164",
+      "kind": "sentence",
+      "native": [
+        "Kontakt na recepci je 725 408 193, volat můžete do 19:00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s165",
+      "kind": "sentence",
+      "native": [
+        "Sestra se přestěhovala blíž k nádraží, takže už od vlaku nepotřebuje odvoz domů."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s166",
+      "kind": "sentence",
+      "native": [
+        "Markétě přibal do aktovky čisté tričko na tělocvik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s167",
+      "kind": "sentence",
+      "native": [
+        "Na Špilberk dneska nevyrazím, radši zůstanu v teple."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s168",
+      "kind": "sentence",
+      "native": [
+        "Fakturu za servis kávovaru prosím vystavte na 860 Kč."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s169",
+      "kind": "sentence",
+      "native": [
+        "Přihlášku na keramiku odevzdejte nejpozději v pátek 24. 4."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s170",
+      "kind": "sentence",
+      "native": [
+        "Klíče zase hrají na schovávanou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s171",
+      "kind": "sentence",
+      "native": [
+        "Pobočka v Hradci Králové hlásí, že má inventuru hotovou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s172",
+      "kind": "sentence",
+      "native": [
+        "Finále jsme vyhráli 3:1, rozhodující gól padl v 58. minutě."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s173",
+      "kind": "sentence",
+      "native": [
+        "Jasně, s tou poličkou ti o víkendu pomůžu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s174",
+      "kind": "sentence",
+      "native": [
+        "Lenko, než odešleme objednávku do tiskárny, potřebuju od tebe potvrdit počet kusů a barvu papíru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s175",
+      "kind": "sentence",
+      "native": [
+        "Mobil má 23 % baterie, vydrží ještě ty 2 hodiny?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s176",
+      "kind": "sentence",
+      "native": [
+        "Prádlo už schne na balkoně."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s177",
+      "kind": "sentence",
+      "native": [
+        "Během obědové pauzy pracovní zprávy nevyřizuju, s naléhavými dotazy se prosím obracejte na vedoucího směny."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s178",
+      "kind": "sentence",
+      "native": [
+        "Zásilku doručte na adresu Dlouhá 36 v Plzni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s179",
+      "kind": "sentence",
+      "native": [
+        "Už jsem v pořádku doma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cs-s180",
+      "kind": "sentence",
+      "native": [
+        "Miriam, dorazila ti ode mě platba za společný dárek?"
+      ],
+      "roman": null
+    }
+  ]
+}
