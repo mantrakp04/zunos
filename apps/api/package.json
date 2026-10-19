@@ -1,0 +1,27 @@
+{
+  "name": "@zunos/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "db:migrate:local": "wrangler d1 migrations apply zunos-api --local",
+    "db:migrate:remote": "wrangler d1 migrations apply zunos-api --remote",
+    "upload-pod-code": "bun scripts/upload-pod-code.ts"
+  },
+  "dependencies": {
+    "aws4fetch": "^1.0.20",
+    "hono": "^4.13.13"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.4.2",
+    "@cloudflare/workers-types": "^5.20261014.1",
+    "@types/bun": "^1.4.3",
+    "typescript": "~5.9.2",
+    "vitest": "~4.1.12",
+    "wrangler": "^4.151.0"
+  }
+}

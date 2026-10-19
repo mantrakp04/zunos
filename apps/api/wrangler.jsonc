@@ -1,0 +1,36 @@
+// zunos training backend. See README.md for setup.
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "zunos-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "zunos-api",
+      // Replace with the id printed by `wrangler d1 create zunos-api`.
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [{ "binding": "BUCKET", "bucket_name": "zunos" }],
+  // The reaper: stalled runs, runs over MAX_RUN_HOURS, spend over MAX_HOURLY_USD, orphaned pods.
+  "triggers": { "crons": ["*/5 * * * *"] },
+  // Non-secret settings. Secrets (RUNPOD_API_KEY, HF_TOKEN, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY)
+  // go in with `wrangler secret put`; locally they come from .dev.vars.
+  "vars": {
+    "HEXCLAVE_API_URL": "https://api.hexclave.com",
+    "HEXCLAVE_PROJECT_ID": "",
+    "HEXCLAVE_PUBLISHABLE_CLIENT_KEY": "",
+    "ALLOWED_EMAILS": "",
+    "R2_ACCOUNT_ID": "",
+    "R2_BUCKET_NAME": "zunos",
+    "PUBLIC_URL": "",
+    "POD_IMAGE": "runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404",
+    "GPU_TYPES": "NVIDIA A40,NVIDIA RTX A6000,NVIDIA L40S",
+    "MAX_HOURLY_USD": "2",
+    "MAX_RUN_HOURS": "4",
+    "RUNPOD_MOCK": "0"
+  }
+}

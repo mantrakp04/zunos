@@ -1,0 +1,32 @@
+# Copy to .dev.vars for `bun run dev`. Values here override the "vars" in wrangler.jsonc.
+# In production set the secrets with `wrangler secret put <NAME>` and the rest in wrangler.jsonc.
+
+# Hexclave (Stack Auth) project the Mac app signs in with.
+HEXCLAVE_PROJECT_ID=
+HEXCLAVE_PUBLISHABLE_CLIENT_KEY=
+HEXCLAVE_API_URL=https://api.hexclave.com
+
+# Who may launch training (comma-separated, case-insensitive).
+ALLOWED_EMAILS=you@example.com
+
+# Secrets
+RUNPOD_API_KEY=
+HF_TOKEN=
+R2_ACCESS_KEY_ID=
+R2_SECRET_ACCESS_KEY=
+
+# R2 (S3 API) for presigned URLs
+R2_ACCOUNT_ID=
+R2_BUCKET_NAME=zunos
+
+# This worker's public URL; pods call back to it. `wrangler dev` is not reachable from a pod,
+# so real runs need a tunnel or a deployed worker.
+PUBLIC_URL=http://localhost:8787
+
+POD_IMAGE=runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404
+GPU_TYPES=NVIDIA A40,NVIDIA RTX A6000,NVIDIA L40S
+MAX_HOURLY_USD=2
+MAX_RUN_HOURS=4
+
+# 1 = never call Runpod; pods are faked in memory. Keep this on for local development.
+RUNPOD_MOCK=1
