@@ -47,7 +47,11 @@ MIN_LIMIT = 6.0
 ASR_SLACK = 0.03
 ASR_WORDS = 1.5
 ASR_INFORMATIVE = 0.5
-LEVEL_DROP_DB = 3.0  # 10th-percentile loss of level on clearly-speech frames (300-4000 Hz)
+# Level guard on clearly-speech frames (300-4000 Hz). A 10th-percentile loss past LEVEL_DROP_DB is suspect: loud
+# keyboard clicks or babble count as "clear" frames and are meant to go, so when the Whisper check can judge,
+# it decides; without it the strength steps down. A median loss past LEVEL_HARD_DB always steps down.
+LEVEL_DROP_DB = 3.0
+LEVEL_HARD_DB = 6.0
 
 
 def strength_for(snr_db):
@@ -419,13 +423,13 @@ def clear_speech(x, sr, noise_db):
 
 
 def speech_kept(ref, out, sr, mask):
-    """10th-percentile level change (dB) of `out` against `ref` (300-4000 Hz) on frames in `mask`."""
+    """(10th percentile, median) level change in dB of `out` against `ref` (300-4000 Hz) on frames in `mask`."""
     if not mask.any():
-        return 0.0
+        return 0.0, 0.0
     a, b = band_power(ref, sr, 300, 4000), band_power(out, sr, 300, 4000)
     m = mask[: min(len(a), len(b))]
     d = db(b[: len(m)][m]) - db(a[: len(m)][m])
-    return float(np.percentile(d, 10))
+    return float(np.percentile(d, 10)), float(np.median(d))
 
 
 # ------------------------------------------------------------------------------------------- models
@@ -573,14 +577,15 @@ def enhance(path, out, root, lang=None, lines=None, marks=None, room=None, on_pr
     ladder = [s for s in (want, want - 8) if s >= MIN_LIMIT] + [0.0] if want > 0 else [0.0]
     for s in ladder:
         y = mix(s)
-        kept = round(speech_kept(pre, y, RATE, clear), 2)
-        entry = {"strength": s, "speechKeptDb": kept}
-        ok = s == 0 or kept >= -LEVEL_DROP_DB
-        if ok and s > 0 and can_check:
+        p10, p50 = speech_kept(pre, y, RATE, clear)
+        entry = {"strength": s, "speechKeptDb": round(p10, 2), "speechKeptMedianDb": round(p50, 2)}
+        suspect = p10 < -LEVEL_DROP_DB
+        ok = s == 0 or p50 >= -LEVEL_HARD_DB
+        if ok and s > 0 and (can_check or suspect):
             step("checking", len(tried) / len(ladder))
             sc = None
             try:
-                if raw_score is None:
+                if raw_score is None and can_check:
                     raw_score = windows_score(to_16k(pre, RATE), wins, lang, root)
                     asr = {"raw": raw_score, "windows": len(wins)}
                     if raw_score is None or raw_score > ASR_INFORMATIVE:
@@ -592,13 +597,13 @@ def enhance(path, out, root, lang=None, lines=None, marks=None, room=None, on_pr
                 print("asr check failed:", e, flush=True)
                 can_check = False
             entry["asr"] = sc
-            ok = sc is None or sc <= raw_score + slack
+            ok = sc <= raw_score + slack if sc is not None else not suspect
         tried.append(entry)
         if ok:
             strength = s
             break
     if strength < want:
-        reason = "speech level" if any(t["speechKeptDb"] < -LEVEL_DROP_DB for t in tried) else "asr check"
+        reason = "asr check" if any(t.get("asr") is not None for t in tried) else "speech level"
 
     y = mix(strength)
     y, _ = gain_to(y, RATE, lufs(y, RATE), OUT_LUFS)
