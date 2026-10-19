@@ -31,7 +31,7 @@ language), and the answer key was partly built from Sarvam's output, which flatt
 ## Biggest next lever
 
 More of your real Hindi and Gujarati. Training had only ~70 s of your real Hindi. The
-recorder has 4 new paragraphs ready (cd /tmp/voice-rec && bun server.ts, then
+recorder has 4 new paragraphs ready (cd ~/voice-data/recorder && bun server.ts, then
 http://localhost:4747; saves to ~/voice-data/data2). Retraining with them costs about $2.
 
 ## What's here
@@ -43,6 +43,9 @@ http://localhost:4747; saves to ~/voice-data/data2). Retraining with them costs 
 - pod-backup/: all 4,743 training clips, quality scores, logs, code and sentence lists
 - dashboard/: training dashboard (bun dashboard/server.ts, then http://localhost:4848)
 - mac/check_hf.py, mac/check.py: re-score a model on your held-back clips
+- recorder/: the recording web app (bun recorder/server.ts, then http://localhost:4747)
+- prep/, corpus/, pod/: the scripts and sentences used to build the training data and train
+- AGENTS.md: notes for future coding sessions in this project
 
 ## How it was made
 
