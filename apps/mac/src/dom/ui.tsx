@@ -1,26 +1,37 @@
 import { cn } from "@zunos/ui/lib/utils";
-import { Loader2 } from "lucide-react";
-import { type ButtonHTMLAttributes, type ReactNode, useCallback, useEffect, useState } from "react";
+import { AlertCircle, Loader2 } from "lucide-react";
+import { motion } from "motion/react";
+import { type ButtonHTMLAttributes, type ReactNode, useCallback, useEffect, useId, useState } from "react";
 
 export { languageName as langName } from "@zunos/db/languages";
 
+type ButtonVariant = "primary" | "brand" | "ghost" | "outline" | "danger" | "soft";
+
 export function Button({
   variant = "primary",
+  size = "md",
   loading,
   className,
   children,
   ...rest
-}: ButtonHTMLAttributes<HTMLButtonElement> & { variant?: "primary" | "brand" | "ghost" | "outline" | "danger"; loading?: boolean }) {
+}: ButtonHTMLAttributes<HTMLButtonElement> & { variant?: ButtonVariant; size?: "sm" | "md" | "lg"; loading?: boolean }) {
   return (
     <button
       {...rest}
       disabled={rest.disabled || loading}
       className={cn(
-        "inline-flex h-9 items-center justify-center gap-2 rounded-lg px-4 text-sm font-medium transition-colors disabled:pointer-events-none disabled:opacity-50",
-        variant === "primary" && "bg-primary text-primary-foreground hover:bg-primary/90",
-        variant === "brand" && "bg-brand text-white hover:bg-brand-deep",
-        variant === "outline" && "border bg-background hover:bg-accent",
-        variant === "ghost" && "hover:bg-accent",
+        "relative inline-flex shrink-0 items-center justify-center gap-2 rounded-full font-medium whitespace-nowrap outline-none select-none",
+        "transition-[transform,background-color,box-shadow,color,opacity] duration-150 active:scale-[0.97] disabled:pointer-events-none disabled:opacity-45",
+        "focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background",
+        size === "sm" && "h-7 px-3 text-[12.5px]",
+        size === "md" && "h-9 px-4 text-[13.5px]",
+        size === "lg" && "h-11 px-6 text-[15px]",
+        variant === "primary" && "bg-primary text-primary-foreground shadow-[inset_0_1px_0_rgb(255_255_255/0.14),0_1px_2px_rgb(0_0_0/0.2)] hover:opacity-90",
+        variant === "brand" &&
+          "bg-[linear-gradient(180deg,#ff6a4a,var(--brand)_45%,var(--brand-deep))] text-white shadow-[inset_0_1px_0_rgb(255_255_255/0.35),inset_0_-1px_0_rgb(0_0_0/0.12),0_1px_2px_rgb(160_30_10/0.35),0_8px_20px_-8px_rgb(243_74_45/0.7)] hover:brightness-[1.06]",
+        variant === "soft" && "bg-brand/12 text-brand hover:bg-brand/18 dark:bg-brand/18 dark:hover:bg-brand/25",
+        variant === "outline" && "bg-card text-foreground shadow-[0_0_0_1px_var(--input),0_1px_2px_rgb(64_32_25/0.06)] hover:bg-accent",
+        variant === "ghost" && "text-muted-foreground hover:bg-accent hover:text-foreground",
         variant === "danger" && "text-destructive hover:bg-destructive/10",
         className,
       )}
@@ -32,28 +43,35 @@ export function Button({
 }
 
 export function Card({ className, children }: { className?: string; children: ReactNode }) {
-  return <div className={cn("rounded-xl border bg-card p-5 text-card-foreground", className)}>{children}</div>;
+  return <div className={cn("zn-surface p-5 text-card-foreground", className)}>{children}</div>;
 }
 
-export function Stat({ label, value, hint }: { label: string; value: ReactNode; hint?: ReactNode }) {
+/** Small uppercase label above a value or a section. */
+export function Eyebrow({ className, children }: { className?: string; children: ReactNode }) {
+  return <div className={cn("text-[10.5px] font-semibold tracking-[0.12em] text-muted-foreground uppercase", className)}>{children}</div>;
+}
+
+export function Stat({ label, value, hint, className }: { label: ReactNode; value: ReactNode; hint?: ReactNode; className?: string }) {
   return (
-    <div className="flex flex-col gap-1">
-      <span className="text-xs uppercase tracking-wide text-muted-foreground">{label}</span>
-      <span className="text-2xl font-semibold tabular-nums">{value}</span>
+    <div className={cn("flex flex-col gap-1", className)}>
+      <Eyebrow>{label}</Eyebrow>
+      <span className="font-display text-[28px] leading-none font-semibold tracking-tight tabular-nums">{value}</span>
       {hint && <span className="text-xs text-muted-foreground">{hint}</span>}
     </div>
   );
 }
 
-export function Badge({ tone = "muted", children }: { tone?: "muted" | "brand" | "good" | "warn"; children: ReactNode }) {
+export function Badge({ tone = "muted", className, children }: { tone?: "muted" | "brand" | "good" | "warn" | "ink"; className?: string; children: ReactNode }) {
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium",
+        "inline-flex h-5 items-center gap-1 rounded-full px-2 text-[11px] font-semibold whitespace-nowrap",
         tone === "muted" && "bg-muted text-muted-foreground",
-        tone === "brand" && "bg-brand/15 text-brand",
-        tone === "good" && "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400",
-        tone === "warn" && "bg-amber-500/15 text-amber-700 dark:text-amber-400",
+        tone === "brand" && "bg-brand/12 text-brand dark:bg-brand/20",
+        tone === "good" && "bg-good/12 text-good dark:bg-good/18",
+        tone === "warn" && "bg-warn/14 text-warn",
+        tone === "ink" && "bg-foreground text-background",
+        className,
       )}
     >
       {children}
@@ -61,19 +79,124 @@ export function Badge({ tone = "muted", children }: { tone?: "muted" | "brand" |
   );
 }
 
-export function ErrorNote({ error }: { error: string | null }) {
-  if (!error) return null;
-  return <p className="rounded-lg bg-destructive/10 px-3 py-2 text-sm text-destructive">{error}</p>;
+export function Kbd({ children }: { children: ReactNode }) {
+  return <kbd className="zn-kbd">{children}</kbd>;
 }
 
-export function PageHeader({ title, subtitle, children }: { title: string; subtitle?: string; children?: ReactNode }) {
+export function ErrorNote({ error, className }: { error: string | null | undefined; className?: string }) {
+  if (!error) return null;
   return (
-    <div className="mb-6 flex items-start justify-between gap-4">
-      <div>
-        <h1 className="text-xl font-semibold tracking-tight">{title}</h1>
-        {subtitle && <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{subtitle}</p>}
+    <motion.p
+      initial={{ opacity: 0, y: -4 }}
+      animate={{ opacity: 1, y: 0 }}
+      className={cn("flex items-start gap-2 rounded-xl bg-destructive/8 px-3 py-2 text-[13px] text-destructive", className)}
+    >
+      <AlertCircle className="mt-0.5 size-3.5 shrink-0" />
+      <span className="select-text">{error}</span>
+    </motion.p>
+  );
+}
+
+/** Screen title. Big, rounded, with an optional line of context and actions on the right. */
+export function PageHeader({ eyebrow, title, subtitle, children }: { eyebrow?: ReactNode; title: ReactNode; subtitle?: ReactNode; children?: ReactNode }) {
+  return (
+    <div className="mb-7 flex items-end justify-between gap-6">
+      <div className="min-w-0">
+        {eyebrow && <Eyebrow className="mb-2">{eyebrow}</Eyebrow>}
+        <h1 className="font-display text-[34px] leading-[1.05] font-bold tracking-[-0.025em]">{title}</h1>
+        {subtitle && <p className="mt-2 max-w-[44rem] text-[14px] leading-relaxed text-muted-foreground">{subtitle}</p>}
       </div>
-      {children}
+      {children && <div className="flex shrink-0 items-center gap-2">{children}</div>}
+    </div>
+  );
+}
+
+/** A segmented control in the macOS style: a sliding thumb under the selected option. */
+export function Segmented<T extends string>({
+  value,
+  onChange,
+  options,
+  size = "md",
+  className,
+}: {
+  value: T;
+  onChange: (v: T) => void;
+  options: { value: T; label: ReactNode }[];
+  size?: "sm" | "md";
+  className?: string;
+}) {
+  const id = useId();
+  return (
+    <div className={cn("inline-flex rounded-full bg-muted p-0.5", className)}>
+      {options.map((o) => (
+        <button
+          key={o.value}
+          onClick={() => onChange(o.value)}
+          className={cn(
+            "relative rounded-full font-medium transition-colors",
+            size === "sm" ? "h-6 px-2.5 text-[11.5px]" : "h-7 px-3.5 text-[12.5px]",
+            value === o.value ? "text-foreground" : "text-muted-foreground hover:text-foreground",
+          )}
+        >
+          {value === o.value && (
+            <motion.span
+              layoutId={`seg-${id}`}
+              transition={{ type: "spring", stiffness: 500, damping: 38 }}
+              className="absolute inset-0 rounded-full bg-card shadow-[0_0_0_0.5px_var(--input),0_1px_3px_rgb(64_32_25/0.12)]"
+            />
+          )}
+          <span className="relative">{o.label}</span>
+        </button>
+      ))}
+    </div>
+  );
+}
+
+/** A progress ring. `value` is 0..1. */
+export function Ring({ value, size = 36, stroke = 4, className, children, color = "var(--brand)" }: {
+  value: number; size?: number; stroke?: number; className?: string; children?: ReactNode; color?: string;
+}) {
+  const r = (size - stroke) / 2;
+  const c = 2 * Math.PI * r;
+  const v = Math.max(0, Math.min(1, value));
+  return (
+    <div className={cn("relative inline-grid place-items-center", className)} style={{ width: size, height: size }}>
+      <svg width={size} height={size} className="-rotate-90">
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="currentColor" strokeOpacity={0.12} strokeWidth={stroke} />
+        <motion.circle
+          cx={size / 2}
+          cy={size / 2}
+          r={r}
+          fill="none"
+          stroke={color}
+          strokeWidth={stroke}
+          strokeLinecap="round"
+          strokeDasharray={c}
+          initial={false}
+          animate={{ strokeDashoffset: c * (1 - v) }}
+          transition={{ type: "spring", stiffness: 120, damping: 22 }}
+        />
+      </svg>
+      {children && <div className="absolute inset-0 grid place-items-center">{children}</div>}
+    </div>
+  );
+}
+
+/** A thin progress bar. `value` is 0..1. */
+export function Meter({ value, className, tone = "brand" }: { value: number; className?: string; tone?: "brand" | "good" | "ink" }) {
+  return (
+    <div className={cn("h-1.5 overflow-hidden rounded-full bg-foreground/8", className)}>
+      <motion.div
+        className={cn(
+          "h-full rounded-full",
+          tone === "brand" && "bg-[linear-gradient(90deg,var(--brand),var(--brand-gold))]",
+          tone === "good" && "bg-good",
+          tone === "ink" && "bg-foreground",
+        )}
+        initial={false}
+        animate={{ width: `${Math.max(0, Math.min(1, value)) * 100}%` }}
+        transition={{ type: "spring", stiffness: 140, damping: 24 }}
+      />
     </div>
   );
 }

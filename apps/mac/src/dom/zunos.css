@@ -1,0 +1,191 @@
+/* zunos-specific styling that Tailwind classes can't express well: the bean's moods, keycaps,
+   the ripple motif and a few shared surfaces. Tokens live in packages/ui/src/globals.css. */
+
+/* ---- the bean ---------------------------------------------------------------------------- */
+.zn-bean .zn-bean-body {
+  transform-origin: 110px 230px;
+  animation: zn-breathe 4.2s ease-in-out infinite;
+}
+.zn-bean .zn-bean-ear {
+  transform-origin: 160px 165px;
+  transform: rotate(calc(var(--lvl, 0) * -9deg)) scale(calc(1 + var(--lvl, 0) * 0.07));
+  transition: transform 90ms linear;
+}
+.zn-bean .zn-bean-eyes-open {
+  opacity: 0;
+  transform-origin: 88px 105px;
+}
+.zn-bean .zn-bean-waves path {
+  opacity: 0;
+  transform-origin: 175px 120px;
+}
+.zn-bean .zn-bean-wave1,
+.zn-bean .zn-bean-wave2 {
+  opacity: 1;
+}
+
+/* idle: waves drift in and out */
+.zn-bean[data-mood="idle"] .zn-bean-wave1 {
+  animation: zn-wave 3.2s ease-in-out infinite;
+}
+.zn-bean[data-mood="idle"] .zn-bean-wave2 {
+  animation: zn-wave 3.2s ease-in-out 0.35s infinite;
+}
+
+/* listening: eyes open and blink, waves follow the voice */
+.zn-bean[data-mood="listening"] .zn-bean-eyes-happy,
+.zn-bean[data-mood="thinking"] .zn-bean-eyes-happy {
+  opacity: 0;
+}
+.zn-bean[data-mood="listening"] .zn-bean-eyes-open,
+.zn-bean[data-mood="thinking"] .zn-bean-eyes-open {
+  opacity: 1;
+  animation: zn-blink 4.6s infinite;
+}
+.zn-bean[data-mood="listening"] .zn-bean-waves path {
+  transition:
+    opacity 90ms linear,
+    transform 90ms linear;
+}
+.zn-bean[data-mood="listening"] .zn-bean-wave1 {
+  opacity: calc(0.35 + var(--lvl) * 0.65);
+  transform: translate(calc(var(--lvl) * 4px), calc(var(--lvl) * -2px));
+}
+.zn-bean[data-mood="listening"] .zn-bean-wave2 {
+  opacity: calc(0.15 + var(--lvl) * 0.85);
+  transform: translate(calc(var(--lvl) * 7px), calc(var(--lvl) * -4px));
+}
+.zn-bean[data-mood="listening"] .zn-bean-wave3 {
+  opacity: calc(var(--lvl) * var(--lvl) * 1.2);
+  transform: translate(calc(var(--lvl) * 9px), calc(var(--lvl) * -5px));
+}
+
+/* thinking: eyes look up, the waves cycle in turn */
+.zn-bean[data-mood="thinking"] .zn-bean-eyes-open {
+  transform: translate(3px, -4px);
+}
+.zn-bean[data-mood="thinking"] .zn-bean-wave1 {
+  animation: zn-wave 1.2s ease-in-out infinite;
+}
+.zn-bean[data-mood="thinking"] .zn-bean-wave2 {
+  animation: zn-wave 1.2s ease-in-out 0.2s infinite;
+}
+.zn-bean[data-mood="thinking"] .zn-bean-wave3 {
+  animation: zn-wave 1.2s ease-in-out 0.4s infinite;
+}
+
+/* happy: a little hop */
+.zn-bean[data-mood="happy"] {
+  animation: zn-hop 0.9s cubic-bezier(0.3, 1.6, 0.5, 1) both;
+}
+.zn-bean[data-mood="happy"] .zn-bean-wave3 {
+  opacity: 1;
+}
+
+/* sleepy: ear droops, waves off */
+.zn-bean[data-mood="sleepy"] .zn-bean-ear {
+  transform: rotate(14deg) translate(4px, 6px);
+}
+.zn-bean[data-mood="sleepy"] .zn-bean-waves path {
+  opacity: 0;
+}
+
+@keyframes zn-breathe {
+  50% {
+    transform: scale(1.012, 0.988);
+  }
+}
+@keyframes zn-wave {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes zn-blink {
+  0%,
+  44%,
+  48%,
+  100% {
+    transform: scaleY(1);
+  }
+  46% {
+    transform: scaleY(0.1);
+  }
+}
+@keyframes zn-hop {
+  30% {
+    transform: translateY(-14%) rotate(-4deg);
+  }
+  60% {
+    transform: translateY(0) scale(1.04, 0.96);
+  }
+}
+
+/* ---- keycaps ------------------------------------------------------------------------------ */
+.zn-kbd {
+  display: inline-flex;
+  min-width: 1.6em;
+  height: 1.6em;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.4em;
+  border-radius: 0.38em;
+  font: 600 0.72em/1 var(--text-font);
+  color: var(--muted-foreground);
+  background: var(--card);
+  box-shadow:
+    0 0 0 0.5px var(--input),
+    0 1.5px 0 var(--input);
+}
+
+/* ---- ripples: the "ear" motif, concentric arcs ------------------------------------------- */
+.zn-ripples {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-radial-gradient(
+    circle at var(--rx, 80%) var(--ry, 20%),
+    transparent 0 46px,
+    color-mix(in oklab, var(--brand-gold) 14%, transparent) 46px 47px
+  );
+  mask-image: radial-gradient(circle at var(--rx, 80%) var(--ry, 20%), #000 0 30%, transparent 70%);
+}
+
+/* ---- surfaces ------------------------------------------------------------------------------ */
+.zn-surface {
+  background: var(--card);
+  border-radius: calc(var(--radius) + 6px);
+  box-shadow:
+    0 0 0 1px var(--border),
+    var(--elevate);
+}
+.zn-hairline {
+  box-shadow: 0 0 0 1px var(--border);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .zn-bean *,
+  .zn-bean {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ---- wordmark: letters draw in, one after another ------------------------------------------ */
+.zn-wordmark-draw path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: zn-draw 0.7s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+.zn-wordmark-draw path:nth-child(2) { animation-delay: 0.12s; }
+.zn-wordmark-draw path:nth-child(3) { animation-delay: 0.24s; }
+.zn-wordmark-draw path:nth-child(4) { animation-delay: 0.36s; }
+.zn-wordmark-draw path:nth-child(5) { animation-delay: 0.48s; }
+@keyframes zn-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

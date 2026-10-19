@@ -30,6 +30,13 @@
   --color-brand: var(--brand);
   --color-brand-deep: var(--brand-deep);
   --color-brand-gold: var(--brand-gold);
+  --color-brand-cream: var(--brand-cream);
+  --color-brand-ink: var(--brand-ink);
+  --color-good: var(--good);
+  --color-warn: var(--warn);
+  --color-rail: var(--rail);
+  --font-display: var(--display-font);
+  --font-mono: var(--mono-font);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -37,57 +44,75 @@
 }
 
 :root {
-  --radius: 0.75rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  /* zunos mascot: ember red, deep red, ear gold */
+  --radius: 0.875rem;
+  /* Warm paper and ink, taken from the mascot (ink is its eye brown). */
+  --background: #fbf7f1;
+  --foreground: #2a1712;
+  --card: #fffdfa;
+  --card-foreground: #2a1712;
+  --popover: #fffdfa;
+  --popover-foreground: #2a1712;
+  --primary: #2a1712;
+  --primary-foreground: #fffaf3;
+  --secondary: #f3ebe1;
+  --secondary-foreground: #2a1712;
+  --muted: #f2eae0;
+  --muted-foreground: #8b7366;
+  --accent: #f1e7db;
+  --accent-foreground: #2a1712;
+  --destructive: #c8312a;
+  --border: rgb(64 32 25 / 0.1);
+  --input: rgb(64 32 25 / 0.14);
+  --ring: rgb(243 74 45 / 0.45);
+  --chart-1: #f34a2d;
+  --chart-2: #f6a53c;
+  --chart-3: #7a5cff;
+  /* zunos mascot: ember red, deep red, ear gold, ear cream, eye brown */
   --brand: #f34a2d;
   --brand-deep: #d93428;
   --brand-gold: #f6a53c;
+  --brand-cream: #ffe4a1;
+  --brand-ink: #402019;
+  --good: #22955e;
+  --warn: #c98a12;
+  /* the rail behind the screens */
+  --rail: #f3ebe1;
+  --rail-line: rgb(64 32 25 / 0.08);
+  --elevate: 0 1px 0 rgb(255 255 255 / 0.8) inset, 0 1px 2px rgb(64 32 25 / 0.06), 0 8px 24px -12px rgb(64 32 25 / 0.18);
+  --titlebar: 28px;
+  --display-font: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif;
+  --text-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  --mono-font: ui-monospace, "SF Mono", Menlo, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: oklch(0.145 0 0);
-    --foreground: oklch(0.985 0 0);
-    --card: oklch(0.205 0 0);
-    --card-foreground: oklch(0.985 0 0);
-    --popover: oklch(0.205 0 0);
-    --popover-foreground: oklch(0.985 0 0);
-    --primary: oklch(0.922 0 0);
-    --primary-foreground: oklch(0.205 0 0);
-    --secondary: oklch(0.269 0 0);
-    --secondary-foreground: oklch(0.985 0 0);
-    --muted: oklch(0.269 0 0);
-    --muted-foreground: oklch(0.708 0 0);
-    --accent: oklch(0.269 0 0);
-    --accent-foreground: oklch(0.985 0 0);
-    --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
-    --input: oklch(1 0 0 / 15%);
-    --ring: oklch(0.556 0 0);
-    --chart-1: oklch(0.488 0.243 264.376);
-    --chart-2: oklch(0.696 0.17 162.48);
-    --chart-3: oklch(0.769 0.188 70.08);
+    --background: #140d0b;
+    --foreground: #f7ede5;
+    --card: #1d1411;
+    --card-foreground: #f7ede5;
+    --popover: #221815;
+    --popover-foreground: #f7ede5;
+    --primary: #f7ede5;
+    --primary-foreground: #1d1411;
+    --secondary: #261b17;
+    --secondary-foreground: #f7ede5;
+    --muted: #241a16;
+    --muted-foreground: #a8928a;
+    --accent: #2a1f1a;
+    --accent-foreground: #f7ede5;
+    --destructive: #ff6b5b;
+    --border: rgb(255 228 200 / 0.08);
+    --input: rgb(255 228 200 / 0.12);
+    --ring: rgb(243 74 45 / 0.55);
+    --chart-1: #ff5a3c;
+    --chart-2: #f6a53c;
+    --chart-3: #9d86ff;
+    --good: #45c486;
+    --warn: #e9b44c;
+    --rail: #0e0907;
+    --rail-line: rgb(255 228 200 / 0.06);
+    --elevate: 0 1px 0 rgb(255 240 225 / 0.05) inset, 0 1px 2px rgb(0 0 0 / 0.4), 0 12px 32px -16px rgb(0 0 0 / 0.7);
   }
 }
 
@@ -98,7 +123,9 @@
   html,
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+    font-family: var(--text-font);
+    font-feature-settings: "ss01", "cv11";
+    letter-spacing: -0.006em;
     margin: 0;
     height: 100%;
     -webkit-user-select: none;
@@ -110,3 +137,20 @@
     user-select: text;
   }
 }
+
+@layer utilities {
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  /* Fine film grain, so large warm surfaces don't look like flat fills. */
+  .grain {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.25 0 0 0 0 0.12 0 0 0 0 0.1 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
+
