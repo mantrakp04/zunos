@@ -14,8 +14,13 @@ import { AccessCard, type DictationPrefs, DictationSettingsPanel, hotkeyPhrase, 
 
 const listOf = (names: string[]) =>
   names.length <= 1 ? (names[0] ?? "") : `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
-/** Named one by one up to three; past that the line would run to a paragraph, so just the count. */
-const talkIn = (names: string[]) => (names.length <= 3 ? `Talk in ${listOf(names)}` : `Talk in any of your ${names.length} languages`);
+
+/** "Talk in English.", "Talk in A, B and C, or mix them in one sentence.", or the first three and "+N more". */
+function talkIn(names: string[]): { text: string; title?: string } {
+  if (names.length <= 1) return { text: names.length ? `Talk in ${names[0]}.` : "Talk the way you normally would." };
+  if (names.length <= 3) return { text: `Talk in ${listOf(names)}, or mix them in one sentence.` };
+  return { text: `Talk in ${names.slice(0, 3).join(", ")} +${names.length - 3} more, or mix them.`, title: names.join(", ") };
+}
 
 type Tab = "history" | "settings";
 const TAB_KEY = "zunos.dictate.tab";
@@ -38,7 +43,18 @@ export default function Use({ a, live }: ScreenProps) {
   const langs = useAsync(() => a.languages(), []);
   const history = useAsync(() => a.dictations(100), [live.dictationsVersion]);
   const model = models.data?.find((m) => m.active && m.format === "hf")?.name ?? null;
-  const langNames = useMemo(() => (langs.data ?? []).filter((l) => l.enabled).map((l) => l.name), [langs.data]);
+  const active = models.data?.find((m) => m.active && m.format === "hf") ?? null;
+  const tested = useAsync(() => (active ? a.latestEval(active.id) : Promise.resolve(null)), [active?.id]);
+  // The user's languages, the ones the current model has been tested on first, then the user's order.
+  const langNames = useMemo(() => {
+    const on = (langs.data ?? []).filter((l) => l.enabled);
+    const known = (l: { code: string }) => (tested.data?.scores[l.code] != null ? 0 : 1);
+    return on
+      .map((l, i) => ({ l, i }))
+      .sort((x, y) => known(x.l) - known(y.l) || x.i - y.i)
+      .map(({ l }) => l.name);
+  }, [langs.data, tested.data]);
+  const talk = talkIn(langNames);
   const cleanup = useCleanup(a, live);
   const prefs = useDictationSettings(a);
   const phrase = hotkeyPhrase(prefs.settings);
@@ -158,14 +174,7 @@ export default function Use({ a, live }: ScreenProps) {
     <div className="@container/page h-full">
       {/* Side by side, the columns fill the window; a short window scrolls rather than squash the instrument. */}
       <div className="mx-auto flex max-w-[1240px] flex-col px-8 pt-10 pb-7 @min-[720px]:h-full @min-[720px]:min-h-[660px]">
-        <PageHeader
-          title="Dictate"
-          subtitle={
-            phrase
-              ? `Talk here with Space, or ${phrase.toLowerCase()} in any app and it's pasted where you're typing. It all runs on this Mac.`
-              : "Talk, stop, paste. The text goes straight to your clipboard, and it all runs on this Mac."
-          }
-        >
+        <PageHeader title="Dictate">
           <HotkeyChip prefs={prefs} live={live} onClick={() => setTab("settings")} />
         </PageHeader>
 
@@ -188,7 +197,7 @@ export default function Use({ a, live }: ScreenProps) {
               <Headline phase={phase} hasItems={items.length > 0} />
               <p className="mt-1.5 min-h-[20px] max-w-[30rem] text-[13px] text-muted-foreground">
                 {phase === "loading" && (model ? `Loading ${model}. The first load takes a few seconds.` : "Loading your model. The first load takes a few seconds.")}
-                {phase === "ready" && (langNames.length > 1 ? `${talkIn(langNames)}, or mix them in one sentence.` : "Talk the way you normally would.")}
+                {phase === "ready" && <span title={talk.title}>{talk.text}</span>}
                 {phase === "listening" &&
                   (viaHotkey
                     ? `Listening from the hotkey. ${prefs.settings.mode === "toggle" ? "Tap" : "Let go of"} ${prefs.settings.hotkey === "off" ? "it" : KEYS[prefs.settings.hotkey].short} when you're done.`
@@ -340,7 +349,7 @@ function HotkeyChip({ prefs, live, onClick }: { prefs: DictationPrefs; live: Liv
         animate={{ y: held ? 1.5 : 0 }}
         transition={{ type: "spring", stiffness: 700, damping: 30 }}
         className={cn(
-          "grid h-7 min-w-8 place-items-center rounded-[8px] px-1.5 text-[13px] font-semibold transition-[background,box-shadow,color]",
+          "grid h-7 min-w-8 place-items-center rounded-[14px] px-1.5 text-[13px] font-semibold transition-[background,box-shadow,color]",
           settings.hotkey === "off"
             ? "bg-muted text-muted-foreground"
             : held

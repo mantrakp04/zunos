@@ -1,10 +1,11 @@
 import { cn } from "@zunos/ui/lib/utils";
-import { AlertCircle, ArrowDownToLine, Loader2, Sparkles } from "lucide-react";
+import { AlertCircle, ArrowDownToLine, Loader2 } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 
 import type { Actions } from "../../../services/actions";
 import type { CleanupSettings, CleanupStyle, LiveState } from "../../../shared/types";
+import { TidyMark } from "../../marks";
 import { Button, message, Segmented, useAsync } from "../../ui";
 
 /*
@@ -173,18 +174,13 @@ function Downloading({ done, total }: { done: number; total: number }) {
   );
 }
 
-/** A little sparkle tile; doubles as a progress ring while downloading. */
+/** The cleanup mark, plain; doubles as a progress ring while downloading. */
 function Glyph({ on, spinning, progress }: { on: boolean; spinning?: boolean; progress?: number }) {
   const r = 15;
   const c = 2 * Math.PI * r;
   return (
-    <span
-      className={cn(
-        "relative grid size-8 shrink-0 place-items-center rounded-[10px] transition-colors",
-        on ? "bg-brand-gold/18 text-[#b56c10] dark:text-brand-gold" : "bg-foreground/[0.06] text-muted-foreground",
-      )}
-    >
-      {spinning ? <Loader2 className="size-4 animate-spin" /> : <Sparkles className="size-4" />}
+    <span className={cn("relative grid size-8 shrink-0 place-items-center transition-colors", on ? "text-foreground" : "text-muted-foreground")}>
+      {spinning ? <Loader2 className="size-[18px] animate-spin" /> : <TidyMark className="size-[18px]" />}
       {progress != null && (
         <svg viewBox="0 0 36 36" className="absolute -inset-0.5 -rotate-90">
           <circle cx="18" cy="18" r={r} fill="none" stroke="currentColor" strokeOpacity={0.15} strokeWidth={2} />

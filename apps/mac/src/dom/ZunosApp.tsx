@@ -5,13 +5,14 @@ import "./zunos.css";
 
 import { useSystemTheme } from "@zunos/ui/hooks/use-system-theme";
 import { cn } from "@zunos/ui/lib/utils";
-import { AudioLines, FlaskConical, LogOut, Mic, Sparkles, type LucideIcon } from "lucide-react";
+import { AudioLines, FlaskConical, LogOut, Mic } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import type { Actions } from "../services/actions";
 import type { LiveState } from "../shared/types";
 import { Bean, type BeanMood, Wordmark } from "./Bean";
+import { DictateMark } from "./marks";
 import Languages from "./screens/Languages";
 import Record from "./screens/Record";
 import SignIn from "./screens/SignIn";
@@ -24,11 +25,11 @@ export type ScreenProps = { a: Actions; live: LiveState; /** Switch to another s
 
 export type ScreenId = "record" | "train" | "test" | "use";
 
-const NAV: { id: ScreenId; label: string; icon: LucideIcon; Screen: (p: ScreenProps) => React.ReactNode }[] = [
+const NAV: { id: ScreenId; label: string; icon: React.ComponentType<{ className?: string; strokeWidth?: number }>; Screen: (p: ScreenProps) => React.ReactNode }[] = [
   { id: "record", label: "Record", icon: Mic, Screen: Record },
   { id: "train", label: "Train", icon: AudioLines, Screen: Train },
   { id: "test", label: "Test", icon: FlaskConical, Screen: Test },
-  { id: "use", label: "Dictate", icon: Sparkles, Screen: Use },
+  { id: "use", label: "Dictate", icon: DictateMark, Screen: Use },
 ];
 
 const SCREEN_KEY = "zunos.screen";
@@ -162,7 +163,7 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
               disabled={live.recording && !on}
               title={`${label} (⌘${i + 1})`}
               className={cn(
-                "group relative flex h-10 items-center gap-3 rounded-[11px] px-2.5 text-left text-[13.5px] transition-colors disabled:opacity-40",
+                "group relative flex h-10 items-center gap-3 rounded-[16px] px-2 text-left text-[13.5px] transition-colors disabled:opacity-40",
                 on ? "text-foreground" : "text-muted-foreground hover:bg-foreground/[0.045] hover:text-foreground",
               )}
             >
@@ -170,7 +171,7 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
                 <motion.span
                   layoutId="rail-active"
                   transition={{ type: "spring", stiffness: 480, damping: 38 }}
-                  className="absolute inset-0 rounded-[11px] bg-card shadow-[0_0_0_0.5px_var(--input),0_1px_2px_rgb(64_32_25/0.08),0_4px_14px_-6px_rgb(64_32_25/0.18)]"
+                  className="absolute inset-0 rounded-[16px] bg-card shadow-[0_0_0_0.5px_var(--input),0_1px_2px_rgb(64_32_25/0.08),0_4px_14px_-6px_rgb(64_32_25/0.18)]"
                 />
               )}
               <span

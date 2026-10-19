@@ -3,7 +3,10 @@
 // python/core/scoring.py, so the highlighted errors line up with the scored WER. This is for display
 // only: the WER itself always comes from the engine.
 
-const FUZZY_LANGS = new Set(["en", "hi", "gu", "mr", "pa", "bn", "ta", "te", "kn", "ml", "ur", "ne"]);
+import { LANGUAGES } from "@zunos/db/languages";
+
+/** English plus the languages typed in English letters: the same set scoring.py fuzzes. */
+const FUZZY_LANGS = new Set(["en", ...LANGUAGES.filter((l) => l.romanized).map((l) => l.code)]);
 
 const RULES: [string, string][] = [
   ["chh", "ch"], ["ksh", "x"], ["sh", "s"], ["ph", "f"], ["aa", "a"], ["ee", "i"], ["ii", "i"], ["oo", "u"],

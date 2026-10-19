@@ -1,7 +1,7 @@
 import { cn } from "@zunos/ui/lib/utils";
 import { Accessibility, Globe, Loader2 } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
-import { type ReactNode, useState } from "react";
+import { type ReactNode, useRef, useState } from "react";
 
 import type { Actions } from "../../../services/actions";
 import type { DictationSettings, HotkeyKey, LiveState } from "../../../shared/types";
@@ -73,6 +73,9 @@ export function DictationSettingsPanel({
   const keyName = settings.hotkey === "off" ? "the key" : KEYS[settings.hotkey].name;
   const mode = MODES.find((m) => m.id === settings.mode) ?? MODES[0]!;
   const pressed = live.dictation?.source === "hotkey" && live.dictation.phase === "listening";
+  // Where a press stops being a tap and becomes holding to talk (hybrid mode). Local until
+  // DictationSettings carries it (holdMs); the engine uses a fixed 300 ms today.
+  const [holdMs, setHoldMs] = useState(HOLD_DEFAULT_MS);
 
   const status =
     settings.hotkey === "off"
@@ -84,32 +87,31 @@ export function DictationSettingsPanel({
           : "On. Works in every app.";
 
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col">
       <Section
         title="Hotkey"
         aside={
-          <span className="flex items-center gap-1.5 text-[11.5px] text-muted-foreground">
-            <span
-              className={cn(
-                "size-1.5 rounded-full",
-                settings.hotkey === "off" ? "bg-muted-foreground/50" : live.access.trusted && live.access.hotkey ? "bg-good" : "bg-warn",
-              )}
-            />
-            {status}
+          <span className="flex min-w-0 items-center gap-3 text-[11.5px] text-muted-foreground">
+            <span className="flex min-w-0 items-center gap-1.5">
+              <span
+                className={cn(
+                  "size-1.5 shrink-0 rounded-full",
+                  settings.hotkey === "off" ? "bg-muted-foreground/50" : live.access.trusted && live.access.hotkey ? "bg-good" : "bg-warn",
+                )}
+              />
+              <span className="truncate" title={status}>{status}</span>
+            </span>
+            <button
+              type="button"
+              onClick={() => set({ hotkey: settings.hotkey === "off" ? "fn" : "off" })}
+              className="shrink-0 font-medium text-foreground/75 underline-offset-2 hover:text-brand hover:underline"
+            >
+              {settings.hotkey === "off" ? "Turn on" : "Turn off"}
+            </button>
           </span>
         }
       >
         <KeyDeck value={settings.hotkey} pressed={pressed} onChange={(hotkey) => set({ hotkey })} />
-        <div className="mt-2.5 flex items-center justify-between gap-3 text-[12px] text-muted-foreground">
-          <span className="min-w-0">Pick a key. The grey ones keep their usual jobs.</span>
-          <button
-            type="button"
-            onClick={() => set({ hotkey: settings.hotkey === "off" ? "fn" : "off" })}
-            className="shrink-0 font-medium text-foreground/75 underline-offset-2 hover:text-brand hover:underline"
-          >
-            {settings.hotkey === "off" ? "Turn on" : "Turn off"}
-          </button>
-        </div>
       </Section>
 
       <Section title="How the key works" dim={settings.hotkey === "off"}>
@@ -117,21 +119,9 @@ export function DictationSettingsPanel({
           className="max-w-full [&_button]:whitespace-nowrap"
           value={settings.mode}
           onChange={(m) => set({ mode: m })}
-          options={MODES.map((m) => ({ value: m.id, label: m.label }))}
+          options={MODES.map((m) => ({ value: m.id, label: <span title={`${m.hint(keyName)} Esc cancels.`}>{m.label}</span> }))}
         />
-        <AnimatePresence mode="wait" initial={false}>
-          <motion.p
-            key={mode.id + keyName}
-            initial={{ opacity: 0, y: 3 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -3 }}
-            transition={{ duration: 0.16 }}
-            className="mt-2.5 text-[12.5px] leading-relaxed text-muted-foreground"
-          >
-            {mode.hint(keyName)} <Kbd>esc</Kbd> throws it away.
-          </motion.p>
-        </AnimatePresence>
-        <ModeDiagram mode={settings.mode} />
+        <ModeDiagram mode={settings.mode} holdMs={holdMs} onHoldMs={setHoldMs} />
       </Section>
 
       <Section title="When it's written" dim={settings.hotkey === "off"}>
@@ -141,7 +131,6 @@ export function DictationSettingsPanel({
           on={settings.paste}
           onChange={(paste) => set({ paste })}
         />
-        <div className="my-3 h-px bg-border/80" />
         <SwitchRow
           label="Put my clipboard back"
           hint="Whatever you had copied comes back right after the paste."
@@ -151,24 +140,30 @@ export function DictationSettingsPanel({
         />
       </Section>
 
-      <Section title="Cleanup" aside={<span className="text-[11.5px] text-muted-foreground">Runs on this Mac</span>}>
+      <Section title="Cleanup" aside={<span className="text-[11.5px] text-muted-foreground">On this Mac</span>}>
         {cleanup.state?.status === "ready" || !cleanup.state ? (
-          <CleanupStyles cleanup={cleanup} busy={busy} />
+          <Segmented
+            className={cn("max-w-full [&_button]:whitespace-nowrap", busy && "pointer-events-none opacity-60")}
+            value={cleanup.settings.style}
+            onChange={(style) => cleanup.setSettings({ ...cleanup.settings, style })}
+            options={CLEANUP_STYLES.map((c) => ({ value: c.id, label: <span title={c.hint}>{c.label}</span> }))}
+          />
         ) : (
-          <CleanupStrip cleanup={cleanup} busy={busy} className="-mx-1 rounded-[14px] border-0 bg-foreground/[0.03] px-3 py-2.5" />
+          <CleanupStrip cleanup={cleanup} busy={busy} className="-mx-0 border-0 bg-transparent px-0 py-0" />
         )}
       </Section>
 
-      <ErrorNote error={prefs.error} />
+      <ErrorNote error={prefs.error} className="mt-3" />
     </div>
   );
 }
 
+/** One group of settings: a title row, then its controls; groups are divided by hairlines, not boxed. */
 function Section({ title, aside, dim, children }: { title: string; aside?: ReactNode; dim?: boolean; children: ReactNode }) {
   return (
-    <section className={cn("rounded-[20px] bg-card px-5 pt-4 pb-5 shadow-[0_0_0_1px_var(--border),var(--elevate)] transition-opacity", dim && "opacity-55")}>
-      <header className="mb-3.5 flex min-h-5 flex-wrap items-center justify-between gap-x-3 gap-y-1">
-        <h3 className="text-[13.5px] font-semibold">{title}</h3>
+    <section className={cn("border-t border-border py-5 transition-opacity first:border-t-0 first:pt-1", dim && "opacity-55")}>
+      <header className="mb-3.5 flex min-h-5 items-center justify-between gap-x-3">
+        <h3 className="shrink-0 text-[13.5px] font-semibold">{title}</h3>
         {aside}
       </header>
       {children}
@@ -236,23 +231,42 @@ export function KeyDeck({ value, pressed, onChange }: { value: DictationSettings
 
 /* ---- how each mode reads: key presses on top, the time zunos listens below --------------------- */
 
-function ModeDiagram({ mode }: { mode: DictationSettings["mode"] }) {
-  // Each mode as [key-down spans] and [listening spans], in 0..1 of a short timeline.
-  const lanes: Record<DictationSettings["mode"], { key: [number, number][]; listen: [number, number][]; marks: string[] }> = {
-    hold: { key: [[0.08, 0.62]], listen: [[0.08, 0.62]], marks: ["press", "let go"] },
-    toggle: { key: [[0.08, 0.13], [0.62, 0.67]], listen: [[0.08, 0.62]], marks: ["tap", "tap"] },
-    hybrid: { key: [[0.04, 0.3], [0.52, 0.56], [0.86, 0.9]], listen: [[0.04, 0.3], [0.52, 0.86]], marks: [] },
+const HOLD_DEFAULT_MS = 300;
+const HOLD_MIN_MS = 150;
+const HOLD_MAX_MS = 800;
+/** The diagram's timeline, in ms. */
+const SPAN_MS = 2400;
+
+function ModeDiagram({ mode, holdMs, onHoldMs }: { mode: DictationSettings["mode"]; holdMs: number; onHoldMs: (ms: number) => void }) {
+  const t = (ms: number) => ms / SPAN_MS;
+  // Each mode as [key-down spans] and [listening spans], in 0..1 of the timeline. In hybrid, the
+  // first press is held past the threshold (talk while held), the second is a tap (talk until the next tap).
+  const lanes: Record<DictationSettings["mode"], { key: [number, number][]; listen: [number, number][] }> = {
+    hold: { key: [[0.06, 0.62]], listen: [[0.06, 0.62]] },
+    toggle: { key: [[0.06, 0.1], [0.6, 0.64]], listen: [[0.06, 0.6]] },
+    hybrid: { key: [[HELD_AT, 0.42], [0.5, 0.5 + t(Math.min(holdMs - 60, 220))], [0.88, 0.92]], listen: [[HELD_AT, 0.42], [0.5, 0.88]] },
   };
   const l = lanes[mode];
   return (
-    <div className="mt-3.5 grid grid-cols-[auto_1fr] items-center gap-x-3 gap-y-1.5 font-mono text-[10px] font-semibold tracking-[0.08em] text-muted-foreground uppercase">
+    <div className="mt-4 grid grid-cols-[auto_1fr_auto] items-center gap-x-3 gap-y-2 font-mono text-[10px] font-semibold tracking-[0.08em] text-muted-foreground uppercase">
       <span>Key</span>
-      <Lane spans={l.key} className="bg-foreground/70" mode={mode} />
+      {mode === "hybrid" ? (
+        <HoldLane spans={l.key} mode={mode} holdMs={holdMs} onHoldMs={onHoldMs} />
+      ) : (
+        <Lane spans={l.key} className="bg-foreground/70" mode={mode} />
+      )}
+      <span className="w-[3.4rem] text-right tracking-normal normal-case tabular-nums text-foreground/75" title={mode === "hybrid" ? "Held longer than this, the key talks while it's down; shorter, it's a tap." : undefined}>
+        {mode === "hybrid" ? `${holdMs} ms` : ""}
+      </span>
       <span>Listening</span>
       <Lane spans={l.listen} className="bg-[linear-gradient(90deg,var(--brand),var(--brand-gold))]" mode={mode} />
+      <span />
     </div>
   );
 }
+
+/** Where the held press starts on the timeline; the hold threshold is measured from here. */
+const HELD_AT = 0.04;
 
 function Lane({ spans, className, mode }: { spans: [number, number][]; className: string; mode: string }) {
   return (
@@ -261,12 +275,66 @@ function Lane({ spans, className, mode }: { spans: [number, number][]; className
         <motion.span
           key={`${mode}-${i}`}
           initial={{ scaleX: 0, opacity: 0 }}
-          animate={{ scaleX: 1, opacity: 1 }}
+          animate={{ scaleX: 1, opacity: 1, left: `${a * 100}%`, width: `${(b - a) * 100}%` }}
           transition={{ delay: 0.05 + i * 0.12, duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-          style={{ left: `${a * 100}%`, width: `${(b - a) * 100}%`, transformOrigin: "left" }}
+          style={{ transformOrigin: "left" }}
           className={cn("absolute inset-y-0 rounded-full", className)}
         />
       ))}
+    </div>
+  );
+}
+
+/**
+ * The key lane in hybrid mode, with a handle on the held press where it turns from a tap into a hold.
+ * Drag it, click the lane, or use the arrow keys (Page Up/Down for bigger steps, Home/End for the
+ * ends). Snaps to 50 ms.
+ */
+function HoldLane({ spans, mode, holdMs, onHoldMs }: { spans: [number, number][]; mode: string; holdMs: number; onHoldMs: (ms: number) => void }) {
+  const lane = useRef<HTMLDivElement>(null);
+  const step = 50;
+  const snap = (ms: number) => Math.min(HOLD_MAX_MS, Math.max(HOLD_MIN_MS, Math.round(ms / step) * step));
+  const fromX = (x: number) => {
+    const r = lane.current!.getBoundingClientRect();
+    return snap(((x - r.left) / r.width - HELD_AT) * SPAN_MS);
+  };
+  const at = HELD_AT + holdMs / SPAN_MS;
+  return (
+    <div
+      ref={lane}
+      role="slider"
+      tabIndex={0}
+      aria-label="Hold after"
+      aria-valuemin={HOLD_MIN_MS}
+      aria-valuemax={HOLD_MAX_MS}
+      aria-valuenow={holdMs}
+      aria-valuetext={`${holdMs} ms`}
+      onPointerDown={(e) => {
+        e.currentTarget.setPointerCapture(e.pointerId);
+        e.currentTarget.focus();
+        onHoldMs(fromX(e.clientX));
+      }}
+      onPointerMove={(e) => e.currentTarget.hasPointerCapture(e.pointerId) && onHoldMs(fromX(e.clientX))}
+      onKeyDown={(e) => {
+        const d = { ArrowLeft: -step, ArrowDown: -step, ArrowRight: step, ArrowUp: step, PageDown: -step * 4, PageUp: step * 4 }[e.key];
+        if (d != null) (e.preventDefault(), onHoldMs(snap(holdMs + d)));
+        else if (e.key === "Home") (e.preventDefault(), onHoldMs(HOLD_MIN_MS));
+        else if (e.key === "End") (e.preventDefault(), onHoldMs(HOLD_MAX_MS));
+      }}
+      className="group relative h-4 cursor-default touch-none rounded-full outline-none"
+    >
+      <div className="absolute inset-x-0 top-1/2 -translate-y-1/2">
+        <Lane spans={spans} className="bg-foreground/70" mode={mode} />
+      </div>
+      {/* Before the handle the held press is still a tap: drawn lighter. */}
+      <span
+        className="absolute top-1/2 h-2.5 -translate-y-1/2 rounded-l-full bg-background/45"
+        style={{ left: `${HELD_AT * 100}%`, width: `${(at - HELD_AT) * 100}%` }}
+      />
+      <span
+        className="absolute top-1/2 size-4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white shadow-[0_1px_3px_rgb(0_0_0/0.3),0_0_0_0.5px_rgb(0_0_0/0.12)] transition-shadow group-focus-visible:shadow-[0_1px_3px_rgb(0_0_0/0.3),0_0_0_3px_color-mix(in_oklab,var(--brand)_45%,transparent)]"
+        style={{ left: `${at * 100}%` }}
+      />
     </div>
   );
 }
@@ -275,11 +343,8 @@ function Lane({ spans, className, mode }: { spans: [number, number][]; className
 
 function SwitchRow({ label, hint, on, disabled, onChange }: { label: string; hint: string; on: boolean; disabled?: boolean; onChange: (v: boolean) => void }) {
   return (
-    <label className={cn("flex items-start gap-4", disabled && "opacity-50")}>
-      <span className="min-w-0 flex-1">
-        <span className="block text-[13px] font-medium">{label}</span>
-        <span className="mt-0.5 block text-[12px] leading-snug text-muted-foreground">{hint}</span>
-      </span>
+    <label title={hint} className={cn("flex items-center gap-4 py-1.5", disabled && "opacity-50")}>
+      <span className="min-w-0 flex-1 text-[13px] font-medium">{label}</span>
       <Switch on={on} disabled={disabled} onChange={onChange} label={label} />
     </label>
   );
@@ -309,46 +374,6 @@ export function Switch({ on, disabled, onChange, label }: { on: boolean; disable
   );
 }
 
-/** The three cleanup styles as cards, each with what it does. */
-function CleanupStyles({ cleanup, busy }: { cleanup: Cleanup; busy: boolean }) {
-  const { settings, setSettings } = cleanup;
-  return (
-    <div role="radiogroup" aria-label="Cleanup" className={cn("grid grid-cols-3 gap-2", busy && "pointer-events-none opacity-60")}>
-      {CLEANUP_STYLES.map((s) => {
-        const on = settings.style === s.id;
-        return (
-          <button
-            key={s.id}
-            type="button"
-            role="radio"
-            aria-checked={on}
-            onClick={() => setSettings({ ...settings, style: s.id })}
-            className={cn(
-              "relative flex min-w-0 flex-col rounded-[14px] px-3 pt-2.5 pb-3 text-left transition-[box-shadow,background] duration-200",
-              on
-                ? "bg-brand-gold/10 shadow-[0_0_0_1.5px_var(--brand-gold)] dark:bg-brand-gold/12"
-                : "shadow-[0_0_0_1px_var(--border)] hover:bg-foreground/[0.03]",
-            )}
-          >
-            <span className="flex items-center justify-between gap-2">
-              <span className="truncate text-[12.5px] font-semibold">{s.label}</span>
-              <span
-                className={cn(
-                  "grid size-3.5 shrink-0 place-items-center rounded-full transition-colors",
-                  on ? "bg-brand-gold" : "shadow-[inset_0_0_0_1px_var(--input)]",
-                )}
-              >
-                {on && <span className="size-1.5 rounded-full bg-white" />}
-              </span>
-            </span>
-            <span className="mt-1 block text-[11.5px] leading-snug text-muted-foreground">{s.hint}</span>
-          </button>
-        );
-      })}
-    </div>
-  );
-}
-
 /* ---- Accessibility ----------------------------------------------------------------------------- */
 
 /** Shown until macOS trusts zunos: the hotkey tap and pasting both need Accessibility. */
@@ -360,41 +385,26 @@ export function AccessCard({ a }: { a: Actions }) {
       layout
       initial={{ opacity: 0, y: -8 }}
       animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -8, scale: 0.98, transition: { duration: 0.18 } }}
+      exit={{ opacity: 0, y: -8, transition: { duration: 0.18 } }}
       transition={{ type: "spring", stiffness: 380, damping: 32 }}
-      className="relative isolate overflow-hidden rounded-[20px] bg-[linear-gradient(140deg,color-mix(in_oklab,var(--brand-gold)_16%,var(--card)),var(--card)_65%)] px-5 py-4 shadow-[0_0_0_1px_color-mix(in_oklab,var(--brand-gold)_45%,transparent),var(--elevate)]"
+      className="border-l-2 border-brand-gold py-1 pl-4"
     >
-      <div aria-hidden className="zn-ripples -z-10 opacity-80 [--rx:100%] [--ry:0%]" />
-      <div className="flex items-start gap-3.5">
-        <span className="grid size-10 shrink-0 place-items-center rounded-[12px] bg-brand-gold text-brand-ink shadow-[inset_0_1px_0_rgb(255_255_255/0.45),0_4px_12px_-4px_rgb(246_165_60/0.7)]">
-          <Accessibility className="size-5" strokeWidth={2.2} />
-        </span>
-        <div className="min-w-0 flex-1">
-          <h3 className="font-display text-[17px] leading-tight font-semibold tracking-[-0.01em]">Dictate into any app</h3>
-          <p className="mt-1 text-[12.5px] leading-relaxed text-foreground/75">
-            For the hotkey to work outside this window and for the text to paste itself, macOS needs to let zunos use Accessibility. You only do this once.
-          </p>
-          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2">
-            <Button
-              variant="brand"
-              size="sm"
-              disabled={request.busy}
-              onClick={() => (setAsked(true), request.run())}
-            >
-              {request.busy && <Loader2 className="size-3.5 animate-spin" />}
-              Grant access
-            </Button>
-            {asked && !request.busy && (
-              <span className="text-[12px] text-muted-foreground">Turn zunos on in the list that opened. The hotkey starts by itself.</span>
-            )}
-          </div>
-          <ErrorNote error={request.error} className="mt-2" />
-          <p className="mt-3 border-t border-foreground/[0.07] pt-2.5 text-[11.5px] leading-snug text-muted-foreground">
-            Rebuilt the app and it stopped working? A Debug build can lose the grant. In System Settings → Privacy &amp; Security →
-            Accessibility, remove zunos with <span className="font-semibold">−</span>, then add it again.
-          </p>
-        </div>
+      <h3 className="flex items-center gap-2 text-[14px] font-semibold">
+        <Accessibility className="size-4 shrink-0 text-[#b56c10] dark:text-brand-gold" strokeWidth={2.2} />
+        Dictate into any app
+      </h3>
+      <p className="mt-1 text-[12.5px] leading-relaxed text-muted-foreground">The hotkey and pasting need Accessibility access, once.</p>
+      <div className="mt-2.5 flex flex-wrap items-center gap-x-3 gap-y-2">
+        <Button variant="brand" size="sm" disabled={request.busy} onClick={() => (setAsked(true), request.run())}>
+          {request.busy && <Loader2 className="size-3.5 animate-spin" />}
+          Grant access
+        </Button>
+        {asked && !request.busy && <span className="text-[12px] text-muted-foreground">Turn zunos on in the list that opened.</span>}
       </div>
+      <ErrorNote error={request.error} className="mt-2" />
+      <p className="mt-2.5 text-[11.5px] leading-snug text-muted-foreground">
+        After a Debug rebuild, remove zunos with <span className="font-semibold">−</span> in Privacy &amp; Security → Accessibility, then add it again.
+      </p>
     </motion.section>
   );
 }

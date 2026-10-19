@@ -1,11 +1,12 @@
 import { cn } from "@zunos/ui/lib/utils";
-import { AlertTriangle, Check, Copy, GraduationCap, Loader2, PencilLine, RotateCcw, Sparkles, Trash2 } from "lucide-react";
+import { AlertTriangle, Check, Copy, GraduationCap, Loader2, PencilLine, RotateCcw, Trash2 } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { memo, type ReactNode, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 
 import type { Actions } from "../../../services/actions";
 import type { DictationItem } from "../../../shared/types";
 import { Badge, Button, ErrorNote, Kbd, langName, useAction } from "../../ui";
+import { TidyMark } from "../../marks";
 import { CLEANUP_STYLES, wordDiff } from "./cleanup";
 
 /*
@@ -313,7 +314,7 @@ function DictationCard({
                 changes ? "bg-brand-gold/20 text-[#9a5a0c] dark:text-brand-gold" : "text-muted-foreground hover:bg-foreground/[0.05] hover:text-foreground",
               )}
             >
-              <Sparkles className="size-3" />
+              <TidyMark className="size-3.5" />
               {changes ? "Changes" : `${styleName ?? "Cleaned"}`}
             </button>
           )}
@@ -534,43 +535,12 @@ export function EmptyHistory({ phrase }: { phrase: string | null }) {
       initial={{ opacity: 0, y: 6 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-      className="rounded-[20px] p-5 shadow-[inset_0_0_0_1px_var(--border)]"
+      className="border-t border-border pt-5"
     >
-      <h3 className="font-display text-[19px] font-semibold tracking-[-0.01em]">Your words land here</h3>
-      <p className="mt-1 text-[13px] text-muted-foreground">Everything you dictate, here or in other apps, newest on top.</p>
-      <ol className="mt-5 flex flex-col gap-5">
-        <Step n="01">
-          Press <Kbd>Space</Kbd> and talk. Press it again when you're done.
-          {phrase && <> Anywhere else, {phrase.toLowerCase()} instead.</>}
-        </Step>
-        <Step n="02">
-          Mix languages freely, even inside one sentence.
-          <div className="mt-2.5 rounded-[14px] bg-card px-3.5 py-3 opacity-90 shadow-[0_0_0_1px_var(--border),var(--elevate)]">
-            <div className="flex gap-1.5">
-              <span className="inline-flex h-5 items-center rounded-full bg-muted px-2 text-[11px] font-semibold text-muted-foreground">English</span>
-              <span className="inline-flex h-5 items-center rounded-full bg-brand-gold/15 px-2 text-[11px] font-semibold text-[#b56c10] dark:text-brand-gold">
-                Hindi
-              </span>
-            </div>
-            <p className="mt-2 text-[14px] leading-relaxed">
-              Can we move the review to Thursday?{" "}
-              <span className="underline decoration-brand-gold decoration-2 underline-offset-[5px]">Priya ko bhi bata dena.</span>
-            </p>
-          </div>
-        </Step>
-        <Step n="03">
-          Got a word wrong? Fix it here and use the clip for training. The next model hears you better.
-        </Step>
-      </ol>
+      <h3 className="font-display text-[19px] font-semibold tracking-[-0.01em]">Nothing dictated yet</h3>
+      <p className="mt-1.5 text-[13.5px] text-muted-foreground [&_.zn-kbd]:mx-0.5 [&_.zn-kbd]:align-[1px]">
+        Press <Kbd>Space</Kbd> to talk{phrase && <>, or {phrase.toLowerCase()} in any app</>}.
+      </p>
     </motion.div>
-  );
-}
-
-function Step({ n, children }: { n: string; children: ReactNode }) {
-  return (
-    <li className="flex gap-3.5">
-      <span className="mt-[3px] font-mono text-[11px] font-semibold text-brand tabular-nums">{n}</span>
-      <div className="min-w-0 flex-1 text-[13.5px] leading-relaxed text-foreground/85 [&_.zn-kbd]:mx-0.5 [&_.zn-kbd]:align-[1px]">{children}</div>
-    </li>
   );
 }
