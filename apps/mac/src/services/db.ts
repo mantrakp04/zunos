@@ -1,9 +1,9 @@
-import { DB_FILE, LANGUAGES, migrate, PRAGMAS, schema, SEED_PROMPTS, SEED_VERSION } from "@zunos/db";
-import { eq } from "drizzle-orm";
+import { DB_FILE, defaultScript, LANGUAGES, migrate, PRAGMAS, schema } from "@zunos/db";
 import { drizzle } from "drizzle-orm/expo-sqlite";
 import * as SQLite from "expo-sqlite";
 
 import Native from "../../modules/zunos-native";
+import { seedLanguages } from "./corpus";
 
 export const dataDir = Native.dataDir();
 
@@ -30,20 +30,12 @@ export async function openDb() {
   });
   // Every language Whisper knows is selectable; existing rows (and their enabled flag) are kept.
   await o.db.insert(schema.languages).values(LANGUAGES.map((l, i) => ({
-    code: l.code, name: l.name, script: l.romanized ? "Latin (romanized)" : "native", enabled: false, sort: i,
+    code: l.code, name: l.name, script: defaultScript(l.code), enabled: false, sort: i,
   }))).onConflictDoNothing();
-  await seedPrompts(o.db);
+  // The reading corpus of each enabled language (new or changed files only; enabling one seeds it too).
+  await seedLanguages(o.db);
   opened = o;
   return o;
-}
-
-async function seedPrompts(db: ReturnType<typeof open>["db"]) {
-  const [row] = await db.select().from(schema.settings).where(eq(schema.settings.key, "seed_version"));
-  if (row?.value === SEED_VERSION) return;
-  const rows = SEED_PROMPTS.map((p) => ({ ...p, source: "builtin" })) as (typeof schema.prompts.$inferInsert)[];
-  for (let i = 0; i < rows.length; i += 100) await db.insert(schema.prompts).values(rows.slice(i, i + 100)).onConflictDoNothing();
-  await db.insert(schema.settings).values({ key: "seed_version", value: SEED_VERSION })
-    .onConflictDoUpdate({ target: schema.settings.key, set: { value: SEED_VERSION } });
 }
 
 export type Db = Awaited<ReturnType<typeof openDb>>["db"];

@@ -9,7 +9,14 @@ Commands:
   load        {model, fast?: bool}       → {"model"}; loads (and warms up) the model once
   transcribe  {path, beams?}             → {"text", "lang", "seconds", "elapsed"}; path is any wav
   eval        {model?, clips, beams?}    → {"rows", "scores"}; clips = [{id, lang, text, path}]
-  segment     {path, marks, lines, out_dir, id_prefix} → {"clips": [{id, start, end, seconds, text, path_16k, path_48k}]}
+  segment     {path, marks, lines, out_dir, id_prefix, clean_path?, noise_db?, read?}; read = lines the reader got through
+                                         → {"clips": [{id, start, end, seconds, text, path_16k, path_48k, path_48k_clean, quality}]}
+  measure     {path, room?}              → measurements of a WAV (enhance.measure); room = [start, end] seconds of room tone
+  enhance     {path, out, dir, lang?, lines?, marks?, read?, room?, check?} → {path, raw, clean, strength, wanted, applied, reason, ...};
+                                           cleans a take's background noise into `out` (the raw file is untouched);
+                                           events "progress" {"phase": measuring|downloading|cleaning|checking|done, "progress"}
+  enhance_status   {dir}                 → {"denoiser", "asr"}: whether the models are downloaded into dir
+  enhance_download {dir}                 → {"denoiser", "asr"} paths; background (other commands keep working)
   pack        {out, langs, clips, prompts, recordings, cfg?} → {"path", "bytes", "clips"}; training dataset
   unpack      {archive, dest}            → {"path"}; extracts a downloaded model tar
   cleanup_status   {dir}                 → {"downloaded", "totalBytes", "loaded"}; the transcript-cleanup LLM
@@ -88,7 +95,34 @@ class Engine:
     def cmd_segment(self, req):
         from .segment import segment
 
-        return {"clips": segment(req["path"], req["marks"], req["out_dir"], req["id_prefix"], req["lines"])}
+        return {"clips": segment(req["path"], req["marks"], req["out_dir"], req["id_prefix"], req["lines"],
+                                 req.get("clean_path"), req.get("noise_db"), req.get("read"))}
+
+    def cmd_measure(self, req):
+        import soundfile as sf
+
+        from .enhance import measure
+
+        x, sr = sf.read(req["path"], dtype="float32", always_2d=True)
+        return measure(x.mean(axis=1), sr, req.get("room"))
+
+    def cmd_enhance(self, req):
+        from .enhance import enhance
+
+        on_progress = lambda phase, frac: self.emit({"id": req["id"], "event": "progress", "data": {"phase": phase, "progress": round(frac, 3)}})
+        return enhance(req["path"], req["out"], req["dir"], req.get("lang"), req.get("lines"), req.get("marks"), req.get("room"),
+                       on_progress, req.get("check", True), read=req.get("read"))
+
+    def cmd_enhance_status(self, req):
+        from .enhance import models_ready
+
+        dn, asr = models_ready(req["dir"])
+        return {"denoiser": dn, "asr": asr}
+
+    def background_enhance_download(self, req):
+        from .enhance import download
+
+        return download(req["dir"])
 
     def cmd_pack(self, req):
         from .pack import pack

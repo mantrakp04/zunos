@@ -1,19 +1,29 @@
 // Reads and writes the user's voice library in the app database.
 import { schema } from "@zunos/db";
-import type { Lang } from "@zunos/db/schema";
+import type { Lang, Script } from "@zunos/db/schema";
 import { and, asc, desc, eq, inArray, sql } from "drizzle-orm";
 
+import type { MicStats } from "../../modules/zunos-native";
 import type {
-  Baseline, CleanupStyle, DictationItem, EvalResult, Language, LangStats, ModelItem, PromptItem, RunDetail, RunSummary, SavedRecording,
+  AudioMeasure, Baseline, CleanupStyle, MicDeviceInfo, TakeProcessing, TakeQuality, DictationItem, EvalResult, Language, LangStats, ModelItem, PromptItem, RunDetail, RunSummary, SavedRecording,
 } from "../shared/types";
 import Native from "../../modules/zunos-native";
 import { abs, dataDir, type Db } from "./db";
 import * as engine from "./engine";
+import * as corpus from "./corpus";
+import { deviceChangedIssue, takeVerdict } from "./quality";
 
 const { clips, dictations, evals, languages, models, prompts, recordings, runs, runSteps, baselines, settings } = schema;
 
 // Share of each language's clips held back for testing. Test clips are never trained on.
 const TEST_SHARE = 0.25;
+// The background-noise cleaner and the Whisper model that checks it (python/engine enhance.py), fetched on first use.
+const ENHANCE_DIR = `${dataDir}/models`;
+
+type EnhanceResult = {
+  path: string | null; raw: AudioMeasure & { silent?: boolean }; clean: AudioMeasure | null; strength: number; wanted: number;
+  reason: NonNullable<TakeQuality["cleaning"]>["reason"]; tried: NonNullable<TakeQuality["cleaning"]>["tried"];
+};
 
 export function createLibrary(db: Db) {
   /** Splits for `n` new clips of `lang`: about one in four goes to the test set. */
@@ -30,15 +40,55 @@ export function createLibrary(db: Db) {
     });
   }
 
+  // Takes being cut right now (a fresh one or a retry): not "unsegmented", and not cut twice at once.
+  const cutting = new Set<string>();
+
+  /**
+   * Cuts a stored take into clips at its line marks (engine `segment`; `read` = lines the reader got
+   * through, when known) and saves them with train/test splits. On failure the take and its row stay,
+   * no clips are written, and the error says the take is safe.
+   */
+  async function cutTake(
+    rec: { id: string; rel: string },
+    prompt: { lang: Lang; kind: string; lines: string[]; native?: string[] | null },
+    take: { marks: (number | null)[]; read?: number; cleanPath?: string | null; noiseDb?: number | null },
+  ) {
+    let cut: any[];
+    try {
+      ({ clips: cut } = await engine.call<{ clips: any[] }>("segment", {
+        path: abs(rec.rel), marks: take.marks, read: take.read ?? null, lines: prompt.lines, out_dir: `${dataDir}/audio/clips`,
+        id_prefix: rec.id, clean_path: take.cleanPath ?? null, noise_db: take.noiseDb ?? null,
+      }));
+      if (!cut.length) throw new Error("no clips came out");
+    } catch (e) {
+      console.warn(`zunos: cutting ${rec.id} failed`, e);
+      throw new Error(`Your take is saved, but cutting it into clips failed (${e instanceof Error ? e.message : String(e)}). Nothing is lost: try again.`);
+    }
+    const splits = await nextSplits(prompt.lang, cut.length);
+    const saved = cut.map((c, i) => ({
+      id: c.id, recordingId: rec.id, lang: prompt.lang, kind: prompt.kind, start: c.start, end: c.end, seconds: c.seconds,
+      path16k: c.path_16k.replace(`${dataDir}/`, ""), path48k: c.path_48k.replace(`${dataDir}/`, ""),
+      path48kClean: c.path_48k_clean ? (c.path_48k_clean as string).replace(`${dataDir}/`, "") : null, quality: c.quality ?? null,
+      text: c.text, nativeText: corpus.nativeTextOf(prompt.native, c.lines), split: splits[i]!, unsure: false,
+    }));
+    await db.insert(clips).values(saved);
+    return saved;
+  }
+
   return {
     /** All languages, the user's own first. */
     async languages(): Promise<Language[]> {
-      return db.select().from(languages).orderBy(desc(languages.enabled), asc(languages.sort));
+      return (await db.select().from(languages).orderBy(desc(languages.enabled), asc(languages.sort))).map(corpus.withRoman);
     },
 
     async setLanguageEnabled(code: Lang, enabled: boolean) {
       await db.update(languages).set({ enabled }).where(eq(languages.code, code));
+      if (enabled) await corpus.seedLanguages(db, [code]);
     },
+
+    setLanguageScript: (code: Lang, script: Script) => corpus.setLanguageScript(db, code, script),
+    /** The script a take of this prompt is read in (the language's choice, when the prompt has those lines). */
+    takeScript: (promptId: string) => corpus.takeScript(db, promptId),
 
     async stats(): Promise<LangStats[]> {
       const rows = await db
@@ -53,7 +103,7 @@ export function createLibrary(db: Db) {
           // Fully qualified: drizzle renders ${prompts.id} as a bare "id", which would bind to r.id.
           recorded: sql<number>`sum(exists(select 1 from recordings r where r.prompt_id = "prompts"."id"))`,
         })
-        .from(prompts).groupBy(prompts.lang);
+        .from(prompts).where(corpus.listed).groupBy(prompts.lang);
       const langs = (await this.languages()).filter((l) => l.enabled);
       return langs.map(({ code }) => {
         const get = (split: string) => rows.find((r) => r.lang === code && r.split === split);
@@ -67,27 +117,14 @@ export function createLibrary(db: Db) {
       });
     },
 
-    /** Paragraphs and twisters first (they give the most speech per take), then dictation sentences. */
-    async prompts(lang: Lang): Promise<PromptItem[]> {
-      const rows = await db
-        .select({
-          id: prompts.id, lang: prompts.lang, kind: prompts.kind, title: prompts.title, lines: prompts.lines,
-          recorded: sql<number>`exists(select 1 from recordings r where r.prompt_id = "prompts"."id")`,
-        })
-        .from(prompts)
-        .where(eq(prompts.lang, lang))
-        .orderBy(sql`case ${prompts.kind} when 'para' then 0 when 'twister' then 1 else 2 end`, asc(prompts.id));
-      return rows.map((r) => ({ ...r, recorded: !!r.recorded }));
-    },
+    /** The starter set first, then passages (the most speech per take), then dictation sentences. */
+    prompts: (lang: Lang): Promise<PromptItem[]> => corpus.promptItems(db, lang),
 
     /** A passage the user wrote or pasted, split into lines at sentence ends. */
     async createPrompt(lang: Lang, text: string): Promise<PromptItem> {
       const lines = text.split(/(?<=[.!?।॥。！？])\s+|\n+/).map((l) => l.trim()).filter(Boolean);
       if (!lines.length) throw new Error("Write at least one sentence.");
-      const id = `user-${lang}-${Date.now().toString(36)}`;
-      const title = lines[0]!.slice(0, 60);
-      await db.insert(prompts).values({ id, lang, kind: lines.length > 1 ? "para" : "sentence", title, lines, source: "user" });
-      return { id, lang, kind: lines.length > 1 ? "para" : "sentence", title, lines, recorded: false };
+      return corpus.createUserPrompt(db, lang, lines);
     },
 
     newRecordingPath(promptId: string) {
@@ -95,25 +132,106 @@ export function createLibrary(db: Db) {
       return { id, rel: `audio/recordings/${id}.wav`, path: `${dataDir}/audio/recordings/${id}.wav` };
     },
 
-    /** Store a finished take, cut it into clips at line boundaries, and assign train/test splits. */
-    async saveRecording(promptId: string, rec: { id: string; rel: string }, take: { seconds: number; sampleRate: number; marks: number[] }): Promise<SavedRecording> {
+    /**
+     * Store a finished take, measure it, clean its background noise into a separate file, cut both into clips
+     * at line boundaries, and assign train/test splits.
+     *
+     * Which audio feeds what: the raw take's 16 kHz clips are the training input and the test set (dictation
+     * hears the raw microphone, and the pod adds its own noise); the cleaned take's 48 kHz clips are the
+     * voice-cloning references (a TTS model copies whatever is in its reference, room noise included). The raw
+     * take is never modified.
+     */
+    async saveRecording(
+      promptId: string,
+      rec: { id: string; rel: string },
+      take: {
+        seconds: number; sampleRate: number; marks: (number | null)[];
+        /** Lines the reader got through (finishTake's line + 1), when the screen says. */
+        read?: number;
+        /** The prompt's script the take was read in (startTake's corpus.takeScript). */
+        script?: Script;
+        /** Seconds of room tone at the start; the device and live statistics from the recorder. */
+        room?: number; device?: MicDeviceInfo | null; deviceChanged?: boolean; stats?: MicStats;
+      },
+      onProgress?: (p: TakeProcessing) => void,
+    ): Promise<SavedRecording> {
       const [prompt] = await db.select().from(prompts).where(eq(prompts.id, promptId));
       if (!prompt) throw new Error(`Unknown prompt ${promptId}`);
+      const script = take.script ?? await corpus.takeScript(db, promptId);
+      const { lines, native } = corpus.takeLines(prompt, script);
       await db.insert(recordings).values({
         id: rec.id, promptId, lang: prompt.lang, kind: prompt.kind, path: rec.rel, sampleRate: take.sampleRate,
-        seconds: take.seconds, marks: take.marks, recordedAt: new Date().toISOString(),
+        seconds: take.seconds, marks: take.marks as number[], recordedAt: new Date().toISOString(), script,
       });
-      const { clips: cut } = await engine.call<{ clips: any[] }>("segment", {
-        path: abs(rec.rel), marks: take.marks, lines: prompt.lines, out_dir: `${dataDir}/audio/clips`, id_prefix: rec.id,
-      });
-      const splits = await nextSplits(prompt.lang, cut.length);
-      const saved = cut.map((c, i) => ({
-        id: c.id, recordingId: rec.id, lang: prompt.lang, kind: prompt.kind, start: c.start, end: c.end, seconds: c.seconds,
-        path16k: c.path_16k.replace(`${dataDir}/`, ""), path48k: c.path_48k.replace(`${dataDir}/`, ""),
-        text: c.text, split: splits[i]!, unsure: false,
-      }));
-      if (saved.length) await db.insert(clips).values(saved);
-      return { recordingId: rec.id, seconds: take.seconds, clips: saved.map(({ id, seconds, split, text }) => ({ id, seconds, split, text })) };
+      cutting.add(rec.id);
+      try {
+        const cleanRel = `audio/recordings-clean/${rec.id}.wav`;
+        let enh: EnhanceResult | null = null;
+        onProgress?.({ phase: "measuring", progress: 0 });
+        try {
+          enh = await engine.call<EnhanceResult>("enhance", {
+            path: abs(rec.rel), out: abs(cleanRel), dir: ENHANCE_DIR, lang: prompt.lang, lines, marks: take.marks, read: take.read ?? null,
+            room: take.room ? [0, take.room] : null,
+          }, (event, data) => {
+            if (event === "progress" && data.phase !== "done") onProgress?.({ phase: data.phase, progress: data.progress });
+          });
+        } catch (e) {
+          // Cleaning is for the voice-cloning copy; the take itself is fine without it.
+          console.warn("zunos: cleaning the take failed", e);
+        }
+        const raw = enh && !enh.raw.silent ? enh.raw : null;
+        const verdict = takeVerdict(raw, take.stats, take.device ?? null);
+        if (take.deviceChanged) {
+          verdict.issues.unshift(deviceChangedIssue());
+          verdict.verdict = "redo";
+        }
+        const quality: TakeQuality = {
+          ...verdict, device: take.device ?? null, raw, clean: enh?.clean ?? null,
+          cleaning: enh ? { strength: enh.strength, wanted: enh.wanted, reason: enh.reason, tried: enh.tried ?? [] }
+            : { strength: 0, wanted: 0, reason: "failed", tried: [] },
+        };
+        await db.update(recordings).set({ cleanPath: enh?.path ? cleanRel : null, quality }).where(eq(recordings.id, rec.id));
+
+        onProgress?.({ phase: "cutting", progress: 0 });
+        const saved = await cutTake(rec, { ...prompt, lines, native }, { marks: take.marks, read: take.read, cleanPath: enh?.path ?? null, noiseDb: raw?.noiseDb ?? null });
+        return {
+          recordingId: rec.id, seconds: take.seconds, quality,
+          clips: saved.map(({ id, seconds, split, text }) => ({ id, seconds, split, text })),
+        };
+      } finally {
+        cutting.delete(rec.id);
+      }
+    },
+
+    /** Kept prompt takes without clips (cutting them failed), newest first. */
+    async unsegmentedRecordings() {
+      const rows = await db
+        .select({ id: recordings.id, promptId: recordings.promptId, lang: recordings.lang, seconds: recordings.seconds, recordedAt: recordings.recordedAt })
+        .from(recordings)
+        .where(sql`${recordings.promptId} is not null and not exists (select 1 from clips c where c.recording_id = "recordings"."id")`)
+        .orderBy(desc(recordings.recordedAt));
+      return rows.filter((r) => !cutting.has(r.id));
+    },
+
+    /** Cuts a kept take into clips again from its stored marks; a take that already has clips is returned as is. */
+    async resegmentRecording(id: string): Promise<SavedRecording> {
+      const [r] = await db.select().from(recordings).where(eq(recordings.id, id));
+      if (!r?.promptId) throw new Error("That take is gone.");
+      const done = await db.select({ id: clips.id, seconds: clips.seconds, split: clips.split, text: clips.text }).from(clips).where(eq(clips.recordingId, id));
+      const quality = (r.quality ?? null) as TakeQuality | null;
+      if (done.length) return { recordingId: id, seconds: r.seconds, quality, clips: done };
+      if (cutting.has(id)) throw new Error("That take is being cut into clips already.");
+      const [prompt] = await db.select().from(prompts).where(eq(prompts.id, r.promptId));
+      if (!prompt) throw new Error(`Unknown prompt ${r.promptId}`);
+      cutting.add(id);
+      try {
+        const saved = await cutTake({ id, rel: r.path }, { ...prompt, ...corpus.takeLines(prompt, r.script) }, {
+          marks: r.marks, cleanPath: r.cleanPath ? abs(r.cleanPath) : null, noiseDb: quality?.raw?.noiseDb ?? null,
+        });
+        return { recordingId: id, seconds: r.seconds, quality, clips: saved.map(({ id, seconds, split, text }) => ({ id, seconds, split, text })) };
+      } finally {
+        cutting.delete(id);
+      }
     },
 
     async testClips() {
@@ -184,9 +302,10 @@ export function createLibrary(db: Db) {
       return {
         clips: cs.map((c) => ({
           id: c.id, lang: c.lang, split: c.split, text: c.text, native_text: c.nativeText, seconds: c.seconds, kind: c.kind,
-          path_16k: abs(c.path16k), path_48k: c.path48k ? abs(c.path48k) : null,
+          // 48 kHz clips are only voice-cloning references on the pod: send the cleaned cut when there is one.
+          path_16k: abs(c.path16k), path_48k: c.path48kClean ? abs(c.path48kClean) : c.path48k ? abs(c.path48k) : null,
         })),
-        prompts: ps.map((p) => ({ id: p.id, lang: p.lang, roman: p.lines[0]!, native: p.nativeLines?.[0] ?? null })),
+        prompts: ps.map((p) => ({ id: p.id, lang: p.lang, roman: p.roman?.[0] ?? null, native: p.native?.[0] ?? null })),
         recordings: recs.map((r) => abs(r.path)),
       };
     },

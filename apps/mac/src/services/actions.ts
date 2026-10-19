@@ -1,21 +1,31 @@
 // The async "native actions" the DOM screens call. Inputs and outputs are plain JSON.
-import Native from "../../modules/zunos-native";
-import type { Lang, LiveState, SavedRecording } from "../shared/types";
+import Native, { type RecordingResult } from "../../modules/zunos-native";
+import type { Lang, LiveState, SavedRecording, Script } from "../shared/types";
 import * as auth from "./auth";
 import { dataDir } from "./db";
 import { createDictation, errorText } from "./dictation";
 import * as engine from "./engine";
 import type { Library } from "./library";
+import { checkRoom, createMicMonitor, prefetchCleaningModels } from "./mic";
+import { deviceInfo, ROOM_SECONDS } from "./quality";
 import * as training from "./training";
 
 export type SetLive = (patch: Partial<LiveState> | ((s: LiveState) => Partial<LiveState>)) => void;
+
+// Saving cleans the take and cuts it into clips; past this the screen stops waiting (the take is kept either way).
+const SAVE_TIMEOUT_MS = 3 * 60_000;
+const SAVE_SLOW = "Saving this take is taking too long. It's kept and may still finish in the background; if it doesn't get clips, retry it.";
 
 const MIC_BLOCKED =
   "macOS gave zunos pure silence, which means microphone access is off. Open System Settings → Privacy & Security → Microphone and turn on zunos.";
 
 /** The DOM-facing actions, plus the dictation controller app.ts starts at launch. */
 export function createActions(lib: Library, setLive: SetLive) {
-  let take: { promptId: string; rec: { id: string; rel: string; path: string }; startedAt: number; marks: number[] } | null = null;
+  // marks[i]: the second the reader moved past line i (null: that call never arrived; segment.py places it).
+  let take: { promptId: string; script: Script; rec: { id: string; rel: string; path: string }; startedAt: number; marks: (number | null)[] } | null = null;
+  // The take being saved: a second finish (Return pressed twice) waits for it instead of failing.
+  let finishing: Promise<SavedRecording> | null = null;
+  const mic = createMicMonitor(setLive);
   let loadedModel: string | null = null;
   // One model load at a time: callers that arrive mid-load wait for it instead of loading again.
   let loading: Promise<void> | null = null;
@@ -67,17 +77,32 @@ export function createActions(lib: Library, setLive: SetLive) {
     }
   }
 
-  async function beginRecording(path: string) {
+  async function ensurePermission() {
     let perm = Native.micPermission();
     if (perm === "undetermined") perm = await Native.requestMicPermission();
     if (perm === "denied") throw new Error(MIC_BLOCKED);
-    await Native.startRecording(path);
-    setLive({ recording: true, level: 0 });
   }
 
-  async function endRecording() {
-    const res = await Native.stopRecording();
-    setLive({ recording: false, level: 0 });
+  /** watch: show live checks (prompt takes and the room check); roomSeconds of quiet room tone come first. */
+  async function beginRecording(path: string, watch?: { phase: "room" | "recording"; roomSeconds: number }) {
+    await ensurePermission();
+    const started = await Native.startRecording(path, watch?.roomSeconds ?? 0);
+    setLive({ recording: true, level: 0 });
+    if (watch) mic.start(watch.phase, deviceInfo(started.device), watch.roomSeconds);
+  }
+
+  /** Stops the microphone; the live state says "not recording" whatever happens. */
+  async function stopRecorder(): Promise<RecordingResult> {
+    try {
+      return await Native.stopRecording();
+    } finally {
+      mic.stop();
+      setLive({ recording: false, level: 0 });
+    }
+  }
+
+  async function endRecording(): Promise<RecordingResult> {
+    const res = await stopRecorder();
     if (res.peak === 0) {
       await Native.deleteFile(res.path);
       throw new Error(MIC_BLOCKED);
@@ -88,12 +113,11 @@ export function createActions(lib: Library, setLive: SetLive) {
   /** The microphone, shared by prompt takes and dictation (one at a time). */
   const recorder = {
     busy: () => take !== null,
-    begin: beginRecording,
+    begin: (path: string) => beginRecording(path),
     end: endRecording,
     /** Stops without keeping anything. */
     async cancel() {
-      const res = await Native.stopRecording();
-      setLive({ recording: false, level: 0 });
+      const res = await stopRecorder();
       if (res.path) await Native.deleteFile(res.path);
     },
   };
@@ -124,25 +148,76 @@ export function createActions(lib: Library, setLive: SetLive) {
     stats: () => lib.stats(),
     prompts: (lang: Lang) => lib.prompts(lang),
     createPrompt: (lang: Lang, text: string) => lib.createPrompt(lang, text),
+    /** Read (and train) a language in its own script or in English letters; returns the updated language. */
+    setLanguageScript: (lang: Lang, script: Script) => lib.setLanguageScript(lang, script),
 
     // ---- recording a prompt
+    /** The microphone that would record now, and what's wrong with it before the user starts. */
+    micInfo: async () => mic.info(),
+    /**
+     * Listens to the room for `seconds` with the user quiet: noise floor, hum, rumble and the device. The
+     * Record screen can run it before the first take; every take also starts with ROOM_SECONDS of quiet.
+     */
+    async checkRoom(seconds = 3) {
+      if (take) throw new Error("Already recording.");
+      return checkRoom(seconds, { begin: (path) => beginRecording(path, { phase: "room", roomSeconds: seconds }), end: endRecording });
+    },
+    /** Starts a take. The first ROOM_SECONDS are room tone: the screen should ask for quiet until mic.roomTone is false. */
     async startTake(promptId: string) {
       const rec = lib.newRecordingPath(promptId);
-      await beginRecording(rec.path);
-      take = { promptId, rec, startedAt: Date.now(), marks: [] };
+      const script = await lib.takeScript(promptId);
+      await beginRecording(rec.path, { phase: "recording", roomSeconds: ROOM_SECONDS });
+      prefetchCleaningModels();
+      take = { promptId, script, rec, startedAt: Date.now(), marks: [] };
     },
-    /** The reader moved past a line. */
-    async markLine() {
-      if (take) take.marks.push((Date.now() - take.startedAt) / 1000);
+    /**
+     * The reader moved past a line. Pass `line`, the index of the line just read, so a lost or repeated
+     * call can't shift the lines after it (the first mark for a line wins).
+     */
+    async markLine(line?: number) {
+      if (!take) return;
+      const t = (Date.now() - take.startedAt) / 1000;
+      if (typeof line !== "number" || !Number.isInteger(line) || line < 0) return void take.marks.push(t);
+      while (take.marks.length < line) take.marks.push(null);
+      if (take.marks.length === line) take.marks.push(t);
     },
-    async finishTake(): Promise<SavedRecording> {
+    /**
+     * Stops and saves the take; the end of the audio is the end of the line being read. Pass `line`, the
+     * line the reader is on: it and every line before it count as read, later ones are dropped. If cutting
+     * the take into clips fails, the take is kept and the error says so (retry with resegmentRecording).
+     */
+    async finishTake(line?: number): Promise<SavedRecording> {
+      if (finishing) return finishing;
       if (!take) throw new Error("Not recording.");
       const t = take;
       take = null;
-      const res = await endRecording();
-      return lib.saveRecording(t.promptId, t.rec, { seconds: res.seconds, sampleRate: res.sampleRate, marks: [...t.marks, res.seconds] });
+      const read = typeof line === "number" && Number.isInteger(line) && line >= 0 ? line + 1 : undefined;
+      finishing = (async () => {
+        // The microphone stops first, whatever happens after: a hung save must never leave it recording.
+        const res = await endRecording();
+        try {
+          const save = lib.saveRecording(t.promptId, t.rec, {
+            seconds: res.seconds, sampleRate: res.sampleRate, marks: [...t.marks, res.seconds], read, script: t.script,
+            room: ROOM_SECONDS, device: deviceInfo(res.device), deviceChanged: res.deviceChanged, stats: res.stats,
+          }, (p) => setLive({ takeProcessing: p }));
+          let timer: ReturnType<typeof setTimeout> | undefined;
+          const late = new Promise<never>((_, reject) => {
+            timer = setTimeout(() => reject(new Error(SAVE_SLOW)), SAVE_TIMEOUT_MS);
+          });
+          save.catch(() => {}); // after a timeout it may still fail on its own; the retry covers that
+          return await Promise.race([save, late]).finally(() => clearTimeout(timer));
+        } finally {
+          setLive({ takeProcessing: null });
+        }
+      })().finally(() => (finishing = null));
+      return finishing;
     },
+    /** Cuts a kept take into clips again (one whose cutting failed), the same way finishing it does. */
+    resegmentRecording: (id: string) => lib.resegmentRecording(id),
+    /** Takes that were kept but have no clips (their cutting failed): retry each with resegmentRecording. */
+    unsegmentedRecordings: () => lib.unsegmentedRecordings(),
     async cancelTake() {
+      if (finishing) return void (await finishing.catch(() => {})); // already stopped and saving: keep it
       if (!take) return;
       take = null;
       await recorder.cancel();
@@ -161,7 +236,9 @@ export function createActions(lib: Library, setLive: SetLive) {
       try {
         setLive({ transfer: { runId: id, phase: "packing", progress: 0 } });
         const data = await lib.trainingDataset(langs);
-        await engine.call("pack", { out: archive, langs, ...data, cfg: {} });
+        // The script each language's model learns to write: the one the user reads it in.
+        const scripts = Object.fromEntries((await lib.languages()).filter((l) => langs.includes(l.code)).map((l) => [l.code, l.script]));
+        await engine.call("pack", { out: archive, langs, ...data, cfg: { scripts } });
         setLive({ transfer: { runId: id, phase: "uploading", progress: 0 } });
         const sub = Native.addListener("onTransfer", (e) => {
           if (e.id === id && e.total > 0) setLive({ transfer: { runId: id, phase: "uploading", progress: e.done / e.total } });
