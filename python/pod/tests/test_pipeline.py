@@ -142,6 +142,24 @@ def test_variant_options_validated():
     assert cfg["pseudo"]["p1"]["vad"]["max_s"] == 20.0 and cfg["runs"][0]["kl"]["weight"] == 0.0
 
 
+def test_second_stage_runs_at_its_own_peak():
+    import torch
+
+    from schedule import stage_schedule
+
+    p = torch.nn.Parameter(torch.zeros(1))
+    opt = torch.optim.AdamW([p], lr=1e-3)
+    s1 = stage_schedule(opt, 1e-3, 2, 10)
+    for _ in range(10):
+        opt.step(); s1.step()
+    s2 = stage_schedule(opt, 2e-4, 1, 10)  # stage 2 at lr_mult 0.2
+    seen = []
+    for _ in range(10):
+        seen.append(opt.param_groups[0]["lr"])
+        opt.step(); s2.step()
+    assert abs(seen[0] - 2e-4) < 1e-12 and max(seen) <= 2e-4 + 1e-12, seen  # was 1e-3: stage 1's peak
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):

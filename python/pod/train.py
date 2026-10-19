@@ -33,6 +33,7 @@ from torch.utils.data import DataLoader, Dataset
 import variability
 from augment import NoiseBank, augment
 from data import read_jsonl, synth_val_ids, write_jsonl
+from schedule import stage_schedule
 from zunos_core.scoring import bootstrap, comparable, score_clips, verdict
 
 work, variant_path, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
@@ -216,10 +217,7 @@ step = 0
 
 def run_stage(name, dl, total, peak_lr, warmup):
     global step
-    for g in opt.param_groups:
-        g["lr"] = peak_lr
-    sched = torch.optim.lr_scheduler.LambdaLR(
-        opt, lambda s: min(1.0, (s + 1) / max(1, warmup)) * 0.5 * (1 + math.cos(math.pi * min(1.0, s / max(1, total)))))
+    sched = stage_schedule(opt, peak_lr, warmup, total)
     done, run_loss, run_kl, t0, i = 0, 0.0, 0.0, time.time(), 0
     while done < total and not best["stopped"]:
         for batch in dl:

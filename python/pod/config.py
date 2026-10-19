@@ -87,7 +87,8 @@ TRAIN = {
     "freeze_enc": 0,                  # Whisper: first N encoder layers; Qwen/flex: >0 freezes the encoder
     # Stage 1: synthetic + real, real oversampled so it is `real_share` of the samples seen.
     "stage1": {"epochs": 3, "steps": 0, "real_share": 0.3},   # steps > 0 overrides epochs
-    # Stage 2: short real-only polish at a low learning rate (0 steps = off).
+    # Stage 2: short real-only polish at lr x lr_mult (0 steps = off). Before 2026-10-19 lr_mult was ignored and stage 2
+    # ran at the full lr; lr_mult 1.0 reproduces that.
     "stage2": {"steps": 120, "lr_mult": 0.2, "augment": 0.5},
     "synth": {"share": 1.0, "engines": None},   # fraction of the kept synthetic takes; engines per language
     "augment": True, "concat": 0.25,
@@ -114,11 +115,12 @@ TRAIN = {
 # One pseudo-labeled set (pseudo.py): the user's unlabeled audio (dataset unlabeled/, e.g. everyday dictation) cut
 # into speech segments, kept when it is the user's voice, labeled by a teacher and kept only where a second model
 # agrees. teacher / agree: a variant of this run (trained before the first variant that uses the set) or a model
-# spec (a base such as "flex", or a model folder).
+# spec (a base such as "flex", or a model folder). teacher "provided": the labels come with the audio (each unlabeled
+# entry is one segment with its `text`, e.g. the reference's transcript of a dictation); no VAD, no teacher decode.
 PSEUDO = {
     "teacher": None,
-    "agree": None,                    # None = no agreement check (not recommended)
-    "max_disagree": 0.25,             # fuzzy WER between the teacher's and the agreeing model's transcripts
+    "agree": None,                    # None = no agreement check
+    "max_disagree": 0.25,             # fuzzy WER between the teacher's and the agreeing model's text; None = report only
     "beams": 4, "agree_beams": 2,
     # silero-vad speech regions, merged across gaps <= max_gap into segments of min_s..max_s seconds.
     "vad": {"threshold": 0.5, "min_s": 4.0, "max_s": 20.0, "max_gap": 0.8, "pad": 0.15},

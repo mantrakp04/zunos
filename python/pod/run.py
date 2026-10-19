@@ -373,8 +373,10 @@ def build_pseudo(cfg, name):
         D = f"{WORK}/data"
         assert read_jsonl(f"{D}/unlabeled.jsonl"), "the dataset has no unlabeled audio"
         p = cfg["pseudo"][name]
-        need_env("vad")
-        run([py("vad"), "pseudo.py", "segment", WORK, name], f"pseudo_{name}")
+        prov = p["teacher"] == "provided"  # labels came with the audio: no VAD (no vad env), no teacher decode
+        env = "train" if prov else "vad"
+        need_env(env)
+        run([py(env), "pseudo.py", "segment", WORK, name], f"pseudo_{name}")
         if p["speaker"]["enabled"]:
             from pseudo import seg_dir
 
@@ -389,7 +391,7 @@ def build_pseudo(cfg, name):
         need_env("train")
         run([py("train"), "pseudo.py", "voice", WORK, name], f"pseudo_{name}")
         for role in ("teacher", "agree"):
-            if p[role]:
+            if p[role] and not (role == "teacher" and prov):
                 run([py("train"), "pseudo.py", "decode", WORK, name, role], f"pseudo_{name}")
         run([py("train"), "pseudo.py", "select", WORK, name], f"pseudo_{name}")
         rep = json.load(open(f"{D}/pseudo/{name}/report.json"))
@@ -511,7 +513,7 @@ def main():
         # Environments install in the background while the data is prepared.
         for e in ["train", "judge", *sorted(config.tts_engines(cfg["gen"], m["langs"]) & {"omnivoice", "higgs"})]:
             ensure_env(e)
-        if any(r["pseudo"]["set"] for r in cfg["runs"]):
+        if any(r["pseudo"]["set"] and cfg["pseudo"][r["pseudo"]["set"]]["teacher"] != "provided" for r in cfg["runs"]):
             ensure_env("vad")
         if any(config.base_engine(e) == "vc" for l in m["langs"] for e in config.engines_for(cfg["gen"], l)):
             ensure_env({"seed-vc": "seedvc", "chatterbox-vc": "chattervc"}.get(cfg["gen"]["vc"]["model"], "train"))

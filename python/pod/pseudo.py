@@ -1,7 +1,7 @@
 """Pseudo-labels: the user's unlabeled audio (dataset unlabeled/, later their everyday dictation) turned into
 training data. One set per spec entry (config.PSEUDO); run.py runs the steps in the env each needs:
 
-    python pseudo.py segment <work> <set>              (vad env)   speech segments of min_s..max_s seconds
+    python pseudo.py segment <work> <set>              (vad env; train env for provided labels) segments
     python pseudo.py voice <work> <set>                (train env) segments in the user's voice -> candidates
     python pseudo.py decode <work> <set> <teacher|agree> (train env) transcripts of the candidates
     python pseudo.py select <work> <set>               (train env) checks -> data/pseudo/<set>/rows.jsonl
@@ -9,13 +9,18 @@ training data. One set per spec entry (config.PSEUDO); run.py runs the steps in 
   segment  silero-vad speech regions of every unlabeled recording, merged across short gaps into segments
            (pad on both sides). A recording that names its source and span is checked against the labeled clips'
            spans in the same source: they must not overlap (test audio never becomes training data).
+           Provided labels (teacher "provided"): every unlabeled entry is already one segment and carries its label
+           (`text`, in the script of the user's labels; in the app, the reference's transcript of a dictation, made
+           in the background). No VAD; entries of 1-30 s are kept, each checked against the labeled clips' spans.
   voice    WavLM speaker embeddings (judge.py speaker, judge env) of the segments and of the user's labeled
            train clips (never the test clips); a segment is kept when its cosine to the clips' centroid is
            >= max(abs_min, min_rel x the clips' leave-one-out similarity). Drops other voices, music, chanting.
   decode   the teacher (and the agreeing model) transcribe the candidates with the language given, in the
-           output mode of the user's labels. Transcripts are cached per model across sets.
+           output mode of the user's labels. Transcripts are cached per model across sets. Provided labels
+           skip the teacher.
   select   keep a segment when the teacher's text is non-empty, in the labels' script, at a sane letters/s, not
-           looping, and the agreeing model's text is within max_disagree fuzzy WER of it. Any segment whose text
+           looping, and the agreeing model's text is within max_disagree fuzzy WER of it (max_disagree None: the
+           agreement is only reported). Any segment whose text
            matches a test clip's text is rejected, and an assertion checks none is left.
 
 Segments, embeddings and transcripts live in <work>/pseudo/<segment key>/ (shared by sets with the same VAD
@@ -39,11 +44,16 @@ def set_cfg(work, name):
     return cfg, cfg["pseudo"][name]
 
 
+def provided(p):
+    return p["teacher"] == "provided"
+
+
 def seg_dir(work, p):
     import config
 
     recs = read_jsonl(f"{work}/data/unlabeled.jsonl")
-    return f"{work}/pseudo/seg-{config.digest(p['vad'], p['max_minutes'], [r['id'] for r in recs])}"
+    key = [p["vad"], p["max_minutes"], [r["id"] for r in recs]] + (["provided"] if provided(p) else [])
+    return f"{work}/pseudo/seg-{config.digest(*key)}"
 
 
 def set_dir(work, name):
@@ -110,8 +120,6 @@ def merge_regions(regions, min_s, max_s, max_gap, pad, total):
 
 def segment(work, name):
     import soundfile as sf
-    import torch
-    from silero_vad import get_speech_timestamps, load_silero_vad
 
     cfg, p = set_cfg(work, name)
     v = p["vad"]
@@ -123,6 +131,27 @@ def segment(work, name):
     recs = read_jsonl(f"{work}/data/unlabeled.jsonl")
     manifest = json.load(open(f"{work}/data/manifest.json", encoding="utf-8"))
     check_spans(recs, manifest["clips"])
+    if provided(p):
+        rows, dropped = [], []
+        for rec in recs:
+            assert rec.get("text"), f"{rec['id']}: provided labels need a text"
+            a, sr = sf.read(rec["path"], dtype="float32", always_2d=True)
+            a = a.mean(1)
+            assert sr == SR, f"{rec['path']}: {sr} Hz (unlabeled audio must be 16 kHz)"
+            if not 1.0 <= len(a) / SR <= 30.0:
+                dropped.append(rec["id"])
+                continue
+            path = f"{d}/wav/{rec['id']}.wav"
+            sf.write(path, a, SR, subtype="PCM_16")
+            span = rec.get("span") or [0.0, len(a) / SR]
+            rows.append(dict(id=rec["id"], lang=rec["lang"], rec=rec["id"], start=span[0], end=span[1],
+                             dur=round(len(a) / SR, 2), path=path, text=rec["text"]))
+        write_jsonl(f"{d}/segments.jsonl", rows)
+        print(f"provided: {len(rows)} segments, {sum(r['dur'] for r in rows) / 60:.1f} min; {len(dropped)} outside 1-30 s", flush=True)
+        return
+    import torch
+    from silero_vad import get_speech_timestamps, load_silero_vad
+
     torch.set_num_threads(min(8, os.cpu_count() or 1))
     model = load_silero_vad()
     rows, total_s, cap = [], 0.0, p["max_minutes"] * 60
@@ -248,7 +277,8 @@ def select(work, name):
     cands = read_jsonl(f"{out}/candidates.jsonl")
     segs = read_jsonl(f"{d}/segments.jsonl")
     hyp = lambda m: {r["id"]: r["hyp"] for r in read_jsonl(f"{d}/hyps-{m.replace('/', '_')}.jsonl")} if m else {}  # noqa: E731
-    teacher, agree = hyp(p["teacher"]), hyp(p["agree"])
+    teacher = {s["id"]: s["text"] for s in segs} if provided(p) else hyp(p["teacher"])
+    agree = hyp(p["agree"])
     cps = {}
     for lang in sorted({r["lang"] for r in labeled}):
         vals = [letters(r["text"]) / r["seconds"] for r in labeled if r["lang"] == lang and r["seconds"]]
@@ -275,7 +305,7 @@ def select(work, name):
                 a = agree.get(c["id"])
                 dis = clip_wer(comparable(a, text), text, lang)[0] if a is not None else 1.0
                 c["agree_hyp"], c["disagree"] = a, round(dis, 3)
-                if dis > p["max_disagree"]:
+                if p["max_disagree"] is not None and dis > p["max_disagree"]:
                     fails.append("disagree")
             hit = overlaps_test(text, tests, lang)
             if hit:
