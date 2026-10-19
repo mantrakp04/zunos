@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { memo, type ReactNode, useEffect, useMemo, useState } from "react";
 
 import { Kbd, langName, Segmented } from "../../ui";
+import type { CleanupStyle } from "../../../shared/types";
 import { CLEANUP_STYLES, wordDiff } from "./cleanup";
 
 /** One dictation result, as kept in this session's history. */
@@ -11,10 +12,10 @@ export type Transcript = {
   id: number;
   /** What Whisper heard. */
   text: string;
-  /** The cleaned-up text, when cleanup ran. TODO(cleanup): from stopDictation's result. */
-  clean?: string | null;
-  /** Cleanup style id that produced `clean`. */
-  style?: string | null;
+  /** The cleaned-up text, when cleanup ran and its output passed the checks. */
+  clean: string | null;
+  /** Cleanup style that produced `clean`. */
+  style: CleanupStyle | null;
   lang: string;
   seconds: number;
   elapsed: number;

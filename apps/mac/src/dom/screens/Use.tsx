@@ -7,7 +7,7 @@ import type { BeanMood } from "../Bean";
 import { Button, ErrorNote, PageHeader, useAction, useAsync } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 import { Instrument, type Phase, Timer } from "./use/Instrument";
-import { CleanupStrip, previewClean, useCleanup } from "./use/cleanup";
+import { CleanupStrip, useCleanup } from "./use/cleanup";
 import { type Clip, type Transcript, TranscriptList } from "./use/Transcripts";
 
 const listOf = (names: string[]) =>
@@ -30,22 +30,19 @@ export default function Use({ a, live }: ScreenProps) {
   const langs = useAsync(() => a.languages(), []);
   const model = models.data?.find((m) => m.active && m.format === "hf")?.name ?? null;
   const langNames = useMemo(() => (langs.data ?? []).filter((l) => l.enabled).map((l) => l.name), [langs.data]);
-  const cleanup = useCleanup();
+  const cleanup = useCleanup(a, live);
 
   const prepare = useAction(() => a.prepareDictation());
   const start = useAction(() => a.startDictation());
   const stop = useAction(async () => {
     setSpoke((performance.now() - startedAt.current) / 1000);
     const r = await a.stopDictation();
-    // TODO(cleanup): take `clean` from the result once stopDictation returns it; previewClean is
-    // a harness stand-in. Native decides which text it copies; we assume the cleaned one.
-    const clean = cleanup.active && r.text ? previewClean(r.text) : null;
-    const item: Transcript = { ...r, clean, style: clean ? cleanup.settings.style : null, id: ++seq.current, at: Date.now() };
+    const item: Transcript = { ...r, id: ++seq.current, at: Date.now() };
     setItems((h) => [item, ...h].slice(0, 20));
     setFreshId(item.id);
     setCheer(item.id);
-    // The native side has already put non-empty text on the clipboard.
-    const copied = clean || r.text;
+    // Native has already copied `clean ?? text` (when there was any text).
+    const copied = r.clean ?? r.text;
     if (copied) (setClip({ id: item.id, text: copied }), setToast(item.id));
   });
 

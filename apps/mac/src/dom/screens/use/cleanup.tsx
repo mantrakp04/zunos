@@ -1,120 +1,59 @@
 import { cn } from "@zunos/ui/lib/utils";
 import { AlertCircle, ArrowDownToLine, Loader2, Sparkles } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
-import { Button, Segmented } from "../../ui";
+import type { Actions } from "../../../services/actions";
+import type { CleanupSettings, CleanupStyle, LiveState } from "../../../shared/types";
+import { Button, message, Segmented, useAsync } from "../../ui";
 
 /*
  * Transcript cleanup: a small local LLM (MLX, in the Python engine) that removes filler words,
- * fixes punctuation, applies self-corrections and formats the dictated text.
- *
- * TODO(cleanup): none of this is wired to native yet. When the engine side lands:
- *   - CleanupState comes from `live` (e.g. live.cleanup), mapped with toCleanupState() below.
- *   - download()/retry() call the real action (e.g. a.downloadCleanupModel()).
- *   - settings are saved through an action instead of localStorage.
- *   - stopDictation() returns { raw, clean } (see Transcript.clean) and native copies one of them.
- * Until then the strip is hidden in the app. The preview harness shows it with
- * `?cleanup=absent|downloading|loading|ready|error` and simulates the download.
+ * fixes punctuation, applies self-corrections and formats the dictated text. Its lifecycle comes
+ * from `live.cleanup` (null until prepareDictation has checked for the model), settings persist
+ * in the app DB, and stopDictation returns the cleaned text next to the raw one.
  */
 
-/** Cleanup styles, data-driven so the engine's real names can drop in. `off` is always first. */
-export type CleanupStyle = { id: string; label: string; hint: string };
-export const CLEANUP_STYLES: CleanupStyle[] = [
+/** The cleanup styles, `off` first. Ids match CleanupStyle. */
+export type StyleOption = { id: CleanupStyle; label: string; hint: string };
+export const CLEANUP_STYLES: StyleOption[] = [
   { id: "off", label: "Off", hint: "Exactly what Whisper heard." },
   { id: "light", label: "Light", hint: "Fillers out, punctuation fixed." },
   { id: "polished", label: "Polished", hint: "Self-corrections applied, tidied up." },
 ];
 
-/** Local shape of the cleanup model's lifecycle. Map the real `live` field onto this. */
-export type CleanupState =
-  | { status: "absent"; totalBytes: number }
-  | { status: "downloading"; doneBytes: number; totalBytes: number }
-  | { status: "loading" }
-  | { status: "ready" }
-  | { status: "error"; message: string };
+export function useCleanup(a: Actions, live: LiveState) {
+  const saved = useAsync(() => a.cleanupSettings(), []);
+  // The choice shows at once; the save (and any model load it starts) happens behind it.
+  const [picked, setPicked] = useState<CleanupSettings | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const settings: CleanupSettings = picked ?? saved.data ?? { style: "light" };
 
-export type CleanupSettings = { style: string };
-
-const SETTINGS_KEY = "zunos.cleanup";
-const MODEL_BYTES = 2.4e9; // TODO(cleanup): from the engine's model manifest.
-
-const previewParam = () => (typeof location !== "undefined" ? new URLSearchParams(location.search).get("cleanup") : null);
-
-function previewState(): CleanupState | null {
-  switch (previewParam()) {
-    case "absent":
-      return { status: "absent", totalBytes: MODEL_BYTES };
-    case "downloading":
-      return { status: "downloading", doneBytes: MODEL_BYTES * 0.46, totalBytes: MODEL_BYTES };
-    case "loading":
-      return { status: "loading" };
-    case "ready":
-      return { status: "ready" };
-    case "error":
-      return { status: "error", message: "The download stopped at 1.1 GB. Check your connection and try again." };
-    default:
-      return null; // TODO(cleanup): toCleanupState(live.cleanup)
-  }
-}
-
-export function useCleanup() {
-  const [state, setState] = useState<CleanupState | null>(previewState);
-  const [settings, setSettingsState] = useState<CleanupSettings>(() => {
-    try {
-      return { style: "light", ...JSON.parse(localStorage.getItem(SETTINGS_KEY) ?? "{}") };
-    } catch {
-      return { style: "light" };
-    }
-  });
   const setSettings = (s: CleanupSettings) => {
-    setSettingsState(s);
-    localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); // TODO(cleanup): a.setCleanupSettings(s)
+    setPicked(s);
+    setError(null);
+    a.setCleanupSettings(s).catch((e) => (setError(message(e)), setPicked(null)));
   };
-
-  // Preview-only simulation of the one-time download and load.
-  const timer = useRef<ReturnType<typeof setInterval> | null>(null);
-  useEffect(() => () => void (timer.current && clearInterval(timer.current)), []);
+  /** Downloads the model if it's missing, then loads it. Also the retry after an error. */
   const download = () => {
-    // TODO(cleanup): a.downloadCleanupModel(); progress then arrives through `live`.
-    if (!previewParam()) return;
-    let done = state?.status === "downloading" ? state.doneBytes : 0;
-    if (timer.current) clearInterval(timer.current);
-    timer.current = setInterval(() => {
-      done = Math.min(MODEL_BYTES, done + MODEL_BYTES / 150);
-      if (done < MODEL_BYTES) return setState({ status: "downloading", doneBytes: done, totalBytes: MODEL_BYTES });
-      clearInterval(timer.current!);
-      setState({ status: "loading" });
-      setTimeout(() => setState({ status: "ready" }), 1400);
-    }, 100);
+    setError(null);
+    a.downloadCleanupModel().catch((e) => setError(message(e)));
   };
 
+  const state = live.cleanup;
   const active = state?.status === "ready" && settings.style !== "off";
-  return { state, settings, setSettings, download, active };
+  return { state, settings, setSettings, download, active, error: error ?? saved.error };
 }
 
 export type Cleanup = ReturnType<typeof useCleanup>;
-
-/**
- * Preview stand-in for the model: drops common fillers and tidies capitals. Only used by the
- * harness so the cards' clean/raw/changes views have something to show.
- * TODO(cleanup): delete once stopDictation returns the cleaned text.
- */
-export function previewClean(raw: string) {
-  const s = raw
-    .replace(/\b(um+|uh+|hmm+|you know|i mean|like|so|hey|okay so)\b,?\s*/gi, "")
-    .replace(/\s+/g, " ")
-    .trim();
-  if (!s) return s;
-  const out = s[0]!.toUpperCase() + s.slice(1);
-  return /[.?!]$/.test(out) ? out : `${out}.`;
-}
 
 const gb = (b: number) => `${(b / 1e9).toFixed(1)} GB`;
 
 /** The strip along the bottom of the instrument: get the cleanup model, or pick a style. */
 export function CleanupStrip({ cleanup, busy }: { cleanup: Cleanup; busy: boolean }) {
-  const { state, settings, setSettings, download } = cleanup;
+  const { settings, setSettings, download } = cleanup;
+  // An action that failed before native reported anything shows as the error state.
+  const state = cleanup.error && cleanup.state?.status !== "error" ? { status: "error" as const, message: cleanup.error } : cleanup.state;
   if (!state) return null;
   const style = CLEANUP_STYLES.find((s) => s.id === settings.style) ?? CLEANUP_STYLES[0]!;
   return (
