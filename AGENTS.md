@@ -66,4 +66,7 @@ User data lives in ~/Library/Application Support/zunos (zunos.db, audio/, models
   literal "Application%20Support" folder. Pass the directory as a file:// URL.
 - React Native 0.83 no longer forwards console.log to Metro. Read JS logs over CDP:
   `curl localhost:8090/json/list` gives the WebSocket debugger URL.
+- Packaged builds: never let anything write inside the signed .app (it breaks the signature).
+  The engine runs with `uv run --frozen --no-editable` and PYTHONPYCACHEPREFIX pointing at the
+  data folder. Check with `codesign --verify --deep --strict` after running a build.
 - Screenshots: capture only the zunos window (screencapture -l <window id>), never the full screen.
