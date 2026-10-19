@@ -1,3 +1,4 @@
+// Paragraphs added to the old recorder (recorder/prompts.ts) after the first session; imported as prompts.
 export type Prompt = { id: string; kind: "para" | "twister"; lang: "en" | "hi" | "gu"; title: string; lines: string[] };
 
 const hindiA = [

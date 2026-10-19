@@ -15,6 +15,7 @@ import { openBunDb } from "@zunos/db/bun";
 import { sql } from "drizzle-orm";
 
 import { FINAL } from "./legacy-finalize";
+import { prompts as recorderPrompts } from "./legacy-prompts";
 
 const { values: args } = parseArgs({
   options: {
@@ -76,7 +77,7 @@ const upsert = <T extends Parameters<typeof db.insert>[0]>(table: T, rows: any[]
   for (let i = 0; i < rows.length; i += 200) {
     const chunk = rows.slice(i, i + 200);
     const set = Object.fromEntries(Object.keys(chunk[0]).map((k) => [k, sql.raw(`excluded.${(table as any)[k].name}`)]));
-    db.insert(table).values(chunk).onConflictDoUpdate({ target, set }).run();
+    db.insert(table).values(chunk).onConflictDoUpdate({ target, set: set as any }).run();
   }
 };
 const count: Record<string, number> = {};
@@ -105,7 +106,6 @@ for (const [id, m] of Object.entries(manifest)) {
 }
 
 // Prompts read in later sessions (recorder/prompts.ts) and the dictation corpus.
-const { prompts: recorderPrompts } = await import(src("recorder/prompts.ts"));
 for (const p of recorderPrompts)
   promptRows.push({ id: p.id, lang: p.lang, kind: p.kind, title: p.title, lines: p.lines, nativeLines: null, source: "recorder" });
 
