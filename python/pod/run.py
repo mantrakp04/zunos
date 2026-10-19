@@ -1,6 +1,7 @@
 """A training run (an experiment of one or more variants) on the GPU pod, start to finish.
 
   data -> splits -> references, pace, jobs -> generate (cached) -> judge (cached) -> variants -> report -> upload
+  (a variant that trains on a pseudo-labeled set first builds it from the unlabeled audio: pseudo.py)
 
 Pod mode (bootstrap.sh starts it): reads the dataset at ZUNOS_DATASET_URL, the experiment spec from its
 manifest's `cfg` (config.py; empty = the production recipe), reports to ZUNOS_EVENTS_URL, keeps synthetic
@@ -146,9 +147,17 @@ def fetch_data():
     os.makedirs(f"{D}/real/recordings", exist_ok=True)  # full takes: room tone for the noise bank
     for f in os.listdir(f"{src}/recordings") if os.path.isdir(f"{src}/recordings") else []:
         shutil.move(f"{src}/recordings/{f}", f"{D}/real/recordings/{f}")
+    if os.path.isdir(f"{src}/unlabeled"):  # unlabeled audio for pseudo-labels (pseudo.py); never the noise bank
+        shutil.move(f"{src}/unlabeled", f"{D}/unlabeled")
     shutil.move(f"{src}/manifest.json", f"{D}/manifest.json")
     shutil.rmtree(src, ignore_errors=True)
     return json.load(open(f"{D}/manifest.json", encoding="utf-8"))
+
+
+def write_unlabeled(m):
+    """data/unlabeled.jsonl from the manifest's `unlabeled` entries ({id, lang, file, seconds, source?, span?})."""
+    D = f"{WORK}/data"
+    write_jsonl(f"{D}/unlabeled.jsonl", [dict(u, path=f"{D}/{u['file']}") for u in m.get("unlabeled") or []])
 
 
 APP_DIR = os.path.expanduser("~/Library/Application Support/zunos")
@@ -350,6 +359,51 @@ def judge(cfg, shards, cache):
 STEP_LINE = re.compile(r"STEP (\w+) (\d+)/(\d+) step (\d+) loss ([\d.]+) lr ([\d.e+-]+)")
 
 
+PSEUDO_BUILT = {}
+
+
+def build_pseudo(cfg, name):
+    """Make pseudo-labeled set `name` (pseudo.py) unless it exists; its report, or raises."""
+    if name in PSEUDO_BUILT:
+        if isinstance(PSEUDO_BUILT[name], Exception):
+            raise RuntimeError(f"pseudo set {name} failed earlier: {PSEUDO_BUILT[name]}")
+        return PSEUDO_BUILT[name]
+    stage("pseudo")
+    try:
+        D = f"{WORK}/data"
+        assert read_jsonl(f"{D}/unlabeled.jsonl"), "the dataset has no unlabeled audio"
+        p = cfg["pseudo"][name]
+        need_env("vad")
+        run([py("vad"), "pseudo.py", "segment", WORK, name], f"pseudo_{name}")
+        if p["speaker"]["enabled"]:
+            from pseudo import seg_dir
+
+            d = seg_dir(WORK, p)
+            need_env("judge")
+            if not os.path.exists(f"{d}/speaker.jsonl"):
+                run([py("judge"), "judge.py", "speaker", f"{d}/segments.jsonl", f"{d}/speaker.jsonl"], f"pseudo_{name}")
+            if not os.path.exists(f"{d}/real-speaker.jsonl"):  # the user's train clips only: never test (or dev)
+                write_jsonl(f"{d}/real-speaker.list.jsonl", [dict(id=r["id"], lang=r["lang"], path=r["path"])
+                                                             for r in read_jsonl(f"{D}/real.jsonl") if r["split"] == "train"])
+                run([py("judge"), "judge.py", "speaker", f"{d}/real-speaker.list.jsonl", f"{d}/real-speaker.jsonl"], f"pseudo_{name}")
+        need_env("train")
+        run([py("train"), "pseudo.py", "voice", WORK, name], f"pseudo_{name}")
+        for role in ("teacher", "agree"):
+            if p[role]:
+                run([py("train"), "pseudo.py", "decode", WORK, name, role], f"pseudo_{name}")
+        run([py("train"), "pseudo.py", "select", WORK, name], f"pseudo_{name}")
+        rep = json.load(open(f"{D}/pseudo/{name}/report.json"))
+        log(f"pseudo {name}: {rep['segmented_min']} min segmented ({rep['segmented']}), {rep['voice_min']} min in the "
+            f"user's voice, {rep['kept_min']} min kept ({rep['kept']}); rejected {rep['rejected']}; voice {rep['voice']}; "
+            f"teacher/agree disagreement {rep['disagree_quantiles']}")
+        PSEUDO_BUILT[name] = rep
+        stage("pseudo", "done")
+        return rep
+    except Exception as e:
+        PSEUDO_BUILT[name] = e
+        raise
+
+
 def train_variant(run_cfg, primary, offset):
     out = f"{WORK}/ckpt/{run_cfg['name']}"
     shutil.rmtree(out, ignore_errors=True)
@@ -365,7 +419,7 @@ def train_variant(run_cfg, primary, offset):
         elif line.startswith("DEV "):
             d = json.loads(line[4:])
             log(f"{run_cfg['name']} dev @{d['step']} ({d['stage']}): {d['dev']}  {json.dumps(d['res'])}")
-        elif line.startswith(("data ", "model ", "modes ", "selected ", "HYP ")) or "Error" in line:
+        elif line.startswith(("data ", "model ", "modes ", "selected ", "HYP ", "PROBE ", "early stop")) or "Error" in line:
             log(f"{run_cfg['name']}: {line[:400]}")
         elif time.time() - last[0] > 600:  # keep the backend's stall timer fed during long stages
             last[0] = time.time()
@@ -457,11 +511,14 @@ def main():
         # Environments install in the background while the data is prepared.
         for e in ["train", "judge", *sorted(config.tts_engines(cfg["gen"], m["langs"]) & {"omnivoice", "higgs"})]:
             ensure_env(e)
+        if any(r["pseudo"]["set"] for r in cfg["runs"]):
+            ensure_env("vad")
         if any(config.base_engine(e) == "vc" for l in m["langs"] for e in config.engines_for(cfg["gen"], l)):
             ensure_env({"seed-vc": "seedvc", "chatterbox-vc": "chattervc"}.get(cfg["gen"]["vc"]["model"], "train"))
         json.dump({k: v for k, v in cfg.items()}, open(f"{D}/cfg.json", "w"), indent=1, ensure_ascii=False)
         clips = assign(m["clips"], cfg["dev"])
         write_real(WORK, clips)
+        write_unlabeled(m)
         json.dump(m.get("reference") or {}, open(f"{D}/reference.json", "w"), ensure_ascii=False)
         n = {s: sum(c["split"] == s for c in clips) for s in ("train", "dev", "test")}
         log(f"dataset: {len(clips)} clips ({n}), langs {m['langs']}, experiment {cfg['name']!r} with "
@@ -481,9 +538,18 @@ def main():
 
         stage("train")
         export = cfg.get("export") or cfg["runs"][0]["name"]
-        reports, offset = [], 0
+        reports, failed, offset = [], {}, 0
         for r in cfg["runs"]:
-            rep = train_variant(r, r["name"] == export, offset)
+            try:
+                if r["pseudo"]["set"]:
+                    build_pseudo(cfg, r["pseudo"]["set"])
+                rep = train_variant(r, r["name"] == export, offset)
+            except Exception as e:
+                if not cfg["keep_going"]:
+                    raise
+                failed[r["name"]] = f"{type(e).__name__}: {e}"[-1500:]
+                log(f"{r['name']} failed (keep_going): {failed[r['name']]}")
+                continue
             offset += rep["steps"]
             reports.append(rep)
             t = rep["test"]
@@ -493,13 +559,19 @@ def main():
         stage("train", "done")
 
         table = summary_table(reports, judge_rep, shared_s)
+        if not reports:
+            raise RuntimeError(f"every variant failed: {json.dumps(failed)[:1500]}")
         summary = dict(experiment=cfg["name"], run=RUN, price_per_hour=PRICE, shared_seconds=round(shared_s),
                        total_seconds=round(time.time() - T_START), judge=judge_rep, variants=reports, table=table,
-                       gen=json.load(open(f"{D}/gen_summary.json")))
+                       gen=json.load(open(f"{D}/gen_summary.json")), failed=failed,
+                       pseudo={k: (v if isinstance(v, dict) else f"failed: {v}") for k, v in PSEUDO_BUILT.items()})
         os.makedirs(f"{WORK}/reports", exist_ok=True)
         json.dump(summary, open(f"{WORK}/reports/{RUN}.json", "w"), indent=1, ensure_ascii=False)
-        open(f"{WORK}/reports/{RUN}.md", "w").write(f"# {cfg['name']} ({RUN})\n\n{table}\n")
+        open(f"{WORK}/reports/{RUN}.md", "w").write(f"# {cfg['name']} ({RUN})\n\n{table}\n"
+                                                     + "".join(f"\nfailed: {k}: {v[:300]}\n" for k, v in failed.items()))
         print(table, flush=True)
+        if export in failed:
+            export = reports[0]["variant"]
 
         size = export_and_upload(export)
         primary = next(r for r in reports if r["variant"] == export)

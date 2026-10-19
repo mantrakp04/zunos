@@ -8,6 +8,8 @@ A spec is JSON (the dataset manifest's `cfg`, or a file passed to run.py --spec)
     "judge": {...},                 # how synthetic takes are filtered (shared)
     "train": {...},                 # training defaults
     "export": "<variant name>",     # the variant whose model is uploaded (default: the first)
+    "pseudo": {"<set>": {...}},     # pseudo-labeled sets made from unlabeled audio (pseudo.py); variants use one
+    "keep_going": false,            # true: a failed variant (or pseudo set) is logged and the run continues
     "variants": [                   # each one is a deep merge over "train" (and may narrow `synth`)
       {"name": "whisper-full"},
       {"name": "whisper-lora", "method": "lora"},
@@ -78,6 +80,8 @@ TRAIN = {
     # whisper-large-v3 | whisper-large-v3-turbo | qwen3-asr-1.7b | flex (bodhan-ai/indic-transcribe-flex) | <hf id>
     "base": "whisper-large-v3",
     "method": "full",                 # full | lora
+    # targets: attn | attn+mlp | enc, enc+mlp (flex: encoder attention / + feed-forward only; the decoder stays the
+    # base's) | a regex
     "lora": {"r": 32, "alpha": 64, "dropout": 0.05, "targets": "attn+mlp"},
     "lr": 1e-5, "lora_lr": 2e-4, "bs": 16, "accum": 2, "gc": 1, "warmup": 0.08, "weight_decay": 0.01,
     "freeze_enc": 0,                  # Whisper: first N encoder layers; Qwen/flex: >0 freezes the encoder
@@ -88,14 +92,46 @@ TRAIN = {
     "synth": {"share": 1.0, "engines": None},   # fraction of the kept synthetic takes; engines per language
     "augment": True, "concat": 0.25,
     "variability": {"enabled": False},  # training-time audio hook (variability.perturb); none adopted yet
+    # Staying close to the base model (flex only for now): weight x KL(base || model) on the label tokens, the
+    # frozen base's token distributions on the same batches (LoRA: the adapters switched off), at temperature `temp`.
+    "kl": {"weight": 0.0, "temp": 1.0},
     "select": "last",                 # last = fixed recipe; dev = best dev score (never the test clips)
     "eval_every": 100,
+    "patience": 0,                    # select=dev: stop after this many evals without a better dev score (0 = never)
+    "dev_beams": 1,
+    # The real dev clips (spec "dev"): "holdout" keeps them out of training (needed for select=dev); "train" trains
+    # on them, so a variant that doesn't select on dev loses no data when another variant of the run does.
+    "dev_clips": "holdout",
+    # Pseudo-labeled audio (a set named in the spec's "pseudo"), mixed into stage 1 like synthetic takes, the real
+    # clips oversampled to stage1.real_share; `share` = fraction of the set's kept segments used.
+    "pseudo": {"set": None, "share": 1.0},
+    "probe_train": 0,                 # after the test: also decode this many train clips (memorization probe)
     "beams": 4,                       # final test decode, as on the Mac
     "workers": 8,
     "seed": 0,
 }
 
+# One pseudo-labeled set (pseudo.py): the user's unlabeled audio (dataset unlabeled/, e.g. everyday dictation) cut
+# into speech segments, kept when it is the user's voice, labeled by a teacher and kept only where a second model
+# agrees. teacher / agree: a variant of this run (trained before the first variant that uses the set) or a model
+# spec (a base such as "flex", or a model folder).
+PSEUDO = {
+    "teacher": None,
+    "agree": None,                    # None = no agreement check (not recommended)
+    "max_disagree": 0.25,             # fuzzy WER between the teacher's and the agreeing model's transcripts
+    "beams": 4, "agree_beams": 2,
+    # silero-vad speech regions, merged across gaps <= max_gap into segments of min_s..max_s seconds.
+    "vad": {"threshold": 0.5, "min_s": 4.0, "max_s": 20.0, "max_gap": 0.8, "pad": 0.15},
+    # Voice: cosine to the centroid of the user's labeled train clips >= max(abs_min, min_rel x real-vs-real).
+    "speaker": {"enabled": True, "min_rel": 0.85, "abs_min": 0.5},
+    # Sanity: letters/s of the teacher's text within [cps_lo, cps_hi] x the user's median on labeled train
+    # clips; at most max_repeat of its word trigrams repeated (loops).
+    "cps_lo": 0.5, "cps_hi": 1.6, "max_repeat": 0.15,
+    "max_minutes": 0,                 # cap on the segmented audio decoded (0 = all)
+}
+
 DEFAULTS = {"name": "default", "gen": GEN, "judge": JUDGE, "train": TRAIN, "variants": [{"name": "default"}],
+            "pseudo": {}, "keep_going": False,
             # Real clips held out of training to pick checkpoints (select=dev). Never the test clips.
             "dev": {"real_per_lang": 0, "min_train_left": 12, "synth_frac": 0.04}}
 
@@ -116,7 +152,20 @@ def load(spec):
     if len(set(names)) != len(names) or not all(names):
         raise ValueError(f"every variant needs a unique name, got {names}")
     cfg["runs"] = [dict(merge(cfg["train"], dict(v)), name=v["name"]) for v in variants]
+    cfg["pseudo"] = {k: merge(PSEUDO, v) for k, v in cfg["pseudo"].items()}
     for r in cfg["runs"]:
+        if r["select"] == "dev" and r["dev_clips"] != "holdout":
+            raise ValueError(f"{r['name']}: select=dev needs dev_clips=holdout")
+        ps = r["pseudo"]["set"]
+        if ps:
+            if ps not in cfg["pseudo"]:
+                raise ValueError(f"{r['name']}: no pseudo set {ps!r} in the spec")
+            for role in ("teacher", "agree"):
+                m = cfg["pseudo"][ps][role]
+                if m in names and names.index(m) >= names.index(r["name"]):
+                    raise ValueError(f"{r['name']}: pseudo set {ps!r} {role} {m!r} must be a variant trained before it")
+            if not cfg["pseudo"][ps]["teacher"]:
+                raise ValueError(f"pseudo set {ps!r} needs a teacher")
         if r["method"] not in ("full", "lora"):
             raise ValueError(f"{r['name']}: method must be full or lora")
         if r["select"] not in ("last", "dev"):

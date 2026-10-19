@@ -2,15 +2,17 @@
 
     python train.py <work> <variant.json> <out dir>
 
-  stage 1   kept synthetic takes (the variant's engines and share) + the user's real train clips, the real
-            ones oversampled to `stage1.real_share` of what is seen; cosine schedule.
+  stage 1   kept synthetic takes (the variant's engines and share) and pseudo-labeled segments (pseudo.set, from
+            pseudo.py) + the user's real train clips, the real ones oversampled to `stage1.real_share` of what is
+            seen; cosine schedule.
   stage 2   short real-only polish (`stage2.steps` optimizer steps, lr x `lr_mult`, lighter augmentation).
   select    "last": the weights at the end (a fixed recipe). "dev": the best dev score seen at an eval
-            (real dev clips where the language has them, else held-out synthetic sentences). The test clips
-            are never looked at during training.
+            (real dev clips where the language has them, else held-out synthetic sentences), stopping early after
+            `patience` evals without improvement. The test clips are never looked at during training.
   test      once, at the end: the selected model decodes the test clips with beam search (as the Mac does,
             language detected), scored with zunos_core.scoring; per-language bootstrap CIs and, when the
             dataset carries the reference recognizer's answers, its WER on the same clips and the paired ratio.
+  probe     (probe_train > 0) the first train clips decoded the same way: how far the model memorized them.
 
 Writes <out>/model (merged fp16 Hugging Face checkpoint), <out>/report.json, <out>/test_rows.jsonl.
 """
@@ -54,6 +56,9 @@ real = read_jsonl(f"{D}/real.jsonl")
 real_train = [dict(r, real=True) for r in real if r["split"] == "train"]
 real_dev = [r for r in real if r["split"] == "dev"]
 real_test = [r for r in real if r["split"] == "test"]
+if cfg["dev_clips"] == "train":  # this variant doesn't select on dev: the dev clips are training data
+    real_train += [dict(r, real=True) for r in real_dev]
+    real_dev = []
 langs = sorted({r["lang"] for r in real})
 
 
@@ -76,13 +81,27 @@ synth_train = [r for r in synth if r["sid"] not in val_ids]
 synth_val = [r for l in langs for r in [x for x in synth_val if x["lang"] == l][:40]]
 by_lang = {l: [r for r in synth_train if r["lang"] == l] for l in langs}
 
+pseudo = []
+if cfg["pseudo"]["set"]:
+    from pseudo import overlaps_test
+
+    pset = cfg["pseudo"]["set"]
+    share = lambda r: int(hashlib.sha256(f"pshare|{r['id']}".encode()).hexdigest()[:8], 16) / 0xFFFFFFFF < cfg["pseudo"]["share"]  # noqa: E731
+    pseudo = [dict(r, pseudo=True) for r in read_jsonl(f"{D}/pseudo/{pset}/rows.jsonl") if r["keep"] and share(r)]
+    assert pseudo, f"pseudo set {pset} has no kept segments"
+    bad = [r["id"] for r in pseudo if overlaps_test(r["text"], real_test, r["lang"])]
+    assert not bad, f"pseudo-labels matching test clips' text: {bad[:5]}"
+
 s1 = cfg["stage1"]
-if synth_train and real_train:
-    reps = max(1, round(s1["real_share"] / (1 - s1["real_share"]) * len(synth_train) / len(real_train)))
+extra = synth_train + pseudo  # what the real clips are mixed with in stage 1
+if extra and real_train:
+    reps = max(1, round(s1["real_share"] / (1 - s1["real_share"]) * len(extra) / len(real_train)))
 else:
-    reps = 1 if synth_train else max(1, round(400 / max(1, len(real_train))))  # real only: ~400 samples an epoch
-items = synth_train + real_train * reps
+    reps = 1 if extra else max(1, round(400 / max(1, len(real_train))))  # real only: ~400 samples an epoch
+items = extra + real_train * reps
 counts = {l: dict(synth=len(by_lang[l]), synth_val=sum(r["lang"] == l for r in synth_val),
+                  pseudo=sum(r["lang"] == l for r in pseudo),
+                  pseudo_min=round(sum(r["dur"] for r in pseudo if r["lang"] == l) / 60, 1),
                   real_train=sum(r["lang"] == l for r in real_train), real_dev=sum(r["lang"] == l for r in real_dev),
                   test=sum(r["lang"] == l for r in real_test)) for l in langs}
 print("data", json.dumps(dict(counts=counts, real_reps=reps, items=len(items))), flush=True)
@@ -98,6 +117,7 @@ elif "flex" in base_l or "indic-transcribe" in base_l:
 else:
     from asr_whisper import WhisperBackend as Backend
 be = Backend(cfg, DEV, DTYPE)
+assert not cfg["kl"]["weight"] or hasattr(be, "reference"), f"kl.weight needs a backend with a reference model ({cfg['base']})"
 if hasattr(be, "set_modes"):  # flex: output mode per language, fixed here, not in the DataLoader workers
     print("modes", json.dumps(be.set_modes(real)), flush=True)
 n_train = sum(p.numel() for p in be.params())
@@ -120,12 +140,12 @@ class DS(Dataset):
 
     def __getitem__(self, i):
         r = self.items[i]
-        is_real = r.get("real", False)
+        is_real = r.get("real", False) or r.get("pseudo", False)  # pseudo-labeled audio is the user's real voice
         a, text = load(r["path"]), r["text"]
         if cfg["augment"]:
             a = augment(a, self.bank, real=is_real, strength=self.strength)
         a = variability.perturb(a, 16000, random, cfg.get("variability") or {})
-        if not is_real and random.random() < cfg["concat"] and by_lang[r["lang"]]:
+        if not is_real and random.random() < cfg["concat"] and by_lang[r["lang"]]:  # synthetic takes only
             # Join takes into a longer dictation (same language), as people dictate several sentences at once.
             parts, texts, total = [a], [text], len(a) / 16000
             for _ in range(random.randint(1, 3)):
@@ -162,21 +182,27 @@ def dev_score():
         rows = [r for r in real_dev if r["lang"] == l] or [r for r in synth_val if r["lang"] == l]
         if not rows:
             continue
-        hyps = be.transcribe([load(r["path"]) for r in rows], [l] * len(rows), beams=1)
+        hyps = be.transcribe([load(r["path"]) for r in rows], [l] * len(rows), beams=cfg["dev_beams"])
         sc, _ = score_clips(rows, hyps)
         res[l] = dict(wer=sc[l], on="real_dev" if real_dev and rows[0] in real_dev else "synth_val", n=len(rows))
     return (float(np.mean([v["wer"] for v in res.values()])) if res else None), res
 
 
-history, best = [], dict(score=math.inf, state=None, step=None)
+history, best = [], dict(score=math.inf, state=None, step=None, stale=0, stopped=None)
 
 
 def evaluate(step, stage, select):
     s, res = dev_score()
     history.append(dict(step=step, stage=stage, dev=s, res=res))
     print("DEV", json.dumps(history[-1]), flush=True)
-    if select and s is not None and s < best["score"]:
-        best.update(score=s, state=be.state(), step=step)
+    if select and s is not None:
+        if s < best["score"]:
+            best.update(score=s, state=be.state(), step=step, stale=0)
+        else:
+            best["stale"] += 1
+            if cfg["patience"] and best["stale"] >= cfg["patience"]:
+                best["stopped"] = step
+                print(f"early stop at step {step}: no better dev score in {best['stale']} evals", flush=True)
 
 
 # ------------------------------------------------------------------ training
@@ -194,13 +220,14 @@ def run_stage(name, dl, total, peak_lr, warmup):
         g["lr"] = peak_lr
     sched = torch.optim.lr_scheduler.LambdaLR(
         opt, lambda s: min(1.0, (s + 1) / max(1, warmup)) * 0.5 * (1 + math.cos(math.pi * min(1.0, s / max(1, total)))))
-    done, run_loss, t0, i = 0, 0.0, time.time(), 0
-    while done < total:
+    done, run_loss, run_kl, t0, i = 0, 0.0, 0.0, time.time(), 0
+    while done < total and not best["stopped"]:
         for batch in dl:
             with torch.autocast(DEV.type, dtype=DTYPE, enabled=DTYPE != torch.float32):
                 loss = be.loss(batch) / cfg["accum"]
             loss.backward()
             run_loss += loss.item()
+            run_kl += getattr(be, "last_kl", 0.0) / cfg["accum"]
             i += 1
             if i % cfg["accum"]:
                 continue
@@ -209,13 +236,15 @@ def run_stage(name, dl, total, peak_lr, warmup):
             step += 1
             done += 1
             if done % 10 == 0 or done == total:
-                print(f"STEP {name} {done}/{total} step {step} loss {run_loss / 10:.4f} lr {sched.get_last_lr()[0]:.2e} {time.time() - t0:.0f}s", flush=True)
-                run_loss = 0.0
+                kl = f" kl {run_kl / 10:.4f}" if cfg["kl"]["weight"] else ""
+                print(f"STEP {name} {done}/{total} step {step} loss {run_loss / 10:.4f} lr {sched.get_last_lr()[0]:.2e} {time.time() - t0:.0f}s{kl}", flush=True)
+                run_loss = run_kl = 0.0
             if select_dev and done % cfg["eval_every"] == 0 and done < total:
                 evaluate(step, name, True)
-            if done >= total:
+            if done >= total or best["stopped"]:
                 break
-    evaluate(step, name, select_dev)
+    if not best["stopped"]:
+        evaluate(step, name, select_dev)
 
 
 be.train_mode()
@@ -223,7 +252,7 @@ bs_eff = cfg["bs"] * cfg["accum"]
 steps1 = s1.get("steps") or max(1, s1["epochs"] * len(items) // bs_eff)
 run_stage("stage1", loader(items, 1.0), steps1, lr, int(cfg["warmup"] * steps1))
 s2 = cfg["stage2"]
-if s2["steps"] > 0 and real_train:
+if s2["steps"] > 0 and real_train and not best["stopped"]:
     run_stage("stage2", loader(real_train * max(1, math.ceil(s2["steps"] * bs_eff / len(real_train))), s2["augment"]),
               s2["steps"], lr * s2["lr_mult"], max(1, s2["steps"] // 10))
 if select_dev and best["state"] is not None:
@@ -245,10 +274,17 @@ for l, s in stats.items():
 write_jsonl(f"{OUT}/test_rows.jsonl", [dict(r, reference=reference.get(r["id"])) for r in rows])
 for r in rows[:3]:  # what the model actually writes, in the log (a WER over 100% is usually script or loops)
     print("HYP", json.dumps(dict(id=r["id"], wer=r["wer"], ref=r["ref"][:200], hyp=r["hyp"][:300]), ensure_ascii=False), flush=True)
+probe = None
+if cfg["probe_train"]:  # memorization: the same decode on train clips the model was fitted to
+    tr = sorted((r for r in real_train if r["split"] == "train"), key=lambda r: r["id"])[: cfg["probe_train"]]
+    psc, prow = score_clips(tr, be.transcribe([load(r["path"]) for r in tr], None, beams=cfg["beams"], allowed=langs))
+    probe = dict(avg=psc.get("avg"), n=len(tr), rows=[dict(id=r["id"], wer=r["wer"]) for r in prow])
+    print("PROBE", json.dumps(probe), flush=True)
 be.save(f"{OUT}/model")
 report = dict(variant=cfg["name"], cfg=cfg, base=cfg["base"], method=cfg["method"], counts=counts, real_reps=reps,
               steps=step, select=cfg["select"], selected_step=best["step"] if select_dev else step,
-              dev_history=history, test=dict(avg=scores.get("avg"), langs=stats),
+              stopped_early=best["stopped"], dev_history=history, test=dict(avg=scores.get("avg"), langs=stats),
+              train_probe=probe,
               seconds=dict(train=round(train_s), test=round(time.time() - t1)), trainable_params=n_train,
               device=torch.cuda.get_device_name(0) if DEV.type == "cuda" else DEV.type)
 json.dump(report, open(f"{OUT}/report.json", "w"), indent=1, ensure_ascii=False)

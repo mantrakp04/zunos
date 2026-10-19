@@ -197,6 +197,18 @@ def phones(text, lang):
 phones.cache = {}
 
 
+def voice_centroid(embs):
+    """Centroid of the user's clip embeddings (unit vectors) and the median cosine of each clip to the centroid
+    of the others (real-vs-real; None with fewer than 3 clips). (None, None) without clips."""
+    if not len(embs):
+        return None, None
+    centroid = np.mean(embs, 0)
+    if len(embs) < 3:
+        return centroid, None
+    s = len(embs) * centroid
+    return centroid, float(np.median([float(np.dot(e, (s - e) / np.linalg.norm(s - e))) for e in embs]))
+
+
 def score(work):
     from zunos_core.scoring import synth_score
     from zunos_core.textnorm import edit
@@ -218,13 +230,7 @@ def score(work):
         if os.path.exists(p):
             real_hyp[m] = {r["id"]: r["hyp"] for r in rows_of(p)}
     emb = {r["id"]: np.array(r["emb"]) for r in rows_of(f"{jdir}/real-speaker.jsonl")} if os.path.exists(f"{jdir}/real-speaker.jsonl") else {}
-    train_emb = [emb[r["id"]] for r in real if r["id"] in emb and r["split"] == "train"]
-    centroid = np.mean(train_emb, 0) if train_emb else None
-    real_sim = None
-    if centroid is not None and len(train_emb) >= 3:
-        s = len(train_emb) * centroid
-        loo = [float(np.dot(e, (s - e) / np.linalg.norm(s - e))) for e in train_emb]
-        real_sim = float(np.median(loo))
+    centroid, real_sim = voice_centroid([emb[r["id"]] for r in real if r["id"] in emb and r["split"] == "train"])
 
     def thr(errs):
         ceiling = float(np.median(errs)) if errs else None

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Installs one Python environment for the pod, on demand (run.py starts these in the background, so only
 # what an experiment uses gets installed, while earlier steps run):
-#   bash envs.sh <train|judge|omnivoice|higgs|seedvc|chattervc|omniasr>
+#   bash envs.sh <train|judge|vad|omnivoice|higgs|seedvc|chattervc|omniasr>
 # Venvs live in /root/envs and the uv cache in /root/uv (/workspace may be a slow network disk). A finished
 # env leaves /root/envs/<name>/.ok, so a second call returns at once. Weights download on first use into
 # HF_HOME (bootstrap.sh points it at /workspace/hf).
@@ -29,6 +29,11 @@ case "$name" in
     venv; pip "${TORCH[@]}"
     pip "transformers>=4.46,<4.58" accelerate soundfile librosa scipy numpy "onnx==1.20.1" "onnxruntime-gpu==1.20.2" \
       phonemizer -e "$CODE/core"
+    ;;
+  vad)
+    # silero-vad (MIT), for cutting unlabeled audio into speech segments (pseudo.py segment). Runs on CPU.
+    venv; pip "${TORCH[@]}"
+    pip "silero-vad>=5.1" soundfile numpy
     ;;
   omnivoice)
     # k2-fsa/OmniVoice 0.2.1 (torch 2.8 cu128, transformers >= 5.3).

@@ -14,9 +14,14 @@ Mode per language (set_modes, from the user's clips): romanized when the user's 
 user's languages.
 
 Full fine-tune, decoder-only ("partial": freeze_enc > 0 freezes the encoder), or LoRA (decoder attention and
-feed-forward plus encoder attention). The encoder's BatchNorm layers stay in eval mode: batches are small.
+feed-forward plus encoder attention; targets "enc" / "enc+mlp": encoder attention (and feed-forward) only, so the
+decoder's language model stays the base's). The encoder's BatchNorm layers stay in eval mode: batches are small.
+With kl.weight > 0 the loss adds weight x KL(base || model) over the label positions, the base being the same
+weights with the LoRA adapters off (a frozen copy for a full fine-tune), run in eval mode on the same batch.
 Saved as the same HF port (code files copied along) plus zunos.json {family, modes}, which the Mac engine reads.
 """
+import contextlib
+import copy
 import json
 import os
 import shutil
@@ -28,6 +33,8 @@ import torch
 REPO = "bodhan-ai/indic-transcribe-flex"
 LORA_TARGETS = {
     "attn": r".*decoder.*\.(query_net|key_net|value_net|out_projection)$",
+    "enc": r".*encoder.*\.(linear_q|linear_k|linear_v|linear_out)$",
+    "enc+mlp": r".*encoder.*\.(linear_q|linear_k|linear_v|linear_out|linear1|linear2)$",
     "attn+mlp": r"(.*decoder.*\.(query_net|key_net|value_net|out_projection|dense_in|dense_out)|.*encoder.*\.(linear_q|linear_k|linear_v|linear_out))$",
 }
 CODE_FILES = ("configuration_indic_canary.py", "feature_extraction_indic_canary.py", "indic_transcribe.py", "lid.py",
@@ -70,6 +77,11 @@ class FlexBackend:
                                                      target_modules=LORA_TARGETS.get(lc["targets"], lc["targets"]), bias="none"))
         self.model = model
         self.modes = {}
+        self.kl = cfg.get("kl") or {"weight": 0.0, "temp": 1.0}
+        self.ref = None  # the frozen base for the KL term; LoRA needs none (adapters switched off)
+        if self.kl["weight"] > 0 and cfg["method"] != "lora":
+            self.ref = copy.deepcopy(model).eval().requires_grad_(False)
+        self.last_kl = 0.0
 
     def base_model(self):
         return self.model.get_base_model() if self.cfg["method"] == "lora" else self.model
@@ -129,10 +141,35 @@ class FlexBackend:
     def loss(self, batch):
         feats, flen = self.fe(batch["wav"].to(self.device), batch["lens"].to(self.device))
         mask = (torch.arange(feats.size(2), device=self.device)[None] < flen[:, None]).long()
-        m = self.base_model()
-        enc = m.model.encoder(feats, attention_mask=mask)
-        logits = self.model(encoder_outputs=enc, decoder_input_ids=batch["inp"].to(self.device), use_cache=False).logits
-        return torch.nn.functional.cross_entropy(logits.float().transpose(1, 2), batch["tgt"].to(self.device), ignore_index=-100)
+        inp, tgt = batch["inp"].to(self.device), batch["tgt"].to(self.device)
+        enc = self.base_model().model.encoder(feats, attention_mask=mask)
+        logits = self.model(encoder_outputs=enc, decoder_input_ids=inp, use_cache=False).logits
+        ce = torch.nn.functional.cross_entropy(logits.float().transpose(1, 2), tgt, ignore_index=-100)
+        w = self.kl["weight"]
+        if w <= 0:
+            return ce
+        with torch.no_grad(), self.reference() as ref:
+            enc0 = ref.model.encoder(feats, attention_mask=mask)
+            logits0 = ref(encoder_outputs=enc0, decoder_input_ids=inp, use_cache=False).logits
+        on, t = tgt != -100, self.kl["temp"]
+        lp = torch.log_softmax(logits[on].float() / t, -1)
+        lp0 = torch.log_softmax(logits0[on].float() / t, -1)
+        kl = (lp0.exp() * (lp0 - lp)).sum(-1).mean() * t * t
+        self.last_kl = kl.item()
+        return ce + w * kl
+
+    @contextlib.contextmanager
+    def reference(self):
+        """The base model, in eval mode (no dropout): a frozen copy, or the LoRA model with its adapters off."""
+        if self.ref is not None:
+            yield self.ref
+            return
+        self.model.eval()
+        try:
+            with self.model.disable_adapter():
+                yield self.base_model()
+        finally:
+            self.train_mode()
 
     def transcribe(self, audios, langs=None, beams=1, bs=1, allowed=None, mode=None):
         """`mode` forces one output mode for every clip (compare.py's probe); default: the language's mode."""

@@ -35,8 +35,11 @@ goal, beating the reference recognizer by 2x word error rate on held-back clips,
   inpainted rush/drag/pause/mumble via omni_vary.py, respellings, non-lexical fillers, repeats, denoise off;
   labels stay the clean sentence) → gen_omnivoice.py / gen_higgs.py, or TTS+VC (vc.py: Seed-VC /
   ChatterboxVC) → post.py → judge.py (Whisper / IndicConformer / omniASR; words threshold relative to the
-  shard's clean takes, deletion check, per-shard voice calibration, pace) → train.py per variant
-  (asr_whisper.py / asr_qwen.py / asr_flex.py, full, partial or LoRA, two stages, test scored once with
+  shard's clean takes, deletion check, per-shard voice calibration, pace) → pseudo.py when a variant trains
+  on a pseudo-labeled set (spec `pseudo`: the dataset's unlabeled/ audio → silero-vad segments → voice check vs
+  the train clips → teacher transcripts kept where a second model agrees; never test-window audio or test-clip
+  text) → train.py per variant (asr_whisper.py / asr_qwen.py / asr_flex.py, full, partial or LoRA (flex:
+  encoder-only targets), optional KL to the base, dev early stopping, two stages, test scored once with
   bootstrap CIs vs the reference) → export.py. Generated and judged sets are cached by content hash
   (cache.py: /workspace/cache plus the backend's per-user cache). `python run.py --dry-run` runs it all on
   the Mac with tiny stand-ins; launch.py starts an experiment from the Mac (see python/pod/experiments).

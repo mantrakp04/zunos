@@ -113,6 +113,35 @@ def test_pace_clip_per_language():
     assert min(en) == 0.6 and max(en) == 1.5 and min(hi) == 0.7 and max(hi) == 1.4
 
 
+def test_pseudo_guards_and_segments():
+    import pseudo
+
+    tests = [dict(id="t1", lang="gu", text="Khatla upar suta ta. Emni bajuma ek khurshi hati.")]
+    assert pseudo.overlaps_test("ane khatla upar suta ta, emni bajuma ek khurshi hati ane", tests, "gu") == "t1"
+    assert pseudo.overlaps_test("Maharaj aavya chhe, leva mate aavya chhe", tests, "gu") is None
+    pseudo.check_spans([dict(id="u", source="s", span=[0, 1940])], [dict(id="c", source="s", span=[1951, 1960])])
+    try:
+        pseudo.check_spans([dict(id="u", source="s", span=[1900, 2000])], [dict(id="c", source="s", span=[1951, 1960])])
+        raise AssertionError("an overlapping span passed")
+    except AssertionError as e:
+        assert "overlaps" in str(e)
+    sr = pseudo.SR
+    segs = pseudo.merge_regions([(0, 3 * sr), (int(3.5 * sr), 6 * sr), (10 * sr, 11 * sr), (30 * sr, 52 * sr)], 4, 20, 0.8, 0.0, 60 * sr)
+    assert segs == [(0, 6 * sr)]  # the 1 s region is too short, the 22 s one too long
+
+
+def test_variant_options_validated():
+    spec = {"pseudo": {"p1": {"teacher": "a"}}, "variants": [{"name": "s", "pseudo": {"set": "p1"}}, {"name": "a"}]}
+    for bad in (spec, {"variants": [{"name": "x", "select": "dev", "dev_clips": "train"}]}):
+        try:
+            config.load(bad)
+            raise AssertionError("accepted")
+        except ValueError:
+            pass
+    cfg = config.load({"pseudo": {"p1": {"teacher": "a"}}, "variants": [{"name": "a"}, {"name": "s", "pseudo": {"set": "p1"}}]})
+    assert cfg["pseudo"]["p1"]["vad"]["max_s"] == 20.0 and cfg["runs"][0]["kl"]["weight"] == 0.0
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):
