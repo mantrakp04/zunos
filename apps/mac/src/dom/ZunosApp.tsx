@@ -111,7 +111,7 @@ export default function ZunosApp({ live, dom: _dom, ...a }: Props) {
 export type MascotState = "sleeping" | "waking" | "awake" | "listening" | "thinking" | "working" | "error";
 
 /** What the app is doing, as one mascot state, most urgent first. */
-export function mascotStatus(live: LiveState, cloudRun: boolean): { state: MascotState; label: string } {
+function mascotStatus(live: LiveState, cloudRun: boolean): { state: MascotState; label: string } {
   if (live.engine === "error") return { state: "error", label: "Engine stopped" };
   if (live.recording || live.dictation?.phase === "listening") return { state: "listening", label: "Listening" };
   if (live.engine === "busy" || live.dictation?.phase === "thinking") return { state: "thinking", label: "Working on it" };
