@@ -106,6 +106,9 @@ TRAIN = {
     # Data ablation: train on only this many minutes of the real train clips (0 = all). The clips are taken in a
     # stable hash order of their ids, so a smaller budget is always a subset of a larger one.
     "real_minutes": 0,
+    # Which label of the real clips a variant trains, selects and is scored on: "text" (the clip's label in the
+    # language's script) or "native_text" (its native-script line), so one dataset serves bases that want either.
+    "label_field": "text",
     # Pseudo-labeled audio (a set named in the spec's "pseudo"), mixed into stage 1 like synthetic takes, the real
     # clips oversampled to stage1.real_share; `share` = fraction of the set's kept segments used.
     "pseudo": {"set": None, "share": 1.0},
@@ -173,6 +176,8 @@ def load(spec):
                 raise ValueError(f"pseudo set {ps!r} needs a teacher")
         if r["method"] not in ("full", "lora"):
             raise ValueError(f"{r['name']}: method must be full or lora")
+        if r["label_field"] not in ("text", "native_text"):
+            raise ValueError(f"{r['name']}: label_field must be text or native_text")
         if r["select"] not in ("last", "dev"):
             raise ValueError(f"{r['name']}: select must be last or dev")
     if cfg.get("export") and cfg["export"] not in names:

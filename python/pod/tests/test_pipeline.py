@@ -141,7 +141,8 @@ def test_pseudo_guards_and_segments():
 
 def test_variant_options_validated():
     spec = {"pseudo": {"p1": {"teacher": "a"}}, "variants": [{"name": "s", "pseudo": {"set": "p1"}}, {"name": "a"}]}
-    for bad in (spec, {"variants": [{"name": "x", "select": "dev", "dev_clips": "train"}]}):
+    for bad in (spec, {"variants": [{"name": "x", "select": "dev", "dev_clips": "train"}]},
+                {"variants": [{"name": "x", "label_field": "roman"}]}):
         try:
             config.load(bad)
             raise AssertionError("accepted")

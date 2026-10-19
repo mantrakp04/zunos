@@ -54,6 +54,8 @@ else:
 # ------------------------------------------------------------------ data
 
 real = read_jsonl(f"{D}/real.jsonl")
+if cfg["label_field"] != "text":  # train, select and score on another label of the same clips (e.g. native script)
+    real = [dict(r, text=r.get(cfg["label_field"]) or r["text"]) for r in real]
 real_train = [dict(r, real=True) for r in real if r["split"] == "train"]
 real_dev = [r for r in real if r["split"] == "dev"]
 real_test = [r for r in real if r["split"] == "test"]
