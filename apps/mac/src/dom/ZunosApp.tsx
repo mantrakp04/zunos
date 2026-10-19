@@ -11,7 +11,8 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 
 import type { Actions } from "../services/actions";
 import type { LiveState } from "../shared/types";
-import { Bean, type BeanMood, Wordmark } from "./Bean";
+import { Bean, Wordmark } from "./Bean";
+import { Mascot3D, type MascotState } from "./Mascot3D";
 import { DictateMark } from "./marks";
 import Languages from "./screens/Languages";
 import Record from "./screens/Record";
@@ -107,9 +108,6 @@ export default function ZunosApp({ live, dom: _dom, ...a }: Props) {
 
 /* ---- the mascot as status light ---------------------------------------------------------------- */
 
-/** The mascot's states; the same names the 3D mascot takes. */
-export type MascotState = "sleeping" | "waking" | "awake" | "listening" | "thinking" | "working" | "error";
-
 /** What the app is doing, as one mascot state, most urgent first. */
 function mascotStatus(live: LiveState, cloudRun: boolean): { state: MascotState; label: string } {
   if (live.engine === "error") return { state: "error", label: "Engine stopped" };
@@ -120,10 +118,6 @@ function mascotStatus(live: LiveState, cloudRun: boolean): { state: MascotState;
   if (live.engine === "stopped") return { state: "sleeping", label: "Asleep" };
   return { state: "awake", label: "Ready" };
 }
-
-const BEAN_MOOD: Record<MascotState, BeanMood> = {
-  sleeping: "asleep", waking: "waking", awake: "awake", listening: "listening", thinking: "thinking", working: "thinking", error: "error",
-};
 
 /* ---- the rail: the mascot as status light, the steps as one journey, your languages, account -- */
 
@@ -169,7 +163,7 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
           onClick={() => status.state === "error" && !wake.busy && wake.run()}
           className={cn("-my-1 -ml-1 shrink-0 rounded-full", status.state === "error" ? "cursor-pointer" : "cursor-default")}
         >
-          <Bean mood={BEAN_MOOD[status.state]} level={status.state === "listening" ? live.level : 0} size={34} />
+          <Mascot3D state={status.state} level={status.state === "listening" ? live.level : 0} size={34} />
         </button>
         <Wordmark height={17} className="text-brand-ink dark:text-brand-cream" />
       </div>

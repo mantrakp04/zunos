@@ -17,7 +17,6 @@ const STEPS = [
   { title: "Train", description: "About an hour on a cloud GPU" },
   { title: "Dictate", description: "On your Mac, offline" },
 ];
-const ROMAN = "Latin (romanized)";
 const spring = { type: "spring", stiffness: 420, damping: 34 } as const;
 const flight = { type: "spring", stiffness: 260, damping: 28 } as const;
 
@@ -344,7 +343,7 @@ const Tile = memo(function Tile({ lang: l, on, onToggle }: { lang: Language; on:
       </div>
       <div className="relative flex items-center gap-1.5 text-[12px] text-muted-foreground">
         <span className="min-w-0 truncate">{l.name}</span>
-        {l.script === ROMAN && <AaBadge on={on} />}
+        {l.script === "roman" && <AaBadge on={on} />}
       </div>
     </motion.button>
   );
