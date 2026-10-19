@@ -3,7 +3,7 @@ import type { CSSProperties } from "react";
 
 // The listening bean (assets/brand/logo-mark.svg), split into parts so it can react: the ear
 // perks up and the sound waves swell with the mic level, the eyes open while it listens.
-export type BeanMood = "idle" | "listening" | "thinking" | "happy" | "sleepy";
+export type BeanMood = "idle" | "listening" | "thinking" | "happy" | "sleepy" | "asleep" | "waking" | "awake" | "error";
 
 export function Bean({
   mood = "idle",

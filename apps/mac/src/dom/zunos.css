@@ -90,6 +90,74 @@
   opacity: 0;
 }
 
+/* asleep: lids closed (the happy arcs, flipped), ear down, slow breaths, waves off */
+.zn-bean[data-mood="asleep"] .zn-bean-eyes-happy,
+.zn-bean[data-mood="error"] .zn-bean-eyes-happy,
+.zn-bean[data-mood="waking"] .zn-bean-eyes-happy {
+  transform-origin: 88px 108px;
+  transform: scaleY(-0.55);
+}
+.zn-bean[data-mood="asleep"] .zn-bean-body,
+.zn-bean[data-mood="error"] .zn-bean-body {
+  animation-duration: 6.5s;
+}
+.zn-bean[data-mood="asleep"] .zn-bean-ear,
+.zn-bean[data-mood="error"] .zn-bean-ear {
+  transform: rotate(14deg) translate(4px, 6px);
+}
+.zn-bean[data-mood="asleep"] .zn-bean-waves path,
+.zn-bean[data-mood="error"] .zn-bean-waves path {
+  opacity: 0;
+}
+
+/* waking: the eyes keep fluttering open and shutting again, the ear tries to stand up */
+.zn-bean[data-mood="waking"] .zn-bean-eyes-happy {
+  animation: zn-lids 1.8s ease-in-out infinite;
+}
+.zn-bean[data-mood="waking"] .zn-bean-eyes-open {
+  animation: zn-peek 1.8s ease-in-out infinite;
+}
+.zn-bean[data-mood="waking"] .zn-bean-ear {
+  animation: zn-ear-try 1.8s ease-in-out infinite;
+}
+.zn-bean[data-mood="waking"] .zn-bean-waves path {
+  opacity: 0;
+}
+
+/* awake: eyes open and blinking, waves drifting like idle */
+.zn-bean[data-mood="awake"] .zn-bean-eyes-happy {
+  opacity: 0;
+}
+.zn-bean[data-mood="awake"] .zn-bean-eyes-open {
+  opacity: 1;
+  animation: zn-blink 4.6s infinite;
+}
+.zn-bean[data-mood="awake"] .zn-bean-wave1 {
+  animation: zn-wave 3.2s ease-in-out infinite;
+}
+.zn-bean[data-mood="awake"] .zn-bean-wave2 {
+  animation: zn-wave 3.2s ease-in-out 0.35s infinite;
+}
+
+/* error: asleep, tipped over and a little grey */
+.zn-bean[data-mood="error"] {
+  filter: saturate(0.35);
+  transform: rotate(-8deg);
+}
+
+@keyframes zn-lids {
+  0%, 55%, 100% { opacity: 1; }
+  65%, 85% { opacity: 0; }
+}
+@keyframes zn-peek {
+  0%, 55%, 100% { opacity: 0; }
+  65%, 85% { opacity: 1; }
+}
+@keyframes zn-ear-try {
+  0%, 50%, 100% { transform: rotate(14deg) translate(4px, 6px); }
+  70%, 80% { transform: rotate(-2deg); }
+}
+
 @keyframes zn-breathe {
   50% {
     transform: scale(1.012, 0.988);

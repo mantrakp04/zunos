@@ -19,7 +19,7 @@ import SignIn from "./screens/SignIn";
 import Test from "./screens/Test";
 import Train from "./screens/Train";
 import Use from "./screens/Use";
-import { Button, ErrorNote, langName, minutes, pct, shortOf, useAsync } from "./ui";
+import { Button, ErrorNote, langName, minutes, pct, shortOf, useAction, useAsync } from "./ui";
 
 export type ScreenProps = { a: Actions; live: LiveState; /** Switch to another screen. */ go?: (id: ScreenId) => void };
 
@@ -107,7 +107,27 @@ export default function ZunosApp({ live, dom: _dom, ...a }: Props) {
   );
 }
 
-/* ---- the rail: brand, the four steps as one journey, your languages, engine and account ------- */
+/* ---- the mascot as status light ---------------------------------------------------------------- */
+
+/** The mascot's states; the same names the 3D mascot takes. */
+export type MascotState = "sleeping" | "waking" | "awake" | "listening" | "thinking" | "working" | "error";
+
+/** What the app is doing, as one mascot state, most urgent first. */
+export function mascotStatus(live: LiveState, cloudRun: boolean): { state: MascotState; label: string } {
+  if (live.engine === "error") return { state: "error", label: "Engine stopped" };
+  if (live.recording || live.dictation?.phase === "listening") return { state: "listening", label: "Listening" };
+  if (live.engine === "busy" || live.dictation?.phase === "thinking") return { state: "thinking", label: "Working on it" };
+  if (live.transfer || cloudRun) return { state: "working", label: live.transfer ? "Moving your model" : "Training in the cloud" };
+  if (live.engine === "starting" || live.engine === "loading") return { state: "waking", label: live.engine === "loading" ? "Loading your model" : "Waking up" };
+  if (live.engine === "stopped") return { state: "sleeping", label: "Asleep" };
+  return { state: "awake", label: "Ready" };
+}
+
+const BEAN_MOOD: Record<MascotState, BeanMood> = {
+  sleeping: "asleep", waking: "waking", awake: "awake", listening: "listening", thinking: "thinking", working: "thinking", error: "error",
+};
+
+/* ---- the rail: the mascot as status light, the steps as one journey, your languages, account -- */
 
 function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenProps & {
   screen: ScreenId; onScreen: (id: ScreenId) => void; languages: string[]; onEditLanguages: () => void;
@@ -137,19 +157,22 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
     train: !!active, test: avg != null, use: !!active,
   };
 
-  const mood: BeanMood =
-    live.recording || hot?.phase === "listening"
-      ? "listening"
-      : hot?.phase === "thinking" || live.engine === "busy" || live.engine === "loading" || live.engine === "starting" || !!live.transfer
-        ? "thinking"
-        : live.engine === "error"
-          ? "sleepy"
-          : "idle";
+  const status = mascotStatus(live, !!running);
+  const wake = useAction(() => a.prepareDictation());
 
   return (
     <aside className="flex w-[232px] shrink-0 flex-col px-3 pt-[calc(var(--titlebar)+14px)] pb-3 select-none">
       <div className="mb-6 flex items-center gap-2.5 px-2">
-        <Bean mood={mood} level={live.level} size={34} className="-my-1 -ml-1" />
+        {/* The mascot is the engine's status light: asleep, waking, awake, listening, thinking, working. */}
+        <button
+          type="button"
+          aria-label={`zunos: ${status.label}`}
+          title={status.state === "error" ? `${status.label}: ${live.engineError ?? "the engine stopped"}. Click to try again.` : `${status.label}${active ? ` · Model ${active.name}` : ""}`}
+          onClick={() => status.state === "error" && !wake.busy && wake.run()}
+          className={cn("-my-1 -ml-1 shrink-0 rounded-full", status.state === "error" ? "cursor-pointer" : "cursor-default")}
+        >
+          <Bean mood={BEAN_MOOD[status.state]} level={status.state === "listening" ? live.level : 0} size={34} />
+        </button>
         <Wordmark height={17} className="text-brand-ink dark:text-brand-cream" />
       </div>
 
@@ -206,7 +229,6 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
         <AnimatePresence initial={false}>
           {hot && <HotkeyDictation key="hot" phase={hot.phase} level={live.level} onOpen={() => onScreen("use")} />}
         </AnimatePresence>
-        <EngineCard live={live} model={active?.name ?? null} />
         <div className="flex items-center gap-2 px-2.5 pt-1">
           <span className="grid size-6 shrink-0 place-items-center rounded-full bg-brand-ink text-[11px] font-semibold text-brand-cream dark:bg-brand-cream dark:text-brand-ink">
             {(live.user?.email ?? "?")[0]!.toUpperCase()}
@@ -326,34 +348,6 @@ function VoiceBars({ level, thinking }: { level: number; thinking: boolean }) {
         .zn-hot-wave { animation: zn-hot-wave 1s ease-in-out infinite }
       `}</style>
     </span>
-  );
-}
-
-function EngineCard({ live, model }: { live: LiveState; model: string | null }) {
-  const label = {
-    stopped: "Engine off", starting: "Starting engine", loading: "Loading model", ready: "On-device, ready", busy: "Working", error: "Engine error",
-  }[live.engine];
-  const tone =
-    live.engine === "ready" ? "bg-good" : live.engine === "error" ? "bg-destructive" : live.engine === "stopped" ? "bg-muted-foreground" : "bg-warn";
-  const pulsing = live.engine === "starting" || live.engine === "loading" || live.engine === "busy";
-  return (
-    <div title={live.engineError ?? undefined} className="rounded-[12px] bg-foreground/[0.04] px-3 py-2.5 shadow-[inset_0_0_0_1px_var(--rail-line)]">
-      <div className="flex items-center gap-2 text-[12px] font-medium">
-        <span className="relative flex size-2">
-          {pulsing && <span className={cn("absolute inset-0 animate-ping rounded-full opacity-60", tone)} />}
-          <span className={cn("relative size-2 rounded-full", tone)} />
-        </span>
-        {label}
-      </div>
-      <div title={model ?? undefined} className="mt-1 truncate pl-4 text-[11.5px] text-muted-foreground">{model ? `Model ${model}` : "No model yet"}</div>
-      {live.transfer && (
-        <div className="mt-2 pl-4">
-          <div className="h-1 overflow-hidden rounded-full bg-foreground/10">
-            <div className="h-full bg-brand transition-[width] duration-300" style={{ width: `${Math.round(live.transfer.progress * 100)}%` }} />
-          </div>
-        </div>
-      )}
-    </div>
   );
 }
 
