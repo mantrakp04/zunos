@@ -1,0 +1,23 @@
+{
+  "name": "@zunos/db",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./schema": "./src/schema.ts",
+    "./bun": "./src/bun.ts"
+  },
+  "scripts": {
+    "generate": "drizzle-kit generate --name ${NAME:-change} && bun scripts/embed-migrations.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.4"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.3",
+    "drizzle-kit": "^0.31.11",
+    "typescript": "~5.9.2"
+  }
+}
