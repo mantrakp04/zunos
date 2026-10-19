@@ -1,10 +1,15 @@
-import type { Env } from "./env";
-import { HOUR, keys, presign } from "./r2";
+import { Database } from "bun:sqlite";
+import { mkdirSync } from "node:fs";
+import { dirname } from "node:path";
+import { HOUR, keys, presign } from "./blobs";
+import type { Ctx } from "./env";
+import { migrate } from "./migrations";
 
 export type RunStatus = "uploading" | "queued" | "running" | "done" | "failed" | "stopped";
 export const ACTIVE: RunStatus[] = ["uploading", "queued", "running"];
 /** Statuses with a pod that is (or may be) billing. */
 export const BILLING: RunStatus[] = ["queued", "running"];
+export const FINISHED: RunStatus[] = ["done", "failed", "stopped"];
 
 export type RunRow = {
   id: string;
@@ -41,33 +46,51 @@ export type RemoteRun = {
   error: string | null;
 };
 
-export const getRun = (env: Env, id: string) =>
-  env.DB.prepare("SELECT * FROM runs WHERE id = ?").bind(id).first<RunRow>();
-
-export const activeRunFor = (env: Env, userId: string) =>
-  env.DB.prepare(`SELECT * FROM runs WHERE user_id = ? AND status IN ('uploading','queued','running') LIMIT 1`)
-    .bind(userId)
-    .first<RunRow>();
-
-export async function billingRuns(env: Env): Promise<RunRow[]> {
-  const { results } = await env.DB.prepare(`SELECT * FROM runs WHERE status IN ('queued','running')`).all<RunRow>();
-  return results;
+/** Opens (creating if needed) the database file, or ":memory:", and brings its schema up to date. */
+export function openDb(path: string): Database {
+  if (path !== ":memory:") mkdirSync(dirname(path), { recursive: true });
+  const db = new Database(path, { create: true, strict: true });
+  db.exec("PRAGMA journal_mode = WAL");
+  db.exec("PRAGMA busy_timeout = 5000");
+  db.exec("PRAGMA foreign_keys = ON");
+  migrate(db);
+  return db;
 }
 
+const placeholders = (n: number) => Array.from({ length: n }, () => "?").join(",");
+
+export const getRun = (ctx: Ctx, id: string) =>
+  ctx.db.query<RunRow, [string]>("SELECT * FROM runs WHERE id = ?").get(id);
+
+export const activeRunFor = (ctx: Ctx, userId: string) =>
+  ctx.db
+    .query<RunRow, [string]>(`SELECT * FROM runs WHERE user_id = ? AND status IN ('uploading','queued','running') LIMIT 1`)
+    .get(userId);
+
+export const runsWithStatus = (ctx: Ctx, statuses: RunStatus[]) =>
+  ctx.db.query<RunRow, RunStatus[]>(`SELECT * FROM runs WHERE status IN (${placeholders(statuses.length)})`).all(...statuses);
+
+export const billingRuns = (ctx: Ctx) => runsWithStatus(ctx, BILLING);
+
+export function insertRun(ctx: Ctx, run: Pick<RunRow, "id" | "user_id" | "email" | "langs" | "created_at">) {
+  ctx.db
+    .query("INSERT INTO runs (id, user_id, email, langs, status, created_at) VALUES (?, ?, ?, ?, 'uploading', ?)")
+    .run(run.id, run.user_id, run.email, run.langs, run.created_at);
+}
+
+type SqlValue = string | number | null;
+
 /** Updates the given columns on a run, optionally only while its status is one of `onlyIf`. */
-export async function updateRun(env: Env, id: string, fields: Partial<RunRow>, onlyIf?: RunStatus[]): Promise<boolean> {
+export function updateRun(ctx: Ctx, id: string, fields: Partial<RunRow>, onlyIf?: RunStatus[]): boolean {
   const cols = Object.keys(fields) as (keyof RunRow)[];
   if (!cols.length) return true;
   let sql = `UPDATE runs SET ${cols.map((c) => `${c} = ?`).join(", ")} WHERE id = ?`;
-  const args: unknown[] = [...cols.map((c) => fields[c] ?? null), id];
+  const args: SqlValue[] = [...cols.map((c) => (fields[c] ?? null) as SqlValue), id];
   if (onlyIf?.length) {
-    sql += ` AND status IN (${onlyIf.map(() => "?").join(",")})`;
+    sql += ` AND status IN (${placeholders(onlyIf.length)})`;
     args.push(...onlyIf);
   }
-  const res = await env.DB.prepare(sql)
-    .bind(...args)
-    .run();
-  return (res.meta.changes ?? 0) > 0;
+  return ctx.db.query(sql).run(...args).changes > 0;
 }
 
 /** price × hours between the pod starting and the run finishing (or now). */
@@ -86,7 +109,10 @@ export const parseJson = <T>(s: string | null, fallback: T): T => {
   }
 };
 
-export async function toRemoteRun(env: Env, row: RunRow, now = Date.now()): Promise<RemoteRun> {
+export async function toRemoteRun(ctx: Ctx, row: RunRow, now = Date.now()): Promise<RemoteRun> {
+  // The model is deleted 7 days after the run finishes; from then on there is nothing to download.
+  const hasModel =
+    row.status === "done" && !!ctx.env.BLOB_SIGNING_SECRET && !!(await ctx.blobs.head(keys.model(row.id)));
   return {
     id: row.id,
     status: row.status,
@@ -94,7 +120,7 @@ export async function toRemoteRun(env: Env, row: RunRow, now = Date.now()): Prom
     costUsd: costUsd(row, now),
     evals: parseJson(row.evals, []),
     steps: parseJson(row.steps, []),
-    modelUrl: row.status === "done" ? await presign(env, keys.model(row.id), "GET", 24 * HOUR) : null,
+    modelUrl: hasModel ? presign(ctx.env, keys.model(row.id), "GET", 24 * HOUR, now) : null,
     error: row.error,
   };
 }

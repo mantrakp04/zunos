@@ -1,5 +1,4 @@
-import type { MiddlewareHandler } from "hono";
-import { type AppEnv, type Env, type User, settings } from "./env";
+import { type Env, type User, settings } from "./env";
 import { fail } from "./http";
 
 const CACHE_MS = 60_000;
@@ -19,8 +18,8 @@ async function verify(env: Env, token: string): Promise<User> {
     res = await fetch(`${s.hexclaveUrl}/api/v1/users/me`, {
       headers: {
         "X-Hexclave-Access-Type": "client",
-        "X-Hexclave-Project-Id": env.HEXCLAVE_PROJECT_ID,
-        "X-Hexclave-Publishable-Client-Key": env.HEXCLAVE_PUBLISHABLE_CLIENT_KEY,
+        "X-Hexclave-Project-Id": env.HEXCLAVE_PROJECT_ID ?? "",
+        "X-Hexclave-Publishable-Client-Key": env.HEXCLAVE_PUBLISHABLE_CLIENT_KEY ?? "",
         "X-Hexclave-Access-Token": token,
       },
       signal: AbortSignal.timeout(10_000),
@@ -41,12 +40,11 @@ async function verify(env: Env, token: string): Promise<User> {
 }
 
 /** Requires a valid Hexclave access token whose primary email is on ALLOWED_EMAILS. */
-export const requireUser: MiddlewareHandler<AppEnv> = async (c, next) => {
-  const token = c.req.header("x-stack-access-token");
-  if (!token) fail(401, "unauthorized", "Sign in to train.");
-  const user = await verify(c.env, token!);
-  if (!user.email || !settings(c.env).allowedEmails.has(user.email))
+export async function requireUser(env: Env, request: Request): Promise<User> {
+  const token = request.headers.get("x-stack-access-token");
+  if (!token) return fail(401, "unauthorized", "Sign in to train.");
+  const user = await verify(env, token);
+  if (!user.email || !settings(env).allowedEmails.has(user.email))
     fail(403, "not_allowed", "Training is invite-only for now.");
-  c.set("user", user);
-  await next();
-};
+  return user;
+}

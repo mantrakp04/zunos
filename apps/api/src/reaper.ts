@@ -1,34 +1,46 @@
-// Cron (every 5 minutes): stops anything that is costing money and shouldn't be.
+// Every 5 minutes (and once at startup): stops anything that is costing money and shouldn't be, and deletes
+// files nobody needs any more.
+import { keys } from "./blobs";
 import { committedHourly } from "./budget";
-import { type RunRow, billingRuns } from "./db";
-import { type Env, POD_PREFIX, settings } from "./env";
-import { finishRun, terminatePod } from "./lifecycle";
+import { FINISHED, type RunRow, billingRuns, runsWithStatus } from "./db";
+import { type Ctx, POD_PREFIX, settings } from "./env";
+import { deleteBlob, finishRun, terminatePod } from "./lifecycle";
 import { type PodSummary, runpod } from "./runpod";
 
 const MIN = 60_000;
 export const STALL_MS = { queued: 45 * MIN, running: 30 * MIN };
 /** An upload URL lives 1 hour; a run still "uploading" well after that was abandoned. */
 export const UPLOAD_ABANDON_MS = 3 * 60 * MIN;
+/** The app downloads the model once; after this it is deleted. */
+export const MODEL_KEEP_MS = 7 * 24 * 60 * MIN;
+/** Temp files from uploads that died mid-stream. */
+export const TMP_KEEP_MS = 24 * 60 * MIN;
+export const REAP_INTERVAL_MS = 5 * MIN;
 
-export type ReapReport = { failed: { runId: string; reason: string }[]; orphansTerminated: string[]; podsListed: boolean };
+export type ReapReport = {
+  failed: { runId: string; reason: string }[];
+  orphansTerminated: string[];
+  podsListed: boolean;
+  blobsDeleted: string[];
+};
 
-export async function reap(env: Env, now = Date.now()): Promise<ReapReport> {
-  const s = settings(env);
-  const rp = runpod(env);
-  const report: ReapReport = { failed: [], orphansTerminated: [], podsListed: false };
+export async function reap(ctx: Ctx, now = Date.now()): Promise<ReapReport> {
+  const s = settings(ctx.env);
+  const rp = runpod(ctx.env);
+  const report: ReapReport = { failed: [], orphansTerminated: [], podsListed: false, blobsDeleted: [] };
   const kill = async (row: RunRow, reason: string, error: string) => {
-    await finishRun(env, row, "failed", { error, reason, now, rp });
+    await finishRun(ctx, row, "failed", { error, reason, now, rp });
     report.failed.push({ runId: row.id, reason });
   };
 
   // Abandoned uploads (no pod, but they block the user's next run).
-  const { results: stale } = await env.DB.prepare(`SELECT * FROM runs WHERE status = 'uploading' AND created_at < ?`)
-    .bind(now - UPLOAD_ABANDON_MS)
-    .all<RunRow>();
+  const stale = ctx.db
+    .query<RunRow, [number]>(`SELECT * FROM runs WHERE status = 'uploading' AND created_at < ?`)
+    .all(now - UPLOAD_ABANDON_MS);
   for (const row of stale) await kill(row, "upload abandoned", "The recordings never finished uploading.");
 
   // Stalled or overlong runs.
-  let active = await billingRuns(env);
+  let active = billingRuns(ctx);
   for (const row of active) {
     const last = row.last_event_at ?? row.started_at ?? row.created_at;
     const limit = row.status === "queued" ? STALL_MS.queued : STALL_MS.running;
@@ -39,7 +51,7 @@ export async function reap(env: Env, now = Date.now()): Promise<ReapReport> {
       await kill(row, `over ${s.maxRunHours} h`, `Training hit the ${s.maxRunHours}-hour limit.`);
     }
   }
-  active = await billingRuns(env);
+  active = billingRuns(ctx);
 
   let pods: PodSummary[] = [];
   try {
@@ -69,7 +81,7 @@ export async function reap(env: Env, now = Date.now()): Promise<ReapReport> {
 
   // Orphans: zunos pods with no active run (crashed start, missed terminate, run finished).
   if (report.podsListed) {
-    active = await billingRuns(env);
+    active = billingRuns(ctx);
     const keep = new Set(active.flatMap((r) => [r.id, r.pod_id ?? ""]));
     for (const pod of pods) {
       if (!pod.name.startsWith(POD_PREFIX) || pod.status === "TERMINATED" || killedPods.has(pod.id)) continue;
@@ -78,6 +90,35 @@ export async function reap(env: Env, now = Date.now()): Promise<ReapReport> {
     }
   }
 
-  if (report.failed.length || report.orphansTerminated.length) console.log(JSON.stringify({ msg: "reaper", ...report }));
+  // Files: a finished run's dataset (an upload can land after the run ended), and its model 7 days on.
+  for (const row of runsWithStatus(ctx, FINISHED)) {
+    if (await deleteBlob(ctx, keys.dataset(row.id), "run finished")) report.blobsDeleted.push(keys.dataset(row.id));
+    const finished = row.finished_at ?? row.created_at;
+    if (now - finished > MODEL_KEEP_MS && (await deleteBlob(ctx, keys.model(row.id), "model older than 7 days")))
+      report.blobsDeleted.push(keys.model(row.id));
+  }
+  ctx.blobs.cleanTmp(TMP_KEEP_MS, now);
+
+  if (report.failed.length || report.orphansTerminated.length || report.blobsDeleted.length)
+    console.log(JSON.stringify({ msg: "reaper", ...report }));
   return report;
+}
+
+/** Runs the reaper now and then every `intervalMs`, never two at once. Returns a function that stops it. */
+export function startReaper(ctx: Ctx, intervalMs = REAP_INTERVAL_MS): { stop: () => void; first: Promise<void> } {
+  let running = false;
+  const tick = async () => {
+    if (running) return;
+    running = true;
+    try {
+      await reap(ctx);
+    } catch (e) {
+      console.error(JSON.stringify({ msg: "reaper failed", error: String(e) }));
+    } finally {
+      running = false;
+    }
+  };
+  const first = tick();
+  const timer = setInterval(tick, intervalMs);
+  return { stop: () => clearInterval(timer), first };
 }

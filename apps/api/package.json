@@ -4,24 +4,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "typecheck": "tsc --noEmit",
-    "test": "vitest run",
-    "db:migrate:local": "wrangler d1 migrations apply zunos-api --local",
-    "db:migrate:remote": "wrangler d1 migrations apply zunos-api --remote",
-    "upload-pod-code": "bun scripts/upload-pod-code.ts"
+    "dev": "hexclave dev --config-file ../../hexclave.config.ts -- bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "aws4fetch": "^1.0.20",
-    "hono": "^4.13.13"
+    "@sinclair/typebox": "^0.34.52",
+    "elysia": "^1.4.30"
   },
   "devDependencies": {
-    "@cloudflare/vitest-plugin": "^1.4.2",
-    "@cloudflare/workers-types": "^5.20261014.1",
     "@types/bun": "^1.4.3",
-    "typescript": "~5.9.2",
-    "vitest": "~4.1.12",
-    "wrangler": "^4.151.0"
+    "typescript": "~5.9.2"
   }
 }

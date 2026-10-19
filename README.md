@@ -60,14 +60,15 @@ uv run zunos-eval ~/Library/Application\ Support/zunos/models/v3a-hf   # score a
 uv run zunos-dictate ~/Library/Application\ Support/zunos/models/v3a-hf              # terminal dictation
 ```
 
-Cloud training: see apps/api/README.md (Cloudflare Worker, R2, D1, Runpod) and python/pod.
+Cloud training: see apps/api/README.md (Elysia on Bun, deployed with `npx hexclave deploy` from
+hexclave.deploy.ts on Hexclave's GCP runtime) and python/pod.
 
 ## Repository
 
 | Path | What |
 |---|---|
 | apps/mac | The Mac app (Expo + react-native-macos, ruixen UI in DOM components, Swift module) |
-| apps/api | Training backend (Cloudflare Worker) |
+| apps/api | Training backend (Elysia on Bun, Hexclave deployments) |
 | packages/db | App database schema and migrations |
 | packages/ui | Theme and ruixen components |
 | python/core | Text normalization and scoring |

@@ -1,12 +1,22 @@
-import { env } from "cloudflare:workers";
-import { beforeEach, describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "bun:test";
 import { costUsd } from "../src/db";
 import { mockRunpod } from "../src/runpod";
-import { call, getRow, resetState, startedRun, stubFetch } from "./helpers";
+import { signature } from "../src/blobs";
+import { BASE_ENV, blobs, call, getRow, resetState, sql, startedRun, stubFetch, uploadDataset } from "./helpers";
 
 beforeEach(async () => {
   await resetState();
 });
+
+/** Checks a signed blob URL: right origin, path, method and expiry, with a valid signature. */
+function expectSigned(url: string, key: string, method: "GET" | "PUT", ttlSec: number) {
+  const u = new URL(url);
+  expect(u.origin).toBe("https://api.zunos.test");
+  expect(u.pathname).toBe(`/blobs/${key}`);
+  const exp = Number(u.searchParams.get("exp"));
+  expect(Math.abs(exp - (Date.now() / 1000 + ttlSec))).toBeLessThan(5);
+  expect(u.searchParams.get("sig")).toBe(signature(BASE_ENV.BLOB_SIGNING_SECRET!, method, key, exp));
+}
 
 describe("auth", () => {
   it("rejects a missing token", async () => {
@@ -55,6 +65,21 @@ describe("auth", () => {
     const r = await call("/nope");
     expect(r.status).toBe(404);
     expect(r.json).toEqual({ error: expect.any(String), code: "not_found" });
+    expect(r.res.headers.get("cache-control")).toBe("private, no-store");
+  });
+
+  it("successful responses are private, no-store too", async () => {
+    stubFetch();
+    const r = await call("/quote", { token: "tok-alice" });
+    expect(r.res.headers.get("cache-control")).toBe("private, no-store");
+    expect(r.res.headers.get("content-type")).toMatch(/^application\/json/);
+  });
+
+  it("rejects a body that isn't JSON", async () => {
+    stubFetch();
+    const r = await call("/runs", { token: "tok-alice", method: "POST", raw: "{nope", headers: { "content-type": "application/json" } });
+    expect(r.status).toBe(400);
+    expect(r.json.code).toBe("bad_request");
   });
 });
 
@@ -104,22 +129,32 @@ describe("quote", () => {
 });
 
 describe("runs", () => {
-  it("creates a run with a presigned R2 PUT for the dataset", async () => {
+  it("creates a run with a signed PUT URL for the dataset", async () => {
     stubFetch();
     const r = await call("/runs", { token: "tok-alice", method: "POST", body: { langs: ["en", "gu"] } });
     expect(r.status).toBe(201);
     expect(r.json.id).toMatch(/^[0-9a-f-]{36}$/);
-    const url = new URL(r.json.uploadUrl);
-    expect(url.origin).toBe("https://acct123.r2.cloudflarestorage.com");
-    expect(url.pathname).toBe(`/zunos-test/runs/${r.json.id}/dataset.tar.gz`);
-    expect(url.searchParams.get("X-Amz-Algorithm")).toBe("AWS4-HMAC-SHA256");
-    expect(url.searchParams.get("X-Amz-Expires")).toBe("3600");
-    expect(url.searchParams.get("X-Amz-Credential")).toMatch(/^AKIDTEST\/\d{8}\/auto\/s3\/aws4_request$/);
-    expect(url.searchParams.get("X-Amz-SignedHeaders")).toBe("host");
-    expect(url.searchParams.get("X-Amz-Signature")).toMatch(/^[0-9a-f]{64}$/);
+    expectSigned(r.json.uploadUrl, `runs/${r.json.id}/dataset.tar.gz`, "PUT", 3600);
 
-    const row = await getRow(r.json.id);
+    const row = getRow(r.json.id);
     expect(row).toMatchObject({ user_id: "u-alice", email: "alice@example.com", status: "uploading", langs: '["en","gu"]' });
+  });
+
+  it("accepts the dataset the way the Mac app uploads it", async () => {
+    stubFetch();
+    const { json } = await call("/runs", { token: "tok-alice", method: "POST", body: { langs: ["en"] } });
+    const up = await uploadDataset(json.uploadUrl, "gzip bytes");
+    expect(up.status).toBe(200);
+    expect(await Bun.file(`${BASE_ENV.DATA_DIR}/blobs/runs/${json.id}/dataset.tar.gz`).text()).toBe("gzip bytes");
+  });
+
+  it("won't create a run when blob URLs can't be signed", async () => {
+    stubFetch();
+    for (const env of [{ PUBLIC_URL: "" }, { BLOB_SIGNING_SECRET: "" }]) {
+      const r = await call("/runs", { token: "tok-alice", method: "POST", body: { langs: ["en"] }, env });
+      expect(r.status).toBe(503);
+      expect(r.json.code).toBe("not_configured");
+    }
   });
 
   it("validates langs", async () => {
@@ -141,13 +176,11 @@ describe("runs", () => {
     expect((await call("/runs", { token: "tok-bob", method: "POST", body: { langs: ["en"] } })).status).toBe(201);
   });
 
-  it("the database enforces one active run per user", async () => {
+  it("the database enforces one active run per user", () => {
     const insert = (id: string) =>
-      env.DB.prepare("INSERT INTO runs (id, user_id, email, langs, status, created_at) VALUES (?, 'u-x', 'x', '[]', 'queued', 0)")
-        .bind(id)
-        .run();
-    await insert("a");
-    await expect(insert("b")).rejects.toThrow(/UNIQUE/);
+      sql("INSERT INTO runs (id, user_id, email, langs, status, created_at) VALUES (?, 'u-x', 'x', '[]', 'queued', 0)", id);
+    insert("a");
+    expect(() => insert("b")).toThrow(/UNIQUE/);
   });
 
   it("won't start before the dataset is uploaded", async () => {
@@ -162,8 +195,22 @@ describe("runs", () => {
   it("won't launch a pod when the server isn't configured", async () => {
     stubFetch();
     const { json } = await call("/runs", { token: "tok-alice", method: "POST", body: { langs: ["en"] } });
-    await env.BUCKET.put(`runs/${json.id}/dataset.tar.gz`, "x");
-    const r = await call(`/runs/${json.id}/start`, { token: "tok-alice", method: "POST", env: { PUBLIC_URL: "" } });
+    await uploadDataset(json.uploadUrl, "x");
+    for (const env of [{ PUBLIC_URL: "" }, { BLOB_SIGNING_SECRET: "" }, { RUNPOD_MOCK: "0", RUNPOD_API_KEY: "" }]) {
+      const r = await call(`/runs/${json.id}/start`, { token: "tok-alice", method: "POST", env });
+      expect(r.status).toBe(503);
+      expect(r.json.code).toBe("not_configured");
+    }
+    expect(mockRunpod.pods.size).toBe(0);
+    expect(getRow(json.id).status).toBe("uploading");
+  });
+
+  it("won't launch a pod when the pod code hasn't been built", async () => {
+    stubFetch();
+    const { json } = await call("/runs", { token: "tok-alice", method: "POST", body: { langs: ["en"] } });
+    await uploadDataset(json.uploadUrl, "x");
+    await blobs.delete("pod/code.tar.gz");
+    const r = await call(`/runs/${json.id}/start`, { token: "tok-alice", method: "POST" });
     expect(r.status).toBe(503);
     expect(r.json.code).toBe("not_configured");
     expect(mockRunpod.pods.size).toBe(0);
@@ -196,11 +243,21 @@ describe("runs", () => {
     expect(podEnv.ZUNOS_EVENTS_URL).toBe(`https://api.zunos.test/runs/${id}/events`);
     expect(podEnv.ZUNOS_EVENTS_TOKEN).toMatch(/^[0-9a-f]{64}$/);
     expect(podEnv.HF_TOKEN).toBe("hf_test");
-    const code = new URL(podEnv.ZUNOS_CODE_URL!);
-    expect(code.pathname).toBe("/zunos-test/pod/code.tar.gz");
-    expect(code.searchParams.get("X-Amz-Expires")).toBe(String(6 * 3600));
-    expect(new URL(podEnv.ZUNOS_DATASET_URL!).pathname).toBe(`/zunos-test/runs/${id}/dataset.tar.gz`);
-    expect(new URL(podEnv.ZUNOS_MODEL_URL!).pathname).toBe(`/zunos-test/runs/${id}/model.tar`);
+    expectSigned(podEnv.ZUNOS_CODE_URL!, "pod/code.tar.gz", "GET", 6 * 3600);
+    expectSigned(podEnv.ZUNOS_DATASET_URL!, `runs/${id}/dataset.tar.gz`, "GET", 6 * 3600);
+    expectSigned(podEnv.ZUNOS_MODEL_URL!, `runs/${id}/model.tar`, "PUT", 6 * 3600);
+
+    // The pod can fetch what it was given.
+    const code = await call(podEnv.ZUNOS_CODE_URL!);
+    expect(code.status).toBe(200);
+    expect(code.res.headers.get("content-type")).toBe("application/gzip");
+    expect((await call(podEnv.ZUNOS_DATASET_URL!)).text).toBe("fake dataset");
+  });
+
+  it("omits HF_TOKEN from the pod when it isn't set", async () => {
+    stubFetch();
+    const { podEnv } = await startedRun("tok-alice", { HF_TOKEN: "" });
+    expect(podEnv.HF_TOKEN).toBeUndefined();
   });
 
   it("falls through GPU types on capacity errors", async () => {
@@ -215,23 +272,23 @@ describe("runs", () => {
     stubFetch();
     for (const o of mockRunpod.offers) mockRunpod.noCapacity.add(o.id);
     const { json } = await call("/runs", { token: "tok-alice", method: "POST", body: { langs: ["en"] } });
-    await env.BUCKET.put(`runs/${json.id}/dataset.tar.gz`, "x");
+    await uploadDataset(json.uploadUrl, "x");
     const r = await call(`/runs/${json.id}/start`, { token: "tok-alice", method: "POST" });
     expect(r.status).toBe(503);
     expect(r.json.code).toBe("no_capacity");
-    expect(await getRow(json.id)).toMatchObject({ status: "uploading", started_at: null, pod_id: null });
+    expect(getRow(json.id)).toMatchObject({ status: "uploading", started_at: null, pod_id: null });
   });
 
   it("re-checks the budget at start and refuses without creating a pod", async () => {
     stubFetch();
     await startedRun("tok-bob"); // $0.44/h in use
     const { json } = await call("/runs", { token: "tok-alice", method: "POST", body: { langs: ["en"] } });
-    await env.BUCKET.put(`runs/${json.id}/dataset.tar.gz`, "x");
+    await uploadDataset(json.uploadUrl, "x");
     const r = await call(`/runs/${json.id}/start`, { token: "tok-alice", method: "POST", env: { MAX_HOURLY_USD: "0.8" } });
     expect(r.status).toBe(503);
     expect(r.json.code).toBe("over_budget");
     expect(mockRunpod.pods.size).toBe(1);
-    expect((await getRow(json.id)).status).toBe("uploading");
+    expect(getRow(json.id).status).toBe("uploading");
   });
 
   it("won't start a run twice", async () => {
@@ -246,18 +303,20 @@ describe("runs", () => {
     stubFetch();
     const { id } = await startedRun();
     expect((await call(`/runs/${id}`, { token: "tok-bob" })).status).toBe(404);
+    expect((await call(`/runs/${id}/start`, { token: "tok-bob", method: "POST" })).status).toBe(404);
     expect((await call(`/runs/${id}/stop`, { token: "tok-bob", method: "POST" })).status).toBe(404);
     expect((await call(`/runs/${id}`, { token: "tok-alice" })).status).toBe(200);
   });
 
-  it("stop terminates the pod", async () => {
+  it("stop terminates the pod and deletes the dataset", async () => {
     stubFetch();
-    const { id, pod } = await startedRun();
+    const { id, pod, podEnv } = await startedRun();
     const r = await call(`/runs/${id}/stop`, { token: "tok-alice", method: "POST" });
     expect(r.status).toBe(200);
     expect(r.json.status).toBe("stopped");
     expect(mockRunpod.terminated).toEqual([pod.id]);
-    expect((await getRow(id)).finished_at).toBeGreaterThan(0);
+    expect(getRow(id).finished_at).toBeGreaterThan(0);
+    expect((await call(podEnv.ZUNOS_DATASET_URL!)).status).toBe(404);
     // Idempotent.
     expect((await call(`/runs/${id}/stop`, { token: "tok-alice", method: "POST" })).json.status).toBe("stopped");
     expect(mockRunpod.terminated).toHaveLength(1);
@@ -267,10 +326,10 @@ describe("runs", () => {
     stubFetch();
     const { id } = await startedRun();
     const now = Date.now();
-    await env.DB.prepare("UPDATE runs SET started_at = ? WHERE id = ?").bind(now - 2 * 3_600_000, id).run();
+    sql("UPDATE runs SET started_at = ? WHERE id = ?", now - 2 * 3_600_000, id);
     const live = (await call(`/runs/${id}`, { token: "tok-alice" })).json.costUsd;
     expect(live).toBeCloseTo(0.88, 3);
-    await env.DB.prepare("UPDATE runs SET finished_at = ? WHERE id = ?").bind(now - 1.5 * 3_600_000, id).run();
+    sql("UPDATE runs SET finished_at = ? WHERE id = ?", now - 1.5 * 3_600_000, id);
     expect((await call(`/runs/${id}`, { token: "tok-alice" })).json.costUsd).toBeCloseTo(0.22, 4);
 
     expect(costUsd({ price_per_hour: 0.5, started_at: 0, finished_at: 90 * 60_000 })).toBe(0.75);
@@ -280,12 +339,17 @@ describe("runs", () => {
 });
 
 describe("bootstrap", () => {
-  it("serves pod/bootstrap.sh from R2 without auth", async () => {
-    expect((await call("/pod/bootstrap.sh")).status).toBe(404);
-    await env.BUCKET.put("pod/bootstrap.sh", "#!/usr/bin/env bash\necho hi\n");
+  it("serves python/pod/bootstrap.sh from the repo without auth", async () => {
     const r = await call("/pod/bootstrap.sh");
     expect(r.status).toBe(200);
     expect(r.res.headers.get("content-type")).toMatch(/^text\/x-shellscript/);
+    expect(r.res.headers.get("cache-control")).toBe("private, no-store");
     expect(r.text).toContain("echo hi");
+  });
+
+  it("404s when the repo has no bootstrap.sh", async () => {
+    const r = await call("/pod/bootstrap.sh", { env: { REPO_DIR: "/nonexistent" } });
+    expect(r.status).toBe(404);
+    expect(r.json.code).toBe("not_found");
   });
 });

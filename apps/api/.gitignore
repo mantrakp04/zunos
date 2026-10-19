@@ -1,3 +1,2 @@
-.dev.vars
-.wrangler/
-dist/
+data/
+.env

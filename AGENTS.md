@@ -14,7 +14,8 @@ goal, beating Sarvam (saaras) by 2x word error rate on held-back clips, is track
   (recorder, engine process, Keychain, transfers). Run: `bun run start` in apps/mac (Hexclave dev
   env + Metro on port 8090), then open macos/build/Build/Products/Debug/zunos.app (build with
   xcodebuild, see README).
-- apps/api: Cloudflare Worker that verifies Hexclave tokens, launches Runpod pods for allow-listed
+- apps/api: Elysia server on Bun (SQLite + blob files on a /data volume, deployed by
+  hexclave.deploy.ts to Hexclave's GCP runtime) that verifies Hexclave tokens, launches Runpod pods for allow-listed
   users within the budget, receives pod events, and reaps idle pods.
 - packages/db: Drizzle schema and SQL migrations for the app database (embedded so expo-sqlite and
   bun:sqlite run the same migrations). `NAME=<change> bun run generate` after editing schema.ts.

@@ -1,8 +1,7 @@
 // The real REST client (RUNPOD_MOCK=0) against a stubbed Runpod, using response shapes from the v2 OpenAPI spec.
-import { env } from "cloudflare:workers";
-import { beforeEach, describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "bun:test";
 import { reap } from "../src/reaper";
-import { call, getRow, resetState, stubFetch, testEnv } from "./helpers";
+import { call, getRow, resetState, stubFetch, testCtx, uploadDataset } from "./helpers";
 
 const REAL = { RUNPOD_MOCK: "0" } as const;
 const problem = (status: number, detail: string) =>
@@ -67,7 +66,7 @@ describe("Runpod REST v2 client", () => {
   it("creates a pod, trying the next GPU type after a 400, and terminates it on stop", async () => {
     const rp = fakeRunpod({ noCapacity: ["NVIDIA A40"] });
     const { json } = await call("/runs", { token: "tok-alice", method: "POST", body: { langs: ["en"] }, env: REAL });
-    await env.BUCKET.put(`runs/${json.id}/dataset.tar.gz`, "x");
+    await uploadDataset(json.uploadUrl, "x");
     const started = await call(`/runs/${json.id}/start`, { token: "tok-alice", method: "POST", env: REAL });
     expect(started.status).toBe(200);
 
@@ -76,7 +75,7 @@ describe("Runpod REST v2 client", () => {
     expect(Object.keys(body).sort()).toEqual(["cloud", "cmd", "disk", "entrypoint", "env", "gpu", "image", "name", "ports"]);
     expect(body).toMatchObject({ cloud: "SECURE", disk: 150, ports: [], gpu: { id: "NVIDIA RTX A6000", count: 1, minCudaVersion: "12.8" } });
     // The pod's own `cost` wins over the catalog list price.
-    expect(await getRow(json.id)).toMatchObject({ pod_id: "pod2", gpu: "NVIDIA RTX A6000", price_per_hour: 0.41 });
+    expect(getRow(json.id)).toMatchObject({ pod_id: "pod2", gpu: "NVIDIA RTX A6000", price_per_hour: 0.41 });
 
     const stopped = await call(`/runs/${json.id}/stop`, { token: "tok-alice", method: "POST", env: REAL });
     expect(stopped.json.status).toBe("stopped");
@@ -96,6 +95,22 @@ describe("Runpod REST v2 client", () => {
     expect(r.json.code).toBe("provider_unavailable");
   });
 
+  it("reports a too-low balance (402) as provider_error and releases the run", async () => {
+    stubFetch(async (req) => {
+      const url = new URL(req.url);
+      if (url.host !== "runpod.test") return undefined;
+      if (req.method === "GET" && url.pathname === "/v2/catalog/gpus") return Response.json(catalog);
+      if (req.method === "GET" && url.pathname === "/v2/pods") return Response.json({ pods: [] });
+      return problem(402, "insufficient balance");
+    });
+    const { json } = await call("/runs", { token: "tok-alice", method: "POST", body: { langs: ["en"] }, env: REAL });
+    await uploadDataset(json.uploadUrl, "x");
+    const r = await call(`/runs/${json.id}/start`, { token: "tok-alice", method: "POST", env: REAL });
+    expect(r.status).toBe(503);
+    expect(r.json.code).toBe("provider_error");
+    expect(getRow(json.id).status).toBe("uploading");
+  });
+
   it("reaper sweeps orphaned zunos pods via the API, ignoring other pods and treating 404 as gone", async () => {
     const rp = fakeRunpod({
       pods: [
@@ -104,7 +119,7 @@ describe("Runpod REST v2 client", () => {
         { id: "keep", name: "comfyui", status: "RUNNING", cost: 0.3 },
       ],
     });
-    const report = await reap(testEnv(REAL));
+    const report = await reap(testCtx(REAL));
     expect(report.orphansTerminated.sort()).toEqual(["o1", "o2"]);
     expect(rp.deleted.sort()).toEqual(["o1", "o2"]);
     expect(rp.pods.map((p) => p.id)).toEqual(["keep"]);

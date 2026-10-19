@@ -1,6 +1,6 @@
 // The owner's rule: everything running on the Runpod account together stays under MAX_HOURLY_USD.
 import { type RunRow, billingRuns } from "./db";
-import { type Env, ESTIMATED_HOURS, type Settings, settings } from "./env";
+import { type Ctx, ESTIMATED_HOURS, type Settings, settings } from "./env";
 import type { GpuOffer, PodSummary, Runpod } from "./runpod";
 
 const LIVE_POD = (p: PodSummary) => p.status !== "TERMINATED" && p.status !== "EXITED";
@@ -50,9 +50,9 @@ export function choose(s: Settings, offers: GpuOffer[], committed: number): Choi
 }
 
 /** Reads the catalog and the account's pods, then picks GPUs that fit. Throws RunpodError on API failure. */
-export async function chooseGpu(env: Env, rp: Runpod): Promise<Choice> {
-  const [offers, pods, runs] = await Promise.all([rp.listGpuOffers(), rp.listPods(), billingRuns(env)]);
-  return choose(settings(env), offers, committedHourly(pods, runs));
+export async function chooseGpu(ctx: Ctx, rp: Runpod): Promise<Choice> {
+  const [offers, pods] = await Promise.all([rp.listGpuOffers(), rp.listPods()]);
+  return choose(settings(ctx.env), offers, committedHourly(pods, billingRuns(ctx)));
 }
 
 export const quoteBody = (choice: Choice, override?: { available: false; reason: string }) => ({
