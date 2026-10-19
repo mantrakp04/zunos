@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "zunos",
+    "slug": "zunos",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.zunos.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "macos": {
+      "bundleIdentifier": "com.zunos.app",
+      "infoPlist": {
+        "CFBundleName": "zunos",
+        "NSMicrophoneUsageDescription": "zunos records your voice to train and run your personal speech model."
+      }
+    },
+    "experiments": {
+      "outOfTreePlatforms": true
+    },
+    "platforms": [
+      "ios",
+      "macos",
+      "web"
+    ],
+    "android": {
+      "package": "com.zunos.app"
+    },
+    "windows": {
+      "displayName": "zunos",
+      "namespace": "com.zunos.app",
+      "packageGuid": "26028374-604e-42ae-833d-24e399798e35",
+      "projectGuid": "14256994-2cef-49c8-b790-51c2b5583639"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ]
+  }
+}

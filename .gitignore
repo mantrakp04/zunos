@@ -14,3 +14,9 @@ __pycache__/
 *.log
 *.rms
 .DS_Store
+node_modules/
+.expo/
+apps/mac/macos/build/
+apps/mac/macos/Pods/
+apps/mac/macos/.xcode.env.local
+*.tsbuildinfo

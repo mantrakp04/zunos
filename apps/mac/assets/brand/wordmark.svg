@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="168" viewBox="0 0 620 168" role="img" aria-labelledby="title desc">
+  <title id="title">zunos</title>
+  <desc id="desc">The listening mascot next to a custom lowercase rounded geometric zunos wordmark. All lettering is vector paths.</desc>
+  <g transform="translate(0 3) scale(.63)">
+    <path fill="#F34A2D" d="M137 66C119 52 93 51 73 63C48 77 37 109 29 137C20 164 15 183 25 204C35 225 61 231 107 231C150 231 180 228 190 209C199 191 190 169 180 147L170 87Z"/>
+    <path fill="#D93428" d="M25 194C41 211 70 217 112 217C150 217 177 211 193 194C196 217 179 231 107 231C58 231 32 226 25 204Z"/>
+    <path fill="#FFE4A1" d="M164 34C138 34 129 59 135 85C139 103 148 114 150 130C151 144 149 155 156 162C165 173 184 171 195 155C210 133 208 105 201 80C194 55 185 34 164 34Z"/>
+    <path fill="#F6A53C" d="M165 50C148 50 146 68 151 84C155 96 167 98 173 106C181 116 175 125 167 125C160 124 160 115 162 111C153 117 159 148 169 151C185 157 195 132 192 111C190 87 182 50 165 50Z"/>
+    <path fill="none" stroke="#402019" stroke-width="9" stroke-linecap="round" d="M59 105Q67 93 75 107M101 111Q110 98 118 114"/>
+    <path fill="#402019" d="M78 117Q88 137 101 121Z"/>
+    <ellipse cx="89" cy="117" rx="15" ry="7" transform="rotate(8 89 117)" fill="#FFD064"/>
+    <g fill="none" stroke="#F6A53C" stroke-width="11" stroke-linecap="round"><path d="M208 45Q225 61 220 84"/><path d="M224 27Q249 50 242 89"/></g>
+  </g>
+  <g fill="none" stroke="#402019" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M196 59H246L196 115H246"/>
+    <path d="M274 59V92C274 125 323 125 323 92V59"/>
+    <path d="M352 115V59M352 82C352 51 402 51 402 82V115"/>
+    <path d="M459 57C423 57 423 117 459 117C495 117 495 57 459 57Z"/>
+    <path d="M555 63C543 53 514 54 514 72C514 91 558 82 558 102C558 121 528 122 514 112"/>
+  </g>
+</svg>

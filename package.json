@@ -1,0 +1,9 @@
+{
+  "name": "zunos",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*", "tools/*"],
+  "scripts": {
+    "mac": "bun --cwd apps/mac macos",
+    "typecheck": "bun --filter '*' typecheck"
+  }
+}
