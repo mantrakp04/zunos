@@ -17,6 +17,8 @@ import { Library } from "./record/Library";
 import { promptLabel } from "./record/model";
 import { Prompter } from "./record/Prompter";
 import { ScriptToggle } from "./record/ScriptToggle";
+import { LiveMicIssue, MicLine } from "./record/MicNotes";
+import { TakeQualityNote, UncutTakes } from "./record/TakeNotes";
 import { VoiceRibbon } from "./record/VoiceRibbon";
 
 export default function Record({ a, live, go }: ScreenProps) {
@@ -57,7 +59,12 @@ export default function Record({ a, live, go }: ScreenProps) {
   const index = prompt ? list.indexOf(prompt) : -1;
 
   // ---- the take
-  const [line, setLine] = useState(-1); // -1: not started
+  const [line, setLineState] = useState(-1); // -1: not started
+  // The line being read, kept in a ref too: markLine and finishTake send it, and a quick key press
+  // must not read a stale value from the last render.
+  const lineRef = useRef(-1);
+  const setLine = (l: number) => ((lineRef.current = l), setLineState(l));
+  const finishing = useRef(false);
   const [since, setSince] = useState(0);
   const [savedNote, setSavedNote] = useState<string | null>(null);
   const [cheer, setCheer] = useState(false);
@@ -71,12 +78,22 @@ export default function Record({ a, live, go }: ScreenProps) {
     setLine(0);
     setSince(Date.now());
   });
+  // Takes that were saved but couldn't be cut into clips; each can be retried.
+  const uncut = useAsync(() => a.unsegmentedRecordings(), []);
   const finish = useAction(async () => {
+    if (finishing.current) return; // Space and Return both finish; the save is already on its way
+    finishing.current = true;
     const p = prompt!;
+    // The line you're on counts as read, and lines after it don't: exact even if a mark went missing.
+    const at = lineRef.current;
     let saved;
     try {
-      saved = await a.finishTake();
+      saved = await a.finishTake(at >= 0 ? at : undefined);
+    } catch (e) {
+      uncut.reload();
+      throw e;
     } finally {
+      finishing.current = false;
       setLine(-1);
     }
     setSavedNote(`${minutes(saved.seconds)} as ${saved.clips.length} clip${saved.clips.length === 1 ? "" : "s"}`);
@@ -92,8 +109,49 @@ export default function Record({ a, live, go }: ScreenProps) {
     await a.cancelTake();
     setLine(-1);
   });
+  const retry = useAction(async () => {
+    const list = (await a.unsegmentedRecordings()) ?? [];
+    for (const r of list) await a.resegmentRecording(r.id);
+    finish.setError(null);
+    await Promise.all([uncut.reload(), prompts.reload(), stats.reload()]);
+  });
+
+  // How the last take in this language sounded, once it's cleaned in the background (reloaded when
+  // qualityVersion moves). Only takes from this visit, and only until dismissed; nothing waits on it.
+  const shownSince = useRef(Date.now());
+  const qualities = useAsync(() => (current ? a.takeQualities(current) : Promise.resolve([])), [current, live.qualityVersion]);
+  const [dismissed, setDismissed] = useState<string | null>(null);
+  const latest = qualities.data?.[0] ?? null;
+  const quality = latest && latest.recordingId !== dismissed && new Date(latest.recordedAt).getTime() >= shownSince.current ? latest : null;
+  // "Record it again": pick that prompt, then start as soon as it's the one on the stage.
+  const redoNext = useRef<string | null>(null);
+  const redo = (promptId: string) => {
+    if (locked) return;
+    setDismissed(latest?.recordingId ?? null);
+    setWriting(false);
+    setSelected(promptId);
+    redoNext.current = promptId;
+  };
 
   const phase: Phase = start.busy ? "starting" : finish.busy ? "saving" : line >= 0 ? "recording" : "ready";
+
+  // The mic you're about to record with, and what's wrong with it. Checked again after each take and
+  // every few seconds while idle, so plugging in (or switching to) AirPods shows up before the next take.
+  const idle = phase === "ready" && !live.recording;
+  const mic = useAsync(() => a.micInfo(), [idle]);
+  useEffect(() => {
+    if (!idle) return;
+    const t = setInterval(() => mic.reload(), 8000);
+    return () => clearInterval(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [idle]);
+  useEffect(() => {
+    if (redoNext.current && prompt?.id === redoNext.current && idle) {
+      redoNext.current = null;
+      start.run();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [prompt?.id, idle]);
   const recording = phase === "recording";
   const locked = live.recording || line >= 0 || start.busy || finish.busy || cancel.busy;
   const last = !!prompt && line === prompt.lines.length - 1;
@@ -117,8 +175,10 @@ export default function Record({ a, live, go }: ScreenProps) {
     if (!prompt || writing || start.busy || finish.busy || cancel.busy) return;
     if (!recording) return void start.run();
     if (last) return void finish.run();
-    a.markLine();
-    setLine((l) => l + 1);
+    // Mark the line being left by its index, so a lost call can't shift the lines after it.
+    const l = lineRef.current;
+    a.markLine(l);
+    setLine(l + 1);
   };
 
   // ---- keyboard: Space starts / next line, Return finishes, Esc discards. Ignored while typing.
@@ -186,7 +246,7 @@ export default function Record({ a, live, go }: ScreenProps) {
   const mood: BeanMood = live.recording ? "listening" : finish.busy ? "thinking" : cheer ? "happy" : "idle";
   const label = prompt ? promptLabel(prompt, list) : null;
   const composing = !!current && (writing || (!prompts.loading && !prompt));
-  const error = start.error ?? finish.error ?? cancel.error ?? prompts.error ?? switchScript.error;
+  const error = start.error ?? cancel.error ?? prompts.error ?? switchScript.error;
   // The starter set comes first in the queue; while you're in it, a quiet count of how far along.
   const starters = list.filter((p) => p.starter);
   const startersDone = starters.filter((p) => p.recorded).length;
@@ -248,11 +308,15 @@ export default function Record({ a, live, go }: ScreenProps) {
             {phase === "saving" ? (
               <span className="flex h-7 items-center rounded-full bg-foreground/[0.06] px-3 text-[12px] font-medium text-muted-foreground">Saving…</span>
             ) : live.recording || line >= 0 ? (
-              <span className="flex h-7 items-center gap-2 rounded-full bg-brand/12 pr-3 pl-2.5 text-[12px] font-semibold text-brand dark:bg-brand/20">
-                <span className="rk-rec-dot size-2 rounded-full bg-brand" />
-                REC
-                {since > 0 && <Clock since={since} className="font-mono text-[12px] tabular-nums" />}
-              </span>
+              <>
+                {/* "Stay quiet" while the room tone is measured, then the worst live issue. */}
+                {live.mic && <LiveMicIssue roomTone={live.mic.roomTone} issues={live.mic.issues} />}
+                <span className="flex h-7 shrink-0 items-center gap-2 rounded-full bg-brand/12 pr-3 pl-2.5 text-[12px] font-semibold text-brand dark:bg-brand/20">
+                  <span className="rk-rec-dot size-2 rounded-full bg-brand" />
+                  REC
+                  {since > 0 && <Clock since={since} className="font-mono text-[12px] tabular-nums" />}
+                </span>
+              </>
             ) : (
               <>
                 {currentLang && !composing && (
@@ -344,6 +408,17 @@ export default function Record({ a, live, go }: ScreenProps) {
       </div>
 
       {error && <ErrorNote error={error} className="mt-3" />}
+      <div className="mt-1.5 flex min-h-5 flex-col gap-1">
+        <UncutTakes count={uncut.data?.length ?? 0} error={finish.error ?? retry.error} busy={retry.busy} onRetry={() => retry.run()} />
+        <TakeQualityNote
+          item={quality}
+          cleaning={live.cleaning?.pending ?? 0}
+          busy={locked}
+          onRedo={redo}
+          onDismiss={() => latest && setDismissed(latest.recordingId)}
+        />
+        {idle && mic.data && <MicLine device={mic.data.device} issues={mic.data.issues} />}
+      </div>
 
       <AnimatePresence>
         {drawer && current && (

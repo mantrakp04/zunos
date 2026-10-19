@@ -151,6 +151,9 @@ export function Toolbar({ state }: { state: PreviewState }) {
             <Toggle on={sc.slow} onChange={(slow) => set({ slow })}>
               slow
             </Toggle>
+            <Toggle on={sc.cutfail} onChange={(cutfail) => set({ cutfail })}>
+              cut fails
+            </Toggle>
           </div>
         </Row>
       </div>

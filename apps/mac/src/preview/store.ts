@@ -64,11 +64,13 @@ export type Scenario = {
   evalRun: boolean;
   access: boolean;
   slow: boolean;
+  /** Finishing a take keeps it but fails to cut it into clips (retry with resegmentRecording). */
+  cutfail: boolean;
 };
 
 const DEFAULTS: Scenario = {
   auth: "in", data: "full", engine: "ready", cleanup: "ready", rec: false, dict: "off", transfer: "off", cloud: "off",
-  evalRun: false, access: true, slow: false,
+  evalRun: false, access: true, slow: false, cutfail: false,
 };
 
 function readUrl(): Scenario {
@@ -193,7 +195,7 @@ export function setScenario(patch: Partial<Scenario>) {
   const fields: Record<keyof Scenario, (keyof LiveState)[]> = {
     auth: ["user", "authReady"], data: [], engine: ["engine", "engineError"], cleanup: ["cleanup"], rec: ["recording", "level"],
     dict: ["dictation", "recording", "level"], transfer: ["transfer"], cloud: [], evalRun: ["evalProgress"],
-    access: ["access"], slow: [],
+    access: ["access"], slow: [], cutfail: [],
   };
   for (const k of Object.keys(patch) as (keyof Scenario)[]) for (const f of fields[k]) (live as Record<string, unknown>)[f] = next[f];
   state = { ...state, scenario: sc, data, live, epoch: reseed ? state.epoch + 1 : state.epoch };
@@ -250,6 +252,8 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const latency = (ms = 220) => sleep(state.scenario.slow ? ms * 6 + 900 : ms);
 
 let take: { promptId: string; startedAt: number } | null = null;
+/** Takes kept without clips (the cutfail scenario), for unsegmentedRecordings / resegmentRecording. */
+const uncut: { id: string; promptId: string; lang: string; seconds: number; recordedAt: string }[] = [];
 let dictStartedAt = 0;
 let heardIndex = 0;
 
@@ -337,6 +341,10 @@ const handlers: Partial<Record<keyof Actions, (...args: never[]) => Promise<unkn
     setLive({ takeProcessing: null });
     const seconds = Math.max(1.5, (Date.now() - t.startedAt) / 1000);
     const p = state.data.prompts.find((x) => x.id === t.promptId);
+    if (state.scenario.cutfail) {
+      uncut.unshift({ id: `rec-${Date.now().toString(36)}`, promptId: t.promptId, lang: p?.lang ?? "en", seconds, recordedAt: new Date().toISOString() });
+      throw new Error("The take is saved, but cutting it into clips failed: the line marks didn't match the audio.");
+    }
     const lines = p?.lines ?? ["(unknown prompt)"];
     const per = seconds / lines.length;
     // Like the app: about one clip in four goes to the held-back test set.
@@ -384,7 +392,15 @@ const handlers: Partial<Record<keyof Actions, (...args: never[]) => Promise<unkn
     return check;
   },
   async unsegmentedRecordings() {
-    return [];
+    return [...uncut];
+  },
+  async resegmentRecording(id: string): Promise<SavedRecording> {
+    await latency(600);
+    const i = uncut.findIndex((r) => r.id === id);
+    if (i < 0) throw new Error("That take is gone.");
+    const [r] = uncut.splice(i, 1);
+    setData((d) => void (d.prompts.find((x) => x.id === r!.promptId)!.recorded = true));
+    return { recordingId: id, seconds: r!.seconds, clips: [], quality: null };
   },
   async takeQualities(lang?: string) {
     return qualities.filter((q) => !lang || q.lang === lang);
