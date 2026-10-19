@@ -16,7 +16,7 @@ import SignIn from "./screens/SignIn";
 import Test from "./screens/Test";
 import Train from "./screens/Train";
 import Use from "./screens/Use";
-import { useAsync } from "./ui";
+import { Button, ErrorNote, useAsync } from "./ui";
 
 export type ScreenProps = { a: Actions; live: LiveState };
 
@@ -35,7 +35,7 @@ export default function ZunosApp({ live, dom: _dom, ...a }: Props) {
   const [screen, setScreen] = useState<(typeof NAV)[number]["id"]>("record");
   const [editingLangs, setEditingLangs] = useState(false);
 
-  if (!live.authReady || (live.user && !langs.data)) return <Splash />;
+  if (!live.authReady || (live.user && !langs.data)) return <Splash error={langs.error} onRetry={langs.reload} />;
   if (!live.user) return <SignIn a={a as Actions} live={live} />;
   if (editingLangs || !langs.data!.some((l) => l.enabled))
     return (
@@ -113,10 +113,16 @@ function EnginePill({ live }: { live: LiveState }) {
   );
 }
 
-function Splash() {
+function Splash({ error, onRetry }: { error?: string | null; onRetry?: () => void }) {
   return (
-    <div className="flex h-screen items-center justify-center">
-      <img src={logo} alt="zunos" className="size-20 animate-pulse" />
+    <div className="flex h-screen flex-col items-center justify-center gap-4">
+      <img src={logo} alt="zunos" className={cn("size-20", !error && "animate-pulse")} />
+      {error && (
+        <>
+          <ErrorNote error={error} />
+          <Button variant="ghost" onClick={onRetry}>Try again</Button>
+        </>
+      )}
     </div>
   );
 }
