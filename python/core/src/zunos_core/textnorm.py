@@ -53,10 +53,12 @@ def to_roman(s):
             out.append(w)
             continue
         r = sc.transliterate(w, script, sc.ITRANS)
-        last = [c for c in w if unicodedata.category(c)[0] in "LM"]
-        if last and unicodedata.category(last[-1]) == "Lo" and r.lower().endswith("a") and not r.lower().endswith("aa"):
-            r = r[:-1]
-        out.append(r.replace("M", "n").replace(".N", "n"))
+        last = [c for c in w if unicodedata.category(c)[0] in "LM" and c not in "\u093c\u0abc"]  # nukta keeps the consonant
+        core, tail = re.match(r"(.*?)([^\w.~]*)$", r).groups()  # trailing punctuation (पापड़, → pApaD,)
+        if last and unicodedata.category(last[-1]) == "Lo" and core.lower().endswith("a") and not core.lower().endswith("aa"):
+            r = core[:-1] + tail
+        # ITRANS marks (.D for ड़, ~n for ञ, .h for a virama...) would split words once punctuation is stripped.
+        out.append(r.replace("M", "n").replace(".N", "n").replace(".n", "n").replace(".h", "").replace(".", "").replace("~", ""))
     return " ".join(out)
 
 def roman_cer(hyp, target):

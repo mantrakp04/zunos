@@ -7,5 +7,9 @@ export const migrations: { tag: string; sql: string }[] = [
   {
     "tag": "0001_dictations",
     "sql": "CREATE TABLE `dictations` (\n\t`id` text PRIMARY KEY NOT NULL,\n\t`audio` text,\n\t`sample_rate` integer NOT NULL,\n\t`seconds` real NOT NULL,\n\t`lang` text,\n\t`raw` text DEFAULT '' NOT NULL,\n\t`clean` text,\n\t`style` text,\n\t`corrected` text,\n\t`model_id` text,\n\t`app` text,\n\t`app_name` text,\n\t`status` text DEFAULT 'ok' NOT NULL,\n\t`error` text,\n\t`clip_id` text,\n\t`elapsed` real,\n\t`created_at` text DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')) NOT NULL,\n\tFOREIGN KEY (`clip_id`) REFERENCES `clips`(`id`) ON UPDATE no action ON DELETE no action\n);\n--> statement-breakpoint\nCREATE INDEX `dictations_created` ON `dictations` (`created_at`);"
+  },
+  {
+    "tag": "0002_drop_legacy_transcripts",
+    "sql": "DROP TABLE `transcriptions`;--> statement-breakpoint\nDROP TABLE `segments`;--> statement-breakpoint\nALTER TABLE `clips` DROP COLUMN `segment_ids`;--> statement-breakpoint\nDELETE FROM `baselines` WHERE `provider` <> 'reference';--> statement-breakpoint\nDELETE FROM `settings` WHERE `key` = 'baseline_note';\n"
   }
 ];

@@ -12,23 +12,26 @@ Gujarati, are written that way), then transcribes on your Mac.
 4. **Train**: on a cloud GPU, zunos clones your voice to read thousands of new sentences (IndicF5 for
    Indian languages, Chatterbox for 23 others), then fine-tunes Whisper on them plus your real
    recordings (about an hour). Languages neither voice model reads train on your recordings alone.
-5. **Test**: word error rate on the held-back clips, next to Sarvam.
+5. **Test**: word error rate on the held-back clips, next to a reference recognizer (a leading cloud
+   speech-to-text model). The goal is half its word error rate.
 6. **Dictate**: talk, stop, and the text is on your clipboard.
 
 ## How good it is
 
-The owner's model (English, Hindi, Gujarati). Word error rate of v3a on 13 recordings it never trained on, decoded on the
-Mac with beam search (lower is better; Hindi/Gujarati spelling variants are forgiven):
+The owner's model (English, Hindi, Gujarati). Word error rate of v3a on the 16 held-back recordings
+(7 English, 5 Hindi, 4 Gujarati) it never trained on, decoded on the Mac with beam search (lower is
+better; Hindi/Gujarati spelling variants are forgiven):
 
 | | English | Hindi | Gujarati |
 |---|---|---|---|
-| Sarvam (saaras) | 16.9% | 17.6% | 39.7% |
-| **zunos v3a** | **14.4%** | 19.8% | **27.4%** |
+| Reference recognizer | **8.0%** | 28.6% | 46.6% |
+| **zunos v3a** | 11.1% | **19.8%** | **27.4%** |
 
-Measured with `uv run zunos-eval` and in the app's Test screen (both give the same numbers). An
-earlier version of this README listed English at 12.5%; that came from the greedy in-training
-evaluation at step 350, not the Mac decoder. The 2x target is not reached. The test set is small (about 100
-words per language) and the answer key was partly built from Sarvam's output, which flatters Sarvam.
+Measured with `uv run zunos-eval` and `uv run zunos-reference`, and in the app's Test screen. The goal
+is 2x better than the reference in every language: not reached yet (Hindi 1.4x, Gujarati 1.7x, English
+behind). The reference writes Hindi and Gujarati in their own scripts; its output is transliterated to
+English letters before scoring (the same fuzzy WER), which costs it some points on inherent vowels, word
+splits and numerals. The test set is small (about 100 words per language).
 The biggest lever is more of your real Hindi and Gujarati.
 
 ## Development
@@ -57,8 +60,14 @@ Command-line tools:
 ```sh
 cd python
 uv run zunos-eval ~/Library/Application\ Support/zunos/models/v3a-hf   # score a model on the app's test clips
+uv run zunos-reference                                               # score the reference recognizer on them (see below)
 uv run zunos-dictate ~/Library/Application\ Support/zunos/models/v3a-hf              # terminal dictation
 ```
+
+`zunos-reference` reads `REFERENCE_ASR_URL`, `REFERENCE_ASR_MODEL` and `REFERENCE_ASR_KEY` from the
+environment or the git-ignored `.env.local` at the repo root, caches raw transcripts in the app data
+folder (`reference/`) so reruns don't pay again, and writes the per-language WER to the `baselines`
+table that the Test screen shows.
 
 Cloud training: see apps/api/README.md (Elysia on Bun, deployed with `npx hexclave deploy` from
 hexclave.deploy.ts on Hexclave's GCP runtime) and python/pod.

@@ -9,3 +9,6 @@ apps/mac/macos/Pods/
 apps/mac/macos/.xcode.env.local
 *.tsbuildinfo
 .venv/
+.env
+.env.*
+!.env.example

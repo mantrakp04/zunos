@@ -47,15 +47,6 @@ export const recordings = sqliteTable("recordings", {
   recordedAt: text("recorded_at").notNull(),
 });
 
-/** Automatic cut of a recording at pauses (16 kHz), before transcripts were corrected. */
-export const segments = sqliteTable("segments", {
-  id: text("id").primaryKey(),
-  recordingId: text("recording_id").notNull().references(() => recordings.id),
-  start: real("start").notNull(),
-  end: real("end").notNull(),
-  path: text("path"),
-});
-
 /** A training or test example: audio plus the word-for-word text. */
 export const clips = sqliteTable("clips", {
   id: text("id").primaryKey(),
@@ -72,18 +63,8 @@ export const clips = sqliteTable("clips", {
   unsure: integer("unsure", { mode: "boolean" }).notNull().default(false),
   // Test clips are never trained on and never used as voice-cloning references.
   split: text("split").$type<Split>().notNull(),
-  segmentIds: json<string[]>("segment_ids"),
   createdAt: createdAt(),
 }, (t) => [index("clips_lang_split").on(t.lang, t.split)]);
-
-/** Third-party transcripts of segments (Sarvam), kept for comparison. */
-export const transcriptions = sqliteTable("transcriptions", {
-  id: integer("id").primaryKey({ autoIncrement: true }),
-  segmentId: text("segment_id").notNull().references(() => segments.id),
-  provider: text("provider").notNull(),
-  verbatim: text("verbatim").notNull(),
-  roman: text("roman"),
-});
 
 /** Voice-cloned training clip generated on the GPU pod. */
 export const synthClips = sqliteTable("synth_clips", {
@@ -161,6 +142,7 @@ export const models = sqliteTable("models", {
   createdAt: createdAt(),
 });
 
+/** Word error rate of the reference recognizer (provider "reference") per language, on the test clips. */
 export const baselines = sqliteTable("baselines", {
   provider: text("provider").notNull(),
   lang: text("lang").$type<Lang>().notNull(),

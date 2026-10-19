@@ -70,7 +70,8 @@ export type EvalResult = {
   createdAt: string;
 };
 
-export type Baseline = { provider: string; lang: Lang; wer: number };
+/** A comparison score on the test clips; the only provider is the reference recognizer (label it "Reference"). */
+export type Baseline = { provider: "reference"; lang: Lang; wer: number };
 
 export type EngineState = "stopped" | "starting" | "loading" | "ready" | "busy" | "error";
 

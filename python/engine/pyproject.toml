@@ -20,6 +20,7 @@ dependencies = [
 zunos-engine = "zunos_engine.server:main"
 zunos-dictate = "zunos_engine.dictate:main"
 zunos-eval = "zunos_engine.eval:main"
+zunos-reference = "zunos_engine.reference:main"
 
 [tool.uv.sources]
 zunos-core = { workspace = true }

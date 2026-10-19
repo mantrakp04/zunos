@@ -4,7 +4,7 @@ A macOS app that fine-tunes Whisper large-v3 on the user's voice, in any Whisper
 (packages/db/src/languages.ts; languages typed in English letters, like Hindi and Gujarati, are
 trained to write Latin script). Flow: sign in (Hexclave) → pick languages → record → train (Runpod GPU,
 paid by the owner through apps/api) → test → dictate. Decoding runs locally on the Mac. The original
-goal, beating Sarvam (saaras) by 2x word error rate on held-back clips, is tracked in README.md.
+goal, beating the reference recognizer by 2x word error rate on held-back clips, is tracked in README.md.
 
 ## Layout (bun workspaces + a uv workspace)
 
@@ -25,7 +25,8 @@ goal, beating Sarvam (saaras) by 2x word error rate on held-back clips, is track
 - python/engine: the local engine the app launches (`zunos-engine`, JSON lines over stdio): load,
   transcribe, eval, segment, pack, unpack, and transcript cleanup (cleanup.py: Qwen3.5-4B 4-bit on
   MLX, downloaded on request into models/cleanup; few-shot prompt, raw text kept whenever the output
-  looks wrong). Also `zunos-eval` and `zunos-dictate` CLIs.
+  looks wrong). Also `zunos-eval`, `zunos-reference` (scores the reference recognizer into `baselines`)
+  and `zunos-dictate` CLIs.
 - python/pod: GPU pipeline. bootstrap.sh → run.py: ref_text.py, make_jobs.py, gen_f5.py (IndicF5),
   gen_cb.py (Chatterbox), filter.py, train.py, export.py. A Fish Audio Drama 3 path (expressive
   takes) was tried in v3b and dropped; it is in git history (python/pod/fish) if needed again.
@@ -39,10 +40,12 @@ User data lives in ~/Library/Application Support/zunos (zunos.db, audio/, models
 - Test set: clips with split='test' (13 from the first session, then one in four of each
   language's new clips). Scoring lives in python/core/scoring.py (fuzzy WER for English and
   romanized languages, basic WER otherwise); don't reimplement it. Never train on them, never use them as voice references, and never write
-  corpus sentences that copy their text. Score with fuzzy WER and score Sarvam on the same key.
+  corpus sentences that copy their text. Score with fuzzy WER and score the reference recognizer on the same key
+  (`uv run zunos-reference`; it is never named in the repo or the UI, and its key stays in the git-ignored
+  .env.local).
 - Owner's budget is under $2/hour of cloud GPU in total. Quote the price before creating a pod,
   and stop or terminate pods as soon as they're idle. apps/api enforces this for app-started runs.
-- Cleanup never feeds back into scoring: WER (ours and Sarvam's) is always computed on the raw decoder
+- Cleanup never feeds back into scoring: WER (ours and the reference's) is always computed on the raw decoder
   output. Cleanup prompt examples must not reuse test-clip text either.
 - Final decoding on the Mac is HF transformers on MPS with num_beams=4. whisper.cpp scores
   about 5 points worse with the same weights, and mlx_whisper has no beam search.

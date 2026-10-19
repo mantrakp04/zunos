@@ -169,8 +169,10 @@ export function createLibrary(db: Db) {
       return { modelId, beams: e.beams, scores: e.scores as EvalResult["scores"], rows: (e.rows ?? []) as EvalResult["rows"], createdAt: e.createdAt };
     },
 
+    /** The reference recognizer's word error rate per language, on the same test clips (written by `uv run zunos-reference`). */
     async baselines(): Promise<Baseline[]> {
-      return db.select().from(baselines);
+      const rows = await db.select().from(baselines).where(eq(baselines.provider, "reference"));
+      return rows.map((r) => ({ provider: "reference", lang: r.lang, wer: r.wer }));
     },
 
     /** Everything a training pod needs for these languages (see python/engine/src/zunos_engine/pack.py). */
