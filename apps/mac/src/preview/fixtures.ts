@@ -18,7 +18,9 @@ import type {
   TrainingQuote,
   User,
 } from "../shared/types";
-import seed from "../../../../packages/db/src/seed-prompts.json";
+import en from "../../../../packages/db/corpus/en.json";
+import gu from "../../../../packages/db/corpus/gu.json";
+import hi from "../../../../packages/db/corpus/hi.json";
 
 export type DataKind = "full" | "fresh" | "onboarding" | "stress" | "partial" | "minimum";
 
@@ -63,7 +65,8 @@ function languages(enabled: Lang[]): Language[] {
   const all = LANGUAGES.map((l, i) => ({
     code: l.code as Lang,
     name: l.name,
-    script: l.romanized ? "Latin (romanized)" : "native",
+    script: l.romanized ? ("roman" as const) : ("native" as const),
+    hasRoman: !!l.romanized,
     enabled: enabled.includes(l.code as Lang),
     sort: i,
   }));
@@ -72,19 +75,35 @@ function languages(enabled: Lang[]): Language[] {
   return all.map(({ sort: _s, ...l }) => l);
 }
 
-type SeedPrompt = { id: string; lang: string; kind: string; title: string | null; lines: string[] };
+type CorpusFile = { lang: string; starter: string[]; items: { id: string; kind: string; title?: string; native: string[]; roman: string[] | null }[] };
+const CORPUS = [en, hi, gu] as CorpusFile[];
+
+/** A prompt's lines in a script, like corpus.readScript: the chosen one when the prompt has it. */
+export function inScript(p: PromptItem, choice: "native" | "roman"): PromptItem {
+  const script = choice === "roman" ? (p.roman ? "roman" : "native") : p.native ? "native" : "roman";
+  return { ...p, script, lines: (script === "roman" ? p.roman : p.native) ?? p.lines };
+}
 
 function prompts(recordedShare: number): PromptItem[] {
   const r = rng(7);
-  return (seed as SeedPrompt[]).map((p) => ({
-    id: p.id,
-    lang: p.lang as Lang,
-    kind: p.kind as PromptItem["kind"],
-    title: p.title,
-    lines: p.lines,
-    // Passages and twisters were recorded first; sentences are about a third done.
-    recorded: recordedShare > 0 && (p.kind !== "sentence" ? r() < 0.85 : r() < recordedShare),
-  }));
+  // Like corpus.promptItems: the starter set first, in reading order, then passages, then sentences.
+  return CORPUS.flatMap((f) => {
+    const order = new Map(f.starter.map((id, i) => [id, i]));
+    const rank = (x: CorpusFile["items"][number]) => order.get(x.id) ?? f.starter.length + (x.kind === "para" ? 0 : 1);
+    return [...f.items].sort((a, b) => rank(a) - rank(b) || a.id.localeCompare(b.id)).map((p) => inScript({
+      id: p.id,
+      lang: f.lang as Lang,
+      kind: p.kind as PromptItem["kind"],
+      title: p.title ?? null,
+      lines: p.native,
+      script: "native",
+      native: p.native,
+      roman: p.roman,
+      starter: order.has(p.id),
+      // The starter set and passages were recorded first; sentences are about a third done.
+      recorded: recordedShare > 0 && (order.has(p.id) || p.kind !== "sentence" ? r() < 0.85 : r() < recordedShare),
+    }, LANGUAGES.find((l) => l.code === f.lang)?.romanized ? "roman" : "native"));
+  });
 }
 
 function evalCurve(steps: number, every: number, start: Record<string, number>, end: Record<string, number>, seedValue: number): EvalPoint[] {
@@ -165,7 +184,7 @@ const HYP_SLIPS: [RegExp, string][] = [
 
 export function evalFor(modelId: string, scores: Record<string, number>, seedValue: number): EvalResult {
   const r = rng(seedValue);
-  const pool = (seed as SeedPrompt[]).filter((p) => p.kind === "sentence");
+  const pool = prompts(0).filter((p) => p.kind === "sentence");
   const rows: EvalResult["rows"] = [];
   const per: Record<string, number> = { en: 8, hi: 6, gu: 6 };
   for (const lang of MY_LANGS) {
@@ -229,11 +248,11 @@ function stressPrompts(): PromptItem[] {
   const out: PromptItem[] = [];
   STRESS_LANGS.forEach((lang, i) => {
     out.push(
-      { id: `s-${lang}-p`, lang, kind: "para", title: "A remarkably long passage title that keeps going well past where any title should stop", lines: LONG_PASSAGE, recorded: false },
-      { id: `s-${lang}-s`, lang, kind: "sentence", title: null, lines: [SENTENCE_25], recorded: i % 3 === 0 },
-      { id: `s-${lang}-ar`, lang, kind: "sentence", title: null, lines: [ARABIC], recorded: false },
-      { id: `s-${lang}-zh`, lang, kind: "para", title: "中文段落", lines: [CJK, CJK], recorded: false },
-      { id: `s-${lang}-t`, lang, kind: "twister", title: "Twister", lines: ["Pneumonoultramicroscopicsilicovolcanoconiosis"], recorded: false },
+      { id: `s-${lang}-p`, lang, kind: "para", title: "A remarkably long passage title that keeps going well past where any title should stop", lines: LONG_PASSAGE, script: "native", native: LONG_PASSAGE, roman: null, starter: false, recorded: false },
+      { id: `s-${lang}-s`, lang, kind: "sentence", title: null, lines: [SENTENCE_25], script: "native", native: [SENTENCE_25], roman: null, starter: false, recorded: i % 3 === 0 },
+      { id: `s-${lang}-ar`, lang, kind: "sentence", title: null, lines: [ARABIC], script: "native", native: [ARABIC], roman: null, starter: false, recorded: false },
+      { id: `s-${lang}-zh`, lang, kind: "para", title: "中文段落", lines: [CJK, CJK], script: "native", native: [CJK, CJK], roman: null, starter: false, recorded: false },
+      { id: `s-${lang}-t`, lang, kind: "twister", title: "Twister", lines: ["Pneumonoultramicroscopicsilicovolcanoconiosis"], script: "native", native: ["Pneumonoultramicroscopicsilicovolcanoconiosis"], roman: null, starter: false, recorded: false },
     );
   });
   return [...out, ...prompts(0.5)];

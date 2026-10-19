@@ -1,0 +1,1504 @@
+{
+  "lang": "ms",
+  "starter": [
+    "ms-s112",
+    "ms-s018",
+    "ms-s045",
+    "ms-s016",
+    "ms-s106",
+    "ms-s131",
+    "ms-s082",
+    "ms-s026",
+    "ms-s097",
+    "ms-s076",
+    "ms-s075",
+    "ms-s162",
+    "ms-s066",
+    "ms-s140",
+    "ms-s046",
+    "ms-s134",
+    "ms-s083",
+    "ms-s157",
+    "ms-p05",
+    "ms-s031",
+    "ms-s021",
+    "ms-s158",
+    "ms-s028",
+    "ms-s077",
+    "ms-s014",
+    "ms-s128",
+    "ms-s038",
+    "ms-s071",
+    "ms-s067",
+    "ms-s059",
+    "ms-s084",
+    "ms-s093",
+    "ms-s040",
+    "ms-s132",
+    "ms-s015",
+    "ms-s091",
+    "ms-s124",
+    "ms-p01",
+    "ms-s145",
+    "ms-s034",
+    "ms-s133",
+    "ms-s080",
+    "ms-s156",
+    "ms-s004",
+    "ms-s070",
+    "ms-s138",
+    "ms-s027",
+    "ms-s130",
+    "ms-s011",
+    "ms-s001",
+    "ms-s147",
+    "ms-s074",
+    "ms-s096",
+    "ms-s037",
+    "ms-s079",
+    "ms-s152"
+  ],
+  "items": [
+    {
+      "id": "ms-p01",
+      "kind": "para",
+      "title": "Last Night at the Mamak",
+      "native": [
+        "Semalam semua orang di kedai mamak Seksyen 7 tengok perlawanan Selangor.",
+        "Saya dengan Haziq sampai awal sebab nak duduk dekat skrin besar.",
+        "Awak rugi tak ikut, memang meriah bila pemain masuk padang.",
+        "Roti telur saya dah sejuk sebelum separuh masa pertama habis.",
+        "Penjaga gol Selangor sempat tepis bola yang menghala ke penjuru.",
+        "Pak cik di meja sebelah terus bangun sambil tepuk tangan.",
+        "Bila Selangor jaringkan gol kemenangan, satu kedai bersorak sampai saya terkejut.",
+        "Lepas wisel penamat, Haziq masih ulang cerita gol tadi sepanjang perjalanan balik.",
+        "Lain kali kita datang sama-sama, tapi awak kena tolong cari meja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-p02",
+      "kind": "para",
+      "title": "Client Meeting Follow-Up",
+      "native": [
+        "Meeting dengan client kedai kek di Bangsar pagi tadi berjalan lancar.",
+        "Mereka setuju dengan susunan main page, tetapi mahu gambar produk lebih besar.",
+        "Senarai harga perlu dikemas kini sebelum laman tempahan dibuka kepada pelanggan.",
+        "Client juga minta ruang khas untuk pelanggan memilih waktu pengambilan kek.",
+        "Priya, tolong semak sama ada fungsi pilihan waktu boleh siap minggu ini.",
+        "Saya akan minta gambar baharu dan senarai harga daripada client petang ini.",
+        "Farhan boleh mula kemas susun atur selepas kita terima semua gambar.",
+        "Sila simpan anggaran masa kerja masing-masing dalam folder projek sebelum esok tengah hari.",
+        "Kita akan semak versi terkini bersama pada Jumaat, pukul 10 pagi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-p03",
+      "kind": "para",
+      "title": "My First Driving Lessons",
+      "native": [
+        "Saya mula belajar memandu kereta manual di Seberang Jaya selepas habis sekolah.",
+        "Setiap Sabtu, ayah hantar saya ke sekolah memandu dengan motosikal lamanya.",
+        "Pengajar saya, Encik Lim, selalu bawa botol air besar dalam kereta.",
+        "Hari pertama, tapak tangan saya berpeluh walaupun aircond kereta dah dipasang.",
+        "Saya asyik lepaskan klac terlalu cepat sampai enjin mati beberapa kali.",
+        "Encik Lim suruh saya tarik nafas dan cuba semula perlahan-lahan.",
+        "Selepas beberapa pusingan di litar, saya dah pandai seimbangkan klac dengan minyak.",
+        "Saya paling ingat masa saya berjaya naik bukit tanpa enjin mati.",
+        "Petang itu, ayah belanja saya cendol dekat pasar sebab latihan berjalan lancar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-p04",
+      "kind": "para",
+      "title": "Setting Up Mum's Phone",
+      "native": [
+        "Mak, jom kita set telefon baru mak di meja makan.",
+        "Mula-mula, tekan dan tahan butang di tepi telefon sampai skrin menyala dan logo muncul.",
+        "Pilih bahasa Melayu supaya mak senang faham arahan pada skrin nanti.",
+        "Lepas itu, sambungkan telefon ke Wi-Fi rumah dengan password dalam buku biru.",
+        "Log masuk ke akaun Google mak untuk dapatkan semula nombor telefon yang mak simpan.",
+        "Buka WhatsApp dan masukkan nombor telefon mak untuk daftar.",
+        "Taip kod pengesahan yang mak terima melalui mesej.",
+        "Besarkan tulisan dalam tetapan supaya mak tak perlu dekatkan telefon ke muka.",
+        "Akhir sekali, cuba telefon Kak Long untuk pastikan suara mak kedengaran jelas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-p05",
+      "kind": "para",
+      "title": "Nasi Dagang in Chendering",
+      "native": [
+        "Ahad lepas, saya cuba nasi dagang di sebuah gerai dekat pantai di Chendering.",
+        "Nasinya lembut dan wangi. Makan banyak pun tak muak.",
+        "Gulai ikan tongkolnya pekat, tapi rasa rempahnya tak terlalu kuat.",
+        "Acar timun yang rangup pula buat hidangan itu rasa lebih segar.",
+        "Bagi saya, harga RM9 untuk nasi dan sepotong ikan masih berpatutan.",
+        "Cuma, teh aisnya agak manis walaupun saya dah minta kurang gula.",
+        "Pesanan pun lambat sampai sebab seorang sahaja yang melayan semua meja.",
+        "Tempat duduk pun tak banyak, jadi elok datang sebelum pukul 8 pagi.",
+        "Saya tetap nak singgah lagi sebab nasi dagangnya memang kena dengan selera saya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-p06",
+      "kind": "para",
+      "title": "Planning Our Team Getaway",
+      "native": [
+        "Saya cadangkan kita ke Port Dickson untuk outing pejabat kali ini.",
+        "Kita pilih 18 September 2026 sebab semua 12 orang boleh ikut pada hari itu.",
+        "Kita bertolak dari pejabat di Cyberjaya pukul 8:30 pagi dengan 3 kereta.",
+        "Jarak dari pejabat ke tempat kita menginap lebih kurang 90 kilometer.",
+        "Jadi kita peruntukkan 2 jam untuk perjalanan.",
+        "6 bilik untuk satu malam berharga RM1,200, termasuk sarapan untuk semua.",
+        "Sesi perbincangan bermula pukul 11 pagi dan berakhir pukul 4 petang.",
+        "Untuk makan tengah hari, kita tempah 12 set nasi ayam dengan harga RM18 setiap set.",
+        "Lepas sesi perbincangan tamat, kita boleh berjalan kaki sejauh 2 kilometer di tepi pantai.",
+        "Esoknya, kita bertolak balik pukul 10 pagi selepas sarapan dan bergambar bersama."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-p07",
+      "kind": "para",
+      "title": "Parcel at the Wrong House",
+      "native": [
+        "Selamat pagi, saya Farhana. Saya nak semak penghantaran bungkusan saya ke Taman Melawati.",
+        "Aplikasi itu menunjukkan bungkusan saya dah sampai semalam, tapi saya belum terima apa-apa.",
+        "Alamat pada pesanan saya betul, termasuk nama jalan dan nombor rumah.",
+        "Gambar penghantaran menunjukkan pagar hijau, tapi pagar rumah saya putih.",
+        "Saya dah tanya jiran sebelah, tapi mereka pun tak terima bungkusan saya.",
+        "Boleh tolong semak di mana pemandu hantar bungkusan saya?",
+        "Kalau perlu, saya boleh hantar gambar rumah saya melalui WhatsApp.",
+        "Kalau tersalah hantar, boleh tolong ambil semula bungkusan itu dan hantar ke alamat saya?",
+        "Terima kasih. Saya tunggu maklum balas tentang bungkusan saya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-p08",
+      "kind": "para",
+      "title": "Getting Around Kuala Lumpur",
+      "native": [
+        "Di Kuala Lumpur, kita boleh naik tren atau bas untuk pergi ke banyak tempat.",
+        "Kita boleh naik LRT atau MRT dari kawasan perumahan ke pusat bandar.",
+        "Stesen Pasar Seni ada laluan pejalan kaki yang menghubungkan LRT dengan MRT.",
+        "Kalau nak ke Bukit Bintang untuk membeli-belah, boleh juga naik monorel.",
+        "Ada juga bas pengantara dari beberapa stesen ke kawasan berdekatan.",
+        "Kad Touch 'n Go boleh digunakan untuk membayar tambang tren dan bas.",
+        "Pada waktu puncak, tren boleh jadi penuh, jadi kita mungkin kena tunggu tren seterusnya.",
+        "Buka aplikasi rasmi perkhidmatan tren atau bas untuk semak laluan dan jadual perjalanan.",
+        "Sebelum masuk ke platform, tengok papan tanda untuk pastikan arah perjalanan betul."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s001",
+      "kind": "sentence",
+      "native": [
+        "Cuaca mendung, angkat kain dekat ampaian dulu kalau sempat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s002",
+      "kind": "sentence",
+      "native": [
+        "Lampiran e-mel tadi tak mengandungi jadual tugasan minggu depan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s003",
+      "kind": "sentence",
+      "native": [
+        "Saya ambil masa 38 minit untuk habiskan larian 5 kilometer tadi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s004",
+      "kind": "sentence",
+      "native": [
+        "Simpan resit kasut dalam laci."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s005",
+      "kind": "sentence",
+      "native": [
+        "Kenapa komputer saya tak dapat kesan pencetak walaupun kedua-duanya dah disambungkan ke rangkaian yang sama?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s006",
+      "kind": "sentence",
+      "native": [
+        "Nadia, charger ini milik awak?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s007",
+      "kind": "sentence",
+      "native": [
+        "Balik dari Kuala Perlis nanti, singgah rumah Pak Long Rahman sebab dia nak kirim buah tangan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s008",
+      "kind": "sentence",
+      "native": [
+        "Hujung minggu ini sepupu saya bertunang, jadi kami nak susun hantaran sama-sama selepas makan malam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s009",
+      "kind": "sentence",
+      "native": [
+        "Pesan nasi kerabu satu, eh tak, jadikan dua bungkus sebab nenek pun belum makan lagi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s010",
+      "kind": "sentence",
+      "native": [
+        "Bagi saya, warna krim lebih sesuai untuk dinding ruang tamu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s011",
+      "kind": "sentence",
+      "native": [
+        "Okey, kita jumpa dekat pintu masuk sebelah kanan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s012",
+      "kind": "sentence",
+      "native": [
+        "Permohonan cuti awak sudah diluluskan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s013",
+      "kind": "sentence",
+      "native": [
+        "Esok saya boleh jemput 3 anak awak pukul 12:45 tengah hari."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s014",
+      "kind": "sentence",
+      "native": [
+        "Jadualkan servis motosikal di bengkel selepas gaji masuk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s015",
+      "kind": "sentence",
+      "native": [
+        "Buka kamera dalam mod potret."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s016",
+      "kind": "sentence",
+      "native": [
+        "Intan kongsi Google Calendar supaya kami tahu giliran jemput anak."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s017",
+      "kind": "sentence",
+      "native": [
+        "Dayang cadangkan kami berkumpul di lobi hotel sebelum berjalan kaki ke Muzium Sabah pagi esok."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s018",
+      "kind": "sentence",
+      "native": [
+        "Rina nak buat rumah terbuka pada hari kedua Aidilfitri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s019",
+      "kind": "sentence",
+      "native": [
+        "Sudip kayu ini tahan panas?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s020",
+      "kind": "sentence",
+      "native": [
+        "Anyaman pertama saya tak begitu kemas, tapi saya puas hati dan nak terus belajar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s021",
+      "kind": "sentence",
+      "native": [
+        "Haziq, kau jadi main badminton petang esok?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s022",
+      "kind": "sentence",
+      "native": [
+        "Kos jamuan untuk tetamu dari Sibu jangan melebihi RM180."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s023",
+      "kind": "sentence",
+      "native": [
+        "Pasukan kita menang 3 berbalas 1 semalam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s024",
+      "kind": "sentence",
+      "native": [
+        "Tetapkan peringatan untuk kelas tarian pukul 8:00 malam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s025",
+      "kind": "sentence",
+      "native": [
+        "Berapa harga tiket masuk ke Zoo Negara untuk orang dewasa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s026",
+      "kind": "sentence",
+      "native": [
+        "Arvind minta kita tambah ruangan komen dalam borang online."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s027",
+      "kind": "sentence",
+      "native": [
+        "Pejabat pos sebelah mana?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s028",
+      "kind": "sentence",
+      "native": [
+        "Cikgu minta murid bawa pensel warna untuk aktiviti kumpulan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s029",
+      "kind": "sentence",
+      "native": [
+        "Latihan kawad habis pukul berapa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s030",
+      "kind": "sentence",
+      "native": [
+        "Cikgu Hamidah, anak saya makin yakin sejak masuk kelas cikgu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s031",
+      "kind": "sentence",
+      "native": [
+        "Ayah setuju kita bela arnab."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s032",
+      "kind": "sentence",
+      "native": [
+        "Ravi akan gantikan penyelia sepanjang syif petang Jumaat ini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s033",
+      "kind": "sentence",
+      "native": [
+        "Tukang paip boleh datang hari Isnin pukul 10:30 pagi, tapi kerja membaiki tangki ambil 2 jam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s034",
+      "kind": "sentence",
+      "native": [
+        "Ingatkan saya untuk siram pokok."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s035",
+      "kind": "sentence",
+      "native": [
+        "Cari laluan ke Taman Botani Putrajaya tanpa melalui lebuh raya bertol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s036",
+      "kind": "sentence",
+      "native": [
+        "Tak perlu beli router baru, kita cuba alihkan ke ruang tengah supaya Wi-Fi sampai ke bilik belakang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s037",
+      "kind": "sentence",
+      "native": [
+        "Turun dekat jejantas, kemudian lintas ke seberang jalan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s038",
+      "kind": "sentence",
+      "native": [
+        "Bungkusan ini perlu dibalut semula sebelum dihantar ke Muar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s039",
+      "kind": "sentence",
+      "native": [
+        "Belikan tisu, sabun mandi dan sebatang berus gigi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s040",
+      "kind": "sentence",
+      "native": [
+        "Aduh, kerusi dekat ruang menunggu ini keras sangat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s041",
+      "kind": "sentence",
+      "native": [
+        "Beg awak tertinggal dalam kereta, nak ambil sekarang?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s042",
+      "kind": "sentence",
+      "native": [
+        "Ada perkembangan tentang sebut harga daripada pembekal kertas itu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s043",
+      "kind": "sentence",
+      "native": [
+        "Tebus baucar RM6 dengan 120 mata ganjaran."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s044",
+      "kind": "sentence",
+      "native": [
+        "Catat tarikh tamat waranti peti sejuk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s045",
+      "kind": "sentence",
+      "native": [
+        "Set timer 9 minit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s046",
+      "kind": "sentence",
+      "native": [
+        "Lepas tekan save, pastikan nama file tak berubah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s047",
+      "kind": "sentence",
+      "native": [
+        "Ipar awak masih tinggal dekat kawasan perumahan lama itu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s048",
+      "kind": "sentence",
+      "native": [
+        "Garam kasar dah habis ke?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s049",
+      "kind": "sentence",
+      "native": [
+        "Letak pinggan di rak, eh, atas dulang dulu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s050",
+      "kind": "sentence",
+      "native": [
+        "Leganya sinki dah tak tersumbat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s051",
+      "kind": "sentence",
+      "native": [
+        "Maaf, lambat balas sebab sibuk mengemas stor, baru sekarang dapat duduk dan tengok mesej dalam kumpulan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s052",
+      "kind": "sentence",
+      "native": [
+        "Hasil perbincangan dengan pihak hotel di Melaka, kami boleh menggunakan ruang pameran tanpa sebarang caj tambahan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s053",
+      "kind": "sentence",
+      "native": [
+        "Anak bongsu genap 6 tahun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s054",
+      "kind": "sentence",
+      "native": [
+        "Giliran saya cuci tandas malam ini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s055",
+      "kind": "sentence",
+      "native": [
+        "Bagaimana nak batalkan bayaran automatik untuk langganan yang saya dah berhenti guna sejak bulan lepas?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s056",
+      "kind": "sentence",
+      "native": [
+        "Skrin tablet berkelip setiap kali saya buka aplikasi melukis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s057",
+      "kind": "sentence",
+      "native": [
+        "Basikal ayah ada di garaj."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s058",
+      "kind": "sentence",
+      "native": [
+        "Ubi keledek elok dikukus dulu sebelum dilenyek supaya adunan kuih keria nanti lebih senang dibentuk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s059",
+      "kind": "sentence",
+      "native": [
+        "Cawan, periuk dan kuali dah dicuci, tinggal penapis saja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s060",
+      "kind": "sentence",
+      "native": [
+        "Segannya bila tersedar suara sendiri paling kuat dalam kafe tadi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s061",
+      "kind": "sentence",
+      "native": [
+        "Laksa Sarawak itu pedas tak? Sesuai untuk budak-budak?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s062",
+      "kind": "sentence",
+      "native": [
+        "Sempat tak awak semak stok sebelum gudang ditutup petang ini?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s063",
+      "kind": "sentence",
+      "native": [
+        "Baki duit RM50 tadi kurang RM2."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s064",
+      "kind": "sentence",
+      "native": [
+        "Caj penghantaran dikenakan dua kali, jadi kena minta bayaran balik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s065",
+      "kind": "sentence",
+      "native": [
+        "Perlahankan muzik sikit supaya saya masih boleh dengar arahan navigasi semasa memandu nanti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s066",
+      "kind": "sentence",
+      "native": [
+        "Eh, notifikasi WhatsApp langsung tak masuk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s067",
+      "kind": "sentence",
+      "native": [
+        "Laluan ke KL Sentral sesak sebab ada kerja pembaikan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s068",
+      "kind": "sentence",
+      "native": [
+        "Paip dapur menitis lagi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s069",
+      "kind": "sentence",
+      "native": [
+        "Masukkan benang, jarum dan gunting kecil dalam kotak jahit, tapi asingkan butang dalam bekas lain."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s070",
+      "kind": "sentence",
+      "native": [
+        "Baiknya awak, terima kasih banyak-banyak!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s071",
+      "kind": "sentence",
+      "native": [
+        "Wah, cantiknya langsir baru!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s072",
+      "kind": "sentence",
+      "native": [
+        "Puan Noraini, sesi taklimat di Shah Alam masih diteruskan walaupun penceramah hanya dapat hadir secara dalam talian?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s073",
+      "kind": "sentence",
+      "native": [
+        "Mulai 9 Disember, kelas renang setiap Ahad bermula pukul 5:15 petang dan berlangsung selama 45 minit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s074",
+      "kind": "sentence",
+      "native": [
+        "Asingkan baju yang nak didermakan sebelum kemas almari hujung minggu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s075",
+      "kind": "sentence",
+      "native": [
+        "Macam mana nak sambungkan earphone ini melalui Bluetooth?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s076",
+      "kind": "sentence",
+      "native": [
+        "Versi percubaan software ini boleh digunakan tanpa kad kredit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s077",
+      "kind": "sentence",
+      "native": [
+        "Van pekerja berhenti betul-betul depan pondok pengawal itu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s078",
+      "kind": "sentence",
+      "native": [
+        "Kasut sukan yang dibeli semalam terlalu sempit, jadi saya nak tukar dengan saiz yang lebih besar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s079",
+      "kind": "sentence",
+      "native": [
+        "Duit dah ditolak, tapi resit bayaran masih belum keluar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s080",
+      "kind": "sentence",
+      "native": [
+        "Minta maaf, saya terambil pen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s081",
+      "kind": "sentence",
+      "native": [
+        "Bulan depan kami nak ke Pulau Pangkor, kalau keluarga awak berminat bolehlah kita rancang perjalanan sama-sama."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s082",
+      "kind": "sentence",
+      "native": [
+        "Mohon ubah tarikh latihan kepada 14 Julai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s083",
+      "kind": "sentence",
+      "native": [
+        "Mesyuarat bermula pukul 10:15 pagi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s084",
+      "kind": "sentence",
+      "native": [
+        "Esok kena pulangkan payung Priya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s085",
+      "kind": "sentence",
+      "native": [
+        "Telefon pengasuh anak saya sekarang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s086",
+      "kind": "sentence",
+      "native": [
+        "Pakej storan RM8 sebulan itu boleh dikongsi dengan keluarga?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s087",
+      "kind": "sentence",
+      "native": [
+        "Selepas bulatan kedua, belok kiri ke arah padang dan cari rumah berpagar hijau di hujung lorong."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s088",
+      "kind": "sentence",
+      "native": [
+        "Encik Lim, boleh kurang jadi RM35 untuk bakul rotan ini?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s089",
+      "kind": "sentence",
+      "native": [
+        "Karpet itu nak gulung terus atau jemur dulu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s090",
+      "kind": "sentence",
+      "native": [
+        "Bukan mudah nak jaga ayah sambil bekerja, jadi bantuan awak sangat bermakna buat kami sekeluarga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s091",
+      "kind": "sentence",
+      "native": [
+        "Mak pesan beli santan sebelum kedai runcit tutup."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s092",
+      "kind": "sentence",
+      "native": [
+        "Kavitha, boleh saya pinjam projektor untuk pembentangan petang ini?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s093",
+      "kind": "sentence",
+      "native": [
+        "Penghuni bilik 2 dan 5 bergilir mengemop dapur setiap Sabtu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s094",
+      "kind": "sentence",
+      "native": [
+        "Lusa saya kena beritahu Cikgu Maznah yang anak saya akan balik dengan kakaknya selepas latihan bola."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s095",
+      "kind": "sentence",
+      "native": [
+        "Boleh guna ikan bilis untuk ganti belacan dalam sambal nasi lemak?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s096",
+      "kind": "sentence",
+      "native": [
+        "Audio rakaman tadi terlalu perlahan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s097",
+      "kind": "sentence",
+      "native": [
+        "Zul dah pindah ke Taiping sejak pencen tahun lepas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s098",
+      "kind": "sentence",
+      "native": [
+        "Angin kuat sangat sampai pasu bunga dekat beranda tumbang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s099",
+      "kind": "sentence",
+      "native": [
+        "Kunci mangga yang tersangkut dekat pagar itu milik siapa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s100",
+      "kind": "sentence",
+      "native": [
+        "Sejak tinggal di Kuala Kangsar, saya makin hargai masa lapang yang dulu selalu habis dalam perjalanan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s101",
+      "kind": "sentence",
+      "native": [
+        "Seronok tak perkhemahan sekolah tadi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s102",
+      "kind": "sentence",
+      "native": [
+        "Cadangan itu sesuai dengan bajet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s103",
+      "kind": "sentence",
+      "native": [
+        "Untuk bengkel Sabtu ini, kami perlukan 15 kerusi tambahan sebab jumlah peserta dah naik kepada 48 orang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s104",
+      "kind": "sentence",
+      "native": [
+        "Buat nota untuk tukar kata laluan akaun malam ini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s105",
+      "kind": "sentence",
+      "native": [
+        "Di mana pusat kitar semula terdekat di Sandakan?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s106",
+      "kind": "sentence",
+      "native": [
+        "Chong, mikrofon awak masih mute."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s107",
+      "kind": "sentence",
+      "native": [
+        "Jumpa saya dekat eskalator selepas awak turun nanti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s108",
+      "kind": "sentence",
+      "native": [
+        "Bubur ini belum cukup lembut."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s109",
+      "kind": "sentence",
+      "native": [
+        "Aina, nak apam balik tak?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s110",
+      "kind": "sentence",
+      "native": [
+        "Syabas, Kumar, makin lancar awak bercakap depan orang ramai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s111",
+      "kind": "sentence",
+      "native": [
+        "Rasanya kucing tadi lagi pandai bergaya daripada tuannya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s112",
+      "kind": "sentence",
+      "native": [
+        "Boleh sahkan penerimaan invois ini?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s113",
+      "kind": "sentence",
+      "native": [
+        "Penerbangan ke Kuching dijadualkan berlepas pukul 6:20 petang dari terminal 2."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s114",
+      "kind": "sentence",
+      "native": [
+        "Bila laptop dah siap update, ingatkan saya untuk salin gambar percutian ke dalam hard disk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s115",
+      "kind": "sentence",
+      "native": [
+        "Matikan lampu bilik tidur sekarang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s116",
+      "kind": "sentence",
+      "native": [
+        "Jumlah jualan dalam Excel tak tepat sebab formula itu tak ambil kira satu baris yang baru ditambah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s117",
+      "kind": "sentence",
+      "native": [
+        "Suraya tunggu dekat kedai bunga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s118",
+      "kind": "sentence",
+      "native": [
+        "Khamis depan masih ada slot kosong untuk potong rambut?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s119",
+      "kind": "sentence",
+      "native": [
+        "Kuih peneram sebungkus RM7, betul ke saya dengar tadi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s120",
+      "kind": "sentence",
+      "native": [
+        "Suresh, malam ini giliran awak pilih cerita untuk kita tengok."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s121",
+      "kind": "sentence",
+      "native": [
+        "Pagi esok saya perlu jumpa cikgu anak saya, tapi saya boleh sertai perbincangan selepas pukul 11:00 pagi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s122",
+      "kind": "sentence",
+      "native": [
+        "Kak Ros, hantar 2 kotak mangga ke 26, Jalan Kenanga 5, sebelum pukul 11:30 pagi esok."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s123",
+      "kind": "sentence",
+      "native": [
+        "Asingkan RM65 untuk hadiah hari jadi adik bulan depan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s124",
+      "kind": "sentence",
+      "native": [
+        "Hantarkan mesej kepada Pei Shan, beritahu dia saya sedang cari tempat letak kereta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s125",
+      "kind": "sentence",
+      "native": [
+        "Internet asyik putus sejak tadi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s126",
+      "kind": "sentence",
+      "native": [
+        "Rumah nenek menghadap taman permainan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s127",
+      "kind": "sentence",
+      "native": [
+        "Penutup bekas kaca itu tak rapat. Ikat dengan getah gelang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s128",
+      "kind": "sentence",
+      "native": [
+        "Alamak, jangan hantar sekarang. Tunggu saya siap tandatangan dulu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s129",
+      "kind": "sentence",
+      "native": [
+        "Saya dah sampai rumah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s130",
+      "kind": "sentence",
+      "native": [
+        "Farhana, siapa yang uruskan penghantaran sampel ke Bangi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s131",
+      "kind": "sentence",
+      "native": [
+        "Bas ke Seremban bertolak pukul 8:45 malam dari platform 7."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s132",
+      "kind": "sentence",
+      "native": [
+        "Jangan lupa ambil kuih talam di gerai Kak Salmah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s133",
+      "kind": "sentence",
+      "native": [
+        "Tunjukkan ramalan hujan di Kota Bharu sepanjang minggu ini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s134",
+      "kind": "sentence",
+      "native": [
+        "Mouse ini langsung tak bergerak."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s135",
+      "kind": "sentence",
+      "native": [
+        "Kereta sewa itu boleh dipulangkan di cawangan lain?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s136",
+      "kind": "sentence",
+      "native": [
+        "Zip seluar ini tersangkut pula."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s137",
+      "kind": "sentence",
+      "native": [
+        "Gawai nanti kami makan di rumah mentua, tapi sebelah petang bolehlah singgah rumah awak dengan anak-anak."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s138",
+      "kind": "sentence",
+      "native": [
+        "Tolong simpankan sedikit lauk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s139",
+      "kind": "sentence",
+      "native": [
+        "Petang nanti saya bekerja dari rumah, jadi hubungi saya melalui WhatsApp kalau ada urusan segera."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s140",
+      "kind": "sentence",
+      "native": [
+        "Sewa bulanan naik jadi RM850."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s141",
+      "kind": "sentence",
+      "native": [
+        "Untuk cuti sekolah nanti, cari kelas melukis yang sesuai dengan umur anak dan dekat dengan rumah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s142",
+      "kind": "sentence",
+      "native": [
+        "Padam semua tangkap layar yang diambil dalam tempoh sebulan lepas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s143",
+      "kind": "sentence",
+      "native": [
+        "Kalau butang bayar masih tak berfungsi selepas cache dibersihkan, buat rakaman skrin dan hantar kepada support."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s144",
+      "kind": "sentence",
+      "native": [
+        "Engsel pintu bilik dah longgar, tapi saya boleh ketatkan sendiri kalau awak ada pemutar skru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s145",
+      "kind": "sentence",
+      "native": [
+        "Hebat betul kau berdengkur, bunyi kipas pun kalah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s146",
+      "kind": "sentence",
+      "native": [
+        "Harap maklum, kaunter pentadbiran ditutup sementara sepanjang kerja penyelenggaraan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s147",
+      "kind": "sentence",
+      "native": [
+        "Diskaun 30% itu sah sampai 24 September 2026."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s148",
+      "kind": "sentence",
+      "native": [
+        "Tambah pencuci lantai dalam senarai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s149",
+      "kind": "sentence",
+      "native": [
+        "Juruteknik akan datang ke pejabat di Cyberjaya untuk pasang webcam sebelum sesi temu duga bermula."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s150",
+      "kind": "sentence",
+      "native": [
+        "Deepavali nanti kami nak ajak jiran sebelah makan muruku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s151",
+      "kind": "sentence",
+      "native": [
+        "Abang, tiket ke Ipoh dah ditempah untuk 18 Ogos, jadi jangan lupa minta cuti awal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s152",
+      "kind": "sentence",
+      "native": [
+        "Diameter pasu itu 32 sentimeter. Beratnya hampir 7 kilogram."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s153",
+      "kind": "sentence",
+      "native": [
+        "Sebelum ke Pasar Payang hari Khamis, ukur panjang meja makan supaya tak tersalah beli alas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s154",
+      "kind": "sentence",
+      "native": [
+        "Mei Ling, kalau awak masih dekat kedai buku, boleh carikan novel yang kita sebut semalam?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s155",
+      "kind": "sentence",
+      "native": [
+        "Wayang pukul 2:40 petang, tempat duduk kita nombor 17."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s156",
+      "kind": "sentence",
+      "native": [
+        "Hantar gambar kek yang kau buat, aku nak tunjuk dekat nenek."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s157",
+      "kind": "sentence",
+      "native": [
+        "Tempahan 40 biji karipap berjumlah RM28, termasuk caj penghantaran RM4."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s158",
+      "kind": "sentence",
+      "native": [
+        "Jom singgah pasar malam Taman Connaught lepas kerja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s159",
+      "kind": "sentence",
+      "native": [
+        "Resipi ini perlukan 250 gram tepung dan 150 mililiter susu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s160",
+      "kind": "sentence",
+      "native": [
+        "Bateri tinggal 2% saja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s161",
+      "kind": "sentence",
+      "native": [
+        "Hubungi kedai dobi di 010-000 0000 antara pukul 9:00 pagi dengan 7:00 malam untuk tanya harga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s162",
+      "kind": "sentence",
+      "native": [
+        "Nanti telefon bila lapang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ms-s163",
+      "kind": "sentence",
+      "native": [
+        "Upah jahit sehelai RM18.50."
+      ],
+      "roman": null
+    }
+  ]
+}

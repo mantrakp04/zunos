@@ -1,11 +1,16 @@
 // Serializable shapes passed between the native shell and the DOM screens.
-import type { Lang } from "@zunos/db/schema";
+import type { Lang, Script } from "@zunos/db/schema";
 
-export type { Lang };
+export type { Lang, Script };
 
 export type User = { id: string; email: string | null; name: string | null };
 
-export type Language = { code: Lang; name: string; script: string; enabled: boolean };
+/**
+ * `script`: what the user reads and the model writes for this language ("native": its own script; "roman":
+ * English letters), changed with setLanguageScript. `hasRoman`: the language has an English-letter spelling
+ * besides its own script, so the reader can choose (false for English, German...: always "native").
+ */
+export type Language = { code: Lang; name: string; script: Script; hasRoman: boolean; enabled: boolean };
 
 export type LangStats = {
   lang: Lang;
@@ -22,7 +27,16 @@ export type PromptItem = {
   lang: Lang;
   kind: "para" | "twister" | "sentence";
   title: string | null;
+  /** The lines to read: `native` or `roman`, whichever `script` says. */
   lines: string[];
+  /** The language's chosen script when the prompt has those lines, else the one it has. A take records it. */
+  script: Script;
+  /** The same lines in the language's own script (null for the user's own text typed in English letters). */
+  native: string[] | null;
+  /** The same lines in English letters (null for Latin-script languages and the user's own native text). */
+  roman: string[] | null;
+  /** In the language's starter set: listed first, in reading order. */
+  starter: boolean;
   recorded: boolean;
 };
 

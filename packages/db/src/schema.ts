@@ -10,26 +10,37 @@ const createdAt = () => text("created_at").notNull().default(sql`(strftime('%Y-%
 /** A Whisper language code (see languages.ts). */
 export type Lang = string;
 export type Split = "train" | "test";
+/** A language's own script ("native": Devanagari, Cyrillic, or Latin for English...) or English letters ("roman"). */
+export type Script = "native" | "roman";
 
 export const languages = sqliteTable("languages", {
   code: text("code").$type<Lang>().primaryKey(),
   name: text("name").notNull(),
-  // Script Whisper is trained to write: "Latin (romanized)" for languages typed in English letters.
-  script: text("script").notNull(),
+  // The script the user reads prompts in and Whisper is trained to write. Defaults to "roman" for
+  // languages typed in English letters (languages.ts `romanized`), "native" otherwise.
+  script: text("script").$type<Script>().notNull(),
   enabled: integer("enabled", { mode: "boolean" }).notNull().default(false),
   sort: integer("sort").notNull().default(0),
 });
 
-/** Text the user reads aloud: a paragraph, a tongue twister, or a single dictation sentence. */
+/**
+ * Text the user reads aloud: a paragraph or a single dictation sentence (twisters only in retired prompts).
+ * The same lines in both scripts when known; at least one of `native` and `roman` is set.
+ */
 export const prompts = sqliteTable("prompts", {
   id: text("id").primaryKey(),
   lang: text("lang").$type<Lang>().notNull(),
   kind: text("kind").$type<"para" | "twister" | "sentence">().notNull(),
   title: text("title"),
-  lines: json<string[]>("lines").notNull(),
-  // Same lines in native script (Devanagari / Gujarati), when known. Used as TTS input.
-  nativeLines: json<string[]>("native_lines"),
-  source: text("source").notNull(), // builtin | user (session-1 | recorder | corpus on the owner's migrated install)
+  // Lines in the language's own script; null for the user's own text typed in English letters.
+  native: json<string[]>("native"),
+  // Lines in English letters; null for Latin-script languages (English, German...).
+  roman: json<string[]>("roman"),
+  // Position in the language's starter set (read first), or null.
+  starter: integer("starter"),
+  // corpus: packages/db/corpus/<lang>.json. user: written in the app. retired: an earlier built-in prompt
+  // kept only because recordings point at it (never listed).
+  source: text("source").$type<"corpus" | "user" | "retired">().notNull(),
   createdAt: createdAt(),
 }, (t) => [index("prompts_lang").on(t.lang, t.kind)]);
 
@@ -45,6 +56,8 @@ export const recordings = sqliteTable("recordings", {
   // Seconds at which the reader advanced to the next line (plus the end).
   marks: json<number[]>("marks").notNull(),
   recordedAt: text("recorded_at").notNull(),
+  // The prompt's script the user read; its clips' text is in this script.
+  script: text("script").$type<Script>(),
   // The take with its background noise cleaned (python/engine enhance.py); `path` stays the raw original.
   cleanPath: text("clean_path"),
   // Measurements of the raw and cleaned take, the cleaning strength used and why, the input device, and the

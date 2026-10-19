@@ -1,0 +1,1987 @@
+{
+  "lang": "vi",
+  "starter": [
+    "vi-s002",
+    "vi-s102",
+    "vi-s169",
+    "vi-s145",
+    "vi-s192",
+    "vi-s152",
+    "vi-s190",
+    "vi-s136",
+    "vi-s005",
+    "vi-s114",
+    "vi-s178",
+    "vi-s202",
+    "vi-s186",
+    "vi-s008",
+    "vi-p01",
+    "vi-s085",
+    "vi-s162",
+    "vi-s015",
+    "vi-s035",
+    "vi-s164",
+    "vi-s116",
+    "vi-s172",
+    "vi-s033",
+    "vi-s198",
+    "vi-s194",
+    "vi-s041",
+    "vi-s203",
+    "vi-s063",
+    "vi-s223",
+    "vi-p03",
+    "vi-s053",
+    "vi-s021",
+    "vi-s132",
+    "vi-s011",
+    "vi-s089",
+    "vi-s012",
+    "vi-s195",
+    "vi-s120",
+    "vi-s124",
+    "vi-s181",
+    "vi-s130",
+    "vi-s110",
+    "vi-s211",
+    "vi-s135",
+    "vi-p07",
+    "vi-s020",
+    "vi-s029",
+    "vi-s163",
+    "vi-s075",
+    "vi-s018",
+    "vi-s148",
+    "vi-s150",
+    "vi-s070",
+    "vi-s140",
+    "vi-s204",
+    "vi-s025",
+    "vi-s109",
+    "vi-s059",
+    "vi-s036",
+    "vi-s111"
+  ],
+  "items": [
+    {
+      "id": "vi-p01",
+      "kind": "para",
+      "title": "Our New Cat",
+      "native": [
+        "Nhà mình ở Bình Thạnh vừa đón một bé mèo vàng về hôm qua.",
+        "Mình đặt tên nó là Bắp vì bộ lông vàng giống hạt bắp luộc.",
+        "Ban đầu Bắp cứ núp dưới ghế, nghe tiếng dép là chạy mất.",
+        "Tối qua, mẹ ngồi yên một lúc thì nó tự bước ra ngửi tay.",
+        "Sáng nay nó đã dám nằm chắn ngay cửa bếp, chẳng sợ ai nữa.",
+        "Mình mua cái ổ mềm mà nó chỉ thích ngủ trong thùng giấy.",
+        "Chén nước để cạnh tủ lạnh, còn khay cát để ở chỗ giặt đồ.",
+        "Bạn sang chơi nhớ khép cửa ban công, mình chưa lắp lưới chắn đâu.",
+        "Để chiều mình quay cảnh Bắp ôm cái tất rồi gửi bạn xem nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-p02",
+      "kind": "para",
+      "title": "Moving Office Floors",
+      "native": [
+        "Sáng thứ 6, văn phòng mình chuyển từ tầng 3 lên tầng 5.",
+        "Chỗ mới vẫn ở tòa nhà trên đường Nguyễn Văn Linh, Đà Nẵng.",
+        "Nhờ mọi người xếp đồ cá nhân vào thùng trước 16 giờ thứ 5.",
+        "Mọi người ghi tên mình và tên nhóm lên thùng để tránh nhầm nhé.",
+        "Đội chuyển đồ sẽ mang bàn ghế lên trước, rồi đến máy tính.",
+        "Riêng giấy tờ của khách hàng, nhờ chị Ngọc chuyển trực tiếp giúp em.",
+        "Sáng chuyển chỗ, cả nhóm làm việc ở nhà đến 10 giờ nhé.",
+        "Em sẽ gửi mật khẩu Wi-Fi mới qua Zalo khi mạng chạy ổn.",
+        "Anh chị có đồ dễ vỡ thì nhắn em trước để xếp riêng nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-p03",
+      "kind": "para",
+      "title": "Dinner Went Wrong",
+      "native": [
+        "Hôm Chủ nhật, tôi mời mấy người bạn sang nhà ở Huế ăn cơm.",
+        "Tôi định làm cá kho, canh bí và một đĩa đậu phụ rán.",
+        "Đến lúc dọn mâm, tôi mới phát hiện nồi cơm chưa cắm điện.",
+        "Đúng lúc ấy, nồi cá trên bếp cũng cạn nước, khét cả đáy.",
+        "Tôi vội tắt bếp, mở cửa sổ rồi gọi bạn Hạnh nhờ cứu.",
+        "Hạnh ghé quán gần cầu Trường Tiền, mua giúp hộp thịt luộc mang sang.",
+        "Tôi cắm điện nấu cơm, còn cả nhóm ngồi ăn đậu phụ rán trước.",
+        "Canh bí vẫn ngọt, nên bữa tối muộn ấy chẳng ai kêu ca gì.",
+        "Bây giờ gặp nhau, mấy đứa vẫn nhắc nồi cá khét rồi cười mãi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-p04",
+      "kind": "para",
+      "title": "Balcony Garden Care",
+      "native": [
+        "Ban công nhà bạn có nắng sáng thì trồng rau thơm hợp đấy.",
+        "Nếu mới trồng, bạn chọn húng quế với tía tô cho dễ chăm.",
+        "Kê các chậu lên giá thấp, chừa khoảng trống để nước thoát xuống khay.",
+        "Mỗi sáng, bạn sờ thử đất trong chậu, còn ẩm thì chưa cần tưới thêm.",
+        "Khi đất khô, tưới chậm quanh gốc đến lúc nước bắt đầu chảy xuống.",
+        "Nhớ đổ hết nước trong khay, đừng để đọng lại đến ngày hôm sau.",
+        "Đến trưa, kéo lưới che bớt nắng nếu lá bắt đầu bị héo.",
+        "Mỗi tuần, bạn ngắt lá úa rồi rải một ít phân trùn quế.",
+        "Trước khi đi vắng vài ngày, nhớ nhờ hàng xóm tưới cây giúp nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-p05",
+      "kind": "para",
+      "title": "A Film Worth Discussing",
+      "native": [
+        "Mấy hôm nay, bạn bè mình cứ nhắc phim Ngày xưa có một chuyện tình.",
+        "Mình xem vì tò mò, nhưng xem xong lại nhớ những cảnh ở Phú Yên.",
+        "Đường làng với sân trường nhìn gần gũi, không có cảm giác dựng cho đẹp.",
+        "Mình thích cách các nhân vật ngập ngừng mỗi khi muốn nói chuyện tình cảm.",
+        "Có vài đoạn thoại hơi dài, làm mình thấy nhịp phim chậm lại.",
+        "Nhưng tình bạn trong phim khiến mình nhớ đám bạn hồi cấp 3.",
+        "Phần nhạc nghe vừa đủ, không cố làm người xem phải xúc động.",
+        "Mẹ mình lại thích cảnh quê hơn chuyện tình của mấy nhân vật chính.",
+        "Nếu thích phim tình cảm, mình nghĩ bạn nên tìm xem thử."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-p06",
+      "kind": "para",
+      "title": "Planning My College Application",
+      "native": [
+        "Mình đang lên lịch nộp hồ sơ vào một trường cao đẳng ở Cần Thơ.",
+        "Ngày 6 tháng 7 năm 2026, mình sẽ gọi trường hỏi lịch nhận hồ sơ.",
+        "Mình dành ngày 8 tháng 7 để photo 3 bộ giấy tờ.",
+        "Lệ phí dự kiến là 150.000 đồng, mình sẽ mang thêm ít tiền lẻ.",
+        "Từ nhà ở Ninh Kiều đến trường khoảng 6 cây số.",
+        "Ngày 10 tháng 7, mình đi lúc 7 giờ 30 để tránh kẹt xe.",
+        "Mình có lịch hẹn ở phòng tư vấn lúc 8 giờ 15 ngày 10 tháng 7.",
+        "Mình chừa thêm 30 phút để hỏi về học phí và ký túc xá.",
+        "Đến ngày 20 tháng 7, mình sẽ kiểm tra email xem trường trả lời chưa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-p07",
+      "kind": "para",
+      "title": "Asking About a Fee Receipt",
+      "native": [
+        "Chào cô, em muốn hỏi về biên lai học phí của bé Khánh Linh.",
+        "Bé nhà em đang học lớp chồi ở trường mình ạ.",
+        "Em đã chuyển khoản 2.800.000 đồng vào sáng ngày 5 tháng 9.",
+        "Khoản này là học phí tháng 9, chưa gồm tiền ăn của cháu.",
+        "Em kiểm tra Zalo rồi nhưng vẫn chưa nhận được biên lai ạ.",
+        "Cô xem giúp em nhà trường đã nhận được tiền chưa ạ?",
+        "Nếu cần đối chiếu, em gửi lại ảnh chuyển khoản ngay ạ.",
+        "Nhờ cô ghi tên bé Khánh Linh trên biên lai giúp em.",
+        "Em cảm ơn cô, nhận được biên lai thì em sẽ báo lại ạ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-p08",
+      "kind": "para",
+      "title": "Getting Around by Metro",
+      "native": [
+        "Giờ ở Thành phố Hồ Chí Minh có thêm metro để đi lại.",
+        "Tuyến metro số 1 nối ga Bến Thành với ga Bến xe Suối Tiên.",
+        "Metro đi ngầm ở khu trung tâm, còn phần lớn đường tàu nằm trên cao.",
+        "Bạn nào đi làm ở Thảo Điền có thể đi metro cho đỡ kẹt xe.",
+        "Có nhiều tuyến xe buýt chạy từ các khu dân cư đến ga metro.",
+        "Trước khi đi metro, bạn nên xem bản đồ để tìm đường đến ga.",
+        "Bạn có thể xem giờ tàu chạy và giá vé ngay tại ga.",
+        "Lên tàu thì nhớ nhường ghế cho người lớn tuổi nhé.",
+        "Khi chờ tàu, bạn nhớ đứng sau vạch và đợi mọi người xuống hết rồi hãy lên nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s001",
+      "kind": "sentence",
+      "native": [
+        "Chị Thảo gửi ảnh sinh nhật vào nhóm gia đình đi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s002",
+      "kind": "sentence",
+      "native": [
+        "Hà ơi, cuộc hẹn với khách có đổi giờ không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s003",
+      "kind": "sentence",
+      "native": [
+        "Cô Ngọc dặn em đến số 47 đường Nguyễn Trãi lúc 10 giờ 20 sáng mai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s004",
+      "kind": "sentence",
+      "native": [
+        "Trưa mai mình phải trả tiền cơm cho chị Hiền."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s005",
+      "kind": "sentence",
+      "native": [
+        "Bật đèn bàn lên."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s006",
+      "kind": "sentence",
+      "native": [
+        "Dùng chung gói Canva với chị Hương thì em góp bao nhiêu tiền mỗi tháng ạ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s007",
+      "kind": "sentence",
+      "native": [
+        "Tụi mình hẹn ngay cổng chính nhé, đứng ở cửa sau dễ lạc nhau lắm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s008",
+      "kind": "sentence",
+      "native": [
+        "Khóa kéo cặp bị kẹt rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s009",
+      "kind": "sentence",
+      "native": [
+        "Nãy định nấu nui, thôi làm cơm chiên cho nhanh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s010",
+      "kind": "sentence",
+      "native": [
+        "Hồi mới đi làm, cứ bị góp ý là buồn, giờ lại thấy nhờ thế mà tiến bộ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s011",
+      "kind": "sentence",
+      "native": [
+        "Mai ghé chợ Bến Thành mua ít tôm tươi nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s012",
+      "kind": "sentence",
+      "native": [
+        "Cảm ơn mọi người đã góp ý."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s013",
+      "kind": "sentence",
+      "native": [
+        "Loại nước giặt 2 lít đang được giảm 22% trên app."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s014",
+      "kind": "sentence",
+      "native": [
+        "Nhắc tôi trả sách ở thư viện vào chiều mai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s015",
+      "kind": "sentence",
+      "native": [
+        "Dừng nhạc sau bài này."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s016",
+      "kind": "sentence",
+      "native": [
+        "Ổ cứng ngoài không hiện trong danh sách thiết bị."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s017",
+      "kind": "sentence",
+      "native": [
+        "Bên em đang sửa cổng, chị cho em để nhờ xe trong sân vài hôm được không ạ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s018",
+      "kind": "sentence",
+      "native": [
+        "Lộc nhớ bọc sách trước khi đem đến lớp nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s019",
+      "kind": "sentence",
+      "native": [
+        "Cốc nhỏ nhé, à mà đổi sang cỡ lớn đi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s020",
+      "kind": "sentence",
+      "native": [
+        "Xin lỗi, mình đến muộn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s021",
+      "kind": "sentence",
+      "native": [
+        "Được, tao bao vé xem phim."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s022",
+      "kind": "sentence",
+      "native": [
+        "Em xin nghỉ chiều thứ 4 để đón người nhà."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s023",
+      "kind": "sentence",
+      "native": [
+        "Thiếu 3.000 đồng tiền thừa, chị ạ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s024",
+      "kind": "sentence",
+      "native": [
+        "Ngăn đá cần dọn lại."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s025",
+      "kind": "sentence",
+      "native": [
+        "Giảm âm lượng xuống một nửa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s026",
+      "kind": "sentence",
+      "native": [
+        "Nhung ơi, đường link trên Zalo hết hạn rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s027",
+      "kind": "sentence",
+      "native": [
+        "Chỗ gửi hành lý nằm phía sau thang cuốn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s028",
+      "kind": "sentence",
+      "native": [
+        "Áo đồng phục của cu cậu ngắn quá rồi, chắc phải mua bộ mới trước khai giảng."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s029",
+      "kind": "sentence",
+      "native": [
+        "Sữa, trứng, còn thiếu gì nữa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s030",
+      "kind": "sentence",
+      "native": [
+        "Biển Quy Nhơn đẹp thật, tiếc là chỉ được ở 2 ngày."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s031",
+      "kind": "sentence",
+      "native": [
+        "Hả, cưới tháng sau luôn á?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s032",
+      "kind": "sentence",
+      "native": [
+        "Phương xem lại giúp anh khoản tiền đặt cọc trong dự toán trước khi gửi khách nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s033",
+      "kind": "sentence",
+      "native": [
+        "Vở ô ly giá 12.000 đồng."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s034",
+      "kind": "sentence",
+      "native": [
+        "Đến Đà Lạt thì mua thêm túi hồng treo gió làm quà cho mấy chị cùng phòng."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s035",
+      "kind": "sentence",
+      "native": [
+        "Ai vừa gọi nhỡ vậy?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s036",
+      "kind": "sentence",
+      "native": [
+        "Micro của chị đang tắt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s037",
+      "kind": "sentence",
+      "native": [
+        "Thang máy bên trái đang sửa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s038",
+      "kind": "sentence",
+      "native": [
+        "Thùng giấy để ngoài hành lang, lát người ta đến lấy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s039",
+      "kind": "sentence",
+      "native": [
+        "Cháu mượn cái thang được không ạ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s040",
+      "kind": "sentence",
+      "native": [
+        "Cứ thử thêm lần nữa!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s041",
+      "kind": "sentence",
+      "native": [
+        "Cái loa chưa đầy pin, anh đừng rút dây ra nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s042",
+      "kind": "sentence",
+      "native": [
+        "Sếp vừa đồng ý cho nhóm thử làm việc từ xa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s043",
+      "kind": "sentence",
+      "native": [
+        "Tập tiếp theo dài 46 phút, phát lúc 20 giờ 10."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s044",
+      "kind": "sentence",
+      "native": [
+        "Đặt báo thức ngủ trưa nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s045",
+      "kind": "sentence",
+      "native": [
+        "Lotte Mall Tây Hồ hôm nay đóng cửa lúc mấy giờ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s046",
+      "kind": "sentence",
+      "native": [
+        "Muốn khôi phục bản cũ thì vào lịch sử chỉnh sửa, không cần gõ lại từ đầu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s047",
+      "kind": "sentence",
+      "native": [
+        "Vân chuyển sang làm ở chi nhánh Bình Thạnh rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s048",
+      "kind": "sentence",
+      "native": [
+        "Tiệm chị Nga còn chỗ cắt tóc chiều nay không ạ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s049",
+      "kind": "sentence",
+      "native": [
+        "Khoai này luộc hay nướng nhỉ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s050",
+      "kind": "sentence",
+      "native": [
+        "Dạo này bớt ôm việc về nhà, tối được chơi với con nên anh thấy thoải mái hơn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s051",
+      "kind": "sentence",
+      "native": [
+        "Quà cậu chọn đúng ý bà mình luôn đấy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s052",
+      "kind": "sentence",
+      "native": [
+        "Bản dịch ổn rồi nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s053",
+      "kind": "sentence",
+      "native": [
+        "Hẹn giao kệ sách vào thứ 5, khoảng 14 giờ nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s054",
+      "kind": "sentence",
+      "native": [
+        "Cuối tháng nhớ hỏi anh Dũng xem bộ bàn ghế đặt đóng đã làm xong chưa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s055",
+      "kind": "sentence",
+      "native": [
+        "Mở lại tab tôi vừa đóng trên trình duyệt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s056",
+      "kind": "sentence",
+      "native": [
+        "Trâm chưa nhận được mã xác nhận từ app ngân hàng."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s057",
+      "kind": "sentence",
+      "native": [
+        "Tiệm hoa bên kia đường còn mở cửa không ạ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s058",
+      "kind": "sentence",
+      "native": [
+        "Chiếc nồi này bớt cho cháu còn 180.000 đồng được không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s059",
+      "kind": "sentence",
+      "native": [
+        "Vải này có co không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s060",
+      "kind": "sentence",
+      "native": [
+        "Tốt quá, cảm ơn cô Tuyết đã giữ chỗ cho em."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s061",
+      "kind": "sentence",
+      "native": [
+        "Để phần canh cho bố nha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s062",
+      "kind": "sentence",
+      "native": [
+        "Bạn kiểm tra giúp mình số liệu trong báo cáo nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s063",
+      "kind": "sentence",
+      "native": [
+        "Từ đây ra bến phà còn 9 cây số nữa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s064",
+      "kind": "sentence",
+      "native": [
+        "Đánh dấu ngày họp phụ huynh vào lịch giúp tôi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s065",
+      "kind": "sentence",
+      "native": [
+        "Tìm quán bánh cuốn gần phố Lò Đúc nhất."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s066",
+      "kind": "sentence",
+      "native": [
+        "Hùng kéo cột doanh thu sang bên phải nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s067",
+      "kind": "sentence",
+      "native": [
+        "Mang xe đạp gấp lên tàu cũng tiện, xuống ga là tự đạp về nhà được luôn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s068",
+      "kind": "sentence",
+      "native": [
+        "Trung thu năm nay cả nhà tự làm đèn lồng nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s069",
+      "kind": "sentence",
+      "native": [
+        "Vậy chọn chiếc ghế này nhé, mà để tôi đo lại góc phòng xem có vừa không."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s070",
+      "kind": "sentence",
+      "native": [
+        "Tấm thiệp dễ thương ghê!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s071",
+      "kind": "sentence",
+      "native": [
+        "Kiên vừa nhận việc mới, cả đám chúc mừng nó đi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s072",
+      "kind": "sentence",
+      "native": [
+        "Chúc cả phòng cuối tuần vui!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s073",
+      "kind": "sentence",
+      "native": [
+        "Cho tôi đổi vé sang ghế 16 trên chuyến tàu 21 giờ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s074",
+      "kind": "sentence",
+      "native": [
+        "Tiền gửi xe tháng này là 120.000 đồng, ghi vào nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s075",
+      "kind": "sentence",
+      "native": [
+        "Phát video hướng dẫn gấp máy bay bằng giấy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s076",
+      "kind": "sentence",
+      "native": [
+        "Sao tài khoản của tôi cứ bị đăng xuất vậy?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s077",
+      "kind": "sentence",
+      "native": [
+        "Lối này có thông sang khu tập thể không ạ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s078",
+      "kind": "sentence",
+      "native": [
+        "Nồi cơm vừa nhảy nút rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s079",
+      "kind": "sentence",
+      "native": [
+        "Phúc lấy giúp cây kéo, à nhầm, cái kìm nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s080",
+      "kind": "sentence",
+      "native": [
+        "Bát bún thang này thơm nhưng hơi ít thịt nhỉ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s081",
+      "kind": "sentence",
+      "native": [
+        "Rảnh thì gọi cho em nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s082",
+      "kind": "sentence",
+      "native": [
+        "Bên vận chuyển nhận đơn hàng đi Cần Thơ rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s083",
+      "kind": "sentence",
+      "native": [
+        "Anh Khang lấy 4 hộp cơm, mỗi hộp 38.000 đồng."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s084",
+      "kind": "sentence",
+      "native": [
+        "Mua bột gạo để cuối tuần đổ bánh xèo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s085",
+      "kind": "sentence",
+      "native": [
+        "Lọc email có file đính kèm trong tuần trước rồi xếp theo dung lượng từ lớn đến nhỏ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s086",
+      "kind": "sentence",
+      "native": [
+        "Tai nghe này đeo êm thật."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s087",
+      "kind": "sentence",
+      "native": [
+        "Nhà chị Hồng ngay sát chợ Cồn, dễ tìm lắm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s088",
+      "kind": "sentence",
+      "native": [
+        "Vòi bếp lại rỉ nước rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s089",
+      "kind": "sentence",
+      "native": [
+        "Hình như chọn nhầm tập rồi, phải xem tập trước chứ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s090",
+      "kind": "sentence",
+      "native": [
+        "Tiếc quá, bộ phim kết thúc vội nên xem chưa đã."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s091",
+      "kind": "sentence",
+      "native": [
+        "Tối nay cả hội ăn bún bò Huế không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s092",
+      "kind": "sentence",
+      "native": [
+        "Chị Oanh cho em xin mẫu đề nghị mua thiết bị nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s093",
+      "kind": "sentence",
+      "native": [
+        "Cuộn len này dài 50 mét."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s094",
+      "kind": "sentence",
+      "native": [
+        "Trước khi mua quạt mới, mình cần so độ ồn và thời gian bảo hành của hai mẫu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s095",
+      "kind": "sentence",
+      "native": [
+        "Hộp sữa giấy đã rửa sạch thì bỏ vào thùng tái chế hay thùng rác thường?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s096",
+      "kind": "sentence",
+      "native": [
+        "Cháu cài giúp cô bộ gõ tiếng Việt nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s097",
+      "kind": "sentence",
+      "native": [
+        "Giờ này đi đường ven sông sẽ đỡ đông hơn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s098",
+      "kind": "sentence",
+      "native": [
+        "Chị ơi, hũ dưa góp này phải cất trong ngăn mát hay để ngoài cũng được?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s099",
+      "kind": "sentence",
+      "native": [
+        "Bánh khọt có kèm rau không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s100",
+      "kind": "sentence",
+      "native": [
+        "Nhạc hơi to đấy nhỉ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s101",
+      "kind": "sentence",
+      "native": [
+        "Qua Sa Đéc chơi thì ở nhà dì cho tiện."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s102",
+      "kind": "sentence",
+      "native": [
+        "Tuấn nhận phần dựng video nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s103",
+      "kind": "sentence",
+      "native": [
+        "Đường xuống Bãi Xép còn 800 mét, đi bộ khoảng 12 phút."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s104",
+      "kind": "sentence",
+      "native": [
+        "Khi ghé nhà bác Hòa chiều thứ 6, nhớ đem theo chiếc vali mượn từ tuần trước."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s105",
+      "kind": "sentence",
+      "native": [
+        "Thời tiết Vũng Tàu cuối tuần này thế nào?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s106",
+      "kind": "sentence",
+      "native": [
+        "Buổi họp sáng nay có ghi hình không? Cho mình xin bản ghi để xem lại với."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s107",
+      "kind": "sentence",
+      "native": [
+        "Cậu xuống trạm kế tiếp rồi băng qua đường nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s108",
+      "kind": "sentence",
+      "native": [
+        "Rau rửa xong chưa anh?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s109",
+      "kind": "sentence",
+      "native": [
+        "Vy cần hộp tròn hay vuông để đựng bánh flan?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s110",
+      "kind": "sentence",
+      "native": [
+        "Màu son Diễm chọn hợp với da thật đấy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s111",
+      "kind": "sentence",
+      "native": [
+        "Thúy có muốn đi thử lớp làm gốm cùng tớ không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s112",
+      "kind": "sentence",
+      "native": [
+        "Chiều nay gặp đối tác ở Kim Mã xong, em sẽ ghé văn phòng lấy hợp đồng."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s113",
+      "kind": "sentence",
+      "native": [
+        "Chú Quang thuê xe 5 ngày hết 950.000 đồng."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s114",
+      "kind": "sentence",
+      "native": [
+        "Xong việc thì đăng ký khóa Excel cho tháng tới."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s115",
+      "kind": "sentence",
+      "native": [
+        "Kết nối điện thoại với loa phòng khách giúp tôi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s116",
+      "kind": "sentence",
+      "native": [
+        "Gói lưu trữ này tốn 29.000 đồng mỗi tháng à?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s117",
+      "kind": "sentence",
+      "native": [
+        "Nếu đến sớm, anh cứ vào quán cà phê ngồi, em đang tìm chỗ đỗ ô tô."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s118",
+      "kind": "sentence",
+      "native": [
+        "Canh chừng hộ em chảo cá, em ra nhận hàng chút."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s119",
+      "kind": "sentence",
+      "native": [
+        "Ý em là rèm xanh đậm, chứ không phải xanh nhạt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s120",
+      "kind": "sentence",
+      "native": [
+        "Nghe cậu kể chuyện đổi nghề, tớ cũng thấy có động lực."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s121",
+      "kind": "sentence",
+      "native": [
+        "Chắc tao phải giấu túi hạt dẻ đi quá."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s122",
+      "kind": "sentence",
+      "native": [
+        "Xin phép kết thúc buổi trao đổi ở đây ạ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s123",
+      "kind": "sentence",
+      "native": [
+        "Bịch bột 900 gam rẻ hơn loại 750 gam tận 18% à?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s124",
+      "kind": "sentence",
+      "native": [
+        "Bổ sung nước rửa chén vào đơn hàng tuần này."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s125",
+      "kind": "sentence",
+      "native": [
+        "Đếm ngược 11 phút kể từ bây giờ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s126",
+      "kind": "sentence",
+      "native": [
+        "Đạt ơi, bật chia sẻ màn hình cho cả nhóm xem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s127",
+      "kind": "sentence",
+      "native": [
+        "Muốn sang hiệu sách thì rẽ phải ở ngã tư."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s128",
+      "kind": "sentence",
+      "native": [
+        "Chè bà ba ở đây có cho thêm nước cốt dừa không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s129",
+      "kind": "sentence",
+      "native": [
+        "Gói giúp nến thơm, lược gỗ với một chiếc gương nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s130",
+      "kind": "sentence",
+      "native": [
+        "Bà cứ chờ ở cửa WinMart, cháu quay xe lại đón bà ngay đây."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s131",
+      "kind": "sentence",
+      "native": [
+        "Hiện lịch tuần sau còn trống sáng thứ 6, bên bạn sắp xếp họp được không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s132",
+      "kind": "sentence",
+      "native": [
+        "Kỳ nghỉ bắt đầu ngày 6 tháng 7 năm 2027."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s133",
+      "kind": "sentence",
+      "native": [
+        "Lên lịch sửa gấu quần ở tiệm cô Liên."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s134",
+      "kind": "sentence",
+      "native": [
+        "Bảo tàng Quảng Ninh có mở cửa vào thứ 2 không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s135",
+      "kind": "sentence",
+      "native": [
+        "Ủa, app lại tự thoát à?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s136",
+      "kind": "sentence",
+      "native": [
+        "Hẻm này chỉ đủ cho một chiếc xe máy qua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s137",
+      "kind": "sentence",
+      "native": [
+        "Phiếu đăng ký câu lạc bộ của bé cần phụ huynh ký."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s138",
+      "kind": "sentence",
+      "native": [
+        "Định ghé chợ Hàn mua mực khô, mà vali chật quá, chắc để chuyến sau vậy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s139",
+      "kind": "sentence",
+      "native": [
+        "Tớ đặt sân cầu lông lúc 7 giờ rồi đấy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s140",
+      "kind": "sentence",
+      "native": [
+        "Yến báo khách lùi buổi chụp sang sáng thứ 7 vì studio đang sửa trần nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s141",
+      "kind": "sentence",
+      "native": [
+        "Chuyến xe đi Ninh Bình xuất phát lúc 8 giờ 45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s142",
+      "kind": "sentence",
+      "native": [
+        "Tắt gia hạn gói nghe nhạc."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s143",
+      "kind": "sentence",
+      "native": [
+        "Tra giúp tôi giá vé vào Thảo Cầm Viên cho người lớn vào ngày thường."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s144",
+      "kind": "sentence",
+      "native": [
+        "Chuột này bấm không ăn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s145",
+      "kind": "sentence",
+      "native": [
+        "Bảo đón dì ở ga Hải Phòng lúc mấy giờ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s146",
+      "kind": "sentence",
+      "native": [
+        "Hơi nước bám đầy gương, lau xong lại mờ ngay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s147",
+      "kind": "sentence",
+      "native": [
+        "Bữa sáng mai có xôi xéo, dưa chuột với giò lụa, ai muốn ăn thêm gì không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s148",
+      "kind": "sentence",
+      "native": [
+        "Huy ơi, cuối tuần ra hồ Tây đạp xe rồi kiếm quán uống nước mía nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s149",
+      "kind": "sentence",
+      "native": [
+        "Dạ, em nhận được email rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s150",
+      "kind": "sentence",
+      "native": [
+        "Trận này hòa 1 đều rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s151",
+      "kind": "sentence",
+      "native": [
+        "Thêm mè rang vào danh sách đi chợ tuần này."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s152",
+      "kind": "sentence",
+      "native": [
+        "Tàu metro từ ga Văn Thánh đến ga An Phú đi mất bao nhiêu phút?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s153",
+      "kind": "sentence",
+      "native": [
+        "Quỳnh thử xóa bộ nhớ đệm rồi vào lại xem giỏ hàng còn bị trống không nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s154",
+      "kind": "sentence",
+      "native": [
+        "Hôm nay tôi đi chung xe với đồng nghiệp mới."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s155",
+      "kind": "sentence",
+      "native": [
+        "Túi này có ngăn phụ không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s156",
+      "kind": "sentence",
+      "native": [
+        "Chuyển 60.000 đồng, nhầm, 90.000 đồng mới đủ tiền vé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s157",
+      "kind": "sentence",
+      "native": [
+        "Yên tâm, tớ có ô."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s158",
+      "kind": "sentence",
+      "native": [
+        "Hóa đơn tiền điện cần bổ sung mã số thuế."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s159",
+      "kind": "sentence",
+      "native": [
+        "Tối thứ 6 tớ trông cháu đến 22 giờ, hẹn hôm khác."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s160",
+      "kind": "sentence",
+      "native": [
+        "Đống chai nhựa cần để riêng."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s161",
+      "kind": "sentence",
+      "native": [
+        "Chụp màn hình này giúp tôi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s162",
+      "kind": "sentence",
+      "native": [
+        "Update xong, nút tải xuống biến mất luôn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s163",
+      "kind": "sentence",
+      "native": [
+        "Xe buýt sắp tới rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s164",
+      "kind": "sentence",
+      "native": [
+        "Bánh giò ở chợ Nghĩa Tân hết sớm thế nhỉ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s165",
+      "kind": "sentence",
+      "native": [
+        "Ừ, áo khoác trong tủ đấy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s166",
+      "kind": "sentence",
+      "native": [
+        "Buổi liên hoan lần này em xin phép vắng mặt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s167",
+      "kind": "sentence",
+      "native": [
+        "Ví còn đúng 85.000 đồng thôi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s168",
+      "kind": "sentence",
+      "native": [
+        "Riêng mấy tấm rèm phòng ngủ thì phải đo lại chiều dài trước khi đặt may mới."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s169",
+      "kind": "sentence",
+      "native": [
+        "Xóa lịch sử tìm kiếm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s170",
+      "kind": "sentence",
+      "native": [
+        "Trang ơi, slide cuối thiếu phần giới thiệu sản phẩm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s171",
+      "kind": "sentence",
+      "native": [
+        "Đứng cạnh máy bán nước tự động chờ mình nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s172",
+      "kind": "sentence",
+      "native": [
+        "Sẵn đường qua tiệm giặt, chị lấy giúp em áo dài để kịp mặc đi đám cưới nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s173",
+      "kind": "sentence",
+      "native": [
+        "Lỡ cuối tuần cậu phải tăng ca thì cứ để bé sang đây chơi với con nhà mình."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s174",
+      "kind": "sentence",
+      "native": [
+        "Về phần bảo hành, bên mình vẫn chưa nhận được phản hồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s175",
+      "kind": "sentence",
+      "native": [
+        "Tuần này chạy được 17 cây số trong 4 buổi rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s176",
+      "kind": "sentence",
+      "native": [
+        "Ghi lại ngày cần thay lõi lọc."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s177",
+      "kind": "sentence",
+      "native": [
+        "Làm sao để bàn phím không tự sửa những từ tiếng Anh khi tôi đang gõ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s178",
+      "kind": "sentence",
+      "native": [
+        "Họp online tiện đấy, nhưng nói chuyện trực tiếp vẫn dễ hơn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s179",
+      "kind": "sentence",
+      "native": [
+        "Chú Năm vừa xuống phà."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s180",
+      "kind": "sentence",
+      "native": [
+        "Ba mua bánh pía ít ngọt thôi, bên nhà dì Út không thích loại nhiều đường đâu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s181",
+      "kind": "sentence",
+      "native": [
+        "Ông ngoại vừa khoe giàn mướp ra hoa vàng rực."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s182",
+      "kind": "sentence",
+      "native": [
+        "Lương tháng này về rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s183",
+      "kind": "sentence",
+      "native": [
+        "Tiền thuê lều hết 510.000 đồng, chia 3 người thì mỗi đứa trả 170.000 đồng."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s184",
+      "kind": "sentence",
+      "native": [
+        "Nhớ sao lưu ảnh trước khi đổi điện thoại."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s185",
+      "kind": "sentence",
+      "native": [
+        "Chỉ đường đến Bảo tàng Dân tộc học Việt Nam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s186",
+      "kind": "sentence",
+      "native": [
+        "Laptop nóng ran rồi kìa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s187",
+      "kind": "sentence",
+      "native": [
+        "Dọc phố Phan Đình Phùng có hàng cây rợp bóng, trưa đi bộ vẫn thấy mát."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s188",
+      "kind": "sentence",
+      "native": [
+        "Tranh thủ giờ nghỉ trưa, tôi ghé bưu điện gửi trả chiếc máy xay bị thiếu lưỡi dao."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s189",
+      "kind": "sentence",
+      "native": [
+        "Pin còn 5% thôi, lát mất liên lạc thì đừng lo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s190",
+      "kind": "sentence",
+      "native": [
+        "Riêng mẫu túi chị Ngân chọn, bên em cần thêm 2 ngày để may thử."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s191",
+      "kind": "sentence",
+      "native": [
+        "Sáng thứ 3, chị lấy 80 tấm thiệp ở số 26 đường Lê Văn Sỹ giúp em nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s192",
+      "kind": "sentence",
+      "native": [
+        "Dời buổi học đàn sang 19 giờ thứ 2."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s193",
+      "kind": "sentence",
+      "native": [
+        "Đọc tin nhắn vừa nhận cho tôi nghe nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s194",
+      "kind": "sentence",
+      "native": [
+        "Deadline sát quá, cả team thống nhất chỉ sửa những chỗ client đã đánh dấu thôi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s195",
+      "kind": "sentence",
+      "native": [
+        "Cổng phụ đóng rồi kìa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s196",
+      "kind": "sentence",
+      "native": [
+        "Cửa sổ đóng không khít."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s197",
+      "kind": "sentence",
+      "native": [
+        "À, nếu trời còn mưa thì mình chuyển buổi thả diều sang Chủ nhật được không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s198",
+      "kind": "sentence",
+      "native": [
+        "Nhóm kỹ thuật vẫn đang tìm nguyên nhân mất kết nối."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s199",
+      "kind": "sentence",
+      "native": [
+        "Ba lô nặng 4,2 ký."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s200",
+      "kind": "sentence",
+      "native": [
+        "Sáng thứ 7 nhớ lấy bánh cốm ở Hàng Than."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s201",
+      "kind": "sentence",
+      "native": [
+        "Ảnh chụp ở Tam Đảo tuần trước đâu rồi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s202",
+      "kind": "sentence",
+      "native": [
+        "Zoom có cần mật khẩu không?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s203",
+      "kind": "sentence",
+      "native": [
+        "Quán nằm ngay đầu ngõ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s204",
+      "kind": "sentence",
+      "native": [
+        "Nắng lên rồi, phơi chăn thôi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s205",
+      "kind": "sentence",
+      "native": [
+        "Mẹ đeo kính vào rồi đọc hướng dẫn trên hộp nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s206",
+      "kind": "sentence",
+      "native": [
+        "Mình chốt phương án thứ nhất."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s207",
+      "kind": "sentence",
+      "native": [
+        "Bé nhà em 7 tuổi, đang học lớp 2."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s208",
+      "kind": "sentence",
+      "native": [
+        "Máy in bên phòng kế toán đang kẹt giấy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s209",
+      "kind": "sentence",
+      "native": [
+        "Em nhận ra anh Tín rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s210",
+      "kind": "sentence",
+      "native": [
+        "Bận chút, lát nhắn tiếp nha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s211",
+      "kind": "sentence",
+      "native": [
+        "Bao giờ bên mình trả thưởng?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s212",
+      "kind": "sentence",
+      "native": [
+        "Mình mua tổng cộng 24 chiếc khăn, được cửa hàng giảm giá 15%."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s213",
+      "kind": "sentence",
+      "native": [
+        "Ăn bánh tráng nướng xong thì tụi mình tạt qua nhà sách lựa truyện trinh thám nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s214",
+      "kind": "sentence",
+      "native": [
+        "Sau khi chạy thử, anh gửi em vài nhận xét để kịp chỉnh trước ngày ra mắt nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s215",
+      "kind": "sentence",
+      "native": [
+        "Lưu giúp em số thợ sửa máy giặt là 090 672 4813, chiều gọi hẹn trước nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s216",
+      "kind": "sentence",
+      "native": [
+        "Đùa chứ, mèo nằm chiếm gối thế này ai ngủ nổi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s217",
+      "kind": "sentence",
+      "native": [
+        "Khôi phụ trách bàn giao chìa khóa cho nhân viên mới."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s218",
+      "kind": "sentence",
+      "native": [
+        "Quán mì Quảng giảm còn 42.000 đồng một tô từ ngày 23 tháng 11 năm 2026."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s219",
+      "kind": "sentence",
+      "native": [
+        "Con về tới nhà rồi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s220",
+      "kind": "sentence",
+      "native": [
+        "Bên thiết kế vừa cập nhật logo trên trang chủ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s221",
+      "kind": "sentence",
+      "native": [
+        "Nhờ bạn in 35 bản, mỗi bản 3 trang nhé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s222",
+      "kind": "sentence",
+      "native": [
+        "Khoan, dép của tao đâu rồi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "vi-s223",
+      "kind": "sentence",
+      "native": [
+        "Mất nước từ 6 giờ à?"
+      ],
+      "roman": null
+    }
+  ]
+}

@@ -11,6 +11,7 @@
   },
   "scripts": {
     "generate": "drizzle-kit generate --name ${NAME:-change} && bun scripts/embed-migrations.ts",
+    "corpus": "bun scripts/embed-corpus.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

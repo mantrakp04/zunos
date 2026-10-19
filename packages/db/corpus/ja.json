@@ -1,0 +1,2208 @@
+{
+  "lang": "ja",
+  "starter": [
+    "ja-s053",
+    "ja-s106",
+    "ja-s051",
+    "ja-s189",
+    "ja-s015",
+    "ja-s006",
+    "ja-s170",
+    "ja-s023",
+    "ja-s139",
+    "ja-s172",
+    "ja-s078",
+    "ja-s183",
+    "ja-s055",
+    "ja-s020",
+    "ja-p05",
+    "ja-s117",
+    "ja-s092",
+    "ja-s145",
+    "ja-s134",
+    "ja-s110",
+    "ja-s070",
+    "ja-s075",
+    "ja-s025",
+    "ja-s144",
+    "ja-s146",
+    "ja-s012",
+    "ja-s174",
+    "ja-s009",
+    "ja-p07",
+    "ja-s087",
+    "ja-s038",
+    "ja-s089",
+    "ja-s001",
+    "ja-s014",
+    "ja-s176",
+    "ja-s093",
+    "ja-s171",
+    "ja-s127",
+    "ja-s184",
+    "ja-s107",
+    "ja-s165",
+    "ja-s011",
+    "ja-p01",
+    "ja-s054",
+    "ja-s097",
+    "ja-s026",
+    "ja-s019",
+    "ja-s030",
+    "ja-s076",
+    "ja-s080",
+    "ja-s084",
+    "ja-s119",
+    "ja-s058",
+    "ja-s166",
+    "ja-s175",
+    "ja-s118",
+    "ja-s027"
+  ],
+  "items": [
+    {
+      "id": "ja-p01",
+      "kind": "para",
+      "title": "Our New Kitten",
+      "native": [
+        "昨日、子猫のこむぎがうちに来たんだ。",
+        "茶色のしま模様で、前足の先だけ白いんだよ。",
+        "最初はソファの下に隠れて、全然出てこなかった。",
+        "でも、おもちゃを振ったら、そっと顔を出したんだ。",
+        "ごはんを食べたあとは、ひざの上で寝ちゃったよ。",
+        "寝返りを打つたびに、小さな耳がぴくっと動くんだ。",
+        "今朝は窓辺に座って、外のスズメをじっと見てた。",
+        "写真をLINEで送っておくから、あとで見てね。",
+        "今度うちに来たら、こむぎと遊んであげてね。"
+      ],
+      "roman": [
+        "Kinou, koneko no Komugi ga uchi ni kita n da.",
+        "Chairo no shima moyou de, maeashi no saki dake shiroi n da yo.",
+        "Saisho wa sofa no shita ni kakurete, zenzen dete konakatta.",
+        "Demo, omocha o futtara, sotto kao o dashita n da.",
+        "Gohan o tabeta ato wa, hiza no ue de nechatta yo.",
+        "Negaeri o utsu tabi ni, chiisana mimi ga pikutto ugoku n da.",
+        "Kesa wa madobe ni suwatte, soto no suzume o jitto miteta.",
+        "Shashin o LINE de okutte oku kara, ato de mite ne.",
+        "Kondo uchi ni kitara, Komugi to asonde agete ne."
+      ]
+    },
+    {
+      "id": "ja-p02",
+      "kind": "para",
+      "title": "Before My Leave",
+      "native": [
+        "明日から金曜日までお休みするので、引き継ぎの連絡です。",
+        "名古屋の展示会の準備は、佐藤さんに引き継ぎました。",
+        "会場の図面は、共有フォルダーにまとめてあります。",
+        "最新版のファイル名には、確認済みと入れています。",
+        "印刷会社には、今日の夕方までに見積もりをもらう予定です。",
+        "見積もりが届いたら、佐藤さんからチームに共有をお願いします。",
+        "栄の会場との打ち合わせは、木曜日の10時からです。",
+        "当日の受付に使う名札は、棚の上の青い箱に入っています。",
+        "休み中に急ぎの相談があれば、森さんに連絡してください。"
+      ],
+      "roman": [
+        "Ashita kara kinyoubi made oyasumi suru node, hikitsugi no renraku desu.",
+        "Nagoya no tenjikai no junbi wa, Satou san ni hikitsugimashita.",
+        "Kaijou no zumen wa, kyouyuu folder ni matomete arimasu.",
+        "Saishinban no file mei ni wa, kakuninzumi to irete imasu.",
+        "Insatsu gaisha ni wa, kyou no yuugata made ni mitsumori o morau yotei desu.",
+        "Mitsumori ga todoitara, Satou san kara team ni kyouyuu o onegai shimasu.",
+        "Sakae no kaijou to no uchiawase wa, mokuyoubi no 10 ji kara desu.",
+        "Toujitsu no uketsuke ni tsukau nafuda wa, tana no ue no aoi hako ni haitte imasu.",
+        "Yasumi chuu ni isogi no soudan ga areba, Mori san ni renraku shite kudasai."
+      ]
+    },
+    {
+      "id": "ja-p03",
+      "kind": "para",
+      "title": "First Day at the Bakery",
+      "native": [
+        "京都の出町柳にあるパン屋で、初めて働いた日は雨でした。",
+        "緊張して、約束の時間より20分も早く着きました。",
+        "先輩の田中さんが、裏口まで迎えに来てくれました。",
+        "借りたエプロンから、焼きたてのパンの香りがしました。",
+        "最初の仕事は、食パンを袋に入れて棚に並べることでした。",
+        "袋の口がうまく開けられなくて、少し手間取りました。",
+        "田中さんが袋を少しもむと、簡単に口が開きました。",
+        "お昼には、店の奥で温かいコーンスープをもらいました。",
+        "帰るころには雨がやんでいて、明日も頑張ろうと思いました。"
+      ],
+      "roman": [
+        "Kyoto no Demachiyanagi ni aru panya de, hajimete hataraita hi wa ame deshita.",
+        "Kinchou shite, yakusoku no jikan yori 20 pun mo hayaku tsukimashita.",
+        "Senpai no Tanaka san ga, uraguchi made mukae ni kite kuremashita.",
+        "Karita apron kara, yakitate no pan no kaori ga shimashita.",
+        "Saisho no shigoto wa, shokupan o fukuro ni irete tana ni naraberu koto deshita.",
+        "Fukuro no kuchi ga umaku akerarenakute, sukoshi temadorimashita.",
+        "Tanaka san ga fukuro o sukoshi momu to, kantan ni kuchi ga akimashita.",
+        "Ohiru ni wa, mise no oku de atatakai corn soup o moraimashita.",
+        "Kaeru koro ni wa ame ga yande ite, ashita mo ganbarou to omoimashita."
+      ]
+    },
+    {
+      "id": "ja-p04",
+      "kind": "para",
+      "title": "Paying the Electricity Bill",
+      "native": [
+        "電気代は、スマホのアプリで支払います。",
+        "まず、支払い用のバーコードがある請求書を手元に置きます。",
+        "スマホで決済アプリを開いて、請求書払いを選びます。",
+        "カメラが起動したら、請求書のバーコードを読み取ります。",
+        "画面に出た支払い先と金額を、紙の請求書と見比べます。",
+        "残高が足りなければ、先に必要な金額をチャージします。",
+        "内容を確認できたら、画面の支払いボタンを押します。",
+        "支払い完了の表示が出るまで、そのまま待ちます。",
+        "最後に取引履歴を開いて、電気代の支払いを確かめます。"
+      ],
+      "roman": [
+        "Denkidai wa, sumaho no apuri de shiharaimasu.",
+        "Mazu, shiharai you no barcode ga aru seikyuusho o temoto ni okimasu.",
+        "Sumaho de kessai apuri o hiraite, seikyuushobarai o erabimasu.",
+        "Camera ga kidou shitara, seikyuusho no barcode o yomitorimasu.",
+        "Gamen ni deta shiharaisaki to kingaku o, kami no seikyuusho to mikurabemasu.",
+        "Zandaka ga tarinakereba, saki ni hitsuyou na kingaku o charge shimasu.",
+        "Naiyou o kakunin dekitara, gamen no shiharai button o oshimasu.",
+        "Shiharai kanryou no hyouji ga deru made, sono mama machimasu.",
+        "Saigo ni torihiki rireki o hiraite, denkidai no shiharai o tashikamemasu."
+      ]
+    },
+    {
+      "id": "ja-p05",
+      "kind": "para",
+      "title": "A Quiet Kamakura Film",
+      "native": [
+        "友達の間で話題だった海街diaryを、週末に観たんだ。",
+        "鎌倉の路地が映るたびに、また歩きたくなった。",
+        "姉妹の会話が自然で、同じ家にいる気分になった。",
+        "食卓を囲む場面が、特に印象に残った。",
+        "ただ、前半は少しゆっくりで、長く感じたところもある。",
+        "派手な展開より、表情の変化を楽しむ映画だと思う。",
+        "観終わってから、何気ないせりふを思い出すんだよね。",
+        "静かな夜に、またゆっくり観たいな。",
+        "今度鎌倉に行くなら、海までのんびり歩いてみたい。"
+      ],
+      "roman": [
+        "Tomodachi no aida de wadai datta Umimachi diary o, shuumatsu ni mita n da.",
+        "Kamakura no roji ga utsuru tabi ni, mata arukitaku natta.",
+        "Shimai no kaiwa ga shizen de, onaji ie ni iru kibun ni natta.",
+        "Shokutaku o kakomu bamen ga, toku ni inshou ni nokotta.",
+        "Tada, zenhan wa sukoshi yukkuri de, nagaku kanjita tokoro mo aru.",
+        "Hade na tenkai yori, hyoujou no henka o tanoshimu eiga da to omou.",
+        "Miowatte kara, nanigenai serifu o omoidasu n da yo ne.",
+        "Shizuka na yoru ni, mata yukkuri mitai na.",
+        "Kondo Kamakura ni iku nara, umi made nonbiri aruite mitai."
+      ]
+    },
+    {
+      "id": "ja-p06",
+      "kind": "para",
+      "title": "Team Offsite in Inuyama",
+      "native": [
+        "社外でのチーム研修は、2026年9月18日に犬山で開きます。",
+        "参加者は8人で、名鉄名古屋駅に8時30分集合にします。",
+        "犬山駅から会場まで約2キロあるので、タクシーを2台予約します。",
+        "午前の打ち合わせは、10時から12時までの2時間です。",
+        "昼食はひとり1500円で、味噌かつ弁当を頼みます。",
+        "午後は3組に分かれて、改善案をひとつずつ考えます。",
+        "発表は各組10分で、15時30分には片づけを始めます。",
+        "会場代は18000円で、交通費は別に計算しておきます。",
+        "帰りの電車は、余裕を見て16時30分ごろに乗るつもりです。"
+      ],
+      "roman": [
+        "Shagai de no team kenshuu wa, 2026 nen 9 gatsu 18 nichi ni Inuyama de hirakimasu.",
+        "Sankasha wa 8 nin de, Meitetsu Nagoya eki ni 8 ji 30 pun shuugou ni shimasu.",
+        "Inuyama eki kara kaijou made yaku 2 kiro aru node, taxi o 2 dai yoyaku shimasu.",
+        "Gozen no uchiawase wa, 10 ji kara 12 ji made no 2 jikan desu.",
+        "Chuushoku wa hitori 1500 en de, miso katsu bentou o tanomimasu.",
+        "Gogo wa 3 kumi ni wakarete, kaizenan o hitotsu zutsu kangaemasu.",
+        "Happyou wa kaku kumi 10 pun de, 15 ji 30 pun ni wa katazuke o hajimemasu.",
+        "Kaijoudai wa 18000 en de, koutsuuhi wa betsu ni keisan shite okimasu.",
+        "Kaeri no densha wa, yoyuu o mite 16 ji 30 pun goro ni noru tsumori desu."
+      ]
+    },
+    {
+      "id": "ja-p07",
+      "kind": "para",
+      "title": "Washing Machine Warranty Repair",
+      "native": [
+        "さいたま市浦和区の自宅にある洗濯機の修理をお願いします。",
+        "去年そちらで購入した洗濯機が、今朝から動きません。",
+        "電源は入りますが、スタートを押しても洗濯が始まりません。",
+        "ふたを閉め直しても、同じ音が鳴って止まってしまいます。",
+        "保証書には、保証期間が3年と書いてあります。",
+        "購入日が分かるレシートも、手元にあります。",
+        "保証で修理できるか、確認していただけますか。",
+        "訪問修理でしたら、木曜日の14時以降は家にいます。",
+        "予約に必要な情報があれば、今お伝えします。"
+      ],
+      "roman": [
+        "Saitama shi Urawa ku no jitaku ni aru sentakuki no shuuri o onegai shimasu.",
+        "Kyonen sochira de kounyuu shita sentakuki ga, kesa kara ugokimasen.",
+        "Dengen wa hairimasu ga, start o oshite mo sentaku ga hajimarimasen.",
+        "Futa o shimenaoshite mo, onaji oto ga natte tomatte shimaimasu.",
+        "Hoshousho ni wa, hoshou kikan ga 3 nen to kaite arimasu.",
+        "Kounyuubi ga wakaru receipt mo, temoto ni arimasu.",
+        "Hoshou de shuuri dekiru ka, kakunin shite itadakemasu ka.",
+        "Houmon shuuri deshitara, mokuyoubi no 14 ji ikou wa ie ni imasu.",
+        "Yoyaku ni hitsuyou na jouhou ga areba, ima otsutae shimasu."
+      ]
+    },
+    {
+      "id": "ja-p08",
+      "kind": "para",
+      "title": "Sendai Tanabata Traditions",
+      "native": [
+        "仙台七夕まつりは、毎年8月に仙台の中心部で開かれます。",
+        "中央通りや一番町には、色とりどりの七夕飾りが並びます。",
+        "大きな吹き流しが風に揺れるのが、この祭りの見どころです。",
+        "飾りは商店街の人たちが手作りして、竹につるしています。",
+        "短冊には、家族の幸せや習い事の上達などの願いを書きます。",
+        "買い物客も足を止めて、気に入った飾りの写真を撮ります。",
+        "休憩がてら、ずんだ餅など地元のおやつを食べるのもいいですね。",
+        "通りによって飾りの雰囲気が違うので、見比べながら歩くのもおすすめです。"
+      ],
+      "roman": [
+        "Sendai Tanabata Matsuri wa, maitoshi 8 gatsu ni Sendai no chuushinbu de hirakaremasu.",
+        "Chuuou doori ya Ichibancho ni wa, irotoridori no tanabata kazari ga narabimasu.",
+        "Ookina fukinagashi ga kaze ni yureru no ga, kono matsuri no midokoro desu.",
+        "Kazari wa shoutengai no hitotachi ga tezukuri shite, take ni tsurushite imasu.",
+        "Tanzaku ni wa, kazoku no shiawase ya naraigoto no joutatsu nado no negai o kakimasu.",
+        "Kaimonokyaku mo ashi o tomete, ki ni itta kazari no shashin o torimasu.",
+        "Kyuukei gatera, zunda mochi nado jimoto no oyatsu o taberu no mo ii desu ne.",
+        "Toori ni yotte kazari no funiki ga chigau node, mikurabenagara aruku no mo osusume desu."
+      ]
+    },
+    {
+      "id": "ja-s001",
+      "kind": "sentence",
+      "native": [
+        "帰りに牛乳買ってきて。"
+      ],
+      "roman": [
+        "Kaeri ni gyuunyuu katte kite."
+      ]
+    },
+    {
+      "id": "ja-s002",
+      "kind": "sentence",
+      "native": [
+        "神戸への出張は、日帰りで申請してもよろしいですか。"
+      ],
+      "roman": [
+        "Kobe e no shutchou wa, higaeri de shinsei shite mo yoroshii desu ka."
+      ]
+    },
+    {
+      "id": "ja-s003",
+      "kind": "sentence",
+      "native": [
+        "作業台は幅90センチ、奥行き45センチでお願いします。"
+      ],
+      "roman": [
+        "Sagyoudai wa haba 90 senchi, okuyuki 45 senchi de onegai shimasu."
+      ]
+    },
+    {
+      "id": "ja-s004",
+      "kind": "sentence",
+      "native": [
+        "立川のパスポートセンターへ行く前に、必要な持ち物と受付時間を公式サイトで調べておいて。"
+      ],
+      "roman": [
+        "Tachikawa no passport center e iku mae ni, hitsuyou na mochimono to uketsuke jikan o koushiki site de shirabete oite."
+      ]
+    },
+    {
+      "id": "ja-s005",
+      "kind": "sentence",
+      "native": [
+        "ライトをつけてくれる？"
+      ],
+      "roman": [
+        "Light o tsukete kureru?"
+      ]
+    },
+    {
+      "id": "ja-s006",
+      "kind": "sentence",
+      "native": [
+        "藤井さん、この表で合計を出す関数を教えてください。"
+      ],
+      "roman": [
+        "Fujii san, kono hyou de goukei o dasu kansuu o oshiete kudasai."
+      ]
+    },
+    {
+      "id": "ja-s007",
+      "kind": "sentence",
+      "native": [
+        "さやかは先に着いたって。"
+      ],
+      "roman": [
+        "Sayaka wa saki ni tsuita tte."
+      ]
+    },
+    {
+      "id": "ja-s008",
+      "kind": "sentence",
+      "native": [
+        "運動会のお弁当には、卵焼きを多めに入れてほしいな。"
+      ],
+      "roman": [
+        "Undoukai no obentou ni wa, tamagoyaki o oome ni irete hoshii na."
+      ]
+    },
+    {
+      "id": "ja-s009",
+      "kind": "sentence",
+      "native": [
+        "池袋で降りるんだっけ、それとも目白まで乗るの？"
+      ],
+      "roman": [
+        "Ikebukuro de oriru n dakke, soretomo Mejiro made noru no?"
+      ]
+    },
+    {
+      "id": "ja-s010",
+      "kind": "sentence",
+      "native": [
+        "前は失敗するのが嫌で新しい趣味に手を出せなかったけど、最近は下手でも楽しめたらいいと思える。"
+      ],
+      "roman": [
+        "Mae wa shippai suru no ga iya de atarashii shumi ni te o dasenakatta kedo, saikin wa heta demo tanoshimetara ii to omoeru."
+      ]
+    },
+    {
+      "id": "ja-s011",
+      "kind": "sentence",
+      "native": [
+        "お好み焼き、ひっくり返したら半分に割れちゃった。"
+      ],
+      "roman": [
+        "Okonomiyaki, hikkurikaeshitara hanbun ni warechatta."
+      ]
+    },
+    {
+      "id": "ja-s012",
+      "kind": "sentence",
+      "native": [
+        "添付の画像が開けません。"
+      ],
+      "roman": [
+        "Tenpu no gazou ga hirakemasen."
+      ]
+    },
+    {
+      "id": "ja-s013",
+      "kind": "sentence",
+      "native": [
+        "仙台駅から宿までは850メートルで、歩いて12分です。"
+      ],
+      "roman": [
+        "Sendai eki kara yado made wa 850 meter de, aruite 12 fun desu."
+      ]
+    },
+    {
+      "id": "ja-s014",
+      "kind": "sentence",
+      "native": [
+        "台所の時計を合わせる。"
+      ],
+      "roman": [
+        "Daidokoro no tokei o awaseru."
+      ]
+    },
+    {
+      "id": "ja-s015",
+      "kind": "sentence",
+      "native": [
+        "タイマーを3分にして。"
+      ],
+      "roman": [
+        "Timer o 3pun ni shite."
+      ]
+    },
+    {
+      "id": "ja-s016",
+      "kind": "sentence",
+      "native": [
+        "新しいキーボードは、打つ音が静かで助かるね。"
+      ],
+      "roman": [
+        "Atarashii keyboard wa, utsu oto ga shizuka de tasukaru ne."
+      ]
+    },
+    {
+      "id": "ja-s017",
+      "kind": "sentence",
+      "native": [
+        "公園の噴水は工事中で近づけないから、待ち合わせは池のそばにあるベンチに変えよう。"
+      ],
+      "roman": [
+        "Kouen no funsui wa koujichuu de chikazukenai kara, machiawase wa ike no soba ni aru bench ni kaeyou."
+      ]
+    },
+    {
+      "id": "ja-s018",
+      "kind": "sentence",
+      "native": [
+        "深大寺のそば屋は庭が見えるそうなので、祖父の誕生日はそこでお昼を食べようと思っています。"
+      ],
+      "roman": [
+        "Jindaiji no sobaya wa niwa ga mieru sou na node, sofu no tanjoubi wa soko de ohiru o tabeyou to omotte imasu."
+      ]
+    },
+    {
+      "id": "ja-s019",
+      "kind": "sentence",
+      "native": [
+        "笹団子って、こしあんのも置いてありますか？"
+      ],
+      "roman": [
+        "Sasadango tte, koshian no mo oite arimasu ka?"
+      ]
+    },
+    {
+      "id": "ja-s020",
+      "kind": "sentence",
+      "native": [
+        "値上がりは仕方ないけど、弁当が700円だと迷うな。"
+      ],
+      "roman": [
+        "Neagari wa shikata nai kedo, bentou ga 700 en da to mayou na."
+      ]
+    },
+    {
+      "id": "ja-s021",
+      "kind": "sentence",
+      "native": [
+        "押し入れを片づけてたら昔のアルバムが出てきて、お父さんの髪形が今と全然違っててびっくりした。"
+      ],
+      "roman": [
+        "Oshiire o katazuketetara mukashi no album ga dete kite, otousan no kamigata ga ima to zenzen chigattete bikkuri shita."
+      ]
+    },
+    {
+      "id": "ja-s022",
+      "kind": "sentence",
+      "native": [
+        "お疲れさまです。修正が済みました。"
+      ],
+      "roman": [
+        "Otsukaresama desu. Shuusei ga sumimashita."
+      ]
+    },
+    {
+      "id": "ja-s023",
+      "kind": "sentence",
+      "native": [
+        "印刷は両面で24枚ね。"
+      ],
+      "roman": [
+        "Insatsu wa ryoumen de 24 mai ne."
+      ]
+    },
+    {
+      "id": "ja-s024",
+      "kind": "sentence",
+      "native": [
+        "観葉植物に水をあげる。"
+      ],
+      "roman": [
+        "Kanyou shokubutsu ni mizu o ageru."
+      ]
+    },
+    {
+      "id": "ja-s025",
+      "kind": "sentence",
+      "native": [
+        "金沢駅の近くで、朝から海鮮丼を食べられるお店を探して。営業時間も教えて。"
+      ],
+      "roman": [
+        "Kanazawa eki no chikaku de, asa kara kaisendon o taberareru omise o sagashite. Eigyou jikan mo oshiete."
+      ]
+    },
+    {
+      "id": "ja-s026",
+      "kind": "sentence",
+      "native": [
+        "編集の途中でアプリが落ちて、入力した文章が消えた。"
+      ],
+      "roman": [
+        "Henshuu no tochuu de apuri ga ochite, nyuuryoku shita bunshou ga kieta."
+      ]
+    },
+    {
+      "id": "ja-s027",
+      "kind": "sentence",
+      "native": [
+        "まどかと中目黒の古着屋をのぞいてから、そっちに向かうね。"
+      ],
+      "roman": [
+        "Madoka to Nakameguro no furugiya o nozoite kara, sotchi ni mukau ne."
+      ]
+    },
+    {
+      "id": "ja-s028",
+      "kind": "sentence",
+      "native": [
+        "網戸に穴が開いて虫が入ってくるので、張り替えをお願いしたいです。"
+      ],
+      "roman": [
+        "Amido ni ana ga aite mushi ga haitte kuru node, harikae o onegai shitai desu."
+      ]
+    },
+    {
+      "id": "ja-s029",
+      "kind": "sentence",
+      "native": [
+        "消すのはこっちで合ってる？"
+      ],
+      "roman": [
+        "Kesu no wa kocchi de atteru?"
+      ]
+    },
+    {
+      "id": "ja-s030",
+      "kind": "sentence",
+      "native": [
+        "髪、短いのも似合うね。"
+      ],
+      "roman": [
+        "Kami, mijikai no mo niau ne."
+      ]
+    },
+    {
+      "id": "ja-s031",
+      "kind": "sentence",
+      "native": [
+        "今、家に着いたところだよ。"
+      ],
+      "roman": [
+        "Ima, ie ni tsuita tokoro da yo."
+      ]
+    },
+    {
+      "id": "ja-s032",
+      "kind": "sentence",
+      "native": [
+        "中村さん、取引先から新しいロゴが届いたので、封筒のデザインを差し替えてもらえますか。"
+      ],
+      "roman": [
+        "Nakamura san, torihikisaki kara atarashii logo ga todoita node, fuutou no design o sashikaete moraemasu ka."
+      ]
+    },
+    {
+      "id": "ja-s033",
+      "kind": "sentence",
+      "native": [
+        "体操教室は月4回です。"
+      ],
+      "roman": [
+        "Taisou kyoushitsu wa tsuki 4 kai desu."
+      ]
+    },
+    {
+      "id": "ja-s034",
+      "kind": "sentence",
+      "native": [
+        "歯ブラシを買い足しておこう。"
+      ],
+      "roman": [
+        "Haburashi o kaitashite okou."
+      ]
+    },
+    {
+      "id": "ja-s035",
+      "kind": "sentence",
+      "native": [
+        "冷凍した食パンは、どれくらいの期間保存できますか？"
+      ],
+      "roman": [
+        "Reitou shita shokupan wa, dore kurai no kikan hozon dekimasu ka?"
+      ]
+    },
+    {
+      "id": "ja-s036",
+      "kind": "sentence",
+      "native": [
+        "山田さん、会議のリンクを送っていただけますか。"
+      ],
+      "roman": [
+        "Yamada san, kaigi no link o okutte itadakemasu ka."
+      ]
+    },
+    {
+      "id": "ja-s037",
+      "kind": "sentence",
+      "native": [
+        "途中のバス停で降りると坂道が続くので、終点まで乗ってから戻るほうが楽だと思います。"
+      ],
+      "roman": [
+        "Tochuu no basutei de oriru to sakamichi ga tsuzuku node, shuuten made notte kara modoru hou ga raku da to omoimasu."
+      ]
+    },
+    {
+      "id": "ja-s038",
+      "kind": "sentence",
+      "native": [
+        "近所の八百屋、今日は大根が180円だったよ。"
+      ],
+      "roman": [
+        "Kinjo no yaoya, kyou wa daikon ga 180 en datta yo."
+      ]
+    },
+    {
+      "id": "ja-s039",
+      "kind": "sentence",
+      "native": [
+        "紅茶と、あとは何にする？"
+      ],
+      "roman": [
+        "Koucha to, ato wa nani ni suru?"
+      ]
+    },
+    {
+      "id": "ja-s040",
+      "kind": "sentence",
+      "native": [
+        "練習であんなに頑張ったんだから、自信を持っていいよ。"
+      ],
+      "roman": [
+        "Renshuu de anna ni ganbatta n da kara, jishin o motte ii yo."
+      ]
+    },
+    {
+      "id": "ja-s041",
+      "kind": "sentence",
+      "native": [
+        "肉じゃが、まだ残ってたらお鍋に少し取っておいて。"
+      ],
+      "roman": [
+        "Nikujaga, mada nokottetara onabe ni sukoshi totte oite."
+      ]
+    },
+    {
+      "id": "ja-s042",
+      "kind": "sentence",
+      "native": [
+        "念のため確認ですが、昨日お送りした請求書は届いていますか。再送が必要でしたらお知らせください。"
+      ],
+      "roman": [
+        "Nen no tame kakunin desu ga, kinou ookuri shita seikyuusho wa todoite imasu ka. Saisou ga hitsuyou deshitara oshirase kudasai."
+      ]
+    },
+    {
+      "id": "ja-s043",
+      "kind": "sentence",
+      "native": [
+        "録画は23時10分からで、容量はあと32ギガ残ってる。"
+      ],
+      "roman": [
+        "Rokuga wa 23 ji 10 pun kara de, youryou wa ato 32 giga nokotteru."
+      ]
+    },
+    {
+      "id": "ja-s044",
+      "kind": "sentence",
+      "native": [
+        "乾電池のサイズを控えておこう。"
+      ],
+      "roman": [
+        "Kandenchi no size o hikaete okou."
+      ]
+    },
+    {
+      "id": "ja-s045",
+      "kind": "sentence",
+      "native": [
+        "この文章の漢字に、ふりがなを付けてください。"
+      ],
+      "roman": [
+        "Kono bunshou no kanji ni, furigana o tsukete kudasai."
+      ]
+    },
+    {
+      "id": "ja-s046",
+      "kind": "sentence",
+      "native": [
+        "画面を共有する前に、関係のないタブを閉じて、メールの通知も切っておきます。"
+      ],
+      "roman": [
+        "Gamen o kyouyuu suru mae ni, kankei no nai tab o tojite, mail no tsuuchi mo kitte okimasu."
+      ]
+    },
+    {
+      "id": "ja-s047",
+      "kind": "sentence",
+      "native": [
+        "地下の連絡通路なら、傘を差さずに向こうのビルへ行けるよ。"
+      ],
+      "roman": [
+        "Chika no renraku tsuuro nara, kasa o sasazu ni mukou no biru e ikeru yo."
+      ]
+    },
+    {
+      "id": "ja-s048",
+      "kind": "sentence",
+      "native": [
+        "財布に小銭がないんだ。"
+      ],
+      "roman": [
+        "Saifu ni kozeni ga nai n da."
+      ]
+    },
+    {
+      "id": "ja-s049",
+      "kind": "sentence",
+      "native": [
+        "注文はたこ焼き、じゃなくて明石焼きにします。"
+      ],
+      "roman": [
+        "Chuumon wa takoyaki, janakute akashiyaki ni shimasu."
+      ]
+    },
+    {
+      "id": "ja-s050",
+      "kind": "sentence",
+      "native": [
+        "急な相談にも丁寧に答えてくださって、心強かったです。"
+      ],
+      "roman": [
+        "Kyuu na soudan ni mo teinei ni kotaete kudasatte, kokorozuyokatta desu."
+      ]
+    },
+    {
+      "id": "ja-s051",
+      "kind": "sentence",
+      "native": [
+        "かえで、来月の連休って、泊まりに来られそう？"
+      ],
+      "roman": [
+        "Kaede, raigetsu no renkyuu tte, tomari ni koraresou?"
+      ]
+    },
+    {
+      "id": "ja-s052",
+      "kind": "sentence",
+      "native": [
+        "大阪支店に届けるサンプルの発送日は決まりましたか。"
+      ],
+      "roman": [
+        "Osaka shiten ni todokeru sample no hassoubi wa kimarimashita ka."
+      ]
+    },
+    {
+      "id": "ja-s053",
+      "kind": "sentence",
+      "native": [
+        "参加費はひとり900円です。"
+      ],
+      "roman": [
+        "Sankahi wa hitori 900 en desu."
+      ]
+    },
+    {
+      "id": "ja-s054",
+      "kind": "sentence",
+      "native": [
+        "目覚ましは6時にセットして。"
+      ],
+      "roman": [
+        "Mezamashi wa 6 ji ni set shite."
+      ]
+    },
+    {
+      "id": "ja-s055",
+      "kind": "sentence",
+      "native": [
+        "浜松の楽器博物館は、月曜日も開いているか調べて。"
+      ],
+      "roman": [
+        "Hamamatsu no gakki hakubutsukan wa, getsuyoubi mo aite iru ka shirabete."
+      ]
+    },
+    {
+      "id": "ja-s056",
+      "kind": "sentence",
+      "native": [
+        "福岡のクライアントとのミーティングは、接続を確認するので、開始の5分前に入ってください。"
+      ],
+      "roman": [
+        "Fukuoka no client to no meeting wa, setsuzoku o kakunin suru node, kaishi no 5 fun mae ni haitte kudasai."
+      ]
+    },
+    {
+      "id": "ja-s057",
+      "kind": "sentence",
+      "native": [
+        "藤田さん、駐車場が満車なので、荷物を降ろす間だけ裏口の前に車を止めてもいいですか。"
+      ],
+      "roman": [
+        "Fujita san, chuushajou ga mansha na node, nimotsu o orosu aida dake uraguchi no mae ni kuruma o tomete mo ii desu ka."
+      ]
+    },
+    {
+      "id": "ja-s058",
+      "kind": "sentence",
+      "native": [
+        "名古屋の叔父から、結婚祝いのお皿が届いたよ。"
+      ],
+      "roman": [
+        "Nagoya no oji kara, kekkoniwai no osara ga todoita yo."
+      ]
+    },
+    {
+      "id": "ja-s059",
+      "kind": "sentence",
+      "native": [
+        "予算は2000円、すみません、2500円までです。"
+      ],
+      "roman": [
+        "Yosan wa 2000 en, sumimasen, 2500 en made desu."
+      ]
+    },
+    {
+      "id": "ja-s060",
+      "kind": "sentence",
+      "native": [
+        "勘違いしてて、ごめんね。"
+      ],
+      "roman": [
+        "Kanchigai shitete, gomen ne."
+      ]
+    },
+    {
+      "id": "ja-s061",
+      "kind": "sentence",
+      "native": [
+        "猫が布団を占領してる。"
+      ],
+      "roman": [
+        "Neko ga futon o senryou shiteru."
+      ]
+    },
+    {
+      "id": "ja-s062",
+      "kind": "sentence",
+      "native": [
+        "森さん、来月の当番表をチャットに載せました。"
+      ],
+      "roman": [
+        "Mori san, raigetsu no toubanhyou o chat ni nosemashita."
+      ]
+    },
+    {
+      "id": "ja-s063",
+      "kind": "sentence",
+      "native": [
+        "見学の予約は2026年9月17日の木曜日、午前10時からで、大人ふたりです。"
+      ],
+      "roman": [
+        "Kengaku no yoyaku wa 2026 nen 9 gatsu 17 nichi no mokuyoubi, gozen 10 ji kara de, otona futari desu."
+      ]
+    },
+    {
+      "id": "ja-s064",
+      "kind": "sentence",
+      "native": [
+        "使っていないアプリは、週末にまとめて整理しよう。"
+      ],
+      "roman": [
+        "Tsukatte inai apuri wa, shuumatsu ni matomete seiri shiyou."
+      ]
+    },
+    {
+      "id": "ja-s065",
+      "kind": "sentence",
+      "native": [
+        "奈良公園まで、車で行く道順を案内してください。"
+      ],
+      "roman": [
+        "Nara Kouen made, kuruma de iku michijun o annai shite kudasai."
+      ]
+    },
+    {
+      "id": "ja-s066",
+      "kind": "sentence",
+      "native": [
+        "カーソルが動かない。"
+      ],
+      "roman": [
+        "Cursor ga ugokanai."
+      ]
+    },
+    {
+      "id": "ja-s067",
+      "kind": "sentence",
+      "native": [
+        "お迎えは裏門でお願いします。"
+      ],
+      "roman": [
+        "Omukae wa uramon de onegai shimasu."
+      ]
+    },
+    {
+      "id": "ja-s068",
+      "kind": "sentence",
+      "native": [
+        "持ち帰った図工の作品を飾りたいんだけど、棚の上と廊下ならどっちがいいと思う？"
+      ],
+      "roman": [
+        "Mochikaetta zukou no sakuhin o kazaritai n dakedo, tana no ue to rouka nara docchi ga ii to omou?"
+      ]
+    },
+    {
+      "id": "ja-s069",
+      "kind": "sentence",
+      "native": [
+        "持ち帰りで親子丼を、あ、やっぱり店内で食べます。"
+      ],
+      "roman": [
+        "Mochikaeri de oyakodon o, a, yappari tennai de tabemasu."
+      ]
+    },
+    {
+      "id": "ja-s070",
+      "kind": "sentence",
+      "native": [
+        "あやさん、娘に上着を貸してくださってありがとうございます。"
+      ],
+      "roman": [
+        "Aya san, musume ni uwagi o kashite kudasatte arigatou gozaimasu."
+      ]
+    },
+    {
+      "id": "ja-s071",
+      "kind": "sentence",
+      "native": [
+        "上野の動物園に行くなら、双眼鏡を持っていくよ。"
+      ],
+      "roman": [
+        "Ueno no doubutsuen ni iku nara, sougankyou o motte iku yo."
+      ]
+    },
+    {
+      "id": "ja-s072",
+      "kind": "sentence",
+      "native": [
+        "電車が遅れているため、到着が少し遅れます。先に商談を始めていただけると助かります。"
+      ],
+      "roman": [
+        "Densha ga okurete iru tame, touchaku ga sukoshi okuremasu. Saki ni shoudan o hajimete itadakeru to tasukarimasu."
+      ]
+    },
+    {
+      "id": "ja-s073",
+      "kind": "sentence",
+      "native": [
+        "洗剤は詰め替えが420円で、今日だけ15%引きだって。"
+      ],
+      "roman": [
+        "Senzai wa tsumekae ga 420 en de, kyou dake 15% biki datte."
+      ]
+    },
+    {
+      "id": "ja-s074",
+      "kind": "sentence",
+      "native": [
+        "田中さんの送別会で渡す花束は、前日の夕方に受け取れるように花屋へ頼んでおこう。"
+      ],
+      "roman": [
+        "Tanaka san no soubetsukai de watasu hanataba wa, zenjitsu no yuugata ni uketoreru you ni hanaya e tanonde okou."
+      ]
+    },
+    {
+      "id": "ja-s075",
+      "kind": "sentence",
+      "native": [
+        "Suicaをなくしたときの再発行までの手順を教えて。"
+      ],
+      "roman": [
+        "Suica o nakushita toki no saihakkou made no tejun o oshiete."
+      ]
+    },
+    {
+      "id": "ja-s076",
+      "kind": "sentence",
+      "native": [
+        "マイクがオフですよ。"
+      ],
+      "roman": [
+        "Maiku ga off desu yo."
+      ]
+    },
+    {
+      "id": "ja-s077",
+      "kind": "sentence",
+      "native": [
+        "改札を出たら、パン屋の看板があるほうへ進んでください。"
+      ],
+      "roman": [
+        "Kaisatsu o detara, panya no kanban ga aru hou e susunde kudasai."
+      ]
+    },
+    {
+      "id": "ja-s078",
+      "kind": "sentence",
+      "native": [
+        "蛇口から水が漏れてる。"
+      ],
+      "roman": [
+        "Jaguchi kara mizu ga moreteru."
+      ]
+    },
+    {
+      "id": "ja-s079",
+      "kind": "sentence",
+      "native": [
+        "夕飯は外で、と思ったけど冷凍庫の餃子を焼こう。"
+      ],
+      "roman": [
+        "Yuuhan wa soto de, to omotta kedo reitouko no gyouza o yakou."
+      ]
+    },
+    {
+      "id": "ja-s080",
+      "kind": "sentence",
+      "native": [
+        "高松で食べた讃岐うどん、あのこしが忘れられないな。"
+      ],
+      "roman": [
+        "Takamatsu de tabeta Sanuki udon, ano koshi ga wasurerarenai na."
+      ]
+    },
+    {
+      "id": "ja-s081",
+      "kind": "sentence",
+      "native": [
+        "スタンプの顔、そっくりだね。"
+      ],
+      "roman": [
+        "Stamp no kao, sokkuri da ne."
+      ]
+    },
+    {
+      "id": "ja-s082",
+      "kind": "sentence",
+      "native": [
+        "小林さんへの返信は、いったん保留にしてください。"
+      ],
+      "roman": [
+        "Kobayashi san e no henshin wa, ittan horyuu ni shite kudasai."
+      ]
+    },
+    {
+      "id": "ja-s083",
+      "kind": "sentence",
+      "native": [
+        "オーブンは190度にして。"
+      ],
+      "roman": [
+        "Oven wa 190 do ni shite."
+      ]
+    },
+    {
+      "id": "ja-s084",
+      "kind": "sentence",
+      "native": [
+        "無印良品で、詰め替え用の化粧水を探してみよう。"
+      ],
+      "roman": [
+        "Mujirushi Ryouhin de, tsumekaeyou no keshousui o sagashite miyou."
+      ]
+    },
+    {
+      "id": "ja-s085",
+      "kind": "sentence",
+      "native": [
+        "機内モードを解除して。"
+      ],
+      "roman": [
+        "Kinai mode o kaijo shite."
+      ]
+    },
+    {
+      "id": "ja-s086",
+      "kind": "sentence",
+      "native": [
+        "渋谷の事務所だと、ネットがよく途切れるんです。"
+      ],
+      "roman": [
+        "Shibuya no jimusho da to, netto ga yoku togireru n desu."
+      ]
+    },
+    {
+      "id": "ja-s087",
+      "kind": "sentence",
+      "native": [
+        "商店街の自転車屋は、夕方になると修理で混むらしいよ。"
+      ],
+      "roman": [
+        "Shoutengai no jitenshaya wa, yuugata ni naru to shuuri de komu rashii yo."
+      ]
+    },
+    {
+      "id": "ja-s088",
+      "kind": "sentence",
+      "native": [
+        "そのスカート、色違いも試着してから決めていいですか。"
+      ],
+      "roman": [
+        "Sono skirt, irochigai mo shichaku shite kara kimete ii desu ka."
+      ]
+    },
+    {
+      "id": "ja-s089",
+      "kind": "sentence",
+      "native": [
+        "包装はまとめて、あ、やっぱり別々にしてもらえますか。"
+      ],
+      "roman": [
+        "Housou wa matomete, a, yappari betsubetsu ni shite moraemasu ka."
+      ]
+    },
+    {
+      "id": "ja-s090",
+      "kind": "sentence",
+      "native": [
+        "せっかく掃除したのに、もう床がざらざらしてるよ。"
+      ],
+      "roman": [
+        "Sekkaku souji shita noni, mou yuka ga zarazara shiteru yo."
+      ]
+    },
+    {
+      "id": "ja-s091",
+      "kind": "sentence",
+      "native": [
+        "吉祥寺の喫茶店、窓際のソファが空いてたから先に座ってるね。着いたらLINEして。"
+      ],
+      "roman": [
+        "Kichijoji no kissaten, madogiwa no sofa ga aiteta kara saki ni suwatteru ne. Tsuitara LINE shite."
+      ]
+    },
+    {
+      "id": "ja-s092",
+      "kind": "sentence",
+      "native": [
+        "金曜日の研修は、オンラインに変更してもいいですか。"
+      ],
+      "roman": [
+        "Kinyoubi no kenshuu wa, online ni henkou shite mo ii desu ka."
+      ]
+    },
+    {
+      "id": "ja-s093",
+      "kind": "sentence",
+      "native": [
+        "姉の新しい部屋は5階で、エレベーターのすぐ横です。"
+      ],
+      "roman": [
+        "Ane no atarashii heya wa 5 kai de, elevator no sugu yoko desu."
+      ]
+    },
+    {
+      "id": "ja-s094",
+      "kind": "sentence",
+      "native": [
+        "夏物をしまうときは、防虫剤も忘れずに取り替える。"
+      ],
+      "roman": [
+        "Natsumono o shimau toki wa, bouchuuzai mo wasurezu ni torikaeru."
+      ]
+    },
+    {
+      "id": "ja-s095",
+      "kind": "sentence",
+      "native": [
+        "音量を少し下げてくれる？"
+      ],
+      "roman": [
+        "Onryou o sukoshi sagete kureru?"
+      ]
+    },
+    {
+      "id": "ja-s096",
+      "kind": "sentence",
+      "native": [
+        "鈴木さんの声だけ、ヘッドホンから聞こえません。"
+      ],
+      "roman": [
+        "Suzuki san no koe dake, headphones kara kikoemasen."
+      ]
+    },
+    {
+      "id": "ja-s097",
+      "kind": "sentence",
+      "native": [
+        "伯母は倉敷で暮らしていて、川沿いの散歩が日課なんです。"
+      ],
+      "roman": [
+        "Oba wa Kurashiki de kurashite ite, kawazoi no sanpo ga nikka nan desu."
+      ]
+    },
+    {
+      "id": "ja-s098",
+      "kind": "sentence",
+      "native": [
+        "夕方から風が強くなるみたいだから、庭に置いた植木鉢が倒れないように壁際へ寄せておくね。"
+      ],
+      "roman": [
+        "Yuugata kara kaze ga tsuyoku naru mitai dakara, niwa ni oita uekibachi ga taorenai you ni kabegiwa e yosete oku ne."
+      ]
+    },
+    {
+      "id": "ja-s099",
+      "kind": "sentence",
+      "native": [
+        "割り箸とおしぼりを補充しよう。あ、おしぼりは届いてないから、先に割り箸だけ出そう。"
+      ],
+      "roman": [
+        "Waribashi to oshibori o hojuu shiyou. A, oshibori wa todoitenai kara, saki ni waribashi dake dasou."
+      ]
+    },
+    {
+      "id": "ja-s100",
+      "kind": "sentence",
+      "native": [
+        "楽しみにしてたんだけど、家の用事が重なって今回は参加できなくて、本当にごめんね。"
+      ],
+      "roman": [
+        "Tanoshimi ni shiteta n dakedo, ie no youji ga kasanatte konkai wa sanka dekinakute, hontou ni gomen ne."
+      ]
+    },
+    {
+      "id": "ja-s101",
+      "kind": "sentence",
+      "native": [
+        "充電があと5%しかないから、続きはあとで送るね。"
+      ],
+      "roman": [
+        "Juuden ga ato 5% shika nai kara, tsuzuki wa ato de okuru ne."
+      ]
+    },
+    {
+      "id": "ja-s102",
+      "kind": "sentence",
+      "native": [
+        "来週の説明会に向けて、操作の流れが分かる動画を作りました。気になる点があれば教えてください。"
+      ],
+      "roman": [
+        "Raishuu no setsumeikai ni mukete, sousa no nagare ga wakaru douga o tsukurimashita. Ki ni naru ten ga areba oshiete kudasai."
+      ]
+    },
+    {
+      "id": "ja-s103",
+      "kind": "sentence",
+      "native": [
+        "開演は18時45分です。"
+      ],
+      "roman": [
+        "Kaien wa 18 ji 45 fun desu."
+      ]
+    },
+    {
+      "id": "ja-s104",
+      "kind": "sentence",
+      "native": [
+        "ゆかりさんから借りた脚立は、底についた土を落としてから、明日の夕方に返しに行く。"
+      ],
+      "roman": [
+        "Yukari san kara karita kyatatsu wa, soko ni tsuita tsuchi o otoshite kara, ashita no yuugata ni kaeshi ni iku."
+      ]
+    },
+    {
+      "id": "ja-s105",
+      "kind": "sentence",
+      "native": [
+        "計算機を開いて、7600円の20%を計算して。"
+      ],
+      "roman": [
+        "Keisanki o hiraite, 7600 en no 20% o keisan shite."
+      ]
+    },
+    {
+      "id": "ja-s106",
+      "kind": "sentence",
+      "native": [
+        "パスワードを忘れた。"
+      ],
+      "roman": [
+        "Password o wasureta."
+      ]
+    },
+    {
+      "id": "ja-s107",
+      "kind": "sentence",
+      "native": [
+        "次の角を左に曲がって。"
+      ],
+      "roman": [
+        "Tsugi no kado o hidari ni magatte."
+      ]
+    },
+    {
+      "id": "ja-s108",
+      "kind": "sentence",
+      "native": [
+        "クリーニングに出したコート、引き取りは来週でいいですか。"
+      ],
+      "roman": [
+        "Cleaning ni dashita coat, hikitori wa raishuu de ii desu ka."
+      ]
+    },
+    {
+      "id": "ja-s109",
+      "kind": "sentence",
+      "native": [
+        "あれ、鍵はかけたっけ？"
+      ],
+      "roman": [
+        "Are, kagi wa kaketa kke?"
+      ]
+    },
+    {
+      "id": "ja-s110",
+      "kind": "sentence",
+      "native": [
+        "松本さんの説明で、苦手な編み方がやっと分かりました。"
+      ],
+      "roman": [
+        "Matsumoto san no setsumei de, nigate na amikata ga yatto wakarimashita."
+      ]
+    },
+    {
+      "id": "ja-s111",
+      "kind": "sentence",
+      "native": [
+        "博多のお土産に買った明太子、冷蔵庫に入れてあるから、好きなだけごはんにのせて食べてね。"
+      ],
+      "roman": [
+        "Hakata no omiyage ni katta mentaiko, reizouko ni irete aru kara, suki na dake gohan ni nosete tabete ne."
+      ]
+    },
+    {
+      "id": "ja-s112",
+      "kind": "sentence",
+      "native": [
+        "備品の在庫が残り少なくなっているので、必要な文房具があれば、今日のうちに総務へ知らせてください。"
+      ],
+      "roman": [
+        "Bihin no zaiko ga nokori sukunaku natte iru node, hitsuyou na bunbougu ga areba, kyou no uchi ni soumu e shirasete kudasai."
+      ]
+    },
+    {
+      "id": "ja-s113",
+      "kind": "sentence",
+      "native": [
+        "プールで25メートルを6往復したから、そろそろ上がるね。"
+      ],
+      "roman": [
+        "Pool de 25 meter o 6 oufuku shita kara, sorosoro agaru ne."
+      ]
+    },
+    {
+      "id": "ja-s114",
+      "kind": "sentence",
+      "native": [
+        "丸善に注文した参考書を、仕事が終わったら受け取る。"
+      ],
+      "roman": [
+        "Maruzen ni chuumon shita sankousho o, shigoto ga owattara uketoru."
+      ]
+    },
+    {
+      "id": "ja-s115",
+      "kind": "sentence",
+      "native": [
+        "札幌の週末の天気と、予想気温を教えてくれる？"
+      ],
+      "roman": [
+        "Sapporo no shuumatsu no tenki to, yosou kion o oshiete kureru?"
+      ]
+    },
+    {
+      "id": "ja-s116",
+      "kind": "sentence",
+      "native": [
+        "辞書に単語を登録したよ。"
+      ],
+      "roman": [
+        "Jisho ni tango o touroku shita yo."
+      ]
+    },
+    {
+      "id": "ja-s117",
+      "kind": "sentence",
+      "native": [
+        "先輩が車を出してくれるので、荷物は一緒に運べます。"
+      ],
+      "roman": [
+        "Senpai ga kuruma o dashite kureru node, nimotsu wa issho ni hakobemasu."
+      ]
+    },
+    {
+      "id": "ja-s118",
+      "kind": "sentence",
+      "native": [
+        "外はずいぶん冷えるね。"
+      ],
+      "roman": [
+        "Soto wa zuibun hieru ne."
+      ]
+    },
+    {
+      "id": "ja-s119",
+      "kind": "sentence",
+      "native": [
+        "えっと、袋は要らないです。"
+      ],
+      "roman": [
+        "Etto, fukuro wa iranai desu."
+      ]
+    },
+    {
+      "id": "ja-s120",
+      "kind": "sentence",
+      "native": [
+        "焼き加減がちょうどいいね。"
+      ],
+      "roman": [
+        "Yakikagen ga choudo ii ne."
+      ]
+    },
+    {
+      "id": "ja-s121",
+      "kind": "sentence",
+      "native": [
+        "土曜日は鎌倉であじさいを見てから、お茶しない？"
+      ],
+      "roman": [
+        "Doyoubi wa Kamakura de ajisai o mite kara, ocha shinai?"
+      ]
+    },
+    {
+      "id": "ja-s122",
+      "kind": "sentence",
+      "native": [
+        "ご対応ありがとうございます。"
+      ],
+      "roman": [
+        "Gotaiou arigatou gozaimasu."
+      ]
+    },
+    {
+      "id": "ja-s123",
+      "kind": "sentence",
+      "native": [
+        "長野行きの新幹線は、あさま617号の7号車を取りました。"
+      ],
+      "roman": [
+        "Nagano iki no shinkansen wa, Asama 617 gou no 7 gousha o torimashita."
+      ]
+    },
+    {
+      "id": "ja-s124",
+      "kind": "sentence",
+      "native": [
+        "片栗粉が切れたから、買うもののリストに入れといて。"
+      ],
+      "roman": [
+        "Katakuriko ga kireta kara, kau mono no list ni iretoite."
+      ]
+    },
+    {
+      "id": "ja-s125",
+      "kind": "sentence",
+      "native": [
+        "ギターでコードを押さえると隣の弦に指が触れるんだけど、指の立て方が分かる動画を探して。"
+      ],
+      "roman": [
+        "Guitar de chord o osaeru to tonari no gen ni yubi ga fureru n dakedo, yubi no tatekata ga wakaru douga o sagashite."
+      ]
+    },
+    {
+      "id": "ja-s126",
+      "kind": "sentence",
+      "native": [
+        "通販のアプリで返品を申し込んだら、集荷の日時も選べたので、コンビニまで運ばずに済みました。"
+      ],
+      "roman": [
+        "Tsuuhan no apuri de henpin o moushikondara, shuuka no nichiji mo erabeta node, konbini made hakobazu ni sumimashita."
+      ]
+    },
+    {
+      "id": "ja-s127",
+      "kind": "sentence",
+      "native": [
+        "受付で担当の方を呼んでもらったので、ロビーで待ちます。"
+      ],
+      "roman": [
+        "Uketsuke de tantou no kata o yonde moratta node, lobby de machimasu."
+      ]
+    },
+    {
+      "id": "ja-s128",
+      "kind": "sentence",
+      "native": [
+        "祇園祭に浴衣を着ていくから、帯の結び方を練習しよう。"
+      ],
+      "roman": [
+        "Gion Matsuri ni yukata o kite iku kara, obi no musubikata o renshuu shiyou."
+      ]
+    },
+    {
+      "id": "ja-s129",
+      "kind": "sentence",
+      "native": [
+        "買うのは豆腐と納豆と、あ、しょうゆも切れそうだから小さい瓶をひとつお願いね。"
+      ],
+      "roman": [
+        "Kau no wa toufu to nattou to, a, shouyu mo kiresou dakara chiisai bin o hitotsu onegai ne."
+      ]
+    },
+    {
+      "id": "ja-s130",
+      "kind": "sentence",
+      "native": [
+        "手伝ってくれて助かったよ。"
+      ],
+      "roman": [
+        "Tetsudatte kurete tasukatta yo."
+      ]
+    },
+    {
+      "id": "ja-s131",
+      "kind": "sentence",
+      "native": [
+        "借りてた漫画、読み終わったから次に会うとき返すね。"
+      ],
+      "roman": [
+        "Kariteta manga, yomiowatta kara tsugi ni au toki kaesu ne."
+      ]
+    },
+    {
+      "id": "ja-s132",
+      "kind": "sentence",
+      "native": [
+        "岡田さん、面接の日程調整をお願いできますか。"
+      ],
+      "roman": [
+        "Okada san, mensetsu no nittei chousei o onegai dekimasu ka."
+      ]
+    },
+    {
+      "id": "ja-s133",
+      "kind": "sentence",
+      "native": [
+        "孫は今年で8歳になります。"
+      ],
+      "roman": [
+        "Mago wa kotoshi de 8 sai ni narimasu."
+      ]
+    },
+    {
+      "id": "ja-s134",
+      "kind": "sentence",
+      "native": [
+        "ベランダの幅を測って、日よけのサイズを決めよう。"
+      ],
+      "roman": [
+        "Veranda no haba o hakatte, hiyoke no size o kimeyou."
+      ]
+    },
+    {
+      "id": "ja-s135",
+      "kind": "sentence",
+      "native": [
+        "茶碗蒸しを蒸し器なしで作る方法を調べてほしい。"
+      ],
+      "roman": [
+        "Chawanmushi o mushiki nashi de tsukuru houhou o shirabete hoshii."
+      ]
+    },
+    {
+      "id": "ja-s136",
+      "kind": "sentence",
+      "native": [
+        "更新はもう終わった？"
+      ],
+      "roman": [
+        "Koushin wa mou owatta?"
+      ]
+    },
+    {
+      "id": "ja-s137",
+      "kind": "sentence",
+      "native": [
+        "ここからは歩いて行こう。"
+      ],
+      "roman": [
+        "Koko kara wa aruite ikou."
+      ]
+    },
+    {
+      "id": "ja-s138",
+      "kind": "sentence",
+      "native": [
+        "給食袋、どこにしまった？"
+      ],
+      "roman": [
+        "Kyuushokubukuro, doko ni shimatta?"
+      ]
+    },
+    {
+      "id": "ja-s139",
+      "kind": "sentence",
+      "native": [
+        "水筒とタオル、それから帽子もリュックに入れて。"
+      ],
+      "roman": [
+        "Suitou to towel, sorekara boushi mo ryukku ni irete."
+      ]
+    },
+    {
+      "id": "ja-s140",
+      "kind": "sentence",
+      "native": [
+        "手が空いたら電話してね。"
+      ],
+      "roman": [
+        "Te ga aitara denwa shite ne."
+      ]
+    },
+    {
+      "id": "ja-s141",
+      "kind": "sentence",
+      "native": [
+        "提案の内容には賛成ですが、費用の内訳も知りたいです。"
+      ],
+      "roman": [
+        "Teian no naiyou ni wa sansei desu ga, hiyou no uchiwake mo shiritai desu."
+      ]
+    },
+    {
+      "id": "ja-s142",
+      "kind": "sentence",
+      "native": [
+        "折り返しの電話は、平日の13時から17時の間にお願いします。"
+      ],
+      "roman": [
+        "Orikaeshi no denwa wa, heijitsu no 13 ji kara 17 ji no aida ni onegai shimasu."
+      ]
+    },
+    {
+      "id": "ja-s143",
+      "kind": "sentence",
+      "native": [
+        "上履きのかかとに名前を書く。"
+      ],
+      "roman": [
+        "Uwabaki no kakato ni namae o kaku."
+      ]
+    },
+    {
+      "id": "ja-s144",
+      "kind": "sentence",
+      "native": [
+        "連絡先に登録してある佐藤さんの携帯に電話をかけて。"
+      ],
+      "roman": [
+        "Renrakusaki ni touroku shite aru Satou san no keitai ni denwa o kakete."
+      ]
+    },
+    {
+      "id": "ja-s145",
+      "kind": "sentence",
+      "native": [
+        "アカウントを仕事用に切り替えます。"
+      ],
+      "roman": [
+        "Account o shigoto you ni kirikaemasu."
+      ]
+    },
+    {
+      "id": "ja-s146",
+      "kind": "sentence",
+      "native": [
+        "高橋さんも同じ沿線です。"
+      ],
+      "roman": [
+        "Takahashi san mo onaji ensen desu."
+      ]
+    },
+    {
+      "id": "ja-s147",
+      "kind": "sentence",
+      "native": [
+        "味見してから塩を足してね。"
+      ],
+      "roman": [
+        "Ajimi shite kara shio o tashite ne."
+      ]
+    },
+    {
+      "id": "ja-s148",
+      "kind": "sentence",
+      "native": [
+        "お願いしたいのはカーテンの丈直しで、すみません、幅も少し詰めてもらえますか。"
+      ],
+      "roman": [
+        "Onegai shitai no wa curtain no takenaoshi de, sumimasen, haba mo sukoshi tsumete moraemasu ka."
+      ]
+    },
+    {
+      "id": "ja-s149",
+      "kind": "sentence",
+      "native": [
+        "眠かったら先に寝ててね。"
+      ],
+      "roman": [
+        "Nemukattara saki ni netete ne."
+      ]
+    },
+    {
+      "id": "ja-s150",
+      "kind": "sentence",
+      "native": [
+        "それでは、失礼いたします。"
+      ],
+      "roman": [
+        "Sore de wa, shitsurei itashimasu."
+      ]
+    },
+    {
+      "id": "ja-s151",
+      "kind": "sentence",
+      "native": [
+        "卓球は11対9で勝ったけど、最後まで接戦だったね。"
+      ],
+      "roman": [
+        "Takkyuu wa 11 tai 9 de katta kedo, saigo made sessen datta ne."
+      ]
+    },
+    {
+      "id": "ja-s152",
+      "kind": "sentence",
+      "native": [
+        "刺しゅうの裏側で糸がもつれないように、短めに切って使う。"
+      ],
+      "roman": [
+        "Shishuu no uragawa de ito ga motsurenai you ni, mijikame ni kitte tsukau."
+      ]
+    },
+    {
+      "id": "ja-s153",
+      "kind": "sentence",
+      "native": [
+        "スクリーンショットを撮って。"
+      ],
+      "roman": [
+        "Screenshot o totte."
+      ]
+    },
+    {
+      "id": "ja-s154",
+      "kind": "sentence",
+      "native": [
+        "月額980円のプランなら、広告は出ないんだね。"
+      ],
+      "roman": [
+        "Getsugaku 980 en no plan nara, koukoku wa denai n da ne."
+      ]
+    },
+    {
+      "id": "ja-s155",
+      "kind": "sentence",
+      "native": [
+        "通勤用の定期券って、引っ越したら買い直すのかな。"
+      ],
+      "roman": [
+        "Tsuukinyou no teikiken tte, hikkoshitara kainaosu no kana."
+      ]
+    },
+    {
+      "id": "ja-s156",
+      "kind": "sentence",
+      "native": [
+        "由美さん、ピアノの体験レッスンは午後でも空いていますか。"
+      ],
+      "roman": [
+        "Yumi san, piano no taiken lesson wa gogo demo aite imasu ka."
+      ]
+    },
+    {
+      "id": "ja-s157",
+      "kind": "sentence",
+      "native": [
+        "領収書って、今から出せますか？"
+      ],
+      "roman": [
+        "Ryoushuusho tte, ima kara dasemasu ka?"
+      ]
+    },
+    {
+      "id": "ja-s158",
+      "kind": "sentence",
+      "native": [
+        "健太も来るって言ってたから、席を増やしておこう。"
+      ],
+      "roman": [
+        "Kenta mo kuru tte itteta kara, seki o fuyashite okou."
+      ]
+    },
+    {
+      "id": "ja-s159",
+      "kind": "sentence",
+      "native": [
+        "石川さん、日曜日のシフトを代わってもらえますか。"
+      ],
+      "roman": [
+        "Ishikawa san, nichiyoubi no shift o kawatte moraemasu ka."
+      ]
+    },
+    {
+      "id": "ja-s160",
+      "kind": "sentence",
+      "native": [
+        "この箱は6個入りだよ。"
+      ],
+      "roman": [
+        "Kono hako wa 6 ko iri da yo."
+      ]
+    },
+    {
+      "id": "ja-s161",
+      "kind": "sentence",
+      "native": [
+        "レシートは返品するまで残す。"
+      ],
+      "roman": [
+        "Receipt wa henpin suru made nokosu."
+      ]
+    },
+    {
+      "id": "ja-s162",
+      "kind": "sentence",
+      "native": [
+        "接続しているテレビでYouTubeを開いて、初心者向けのヨガの動画を再生してくれる？"
+      ],
+      "roman": [
+        "Setsuzoku shite iru terebi de YouTube o hiraite, shoshinsha muke no yoga no douga o saisei shite kureru?"
+      ]
+    },
+    {
+      "id": "ja-s163",
+      "kind": "sentence",
+      "native": [
+        "先週こちらで買った上着を、小さいサイズに交換できますか？"
+      ],
+      "roman": [
+        "Senshuu kochira de katta uwagi o, chiisai size ni koukan dekimasu ka?"
+      ]
+    },
+    {
+      "id": "ja-s164",
+      "kind": "sentence",
+      "native": [
+        "洗濯物は取り込んだから、雨が降っても心配ないよ。"
+      ],
+      "roman": [
+        "Sentakumono wa torikonda kara, ame ga futte mo shinpai nai yo."
+      ]
+    },
+    {
+      "id": "ja-s165",
+      "kind": "sentence",
+      "native": [
+        "昼休みの間は席を外すので、急ぎの用件はスマホにお願いします。"
+      ],
+      "roman": [
+        "Hiruyasumi no aida wa seki o hazusu node, isogi no youken wa sumaho ni onegai shimasu."
+      ]
+    },
+    {
+      "id": "ja-s166",
+      "kind": "sentence",
+      "native": [
+        "お届け先は東京都杉並区阿佐谷南1丁目15番3号で、建物の名前はありません。"
+      ],
+      "roman": [
+        "Otodokesaki wa Tokyo to Suginami ku Asagayaminami 1 choume 15 ban 3 gou de, tatemono no namae wa arimasen."
+      ]
+    },
+    {
+      "id": "ja-s167",
+      "kind": "sentence",
+      "native": [
+        "火曜日の朝に、資源ごみを出すリマインダーを設定して。"
+      ],
+      "roman": [
+        "Kayoubi no asa ni, shigen gomi o dasu reminder o settei shite."
+      ]
+    },
+    {
+      "id": "ja-s168",
+      "kind": "sentence",
+      "native": [
+        "プリンターが反応しないときの直し方を教えて。"
+      ],
+      "roman": [
+        "Printer ga hannou shinai toki no naoshikata o oshiete."
+      ]
+    },
+    {
+      "id": "ja-s169",
+      "kind": "sentence",
+      "native": [
+        "出口は反対側ですよ。"
+      ],
+      "roman": [
+        "Deguchi wa hantaigawa desu yo."
+      ]
+    },
+    {
+      "id": "ja-s170",
+      "kind": "sentence",
+      "native": [
+        "発表会の動画、音まできれいに入っててうれしいな。"
+      ],
+      "roman": [
+        "Happyoukai no douga, oto made kirei ni haittete ureshii na."
+      ]
+    },
+    {
+      "id": "ja-s171",
+      "kind": "sentence",
+      "native": [
+        "集計は予定どおり進んでいます。"
+      ],
+      "roman": [
+        "Shuukei wa yotei doori susunde imasu."
+      ]
+    },
+    {
+      "id": "ja-s172",
+      "kind": "sentence",
+      "native": [
+        "旭川行きの便は8時55分発で、座席は12列目の窓側です。"
+      ],
+      "roman": [
+        "Asahikawa iki no bin wa 8 ji 55 fun hatsu de, zaseki wa 12 retsu me no madogawa desu."
+      ]
+    },
+    {
+      "id": "ja-s173",
+      "kind": "sentence",
+      "native": [
+        "美容院の予約を、来月のカレンダーに追加して。"
+      ],
+      "roman": [
+        "Biyouin no yoyaku o, raigetsu no calendar ni tsuika shite."
+      ]
+    },
+    {
+      "id": "ja-s174",
+      "kind": "sentence",
+      "native": [
+        "英語で届いたメールを、日本語に翻訳してくれる？"
+      ],
+      "roman": [
+        "Eigo de todoita mail o, nihongo ni honyaku shite kureru?"
+      ]
+    },
+    {
+      "id": "ja-s175",
+      "kind": "sentence",
+      "native": [
+        "うん、その時間なら大丈夫。"
+      ],
+      "roman": [
+        "Un, sono jikan nara daijoubu."
+      ]
+    },
+    {
+      "id": "ja-s176",
+      "kind": "sentence",
+      "native": [
+        "引き続きよろしくお願いします。"
+      ],
+      "roman": [
+        "Hikitsuzuki yoroshiku onegai shimasu."
+      ]
+    },
+    {
+      "id": "ja-s177",
+      "kind": "sentence",
+      "native": [
+        "長崎のレンタカーは10月15日の9時から48時間で、料金は14600円です。"
+      ],
+      "roman": [
+        "Nagasaki no rent-a-car wa 10 gatsu 15 nichi no 9 ji kara 48 jikan de, ryoukin wa 14600 en desu."
+      ]
+    },
+    {
+      "id": "ja-s178",
+      "kind": "sentence",
+      "native": [
+        "靴ひもを結び直しておく。"
+      ],
+      "roman": [
+        "Kutsuhimo o musubinaoshite oku."
+      ]
+    },
+    {
+      "id": "ja-s179",
+      "kind": "sentence",
+      "native": [
+        "未読の通知を読み上げて。"
+      ],
+      "roman": [
+        "Midoku no tsuuchi o yomiagete."
+      ]
+    },
+    {
+      "id": "ja-s180",
+      "kind": "sentence",
+      "native": [
+        "模様替えした部屋の写真を見せたいんだけど、まだ床に荷物が広がってるから片づいたら送るね。"
+      ],
+      "roman": [
+        "Moyougae shita heya no shashin o misetai n da kedo, mada yuka ni nimotsu ga hirogatteru kara katazuitara okuru ne."
+      ]
+    },
+    {
+      "id": "ja-s181",
+      "kind": "sentence",
+      "native": [
+        "先ほどお願いした原稿は、週明けまでにいただけますか。"
+      ],
+      "roman": [
+        "Sakihodo onegai shita genkou wa, shuuake made ni itadakemasu ka."
+      ]
+    },
+    {
+      "id": "ja-s182",
+      "kind": "sentence",
+      "native": [
+        "資料の文字を125%に拡大すると、細かい注釈も読めます。"
+      ],
+      "roman": [
+        "Shiryou no moji o 125% ni kakudai suru to, komakai chuushaku mo yomemasu."
+      ]
+    },
+    {
+      "id": "ja-s183",
+      "kind": "sentence",
+      "native": [
+        "通帳は忘れずに記帳する。"
+      ],
+      "roman": [
+        "Tsuuchou wa wasurezu ni kichou suru."
+      ]
+    },
+    {
+      "id": "ja-s184",
+      "kind": "sentence",
+      "native": [
+        "大さじと小さじの違いは何？"
+      ],
+      "roman": [
+        "Oosaji to kosaji no chigai wa nani?"
+      ]
+    },
+    {
+      "id": "ja-s185",
+      "kind": "sentence",
+      "native": [
+        "宅配便を受け取ったら、玄関の横に置いてくれる？"
+      ],
+      "roman": [
+        "Takuhaibin o uketottara, genkan no yoko ni oite kureru?"
+      ]
+    },
+    {
+      "id": "ja-s186",
+      "kind": "sentence",
+      "native": [
+        "この見積もりで進めてください。"
+      ],
+      "roman": [
+        "Kono mitsumori de susumete kudasai."
+      ]
+    },
+    {
+      "id": "ja-s187",
+      "kind": "sentence",
+      "native": [
+        "水曜日の打ち合わせは、14時20分から16時までです。"
+      ],
+      "roman": [
+        "Suiyoubi no uchiawase wa, 14 ji 20 pun kara 16 ji made desu."
+      ]
+    },
+    {
+      "id": "ja-s188",
+      "kind": "sentence",
+      "native": [
+        "フリーマーケットに申し込む前に、出店料を確認して、机を借りられるかも聞いておこう。"
+      ],
+      "roman": [
+        "Flea market ni moushikomu mae ni, shuttenryou o kakunin shite, tsukue o karirareru ka mo kiite okou."
+      ]
+    },
+    {
+      "id": "ja-s189",
+      "kind": "sentence",
+      "native": [
+        "再生中の曲を止めて。"
+      ],
+      "roman": [
+        "Saiseichuu no kyoku o tomete."
+      ]
+    },
+    {
+      "id": "ja-s190",
+      "kind": "sentence",
+      "native": [
+        "週末のキャンプは寝袋を貸してもらえることになったから、わざわざ買わなくてもよさそうだよ。"
+      ],
+      "roman": [
+        "Shuumatsu no camp wa nebukuro o kashite moraeru koto ni natta kara, wazawaza kawanakute mo yosasou da yo."
+      ]
+    },
+    {
+      "id": "ja-s191",
+      "kind": "sentence",
+      "native": [
+        "娘のピアノの発表会は2027年2月21日の日曜日で、出番は午後3時からです。"
+      ],
+      "roman": [
+        "Musume no piano no happyoukai wa 2027 nen 2 gatsu 21 nichi no nichiyoubi de, deban wa gogo 3 ji kara desu."
+      ]
+    },
+    {
+      "id": "ja-s192",
+      "kind": "sentence",
+      "native": [
+        "映画の予約は済んだよ。入口で15時に待ち合わせね。"
+      ],
+      "roman": [
+        "Eiga no yoyaku wa sunda yo. Iriguchi de 15 ji ni machiawase ne."
+      ]
+    },
+    {
+      "id": "ja-s193",
+      "kind": "sentence",
+      "native": [
+        "お米は5キロで3480円だったから、前より少し安いね。"
+      ],
+      "roman": [
+        "Okome wa 5 kiro de 3480 en datta kara, mae yori sukoshi yasui ne."
+      ]
+    }
+  ]
+}

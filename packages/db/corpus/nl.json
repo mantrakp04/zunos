@@ -1,0 +1,1573 @@
+{
+  "lang": "nl",
+  "starter": [
+    "nl-s067",
+    "nl-s029",
+    "nl-s089",
+    "nl-s043",
+    "nl-s059",
+    "nl-s093",
+    "nl-s013",
+    "nl-s096",
+    "nl-s024",
+    "nl-s055",
+    "nl-s006",
+    "nl-s080",
+    "nl-p07",
+    "nl-s102",
+    "nl-s019",
+    "nl-s114",
+    "nl-s027",
+    "nl-s159",
+    "nl-s150",
+    "nl-s158",
+    "nl-s070",
+    "nl-s090",
+    "nl-s151",
+    "nl-s032",
+    "nl-p06",
+    "nl-s094",
+    "nl-s018",
+    "nl-s038",
+    "nl-s081",
+    "nl-s121",
+    "nl-s049",
+    "nl-s098",
+    "nl-s116",
+    "nl-s100",
+    "nl-s088",
+    "nl-s061",
+    "nl-p05",
+    "nl-s111",
+    "nl-s087",
+    "nl-s170",
+    "nl-s122",
+    "nl-s120",
+    "nl-s008",
+    "nl-s161",
+    "nl-s097",
+    "nl-s126",
+    "nl-s074",
+    "nl-s066",
+    "nl-s134"
+  ],
+  "items": [
+    {
+      "id": "nl-p01",
+      "kind": "para",
+      "title": "Meet Our New Cat",
+      "native": [
+        "Je moet binnenkort echt langskomen om onze nieuwe kat Miso te ontmoeten.",
+        "We hebben hem zaterdag opgehaald bij het dierenasiel hier in Utrecht.",
+        "Hij kroop thuis meteen achter de bank, met alleen zijn staart nog zichtbaar.",
+        "Voorlopig staat zijn mandje naast de verwarming, lekker uit de tocht.",
+        "Vanmorgen kwam hij voor het eerst uit zichzelf bij me zitten.",
+        "Tijdens het ontbijt tikte hij met zijn poot tegen mijn mok.",
+        "Zijn voerbak staat nu in de keuken, ver van de kattenbak.",
+        "Ik houd de balkondeur dicht, want hij is hier nog niet gewend.",
+        "Stuur maar een appje wanneer je tijd hebt om kennis te maken."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-p02",
+      "kind": "para",
+      "title": "User Feedback Update",
+      "native": [
+        "De bezoekers van onze bibliotheek in Haarlem hebben de nieuwe reserveringsfunctie getest.",
+        "De meeste gebruikers konden zonder hulp een beschikbare werkplek vinden en boeken.",
+        "Vooral het overzicht met vrije tijden viel bij de deelnemers goed in de smaak.",
+        "Wel vonden enkele bezoekers de knop voor annuleren lastig te vinden.",
+        "Ook was niet meteen duidelijk of hun reservering echt was gelukt.",
+        "Ik stel daarom voor om na het boeken een duidelijke bevestiging te tonen.",
+        "Daarnaast kunnen we de annuleerknop direct onder de geboekte werkplek zetten.",
+        "Willen jullie uiterlijk donderdag laten weten of deze aanpassingen technisch haalbaar zijn?",
+        "Dan bespreek ik vrijdag met het testteam wanneer we opnieuw kunnen testen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-p03",
+      "kind": "para",
+      "title": "First Day at Work",
+      "native": [
+        "Mijn eerste werkdag bij de bakkerij in Groningen begon behoorlijk onhandig.",
+        "Ik stond met mijn nieuwe werkschoenen al vroeg voor de verkeerde ingang.",
+        "De bezorger wees me lachend op de personeelsdeur naast het fietsenrek.",
+        "Binnen rook het naar vers brood en lag er bloem op de werkbank.",
+        "Mijn collega Anouk gaf me een schort dat bijna mijn schoenen raakte.",
+        "Bij mijn eerste bestelling vergat ik het brood door de snijmachine te halen.",
+        "De klant wachtte rustig en vertelde dat zij vroeger ook bakker was.",
+        "Tijdens de pauze aten we samen krentenbollen aan een kleine houten tafel.",
+        "Aan het einde van de ochtend herkende ik zelfs enkele vaste klanten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-p04",
+      "kind": "para",
+      "title": "Caring for Balcony Plants",
+      "native": [
+        "Op ons balkon in Rotterdam krijgen de planten behoorlijk wat wind.",
+        "Zet de hoge potten daarom tegen de muur, naast de balkondeur.",
+        "Controleer of regenwater door de gaten onder in de potten kan weglopen.",
+        "Vul nieuwe potten met verse potgrond en druk die niet te stevig aan.",
+        "Geef pas water als de bovenste laag aarde droog begint te worden.",
+        "Giet het water rustig op de aarde, niet over de blaadjes.",
+        "Zet munt liever apart, want die neemt anders de hele bak over.",
+        "Haal uitgebloeide bloemen weg, zodat de plant weer nieuwe knoppen kan maken.",
+        "Haal bij harde wind ook de kleine potten weg bij de reling."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-p05",
+      "kind": "para",
+      "title": "A Relaxed Fitness Class",
+      "native": [
+        "De groepsles bij mijn sportschool op Strijp-S bevalt me verrassend goed.",
+        "We trainen in een kleine zaal, zonder harde muziek of felle lampen.",
+        "De trainer legt rustig uit hoe je de oefeningen goed uitvoert.",
+        "Tijdens mijn eerste les kreeg ik meteen een lichtere kettlebell aangeboden.",
+        "Ik was blij met de lichtere kettlebell, want ik wilde niet meteen te zwaar beginnen.",
+        "Alleen de kleedkamer is wat krap als de volgende groep binnenkomt.",
+        "Voor € 12,50 per les verwacht ik eigenlijk iets meer ruimte.",
+        "Toch ga ik terug naar de sportschool, vooral omdat de sfeer zo ontspannen is."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-p06",
+      "kind": "para",
+      "title": "Planning Our Team Offsite",
+      "native": [
+        "Ons teamuitje naar Soestduinen staat gepland voor 18 september 2026.",
+        "We verzamelen om 9.15 uur bij station Amersfoort Centraal.",
+        "Voor de 12 collega's bestel ik vooraf twee taxibusjes.",
+        "De rit naar onze vergaderplek is ongeveer 9 kilometer.",
+        "Om 10.00 uur beginnen we met een overleg van 90 minuten.",
+        "Voor de lunch reken ik op € 16,50 per persoon.",
+        "Na het eten wandelen we een route van 4 kilometer.",
+        "Rond 16.00 uur vertrekken de busjes weer richting het station.",
+        "Het totale budget voor deze dag is € 540."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-p07",
+      "kind": "para",
+      "title": "Calling About a Tap",
+      "native": [
+        "Goedemiddag, u spreekt met Noor de Boer, uw huurder in Assendorp in Zwolle.",
+        "Ik bel omdat de kraan in mijn keuken sinds gisteren blijft druppelen.",
+        "Ook als ik de kraan stevig dichtdraai, blijft er water uit komen.",
+        "Onder het aanrecht is gelukkig alles droog, voor zover ik kan zien.",
+        "Zou u iemand kunnen laten langskomen om naar de kraan te kijken?",
+        "Donderdag ben ik de hele ochtend thuis, dus dat zou goed uitkomen.",
+        "Als een ander moment beter past, kan ik daar rekening mee houden.",
+        "Wilt u mij laten weten wanneer ik de monteur kan verwachten?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-p08",
+      "kind": "para",
+      "title": "Discovering Het Twiske",
+      "native": [
+        "Net ten noorden van Amsterdam ligt recreatiegebied Het Twiske.",
+        "Tussen Landsmeer, Oostzaan en Den Ilp vindt u hier water, riet en grasland.",
+        "Rond de Stootersplas liggen wandelpaden en kleine stranden.",
+        "Op zonnige dagen komen veel bezoekers hier zwemmen, fietsen of picknicken.",
+        "Als u vogels wilt bekijken, kunt u het beste naar de rustigere delen van Het Twiske gaan.",
+        "In het voorjaar hoort u tussen het riet allerlei vogels.",
+        "Ook buiten de zomer kunt u hier fijn langs het water wandelen.",
+        "Voor een wandeling in het groen hoeft u vanuit Amsterdam dus niet ver te reizen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s001",
+      "kind": "sentence",
+      "native": [
+        "Natuurlijk mag je blijven slapen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s002",
+      "kind": "sentence",
+      "native": [
+        "Laat gerust weten welke taken ik tussendoor kan oppakken."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s003",
+      "kind": "sentence",
+      "native": [
+        "Rijd nog 7 kilometer rechtdoor en neem afrit 22. Sla daarna bij de eerste weg rechtsaf."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s004",
+      "kind": "sentence",
+      "native": [
+        "Dinsdag moet ik bij de kaasboer nog een stuk komijnekaas halen voor het buurtontbijt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s005",
+      "kind": "sentence",
+      "native": [
+        "Toon de openingstijden van het Teylers Museum voor komende zondag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s006",
+      "kind": "sentence",
+      "native": [
+        "Zonder internet kun je die app nog steeds gebruiken."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s007",
+      "kind": "sentence",
+      "native": [
+        "Vanaf het veerplein loop je rechtstreeks de dorpskern in."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s008",
+      "kind": "sentence",
+      "native": [
+        "Zo, dat brood is mooi gerezen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s009",
+      "kind": "sentence",
+      "native": [
+        "Luister, de stekjes mogen naar buiten, hoewel, laat ze vannacht toch nog maar op de vensterbank staan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s010",
+      "kind": "sentence",
+      "native": [
+        "Die Bossche bol was lekker, maar wel erg machtig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s011",
+      "kind": "sentence",
+      "native": [
+        "Merel, ga je mee schaatsen op de Jaap Edenbaan?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s012",
+      "kind": "sentence",
+      "native": [
+        "Helemaal goed, je verlof is goedgekeurd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s013",
+      "kind": "sentence",
+      "native": [
+        "Onze vlucht vertrekt om 06.40 uur vanaf gate 17."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s014",
+      "kind": "sentence",
+      "native": [
+        "Voeg vaatwastabletten toe aan mijn bestelling."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s015",
+      "kind": "sentence",
+      "native": [
+        "Waarmee kan ik kookroom vervangen als ik een romige pastasaus wil maken zonder zuivel te gebruiken?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s016",
+      "kind": "sentence",
+      "native": [
+        "Excel loopt steeds vast."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s017",
+      "kind": "sentence",
+      "native": [
+        "Lisa haalt haar neef op bij Rotterdam Centraal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s018",
+      "kind": "sentence",
+      "native": [
+        "Rabarber hoef je niet te schillen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s019",
+      "kind": "sentence",
+      "native": [
+        "Jasmin, heb je de reservering nou bevestigd of niet?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s020",
+      "kind": "sentence",
+      "native": [
+        "Eerlijk gezegd vind ik dat behang een beetje druk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s021",
+      "kind": "sentence",
+      "native": [
+        "De tomatensaus is nog wat dun, maar na een paar minuten pruttelen zonder deksel wordt hij dikker."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s022",
+      "kind": "sentence",
+      "native": [
+        "Welkom terug op kantoor, Fatima!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s023",
+      "kind": "sentence",
+      "native": [
+        "Donderdag begint de cursus om 19.45 uur en eindigt om 21.15 uur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s024",
+      "kind": "sentence",
+      "native": [
+        "Schrijf alvast op dat Yara donderdag haar spreekbeurt heeft."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s025",
+      "kind": "sentence",
+      "native": [
+        "Schakel de ondertiteling in bij de film die nu draait."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s026",
+      "kind": "sentence",
+      "native": [
+        "Wacht, de link naar het videogesprek is al verlopen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s027",
+      "kind": "sentence",
+      "native": [
+        "Naast de supermarkt heeft een nieuwe kapper zijn zaak geopend."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s028",
+      "kind": "sentence",
+      "native": [
+        "Alles voor de picknick past net in deze koelbox."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s029",
+      "kind": "sentence",
+      "native": [
+        "Eh, bedoel je Selma Özdemir?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s030",
+      "kind": "sentence",
+      "native": [
+        "Achteraf had ik liever eerlijk gezegd dat het me te veel werd, maar ik wilde niemand teleurstellen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s031",
+      "kind": "sentence",
+      "native": [
+        "Mijn trein heeft vertraging, dus begin maar vast met eten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s032",
+      "kind": "sentence",
+      "native": [
+        "Bedankt voor uw snelle reactie."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s033",
+      "kind": "sentence",
+      "native": [
+        "Parkeren kost hier € 3,80 per uur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s034",
+      "kind": "sentence",
+      "native": [
+        "Zodra de kaartverkoop begint, wil ik kaartjes bestellen voor de voorstelling in Theater Zuidplein."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s035",
+      "kind": "sentence",
+      "native": [
+        "Hoelang moet een wollen trui weken voordat ik hem uitspoel?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s036",
+      "kind": "sentence",
+      "native": [
+        "Alleen de mensen op ons kantoor in Zwolle hebben toegang tot die map met klantgegevens."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s037",
+      "kind": "sentence",
+      "native": [
+        "Er staan twee zakken tuinaarde op mijn bon, maar ik heb er maar eentje meegenomen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s038",
+      "kind": "sentence",
+      "native": [
+        "Gelukkig hoeven de kinderen vandaag geen gymspullen mee te nemen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s039",
+      "kind": "sentence",
+      "native": [
+        "Eerst dacht ik aan een ronde spiegel, maar zo'n ovale lijkt me toch mooier boven de wastafel."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s040",
+      "kind": "sentence",
+      "native": [
+        "Jammer dat die cursus zo weinig ruimte voor vragen laat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s041",
+      "kind": "sentence",
+      "native": [
+        "Gefeliciteerd met je nieuwe baan!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s042",
+      "kind": "sentence",
+      "native": [
+        "Nu de training in Eindhoven is afgerond, zet ik de nieuwe werkwijze voor iedereen op papier."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s043",
+      "kind": "sentence",
+      "native": [
+        "Volgende week wordt Mees 37."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s044",
+      "kind": "sentence",
+      "native": [
+        "Houd vrijdagmiddag vrij om samen de vakantiefoto's uit te zoeken."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s045",
+      "kind": "sentence",
+      "native": [
+        "Lees het laatste bericht van mijn zus voor en wacht daarna even op mijn antwoord."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s046",
+      "kind": "sentence",
+      "native": [
+        "Zou je het geluid van je meldingen even uitzetten, want dat gepiep leidt me af?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s047",
+      "kind": "sentence",
+      "native": [
+        "Boven de bloemenwinkel woont mijn tante."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s048",
+      "kind": "sentence",
+      "native": [
+        "Fijn dat jullie komen helpen versieren, want voor het tuinfeest moeten er nog heel wat slingers opgehangen worden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s049",
+      "kind": "sentence",
+      "native": [
+        "Oké, doe maar poffertjes, zonder poedersuiker deze keer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s050",
+      "kind": "sentence",
+      "native": [
+        "Sinds ik in Nijmegen woon, merk ik pas hoeveel rust een eigen plek me geeft."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s051",
+      "kind": "sentence",
+      "native": [
+        "Vanavond kook ik iets met de restjes uit de koelkast, dus verwacht geen hoogstandjes van me."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s052",
+      "kind": "sentence",
+      "native": [
+        "Beste meneer Smit, zou u de getekende overeenkomst uiterlijk vrijdag naar onze administratie willen mailen?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s053",
+      "kind": "sentence",
+      "native": [
+        "Noteer 06 1234 5678 als mijn nieuwe nummer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s054",
+      "kind": "sentence",
+      "native": [
+        "Zet havermout op de boodschappenlijst."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s055",
+      "kind": "sentence",
+      "native": [
+        "Pauzeer de podcast tot ik klaar ben met stofzuigen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s056",
+      "kind": "sentence",
+      "native": [
+        "Marieke, staat het wachtwoord voor de wifi ergens opgeschreven?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s057",
+      "kind": "sentence",
+      "native": [
+        "Tot de brug weer open is, moeten voetgangers via het fietspad aan de overkant lopen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s058",
+      "kind": "sentence",
+      "native": [
+        "Omdat de zon precies op het raam staat, doe ik het rolgordijn alvast een stukje omlaag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s059",
+      "kind": "sentence",
+      "native": [
+        "Pak yoghurt, peren en koffie, en ook nog keukenpapier."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s060",
+      "kind": "sentence",
+      "native": [
+        "Wauw, je hebt echt tekentalent!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s061",
+      "kind": "sentence",
+      "native": [
+        "Stuur even een foto van die kast voordat je hem koopt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s062",
+      "kind": "sentence",
+      "native": [
+        "Bij onze vestiging in Breda zoeken we tijdelijk een receptionist."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s063",
+      "kind": "sentence",
+      "native": [
+        "Bram huurt in Gouda een opslagruimte van 9 vierkante meter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s064",
+      "kind": "sentence",
+      "native": [
+        "Vervang het peertje in de gang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s065",
+      "kind": "sentence",
+      "native": [
+        "Wanneer krijg ik mijn geld terug na een retour bij bol?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s066",
+      "kind": "sentence",
+      "native": [
+        "Inloggen lukt alleen met gezichtsherkenning."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s067",
+      "kind": "sentence",
+      "native": [
+        "Hassan woont vlak bij het Vondelpark."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s068",
+      "kind": "sentence",
+      "native": [
+        "Gisteren lag mijn pakketje klaar bij het afhaalpunt van Albert Heijn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s069",
+      "kind": "sentence",
+      "native": [
+        "Eigenlijk wilde ik gaan hardlopen, maar ik blijf binnen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s070",
+      "kind": "sentence",
+      "native": [
+        "Excuus, dat klonk nogal bot."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s071",
+      "kind": "sentence",
+      "native": [
+        "Eindelijk staat de tent overeind!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s072",
+      "kind": "sentence",
+      "native": [
+        "Zouden jullie een retourlabel voor de werkschoenen kunnen regelen, want maat 42 zit me te krap?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s073",
+      "kind": "sentence",
+      "native": [
+        "Met 35% korting betaal je voor die jas nog € 52,00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s074",
+      "kind": "sentence",
+      "native": [
+        "Controleer vanmiddag of het abonnement op dat tijdschrift automatisch doorloopt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s075",
+      "kind": "sentence",
+      "native": [
+        "Wordt het morgen droog genoeg om buiten te schilderen?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s076",
+      "kind": "sentence",
+      "native": [
+        "Sinds de herstart herkent de computer mijn printer niet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s077",
+      "kind": "sentence",
+      "native": [
+        "Nadia laat haar gordijnen inkorten bij een naaiatelier in Tilburg."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s078",
+      "kind": "sentence",
+      "native": [
+        "Willem oefent liever op zijn keyboard met een koptelefoon op, zodat de buren geen last van hem hebben."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s079",
+      "kind": "sentence",
+      "native": [
+        "Leiden zei ik, maar ik bedoelde eigenlijk Leeuwarden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s080",
+      "kind": "sentence",
+      "native": [
+        "Toch knap hoe jullie dat schoolfeest helemaal zelf hebben georganiseerd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s081",
+      "kind": "sentence",
+      "native": [
+        "Als je straks langs de HEMA komt, wil je dan een rol inpakpapier voor me meenemen?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s082",
+      "kind": "sentence",
+      "native": [
+        "Door werkzaamheden aan het spoor werk ik maandag thuis, maar via Teams ben ik gewoon bereikbaar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s083",
+      "kind": "sentence",
+      "native": [
+        "Kun je € 18,75 voor de lunch en € 9,25 voor het treinkaartje overmaken?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s084",
+      "kind": "sentence",
+      "native": [
+        "Voordat ik mijn broek bij Zeeman ga ruilen, moet ik de kassabon uit de keukenla halen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s085",
+      "kind": "sentence",
+      "native": [
+        "Welke route naar het Kröller-Müller Museum heeft de minste files als we na de lunch vertrekken?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s086",
+      "kind": "sentence",
+      "native": [
+        "Dubbele foto's nemen onnodig ruimte in."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s087",
+      "kind": "sentence",
+      "native": [
+        "Jullie kunnen de auto achter het buurthuis kwijt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s088",
+      "kind": "sentence",
+      "native": [
+        "Eet Noor haar boterhammen wel op?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s089",
+      "kind": "sentence",
+      "native": [
+        "Reken maar € 7,50, nee, € 8,50 voor die bos tulpen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s090",
+      "kind": "sentence",
+      "native": [
+        "Dankjewel, de rits werkt weer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s091",
+      "kind": "sentence",
+      "native": [
+        "Oma wil graag weten wie er meegaat naar de Efteling."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s092",
+      "kind": "sentence",
+      "native": [
+        "Heeft iemand de notulen van gisteren al uitgewerkt?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s093",
+      "kind": "sentence",
+      "native": [
+        "Rugnummer 14 is voor jou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s094",
+      "kind": "sentence",
+      "native": [
+        "Morgen moet de gft-bak naar buiten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s095",
+      "kind": "sentence",
+      "native": [
+        "Mogen lege chipszakken bij het plastic?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s096",
+      "kind": "sentence",
+      "native": [
+        "Rachid heeft feedback achtergelaten bij jouw ontwerp voor de website."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s097",
+      "kind": "sentence",
+      "native": [
+        "Heb jij toevallig met Bas afgesproken op de Grote Markt?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s098",
+      "kind": "sentence",
+      "native": [
+        "Hopelijk blijft het tijdens Koningsdag droog op de vrijmarkt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s099",
+      "kind": "sentence",
+      "native": [
+        "Nee, wacht, ik wil de groene."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s100",
+      "kind": "sentence",
+      "native": [
+        "Femke, vertrouw op jezelf, je hebt hier genoeg voor geoefend."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s101",
+      "kind": "sentence",
+      "native": [
+        "Sorry, de deurbel deed het niet en mijn telefoon stond op stil."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s102",
+      "kind": "sentence",
+      "native": [
+        "Akkoord, deze versie mag online."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s103",
+      "kind": "sentence",
+      "native": [
+        "Kennelijk krijg ik vanaf 1 juli 2027 maandelijks 15 gigabyte in plaats van 10, zonder extra kosten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s104",
+      "kind": "sentence",
+      "native": [
+        "Rond 16.00 uur wil ik even bij Kruidvat binnenlopen voor zonnebrand en een nieuwe haarborstel."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s105",
+      "kind": "sentence",
+      "native": [
+        "Zoek een recept voor vegetarische erwtensoep zonder knolselderij."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s106",
+      "kind": "sentence",
+      "native": [
+        "Zolang de back-up nog bezig is, laat ik de laptop liever aan de stroom hangen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s107",
+      "kind": "sentence",
+      "native": [
+        "Tessa wacht bij de pont."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s108",
+      "kind": "sentence",
+      "native": [
+        "Papa vraagt of iedereen oude kranten wil bewaren, zodat we daar straks de breekbare vaas in kunnen verpakken."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s109",
+      "kind": "sentence",
+      "native": [
+        "Moet er ook wasverzachter bij?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s110",
+      "kind": "sentence",
+      "native": [
+        "Volgens mij heb je alweer mijn sokken in je sporttas gestopt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s111",
+      "kind": "sentence",
+      "native": [
+        "Helaas ontbreekt de bijlage nog."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s112",
+      "kind": "sentence",
+      "native": [
+        "Lotte zwemt tegenwoordig 800 meter in 16 minuten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s113",
+      "kind": "sentence",
+      "native": [
+        "Reserveer straks een plekje voor de pottenbakles in Delft."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s114",
+      "kind": "sentence",
+      "native": [
+        "Speel mijn favoriete afspeellijst af."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s115",
+      "kind": "sentence",
+      "native": [
+        "Waarom rekent Odido ineens aansluitkosten voor mijn nieuwe abonnement?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s116",
+      "kind": "sentence",
+      "native": [
+        "Verderop begint het voetgangersgebied."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s117",
+      "kind": "sentence",
+      "native": [
+        "Krijgt u de blauwe mokken binnenkort weer op voorraad?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s118",
+      "kind": "sentence",
+      "native": [
+        "Klopt die maat nou wel?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s119",
+      "kind": "sentence",
+      "native": [
+        "Hebben jullie nog zin in een potje kaarten vanavond?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s120",
+      "kind": "sentence",
+      "native": [
+        "Wat fijn dat de proefdruk vandaag al binnen is."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s121",
+      "kind": "sentence",
+      "native": [
+        "Graag ontvang ik vóór 24 september de offerte voor 6 bureaus en 12 stoelen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s122",
+      "kind": "sentence",
+      "native": [
+        "Herinner me aan de ouderavond."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s123",
+      "kind": "sentence",
+      "native": [
+        "Verstuur de gescande bonnetjes als losse bestanden naar Anouk, met de maandnaam in het onderwerp."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s124",
+      "kind": "sentence",
+      "native": [
+        "Dat bestand heb je volgens mij per ongeluk verwijderd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s125",
+      "kind": "sentence",
+      "native": [
+        "Esra heeft aangeboden om ons na de voorstelling bij de schouwburg in Haarlem op te halen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s126",
+      "kind": "sentence",
+      "native": [
+        "Ach, de hagel stopt alweer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s127",
+      "kind": "sentence",
+      "native": [
+        "Wilt u het cadeau inpakken, of nee, geef het papier maar los mee, dan probeer ik het zelf."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s128",
+      "kind": "sentence",
+      "native": [
+        "Daan, mag ik je ladder lenen om de dakgoot schoon te maken?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s129",
+      "kind": "sentence",
+      "native": [
+        "We bewaren de kartonnen dozen voor de volgende verzending."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s130",
+      "kind": "sentence",
+      "native": [
+        "Passen planken van 240 centimeter in een aanhanger van 3 meter?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s131",
+      "kind": "sentence",
+      "native": [
+        "Koop deze week nieuwe veters voor mijn wandelschoenen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s132",
+      "kind": "sentence",
+      "native": [
+        "Vergelijk de prijzen van draadloze koptelefoons met een lange batterijduur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s133",
+      "kind": "sentence",
+      "native": [
+        "Blijkbaar bewaart WhatsApp alle filmpjes automatisch op mijn toestel."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s134",
+      "kind": "sentence",
+      "native": [
+        "Onder het viaduct kun je voorlopig geen fietsen stallen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s135",
+      "kind": "sentence",
+      "native": [
+        "Hutspot eet ik het liefst met een flinke lepel mosterd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s136",
+      "kind": "sentence",
+      "native": [
+        "Woensdag lukt niet, nee, maak daar donderdag van."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s137",
+      "kind": "sentence",
+      "native": [
+        "Neem jij de kinderwagen mee, dan draag ik de tas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s138",
+      "kind": "sentence",
+      "native": [
+        "Intussen zijn alle facturen betaald."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s139",
+      "kind": "sentence",
+      "native": [
+        "Voor 4 personen heb je 300 gram rijst nodig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s140",
+      "kind": "sentence",
+      "native": [
+        "Denk eraan dat de bibliotheekpas volgende maand verloopt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s141",
+      "kind": "sentence",
+      "native": [
+        "Waar vind ik een schoenmaker in de buurt van Amersfoort?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s142",
+      "kind": "sentence",
+      "native": [
+        "Liever ontvang ik de bladmuziek als pdf, zodat ik tijdens het oefenen op mijn tablet kan meelezen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s143",
+      "kind": "sentence",
+      "native": [
+        "Buurvrouw, mag de muziek iets zachter?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s144",
+      "kind": "sentence",
+      "native": [
+        "Ruikt die melk nog fris?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s145",
+      "kind": "sentence",
+      "native": [
+        "Bezorgen hoeft niet, ik kom langs."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s146",
+      "kind": "sentence",
+      "native": [
+        "Oeps, mijn nieuwe laarzen knellen behoorlijk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s147",
+      "kind": "sentence",
+      "native": [
+        "Tijdens de vakbeurs in Utrecht sta ik op onze stand. Het kan daarom wat langer duren voordat ik reageer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s148",
+      "kind": "sentence",
+      "native": [
+        "Na 90 minuten stond het 2-2."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s149",
+      "kind": "sentence",
+      "native": [
+        "Zaterdag wil ik de keukenkastjes uitmesten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s150",
+      "kind": "sentence",
+      "native": [
+        "Start een timer van 11 minuten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s151",
+      "kind": "sentence",
+      "native": [
+        "Zo'n draadloos toetsenbord kost bij Coolblue nu maar € 64,95."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s152",
+      "kind": "sentence",
+      "native": [
+        "Mag dat vloerkleed voor € 15,00 mee naar huis?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s153",
+      "kind": "sentence",
+      "native": [
+        "Ik ben weer veilig thuis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s154",
+      "kind": "sentence",
+      "native": [
+        "Jeroen van Dijk neemt voortaan de personeelsplanning over."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s155",
+      "kind": "sentence",
+      "native": [
+        "Bus 28 vertrekt om 08.15 uur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s156",
+      "kind": "sentence",
+      "native": [
+        "Vandaag koop ik kikkererwten als de linzen uitverkocht zijn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s157",
+      "kind": "sentence",
+      "native": [
+        "Sanne, ligt mijn oplader toevallig nog bij jou op tafel?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s158",
+      "kind": "sentence",
+      "native": [
+        "Dankzij de update werkt onze gedeelde agenda weer goed."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s159",
+      "kind": "sentence",
+      "native": [
+        "Tussen 11.00 uur en 13.00 uur bezorgen ze onze koelkast."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s160",
+      "kind": "sentence",
+      "native": [
+        "Bewaar wat stamppot voor me."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s161",
+      "kind": "sentence",
+      "native": [
+        "Aylin, wanneer verwacht je een reactie van de leverancier?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s162",
+      "kind": "sentence",
+      "native": [
+        "Beide kussens kosten samen € 26,90."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s163",
+      "kind": "sentence",
+      "native": [
+        "Zullen we zondag door het Noorderplantsoen wandelen met de hond?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s164",
+      "kind": "sentence",
+      "native": [
+        "Hierbij ontvang je de aangepaste offerte voor het schilderwerk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s165",
+      "kind": "sentence",
+      "native": [
+        "Op 18 augustus 2026 verhuizen we naar Biltstraat 93."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s166",
+      "kind": "sentence",
+      "native": [
+        "Het oppassen was gezellig, we hebben de hele middag geknutseld."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s167",
+      "kind": "sentence",
+      "native": [
+        "Succes met jullie presentatie morgen!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s168",
+      "kind": "sentence",
+      "native": [
+        "Onze kamer ligt op de 8e verdieping."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s169",
+      "kind": "sentence",
+      "native": [
+        "Mam, stuur je dat recept voor Limburgse vlaai nog even door, want iedereen vraagt ernaar?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s170",
+      "kind": "sentence",
+      "native": [
+        "Fleur, bedankt voor het invallen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s171",
+      "kind": "sentence",
+      "native": [
+        "Per wasbeurt gebruik je 45 milliliter wasmiddel voor 5 kilo was."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s172",
+      "kind": "sentence",
+      "native": [
+        "Zeg maar tegen je broer dat hij zijn logeerspullen hier kan laten tot hij terug is."
+      ],
+      "roman": null
+    },
+    {
+      "id": "nl-s173",
+      "kind": "sentence",
+      "native": [
+        "Willen jullie de gewerkte uren vandaag nog invullen?"
+      ],
+      "roman": null
+    }
+  ]
+}

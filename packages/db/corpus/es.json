@@ -1,0 +1,1545 @@
+{
+  "lang": "es",
+  "starter": [
+    "es-s143",
+    "es-s096",
+    "es-s087",
+    "es-s079",
+    "es-s007",
+    "es-s125",
+    "es-s105",
+    "es-s033",
+    "es-s156",
+    "es-s159",
+    "es-s106",
+    "es-s025",
+    "es-s072",
+    "es-s019",
+    "es-s165",
+    "es-s120",
+    "es-s119",
+    "es-s090",
+    "es-s044",
+    "es-p01",
+    "es-s045",
+    "es-s039",
+    "es-s085",
+    "es-s016",
+    "es-s132",
+    "es-s148",
+    "es-s101",
+    "es-s167",
+    "es-s111",
+    "es-s160",
+    "es-s059",
+    "es-s018",
+    "es-s124",
+    "es-s028",
+    "es-s099",
+    "es-s014",
+    "es-s084",
+    "es-s109",
+    "es-p07",
+    "es-s060",
+    "es-s095",
+    "es-s163",
+    "es-s077",
+    "es-s043",
+    "es-s036",
+    "es-s075",
+    "es-s112",
+    "es-s051",
+    "es-s107",
+    "es-s089",
+    "es-s086",
+    "es-s024",
+    "es-s034",
+    "es-s009",
+    "es-s115",
+    "es-s032",
+    "es-s017",
+    "es-s055"
+  ],
+  "items": [
+    {
+      "id": "es-p01",
+      "kind": "para",
+      "title": "Changing Weekend Plans",
+      "native": [
+        "Te cuento que ya cambió otra vez el plan del sábado en Guadalajara.",
+        "Al principio íbamos a desayunar en Santa Tere y después caminar por Chapultepec.",
+        "Ahora Daniela tiene que recoger a su hermana y solo puede por la tarde.",
+        "Además, parece que va a llover, así que mejor dejamos la caminata para después.",
+        "Mi mamá propuso comer en su casa y preparar unas quesadillas de champiñones.",
+        "Podríamos llegar a las 2 de la tarde y ayudarle con la comida.",
+        "Si deja de llover, salimos por una nieve antes de que anochezca.",
+        "El domingo sí lo tengo libre, por si prefieres vernos con más calma.",
+        "Dime qué te acomoda y esta vez ya dejamos el plan cerrado."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-p02",
+      "kind": "para",
+      "title": "Moving the Office Upstairs",
+      "native": [
+        "Hola, equipo. El lunes nos cambiamos del tercer piso al quinto.",
+        "La oficina seguirá en el mismo edificio de Avenida Constitución, junto al estacionamiento.",
+        "El viernes debemos dejar cada escritorio vacío antes de las 5 de la tarde.",
+        "Pongan sus cuadernos y objetos personales en las cajas que dejó recepción.",
+        "Escriban su nombre en cada caja para que todo llegue al lugar correcto.",
+        "El equipo de sistemas desconectará las computadoras y revisará el wifi del nuevo espacio.",
+        "El lunes trabajaremos desde casa hasta que sistemas confirme que podemos entrar.",
+        "La reunión de las 10 de la mañana será por Zoom, como acordamos.",
+        "Si necesitan ayuda con algo pesado, avísenle a Patricia antes del viernes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-p03",
+      "kind": "para",
+      "title": "Learning to Ride",
+      "native": [
+        "Aprendí a andar en bicicleta en Puebla, cuando ya había terminado la universidad.",
+        "Mi prima Lucía me prestó una bicicleta azul con una canasta medio chueca.",
+        "Fuimos al Parque Ecológico un domingo temprano, cuando todavía había poca gente.",
+        "Al principio apretaba tanto el manubrio que terminaba con las manos cansadas.",
+        "Lucía caminaba a mi lado y me recordaba que mirara hacia adelante.",
+        "En la primera curva frené de golpe y puse ambos pies en el suelo.",
+        "Después encontré el equilibrio y avancé hasta una banca sin que nadie me sostuviera.",
+        "Me dio tanta emoción que di otra vuelta, aunque ya me temblaban las piernas.",
+        "Al salir compramos jugo de naranja y me quedé sonriendo todo el camino."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-p04",
+      "kind": "para",
+      "title": "Paying Your Electricity Bill",
+      "native": [
+        "Para pagar la luz, abre la app oficial CFE Contigo.",
+        "Si es tu primera vez, crea una cuenta con tu correo electrónico.",
+        "Inicia sesión y busca la opción para agregar el servicio de tu casa.",
+        "Escribe el número de servicio que aparece en tu recibo de luz.",
+        "Revisa que la dirección y el nombre del titular coincidan con tu recibo.",
+        "Selecciona el recibo pendiente y comprueba el total antes de continuar con el pago.",
+        "Elige pagar con tarjeta e ingresa los datos que te pide la aplicación.",
+        "Confirma el pago y espera a que aparezca el comprobante en la pantalla.",
+        "Descarga el comprobante para tenerlo a la mano si necesitas revisar el cargo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-p05",
+      "kind": "para",
+      "title": "Panuchos Worth Trying",
+      "native": [
+        "Probé los panuchos de un puesto junto al mercado de Santiago, en Mérida.",
+        "Pedí tres de pollo y un agua de chaya, y pagué $95.",
+        "La tortilla estaba crujiente por fuera y tenía una buena cantidad de frijol.",
+        "El pollo estaba jugoso, aunque para mi gusto le faltaba un poquito de sal.",
+        "La salsa de habanero venía aparte, así que pude ponerle solamente unas gotas.",
+        "Me gustó que prepararan todo al momento y mantuvieran limpia la mesa.",
+        "Eso sí, esperé casi 20 minutos porque había varios pedidos antes del mío.",
+        "El puesto tiene pocos asientos, y al mediodía hace falta un poco de sombra.",
+        "Yo volvería por el sabor, pero llegaría temprano para comer con más calma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-p06",
+      "kind": "para",
+      "title": "Three Days in Oaxaca",
+      "native": [
+        "Viajaré a Oaxaca del 14 al 16 de noviembre, con un presupuesto de $4200.",
+        "Saldré de Ciudad de México la noche anterior, a las 11.",
+        "Los boletos de ida y vuelta cuestan $1600, y los compraré mañana.",
+        "Reservaré 2 noches de hospedaje por $1400, a 2 kilómetros del Zócalo.",
+        "Apartaré $900 para desayunos, comidas y cenas durante todo el viaje.",
+        "Guardaré los $300 restantes para entradas y transporte a los lugares que visite.",
+        "El primer día recorreré el centro y comeré en el mercado.",
+        "El segundo día visitaré Monte Albán y llevaré agua para el recorrido.",
+        "El último día compraré pan antes de regresar a las 5 de la tarde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-p07",
+      "kind": "para",
+      "title": "Moving a Medical Appointment",
+      "native": [
+        "Buenos días, ¿hablo al consultorio de la doctora Marisol Trejo?",
+        "Soy Daniela Pacheco y quisiera cambiar la fecha de mi consulta.",
+        "Tengo cita el 18 de septiembre a las 10 de la mañana.",
+        "Me cambiaron el horario de trabajo y ya no podré llegar a esa hora.",
+        "¿Tendrán algún espacio disponible el 22 de septiembre después de las 4 de la tarde?",
+        "También podría ir el 23 de septiembre, si hubiera lugar por la mañana.",
+        "Por favor, no cancele mi cita actual hasta que confirmemos el nuevo horario.",
+        "¿Me podría mandar la confirmación por WhatsApp al número que tienen registrado?",
+        "Muchas gracias por ayudarme a cambiar la cita."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-p08",
+      "kind": "para",
+      "title": "Santa María Then and Now",
+      "native": [
+        "En Santa María la Ribera, en la Ciudad de México, hay casas antiguas y negocios nuevos.",
+        "En la alameda del barrio se reúnen vecinos de todas las edades.",
+        "El Kiosco Morisco es uno de los lugares más conocidos de Santa María la Ribera y sale en muchas fotos del barrio.",
+        "Algunas casas cerca de la alameda ahora son cafeterías y pequeños restaurantes.",
+        "En algunas calles hay edificios nuevos más altos que los que había antes.",
+        "Por las tardes y los fines de semana hay más movimiento en las calles del barrio.",
+        "Los vecinos siguen haciendo sus compras en las panaderías y los mercados del barrio.",
+        "Si visitas Santa María la Ribera, vale la pena entrar al Museo de Geología.",
+        "Aunque el barrio ha cambiado, la alameda sigue siendo un buen lugar para reunirse y pasar la tarde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s001",
+      "kind": "sentence",
+      "native": [
+        "¡Tu gato posa mejor que nosotros!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s002",
+      "kind": "sentence",
+      "native": [
+        "Cuando tengas la versión definitiva del folleto, compártela por el chat para que pueda darle una última leída."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s003",
+      "kind": "sentence",
+      "native": [
+        "Conseguí un descuento del 25 % en una mochila."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s004",
+      "kind": "sentence",
+      "native": [
+        "El jueves tengo que llevarle a Óscar Pineda las muestras de tela para su sillón nuevo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s005",
+      "kind": "sentence",
+      "native": [
+        "Muéstrame las farmacias que siguen abiertas cerca de aquí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s006",
+      "kind": "sentence",
+      "native": [
+        "Si usted trae el diseño en una memoria USB, podemos bordarlo en la mochila por $120."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s007",
+      "kind": "sentence",
+      "native": [
+        "Rosa viene desde Cuernavaca."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s008",
+      "kind": "sentence",
+      "native": [
+        "Compré una llave nueva para el lavabo, aunque primero necesito que alguien me ayude a cerrar el agua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s009",
+      "kind": "sentence",
+      "native": [
+        "Entonces, ¿ese aparato exprime naranjas o solamente mezcla los ingredientes?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s010",
+      "kind": "sentence",
+      "native": [
+        "Sinceramente, me da gusto verte tan contento con tu empleo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s011",
+      "kind": "sentence",
+      "native": [
+        "Ese suéter azul te queda mejor que el gris."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s012",
+      "kind": "sentence",
+      "native": [
+        "Listo, quedó actualizado el inventario."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s013",
+      "kind": "sentence",
+      "native": [
+        "Para llegar a tiempo al tren de las 7 de la mañana, saldré a las 6 de la mañana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s014",
+      "kind": "sentence",
+      "native": [
+        "Anota que debo remendar el pantalón."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s015",
+      "kind": "sentence",
+      "native": [
+        "Busca una receta de arepas que no lleve queso."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s016",
+      "kind": "sentence",
+      "native": [
+        "Con ese adaptador puedo conectar la laptop al proyector."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s017",
+      "kind": "sentence",
+      "native": [
+        "Toño recomienda la peluquería que está frente al quiosco."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s018",
+      "kind": "sentence",
+      "native": [
+        "Recibí el aviso por WhatsApp, pero falta indicar dónde comprar los uniformes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s019",
+      "kind": "sentence",
+      "native": [
+        "Anota un total de $240, no, de $260, contando el envío."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s020",
+      "kind": "sentence",
+      "native": [
+        "Lástima que hayan quitado las bancas de esta plaza."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s021",
+      "kind": "sentence",
+      "native": [
+        "Mejor pidamos una pizza. Hoy nadie tiene ganas de cocinar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s022",
+      "kind": "sentence",
+      "native": [
+        "Quedo pendiente de sus comentarios."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s023",
+      "kind": "sentence",
+      "native": [
+        "Al tanque le caben 45 litros."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s024",
+      "kind": "sentence",
+      "native": [
+        "Mañana toca ordenar los cables que guardé en el cajón."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s025",
+      "kind": "sentence",
+      "native": [
+        "Reproduce mi playlist de música tranquila sin activar el modo aleatorio."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s026",
+      "kind": "sentence",
+      "native": [
+        "Acabo de perder los cambios del diseño porque el programa se cerró antes de que pudiera guardarlos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s027",
+      "kind": "sentence",
+      "native": [
+        "Vengo a recoger un encargo de mi hermana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s028",
+      "kind": "sentence",
+      "native": [
+        "Rechina la puerta del baño."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s029",
+      "kind": "sentence",
+      "native": [
+        "¿Tardan una semana en ajustar el brazalete o lo pueden hacer mientras espero?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s030",
+      "kind": "sentence",
+      "native": [
+        "¡Qué bonito quedó el fleco!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s031",
+      "kind": "sentence",
+      "native": [
+        "¿Me prestas tu cargador mañana?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s032",
+      "kind": "sentence",
+      "native": [
+        "Sigo esperando la cotización de las sillas para recepción."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s033",
+      "kind": "sentence",
+      "native": [
+        "Gasté $85 en 3 cuadernos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s034",
+      "kind": "sentence",
+      "native": [
+        "Falta separar el cartón del plástico."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s035",
+      "kind": "sentence",
+      "native": [
+        "¿Qué temperatura hará en Toluca durante el fin de semana?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s036",
+      "kind": "sentence",
+      "native": [
+        "Esta contraseña ya no funciona."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s037",
+      "kind": "sentence",
+      "native": [
+        "Pasé por tu oficina para dejarte la bufanda, pero me dijeron que habías salido a desayunar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s038",
+      "kind": "sentence",
+      "native": [
+        "Traigo antojo de chilaquiles verdes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s039",
+      "kind": "sentence",
+      "native": [
+        "¿Dijiste efectivo o transferencia?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s040",
+      "kind": "sentence",
+      "native": [
+        "¡Ánimo, Alma, vas muy bien!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s041",
+      "kind": "sentence",
+      "native": [
+        "Te mando las fotos cuando termine de acomodar la sala."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s042",
+      "kind": "sentence",
+      "native": [
+        "Adelante con la propuesta, Esteban."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s043",
+      "kind": "sentence",
+      "native": [
+        "Bájate en Avenida Revolución 740, junto a la papelería."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s044",
+      "kind": "sentence",
+      "native": [
+        "Recuérdame renovar la tarjeta del gimnasio."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s045",
+      "kind": "sentence",
+      "native": [
+        "¿En qué parte de la app puedo ver si la tienda ya me devolvió el dinero?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s046",
+      "kind": "sentence",
+      "native": [
+        "Si vuelve a fallar el wifi, desconecta el módem un minuto y luego vuelve a conectarlo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s047",
+      "kind": "sentence",
+      "native": [
+        "Resulta que mi prima se cambió de colonia y ahora vivimos a unas cuadras de distancia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s048",
+      "kind": "sentence",
+      "native": [
+        "Últimamente, las bolsas del mandado se rompen con cualquier cosa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s049",
+      "kind": "sentence",
+      "native": [
+        "Pensándolo bien, no empaques la taza con los platos, mejor envuélvela aparte porque es un regalo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s050",
+      "kind": "sentence",
+      "native": [
+        "Reconozco que me costó aceptar la crítica, pero ahora entiendo cuánto me ayudó a mejorar mi dibujo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s051",
+      "kind": "sentence",
+      "native": [
+        "Encontré tu pulsera atorada entre los cojines del sofá."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s052",
+      "kind": "sentence",
+      "native": [
+        "Rebeca Salgado cubrirá mi turno durante las vacaciones de julio."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s053",
+      "kind": "sentence",
+      "native": [
+        "Tu turno es el 64 y están atendiendo al 59."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s054",
+      "kind": "sentence",
+      "native": [
+        "Debo devolver estos zapatos talla 25."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s055",
+      "kind": "sentence",
+      "native": [
+        "¿Cuántos centímetros de ancho tiene una hoja tamaño carta?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s056",
+      "kind": "sentence",
+      "native": [
+        "Instalé la actualización y dejaron de salir notificaciones duplicadas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s057",
+      "kind": "sentence",
+      "native": [
+        "Según la app, mi paquete está en recepción. ¿Usted sabe si puedo entrar por esta puerta?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s058",
+      "kind": "sentence",
+      "native": [
+        "¡Qué caro está el aguacate!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s059",
+      "kind": "sentence",
+      "native": [
+        "¿Van rumbo a Tlalpan o todavía pasan por mí?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s060",
+      "kind": "sentence",
+      "native": [
+        "Mil gracias por escucharme sin juzgar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s061",
+      "kind": "sentence",
+      "native": [
+        "Nadia, ¿te animas a tomar una clase de cerámica conmigo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s062",
+      "kind": "sentence",
+      "native": [
+        "Desde Puebla nos confirmaron que la muestra llegó sin daños."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s063",
+      "kind": "sentence",
+      "native": [
+        "Inscribirse al taller de fotografía cuesta $690. El plazo termina el 28 de agosto a las 5 de la tarde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s064",
+      "kind": "sentence",
+      "native": [
+        "Quiero acordarme de cancelar la prueba gratuita antes del cobro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s065",
+      "kind": "sentence",
+      "native": [
+        "Encuentra el correo donde Sergio Alcántara mandó el programa del curso."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s066",
+      "kind": "sentence",
+      "native": [
+        "Patricia necesita permisos de administradora para configurar la impresora."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s067",
+      "kind": "sentence",
+      "native": [
+        "Allá está la panadería."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s068",
+      "kind": "sentence",
+      "native": [
+        "Cancelaron mi cita para el corte y nadie me avisó."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s069",
+      "kind": "sentence",
+      "native": [
+        "Encarga sobres, cinta adhesiva y etiquetas, y de paso pregunta si venden cajas que podamos armar sin pegamento."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s070",
+      "kind": "sentence",
+      "native": [
+        "¡Vaya, qué paciencia tiene usted para explicar cada paso!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s071",
+      "kind": "sentence",
+      "native": [
+        "Perdón, tenía el celular en silencio y apenas vi tu mensaje. ¿Todavía hace falta que compre hielo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s072",
+      "kind": "sentence",
+      "native": [
+        "Ojo, las fórmulas de Excel no incluyen los gastos de transporte."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s073",
+      "kind": "sentence",
+      "native": [
+        "¿Entregan mi pedido a las 2 de la tarde?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s074",
+      "kind": "sentence",
+      "native": [
+        "Incluye café molido de Coatepec en la próxima compra."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s075",
+      "kind": "sentence",
+      "native": [
+        "Cierra todas las pestañas del navegador menos la última."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s076",
+      "kind": "sentence",
+      "native": [
+        "Rodrigo, acepta mi solicitud para editar el documento compartido."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s077",
+      "kind": "sentence",
+      "native": [
+        "¿Usted conoce a don Julián?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s078",
+      "kind": "sentence",
+      "native": [
+        "Todavía venden pan de muerto en esa pastelería de Coyoacán."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s079",
+      "kind": "sentence",
+      "native": [
+        "¿Era aquí o en Querétaro?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s080",
+      "kind": "sentence",
+      "native": [
+        "Desde que comparto departamento con Marisol, me pesa menos pagar la renta y disfruto tener con quién platicar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s081",
+      "kind": "sentence",
+      "native": [
+        "Ando sin saldo, escríbeme por aquí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s082",
+      "kind": "sentence",
+      "native": [
+        "Hola, Jimena, ¿a qué hora empieza la capacitación de ventas?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s083",
+      "kind": "sentence",
+      "native": [
+        "Todavía tengo 38 % de batería."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s084",
+      "kind": "sentence",
+      "native": [
+        "Apunta que el ensayo con Ximena será el 12 de junio."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s085",
+      "kind": "sentence",
+      "native": [
+        "Abre la carpeta de descargas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s086",
+      "kind": "sentence",
+      "native": [
+        "Netflix todavía no estrena ese episodio."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s087",
+      "kind": "sentence",
+      "native": [
+        "Cecilia toma el trolebús rumbo a Mixcoac cada tarde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s088",
+      "kind": "sentence",
+      "native": [
+        "Fíjate si la licuadora quedó bien tapada antes de prenderla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s089",
+      "kind": "sentence",
+      "native": [
+        "Espera, era para Iván."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s090",
+      "kind": "sentence",
+      "native": [
+        "Disculpa, me equivoqué de fila."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s091",
+      "kind": "sentence",
+      "native": [
+        "Cuenta conmigo para la sorpresa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s092",
+      "kind": "sentence",
+      "native": [
+        "Encontramos su local cerrado, pero podemos llevarle la lavadora después de las 4 de la tarde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s093",
+      "kind": "sentence",
+      "native": [
+        "Lucía, pagué $280 por el taller del 16 de febrero, que empieza a las 11 de la mañana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s094",
+      "kind": "sentence",
+      "native": [
+        "Programa una alarma para regar las plantas al anochecer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s095",
+      "kind": "sentence",
+      "native": [
+        "Llama a Guadalupe Rodríguez por altavoz."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s096",
+      "kind": "sentence",
+      "native": [
+        "Fernanda, tu micrófono está apagado."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s097",
+      "kind": "sentence",
+      "native": [
+        "Al salir de Buenavista, busca a Irma cerca del puesto de revistas que da hacia la plaza."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s098",
+      "kind": "sentence",
+      "native": [
+        "Abuela, queremos festejar tu cumpleaños en el jardín, pero tú decides a quién invitamos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s099",
+      "kind": "sentence",
+      "native": [
+        "Tráeme servilletas, cucharas y vasos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s100",
+      "kind": "sentence",
+      "native": [
+        "Le agradezco que me deje probar el teclado antes de comprarlo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s101",
+      "kind": "sentence",
+      "native": [
+        "¿Cómo les fue la primera noche con el cachorro?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s102",
+      "kind": "sentence",
+      "native": [
+        "Tomás, el presupuesto del tapizado está en tu WhatsApp."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s103",
+      "kind": "sentence",
+      "native": [
+        "Doña Elvira vende 12 tamales de rajas por $180."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s104",
+      "kind": "sentence",
+      "native": [
+        "Voy a confirmar por WhatsApp quién le dará de comer al perro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s105",
+      "kind": "sentence",
+      "native": [
+        "Inicia un temporizador de 9 minutos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s106",
+      "kind": "sentence",
+      "native": [
+        "Prefiero usar un mouse inalámbrico."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s107",
+      "kind": "sentence",
+      "native": [
+        "Detrás del teatro hay un local que arregla bicicletas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s108",
+      "kind": "sentence",
+      "native": [
+        "Citlali necesita cartulina para su tarea."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s109",
+      "kind": "sentence",
+      "native": [
+        "Traía ganas de salir, aunque con esta lluvia prefiero quedarme."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s110",
+      "kind": "sentence",
+      "native": [
+        "Caminar por el malecón de Mazatlán me ayuda a ordenar mis ideas cuando tengo demasiados pendientes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s111",
+      "kind": "sentence",
+      "native": [
+        "Mariana, ¿sigues en el mercado o vienes para acá?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s112",
+      "kind": "sentence",
+      "native": [
+        "Adjunto el recibo del estacionamiento."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s113",
+      "kind": "sentence",
+      "native": [
+        "Cumplo 37 el 9 de octubre."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s114",
+      "kind": "sentence",
+      "native": [
+        "Antes de acostarme, voy a pasar el pescado al refrigerador para que se descongele durante la noche."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s115",
+      "kind": "sentence",
+      "native": [
+        "Traduce esta frase al portugués y léela en voz alta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s116",
+      "kind": "sentence",
+      "native": [
+        "Berenice, estoy subiendo el video a Drive para que puedas verlo sin descargar un archivo tan pesado."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s117",
+      "kind": "sentence",
+      "native": [
+        "¿Seguimos derecho después del puente o damos vuelta?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s118",
+      "kind": "sentence",
+      "native": [
+        "Apenas salga el sol, saco las sábanas al patio."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s119",
+      "kind": "sentence",
+      "native": [
+        "Ponle salsa al pambazo, bueno, mejor déjala a un lado."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s120",
+      "kind": "sentence",
+      "native": [
+        "Oigan, ¿quién se llevó mis audífonos después de la película?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s121",
+      "kind": "sentence",
+      "native": [
+        "Hoy no puedo cubrirte, disculpa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s122",
+      "kind": "sentence",
+      "native": [
+        "Ganamos 4 a 2 el domingo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s123",
+      "kind": "sentence",
+      "native": [
+        "Tengo que pasar por las cortinas a la tintorería."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s124",
+      "kind": "sentence",
+      "native": [
+        "Adelanta el video 30 segundos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s125",
+      "kind": "sentence",
+      "native": [
+        "¿Dónde quedó el link de acceso?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s126",
+      "kind": "sentence",
+      "native": [
+        "Leonor atiende la mercería de la calle Morelos los sábados."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s127",
+      "kind": "sentence",
+      "native": [
+        "Según la maestra, Emiliano dejó su lonchera en el salón y puede recogerla después del recreo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s128",
+      "kind": "sentence",
+      "native": [
+        "Déjalo abierto, no, mejor entreabierto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s129",
+      "kind": "sentence",
+      "native": [
+        "¿Puedes recoger a Valentina en su clase de natación?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s130",
+      "kind": "sentence",
+      "native": [
+        "¿Sería posible mover la presentación al viernes para incorporar los cambios que pidió el cliente?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s131",
+      "kind": "sentence",
+      "native": [
+        "En Zacatecas, rentamos bicicletas durante 3 horas por $270."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s132",
+      "kind": "sentence",
+      "native": [
+        "Queda pendiente recoger la aspiradora del taller de don Efraín."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s133",
+      "kind": "sentence",
+      "native": [
+        "¿Hay centros de reciclaje abiertos en Monterrey los domingos?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s134",
+      "kind": "sentence",
+      "native": [
+        "¿Alguien sabe por qué desaparecieron mis contactos de WhatsApp?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s135",
+      "kind": "sentence",
+      "native": [
+        "Espérame junto a la taquilla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s136",
+      "kind": "sentence",
+      "native": [
+        "Señora Carmen, le cobro $90 por cambiar el cierre de su chamarra y se la entrego mañana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s137",
+      "kind": "sentence",
+      "native": [
+        "Compra manzanas, avena y yogur, pero del que viene natural."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s138",
+      "kind": "sentence",
+      "native": [
+        "Gracias por ayudarme con la mudanza. Te debo unos tacos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s139",
+      "kind": "sentence",
+      "native": [
+        "Por favor, incluyan las medidas del empaque en el catálogo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s140",
+      "kind": "sentence",
+      "native": [
+        "¿Reservaste la habitación 206 para el 23 de abril?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s141",
+      "kind": "sentence",
+      "native": [
+        "Beatriz pagó $340 por el gas y todavía tengo pendiente devolverle la mitad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s142",
+      "kind": "sentence",
+      "native": [
+        "Dime cómo puedo compartir una ubicación en tiempo real sin que se quede activada todo el día."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s143",
+      "kind": "sentence",
+      "native": [
+        "Héctor, autoricé la excursión desde la app de la escuela."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s144",
+      "kind": "sentence",
+      "native": [
+        "¿Aquí afilan tijeras de costura?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s145",
+      "kind": "sentence",
+      "native": [
+        "¿A quién le toca repartir las invitaciones del aniversario?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s146",
+      "kind": "sentence",
+      "native": [
+        "Confirmo lo del sábado, perdón, del viernes por la noche."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s147",
+      "kind": "sentence",
+      "native": [
+        "Ya llegué a casa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s148",
+      "kind": "sentence",
+      "native": [
+        "¿Le parece bien que probemos un tono más claro?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s149",
+      "kind": "sentence",
+      "native": [
+        "Quedan 650 metros para la salida."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s150",
+      "kind": "sentence",
+      "native": [
+        "Agrega jabón para lavar trastes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s151",
+      "kind": "sentence",
+      "native": [
+        "Llévame al Jardín Botánico de Culiacán por una ruta que evite las avenidas con más tráfico."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s152",
+      "kind": "sentence",
+      "native": [
+        "Durante la videollamada se escuchaba un eco bastante molesto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s153",
+      "kind": "sentence",
+      "native": [
+        "Nuestro autobús hace una parada antes de la terminal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s154",
+      "kind": "sentence",
+      "native": [
+        "¿Acepta $150 por el espejo si pago en efectivo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s155",
+      "kind": "sentence",
+      "native": [
+        "Aprovechemos que estaremos en Veracruz para conocer el acuario y comer algo frente al mar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s156",
+      "kind": "sentence",
+      "native": [
+        "Quisiera cambiar 40 euros por pesos antes del jueves."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s157",
+      "kind": "sentence",
+      "native": [
+        "Explícame dónde cambio el tamaño de los subtítulos para ver una serie sin acercarme tanto al televisor."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s158",
+      "kind": "sentence",
+      "native": [
+        "Claro, te presto la escalera."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s159",
+      "kind": "sentence",
+      "native": [
+        "Nos vemos mañana afuera del metro Bellas Artes a las 6 de la tarde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s160",
+      "kind": "sentence",
+      "native": [
+        "El vuelo 6 a Mérida sale a las 8 de la mañana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s161",
+      "kind": "sentence",
+      "native": [
+        "Dejé las llaves debajo de la maceta grande, por si llegas antes de que vuelva."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s162",
+      "kind": "sentence",
+      "native": [
+        "Necesito 350 gramos de harina y 200 de mantequilla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s163",
+      "kind": "sentence",
+      "native": [
+        "Llámame cuando tengas un rato."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s164",
+      "kind": "sentence",
+      "native": [
+        "Prueba el formulario con el número ficticio 55 0000 0000."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s165",
+      "kind": "sentence",
+      "native": [
+        "Guárdame un poco de pozole."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s166",
+      "kind": "sentence",
+      "native": [
+        "La carrera arranca el 21 de septiembre a las 10 de la mañana y es de 15 kilómetros."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s167",
+      "kind": "sentence",
+      "native": [
+        "Avísenme si van al parque para llevar la pelota."
+      ],
+      "roman": null
+    },
+    {
+      "id": "es-s168",
+      "kind": "sentence",
+      "native": [
+        "Imprime 18 copias a doble cara."
+      ],
+      "roman": null
+    }
+  ]
+}

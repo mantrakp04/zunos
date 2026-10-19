@@ -30,8 +30,13 @@ goal, beating the reference recognizer by 2x word error rate on held-back clips,
 - python/pod: GPU pipeline. bootstrap.sh → run.py: ref_text.py, make_jobs.py, gen_f5.py (IndicF5),
   gen_cb.py (Chatterbox), filter.py, train.py, export.py. A Fish Audio Drama 3 path (expressive
   takes) was tried in v3b and dropped; it is in git history (python/pod/fish) if needed again.
-- packages/db/src/seed-prompts.json: built-in passages and 721 dictation sentences (en/hi/gu),
-  loaded on first launch. The owner's pre-app data was imported once (tools/migrate, in history).
+- packages/db/corpus/<code>.json: the reading corpus per language (passages and sentences, each line in
+  native script and, for non-Latin languages, English letters; a starter set read first), written by
+  scripts/corpus/generate.ts. `bun run corpus` in packages/db embeds new or changed files (src/corpus.gen.ts);
+  the app seeds a language's prompts when it is enabled or its file changes. Each language is read in its own
+  script or in English letters (languages.script); a take stores the script read and its clips' text is in it.
+  <code>.synth.json files are synthesis-only sentences for the pod (python/pod/corpus.py), never shown to read.
+  The owner's pre-app data was imported once (tools/migrate, in history).
 
 User data lives in ~/Library/Application Support/zunos (zunos.db, audio/, models/, runs/).
 

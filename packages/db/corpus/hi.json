@@ -1,0 +1,1805 @@
+{
+  "lang": "hi",
+  "starter": [
+    "hi-s085",
+    "hi-s009",
+    "hi-s114",
+    "hi-s073",
+    "hi-s054",
+    "hi-s041",
+    "hi-s006",
+    "hi-s094",
+    "hi-s132",
+    "hi-s015",
+    "hi-s099",
+    "hi-s026",
+    "hi-s125",
+    "hi-s128",
+    "hi-s075",
+    "hi-s135",
+    "hi-s151",
+    "hi-p02",
+    "hi-s082",
+    "hi-s087",
+    "hi-s061",
+    "hi-s143",
+    "hi-s089",
+    "hi-s122",
+    "hi-s003",
+    "hi-s060",
+    "hi-s130",
+    "hi-s051",
+    "hi-s038",
+    "hi-s112",
+    "hi-s117",
+    "hi-s052",
+    "hi-s103",
+    "hi-s079",
+    "hi-s064",
+    "hi-p05",
+    "hi-s131",
+    "hi-s039",
+    "hi-s033",
+    "hi-s133",
+    "hi-s152",
+    "hi-s113",
+    "hi-s022",
+    "hi-s047",
+    "hi-s028",
+    "hi-s072",
+    "hi-s098",
+    "hi-s017",
+    "hi-s049",
+    "hi-s097",
+    "hi-s145",
+    "hi-s024",
+    "hi-s110",
+    "hi-s031"
+  ],
+  "items": [
+    {
+      "id": "hi-p01",
+      "kind": "para",
+      "title": "Heading Home to Lucknow",
+      "native": [
+        "सुनो, मैं शुक्रवार को सुबह की ट्रेन से वापस लखनऊ जा रहा हूँ।",
+        "इस बार माँ ने कहा है कि कुछ दिन आराम से रुककर जाना।",
+        "स्टेशन से निकलकर पहले शर्मा जी की दुकान पर गरम समोसे खाने का मन है।",
+        "फिर घर पहुँचकर पापा के साथ छत पर बैठकर ढेर सारी बातें करूँगा।",
+        "पिछली बार इतनी भागदौड़ थी कि पड़ोस की अनीता आंटी से भी नहीं मिल पाया।",
+        "शनिवार की शाम तुम खाली हो तो हम हज़रतगंज में थोड़ी देर घूम लें?",
+        "तुम्हारे लिए चौक से चिकनकारी वाला कुर्ता लाऊँ या कुछ और पसंद है?",
+        "अपना नाप आज ही भेज देना, वरना मैं फिर गलत साइज़ ले आऊँगा।",
+        "वापसी सोमवार को है, इसलिए इस बार इत्मीनान से मिलने का समय रहेगा।"
+      ],
+      "roman": [
+        "Suno, main shukravaar ko subah ki train se wapas Lucknow ja raha hoon.",
+        "Is baar maa ne kaha hai ki kuch din aaram se rukkar jaana.",
+        "Station se nikalkar pehle Sharma ji ki dukaan par garam samose khane ka man hai.",
+        "Phir ghar pahunchkar papa ke saath chhat par baithkar dher saari baatein karunga.",
+        "Pichhli baar itni bhaagdaud thi ki pados ki Anita aunty se bhi nahi mil paya.",
+        "Shanivaar ki shaam tum khaali ho toh hum Hazratganj mein thodi der ghoom lein?",
+        "Tumhare liye Chowk se chikankari wala kurta laaun ya kuch aur pasand hai?",
+        "Apna naap aaj hi bhej dena, warna main phir galat size le aaunga.",
+        "Wapsi somvaar ko hai, isliye is baar itminan se milne ka samay rahega."
+      ]
+    },
+    {
+      "id": "hi-p02",
+      "kind": "para",
+      "title": "Pune Client Meeting Update",
+      "native": [
+        "आज पुणे के बाणेर ऑफिस में क्लाइंट के साथ वेबसाइट की मीटिंग अच्छी रही।",
+        "क्लाइंट को नया डिज़ाइन पसंद आया, लेकिन मेन पेज पर तस्वीरें कम चाहिए।",
+        "उन्होंने कहा कि बुकिंग का बटन फ़ोन पर साफ़ दिखना चाहिए।",
+        "काव्या, आप तस्वीरें घटाकर कल दोपहर तक नई फ़ाइल टीम को भेज दीजिए।",
+        "समीर, आप बुकिंग वाले बटन का रंग बदलकर उसे थोड़ा बड़ा कर दीजिए।",
+        "मैं बाकी बदलावों की लिस्ट आज शाम तक ईमेल कर दूँगा।",
+        "हमें शुक्रवार की सुबह 11 बजे क्लाइंट को तैयार पेज दिखाना है।",
+        "किसी काम में देरी हो रही हो तो आज ही बता दीजिए।",
+        "सबकी राय मिलने के बाद मैं क्लाइंट से अगली मीटिंग का समय पक्का करूँगा।"
+      ],
+      "roman": [
+        "Aaj Pune ke Baner office mein client ke saath website ki meeting achhi rahi.",
+        "Client ko naya design pasand aaya, lekin main page par tasveerein kam chahiye.",
+        "Unhone kaha ki booking ka button phone par saaf dikhna chahiye.",
+        "Kavya, aap tasveerein ghatakar kal dopahar tak nayi file team ko bhej dijiye.",
+        "Sameer, aap booking wale button ka rang badalkar use thoda bada kar dijiye.",
+        "Main baaki badlavon ki list aaj shaam tak email kar doonga.",
+        "Humein shukravaar ki subah 11 baje client ko taiyar page dikhana hai.",
+        "Kisi kaam mein deri ho rahi ho toh aaj hi bata dijiye.",
+        "Sabki rai milne ke baad main client se agli meeting ka samay pakka karunga."
+      ]
+    },
+    {
+      "id": "hi-p03",
+      "kind": "para",
+      "title": "An Evening Without Power",
+      "native": [
+        "कल शाम मुंबई के मुलुंड वाले घर में अचानक बिजली चली गई।",
+        "मैं रसोई में रोटियाँ सेंक रही थी और बच्चे अपना होमवर्क कर रहे थे।",
+        "बारिश के छींटे अंदर आ रहे थे, इसलिए बालकनी का दरवाज़ा बंद करना पड़ा।",
+        "मोबाइल की रोशनी में मोमबत्तियाँ ढूँढ़ीं, लेकिन दराज़ में सिर्फ़ पुराने बिल मिले।",
+        "मेरी बेटी तारा अपनी छोटी टॉर्च ले आई और मेज़ पर रख दी।",
+        "हमने उसी रोशनी में खाना लगाया और दही के साथ गरम रोटियाँ खाईं।",
+        "बेटे ने स्कूल की बातें सुनाईं, तो थोड़ी देर में सबका ध्यान बँट गया।",
+        "करीब एक घंटे बाद पंखा चला, तो तारा खुशी से तालियाँ बजाने लगी।",
+        "उस रात बच्चों ने टीवी चलाने के बजाय देर तक हमारे साथ बातें कीं।"
+      ],
+      "roman": [
+        "Kal shaam Mumbai ke Mulund wale ghar mein achanak bijli chali gayi.",
+        "Main rasoi mein rotiyan senk rahi thi aur bachche apna homework kar rahe the.",
+        "Baarish ke chheente andar aa rahe the, isliye balcony ka darwaza band karna pada.",
+        "Mobile ki roshni mein mombattiyan dhoondhin, lekin daraz mein sirf purane bill mile.",
+        "Meri beti Tara apni chhoti torch le aayi aur mez par rakh di.",
+        "Humne usi roshni mein khana lagaya aur dahi ke saath garam rotiyan khayin.",
+        "Bete ne school ki baatein sunayin, toh thodi der mein sabka dhyan bant gaya.",
+        "Kareeb ek ghante baad pankha chala, toh Tara khushi se taaliyan bajane lagi.",
+        "Us raat bachchon ne TV chalane ke bajay der tak hamare saath baatein keen."
+      ]
+    },
+    {
+      "id": "hi-p04",
+      "kind": "para",
+      "title": "Making Indore Style Poha",
+      "native": [
+        "इंदौर वाले नरम पोहे बनाने के लिए पहले 2 कटोरी मोटे पोहे लीजिए।",
+        "पोहों को छलनी में हल्के हाथ से धोकर 5 मिनट के लिए छोड़ दीजिए।",
+        "भीगे पोहे में नमक, आधा चम्मच चीनी और थोड़ी हल्दी मिलाकर अलग रखिए।",
+        "अब कड़ाही में थोड़ा तेल गरम करके राई और सौंफ चटका लीजिए।",
+        "इसमें बारीक कटी हरी मिर्च और करी पत्ते डालकर कुछ सेकंड चलाइए।",
+        "फिर पोहे डालकर हल्के हाथ से मिलाइए और ढककर धीमी आँच पर पकाइए।",
+        "2 मिनट बाद ढक्कन खोलिए और पोहे नरम हों तो गैस बंद कर दीजिए।",
+        "ऊपर से नींबू निचोड़िए और थोड़ा जीरावन, बारीक सेव और हरा धनिया डालिए।",
+        "गरम पोहे प्लेट में परोसिए और साथ में कटा प्याज़ अलग से रख दीजिए।"
+      ],
+      "roman": [
+        "Indore wale naram pohe banane ke liye pehle 2 katori mote pohe lijiye.",
+        "Pohon ko chhalni mein halke haath se dhokar 5 minute ke liye chhod dijiye.",
+        "Bheege pohe mein namak, aadha chammach cheeni aur thodi haldi milakar alag rakhiye.",
+        "Ab kadahi mein thoda tel garam karke rai aur saunf chatka lijiye.",
+        "Ismein bareek kati hari mirch aur curry patte daalkar kuch second chalaiye.",
+        "Phir pohe daalkar halke haath se milaiye aur dhakkar dheemi aanch par pakaiye.",
+        "2 minute baad dhakkan kholiye aur pohe naram hon toh gas band kar dijiye.",
+        "Upar se neembu nichodiye aur thoda jeeravan, bareek sev aur hara dhaniya daaliye.",
+        "Garam pohe plate mein parosiye aur saath mein kata pyaz alag se rakh dijiye."
+      ]
+    },
+    {
+      "id": "hi-p05",
+      "kind": "para",
+      "title": "A Phone from Jaipur",
+      "native": [
+        "मैंने जयपुर के राजा पार्क से पिछले हफ़्ते सैमसंग का नया फ़ोन खरीदा था।",
+        "यह फ़ोन ₹24,000 का पड़ा। इसकी स्क्रीन और कैमरा पुराने फ़ोन से काफ़ी बेहतर लगे।",
+        "दिन में हवा महल की फ़ोटो अच्छी आई, लेकिन शाम वाली थोड़ी धुंधली निकली।",
+        "सुबह से मैप और व्हाट्सऐप चलाने पर भी बैटरी रात तक आराम से चलती है।",
+        "हाँ, भीड़ वाले बाज़ार में बात करते समय आवाज़ थोड़ी धीमी लगती है।",
+        "इसमें पहले से मौजूद कई ऐप मेरे किसी काम के नहीं हैं।",
+        "इन ऐप को हटाने में काफ़ी समय लग गया।",
+        "कवर लगाने के बाद फ़ोन भारी लगता है, लेकिन हाथ से फिसलता नहीं।",
+        "रोज़ के इस्तेमाल के लिए ठीक है, बस इसका कैमरा बहुत अच्छा नहीं है।"
+      ],
+      "roman": [
+        "Maine Jaipur ke Raja Park se pichhle hafte Samsung ka naya phone kharida tha.",
+        "Yeh phone ₹24,000 ka pada. Iski screen aur camera purane phone se kaafi behtar lage.",
+        "Din mein Hawa Mahal ki photo achhi aayi, lekin shaam wali thodi dhundhli nikli.",
+        "Subah se map aur WhatsApp chalane par bhi battery raat tak aaram se chalti hai.",
+        "Haan, bheed wale bazaar mein baat karte samay awaaz thodi dheemi lagti hai.",
+        "Ismein pehle se maujood kai app mere kisi kaam ke nahi hain.",
+        "In app ko hatane mein kaafi samay lag gaya.",
+        "Cover lagane ke baad phone bhaari lagta hai, lekin haath se fisalta nahi.",
+        "Roz ke istemaal ke liye theek hai, bas iska camera bahut achha nahi hai."
+      ]
+    },
+    {
+      "id": "hi-p06",
+      "kind": "para",
+      "title": "Family Dinner in Bhopal",
+      "native": [
+        "18 अक्टूबर 2026 को भोपाल की अरेरा कॉलोनी वाले घर पर परिवार वालों को खाने पर बुलाएँगे।",
+        "18 बड़े और 6 बच्चे आएँगे, यानी कुल 24 मेहमान होंगे।",
+        "नीलम मौसी शाम 7 बजे पहुँचेंगी, खाना साढ़े 7 बजे लगाएँगे।",
+        "कैटरर की दुकान 3 किलोमीटर दूर है, खाना शाम 6 बजे लाएँगे।",
+        "पनीर, दाल और रोटी की एक प्लेट ₹350 में तय हुई है।",
+        "24 प्लेट के ₹8,400 लगेंगे, बच्चों का खाना कम तीखा रखवाएँगे।",
+        "2 किलो गुलाब जामुन के लिए अलग से ₹600 रखने हैं।",
+        "खाने का कुल खर्च ₹9,000 होगा, कुर्सियों के लिए ₹500 और लगेंगे।",
+        "दोपहर 2 बजे तक छत की सफ़ाई और 24 कुर्सियों का इंतज़ाम कर लेंगे।"
+      ],
+      "roman": [
+        "18 October 2026 ko Bhopal ki Arera Colony wale ghar par parivar walon ko khane par bulayenge.",
+        "18 bade aur 6 bachche aayenge, yaani kul 24 mehmaan honge.",
+        "Neelam mausi shaam 7 baje pahunchengi, khana saadhe 7 baje lagayenge.",
+        "Caterer ki dukaan 3 kilometer door hai, khana shaam 6 baje layenge.",
+        "Paneer, daal aur roti ki ek plate ₹350 mein tay hui hai.",
+        "24 plate ke ₹8,400 lagenge, bachchon ka khana kam teekha rakhwayenge.",
+        "2 kilo gulab jamun ke liye alag se ₹600 rakhne hain.",
+        "Khane ka kul kharch ₹9,000 hoga, kursiyon ke liye ₹500 aur lagenge.",
+        "Dopahar 2 baje tak chhat ki safai aur 24 kursiyon ka intezam kar lenge."
+      ]
+    },
+    {
+      "id": "hi-p07",
+      "kind": "para",
+      "title": "A Duplicate Card Charge",
+      "native": [
+        "नमस्ते, मैं नोएडा के सेक्टर 18 से काव्या सक्सेना बोल रही हूँ।",
+        "मेरे कार्ड पर कल की एक खरीदारी का पैसा दो बार कटा है।",
+        "मैंने अट्टा मार्केट की कपड़ों वाली दुकान पर ₹1,250 का एक पेमेंट किया था।",
+        "आपके ऐप में उसी दुकान के नाम से ₹1,250 की दो एंट्री दिख रही हैं।",
+        "दुकानदार ने बताया कि उनकी तरफ़ से सिर्फ़ एक बार पेमेंट लिया गया था।",
+        "मेरे पास दुकान का बिल और दोनों मैसेज हैं, ज़रूरत हो तो भेज सकती हूँ।",
+        "आप प्लीज़ यह देखकर बता दीजिए कि दूसरा चार्ज क्यों लगा है।",
+        "दूसरी बार कटी रकम वापस आने में लगभग कितने दिन लगेंगे?",
+        "शिकायत का नंबर मैसेज कर दीजिए, ताकि दोबारा फ़ोन करने पर आसानी रहे।"
+      ],
+      "roman": [
+        "Namaste, main Noida ke Sector 18 se Kavya Saxena bol rahi hoon.",
+        "Mere card par kal ki ek kharidari ka paisa do baar kata hai.",
+        "Maine Atta Market ki kapdon wali dukaan par ₹1,250 ka ek payment kiya tha.",
+        "Aapke app mein usi dukaan ke naam se ₹1,250 ki do entry dikh rahi hain.",
+        "Dukaandar ne bataya ki unki taraf se sirf ek baar payment liya gaya tha.",
+        "Mere paas dukaan ka bill aur dono message hain, zaroorat ho toh bhej sakti hoon.",
+        "Aap please yeh dekhkar bata dijiye ki doosra charge kyun laga hai.",
+        "Doosri baar kati rakam wapas aane mein lagbhag kitne din lagenge?",
+        "Shikayat ka number message kar dijiye, taaki dobara phone karne par aasani rahe."
+      ]
+    },
+    {
+      "id": "hi-p08",
+      "kind": "para",
+      "title": "Exploring Chandni Chowk",
+      "native": [
+        "पुरानी दिल्ली का चाँदनी चौक कपड़ों, गहनों और खाने की दुकानों के लिए मशहूर है।",
+        "चाँदनी चौक की सड़क लाल क़िले के सामने से फ़तेहपुरी मस्जिद तक जाती है।",
+        "सड़क के दोनों तरफ़ छोटी गलियाँ हैं, जिनमें अलग-अलग चीज़ों की दुकानें मिलती हैं।",
+        "किनारी बाज़ार में शादी के कपड़ों के लिए गोटा, किनारी और रंग-बिरंगी लेस मिलती है।",
+        "दरीबा कलाँ में चाँदी के गहनों की कई पुरानी दुकानें आज भी चल रही हैं।",
+        "यहाँ घूमते हुए ताज़ी जलेबी और चाट की दुकानों पर भी नज़र पड़ती है।",
+        "दोपहर के बाद भीड़ बढ़ती है, इसलिए आराम से खरीदारी के लिए सुबह आना बेहतर है।",
+        "चाँदनी चौक मेट्रो स्टेशन से बाज़ार तक पैदल पहुँचना आसान है।"
+      ],
+      "roman": [
+        "Purani Delhi ka Chandni Chowk kapdon, gehnon aur khane ki dukaanon ke liye mashhoor hai.",
+        "Chandni Chowk ki sadak Lal Qile ke saamne se Fatehpuri Masjid tak jaati hai.",
+        "Sadak ke dono taraf chhoti galiyan hain, jinmein alag-alag cheezon ki dukaanein milti hain.",
+        "Kinari Bazaar mein shaadi ke kapdon ke liye gota, kinari aur rang-birangi lace milti hai.",
+        "Dariba Kalan mein chaandi ke gehnon ki kai purani dukaanein aaj bhi chal rahi hain.",
+        "Yahan ghoomte hue taazi jalebi aur chaat ki dukaanon par bhi nazar padti hai.",
+        "Dopahar ke baad bheed badhti hai, isliye aaram se kharidari ke liye subah aana behtar hai.",
+        "Chandni Chowk metro station se bazaar tak paidal pahunchna aasan hai."
+      ]
+    },
+    {
+      "id": "hi-s001",
+      "kind": "sentence",
+      "native": [
+        "जब बच्चे सो जाएँ तो मुझे मैसेज कर देना, बिना शोर किए वीडियो कॉल पर गपशप कर लेंगे।"
+      ],
+      "roman": [
+        "Jab bachche so jaayen toh mujhe message kar dena, bina shor kiye video call par gapshap kar lenge."
+      ]
+    },
+    {
+      "id": "hi-s002",
+      "kind": "sentence",
+      "native": [
+        "दोपहर की मीटिंग आधा घंटा आगे खिसका सकते हैं?"
+      ],
+      "roman": [
+        "Dopahar ki meeting aadha ghanta aage khiska sakte hain?"
+      ]
+    },
+    {
+      "id": "hi-s003",
+      "kind": "sentence",
+      "native": [
+        "सोमवार को सुबह 6 बजे वाली बस पकड़नी है।"
+      ],
+      "roman": [
+        "Somvaar ko subah 6 baje wali bus pakadni hai."
+      ]
+    },
+    {
+      "id": "hi-s004",
+      "kind": "sentence",
+      "native": [
+        "पौधों में खाद डालनी है।"
+      ],
+      "roman": [
+        "Paudhon mein khaad daalni hai."
+      ]
+    },
+    {
+      "id": "hi-s005",
+      "kind": "sentence",
+      "native": [
+        "कौन सा ऐप सबसे ज़्यादा स्टोरेज ले रहा है?"
+      ],
+      "roman": [
+        "Kaun sa app sabse zyada storage le raha hai?"
+      ]
+    },
+    {
+      "id": "hi-s006",
+      "kind": "sentence",
+      "native": [
+        "₹199 वाला प्लान लेने पर ऐड हट जाएँगे क्या?"
+      ],
+      "roman": [
+        "₹199 wala plan lene par ad hat jayenge kya?"
+      ]
+    },
+    {
+      "id": "hi-s007",
+      "kind": "sentence",
+      "native": [
+        "बढ़ई को शनिवार सुबह बुला लेते हैं, अलमारी का दरवाज़ा बंद करने पर अपने आप खुल जाता है।"
+      ],
+      "roman": [
+        "Badhai ko shanivaar subah bula lete hain, almari ka darwaza band karne par apne aap khul jaata hai."
+      ]
+    },
+    {
+      "id": "hi-s008",
+      "kind": "sentence",
+      "native": [
+        "दाल में नमक कम है।"
+      ],
+      "roman": [
+        "Daal mein namak kam hai."
+      ]
+    },
+    {
+      "id": "hi-s009",
+      "kind": "sentence",
+      "native": [
+        "चीनी कितनी डालूँ, एक चम्मच?"
+      ],
+      "roman": [
+        "Cheeni kitni daaloon, ek chammach?"
+      ]
+    },
+    {
+      "id": "hi-s010",
+      "kind": "sentence",
+      "native": [
+        "इतनी उमस में थोड़ी हवा चली तो जान में जान आई।"
+      ],
+      "roman": [
+        "Itni umas mein thodi hawa chali toh jaan mein jaan aayi."
+      ]
+    },
+    {
+      "id": "hi-s011",
+      "kind": "sentence",
+      "native": [
+        "लौटते समय दूध ले आना, सुबह चाय बनानी है।"
+      ],
+      "roman": [
+        "Lautte samay doodh le aana, subah chai banani hai."
+      ]
+    },
+    {
+      "id": "hi-s012",
+      "kind": "sentence",
+      "native": [
+        "इरफ़ान भाई, पंखा अटक रहा है। आप दोपहर 3 बजे आकर देख लीजिए।"
+      ],
+      "roman": [
+        "Irfan bhai, pankha atak raha hai. Aap dopahar 3 baje aakar dekh lijiye."
+      ]
+    },
+    {
+      "id": "hi-s013",
+      "kind": "sentence",
+      "native": [
+        "अगली क्लास दोपहर 2 बजे है।"
+      ],
+      "roman": [
+        "Agli class dopahar 2 baje hai."
+      ]
+    },
+    {
+      "id": "hi-s014",
+      "kind": "sentence",
+      "native": [
+        "छाता ठीक करवाना याद रहे।"
+      ],
+      "roman": [
+        "Chhata theek karwana yaad rahe."
+      ]
+    },
+    {
+      "id": "hi-s015",
+      "kind": "sentence",
+      "native": [
+        "कैमरा खोलकर सामने बैठी बिल्ली का वीडियो बना दो।"
+      ],
+      "roman": [
+        "Camera kholkar saamne baithi billi ka video bana do."
+      ]
+    },
+    {
+      "id": "hi-s016",
+      "kind": "sentence",
+      "native": [
+        "पासवर्ड बदलते ही लॉगिन हो गया।"
+      ],
+      "roman": [
+        "Password badalte hi login ho gaya."
+      ]
+    },
+    {
+      "id": "hi-s017",
+      "kind": "sentence",
+      "native": [
+        "छत पर तुम खेल लो, कपड़े दूसरी तरफ़ सुखा दूँगी।"
+      ],
+      "roman": [
+        "Chhat par tum khel lo, kapde doosri taraf sukha doongi."
+      ]
+    },
+    {
+      "id": "hi-s018",
+      "kind": "sentence",
+      "native": [
+        "धूप कितनी तेज़ हो गई!"
+      ],
+      "roman": [
+        "Dhoop kitni tez ho gayi!"
+      ]
+    },
+    {
+      "id": "hi-s019",
+      "kind": "sentence",
+      "native": [
+        "तुम पहले पेंसिल से निशान लगा लो, बल्कि रहने दो, सीधे ब्रश से रंग भरते हैं।"
+      ],
+      "roman": [
+        "Tum pehle pencil se nishaan laga lo, balki rehne do, seedhe brush se rang bharte hain."
+      ]
+    },
+    {
+      "id": "hi-s020",
+      "kind": "sentence",
+      "native": [
+        "तन्वी, तुमने मंच पर बिना घबराए बहुत अच्छा गाया।"
+      ],
+      "roman": [
+        "Tanvi, tumne manch par bina ghabraye bahut achha gaya."
+      ]
+    },
+    {
+      "id": "hi-s021",
+      "kind": "sentence",
+      "native": [
+        "नेहा को बता देना कि उसका चार्जर मेरे बैग में है।"
+      ],
+      "roman": [
+        "Neha ko bata dena ki uska charger mere bag mein hai."
+      ]
+    },
+    {
+      "id": "hi-s022",
+      "kind": "sentence",
+      "native": [
+        "मदद के लिए शुक्रिया।"
+      ],
+      "roman": [
+        "Madad ke liye shukriya."
+      ]
+    },
+    {
+      "id": "hi-s023",
+      "kind": "sentence",
+      "native": [
+        "फ़राह ने 12 कचौरियों के लिए ₹240 भेजे हैं।"
+      ],
+      "roman": [
+        "Farah ne 12 kachoriyon ke liye ₹240 bheje hain."
+      ]
+    },
+    {
+      "id": "hi-s024",
+      "kind": "sentence",
+      "native": [
+        "बैडमिंटन के लिए शटल खरीदनी है।"
+      ],
+      "roman": [
+        "Badminton ke liye shuttle kharidni hai."
+      ]
+    },
+    {
+      "id": "hi-s025",
+      "kind": "sentence",
+      "native": [
+        "गाना रोक दो, प्लीज़।"
+      ],
+      "roman": [
+        "Gaana rok do, please."
+      ]
+    },
+    {
+      "id": "hi-s026",
+      "kind": "sentence",
+      "native": [
+        "दीपक सर, असाइनमेंट ऐप पर अपलोड करना है या कॉपी स्कूल भेजनी है?"
+      ],
+      "roman": [
+        "Deepak sir, assignment app par upload karna hai ya copy school bhejni hai?"
+      ]
+    },
+    {
+      "id": "hi-s027",
+      "kind": "sentence",
+      "native": [
+        "चाचा नई कॉलोनी में मकान देखने गए हैं।"
+      ],
+      "roman": [
+        "Chacha nayi colony mein makaan dekhne gaye hain."
+      ]
+    },
+    {
+      "id": "hi-s028",
+      "kind": "sentence",
+      "native": [
+        "सैलून में गुरप्रीत की बुकिंग शाम 4 बजे की है।"
+      ],
+      "roman": [
+        "Salon mein Gurpreet ki booking shaam 4 baje ki hai."
+      ]
+    },
+    {
+      "id": "hi-s029",
+      "kind": "sentence",
+      "native": [
+        "नए पर्दे कितने लंबे हैं, ज़मीन तक आते हैं क्या?"
+      ],
+      "roman": [
+        "Naye parde kitne lambe hain, zameen tak aate hain kya?"
+      ]
+    },
+    {
+      "id": "hi-s030",
+      "kind": "sentence",
+      "native": [
+        "माफ़ कीजिए, बीच में बोल पड़ा।"
+      ],
+      "roman": [
+        "Maaf kijiye, beech mein bol pada."
+      ]
+    },
+    {
+      "id": "hi-s031",
+      "kind": "sentence",
+      "native": [
+        "खाली होकर फ़ोन कर लेना।"
+      ],
+      "roman": [
+        "Khaali hokar phone kar lena."
+      ]
+    },
+    {
+      "id": "hi-s032",
+      "kind": "sentence",
+      "native": [
+        "जसप्रीत, नए क्लाइंट से बात कहाँ तक पहुँची?"
+      ],
+      "roman": [
+        "Jaspreet, naye client se baat kahan tak pahunchi?"
+      ]
+    },
+    {
+      "id": "hi-s033",
+      "kind": "sentence",
+      "native": [
+        "लैपटॉप की बैटरी 68% है, लगभग 5 घंटे चलेगी।"
+      ],
+      "roman": [
+        "Laptop ki battery 68% hai, lagbhag 5 ghante chalegi."
+      ]
+    },
+    {
+      "id": "hi-s034",
+      "kind": "sentence",
+      "native": [
+        "मंगलवार शाम को मनप्रीत से किताबें वापस लेनी हैं।"
+      ],
+      "roman": [
+        "Mangalvaar shaam ko Manpreet se kitabein wapas leni hain."
+      ]
+    },
+    {
+      "id": "hi-s035",
+      "kind": "sentence",
+      "native": [
+        "लाइब्रेरी की मेंबरशिप ऑनलाइन रिन्यू हो जाएगी या इसके लिए मुझे खुद वहाँ जाना पड़ेगा?"
+      ],
+      "roman": [
+        "Library ki membership online renew ho jayegi ya iske liye mujhe khud wahan jaana padega?"
+      ]
+    },
+    {
+      "id": "hi-s036",
+      "kind": "sentence",
+      "native": [
+        "ज़ूम पर कैमरा उल्टा दिख रहा है।"
+      ],
+      "roman": [
+        "Zoom par camera ulta dikh raha hai."
+      ]
+    },
+    {
+      "id": "hi-s037",
+      "kind": "sentence",
+      "native": [
+        "अजमेर जाने वाली बस सामने के प्लेटफ़ॉर्म से निकलेगी।"
+      ],
+      "roman": [
+        "Ajmer jaane wali bus saamne ke platform se niklegi."
+      ]
+    },
+    {
+      "id": "hi-s038",
+      "kind": "sentence",
+      "native": [
+        "अचार का मर्तबान खोलते ही सरसों की खुशबू आ गई।"
+      ],
+      "roman": [
+        "Achar ka martaban kholte hi sarson ki khushboo aa gayi."
+      ]
+    },
+    {
+      "id": "hi-s039",
+      "kind": "sentence",
+      "native": [
+        "सॉरी, मेरा मतलब राघव से था।"
+      ],
+      "roman": [
+        "Sorry, mera matlab Raghav se tha."
+      ]
+    },
+    {
+      "id": "hi-s040",
+      "kind": "sentence",
+      "native": [
+        "दुकान बंद होने पर भी सामान देने के लिए शुक्रिया।"
+      ],
+      "roman": [
+        "Dukaan band hone par bhi samaan dene ke liye shukriya."
+      ]
+    },
+    {
+      "id": "hi-s041",
+      "kind": "sentence",
+      "native": [
+        "रितु, छत से कपड़े उतार देना।"
+      ],
+      "roman": [
+        "Ritu, chhat se kapde utaar dena."
+      ]
+    },
+    {
+      "id": "hi-s042",
+      "kind": "sentence",
+      "native": [
+        "आयशा, प्रेज़ेंटेशन में बिक्री वाले आँकड़े भी जोड़ दीजिए।"
+      ],
+      "roman": [
+        "Ayesha, presentation mein bikri wale aankde bhi jod dijiye."
+      ]
+    },
+    {
+      "id": "hi-s043",
+      "kind": "sentence",
+      "native": [
+        "बादाम 250 ग्राम और किशमिश 500 ग्राम चाहिए, दोनों को अलग थैलियों में पैक कर दीजिए।"
+      ],
+      "roman": [
+        "Badam 250 gram aur kishmish 500 gram chahiye, dono ko alag thailiyon mein pack kar dijiye."
+      ]
+    },
+    {
+      "id": "hi-s044",
+      "kind": "sentence",
+      "native": [
+        "अनन्या के जन्मदिन से पहले उसकी पसंद वाली कॉमिक खरीदनी है, रिमाइंडर बुधवार के लिए लगा दीजिए।"
+      ],
+      "roman": [
+        "Ananya ke janamdin se pehle uski pasand wali comic kharidni hai, reminder Budhvaar ke liye laga dijiye."
+      ]
+    },
+    {
+      "id": "hi-s045",
+      "kind": "sentence",
+      "native": [
+        "अलार्म रोज़ सुबह साढ़े 5 बजे का रखो, लेकिन छुट्टी वाले दिन उसे बजने मत देना।"
+      ],
+      "roman": [
+        "Alarm roz subah saadhe 5 baje ka rakho, lekin chhutti wale din use bajne mat dena."
+      ]
+    },
+    {
+      "id": "hi-s046",
+      "kind": "sentence",
+      "native": [
+        "ईमेल का अटैचमेंट भेजने से पहले उसका नाम बदल लीजिए।"
+      ],
+      "roman": [
+        "Email ka attachment bhejne se pehle uska naam badal lijiye."
+      ]
+    },
+    {
+      "id": "hi-s047",
+      "kind": "sentence",
+      "native": [
+        "आपका पार्सल बगल की फूलों वाली दुकान पर रखवा दिया है।"
+      ],
+      "roman": [
+        "Aapka parcel bagal ki phoolon wali dukaan par rakhwa diya hai."
+      ]
+    },
+    {
+      "id": "hi-s048",
+      "kind": "sentence",
+      "native": [
+        "रमेश जी, टंकी भरने के बाद मोटर बंद कर दीजिएगा, छत पर पानी बहने लगता है।"
+      ],
+      "roman": [
+        "Ramesh ji, tanki bharne ke baad motor band kar dijiyega, chhat par paani behne lagta hai."
+      ]
+    },
+    {
+      "id": "hi-s049",
+      "kind": "sentence",
+      "native": [
+        "शुक्रवार नहीं, शनिवार को अमृतसर निकलेंगे। दिन गलत बता दिया।"
+      ],
+      "roman": [
+        "Shukravaar nahi, shanivaar ko Amritsar niklenge. Din galat bata diya."
+      ]
+    },
+    {
+      "id": "hi-s050",
+      "kind": "sentence",
+      "native": [
+        "पहले लगता था कि मिट्टी के बर्तन बनाना मुश्किल होगा, अब हर हफ़्ते इसी क्लास का इंतज़ार रहता है।"
+      ],
+      "roman": [
+        "Pehle lagta tha ki mitti ke bartan banana mushkil hoga, ab har hafte isi class ka intezar rehta hai."
+      ]
+    },
+    {
+      "id": "hi-s051",
+      "kind": "sentence",
+      "native": [
+        "इतना खिलाया कि अब जींस का बटन बंद नहीं हो रहा।"
+      ],
+      "roman": [
+        "Itna khilaya ki ab jeans ka button band nahi ho raha."
+      ]
+    },
+    {
+      "id": "hi-s052",
+      "kind": "sentence",
+      "native": [
+        "लिंक इसी ग्रुप में डाल दें, सब जुड़ जाएँगे।"
+      ],
+      "roman": [
+        "Link isi group mein daal dein, sab jud jayenge."
+      ]
+    },
+    {
+      "id": "hi-s053",
+      "kind": "sentence",
+      "native": [
+        "परसों साकेत में फ्लैट नंबर 36 पर 11 कुर्सियाँ पहुँचानी हैं।"
+      ],
+      "roman": [
+        "Parson Saket mein flat number 36 par 11 kursiyan pahunchani hain."
+      ]
+    },
+    {
+      "id": "hi-s054",
+      "kind": "sentence",
+      "native": [
+        "गोमती नगर वाले दर्जी से शनिवार तक पैंट लेनी है।"
+      ],
+      "roman": [
+        "Gomti Nagar wale darzi se Shanivaar tak pant leni hai."
+      ]
+    },
+    {
+      "id": "hi-s055",
+      "kind": "sentence",
+      "native": [
+        "कल दोपहर तक बारिश होगी क्या?"
+      ],
+      "roman": [
+        "Kal dopahar tak baarish hogi kya?"
+      ]
+    },
+    {
+      "id": "hi-s056",
+      "kind": "sentence",
+      "native": [
+        "बिना इंटरनेट भी नोट्स खुल जाते हैं।"
+      ],
+      "roman": [
+        "Bina internet bhi notes khul jaate hain."
+      ]
+    },
+    {
+      "id": "hi-s057",
+      "kind": "sentence",
+      "native": [
+        "सामने वाली बेकरी से रास्ते के लिए कुछ बिस्कुट ले लें?"
+      ],
+      "roman": [
+        "Saamne wali bakery se raaste ke liye kuch biscuit le lein?"
+      ]
+    },
+    {
+      "id": "hi-s058",
+      "kind": "sentence",
+      "native": [
+        "कूड़े की गाड़ी आज आएगी क्या?"
+      ],
+      "roman": [
+        "Koode ki gaadi aaj aayegi kya?"
+      ]
+    },
+    {
+      "id": "hi-s059",
+      "kind": "sentence",
+      "native": [
+        "वंदना, लिफ़ाफ़े पर पिन कोड सही लिखा है ना?"
+      ],
+      "roman": [
+        "Vandana, lifafe par pin code sahi likha hai na?"
+      ]
+    },
+    {
+      "id": "hi-s060",
+      "kind": "sentence",
+      "native": [
+        "छोले भटूरे अच्छे थे, मगर लस्सी कुछ ज़्यादा मीठी लगी।"
+      ],
+      "roman": [
+        "Chhole bhature achhe the, magar lassi kuch zyada meethi lagi."
+      ]
+    },
+    {
+      "id": "hi-s061",
+      "kind": "sentence",
+      "native": [
+        "चाबी ऊपर वाली दराज़ में है।"
+      ],
+      "roman": [
+        "Chabi upar wali daraz mein hai."
+      ]
+    },
+    {
+      "id": "hi-s062",
+      "kind": "sentence",
+      "native": [
+        "चाहें तो पैकिंग में मदद करूँ?"
+      ],
+      "roman": [
+        "Chahen toh packing mein madad karun?"
+      ]
+    },
+    {
+      "id": "hi-s063",
+      "kind": "sentence",
+      "native": [
+        "वॉशिंग मशीन पर 15% छूट के बाद ₹28,900 लगेंगे।"
+      ],
+      "roman": [
+        "Washing machine par 15% chhoot ke baad ₹28,900 lagenge."
+      ]
+    },
+    {
+      "id": "hi-s064",
+      "kind": "sentence",
+      "native": [
+        "टिफ़िन का ढक्कन बदलना है।"
+      ],
+      "roman": [
+        "Tiffin ka dhakkan badalna hai."
+      ]
+    },
+    {
+      "id": "hi-s065",
+      "kind": "sentence",
+      "native": [
+        "डाउनलोड वाले फ़ोल्डर की सबसे नई पीडीएफ़ का दूसरा पन्ना खोलो और उसका पूरा टेक्स्ट पढ़ो।"
+      ],
+      "roman": [
+        "Download wale folder ki sabse nayi PDF ka doosra panna kholo aur uska poora text padho."
+      ]
+    },
+    {
+      "id": "hi-s066",
+      "kind": "sentence",
+      "native": [
+        "कॉल के दौरान आपकी आवाज़ बीच-बीच में कट रही है। मोबाइल डेटा चालू करके देखिए।"
+      ],
+      "roman": [
+        "Call ke dauran aapki awaaz beech-beech mein kat rahi hai. Mobile data chalu karke dekhiye."
+      ]
+    },
+    {
+      "id": "hi-s067",
+      "kind": "sentence",
+      "native": [
+        "भैया की सोसाइटी के सामने गाड़ी खड़ी करने की जगह नहीं है, पीछे वाले मैदान में लगा दीजिए।"
+      ],
+      "roman": [
+        "Bhaiya ki society ke saamne gaadi khadi karne ki jagah nahi hai, peechhe wale maidan mein laga dijiye."
+      ]
+    },
+    {
+      "id": "hi-s068",
+      "kind": "sentence",
+      "native": [
+        "नल से पानी टपक रहा है।"
+      ],
+      "roman": [
+        "Nal se paani tapak raha hai."
+      ]
+    },
+    {
+      "id": "hi-s069",
+      "kind": "sentence",
+      "native": [
+        "पराठे दो पैक कर दीजिए, नहीं, एक ही काफ़ी है।"
+      ],
+      "roman": [
+        "Parathe do pack kar dijiye, nahi, ek hi kaafi hai."
+      ]
+    },
+    {
+      "id": "hi-s070",
+      "kind": "sentence",
+      "native": [
+        "उदयपुर की झील के किनारे बैठकर लगा कि बिना किसी प्लान के घूमना भी कितना अच्छा है।"
+      ],
+      "roman": [
+        "Udaipur ki jheel ke kinare baithkar laga ki bina kisi plan ke ghoomna bhi kitna achha hai."
+      ]
+    },
+    {
+      "id": "hi-s071",
+      "kind": "sentence",
+      "native": [
+        "तस्वीर वाली साड़ी पसंद आई हो तो वही मँगवा लूँ?"
+      ],
+      "roman": [
+        "Tasveer wali saadi pasand aayi ho toh wahi mangwa loon?"
+      ]
+    },
+    {
+      "id": "hi-s072",
+      "kind": "sentence",
+      "native": [
+        "शालिनी मैम, प्रोजेक्ट बच्चों को अकेले बनाना है या मिलकर?"
+      ],
+      "roman": [
+        "Shalini ma'am, project bachchon ko akele banana hai ya milkar?"
+      ]
+    },
+    {
+      "id": "hi-s073",
+      "kind": "sentence",
+      "native": [
+        "कुल ₹780 हुए हैं।"
+      ],
+      "roman": [
+        "Kul ₹780 hue hain."
+      ]
+    },
+    {
+      "id": "hi-s074",
+      "kind": "sentence",
+      "native": [
+        "डिब्बे खरीदने से पहले रसोई की शेल्फ़ नापनी है, दुकान पर सही साइज़ याद नहीं रहता।"
+      ],
+      "roman": [
+        "Dibbe kharidne se pehle rasoi ki shelf naapni hai, dukaan par sahi size yaad nahi rehta."
+      ]
+    },
+    {
+      "id": "hi-s075",
+      "kind": "sentence",
+      "native": [
+        "व्हाट्सऐप पर आए सबसे नए मैसेज को पढ़कर सुनाओ।"
+      ],
+      "roman": [
+        "WhatsApp par aaye sabse naye message ko padhkar sunao."
+      ]
+    },
+    {
+      "id": "hi-s076",
+      "kind": "sentence",
+      "native": [
+        "अपडेट के बाद ऐप अपने आप बंद होने लगा है।"
+      ],
+      "roman": [
+        "Update ke baad app apne aap band hone laga hai."
+      ]
+    },
+    {
+      "id": "hi-s077",
+      "kind": "sentence",
+      "native": [
+        "चारबाग पहुँचकर इमरान को फ़ोन कर दीजिए, वह आपको अपने स्कूटर पर नानी के यहाँ छोड़ देगा।"
+      ],
+      "roman": [
+        "Charbagh pahunchkar Imran ko phone kar dijiye, woh aapko apne scooter par nani ke yahan chhod dega."
+      ]
+    },
+    {
+      "id": "hi-s078",
+      "kind": "sentence",
+      "native": [
+        "रजाई धुलने के बाद भी ठीक से सूखी नहीं है।"
+      ],
+      "roman": [
+        "Rajai dhulne ke baad bhi theek se sookhi nahi hai."
+      ]
+    },
+    {
+      "id": "hi-s079",
+      "kind": "sentence",
+      "native": [
+        "अच्छा, सिलाई का कितना लगेगा?"
+      ],
+      "roman": [
+        "Achha, silai ka kitna lagega?"
+      ]
+    },
+    {
+      "id": "hi-s080",
+      "kind": "sentence",
+      "native": [
+        "आपकी लिखावट कितनी साफ़ है।"
+      ],
+      "roman": [
+        "Aapki likhawat kitni saaf hai."
+      ]
+    },
+    {
+      "id": "hi-s081",
+      "kind": "sentence",
+      "native": [
+        "सुनो, मेरी अलमारी से नीली जैकेट निकालकर रख देना, शाम को लेने आऊँगी और थोड़ी देर बैठूँगी भी।"
+      ],
+      "roman": [
+        "Suno, meri almari se neeli jacket nikaalkar rakh dena, shaam ko lene aaungi aur thodi der baithungi bhi."
+      ]
+    },
+    {
+      "id": "hi-s082",
+      "kind": "sentence",
+      "native": [
+        "मुझे यह बजट थोड़ा कम लगा।"
+      ],
+      "roman": [
+        "Mujhe yeh budget thoda kam laga."
+      ]
+    },
+    {
+      "id": "hi-s083",
+      "kind": "sentence",
+      "native": [
+        "ऑनलाइन बुकिंग में 18 लोगों के ₹7,200 कटे हैं, लेकिन ईमेल में सिर्फ़ 16 टिकट आए हैं।"
+      ],
+      "roman": [
+        "Online booking mein 18 logon ke ₹7,200 kate hain, lekin email mein sirf 16 ticket aaye hain."
+      ]
+    },
+    {
+      "id": "hi-s084",
+      "kind": "sentence",
+      "native": [
+        "नाश्ते के लिए ढोकले का घोल रात में बनाना है।"
+      ],
+      "roman": [
+        "Nashte ke liye dhokle ka ghol raat mein banana hai."
+      ]
+    },
+    {
+      "id": "hi-s085",
+      "kind": "sentence",
+      "native": [
+        "अलका जोशी को कॉल लगाओ।"
+      ],
+      "roman": [
+        "Alka Joshi ko call lagao."
+      ]
+    },
+    {
+      "id": "hi-s086",
+      "kind": "sentence",
+      "native": [
+        "अरे, गलती से पूरा पैराग्राफ़ मिट गया था, लेकिन अनडू करते ही सारा टेक्स्ट वापस आ गया।"
+      ],
+      "roman": [
+        "Arey, galti se poora paragraph mit gaya tha, lekin undo karte hi saara text wapas aa gaya."
+      ]
+    },
+    {
+      "id": "hi-s087",
+      "kind": "sentence",
+      "native": [
+        "चौराहे के आगे पुल पड़ेगा।"
+      ],
+      "roman": [
+        "Chaurahe ke aage pul padega."
+      ]
+    },
+    {
+      "id": "hi-s088",
+      "kind": "sentence",
+      "native": [
+        "पटना से बुआ आ रही हैं, उनके लिए नीचे वाला कमरा साफ़ करवा देते हैं।"
+      ],
+      "roman": [
+        "Patna se bua aa rahi hain, unke liye neeche wala kamra saaf karwa dete hain."
+      ]
+    },
+    {
+      "id": "hi-s089",
+      "kind": "sentence",
+      "native": [
+        "ये कवर मोबाइल का है या टैबलेट का?"
+      ],
+      "roman": [
+        "Ye cover mobile ka hai ya tablet ka?"
+      ]
+    },
+    {
+      "id": "hi-s090",
+      "kind": "sentence",
+      "native": [
+        "जयपुर की ट्रेन का टिकट मिल गया है, आप मुझे लेने स्टेशन मत आइएगा, मैं ऑटो कर लूँगा।"
+      ],
+      "roman": [
+        "Jaipur ki train ka ticket mil gaya hai, aap mujhe lene station mat aaiyega, main auto kar loonga."
+      ]
+    },
+    {
+      "id": "hi-s091",
+      "kind": "sentence",
+      "native": [
+        "रसीद मिलते ही ₹650 का पेमेंट हो जाएगा।"
+      ],
+      "roman": [
+        "Raseed milte hi ₹650 ka payment ho jayega."
+      ]
+    },
+    {
+      "id": "hi-s092",
+      "kind": "sentence",
+      "native": [
+        "कमरे नंबर 7 में 4 बिस्तर हैं।"
+      ],
+      "roman": [
+        "Kamre number 7 mein 4 bistar hain."
+      ]
+    },
+    {
+      "id": "hi-s093",
+      "kind": "sentence",
+      "native": [
+        "खिड़की की जाली फट गई है, कल उसे बदलवाने के लिए मिस्त्री से बात करनी है।"
+      ],
+      "roman": [
+        "Khidki ki jaali phat gayi hai, kal use badalwane ke liye mistri se baat karni hai."
+      ]
+    },
+    {
+      "id": "hi-s094",
+      "kind": "sentence",
+      "native": [
+        "8 मिनट का टाइमर लगा दो।"
+      ],
+      "roman": [
+        "8 minute ka timer laga do."
+      ]
+    },
+    {
+      "id": "hi-s095",
+      "kind": "sentence",
+      "native": [
+        "वीडियो कॉल के बजाय तुम यहीं चैट पर समझा दो।"
+      ],
+      "roman": [
+        "Video call ke bajay tum yahin chat par samjha do."
+      ]
+    },
+    {
+      "id": "hi-s096",
+      "kind": "sentence",
+      "native": [
+        "रिक्शा इसी गली में आएगा।"
+      ],
+      "roman": [
+        "Rickshaw isi gali mein aayega."
+      ]
+    },
+    {
+      "id": "hi-s097",
+      "kind": "sentence",
+      "native": [
+        "जूते पहनकर देख लीजिए, अंगूठे के आगे थोड़ी जगह रहनी चाहिए।"
+      ],
+      "roman": [
+        "Joote pehenkar dekh lijiye, angoothe ke aage thodi jagah rehni chahiye."
+      ]
+    },
+    {
+      "id": "hi-s098",
+      "kind": "sentence",
+      "native": [
+        "रुको, सफ़ेद नहीं, पीला मग चाहिए।"
+      ],
+      "roman": [
+        "Ruko, safed nahi, peela mug chahiye."
+      ]
+    },
+    {
+      "id": "hi-s099",
+      "kind": "sentence",
+      "native": [
+        "मैं घर पहुँच गई हूँ।"
+      ],
+      "roman": [
+        "Main ghar pahunch gayi hoon."
+      ]
+    },
+    {
+      "id": "hi-s100",
+      "kind": "sentence",
+      "native": [
+        "शुक्रिया, लेकिन इस हफ़्ते एक और शिफ़्ट नहीं ले पाऊँगी।"
+      ],
+      "roman": [
+        "Shukriya, lekin is hafte ek aur shift nahi le paungi."
+      ]
+    },
+    {
+      "id": "hi-s101",
+      "kind": "sentence",
+      "native": [
+        "ट्रेन के डिब्बे बी 9 में सीट 38 मिली है।"
+      ],
+      "roman": [
+        "Train ke dibbe B 9 mein seat 38 mili hai."
+      ]
+    },
+    {
+      "id": "hi-s102",
+      "kind": "sentence",
+      "native": [
+        "याद दिलाइए कि इंटरनेट का रिचार्ज गुरुवार को करना है।"
+      ],
+      "roman": [
+        "Yaad dilaiye ki internet ka recharge Guruvaar ko karna hai."
+      ]
+    },
+    {
+      "id": "hi-s103",
+      "kind": "sentence",
+      "native": [
+        "मसाला डोसा बनाने का आसान तरीका यूट्यूब पर दिखाओ।"
+      ],
+      "roman": [
+        "Masala dosa banane ka aasan tareeka YouTube par dikhao."
+      ]
+    },
+    {
+      "id": "hi-s104",
+      "kind": "sentence",
+      "native": [
+        "यूसुफ़ की एक्सेल शीट में कुल रकम गलत आ रही है।"
+      ],
+      "roman": [
+        "Yusuf ki Excel sheet mein kul rakam galat aa rahi hai."
+      ]
+    },
+    {
+      "id": "hi-s105",
+      "kind": "sentence",
+      "native": [
+        "उधर वाली सड़क पर काम चल रहा है, इसलिए आज हमें सब्ज़ी मंडी के पीछे से घूमकर जाना पड़ेगा।"
+      ],
+      "roman": [
+        "Udhar wali sadak par kaam chal raha hai, isliye aaj humein sabzi mandi ke peechhe se ghoomkar jaana padega."
+      ]
+    },
+    {
+      "id": "hi-s106",
+      "kind": "sentence",
+      "native": [
+        "भिंडी ₹60 किलो है, कुछ कम कर दीजिए।"
+      ],
+      "roman": [
+        "Bhindi ₹60 kilo hai, kuch kam kar dijiye."
+      ]
+    },
+    {
+      "id": "hi-s107",
+      "kind": "sentence",
+      "native": [
+        "₹450 वाला गुलदस्ता बना दीजिए, गुलाब कम रखिए और सफ़ेद फूल थोड़े ज़्यादा डाल दीजिए।"
+      ],
+      "roman": [
+        "₹450 wala guldasta bana dijiye, gulab kam rakhiye aur safed phool thode zyada daal dijiye."
+      ]
+    },
+    {
+      "id": "hi-s108",
+      "kind": "sentence",
+      "native": [
+        "परसों मेरी छुट्टी है, तुम अपना अधूरा स्वेटर लेकर आ जाना, साथ बैठकर बुनाई कर लेंगे।"
+      ],
+      "roman": [
+        "Parson meri chhutti hai, tum apna adhoora sweater lekar aa jaana, saath baithkar bunai kar lenge."
+      ]
+    },
+    {
+      "id": "hi-s109",
+      "kind": "sentence",
+      "native": [
+        "तुम कागज़ वाला बिल लेना, खर्चे का हिसाब रखने के लिए चाहिए।"
+      ],
+      "roman": [
+        "Tum kagaz wala bill lena, kharche ka hisaab rakhne ke liye chahiye."
+      ]
+    },
+    {
+      "id": "hi-s110",
+      "kind": "sentence",
+      "native": [
+        "दादी आज 82 साल की हुईं।"
+      ],
+      "roman": [
+        "Dadi aaj 82 saal ki huin."
+      ]
+    },
+    {
+      "id": "hi-s111",
+      "kind": "sentence",
+      "native": [
+        "इस महीने का किराया भेजने के बाद रसीद डाउनलोड करके मकान मालिक को भी भेजनी है।"
+      ],
+      "roman": [
+        "Is mahine ka kiraya bhejne ke baad raseed download karke makaan malik ko bhi bhejni hai."
+      ]
+    },
+    {
+      "id": "hi-s112",
+      "kind": "sentence",
+      "native": [
+        "नागपुर में तैरना सीखने के लिए कौन सा पूल अच्छा है?"
+      ],
+      "roman": [
+        "Nagpur mein tairna seekhne ke liye kaun sa pool achha hai?"
+      ]
+    },
+    {
+      "id": "hi-s113",
+      "kind": "sentence",
+      "native": [
+        "हरलीन, स्क्रीन शेयर कर दीजिए।"
+      ],
+      "roman": [
+        "Harleen, screen share kar dijiye."
+      ]
+    },
+    {
+      "id": "hi-s114",
+      "kind": "sentence",
+      "native": [
+        "सुधा मौसी सूरत कब लौटेंगी?"
+      ],
+      "roman": [
+        "Sudha mausi Surat kab lautengi?"
+      ]
+    },
+    {
+      "id": "hi-s115",
+      "kind": "sentence",
+      "native": [
+        "हल्की बाल्टी लूँगी, भरी हुई उठाने में आसानी रहेगी।"
+      ],
+      "roman": [
+        "Halki balti loongi, bhari hui uthane mein aasani rahegi."
+      ]
+    },
+    {
+      "id": "hi-s116",
+      "kind": "sentence",
+      "native": [
+        "चलो छत पर पतंग उड़ाएँ, लेकिन धागा तो है ही नहीं, पहले दुकान से चरखी ले आते हैं।"
+      ],
+      "roman": [
+        "Chalo chhat par patang udayen, lekin dhaaga toh hai hi nahi, pehle dukaan se charkhi le aate hain."
+      ]
+    },
+    {
+      "id": "hi-s117",
+      "kind": "sentence",
+      "native": [
+        "हाँ, हम दोनों आएँगे।"
+      ],
+      "roman": [
+        "Haan, hum dono aayenge."
+      ]
+    },
+    {
+      "id": "hi-s118",
+      "kind": "sentence",
+      "native": [
+        "नमस्ते, आप कैसे हैं?"
+      ],
+      "roman": [
+        "Namaste, aap kaise hain?"
+      ]
+    },
+    {
+      "id": "hi-s119",
+      "kind": "sentence",
+      "native": [
+        "बेंगलुरु की फ़्लाइट रात 10 बजे है, इसलिए एयरपोर्ट के लिए शाम साढ़े 7 बजे निकलना पड़ेगा।"
+      ],
+      "roman": [
+        "Bengaluru ki flight raat 10 baje hai, isliye airport ke liye shaam saadhe 7 baje nikalna padega."
+      ]
+    },
+    {
+      "id": "hi-s120",
+      "kind": "sentence",
+      "native": [
+        "सोने से पहले स्पीकर चार्ज पर लगाना याद रहे।"
+      ],
+      "roman": [
+        "Sone se pehle speaker charge par lagana yaad rahe."
+      ]
+    },
+    {
+      "id": "hi-s121",
+      "kind": "sentence",
+      "native": [
+        "हज़रतगंज में ऐसी बेकरी ढूँढो जो अभी खुली हो और जहाँ बैठकर कॉफ़ी भी पी सकें।"
+      ],
+      "roman": [
+        "Hazratganj mein aisi bakery dhoondho jo abhi khuli ho aur jahan baithkar coffee bhi pee saken."
+      ]
+    },
+    {
+      "id": "hi-s122",
+      "kind": "sentence",
+      "native": [
+        "टचपैड अचानक अटकने लगा है।"
+      ],
+      "roman": [
+        "Touchpad achanak atakne laga hai."
+      ]
+    },
+    {
+      "id": "hi-s123",
+      "kind": "sentence",
+      "native": [
+        "मेट्रो से उतरकर दाएँ मुड़िए, वहीं हमारी बिल्डिंग का गेट है।"
+      ],
+      "roman": [
+        "Metro se utarkar daayen mudiye, wahin hamari building ka gate hai."
+      ]
+    },
+    {
+      "id": "hi-s124",
+      "kind": "sentence",
+      "native": [
+        "गैस की बुकिंग हो गई है, सिलिंडर आए तो खाली वाला बरामदे से निकालकर दे देना।"
+      ],
+      "roman": [
+        "Gas ki booking ho gayi hai, cylinder aaye toh khaali wala baramde se nikalkar de dena."
+      ]
+    },
+    {
+      "id": "hi-s125",
+      "kind": "sentence",
+      "native": [
+        "अंडे, ब्रेड और मक्खन ले आइए, जैम अभी बचा है।"
+      ],
+      "roman": [
+        "Ande, bread aur makkhan le aaiye, jam abhi bacha hai."
+      ]
+    },
+    {
+      "id": "hi-s126",
+      "kind": "sentence",
+      "native": [
+        "आपकी भेजी हुई फ़ोटो खुल नहीं रही, दोबारा भेज दीजिए।"
+      ],
+      "roman": [
+        "Aapki bheji hui photo khul nahi rahi, dobara bhej dijiye."
+      ]
+    },
+    {
+      "id": "hi-s127",
+      "kind": "sentence",
+      "native": [
+        "जवाब देने में देर हो गई, माफ़ कीजिए। आपकी ईमेल दूसरे फ़ोल्डर में चली गई थी।"
+      ],
+      "roman": [
+        "Jawab dene mein der ho gayi, maaf kijiye. Aapki email doosre folder mein chali gayi thi."
+      ]
+    },
+    {
+      "id": "hi-s128",
+      "kind": "sentence",
+      "native": [
+        "परीक्षा 23 नवंबर 2026 को दोपहर 1 बजे शुरू होगी।"
+      ],
+      "roman": [
+        "Pariksha 23 November 2026 ko dopahar 1 baje shuru hogi."
+      ]
+    },
+    {
+      "id": "hi-s129",
+      "kind": "sentence",
+      "native": [
+        "खर्चे में साइकिल की मरम्मत के ₹350 लिख लीजिए।"
+      ],
+      "roman": [
+        "Kharche mein cycle ki marammat ke ₹350 likh lijiye."
+      ]
+    },
+    {
+      "id": "hi-s130",
+      "kind": "sentence",
+      "native": [
+        "चंडीगढ़ के रॉक गार्डन तक गाड़ी से जाने का रास्ता दिखाओ।"
+      ],
+      "roman": [
+        "Chandigarh ke Rock Garden tak gaadi se jaane ka raasta dikhao."
+      ]
+    },
+    {
+      "id": "hi-s131",
+      "kind": "sentence",
+      "native": [
+        "इस कीबोर्ड से हिंदी में कैसे टाइप करूँ?"
+      ],
+      "roman": [
+        "Is keyboard se Hindi mein kaise type karun?"
+      ]
+    },
+    {
+      "id": "hi-s132",
+      "kind": "sentence",
+      "native": [
+        "निखिल स्टेशन के बाहर मिलेगा।"
+      ],
+      "roman": [
+        "Nikhil station ke bahar milega."
+      ]
+    },
+    {
+      "id": "hi-s133",
+      "kind": "sentence",
+      "native": [
+        "ईद पर सना अपने हाथ की सेवइयाँ लाने वाली है।"
+      ],
+      "roman": [
+        "Eid par Sana apne haath ki sevaiyan laane wali hai."
+      ]
+    },
+    {
+      "id": "hi-s134",
+      "kind": "sentence",
+      "native": [
+        "दरवाज़ा बंद कर दीजिए, अरे नहीं, बिल्ली अंदर आने वाली है।"
+      ],
+      "roman": [
+        "Darwaza band kar dijiye, are nahi, billi andar aane wali hai."
+      ]
+    },
+    {
+      "id": "hi-s135",
+      "kind": "sentence",
+      "native": [
+        "वाह, आज तुम जल्दी उठे!"
+      ],
+      "roman": [
+        "Wah, aaj tum jaldi uthe!"
+      ]
+    },
+    {
+      "id": "hi-s136",
+      "kind": "sentence",
+      "native": [
+        "महीने के आख़िर तक नया सॉफ़्टवेयर चलने लगेगा, तब पुराने सिस्टम पर काम नहीं करना पड़ेगा।"
+      ],
+      "roman": [
+        "Mahine ke aakhir tak naya software chalne lagega, tab purane system par kaam nahi karna padega."
+      ]
+    },
+    {
+      "id": "hi-s137",
+      "kind": "sentence",
+      "native": [
+        "रोज़ 8 किलोमीटर साइकिल चलाने में करीब 35 मिनट लगते हैं।"
+      ],
+      "roman": [
+        "Roz 8 kilometer cycle chalane mein kareeb 35 minute lagte hain."
+      ]
+    },
+    {
+      "id": "hi-s138",
+      "kind": "sentence",
+      "native": [
+        "ज़रूरी फ़ाइलों का बैकअप शुक्रवार को हार्ड डिस्क पर लेना है।"
+      ],
+      "roman": [
+        "Zaroori fileon ka backup Shukravaar ko hard disk par lena hai."
+      ]
+    },
+    {
+      "id": "hi-s139",
+      "kind": "sentence",
+      "native": [
+        "आवाज़ थोड़ी बढ़ाओ, यहाँ से ठीक से सुनाई नहीं दे रहा।"
+      ],
+      "roman": [
+        "Awaaz thodi badhao, yahan se theek se sunai nahi de raha."
+      ]
+    },
+    {
+      "id": "hi-s140",
+      "kind": "sentence",
+      "native": [
+        "मीरा, प्रिंटर में कागज़ फँस गया है, इसलिए आपके पोस्टर का प्रिंट अभी नहीं निकल पाएगा।"
+      ],
+      "roman": [
+        "Meera, printer mein kagaz phans gaya hai, isliye aapke poster ka print abhi nahi nikal payega."
+      ]
+    },
+    {
+      "id": "hi-s141",
+      "kind": "sentence",
+      "native": [
+        "स्कूल की डायरी में छुट्टी का नोट लगा है।"
+      ],
+      "roman": [
+        "School ki diary mein chhutti ka note laga hai."
+      ]
+    },
+    {
+      "id": "hi-s142",
+      "kind": "sentence",
+      "native": [
+        "तुम्हारी अंगूठी मिल गई क्या?"
+      ],
+      "roman": [
+        "Tumhari angoothi mil gayi kya?"
+      ]
+    },
+    {
+      "id": "hi-s143",
+      "kind": "sentence",
+      "native": [
+        "छुट्टी की मंज़ूरी मिल गई।"
+      ],
+      "roman": [
+        "Chhutti ki manzoori mil gayi."
+      ]
+    },
+    {
+      "id": "hi-s144",
+      "kind": "sentence",
+      "native": [
+        "स्कोर 3 विकेट पर 96 है।"
+      ],
+      "roman": [
+        "Score 3 wicket par 96 hai."
+      ]
+    },
+    {
+      "id": "hi-s145",
+      "kind": "sentence",
+      "native": [
+        "रेणु आंटी की सीढ़ी इस्तेमाल करके शाम तक लौटा देनी है।"
+      ],
+      "roman": [
+        "Renu aunty ki seedhi istemaal karke shaam tak lauta deni hai."
+      ]
+    },
+    {
+      "id": "hi-s146",
+      "kind": "sentence",
+      "native": [
+        "बेटी की क्लास में कल नाव बनाना सिखाएँगे, उसके बस्ते में रंगीन कागज़ रख देना।"
+      ],
+      "roman": [
+        "Beti ki class mein kal naav banana sikhayenge, uske baste mein rangeen kagaz rakh dena."
+      ]
+    },
+    {
+      "id": "hi-s147",
+      "kind": "sentence",
+      "native": [
+        "अम्मा, आपकी सहेलियाँ नीचे बैठी हैं, चाय भिजवा दूँ?"
+      ],
+      "roman": [
+        "Amma, aapki saheliyan neeche baithi hain, chai bhijwa doon?"
+      ]
+    },
+    {
+      "id": "hi-s148",
+      "kind": "sentence",
+      "native": [
+        "लिस्ट में झाड़ू जोड़ दीजिए।"
+      ],
+      "roman": [
+        "List mein jhaadu jod dijiye."
+      ]
+    },
+    {
+      "id": "hi-s149",
+      "kind": "sentence",
+      "native": [
+        "रविवार को लोधी गार्डन में टहलने चलें? मौसम अच्छा रहेगा।"
+      ],
+      "roman": [
+        "Ravivaar ko Lodhi Garden mein tahalne chalein? Mausam achha rahega."
+      ]
+    },
+    {
+      "id": "hi-s150",
+      "kind": "sentence",
+      "native": [
+        "मालपुए बन रहे हैं, चखने के लिए आ जाओ।"
+      ],
+      "roman": [
+        "Malpue ban rahe hain, chakhne ke liye aa jao."
+      ]
+    },
+    {
+      "id": "hi-s151",
+      "kind": "sentence",
+      "native": [
+        "पापा, आपका चश्मा अख़बार के नीचे रखा है, वहीं देख लीजिए।"
+      ],
+      "roman": [
+        "Papa, aapka chashma akhbar ke neeche rakha hai, wahin dekh lijiye."
+      ]
+    },
+    {
+      "id": "hi-s152",
+      "kind": "sentence",
+      "native": [
+        "साहिल, कैरम निकालो, आज हारने वाला बर्तन धोएगा।"
+      ],
+      "roman": [
+        "Sahil, carrom nikalo, aaj haarne wala bartan dhoyega."
+      ]
+    },
+    {
+      "id": "hi-s153",
+      "kind": "sentence",
+      "native": [
+        "मेरे लिए थोड़ी साबूदाना खिचड़ी बचा देना, लौटने में देर होगी।"
+      ],
+      "roman": [
+        "Mere liye thodi sabudana khichdi bacha dena, lautne mein der hogi."
+      ]
+    }
+  ]
+}

@@ -15,5 +15,9 @@ export const migrations: { tag: string; sql: string }[] = [
   {
     "tag": "0003_take_quality",
     "sql": "ALTER TABLE `clips` ADD `path_48k_clean` text;--> statement-breakpoint\nALTER TABLE `clips` ADD `quality` text;--> statement-breakpoint\nALTER TABLE `recordings` ADD `clean_path` text;--> statement-breakpoint\nALTER TABLE `recordings` ADD `quality` text;"
+  },
+  {
+    "tag": "0004_corpus_scripts",
+    "sql": "ALTER TABLE `prompts` ADD `native` text;--> statement-breakpoint\nALTER TABLE `prompts` ADD `roman` text;--> statement-breakpoint\nALTER TABLE `prompts` ADD `starter` integer;--> statement-breakpoint\nALTER TABLE `recordings` ADD `script` text;--> statement-breakpoint\nUPDATE `languages` SET `script` = CASE WHEN `script` = 'Latin (romanized)' THEN 'roman' ELSE 'native' END;--> statement-breakpoint\nUPDATE `prompts` SET\n  `native` = CASE WHEN `lang` IN (SELECT `code` FROM `languages` WHERE `script` = 'roman') THEN `native_lines` ELSE `lines` END,\n  `roman` = CASE WHEN `lang` IN (SELECT `code` FROM `languages` WHERE `script` = 'roman') THEN `lines` END;--> statement-breakpoint\nUPDATE `recordings` SET `script` = CASE WHEN `lang` IN (SELECT `code` FROM `languages` WHERE `script` = 'roman') THEN 'roman' ELSE 'native' END;--> statement-breakpoint\nDELETE FROM `prompts` WHERE `source` IN ('builtin', 'seed')\n  AND NOT EXISTS (SELECT 1 FROM `recordings` r WHERE r.`prompt_id` = `prompts`.`id`)\n  AND NOT EXISTS (SELECT 1 FROM `synth_clips` s WHERE s.`prompt_id` = `prompts`.`id`);--> statement-breakpoint\nUPDATE `prompts` SET `source` = 'retired' WHERE `source` IN ('builtin', 'seed');--> statement-breakpoint\nDELETE FROM `settings` WHERE `key` = 'seed_version';--> statement-breakpoint\nALTER TABLE `prompts` DROP COLUMN `lines`;--> statement-breakpoint\nALTER TABLE `prompts` DROP COLUMN `native_lines`;\n"
   }
 ];

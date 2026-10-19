@@ -1,0 +1,1534 @@
+{
+  "lang": "fi",
+  "starter": [
+    "fi-s151",
+    "fi-s146",
+    "fi-s160",
+    "fi-s114",
+    "fi-s062",
+    "fi-s153",
+    "fi-s127",
+    "fi-s132",
+    "fi-s080",
+    "fi-s092",
+    "fi-s077",
+    "fi-s145",
+    "fi-s010",
+    "fi-s047",
+    "fi-s040",
+    "fi-s142",
+    "fi-s046",
+    "fi-s005",
+    "fi-p07",
+    "fi-s089",
+    "fi-s026",
+    "fi-s123",
+    "fi-s149",
+    "fi-s130",
+    "fi-s136",
+    "fi-s103",
+    "fi-s086",
+    "fi-s030",
+    "fi-s041",
+    "fi-s061",
+    "fi-s165",
+    "fi-s014",
+    "fi-s115",
+    "fi-s122",
+    "fi-s050",
+    "fi-s118",
+    "fi-p06",
+    "fi-s044",
+    "fi-s101",
+    "fi-s049",
+    "fi-s140",
+    "fi-s068",
+    "fi-s055",
+    "fi-s019",
+    "fi-s078",
+    "fi-s012",
+    "fi-s022",
+    "fi-s008",
+    "fi-s084",
+    "fi-s138",
+    "fi-s119",
+    "fi-s133",
+    "fi-s071",
+    "fi-s159",
+    "fi-s057"
+  ],
+  "items": [
+    {
+      "id": "fi-p01",
+      "kind": "para",
+      "title": "Last Night's Hockey Match",
+      "native": [
+        "Katsoitko sä eilen sen Tapparan matsin ihan loppuun asti?",
+        "Me katsottiin sitä Joonaksen luona Tammelassa, koko porukka samalla sohvalla.",
+        "Mä olin jo varma, ettei siitä pelistä enää tulisi mitään.",
+        "Sitten tuli se tasoitus, ja koko porukka pomppasi sohvalta pystyyn.",
+        "Joonas meinasi siinä huitoa popcornkulhon lattialle, mutta sai sen kiinni.",
+        "Viimeiset minuutit mä puristin sohvatyynyä enkä uskaltanut edes hakea vettä.",
+        "Se voittomaali ihan lopussa oli kyllä koko illan paras hetki.",
+        "Naapurikin taisi kuulla, miten kovaa me huudettiin siinä olohuoneessa.",
+        "Ensi kerralla säkin tulet mukaan, niin tilataan pitsat ennen peliä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-p02",
+      "kind": "para",
+      "title": "Moving the Office Upstairs",
+      "native": [
+        "Oulun toimistomme muuttaa perjantaina saman rakennuksen 2. kerroksesta 4. kerrokseen.",
+        "Muutto alkaa kello 9, joten pakkaathan omat tavarasi jo torstaina.",
+        "Muuttajat siirtävät työpöydät ja tuolit, mutta kuljeta oma kannettavasi itse.",
+        "Merkitse jokaiseen laatikkoon nimesi ja uuden työpisteesi numero selvästi näkyviin.",
+        "Uusi istumajärjestys löytyy Teams-kanavalta, ja kartta on myös keittiön ilmoitustaululla.",
+        "Perjantain asiakaspalaverit pidetään etänä, joten voit osallistua niihin vaikka kotoa.",
+        "Uuden kerroksen tulostin otetaan käyttöön maanantaina, kun verkkoyhteydet on testattu.",
+        "Ilmoitathan minulle torstaihin mennessä, jos tarvitset apua laatikoiden pakkaamisessa.",
+        "Kiitos jo etukäteen avusta, ja nähdään maanantaina uusissa tiloissa kahvilla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-p03",
+      "kind": "para",
+      "title": "Missing the Last Bus",
+      "native": [
+        "Olin viime lauantaina Jyväskylän keskustassa auttamassa siskoani uuden hyllyn kokoamisessa.",
+        "Kun pääsin lopulta pysäkille, viimeinen bussi Kuokkalaan oli juuri lähtenyt.",
+        "Näin vain bussin takavalot, kun se kääntyi seuraavasta risteyksestä oikealle.",
+        "Puhelimen akku oli melkein tyhjä, eikä taksisovellus suostunut enää aukeamaan.",
+        "Harkitsin hetken siskolle soittamista, mutta päätin sitten lähteä kävellen kotiin.",
+        "Kuokkalan sillalla tuuli niin kovaa, että vedin takin vetoketjun ylös.",
+        "Jyväsjärven pinnassa näkyivät kaupungin valot, ja jäin hetkeksi katselemaan niitä.",
+        "Kotiin päästyäni lämmitin kaakaota ja kaivoin repusta siskon antaman korvapuustin.",
+        "Istuin keittiön pöydän ääressä ja söin pullan vielä takki päällä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-p04",
+      "kind": "para",
+      "title": "Making Grandma's Finnish Pancake",
+      "native": [
+        "Teen pannukakun samalla ohjeella kuin mummi teki kotonaan Vaasassa.",
+        "Laita uuni lämpenemään 225 asteeseen ja ota esiin iso kulho.",
+        "Riko kulhoon 4 kananmunaa ja vatkaa niiden rakenne rikki haarukalla.",
+        "Lisää 8 desilitraa maitoa ja sekoita joukkoon 4 desilitraa vehnäjauhoja.",
+        "Lisää taikinaan 2 ruokalusikallista sokeria ja ripaus suolaa.",
+        "Sulata 50 grammaa voita ja sekoita voisula tasaisesti taikinan joukkoon.",
+        "Kaada taikina leivinpaperilla vuoratulle uunipellille ja paista noin 30 minuuttia.",
+        "Anna pannukakun jäähtyä hetki, jotta siitä saa leikattua siistejä paloja.",
+        "Tarjoa pannukakku mansikkahillon kanssa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-p05",
+      "kind": "para",
+      "title": "An Island Holiday Read",
+      "native": [
+        "Mä luin lomalla Tove Janssonin Kesäkirjan ihan kaikessa rauhassa.",
+        "Kirjan pieni saari Suomenlahdella tuntui heti jotenkin tutulta paikalta.",
+        "Isoäidin ja lapsen keskustelut olivat mun mielestä kirjan paras puoli.",
+        "Ne olivat välillä huvittavia, mutta mukana oli myös yllättävän vakavia ajatuksia.",
+        "Tykkäsin siitä, ettei saariston arkea yritetty selittää lukijalle puhki.",
+        "Välillä olisin silti kaivannut vähän enemmän tapahtumia ja selkeämpää juonta.",
+        "Toisaalta juuri kiireettömyys sopi hyvin siihen hetkeen mökin terassilla.",
+        "Merituulen ja lämpimän kallion melkein tunsi lukiessa omalla iholla.",
+        "Suosittelisin tätä varsinkin sellaiselle, joka haluaa lomalla hidastaa tahtia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-p06",
+      "kind": "para",
+      "title": "Three Days in Savonlinna",
+      "native": [
+        "Meidän 3 päivän reissu Savonlinnaan saa maksaa yhteensä 300 €.",
+        "Lähdetään Kuopiosta 7.8. kello 9.30 ja palataan kotiin 9.8.",
+        "Ajomatkaa kertyy noin 160 kilometriä suuntaansa, ja mä voin ajaa menomatkan.",
+        "Varataan bensaan 50 € ja pysäköintiin vielä 20 €.",
+        "Kahden hengen huone maksaa 80 € yöltä, eli yhteensä 160 €.",
+        "Ruokaan jää silloin 70 €, joten syödään ainakin kerran torilla.",
+        "Perjantaina ehditään satamaan kello 12.00, jos pidetään vain lyhyt kahvitauko.",
+        "Lauantaina kävellään noin 5 kilometriä ja katsellaan Olavinlinnaa ulkopuolelta.",
+        "Sunnuntaina lähdetään takaisin kello 15.00, niin ehditään rauhassa purkaa laukut."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-p07",
+      "kind": "para",
+      "title": "Parcel at the Wrong Door",
+      "native": [
+        "Hei, tilaamani paketti näyttää menneen väärään osoitteeseen.",
+        "Seurannan mukaan paketti toimitettiin tänään kello 13.20 kotiovelleni.",
+        "Osoitteeni on Vesijärvenkatu 18, mutta toimituskuvassa näkyy numero 16.",
+        "Kuvassa näkyvä ruskea ulko-ovi ei ole meidän talomme ovi.",
+        "Olen tarkistanut oman rappumme ja kysynyt paketista myös naapurilta.",
+        "Paketissa on verkkokaupasta tilaamani verhot.",
+        "Voisitko tarkistaa kuljettajalta, mihin osoitteeseen hän jätti lähetyksen?",
+        "Olen huomenna kotona kello 16.30 alkaen ja voin vastaanottaa paketin.",
+        "Uudesta toimitusajasta voi ilmoittaa minulle helpoiten tekstiviestillä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-p08",
+      "kind": "para",
+      "title": "Nature Around Kuusijärvi",
+      "native": [
+        "Kuusijärvi sijaitsee Vantaalla, vain lyhyen matkan päässä Tikkurilan keskustasta.",
+        "Järven ympäri kulkeva polku sopii hyvin rauhalliseen iltakävelyyn.",
+        "Polun varrella kasvaa kuusia ja mäntyjä, ja rannoilla viihtyvät vesilinnut.",
+        "Syksyllä koivujen keltaiset lehdet erottuvat kauniisti tummien kuusten lomasta.",
+        "Kuusijärveltä pääsee myös kävelysiltaa pitkin Sipoonkorven kansallispuiston metsäpoluille.",
+        "Uimarannan lähellä on kahvila, josta saa lämmintä juotavaa kävelyn jälkeen.",
+        "Viikonloppuisin rannalla on vilkasta, mutta metsästä löytyy usein rauhallisempi paikka.",
+        "Alueelle pääsee bussilla Tikkurilasta, joten omaa autoa ei tarvita.",
+        "Retkelle kannattaa ottaa mukaan vesipullo ja säähän sopivat kengät."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s001",
+      "kind": "sentence",
+      "native": [
+        "Meiltä irtoaisi pari muuttolaatikkoa, jos tarvitsette lisää."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s002",
+      "kind": "sentence",
+      "native": [
+        "Liite puuttuu vielä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s003",
+      "kind": "sentence",
+      "native": [
+        "Täytän syyskuussa 38 vuotta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s004",
+      "kind": "sentence",
+      "native": [
+        "Kirjoita ylös, että pyöräkellarin avain palautetaan isännöitsijälle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s005",
+      "kind": "sentence",
+      "native": [
+        "Vaihda näytön taustaksi tämä kuva revontulista."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s006",
+      "kind": "sentence",
+      "native": [
+        "Kokeilin jo käynnistää reitittimen uudelleen, mutta tulostin ei vieläkään löydä langatonta verkkoa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s007",
+      "kind": "sentence",
+      "native": [
+        "Luokkaretkelle tarvitaan vielä yksi aikuinen mukaan, joten kysyn tänään muiden oppilaiden vanhemmilta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s008",
+      "kind": "sentence",
+      "native": [
+        "Biojätepussit loppuivat, joten käytän tänään tyhjää jauhopussia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s009",
+      "kind": "sentence",
+      "native": [
+        "Paketti menee Rovaniemelle, ei kun Kemijärvelle, kummitädin luo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s010",
+      "kind": "sentence",
+      "native": [
+        "Upeasti soitettu, Aino!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s011",
+      "kind": "sentence",
+      "native": [
+        "Tuutko hetkeksi parvekkeelle?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s012",
+      "kind": "sentence",
+      "native": [
+        "Aisha, mihin kansioon tallensit viime kuun myyntiraportin?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s013",
+      "kind": "sentence",
+      "native": [
+        "Tallennatko uuden numeroni 040 000 0000 yhteystietoihisi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s014",
+      "kind": "sentence",
+      "native": [
+        "Kysy Nooralta, saisiko ompelukonetta lainata vetoketjun vaihtamista varten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s015",
+      "kind": "sentence",
+      "native": [
+        "Pitääkö verkkokaupasta ostetun paidan palautuksesta maksaa postikulut itse, jos koko on väärä?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s016",
+      "kind": "sentence",
+      "native": [
+        "Löytyisikö Verkkokaupasta tähän läppäriin sopiva telakka?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s017",
+      "kind": "sentence",
+      "native": [
+        "Rautatientorilla on remontti, joten tavataan Kaisan kanssa mieluummin Kansallisteatterin portailla ennen näytöstä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s018",
+      "kind": "sentence",
+      "native": [
+        "Runebergintorttu maksoi siinä uudessa kahvilassa 4,20 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s019",
+      "kind": "sentence",
+      "native": [
+        "Ostetaan ruisnappeja, hummusta ja pari rasiaa kirsikkatomaatteja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s020",
+      "kind": "sentence",
+      "native": [
+        "Rauman Pitsiviikolla oli mun mielestä erityisen rento tunnelma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s021",
+      "kind": "sentence",
+      "native": [
+        "Meidän kissa on näköjään päättänyt, että tämä pahvilaatikko on sen uusi vakituinen asunto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s022",
+      "kind": "sentence",
+      "native": [
+        "Lähetätkö laskutustiedot suoraan meidän kirjanpitäjälle tämän päivän aikana?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s023",
+      "kind": "sentence",
+      "native": [
+        "Takin palautusaika on 30 päivää."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s024",
+      "kind": "sentence",
+      "native": [
+        "Muistuta minua kastelemaan viherkasvit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s025",
+      "kind": "sentence",
+      "native": [
+        "Pysäytä äänikirja automaattisesti tämän luvun päätyttyä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s026",
+      "kind": "sentence",
+      "native": [
+        "Bluetooth toimii ilman nettiä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s027",
+      "kind": "sentence",
+      "native": [
+        "Työkaveri lupasi tulla vastaan pysäkille, jos en löydä itse perille uuteen toimistoon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s028",
+      "kind": "sentence",
+      "native": [
+        "Kurahousut ovat kuivauskaapissa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s029",
+      "kind": "sentence",
+      "native": [
+        "Siis kumpi näistä käy?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s030",
+      "kind": "sentence",
+      "native": [
+        "Kokeile rohkeasti, kyllä sä opit tuon tekniikan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s031",
+      "kind": "sentence",
+      "native": [
+        "Joo, suolaiset naposteltavat kelpaavat oikein hyvin nyyttäreihin, älä stressaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s032",
+      "kind": "sentence",
+      "native": [
+        "Hyväksyn tämän tarjouksen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s033",
+      "kind": "sentence",
+      "native": [
+        "Lahteen menevä juna lähtee raiteelta 7 kello 16.12."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s034",
+      "kind": "sentence",
+      "native": [
+        "Peruuta lehtitilaus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s035",
+      "kind": "sentence",
+      "native": [
+        "Milloin seuraava bussi lähtee Hervannasta keskustaan ja mistä löydän lähimmän pysäkin?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s036",
+      "kind": "sentence",
+      "native": [
+        "HSL-sovellus pyytää sijaintilupaa jokaisella avauskerralla uudestaan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s037",
+      "kind": "sentence",
+      "native": [
+        "Alikulun kautta pääsee suoraan uimahallin takaovelle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s038",
+      "kind": "sentence",
+      "native": [
+        "Parturiaika sopisi mulle parhaiten heti aamusta ennen töitä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s039",
+      "kind": "sentence",
+      "native": [
+        "Anteeksi, tarkoitin alempaa hyllyä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s040",
+      "kind": "sentence",
+      "native": [
+        "Olen huomannut, että vapaapäivästä voi nauttia ilman ohjelmaakin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s041",
+      "kind": "sentence",
+      "native": [
+        "Älä ihmettele, jos vastaan hitaasti, sillä mun puhelimen akku hyytyy kohta kokonaan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s042",
+      "kind": "sentence",
+      "native": [
+        "Moikka, kyselisin vähän ensi kesän harjoittelupaikoista."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s043",
+      "kind": "sentence",
+      "native": [
+        "Hissin painoraja on 630 kiloa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s044",
+      "kind": "sentence",
+      "native": [
+        "Kaupasta tarvitaan ainakin kananmunia, päärynöitä ja astianpesuainetta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s045",
+      "kind": "sentence",
+      "native": [
+        "Käynnistä ajastin 8 minuutiksi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s046",
+      "kind": "sentence",
+      "native": [
+        "Slackiin ilmestyi outo ilmoitus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s047",
+      "kind": "sentence",
+      "native": [
+        "Serkkuni Iida asuu nykyään vanhan vesitornin vieressä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s048",
+      "kind": "sentence",
+      "native": [
+        "Ulkona tuulee aika navakasti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s049",
+      "kind": "sentence",
+      "native": [
+        "Saisinko sinisen mukin, tai anteeksi, sen raidallisen?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s050",
+      "kind": "sentence",
+      "native": [
+        "Pahoittelut, että jouduit odottamaan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s051",
+      "kind": "sentence",
+      "native": [
+        "Veeti tuo lautapelin mukanaan, mutta etsikää te valmiiksi kyniä ja paperia pisteiden laskemista varten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s052",
+      "kind": "sentence",
+      "native": [
+        "Palaan keskeneräisiin tehtäviin huomenna aamulla, mutta kiireellisissä asioissa tavoitat minut tänään chatista."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s053",
+      "kind": "sentence",
+      "native": [
+        "Kuivaus päättyy kello 15.50 eli 42 minuutin kuluttua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s054",
+      "kind": "sentence",
+      "native": [
+        "Tarkista ennen tilaamista, sopiiko mustekasetti tähän tulostimeen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s055",
+      "kind": "sentence",
+      "native": [
+        "Sataako Jyväskylässä huomenna aamupäivällä vai vasta illalla?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s056",
+      "kind": "sentence",
+      "native": [
+        "Päivityksen jälkeen näppäimistö vaihtui jostain syystä englanninkieliseksi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s057",
+      "kind": "sentence",
+      "native": [
+        "Kulkeeko tämä lähijuna viikonloppuisin ihan samalla aikataululla?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s058",
+      "kind": "sentence",
+      "native": [
+        "Viljami toivoi synttäreilleen aarteenetsintää ja suklaakakkua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s059",
+      "kind": "sentence",
+      "native": [
+        "Meneekö tämä konepesuun?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s060",
+      "kind": "sentence",
+      "native": [
+        "Suurkiitos siitä, että jaksoit kuunnella mun huolia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s061",
+      "kind": "sentence",
+      "native": [
+        "Voisitko napata kaupasta hammastahnaa samalla kun käyt siellä?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s062",
+      "kind": "sentence",
+      "native": [
+        "Saadaanko torstain koulutukseen mukaan myös Vaasan toimipiste?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s063",
+      "kind": "sentence",
+      "native": [
+        "Pesukoneen korjaus maksaa 89 € ja varaosa 36 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s064",
+      "kind": "sentence",
+      "native": [
+        "Kun järjestän vaatekaappia viikonloppuna, vien pieneksi jääneet takit kierrätykseen ja lajittelen samalla kesävaatteet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s065",
+      "kind": "sentence",
+      "native": [
+        "Mistä Espoossa voi lainata luistimet viikonlopuksi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s066",
+      "kind": "sentence",
+      "native": [
+        "Riikka, näkyykö mun jakama ruutu siellä kunnolla?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s067",
+      "kind": "sentence",
+      "native": [
+        "Veljeni suositteli Porvoosta pientä majataloa, jonka pihasta voi vuokrata polkupyörän koko päiväksi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s068",
+      "kind": "sentence",
+      "native": [
+        "Paljonko pyytäisit tästä matosta ilman noita tyynyjä?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s069",
+      "kind": "sentence",
+      "native": [
+        "Pääseekö tästä sovituskoppiin vai pitääkö ensin jonottaa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s070",
+      "kind": "sentence",
+      "native": [
+        "Olipa ihana yllätys!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s071",
+      "kind": "sentence",
+      "native": [
+        "Soita, kun ehdit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s072",
+      "kind": "sentence",
+      "native": [
+        "Tarvitsen matkalaskua varten kuitin Tampereen hotellista."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s073",
+      "kind": "sentence",
+      "native": [
+        "Reseptissä on 350 grammaa jauhoja, mutta mä teen puolikkaan annoksen ja käytän 175 grammaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s074",
+      "kind": "sentence",
+      "native": [
+        "Illalla mun täytyy etsiä kuulokkeiden takuukuitti laatikosta, jotta saan sen huomenna mukaan huoltoon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s075",
+      "kind": "sentence",
+      "native": [
+        "Mihin aikaan Itis sulkee ovensa tänään?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s076",
+      "kind": "sentence",
+      "native": [
+        "Ronja lupasi vastata harrastusporukan WhatsApp-ryhmässä kysymyksiin lomani ajan, joten voin laittaa ilmoitukset pois."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s077",
+      "kind": "sentence",
+      "native": [
+        "Tuomas jäi ratikasta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s078",
+      "kind": "sentence",
+      "native": [
+        "Marimekon housuista irtosi nappi heti ensimmäisellä käyttökerralla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s079",
+      "kind": "sentence",
+      "native": [
+        "Matias, kokeeseen tulee murtolukuja, prosenttilaskuja ja yhtälöitä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s080",
+      "kind": "sentence",
+      "native": [
+        "Harmittaa, ettei lähileipomosta saa enää niitä siemensämpylöitä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s081",
+      "kind": "sentence",
+      "native": [
+        "Sopiiko sulle kävely Pyynikillä vai otetaanko rennompi ilta?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s082",
+      "kind": "sentence",
+      "native": [
+        "Vastaan asiakkaan palautteeseen heti, kun Jari on selvittänyt varastolta, miksi toimitus viivästyi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s083",
+      "kind": "sentence",
+      "native": [
+        "Elli ui 400 metriä ajassa 5 minuuttia 49 sekuntia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s084",
+      "kind": "sentence",
+      "native": [
+        "Tenttiin pitää ilmoittautua tänään."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s085",
+      "kind": "sentence",
+      "native": [
+        "Sulje selaimen avoimet välilehdet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s086",
+      "kind": "sentence",
+      "native": [
+        "Kameraa en nyt avaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s087",
+      "kind": "sentence",
+      "native": [
+        "Selma odottaa pukuhuoneessa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s088",
+      "kind": "sentence",
+      "native": [
+        "Mun pyykkivuoro loppuu kohta, joten voit tuoda lakanat valmiiksi koneen viereen odottamaan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s089",
+      "kind": "sentence",
+      "native": [
+        "Valitsen sittenkin vihreän."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s090",
+      "kind": "sentence",
+      "native": [
+        "Kalakukko oli yllättävän hyvää, vaikka yleensä valitsen retkievääksi jotain vähän kevyempää syötävää."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s091",
+      "kind": "sentence",
+      "native": [
+        "Helmi, sun lapaset jäivät meidän eteisen naulakkoon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s092",
+      "kind": "sentence",
+      "native": [
+        "Sovitaanko työnjaosta, kun sun työtilanne on selvillä?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s093",
+      "kind": "sentence",
+      "native": [
+        "Kupittaan keilahallista saatiin rata 6 perjantaille kello 17.30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s094",
+      "kind": "sentence",
+      "native": [
+        "Merkitse liesituulettimen suodattimen vaihtopäivä muistiin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s095",
+      "kind": "sentence",
+      "native": [
+        "Voitko kertoa, miten saan jaettua netin tästä puhelimesta kannettavalle ilman johtoa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s096",
+      "kind": "sentence",
+      "native": [
+        "Salasana ei kelpaa enää."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s097",
+      "kind": "sentence",
+      "native": [
+        "Perillä ollaan vihdoinkin!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s098",
+      "kind": "sentence",
+      "native": [
+        "Hanan tiiviste taitaa vuotaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s099",
+      "kind": "sentence",
+      "native": [
+        "Veloitettiinko tämä multa kahdesti?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s100",
+      "kind": "sentence",
+      "native": [
+        "Löysin Tokmannilta sen palapelin, jota etsittiin viimeksi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s101",
+      "kind": "sentence",
+      "native": [
+        "Mukavaa viikonloppua koko porukalle!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s102",
+      "kind": "sentence",
+      "native": [
+        "Takuuta on jäljellä 11 kuukautta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s103",
+      "kind": "sentence",
+      "native": [
+        "Ota pelargonit sisälle ennen ensimmäisiä kylmiä öitä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s104",
+      "kind": "sentence",
+      "native": [
+        "Poista tästä tekstistä kaikki ylimääräiset rivinvaihdot, mutta jätä kappaleiden väliin tyhjä rivi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s105",
+      "kind": "sentence",
+      "native": [
+        "Hetkinen, en kuule teitä ollenkaan, vaikka kuulokkeet ovat kiinni ja äänenvoimakkuus on täysillä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s106",
+      "kind": "sentence",
+      "native": [
+        "Voin ulkoiluttaa pentua iltapäivisin, mutta aamulenkit eivät onnistu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s107",
+      "kind": "sentence",
+      "native": [
+        "Kelpaako maksuksi käteinen?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s108",
+      "kind": "sentence",
+      "native": [
+        "En ehdi talkoisiin aamulla, mutta haravan voin tuoda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s109",
+      "kind": "sentence",
+      "native": [
+        "Onhan sulla jo eväät valmiina huomista retkeä varten?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s110",
+      "kind": "sentence",
+      "native": [
+        "Mä ehdin tarkistaa sopimusluonnoksen vasta iltapäivällä ennen lähtöä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s111",
+      "kind": "sentence",
+      "native": [
+        "Voitettiin lentopallopelissä 3 erää ja hävittiin yksi!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s112",
+      "kind": "sentence",
+      "native": [
+        "Muista hakea varattu romaani Pasilan kirjastosta tiistaina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s113",
+      "kind": "sentence",
+      "native": [
+        "Näytä viime kesänä otetut kuvat aikajärjestyksessä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s114",
+      "kind": "sentence",
+      "native": [
+        "Excel kaatui kesken laskennan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s115",
+      "kind": "sentence",
+      "native": [
+        "Istun ravintolan terassilla siinä ison päivänvarjon alla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s116",
+      "kind": "sentence",
+      "native": [
+        "Nea tarvitsee huomiselle tyhjän maitotölkin koulun askarteluun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s117",
+      "kind": "sentence",
+      "native": [
+        "Huoltomies pääsee tiistaina, ei kun torstaina, joten Timo jää kotiin odottamaan astianpesukoneen korjausta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s118",
+      "kind": "sentence",
+      "native": [
+        "Onnea ajokokeen läpäisystä!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s119",
+      "kind": "sentence",
+      "native": [
+        "Jatketaan lounaan jälkeen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s120",
+      "kind": "sentence",
+      "native": [
+        "Haen lapset päiväkodista torstaina 12.3.2026 kello 16.15, joten ehdit kello 17 alkavaan jumppaan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s121",
+      "kind": "sentence",
+      "native": [
+        "Kalenteriin pitää laittaa Sannan valmistujaiset ensi sunnuntaille."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s122",
+      "kind": "sentence",
+      "native": [
+        "Avaa taloyhtiön pesutuvan varauskalenteri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s123",
+      "kind": "sentence",
+      "native": [
+        "Webinaarin tallenne on katsottavissa intrassa ensi viikon loppuun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s124",
+      "kind": "sentence",
+      "native": [
+        "Odottelen sua laiturilla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s125",
+      "kind": "sentence",
+      "native": [
+        "Jos viet pullot palautukseen, saat samalla ostettua mehua huomisia talkoita varten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s126",
+      "kind": "sentence",
+      "native": [
+        "Tietysti saat lainata mailaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s127",
+      "kind": "sentence",
+      "native": [
+        "Pääsin jo kotiin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s128",
+      "kind": "sentence",
+      "native": [
+        "Teams-linkki näyttää vievän vanhaan kokoukseen, päivitätkö kutsun?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s129",
+      "kind": "sentence",
+      "native": [
+        "Alennus on tänään 25 %."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s130",
+      "kind": "sentence",
+      "native": [
+        "Lisää ostoslistalle leivinpaperi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s131",
+      "kind": "sentence",
+      "native": [
+        "Kytke taskulamppu päälle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s132",
+      "kind": "sentence",
+      "native": [
+        "Leena, palautetaanko ryhmätyö Moodleen yhtenä tiedostona vai erikseen?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s133",
+      "kind": "sentence",
+      "native": [
+        "Sun kannattaa jättää auto mieluummin hiekkakentän laidalle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s134",
+      "kind": "sentence",
+      "native": [
+        "Naapuri lupasi ruokkia meidän kanin viikonlopun ajan, kun käydään sukulaisten luona kylässä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s135",
+      "kind": "sentence",
+      "native": [
+        "Postaukseen piti tulla vain lyhyt tervehdys, mutta kerrotaan samalla myös meidän keramiikkakurssin ohjelmasta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s136",
+      "kind": "sentence",
+      "native": [
+        "Säästä mulle makaronilaatikkoa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s137",
+      "kind": "sentence",
+      "native": [
+        "Onko verkkosivujen teksteihin tullut muutoksia vai voinko antaa taittajalle luvan käyttää nykyistä versiota?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s138",
+      "kind": "sentence",
+      "native": [
+        "Verhoihin tarvitaan 2,4 metriä kangasta, jonka leveys on 150 senttiä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s139",
+      "kind": "sentence",
+      "native": [
+        "Varaa aika suutarille."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s140",
+      "kind": "sentence",
+      "native": [
+        "Hiljennä musiikkia vähän."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s141",
+      "kind": "sentence",
+      "native": [
+        "Saanko liitettyä työtilin samaan sovellukseen oman tilini kanssa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s142",
+      "kind": "sentence",
+      "native": [
+        "Yöbussissa oli väljää, vaikka konsertti oli juuri päättynyt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s143",
+      "kind": "sentence",
+      "native": [
+        "Juhannuksena katetaan pitkä pöytä pihalle, mutta sateen sattuessa mahdutaan kyllä sisällekin syömään."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s144",
+      "kind": "sentence",
+      "native": [
+        "Arvaa, kuka oppi viheltämään!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s145",
+      "kind": "sentence",
+      "native": [
+        "Päivi hoitaa perehdytyksen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s146",
+      "kind": "sentence",
+      "native": [
+        "Kirppispöytä maksaa 29 € viikossa, ja myyntiprovisio on 8 %."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s147",
+      "kind": "sentence",
+      "native": [
+        "Ensi kuun menoihin pitää laskea myös 45 € Korkeasaaren pääsylippuun ja eväisiin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s148",
+      "kind": "sentence",
+      "native": [
+        "Hyvä, tunnistautuminen onnistuu myös sormenjäljellä ilman erillistä koodia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s149",
+      "kind": "sentence",
+      "native": [
+        "Käänny seuraavasta risteyksestä oikealle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s150",
+      "kind": "sentence",
+      "native": [
+        "Prismasta löytyi viimein sopivan kokoinen uunivuoka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s151",
+      "kind": "sentence",
+      "native": [
+        "Nähdään Oodin edessä huomenna kello 17."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s152",
+      "kind": "sentence",
+      "native": [
+        "Herätys on kello 6.45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s153",
+      "kind": "sentence",
+      "native": [
+        "Lupasin vaihtaa ensi keskiviikon iltavuoron Eeron kanssa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s154",
+      "kind": "sentence",
+      "native": [
+        "Pipot menivät sekaisin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s155",
+      "kind": "sentence",
+      "native": [
+        "Loppusummaksi tuli 28,60 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s156",
+      "kind": "sentence",
+      "native": [
+        "Koiran hoitajalle pitää jättää valjaat eteiseen ja kirjoittaa lapulle, missä puhtaat pyyhkeet ovat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s157",
+      "kind": "sentence",
+      "native": [
+        "Venla kysyi, lähdetäänkö sunnuntaina Linnanmäelle yhdessä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s158",
+      "kind": "sentence",
+      "native": [
+        "Palaveri siirtyi perjantailta 13.11.2026 maanantaille 16.11.2026, mutta alkaa yhä kello 10.30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s159",
+      "kind": "sentence",
+      "native": [
+        "Täällä sataa kaatamalla, joten kumisaappaille tuli sittenkin käyttöä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s160",
+      "kind": "sentence",
+      "native": [
+        "Maksa mulle MobilePaylla 14,80 €, niin ollaan sujut."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s161",
+      "kind": "sentence",
+      "native": [
+        "Kuulostaako lauantai hyvältä?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s162",
+      "kind": "sentence",
+      "native": [
+        "Osoitteeksi merkitään Satamakatu 18, 4. kerros."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s163",
+      "kind": "sentence",
+      "native": [
+        "Ilona haluaisi harjoitella letittämistä sun hiuksilla, kun mun tukka on siihen liian lyhyt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s164",
+      "kind": "sentence",
+      "native": [
+        "Harjoitukset pidetään keskiviikkona 21.10.2026 kello 19.15."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s165",
+      "kind": "sentence",
+      "native": [
+        "Kiitos kuvista, varsinkin se yhteiskuva onnistui tosi hyvin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s166",
+      "kind": "sentence",
+      "native": [
+        "Akussa on 62 %, ja matkaa on 85 kilometriä."
+      ],
+      "roman": null
+    },
+    {
+      "id": "fi-s167",
+      "kind": "sentence",
+      "native": [
+        "Mä varasin meille saunavuoron illaksi, joten pakkaa pyyhe."
+      ],
+      "roman": null
+    }
+  ]
+}

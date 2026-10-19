@@ -1,0 +1,1554 @@
+{
+  "lang": "ca",
+  "starter": [
+    "ca-s073",
+    "ca-s083",
+    "ca-s154",
+    "ca-s058",
+    "ca-s017",
+    "ca-s023",
+    "ca-s033",
+    "ca-s103",
+    "ca-s155",
+    "ca-s167",
+    "ca-s034",
+    "ca-s050",
+    "ca-s159",
+    "ca-s102",
+    "ca-s079",
+    "ca-s026",
+    "ca-s141",
+    "ca-s114",
+    "ca-s081",
+    "ca-p07",
+    "ca-s113",
+    "ca-s101",
+    "ca-s049",
+    "ca-s085",
+    "ca-s110",
+    "ca-s108",
+    "ca-s076",
+    "ca-s136",
+    "ca-s028",
+    "ca-s117",
+    "ca-s031",
+    "ca-s123",
+    "ca-s166",
+    "ca-s164",
+    "ca-s060",
+    "ca-s054",
+    "ca-s057",
+    "ca-s061",
+    "ca-s006",
+    "ca-p01",
+    "ca-s025",
+    "ca-s047",
+    "ca-s151",
+    "ca-s096",
+    "ca-s009",
+    "ca-s089",
+    "ca-s078",
+    "ca-s125",
+    "ca-s116",
+    "ca-s052",
+    "ca-s134",
+    "ca-s129",
+    "ca-s004",
+    "ca-s086",
+    "ca-s062",
+    "ca-s065",
+    "ca-s100",
+    "ca-s082",
+    "ca-s146"
+  ],
+  "items": [
+    {
+      "id": "ca-p01",
+      "kind": "para",
+      "title": "Last Night's Match",
+      "native": [
+        "Encara penso en el partit del Girona que vam veure ahir a casa teva.",
+        "A la fleca del barri, aquest matí tothom comentava aquell gol de l'últim minut.",
+        "Jo ja donava l'empat per bo, però la Júlia encara confiava en la victòria.",
+        "Quan la pilota va entrar, al teu menjador vam saltar tots del sofà.",
+        "Fins i tot el teu pare va deixar el mòbil per celebrar el 2 a 1.",
+        "Sort que havíem acabat la pizza, perquè amb aquell salt hauria acabat a terra.",
+        "Després vaig tornar caminant fins al pont de Pedra, amb la bufanda ben posada.",
+        "Encara se sentia gent celebrant el resultat als balcons del carrer.",
+        "El pròxim partit el podem veure aquí, i aquest cop preparo jo el sopar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-p02",
+      "kind": "para",
+      "title": "Before My Leave",
+      "native": [
+        "Bon dia, equip, demà començo les vacances i us deixo la feina endreçada.",
+        "He desat els pressupostos de la botiga de Sabadell a la carpeta compartida.",
+        "El fitxer més recent porta la data del 12 de juny al nom.",
+        "La Marta revisarà els imports i enviarà la proposta al client aquest dijous.",
+        "Només falta confirmar el color dels prestatges, i el proveïdor respondrà aquest matí.",
+        "Si arriba la resposta abans de les 13:00, deixaré també la comanda preparada.",
+        "En Pau té les claus del magatzem i pot rebre el material.",
+        "Durant aquests dies no miraré el correu, però teniu tots els detalls al document.",
+        "Ens tornem a veure el 22 de juny, i gràcies per cobrir-me aquests dies."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-p03",
+      "kind": "para",
+      "title": "Dinner During a Blackout",
+      "native": [
+        "Dimarts al vespre, se'n va anar la llum mentre preparava el sopar a Palma.",
+        "Tenia una safata de coca de trampó al forn i quatre amics a punt d'arribar.",
+        "Al carrer, les finestres es van anar obrint i tothom preguntava què passava.",
+        "Vaig buscar la llanterna al calaix dels draps, però només hi havia piles gastades.",
+        "La meva germana va baixar del pis de dalt amb un llum de càmping.",
+        "Quan van arribar els convidats, vam posar tomàquets, formatge i pa damunt la taula.",
+        "Vam sopar al balcó, amb el llum al mig i una mica de fresca.",
+        "Just quan tallàvem l'ensaïmada, la nevera va tornar a fer aquell soroll de sempre.",
+        "Al final, la coca va quedar ben cuita i no en va sobrar gens."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-p04",
+      "kind": "para",
+      "title": "Packing for Berlin",
+      "native": [
+        "Per al viatge a Berlín, prepara la maleta el dia abans de sortir.",
+        "Deixa el passaport i els bitllets en una butxaca accessible de la motxilla.",
+        "Comprova a l'app a quina hora surt el teu primer tren de Sants.",
+        "Tria roba que puguis combinar i prou mudes per passar la primera setmana.",
+        "Posa les sabates al fons, dins d'una bossa, perquè no embrutin la roba.",
+        "Guarda el necesser ben tancat i posa els carregadors en una bosseta a part.",
+        "Reserva espai per a l'entrepà i una ampolla d'aigua que puguis omplir.",
+        "Abans de tancar, pesa la maleta i comprova que la pots aixecar sense ajuda.",
+        "Deixa també una jaqueta a mà, que als trens de vegades fa fred."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-p05",
+      "kind": "para",
+      "title": "A Costa Brava Drama",
+      "native": [
+        "Ahir vaig veure Casa en flames i entenc per què tothom en parla.",
+        "La història passa en una casa de la Costa Brava, durant una trobada familiar.",
+        "Em va agradar que els personatges parlessin com gent que podries trobar pel carrer.",
+        "Els dinars i les discussions em van recordar més d'una sobretaula de casa.",
+        "Hi ha moments divertits, però també silencis que fan venir ganes de canviar de tema.",
+        "A estones, però, em semblava que acumulava massa embolics per mantenir l'interès.",
+        "La Núria diu que el final és rodó, però jo el vaig trobar una mica precipitat.",
+        "Tot i això, feia temps que una història no ens donava tanta conversa.",
+        "Jo la recomanaria, sobretot si us agraden les comèdies amb un punt incòmode."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-p06",
+      "kind": "para",
+      "title": "Three Days in Garrotxa",
+      "native": [
+        "Del 16 al 18 d'octubre de 2026, farem una escapada de Vic a Olot.",
+        "Serem dues persones i ens hem posat un pressupost màxim de 320 €.",
+        "Sortirem a les 09:00 i calculo uns 60 quilòmetres de carretera fins a l'allotjament.",
+        "Reservaré 30 € per a benzina i 140 € per a dues nits d'allotjament.",
+        "El primer dia dinarem a Olot i passejarem pel centre fins a les 18:30.",
+        "Dissabte caminarem 8 quilòmetres per la Fageda d'en Jordà, amb entrepans a la motxilla.",
+        "Diumenge visitarem Santa Pau abans de tornar, amb sortida prevista a les 16:00.",
+        "Per menjar durant aquests tres dies, apartaré 90 € del pressupost.",
+        "Ens quedaran 60 € per a aparcaments, alguna entrada i qualsevol imprevist."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-p07",
+      "kind": "para",
+      "title": "Rescheduling a Doctor's Appointment",
+      "native": [
+        "Bon dia, em dic Laia Ferrer i tinc visita al CAP Sant Ildefons.",
+        "Tinc hora el 22 de setembre a les 11:30, però aquell matí treballo.",
+        "Em sap greu avisar amb tan poc marge, però necessitaria canviar el dia.",
+        "Em podria mirar si hi ha alguna hora lliure la setmana següent?",
+        "Si pot ser, m'aniria millor a partir de les 16:00, qualsevol dia menys dimecres.",
+        "La visita és amb la doctora Rovira i preferiria no canviar de metgessa.",
+        "Si a la tarda no hi ha lloc, també puc venir divendres al matí.",
+        "Em pot confirmar el dia i l'hora de la nova visita abans de penjar?",
+        "Moltes gràcies per l'ajuda, ja m'he apuntat el canvi a l'agenda del mòbil."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-p08",
+      "kind": "para",
+      "title": "Nature Near Valencia",
+      "native": [
+        "El parc de l'Albufera és a uns 10 quilòmetres de València i té una llacuna, arrossars i dunes.",
+        "La llacuna és un dels espais més coneguts del parc, però no és l'únic atractiu.",
+        "Entre la llacuna i el mar, la Devesa conserva pinedes i camins entre dunes.",
+        "Des dels miradors es poden veure ànecs i altres ocells sense acostar-se a les zones de cria.",
+        "Per veure ocells, va bé arribar d'hora i portar uns prismàtics.",
+        "La línia 25 d'autobús arriba al parc, així que no cal anar-hi amb cotxe.",
+        "A l'estiu, és millor evitar les hores centrals del dia i dur prou aigua.",
+        "Durant la visita, cal seguir els itineraris senyalitzats i no deixar cap deixalla.",
+        "Al capvespre, val la pena aturar-se a mirar com es reflecteix la llum a l'aigua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s001",
+      "kind": "sentence",
+      "native": [
+        "Podem comprar els panellets plegats quan surtis de treballar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s002",
+      "kind": "sentence",
+      "native": [
+        "Berta, em pots passar l'acta de l'última reunió?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s003",
+      "kind": "sentence",
+      "native": [
+        "Ens apugen el sou un 3 % a partir del gener."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s004",
+      "kind": "sentence",
+      "native": [
+        "Dissabte toca netejar els filtres."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s005",
+      "kind": "sentence",
+      "native": [
+        "Augmenta la mida de lletra."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s006",
+      "kind": "sentence",
+      "native": [
+        "M'estimo més rebre el codi d'accés per missatge de text."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s007",
+      "kind": "sentence",
+      "native": [
+        "Fàtima, baixes a la parada següent o continues fins al mercat?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s008",
+      "kind": "sentence",
+      "native": [
+        "Per Sant Jordi, posarem una parada de roses al pati de l'escola per pagar les colònies."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s009",
+      "kind": "sentence",
+      "native": [
+        "Apunteu pinzells, cartolines i gomets, però esborreu les tèmperes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s010",
+      "kind": "sentence",
+      "native": [
+        "Prefereixo el xuixo de crema al de xocolata, de llarg."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s011",
+      "kind": "sentence",
+      "native": [
+        "Escolta, m'he deixat les claus al calaix de l'entrada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s012",
+      "kind": "sentence",
+      "native": [
+        "Segons la Sílvia, les mostres arribaran dimecres i podrem preparar l'aparador abans que obri la botiga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s013",
+      "kind": "sentence",
+      "native": [
+        "Quant trigarà a carregar-se si la bateria està al 18 %?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s014",
+      "kind": "sentence",
+      "native": [
+        "M'he de guardar el tiquet de les sabatilles per demanar una talla més gran a la botiga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s015",
+      "kind": "sentence",
+      "native": [
+        "Fes una captura de pantalla i copia-la al porta-retalls."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s016",
+      "kind": "sentence",
+      "native": [
+        "Cada cop que intento recuperar el compte, m'arriba un correu amb un enllaç que ja ha caducat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s017",
+      "kind": "sentence",
+      "native": [
+        "Ens veiem amb en Quim a la llibreria Calders."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s018",
+      "kind": "sentence",
+      "native": [
+        "Sobra arròs per al sopar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s019",
+      "kind": "sentence",
+      "native": [
+        "Montse, t'ho explico per àudio o prefereixes que t'escrigui?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s020",
+      "kind": "sentence",
+      "native": [
+        "Helena, aquest serrell et queda genial."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s021",
+      "kind": "sentence",
+      "native": [
+        "Mentre sigueu fora, puc passar a ventilar el pis i recollir les cartes de la bústia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s022",
+      "kind": "sentence",
+      "native": [
+        "Preferiria fer la pausa després de tancar la caixa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s023",
+      "kind": "sentence",
+      "native": [
+        "Anem 3 sets a 1."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s024",
+      "kind": "sentence",
+      "native": [
+        "Recorda'm que he de regar les plantes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s025",
+      "kind": "sentence",
+      "native": [
+        "Baixa la brillantor de la pantalla fins al mínim."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s026",
+      "kind": "sentence",
+      "native": [
+        "Se m'ha penjat l'app del banc."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s027",
+      "kind": "sentence",
+      "native": [
+        "Vosaltres sortiu per l'accés lateral."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s028",
+      "kind": "sentence",
+      "native": [
+        "Afluixa una mica aquest cargol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s029",
+      "kind": "sentence",
+      "native": [
+        "Encara queden places al menjador?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s030",
+      "kind": "sentence",
+      "native": [
+        "Em sap greu haver-te interromput."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s031",
+      "kind": "sentence",
+      "native": [
+        "Demà anem a la platja de Badalona, t'hi apuntes?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s032",
+      "kind": "sentence",
+      "native": [
+        "Abans de donar la feina per acabada, comproveu que els enllaços del web funcionen també des del mòbil."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s033",
+      "kind": "sentence",
+      "native": [
+        "Clàudia, t'he transferit 42,80 € per les entrades de dissabte."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s034",
+      "kind": "sentence",
+      "native": [
+        "No m'he de descuidar de canviar la contrasenya del wifi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s035",
+      "kind": "sentence",
+      "native": [
+        "Llegeix en veu alta el missatge de la Neus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s036",
+      "kind": "sentence",
+      "native": [
+        "Uf, he tancat una pestanya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s037",
+      "kind": "sentence",
+      "native": [
+        "Han obert una sabateria nova."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s038",
+      "kind": "sentence",
+      "native": [
+        "Falta decidir qui s'encarrega de parar taula diumenge, perquè els avis vindran a dinar amb nosaltres."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s039",
+      "kind": "sentence",
+      "native": [
+        "Canvia el destí a Palamós, ai, no, a Calonge."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s040",
+      "kind": "sentence",
+      "native": [
+        "Pensava que m'avorriria fent un puzle, però m'ha anat bé passar una estona sense mirar cap pantalla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s041",
+      "kind": "sentence",
+      "native": [
+        "Gràcies per les fotos, la de l'avi m'ha fet riure."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s042",
+      "kind": "sentence",
+      "native": [
+        "Us avanço que estrenarem les noves oficines d'Olot al juliol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s043",
+      "kind": "sentence",
+      "native": [
+        "Dels 10 plats, n'han arribat 7."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s044",
+      "kind": "sentence",
+      "native": [
+        "Necessito bosses compostables per al cubell."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s045",
+      "kind": "sentence",
+      "native": [
+        "Reprodueix l'últim episodi del podcast que tinc a mitges."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s046",
+      "kind": "sentence",
+      "native": [
+        "Ostres, podem passar la gravació a en Bernat, que era amb un client i s'ha perdut la demostració?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s047",
+      "kind": "sentence",
+      "native": [
+        "Pugem per les escales mecàniques?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s048",
+      "kind": "sentence",
+      "native": [
+        "Tanqueu el tendal, que plovisqueja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s049",
+      "kind": "sentence",
+      "native": [
+        "Era aquí o més enllà?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s050",
+      "kind": "sentence",
+      "native": [
+        "T'agraeixo molt que m'hagis ajudat amb la mudança."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s051",
+      "kind": "sentence",
+      "native": [
+        "Truca'm quan tinguis un moment."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s052",
+      "kind": "sentence",
+      "native": [
+        "Mercè, necessites ajuda per preparar l'estand de la fira?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s053",
+      "kind": "sentence",
+      "native": [
+        "L'entrevista és al carrer de Mallorca, 176, a les 16:10."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s054",
+      "kind": "sentence",
+      "native": [
+        "Cal renovar el carnet del gimnàs."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s055",
+      "kind": "sentence",
+      "native": [
+        "Hi ha cap forn obert ara mateix a Manacor?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s056",
+      "kind": "sentence",
+      "native": [
+        "Durant la presentació, comparteix només una finestra i així ningú no veurà les notificacions personals que et surtin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s057",
+      "kind": "sentence",
+      "native": [
+        "En sortir de l'estació de Xàtiva, busca l'Empar al costat de les màquines de bitllets."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s058",
+      "kind": "sentence",
+      "native": [
+        "M'ho deixes per 15 €?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s059",
+      "kind": "sentence",
+      "native": [
+        "Hauria de cosir aquest botó, però saps què? Em posaré una altra camisa i ja ho faré després."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s060",
+      "kind": "sentence",
+      "native": [
+        "Tarragona m'ha sorprès, no m'esperava trobar-hi tants racons tranquils."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s061",
+      "kind": "sentence",
+      "native": [
+        "Al final dinarem a Sabadell, així que no ens esperis i ves fent la teva."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s062",
+      "kind": "sentence",
+      "native": [
+        "Hem canviat la visita a Terrassa perquè el taller estava tancat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s063",
+      "kind": "sentence",
+      "native": [
+        "Tu calces un 38 o un 39?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s064",
+      "kind": "sentence",
+      "native": [
+        "Diumenge al vespre m'aniria bé un recordatori per preparar la bossa de natació amb el casquet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s065",
+      "kind": "sentence",
+      "native": [
+        "Posa un temporitzador de 15 minuts per als macarrons."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s066",
+      "kind": "sentence",
+      "native": [
+        "On endollo aquest cable de xarxa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s067",
+      "kind": "sentence",
+      "native": [
+        "Diria que ens hem equivocat de vestíbul, perquè aquí només hi ha els taulells de les companyies aèries."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s068",
+      "kind": "sentence",
+      "native": [
+        "Digues al lampista que l'aixeta encara perd aigua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s069",
+      "kind": "sentence",
+      "native": [
+        "Ep, falta el comandament. Potser és sota el coixí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s070",
+      "kind": "sentence",
+      "native": [
+        "Vinga, que te'n sortiràs segur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s071",
+      "kind": "sentence",
+      "native": [
+        "Guarda'm una mica de truita."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s072",
+      "kind": "sentence",
+      "native": [
+        "A Vic ens han demanat una demostració presencial, i m'aniria bé que algú de vendes m'hi acompanyés."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s073",
+      "kind": "sentence",
+      "native": [
+        "Reserva l'habitació 208 per dijous."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s074",
+      "kind": "sentence",
+      "native": [
+        "Dijous tinc hora a la perruqueria del carrer de Balmes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s075",
+      "kind": "sentence",
+      "native": [
+        "Connecta els auriculars per Bluetooth i apuja el volum una mica, que gairebé no se sent."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s076",
+      "kind": "sentence",
+      "native": [
+        "Has provat de reiniciar el router abans d'avisar el servei tècnic?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s077",
+      "kind": "sentence",
+      "native": [
+        "Aquest matí he coincidit amb una companya al funicular."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s078",
+      "kind": "sentence",
+      "native": [
+        "Roser, vols més samfaina?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s079",
+      "kind": "sentence",
+      "native": [
+        "Deixem la catifa enrotllada o l'estenem perquè perdi els plecs?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s080",
+      "kind": "sentence",
+      "native": [
+        "Costa concentrar-se amb aquest enrenou de les obres del costat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s081",
+      "kind": "sentence",
+      "native": [
+        "Abriga't, que avui fa fred."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s082",
+      "kind": "sentence",
+      "native": [
+        "Disculpa, no puc fer més hores."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s083",
+      "kind": "sentence",
+      "native": [
+        "Només em queden 12 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s084",
+      "kind": "sentence",
+      "native": [
+        "El curs de ceràmica de l'Aina comença el 12 de setembre i cal portar-hi un davantal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s085",
+      "kind": "sentence",
+      "native": [
+        "Com està el trànsit a Girona?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s086",
+      "kind": "sentence",
+      "native": [
+        "Trobo car pagar 8,99 € cada mes per aquesta subscripció."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s087",
+      "kind": "sentence",
+      "native": [
+        "Feu-me un favor i acompanyeu la meva cosina fins a la sala, que no coneix l'edifici."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s088",
+      "kind": "sentence",
+      "native": [
+        "Cadascú ha de dur tisores per al taller de disfresses."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s089",
+      "kind": "sentence",
+      "native": [
+        "Quant val la coca de recapte sencera, sense tallar?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s090",
+      "kind": "sentence",
+      "native": [
+        "Reconec que em costa dir que no, però últimament intento reservar una tarda per fer el que m'agrada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s091",
+      "kind": "sentence",
+      "native": [
+        "Duc orxata d'Alboraia per compartir després de sopar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s092",
+      "kind": "sentence",
+      "native": [
+        "Cesc, ens cal una foto teva per al butlletí intern."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s093",
+      "kind": "sentence",
+      "native": [
+        "Per al pastís d'en Jan, que fa 9 anys, compra 300 grams de xocolata i 6 ous."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s094",
+      "kind": "sentence",
+      "native": [
+        "Anota que falten pinces d'estendre."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s095",
+      "kind": "sentence",
+      "native": [
+        "Busca receptes d'escalivada al forn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s096",
+      "kind": "sentence",
+      "native": [
+        "Ara el ratolí torna a respondre."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s097",
+      "kind": "sentence",
+      "native": [
+        "L'Adrià viu a Sant Andreu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s098",
+      "kind": "sentence",
+      "native": [
+        "Tenim visita amb la tutora després de sortir de classe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s099",
+      "kind": "sentence",
+      "native": [
+        "Volia apuntar-me a dansa, però primer faré una classe de prova per veure si m'hi trobo còmoda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s100",
+      "kind": "sentence",
+      "native": [
+        "Si passes pel Bonpreu, agafa llet i paper de cuina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s101",
+      "kind": "sentence",
+      "native": [
+        "L'Oriol assumirà les tasques de recepció mentre busquem algú nou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s102",
+      "kind": "sentence",
+      "native": [
+        "Acabem a les 17:45, oi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s103",
+      "kind": "sentence",
+      "native": [
+        "Tinc pendent respondre el WhatsApp de la Meritxell."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s104",
+      "kind": "sentence",
+      "native": [
+        "Quin temps farà aquest cap de setmana? Hauré d'agafar el paraigua per sortir?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s105",
+      "kind": "sentence",
+      "native": [
+        "Des de Mataró no aconsegueixo entrar al servidor de l'empresa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s106",
+      "kind": "sentence",
+      "native": [
+        "Passa pel darrere del quiosc i trobaràs l'aparcament cobert."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s107",
+      "kind": "sentence",
+      "native": [
+        "Carme, et va bé acompanyar-me a triar les rajoles?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s108",
+      "kind": "sentence",
+      "native": [
+        "Roc, això va al congelador?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s109",
+      "kind": "sentence",
+      "native": [
+        "Perdona, estic una mica despistat perquè no trobo el mòbil."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s110",
+      "kind": "sentence",
+      "native": [
+        "D'acord, pots publicar l'oferta de feina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s111",
+      "kind": "sentence",
+      "native": [
+        "He trucat al 012 i m'han resolt el dubte en 2 minuts."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s112",
+      "kind": "sentence",
+      "native": [
+        "Vull un avís per recollir els pantalons de la modista."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s113",
+      "kind": "sentence",
+      "native": [
+        "Atura la música un moment."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s114",
+      "kind": "sentence",
+      "native": [
+        "Dins del zip hi trobaràs les icones amb el fons transparent."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s115",
+      "kind": "sentence",
+      "native": [
+        "Preferiu seure a la terrassa o entrem directament al menjador?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s116",
+      "kind": "sentence",
+      "native": [
+        "Fa tanta xafogor que ni obrint les finestres refresca."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s117",
+      "kind": "sentence",
+      "native": [
+        "Agafem préssecs, albercocs i cireres?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s118",
+      "kind": "sentence",
+      "native": [
+        "M'apunto al regal conjunt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s119",
+      "kind": "sentence",
+      "native": [
+        "Perfecte, dono el disseny per aprovat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s120",
+      "kind": "sentence",
+      "native": [
+        "Dídac, el torneig és dissabte 7 de març a les 09:15 i hi participen 18 equips."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s121",
+      "kind": "sentence",
+      "native": [
+        "També necessito detergent per rentar la roba delicada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s122",
+      "kind": "sentence",
+      "native": [
+        "Guia'm fins a l'entrada del parc de la Ciutadella."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s123",
+      "kind": "sentence",
+      "native": [
+        "Acceptes la invitació del calendari?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s124",
+      "kind": "sentence",
+      "native": [
+        "Vinc amb metro perquè pels carrers del barri costa aparcar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s125",
+      "kind": "sentence",
+      "native": [
+        "Vindran a recollir el sofà vell abans de migdia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s126",
+      "kind": "sentence",
+      "native": [
+        "Falten les frontisses, els tiradors i les instruccions de muntatge."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s127",
+      "kind": "sentence",
+      "native": [
+        "Avui em quedo el cotxe, que he de carregar caixes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s128",
+      "kind": "sentence",
+      "native": [
+        "Bon dia, com va tot?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s129",
+      "kind": "sentence",
+      "native": [
+        "M'han cobrat 6,40 € per imprimir 32 pàgines en color."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s130",
+      "kind": "sentence",
+      "native": [
+        "Dimecres he de tornar els llibres a Can Fabra."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s131",
+      "kind": "sentence",
+      "native": [
+        "Explica'm a quin contenidor he de llençar una paella vella que ja no faig servir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s132",
+      "kind": "sentence",
+      "native": [
+        "Pau, em deixes el carregador fins que s'acabi aquesta videotrucada?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s133",
+      "kind": "sentence",
+      "native": [
+        "T'espero davant de la peixateria."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s134",
+      "kind": "sentence",
+      "native": [
+        "Porta una carmanyola i t'hi poso una mica de trinxat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s135",
+      "kind": "sentence",
+      "native": [
+        "Eulàlia, vols entrades per al concert o ja en tens?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s136",
+      "kind": "sentence",
+      "native": [
+        "Ja he arribat a casa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s137",
+      "kind": "sentence",
+      "native": [
+        "Encarregueu les prestatgeries que vam triar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s138",
+      "kind": "sentence",
+      "native": [
+        "Podríem assajar de les 19:15 a les 20:45 dimarts 23 de juny?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s139",
+      "kind": "sentence",
+      "native": [
+        "Desa una nota amb les mides de les cortines."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s140",
+      "kind": "sentence",
+      "native": [
+        "Puc recollir un paquet si només porto el passaport?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s141",
+      "kind": "sentence",
+      "native": [
+        "Amb aquest full d'Excel podem ordenar les vendes per producte."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s142",
+      "kind": "sentence",
+      "native": [
+        "Mariona, el teu germà encara treballa al polígon de Granollers?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s143",
+      "kind": "sentence",
+      "native": [
+        "He passat per la tintoreria i m'han dit que el cobrellit estarà a punt la setmana que ve."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s144",
+      "kind": "sentence",
+      "native": [
+        "Havíem quedat a Benimaclet, però espera, millor ens trobem a mig camí i així no fas tanta volta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s145",
+      "kind": "sentence",
+      "native": [
+        "Mira dins la motxilla, que t'hi he posat el berenar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s146",
+      "kind": "sentence",
+      "native": [
+        "T'adjunto el catàleg amb els colors que ens faltaven."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s147",
+      "kind": "sentence",
+      "native": [
+        "Cuido una gata de 4 anys que pesa 5 quilos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s148",
+      "kind": "sentence",
+      "native": [
+        "Dilluns haig de portar la bicicleta al taller de Gràcia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s149",
+      "kind": "sentence",
+      "native": [
+        "Tradueix aquest text al francès i mantén els noms de les botigues tal com estan escrits."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s150",
+      "kind": "sentence",
+      "native": [
+        "Júlia, tens el micròfon silenciat i no et sentim."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s151",
+      "kind": "sentence",
+      "native": [
+        "La Núria pregunta si et pots quedar amb els nens."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s152",
+      "kind": "sentence",
+      "native": [
+        "Aquesta factura inclou el transport, però no el muntatge."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s153",
+      "kind": "sentence",
+      "native": [
+        "Confirma'm si el tren de les 14:35 surt de la via 7 i arriba a les 16:12."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s154",
+      "kind": "sentence",
+      "native": [
+        "Troba una perruqueria oberta a Lleida."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s155",
+      "kind": "sentence",
+      "native": [
+        "Quedem per fer un cafè?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s156",
+      "kind": "sentence",
+      "native": [
+        "Com que el proveïdor ha allargat el termini, haurem d'ajornar el llançament fins al mes vinent."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s157",
+      "kind": "sentence",
+      "native": [
+        "Dimarts 19 de maig tinc hora a les 10:20."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s158",
+      "kind": "sentence",
+      "native": [
+        "Quina cara de son portes!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s159",
+      "kind": "sentence",
+      "native": [
+        "Divendres us va bé que ens connectem a les 11:30 per Teams?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s160",
+      "kind": "sentence",
+      "native": [
+        "Afegeix 1,5 litres d'aigua i deixa-ho reposar 25 minuts."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s161",
+      "kind": "sentence",
+      "native": [
+        "Quan arribis, deixa les sabates al rebedor i procura no fer soroll, que la petita dorm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s162",
+      "kind": "sentence",
+      "native": [
+        "Podeu deixar els comentaris directament al document, sense imprimir-lo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s163",
+      "kind": "sentence",
+      "native": [
+        "Vaig comprar aquesta jaqueta el 6 d'abril per 54 €, però la cremallera ja no tanca."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s164",
+      "kind": "sentence",
+      "native": [
+        "T'envio el vídeo del gat intentant entrar dins d'una capsa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s165",
+      "kind": "sentence",
+      "native": [
+        "Pel que fa a la formació de Reus, ens falta saber quantes persones necessitaran un ordinador."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s166",
+      "kind": "sentence",
+      "native": [
+        "L'autobús 24 passa cada 11 minuts."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s167",
+      "kind": "sentence",
+      "native": [
+        "Biel, et ve de gust jugar a pàdel aquesta tarda?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s168",
+      "kind": "sentence",
+      "native": [
+        "Trobeu a faltar cap dada al resum de la campanya?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ca-s169",
+      "kind": "sentence",
+      "native": [
+        "Apunta que el descompte del 30 % s'acaba el 28 de novembre i només val per a compres online."
+      ],
+      "roman": null
+    }
+  ]
+}

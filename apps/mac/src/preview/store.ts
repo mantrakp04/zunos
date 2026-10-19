@@ -16,7 +16,7 @@ import type {
   SavedRecording,
   TakeQuality,
 } from "../shared/types";
-import { type Data, type DataKind, evalFor, HEARD, inflightRun, makeData, modelFor, rng, statsOf, userFor } from "./fixtures";
+import { type Data, type DataKind, evalFor, HEARD, inflightRun, inScript, makeData, modelFor, rng, statsOf, userFor } from "./fixtures";
 
 /* ---- recording-quality fixtures (services/mic.ts, services/quality.ts) ------------------------------- */
 
@@ -290,12 +290,26 @@ const handlers: Partial<Record<keyof Actions, (...args: never[]) => Promise<unkn
   },
   async prompts(lang: string) {
     await latency(180);
-    return state.data.prompts.filter((p) => p.lang === lang);
+    const choice = state.data.languages.find((l) => l.code === lang)?.script ?? "native";
+    return state.data.prompts.filter((p) => p.lang === lang).map((p) => inScript(p, choice));
+  },
+  async setLanguageScript(lang: string, script: "native" | "roman") {
+    await latency(150);
+    const l = state.data.languages.find((x) => x.code === lang);
+    if (!l) throw new Error(`Unknown language ${lang}`);
+    if (script === "roman" && !l.hasRoman) throw new Error("This language is already written in English letters.");
+    setData((d) => void (d.languages.find((x) => x.code === lang)!.script = script));
+    return { ...l, script };
   },
   async createPrompt(lang: string, text: string) {
     await latency(250);
     const lines = text.split(/(?<=[.!?।])\s+|\n+/).map((s) => s.trim()).filter(Boolean);
-    const p: PromptItem = { id: `user-${Date.now().toString(36)}`, lang, kind: lines.length > 1 ? "para" : "sentence", title: null, lines, recorded: false };
+    const l = state.data.languages.find((x) => x.code === lang);
+    const script = l?.hasRoman ? l.script : "native";
+    const p: PromptItem = {
+      id: `user-${Date.now().toString(36)}`, lang, kind: lines.length > 1 ? "para" : "sentence", title: null, lines, script,
+      native: script === "native" ? lines : null, roman: script === "roman" ? lines : null, starter: false, recorded: false,
+    };
     setData((d) => void d.prompts.push(p));
     return p;
   },
@@ -606,7 +620,7 @@ async function advanceRun(id: string) {
 // Every action name the app has. Typed as a full Record so `tsc` flags a new action that's missing
 // here (the app spreads `...a` from props, so names must be known up front).
 const NAMES: Record<keyof Actions, true> = {
-  sendCode: true, verifyCode: true, signOut: true, languages: true, setLanguages: true, stats: true, prompts: true, createPrompt: true,
+  sendCode: true, verifyCode: true, signOut: true, languages: true, setLanguages: true, stats: true, prompts: true, createPrompt: true, setLanguageScript: true,
   startTake: true, markLine: true, finishTake: true, cancelTake: true, micInfo: true, checkRoom: true, resegmentRecording: true,
   unsegmentedRecordings: true, trainingQuote: true, runs: true, run: true, startTraining: true,
   stopTraining: true, syncRuns: true, models: true, setActiveModel: true, latestEval: true, baselines: true, evaluate: true,

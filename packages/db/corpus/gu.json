@@ -1,0 +1,1705 @@
+{
+  "lang": "gu",
+  "starter": [
+    "gu-s118",
+    "gu-s122",
+    "gu-s005",
+    "gu-s110",
+    "gu-s125",
+    "gu-s003",
+    "gu-s120",
+    "gu-s101",
+    "gu-s096",
+    "gu-s010",
+    "gu-s026",
+    "gu-s107",
+    "gu-s056",
+    "gu-s076",
+    "gu-s084",
+    "gu-s069",
+    "gu-s036",
+    "gu-p01",
+    "gu-s095",
+    "gu-s123",
+    "gu-s131",
+    "gu-s039",
+    "gu-s062",
+    "gu-s060",
+    "gu-s119",
+    "gu-s067",
+    "gu-s091",
+    "gu-s037",
+    "gu-s008",
+    "gu-s012",
+    "gu-s128",
+    "gu-s074",
+    "gu-s104",
+    "gu-s050",
+    "gu-p04",
+    "gu-s029",
+    "gu-s011",
+    "gu-s127",
+    "gu-s115",
+    "gu-s058",
+    "gu-s051",
+    "gu-s089",
+    "gu-s064",
+    "gu-s044",
+    "gu-s141",
+    "gu-s032",
+    "gu-s033",
+    "gu-s105",
+    "gu-s028",
+    "gu-s055",
+    "gu-s088",
+    "gu-s112"
+  ],
+  "items": [
+    {
+      "id": "gu-p01",
+      "kind": "para",
+      "title": "A New Ahmedabad Job",
+      "native": [
+        "નિશા, તને કહેવાનું રહી ગયું, મને અમદાવાદમાં નવી નોકરી મળી ગઈ.",
+        "પ્રહલાદનગરની એક નાની કંપનીમાં સોમવારથી ડિઝાઇનનું કામ શરૂ કરું છું.",
+        "પહેલા અઠવાડિયે સવારે 10 વાગ્યે પહોંચવાનું છે, એટલે વહેલું નીકળીશ.",
+        "ઘરેથી ઓફિસ જવા માટે અત્યારે તો બસ પકડવાનું વિચાર્યું છે.",
+        "પગાર પહેલાં કરતાં થોડો વધારે છે, પણ શીખવા ઘણું મળશે.",
+        "મારી સાથે કામ કરતી હેતલે આજે આખી ઓફિસ બતાવી દીધી.",
+        "ત્યાં બપોરે બધા સાથે બેસીને જમે છે, એ વાત મને ગમી.",
+        "મમ્મીએ ખુશ થઈને પહેલા દિવસે શીરો બનાવી આપવાની વાત કરી.",
+        "આવતા રવિવારે તું ઘરે આવજે, નવી નોકરીની ખુશીમાં સાથે દાબેલી ખાઈશું."
+      ],
+      "roman": [
+        "Nisha, tane kahevanu rahi gayu, mane Ahmedabadma navi nokri mali gai.",
+        "Prahladnagarni ek nani companyma somvarthi designnu kaam sharu karu chhu.",
+        "Pahela athvadiye savare 10 vagye pahonchvanu chhe, etle vahelu niklish.",
+        "Gharethi office java mate atyare to bus pakadvanu vicharyu chhe.",
+        "Pagar pahela karta thodo vadhare chhe, pan shikhva ghanu malshe.",
+        "Mari sathe kaam karti Hetale aaje aakhi office batavi didhi.",
+        "Tya bapore badha sathe besine jame chhe, e vaat mane gami.",
+        "Mammie khush thaine pahela divase shiro banavi aapvani vaat kari.",
+        "Aavta ravivare tu ghare aavje, navi nokrini khushima sathe dabeli khaishu."
+      ]
+    },
+    {
+      "id": "gu-p02",
+      "kind": "para",
+      "title": "After the Client Meeting",
+      "native": [
+        "આજે વડોદરાના અલકાપુરીમાં કાપડની દુકાનના માલિક સાથે મીટિંગ સારી રીતે પૂરી થઈ.",
+        "ક્લાયન્ટને વેબસાઇટનું મેન પેજ ગમ્યું, પણ કપડાંના ફોટો મોટા જોઈએ છે.",
+        "તેમણે દરેક સાડીની નીચે કિંમત અને કાપડની વિગત મૂકવાનું કહ્યું છે.",
+        "જૂના ફોટો કાઢીને નવા ફોટો મૂકવા માટે કાલે સવારે સમય રાખ્યો છે.",
+        "મૈત્રી, તમે તૈયાર કરેલી ડિઝાઇન બપોરે 12 વાગ્યા સુધી મને મોકલશો?",
+        "હું ફોટોગ્રાફર સાથે વાત કરીને દુકાને પહોંચવાનો સમય નક્કી કરી લઈશ.",
+        "ભાવનું નવું લિસ્ટ આવે પછી જ આપણે કિંમતો અપડેટ કરીશું.",
+        "ક્લાયન્ટને શુક્રવારે નવી ડિઝાઇન મોકલવાની છે, એટલે ગુરુવારે બધું ચકાસી લઈએ.",
+        "કોઈ કામમાં વધુ સમય લાગે એમ હોય તો આજે જ જણાવજો."
+      ],
+      "roman": [
+        "Aaje Vadodarana Alkapurima kapadni dukanna malik sathe meeting sari rite puri thai.",
+        "Clientne websitenu main page gamyu, pan kapdana photo mota joie chhe.",
+        "Temne darek sadini niche kimat ane kapadni vigat mukvanu kahyu chhe.",
+        "Juna photo kadhine nava photo mukva mate kale savare samay rakhyo chhe.",
+        "Maitri, tame taiyar kareli design bapore 12 vagya sudhi mane mokalsho?",
+        "Hu photographer sathe vaat karine dukane pahonchvano samay nakki kari laish.",
+        "Bhavnu navu list aave pachhi j aapne kimato update karishu.",
+        "Clientne shukravare navi design mokalvani chhe, etle guruvare badhu chakasi laiye.",
+        "Koi kaamma vadhu samay lage em hoy to aaje j janavjo."
+      ]
+    },
+    {
+      "id": "gu-p03",
+      "kind": "para",
+      "title": "Learning to Drive in Rajkot",
+      "native": [
+        "ગયા ઉનાળામાં મેં રાજકોટના યુનિવર્સિટી રોડ પાસે ગાડી ચલાવતાં શીખવાનું શરૂ કર્યું.",
+        "મારો ભાઈ મયંક રોજ સવારે મને ખાલી મેદાનમાં લઈ જતો હતો.",
+        "પહેલા દિવસે સીટ આગળ કરી અને બંને અરીસા સરખા ગોઠવ્યા હતા.",
+        "ગાડી ચાલુ કરતાં જ બંધ પડી ગઈ, એટલે મને હસવું આવ્યું.",
+        "મયંકે શાંતિથી કહ્યું કે ક્લચ ધીમે છોડ અને સામે જોતો રહે.",
+        "ત્રણ દિવસ પછી ગાડી ઝટકા વગર આગળ ચાલી, ત્યારે બહુ મજા આવી.",
+        "પછી અમે સોસાયટીના રસ્તા પર વળાંક લેવાની પ્રેક્ટિસ કરી હતી.",
+        "એક સવારે મેં જાતે ગાડી પાર્ક કરી, તો ભાઈએ તાળી પાડી.",
+        "ઘરે પાછા ફરતાં અમે ખૂણાની દુકાને ગરમ ગાંઠિયા લેવા ઊભા રહ્યા."
+      ],
+      "roman": [
+        "Gaya unalama me Rajkotna University Road pase gadi chalavta shikhvanu sharu karyu.",
+        "Maro bhai Mayank roj savare mane khali medanma lai jato hato.",
+        "Pahela divase seat aagal kari ane banne arisa sarkha gothavya hata.",
+        "Gadi chalu karta j bandh padi gai, etle mane hasvu aavyu.",
+        "Mayanke shantithi kahyu ke clutch dhime chhod ane same joto rahe.",
+        "Tran divas pachhi gadi jhatka vagar aagal chali, tyare bahu maja aavi.",
+        "Pachhi ame societyna rasta par valank levani practice kari hati.",
+        "Ek savare me jate gadi park kari, to bhaie tali padi.",
+        "Ghare pachha farta ame khunani dukane garam ganthiya leva ubha rahya."
+      ]
+    },
+    {
+      "id": "gu-p04",
+      "kind": "para",
+      "title": "Caring for Balcony Plants",
+      "native": [
+        "સુરતના અડાજણમાં મારી બાલ્કનીમાં તુલસી, ફુદીનો અને મરચાંનાં કૂંડાં રાખ્યાં છે.",
+        "સૌથી પહેલાં સવારે આંગળીથી માટી તપાસો, ભીની હોય તો પાણી ન આપો.",
+        "માટી સૂકી લાગે ત્યારે થોડું પાણી ધીમે ધીમે છોડના મૂળ પાસે રેડો.",
+        "કૂંડાની નીચેની થાળીમાં પાણી ભરાય તો એને તરત ખાલી કરી દો.",
+        "અહીં બપોરે તડકો વધારે આવે છે, એટલે ફુદીનાને થોડો છાંયો આપો.",
+        "અઠવાડિયામાં એક વાર સૂકાં પાન કાઢો અને માટી હળવેથી ઢીલી કરો.",
+        "ખાતર નાખતી વખતે પેકેટ પરનું માપ જુઓ, વધારે ખાતર નાખવાની જરૂર નથી.",
+        "મરચાંના પાન પાછળ પણ જોઈ લો, ક્યાંક જીવાત તો નથી ને?",
+        "કોઈ પાન પર જીવાત દેખાય તો ભીના કપડાથી હળવે હાથે સાફ કરો."
+      ],
+      "roman": [
+        "Suratna Adajanma mari balconyma tulsi, fudino ane marchana kunda rakhya chhe.",
+        "Sauthi pahela savare aanglithi mati tapaso, bhini hoi to pani na aapo.",
+        "Mati suki lage tyare thodu pani dhime dhime chhodna mul pase redo.",
+        "Kundani nicheni thalima pani bharay to ene tarat khali kari do.",
+        "Ahi bapore tadko vadhare aave chhe, etle fudinane thodo chhayo aapo.",
+        "Athvadiyama ek var suka pan kadho ane mati halvethi dhili karo.",
+        "Khatar nakhti vakhte packet parnu map juo, vadhare khatar nakhvani jarur nathi.",
+        "Marchana pan pachhal pan joi lo, kyak jivat to nathi ne?",
+        "Koi pan par jivat dekhay to bhina kapdathi halve hathe saf karo."
+      ]
+    },
+    {
+      "id": "gu-p05",
+      "kind": "para",
+      "title": "Thoughts on Kutch Express",
+      "native": [
+        "અમારા ગ્રુપમાં કચ્છ એક્સપ્રેસ ફિલ્મની એટલી વાત થઈ કે આખરે મેં પણ જોઈ લીધી.",
+        "ફિલ્મની સૌથી સારી વાત એ છે કે લાગણીઓ બનાવટી નથી લાગતી.",
+        "ગામનાં ઘર, ભરતકામ અને લોકોની વાતચીતમાં કચ્છનો માહોલ સરસ ઊભો થાય છે.",
+        "માનસી પારેખની એક્ટિંગ સરસ છે, ખાસ કરીને ઘરમાં થતી નાની તકરારના સીનમાં.",
+        "માને પણ પોતાની ઇચ્છાઓ હોય, એ વાત ફિલ્મ બહુ સરસ રીતે બતાવે છે.",
+        "મને વચ્ચેનો ભાગ થોડો ધીમો લાગ્યો. વાર્તા જરા ઝડપથી આગળ વધી હોત તો સારું.",
+        "છતાં પાત્રો એટલાં ગમ્યાં કે ફિલ્મ અધવચ્ચે છોડવાનું મન ન થયું.",
+        "ગીતો કરતાં મને ઘરની અંદર થતી વાતો વધારે યાદ રહી ગઈ.",
+        "પરિવાર સાથે જોવા જેવી ફિલ્મ છે, અને પછી એની વાત કરવાનું પણ મન થાય."
+      ],
+      "roman": [
+        "Amara groupma Kutch Express filmni etli vaat thai ke aakhre me pan joi lidhi.",
+        "Filmni sauthi sari vaat e chhe ke lagnio banavati nathi lagti.",
+        "Gamna ghar, bharatkaam ane lokoni vaatchitma Kutchno mahol saras ubho thay chhe.",
+        "Manasi Parekhni acting saras chhe, khas karine gharma thati nani takrarna scenema.",
+        "Mane pan potani ichchhao hoy, e vaat film bahu saras rite batave chhe.",
+        "Mane vachcheno bhag thodo dhimo lagyo. Varta jara jhadapthi aagal vadhi hot to saru.",
+        "Chhata patro etla gamya ke film adhvachche chhodvanu man na thayu.",
+        "Gito karta mane gharni andar thati vaato vadhare yaad rahi gai.",
+        "Parivar sathe jova jevi film chhe, ane pachhi eni vaat karvanu pan man thay."
+      ]
+    },
+    {
+      "id": "gu-p06",
+      "kind": "para",
+      "title": "Planning a Vidyanagar Dinner",
+      "native": [
+        "18 જૂન 2026, ગુરુવારે વલ્લભ વિદ્યાનગરમાં કિરણકાકાના ઘરે પરિવારનું જમણ રાખીએ.",
+        "આપણે 24 મોટા લોકો અને 4 બાળકો મળીને કુલ 28 જણ થઈશું.",
+        "સાંજે 7 વાગ્યે બધાને બોલાવીએ અને 8 વાગ્યે જમવાનું શરૂ કરીએ.",
+        "મોટાઓ માટે થાળીના ₹300 છે, એટલે 24 થાળીના ₹7200 થશે.",
+        "બાળકોની થાળીના ₹150 પ્રમાણે 4 થાળીના ₹600 થશે. જમવાનો કુલ ખર્ચ ₹7800 થશે.",
+        "જમવામાં પૂરી, બટાકાનું રસાવાળું શાક, દાળભાત અને મોહનથાળ રાખીએ તો બધાને ફાવશે.",
+        "સ્ટેશનથી કિરણકાકાનું ઘર 3 કિલોમીટર દૂર છે, એટલે બહારગામનાં સગાંને લેવા જવું પડશે.",
+        "બેસવા માટે 30 ખુરશીઓ મંગાવીએ અને પાણીના જગ ઘરમાંથી જ ભેગા કરી લઈએ.",
+        "રીનાને આજે જ મહેમાનોનું લિસ્ટ મોકલી દઉં, જેથી કોઈનું નામ રહી ન જાય."
+      ],
+      "roman": [
+        "18 June 2026, guruvare Vallabh Vidyanagarma Kirankakana ghare parivarnu jaman rakhie.",
+        "Aapne 24 mota loko ane 4 balako maline kul 28 jaan thaishu.",
+        "Sanje 7 vagye badhane bolavie ane 8 vagye jamvanu sharu kariye.",
+        "Motao mate thalina ₹300 chhe, etle 24 thalina ₹7200 thashe.",
+        "Balakoni thalina ₹150 pramane 4 thalina ₹600 thashe. Jamvano kul kharch ₹7800 thashe.",
+        "Jamvama puri, batakanu rasavalu shak, dalbhat ane mohanthal rakhie to badhane favshe.",
+        "Stationthi Kirankakanu ghar 3 kilometer dur chhe, etle bahargamna sagane leva javu padshe.",
+        "Besva mate 30 khurshio mangavie ane panina jug gharmathi j bhega kari laiye.",
+        "Reenane aaje j mahemanonu list mokli dau, jethi koinu naam rahi na jay."
+      ]
+    },
+    {
+      "id": "gu-p07",
+      "kind": "para",
+      "title": "Questioning a Duplicate Charge",
+      "native": [
+        "નમસ્તે, મારું ખાતું ભાવનગરમાં તમારી વાઘાવાડી રોડની શાખામાં છે.",
+        "મેં 7 જૂનના રોજ ઘોઘા સર્કલ પાસેની દુકાનમાં કાર્ડથી ₹850 ચૂકવ્યા હતા.",
+        "મારા કાર્ડના બિલમાં એ જ પેમેન્ટ બે વાર દેખાય છે, એટલે ₹850 વધારે ચડ્યા છે.",
+        "પેમેન્ટની રસીદ મારી પાસે છે. દુકાનવાળો પણ કહે છે કે પૈસા એક જ વાર મળ્યા છે.",
+        "તપાસ માટે હું બિલનો ફોટો અને રસીદ મોકલું તો ચાલશે?",
+        "આ વધારાનો ચાર્જ શા માટે આવ્યો છે, એ તમે તપાસી આપશો?",
+        "પૈસા પાછા આવવામાં કેટલા દિવસ લાગશે, એ પણ મને જણાવશો?",
+        "મને મેસેજમાં જવાબ આપશો તો એ સાચવી રાખી શકીશ.",
+        "બીજી કોઈ માહિતી જોઈએ તો કહેજો, હું શાખામાં પણ આવી શકું છું."
+      ],
+      "roman": [
+        "Namaste, maru khatu Bhavnagarma tamari Waghawadi Roadni shakhama chhe.",
+        "Me 7 Junena roj Ghogha Circle paseni dukanma cardthi ₹850 chukavya hata.",
+        "Mara cardna billma e j payment be var dekhay chhe, etle ₹850 vadhare chadya chhe.",
+        "Paymentni rasid mari pase chhe. Dukanvalo pan kahe chhe ke paisa ek j var malya chhe.",
+        "Tapas mate hu billno photo ane rasid moklu to chalshe?",
+        "Aa vadharano charge sha mate aavyo chhe, e tame tapasi aapsho?",
+        "Paisa pachha aavvama ketla divas lagshe, e pan mane janavsho?",
+        "Mane messagema javab aapsho to e sachvi rakhi shakish.",
+        "Biji koi mahiti joie to kahejo, hu shakhama pan aavi shaku chhu."
+      ]
+    },
+    {
+      "id": "gu-p08",
+      "kind": "para",
+      "title": "Uttarayan Across Jamnagar Rooftops",
+      "native": [
+        "જામનગરમાં ઉત્તરાયણના દિવસે સવારથી જ અગાશીઓ પર લોકો ભેગા થવા લાગે છે.",
+        "દર વર્ષે 14 જાન્યુઆરીએ અમે પરિવાર અને મિત્રો સાથે પતંગ ચગાવીએ છીએ.",
+        "લાખોટા તળાવની આસપાસના બજારોમાં ઉત્તરાયણના થોડા દિવસ પહેલાં જ પતંગો અને ફિરકીઓ વેચાવા લાગે છે.",
+        "બાળકો માટે નાના પતંગ લઈએ છીએ, જેથી એમને ચગાવવામાં સહેલું પડે.",
+        "અગાશી પર કોઈ પતંગ ચગાવે છે, તો કોઈ ફિરકી પકડીને સાથ આપે છે.",
+        "બપોરે બધા સાથે બેસીને ઊંધિયું, પૂરી અને જલેબી ખાઈએ છીએ.",
+        "નાસ્તામાં તલની ચીકી અને મમરાના લાડુ પણ હોય છે.",
+        "સાંજે પતંગ ચગાવવાનું બંધ કરીએ તોય પડોશીઓ સાથે ગપ્પાં ચાલુ જ રહે છે.",
+        "ઉત્તરાયણને બહાને મિત્રો અને સગાંને મળવાનું પણ થઈ જાય છે."
+      ],
+      "roman": [
+        "Jamnagarma Uttarayanna divase savarthi j agashio par loko bhega thava lage chhe.",
+        "Dar varshe 14 Januarye ame parivar ane mitro sathe patang chagaviye chhiye.",
+        "Lakhota talavni aspasna bajaroma Uttarayanna thoda divas pahela j patango ane firkio vechava lage chhe.",
+        "Balako mate nana patang laiye chhiye, jethi emne chagavvama sahelu pade.",
+        "Agashi par koi patang chagave chhe, to koi firki pakdine sath aape chhe.",
+        "Bapore badha sathe besine undhiyu, puri ane jalebi khaiye chhiye.",
+        "Nastama talni chiki ane mamrana ladu pan hoy chhe.",
+        "Sanje patang chagavvanu bandh kariye toy padoshio sathe gappa chalu j rahe chhe.",
+        "Uttarayanne bahane mitro ane sagane malvanu pan thai jay chhe."
+      ]
+    },
+    {
+      "id": "gu-s001",
+      "kind": "sentence",
+      "native": [
+        "વાહ, આજે તો વહેલા જાગ્યો!"
+      ],
+      "roman": [
+        "Vah, aaje to vahela jagyo!"
+      ]
+    },
+    {
+      "id": "gu-s002",
+      "kind": "sentence",
+      "native": [
+        "વાત સમજાઈ, પણ આખું ગોડાઉન ખાલી કરવાની જરૂર નથી લાગતી."
+      ],
+      "roman": [
+        "Vaat samjai, pan aakhu godown khali karvani jarur nathi lagti."
+      ]
+    },
+    {
+      "id": "gu-s003",
+      "kind": "sentence",
+      "native": [
+        "રીનાબેનને 3 કિલો બટાકા જોઈએ."
+      ],
+      "roman": [
+        "Reenabenne 3 kilo bataka joie."
+      ]
+    },
+    {
+      "id": "gu-s004",
+      "kind": "sentence",
+      "native": [
+        "મ્યુઝિક એપનો ₹299 વાળો પ્લાન ફરી લેતાં પહેલાં વિચારવું કે આવતા મહિને એની જરૂર પડશે કે નહીં."
+      ],
+      "roman": [
+        "Music appno ₹299 valo plan fari leta pahela vicharvu ke aavta mahine eni jarur padshe ke nahi."
+      ]
+    },
+    {
+      "id": "gu-s005",
+      "kind": "sentence",
+      "native": [
+        "ધ્રુવ પરમારને કોલ લગાવો."
+      ],
+      "roman": [
+        "Dhruv Parmarne call lagavo."
+      ]
+    },
+    {
+      "id": "gu-s006",
+      "kind": "sentence",
+      "native": [
+        "હિસાબનું સોફ્ટવેર ખોલું ત્યારે તારીખ આપોઆપ બદલાઈ જાય છે, સેટિંગ્સમાં શું જોવું પડશે એ જણાવશો?"
+      ],
+      "roman": [
+        "Hisabnu software kholu tyare tarikh aapoaap badlai jay chhe, settingsma shu jovu padshe e janavsho?"
+      ]
+    },
+    {
+      "id": "gu-s007",
+      "kind": "sentence",
+      "native": [
+        "ડાબી બાજુ વળશો એટલે સામે ચશ્માંની દુકાન દેખાશે."
+      ],
+      "roman": [
+        "Dabi baju valsho etle same chashmani dukan dekhashe."
+      ]
+    },
+    {
+      "id": "gu-s008",
+      "kind": "sentence",
+      "native": [
+        "દાળમાં મીઠું થોડું ઓછું નાખજો."
+      ],
+      "roman": [
+        "Dalma mithu thodu ochhu nakhjo."
+      ]
+    },
+    {
+      "id": "gu-s009",
+      "kind": "sentence",
+      "native": [
+        "કાગળ, ગુંદર અને કાતર લેજો, રંગો તો પડ્યા છે."
+      ],
+      "roman": [
+        "Kagal, gundar ane katar lejo, rango to padya chhe."
+      ]
+    },
+    {
+      "id": "gu-s010",
+      "kind": "sentence",
+      "native": [
+        "સમયસર મદદ કરી, બહુ આભાર."
+      ],
+      "roman": [
+        "Samaysar madad kari, bahu aabhar."
+      ]
+    },
+    {
+      "id": "gu-s011",
+      "kind": "sentence",
+      "native": [
+        "નવરા પડો ત્યારે ફોન કરજો."
+      ],
+      "roman": [
+        "Navra pado tyare phone karjo."
+      ]
+    },
+    {
+      "id": "gu-s012",
+      "kind": "sentence",
+      "native": [
+        "જયેશભાઈ, મને બપોરની પાળી વધુ ફાવે, સવારે ભણવા જાઉં છું."
+      ],
+      "roman": [
+        "Jayeshbhai, mane baporni pali vadhu fave, savare bhanva jau chhu."
+      ]
+    },
+    {
+      "id": "gu-s013",
+      "kind": "sentence",
+      "native": [
+        "ઈશાન 12 વર્ષનો છે અને એની બહેન 8 વર્ષની છે."
+      ],
+      "roman": [
+        "Ishan 12 varshno chhe ane eni bahen 8 varshni chhe."
+      ]
+    },
+    {
+      "id": "gu-s014",
+      "kind": "sentence",
+      "native": [
+        "રોજ હાર્મોનિયમની પ્રેક્ટિસ કરવા બેસવાનું છે."
+      ],
+      "roman": [
+        "Roj harmoniumni practice karva besvanu chhe."
+      ]
+    },
+    {
+      "id": "gu-s015",
+      "kind": "sentence",
+      "native": [
+        "સાપુતારામાં આવતા અઠવાડિયે વરસાદ પડવાની શક્યતા છે કે નહીં?"
+      ],
+      "roman": [
+        "Saputarama aavta athvadiye varsad padvani shakyata chhe ke nahi?"
+      ]
+    },
+    {
+      "id": "gu-s016",
+      "kind": "sentence",
+      "native": [
+        "સેવ કર્યા વગર બ્રાઉઝર બંધ થઈ ગયું, લખાણ પાછું મળશે?"
+      ],
+      "roman": [
+        "Save karya vagar browser bandh thai gayu, lakhan pachhu malshe?"
+      ]
+    },
+    {
+      "id": "gu-s017",
+      "kind": "sentence",
+      "native": [
+        "દુકાન ગલીના બીજા છેડે છે."
+      ],
+      "roman": [
+        "Dukan galina bija chhede chhe."
+      ]
+    },
+    {
+      "id": "gu-s018",
+      "kind": "sentence",
+      "native": [
+        "સ્કૂલમાંથી પિકનિકનું ફોર્મ આવ્યું છે, એમાં સહી કરી આપશો?"
+      ],
+      "roman": [
+        "Schoolmathi picnicnu form aavyu chhe, ema sahi kari aapsho?"
+      ]
+    },
+    {
+      "id": "gu-s019",
+      "kind": "sentence",
+      "native": [
+        "પહેલું પાનું કાઢી નાખો. ના, એમાં જ બધાનાં નામ છે, એટલે છેલ્લું પાનું કાઢજો."
+      ],
+      "roman": [
+        "Pahelu panu kadhi nakho. Na, ema j badhana naam chhe, etle chhellu panu kadhjo."
+      ]
+    },
+    {
+      "id": "gu-s020",
+      "kind": "sentence",
+      "native": [
+        "પોરબંદરમાં દાદા સાથે દરિયાકિનારે બેઠા હતા એ સાંજ યાદ આવે છે. હવે એવી નિરાંત બહુ ઓછી મળે છે."
+      ],
+      "roman": [
+        "Porbandarma dada sathe dariyakinare betha hata e sanj yaad aave chhe. Have evi nirant bahu ochhi male chhe."
+      ]
+    },
+    {
+      "id": "gu-s021",
+      "kind": "sentence",
+      "native": [
+        "આપણે કાલે કાંકરિયા ફરવા જઈએ, તને પણ રજા છે ને?"
+      ],
+      "roman": [
+        "Aapne kale Kankaria farva jaie, tane pan raja chhe ne?"
+      ]
+    },
+    {
+      "id": "gu-s022",
+      "kind": "sentence",
+      "native": [
+        "રજાની અરજી મળી ગઈ છે."
+      ],
+      "roman": [
+        "Rajani arji mali gai chhe."
+      ]
+    },
+    {
+      "id": "gu-s023",
+      "kind": "sentence",
+      "native": [
+        "અડાજણથી સ્ટેશન 7 કિલોમીટર છે, પહોંચતાં લગભગ 25 મિનિટ લાગશે."
+      ],
+      "roman": [
+        "Adajanthi station 7 kilometer chhe, pahochta lagbhag 25 minute lagshe."
+      ]
+    },
+    {
+      "id": "gu-s024",
+      "kind": "sentence",
+      "native": [
+        "યુટ્યુબ પર જોયેલી ભરતકામની રીત ફરી અજમાવવાનું યાદ રાખવું."
+      ],
+      "roman": [
+        "YouTube par joyeli bharatkaamni rit fari ajmavvanu yaad rakhvu."
+      ]
+    },
+    {
+      "id": "gu-s025",
+      "kind": "sentence",
+      "native": [
+        "ખમણને પોચાં બનાવવા માટે ખીરામાં શું નાખવું પડે એ શોધો."
+      ],
+      "roman": [
+        "Khamanne pocha banavva mate khirama shu nakhvu pade e shodho."
+      ]
+    },
+    {
+      "id": "gu-s026",
+      "kind": "sentence",
+      "native": [
+        "સુરતની દુકાનેથી લીધેલું ચાર્જર આ ટેબ્લેટમાં લાગતું જ નથી."
+      ],
+      "roman": [
+        "Suratni dukanethi lidhelu charger aa tabletma lagtu j nathi."
+      ]
+    },
+    {
+      "id": "gu-s027",
+      "kind": "sentence",
+      "native": [
+        "શ્રેયસ પટેલ રોજ નડિયાદથી ટ્રેનમાં આવે છે, એટલે સાંજનું કામ એને થોડું વહેલું પતાવવા દઈએ."
+      ],
+      "roman": [
+        "Shreyas Patel roj Nadiadthi trainma aave chhe, etle sanjnu kaam ene thodu vahelu patavva daiye."
+      ]
+    },
+    {
+      "id": "gu-s028",
+      "kind": "sentence",
+      "native": [
+        "સાંજથી પવન જોરમાં છે, અગાશીનાં કૂંડાં અંદર લઈ લો."
+      ],
+      "roman": [
+        "Sanjthi pavan jorma chhe, agashina kunda andar lai lo."
+      ]
+    },
+    {
+      "id": "gu-s029",
+      "kind": "sentence",
+      "native": [
+        "લાલ નહીં, જાંબલી દોરો આપજો."
+      ],
+      "roman": [
+        "Lal nahi, jambli doro aapjo."
+      ]
+    },
+    {
+      "id": "gu-s030",
+      "kind": "sentence",
+      "native": [
+        "ઊંધિયું સ્વાદમાં સારું છે, પણ તેલ જરા વધારે લાગે છે."
+      ],
+      "roman": [
+        "Undhiyu svadma saru chhe, pan tel jara vadhare lage chhe."
+      ]
+    },
+    {
+      "id": "gu-s031",
+      "kind": "sentence",
+      "native": [
+        "પાર્થ, તું ઢોકળાં લાવજે, ચટણી અહીં બનાવી લઈશું."
+      ],
+      "roman": [
+        "Parth, tu dhokla lavje, chatni ahi banavi laishu."
+      ]
+    },
+    {
+      "id": "gu-s032",
+      "kind": "sentence",
+      "native": [
+        "અંદાજે ₹3500માં બધાં વિઝિટિંગ કાર્ડ છપાઈ જશે કે વધારે લાગશે?"
+      ],
+      "roman": [
+        "Andaje ₹3500ma badha visiting card chhapai jashe ke vadhare lagshe?"
+      ]
+    },
+    {
+      "id": "gu-s033",
+      "kind": "sentence",
+      "native": [
+        "બિલ ₹840 છે. મેં ₹1000 આપ્યા છે, એટલે ₹160 પાછા આપજો."
+      ],
+      "roman": [
+        "Bill ₹840 chhe. Me ₹1000 aapya chhe, etle ₹160 pachha aapjo."
+      ]
+    },
+    {
+      "id": "gu-s034",
+      "kind": "sentence",
+      "native": [
+        "ખરીદીમાં બાજરીનો લોટ અને એક ડબ્બો સિંગતેલ લેવાનું છે."
+      ],
+      "roman": [
+        "Kharidima bajrino lot ane ek dabbo singtel levanu chhe."
+      ]
+    },
+    {
+      "id": "gu-s035",
+      "kind": "sentence",
+      "native": [
+        "12 મિનિટનું ટાઇમર ચાલુ કરો."
+      ],
+      "roman": [
+        "12 minutenu timer chalu karo."
+      ]
+    },
+    {
+      "id": "gu-s036",
+      "kind": "sentence",
+      "native": [
+        "કીબોર્ડ પર ચા ઢોળાઈ ગઈ."
+      ],
+      "roman": [
+        "Keyboard par cha dholai gai."
+      ]
+    },
+    {
+      "id": "gu-s037",
+      "kind": "sentence",
+      "native": [
+        "તમારી સોસાયટીના ગેટ પર ગાડી રાખવાની જગ્યા મળશે ખરી?"
+      ],
+      "roman": [
+        "Tamari societyna gate par gadi rakhvani jagya malshe khari?"
+      ]
+    },
+    {
+      "id": "gu-s038",
+      "kind": "sentence",
+      "native": [
+        "દીપ્તિની સગાઈમાં પહેરવા માટે સાડી તો પસંદ કરી લીધી, પણ મેચિંગ બ્લાઉઝ હજી સીવડાવવાનું બાકી છે."
+      ],
+      "roman": [
+        "Deeptini sagaima paherva mate sadi to pasand kari lidhi, pan matching blouse haji sivdavvanu baki chhe."
+      ]
+    },
+    {
+      "id": "gu-s039",
+      "kind": "sentence",
+      "native": [
+        "ભરૂચ નહીં, અંકલેશ્વરનું સરનામું લખાવું છું, જરા અટકો."
+      ],
+      "roman": [
+        "Bharuch nahi, Ankleshwarnu sarnamu lakhavu chhu, jara atko."
+      ]
+    },
+    {
+      "id": "gu-s040",
+      "kind": "sentence",
+      "native": [
+        "પહેલાં બધાને ખુશ રાખવામાં જ દિવસ પૂરો થઈ જતો, હવે પોતાના શોખ માટે સમય કાઢું છું."
+      ],
+      "roman": [
+        "Pahela badhane khush rakhvama j divas puro thai jato, have potana shokh mate samay kadhu chhu."
+      ]
+    },
+    {
+      "id": "gu-s041",
+      "kind": "sentence",
+      "native": [
+        "ઓફિસથી નીકળતાં મોડું થશે, તમે જમી લેજો ને મારી થાળી ઢાંકીને રસોડામાં મૂકી દેજો."
+      ],
+      "roman": [
+        "Officethi niklata modu thashe, tame jami lejo ne mari thali dhankine rasodama muki dejo."
+      ]
+    },
+    {
+      "id": "gu-s042",
+      "kind": "sentence",
+      "native": [
+        "સેજલ, પ્રેઝન્ટેશનની છેલ્લી સ્લાઇડ પર કંપનીનો લોગો મૂકજો."
+      ],
+      "roman": [
+        "Sejal, presentationni chhelli slide par companyno logo mukjo."
+      ]
+    },
+    {
+      "id": "gu-s043",
+      "kind": "sentence",
+      "native": [
+        "કેક માટે 250 ગ્રામ મેંદો અને 100 ગ્રામ ખાંડ તોલો."
+      ],
+      "roman": [
+        "Cake mate 250 gram mendo ane 100 gram khand tolo."
+      ]
+    },
+    {
+      "id": "gu-s044",
+      "kind": "sentence",
+      "native": [
+        "રાત્રે સૂતાં પહેલાં ચશ્માંનું કવર બેગમાં મૂકી દેવાનું છે."
+      ],
+      "roman": [
+        "Ratre suta pahela chashmanu cover bagma muki devanu chhe."
+      ]
+    },
+    {
+      "id": "gu-s045",
+      "kind": "sentence",
+      "native": [
+        "રાજકોટથી જૂનાગઢ જવા માટે રાતે કઈ બસ મળે અને એ ક્યાંથી ઊપડે છે તે શોધી આપો."
+      ],
+      "roman": [
+        "Rajkotthi Junagadh java mate rate kai bus male ane e kyathi upde chhe te shodhi aapo."
+      ]
+    },
+    {
+      "id": "gu-s046",
+      "kind": "sentence",
+      "native": [
+        "પાસવર્ડ કોઈની સાથે શેર ન કરશો."
+      ],
+      "roman": [
+        "Password koini sathe share na karsho."
+      ]
+    },
+    {
+      "id": "gu-s047",
+      "kind": "sentence",
+      "native": [
+        "ઝીનત લાઇબ્રેરીની બહાર રાહ જુએ છે."
+      ],
+      "roman": [
+        "Zeenat libraryni bahar rah jue chhe."
+      ]
+    },
+    {
+      "id": "gu-s048",
+      "kind": "sentence",
+      "native": [
+        "પંખો આટલો અવાજ કેમ કરે છે?"
+      ],
+      "roman": [
+        "Pankho atlo avaj kem kare chhe?"
+      ]
+    },
+    {
+      "id": "gu-s049",
+      "kind": "sentence",
+      "native": [
+        "આવતીકાલે નહીં, બુધવારે ઇમરાનને સેમ્પલ બતાવવા જવાનું છે, લખી લો."
+      ],
+      "roman": [
+        "Aavtikale nahi, budhvare Imranne sample batavva javanu chhe, lakhi lo."
+      ]
+    },
+    {
+      "id": "gu-s050",
+      "kind": "sentence",
+      "native": [
+        "મોડું પડ્યું, માફ કરશો."
+      ],
+      "roman": [
+        "Modu padyu, maf karsho."
+      ]
+    },
+    {
+      "id": "gu-s051",
+      "kind": "sentence",
+      "native": [
+        "નિશા, શનિવારે સાથે ફિલ્મ જોવા જઈએ તો તને ફાવશે?"
+      ],
+      "roman": [
+        "Nisha, shanivare sathe film jova jaie to tane favshe?"
+      ]
+    },
+    {
+      "id": "gu-s052",
+      "kind": "sentence",
+      "native": [
+        "મારી વાત ઊલટી સમજાઈ ગઈ. મોરબીથી માલ મંગાવવાનો નથી, અહીં બનાવેલાં વાસણ ત્યાંની દુકાને મોકલવાનાં છે."
+      ],
+      "roman": [
+        "Mari vaat ulti samjai gai. Morbithi mal mangavvano nathi, ahi banavela vasan tyani dukane mokalvana chhe."
+      ]
+    },
+    {
+      "id": "gu-s053",
+      "kind": "sentence",
+      "native": [
+        "જીતવા 11 બોલમાં 27 રન જોઈએ."
+      ],
+      "roman": [
+        "Jitva 11 ballma 27 run joie."
+      ]
+    },
+    {
+      "id": "gu-s054",
+      "kind": "sentence",
+      "native": [
+        "શનિવારે રતનપોળમાં પડદા લેવા જાઉં ત્યારે બારીની પહોળાઈ લખેલી ચિઠ્ઠી સાથે લઈ જવાનું યાદ કરાવજો."
+      ],
+      "roman": [
+        "Shanivare Ratanpolma padda leva jau tyare barini paholai lakheli chiththi sathe lai javanu yaad karavjo."
+      ]
+    },
+    {
+      "id": "gu-s055",
+      "kind": "sentence",
+      "native": [
+        "તબલાની પ્રેક્ટિસ માટે ધીમો તાલ વગાડો."
+      ],
+      "roman": [
+        "Tablani practice mate dhimo tal vagado."
+      ]
+    },
+    {
+      "id": "gu-s056",
+      "kind": "sentence",
+      "native": [
+        "માઉસનું વ્હીલ ઊલટું ફરે છે."
+      ],
+      "roman": [
+        "Mousenu wheel ultu fare chhe."
+      ]
+    },
+    {
+      "id": "gu-s057",
+      "kind": "sentence",
+      "native": [
+        "નસરીન, પરિમલ ગાર્ડન પાસે મળવાને બદલે સીધાં કાફેમાં આવજે."
+      ],
+      "roman": [
+        "Nasreen, Parimal Garden pase malvane badle sidha cafema aavje."
+      ]
+    },
+    {
+      "id": "gu-s058",
+      "kind": "sentence",
+      "native": [
+        "આટલી પાતળી ચાદરના ₹450 તો વધારે કહેવાય, થોડું ઓછું કરો."
+      ],
+      "roman": [
+        "Atli patli chadarna ₹450 to vadhare kahevay, thodu ochhu karo."
+      ]
+    },
+    {
+      "id": "gu-s059",
+      "kind": "sentence",
+      "native": [
+        "બૂટની નાની સાઇઝ મંગાવી દો. એક મિનિટ, પહેલાં જૂની જોડીનો નંબર જોઈ લઉં, પછી કહું."
+      ],
+      "roman": [
+        "Bootni nani size mangavi do. Ek minute, pahela juni jodino number joi lau, pachhi kahu."
+      ]
+    },
+    {
+      "id": "gu-s060",
+      "kind": "sentence",
+      "native": [
+        "હાર ન માનતો, રોજની પ્રેક્ટિસથી ચોક્કસ સુધારો દેખાશે."
+      ],
+      "roman": [
+        "Har na manto, rojni practicethi chokkas sudharo dekhashe."
+      ]
+    },
+    {
+      "id": "gu-s061",
+      "kind": "sentence",
+      "native": [
+        "દૂધ ખલાસ થઈ ગયું છે, આવતાં અમૂલમાંથી લેતા આવજો."
+      ],
+      "roman": [
+        "Dudh khalas thai gayu chhe, aavta Amulmathi leta aavjo."
+      ]
+    },
+    {
+      "id": "gu-s062",
+      "kind": "sentence",
+      "native": [
+        "ચિંતા છોડો, પેકિંગ હું સંભાળી લઈશ."
+      ],
+      "roman": [
+        "Chinta chhodo, packing hu sambhali laish."
+      ]
+    },
+    {
+      "id": "gu-s063",
+      "kind": "sentence",
+      "native": [
+        "મશીનમાં 4 કપડાં છે. 20 મિનિટનો પ્રોગ્રામ રાખો અને ટેમ્પરેચર 30 ડિગ્રીથી વધારે ન રાખતા."
+      ],
+      "roman": [
+        "Machinema 4 kapda chhe. 20 minuteno program rakho ane temperature 30 degreethi vadhare na rakhta."
+      ]
+    },
+    {
+      "id": "gu-s064",
+      "kind": "sentence",
+      "native": [
+        "નવું મિક્સર ચાલુ નથી થતું, દુકાને જાઉં ત્યારે રસીદ લઈ જવી છે."
+      ],
+      "roman": [
+        "Navu mixer chalu nathi thatu, dukane jau tyare rasid lai javi chhe."
+      ]
+    },
+    {
+      "id": "gu-s065",
+      "kind": "sentence",
+      "native": [
+        "ભારતની ક્રિકેટ મેચનો હાલનો સ્કોર મને બતાવી શકો?"
+      ],
+      "roman": [
+        "Bharatni cricket matchno halno score mane batavi shako?"
+      ]
+    },
+    {
+      "id": "gu-s066",
+      "kind": "sentence",
+      "native": [
+        "કોલમાં બહારનો અવાજ બહુ આવે છે, હેડફોન પહેરી લેશો તો એકબીજાની વાત સ્પષ્ટ સંભળાશે."
+      ],
+      "roman": [
+        "Callma baharno avaj bahu aave chhe, headphone paheri lesho to ekbijani vaat spasht sambhlashe."
+      ]
+    },
+    {
+      "id": "gu-s067",
+      "kind": "sentence",
+      "native": [
+        "છેલ્લી મેટ્રો ચૂકી ગયા તો પાછા કઈ રીતે આવશો?"
+      ],
+      "roman": [
+        "Chhelli metro chuki gaya to pachha kai rite aavsho?"
+      ]
+    },
+    {
+      "id": "gu-s068",
+      "kind": "sentence",
+      "native": [
+        "પસ્તીવાળાને અખબારો આપવા જાઉં છું, ખાલી બોટલો પણ કાઢી આપો તો એ જ ફેરામાં આપી આવું."
+      ],
+      "roman": [
+        "Pastivalane akhbaro aapva jau chhu, khali botlo pan kadhi aapo to e j ferama aapi aavu."
+      ]
+    },
+    {
+      "id": "gu-s069",
+      "kind": "sentence",
+      "native": [
+        "અરે, ચમચો ક્યાં મૂક્યો મેં?"
+      ],
+      "roman": [
+        "Are, chamcho kya mukyo me?"
+      ]
+    },
+    {
+      "id": "gu-s070",
+      "kind": "sentence",
+      "native": [
+        "ઝંખના, રંગોળીમાં તેં પસંદ કરેલા રંગો બહુ સરસ લાગે છે."
+      ],
+      "roman": [
+        "Jhankhana, rangolima te pasand karela rango bahu saras lage chhe."
+      ]
+    },
+    {
+      "id": "gu-s071",
+      "kind": "sentence",
+      "native": [
+        "બાળકોને પણ સાથે લેતી આવજે, એ રમતાં હશે ત્યાં સુધી આપણે શાંતિથી બેસીને થોડી વાતો કરી શકીશું."
+      ],
+      "roman": [
+        "Balakone pan sathe leti aavje, e ramta hashe tya sudhi aapne shantithi besine thodi vaato kari shakishu."
+      ]
+    },
+    {
+      "id": "gu-s072",
+      "kind": "sentence",
+      "native": [
+        "કેતનભાઈ, નવા ક્લાયન્ટનું નામ લિસ્ટમાં ઉમેરવાનું રહી ગયું છે."
+      ],
+      "roman": [
+        "Ketanbhai, nava clientnu naam listma umervanu rahi gayu chhe."
+      ]
+    },
+    {
+      "id": "gu-s073",
+      "kind": "sentence",
+      "native": [
+        "બેટરી હજુ 18% બાકી છે."
+      ],
+      "roman": [
+        "Battery haju 18% baki chhe."
+      ]
+    },
+    {
+      "id": "gu-s074",
+      "kind": "sentence",
+      "native": [
+        "સોમવારે કિરણ દેસાઈ પાસેથી સંગીતના ક્લાસની માહિતી લેવાની છે."
+      ],
+      "roman": [
+        "Somvare Kiran Desai pasethi sangitna classni mahiti levani chhe."
+      ]
+    },
+    {
+      "id": "gu-s075",
+      "kind": "sentence",
+      "native": [
+        "પાર્સલનું ટ્રેકિંગ ખોલીને એ ક્યારે પહોંચશે તે જણાવી દો."
+      ],
+      "roman": [
+        "Parcelnu tracking kholine e kyare pahochshe te janavi do."
+      ]
+    },
+    {
+      "id": "gu-s076",
+      "kind": "sentence",
+      "native": [
+        "લોગિન કરતી વખતે જૂનું એકાઉન્ટ પસંદ થઈ જાય છે."
+      ],
+      "roman": [
+        "Login karti vakhte junu account pasand thai jay chhe."
+      ]
+    },
+    {
+      "id": "gu-s077",
+      "kind": "sentence",
+      "native": [
+        "પાછળના દરવાજેથી અંદર આવજો, આગળ રસ્તાનું કામ ચાલે છે એટલે ત્યાંથી પગપાળા આવવામાં પણ તકલીફ પડશે."
+      ],
+      "roman": [
+        "Pachhalna darvajethi andar aavjo, aagal rastanu kaam chale chhe etle tyathi pagpala aavvama pan taklif padshe."
+      ]
+    },
+    {
+      "id": "gu-s078",
+      "kind": "sentence",
+      "native": [
+        "થેપલાંનો લોટ બાંધતી વખતે દહીં ઓછું નાખજે, નહીં તો લોટ ઢીલો થઈ જશે અને વણવામાં તકલીફ પડશે."
+      ],
+      "roman": [
+        "Theplano lot bandhati vakhte dahi ochhu nakhje, nahi to lot dhilo thai jashe ane vanvama taklif padshe."
+      ]
+    },
+    {
+      "id": "gu-s079",
+      "kind": "sentence",
+      "native": [
+        "ફોર્મમાં અટક પહેલાં આવે કે નામ, એક વાર જોશો?"
+      ],
+      "roman": [
+        "Formma atak pahela aave ke naam, ek var josho?"
+      ]
+    },
+    {
+      "id": "gu-s080",
+      "kind": "sentence",
+      "native": [
+        "કબાટ ગોઠવાઈ ગયું એટલે આખો રૂમ હવે મોટો લાગે છે."
+      ],
+      "roman": [
+        "Kabat gothvai gayu etle akho room have moto lage chhe."
+      ]
+    },
+    {
+      "id": "gu-s081",
+      "kind": "sentence",
+      "native": [
+        "તમે મોકલેલો વિડિયો જોઈને હસવાનું બંધ જ નથી થતું."
+      ],
+      "roman": [
+        "Tame moklelo video joine hasvanu bandh j nathi thatu."
+      ]
+    },
+    {
+      "id": "gu-s082",
+      "kind": "sentence",
+      "native": [
+        "અત્યારે સર્વર બંધ હોવાથી ઓર્ડરની એન્ટ્રી થઈ શકતી નથી, ચાલુ થાય એટલે બધી બાકી એન્ટ્રી પૂરી કરીશ."
+      ],
+      "roman": [
+        "Atyare server bandh hovathi orderni entry thai shakti nathi, chalu thay etle badhi baki entry puri karish."
+      ]
+    },
+    {
+      "id": "gu-s083",
+      "kind": "sentence",
+      "native": [
+        "પહેલો હપ્તો 15 જૂન પહેલાં ભરવાનો છે, કુલ 24 હપ્તા છે."
+      ],
+      "roman": [
+        "Pahelo hapto 15 June pahela bharvano chhe, kul 24 hapta chhe."
+      ]
+    },
+    {
+      "id": "gu-s084",
+      "kind": "sentence",
+      "native": [
+        "ગુરુવારની નોંધમાં મોચી પાસેથી ચંપલ પાછાં લઈ આવવાનું ઉમેરો."
+      ],
+      "roman": [
+        "Guruvarni nondhma mochi pasethi champal pachha lai aavvanu umero."
+      ]
+    },
+    {
+      "id": "gu-s085",
+      "kind": "sentence",
+      "native": [
+        "જામનગરના લાખોટા મ્યુઝિયમની ટિકિટ કેટલાની છે એ શોધી આપો."
+      ],
+      "roman": [
+        "Jamnagarna Lakhota museumni ticket ketlani chhe e shodhi aapo."
+      ]
+    },
+    {
+      "id": "gu-s086",
+      "kind": "sentence",
+      "native": [
+        "હેતલ ત્રિવેદીને ઝૂમ પર સ્ક્રીન શેર કરતાં નથી આવડતું."
+      ],
+      "roman": [
+        "Hetal Trivedine Zoom par screen share karta nathi aavdtu."
+      ]
+    },
+    {
+      "id": "gu-s087",
+      "kind": "sentence",
+      "native": [
+        "સામેની બેકરી આજે બંધ છે, બાજુવાળા રસ્તે બીજી ખુલ્લી હશે."
+      ],
+      "roman": [
+        "Sameni bakery aaje bandh chhe, bajuvala raste biji khulli hashe."
+      ]
+    },
+    {
+      "id": "gu-s088",
+      "kind": "sentence",
+      "native": [
+        "દોરી પરનાં કપડાં સુકાઈ ગયાં હશે."
+      ],
+      "roman": [
+        "Dori parna kapda sukai gaya hashe."
+      ]
+    },
+    {
+      "id": "gu-s089",
+      "kind": "sentence",
+      "native": [
+        "સાંભળ, તકિયો જમણી બાજુ રાખ, ના, મારી જમણી બાજુ."
+      ],
+      "roman": [
+        "Sambhal, takiyo jamni baju rakh, na, mari jamni baju."
+      ]
+    },
+    {
+      "id": "gu-s090",
+      "kind": "sentence",
+      "native": [
+        "આવતી વખતે પત્તાં લઈ આવજે, તને હરાવવા માટે મેં અત્યારથી જ તૈયારી શરૂ કરી દીધી છે."
+      ],
+      "roman": [
+        "Aavti vakhte patta lai aavje, tane haravva mate me atyarthi j taiyari sharu kari didhi chhe."
+      ]
+    },
+    {
+      "id": "gu-s091",
+      "kind": "sentence",
+      "native": [
+        "લાઇટ ગઈ છે એટલે હમણાં સિલાઈનું મશીન ચલાવી શકાય એમ નથી."
+      ],
+      "roman": [
+        "Light gai chhe etle hamna silainu machine chalavi shakay em nathi."
+      ]
+    },
+    {
+      "id": "gu-s092",
+      "kind": "sentence",
+      "native": [
+        "કવર પર ફ્લેટ 23, નંદન એપાર્ટમેન્ટ, વાસણા, અમદાવાદ લખજો. પિન કોડ પણ યાદથી લખજો."
+      ],
+      "roman": [
+        "Cover par flat 23, Nandan Apartment, Vasna, Ahmedabad lakhjo. Pin code pan yadthi lakhjo."
+      ]
+    },
+    {
+      "id": "gu-s093",
+      "kind": "sentence",
+      "native": [
+        "નવરાત્રિ પહેલાં ચણિયાચોળીની દોરી બદલાવવાની છે, એ નોંધી લો."
+      ],
+      "roman": [
+        "Navratri pahela chaniyacholini dori badlavvani chhe, e nondhi lo."
+      ]
+    },
+    {
+      "id": "gu-s094",
+      "kind": "sentence",
+      "native": [
+        "અંગ્રેજીમાં કોળાને શું કહે છે એ બોલીને સંભળાવો."
+      ],
+      "roman": [
+        "Angrejima kolane shu kahe chhe e boline sambhlavo."
+      ]
+    },
+    {
+      "id": "gu-s095",
+      "kind": "sentence",
+      "native": [
+        "દરેક શીટનું નામ અલગ રાખશો તો એક્સેલમાં શોધવું સહેલું પડશે."
+      ],
+      "roman": [
+        "Darek sheetnu naam alag rakhsho to Excelma shodhvu sahelu padshe."
+      ]
+    },
+    {
+      "id": "gu-s096",
+      "kind": "sentence",
+      "native": [
+        "હસમુખકાકા પાલનપુર ક્યારે જવાના છે?"
+      ],
+      "roman": [
+        "Hasmukhkaka Palanpur kyare javana chhe?"
+      ]
+    },
+    {
+      "id": "gu-s097",
+      "kind": "sentence",
+      "native": [
+        "દાડમ અંદરથી લાલ નીકળશે ને?"
+      ],
+      "roman": [
+        "Dadam andarthi lal nikalshe ne?"
+      ]
+    },
+    {
+      "id": "gu-s098",
+      "kind": "sentence",
+      "native": [
+        "દહીં, કાકડી અને જીરું લઈ લીધાં છે. હવે બૂંદી પણ નાખું કે તમને સાદું રાયતું વધારે ભાવે છે?"
+      ],
+      "roman": [
+        "Dahi, kakdi ane jiru lai lidha chhe. Have bundi pan nakhu ke tamne sadu raytu vadhare bhave chhe?"
+      ]
+    },
+    {
+      "id": "gu-s099",
+      "kind": "sentence",
+      "native": [
+        "બસમાં બેસી ગયો છું એટલે ચિંતા ન કરતી, પહોંચીશ ત્યારે સૌથી પહેલાં તને જ જાણ કરીશ."
+      ],
+      "roman": [
+        "Busma besi gayo chhu etle chinta na karti, pahonchish tyare sauthi pahela tane j jaan karish."
+      ]
+    },
+    {
+      "id": "gu-s100",
+      "kind": "sentence",
+      "native": [
+        "પ્રિન્ટ કાઢતાં પહેલાં ટેબલમાં આપેલી તારીખ સુધારી લેજો."
+      ],
+      "roman": [
+        "Print kadhta pahela tablema aapeli tarikh sudhari lejo."
+      ]
+    },
+    {
+      "id": "gu-s101",
+      "kind": "sentence",
+      "native": [
+        "કુરિયર રૂમ 208 પર આપી દેજો."
+      ],
+      "roman": [
+        "Courier room 208 par aapi dejo."
+      ]
+    },
+    {
+      "id": "gu-s102",
+      "kind": "sentence",
+      "native": [
+        "વૈશાલીબેનને મળું ત્યારે ગણિતના અઘરા દાખલા ફરી સમજાવવા કહેવાનું છે, જેથી ભૂલો સુધારી શકું."
+      ],
+      "roman": [
+        "Vaishalibenne malu tyare ganitna aghra dakhla fari samjavva kahevanu chhe, jethi bhulo sudhari shaku."
+      ]
+    },
+    {
+      "id": "gu-s103",
+      "kind": "sentence",
+      "native": [
+        "નજીકનો પેટ્રોલ પંપ ક્યાં છે?"
+      ],
+      "roman": [
+        "Najikno petrol pump kya chhe?"
+      ]
+    },
+    {
+      "id": "gu-s104",
+      "kind": "sentence",
+      "native": [
+        "નવા વર્ઝનમાં બગ છે, સર્ચ કરતાં એપ અટકી જાય છે."
+      ],
+      "roman": [
+        "Nava versionma bug chhe, search karta app atki jay chhe."
+      ]
+    },
+    {
+      "id": "gu-s105",
+      "kind": "sentence",
+      "native": [
+        "ફતેહગંજમાં મારિયા મળે ત્યારે એને આ થેલી આપી દેજો."
+      ],
+      "roman": [
+        "Fatehgunjma Maria male tyare ene aa theli aapi dejo."
+      ]
+    },
+    {
+      "id": "gu-s106",
+      "kind": "sentence",
+      "native": [
+        "વાળ કપાવવા આવું તો પહેલાંથી સમય લેવો પડે કે સીધા આવું?"
+      ],
+      "roman": [
+        "Val kapavva aavu to pahelathi samay levo pade ke sidha aavu?"
+      ]
+    },
+    {
+      "id": "gu-s107",
+      "kind": "sentence",
+      "native": [
+        "ઢાંકણું બરાબર બંધ થયું ને?"
+      ],
+      "roman": [
+        "Dhankanu barabar bandh thayu ne?"
+      ]
+    },
+    {
+      "id": "gu-s108",
+      "kind": "sentence",
+      "native": [
+        "તારી છત્રી મારી ગાડીમાં છે."
+      ],
+      "roman": [
+        "Tari chhatri mari gadima chhe."
+      ]
+    },
+    {
+      "id": "gu-s109",
+      "kind": "sentence",
+      "native": [
+        "મહેમાનોને રિસેપ્શન પાસે બેસાડજો, અમારી ચર્ચા પૂરી થાય એટલે તેમને અંદર બોલાવવા કોઈને મોકલી દઈશ."
+      ],
+      "roman": [
+        "Mahemanone reception pase besadjo, amari charcha puri thay etle temne andar bolavva koine mokli daish."
+      ]
+    },
+    {
+      "id": "gu-s110",
+      "kind": "sentence",
+      "native": [
+        "મંગળવારે સાંજે 5 વાગ્યે 50 મિનિટનો ડાન્સ ક્લાસ છે."
+      ],
+      "roman": [
+        "Mangalvare sanje 5 vagye 50 minuteno dance class chhe."
+      ]
+    },
+    {
+      "id": "gu-s111",
+      "kind": "sentence",
+      "native": [
+        "આવતા અઠવાડિયે લેપટોપ સાફ કરવા આપવાનો છે, એટલે આજે બધી ફાઇલોનો બેકઅપ લઈ લેવો."
+      ],
+      "roman": [
+        "Aavta athvadiye laptop saf karva aapvano chhe, etle aaje badhi fileono backup lai levo."
+      ]
+    },
+    {
+      "id": "gu-s112",
+      "kind": "sentence",
+      "native": [
+        "ગૂગલ મેપ્સમાં અહીંથી આશ્રમ રોડ પહોંચવાનો રસ્તો બતાવો."
+      ],
+      "roman": [
+        "Google Mapsma ahithi Ashram Road pahochvano rasto batavo."
+      ]
+    },
+    {
+      "id": "gu-s113",
+      "kind": "sentence",
+      "native": [
+        "ઇન્ટરનેટ વગર પણ પાઠ સાંભળી શકાય છે, એટલે મુસાફરીમાં ભણવા માટે આ એપ મને વધારે ફાવે છે."
+      ],
+      "roman": [
+        "Internet vagar pan path sambhali shakay chhe, etle musafarima bhanva mate aa app mane vadhare fave chhe."
+      ]
+    },
+    {
+      "id": "gu-s114",
+      "kind": "sentence",
+      "native": [
+        "માસીને લેવા જશો ત્યારે બસ ઊભી રહે ત્યાં જ રાહ જોજો. એમને નવું બસ સ્ટેન્ડ ક્યાં છે એની બરાબર ખબર નથી."
+      ],
+      "roman": [
+        "Masine leva jasho tyare bus ubhi rahe tya j rah jojo. Emne navu bus stand kya chhe eni barabar khabar nathi."
+      ]
+    },
+    {
+      "id": "gu-s115",
+      "kind": "sentence",
+      "native": [
+        "ઉત્તરાયણ માટે ધાબું સાફ કરાવવાનું કોણે માથે લીધું છે?"
+      ],
+      "roman": [
+        "Uttarayan mate dhabu saf karavvanu kone mathe lidhu chhe?"
+      ]
+    },
+    {
+      "id": "gu-s116",
+      "kind": "sentence",
+      "native": [
+        "સેવ ઉસળ એક પેક કરજો. ના, રહેવા દો, અહીં જ ખાઈશ."
+      ],
+      "roman": [
+        "Sev usal ek pack karjo. Na, raheva do, ahi j khaish."
+      ]
+    },
+    {
+      "id": "gu-s117",
+      "kind": "sentence",
+      "native": [
+        "મારા માટે થોડો હાંડવો રાખજો."
+      ],
+      "roman": [
+        "Mara mate thodo handvo rakhjo."
+      ]
+    },
+    {
+      "id": "gu-s118",
+      "kind": "sentence",
+      "native": [
+        "કાઉન્ટર પર છૂટા પૈસા નથી."
+      ],
+      "roman": [
+        "Counter par chhuta paisa nathi."
+      ]
+    },
+    {
+      "id": "gu-s119",
+      "kind": "sentence",
+      "native": [
+        "લેપટોપનું અપડેટ 65% પૂરું થયું છે, હજુ 40 મિનિટ લાગશે."
+      ],
+      "roman": [
+        "Laptopnu update 65% puru thayu chhe, haju 40 minute lagshe."
+      ]
+    },
+    {
+      "id": "gu-s120",
+      "kind": "sentence",
+      "native": [
+        "સાયકલમાં હવા ભરાવવાનું ભૂલવું નહીં."
+      ],
+      "roman": [
+        "Cyclema hava bharavvanu bhulvu nahi."
+      ]
+    },
+    {
+      "id": "gu-s121",
+      "kind": "sentence",
+      "native": [
+        "મને અપૂર્ણાંકનો ગુણાકાર કરતી વખતે ગૂંચવણ થાય છે, એક સરળ દાખલો લઈને ધીમે ધીમે સમજાવી શકો?"
+      ],
+      "roman": [
+        "Mane apurnankno gunakar karti vakhte gunchvan thay chhe, ek saral dakhlo laine dhime dhime samjavi shako?"
+      ]
+    },
+    {
+      "id": "gu-s122",
+      "kind": "sentence",
+      "native": [
+        "દેવાંશ, હોમવર્કનો ફોટો ઝાંખો છે, બીજો મોકલી શકીશ?"
+      ],
+      "roman": [
+        "Devansh, homeworkno photo jhankho chhe, bijo mokli shakish?"
+      ]
+    },
+    {
+      "id": "gu-s123",
+      "kind": "sentence",
+      "native": [
+        "રિક્ષા પુલની નીચેથી મળી જશે."
+      ],
+      "roman": [
+        "Riksha pulni nichethi mali jashe."
+      ]
+    },
+    {
+      "id": "gu-s124",
+      "kind": "sentence",
+      "native": [
+        "રમેશભાઈ, નળનું વોશર બદલવા ક્યારે આવી શકશો?"
+      ],
+      "roman": [
+        "Rameshbhai, nalnu washer badalva kyare aavi shaksho?"
+      ]
+    },
+    {
+      "id": "gu-s125",
+      "kind": "sentence",
+      "native": [
+        "કાવ્યા આવી કે હજુ રસ્તામાં છે?"
+      ],
+      "roman": [
+        "Kavya aavi ke haju rastama chhe?"
+      ]
+    },
+    {
+      "id": "gu-s126",
+      "kind": "sentence",
+      "native": [
+        "રવિવારે ફાતિમાના ઘરે જમવાનું છે, બીજો કોઈ પ્લાન ન બનાવતી."
+      ],
+      "roman": [
+        "Ravivare Fatimana ghare jamvanu chhe, bijo koi plan na banavti."
+      ]
+    },
+    {
+      "id": "gu-s127",
+      "kind": "sentence",
+      "native": [
+        "વડોદરાની બ્રાન્ચમાંથી હજુ વેચાણના આંકડા આવ્યા નથી, જરા તપાસશો?"
+      ],
+      "roman": [
+        "Vadodarani branchmathi haju vechanna ankda aavya nathi, jara tapassho?"
+      ]
+    },
+    {
+      "id": "gu-s128",
+      "kind": "sentence",
+      "native": [
+        "અલાર્મ સવારે 6 વાગ્યાનું રાખો."
+      ],
+      "roman": [
+        "Alarm savare 6 vagyanu rakho."
+      ]
+    },
+    {
+      "id": "gu-s129",
+      "kind": "sentence",
+      "native": [
+        "લાઇબ્રેરીનાં પુસ્તકો પાછાં આપવાનું લખી રાખો."
+      ],
+      "roman": [
+        "Libraryna pustako pachha aapvanu lakhi rakho."
+      ]
+    },
+    {
+      "id": "gu-s130",
+      "kind": "sentence",
+      "native": [
+        "વાઇફાઇ સાથે જોડાયા પછી જ બાકી રહેલી એપ ડાઉનલોડ કરો, મોબાઇલ ડેટા વાપરતા નહીં."
+      ],
+      "roman": [
+        "Wi-Fi sathe jodaya pachhi j baki raheli app download karo, mobile data vaparta nahi."
+      ]
+    },
+    {
+      "id": "gu-s131",
+      "kind": "sentence",
+      "native": [
+        "વોરંટી હોવા છતાં સ્પીકર બદલવાના પૈસા કેમ માંગો છો?"
+      ],
+      "roman": [
+        "Warranty hova chhata speaker badalvana paisa kem mango chho?"
+      ]
+    },
+    {
+      "id": "gu-s132",
+      "kind": "sentence",
+      "native": [
+        "ચાલ, ખર્ચો સરખે ભાગે વહેંચીએ."
+      ],
+      "roman": [
+        "Chal, kharcho sarkhe bhage vahenchiye."
+      ]
+    },
+    {
+      "id": "gu-s133",
+      "kind": "sentence",
+      "native": [
+        "ભાવનાબેનને હિસાબ સમજાવી દીધો છે. હવે તેમની તરફથી ચેક આવે એટલે સપ્લાયરનું બાકી પેમેન્ટ કરી દેજો."
+      ],
+      "roman": [
+        "Bhavnabenne hisab samjavi didho chhe. Have temni tarafthi cheque aave etle suppliernu baki payment kari dejo."
+      ]
+    },
+    {
+      "id": "gu-s134",
+      "kind": "sentence",
+      "native": [
+        "22 જુલાઈ 2026ના રોજ સવારે 10 વાગ્યે ચેકઆઉટ છે, એટલે નાસ્તો 9 વાગ્યા સુધીમાં પતાવી દઈએ."
+      ],
+      "roman": [
+        "22 July 2026na roj savare 10 vagye checkout chhe, etle nasto 9 vagya sudhima patavi daiye."
+      ]
+    },
+    {
+      "id": "gu-s135",
+      "kind": "sentence",
+      "native": [
+        "દરવાજો ખુલ્લો રાખજે, નીચે ઊભી છું ને ચાવી ભૂલી ગઈ."
+      ],
+      "roman": [
+        "Darvajo khullo rakhje, niche ubhi chhu ne chavi bhuli gai."
+      ]
+    },
+    {
+      "id": "gu-s136",
+      "kind": "sentence",
+      "native": [
+        "બરાબર, આ ક્વોટેશન મંજૂર છે."
+      ],
+      "roman": [
+        "Barabar, aa quotation manjur chhe."
+      ]
+    },
+    {
+      "id": "gu-s137",
+      "kind": "sentence",
+      "native": [
+        "ટિકિટમાં કોચ સી 2 અને સીટ નંબર 36 લખેલા છે."
+      ],
+      "roman": [
+        "Ticketma coach C 2 ane seat number 36 lakhela chhe."
+      ]
+    },
+    {
+      "id": "gu-s138",
+      "kind": "sentence",
+      "native": [
+        "માફ કરજે, તારો મેસેજ વાંચ્યો પણ જવાબ આપવાનું રહી ગયું."
+      ],
+      "roman": [
+        "Maf karje, taro message vanchyo pan javab aapvanu rahi gayu."
+      ]
+    },
+    {
+      "id": "gu-s139",
+      "kind": "sentence",
+      "native": [
+        "મીના, રવિવારની દોડ માટે તારું નામ પણ લખાવ્યું છે."
+      ],
+      "roman": [
+        "Meena, ravivarni dod mate taru naam pan lakhavyu chhe."
+      ]
+    },
+    {
+      "id": "gu-s140",
+      "kind": "sentence",
+      "native": [
+        "હું ઘરે પહોંચી ગઈ છું."
+      ],
+      "roman": [
+        "Hu ghare pahonchi gai chhu."
+      ]
+    },
+    {
+      "id": "gu-s141",
+      "kind": "sentence",
+      "native": [
+        "દાદી, ઊંઘ સારી આવી ને?"
+      ],
+      "roman": [
+        "Dadi, ungh sari aavi ne?"
+      ]
+    },
+    {
+      "id": "gu-s142",
+      "kind": "sentence",
+      "native": [
+        "મમ્મી, બજારમાંથી કંઈ લાવવાનું હોય તો હમણાં કહી દેજે."
+      ],
+      "roman": [
+        "Mammi, bajarmathi kai lavvanu hoi to hamna kahi deje."
+      ]
+    },
+    {
+      "id": "gu-s143",
+      "kind": "sentence",
+      "native": [
+        "તારા વોઇસ મેસેજમાં પાછળ કયું ગીત વાગે છે?"
+      ],
+      "roman": [
+        "Tara voice messagema pachhal kayu git vage chhe?"
+      ]
+    }
+  ]
+}

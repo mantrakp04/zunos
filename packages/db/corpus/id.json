@@ -1,0 +1,1422 @@
+{
+  "lang": "id",
+  "starter": [
+    "id-s074",
+    "id-s035",
+    "id-s046",
+    "id-s124",
+    "id-s011",
+    "id-s005",
+    "id-s129",
+    "id-s138",
+    "id-s043",
+    "id-s025",
+    "id-s009",
+    "id-s061",
+    "id-s051",
+    "id-s076",
+    "id-s014",
+    "id-s026",
+    "id-s111",
+    "id-s033",
+    "id-p07",
+    "id-s018",
+    "id-s079",
+    "id-s020",
+    "id-s091",
+    "id-s041",
+    "id-s141",
+    "id-s147",
+    "id-s065",
+    "id-s126",
+    "id-s113",
+    "id-s152",
+    "id-s015",
+    "id-s130",
+    "id-s021",
+    "id-s068",
+    "id-s117",
+    "id-s139",
+    "id-s008",
+    "id-p05",
+    "id-s123",
+    "id-s042",
+    "id-s040",
+    "id-s081",
+    "id-s056",
+    "id-s115",
+    "id-s143",
+    "id-s107",
+    "id-s045",
+    "id-s010",
+    "id-s027",
+    "id-s034",
+    "id-s084",
+    "id-s121",
+    "id-s053",
+    "id-s012",
+    "id-s003",
+    "id-s073"
+  ],
+  "items": [
+    {
+      "id": "id-p01",
+      "kind": "para",
+      "title": "New Cat at Home",
+      "native": [
+        "Kak, kemarin aku bawa pulang anak kucing dari rumah teman di Depok.",
+        "Bulunya belang abu-abu, dan ujung ekornya putih seperti kena cipratan cat.",
+        "Aku kasih nama Bintik karena ada bercak kecil di dekat hidungnya.",
+        "Tadi pagi, dia tidur di keranjang cucian dekat pintu dapur.",
+        "Ibu sempat mencari handuk kecil yang ternyata dipakai Bintik buat alas tidur.",
+        "Dia masih malu kalau didekati, tapi langsung keluar begitu dengar suara bungkus makanan dibuka.",
+        "Tempat makan sama kotak pasirnya sudah aku taruh di dekat kamar mandi.",
+        "Kalau kamu mampir hari Minggu, jangan langsung menggendong dia dulu, ya.",
+        "Biar dia mendekat sendiri. Nanti kamu bisa ajak main pakai bola kain."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-p02",
+      "kind": "para",
+      "title": "Comparing Printing Quotes",
+      "native": [
+        "Saya sudah membandingkan penawaran dari dua vendor percetakan untuk acara di Bekasi.",
+        "Keduanya memakai kertas dan ukuran yang sama untuk 200 buku panduan.",
+        "Vendor Rawamangun menawarkan harga Rp1.800.000, dengan waktu pengerjaan 7 hari.",
+        "Vendor Jatinegara meminta Rp2.100.000 dan bisa menyelesaikan pesanan dalam 4 hari.",
+        "Biaya kedua vendor sudah termasuk penjilidan dan pengiriman ke kantor kita.",
+        "Kita perlu menerima semua buku paling lambat pada 12 Oktober 2026.",
+        "Saya menyarankan vendor Jatinegara supaya masih ada waktu untuk memeriksa hasilnya.",
+        "Mohon kirim persetujuan hari ini agar pesanan bisa segera saya konfirmasi.",
+        "Setelah vendor dipilih, saya akan mengirimkan file cetak dan meminta contoh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-p03",
+      "kind": "para",
+      "title": "A Stranger's Blue Basket",
+      "native": [
+        "Sabtu lalu, kantong belanjaanku sobek dekat Pasar Keputran, Surabaya.",
+        "Tomat dan jeruk yang baru kubeli berjatuhan di trotoar basah.",
+        "Aku sedang memungut jeruk ketika seorang ibu keluar dari toko jahit.",
+        "Beliau membawa keranjang plastik biru dan membantu mengumpulkan belanjaanku yang tercecer.",
+        "Katanya, aku boleh membawa keranjang itu dan mengembalikannya besok pagi.",
+        "Beliau juga mengajakku berteduh sebentar karena hujan mulai turun lagi.",
+        "Kami duduk di bangku kayu sambil mengobrol tentang harga sayuran.",
+        "Besok paginya, aku mengembalikan keranjang itu sambil membawa beberapa potong bolu.",
+        "Sekarang, aku selalu menyapa beliau kalau lewat di depan toko jahitnya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-p04",
+      "kind": "para",
+      "title": "Caring for Balcony Plants",
+      "native": [
+        "Kalau mau berkebun di balkon, coba mulai dengan cabai, serai, atau lidah buaya.",
+        "Pertama, letakkan pot di sudut yang mendapat matahari pagi selama beberapa jam.",
+        "Pastikan setiap pot punya lubang pembuangan supaya air siraman nggak menggenang.",
+        "Isi pot dengan campuran tanah, sekam bakar, dan kompos yang sudah matang.",
+        "Sebelum menyiram, sentuh tanahnya dulu untuk memastikan bagian atasnya sudah cukup kering.",
+        "Siram perlahan pada pagi hari sampai air keluar dari bagian bawah pot.",
+        "Seminggu sekali, putar posisi pot supaya semua sisi tanaman mendapat cukup cahaya.",
+        "Buang daun yang menguning dan periksa bagian bawah daun untuk mencari kutu.",
+        "Kalau hujan deras, geser pot ke bagian balkon yang terlindung dari tempias."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-p05",
+      "kind": "para",
+      "title": "Ordering Pempek in Palembang",
+      "native": [
+        "Aku belakangan sering pakai GoFood buat pesan pempek di Palembang.",
+        "Pilihan penjual di sekitar Sekip cukup banyak, terutama menjelang makan siang.",
+        "Aku paling suka kalau penjual memisahkan cuko dari pempeknya.",
+        "Pesanan terakhir sampai masih hangat, dan bungkusnya nggak bocor sama sekali.",
+        "Cuma, biaya antar kadang bikin pesanan kecil terasa lumayan mahal.",
+        "Promo memang membantu, tapi aku tetap cek total tagihan sebelum bayar.",
+        "Perkiraan waktu tiba juga kadang berubah saat hujan mulai deras.",
+        "Menurutku, aplikasinya praktis kalau lagi sibuk, tapi nggak selalu paling hemat.",
+        "Kalau lagi santai, aku lebih suka jalan langsung ke warungnya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-p06",
+      "kind": "para",
+      "title": "Planning a Lembang Team Outing",
+      "native": [
+        "Aku lagi menyusun rencana kegiatan tim di Lembang untuk 12 September 2026.",
+        "Pesertanya 18 orang, jadi kita perlu menyewa 2 minibus berkapasitas 12 penumpang.",
+        "Kita berangkat dari kantor di Bandung pukul 07.00 supaya nggak terlalu macet.",
+        "Jarak ke lokasi sekitar 22 kilometer, tapi kita perlu memperhitungkan kemungkinan macet.",
+        "Biaya sewa setiap minibus Rp900.000, sudah termasuk sopir dan bahan bakar.",
+        "Untuk makan siang, aku anggarkan Rp45.000 per orang, termasuk minuman.",
+        "Sewa tempatnya Rp750.000, dan kita bisa memakai ruangannya sampai pukul 16.00.",
+        "Permainan dimulai pukul 09.00, lalu kita istirahat untuk makan siang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-p07",
+      "kind": "para",
+      "title": "Rescheduling a Sanur Appointment",
+      "native": [
+        "Selamat pagi, saya Ratih, pasien di klinik cabang Sanur.",
+        "Saya punya janji dengan dokter umum pada 21 Oktober 2026, pukul 10.30.",
+        "Saya ingin mengubah jadwal karena pagi itu ada urusan keluarga.",
+        "Apakah tersedia jadwal pada 23 Oktober 2026 setelah pukul 15.30?",
+        "Kalau jadwal sore penuh, saya bisa datang Sabtu pagi.",
+        "Saya ingin tetap bertemu dokter yang sama supaya konsultasinya lebih nyaman.",
+        "Tolong beri tahu apakah perubahan jadwal ini dikenai biaya tambahan.",
+        "Konfirmasinya boleh dikirim melalui WhatsApp ke nomor yang sudah terdaftar.",
+        "Saya tunggu konfirmasinya sebelum berangkat dari Renon. Terima kasih."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-p08",
+      "kind": "para",
+      "title": "Pottery Making in Kasongan",
+      "native": [
+        "Kasongan di Bantul, Yogyakarta, dikenal sebagai salah satu sentra kerajinan gerabah.",
+        "Di sepanjang jalan desa, pengunjung dapat melihat pot tanaman, guci, dan hiasan rumah.",
+        "Banyak perajin mengolah tanah liat di bengkel yang menyatu dengan rumah mereka.",
+        "Untuk membuat gerabah berbentuk bulat, perajin membentuk tanah liat dengan tangan di atas alat putar.",
+        "Gerabah perlu dikeringkan dulu agar tidak mudah retak saat dibakar.",
+        "Gerabah yang sudah kering kemudian dibakar dalam tungku hingga mengeras.",
+        "Sebagian produk diberi warna atau hiasan tambahan sesuai pesanan pembeli.",
+        "Toko-toko gerabah di Kasongan melayani pembelian langsung dan menerima pesanan dari luar daerah.",
+        "Pengunjung juga bisa mengikuti kelas membuat gerabah yang ditawarkan beberapa bengkel setempat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s001",
+      "kind": "sentence",
+      "native": [
+        "Mbak Rini, boleh pinjam loyang buat bikin kue sore ini?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s002",
+      "kind": "sentence",
+      "native": [
+        "Cukup balas email ini untuk mengonfirmasi kehadiran Anda di pelatihan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s003",
+      "kind": "sentence",
+      "native": [
+        "Koperku beratnya 17 kilogram, batas bagasinya 20 kilogram."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s004",
+      "kind": "sentence",
+      "native": [
+        "Bulan ini, batalkan langganan aplikasi musik yang sudah jarang kupakai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s005",
+      "kind": "sentence",
+      "native": [
+        "Mulai timer selama 9 menit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s006",
+      "kind": "sentence",
+      "native": [
+        "Ratri mau demo aplikasi pembukuan sore ini, tapi saya cuma bisa ikut online karena masih di perjalanan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s007",
+      "kind": "sentence",
+      "native": [
+        "Kamu tunggu di dekat papan petunjuk, ya. Nanti aku ke sana setelah ambil koper dari bagasi bus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s008",
+      "kind": "sentence",
+      "native": [
+        "Undangan syukurannya sudah dibagikan semua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s009",
+      "kind": "sentence",
+      "native": [
+        "Tunggu, pertemuan sama Yohana itu Selasa atau Rabu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s010",
+      "kind": "sentence",
+      "native": [
+        "Wah, sulamanmu rapi banget!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s011",
+      "kind": "sentence",
+      "native": [
+        "Lucu banget, kucingmu malah ikut muncul pas kita video call."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s012",
+      "kind": "sentence",
+      "native": [
+        "Boleh geser jadwal wawancaranya sedikit?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s013",
+      "kind": "sentence",
+      "native": [
+        "Saya sudah transfer Rp375.000 untuk uang muka, sisanya Rp625.000 bisa dilunasi tanggal 28 November."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s014",
+      "kind": "sentence",
+      "native": [
+        "Karet pintu kulkas perlu diganti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s015",
+      "kind": "sentence",
+      "native": [
+        "Tunjukkan rute ke Museum Angkut tanpa melewati jalan tol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s016",
+      "kind": "sentence",
+      "native": [
+        "Intan minta akses edit supaya bisa memperbarui tabel penjualan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s017",
+      "kind": "sentence",
+      "native": [
+        "Nanti Siska menyusul langsung ke Taman Suropati setelah les."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s018",
+      "kind": "sentence",
+      "native": [
+        "Anginnya kencang banget, pot gantungnya kita turunkan dulu, yuk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s019",
+      "kind": "sentence",
+      "native": [
+        "Jahitannya bakal kelihatan dari luar?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s020",
+      "kind": "sentence",
+      "native": [
+        "Duh, ritsleting tasnya macet lagi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s021",
+      "kind": "sentence",
+      "native": [
+        "Sisakan semur buatku, ya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s022",
+      "kind": "sentence",
+      "native": [
+        "Sebelum mengirim penawaran ke pelanggan, pastikan ongkos pemasangan tercantum supaya nggak ada biaya yang terlewat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s023",
+      "kind": "sentence",
+      "native": [
+        "Kirim paketnya ke Jalan Anggrek nomor 27, Semarang, sebelum Jumat, 16 Oktober 2026, pukul 14.00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s024",
+      "kind": "sentence",
+      "native": [
+        "Tambahkan spons ke daftar belanja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s025",
+      "kind": "sentence",
+      "native": [
+        "Pasang timer selama 14 menit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s026",
+      "kind": "sentence",
+      "native": [
+        "Keyboard ini mendadak nggak merespons."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s027",
+      "kind": "sentence",
+      "native": [
+        "Titip helmku di penitipan dekat halte sebelah sana, ya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s028",
+      "kind": "sentence",
+      "native": [
+        "Laundry langganan tutup, jadi selimutnya belum sempat dicuci."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s029",
+      "kind": "sentence",
+      "native": [
+        "Tombol buat membatalkan pesanan ini di mana?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s030",
+      "kind": "sentence",
+      "native": [
+        "Hebat, Arum sekarang berani membacakan puisinya tanpa melihat catatan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s031",
+      "kind": "sentence",
+      "native": [
+        "Baterai ponselku tinggal 8%, jadi kalau susah dihubungi nanti, tunggu sampai aku ketemu tempat buat ngecas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s032",
+      "kind": "sentence",
+      "native": [
+        "Ada salah paham di sini, aku cuma menanyakan pilihan warna, bukan minta kemasannya langsung diganti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s033",
+      "kind": "sentence",
+      "native": [
+        "Pesanan 12 risoles Bu Ratna totalnya Rp84.000, sudah termasuk ongkir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s034",
+      "kind": "sentence",
+      "native": [
+        "Periksa masa berlaku kartu anggota sebelum pergi ke kolam renang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s035",
+      "kind": "sentence",
+      "native": [
+        "Coba telepon Kak Tiwi lewat WhatsApp pakai speaker."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s036",
+      "kind": "sentence",
+      "native": [
+        "Yuni belum menerima undangan Zoom karena alamat email yang tercatat di daftar kontak ternyata salah ketik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s037",
+      "kind": "sentence",
+      "native": [
+        "Tante menunggu di lobi hotel."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s038",
+      "kind": "sentence",
+      "native": [
+        "Panci yang bagian bawahnya gosong itu sudah kurendam sejak pagi, tetapi keraknya masih susah dibersihkan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s039",
+      "kind": "sentence",
+      "native": [
+        "Rendangnya satu, dibungkus, eh, makan di sini saja, Mas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s040",
+      "kind": "sentence",
+      "native": [
+        "Kesal juga harus antre lama padahal loketnya banyak yang kosong."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s041",
+      "kind": "sentence",
+      "native": [
+        "Jaketmu kutaruh dekat televisi supaya gampang diambil nanti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s042",
+      "kind": "sentence",
+      "native": [
+        "Draf balasannya masih aku rapikan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s043",
+      "kind": "sentence",
+      "native": [
+        "Skornya masih 21 banding 19."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s044",
+      "kind": "sentence",
+      "native": [
+        "Kosongkan satu rak di lemari dapur akhir bulan ini agar wadah makanan nggak terus menumpuk di meja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s045",
+      "kind": "sentence",
+      "native": [
+        "Hubungi Wulan lewat panggilan suara."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s046",
+      "kind": "sentence",
+      "native": [
+        "Touchpad ini terlalu sensitif."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s047",
+      "kind": "sentence",
+      "native": [
+        "Begitu sampai di Solo, Dewi mau cari kain di Pasar Klewer sebelum mampir ke rumah neneknya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s048",
+      "kind": "sentence",
+      "native": [
+        "Celana ini bisa Rp90.000 sepotong?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s049",
+      "kind": "sentence",
+      "native": [
+        "Sebenarnya galonnya bisa dititipkan ke Pak Joko, tapi dia lagi pergi, jadi antar setelah aku pulang saja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s050",
+      "kind": "sentence",
+      "native": [
+        "Rasanya lebih baik jujur kalau belum bisa membantu daripada mengiyakan lalu bikin orang lain menunggu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s051",
+      "kind": "sentence",
+      "native": [
+        "Farhan mau main futsal malam ini, kamu ikut nggak?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s052",
+      "kind": "sentence",
+      "native": [
+        "Revisi desain dari Niken sudah masuk ke folder bersama."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s053",
+      "kind": "sentence",
+      "native": [
+        "Tiket Taksaka tanggal 23 September 2026 sudah dibeli, kursiku nomor 8."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s054",
+      "kind": "sentence",
+      "native": [
+        "Saat menjemput Bayu nanti, tanyakan ke gurunya apakah dia sudah berani bercerita di depan kelas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s055",
+      "kind": "sentence",
+      "native": [
+        "Di mana aku bisa cek status pengembalian dana untuk pesanan yang sudah dibatalkan minggu lalu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s056",
+      "kind": "sentence",
+      "native": [
+        "Mas Bagas, tombol simpan di formulirnya belum berfungsi, ya?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s057",
+      "kind": "sentence",
+      "native": [
+        "Permisi, pintu masuk tokonya menghadap jalan besar atau gang?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s058",
+      "kind": "sentence",
+      "native": [
+        "Tugas prakarya besok memakai kardus bekas, jadi anak-anak nggak perlu membeli bahan baru di toko alat tulis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s059",
+      "kind": "sentence",
+      "native": [
+        "Di tas renangnya sudah ada kacamata renang, baju ganti, sama kantong plastik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s060",
+      "kind": "sentence",
+      "native": [
+        "Aduh, maaf sudah merepotkan kalian."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s061",
+      "kind": "sentence",
+      "native": [
+        "Maaf, tadi ketiduran jadi baru sempat balas chat sekarang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s062",
+      "kind": "sentence",
+      "native": [
+        "Pengajuan cutimu sudah saya setujui."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s063",
+      "kind": "sentence",
+      "native": [
+        "Keponakanku genap 6 tahun hari ini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s064",
+      "kind": "sentence",
+      "native": [
+        "Masukkan kopi Toraja ke keranjang kalau persediaan di rumah habis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s065",
+      "kind": "sentence",
+      "native": [
+        "Buka kamera dalam mode potret."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s066",
+      "kind": "sentence",
+      "native": [
+        "Jangan reset router dulu, soalnya di ruang sebelah masih ada yang upload video."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s067",
+      "kind": "sentence",
+      "native": [
+        "Lewat jembatan penyeberangan saja supaya nggak perlu memutar jauh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s068",
+      "kind": "sentence",
+      "native": [
+        "Gudeg yang tadi dibungkus sebaiknya masuk kulkas sekarang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s069",
+      "kind": "sentence",
+      "native": [
+        "Jadi latihan gitarnya diundur lagi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s070",
+      "kind": "sentence",
+      "native": [
+        "Sayang banget, kuah coto ini terlalu asin buat seleraku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s071",
+      "kind": "sentence",
+      "native": [
+        "Nggak usah bawa payung, hujannya sudah reda dari tadi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s072",
+      "kind": "sentence",
+      "native": [
+        "Terima kasih atas masukannya, Pak."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s073",
+      "kind": "sentence",
+      "native": [
+        "Cetak 35 lembar berwarna dan 60 lembar hitam putih, ya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s074",
+      "kind": "sentence",
+      "native": [
+        "Sisihkan Rp50.000 untuk sarapan di Pasar Gede hari Minggu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s075",
+      "kind": "sentence",
+      "native": [
+        "Kenapa laptop ini nggak bisa tersambung ke internet padahal perangkat lain memakai jaringan yang sama?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s076",
+      "kind": "sentence",
+      "native": [
+        "Password barunya harus pakai angka?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s077",
+      "kind": "sentence",
+      "native": [
+        "Warung sebelah masih buka, kan?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s078",
+      "kind": "sentence",
+      "native": [
+        "Janji dengan tukang servis mesin cuci jadi sore ini?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s079",
+      "kind": "sentence",
+      "native": [
+        "Eh, maksudku mangkuk, bukan gelas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s080",
+      "kind": "sentence",
+      "native": [
+        "Bantuanmu waktu pindahan ke Depok berarti banget buatku, terima kasih."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s081",
+      "kind": "sentence",
+      "native": [
+        "Kaus kaki sebelahnya ternyata nyangkut di dalam sarung bantal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s082",
+      "kind": "sentence",
+      "native": [
+        "Rombongan kantor cabang Balikpapan perlu dijemput dengan mobil operasional."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s083",
+      "kind": "sentence",
+      "native": [
+        "Ruang tunggunya di lantai ke-7."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s084",
+      "kind": "sentence",
+      "native": [
+        "Setelah makan malam, rapikan kabel di bawah meja supaya kaki nggak tersangkut lagi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s085",
+      "kind": "sentence",
+      "native": [
+        "Dari semua foto liburan ke Belitung, pilih yang paling jelas buat dijadikan wallpaper ponsel."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s086",
+      "kind": "sentence",
+      "native": [
+        "Sinyalnya hilang setiap lift bergerak."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s087",
+      "kind": "sentence",
+      "native": [
+        "Menurut petugas parkir, mobil jemputannya boleh berhenti dekat gerbang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s088",
+      "kind": "sentence",
+      "native": [
+        "Sayurnya jangan dimasak terlalu lembek."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s089",
+      "kind": "sentence",
+      "native": [
+        "Mau tidur sebentar, tapi tanggung, piring kotornya tinggal sedikit. Aku cuci dulu, baru istirahat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s090",
+      "kind": "sentence",
+      "native": [
+        "Salut sama Lestari yang tetap tekun latihan meski sering gagal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s091",
+      "kind": "sentence",
+      "native": [
+        "Bakpia dari Yogyakarta ini buat kalian, jangan sungkan ambil."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s092",
+      "kind": "sentence",
+      "native": [
+        "Halo, apakah lowongannya masih tersedia?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s093",
+      "kind": "sentence",
+      "native": [
+        "Untuk kamar nomor 12, kami pesan tambahan 2 bantal dan sarapan buat 3 orang pukul 07.20."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s094",
+      "kind": "sentence",
+      "native": [
+        "Jadwalkan potong rambut Sabtu pagi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s095",
+      "kind": "sentence",
+      "native": [
+        "Cuaca di Makassar nanti malam bakal mendung atau cerah?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s096",
+      "kind": "sentence",
+      "native": [
+        "Sambil menunggu jawaban tim teknis, coba pakai browser lain untuk mengecek apakah halaman pembayarannya tetap kosong."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s097",
+      "kind": "sentence",
+      "native": [
+        "Jalan ke penginapan cuma bisa dilewati motor, jadi kita harus jalan kaki dari lapangan tempat taksi berhenti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s098",
+      "kind": "sentence",
+      "native": [
+        "Jadwal les renang anakku bentrok dengan pembagian rapor."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s099",
+      "kind": "sentence",
+      "native": [
+        "Ambil yang motif garis. Eh, yang motif bunga kecil saja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s100",
+      "kind": "sentence",
+      "native": [
+        "Serius, sandal kita tertukar lagi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s101",
+      "kind": "sentence",
+      "native": [
+        "Kak Laras, setelah sampel kainnya tiba, kabari penjahit supaya pembuatan seragam karyawan bisa segera dimulai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s102",
+      "kind": "sentence",
+      "native": [
+        "Nomor baruku 0813 0000 2468, simpan yang ini saja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s103",
+      "kind": "sentence",
+      "native": [
+        "Simpan ukuran jendela buat beli gorden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s104",
+      "kind": "sentence",
+      "native": [
+        "Apakah besok ada pertandingan bulu tangkis yang disiarkan langsung?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s105",
+      "kind": "sentence",
+      "native": [
+        "Tagihan internet cabang Malang naik menjadi Rp320.000 bulan ini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s106",
+      "kind": "sentence",
+      "native": [
+        "Biasanya Om Hendra naik KRL dari Bekasi ke kantornya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s107",
+      "kind": "sentence",
+      "native": [
+        "Seragam olahraga Siti belum kering."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s108",
+      "kind": "sentence",
+      "native": [
+        "Aditya minta dijemput setelah kursus melukis. Tunggu, aku tanya dulu jam selesainya sebelum kita berangkat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s109",
+      "kind": "sentence",
+      "native": [
+        "Kalau aku merem di foto, jangan masukkan fotonya ke album keluarga. Nanti aku jadi bahan ledekan sampai tahun depan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s110",
+      "kind": "sentence",
+      "native": [
+        "Mohon lampirkan kuitansi asli agar biaya parkirnya bisa diganti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s111",
+      "kind": "sentence",
+      "native": [
+        "Harga ketopraknya sekarang Rp18.000 seporsi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s112",
+      "kind": "sentence",
+      "native": [
+        "Sepulang dari kantor, mampir ke Alfamart buat beli sabun cuci piring karena stoknya tinggal sedikit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s113",
+      "kind": "sentence",
+      "native": [
+        "Terjemahkan petunjuk pemakaian rice cooker ini ke bahasa Indonesia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s114",
+      "kind": "sentence",
+      "native": [
+        "Mending pakai headset supaya suara kipasnya nggak ikut terdengar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s115",
+      "kind": "sentence",
+      "native": [
+        "Gang kecil itu tembus mana?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s116",
+      "kind": "sentence",
+      "native": [
+        "Nenek minta Wayan membawa kursi lipat tambahan karena tamu arisan nanti lebih banyak daripada biasanya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s117",
+      "kind": "sentence",
+      "native": [
+        "Penghapusnya dijual satuan atau paketan?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s118",
+      "kind": "sentence",
+      "native": [
+        "Asyik, akhirnya kita punya waktu buat nonton bareng lagi!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s119",
+      "kind": "sentence",
+      "native": [
+        "Kapan tim gudang bisa memberikan perkiraan stok terbaru?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s120",
+      "kind": "sentence",
+      "native": [
+        "Aku lari 5 kilometer dalam waktu sekitar 32 menit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s121",
+      "kind": "sentence",
+      "native": [
+        "Pastikan foto struk belanja tersimpan sebelum kertasnya dibuang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s122",
+      "kind": "sentence",
+      "native": [
+        "Berapa hasil 144 dibagi 12?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s123",
+      "kind": "sentence",
+      "native": [
+        "Setelah update, aplikasi kasir malah menutup sendiri setiap dibuka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s124",
+      "kind": "sentence",
+      "native": [
+        "Raka turun di Stasiun Manggarai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s125",
+      "kind": "sentence",
+      "native": [
+        "Keran belakang masih menetes terus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s126",
+      "kind": "sentence",
+      "native": [
+        "Beli susu, telur, sama dua bungkus roti tawar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s127",
+      "kind": "sentence",
+      "native": [
+        "Uang patungannya sudah masuk belum?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s128",
+      "kind": "sentence",
+      "native": [
+        "Bu Endah, biaya pendaftaran pameran yang batal sudah dikembalikan?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s129",
+      "kind": "sentence",
+      "native": [
+        "Alarmku berbunyi pukul 05.40."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s130",
+      "kind": "sentence",
+      "native": [
+        "Catat jadwal servis motor bulan depan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s131",
+      "kind": "sentence",
+      "native": [
+        "Carikan resep tekwan yang gampang dibuat pakai ikan tenggiri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s132",
+      "kind": "sentence",
+      "native": [
+        "Peserta pelatihan diminta login memakai akun masing-masing sebelum praktik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s133",
+      "kind": "sentence",
+      "native": [
+        "Nadia tadi cerita kalau teman sebangkunya suka berbagi pensil warna, jadi sekarang dia lebih betah di kelas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s134",
+      "kind": "sentence",
+      "native": [
+        "Hari Kamis saya bekerja dari rumah, tetapi tetap bisa dihubungi lewat WhatsApp selama jam kerja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s135",
+      "kind": "sentence",
+      "native": [
+        "Diskon 25% berlaku untuk pembelian minimal 4 botol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s136",
+      "kind": "sentence",
+      "native": [
+        "Ingatkan aku untuk mengembalikan buku perpustakaan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s137",
+      "kind": "sentence",
+      "native": [
+        "Gimana cara melepas stiker dari kaca tanpa meninggalkan bekas?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s138",
+      "kind": "sentence",
+      "native": [
+        "Fajar, mikrofonnya masih belum aktif."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s139",
+      "kind": "sentence",
+      "native": [
+        "Aku sudah sampai rumah, kok."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s140",
+      "kind": "sentence",
+      "native": [
+        "Sepertinya link presentasi kemarin belum bisa dibuka oleh client."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s141",
+      "kind": "sentence",
+      "native": [
+        "Rapat dimulai Senin pukul 09.15, paling lama 45 menit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s142",
+      "kind": "sentence",
+      "native": [
+        "Lusa aku mau menelepon depot air supaya galonnya diantar pagi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s143",
+      "kind": "sentence",
+      "native": [
+        "Rupanya file rekamannya tersimpan di flashdisk, bukan komputer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s144",
+      "kind": "sentence",
+      "native": [
+        "Telepon kalau kamu sudah senggang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s145",
+      "kind": "sentence",
+      "native": [
+        "Sesi diskusinya bisa saya pandu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s146",
+      "kind": "sentence",
+      "native": [
+        "Beres, camilan buat piknik sudah siap."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s147",
+      "kind": "sentence",
+      "native": [
+        "Pak Surya, mohon persetujuan pembelian kursi pengganti untuk resepsionis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s148",
+      "kind": "sentence",
+      "native": [
+        "Tenang, kuncinya ada di tas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s149",
+      "kind": "sentence",
+      "native": [
+        "Bu, Dimas mau ikut ke Kebun Raya Bogor hari Minggu, jadi tolong siapkan topinya juga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s150",
+      "kind": "sentence",
+      "native": [
+        "Akhir pekan ini kita tukar tanaman saja. Aku punya bibit cabai dan kamu punya banyak sukulen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s151",
+      "kind": "sentence",
+      "native": [
+        "Sepatunya kekecilan, bisa temani aku tukar ukuran besok?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s152",
+      "kind": "sentence",
+      "native": [
+        "Besok ketemu di pintu keluar Stasiun Cikini saja, gimana?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "id-s153",
+      "kind": "sentence",
+      "native": [
+        "Sekalian jemur handukku juga, dong."
+      ],
+      "roman": null
+    }
+  ]
+}

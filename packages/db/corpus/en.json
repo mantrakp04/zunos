@@ -1,0 +1,1544 @@
+{
+  "lang": "en",
+  "starter": [
+    "en-s148",
+    "en-s073",
+    "en-s141",
+    "en-s116",
+    "en-s008",
+    "en-s083",
+    "en-s163",
+    "en-s061",
+    "en-s145",
+    "en-s075",
+    "en-s152",
+    "en-s028",
+    "en-s029",
+    "en-s034",
+    "en-s096",
+    "en-s088",
+    "en-s043",
+    "en-s063",
+    "en-p05",
+    "en-s057",
+    "en-s041",
+    "en-s129",
+    "en-s037",
+    "en-s015",
+    "en-s084",
+    "en-s124",
+    "en-s003",
+    "en-s016",
+    "en-s065",
+    "en-s011",
+    "en-s002",
+    "en-s086",
+    "en-s017",
+    "en-s108",
+    "en-s109",
+    "en-s085",
+    "en-s024",
+    "en-p01",
+    "en-s100",
+    "en-s030",
+    "en-s072",
+    "en-s099",
+    "en-s144",
+    "en-s127",
+    "en-s130",
+    "en-s006",
+    "en-s019",
+    "en-s159",
+    "en-s022",
+    "en-s047",
+    "en-s069",
+    "en-s020",
+    "en-s018",
+    "en-s032",
+    "en-s106",
+    "en-s051",
+    "en-s056"
+  ],
+  "items": [
+    {
+      "id": "en-p01",
+      "kind": "para",
+      "title": "Last Night in Surulere",
+      "native": [
+        "Did you catch the match at Femi Adebayo's place in Surulere last night?",
+        "I thought we'd watch quietly, but half the building ended up joining us.",
+        "His sister Bisi brought jollof rice, and I took some fried plantain.",
+        "Everyone was still finding a seat when Arsenal scored their first goal.",
+        "Femi jumped up so quickly that his cushion landed in my dinner.",
+        "We spent most of the second half arguing about that missed penalty.",
+        "Even my aunt put her phone away for the last few minutes.",
+        "When Arsenal finally won, you could hear cheering all along our street.",
+        "Next time, come over early so we can save you a decent seat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-p02",
+      "kind": "para",
+      "title": "Our Revised Launch Plan",
+      "native": [
+        "The Toronto store's new website won't be ready for our planned launch on Tuesday.",
+        "We're still waiting for product photos, and the delivery page needs more testing.",
+        "Priya Shah will collect the missing images from our Queen Street team by noon tomorrow.",
+        "I'll finish checking delivery charges for Toronto addresses by the end of Wednesday.",
+        "Please keep the current site live while we work through these remaining tasks.",
+        "We'll review the complete draft together at 10 a.m. on Thursday.",
+        "If testing goes well, we'll launch the updated site on Friday morning.",
+        "I've added the revised dates to our shared calendar and notified the store manager.",
+        "Let me know today if the new schedule creates problems for your team."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-p03",
+      "kind": "para",
+      "title": "A Rainy First Day",
+      "native": [
+        "My first morning at a new school in Dublin began with a soaking.",
+        "I'd missed the bus in Rathmines and walked through the rain without a coat.",
+        "My timetable was so wet that the ink had started to run.",
+        "A girl called Aoife Byrne found me studying a map beside the lockers.",
+        "She lent me a dry sweater and walked me to our classroom.",
+        "Our teacher asked about my old school, but I was so nervous I could barely answer.",
+        "Aoife moved her bag off the next chair and waved me over.",
+        "At lunchtime, we shared her cheese sandwiches and laughed about my squeaky shoes.",
+        "By the final bell, I knew the route home and had a friend."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-p04",
+      "kind": "para",
+      "title": "Dad's New Phone",
+      "native": [
+        "Dad, let's set up your new phone here at the kitchen table.",
+        "Plug the charger into the wall, then connect the cable to your phone.",
+        "Press the power button and choose English when the language list appears.",
+        "Select our home Wi-Fi network and enter the password from the router sticker.",
+        "When the phone asks, follow the prompts to copy everything from your old phone.",
+        "Keep both phones nearby until the transfer finishes, even if it takes a while.",
+        "Once that's done, I'll move your SIM card across and check your mobile connection.",
+        "Open WhatsApp and send Auntie Mei a message to check it's working.",
+        "Finally, let's make the text larger so your shopping list is easier to read."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-p05",
+      "kind": "para",
+      "title": "Dinner Delivered in Tiong Bahru",
+      "native": [
+        "I tried GrabFood from my flat in Tiong Bahru on Tuesday.",
+        "The chicken rice arrived warm, and the soup hadn't leaked into the bag.",
+        "I liked seeing the rider's location without having to send extra messages.",
+        "The delivery fee was S$4, which felt steep for such a short trip.",
+        "Still, the app showed that charge before I confirmed my order.",
+        "One photo made the portion look bigger than it actually was.",
+        "I'd rather see a plain picture that matches what turns up.",
+        "For rainy evenings, the convenience probably makes the extra cost worth it.",
+        "I'll use it again, but I'll compare the final totals more carefully."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-p06",
+      "kind": "para",
+      "title": "Wedding Shopping in Pune",
+      "native": [
+        "Let's finish the wedding shopping in Pune on October 17, 2026.",
+        "I'll meet Ananya Deshmukh on Laxmi Road at 10:30 a.m. on Saturday.",
+        "We need 24 family gift bags at ₹40 each, so that's ₹960.",
+        "Let's set aside ₹3,000 for flowers and ₹2,000 for fabric.",
+        "The ribbon shop is 2 kilometers away, so we'll take an auto.",
+        "I've counted 60 guests, but we should buy 5 extra favor boxes.",
+        "Can we keep the sweets budget under ₹4,500, including delivery?",
+        "We'll collect the table decorations at 2 p.m. and check every box.",
+        "That leaves Sunday morning for wrapping gifts and checking the final list."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-p07",
+      "kind": "para",
+      "title": "Checking a School Fee Receipt",
+      "native": [
+        "Hello, I'm calling about my daughter Zoya Naidoo's school fee receipt.",
+        "She's in grade 3, and her teacher is Nomsa Khumalo.",
+        "We paid R850 for April through our banking app yesterday.",
+        "The payment reference includes her surname and class, but the receipt hasn't arrived.",
+        "Could you check whether the payment has reached the school's account?",
+        "My employer needs the receipt to process our education allowance.",
+        "An emailed copy would be fine, as long as it shows the payment date.",
+        "Please include the school stamp if that's part of your usual process.",
+        "Thanks for checking, and let me know if you need the payment confirmation."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-p08",
+      "kind": "para",
+      "title": "Melbourne's Football Weekends",
+      "native": [
+        "In Melbourne, plenty of people plan their weekends around Australian rules football.",
+        "At the Melbourne Cricket Ground, fans often arrive well before the opening bounce.",
+        "Fans wear their club scarves on trains and trams on the way to the match.",
+        "The game uses an oval ball, and players can kick or handball it.",
+        "An untouched kick through the tall central posts scores 6 points.",
+        "The crowd gets louder when the scores are close in the last few minutes.",
+        "Support for clubs like Collingwood and Carlton often runs in the family.",
+        "Many fans also follow local teams, and volunteers run the canteens at their grounds.",
+        "At local matches, catching up with friends is often as important as the game itself."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s001",
+      "kind": "sentence",
+      "native": [
+        "It looks like rain, so let's move the picnic indoors and spread a blanket on the living room floor."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s002",
+      "kind": "sentence",
+      "native": [
+        "Enjoy your break, and speak soon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s003",
+      "kind": "sentence",
+      "native": [
+        "Take elevator 3 to floor 9."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s004",
+      "kind": "sentence",
+      "native": [
+        "Remind me to pick up some felt pads for the dining chairs next time I'm at the hardware store."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s005",
+      "kind": "sentence",
+      "native": [
+        "Is there a way to recover my recently deleted photos?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s006",
+      "kind": "sentence",
+      "native": [
+        "Sipho needs admin access to install the accounting software."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s007",
+      "kind": "sentence",
+      "native": [
+        "Neither entrance has a ramp."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s008",
+      "kind": "sentence",
+      "native": [
+        "Orla's school is closed for the June bank holiday."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s009",
+      "kind": "sentence",
+      "native": [
+        "Pass me the wrench, or just hold this pipe steady while I loosen the nut by hand."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s010",
+      "kind": "sentence",
+      "native": [
+        "Looking back, saying no to extra work was difficult, but I'm glad I left room for other things."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s011",
+      "kind": "sentence",
+      "native": [
+        "Tomorrow works for me if you're still happy to drive."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s012",
+      "kind": "sentence",
+      "native": [
+        "Customers at our Soweto store prefer paper bags to plastic."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s013",
+      "kind": "sentence",
+      "native": [
+        "At Tesco, 2 cartons of juice cost £3.60 altogether."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s014",
+      "kind": "sentence",
+      "native": [
+        "Remember to bring a separate bag for the muddy boots after our hike on Table Mountain."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s015",
+      "kind": "sentence",
+      "native": [
+        "How much storage space do I have left?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s016",
+      "kind": "sentence",
+      "native": [
+        "Nobody can edit the document while it's marked as read-only."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s017",
+      "kind": "sentence",
+      "native": [
+        "Across the footbridge, there's a cafe with outdoor seating."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s018",
+      "kind": "sentence",
+      "native": [
+        "Both pillowcases need a wash."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s019",
+      "kind": "sentence",
+      "native": [
+        "Did Efe Adeyemi want the glossy finish or the matte one?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s020",
+      "kind": "sentence",
+      "native": [
+        "Ah, sorry I kept you waiting."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s021",
+      "kind": "sentence",
+      "native": [
+        "By the way, could you feed the rabbits this weekend while we're away visiting my sister?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s022",
+      "kind": "sentence",
+      "native": [
+        "Chinedu, Paystack has confirmed that yesterday's invoice is now paid."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s023",
+      "kind": "sentence",
+      "native": [
+        "After 6 lessons, I can play 2 songs on the guitar without looking at my fingers."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s024",
+      "kind": "sentence",
+      "native": [
+        "Check whether the suitcase wheels need replacing before packing."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s025",
+      "kind": "sentence",
+      "native": [
+        "Start a video chat with Ada Okafor on WhatsApp."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s026",
+      "kind": "sentence",
+      "native": [
+        "Yewande spotted duplicate entries in the customer database this morning."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s027",
+      "kind": "sentence",
+      "native": [
+        "Tunde reckons the traffic through Yaba will ease up soon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s028",
+      "kind": "sentence",
+      "native": [
+        "Idlis always stick unless I grease the molds properly."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s029",
+      "kind": "sentence",
+      "native": [
+        "Was that Durban or Dundee?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s030",
+      "kind": "sentence",
+      "native": [
+        "Honestly, this queue barely moves."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s031",
+      "kind": "sentence",
+      "native": [
+        "Great news: our offer on the house was accepted."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s032",
+      "kind": "sentence",
+      "native": [
+        "Help me understand how we record partial refunds, please."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s033",
+      "kind": "sentence",
+      "native": [
+        "The battery level dropped from 93% to 46% in 5 hours."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s034",
+      "kind": "sentence",
+      "native": [
+        "Add oat milk to the list."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s035",
+      "kind": "sentence",
+      "native": [
+        "Pause the audiobook for now."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s036",
+      "kind": "sentence",
+      "native": [
+        "Bluetooth isn't detecting my mouse."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s037",
+      "kind": "sentence",
+      "native": [
+        "Her office faces the canal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s038",
+      "kind": "sentence",
+      "native": [
+        "Fremantle Markets might have the tablecloth you're looking for."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s039",
+      "kind": "sentence",
+      "native": [
+        "Bongani, I'll pack the kids' pajamas, toothbrushes and swimming costumes, unless you've already got spares at your place."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s040",
+      "kind": "sentence",
+      "native": [
+        "I really appreciate you covering my shift at the bakery."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s041",
+      "kind": "sentence",
+      "native": [
+        "Glitter has taken over the kitchen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s042",
+      "kind": "sentence",
+      "native": [
+        "Yes, the travel budget is approved."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s043",
+      "kind": "sentence",
+      "native": [
+        "Bibs 64 and 87 are missing."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s044",
+      "kind": "sentence",
+      "native": [
+        "Put a seam ripper on my sewing supplies list."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s045",
+      "kind": "sentence",
+      "native": [
+        "Show me how to fold a fitted sheet neatly."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s046",
+      "kind": "sentence",
+      "native": [
+        "Has the Belfast office enabled two-factor authentication for everyone?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s047",
+      "kind": "sentence",
+      "native": [
+        "Their new apartment overlooks the old cricket ground."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s048",
+      "kind": "sentence",
+      "native": [
+        "These peaches aren't ripe yet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s049",
+      "kind": "sentence",
+      "native": [
+        "Instead of stapling these, could you clip them together?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s050",
+      "kind": "sentence",
+      "native": [
+        "Being interrupted halfway through a story gets old pretty quickly."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s051",
+      "kind": "sentence",
+      "native": [
+        "Priya, can you grab some curd for tonight's marinade?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s052",
+      "kind": "sentence",
+      "native": [
+        "Have those supplier quotes come through?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s053",
+      "kind": "sentence",
+      "native": [
+        "Allow 35 minutes for the 12-kilometer ride before sunset."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s054",
+      "kind": "sentence",
+      "native": [
+        "Leave a spare leash out for the dog sitter's visit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s055",
+      "kind": "sentence",
+      "native": [
+        "Search for dosa recipes that don't need a grinder."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s056",
+      "kind": "sentence",
+      "native": [
+        "This charger works only when the cable's at an angle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s057",
+      "kind": "sentence",
+      "native": [
+        "She'll recognize you by your yellow jacket near reception."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s058",
+      "kind": "sentence",
+      "native": [
+        "Something's rattling inside the vacuum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s059",
+      "kind": "sentence",
+      "native": [
+        "Sorry, did you say cash?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s060",
+      "kind": "sentence",
+      "native": [
+        "You handled that beautifully, Naledi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s061",
+      "kind": "sentence",
+      "native": [
+        "Akash, your homemade chutney was a hit with everyone yesterday."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s062",
+      "kind": "sentence",
+      "native": [
+        "Go ahead and order the monitors."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s063",
+      "kind": "sentence",
+      "native": [
+        "Registration closes on August 23 at 6:45 p.m. sharp."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s064",
+      "kind": "sentence",
+      "native": [
+        "Remind me to rotate the mattress."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s065",
+      "kind": "sentence",
+      "native": [
+        "What's the weather like in Cape Town this weekend?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s066",
+      "kind": "sentence",
+      "native": [
+        "The support desk at our Bengaluru office reset my password."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s067",
+      "kind": "sentence",
+      "native": [
+        "Daniel Chen recommended a shoe repair shop in Ottawa that can replace the worn soles on these boots."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s068",
+      "kind": "sentence",
+      "native": [
+        "Monday's dentist appointment clashes with the parent-teacher meeting."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s069",
+      "kind": "sentence",
+      "native": [
+        "Tell Ananya Shah I found her earring, not her bracelet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s070",
+      "kind": "sentence",
+      "native": [
+        "Even a little practice counts, so give yourself some credit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s071",
+      "kind": "sentence",
+      "native": [
+        "Guess who finally learned to juggle!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s072",
+      "kind": "sentence",
+      "native": [
+        "Unfortunately, connection issues cut short our call with the Melbourne team."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s073",
+      "kind": "sentence",
+      "native": [
+        "Please deliver to 37 Cedar Lane, apartment 8, after 4 p.m."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s074",
+      "kind": "sentence",
+      "native": [
+        "Label the leftovers before freezing them."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s075",
+      "kind": "sentence",
+      "native": [
+        "Mute notifications until this evening."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s076",
+      "kind": "sentence",
+      "native": [
+        "Undo that last formatting change."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s077",
+      "kind": "sentence",
+      "native": [
+        "Rather than squeezing onto this crowded carriage, I'm going to hang back and catch the next train."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s078",
+      "kind": "sentence",
+      "native": [
+        "Because the zipper keeps catching on the lining, I'd rather exchange this coat than have it fixed."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s079",
+      "kind": "sentence",
+      "native": [
+        "Okay, I'll have laksa, but leave out the sambal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s080",
+      "kind": "sentence",
+      "native": [
+        "Living in Calgary has taken some getting used to, but chatting with my neighbors makes a real difference."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s081",
+      "kind": "sentence",
+      "native": [
+        "Before you head over, check whether you've still got the spare key tucked inside your backpack."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s082",
+      "kind": "sentence",
+      "native": [
+        "Meera, would Thursday afternoon suit you for a quick handover?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s083",
+      "kind": "sentence",
+      "native": [
+        "Aisha paid ₦8,500 for 3 bowls of jollof rice."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s084",
+      "kind": "sentence",
+      "native": [
+        "Find out when our local pool reopens so I can sign up for morning swimming lessons."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s085",
+      "kind": "sentence",
+      "native": [
+        "Where can I recycle old paint tins in Johannesburg?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s086",
+      "kind": "sentence",
+      "native": [
+        "Zoom picked the wrong microphone when I joined the interview."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s087",
+      "kind": "sentence",
+      "native": [
+        "Parking underneath the shopping center saves us walking uphill."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s088",
+      "kind": "sentence",
+      "native": [
+        "Grandma wants a smaller cake."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s089",
+      "kind": "sentence",
+      "native": [
+        "Hang on, are we rehearsing indoors or out tonight?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s090",
+      "kind": "sentence",
+      "native": [
+        "Nothing beats hot samosas from that stall in Leicester."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s091",
+      "kind": "sentence",
+      "native": [
+        "Would you like to walk along the Liffey after lunch?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s092",
+      "kind": "sentence",
+      "native": [
+        "Following our call with the Dublin client, we've decided to include installation rather than charge for it separately."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s093",
+      "kind": "sentence",
+      "native": [
+        "Keep S$38 aside for lunch at Maxwell Food Centre, plus S$14 for the taxi at 1:10 p.m."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s094",
+      "kind": "sentence",
+      "native": [
+        "Renew my library card online."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s095",
+      "kind": "sentence",
+      "native": [
+        "Why does this printer keep showing as offline even though it's connected to the same network?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s096",
+      "kind": "sentence",
+      "native": [
+        "Screen recordings can include audio."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s097",
+      "kind": "sentence",
+      "native": [
+        "Ravi's waiting outside Secunderabad station."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s098",
+      "kind": "sentence",
+      "native": [
+        "Careful, that shelf feels loose."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s099",
+      "kind": "sentence",
+      "native": [
+        "I'd prefer the paperback, not the hardback."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s100",
+      "kind": "sentence",
+      "native": [
+        "We're meeting outside Woolworths once Lachlan finishes his shift."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s101",
+      "kind": "sentence",
+      "native": [
+        "My calendar's blocked out until I finish the quarterly forecast."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s102",
+      "kind": "sentence",
+      "native": [
+        "That's £27.50 after the 15% discount."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s103",
+      "kind": "sentence",
+      "native": [
+        "Tuesday's school concert needs to go on my calendar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s104",
+      "kind": "sentence",
+      "native": [
+        "Which platform does the next train to Leeds leave from?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s105",
+      "kind": "sentence",
+      "native": [
+        "During yesterday's onboarding session, the captions lagged behind the speaker, so I missed part of the explanation."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s106",
+      "kind": "sentence",
+      "native": [
+        "Express buses skip our stop."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s107",
+      "kind": "sentence",
+      "native": [
+        "Unless the wind drops, we should secure the garden gate."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s108",
+      "kind": "sentence",
+      "native": [
+        "Do these peels go in the compost?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s109",
+      "kind": "sentence",
+      "native": [
+        "I'm home, and the kettle's on."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s110",
+      "kind": "sentence",
+      "native": [
+        "Staff in Manchester need a replacement projector before next week's training."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s111",
+      "kind": "sentence",
+      "native": [
+        "My Qantas flight leaves Sydney at 1:05 p.m. My suitcase weighs 21 kilograms, below the 23-kilogram limit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s112",
+      "kind": "sentence",
+      "native": [
+        "Save the blender instructions for later."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s113",
+      "kind": "sentence",
+      "native": [
+        "Navigate to the nearest accessible entrance at Heuston Station."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s114",
+      "kind": "sentence",
+      "native": [
+        "Autocorrect changed the client's surname."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s115",
+      "kind": "sentence",
+      "native": [
+        "Zoe suggested Fitzroy Gardens because there's plenty of shade and her grandparents can reach it by tram."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s116",
+      "kind": "sentence",
+      "native": [
+        "Will you accept ₦6,000 for this basket?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s117",
+      "kind": "sentence",
+      "native": [
+        "Get batteries, tissues and a roll of kitchen foil."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s118",
+      "kind": "sentence",
+      "native": [
+        "Call me when you're free."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s119",
+      "kind": "sentence",
+      "native": [
+        "Can we hold off publishing until the accessibility checks are finished?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s120",
+      "kind": "sentence",
+      "native": [
+        "For R180, the tailor in Pretoria can shorten these trousers."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s121",
+      "kind": "sentence",
+      "native": [
+        "Once the bedroom curtains are dry, measure their width and write it down before buying replacements."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s122",
+      "kind": "sentence",
+      "native": [
+        "When should I take banana bread out of the oven if the middle still looks slightly wet?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s123",
+      "kind": "sentence",
+      "native": [
+        "Feel free to browse the shared folder, but please ask before renaming anything that other people use."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s124",
+      "kind": "sentence",
+      "native": [
+        "Cut through the arcade behind the florist to reach the square."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s125",
+      "kind": "sentence",
+      "native": [
+        "If the children have finished their homework, they can help me plant the seedlings in the backyard."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s126",
+      "kind": "sentence",
+      "native": [
+        "Write down bread rolls, hummus and cucumber, but skip the olives because there's still a jar in the cupboard."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s127",
+      "kind": "sentence",
+      "native": [
+        "Go ahead and have dinner without me. My train hasn't left yet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s128",
+      "kind": "sentence",
+      "native": [
+        "Apologies, I attached the wrong receipt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s129",
+      "kind": "sentence",
+      "native": [
+        "Book seat 23 on the 7:20 a.m. coach to Pune."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s130",
+      "kind": "sentence",
+      "native": [
+        "Cancel the unused streaming subscription."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s131",
+      "kind": "sentence",
+      "native": [
+        "Open the camera in portrait mode."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s132",
+      "kind": "sentence",
+      "native": [
+        "Someone's still sharing their screen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s133",
+      "kind": "sentence",
+      "native": [
+        "Dad prefers the scenic route."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s134",
+      "kind": "sentence",
+      "native": [
+        "Everyone coming to the anniversary party should tell us about any food allergies before we choose the menu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s135",
+      "kind": "sentence",
+      "native": [
+        "Wait, the striped one fits better."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s136",
+      "kind": "sentence",
+      "native": [
+        "Apparently, the cat owns this chair."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s137",
+      "kind": "sentence",
+      "native": [
+        "Siobhan, if the venue has a quiet corner, let's record a short welcome message during the break."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s138",
+      "kind": "sentence",
+      "native": [
+        "Set a timer for 18 minutes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s139",
+      "kind": "sentence",
+      "native": [
+        "Budget S$65 for the bicycle tune-up next month."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s140",
+      "kind": "sentence",
+      "native": [
+        "Compare these laptops and tell me which one has a quieter fan and a better keyboard."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s141",
+      "kind": "sentence",
+      "native": [
+        "Slack keeps logging me out."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s142",
+      "kind": "sentence",
+      "native": [
+        "Meet Eleanor beside the dinosaur skeleton at London's Natural History Museum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s143",
+      "kind": "sentence",
+      "native": [
+        "Dropping these parcels at Canada Post should only take a minute."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s144",
+      "kind": "sentence",
+      "native": [
+        "Just trim my fringe. Wait, leave the length alone."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s145",
+      "kind": "sentence",
+      "native": [
+        "Ngozi said she'd bring the meat pies, so we only need to sort out drinks and plates."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s146",
+      "kind": "sentence",
+      "native": [
+        "I've uploaded the spreadsheet with separate tabs for each department."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s147",
+      "kind": "sentence",
+      "native": [
+        "Upstairs, 2 radiator valves are leaking."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s148",
+      "kind": "sentence",
+      "native": [
+        "Ask Niamh about parking near the pottery studio in Cork."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s149",
+      "kind": "sentence",
+      "native": [
+        "Translate this message into French and read it aloud."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s150",
+      "kind": "sentence",
+      "native": [
+        "Lerato showed me how to annotate a screenshot during training."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s151",
+      "kind": "sentence",
+      "native": [
+        "Actually, make mine a large."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s152",
+      "kind": "sentence",
+      "native": [
+        "Does anyone fancy kaya toast before we catch the ferry?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s153",
+      "kind": "sentence",
+      "native": [
+        "We measured 11 millimeters between the holes, not 16."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s154",
+      "kind": "sentence",
+      "native": [
+        "Download the Chennai conference pass before I leave home."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s155",
+      "kind": "sentence",
+      "native": [
+        "Charge €17 for the vase. Actually, make that €21 to cover the gift wrapping."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s156",
+      "kind": "sentence",
+      "native": [
+        "Fancy joining me at the Tate for a sketching session?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s157",
+      "kind": "sentence",
+      "native": [
+        "Print pages 12 through 19."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s158",
+      "kind": "sentence",
+      "native": [
+        "Your umbrella's in my car."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s159",
+      "kind": "sentence",
+      "native": [
+        "Use 250 grams of flour and 90 grams of butter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s160",
+      "kind": "sentence",
+      "native": [
+        "No worries, the stain came out."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s161",
+      "kind": "sentence",
+      "native": [
+        "The rent for the Vancouver apartment is C$2,450 a month, including a parking space."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s162",
+      "kind": "sentence",
+      "native": [
+        "Thandi, those homemade rusks barely lasted until afternoon tea."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s163",
+      "kind": "sentence",
+      "native": [
+        "You'll turn 42 on September 16."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s164",
+      "kind": "sentence",
+      "native": [
+        "Leave some pasta for me."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s165",
+      "kind": "sentence",
+      "native": [
+        "Could you move Wednesday's appointment from 10:15 a.m. to 11:40 a.m.?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s166",
+      "kind": "sentence",
+      "native": [
+        "Tonight I'm staying in to finish knitting this scarf, but I'd love to hear how your audition goes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s167",
+      "kind": "sentence",
+      "native": [
+        "Our team won 4 to 2."
+      ],
+      "roman": null
+    },
+    {
+      "id": "en-s168",
+      "kind": "sentence",
+      "native": [
+        "Thanks for checking in about my presentation, which went surprisingly well."
+      ],
+      "roman": null
+    }
+  ]
+}

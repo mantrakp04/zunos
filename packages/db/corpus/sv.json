@@ -1,0 +1,1512 @@
+{
+  "lang": "sv",
+  "starter": [
+    "sv-s040",
+    "sv-s142",
+    "sv-s017",
+    "sv-s104",
+    "sv-s101",
+    "sv-s155",
+    "sv-s118",
+    "sv-s115",
+    "sv-s046",
+    "sv-s162",
+    "sv-s002",
+    "sv-s050",
+    "sv-s015",
+    "sv-s075",
+    "sv-s149",
+    "sv-s066",
+    "sv-s061",
+    "sv-s074",
+    "sv-p01",
+    "sv-s135",
+    "sv-s147",
+    "sv-s134",
+    "sv-s048",
+    "sv-s086",
+    "sv-s069",
+    "sv-s143",
+    "sv-s091",
+    "sv-s133",
+    "sv-s059",
+    "sv-s043",
+    "sv-s152",
+    "sv-s076",
+    "sv-s008",
+    "sv-s151",
+    "sv-s108",
+    "sv-s109",
+    "sv-s053",
+    "sv-p07",
+    "sv-s039",
+    "sv-s110",
+    "sv-s058",
+    "sv-s064",
+    "sv-s123",
+    "sv-s031",
+    "sv-s029",
+    "sv-s052",
+    "sv-s032",
+    "sv-s107",
+    "sv-s070",
+    "sv-s132",
+    "sv-s094",
+    "sv-s068",
+    "sv-s005",
+    "sv-s011",
+    "sv-s080",
+    "sv-s146",
+    "sv-s157"
+  ],
+  "items": [
+    {
+      "id": "sv-p01",
+      "kind": "para",
+      "title": "Moving to Majorna",
+      "native": [
+        "Nu har jag äntligen fått nycklarna till den nya lägenheten i Majorna.",
+        "Den ligger på Karl Johansgatan, ganska nära kaféet där vi fikade sist.",
+        "Köket är mindre än mitt gamla, men det finns plats för ditt runda bord.",
+        "Flyttlasset går på lördag, och pappa har redan bokat en skåpbil.",
+        "Det finns ingen hiss, så soffan blir nog det stora projektet.",
+        "Har du lust att hjälpa till en stund från klockan 10.30?",
+        "Jag fixar lunch åt alla som hjälper till, så säg vad du gillar.",
+        "Du behöver inte ta med verktyg, för grannen lånar ut sin verktygslåda.",
+        "Det ska bli så skönt att få ordning och slippa leva bland flyttkartonger."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-p02",
+      "kind": "para",
+      "title": "Feedback on Saved Lists",
+      "native": [
+        "Nu har testgruppen i Umeå hunnit prova funktionen för sparade inköpslistor.",
+        "De flesta tycker att appen blivit smidigare inför veckans stora matinköp.",
+        "Flera uppskattar särskilt att kunna använda samma lista igen utan att börja om.",
+        "Däremot hade några svårt att hitta knappen för att byta namn på listan.",
+        "En användare föreslog att vi lägger knappen direkt bredvid listans namn.",
+        "Fatima, kan du ta fram ett enkelt förslag på den ändringen till torsdag?",
+        "Vi behöver också förtydliga texten som visas när en lista har sparats.",
+        "Jag samlar kommentarerna i vårt delade dokument och lägger länken i Teams.",
+        "På fredagens möte bestämmer vi vad vi hinner få med i nästa version."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-p03",
+      "kind": "para",
+      "title": "My First Driving Lesson",
+      "native": [
+        "När jag började ta körlektioner i Uppsala kändes kopplingen helt omöjlig att förstå.",
+        "Min körlärare Lena tog med mig till en nästan tom parkering vid Fyrishov.",
+        "Det hade regnat hela morgonen, och vindrutetorkarna gnisslade över den blöta rutan.",
+        "Jag satt för nära ratten och höll för hårt i den.",
+        "Lena bad mig sänka axlarna och släppa upp kopplingen lite långsammare.",
+        "Motorn stannade tre gånger innan jag lyckades rulla fram mellan parkeringsrutorna.",
+        "När bilen äntligen gick mjukt började jag skratta mitt i en sväng.",
+        "Efter lektionen köpte jag en kardemummabulle på vägen hem och ringde min syster.",
+        "Jag hade bara kört på en parkering, men kände mig ändå väldigt stolt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-p04",
+      "kind": "para",
+      "title": "Paying an Electricity Bill",
+      "native": [
+        "Ta fram elräkningen från Göteborg Energi och logga in på din internetbank.",
+        "Välj betalningar i menyn och öppna formuläret för en ny betalning.",
+        "Skriv av bankgironumret på fakturan och kontrollera att alla siffror stämmer.",
+        "Fyll sedan i beloppet och se till att du får med eventuella ören.",
+        "Ange OCR-numret från fakturan så att betalningen kopplas till just din räkning.",
+        "Välj en betalningsdag före förfallodagen och se till att det finns pengar på kontot.",
+        "Jämför alla uppgifter med fakturan innan du går vidare till nästa steg.",
+        "Godkänn betalningen med BankID om din bank ber dig att göra det.",
+        "Spara till sist bekräftelsen så att du kan se att räkningen är inlagd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-p05",
+      "kind": "para",
+      "title": "My New Phone",
+      "native": [
+        "Efter en vecka med min nya mobil är jag faktiskt ganska nöjd.",
+        "Jag köpte den i en butik eftersom jag ville testa skärmen först.",
+        "Skärmen är tydlig även när jag väntar på bussen i starkt solljus.",
+        "Kameran fångade kvällsljuset över Mälaren bättre än min gamla telefon brukade göra.",
+        "Däremot blir bilderna lite väl släta när jag fotograferar människor inomhus.",
+        "Batteriet räcker hela dagen, även med kartor, musik och några längre samtal.",
+        "Fingeravtrycksläsaren fungerar oftast direkt, men den gillar verkligen inte mina blöta händer.",
+        "Jag saknar hörlursuttaget, för mina gamla lurar ligger nu mest i lådan.",
+        "För mig väger ändå batteritiden och den tydliga skärmen tyngre än nackdelarna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-p06",
+      "kind": "para",
+      "title": "Three Days in Kalmar",
+      "native": [
+        "Jag tänker åka till Kalmar den 12 juni 2026 och stanna i 3 dagar.",
+        "Hemresan blir den 14 juni, och hela budgeten är 3 000 kronor.",
+        "Tåget från Linköping går klockan 8.15, så jag hinner äta frukost hemma.",
+        "Tur och retur kostar tågbiljetterna 600 kronor, om jag bokar redan i kväll.",
+        "Två nätter på vandrarhem får kosta högst 1 400 kronor sammanlagt.",
+        "Jag lägger 750 kronor på mat och köper frukost i närmaste mataffär.",
+        "Från vandrarhemmet vill jag ha högst 2 kilometer till Kalmar slott.",
+        "På lördagen bokar jag ingenting före klockan 10.30, för jag vill sova ut.",
+        "Då återstår 250 kronor till inträden eller en fika nere vid hamnen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-p07",
+      "kind": "para",
+      "title": "Washing Machine Warranty",
+      "native": [
+        "Hej, jag heter Malin Ekström och bor på Storgatan 18 i Örebro.",
+        "Jag kontaktar er eftersom min tvättmaskin stannar mitt i programmet varje gång.",
+        "Jag köpte maskinen hos er i november, och garantin gäller fortfarande.",
+        "Displayen lyser som vanligt, men trumman står still och tvätten blir liggande.",
+        "Jag har stängt av maskinen och låter den vara avstängd så länge.",
+        "Kvitto och garantibevis finns kvar, och jag kan mejla bilder om det behövs.",
+        "Kan ni boka en tekniker som kommer hem och tittar på maskinen?",
+        "På torsdag är jag hemma mellan klockan 9.30 och klockan 13.30.",
+        "Tack för hjälpen. Jag vill gärna få en bekräftelse när besöket är bokat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-p08",
+      "kind": "para",
+      "title": "Crafting Dala Horses",
+      "native": [
+        "I Nusnäs utanför Mora tillverkas dalahästar som både täljs och målas för hand.",
+        "Till hästarna används oftast furu, ett träslag som är lätt att tälja.",
+        "Dalahästens form sågas först ut och täljs sedan för hand.",
+        "Hantverkaren täljer fram hästens rygg, huvud och ben med små snitt.",
+        "Efter slipningen doppas hästen i färg och får sedan torka ordentligt.",
+        "Den röda färgen är välkänd, men det finns också hästar i andra färger.",
+        "Blommor och blad målas med pensel i det mönster som kallas kurbits.",
+        "Eftersom dekoren målas för hand blir varje häst lite annorlunda än de andra.",
+        "Besökare kan se delar av arbetet i verkstäderna och köpa med sig en häst."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s001",
+      "kind": "sentence",
+      "native": [
+        "Du får gärna ta gästrummet om sista tunnelbanan har gått."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s002",
+      "kind": "sentence",
+      "native": [
+        "Samira tar över kundkontakten framöver."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s003",
+      "kind": "sentence",
+      "native": [
+        "På tisdag fyller farfar 83, och kalaset börjar klockan 15.30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s004",
+      "kind": "sentence",
+      "native": [
+        "Se till att säkerhetskopiera datorn innan jag installerar det nya programmet, så att inga filer försvinner."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s005",
+      "kind": "sentence",
+      "native": [
+        "När stänger Clas Ohlson i Örebro på söndagar?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s006",
+      "kind": "sentence",
+      "native": [
+        "Döp mappen efter kundens projektnummer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s007",
+      "kind": "sentence",
+      "native": [
+        "Farmors port ligger runt hörnet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s008",
+      "kind": "sentence",
+      "native": [
+        "Är det öppet på återbruket även under midsommarhelgen?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s009",
+      "kind": "sentence",
+      "native": [
+        "Försvann ljudet bara för mig?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s010",
+      "kind": "sentence",
+      "native": [
+        "Trots att kursen var svårare än väntat är jag glad att jag vågade prova något helt nytt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s011",
+      "kind": "sentence",
+      "native": [
+        "Tack för skjutsen, nästa gång bjuder jag på fika."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s012",
+      "kind": "sentence",
+      "native": [
+        "Besökarna behöver mer plats för sina rollatorer runt borden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s013",
+      "kind": "sentence",
+      "native": [
+        "Boka gärna 4 biobiljetter till onsdag klockan 18.20, en av dem till ett barn som är 7 år."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s014",
+      "kind": "sentence",
+      "native": [
+        "Imorgon behöver jag mäta utrymmet under skrivbordet innan jag beställer en hurts som kanske inte får plats."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s015",
+      "kind": "sentence",
+      "native": [
+        "Höj volymen ett par steg."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s016",
+      "kind": "sentence",
+      "native": [
+        "Webbläsaren blockerar popupfönstret där jag ska välja skrivare."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s017",
+      "kind": "sentence",
+      "native": [
+        "Fatima väntar utanför Filmstaden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s018",
+      "kind": "sentence",
+      "native": [
+        "Passar det bättre för dig att gå till optikern klockan 10.20?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s019",
+      "kind": "sentence",
+      "native": [
+        "Köp tomater, linser och diskmedel, och gärna lite ingefära."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s020",
+      "kind": "sentence",
+      "native": [
+        "Lite besviken blev jag ändå på utställningen på Liljevalchs."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s021",
+      "kind": "sentence",
+      "native": [
+        "Vi tänkte grilla på lördag, vill ni komma förbi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s022",
+      "kind": "sentence",
+      "native": [
+        "Fick du möjlighet att kika på offerten, eller ska jag be säljaren förtydliga vad som ingår i priset?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s023",
+      "kind": "sentence",
+      "native": [
+        "Själva packningen kostade 45 kronor, och det tog bara 10 minuter att få kökskranen att sluta droppa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s024",
+      "kind": "sentence",
+      "native": [
+        "Rensa bort ogräset mellan vinbärsbuskarna och lägg gräsklipp runt dem så att jorden håller sig fuktig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s025",
+      "kind": "sentence",
+      "native": [
+        "Skicka ett sms till Lovisa och säg att jag väntar vid entrén med en grön ryggsäck."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s026",
+      "kind": "sentence",
+      "native": [
+        "Kontoret i Sundsvall behöver en dockningsstation till den nya praktikanten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s027",
+      "kind": "sentence",
+      "native": [
+        "Hållplatsen heter Lilla Bommen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s028",
+      "kind": "sentence",
+      "native": [
+        "Usch, vilken blåst det är idag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s029",
+      "kind": "sentence",
+      "native": [
+        "Stryk falukorven, vi har redan en hel ring i kylen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s030",
+      "kind": "sentence",
+      "native": [
+        "Först kändes det pinsamt att missa bollen så ofta, men tränaren fick mig verkligen att känna mig välkommen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s031",
+      "kind": "sentence",
+      "native": [
+        "Ska vi ses på Liseberg nästa helg och åka karuseller?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s032",
+      "kind": "sentence",
+      "native": [
+        "Leverantören i Västerås behöver besked om färgvalet senast imorgon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s033",
+      "kind": "sentence",
+      "native": [
+        "Jackan på Stadium är nedsatt med 40 % till 539 kronor."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s034",
+      "kind": "sentence",
+      "native": [
+        "Be Nils att skicka receptet på äppelkakan innan jag börjar baka till grannarnas gårdsfest nästa helg."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s035",
+      "kind": "sentence",
+      "native": [
+        "Behöver jag slipa hela köksbordet innan jag oljar det, eller räcker det att slipa de sträva partierna?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s036",
+      "kind": "sentence",
+      "native": [
+        "Sedan vi bytte till den nya versionen kraschar programmet så fort jag försöker dra en bild till tidslinjen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s037",
+      "kind": "sentence",
+      "native": [
+        "Grannen jobbar nere i hamnen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s038",
+      "kind": "sentence",
+      "native": [
+        "Paketet hamnade hos ombudet i Haga, fast jag valde skåpet vid mataffären när jag beställde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s039",
+      "kind": "sentence",
+      "native": [
+        "Säljer ni skosnören också?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s040",
+      "kind": "sentence",
+      "native": [
+        "Snyggt jobbat med mosaiken, Astrid!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s041",
+      "kind": "sentence",
+      "native": [
+        "Nu är jag hemma igen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s042",
+      "kind": "sentence",
+      "native": [
+        "Helena kan täcka ditt kvällspass i receptionen om det behövs."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s043",
+      "kind": "sentence",
+      "native": [
+        "Rabatten gäller till 26 augusti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s044",
+      "kind": "sentence",
+      "native": [
+        "Tvättstugan behöver bokas till nästa fredag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s045",
+      "kind": "sentence",
+      "native": [
+        "Vad heter skiftnyckel på franska, och hur uttalas det?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s046",
+      "kind": "sentence",
+      "native": [
+        "Muspekaren fastnar på den andra skärmen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s047",
+      "kind": "sentence",
+      "native": [
+        "Sväng vänster vid bageriet, så ser du verkstaden direkt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s048",
+      "kind": "sentence",
+      "native": [
+        "Selma behöver en tom mjölkkartong till pysslet i skolan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s049",
+      "kind": "sentence",
+      "native": [
+        "Egentligen skulle hyllan sitta ovanför soffan, men nu när jag ser den passar den bättre bredvid fönstret."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s050",
+      "kind": "sentence",
+      "native": [
+        "Leila, det var snällt att hålla upp den tunga dörren."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s051",
+      "kind": "sentence",
+      "native": [
+        "Ta med stövlar, det brukar bli lerigt vid stugan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s052",
+      "kind": "sentence",
+      "native": [
+        "Ursäkta dröjsmålet, din fråga hamnade lite mellan stolarna hos oss."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s053",
+      "kind": "sentence",
+      "native": [
+        "Flyttlådorna väger ungefär 17 kilo styck."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s054",
+      "kind": "sentence",
+      "native": [
+        "Gympakläderna ska packas i ryggsäcken."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s055",
+      "kind": "sentence",
+      "native": [
+        "Sök efter bilder på näckrosor."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s056",
+      "kind": "sentence",
+      "native": [
+        "Lösenordet finns i lösenordshanteraren."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s057",
+      "kind": "sentence",
+      "native": [
+        "Pappa känner igen huset på den stora gula balkongen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s058",
+      "kind": "sentence",
+      "native": [
+        "Handtaget sitter löst igen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s059",
+      "kind": "sentence",
+      "native": [
+        "Jaha, ingår batterierna i priset?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s060",
+      "kind": "sentence",
+      "native": [
+        "Ibland önskar jag att jag hade mer tid att teckna, men det känns fint att äntligen vara igång igen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s061",
+      "kind": "sentence",
+      "native": [
+        "Spara lite kålpudding åt mig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s062",
+      "kind": "sentence",
+      "native": [
+        "Trevlig helg när det blir dags!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s063",
+      "kind": "sentence",
+      "native": [
+        "Ärtorna sår jag med 5 centimeters mellanrum och lämnar 50 centimeter mellan raderna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s064",
+      "kind": "sentence",
+      "native": [
+        "Glöm inte presentpapper till Amina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s065",
+      "kind": "sentence",
+      "native": [
+        "Ställ ett alarm på klockan 06.50."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s066",
+      "kind": "sentence",
+      "native": [
+        "Excel räknar fel i totalsumman."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s067",
+      "kind": "sentence",
+      "native": [
+        "Moa föreslog att vi skulle ses vid Svampen på Stureplan, eftersom alla hittar dit utan problem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s068",
+      "kind": "sentence",
+      "native": [
+        "Kvittot måste vara med om jag ska byta gardinerna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s069",
+      "kind": "sentence",
+      "native": [
+        "Förlåt, skulle du ha havredryck?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s070",
+      "kind": "sentence",
+      "native": [
+        "Åh, vad fint du har stickat!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s071",
+      "kind": "sentence",
+      "native": [
+        "Din katt har snott min plats."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s072",
+      "kind": "sentence",
+      "native": [
+        "Hej, hoppas att veckan börjat bra."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s073",
+      "kind": "sentence",
+      "native": [
+        "Har ni storlek 38 och 40?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s074",
+      "kind": "sentence",
+      "native": [
+        "Böckerna ska lämnas tillbaka på Gävle stadsbibliotek före helgen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s075",
+      "kind": "sentence",
+      "native": [
+        "Varför blir brödet så smuligt?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s076",
+      "kind": "sentence",
+      "native": [
+        "Jobbtelefonen har ingen täckning här."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s077",
+      "kind": "sentence",
+      "native": [
+        "Tobias brukar pendla mellan Lund och Malmö varje vardag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s078",
+      "kind": "sentence",
+      "native": [
+        "Äntligen har föreningen bestämt att gårdsloppisen blir av, och vi får ställa våra bord längs staketet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s079",
+      "kind": "sentence",
+      "native": [
+        "Nej, vänta, jag menar silverringen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s080",
+      "kind": "sentence",
+      "native": [
+        "Tusen tack för att du tog hand om disken."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s081",
+      "kind": "sentence",
+      "native": [
+        "Dörren är öppen, kom in!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s082",
+      "kind": "sentence",
+      "native": [
+        "Enligt Johan saknas fortfarande underlaget för förra månadens resekostnader."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s083",
+      "kind": "sentence",
+      "native": [
+        "Timern står på 11 minuter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s084",
+      "kind": "sentence",
+      "native": [
+        "Påminn mig att vattna pelargonerna imorgon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s085",
+      "kind": "sentence",
+      "native": [
+        "Visa snabbaste vägen till Emporia utan att köra på motorvägen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s086",
+      "kind": "sentence",
+      "native": [
+        "Abonnemanget kostar 89 kronor extra om vi väljer mer lagring."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s087",
+      "kind": "sentence",
+      "native": [
+        "Säg till din kollega att använda sidoingången, för huvudentrén är stängd medan de byter ut dörrarna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s088",
+      "kind": "sentence",
+      "native": [
+        "Morbror vill helst slippa överraskningar på födelsedagen, så vi ordnar en lugn middag med de närmaste."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s089",
+      "kind": "sentence",
+      "native": [
+        "Börja med att duka inne. Nej förresten, vi dukar på altanen i stället när solen ändå skiner."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s090",
+      "kind": "sentence",
+      "native": [
+        "Skönt att höra att ni har kommit i ordning i radhuset."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s091",
+      "kind": "sentence",
+      "native": [
+        "Bussen från Borås är försenad, så börja äta utan oss."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s092",
+      "kind": "sentence",
+      "native": [
+        "Eftersom Elin är på utbildning behöver vi flytta genomgången till nästa vecka, helst efter lunch på onsdag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s093",
+      "kind": "sentence",
+      "native": [
+        "Betala 375 kronor nu och resterande 625 när du hämtar cykeln."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s094",
+      "kind": "sentence",
+      "native": [
+        "Kontrollera om årskortet på Universeum fortfarande gäller innan jag förnyar det."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s095",
+      "kind": "sentence",
+      "native": [
+        "Släck alla lampor i vardagsrummet men låt hallen vara tänd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s096",
+      "kind": "sentence",
+      "native": [
+        "Under vår workshop visade Rasmus hur man lägger till undertexter på filmer utan att installera något."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s097",
+      "kind": "sentence",
+      "native": [
+        "Birgitta Ek bor numera på Kungsholmen, nära sin syster."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s098",
+      "kind": "sentence",
+      "native": [
+        "Den här västerbottenspajen blev godare när den fick svalna lite."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s099",
+      "kind": "sentence",
+      "native": [
+        "Vänta, var det Denise eller Nadja som skulle ordna musiken?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s100",
+      "kind": "sentence",
+      "native": [
+        "Fortsätt så, du blir säkrare!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s101",
+      "kind": "sentence",
+      "native": [
+        "Kan du hämta Alva på fritids efter mellanmålet?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s102",
+      "kind": "sentence",
+      "native": [
+        "Skulle du kunna dela presentationen före lunch så hinner alla läsa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s103",
+      "kind": "sentence",
+      "native": [
+        "Tåget till Uppsala avgår klockan 08.42 från spår 6."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s104",
+      "kind": "sentence",
+      "native": [
+        "Skriv upp att pianolektionen börjar klockan 17.40 på torsdag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s105",
+      "kind": "sentence",
+      "native": [
+        "Vilka trådlösa hörlurar sitter bekvämt under långa tågresor och går att koppla till två enheter samtidigt?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s106",
+      "kind": "sentence",
+      "native": [
+        "Går det att blippa med klockan vid den här kassan?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s107",
+      "kind": "sentence",
+      "native": [
+        "Hos frisören bredvid torget finns det oftast lediga tider."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s108",
+      "kind": "sentence",
+      "native": [
+        "Potatisen smakar bättre med lite smör."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s109",
+      "kind": "sentence",
+      "native": [
+        "Beställ en räkmacka åt mig, eller förresten, ta en toast Skagen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s110",
+      "kind": "sentence",
+      "native": [
+        "Ledsen att jag avbröt dig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s111",
+      "kind": "sentence",
+      "native": [
+        "Efter jobbet behöver jag svänga förbi affären, så säg till om det saknas något till frukosten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s112",
+      "kind": "sentence",
+      "native": [
+        "Mustafa, de nya arbetshandskarna sitter för tajt, så jag behöver en större storlek för att kunna greppa ordentligt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s113",
+      "kind": "sentence",
+      "native": [
+        "Loppet är 12 kilometer långt, och jag siktar på att springa varje kilometer på 5 minuter och 10 sekunder."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s114",
+      "kind": "sentence",
+      "native": [
+        "Nästa gång jag handlar på Jula behöver jag köpa sandpapper."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s115",
+      "kind": "sentence",
+      "native": [
+        "Hur blir vädret i Östersund under resten av dagen?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s116",
+      "kind": "sentence",
+      "native": [
+        "Hemma hos Kerstin tappar surfplattan kontakten med routern hela tiden."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s117",
+      "kind": "sentence",
+      "native": [
+        "Går den här spårvagnen hela vägen ut till havet?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s118",
+      "kind": "sentence",
+      "native": [
+        "Får jag köpa båda krukorna för 60 kronor?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s119",
+      "kind": "sentence",
+      "native": [
+        "Oskar behöver pennfodral, sudd och en vässad blyertspenna till skolan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s120",
+      "kind": "sentence",
+      "native": [
+        "Visst kan ni låna släpet på söndag, bara det är tillbaka innan pappa ska köra till tippen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s121",
+      "kind": "sentence",
+      "native": [
+        "Provtrycket ser bra ut, kör på!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s122",
+      "kind": "sentence",
+      "native": [
+        "Ugnen ska stå på 225 grader."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s123",
+      "kind": "sentence",
+      "native": [
+        "Anteckna att dragkedjan har gått sönder."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s124",
+      "kind": "sentence",
+      "native": [
+        "Räkna ut vad 19 % av 850 kronor blir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s125",
+      "kind": "sentence",
+      "native": [
+        "Fastän jag har stängt av alla notiser fortsätter mobilen att vibrera varje gång någon reagerar på inlägget."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s126",
+      "kind": "sentence",
+      "native": [
+        "Busschauffören lovade att säga till när vi närmar oss vandrarhemmet, så vi kan slappna av och njuta av utsikten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s127",
+      "kind": "sentence",
+      "native": [
+        "Sockorna krympte visst i tvätten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s128",
+      "kind": "sentence",
+      "native": [
+        "Såsen behöver mer grädde, fast vänta, den är redan ganska tunn så jag låter den koka ihop först."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s129",
+      "kind": "sentence",
+      "native": [
+        "Om regnet håller upp i eftermiddag tar vi en promenad genom Slottsskogen och köper glass på vägen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s130",
+      "kind": "sentence",
+      "native": [
+        "Introduktionen blev riktigt lyckad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s131",
+      "kind": "sentence",
+      "native": [
+        "Leveransen till Storgatan 24 behöver komma före klockan 16.45 den 9 september, eftersom vi stänger tidigare."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s132",
+      "kind": "sentence",
+      "native": [
+        "Kom ihåg att frysa in soppan när den har svalnat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s133",
+      "kind": "sentence",
+      "native": [
+        "Spela upp nästa avsnitt av podden jag lyssnar på."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s134",
+      "kind": "sentence",
+      "native": [
+        "Deadline för designskissen är flyttad, så du hinner ändra layouten."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s135",
+      "kind": "sentence",
+      "native": [
+        "Min kusin möter oss nere vid färjan med bilen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s136",
+      "kind": "sentence",
+      "native": [
+        "Till studenten önskar sig Hannes mest saker till sitt kök."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s137",
+      "kind": "sentence",
+      "native": [
+        "Rött blir fint i sovrummet, fast beige känns nog lugnare."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s138",
+      "kind": "sentence",
+      "native": [
+        "Ylva hälsar att hon gärna följer med på svampplockningen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s139",
+      "kind": "sentence",
+      "native": [
+        "Innan ni skickar nyhetsbrevet vill jag gärna läsa rubriken en sista gång. Resten behöver inte ändras."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s140",
+      "kind": "sentence",
+      "native": [
+        "Skåpet är 58 centimeter brett."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s141",
+      "kind": "sentence",
+      "native": [
+        "Notera att symaskinen ska hämtas hos Siv på måndag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s142",
+      "kind": "sentence",
+      "native": [
+        "Finns det något bra recept på kroppkakor med svampfyllning?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s143",
+      "kind": "sentence",
+      "native": [
+        "Frida Berg vill ha feedback direkt i chatten, inte via mejl."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s144",
+      "kind": "sentence",
+      "native": [
+        "Malin undrar om någon vill följa med till badhuset."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s145",
+      "kind": "sentence",
+      "native": [
+        "Inför mässan i Jönköping vore det skönt att spika bemanningen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s146",
+      "kind": "sentence",
+      "native": [
+        "Från Falun har vi 92 kilometer kvar att köra. Det tar ungefär 70 minuter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s147",
+      "kind": "sentence",
+      "native": [
+        "Lägg tandtråd på inköpslistan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s148",
+      "kind": "sentence",
+      "native": [
+        "Bengt hjälpte mig att förstora texten i läsappen, så nu behöver jag inte zooma på varje sida."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s149",
+      "kind": "sentence",
+      "native": [
+        "Äsch, skicka bilden ändå, alla vet redan hur jag ser ut."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s150",
+      "kind": "sentence",
+      "native": [
+        "Keramikkursen börjar den 7 februari klockan 18.15 och slutar 20.45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s151",
+      "kind": "sentence",
+      "native": [
+        "Kolla när föreningen ställer ut containern för vårens trädgårdsavfall."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s152",
+      "kind": "sentence",
+      "native": [
+        "Bluetooth är på, men tangentbordet dyker inte upp bland enheterna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s153",
+      "kind": "sentence",
+      "native": [
+        "Ring mig när du har tid."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s154",
+      "kind": "sentence",
+      "native": [
+        "Matchen slutade med 2 mål mot 1 efter förlängning."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s155",
+      "kind": "sentence",
+      "native": [
+        "Mobilen låg på ljudlöst hela förmiddagen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s156",
+      "kind": "sentence",
+      "native": [
+        "Med 32 % batteri kvar klarar bilen ungefär 95 kilometer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s157",
+      "kind": "sentence",
+      "native": [
+        "Absolut, det ordnar vi ikväll."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s158",
+      "kind": "sentence",
+      "native": [
+        "Mitt nya nummer är 070-123 45 67 från och med måndag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s159",
+      "kind": "sentence",
+      "native": [
+        "Förresten, laddaren ligger kvar i översta lådan i hallen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s160",
+      "kind": "sentence",
+      "native": [
+        "Receptet kräver 450 gram mjöl och 3 deciliter mjölk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s161",
+      "kind": "sentence",
+      "native": [
+        "Lova att skicka en bild på valpen när ni har hämtat henne, för barnen är så nyfikna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s162",
+      "kind": "sentence",
+      "native": [
+        "Swisha 180 kronor för dina 3 luncher senast på fredag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s163",
+      "kind": "sentence",
+      "native": [
+        "Elsa bor på Ringvägen 46, så det är bara 900 meter från ditt hotell till hennes port."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sv-s164",
+      "kind": "sentence",
+      "native": [
+        "Det kostar 28 kronor i timmen att parkera i garaget."
+      ],
+      "roman": null
+    }
+  ]
+}
