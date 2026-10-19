@@ -85,16 +85,3 @@ export async function checkRoom(
     await Native.deleteFile(res.path);
   }
 }
-
-let cleaningModels: Promise<unknown> | null = null;
-/**
- * Fetches the denoiser and the Whisper-base check model (about 160 MB, into models/) in the background the
- * first time a take starts, so saving it doesn't wait on the download. Offline, saving fetches them or skips
- * the check.
- */
-export function prefetchCleaningModels() {
-  const dir = `${dataDir}/models`;
-  cleaningModels ??= engine.call<{ denoiser: boolean; asr: boolean }>("enhance_status", { dir })
-    .then((s) => (s.denoiser && s.asr ? s : engine.call("enhance_download", { dir })))
-    .catch(() => (cleaningModels = null));
-}

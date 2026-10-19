@@ -4,13 +4,14 @@
 import Native from "../../modules/zunos-native";
 import type { LiveState } from "../shared/types";
 import { createActions, type Actions, type SetLive } from "./actions";
+import { createCleaning } from "./cleaning";
 import * as auth from "./auth";
 import { openDb } from "./db";
 import * as engine from "./engine";
 import { createLibrary } from "./library";
 
 const initial: LiveState = {
-  user: null, authReady: false, engine: "stopped", engineError: null, recording: false, level: 0, mic: null, takeProcessing: null, evalProgress: null, transfer: null,
+  user: null, authReady: false, engine: "stopped", engineError: null, recording: false, level: 0, mic: null, takeProcessing: null, cleaning: { pending: 0, current: null, latest: null }, qualityVersion: 0, evalProgress: null, transfer: null,
   cleanup: null, dictation: null, access: { trusted: false, hotkey: false }, dictationsVersion: 0,
 };
 
@@ -48,7 +49,10 @@ function boot() {
 
   let actions: Actions | null = null;
   const ready: Promise<Actions> = openDb().then(({ db }) => {
-    const created = createActions(createLibrary(db), setLive);
+    // Saved takes are cleaned in the background; takes a quit left uncleaned are picked up again here.
+    const cleaning = createCleaning(db, setLive);
+    const created = createActions(createLibrary(db), setLive, cleaning);
+    cleaning.start().catch((e) => console.warn("zunos: cleaning start failed", e));
     actions = created.actions;
     // The hotkey and menu-bar item, then Whisper and the cleanup model, so the first dictation is quick.
     created.dictation.start()

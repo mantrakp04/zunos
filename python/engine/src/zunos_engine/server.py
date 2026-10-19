@@ -12,9 +12,12 @@ Commands:
   segment     {path, marks, lines, out_dir, id_prefix, clean_path?, noise_db?, read?}; read = lines the reader got through
                                          → {"clips": [{id, start, end, seconds, text, path_16k, path_48k, path_48k_clean, quality}]}
   measure     {path, room?}              → measurements of a WAV (enhance.measure); room = [start, end] seconds of room tone
-  enhance     {path, out, dir, lang?, lines?, marks?, read?, room?, check?} → {path, raw, clean, strength, wanted, applied, reason, ...};
-                                           cleans a take's background noise into `out` (the raw file is untouched);
-                                           events "progress" {"phase": measuring|downloading|cleaning|checking|done, "progress"}
+  enhance     {path, out, dir, lang?, lines?, marks?, read?, room?, check?, clips?, clip_dir?}
+                                         → {path, raw, clean, strength, wanted, applied, reason, clips, ...};
+                                           cleans a take's background noise into `out` (the raw file is untouched) and
+                                           cuts `clips` [{id, start, end}] from it into clip_dir; background (one at a
+                                           time; other commands keep working), events "progress" {"phase": measuring|
+                                           downloading|cleaning|checking|done, "progress"}
   enhance_status   {dir}                 → {"denoiser", "asr"}: whether the models are downloaded into dir
   enhance_download {dir}                 → {"denoiser", "asr"} paths; background (other commands keep working)
   pack        {out, langs, clips, prompts, recordings, cfg?} → {"path", "bytes", "clips"}; training dataset
@@ -34,6 +37,8 @@ import time
 import traceback
 
 VERSION = "0.1.0"
+# Commands that may run MLX (the fast Whisper model, the cleanup LLM).
+MLX_CMDS = {"load", "transcribe", "cleanup", "cleanup_load"}
 
 
 class EngineError(Exception):
@@ -48,6 +53,7 @@ class Engine:
         self.model = None
         self.cleaner = None
         self.lock = threading.Lock()  # background commands emit from their own thread
+        self.enhancing = threading.Lock()
 
     def emit(self, msg):
         line = json.dumps(msg, ensure_ascii=False) + "\n"
@@ -106,12 +112,13 @@ class Engine:
         x, sr = sf.read(req["path"], dtype="float32", always_2d=True)
         return measure(x.mean(axis=1), sr, req.get("room"))
 
-    def cmd_enhance(self, req):
+    def background_enhance(self, req):
         from .enhance import enhance
 
         on_progress = lambda phase, frac: self.emit({"id": req["id"], "event": "progress", "data": {"phase": phase, "progress": round(frac, 3)}})
-        return enhance(req["path"], req["out"], req["dir"], req.get("lang"), req.get("lines"), req.get("marks"), req.get("room"),
-                       on_progress, req.get("check", True), read=req.get("read"))
+        with self.enhancing:  # one take at a time
+            return enhance(req["path"], req["out"], req["dir"], req.get("lang"), req.get("lines"), req.get("marks"), req.get("room"),
+                           on_progress, req.get("check", True), read=req.get("read"), clips=req.get("clips"), clip_dir=req.get("clip_dir"))
 
     def cmd_enhance_status(self, req):
         from .enhance import models_ready
@@ -178,6 +185,11 @@ class Engine:
         fn = getattr(self, f"cmd_{req.get('cmd')}", None)
         if fn is None:
             raise EngineError("unknown_cmd", f"Unknown command {req.get('cmd')!r}")
+        if req.get("cmd") in MLX_CMDS:
+            from .audio import MLX_LOCK
+
+            with MLX_LOCK:  # a background enhance may be running its Whisper check
+                return fn(req)
         return fn(req)
 
 

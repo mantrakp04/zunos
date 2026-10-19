@@ -44,7 +44,10 @@ export type SavedRecording = {
   recordingId: string;
   seconds: number;
   clips: { id: string; seconds: number; split: "train" | "test"; text: string }[];
-  /** How the take sounded and what was cleaned; null only when the engine could not measure it. */
+  /**
+   * How the take sounded and what was cleaned. Null when the save returns: cleaning runs in the background
+   * afterwards (LiveState.cleaning); read it with takeQualities() when LiveState.qualityVersion changes.
+   */
   quality: TakeQuality | null;
 };
 
@@ -147,7 +150,20 @@ export type RoomCheck = {
 };
 
 /** Saving a take: measuring, fetching the cleaning models (first time only), cleaning, checking, cutting. */
-export type TakeProcessing = { phase: "measuring" | "downloading" | "cleaning" | "checking" | "cutting"; progress: number };
+/** Saving a take: cutting it into clips (about a second; cleaning comes after, in LiveState.cleaning). */
+export type TakeProcessing = { phase: "cutting"; progress: number };
+
+/** A take's quality for badges: null while it is still being cleaned. */
+export type TakeQualityItem = { recordingId: string; promptId: string | null; lang: Lang; recordedAt: string; quality: TakeQuality | null };
+
+/** Background cleaning of saved takes, one at a time, never holding up the next take. */
+export type CleaningState = {
+  /** Takes waiting or being cleaned. */
+  pending: number;
+  current: { recordingId: string; phase: "measuring" | "downloading" | "cleaning" | "checking"; progress: number } | null;
+  /** The take that finished cleaning most recently (its issues are ready to show). */
+  latest: TakeQualityItem | null;
+};
 
 export type RunSummary = {
   id: string;
@@ -202,8 +218,12 @@ export type LiveState = {
   level: number;
   /** The microphone while a take records or the room check listens; null otherwise. */
   mic: MicState | null;
-  /** A finished take being cleaned and cut into clips (finishTake is still pending). */
+  /** A finished take being cut into clips (finishTake is still pending). */
   takeProcessing: TakeProcessing | null;
+  /** Saved takes being cleaned in the background, and the latest one done. */
+  cleaning: CleaningState;
+  /** Bumped whenever a take's quality is ready, so badges know to reload takeQualities(). */
+  qualityVersion: number;
   evalProgress: { done: number; total: number } | null;
   /** Local side of a cloud training run: preparing the dataset, uploading it, fetching the model. */
   transfer: { runId: string; phase: "packing" | "uploading" | "starting" | "downloading" | "installing"; progress: number } | null;

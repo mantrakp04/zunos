@@ -5,8 +5,9 @@ import * as auth from "./auth";
 import { dataDir } from "./db";
 import { createDictation, errorText } from "./dictation";
 import * as engine from "./engine";
+import type { Cleaning } from "./cleaning";
 import type { Library } from "./library";
-import { checkRoom, createMicMonitor, prefetchCleaningModels } from "./mic";
+import { checkRoom, createMicMonitor } from "./mic";
 import { deviceInfo, ROOM_SECONDS } from "./quality";
 import * as training from "./training";
 
@@ -20,7 +21,7 @@ const MIC_BLOCKED =
   "macOS gave zunos pure silence, which means microphone access is off. Open System Settings → Privacy & Security → Microphone and turn on zunos.";
 
 /** The DOM-facing actions, plus the dictation controller app.ts starts at launch. */
-export function createActions(lib: Library, setLive: SetLive) {
+export function createActions(lib: Library, setLive: SetLive, cleaning: Cleaning) {
   // marks[i]: the second the reader moved past line i (null: that call never arrived; segment.py places it).
   let take: { promptId: string; script: Script; rec: { id: string; rel: string; path: string }; startedAt: number; marks: (number | null)[] } | null = null;
   // The take being saved: a second finish (Return pressed twice) waits for it instead of failing.
@@ -167,7 +168,6 @@ export function createActions(lib: Library, setLive: SetLive) {
       const rec = lib.newRecordingPath(promptId);
       const script = await lib.takeScript(promptId);
       await beginRecording(rec.path, { phase: "recording", roomSeconds: ROOM_SECONDS });
-      prefetchCleaningModels();
       take = { promptId, script, rec, startedAt: Date.now(), marks: [] };
     },
     /**
@@ -205,6 +205,8 @@ export function createActions(lib: Library, setLive: SetLive) {
             timer = setTimeout(() => reject(new Error(SAVE_SLOW)), SAVE_TIMEOUT_MS);
           });
           save.catch(() => {}); // after a timeout it may still fail on its own; the retry covers that
+          // Background-noise cleaning and the quality verdict follow, off the save path (cleaning.ts).
+          save.then((saved) => cleaning.enqueue(saved.recordingId), () => {});
           return await Promise.race([save, late]).finally(() => clearTimeout(timer));
         } finally {
           setLive({ takeProcessing: null });
@@ -213,9 +215,15 @@ export function createActions(lib: Library, setLive: SetLive) {
       return finishing;
     },
     /** Cuts a kept take into clips again (one whose cutting failed), the same way finishing it does. */
-    resegmentRecording: (id: string) => lib.resegmentRecording(id),
+    resegmentRecording: async (id: string) => {
+      const saved = await lib.resegmentRecording(id);
+      cleaning.enqueue(id); // a no-op when the take is already cleaned
+      return saved;
+    },
     /** Takes that were kept but have no clips (their cutting failed): retry each with resegmentRecording. */
     unsegmentedRecordings: () => lib.unsegmentedRecordings(),
+    /** Each take's quality (null while it's still being cleaned), newest first; reload when LiveState.qualityVersion changes. */
+    takeQualities: (lang?: Lang) => cleaning.qualities(lang),
     async cancelTake() {
       if (finishing) return void (await finishing.catch(() => {})); // already stopped and saving: keep it
       if (!take) return;

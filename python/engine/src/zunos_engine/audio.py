@@ -1,4 +1,10 @@
+import threading
+
 import numpy as np
+
+# MLX (mlx_whisper, mlx_lm) is used from the main command loop and from background commands (enhance's
+# Whisper check); calls into it take this lock so two threads never drive it at once.
+MLX_LOCK = threading.Lock()
 
 
 def to_16k(audio, rate):

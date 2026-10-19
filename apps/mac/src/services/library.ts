@@ -5,25 +5,18 @@ import { and, asc, desc, eq, inArray, sql } from "drizzle-orm";
 
 import type { MicStats } from "../../modules/zunos-native";
 import type {
-  AudioMeasure, Baseline, CleanupStyle, MicDeviceInfo, TakeProcessing, TakeQuality, DictationItem, EvalResult, Language, LangStats, ModelItem, PromptItem, RunDetail, RunSummary, SavedRecording,
+  Baseline, CleanupStyle, MicDeviceInfo, TakeProcessing, TakeQuality, DictationItem, EvalResult, Language, LangStats, ModelItem, PromptItem, RunDetail, RunSummary, SavedRecording,
 } from "../shared/types";
 import Native from "../../modules/zunos-native";
 import { abs, dataDir, type Db } from "./db";
 import * as engine from "./engine";
+import type { PendingQuality } from "./cleaning";
 import * as corpus from "./corpus";
-import { deviceChangedIssue, takeVerdict } from "./quality";
 
 const { clips, dictations, evals, languages, models, prompts, recordings, runs, runSteps, baselines, settings } = schema;
 
 // Share of each language's clips held back for testing. Test clips are never trained on.
 const TEST_SHARE = 0.25;
-// The background-noise cleaner and the Whisper model that checks it (python/engine enhance.py), fetched on first use.
-const ENHANCE_DIR = `${dataDir}/models`;
-
-type EnhanceResult = {
-  path: string | null; raw: AudioMeasure & { silent?: boolean }; clean: AudioMeasure | null; strength: number; wanted: number;
-  reason: NonNullable<TakeQuality["cleaning"]>["reason"]; tried: NonNullable<TakeQuality["cleaning"]>["tried"];
-};
 
 export function createLibrary(db: Db) {
   /** Splits for `n` new clips of `lang`: about one in four goes to the test set. */
@@ -159,43 +152,21 @@ export function createLibrary(db: Db) {
       if (!prompt) throw new Error(`Unknown prompt ${promptId}`);
       const script = take.script ?? await corpus.takeScript(db, promptId);
       const { lines, native } = corpus.takeLines(prompt, script);
+      // Raw clips now (training input and the test set); the cleaned copies for voice cloning and the take's
+      // quality come afterwards from the background cleaning queue (cleaning.ts), which this marks pending.
+      const pending: PendingQuality = {
+        status: "pending", device: take.device ?? null, deviceChanged: !!take.deviceChanged, live: take.stats ?? null, room: take.room ?? 0,
+      };
       await db.insert(recordings).values({
         id: rec.id, promptId, lang: prompt.lang, kind: prompt.kind, path: rec.rel, sampleRate: take.sampleRate,
-        seconds: take.seconds, marks: take.marks as number[], recordedAt: new Date().toISOString(), script,
+        seconds: take.seconds, marks: take.marks as number[], recordedAt: new Date().toISOString(), script, quality: pending,
       });
       cutting.add(rec.id);
       try {
-        const cleanRel = `audio/recordings-clean/${rec.id}.wav`;
-        let enh: EnhanceResult | null = null;
-        onProgress?.({ phase: "measuring", progress: 0 });
-        try {
-          enh = await engine.call<EnhanceResult>("enhance", {
-            path: abs(rec.rel), out: abs(cleanRel), dir: ENHANCE_DIR, lang: prompt.lang, lines, marks: take.marks, read: take.read ?? null,
-            room: take.room ? [0, take.room] : null,
-          }, (event, data) => {
-            if (event === "progress" && data.phase !== "done") onProgress?.({ phase: data.phase, progress: data.progress });
-          });
-        } catch (e) {
-          // Cleaning is for the voice-cloning copy; the take itself is fine without it.
-          console.warn("zunos: cleaning the take failed", e);
-        }
-        const raw = enh && !enh.raw.silent ? enh.raw : null;
-        const verdict = takeVerdict(raw, take.stats, take.device ?? null);
-        if (take.deviceChanged) {
-          verdict.issues.unshift(deviceChangedIssue());
-          verdict.verdict = "redo";
-        }
-        const quality: TakeQuality = {
-          ...verdict, device: take.device ?? null, raw, clean: enh?.clean ?? null,
-          cleaning: enh ? { strength: enh.strength, wanted: enh.wanted, reason: enh.reason, tried: enh.tried ?? [] }
-            : { strength: 0, wanted: 0, reason: "failed", tried: [] },
-        };
-        await db.update(recordings).set({ cleanPath: enh?.path ? cleanRel : null, quality }).where(eq(recordings.id, rec.id));
-
         onProgress?.({ phase: "cutting", progress: 0 });
-        const saved = await cutTake(rec, { ...prompt, lines, native }, { marks: take.marks, read: take.read, cleanPath: enh?.path ?? null, noiseDb: raw?.noiseDb ?? null });
+        const saved = await cutTake(rec, { ...prompt, lines, native }, { marks: take.marks, read: take.read });
         return {
-          recordingId: rec.id, seconds: take.seconds, quality,
+          recordingId: rec.id, seconds: take.seconds, quality: null,
           clips: saved.map(({ id, seconds, split, text }) => ({ id, seconds, split, text })),
         };
       } finally {
@@ -218,7 +189,8 @@ export function createLibrary(db: Db) {
       const [r] = await db.select().from(recordings).where(eq(recordings.id, id));
       if (!r?.promptId) throw new Error("That take is gone.");
       const done = await db.select({ id: clips.id, seconds: clips.seconds, split: clips.split, text: clips.text }).from(clips).where(eq(clips.recordingId, id));
-      const quality = (r.quality ?? null) as TakeQuality | null;
+      const q = r.quality as (TakeQuality & { status?: string }) | null;
+      const quality = q && q.status !== "pending" ? (q as TakeQuality) : null;
       if (done.length) return { recordingId: id, seconds: r.seconds, quality, clips: done };
       if (cutting.has(id)) throw new Error("That take is being cut into clips already.");
       const [prompt] = await db.select().from(prompts).where(eq(prompts.id, r.promptId));

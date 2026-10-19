@@ -15,10 +15,13 @@ import type {
   RunDetail,
   SavedRecording,
   TakeQuality,
+  TakeQualityItem,
 } from "../shared/types";
 import { type Data, type DataKind, evalFor, HEARD, inflightRun, inScript, makeData, modelFor, rng, statsOf, userFor } from "./fixtures";
 
 /* ---- recording-quality fixtures (services/mic.ts, services/quality.ts) ------------------------------- */
+
+const qualities: TakeQualityItem[] = [];
 
 const MIC_DEVICE: MicDeviceInfo = { name: "MacBook Pro Microphone", transport: "builtIn", sampleRate: 48000, inputVolume: 0.75, micMode: "standard" };
 
@@ -133,6 +136,8 @@ function liveFor(sc: Scenario, d: Data, prev?: LiveState): LiveState {
     level: 0,
     mic: sc.rec ? micFixture(false) : null,
     takeProcessing: null,
+    cleaning: prev?.cleaning ?? { pending: 0, current: null, latest: null },
+    qualityVersion: prev?.qualityVersion ?? 0,
     evalProgress: sc.evalRun ? { done: 0, total: 20 } : null,
     transfer: sc.transfer === "off" ? null : { runId: transferRunId(d), phase: sc.transfer, progress: 0.35 },
     cleanup: cleanupOf(sc.cleanup),
@@ -327,7 +332,7 @@ const handlers: Partial<Record<keyof Actions, (...args: never[]) => Promise<unkn
     if (!take) throw new Error("Not recording.");
     const t = take;
     take = null;
-    setLive({ recording: false, level: 0, mic: null, takeProcessing: { phase: "cleaning", progress: 0.4 } });
+    setLive({ recording: false, level: 0, mic: null, takeProcessing: { phase: "cutting", progress: 0 } });
     await latency(700);
     setLive({ takeProcessing: null });
     const seconds = Math.max(1.5, (Date.now() - t.startedAt) / 1000);
@@ -349,7 +354,15 @@ const handlers: Partial<Record<keyof Actions, (...args: never[]) => Promise<unkn
         else (c.trainSeconds += k.seconds), c.trainClips++;
       }
     });
-    const saved: SavedRecording = { recordingId: `rec-${Date.now().toString(36)}`, seconds, clips, quality: takeQualityFixture(seconds) };
+    const saved: SavedRecording = { recordingId: `rec-${Date.now().toString(36)}`, seconds, clips, quality: null };
+    // Like the app: the take is cleaned in the background after it's saved, then its quality shows up.
+    const item: TakeQualityItem = { recordingId: saved.recordingId, promptId: t.promptId, lang: "en", recordedAt: new Date().toISOString(), quality: null };
+    setLive((s) => ({ cleaning: { pending: 1, current: { recordingId: item.recordingId, phase: "cleaning", progress: 0.3 }, latest: s.cleaning.latest } }));
+    setTimeout(() => {
+      const done = { ...item, quality: takeQualityFixture(seconds) };
+      qualities.unshift(done);
+      setLive((s) => ({ cleaning: { pending: 0, current: null, latest: done }, qualityVersion: s.qualityVersion + 1 }));
+    }, 2500);
     return saved;
   },
   async cancelTake() {
@@ -372,6 +385,9 @@ const handlers: Partial<Record<keyof Actions, (...args: never[]) => Promise<unkn
   },
   async unsegmentedRecordings() {
     return [];
+  },
+  async takeQualities(lang?: string) {
+    return qualities.filter((q) => !lang || q.lang === lang);
   },
 
   // ---- training
@@ -622,7 +638,7 @@ async function advanceRun(id: string) {
 const NAMES: Record<keyof Actions, true> = {
   sendCode: true, verifyCode: true, signOut: true, languages: true, setLanguages: true, stats: true, prompts: true, createPrompt: true, setLanguageScript: true,
   startTake: true, markLine: true, finishTake: true, cancelTake: true, micInfo: true, checkRoom: true, resegmentRecording: true,
-  unsegmentedRecordings: true, trainingQuote: true, runs: true, run: true, startTraining: true,
+  unsegmentedRecordings: true, takeQualities: true, trainingQuote: true, runs: true, run: true, startTraining: true,
   stopTraining: true, syncRuns: true, models: true, setActiveModel: true, latestEval: true, baselines: true, evaluate: true,
   prepareDictation: true, startDictation: true, stopDictation: true, cancelDictation: true, dictationSettings: true,
   setDictationSettings: true, requestAccessibility: true, cleanupSettings: true, setCleanupSettings: true, downloadCleanupModel: true,

@@ -475,8 +475,11 @@ def asr_score(audio16, text, lang, root):
     import mlx_whisper
     from zunos_core.scoring import comparable, synth_score
 
-    out = mlx_whisper.transcribe(audio16, path_or_hf_repo=asr_dir(root), language=lang, task="transcribe",
-                                 condition_on_previous_text=False, temperature=0.0, verbose=None)
+    from .audio import MLX_LOCK
+
+    with MLX_LOCK:
+        out = mlx_whisper.transcribe(audio16, path_or_hf_repo=asr_dir(root), language=lang, task="transcribe",
+                                     condition_on_previous_text=False, temperature=0.0, verbose=None)
     hyp = out["text"].strip()
     return round(float(synth_score(comparable(hyp, text), text, lang)), 4), hyp
 
@@ -516,12 +519,14 @@ def windows_score(audio16, wins, lang, root):
 # ------------------------------------------------------------------------------------------- the take
 
 def enhance(path, out, root, lang=None, lines=None, marks=None, room=None, on_progress=None, check_asr=True, windows=None,
-            read=None):
+            read=None, clips=None, clip_dir=None):
     """Clean the take at `path` into `out` (same rate, 16-bit). Returns {path, raw, clean, strength, ...}.
 
     `lines`, `marks` and `read` (as for segment) say what was read when, which enables the Whisper check; `room` is the
     (start, end) seconds of room tone at the start of the take. `windows` ([(start, end, text)]) replaces
-    lines and marks for the check when the clip boundaries are already known."""
+    lines and marks for the check when the clip boundaries are already known. `clips` ([{id, start, end}], the take's
+    clips as segment cut them) are also cut from the cleaned take into `clip_dir`, with each raw clip's
+    quality; they come back as "clips": [{id, path, quality}]."""
     import soundfile as sf
 
     from .audio import to_16k
@@ -600,8 +605,19 @@ def enhance(path, out, root, lang=None, lines=None, marks=None, room=None, on_pr
     os.makedirs(os.path.dirname(out), exist_ok=True)
     sf.write(out, y, sr, subtype="PCM_16")
     clean = measure(y, sr, room)
+    cut = []
+    if clips and clip_dir:
+        from .segment import clip_quality
+
+        os.makedirs(clip_dir, exist_ok=True)
+        for c in clips:
+            a, b = int(c["start"] * sr), int(c["end"] * sr)
+            p = os.path.join(clip_dir, f"{c['id']}.wav")
+            sf.write(p, y[a:b], sr, subtype="PCM_16")
+            cut.append({"id": c["id"], "path": p, "quality": clip_quality(x[a:b], sr, raw["noiseDb"])})
     step("done", 1.0)
     return {
         "path": out, "raw": raw, "clean": clean, "strength": strength, "wanted": want, "applied": strength > 0,
         "reason": reason, "gainDb": round(gain, 1), "tried": tried, "asr": asr or None, "model": "dpdfnet8_48khz_hr",
+        "clips": cut,
     }
