@@ -56,7 +56,7 @@ export const BASE_ENV: Env = {
   RUNPOD_API_URL: "https://runpod.test/v2",
   HF_TOKEN: "hf_test",
   PUBLIC_URL: "https://api.zunos.test/",
-  BLOB_SIGNING_SECRET: "test-signing-secret-0123456789abcdef",
+  BLOB_SIGNING_SECRET: "test-signing-secret-0123456789abcdef", // gitleaks:allow (test fixture)
   DATA_DIR: root,
   REPO_DIR,
 };
