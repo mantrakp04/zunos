@@ -1,74 +1,379 @@
-import { WizardStepper } from "@zunos/ui/components/ruixen/wizard-stepper";
+import "./onboarding/onboarding.css";
+
 import { cn } from "@zunos/ui/lib/utils";
-import { Check, Search } from "lucide-react";
-import { useState } from "react";
+import { ArrowLeft, Check, Search, X } from "lucide-react";
+import { AnimatePresence, LayoutGroup, motion } from "motion/react";
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import type { Lang, Language } from "../../shared/types";
-import { Button, ErrorNote, useAction } from "../ui";
+import { Bean } from "../Bean";
+import { Button, ErrorNote, Kbd, useAction } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
+import { endonym, GREETINGS, ROMANIZED_SAMPLE } from "./onboarding/endonyms";
 
 const STEPS = [
-  { id: "languages", title: "Languages", description: "What you speak" },
-  { id: "record", title: "Record", description: "Read short passages" },
-  { id: "train", title: "Train", description: "About an hour in the cloud" },
-  { id: "dictate", title: "Dictate", description: "On your Mac, offline" },
+  { title: "Languages", description: "What you speak" },
+  { title: "Record", description: "Read short passages aloud" },
+  { title: "Train", description: "About an hour on a cloud GPU" },
+  { title: "Dictate", description: "On your Mac, offline" },
 ];
+const ROMAN = "Latin (romanized)";
+const spring = { type: "spring", stiffness: 420, damping: 34 } as const;
+const flight = { type: "spring", stiffness: 260, damping: 28 } as const;
 
-export default function Languages({ a, initial, onDone }: ScreenProps & { initial: Language[]; onDone: () => void }) {
-  const [picked, setPicked] = useState<Lang[]>(initial.filter((l) => l.enabled).map((l) => l.code));
+type Props = ScreenProps & {
+  initial: Language[];
+  onDone: () => void | Promise<void>;
+  /** True when editing from the app (there's somewhere to go back to); false on first run. */
+  canCancel?: boolean;
+  onCancel?: () => void;
+};
+
+export default function Languages({ a, initial, onDone, canCancel = false, onCancel }: Props) {
+  const [picked, setPicked] = useState<Lang[]>(() => initial.filter((l) => l.enabled).map((l) => l.code));
   const [query, setQuery] = useState("");
+  const [hop, setHop] = useState(0);
   const save = useAction(async () => {
     await a.setLanguages(picked);
-    onDone();
+    await onDone();
   });
-  const toggle = (c: Lang) => setPicked((p) => (p.includes(c) ? p.filter((x) => x !== c) : [...p, c]));
+
+  const byCode = useMemo(() => new Map(initial.map((l) => [l.code, l])), [initial]);
   const q = query.trim().toLowerCase();
-  const shown = initial.filter((l) => !q || l.name.toLowerCase().includes(q) || l.code === q);
-  const romanized = initial.filter((l) => picked.includes(l.code) && l.script === "Latin (romanized)");
+  const shown = useMemo(
+    () =>
+      initial.filter(
+        (l) => !q || l.code === q || l.name.toLowerCase().includes(q) || endonym(l.code, l.name).toLowerCase().includes(q),
+      ),
+    [initial, q],
+  );
+  const pickedLangs = picked.map((c) => byCode.get(c)).filter((l): l is Language => !!l);
+  const romanized = pickedLangs.filter((l) => l.script === ROMAN);
+
+  // Stable, so the 100 memoized tiles don't re-render on every pick.
+  const pickedRef = useRef(picked);
+  pickedRef.current = picked;
+  const toggle = useCallback((c: Lang) => {
+    const on = pickedRef.current.includes(c);
+    setPicked((p) => (on ? p.filter((x) => x !== c) : p.includes(c) ? p : [...p, c]));
+    if (!on) setHop((h) => h + 1);
+  }, []);
+  const canSave = picked.length > 0 && !save.busy;
+
+  // Esc clears the search, then cancels (when editing). ⌘↩ continues.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        if (query) setQuery("");
+        else if (canCancel && !save.busy) onCancel?.();
+      } else if (e.key === "Enter" && e.metaKey && canSave) {
+        e.preventDefault();
+        save.run();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
 
   return (
-    <div className="mx-auto flex min-h-screen max-w-2xl flex-col justify-center gap-5 px-8 py-6">
-      <WizardStepper steps={STEPS} currentStep={0} />
-      <div>
-        <h1 className="text-2xl font-semibold tracking-tight">Which languages do you speak?</h1>
-        <p className="mt-2 text-sm text-muted-foreground">
-          Pick as many as you like; you can switch languages mid-sentence.
-          {romanized.length > 0 && <> {romanized.map((l) => l.name).join(", ")} will be written in English letters, the way you'd type them in a chat.</>}
-        </p>
-      </div>
-      <label className="flex items-center gap-2 rounded-lg border px-3">
-        <Search className="size-4 text-muted-foreground" />
-        <input
-          autoFocus
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search 99 languages"
-          className="h-10 flex-1 bg-transparent text-sm outline-none"
-        />
-      </label>
-      <div className="grid max-h-[17rem] grid-cols-3 gap-2 overflow-y-auto pr-1">
-        {shown.map((l) => {
-          const on = picked.includes(l.code);
-          return (
-            <button
-              key={l.code}
-              onClick={() => toggle(l.code)}
-              className={cn("flex items-center gap-2 rounded-lg border px-3 py-2 text-left text-sm transition-colors", on ? "border-brand bg-brand/5" : "hover:bg-accent")}
+    <LayoutGroup>
+      <div className="flex h-screen overflow-hidden bg-rail text-foreground select-none">
+        {/* ---- left: the question, your voice, continue ---- */}
+        <aside className="relative flex w-[clamp(366px,32vw,420px)] shrink-0 flex-col px-7 pt-[calc(var(--titlebar)+18px)] pb-6">
+          <div className="flex h-7 items-center">
+            {canCancel ? (
+              <button
+                onClick={onCancel}
+                disabled={save.busy}
+                className="-ml-2.5 inline-flex h-7 items-center gap-1.5 rounded-full px-2.5 text-[12.5px] font-medium text-muted-foreground transition-colors hover:bg-foreground/[0.05] hover:text-foreground disabled:opacity-45"
+              >
+                <ArrowLeft className="size-3.5" /> Cancel <Kbd>esc</Kbd>
+              </button>
+            ) : (
+              <Journey />
+            )}
+          </div>
+
+          <div className="mt-7">
+            <Greeting hop={hop} />
+            <h1 className="mt-4 font-display text-[32px] leading-[1.04] font-bold tracking-[-0.03em] text-balance">
+              Which languages do you speak?
+            </h1>
+            <p className="mt-2.5 text-[13.5px] leading-relaxed text-muted-foreground">
+              Pick every language you talk in. Switching between them mid-sentence is fine.
+            </p>
+          </div>
+
+          <Tray langs={pickedLangs} onRemove={toggle} />
+
+          <RomanNote romanized={romanized} />
+
+          <div className="mt-4 flex flex-col gap-2.5">
+            <Button variant="brand" size="lg" className="w-full" disabled={!picked.length} loading={save.busy} onClick={() => save.run()}>
+              {canCancel
+                ? `Save ${picked.length || ""} language${picked.length === 1 ? "" : "s"}`.replace("  ", " ")
+                : `Continue${picked.length ? ` with ${picked.length} language${picked.length === 1 ? "" : "s"}` : ""}`}
+            </Button>
+            <ErrorNote error={save.error} />
+          </div>
+        </aside>
+
+        {/* ---- right: every language, in its own words ---- */}
+        <main className="relative my-2 mr-2 flex min-w-0 flex-1 flex-col overflow-hidden rounded-[14px] bg-background shadow-[0_0_0_1px_var(--rail-line),0_1px_3px_rgb(0_0_0/0.05)]">
+          <div className="flex items-center gap-3 px-6 pt-7 pb-2">
+            <label
+              className={cn(
+                "flex h-11 flex-1 items-center gap-2.5 rounded-[14px] bg-card px-3.5 transition-shadow",
+                "shadow-[0_0_0_1px_var(--input),0_1px_2px_rgb(64_32_25/0.05)] focus-within:shadow-[0_0_0_1.5px_var(--brand),0_0_0_4px_rgb(243_74_45/0.12)]",
+              )}
             >
-              <span className={cn("flex size-4 shrink-0 items-center justify-center rounded-full border", on && "border-brand bg-brand text-white")}>
-                {on && <Check className="size-3" />}
-              </span>
-              {l.name}
-            </button>
-          );
-        })}
+              <Search className="size-4 shrink-0 text-muted-foreground" />
+              <input
+                autoFocus
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                onKeyDown={(e) => {
+                  // Enter picks the only match, so you can type "guj⏎" and move on.
+                  if (e.key === "Enter" && !e.metaKey && q && shown.length === 1) {
+                    if (!picked.includes(shown[0]!.code)) toggle(shown[0]!.code);
+                    setQuery("");
+                  }
+                }}
+                placeholder={`Search ${initial.length} languages, in English or their own script`}
+                spellCheck={false}
+                className="h-full min-w-0 flex-1 bg-transparent text-[14.5px] outline-none placeholder:text-muted-foreground/70"
+              />
+              {query && (
+                <button onClick={() => setQuery("")} className="grid size-6 place-items-center rounded-full text-muted-foreground hover:bg-foreground/[0.06] hover:text-foreground" title="Clear (esc)">
+                  <X className="size-3.5" />
+                </button>
+              )}
+            </label>
+          </div>
+
+          <motion.div layoutScroll className="zn-fade-y min-h-0 flex-1 overflow-y-auto px-6 pt-3 pb-8">
+            {shown.length ? (
+              <div className="grid grid-cols-[repeat(auto-fill,minmax(158px,1fr))] gap-2.5">
+                {shown.map((l) => (
+                  <Tile key={l.code} lang={l} on={picked.includes(l.code)} onToggle={toggle} />
+                ))}
+              </div>
+            ) : (
+              <div className="flex flex-col items-center gap-1 pt-20 text-center">
+                <p className="font-display text-[18px] font-semibold">No language matches “{query.trim()}”</p>
+                <p className="text-[13px] text-muted-foreground">zunos covers the {initial.length} languages Whisper knows. Try its English name.</p>
+              </div>
+            )}
+          </motion.div>
+        </main>
       </div>
-      <div className="flex items-center gap-3">
-        <Button variant="brand" disabled={!picked.length} loading={save.busy} onClick={() => save.run()}>
-          Continue{picked.length > 0 && ` with ${picked.length} language${picked.length === 1 ? "" : "s"}`}
-        </Button>
-        <ErrorNote error={save.error} />
+    </LayoutGroup>
+  );
+}
+
+/* ---- the four steps, compact ---------------------------------------------------------------- */
+
+function Journey() {
+  return (
+    <ol className="flex items-center gap-[5px] text-[11.5px]" aria-label="Getting started">
+      {STEPS.map((s, i) => (
+        <li key={s.title} title={s.description} className="flex items-center gap-[5px]">
+          <span
+            className={cn(
+              "grid size-4 place-items-center rounded-full text-[9.5px] font-bold tabular-nums",
+              i === 0 ? "bg-brand text-white shadow-[0_2px_6px_-1px_rgb(243_74_45/0.6)]" : "bg-foreground/[0.07] text-muted-foreground",
+            )}
+          >
+            {i + 1}
+          </span>
+          <span className={i === 0 ? "font-semibold" : "text-muted-foreground"}>{s.title}</span>
+          {i < STEPS.length - 1 && <span className="mx-[3px] h-px w-2.5 bg-foreground/15" />}
+        </li>
+      ))}
+    </ol>
+  );
+}
+
+/* ---- the bean, saying hello in a dozen languages ------------------------------------------- */
+
+function Greeting({ hop }: { hop: number }) {
+  const [i, setI] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setI((n) => (n + 1) % GREETINGS.length), 1900);
+    return () => clearInterval(id);
+  }, []);
+  const g = GREETINGS[i]!;
+  return (
+    <div className="flex items-end gap-3">
+      <Bean key={hop} mood={hop ? "happy" : "idle"} size={56} className="-ml-1 shrink-0" />
+      <div className="relative mb-6 h-8 overflow-hidden rounded-[13px] rounded-bl-[4px] bg-card px-3 shadow-[0_0_0_1px_var(--input),0_4px_12px_-6px_rgb(64_32_25/0.25)]">
+        <AnimatePresence mode="popLayout" initial={false}>
+          <motion.span
+            key={i}
+            initial={{ y: 22, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -22, opacity: 0 }}
+            transition={{ type: "spring", stiffness: 380, damping: 30 }}
+            lang={g.lang}
+            className="flex h-8 items-center font-display text-[15px] font-semibold whitespace-nowrap"
+          >
+            {g.text}
+          </motion.span>
+        </AnimatePresence>
       </div>
     </div>
   );
 }
+
+/* ---- your voice: the picked languages collect here ----------------------------------------- */
+
+function Tray({ langs, onRemove }: { langs: Language[]; onRemove: (c: Lang) => void }) {
+  return (
+    <div className="mt-6 flex min-h-[112px] flex-1 flex-col">
+      <div className="mb-2 flex items-baseline justify-between px-0.5">
+        <span className="text-[10.5px] font-semibold tracking-[0.12em] text-muted-foreground uppercase">Your voice</span>
+        <span className="text-[11.5px] text-muted-foreground tabular-nums">
+          {langs.length ? `${langs.length} language${langs.length === 1 ? "" : "s"}` : ""}
+        </span>
+      </div>
+      <div className="relative min-h-0 flex-1 overflow-y-auto rounded-[18px] bg-background/70 p-2.5 shadow-[inset_0_0_0_1px_var(--rail-line),inset_0_1px_3px_rgb(64_32_25/0.05)] dark:bg-background/50">
+        <motion.div layout className="flex flex-wrap content-start gap-1.5">
+          <AnimatePresence initial={false} mode="popLayout">
+            {langs.map((l) => {
+              const endo = endonym(l.code, l.name);
+              return (
+                <motion.button
+                  key={l.code}
+                  layout
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0, scale: 0.7, transition: { duration: 0.14 } }}
+                  transition={spring}
+                  onClick={() => onRemove(l.code)}
+                  title={`Remove ${l.name}`}
+                  className={cn(
+                    "group flex h-9 items-center gap-1.5 rounded-full pr-1.5 pl-3",
+                    "bg-card shadow-[0_0_0_1px_var(--input),0_1px_2px_rgb(64_32_25/0.08),0_6px_14px_-8px_rgb(243_74_45/0.45)]",
+                  )}
+                >
+                  <motion.span layoutId={`lang-${l.code}`} transition={flight} dir="auto" lang={l.code} className="inline-block font-display text-[15px]/[1.15] font-semibold">
+                    {endo}
+                  </motion.span>
+                  {endo !== l.name && <span className="text-[11.5px] text-muted-foreground">{l.name}</span>}
+                  <span className="grid size-5 place-items-center rounded-full text-muted-foreground/70 transition-colors group-hover:bg-destructive/10 group-hover:text-destructive">
+                    <X className="size-3" strokeWidth={2.5} />
+                  </span>
+                </motion.button>
+              );
+            })}
+          </AnimatePresence>
+        </motion.div>
+        {!langs.length && (
+          <div className="absolute inset-2.5 grid place-items-center rounded-[13px] border border-dashed border-foreground/15 px-6 text-center text-[12.5px] leading-relaxed text-muted-foreground">
+            Nothing yet. Pick from the list; they'll gather here.
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/* ---- romanized languages, explained once ---------------------------------------------------- */
+
+function RomanNote({ romanized }: { romanized: Language[] }) {
+  const names = romanized.map((l) => l.name);
+  const list = names.length <= 1 ? names.join("") : `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`;
+  return (
+    <div className="mt-4 flex gap-3 rounded-[14px] px-0.5">
+      <AaBadge className="mt-0.5" />
+      <div className="min-w-0 text-[12.5px] leading-relaxed text-muted-foreground">
+        {romanized.length ? (
+          <>
+            <span className="text-foreground">{list}</span> {romanized.length === 1 ? "is" : "are"} written in English letters, the way you'd type
+            {romanized.length === 1 ? " it" : " them"} in a chat:{" "}
+            {romanized.slice(0, 2).map((l, i) => (
+              <span key={l.code}>
+                {i > 0 && " · "}
+                <span className="font-medium text-foreground italic">{ROMANIZED_SAMPLE[l.code] ?? l.name.toLowerCase()}</span>
+              </span>
+            ))}
+          </>
+        ) : (
+          <>Languages marked Aa are written in English letters, the way you'd type them in a chat.</>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function AaBadge({ className, on }: { className?: string; on?: boolean }) {
+  return (
+    <span
+      title="Written in English letters"
+      className={cn(
+        "inline-grid h-[18px] shrink-0 place-items-center rounded-[6px] px-1 font-display text-[10.5px] font-bold tracking-tight",
+        on ? "bg-brand/15 text-brand" : "bg-brand-gold/20 text-[#a2600c] dark:text-brand-gold",
+        className,
+      )}
+    >
+      Aa
+    </span>
+  );
+}
+
+/* ---- one language ------------------------------------------------------------------------- */
+
+const Tile = memo(function Tile({ lang: l, on, onToggle }: { lang: Language; on: boolean; onToggle: (c: Lang) => void }) {
+  const endo = endonym(l.code, l.name);
+  const glyph = Array.from(endo)[0];
+  const long = endo.length > 11;
+  const text = cn("inline-block max-w-full truncate font-display font-semibold", long ? "text-[16.5px]/[1.15]" : "text-[20px]/[1.15]");
+  return (
+    <motion.button
+      whileTap={{ scale: 0.97 }}
+      onClick={() => onToggle(l.code)}
+      aria-pressed={on}
+      className={cn(
+        "group relative flex h-[84px] flex-col justify-between overflow-hidden rounded-[16px] p-3.5 text-left transition-[background-color,box-shadow,transform] duration-200",
+        on
+          ? "bg-[color-mix(in_oklab,var(--brand-cream)_45%,var(--card))] shadow-[0_0_0_1.5px_var(--brand),0_8px_20px_-12px_rgb(243_74_45/0.6)] dark:bg-[color-mix(in_oklab,var(--brand)_13%,var(--card))]"
+          : "bg-card shadow-[0_0_0_1px_var(--border),0_1px_2px_rgb(64_32_25/0.04)] hover:-translate-y-px hover:shadow-[0_0_0_1px_var(--input),0_8px_18px_-10px_rgb(64_32_25/0.3)]",
+      )}
+    >
+      {/* the script's first letter, large and faint: the typographic texture of the grid */}
+      <span
+        aria-hidden
+        lang={l.code}
+        className={cn(
+          "pointer-events-none absolute -right-1 -bottom-5 font-display text-[78px] leading-none font-bold transition-opacity",
+          on ? "text-brand opacity-[0.13]" : "text-foreground opacity-[0.045] group-hover:opacity-[0.08]",
+        )}
+      >
+        {glyph}
+      </span>
+      <div className="relative flex items-start justify-between gap-2">
+        {on ? (
+          <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.12 }} dir="auto" lang={l.code} className={cn(text, "text-brand-deep dark:text-brand")}>
+            {endo}
+          </motion.span>
+        ) : (
+          <motion.span layoutId={`lang-${l.code}`} transition={flight} dir="auto" lang={l.code} className={text}>
+            {endo}
+          </motion.span>
+        )}
+        <span
+          className={cn(
+            "mt-0.5 grid size-[18px] shrink-0 place-items-center rounded-full transition-all duration-200",
+            on ? "scale-100 bg-brand text-white" : "scale-90 shadow-[inset_0_0_0_1.5px_var(--input)] opacity-0 group-hover:opacity-100",
+          )}
+        >
+          {on && <Check className="size-3" strokeWidth={3} />}
+        </span>
+      </div>
+      <div className="relative flex items-center gap-1.5 text-[12px] text-muted-foreground">
+        <span className="truncate">{l.name}</span>
+        {l.script === ROMAN && <AaBadge on={on} />}
+      </div>
+    </motion.button>
+  );
+});

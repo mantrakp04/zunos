@@ -1,0 +1,107 @@
+/* Sign-in and language picker: the stage behind the bean, its ear ripples, the code tiles. */
+
+/* ---- the warm stage ------------------------------------------------------------------------ */
+.zn-stage-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(48% 62% at var(--sx, 27%) 52%, color-mix(in oklab, var(--brand-cream) 62%, transparent), transparent 72%),
+    radial-gradient(30% 36% at var(--sx, 27%) 50%, color-mix(in oklab, var(--brand-gold) 22%, transparent), transparent 70%),
+    radial-gradient(80% 60% at 100% 110%, color-mix(in oklab, var(--brand-cream) 30%, transparent), transparent 70%),
+    var(--background);
+}
+@media (prefers-color-scheme: dark) {
+  .zn-stage-bg {
+    background:
+      radial-gradient(46% 60% at var(--sx, 27%) 52%, rgb(243 74 45 / 0.2), transparent 72%),
+      radial-gradient(26% 32% at var(--sx, 27%) 48%, rgb(246 165 60 / 0.16), transparent 70%),
+      radial-gradient(80% 60% at 100% 110%, rgb(243 74 45 / 0.08), transparent 70%),
+      var(--background);
+  }
+}
+
+/* A soft floor shadow under the bean. */
+.zn-stage-floor {
+  position: absolute;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  background: radial-gradient(closest-side, rgb(64 32 25 / 0.22), transparent);
+  filter: blur(2px);
+  animation: zn-floor 4.2s ease-in-out infinite;
+}
+@media (prefers-color-scheme: dark) {
+  .zn-stage-floor {
+    background: radial-gradient(closest-side, rgb(0 0 0 / 0.6), transparent);
+  }
+}
+@keyframes zn-floor {
+  50% {
+    transform: translateX(-50%) scaleX(1.03);
+  }
+}
+
+/* ---- ear ripples: arcs that leave the ear and fade out ------------------------------------- */
+.zn-ripple {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  opacity: 0;
+  animation: zn-ripple 6s cubic-bezier(0.2, 0.55, 0.3, 1) infinite;
+}
+.zn-ripple-poke {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  opacity: 0;
+  animation: zn-ripple-poke 1.6s cubic-bezier(0.12, 0.7, 0.3, 1) forwards;
+}
+@keyframes zn-ripple {
+  0% {
+    transform: scale(0.16);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.75;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes zn-ripple-poke {
+  0% {
+    transform: scale(0.16);
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.95;
+  }
+  100% {
+    transform: scale(0.72);
+    opacity: 0;
+  }
+}
+
+/* ---- code tiles ------------------------------------------------------------------------------ */
+.zn-caret {
+  animation: zn-caret 1.06s steps(1) infinite;
+}
+@keyframes zn-caret {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ---- language grid: fade the edges of the scroller ------------------------------------------ */
+.zn-fade-y {
+  mask-image: linear-gradient(to bottom, transparent 0, #000 18px, #000 calc(100% - 28px), transparent 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .zn-ripple,
+  .zn-ripple-poke,
+  .zn-stage-floor,
+  .zn-caret {
+    animation: none !important;
+  }
+}
