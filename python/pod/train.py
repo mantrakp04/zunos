@@ -1,4 +1,4 @@
-import json, random, math, os, time, sys, glob
+import json, random, os, time, sys, glob
 import numpy as np, soundfile as sf, torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import WhisperForConditionalGeneration, WhisperProcessor, get_cosine_schedule_with_warmup

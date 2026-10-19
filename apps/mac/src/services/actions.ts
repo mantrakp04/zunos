@@ -114,7 +114,6 @@ export function createActions(lib: Library, setLive: SetLive) {
       await Native.deleteFile(res.path);
       take = null;
     },
-    deleteRecording: (id: string) => lib.deleteRecording(id),
 
     // ---- training (cloud GPU through the zunos backend)
     trainingQuote: () => training.quote(),
@@ -206,10 +205,6 @@ export function createActions(lib: Library, setLive: SetLive) {
       }
     },
     copyText: async (text: string) => Native.copyText(text),
-
-    // ---- misc
-    revealData: async () => Native.revealInFinder(dataDir),
-    openURL: async (url: string) => Native.openURL(url),
   };
 }
 

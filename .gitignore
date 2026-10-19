@@ -1,12 +1,3 @@
-models/
-synth_fish/
-data/**/*.wav
-data/segments/
-data2/
-pod-backup/synth16/
-pod-backup/refs/
-pod-backup/refs_fish/
-dashboard/samples/
 __pycache__/
 *.log
 *.rms

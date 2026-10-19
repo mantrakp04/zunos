@@ -6,7 +6,14 @@
     "strict": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "types": ["bun"]
+    "types": [
+      "bun"
+    ],
+    "resolveJsonModule": true
   },
-  "include": ["src", "scripts", "drizzle.config.ts"]
+  "include": [
+    "src",
+    "scripts",
+    "drizzle.config.ts"
+  ]
 }

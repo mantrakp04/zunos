@@ -1,4 +1,5 @@
-import { DB_FILE, LANGUAGES, migrate, PRAGMAS, schema } from "@zunos/db";
+import { DB_FILE, LANGUAGES, migrate, PRAGMAS, schema, SEED_PROMPTS, SEED_VERSION } from "@zunos/db";
+import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/expo-sqlite";
 import * as SQLite from "expo-sqlite";
 
@@ -31,8 +32,18 @@ export async function openDb() {
   await o.db.insert(schema.languages).values(LANGUAGES.map((l, i) => ({
     code: l.code, name: l.name, script: l.romanized ? "Latin (romanized)" : "native", enabled: false, sort: i,
   }))).onConflictDoNothing();
+  await seedPrompts(o.db);
   opened = o;
   return o;
+}
+
+async function seedPrompts(db: ReturnType<typeof open>["db"]) {
+  const [row] = await db.select().from(schema.settings).where(eq(schema.settings.key, "seed_version"));
+  if (row?.value === SEED_VERSION) return;
+  const rows = SEED_PROMPTS.map((p) => ({ ...p, source: "builtin" })) as (typeof schema.prompts.$inferInsert)[];
+  for (let i = 0; i < rows.length; i += 100) await db.insert(schema.prompts).values(rows.slice(i, i + 100)).onConflictDoNothing();
+  await db.insert(schema.settings).values({ key: "seed_version", value: SEED_VERSION })
+    .onConflictDoUpdate({ target: schema.settings.key, set: { value: SEED_VERSION } });
 }
 
 export type Db = Awaited<ReturnType<typeof openDb>>["db"];

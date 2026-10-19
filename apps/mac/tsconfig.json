@@ -13,7 +13,8 @@
       "@zunos/ui/*": [
         "../../packages/ui/src/*"
       ]
-    }
+    },
+    "resolveJsonModule": true
   },
   "include": [
     "App.tsx",

@@ -12,7 +12,6 @@ import shutil
 import subprocess
 import sys
 import tarfile
-import threading
 import time
 import traceback
 import urllib.request

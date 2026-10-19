@@ -1,4 +1,4 @@
-import json, os, sys, glob
+import json, os, glob
 import numpy as np, soundfile as sf, librosa, torch
 from concurrent.futures import ThreadPoolExecutor
 from transformers import WhisperForConditionalGeneration, WhisperProcessor

@@ -73,7 +73,6 @@ Cloud training: see apps/api/README.md (Cloudflare Worker, R2, D1, Runpod) and p
 | python/core | Text normalization and scoring |
 | python/engine | Local transcription, evaluation, segmentation, dataset packing |
 | python/pod | GPU training pipeline |
-| tools/migrate | Imports the pre-app data into the app database |
 
 ## How v3a was made
 

@@ -1,19 +1,15 @@
 """Score a model on held-back clips with fuzzy WER (the project's headline metric).
 
-    uv run zunos-eval <model-dir> [--clips <dir>] [--beams 4]
+    uv run zunos-eval <model-dir> [--beams 4]
 
-By default the test clips come from the app database (~/Library/Application Support/zunos). With
---clips, <dir> holds transcripts.jsonl and 16k/<id>.wav (the legacy data/final layout) and only the
-legacy test ids are scored.
+Scores the test clips in the app database (~/Library/Application Support/zunos).
 """
 import argparse
-import json
 import os
 import time
 
 import soundfile as sf
 from zunos_core.scoring import aggregate, clip_wer
-from zunos_core.testset import LEGACY_TEST
 
 
 def evaluate(model, clips, beams=4, on_clip=None):
@@ -45,17 +41,11 @@ def app_test_clips():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("model")
-    ap.add_argument("--clips", help="legacy clips dir (transcripts.jsonl + 16k/); default: the app database")
     ap.add_argument("--beams", type=int, default=4)
     a = ap.parse_args()
     from .model import Model
 
-    if a.clips:
-        d = os.path.expanduser(a.clips)
-        clips = [dict(r, path=f"{d}/16k/{r['id']}.wav") for r in map(json.loads, open(f"{d}/transcripts.jsonl", encoding="utf-8"))
-                 if r["id"] in LEGACY_TEST]
-    else:
-        clips = app_test_clips()
+    clips = app_test_clips()
     model = Model(os.path.expanduser(a.model), beams=a.beams)
     t0 = time.time()
     out = evaluate(model, clips, a.beams, on_clip=lambda r: print(f"{r['id']:18} {r['wer']:6.1%} {r['hyp'][:80]}", flush=True))

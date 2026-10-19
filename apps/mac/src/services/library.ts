@@ -3,7 +3,6 @@ import { schema } from "@zunos/db";
 import type { Lang } from "@zunos/db/schema";
 import { and, asc, desc, eq, inArray, sql } from "drizzle-orm";
 
-import Native from "../../modules/zunos-native";
 import type {
   Baseline, EvalResult, Language, LangStats, ModelItem, PromptItem, RunDetail, RunSummary, SavedRecording,
 } from "../shared/types";
@@ -110,14 +109,6 @@ export function createLibrary(db: Db) {
       return { recordingId: rec.id, seconds: take.seconds, clips: saved.map(({ id, seconds, split, text }) => ({ id, seconds, split, text })) };
     },
 
-    async deleteRecording(id: string) {
-      const cs = await db.select().from(clips).where(eq(clips.recordingId, id));
-      const [rec] = await db.select().from(recordings).where(eq(recordings.id, id));
-      await db.delete(clips).where(eq(clips.recordingId, id));
-      await db.delete(recordings).where(eq(recordings.id, id));
-      for (const p of [...cs.flatMap((c) => [c.path16k, c.path48k]), rec?.path]) if (p) await Native.deleteFile(abs(p));
-    },
-
     async testClips() {
       const rows = await db.select().from(clips).where(eq(clips.split, "test")).orderBy(asc(clips.lang), asc(clips.id));
       return rows.map((c) => ({ id: c.id, lang: c.lang, text: c.text, path: abs(c.path16k) }));
@@ -153,12 +144,6 @@ export function createLibrary(db: Db) {
 
     async activeModel() {
       const [m] = await db.select().from(models).where(and(eq(models.active, true), eq(models.format, "hf")));
-      return m ? { ...m, path: abs(m.path) } : null;
-    },
-
-    async fastModel(runId: string | null) {
-      if (!runId) return null;
-      const [m] = await db.select().from(models).where(and(eq(models.runId, runId), eq(models.format, "mlx")));
       return m ? { ...m, path: abs(m.path) } : null;
     },
 

@@ -24,8 +24,10 @@ goal, beating Sarvam (saaras) by 2x word error rate on held-back clips, is track
 - python/engine: the local engine the app launches (`zunos-engine`, JSON lines over stdio): load,
   transcribe, eval, segment, pack, unpack. Also `zunos-eval` and `zunos-dictate` CLIs.
 - python/pod: GPU pipeline. bootstrap.sh → run.py: ref_text.py, make_jobs.py, gen_f5.py (IndicF5),
-  gen_cb.py (Chatterbox), filter.py, train.py, export.py. fish/ is the Fish Drama 3 experiment.
-- tools/migrate: one-shot import of the pre-app data into the app database.
+  gen_cb.py (Chatterbox), filter.py, train.py, export.py. A Fish Audio Drama 3 path (expressive
+  takes) was tried in v3b and dropped; it is in git history (python/pod/fish) if needed again.
+- packages/db/src/seed-prompts.json: built-in passages and 721 dictation sentences (en/hi/gu),
+  loaded on first launch. The owner's pre-app data was imported once (tools/migrate, in history).
 
 User data lives in ~/Library/Application Support/zunos (zunos.db, audio/, models/, runs/).
 
@@ -51,6 +53,8 @@ User data lives in ~/Library/Application Support/zunos (zunos.db, audio/, models
   outputs "you". The recorder and the engine both check for this.
 - Whisper's Gujarati output mixes scripts, so filter.py scores hi/gu by transliterating to Latin
   first (textnorm.roman_cer).
+- apps/mac/macos is committed (bare workflow): the build depends on edits there. Re-running
+  `expo-desktop prebuild` applies config plugins on top; check the diff afterwards.
 - Monorepo + react-native-macos: bun must use the hoisted linker (bunfig.toml), the Podfile
   rewrites REACT_NATIVE_PATH to the hoisted react-native, and the app's bundle root is
   `.expo/.virtual-metro-entry` with module name `main`.

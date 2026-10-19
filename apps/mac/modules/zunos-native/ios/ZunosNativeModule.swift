@@ -43,20 +43,8 @@ public class ZunosNativeModule: Module {
       return dir.path
     }
 
-    Function("fileExists") { (path: String) -> Bool in
-      FileManager.default.fileExists(atPath: path)
-    }
-
     AsyncFunction("deleteFile") { (path: String) in
       try? FileManager.default.removeItem(atPath: path)
-    }
-
-    Function("revealInFinder") { (path: String) in
-      NSWorkspace.shared.activateFileViewerSelecting([URL(fileURLWithPath: path)])
-    }
-
-    Function("openURL") { (url: String) in
-      if let u = URL(string: url) { NSWorkspace.shared.open(u) }
     }
 
     Function("copyText") { (text: String) in

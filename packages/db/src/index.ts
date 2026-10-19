@@ -6,6 +6,11 @@ export * as schema from "./schema";
 
 export const DB_FILE = "zunos.db";
 
+/** Built-in passages and dictation sentences (English, Hindi, Gujarati), loaded on first launch. */
+export { default as SEED_PROMPTS } from "./seed-prompts.json";
+/** Bump when seed-prompts.json changes so existing installs pick up new prompts. */
+export const SEED_VERSION = 1;
+
 /** The two operations the migrator needs; implemented by expo-sqlite (async) and bun:sqlite (sync). */
 export interface SqlRunner {
   exec(sql: string): unknown | Promise<unknown>;

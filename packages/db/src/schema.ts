@@ -29,7 +29,7 @@ export const prompts = sqliteTable("prompts", {
   lines: json<string[]>("lines").notNull(),
   // Same lines in native script (Devanagari / Gujarati), when known. Used as TTS input.
   nativeLines: json<string[]>("native_lines"),
-  source: text("source").notNull(), // session-1 | recorder | corpus | user
+  source: text("source").notNull(), // builtin | user (session-1 | recorder | corpus on the owner's migrated install)
   createdAt: createdAt(),
 }, (t) => [index("prompts_lang").on(t.lang, t.kind)]);
 
