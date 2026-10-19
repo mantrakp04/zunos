@@ -49,7 +49,7 @@ export const TakeTray = memo(function TakeTray({ takes }: { takes: Take[] }) {
                       </span>
                       <span className="ml-auto font-mono text-[11px] text-muted-foreground tabular-nums">{c.seconds.toFixed(1)} s</span>
                     </div>
-                    <span className="truncate text-[12px] leading-snug">{c.text}</span>
+                    <span dir="auto" className="truncate text-[12px] leading-snug">{c.text}</span>
                   </motion.div>
                 )),
               )}

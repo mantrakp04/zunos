@@ -119,10 +119,13 @@ export function LineChart({
 }) {
   const [wrap, width] = useWidth<HTMLDivElement>();
   const uid = useId().replace(/[^a-zA-Z0-9]/g, "");
-  const showGutter = gutter && width >= 520;
-  const pad = { l: 38, r: showGutter ? 112 : 14, t: marker ? 26 : 12, b: 24 };
+  const padT = marker ? 26 : 12;
+  const H = height - padT - 24;
+  // Direct labels only while they fit down the side; past that the legend and tooltip carry the names.
+  const drawn = lines.filter((l) => l.points.length).length;
+  const showGutter = gutter && width >= 520 && drawn * LABEL_GAP <= H + LABEL_GAP;
+  const pad = { l: 38, r: showGutter ? 128 : 14, t: padT, b: 24 };
   const W = Math.max(0, width - pad.l - pad.r);
-  const H = height - pad.t - pad.b;
   const [x0, x1] = xDomain;
   const [y0, y1] = yDomain;
   const sx = (x: number) => pad.l + ((x - x0) / (x1 - x0 || 1)) * W;
@@ -154,25 +157,43 @@ export function LineChart({
   const labels = showGutter
     ? spread(
         lines.filter((l) => l.points.length).map((l) => ({ l, y: sy(l.points[l.points.length - 1]!.y) })),
-        15,
+        LABEL_GAP,
         pad.t + 4,
         pad.t + H,
       )
     : [];
-  // Reference labels sit just above their line; when two are close, the upper one moves up.
-  const refLabels = refs
-    .map((r) => ({ r, y: sy(r.y) - 5, ly: sy(r.y) - 5 }))
-    .sort((a, b) => b.y - a.y)
-    .map((it, i, arr) => (i > 0 && it.ly > arr[i - 1]!.ly - 12 ? Object.assign(it, { ly: arr[i - 1]!.ly - 12 }) : it))
-    .map((it) => ({ ...it, ly: Math.max(pad.t + 8, it.ly) }));
+  // Reference labels sit just above their line; when two are close, the upper one moves up, and one
+  // that would end up far from its line (or off the top) is dropped rather than stacked on another.
+  // Past a handful the labels bury the curves; the dashed lines and the table below still carry them.
+  const refLabels: { r: RefLine; ly: number }[] = [];
+  for (const r of refs.length <= 6 ? [...refs].sort((a, b) => a.y - b.y) : []) {
+    const y = Math.max(pad.t + 8, sy(r.y) - 5);
+    const prev = refLabels[refLabels.length - 1];
+    const ly = prev && y > prev.ly - 12 ? prev.ly - 12 : y;
+    if (ly >= pad.t + 8 && y - ly <= 18) refLabels.push({ r, ly });
+  }
 
-  const tipLeft = snapX == null ? 0 : sx(snapX);
-  const tipFlip = tipLeft > pad.l + W * 0.62;
+  // The tooltip sits beside the crosshair, on whichever side has room, and never past the chart's edges.
+  const tip = useRef<HTMLDivElement>(null);
+  const [tipW, setTipW] = useState(0);
+  const tipX = snapX == null ? 0 : sx(snapX);
+  const toRight = tipX + 14 + tipW <= width;
+  const toLeft = tipX - 14 - tipW >= 0;
+  const tipLeft =
+    toRight && (tipX <= pad.l + W * 0.62 || !toLeft) ? tipX + 14 : toLeft ? tipX - 14 - tipW : Math.max(0, Math.min(tipX - tipW / 2, width - tipW));
+  // Many rows: two columns of name and value, so the box stays inside the plot's height.
+  const tipRows = snapX == null ? 0 : lines.filter((l) => l.points.length).length;
+  const tipCols = tipRows > 10;
+  useLayoutEffect(() => {
+    const w = tip.current?.offsetWidth ?? 0;
+    if (w !== tipW) setTipW(w);
+  });
 
   return (
     <div ref={wrap} className={cn("relative select-none", className)} style={{ height }}>
       {width > 0 && (
-        <svg width={width} height={height} className="block overflow-visible">
+        // Out of flow, so its pixel width never props the box open when the window narrows.
+        <svg width={width} height={height} className="absolute top-0 left-0 block overflow-visible">
           <defs>
             <clipPath id={`clip${uid}`}>
               <rect x={pad.l - 4} y={pad.t - 6} width={W + 8} height={H + 8} />
@@ -226,7 +247,7 @@ export function LineChart({
           {marker && marker.x >= x0 && marker.x <= x1 && (
             <motion.g key={`${drawKey}-m`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.9, duration: 0.4 }}>
               <line x1={sx(marker.x)} x2={sx(marker.x)} y1={pad.t - 4} y2={pad.t + H} stroke="var(--brand)" strokeOpacity={0.55} strokeDasharray="2 3" />
-              <MarkerFlag x={sx(marker.x)} y={pad.t - 13} label={marker.label} min={pad.l} max={pad.l + W} />
+              <MarkerFlag x={sx(marker.x)} y={pad.t - 13} label={marker.label} min={Math.min(pad.l, 30)} max={Math.min(pad.l + W, width - 31)} />
             </motion.g>
           )}
 
@@ -299,7 +320,8 @@ export function LineChart({
               )}
               <circle cx={pad.l + W + 16} cy={ly} r={3} fill={l.color} />
               <text x={pad.l + W + 24} y={ly} dy="0.33em" className="text-[11px]" fill="var(--foreground)">
-                <tspan className="font-medium">{l.label}</tspan>
+                <title>{l.label}</title>
+                <tspan className="font-medium">{clip(l.label, 11)}</tspan>
                 <tspan dx={5} fill="var(--muted-foreground)" className="tabular-nums">
                   {yFormat(l.points[l.points.length - 1]!.y)}
                 </tspan>
@@ -338,19 +360,23 @@ export function LineChart({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.12 }}
-            className="pointer-events-none absolute z-10 min-w-[11rem] whitespace-nowrap rounded-xl bg-popover/95 px-3 py-2.5 text-[12px] text-popover-foreground shadow-[0_0_0_1px_var(--border),0_10px_30px_-10px_rgb(40_20_10/0.35)] backdrop-blur"
-            style={{ top: pad.t, left: tipFlip ? undefined : tipLeft + 14, right: tipFlip ? width - tipLeft + 14 : undefined }}
+            ref={tip}
+            className="pointer-events-none absolute z-10 w-max max-w-full min-w-[11rem] rounded-xl bg-popover/95 px-3 py-2.5 text-[12px] whitespace-nowrap text-popover-foreground shadow-[0_0_0_1px_var(--border),0_10px_30px_-10px_rgb(40_20_10/0.35)] backdrop-blur"
+            style={{ top: tipCols ? Math.max(0, pad.t - 8) : pad.t, left: tipLeft }}
           >
             <div className="mb-1.5 text-[11px] font-semibold text-muted-foreground">{tooltipTitle(snapX)}</div>
-            <div className="flex flex-col gap-1">
+            <div
+              className={cn(tipCols ? "grid grid-flow-col grid-cols-2 gap-x-5 gap-y-0.5 leading-tight" : "flex flex-col gap-1")}
+              style={tipCols ? { gridTemplateRows: `repeat(${Math.ceil(hovered.length / 2)}, auto)` } : undefined}
+            >
               {[...hovered]
                 .sort((a, b) => (b.line.width ?? 0) - (a.line.width ?? 0) || a.p!.y - b.p!.y)
                 .map(({ line, p }) => (
-                  <div key={line.key} className="flex items-center gap-2">
+                  <div key={line.key} className="flex min-w-0 items-center gap-2">
                     <span className="h-[3px] w-3 shrink-0 rounded-full" style={{ background: line.color }} />
-                    <span className={cn("flex-1", line.width && line.width > 2 && "font-semibold")}>{line.label}</span>
+                    <span className={cn("min-w-0 flex-1 truncate", line.width && line.width > 2 && "font-semibold")}>{line.label}</span>
                     <span className="font-semibold tabular-nums">{yFormat(p!.y)}</span>
-                    {line.ref != null && <span className="ml-1 text-right text-[11px] whitespace-nowrap tabular-nums text-muted-foreground">Ref {yFormat(line.ref)}</span>}
+                    {line.ref != null && !tipCols && <span className="ml-1 text-right text-[11px] whitespace-nowrap tabular-nums text-muted-foreground">Ref {yFormat(line.ref)}</span>}
                   </div>
                 ))}
             </div>
@@ -360,6 +386,11 @@ export function LineChart({
     </div>
   );
 }
+
+const LABEL_GAP = 15;
+
+/** Cut a label for the narrow gutter; the full name is in the SVG title. */
+const clip = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1).trimEnd()}…` : s);
 
 const haloStyle = { paintOrder: "stroke", stroke: "var(--card)", strokeWidth: 3, strokeLinejoin: "round" } as const;
 
@@ -387,9 +418,9 @@ export function Sparkline({ points, best, max = 0.6, className }: { points: Pt[]
   const bp = best != null ? points.find((p) => p.x === best) : null;
   const d = monotonePath(points.map((p) => [sx(p.x), fy(p.y)]));
   return (
-    <div ref={ref} className={className} style={{ height: h }}>
+    <div ref={ref} className={cn("relative", className)} style={{ height: h }}>
       {width > 0 && points.length > 1 && (
-        <svg width={width} height={h} className="block overflow-visible">
+        <svg width={width} height={h} className="absolute top-0 left-0 block overflow-visible">
           <path d={d} fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" />
           {bp && <circle cx={sx(bp.x)} cy={fy(bp.y)} r={3} fill="var(--brand)" stroke="var(--card)" strokeWidth={1.5} />}
         </svg>

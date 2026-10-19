@@ -1,8 +1,11 @@
 // Small pure helpers for the Record screen: grouping the library, labels, clocks.
 import type { PromptItem, SavedRecording } from "../../../shared/types";
+import { ENOUGH_SECONDS } from "../../ui";
 
-/** Rough amount of your own speech per language that makes a noticeable difference. */
-export const GOAL_SECONDS = 10 * 60;
+/** Speech per language that's enough to train: the dials fill toward it, then keep counting. */
+export const GOAL_SECONDS = ENOUGH_SECONDS;
+/** Where the dials' "more is better" arc tops out. Past it, more still helps; the arc just stays full. */
+export const PLENTY_SECONDS = 30 * 60;
 
 export type Group = "own" | "para" | "twister" | "sentence";
 

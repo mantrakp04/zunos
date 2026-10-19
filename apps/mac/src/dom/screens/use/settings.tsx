@@ -101,7 +101,7 @@ export function DictationSettingsPanel({
       >
         <KeyDeck value={settings.hotkey} pressed={pressed} onChange={(hotkey) => set({ hotkey })} />
         <div className="mt-2.5 flex items-center justify-between gap-3 text-[12px] text-muted-foreground">
-          <span>Pick a key. The grey ones keep their usual jobs.</span>
+          <span className="min-w-0">Pick a key. The grey ones keep their usual jobs.</span>
           <button
             type="button"
             onClick={() => set({ hotkey: settings.hotkey === "off" ? "fn" : "off" })}
@@ -114,6 +114,7 @@ export function DictationSettingsPanel({
 
       <Section title="How the key works" dim={settings.hotkey === "off"}>
         <Segmented
+          className="max-w-full [&_button]:whitespace-nowrap"
           value={settings.mode}
           onChange={(m) => set({ mode: m })}
           options={MODES.map((m) => ({ value: m.id, label: m.label }))}
@@ -244,7 +245,7 @@ function ModeDiagram({ mode }: { mode: DictationSettings["mode"] }) {
   };
   const l = lanes[mode];
   return (
-    <div className="mt-3.5 grid grid-cols-[52px_1fr] items-center gap-x-3 gap-y-1.5 font-mono text-[10px] font-semibold tracking-[0.08em] text-muted-foreground uppercase">
+    <div className="mt-3.5 grid grid-cols-[auto_1fr] items-center gap-x-3 gap-y-1.5 font-mono text-[10px] font-semibold tracking-[0.08em] text-muted-foreground uppercase">
       <span>Key</span>
       <Lane spans={l.key} className="bg-foreground/70" mode={mode} />
       <span>Listening</span>
@@ -323,17 +324,17 @@ function CleanupStyles({ cleanup, busy }: { cleanup: Cleanup; busy: boolean }) {
             aria-checked={on}
             onClick={() => setSettings({ ...settings, style: s.id })}
             className={cn(
-              "relative rounded-[14px] px-3 pt-2.5 pb-3 text-left transition-[box-shadow,background] duration-200",
+              "relative flex min-w-0 flex-col rounded-[14px] px-3 pt-2.5 pb-3 text-left transition-[box-shadow,background] duration-200",
               on
                 ? "bg-brand-gold/10 shadow-[0_0_0_1.5px_var(--brand-gold)] dark:bg-brand-gold/12"
                 : "shadow-[0_0_0_1px_var(--border)] hover:bg-foreground/[0.03]",
             )}
           >
-            <span className="flex items-center justify-between">
-              <span className="text-[12.5px] font-semibold">{s.label}</span>
+            <span className="flex items-center justify-between gap-2">
+              <span className="truncate text-[12.5px] font-semibold">{s.label}</span>
               <span
                 className={cn(
-                  "grid size-3.5 place-items-center rounded-full transition-colors",
+                  "grid size-3.5 shrink-0 place-items-center rounded-full transition-colors",
                   on ? "bg-brand-gold" : "shadow-[inset_0_0_0_1px_var(--input)]",
                 )}
               >

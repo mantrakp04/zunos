@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { memo, useMemo, useState } from "react";
 
 import type { EvalResult, Lang } from "../../../shared/types";
-import { langName, Segmented } from "../../ui";
+import { langName, ScrollStrip, Segmented } from "../../ui";
 import { type Diff, diffWords, isFuzzyLang, type Op } from "./diff";
 
 type Row = EvalResult["rows"][number] & { diff: Diff };
@@ -28,22 +28,27 @@ export function Clips({ rows, langs }: { rows: EvalResult["rows"]; langs: Lang[]
   return (
     <section className="mt-10">
       <div className="mb-4 flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
-        <div>
+        <div className="min-w-0">
           <h2 className="font-display text-[20px] font-semibold tracking-[-0.015em]">Clip by clip</h2>
           <p className="mt-0.5 text-[13px] text-muted-foreground">What the model heard, with what you actually read written above each mistake.</p>
         </div>
-        <div className="flex items-center gap-2">
+        {/* With many languages the filter scrolls sideways (keeping the chosen one in view) and the row drops below the title. */}
+        <div className="flex max-w-full min-w-0 items-center gap-2">
+          <ScrollStrip active={lang} fade={20}>
+            <Segmented
+              size="sm"
+              value={lang}
+              onChange={setLang}
+              className="whitespace-nowrap"
+              options={[
+                { value: "all", label: <span data-strip-key="all">All <Count n={items.length} /></span> },
+                ...langs.map((l) => ({ value: l, label: <span data-strip-key={l}>{langName(l)} <Count n={count(l)} /></span> })),
+              ]}
+            />
+          </ScrollStrip>
           <Segmented
             size="sm"
-            value={lang}
-            onChange={setLang}
-            options={[
-              { value: "all", label: <>All <Count n={items.length} /></> },
-              ...langs.map((l) => ({ value: l, label: <>{langName(l)} <Count n={count(l)} /></> })),
-            ]}
-          />
-          <Segmented
-            size="sm"
+            className="shrink-0 whitespace-nowrap"
             value={sort}
             onChange={setSort}
             options={[
@@ -125,13 +130,21 @@ const ClipRow = memo(function ClipRow({ row }: { row: Row }) {
 
       <div className="min-w-0">
         <div className="mb-2.5 flex items-center gap-2 text-[11.5px]">
-          <span className="rounded-full bg-foreground/[0.06] px-2 py-px font-semibold">{langName(row.lang)}</span>
-          <span className="truncate font-mono text-[11px] text-muted-foreground">{row.id}</span>
+          <span className="max-w-[11rem] shrink-0 truncate rounded-full bg-foreground/[0.06] px-2 py-px font-semibold" title={langName(row.lang)}>
+            {langName(row.lang)}
+          </span>
+          <span className="min-w-0 truncate font-mono text-[11px] text-muted-foreground" title={row.id}>
+            {row.id}
+          </span>
           <span className="ml-auto flex shrink-0 items-center gap-3 text-muted-foreground">
-            {row.wer === 0 ? <span className="font-semibold text-good">Every word right</span> : <span className="tabular-nums">{facts.join(" · ")}</span>}
+            {row.wer === 0 ? (
+              <span className="font-semibold whitespace-nowrap text-good">Every word right</span>
+            ) : (
+              <span className="whitespace-nowrap tabular-nums">{facts.join(" · ")}</span>
+            )}
             <button
               onClick={() => setOpen((o) => !o)}
-              className="flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium text-muted-foreground transition-colors hover:bg-foreground/[0.06] hover:text-foreground"
+              className="flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] whitespace-nowrap font-medium text-muted-foreground transition-colors hover:bg-foreground/[0.06] hover:text-foreground"
             >
               {open ? "Hide" : "Both texts"}
               <ChevronDown className={cn("size-3 transition-transform", open && "rotate-180")} />
@@ -152,9 +165,13 @@ const ClipRow = memo(function ClipRow({ row }: { row: Row }) {
             >
               <dl className="mt-4 grid grid-cols-[4.5rem_minmax(0,1fr)] gap-x-3 gap-y-2 rounded-[12px] bg-foreground/[0.035] px-4 py-3 text-[13px] leading-relaxed select-text">
                 <dt className="pt-px text-[11px] font-semibold tracking-[0.06em] text-muted-foreground uppercase">You read</dt>
-                <dd>{row.ref}</dd>
+                <dd dir="auto" className="[overflow-wrap:anywhere]">
+                  {row.ref}
+                </dd>
                 <dt className="pt-px text-[11px] font-semibold tracking-[0.06em] text-muted-foreground uppercase">It heard</dt>
-                <dd>{row.hyp}</dd>
+                <dd dir="auto" className="[overflow-wrap:anywhere]">
+                  {row.hyp}
+                </dd>
               </dl>
             </motion.div>
           )}
@@ -182,7 +199,8 @@ function Leds({ value, tone: t }: { value: number; tone: keyof typeof TONE_BG })
  */
 function DiffText({ ops }: { ops: Op[] }) {
   return (
-    <p className="flex flex-wrap items-end gap-x-[0.28em] gap-y-1 text-[15px] leading-[1.35] select-text">
+    // dir="auto" lays the words out right to left for Arabic and Hebrew clips.
+    <p dir="auto" className="flex flex-wrap items-end gap-x-[0.28em] gap-y-1 text-[15px] leading-[1.35] select-text">
       {ops.map((o, i) => (
         <Word key={i} op={o} />
       ))}
@@ -195,45 +213,47 @@ const bare = (w: string) => w.replace(/^[^\p{L}\p{N}+−]+|[^\p{L}\p{N}+−]+$/g
 
 function Word({ op }: { op: Op }) {
   const note = (text: string, cls = "text-muted-foreground") => (
-    <span className={cn("block h-[15px] text-[11px] leading-[15px] font-medium whitespace-nowrap", cls)}>{bare(text)}</span>
+    <span className={cn("block h-[15px] max-w-full truncate text-[11px] leading-[15px] font-medium", cls)}>{bare(text)}</span>
   );
   const slot = <span className="block h-[15px]" />;
   switch (op.kind) {
     case "same":
       return (
-        <span className="inline-flex flex-col">
+        <span className="inline-flex max-w-full min-w-0 flex-col">
           {slot}
-          <span className="text-foreground/88">{op.hyp}</span>
+          <span className="[overflow-wrap:anywhere] text-foreground/88">{op.hyp}</span>
         </span>
       );
     case "variant":
       return (
-        <span className="inline-flex flex-col" title={`Spelling variant, counted as right (you read “${op.ref}”)`}>
+        <span className="inline-flex max-w-full min-w-0 flex-col" title={`Spelling variant, counted as right (you read “${op.ref}”)`}>
           {note(op.ref, "text-muted-foreground/45 italic")}
-          <span className="text-foreground/88 underline decoration-muted-foreground/55 decoration-dotted underline-offset-[4px]">{op.hyp}</span>
+          <span className="[overflow-wrap:anywhere] text-foreground/88 underline decoration-muted-foreground/55 decoration-dotted underline-offset-[4px]">
+            {op.hyp}
+          </span>
         </span>
       );
     case "sub":
       return (
-        <span className="inline-flex flex-col items-center" title={`Heard “${op.hyp}”, you read “${op.ref}”`}>
+        <span className="inline-flex max-w-full min-w-0 flex-col items-center" title={`Heard “${op.hyp}”, you read “${op.ref}”`}>
           {note(op.ref, "text-foreground/60")}
-          <span className="rounded-[6px] bg-brand/11 px-[4px] font-medium text-brand dark:bg-brand/18">{op.hyp}</span>
+          <span className="[overflow-wrap:anywhere] rounded-[6px] bg-brand/11 px-[4px] font-medium text-brand dark:bg-brand/18">{op.hyp}</span>
         </span>
       );
     case "del":
       return (
-        <span className="inline-flex flex-col items-center" title={`Missed “${op.ref}”`}>
+        <span className="inline-flex max-w-full min-w-0 flex-col items-center" title={`Missed “${op.ref}”`}>
           {note("−", "text-brand font-bold")}
-          <span className="rounded-[6px] px-[4px] text-muted-foreground/75 line-through decoration-brand/70 shadow-[inset_0_0_0_1px_color-mix(in_oklab,var(--brand)_35%,transparent)]">
+          <span className="[overflow-wrap:anywhere] rounded-[6px] px-[4px] text-muted-foreground/75 line-through decoration-brand/70 shadow-[inset_0_0_0_1px_color-mix(in_oklab,var(--brand)_35%,transparent)]">
             {op.ref}
           </span>
         </span>
       );
     case "ins":
       return (
-        <span className="inline-flex flex-col items-center" title={`Added “${op.hyp}”, which you didn't read`}>
+        <span className="inline-flex max-w-full min-w-0 flex-col items-center" title={`Added “${op.hyp}”, which you didn't read`}>
           {note("+", "text-warn font-bold")}
-          <span className="rounded-[6px] bg-warn/14 px-[4px] font-medium text-warn">{op.hyp}</span>
+          <span className="[overflow-wrap:anywhere] rounded-[6px] bg-warn/14 px-[4px] font-medium text-warn">{op.hyp}</span>
         </span>
       );
   }

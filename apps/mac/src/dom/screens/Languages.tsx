@@ -160,7 +160,7 @@ export default function Languages({ a, initial, onDone, canCancel = false, onCan
               </div>
             ) : (
               <div className="flex flex-col items-center gap-1 pt-20 text-center">
-                <p className="font-display text-[18px] font-semibold">No language matches “{query.trim()}”</p>
+                <p className="max-w-full font-display text-[18px] font-semibold [overflow-wrap:anywhere]">No language matches “{query.trim()}”</p>
                 <p className="text-[13px] text-muted-foreground">zunos covers the {initial.length} languages Whisper knows. Try its English name.</p>
               </div>
             )}
@@ -228,6 +228,8 @@ function Greeting({ hop }: { hop: number }) {
 /* ---- your voice: the picked languages collect here ----------------------------------------- */
 
 function Tray({ langs, onRemove }: { langs: Language[]; onRemove: (c: Lang) => void }) {
+  // Past a handful, the English names would push most chips out of view; the title still has them.
+  const compact = langs.length > 6;
   return (
     <div className="mt-6 flex min-h-[112px] flex-1 flex-col">
       <div className="mb-2 flex items-baseline justify-between px-0.5">
@@ -250,17 +252,17 @@ function Tray({ langs, onRemove }: { langs: Language[]; onRemove: (c: Lang) => v
                   exit={{ opacity: 0, scale: 0.7, transition: { duration: 0.14 } }}
                   transition={spring}
                   onClick={() => onRemove(l.code)}
-                  title={`Remove ${l.name}`}
+                  title={endo !== l.name ? `Remove ${endo} (${l.name})` : `Remove ${l.name}`}
                   className={cn(
-                    "group flex h-9 items-center gap-1.5 rounded-full pr-1.5 pl-3",
+                    "group flex h-9 max-w-full min-w-0 items-center gap-1.5 rounded-full pr-1.5 pl-3",
                     "bg-card shadow-[0_0_0_1px_var(--input),0_1px_2px_rgb(64_32_25/0.08),0_6px_14px_-8px_rgb(243_74_45/0.45)]",
                   )}
                 >
-                  <motion.span layoutId={`lang-${l.code}`} transition={flight} dir="auto" lang={l.code} className="inline-block font-display text-[15px]/[1.15] font-semibold">
+                  <motion.span layoutId={`lang-${l.code}`} transition={flight} dir="auto" lang={l.code} className="inline-block min-w-0 truncate font-display text-[15px]/[1.15] font-semibold">
                     {endo}
                   </motion.span>
-                  {endo !== l.name && <span className="text-[11.5px] text-muted-foreground">{l.name}</span>}
-                  <span className="grid size-5 place-items-center rounded-full text-muted-foreground/70 transition-colors group-hover:bg-destructive/10 group-hover:text-destructive">
+                  {endo !== l.name && !compact && <span className="min-w-0 truncate text-[11.5px] text-muted-foreground">{l.name}</span>}
+                  <span className="grid size-5 shrink-0 place-items-center rounded-full text-muted-foreground/70 transition-colors group-hover:bg-destructive/10 group-hover:text-destructive">
                     <X className="size-3" strokeWidth={2.5} />
                   </span>
                 </motion.button>
@@ -282,14 +284,23 @@ function Tray({ langs, onRemove }: { langs: Language[]; onRemove: (c: Lang) => v
 
 function RomanNote({ romanized }: { romanized: Language[] }) {
   const names = romanized.map((l) => l.name);
-  const list = names.length <= 1 ? names.join("") : `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`;
+  // Three names read fine; more would fill the panel, so name two and count the rest.
+  const list =
+    names.length <= 1
+      ? names.join("")
+      : names.length <= 3
+        ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`
+        : `${names.slice(0, 2).join(", ")} and ${names.length - 2} more`;
   return (
     <div className="mt-4 flex gap-3 rounded-[14px] px-0.5">
       <AaBadge className="mt-0.5" />
       <div className="min-w-0 text-[12.5px] leading-relaxed text-muted-foreground">
         {romanized.length ? (
           <>
-            <span className="text-foreground">{list}</span> {romanized.length === 1 ? "is" : "are"} written in English letters, the way you'd type
+            <span className="text-foreground" title={names.length > 3 ? names.join(", ") : undefined}>
+              {list}
+            </span>{" "}
+            {romanized.length === 1 ? "is" : "are"} written in English letters, the way you'd type
             {romanized.length === 1 ? " it" : " them"} in a chat:{" "}
             {romanized.slice(0, 2).map((l, i) => (
               <span key={l.code}>
@@ -326,13 +337,14 @@ function AaBadge({ className, on }: { className?: string; on?: boolean }) {
 const Tile = memo(function Tile({ lang: l, on, onToggle }: { lang: Language; on: boolean; onToggle: (c: Lang) => void }) {
   const endo = endonym(l.code, l.name);
   const glyph = Array.from(endo)[0];
-  const long = endo.length > 11;
-  const text = cn("inline-block max-w-full truncate font-display font-semibold", long ? "text-[16.5px]/[1.15]" : "text-[20px]/[1.15]");
+  const size = endo.length > 14 ? "text-[15px]/[1.15]" : endo.length > 11 ? "text-[16.5px]/[1.15]" : "text-[20px]/[1.15]";
+  const text = cn("inline-block max-w-full min-w-0 truncate font-display font-semibold", size);
   return (
     <motion.button
       whileTap={{ scale: 0.97 }}
       onClick={() => onToggle(l.code)}
       aria-pressed={on}
+      title={endo !== l.name ? `${endo} · ${l.name}` : l.name}
       className={cn(
         "group relative flex h-[84px] flex-col justify-between overflow-hidden rounded-[16px] p-3.5 text-left transition-[background-color,box-shadow,transform] duration-200",
         on
@@ -371,7 +383,7 @@ const Tile = memo(function Tile({ lang: l, on, onToggle }: { lang: Language; on:
         </span>
       </div>
       <div className="relative flex items-center gap-1.5 text-[12px] text-muted-foreground">
-        <span className="truncate">{l.name}</span>
+        <span className="min-w-0 truncate">{l.name}</span>
         {l.script === ROMAN && <AaBadge on={on} />}
       </div>
     </motion.button>

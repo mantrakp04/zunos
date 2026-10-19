@@ -1,7 +1,7 @@
 import { cn } from "@zunos/ui/lib/utils";
 import { AlertCircle, Loader2 } from "lucide-react";
 import { motion, useIsPresent } from "motion/react";
-import { type ButtonHTMLAttributes, type ReactNode, useCallback, useEffect, useId, useRef, useState } from "react";
+import { type ButtonHTMLAttributes, type ReactNode, useCallback, useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 
 export { languageName as langName } from "@zunos/db/languages";
 
@@ -92,7 +92,7 @@ export function ErrorNote({ error, className }: { error: string | null | undefin
       className={cn("flex items-start gap-2 rounded-xl bg-destructive/8 px-3 py-2 text-[13px] text-destructive", className)}
     >
       <AlertCircle className="mt-0.5 size-3.5 shrink-0" />
-      <span className="select-text">{error}</span>
+      <span className="min-w-0 select-text [overflow-wrap:anywhere]">{error}</span>
     </motion.p>
   );
 }
@@ -100,8 +100,9 @@ export function ErrorNote({ error, className }: { error: string | null | undefin
 /** Screen title. Big, rounded, with an optional line of context and actions on the right. */
 export function PageHeader({ eyebrow, title, subtitle, children }: { eyebrow?: ReactNode; title: ReactNode; subtitle?: ReactNode; children?: ReactNode }) {
   return (
-    <div className="mb-7 flex items-end justify-between gap-6">
-      <div className="min-w-0">
+    // Wraps: on a narrow window the actions drop under the title instead of squeezing the subtitle.
+    <div className="mb-7 flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
+      <div className="min-w-0 flex-[1_1_26rem]">
         {eyebrow && <Eyebrow className="mb-2">{eyebrow}</Eyebrow>}
         <h1 className="font-display text-[34px] leading-[1.05] font-bold tracking-[-0.025em]">{title}</h1>
         {subtitle && <p className="mt-2 max-w-[44rem] text-[14px] leading-relaxed text-muted-foreground">{subtitle}</p>}
@@ -203,11 +204,79 @@ export function Meter({ value, className, tone = "brand" }: { value: number; cla
 
 export const message = (e: unknown) => (e instanceof Error ? e.message : String(e));
 
-export const minutes = (s: number) => (s < 60 ? `${Math.round(s)} s` : `${(s / 60).toFixed(1)} min`);
+/**
+ * Recorded speech per language that's enough to train on. Training waits until every enabled
+ * language has this much; more still makes a better model.
+ */
+export const ENOUGH_SECONDS = 5 * 60;
+
+/** Enabled languages still short of ENOUGH_SECONDS, with how many seconds each still needs. */
+export const shortOf = (stats: { lang: string; trainSeconds: number; testSeconds: number }[]) =>
+  stats.map((s) => ({ lang: s.lang, need: ENOUGH_SECONDS - s.trainSeconds - s.testSeconds })).filter((s) => s.need > 0);
+
+export const minutes = (s: number) =>
+  s < 60 ? `${Math.round(s)} s` : s < 6000 ? `${(s / 60).toFixed(1)} min` : `${Math.round(s / 60).toLocaleString("en-US")} min`;
 
 export const pct = (x: number | undefined | null) => (x == null ? "—" : `${(x * 100).toFixed(1)}%`);
 
 /** Runs an async loader on mount (and when deps change); exposes data, error and reload. */
+/**
+ * A row that scrolls sideways when it doesn't fit. The edges fade only on a side with more to see,
+ * items snap (give them `snap-start`), a vertical wheel scrolls it sideways until it reaches an end,
+ * and the child with `data-strip-key={active}` is kept in view.
+ */
+export function ScrollStrip({ active, className, innerClassName, fade = 28, children }: {
+  active?: string | null; className?: string; innerClassName?: string; fade?: number; children: ReactNode;
+}) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [edges, setEdges] = useState<[boolean, boolean]>([false, false]);
+  const update = useCallback(() => {
+    const el = ref.current;
+    if (!el) return;
+    const l = el.scrollLeft > 1;
+    const r = el.scrollLeft + el.clientWidth < el.scrollWidth - 1;
+    setEdges((e) => (e[0] === l && e[1] === r ? e : [l, r]));
+  }, []);
+  useLayoutEffect(() => {
+    const el = ref.current!;
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    if (el.firstElementChild) ro.observe(el.firstElementChild);
+    const onWheel = (e: WheelEvent) => {
+      if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+      const max = el.scrollWidth - el.clientWidth;
+      if (max <= 0 || (e.deltaY < 0 && el.scrollLeft <= 0) || (e.deltaY > 0 && el.scrollLeft >= max - 1)) return;
+      e.preventDefault();
+      el.scrollLeft += e.deltaY;
+    };
+    el.addEventListener("wheel", onWheel, { passive: false });
+    return () => (ro.disconnect(), el.removeEventListener("wheel", onWheel));
+  }, [update]);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || active == null) return;
+    const item = el.querySelector<HTMLElement>(`[data-strip-key="${CSS.escape(active)}"]`);
+    if (!item) return;
+    // Scroll only this strip; scrollIntoView would also drag the page around it.
+    const box = el.getBoundingClientRect();
+    const r = item.getBoundingClientRect();
+    if (r.left < box.left + fade) el.scrollBy({ left: r.left - box.left - fade, behavior: "smooth" });
+    else if (r.right > box.right - fade) el.scrollBy({ left: r.right - box.right + fade, behavior: "smooth" });
+  }, [active, fade]);
+  const mask = `linear-gradient(90deg, ${edges[0] ? "transparent" : "#000"}, #000 ${fade}px, #000 calc(100% - ${fade}px), ${edges[1] ? "transparent" : "#000"})`;
+  return (
+    <div
+      ref={ref}
+      onScroll={update}
+      className={cn("scrollbar-none min-w-0 snap-x snap-proximity overflow-x-auto overscroll-x-contain", className)}
+      style={{ maskImage: mask, WebkitMaskImage: mask }}
+    >
+      <div className={cn("flex w-max", innerClassName)}>{children}</div>
+    </div>
+  );
+}
+
 /**
  * Whether this screen is still the one on show. A screen you leave stays mounted for its exit
  * animation, so window-level key handlers check this to stop acting on keys meant for the next one.

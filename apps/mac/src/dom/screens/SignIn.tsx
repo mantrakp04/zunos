@@ -147,7 +147,7 @@ export default function SignIn({ a }: ScreenProps) {
                 >
                   <h2 className="font-display text-[19px] font-semibold tracking-tight">Check your email</h2>
                   <p className="mt-1 text-[13.5px] leading-relaxed text-muted-foreground">
-                    Enter the code we sent to <span className="font-medium text-foreground select-text">{sent.email}</span>.
+                    Enter the code we sent to <span className="font-medium [overflow-wrap:anywhere] text-foreground select-text">{sent.email}</span>.
                   </p>
                   <CodeTiles
                     className="mt-5"
@@ -171,7 +171,7 @@ export default function SignIn({ a }: ScreenProps) {
                       <ErrorNote error={verify.error ?? send.error} />
                     )}
                   </div>
-                  <div className="mt-1 flex items-center gap-1 text-[13px]">
+                  <div className="mt-1 flex flex-wrap items-center gap-x-1 text-[13px] whitespace-nowrap">
                     <button
                       type="button"
                       onClick={() => {

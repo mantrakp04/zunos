@@ -10,6 +10,7 @@ import { Bean, type BeanMood } from "../Bean";
 import { Badge, Button, ErrorNote, langName, minutes, useAction, useAsync, usePresent } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 import { Compose } from "./record/Compose";
+import { Enough } from "./record/Enough";
 import { Clock, Deck, type KeyName, type Phase } from "./record/Deck";
 import { LanguageDials } from "./record/LanguageDials";
 import { Library } from "./record/Library";
@@ -18,7 +19,7 @@ import { Prompter } from "./record/Prompter";
 import { TakeTray } from "./record/TakeTray";
 import { VoiceRibbon } from "./record/VoiceRibbon";
 
-export default function Record({ a, live }: ScreenProps) {
+export default function Record({ a, live, go }: ScreenProps) {
   const langs = useAsync(() => a.languages());
   const stats = useAsync(() => a.stats());
   const enabled = useMemo(() => (langs.data ?? []).filter((l) => l.enabled), [langs.data]);
@@ -179,14 +180,22 @@ export default function Record({ a, live }: ScreenProps) {
 
   return (
     <div className="@container relative flex h-full min-h-[560px] flex-col px-8 pt-9 pb-3">
-      <header className="mb-4 flex items-end justify-between gap-6">
-        <div className="min-w-0">
+      {/* A few languages sit next to the title; more get a row of their own that scrolls. */}
+      <header className={cn("mb-4 flex gap-x-6 gap-y-3", enabled.length > 3 ? "flex-col" : "items-end justify-between")}>
+        <div className="min-w-0 shrink-0">
           <h1 className="font-display text-[30px] leading-none font-bold tracking-[-0.025em]">Record</h1>
           <p className="mt-2 hidden max-w-[22rem] text-[13px] leading-snug text-muted-foreground @[880px]:block">
-            Read aloud at your normal pace. Around ten minutes in each language makes a real difference.
+            Read aloud at your normal pace. Five minutes in each language is enough to train; more makes a better model.
           </p>
         </div>
-        <LanguageDials languages={enabled} stats={stats.data} value={current} onChange={onLang} disabled={locked} />
+        <LanguageDials
+          languages={enabled}
+          stats={stats.data}
+          value={current}
+          onChange={onLang}
+          disabled={locked}
+          className={enabled.length > 3 ? "self-stretch" : "shrink"}
+        />
       </header>
 
       <section data-rec={live.recording} className="rk-stage grain flex min-h-[260px] flex-1 flex-col overflow-hidden">
@@ -196,12 +205,12 @@ export default function Record({ a, live }: ScreenProps) {
               <Badge tone="brand">
                 <PenLine className="size-3" /> Your own
               </Badge>
-              <span className="truncate text-[13.5px] font-medium">Write something to read in {current ? langName(current) : ""}</span>
+              <span className="min-w-0 truncate text-[13.5px] font-medium">Write something to read in {current ? langName(current) : ""}</span>
             </>
           ) : label ? (
             <>
               <Badge tone="brand">{label.kind}</Badge>
-              <span className="min-w-0 truncate text-[13.5px] font-medium tabular-nums">{label.title}</span>
+              <span title={label.title} className="min-w-0 truncate text-[13.5px] font-medium tabular-nums">{label.title}</span>
               {prompt?.recorded && <Badge tone="good">Read before</Badge>}
             </>
           ) : (
@@ -297,8 +306,12 @@ export default function Record({ a, live }: ScreenProps) {
 
       {error && <ErrorNote error={error} className="mt-3" />}
 
-      <div className="mt-2">
-        <TakeTray takes={takes} />
+      {/* The "enough to train" card sits beside the takes, or under them when there isn't room. */}
+      <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1">
+        <div className="min-w-[min(100%,20rem)] flex-1">
+          <TakeTray takes={takes} />
+        </div>
+        {!locked && <Enough stats={stats.data} current={current} onLang={onLang} onTrain={go && (() => go("train"))} />}
       </div>
 
       <AnimatePresence>

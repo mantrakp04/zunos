@@ -38,19 +38,20 @@ export function CodeTiles({
   }, [shakeKey, shake]);
 
   return (
-    <motion.div animate={shake} className={cn("relative w-fit", className)}>
+    // 386px is the row at full size; in a narrower column the tiles shrink together and keep their shape.
+    <motion.div animate={shake} className={cn("relative w-[386px] max-w-full", className)}>
       <div className="flex items-center gap-2.5" aria-hidden>
         {Array.from({ length: LENGTH }, (_, i) => {
           const digit = value[i];
           const active = focused && !busy && i === Math.min(value.length, LENGTH - 1) && value.length < LENGTH;
           return (
             <div key={i} className="contents">
-              {i === 3 && <span className="mx-0.5 h-[3px] w-2.5 rounded-full bg-foreground/15" />}
+              {i === 3 && <span className="mx-0.5 h-[3px] w-2.5 shrink-0 rounded-full bg-foreground/15" />}
               <motion.div
                 animate={busy ? { y: [0, -5, 0] } : { y: 0 }}
                 transition={busy ? { duration: 0.7, repeat: Infinity, delay: i * 0.08, ease: "easeInOut" } : { duration: 0.2 }}
                 className={cn(
-                  "relative grid h-[66px] w-[52px] place-items-center rounded-[16px] transition-[background-color,box-shadow] duration-200",
+                  "relative grid aspect-[52/66] min-w-0 flex-1 place-items-center rounded-[16px] transition-[background-color,box-shadow] duration-200",
                   "bg-card",
                   digit && "bg-[color-mix(in_oklab,var(--brand-cream)_38%,var(--card))] dark:bg-[color-mix(in_oklab,var(--brand)_12%,var(--card))]",
                   busy

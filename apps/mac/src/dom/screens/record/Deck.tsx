@@ -69,7 +69,7 @@ export const Deck = memo(function Deck({
                 <div className="flex items-center gap-1.5 font-display text-[15px] font-semibold text-good">
                   <Check className="size-4" strokeWidth={2.6} /> Saved
                 </div>
-                <div className="truncate">{savedNote}</div>
+                <div title={savedNote} className="truncate">{savedNote}</div>
               </>
             ) : (
               <>

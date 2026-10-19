@@ -32,6 +32,9 @@ function dayLabel(iso: string) {
   return d.toLocaleDateString([], { month: "short", day: "numeric" });
 }
 
+/** Cards rendered at first; "Show more" adds another page. Keeps a long history quick to lay out. */
+const PAGE = 40;
+
 export const DictationHistory = memo(function DictationHistory({
   a,
   items,
@@ -47,15 +50,17 @@ export const DictationHistory = memo(function DictationHistory({
   onCopy: (d: DictationItem, text: string) => void;
   empty: ReactNode;
 }) {
+  const [limit, setLimit] = useState(PAGE);
   const days = useMemo(() => {
     const out: { label: string; items: DictationItem[] }[] = [];
-    for (const d of items) {
+    for (const d of items.slice(0, limit)) {
       const label = dayLabel(d.createdAt);
       if (out.at(-1)?.label === label) out.at(-1)!.items.push(d);
       else out.push({ label, items: [d] });
     }
     return out;
-  }, [items]);
+  }, [items, limit]);
+  const more = items.length - limit;
 
   if (!items.length) return <>{empty}</>;
   return (
@@ -82,6 +87,11 @@ export const DictationHistory = memo(function DictationHistory({
           </div>
         </section>
       ))}
+      {more > 0 && (
+        <Button variant="ghost" size="sm" className="mx-auto mt-1" onClick={() => setLimit((l) => l + PAGE * 2)}>
+          Show {Math.min(more, PAGE * 2)} more
+        </Button>
+      )}
     </div>
   );
 });
@@ -151,40 +161,45 @@ function DictationCard({
       )}
     >
       {/* ---- what, when, where ---- */}
-      <header className="flex h-6 items-center gap-2 text-[11.5px] text-muted-foreground">
+      <header className="flex h-6 min-w-0 items-center gap-2 text-[11.5px] text-muted-foreground">
         {item.lang && item.lang !== "?" ? (
           <span
+            title={langName(item.lang)}
             className={cn(
-              "inline-flex h-5 items-center rounded-full px-2 text-[11px] font-semibold",
+              "inline-block h-5 max-w-[45%] shrink-0 truncate rounded-full px-2 text-[11px] leading-5 font-semibold",
               latest && fresh ? "bg-brand/12 text-brand dark:bg-brand/20" : "bg-muted text-muted-foreground",
             )}
           >
             {langName(item.lang)}
           </span>
         ) : null}
-        <span className="whitespace-nowrap tabular-nums">{clock(item.createdAt)}</span>
-        {item.appName && (
-          <span className="truncate">
+        <span className="shrink-0 whitespace-nowrap tabular-nums">{clock(item.createdAt)}</span>
+        {/* "Pasted in <app>" says it already, and the chip needs the room. */}
+        {item.appName && !(landed?.pastedInto && !editing) && (
+          <span className="min-w-0 shrink-[100] truncate" title={item.appName}>
             <span className="text-muted-foreground/60">in</span> <span className="font-medium text-foreground/70">{item.appName}</span>
           </span>
         )}
 
-        <div className="ml-auto flex shrink-0 items-center gap-0.5">
-          <AnimatePresence>
-            {landed && !editing && (
-              <motion.span
-                key="landed"
-                initial={{ opacity: 0, scale: 0.6, x: 6 }}
-                animate={{ opacity: 1, scale: 1, x: 0, transition: { type: "spring", stiffness: 520, damping: 26, delay: revealEnd } }}
-                exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.12 } }}
-                className="mr-1 inline-flex h-5 items-center gap-1 rounded-full bg-good/12 px-2 text-[11px] font-semibold whitespace-nowrap text-good dark:bg-good/18"
-              >
-                <Check className="size-3" strokeWidth={3} />
-                {landed.pastedInto ? `Pasted in ${landed.pastedInto}` : "On clipboard"}
-              </motion.span>
-            )}
-          </AnimatePresence>
-          <div className="flex items-center gap-0.5 opacity-0 transition-opacity duration-150 group-focus-within:opacity-100 group-hover:opacity-100">
+        {/* When it's tight, the app name gives way first, then the chip; the buttons never do. */}
+        <span className="flex-1" />
+        <AnimatePresence>
+          {landed && !editing && (
+            <motion.span
+              key="landed"
+              initial={{ opacity: 0, scale: 0.6, x: 6 }}
+              animate={{ opacity: 1, scale: 1, x: 0, transition: { type: "spring", stiffness: 520, damping: 26, delay: revealEnd } }}
+              exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.12 } }}
+              title={landed.pastedInto ? `Pasted in ${landed.pastedInto}` : undefined}
+              className="mr-1 inline-flex h-5 min-w-0 items-center gap-1 rounded-full bg-good/12 px-2 text-[11px] font-semibold whitespace-nowrap text-good dark:bg-good/18"
+            >
+              <Check className="size-3 shrink-0" strokeWidth={3} />
+              <span className="truncate">{landed.pastedInto ? `Pasted in ${landed.pastedInto}` : "On clipboard"}</span>
+            </motion.span>
+          )}
+        </AnimatePresence>
+        <div className="flex shrink-0 items-center gap-0.5">
+          <div className="flex shrink-0 items-center gap-0.5 opacity-0 transition-opacity duration-150 group-focus-within:opacity-100 group-hover:opacity-100">
             {!failed && !editing && (
               <IconButton title="Fix what it heard" onClick={() => (setRevealing(false), setEditing(true))}>
                 <PencilLine className="size-3.5" />
@@ -217,7 +232,7 @@ function DictationCard({
           <AlertTriangle className="mt-0.5 size-4 shrink-0 text-destructive" />
           <div className="min-w-0 flex-1">
             <p className="text-[13.5px] font-medium">Couldn't write this one down</p>
-            {item.error && <p className="mt-0.5 text-[12px] text-muted-foreground select-text">{item.error}</p>}
+            {item.error && <p dir="auto" className="mt-0.5 text-[12px] [overflow-wrap:anywhere] text-muted-foreground select-text">{item.error}</p>}
             <div className="mt-2.5 flex items-center gap-2">
               {item.hasAudio ? (
                 <Button variant="outline" size="sm" disabled={retry.busy} onClick={() => retry.run()}>
@@ -245,12 +260,13 @@ function DictationCard({
           <AnimatePresence mode="popLayout" initial={false}>
             <motion.p
               key={changes ? "changes" : "text"}
+              dir="auto"
               initial={{ opacity: 0, filter: "blur(3px)" }}
               animate={{ opacity: 1, filter: "blur(0px)" }}
               exit={{ opacity: 0, filter: "blur(3px)", transition: { duration: 0.12 } }}
               transition={{ duration: 0.22 }}
               className={cn(
-                "mt-2 cursor-text text-pretty select-text",
+                "mt-2 cursor-text text-pretty [overflow-wrap:anywhere] select-text",
                 latest ? "text-[16px] leading-[1.5] tracking-[-0.005em]" : "text-[14px] leading-relaxed text-foreground/85",
               )}
             >
@@ -272,12 +288,12 @@ function DictationCard({
               type="button"
               onClick={() => (setRevealing(false), setEditing(true))}
               title="Fix what it heard"
-              className="mt-2 block w-full rounded-[10px] bg-foreground/[0.03] px-2.5 py-1.5 text-left text-[12px] leading-relaxed text-muted-foreground transition-colors hover:bg-foreground/[0.055]"
+              className="mt-2 block w-full rounded-[10px] bg-foreground/[0.03] px-2.5 py-1.5 text-left text-[12px] leading-relaxed [overflow-wrap:anywhere] text-muted-foreground transition-colors hover:bg-foreground/[0.055]"
             >
               <span className="mr-1.5 font-mono text-[9.5px] font-semibold tracking-[0.12em] text-muted-foreground/70 uppercase">
                 {fix ? "Fixed" : "Heard"}
               </span>
-              {fix ? <Diff parts={fix} subtle /> : item.raw}
+              <span dir="auto">{fix ? <Diff parts={fix} subtle /> : item.raw}</span>
             </button>
           )}
         </>
@@ -285,7 +301,7 @@ function DictationCard({
 
       {/* ---- training, cleanup, length ---- */}
       {!failed && !editing && (
-        <footer className="mt-2.5 flex min-h-6 items-center gap-1.5">
+        <footer className="mt-2.5 flex min-h-6 flex-wrap items-center gap-x-1.5 gap-y-1">
           <TrainControl item={item} busy={train.busy} onTrain={() => train.run()} />
           {cleaned && (
             <button
@@ -293,7 +309,7 @@ function DictationCard({
               onClick={() => (setRevealing(false), setChanges((c) => !c))}
               title={changes ? "Show the cleaned text" : "Show what cleanup changed"}
               className={cn(
-                "inline-flex h-6 items-center gap-1 rounded-full px-2 text-[11.5px] font-medium transition-colors",
+                "inline-flex h-6 items-center gap-1 rounded-full px-2 text-[11.5px] font-medium whitespace-nowrap transition-colors",
                 changes ? "bg-brand-gold/20 text-[#9a5a0c] dark:text-brand-gold" : "text-muted-foreground hover:bg-foreground/[0.05] hover:text-foreground",
               )}
             >
@@ -301,7 +317,7 @@ function DictationCard({
               {changes ? "Changes" : `${styleName ?? "Cleaned"}`}
             </button>
           )}
-          <span className="ml-auto truncate pl-2 text-[11.5px] text-muted-foreground tabular-nums">{item.seconds.toFixed(1)} s</span>
+          <span className="ml-auto pl-2 text-[11.5px] whitespace-nowrap text-muted-foreground tabular-nums">{item.seconds.toFixed(1)} s</span>
         </footer>
       )}
       <ErrorNote error={train.error ?? remove.error} className="mt-2" />
@@ -314,7 +330,7 @@ function TrainControl({ item, busy, onTrain }: { item: DictationItem; busy: bool
   if (item.clip)
     return (
       <motion.span initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", stiffness: 500, damping: 26 }}>
-        <Badge tone={item.clip.split === "train" ? "good" : "brand"} className="h-6 px-2.5">
+        <Badge tone={item.clip.split === "train" ? "good" : "brand"} className="h-6 px-2.5 whitespace-nowrap">
           <GraduationCap className="size-3" />
           {item.clip.split === "train" ? "In training set" : "In test set"}
         </Badge>
@@ -327,7 +343,7 @@ function TrainControl({ item, busy, onTrain }: { item: DictationItem; busy: bool
       disabled={busy}
       onClick={onTrain}
       title="Add this recording to your voice, so the next model learns from it"
-      className="inline-flex h-6 items-center gap-1 rounded-full px-2 text-[11.5px] font-medium text-muted-foreground transition-colors hover:bg-foreground/[0.05] hover:text-foreground disabled:opacity-60"
+      className="inline-flex h-6 items-center gap-1 rounded-full px-2 text-[11.5px] font-medium whitespace-nowrap text-muted-foreground transition-colors hover:bg-foreground/[0.05] hover:text-foreground disabled:opacity-60"
     >
       {busy ? <Loader2 className="size-3 animate-spin" /> : <GraduationCap className="size-3" />}
       {busy ? "Adding" : "Use for training"}
@@ -382,12 +398,15 @@ function FixEditor({
           if (e.key === "Enter" && e.metaKey) (e.preventDefault(), changed && onSave(text));
         }}
         rows={1}
-        className="block w-full resize-none rounded-[12px] bg-background px-3 py-2 text-[14.5px] leading-relaxed shadow-[inset_0_0_0_1px_var(--input),0_0_0_3px_color-mix(in_oklab,var(--brand)_14%,transparent)] outline-none focus:shadow-[inset_0_0_0_1.5px_var(--brand),0_0_0_4px_color-mix(in_oklab,var(--brand)_16%,transparent)] disabled:opacity-60"
+        dir="auto"
+        className="block w-full resize-none [overflow-wrap:anywhere] rounded-[12px] bg-background px-3 py-2 text-[14.5px] leading-relaxed shadow-[inset_0_0_0_1px_var(--input),0_0_0_3px_color-mix(in_oklab,var(--brand)_14%,transparent)] outline-none focus:shadow-[inset_0_0_0_1.5px_var(--brand),0_0_0_4px_color-mix(in_oklab,var(--brand)_16%,transparent)] disabled:opacity-60"
       />
       {edits > 0 && (
-        <p className="mt-2 rounded-[10px] bg-foreground/[0.03] px-2.5 py-1.5 text-[12px] leading-relaxed text-muted-foreground">
+        <p className="mt-2 rounded-[10px] bg-foreground/[0.03] px-2.5 py-1.5 text-[12px] leading-relaxed [overflow-wrap:anywhere] text-muted-foreground">
           <span className="mr-1.5 font-mono text-[9.5px] font-semibold tracking-[0.12em] text-muted-foreground/70 uppercase">Heard</span>
-          <Diff parts={preview} subtle />
+          <span dir="auto">
+            <Diff parts={preview} subtle />
+          </span>
         </p>
       )}
       <div className="mt-2.5 flex items-center gap-2">
@@ -445,7 +464,7 @@ function DeleteButton({ busy, onDelete }: { busy: boolean; onDelete: () => void 
           exit={{ opacity: 0, scale: 0.8 }}
           onClick={onDelete}
           disabled={busy}
-          className="inline-flex h-6 items-center gap-1 rounded-full bg-destructive px-2.5 text-[11.5px] font-semibold text-white"
+          className="inline-flex h-6 items-center gap-1 rounded-full bg-destructive px-2.5 text-[11.5px] font-semibold whitespace-nowrap text-white"
         >
           {busy ? <Loader2 className="size-3 animate-spin" /> : <Trash2 className="size-3" />}
           Delete

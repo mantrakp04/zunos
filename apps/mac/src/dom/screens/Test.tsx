@@ -64,7 +64,8 @@ export default function Test({ a, live }: ScreenProps) {
   }
 
   return (
-    <div className="mx-auto max-w-[1180px] px-10 pt-10 pb-16">
+    // A container so the model picker can slim down when the header gets tight.
+    <div className="@container/test mx-auto max-w-[1180px] px-10 pt-10 pb-16">
       <PageHeader
         title="Test"
         subtitle={

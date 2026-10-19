@@ -1,7 +1,7 @@
 /* Train screen: language series colors and the pipeline's motion. */
 
-/* One color per language, assigned in the order of your languages (never by rank).
-   The first three are checked for colour-blind separation on both surfaces. */
+/* One color per language, assigned in the order of your languages (never by rank); twelve, then
+   they repeat. The first three are checked for colour-blind separation on both surfaces. */
 :root {
   --zl-1: #e8432a;
   --zl-2: #00917f;
@@ -9,6 +9,13 @@
   --zl-4: #2f6fdc;
   --zl-5: #c2408f;
   --zl-6: #8a7a12;
+  /* past six languages; each sits between the first six in hue */
+  --zl-7: #0e86b8;
+  --zl-8: #c96a12;
+  --zl-9: #4f8a26;
+  --zl-10: #a04cc6;
+  --zl-11: #b0475c;
+  --zl-12: #4d6688;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -18,6 +25,12 @@
     --zl-4: #5b8ff0;
     --zl-5: #e0609f;
     --zl-6: #b3a238;
+    --zl-7: #34a9d8;
+    --zl-8: #e58a37;
+    --zl-9: #74b143;
+    --zl-10: #b673dc;
+    --zl-11: #d66b80;
+    --zl-12: #8199bd;
   }
 }
 

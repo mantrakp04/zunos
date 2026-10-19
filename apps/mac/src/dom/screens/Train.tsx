@@ -6,14 +6,14 @@ import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { RunDetail } from "../../shared/types";
-import { Badge, ErrorNote, Eyebrow, PageHeader, useAction, useAsync } from "../ui";
+import { Badge, ErrorNote, Eyebrow, PageHeader, shortOf, useAction, useAsync } from "../ui";
 import type { ScreenProps } from "../ZunosApp";
 import { DataStory, LivePanel, StartPanel } from "./train/NextModel";
 import { PipelineTrack, TRACK, trackPos } from "./train/Pipeline";
 import { RunView } from "./train/RunView";
 import { baseLabel, isActive, shortDate, Versions } from "./train/Versions";
 
-export default function Train({ a, live }: ScreenProps) {
+export default function Train({ a, live, go }: ScreenProps) {
   const runs = useAsync(() => a.runs());
   const ids = (runs.data ?? []).map((r) => r.id).join(",");
   const details = useAsync(async () => {
@@ -56,7 +56,14 @@ export default function Train({ a, live }: ScreenProps) {
     const extra = [...(stats.data ?? []).map((s) => s.lang as string), ...Object.values(details.data ?? {}).flatMap((d) => d?.evals.flatMap((e) => Object.keys(e.langs)) ?? [])];
     return [...new Set([...enabled, ...extra])];
   }, [langs.data, stats.data, details.data]);
-  const colorOf = (l: string) => `var(--zl-${(Math.max(0, langOrder.indexOf(l)) % 6) + 1})`;
+  const colorOf = (l: string) => `var(--zl-${(Math.max(0, langOrder.indexOf(l)) % 12) + 1})`;
+
+  // Training waits until every enabled language has enough recorded (a language with no clips has no stats row).
+  const short = useMemo(() => {
+    if (!stats.data || !langs.data) return null;
+    const enabled = langs.data.filter((l) => l.enabled).map((l) => l.code as string);
+    return shortOf(enabled.map((lang) => stats.data!.find((s) => s.lang === lang) ?? { lang, trainSeconds: 0, testSeconds: 0 }));
+  }, [stats.data, langs.data]);
 
   const baselines = useMemo(() => {
     const out: Record<string, number> = {};
@@ -76,6 +83,9 @@ export default function Train({ a, live }: ScreenProps) {
   const selectedId = picked && list.some((r) => r.id === picked) ? picked : (active?.id ?? best?.id ?? list[0]?.id ?? null);
   const selected = selectedId ? (details.data?.[selectedId] ?? null) : null;
   const selectedSummary = list.find((r) => r.id === selectedId) ?? null;
+  const selectedBase = selected
+    ? `${baseLabel(selected.base, list).branch ? "fine-tuned" : "on Whisper"} ${baseLabel(selected.base, list).text} · ${shortDate(selected.createdAt)}`
+    : "";
 
   // The hero: a run in flight (or a local transfer for one), otherwise the next model.
   const flightRun = live.transfer ? (list.find((r) => r.id === live.transfer!.runId) ?? null) : active;
@@ -117,11 +127,16 @@ export default function Train({ a, live }: ScreenProps) {
                 ) : stage ? (
                   <>
                     <Eyebrow className="flex items-center gap-2 text-brand">
-                      <span className="relative flex size-2">
+                      <span className="relative flex size-2 shrink-0">
                         <span className="absolute inset-0 animate-ping rounded-full bg-brand opacity-60" />
                         <span className="relative size-2 rounded-full bg-brand" />
                       </span>
-                      Training {flightName} · step {Math.min(pos.index + 1, TRACK.length)} of {TRACK.length}
+                      <span className="min-w-0 truncate" title={flightName}>
+                        Training {flightName}
+                      </span>
+                      <span className="-ml-1 shrink-0 whitespace-nowrap">
+                        · step {Math.min(pos.index + 1, TRACK.length)} of {TRACK.length}
+                      </span>
                     </Eyebrow>
                     <h2 className="mt-2.5 font-display text-[30px] leading-[1.08] font-bold tracking-[-0.022em]">
                       {stage.title}
@@ -156,6 +171,10 @@ export default function Train({ a, live }: ScreenProps) {
                 quoteError={quote.error}
                 loading={quote.loading}
                 blocked={!!active}
+                // Until the recordings are counted, hold the button (unless counting failed: then the server decides).
+                short={short ?? []}
+                counting={!short && !stats.error && !langs.error}
+                onRecord={go && (() => go("record"))}
                 busy={start.busy}
                 error={start.error}
                 onStart={() => start.run()}
@@ -218,10 +237,11 @@ export default function Train({ a, live }: ScreenProps) {
             className="zn-surface mt-3 p-6"
           >
             <div className="mb-5 flex flex-wrap items-center gap-x-3 gap-y-2">
-              <h3 className="font-display text-[26px] leading-none font-bold tracking-[-0.02em]">{selected.name}</h3>
-              <span className="text-[13px] text-muted-foreground">
-                {baseLabel(selected.base, list).branch ? `fine-tuned ${baseLabel(selected.base, list).text}` : `on Whisper ${baseLabel(selected.base, list).text}`} ·{" "}
-                {shortDate(selected.createdAt)}
+              <h3 title={selected.name} className="max-w-full min-w-0 truncate font-display text-[26px] leading-[1.15] font-bold tracking-[-0.02em]">
+                {selected.name}
+              </h3>
+              <span className="max-w-full min-w-0 truncate text-[13px] text-muted-foreground" title={selectedBase}>
+                {selectedBase}
               </span>
               <span className="ml-auto flex items-center gap-1.5">
                 {best?.id === selected.id && <Badge tone="brand">Best so far</Badge>}

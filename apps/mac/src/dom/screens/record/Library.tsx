@@ -135,7 +135,7 @@ function Row({ p, on, onSelect }: { p: PromptItem; on: boolean; onSelect: (id: s
         {p.recorded && <Check className="size-2.5" strokeWidth={3.5} />}
       </span>
       <span className="min-w-0 flex-1">
-        <span className={cn("line-clamp-2", on && "font-medium")}>{p.lines[0]}</span>
+        <span dir="auto" title={p.lines.join(" ")} className={cn("line-clamp-2 [overflow-wrap:anywhere]", on && "font-medium")}>{p.lines[0]}</span>
         {p.lines.length > 1 && <span className="mt-0.5 block text-[11.5px] text-muted-foreground">{p.lines.length} lines</span>}
       </span>
       {on && <span className="absolute top-2 bottom-2 left-0 w-[3px] rounded-full bg-brand" />}

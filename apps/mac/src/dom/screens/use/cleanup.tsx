@@ -89,7 +89,7 @@ export function CleanupStrip({ cleanup, busy, className }: { cleanup: Cleanup; b
               <Glyph on={false} />
               <div className="min-w-0 flex-1">
                 <div className="text-[12.5px] font-semibold">Clean up as you talk</div>
-                <div className="truncate text-[11.5px] text-muted-foreground">
+                <div className="truncate text-[11.5px] text-muted-foreground" title={`Drops the ums, fixes punctuation. ${gb(state.totalBytes)}, runs on this Mac.`}>
                   Drops the ums, fixes punctuation. {gb(state.totalBytes)}, runs on this Mac.
                 </div>
               </div>
@@ -121,7 +121,9 @@ export function CleanupStrip({ cleanup, busy, className }: { cleanup: Cleanup; b
               </span>
               <div className="min-w-0 flex-1">
                 <div className="text-[12.5px] font-semibold">Cleanup isn't available</div>
-                <div className="line-clamp-2 text-[11.5px] text-muted-foreground select-text">{state.message}</div>
+                <div title={state.message} className="line-clamp-2 text-[11.5px] [overflow-wrap:anywhere] text-muted-foreground select-text">
+                  {state.message}
+                </div>
               </div>
               <Button variant="outline" size="sm" onClick={download}>
                 Try again
@@ -145,8 +147,10 @@ function Downloading({ done, total }: { done: number; total: number }) {
       <Glyph on progress={p} />
       <div className="min-w-0 flex-1">
         <div className="flex items-baseline justify-between gap-3">
-          <span className="truncate text-[12.5px] font-semibold">Downloading cleanup model</span>
-          <span className="font-mono text-[11px] font-semibold text-foreground/80 tabular-nums">{Math.floor(p * 100)}%</span>
+          <span className="truncate text-[12.5px] font-semibold" title="Downloading cleanup model">
+            Downloading cleanup model
+          </span>
+          <span className="shrink-0 font-mono text-[11px] font-semibold text-foreground/80 tabular-nums">{Math.floor(p * 100)}%</span>
         </div>
         <div className="relative mt-1.5 h-1.5 overflow-hidden rounded-full bg-foreground/8">
           <motion.div
@@ -158,7 +162,7 @@ function Downloading({ done, total }: { done: number; total: number }) {
             <div className="zn-cleanup-indeterminate absolute inset-y-0 w-1/3 bg-[linear-gradient(90deg,transparent,rgb(255_255_255/0.55),transparent)]" />
           </motion.div>
         </div>
-        <div className="mt-1 truncate text-[11px] text-muted-foreground">
+        <div className="mt-1 truncate text-[11px] text-muted-foreground" title="Dictation works as usual meanwhile.">
           <span className="font-mono tabular-nums">
             {(done / 1e9).toFixed(1)} of {gb(total)}
           </span>

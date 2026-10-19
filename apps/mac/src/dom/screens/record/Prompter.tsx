@@ -42,9 +42,9 @@ function Page({ lines }: { lines: string[] }) {
   return (
     <div className="rk-fade-page h-full overflow-y-auto scrollbar-none">
       <div className="mx-auto flex min-h-full max-w-[48rem] flex-col justify-center px-12 py-7">
-        <p className="font-display text-[clamp(15px,min(2.2cqi,4.6cqh),23px)] leading-[1.62] tracking-[-0.008em] text-pretty">
+        <p className="font-display text-[clamp(15px,min(2.2cqi,4.6cqh),23px)] leading-[1.62] tracking-[-0.008em] text-pretty [overflow-wrap:anywhere]">
           {lines.map((l, i) => (
-            <span key={i}>
+            <span key={i} dir="auto">
               <sup className="mr-[0.3em] -top-[0.55em] font-mono text-[0.58em] font-semibold text-brand/70 tabular-nums">{i + 1}</sup>
               {l}
               {i < lines.length - 1 && " "}
@@ -105,9 +105,11 @@ function Track({ lines, focus, reading }: { lines: string[]; focus: number; read
               }}
               data-now={now}
               data-reading={reading}
+              dir="auto"
               className={cn(
-                "rk-line text-center font-display font-semibold tracking-[-0.022em] text-balance",
-                single ? "text-[clamp(22px,4.4cqi,40px)] leading-[1.22]" : "text-[clamp(20px,3.6cqi,34px)] leading-[1.24]",
+                // Sized by the stage's width and height, so a long line (or a URL) still fits around the focal point.
+                "rk-line text-center font-display font-semibold tracking-[-0.022em] text-balance [overflow-wrap:anywhere]",
+                single ? "text-[clamp(18px,min(4.4cqi,13cqh),40px)] leading-[1.22]" : "text-[clamp(16px,min(3.6cqi,9cqh),34px)] leading-[1.24]",
                 !now && "text-foreground/90",
               )}
               style={{

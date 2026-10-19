@@ -23,6 +23,7 @@ export function Compose({ lang, a, onCreated, onCancel }: {
       </p>
       <textarea
         autoFocus
+        dir="auto"
         value={text}
         onChange={(e) => setText(e.target.value)}
         onKeyDown={(e) => {

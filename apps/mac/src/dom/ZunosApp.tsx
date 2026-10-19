@@ -7,7 +7,7 @@ import { useSystemTheme } from "@zunos/ui/hooks/use-system-theme";
 import { cn } from "@zunos/ui/lib/utils";
 import { AudioLines, FlaskConical, LogOut, Mic, Sparkles, type LucideIcon } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import type { Actions } from "../services/actions";
 import type { LiveState } from "../shared/types";
@@ -18,11 +18,11 @@ import SignIn from "./screens/SignIn";
 import Test from "./screens/Test";
 import Train from "./screens/Train";
 import Use from "./screens/Use";
-import { Button, ErrorNote, langName, minutes, pct, useAsync } from "./ui";
+import { Button, ErrorNote, langName, minutes, pct, shortOf, useAsync } from "./ui";
 
-export type ScreenProps = { a: Actions; live: LiveState };
+export type ScreenProps = { a: Actions; live: LiveState; /** Switch to another screen. */ go?: (id: ScreenId) => void };
 
-type ScreenId = "record" | "train" | "test" | "use";
+export type ScreenId = "record" | "train" | "test" | "use";
 
 const NAV: { id: ScreenId; label: string; icon: LucideIcon; Screen: (p: ScreenProps) => React.ReactNode }[] = [
   { id: "record", label: "Record", icon: Mic, Screen: Record },
@@ -96,9 +96,9 @@ export default function ZunosApp({ live, dom: _dom, ...a }: Props) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -4 }}
             transition={{ duration: 0.18, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute inset-0 overflow-y-auto"
+            className="absolute inset-0 overflow-x-hidden overflow-y-auto"
           >
-            <Screen a={a as Actions} live={live} />
+            <Screen a={a as Actions} live={live} go={setScreen} />
           </motion.div>
         </AnimatePresence>
       </main>
@@ -131,7 +131,9 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
     use: hot ? (hot.phase === "listening" ? "listening" : "writing") : live.engine === "ready" && active ? "ready" : null,
   };
   const done: Record<ScreenId, boolean> = {
-    record: recorded > 0, train: !!active, test: avg != null, use: !!active,
+    // Every language has the 5 minutes that are enough to train.
+    record: !!stats.data?.length && shortOf(stats.data).length === 0,
+    train: !!active, test: avg != null, use: !!active,
   };
 
   const mood: BeanMood =
@@ -182,27 +184,21 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
               <span className="relative font-medium">{label}</span>
               <span className="relative ml-auto flex items-center gap-1.5 text-[11.5px] tabular-nums text-muted-foreground">
                 {facts[id]}
-                {done[id] && !facts[id] && <span className="size-1.5 rounded-full bg-good" />}
+                {done[id] && (!facts[id] || id === "record") && <span title={id === "record" ? "Enough to train in every language" : undefined} className="size-1.5 rounded-full bg-good" />}
               </span>
             </button>
           );
         })}
       </nav>
 
-      <div className="mt-7 px-2.5">
+      <div className="mt-7 min-h-0 overflow-hidden px-2.5">
         <div className="mb-2 flex items-center justify-between">
           <span className="text-[10.5px] font-semibold tracking-[0.12em] text-muted-foreground uppercase">Your voice</span>
           <button onClick={onEditLanguages} disabled={live.recording} className="text-[11.5px] text-muted-foreground hover:text-brand disabled:opacity-40">
             Edit
           </button>
         </div>
-        <div className="flex flex-wrap gap-1.5">
-          {languages.map((code) => (
-            <span key={code} className="rounded-full bg-foreground/[0.06] px-2 py-0.5 text-[11.5px] font-medium">
-              {langName(code)}
-            </span>
-          ))}
-        </div>
+        <LanguageChips codes={languages} onMore={live.recording ? undefined : onEditLanguages} />
       </div>
 
       <div className="mt-auto flex flex-col gap-2">
@@ -214,13 +210,67 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
           <span className="grid size-6 shrink-0 place-items-center rounded-full bg-brand-ink text-[11px] font-semibold text-brand-cream dark:bg-brand-cream dark:text-brand-ink">
             {(live.user?.email ?? "?")[0]!.toUpperCase()}
           </span>
-          <span className="min-w-0 flex-1 truncate text-[12px] text-muted-foreground">{live.user?.email}</span>
+          <span title={live.user?.email ?? undefined} className="min-w-0 flex-1 truncate text-[12px] text-muted-foreground">{live.user?.email}</span>
           <button title="Sign out" className="grid size-6 place-items-center rounded-md text-muted-foreground hover:bg-foreground/[0.06] hover:text-foreground" onClick={() => a.signOut()}>
             <LogOut className="size-3.5" />
           </button>
         </div>
       </div>
     </aside>
+  );
+}
+
+/**
+ * The user's languages as chips: two rows of them, four on a tall window. The rest fold into a
+ * "+N" chip that names them in its tooltip and opens the language picker.
+ */
+function LanguageChips({ codes, onMore }: { codes: string[]; onMore?: () => void }) {
+  const box = useRef<HTMLDivElement>(null);
+  // null while measuring: every chip renders, then we keep the ones in the first two rows.
+  const [fit, setFit] = useState<number | null>(null);
+  const key = codes.join();
+  useLayoutEffect(() => setFit(null), [key]);
+  useLayoutEffect(() => {
+    const el = box.current;
+    if (!el || fit !== null) return;
+    const tops = [...el.querySelectorAll<HTMLElement>("[data-chip]")].map((c) => c.offsetTop);
+    const rows = [...new Set(tops)].sort((x, y) => x - y);
+    const max = window.innerHeight >= 860 ? 4 : 2;
+    // One chip makes room for "+N".
+    setFit(rows.length <= max ? codes.length : Math.max(1, tops.filter((t) => t <= rows[max - 1]!).length - 1));
+  }, [fit, key]);
+  // Re-measure when the rail's width (fonts loading can change it) or the window's height changes.
+  useLayoutEffect(() => {
+    const el = box.current;
+    if (!el) return;
+    let w = el.clientWidth;
+    const ro = new ResizeObserver(() => el.clientWidth !== w && ((w = el.clientWidth), setFit(null)));
+    ro.observe(el);
+    const onResize = () => setFit(null);
+    window.addEventListener("resize", onResize);
+    return () => (ro.disconnect(), window.removeEventListener("resize", onResize));
+  }, []);
+  const shown = fit === null ? codes : codes.slice(0, fit);
+  const rest = codes.slice(shown.length);
+  return (
+    <div ref={box} className="flex flex-wrap gap-1.5">
+      {shown.map((code) => (
+        <span key={code} data-chip title={langName(code)} className="max-w-full truncate rounded-full bg-foreground/[0.06] px-2 py-0.5 text-[11.5px] font-medium">
+          {langName(code)}
+        </span>
+      ))}
+      {rest.length > 0 && (
+        <button
+          type="button"
+          onClick={onMore}
+          disabled={!onMore}
+          title={rest.map(langName).join(", ")}
+          className="rounded-full bg-foreground/[0.06] px-2 py-0.5 text-[11.5px] font-semibold text-muted-foreground tabular-nums hover:text-brand disabled:hover:text-muted-foreground"
+        >
+          +{rest.length}
+        </button>
+      )}
+    </div>
   );
 }
 
@@ -294,7 +344,7 @@ function EngineCard({ live, model }: { live: LiveState; model: string | null }) 
         </span>
         {label}
       </div>
-      <div className="mt-1 truncate pl-4 text-[11.5px] text-muted-foreground">{model ? `Model ${model}` : "No model yet"}</div>
+      <div title={model ?? undefined} className="mt-1 truncate pl-4 text-[11.5px] text-muted-foreground">{model ? `Model ${model}` : "No model yet"}</div>
       {live.transfer && (
         <div className="mt-2 pl-4">
           <div className="h-1 overflow-hidden rounded-full bg-foreground/10">

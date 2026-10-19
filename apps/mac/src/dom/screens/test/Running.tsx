@@ -27,7 +27,7 @@ export function Running({ done, total, ids }: { done: number; total: number; ids
             Your model writes down each clip it never trained on, using beam search. Then every word is checked against what you read.
           </p>
         </div>
-        <div className="shrink-0 font-display leading-none font-semibold tracking-[-0.04em] tabular-nums">
+        <div className="shrink-0 font-display leading-none font-semibold tracking-[-0.04em] whitespace-nowrap tabular-nums">
           <span className="text-[56px]">{done}</span>
           <span className="text-[24px] text-muted-foreground">/{total}</span>
         </div>

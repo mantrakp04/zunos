@@ -14,6 +14,8 @@ import { AccessCard, type DictationPrefs, DictationSettingsPanel, hotkeyPhrase, 
 
 const listOf = (names: string[]) =>
   names.length <= 1 ? (names[0] ?? "") : `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
+/** Named one by one up to three; past that the line would run to a paragraph, so just the count. */
+const talkIn = (names: string[]) => (names.length <= 3 ? `Talk in ${listOf(names)}` : `Talk in any of your ${names.length} languages`);
 
 type Tab = "history" | "settings";
 const TAB_KEY = "zunos.dictate.tab";
@@ -153,8 +155,9 @@ export default function Use({ a, live }: ScreenProps) {
   const showAccess = !live.access.trusted && (tab === "settings" || prefs.settings.hotkey !== "off");
 
   return (
-    <div className="@container h-full">
-      <div className="mx-auto flex max-w-[1240px] flex-col px-8 pt-10 pb-7 @min-[720px]:h-full">
+    <div className="@container/page h-full">
+      {/* Side by side, the columns fill the window; a short window scrolls rather than squash the instrument. */}
+      <div className="mx-auto flex max-w-[1240px] flex-col px-8 pt-10 pb-7 @min-[720px]:h-full @min-[720px]:min-h-[660px]">
         <PageHeader
           title="Dictate"
           subtitle={
@@ -185,7 +188,7 @@ export default function Use({ a, live }: ScreenProps) {
               <Headline phase={phase} hasItems={items.length > 0} />
               <p className="mt-1.5 min-h-[20px] max-w-[30rem] text-[13px] text-muted-foreground">
                 {phase === "loading" && (model ? `Loading ${model}. The first load takes a few seconds.` : "Loading your model. The first load takes a few seconds.")}
-                {phase === "ready" && (langNames.length > 1 ? `Talk in ${listOf(langNames)}, or mix them in one sentence.` : "Talk the way you normally would.")}
+                {phase === "ready" && (langNames.length > 1 ? `${talkIn(langNames)}, or mix them in one sentence.` : "Talk the way you normally would.")}
                 {phase === "listening" &&
                   (viaHotkey
                     ? `Listening from the hotkey. ${prefs.settings.mode === "toggle" ? "Tap" : "Let go of"} ${prefs.settings.hotkey === "off" ? "it" : KEYS[prefs.settings.hotkey].short} when you're done.`
@@ -237,7 +240,7 @@ export default function Use({ a, live }: ScreenProps) {
                       animate={{ opacity: 1, y: 0, scale: 1 }}
                       exit={{ opacity: 0, y: -4, scale: 0.96, transition: { duration: 0.18 } }}
                       transition={{ type: "spring", stiffness: 520, damping: 30 }}
-                      className="flex h-7 items-center gap-2 rounded-full bg-foreground pr-3 pl-1 text-[12.5px] font-medium text-background shadow-[0_6px_18px_-6px_rgb(0_0_0/0.35)]"
+                      className="flex h-7 items-center gap-2 rounded-full bg-foreground pr-3 pl-1 text-[12.5px] font-medium whitespace-nowrap text-background shadow-[0_6px_18px_-6px_rgb(0_0_0/0.35)]"
                     >
                       <motion.span
                         initial={{ scale: 0, rotate: -45 }}
@@ -278,7 +281,7 @@ export default function Use({ a, live }: ScreenProps) {
                 ]}
               />
             </div>
-            <div className="-mx-2 min-h-0 flex-1 px-2 pt-0.5 pb-4 @min-[720px]:overflow-y-auto @min-[720px]:[mask-image:linear-gradient(to_bottom,#000_calc(100%-24px),transparent)]">
+            <div className="-mx-2 min-h-0 flex-1 px-2 pt-0.5 pb-4 @min-[720px]/page:overflow-y-auto @min-[720px]/page:[mask-image:linear-gradient(to_bottom,#000_calc(100%-24px),transparent)]">
               <AnimatePresence initial={false}>
                 {showAccess && (
                   <div key="access" className="mb-3">
@@ -331,7 +334,7 @@ function HotkeyChip({ prefs, live, onClick }: { prefs: DictationPrefs; live: Liv
       type="button"
       onClick={onClick}
       title="Hotkey settings"
-      className="group flex h-10 items-center gap-2.5 rounded-full bg-card pr-4 pl-1.5 shadow-[0_0_0_1px_var(--border),var(--elevate)] transition-shadow hover:shadow-[0_0_0_1px_var(--input),var(--elevate)]"
+      className="group flex h-10 shrink-0 items-center gap-2.5 rounded-full whitespace-nowrap bg-card pr-4 pl-1.5 shadow-[0_0_0_1px_var(--border),var(--elevate)] transition-shadow hover:shadow-[0_0_0_1px_var(--input),var(--elevate)]"
     >
       <motion.span
         animate={{ y: held ? 1.5 : 0 }}
@@ -417,8 +420,8 @@ function StatusBar({ phase, model, viaHotkey }: { phase: Phase; model: string | 
     error: "bg-destructive",
   };
   return (
-    <div className="flex items-center justify-between px-5 pt-4 font-mono text-[10.5px] font-semibold tracking-[0.14em] text-muted-foreground uppercase">
-      <span className="flex items-center gap-2">
+    <div className="flex min-w-0 items-center justify-between px-5 pt-4 font-mono text-[10.5px] font-semibold tracking-[0.14em] text-muted-foreground uppercase">
+      <span className="flex shrink-0 items-center gap-2 whitespace-nowrap">
         <span className="relative flex size-2">
           {phase !== "ready" && phase !== "error" && (
             <span className={cn("absolute inset-0 animate-ping rounded-full opacity-60", light[phase])} />
@@ -428,7 +431,9 @@ function StatusBar({ phase, model, viaHotkey }: { phase: Phase; model: string | 
         {label[phase]}
         {viaHotkey && <span className="text-muted-foreground/70">· hotkey</span>}
       </span>
-      <span className="truncate pl-4 tracking-[0.06em] normal-case">{model ? `On-device · ${model}` : "On-device"}</span>
+      <span className="min-w-0 truncate pl-4 tracking-[0.06em] normal-case" title={model ?? undefined}>
+        {model ? `On-device · ${model}` : "On-device"}
+      </span>
     </div>
   );
 }

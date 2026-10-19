@@ -6,6 +6,7 @@ import { useEffect, useRef } from "react";
 import type { RunDetail, RunSummary } from "../../../shared/types";
 import { pct } from "../../ui";
 import { Sparkline } from "./LineChart";
+import { money } from "./NextModel";
 import { TRACK } from "./Pipeline";
 
 export const isActive = (r: RunSummary) => ["uploading", "queued", "running"].includes(r.status);
@@ -60,7 +61,7 @@ export function Versions({
   return (
     <div
       ref={scroller}
-      className="scrollbar-none -mx-10 overflow-x-auto px-10 pt-1 pb-3 [mask-image:linear-gradient(90deg,transparent,#000_2.5rem,#000_calc(100%-2.5rem),transparent)]"
+      className="scrollbar-none -mx-10 snap-x snap-proximity scroll-px-10 overflow-x-auto overscroll-x-contain px-10 pt-1 pb-3 [mask-image:linear-gradient(90deg,transparent,#000_2.5rem,#000_calc(100%-2.5rem),transparent)]"
     >
       {/* 11rem per card, or the full width when they fit: cards share it instead of sizing to their content. */}
       <div className="relative flex gap-3" style={{ width: `max(100%, ${ordered.length * 11 + (ordered.length - 1) * 0.75}rem)` }}>
@@ -80,9 +81,10 @@ export function Versions({
               data-on={on || undefined}
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.05, type: "spring", stiffness: 260, damping: 26 }}
+              // Capped: with many runs the newest (in view on the right) would otherwise come in last.
+              transition={{ delay: Math.min(i, 8) * 0.05, type: "spring", stiffness: 260, damping: 26 }}
               className={cn(
-                "group relative flex min-w-0 flex-1 basis-0 flex-col rounded-[18px] p-4 pt-3 text-left transition-[background-color,box-shadow,transform] duration-200",
+                "group relative flex min-w-0 flex-1 basis-0 snap-start flex-col rounded-[18px] p-4 pt-3 text-left transition-[background-color,box-shadow,transform] duration-200",
                 on
                   ? "bg-card shadow-[0_0_0_1.5px_var(--brand),var(--elevate)]"
                   : "bg-card/60 shadow-[0_0_0_1px_var(--border)] hover:-translate-y-0.5 hover:bg-card hover:shadow-[0_0_0_1px_var(--input),var(--elevate)]",
@@ -113,18 +115,21 @@ export function Versions({
                 </span>
               </div>
 
-              <div className="flex items-baseline gap-2">
-                <span className="font-display text-[26px] leading-none font-bold tracking-[-0.02em]">{r.name}</span>
-                <span className="flex min-w-0 items-center gap-1 truncate text-[11.5px] text-muted-foreground">
+              {/* The base drops under a long name; either one truncates when it can't fit the card on its own. */}
+              <div className="flex min-w-0 flex-wrap items-baseline gap-x-2">
+                <span title={r.name} className="max-w-full min-w-0 truncate font-display text-[26px] leading-[1.15] font-bold tracking-[-0.02em]">
+                  {r.name}
+                </span>
+                <span title={base.text} className="flex max-w-full min-w-0 items-center gap-1 text-[11.5px] text-muted-foreground">
                   {base.branch && <GitBranch className="size-3 shrink-0" />}
-                  {base.text}
+                  <span className="min-w-0 truncate">{base.text}</span>
                 </span>
               </div>
 
               {live ? (
                 <div className="mt-3 flex flex-col gap-1">
                   <span className="text-[13px] font-semibold text-brand">{TRACK.find((t) => t.id === r.stage)?.title ?? "Starting"}</span>
-                  <span className="text-[11.5px] tabular-nums text-muted-foreground">{r.costUsd != null ? `$${r.costUsd.toFixed(2)} so far` : "Getting a GPU"}</span>
+                  <span className="text-[11.5px] tabular-nums text-muted-foreground">{r.costUsd != null ? `${money(r.costUsd)} so far` : "Getting a GPU"}</span>
                 </div>
               ) : r.status === "failed" ? (
                 <div className="mt-3 text-[12.5px] text-muted-foreground">Didn't finish</div>
@@ -155,9 +160,9 @@ export function Versions({
 
               <Sparkline points={curve} best={r.bestStep} className={cn("mt-3", on ? "text-foreground/55" : "text-foreground/30")} />
 
-              <div className="mt-2 flex items-center justify-between text-[10.5px] tabular-nums text-muted-foreground">
-                <span>{r.costUsd != null ? `$${r.costUsd.toFixed(2)}` : "cost not recorded"}</span>
-                <span className="capitalize">{live ? "training" : r.status}</span>
+              <div className="mt-2 flex items-center justify-between gap-2 text-[10.5px] whitespace-nowrap tabular-nums text-muted-foreground">
+                <span className="min-w-0 truncate">{r.costUsd != null ? money(r.costUsd) : "cost not recorded"}</span>
+                <span className="shrink-0 capitalize">{live ? "training" : r.status}</span>
               </div>
             </motion.button>
           );

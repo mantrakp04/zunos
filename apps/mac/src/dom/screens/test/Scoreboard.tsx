@@ -35,6 +35,11 @@ export function RollingNumber({ value, decimals = 1, replay }: { value: number; 
 
 type Row = { lang: Lang; mine: number | undefined; base: number | undefined };
 
+/** Up to this many languages get the big side-by-side columns; more switch to a compact table. */
+const COLUMNS_MAX = 4;
+/** Languages named in the headline before it switches to a count. */
+const NAMED = 3;
+
 const list = (xs: string[]) => (xs.length < 2 ? xs.join("") : `${xs.slice(0, -1).join(", ")} and ${xs[xs.length - 1]}`);
 
 function when(iso: string) {
@@ -79,11 +84,17 @@ export function Scoreboard({
       headline = compared.length === 1 ? `Better than the reference in ${langName(wins[0].lang)}` : "Better than the reference in every language";
       sub = mineAvg != null && baseAvg != null ? `${(baseAvg / Math.max(mineAvg, 1e-6)).toFixed(2)}× better on average. The goal is 2×.` : null;
     } else if (wins.length) {
-      headline = `Better than the reference in ${list(wins.map((r) => langName(r.lang)))}`;
+      // Past a few names the sentence turns into a list nobody reads; the board below has the detail.
+      headline =
+        wins.length <= NAMED
+          ? `Better than the reference in ${list(wins.map((r) => langName(r.lang)))}`
+          : `Better than the reference in ${wins.length} of ${compared.length} languages`;
       sub =
         losses.length === 1
           ? `The reference still leads in ${langName(losses[0].lang)}, ${pct(losses[0].base)} to your ${pct(losses[0].mine)}.`
-          : `The reference still leads in ${list(losses.map((r) => langName(r.lang)))}.`;
+          : losses.length <= NAMED
+            ? `The reference still leads in ${list(losses.map((r) => langName(r.lang)))}.`
+            : `The reference still leads in ${losses.length} languages.`;
     } else if (losses.length) {
       headline = "The reference leads for now";
       sub = "More recordings and another training run are the surest way to close the gap.";
@@ -115,42 +126,57 @@ export function Scoreboard({
         )}
       </div>
 
-      <div
-        className="relative grid border-t border-border"
-        style={{ gridTemplateColumns: `repeat(${Math.max(1, rows.length)}, minmax(0, 1fr))` }}
-      >
-        {rows.map((r, i) => (
-          <LangColumn key={r.lang} row={r} scale={scale} index={i} replay={replay} />
-        ))}
-      </div>
+      {rows.length > COLUMNS_MAX ? (
+        <LangTable rows={rows} scale={scale} replay={replay} />
+      ) : (
+        <div className="@container/board relative border-t border-border">
+          <div
+            className={cn("grid", rows.length === 4 && "grid-cols-2 @[46rem]/board:grid-cols-4")}
+            style={rows.length === 4 ? undefined : { gridTemplateColumns: `repeat(${Math.max(1, rows.length)}, minmax(0, 1fr))` }}
+          >
+            {rows.map((r, i) => (
+              <LangColumn key={r.lang} row={r} scale={scale} index={i} count={rows.length} replay={replay} />
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="relative flex flex-wrap items-center gap-x-4 gap-y-1 border-t border-border px-7 py-3 text-[12px] text-muted-foreground">
-        <span className="flex items-center gap-1.5">
+        <span className="flex items-center gap-1.5 whitespace-nowrap">
           <Clock className="size-3.5" /> Tested {when(result.createdAt)}
         </span>
-        <span className="flex items-center gap-1.5">
-          <AudioLines className="size-3.5" /> {modelName}, beam search ({result.beams} beams)
+        <span className="flex max-w-full min-w-0 items-center gap-1.5" title={modelName}>
+          <AudioLines className="size-3.5 shrink-0" />
+          <span className="truncate">{modelName}, beam search ({result.beams} beams)</span>
         </span>
-        <span className="tabular-nums">{result.rows.length} held-back clips</span>
+        <span className="whitespace-nowrap tabular-nums">{result.rows.length} held-back clips</span>
         {compared.length > 0 && <span className="ml-auto">The reference recognizer is scored on the same clips</span>}
       </div>
     </section>
   );
 }
 
-function LangColumn({ row, scale, index, replay }: { row: Row; scale: number; index: number; replay: number }) {
+/** Borders between columns; four languages fold into a 2×2 grid when the board is narrow. */
+function columnEdges(index: number, count: number) {
+  if (count < 4) return index > 0 && "border-l border-border";
+  return cn("border-border", index % 2 === 1 && "border-l", index === 2 && "@[46rem]/board:border-l", index >= 2 && "border-t @[46rem]/board:border-t-0");
+}
+
+function LangColumn({ row, scale, index, count, replay }: { row: Row; scale: number; index: number; count: number; replay: number }) {
   const { lang, mine, base } = row;
   const delay = 0.15 + index * 0.08;
   return (
-    <div className={cn("@container flex min-w-0 flex-col px-7 pt-6 pb-6", index > 0 && "border-l border-border")}>
-      <Eyebrow>{langName(lang)}</Eyebrow>
-      <div className="mt-3 flex items-baseline font-display leading-[0.82] font-semibold tracking-[-0.045em] tabular-nums">
+    <div className={cn("@container flex min-w-0 flex-col px-7 pt-6 pb-6", columnEdges(index, count))}>
+      <div className="min-w-0" title={langName(lang)}>
+        <Eyebrow className="truncate">{langName(lang)}</Eyebrow>
+      </div>
+      <div className="mt-3 flex items-baseline font-display leading-[0.82] font-semibold tracking-[-0.045em] whitespace-nowrap tabular-nums">
         {mine != null ? (
           <>
-            <span className="text-[clamp(44px,26cqw,78px)]">
+            <span className="text-[clamp(30px,26cqw,78px)]">
               <RollingNumber value={mine * 100} replay={replay} />
             </span>
-            <span className="ml-1 text-[clamp(18px,9cqw,28px)] tracking-normal text-muted-foreground">%</span>
+            <span className="ml-1 text-[clamp(14px,9cqw,28px)] tracking-normal text-muted-foreground">%</span>
           </>
         ) : (
           <span className="text-[44px] text-muted-foreground/50">—</span>
@@ -161,7 +187,14 @@ function LangColumn({ row, scale, index, replay }: { row: Row; scale: number; in
       {mine != null && base != null ? (
         <>
           <Duel mine={mine} base={base} scale={scale} delay={delay} replay={replay} />
-          <Verdict mine={mine} base={base} delay={delay} />
+          <motion.div
+            initial={{ opacity: 0, y: 4 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: delay + 0.9, duration: 0.35, ease: EASE }}
+            className="mt-7"
+          >
+            <Verdict mine={mine} base={base} />
+          </motion.div>
         </>
       ) : (
         <p className="mt-6 text-[12px] text-muted-foreground">No reference score for this language.</p>
@@ -170,91 +203,206 @@ function LangColumn({ row, scale, index, replay }: { row: Row; scale: number; in
   );
 }
 
-/** Two bars on a shared scale. The band between their ends is the margin; the tick is the 2× goal. */
-function Duel({ mine, base, scale, delay, replay }: { mine: number; base: number; scale: number; delay: number; replay: number }) {
-  const x = (v: number) => `${Math.min(100, (v / scale) * 100)}%`;
-  const win = mine < base;
-  const lo = Math.min(mine, base);
-  const hi = Math.max(mine, base);
-  const goal = base / 2;
-  const bar = (v: number, cls: string, d: number) => (
-    <div className="relative h-2.5 rounded-full bg-foreground/[0.06]">
-      <motion.div
-        key={replay}
-        className={cn("absolute inset-y-0 left-0 rounded-full", cls)}
-        initial={{ width: 0 }}
-        animate={{ width: x(v) }}
-        transition={{ duration: 0.9, delay: d, ease: EASE }}
-      />
-    </div>
-  );
-  // Label rows sit above full-width bars; the overlay spans from the top of your bar to the bottom of the reference's.
+/**
+ * The board for many languages: one row each, in the same order, with the same shared-scale bars.
+ * Subgrid rows keep every column lined up while each row still gets its own border and hover.
+ */
+function LangTable({ rows, scale, replay }: { rows: Row[]; scale: number; replay: number }) {
   return (
-    <div className="relative mt-6">
-      <div className="pointer-events-none absolute inset-x-0 top-[18px] -bottom-1">
-        <motion.div
-          key={`band-${replay}`}
-          className={cn(
-            "absolute inset-y-0 rounded-[5px] border-x border-dashed",
-            win ? "border-good/60 bg-good/10" : "border-warn/70 bg-warn/12",
-          )}
-          style={{ left: x(lo), width: `calc(${x(hi)} - ${x(lo)})` }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: hi > lo ? 1 : 0 }}
-          transition={{ delay: delay + 0.8, duration: 0.4 }}
-        />
-        <div className="absolute inset-y-0 w-px border-l border-dashed border-foreground/30" style={{ left: x(goal) }} title="The goal: half the reference's word error rate">
-          <span className="absolute -bottom-3.5 -translate-x-1/2 text-[9.5px] leading-none font-semibold text-muted-foreground">2×</span>
+    <div className="relative grid grid-cols-[minmax(0,max-content)_auto_minmax(4.5rem,1fr)_auto_auto] gap-x-5 border-t border-border">
+      <div className="col-span-full grid grid-cols-subgrid items-end px-7 pt-4 pb-2">
+        <Eyebrow>Language</Eyebrow>
+        <Eyebrow className="text-right">You</Eyebrow>
+        <div className="min-w-0" title="Both bars on one scale for every language. The band is the margin, the tick is the 2× goal.">
+          <Eyebrow className="truncate">Compared</Eyebrow>
         </div>
+        <Eyebrow className="text-right">Reference</Eyebrow>
+        <span />
       </div>
-      <div className="relative flex h-4 items-center justify-between text-[11.5px] font-semibold">
-        <span>You</span>
-        <span className="tabular-nums">{pct(mine)}</span>
-      </div>
-      <div className="relative mt-1.5">
-        {bar(mine, "bg-[linear-gradient(90deg,var(--brand-gold),var(--brand))] shadow-[0_0_12px_-2px_rgb(243_74_45/0.5)]", delay)}
-      </div>
-      <div className="relative mt-3 flex h-4 items-center justify-between text-[11.5px] text-muted-foreground">
-        <span>Reference</span>
-        <span className="tabular-nums">{pct(base)}</span>
-      </div>
-      <div className="relative mt-1.5">{bar(base, "bg-foreground/35", delay + 0.08)}</div>
+      {rows.map((r, i) => (
+        <LangRow key={r.lang} row={r} scale={scale} delay={0.1 + Math.min(i, 12) * 0.04} replay={replay} />
+      ))}
     </div>
   );
 }
 
-function Verdict({ mine, base, delay }: { mine: number; base: number; delay: number }) {
+function LangRow({ row, scale, delay, replay }: { row: Row; scale: number; delay: number; replay: number }) {
+  const { lang, mine, base } = row;
+  return (
+    <div className="col-span-full grid grid-cols-subgrid items-center border-t border-border px-7 py-2.5 transition-colors hover:bg-foreground/[0.015]">
+      <span className="max-w-[11rem] truncate text-[13px] font-medium" title={langName(lang)}>
+        {langName(lang)}
+      </span>
+      <span className="text-right font-display text-[22px] leading-none font-semibold tracking-[-0.03em] whitespace-nowrap tabular-nums">
+        {mine != null ? (
+          <>
+            <RollingNumber value={mine * 100} replay={replay} />
+            <span className="ml-0.5 text-[12px] tracking-normal text-muted-foreground">%</span>
+          </>
+        ) : (
+          <span className="text-muted-foreground/50">—</span>
+        )}
+      </span>
+      {mine != null ? <MiniDuel mine={mine} base={base} scale={scale} delay={delay} replay={replay} /> : <span />}
+      <span className="text-right text-[12px] whitespace-nowrap text-muted-foreground tabular-nums">{pct(base)}</span>
+      <motion.span className="justify-self-end" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: delay + 0.8, duration: 0.3 }}>
+        {mine != null && base != null ? (
+          <Verdict mine={mine} base={base} short />
+        ) : (
+          <span className="inline-flex h-6 items-center rounded-full bg-muted px-2.5 text-[12px] font-medium whitespace-nowrap text-muted-foreground">No reference</span>
+        )}
+      </motion.span>
+    </div>
+  );
+}
+
+const x = (v: number, scale: number) => `${Math.min(100, (v / scale) * 100)}%`;
+const MINE_BAR = "bg-[linear-gradient(90deg,var(--brand-gold),var(--brand))] shadow-[0_0_12px_-2px_rgb(243_74_45/0.5)]";
+const BASE_BAR = "bg-foreground/35";
+
+function Bar({ value, scale, className, delay, replay, thin }: { value: number; scale: number; className: string; delay: number; replay: number; thin?: boolean }) {
+  return (
+    <div className={cn("relative rounded-full bg-foreground/[0.06]", thin ? "h-1.5" : "h-2.5")}>
+      <motion.div
+        key={replay}
+        className={cn("absolute inset-y-0 left-0 rounded-full", className)}
+        initial={{ width: 0 }}
+        animate={{ width: x(value, scale) }}
+        transition={{ duration: 0.9, delay, ease: EASE }}
+      />
+    </div>
+  );
+}
+
+/** The band between the two bars' ends (the margin) and the dashed tick at the 2× goal. */
+function Margin({ mine, base, scale, delay, replay, label }: { mine: number; base: number; scale: number; delay: number; replay: number; label?: boolean }) {
+  const win = mine < base;
+  const lo = Math.min(mine, base);
+  const hi = Math.max(mine, base);
+  return (
+    <>
+      <motion.div
+        key={`band-${replay}`}
+        className={cn("absolute inset-y-0 rounded-[5px] border-x border-dashed", win ? "border-good/60 bg-good/10" : "border-warn/70 bg-warn/12")}
+        style={{ left: x(lo, scale), width: `calc(${x(hi, scale)} - ${x(lo, scale)})` }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: hi > lo ? 1 : 0 }}
+        transition={{ delay: delay + 0.8, duration: 0.4 }}
+      />
+      <div
+        className="absolute inset-y-0 w-px border-l border-dashed border-foreground/30"
+        style={{ left: x(base / 2, scale) }}
+        title="The goal: half the reference's word error rate"
+      >
+        {label && <span className="absolute -bottom-3.5 -translate-x-1/2 text-[9.5px] leading-none font-semibold text-muted-foreground">2×</span>}
+      </div>
+    </>
+  );
+}
+
+/** Two bars on a shared scale. The band between their ends is the margin; the tick is the 2× goal. */
+function Duel({ mine, base, scale, delay, replay }: { mine: number; base: number; scale: number; delay: number; replay: number }) {
+  // Label rows sit above full-width bars; the overlay spans from the top of your bar to the bottom of the reference's.
+  return (
+    <div className="relative mt-6">
+      <div className="pointer-events-none absolute inset-x-0 top-[18px] -bottom-1">
+        <Margin mine={mine} base={base} scale={scale} delay={delay} replay={replay} label />
+      </div>
+      <div className="relative flex h-4 items-center justify-between gap-2 text-[11.5px] font-semibold whitespace-nowrap">
+        <span>You</span>
+        <span className="tabular-nums">{pct(mine)}</span>
+      </div>
+      <div className="relative mt-1.5">
+        <Bar value={mine} scale={scale} className={MINE_BAR} delay={delay} replay={replay} />
+      </div>
+      <div className="relative mt-3 flex h-4 items-center justify-between gap-2 text-[11.5px] whitespace-nowrap text-muted-foreground">
+        <span>Reference</span>
+        <span className="tabular-nums">{pct(base)}</span>
+      </div>
+      <div className="relative mt-1.5">
+        <Bar value={base} scale={scale} className={BASE_BAR} delay={delay + 0.08} replay={replay} />
+      </div>
+    </div>
+  );
+}
+
+/** The table's duel: the same two bars on the same scale, thin, stacked and unlabelled. */
+function MiniDuel({ mine, base, scale, delay, replay }: { mine: number; base: number | undefined; scale: number; delay: number; replay: number }) {
+  return (
+    <div className="relative py-1">
+      {base != null && (
+        <div className="pointer-events-none absolute inset-0">
+          <Margin mine={mine} base={base} scale={scale} delay={delay} replay={replay} />
+        </div>
+      )}
+      <div className="relative">
+        <Bar value={mine} scale={scale} className={MINE_BAR} delay={delay} replay={replay} thin />
+      </div>
+      {base != null && (
+        <div className="relative mt-1">
+          <Bar value={base} scale={scale} className={BASE_BAR} delay={delay + 0.08} replay={replay} thin />
+        </div>
+      )}
+    </div>
+  );
+}
+
+// The column width (container query) each full sentence needs; narrower columns show the short form.
+const ROOM = {
+  sm: ["@max-[11.5rem]:hidden", "@min-[11.5rem]:hidden"],
+  md: ["@max-[12.5rem]:hidden", "@min-[12.5rem]:hidden"],
+  lg: ["@max-[14.5rem]:hidden", "@min-[14.5rem]:hidden"],
+} as const;
+
+/**
+ * The pill under each language. In a column it shows the full sentence when the column has room
+ * and the short form when it doesn't; `short` always uses the short form, with the sentence as its tooltip.
+ */
+function Verdict({ mine, base, short }: { mine: number; base: number; short?: boolean }) {
   const ratio = mine > 0 ? base / mine : Infinity;
   const pts = Math.abs(base - mine) * 100;
   let tone: string;
   let icon = null;
   let text: string;
+  let brief: string;
+  let room: keyof typeof ROOM;
   if (mine === base) {
     tone = "bg-muted text-muted-foreground";
     text = "Level with the reference";
+    brief = "Level";
+    room = "sm";
   } else if (mine > base) {
     tone = "bg-warn/14 text-warn";
     text = `Reference leads by ${pts.toFixed(1)} pts`;
+    brief = `${pts.toFixed(1)} pts behind`;
+    room = "md";
   } else if (ratio >= 2) {
     tone = "bg-[linear-gradient(90deg,var(--brand-gold),var(--brand))] text-white shadow-[0_4px_14px_-6px_rgb(243_74_45/0.8)]";
     icon = <Trophy className="size-3" strokeWidth={2.5} />;
     text = Number.isFinite(ratio) ? `${ratio.toFixed(2)}× better · 2× goal met` : "No errors · 2× goal met";
+    brief = Number.isFinite(ratio) ? `${ratio.toFixed(2)}× better` : "No errors";
+    room = Number.isFinite(ratio) ? "md" : "sm";
   } else {
     tone = "bg-good/12 text-good dark:bg-good/16";
     icon = <Flag className="size-3" strokeWidth={2.5} />;
     text = `${ratio.toFixed(2)}× better than the reference`;
+    brief = `${ratio.toFixed(2)}× better`;
+    room = "lg";
   }
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 4 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: delay + 0.9, duration: 0.35, ease: EASE }}
-      className="mt-7"
+  const pill = (label: string, cls?: string, title?: string) => (
+    <span
+      title={title}
+      className={cn("inline-flex h-6 items-center gap-1.5 rounded-full px-2.5 text-[12px] font-semibold whitespace-nowrap tabular-nums", tone, cls)}
     >
-      <span className={cn("inline-flex h-6 items-center gap-1.5 rounded-full px-2.5 text-[12px] font-semibold whitespace-nowrap tabular-nums", tone)}>
-        {icon}
-        {text}
-      </span>
-    </motion.div>
+      {icon}
+      {label}
+    </span>
+  );
+  if (short) return pill(brief, undefined, text);
+  return (
+    <>
+      {pill(text, ROOM[room][0])}
+      {pill(brief, ROOM[room][1], text)}
+    </>
   );
 }
