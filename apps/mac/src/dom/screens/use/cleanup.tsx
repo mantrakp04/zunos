@@ -50,14 +50,14 @@ export type Cleanup = ReturnType<typeof useCleanup>;
 const gb = (b: number) => `${(b / 1e9).toFixed(1)} GB`;
 
 /** The strip along the bottom of the instrument: get the cleanup model, or pick a style. */
-export function CleanupStrip({ cleanup, busy }: { cleanup: Cleanup; busy: boolean }) {
+export function CleanupStrip({ cleanup, busy, className }: { cleanup: Cleanup; busy: boolean; className?: string }) {
   const { settings, setSettings, download } = cleanup;
   // An action that failed before native reported anything shows as the error state.
   const state = cleanup.error && cleanup.state?.status !== "error" ? { status: "error" as const, message: cleanup.error } : cleanup.state;
   if (!state) return null;
   const style = CLEANUP_STYLES.find((s) => s.id === settings.style) ?? CLEANUP_STYLES[0]!;
   return (
-    <div className="relative border-t border-border/80 bg-foreground/[0.018] px-5 py-3.5">
+    <div className={cn("relative border-t border-border/80 bg-foreground/[0.018] px-5 py-3.5", className)}>
       <AnimatePresence mode="wait" initial={false}>
         <motion.div
           key={state.status}

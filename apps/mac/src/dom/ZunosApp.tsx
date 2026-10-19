@@ -122,23 +122,26 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
   const running = (runs.data ?? []).find((r) => ["uploading", "queued", "running"].includes(r.status));
   const scores = Object.entries(evalRes.data?.scores ?? {}).filter(([k]) => k !== "avg").map(([, v]) => v);
   const avg = evalRes.data?.scores.avg ?? (scores.length ? scores.reduce((x, y) => x + y, 0) / scores.length : undefined);
+  // Dictation from the global hotkey can start on any screen (or with the window closed).
+  const hot = live.dictation?.source === "hotkey" ? live.dictation : null;
   const facts: Record<ScreenId, string | null> = {
-    record: stats.data ? minutes(recorded) : null,
+    record: recorded > 0 ? minutes(recorded) : null,
     train: running ? "training…" : runs.data?.length ? `${runs.data.length} runs` : null,
     test: avg != null ? pct(avg) : null,
-    use: live.engine === "ready" && active ? "ready" : null,
+    use: hot ? (hot.phase === "listening" ? "listening" : "writing") : live.engine === "ready" && active ? "ready" : null,
   };
   const done: Record<ScreenId, boolean> = {
     record: recorded > 0, train: !!active, test: avg != null, use: !!active,
   };
 
-  const mood: BeanMood = live.recording
-    ? "listening"
-    : live.engine === "busy" || live.engine === "loading" || live.engine === "starting" || !!live.transfer
-      ? "thinking"
-      : live.engine === "error"
-        ? "sleepy"
-        : "idle";
+  const mood: BeanMood =
+    live.recording || hot?.phase === "listening"
+      ? "listening"
+      : hot?.phase === "thinking" || live.engine === "busy" || live.engine === "loading" || live.engine === "starting" || !!live.transfer
+        ? "thinking"
+        : live.engine === "error"
+          ? "sleepy"
+          : "idle";
 
   return (
     <aside className="flex w-[232px] shrink-0 flex-col px-3 pt-[calc(var(--titlebar)+14px)] pb-3 select-none">
@@ -203,6 +206,9 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
       </div>
 
       <div className="mt-auto flex flex-col gap-2">
+        <AnimatePresence initial={false}>
+          {hot && <HotkeyDictation key="hot" phase={hot.phase} level={live.level} onOpen={() => onScreen("use")} />}
+        </AnimatePresence>
         <EngineCard live={live} model={active?.name ?? null} />
         <div className="flex items-center gap-2 px-2.5 pt-1">
           <span className="grid size-6 shrink-0 place-items-center rounded-full bg-brand-ink text-[11px] font-semibold text-brand-cream dark:bg-brand-cream dark:text-brand-ink">
@@ -215,6 +221,60 @@ function Rail({ a, live, screen, onScreen, languages, onEditLanguages }: ScreenP
         </div>
       </div>
     </aside>
+  );
+}
+
+/** A dictation from the hotkey, in whatever app is in front: what it's doing, and the voice level. */
+function HotkeyDictation({ phase, level, onOpen }: { phase: "listening" | "thinking"; level: number; onOpen: () => void }) {
+  const listening = phase === "listening";
+  return (
+    <motion.button
+      type="button"
+      onClick={onOpen}
+      title="Open Dictate"
+      initial={{ opacity: 0, y: 10, scale: 0.96 }}
+      animate={{ opacity: 1, y: 0, scale: 1 }}
+      exit={{ opacity: 0, y: 6, scale: 0.97, transition: { duration: 0.16 } }}
+      transition={{ type: "spring", stiffness: 460, damping: 32 }}
+      className={cn(
+        "relative flex items-center gap-2.5 overflow-hidden rounded-[12px] px-3 py-2.5 text-left transition-colors duration-300",
+        listening
+          ? "bg-[linear-gradient(135deg,var(--brand),var(--brand-deep))] text-white shadow-[inset_0_1px_0_rgb(255_255_255/0.25),0_6px_18px_-8px_rgb(243_74_45/0.8)]"
+          : "bg-brand-gold/16 text-foreground shadow-[inset_0_0_0_1px_color-mix(in_oklab,var(--brand-gold)_40%,transparent)]",
+      )}
+    >
+      <VoiceBars level={listening ? level : 0} thinking={!listening} />
+      <span className="min-w-0 flex-1">
+        <span className="block text-[12.5px] leading-tight font-semibold">{listening ? "Listening" : "Writing it down"}</span>
+        <span className={cn("block truncate text-[11px]", listening ? "text-white/75" : "text-muted-foreground")}>
+          {listening ? "Esc to cancel" : "Then it's pasted"}
+        </span>
+      </span>
+    </motion.button>
+  );
+}
+
+/** Five bars that follow the mic level, a little higher in the middle; a slow wave while thinking. */
+function VoiceBars({ level, thinking }: { level: number; thinking: boolean }) {
+  const shape = [0.45, 0.75, 1, 0.75, 0.45];
+  return (
+    <span className="flex h-5 w-6 shrink-0 items-center justify-between">
+      {shape.map((k, i) => (
+        <span
+          key={i}
+          className={cn("w-[3px] rounded-full", thinking ? "zn-hot-wave bg-[#b56c10] dark:bg-brand-gold" : "bg-white")}
+          style={
+            thinking
+              ? { height: 8, animationDelay: `${i * 0.12}s` }
+              : { height: `${Math.round(4 + Math.min(1, level * 1.6) * k * 16)}px`, transition: "height 90ms linear" }
+          }
+        />
+      ))}
+      <style>{`
+        @keyframes zn-hot-wave { 0%, 100% { transform: scaleY(0.5) } 50% { transform: scaleY(1.6) } }
+        .zn-hot-wave { animation: zn-hot-wave 1s ease-in-out infinite }
+      `}</style>
+    </span>
   );
 }
 
