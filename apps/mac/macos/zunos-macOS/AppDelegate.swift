@@ -12,6 +12,10 @@ private let moduleName = "main"
 struct ZunosApp: App {
   @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
+  init() {
+    RCTView.zn_guardKeyboardEventsWithoutReactTag()
+  }
+
   var body: some Scene {
     Window(windowTitle, id: "main") {
       // The web UI draws its own title bar: content runs under the traffic lights, and a thin
@@ -89,4 +93,24 @@ struct ReactNativeView: NSViewRepresentable {
   }
 
   func updateNSView(_ nsView: NSView, context: Context) {}
+}
+
+// MARK: - Keyboard events that reach a view React doesn't know
+
+extension RCTView {
+  /// A key the WebView doesn't handle (say ⌘E) bubbles up to the RCTView hosting it. That view has
+  /// no reactTag, and react-native-macos builds `@[viewTag, ...]` for the JS event, which throws on
+  /// nil and takes the whole app down. Views without a tag now just pass the key along (macOS beeps).
+  static func zn_guardKeyboardEventsWithoutReactTag() {
+    let original = #selector(RCTView.handleKeyboardEvent(_:))
+    let guarded = #selector(RCTView.zn_handleKeyboardEvent(_:))
+    guard let a = class_getInstanceMethod(RCTView.self, original),
+          let b = class_getInstanceMethod(RCTView.self, guarded) else { return }
+    method_exchangeImplementations(a, b)
+  }
+
+  @objc dynamic func zn_handleKeyboardEvent(_ event: NSEvent) -> Bool {
+    if reactTag == nil { return false }
+    return zn_handleKeyboardEvent(event) // the original, after the exchange
+  }
 }
