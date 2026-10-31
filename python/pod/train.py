@@ -27,7 +27,29 @@ import time
 
 import numpy as np
 import soundfile as sf
-import torch
+
+
+def gpu_slot():
+    """ZUNOS_GPU_SLOTS=N: wait for one of N lock files before touching the GPU, so variants trained in parallel
+    (run.py parallel, or by hand) don't run out of memory together. Held until the process exits."""
+    import fcntl
+
+    n = int(os.environ.get("ZUNOS_GPU_SLOTS") or 0)
+    while n:
+        for i in range(n):
+            f = open(f"/tmp/zunos-gpu-slot-{i}", "w")
+            try:
+                fcntl.flock(f, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                print(f"gpu slot {i}/{n}", flush=True)
+                return f
+            except OSError:
+                f.close()
+        time.sleep(10)
+
+
+_SLOT = gpu_slot()
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+import torch  # noqa: E402
 from torch.utils.data import DataLoader, Dataset
 
 import variability
