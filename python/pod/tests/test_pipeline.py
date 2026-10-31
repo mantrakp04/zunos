@@ -51,6 +51,51 @@ def test_test_guard_blocks_overlap():
     assert g.ok("aaj shaam ko bazaar chalenge", "hi")
 
 
+def test_test_guard_compares_whole_indic_words():
+    # textnorm.basic drops vowel signs, so ત્યારે and તૈયાર both became "ત ય ર": the guard matched fragments.
+    clips = [dict(id="t1", lang="gu", split="test", text="એને ખબર હતી કે મારે ભવિષ્યની અંદર રાજા બનવાનું છે")]
+    g = corpus.TestGuard(clips)
+    assert not g.ok("કાલે એને ખબર હતી કે બસ મોડી છે", "gu")      # shares the words એને ખબર હતી
+    assert g.ok("ત્યારે ગાડી તૈયાર રાખજે, સવારે વહેલા નીકળીશું", "gu")  # no shared word 3-gram
+    assert corpus.words("ખુરશી, ખુરશીમાં!", "gu") == ["ખુરશી", "ખુરશીમાં"]
+
+
+def test_sentences_follow_the_label_script_and_drop_digits(tmp_path, monkeypatch):
+    import json
+
+    items = [{"id": "s1", "kind": "sentence", "native": ["સવારે નવ વાગ્યે મળીએ"], "roman": ["Savare nav vagye maliye"]},
+             {"id": "s2", "kind": "sentence", "native": ["સવારે 9 વાગ્યે મળીએ"], "roman": ["Savare 9 vagye maliye"]}]
+    (tmp_path / "gu.synth.json").write_text(json.dumps({"lang": "gu", "items": items}, ensure_ascii=False))
+    monkeypatch.setattr(corpus, "CORPUS_DIRS", [str(tmp_path)])
+    m = {"clips": [dict(id="c", lang="gu", split="train", text="Hu ghare chu")], "prompts": []}
+    guard = corpus.TestGuard([])
+    roman, info = corpus.sentences("gu", m, {"drop_digits": True}, guard)
+    assert info["script"] == "roman" and [s[1] for s in roman] == ["Savare nav vagye maliye"] and info["dropped_digits"] == 1
+    native, info = corpus.sentences("gu", m, {}, guard, "native")
+    assert info["script"] == "native" and [s[1] for s in native] == ["સવારે નવ વાગ્યે મળીએ", "સવારે 9 વાગ્યે મળીએ"]
+    cfg = config.load({"variants": [{"name": "a", "label_field": "native_text"}, {"name": "b", "label_field": "native_text",
+                                                                                  "synth": {"share": 0}}]})
+    assert config.label_script(cfg, "gu") == "native"
+    cfg = config.load({"variants": [{"name": "a"}]})
+    assert config.label_script(cfg, "gu") is None
+
+
+def test_speaker_subset_matches_the_variant_subset():
+    clips = [dict(id=f"c{i}", lang="gu", split="train", seconds=30.0) for i in range(100)]
+    clips += [dict(id="d", lang="gu", split="dev", seconds=30.0), dict(id="t", lang="gu", split="test", seconds=30.0)]
+    cfg = config.load({"variants": [{"name": "ctl", "real_minutes": 5, "synth": {"share": 0}},
+                                    {"name": "syn10", "real_minutes": 10}, {"name": "syn30", "real_minutes": 30},
+                                    {"name": "all"}]})
+    assert config.speaker_minutes(cfg) == 10  # the smallest subset any synthetic variant trains on
+    assert config.speaker_minutes(config.load({"variants": [{"name": "all"}]})) == 0
+    assert config.speaker_minutes(config.load({"gen": {"real_minutes": 3}, "variants": [{"name": "a"}]})) == 3
+    spk = data.speaker_clips(clips, 10)
+    train = [c for c in clips if c["split"] == "train"]
+    assert spk == data.minutes_subset(train, 10)  # exactly what train.py keeps for real_minutes=10
+    assert {c["id"] for c in spk} <= {c["id"] for c in data.minutes_subset(train, 30)}
+    assert len(data.speaker_clips(clips, 0)) == 100 and "t" not in {c["id"] for c in data.speaker_clips(clips, 0)}
+
+
 def test_dev_split_is_stable_and_leaves_enough_train():
     clips = [dict(id=f"c{i}", lang="en", split="train") for i in range(20)] + [dict(id="t", lang="en", split="test")]
     a = data.assign(clips, {"real_per_lang": 3, "min_train_left": 12})

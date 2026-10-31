@@ -44,6 +44,13 @@ def minutes_subset(clips, minutes):
     return out
 
 
+def speaker_clips(clips, minutes):
+    """The train clips that voice references, pace and the judge's voice centroid come from: all of them, or the
+    same nested `minutes` subset train.py trains a real_minutes variant on (never dev or test clips)."""
+    train = [c for c in clips if c["split"] == "train"]
+    return minutes_subset(train, minutes) if minutes else train
+
+
 def write_real(work, clips):
     rows = [dict(id=c["id"], lang=c["lang"], kind=c.get("kind", "para"), seconds=c["seconds"], text=c["text"],
                  native_text=c.get("native_text"), split=c["split"], path=f"{work}/data/real/16k/{c['id']}.wav")

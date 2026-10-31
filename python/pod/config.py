@@ -41,6 +41,15 @@ GEN = {
     # language take its references from another of the user's languages ({"gu": "hi"}: the study found
     # Gujarati clones far from the user's voice; Hindi references may clone it better).
     "refs": {"per_lang": 32, "min_s": 3.0, "max_s": 10.0, "borrow": True, "from": {}},
+    # Which of the user's train clips everything derived from their audio comes from (voice references, pace, the
+    # judge's voice centroid): the first N minutes in data.minutes_subset order, so a variant trained on
+    # real_minutes=N never sees synthetic speech cloned from audio outside its own N minutes. None = the smallest
+    # real_minutes among the variants that train on synthetic takes (none set = every train clip).
+    "real_minutes": None,
+    # Label script per language for synthetic sentences ("native" | "roman"); unset: native when every variant that
+    # trains on synthetic takes uses label_field=native_text, else the script of the user's clips (corpus.py).
+    "scripts": {},
+    "drop_digits": False,             # skip sentences with digits (when the user's labels spell numbers out)
     # Pace: target letters/second = the user's measured rate per language x a factor drawn from a log-normal
     # around `center`, clipped to [slow, rushed] (per language in by_lang). Below 1 is slower than the user.
     "pace": {"center": 1.0, "sigma": 0.2, "slow": 0.7, "rushed": 1.4, "by_lang": {"en": {"slow": 0.6, "rushed": 1.5}}},
@@ -183,6 +192,24 @@ def load(spec):
     if cfg.get("export") and cfg["export"] not in names:
         raise ValueError(f"export names no variant: {cfg['export']}")
     return cfg
+
+
+def speaker_minutes(cfg):
+    """Minutes of train clips the speaker-derived steps may use (0 = all); see GEN["real_minutes"]."""
+    m = cfg["gen"].get("real_minutes")
+    if m is not None:
+        return m
+    used = [r["real_minutes"] for r in cfg.get("runs", []) if r["synth"]["share"] > 0 and r["real_minutes"]]
+    return min(used) if used else 0
+
+
+def label_script(cfg, lang):
+    """The script synthetic labels of `lang` are written in, or None (corpus.target_script decides)."""
+    s = (cfg["gen"].get("scripts") or {}).get(lang) or (cfg.get("scripts") or {}).get(lang)
+    if s:
+        return s
+    fields = {r["label_field"] for r in cfg.get("runs", []) if r["synth"]["share"] > 0}
+    return "native" if fields == {"native_text"} else None
 
 
 def engines_for(gen, lang):

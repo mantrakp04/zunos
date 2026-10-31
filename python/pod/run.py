@@ -29,6 +29,7 @@ import tarfile
 import time
 import traceback
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 
 import config
 from cache import Cache
@@ -304,13 +305,15 @@ def generate(cfg, shards, cache):
 
 def judge(cfg, shards, cache):
     """ASR + speaker embeddings for each shard (cached per shard and judge), real-clip calibration, decisions."""
-    from judge import judge_for
+    from judge import judge_for, speaker_real
 
     stage("filter")
     D, J = f"{WORK}/data", f"{WORK}/judge"
     os.makedirs(J, exist_ok=True)
     jcfg = cfg["judge"]
-    real = [r for r in read_jsonl(f"{D}/real.jsonl") if r["split"] in ("train", "dev")]
+    real = speaker_real(read_jsonl(f"{D}/real.jsonl"), cfg)  # the speaker subset of train, plus dev; never test
+    log(f"judge calibration: {sum(r['split'] == 'train' for r in real)} train + {sum(r['split'] == 'dev' for r in real)} dev clips "
+        f"(speaker minutes {config.speaker_minutes(cfg) or 'all'})")
     for m in {judge_for(jcfg, s["lang"]) for s in shards} | {judge_for(jcfg, r["lang"]) for r in real}:
         ensure_env(judge_env(m))
     ensure_env("judge")
@@ -533,6 +536,15 @@ def main():
         need_env("train")
         cache = Cache(os.environ.get("ZUNOS_CACHE", f"{WORK}/cache"), os.environ.get("ZUNOS_CACHE_URL") if not ARGS.dry_run else None,
                       os.environ.get("ZUNOS_EVENTS_TOKEN"), log)
+        export = cfg.get("export") or cfg["runs"][0]["name"]
+        # parallel > 1: that many variants train at once on the GPU (decoding one clip at a time leaves it mostly idle),
+        # and variants without synthetic or pseudo-labeled data start before generation instead of after judging.
+        par = int(os.environ.get("ZUNOS_PARALLEL") or cfg.get("parallel") or 1)
+        pool = ThreadPoolExecutor(par) if par > 1 else None
+        early = [r for r in cfg["runs"] if pool and r["synth"]["share"] == 0 and not r["pseudo"]["set"]]
+        futures = {r["name"]: pool.submit(train_variant, r, r["name"] == export, 0) for r in early}
+        if early:
+            log(f"training {[r['name'] for r in early]} alongside generation ({par} at a time)")
         shards = references_and_jobs(cfg, m)
         shards = generate(cfg, shards, cache)
         judge_rep = judge(cfg, shards, cache) if shards else {"shards": {}}
@@ -541,13 +553,20 @@ def main():
         shared_s = time.time() - T_START
 
         stage("train")
-        export = cfg.get("export") or cfg["runs"][0]["name"]
         reports, failed, offset = [], {}, 0
+
+        def one(r, off):
+            if r["pseudo"]["set"]:
+                build_pseudo(cfg, r["pseudo"]["set"])
+            return train_variant(r, r["name"] == export, off)
+
+        if pool:
+            for r in cfg["runs"]:
+                if r["name"] not in futures:
+                    futures[r["name"]] = pool.submit(one, r, 0)
         for r in cfg["runs"]:
             try:
-                if r["pseudo"]["set"]:
-                    build_pseudo(cfg, r["pseudo"]["set"])
-                rep = train_variant(r, r["name"] == export, offset)
+                rep = futures[r["name"]].result() if pool else one(r, offset)
             except Exception as e:
                 if not cfg["keep_going"]:
                     raise

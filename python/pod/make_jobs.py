@@ -24,7 +24,7 @@ import config
 import corpus
 import pace
 import variability
-from data import read_jsonl
+from data import read_jsonl, speaker_clips
 
 GEN_VERSION = 4  # bump when generation or post-processing changes what a shard sounds like
 
@@ -40,6 +40,15 @@ ref_text = json.load(open(f"{D}/ref_text.json", encoding="utf-8")) if os.path.ex
 langs = manifest["langs"]
 TEST = {c["id"] for c in real if c["split"] == "test"}
 guard = corpus.TestGuard(real)
+# Everything taken from the user's audio comes from these clips only (gen.real_minutes / the variants' real_minutes).
+SPK_MIN = config.speaker_minutes(cfg)
+spk = speaker_clips(real, SPK_MIN)
+SCRIPT = {lang: config.label_script(cfg, lang) for lang in langs}
+
+
+def label_text(c):
+    """The clip's text in the script synthetic labels use (pace is measured on the label script)."""
+    return (c.get("native_text") or c["text"]) if SCRIPT.get(c["lang"]) == "native" else c["text"]
 
 
 def src48(cid):
@@ -51,13 +60,13 @@ def sha(path):
     return hashlib.sha256(open(path, "rb").read()).hexdigest()[:16]
 
 
-rates = pace.measure(real, lambda c: c["path"])
+rates = pace.measure([dict(c, text=label_text(c)) for c in spk], lambda c: c["path"])
 json.dump(rates, open(f"{D}/pace.json", "w"), indent=1)
 
 
 def pick_refs(lang):
     r = gen["refs"]
-    pool = [c for c in real if c["lang"] == lang and c["split"] == "train" and r["min_s"] <= c["seconds"] <= r["max_s"]]
+    pool = [c for c in spk if c["lang"] == lang and r["min_s"] <= c["seconds"] <= r["max_s"]]
     pool.sort(key=lambda c: hashlib.sha256(c["id"].encode()).hexdigest())  # spread over sessions, stable
     return [c["id"] for c in pool[: r["per_lang"]]]
 
@@ -74,6 +83,7 @@ REFS_BY_SOURCE = {l: pick_refs(l) for l in langs}
 ALL_REFS = set(sum(REFS.values(), [])) | set(sum(REFS_BY_SOURCE.values(), []))
 assert not (ALL_REFS & TEST), "a test clip was picked as a voice reference"
 assert all(next(c for c in real if c["id"] == x)["split"] == "train" for x in ALL_REFS), "refs must be train clips"
+assert ALL_REFS <= {c["id"] for c in spk}, "a voice reference outside the speaker subset (gen.real_minutes)"
 
 for rid in sorted(ALL_REFS):
     out = f"{D}/refs/{rid}.wav"
@@ -95,8 +105,10 @@ safe = lambda s: re.sub(r"[^A-Za-z0-9_-]", "_", s)
 shards, summary = [], {}
 for lang in langs:
     engines = config.engines_for(gen, lang)
-    sents, info = corpus.sentences(lang, manifest, gen, guard)
-    summary[lang] = dict(info, sentences=len(sents), refs=len(REFS[lang]), engines=engines, pace=rates.get(lang))
+    sents, info = corpus.sentences(lang, manifest, gen, guard, SCRIPT[lang])
+    own = [c for c in spk if c["lang"] == lang]
+    summary[lang] = dict(info, sentences=len(sents), refs=len(REFS[lang]), engines=engines, pace=rates.get(lang),
+                         speaker_minutes=SPK_MIN, speaker_clips=len(own), speaker_audio_min=round(sum(c["seconds"] for c in own) / 60, 1))
     if not engines or not sents or not REFS[lang]:
         print(f"{lang}: no synthetic speech ({'no path' if not engines else 'no sentences' if not sents else 'no references'})", flush=True)
         continue

@@ -11,12 +11,18 @@ lines, else native. The TTS always reads the native line (cloning models read na
 
 Test safety: the user reads this same corpus when recording, so some lines are test clips. A line is dropped
 when it shares a word 3-gram with any test clip (both normalized), and a line shorter than 3 words is dropped
-when it equals a test clip's text. Nothing a test clip says is ever synthesized or trained on.
+when it equals a test clip's text. Nothing a test clip says is ever synthesized or trained on. Words are split
+on whitespace and punctuation only: textnorm.basic also drops Indic vowel signs and viramas, which cut native
+words into consonant fragments and made the guard reject most Gujarati lines over fragments such as ત ય ર.
 """
 import json
 import os
+import re
+import unicodedata
 
 from zunos_core.scoring import is_latin, norm
+
+DIGITS = re.compile(r"\d")  # any script's digits
 
 CODE = os.path.dirname(os.path.abspath(__file__))
 # The pod archive carries the corpus at <root>/packages/db/corpus (podcode.ts); locally it is the repo's.
@@ -35,8 +41,16 @@ def items_of(path):
     return d["items"] if isinstance(d, dict) else d
 
 
+def words(text, lang):
+    """Normalized words: norm() for text in English letters; native scripts keep their combining marks."""
+    if is_latin(text):
+        return norm(text, lang).split()
+    t = unicodedata.normalize("NFC", text).lower().replace("\u200c", "").replace("\u200d", "")
+    return "".join(c if c.isalnum() or c.isspace() or unicodedata.category(c)[0] == "M" else " " for c in t).split()
+
+
 def grams(text, lang, n=3):
-    w = norm(text, lang).split()
+    w = words(text, lang)
     return {tuple(w[i:i + n]) for i in range(len(w) - n + 1)}
 
 
@@ -50,12 +64,12 @@ class TestGuard:
                 continue
             for t in filter(None, (c.get("text"), c.get("native_text"))):
                 self.grams.setdefault(c["lang"], set()).update(grams(t, c["lang"]))
-                self.short.setdefault(c["lang"], set()).add(norm(t, c["lang"]))
+                self.short.setdefault(c["lang"], set()).add(" ".join(words(t, c["lang"])))
 
     def ok(self, text, lang):
         if not text:
             return True
-        if norm(text, lang) in self.short.get(lang, ()):
+        if " ".join(words(text, lang)) in self.short.get(lang, ()):
             return False
         return not (grams(text, lang) & self.grams.get(lang, set()))
 
@@ -69,21 +83,25 @@ def target_script(lang, clips, override=None):
     return "roman" if lang != "en" and texts and latin * 2 > len(texts) else "native"
 
 
-def sentences(lang, manifest, gen, guard):
-    """[(sid, label, tts_text)] for a language, deduplicated, test-safe, corpus first."""
-    script = target_script(lang, manifest["clips"], (manifest.get("cfg") or {}).get("scripts", {}).get(lang))
-    out, seen, dropped = [], set(), 0
+def sentences(lang, manifest, gen, guard, script=None):
+    """[(sid, label, tts_text)] for a language, deduplicated, test-safe, corpus first. `script` forces the label
+    script (config.label_script); else the manifest cfg's `scripts`, else the script of the user's clips."""
+    script = target_script(lang, manifest["clips"], script or (manifest.get("cfg") or {}).get("scripts", {}).get(lang))
+    out, seen, dropped, digits = [], set(), 0, 0
 
     def add(sid, native, roman):
-        nonlocal dropped
+        nonlocal dropped, digits
         label = (roman if script == "roman" and roman else native) or roman
         tts = native or roman
         if not label or not tts:
             return
+        if gen.get("drop_digits") and (DIGITS.search(label) or DIGITS.search(tts)):
+            digits += 1
+            return
         if not (guard.ok(label, lang) and guard.ok(tts, lang)):
             dropped += 1
             return
-        key = norm(label, lang)
+        key = " ".join(words(label, lang))
         if key in seen:
             return
         seen.add(key)
@@ -103,5 +121,5 @@ def sentences(lang, manifest, gen, guard):
                 native = p.get("native") or (roman if not is_latin(roman or "") or lang == "en" else None)
                 add(f"p-{p['id']}", native or roman, roman if is_latin(roman or "") else None)
     limit = int(gen.get("max_lines_per_lang") or 0)
-    return (out[:limit] if limit else out), {"script": script, "dropped_for_test_overlap": dropped,
+    return (out[:limit] if limit else out), {"script": script, "dropped_for_test_overlap": dropped, "dropped_digits": digits,
                                              "corpus": [os.path.basename(p) for p in paths]}

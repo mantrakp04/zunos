@@ -209,6 +209,15 @@ def voice_centroid(embs):
     return centroid, float(np.median([float(np.dot(e, (s - e) / np.linalg.norm(s - e))) for e in embs]))
 
 
+def speaker_real(rows, cfg):
+    """The real clips that calibrate the judge: the speaker subset (gen.real_minutes) of train, plus dev. Never test."""
+    import config
+    from data import speaker_clips
+
+    keep = {c["id"] for c in speaker_clips(rows, config.speaker_minutes(cfg))}
+    return [r for r in rows if r["id"] in keep or r["split"] == "dev"]
+
+
 def score(work):
     from zunos_core.scoring import synth_score
     from zunos_core.textnorm import edit
@@ -218,7 +227,7 @@ def score(work):
     D = f"{work}/data"
     cfg = json.load(open(f"{D}/cfg.json"))
     jcfg = cfg["judge"]
-    real = [r for r in rows_of(f"{D}/real.jsonl") if r["split"] in ("train", "dev")]
+    real = speaker_real(rows_of(f"{D}/real.jsonl"), cfg)
     jdir = f"{work}/judge"
     shards = json.load(open(f"{D}/shards_ready.json"))
     report, out = {}, []

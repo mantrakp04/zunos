@@ -80,6 +80,9 @@ def in_share(r):
 
 
 synth = [r for r in read_jsonl(f"{D}/synth.jsonl") if r["keep"] and wanted(r) and in_share(r)]
+if synth and cfg["real_minutes"]:  # a user with N minutes can only be cloned from those N minutes
+    stray = {r["ref_id"] for r in synth} - {r["id"] for r in real_train}
+    assert not stray, f"synthetic takes cloned from clips outside this variant's {cfg['real_minutes']} min: {sorted(stray)[:5]}"
 val_ids = synth_val_ids({r["sid"] for r in synth}, full["dev"]["synth_frac"])
 synth_val = [r for r in synth if r["sid"] in val_ids]
 synth_train = [r for r in synth if r["sid"] not in val_ids]
