@@ -38,7 +38,7 @@ case "$name" in
   omnivoice)
     # k2-fsa/OmniVoice 0.2.1 (torch 2.8 cu128, transformers >= 5.3).
     venv; pip "${TORCH[@]}"
-    pip "omnivoice==0.2.1" soundfile numpy
+    pip "omnivoice==0.2.1" soundfile numpy -e "$CODE/core"   # omni_vary imports pace, which needs zunos_core
     ;;
   higgs)
     # Higgs TTS 3 through SGLang-Omni: CUDA-13-only wheels (torch 2.13), so the pod must be on a CUDA >= 13.0
