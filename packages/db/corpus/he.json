@@ -1,0 +1,1789 @@
+{
+  "lang": "he",
+  "starter": [
+    "he-s004",
+    "he-s077",
+    "he-s115",
+    "he-s113",
+    "he-s124",
+    "he-s107",
+    "he-s073",
+    "he-s146",
+    "he-s108",
+    "he-s133",
+    "he-s078",
+    "he-s134",
+    "he-s041",
+    "he-s122",
+    "he-s057",
+    "he-s120",
+    "he-s007",
+    "he-s039",
+    "he-p01",
+    "he-s129",
+    "he-s131",
+    "he-s049",
+    "he-s116",
+    "he-s121",
+    "he-s001",
+    "he-s096",
+    "he-s085",
+    "he-s151",
+    "he-s099",
+    "he-s046",
+    "he-s138",
+    "he-s098",
+    "he-s144",
+    "he-s014",
+    "he-s012",
+    "he-s006",
+    "he-s148",
+    "he-p07",
+    "he-s093",
+    "he-s019",
+    "he-s030",
+    "he-s079",
+    "he-s135",
+    "he-s066",
+    "he-s141",
+    "he-s065",
+    "he-s088",
+    "he-s084",
+    "he-s109",
+    "he-s044",
+    "he-s058",
+    "he-s118",
+    "he-s015",
+    "he-s145",
+    "he-s042",
+    "he-s114"
+  ],
+  "items": [
+    {
+      "id": "he-p01",
+      "kind": "para",
+      "title": "Birthday by the Sea",
+      "native": [
+        "נועה, בואי נארגן לעידו יום הולדת בהפתעה בטיילת בת גלים.",
+        "הוא בטוח שניפגש ביום שישי רק לקפה מול הים.",
+        "אני אביא מחצלת גדולה ועוגת שוקולד מהמאפייה ליד הבית.",
+        "תוכלי להביא צלחות, כמה נרות וסכין לעוגה?",
+        "דיברתי עם סמיר, והוא מכין פיתות עם לבנה וירקות חתוכים.",
+        "צריך להגיע לשם ב-18:30, לפני שעידו מסיים לעבוד ומצטרף אלינו.",
+        "יעל תביא אותו דרך החוף ותשלח הודעה כשהם מתקרבים אלינו.",
+        "בינתיים נחכה ליד הספסלים, בלי בלונים כדי לא להרוס את ההפתעה.",
+        "אל תכתבי על זה בקבוצה הרגילה, כי עידו קורא שם הכול."
+      ],
+      "roman": [
+        "Noa, boi neargen leido yom huledet behaftaa betayelet Bat Galim.",
+        "Hu batuach shenipagesh beyom shishi rak lekafe mul hayam.",
+        "Ani avi machtzelet gdola veugat shokolad mehamaafiya leyad habayit.",
+        "Tuchli lehavi tzalachot, kama nerot vesakin leuga?",
+        "Dibarti im Samir, vehu mechin pitot im labane veyerakot chatuchim.",
+        "Tzarich lehagia lesham be-18:30, lifnei sheido mesayem laavod umitztaref eleinu.",
+        "Yael tavi oto derech hachof vetishlach hodaa kshehem mitkarvim eleinu.",
+        "Beintayim nechake leyad hasafsalim, bli balonim kedei lo laharos et hahaftaa.",
+        "Al tichtevi al ze bakvutza haregila, ki Ido kore sham hakol."
+      ]
+    },
+    {
+      "id": "he-p02",
+      "kind": "para",
+      "title": "Client Meeting Follow-Up",
+      "native": [
+        "שלום לכולם, הנה סיכום הפגישה עם ליאת בסטודיו שלה בבאר שבע.",
+        "ליאת ביקשה להוסיף לאתר הרשמה לסדנאות ותשלום מראש בכרטיס אשראי.",
+        "היא אישרה את העיצוב, אבל ביקשה תמונות חדשות של כלי הקרמיקה.",
+        "אמיר, תוכל לשלוח לה היום רשימה מסודרת של התמונות החסרות?",
+        "דנה תעדכן את עמוד ההרשמה ותוסיף מקום לבקשות מיוחדות של משתתפים.",
+        "אני אבדוק עם צוות הפיתוח מתי אפשר לחבר את מערכת התשלומים.",
+        "נשלח ללקוחה גרסה לבדיקה עד יום רביעי, ונבקש פידבק עד חמישי.",
+        "חשוב שנבדוק את תהליך ההרשמה גם בטלפון לפני שנעביר לה לינק.",
+        "תודה לכולם על ההכנות, אעדכן אחרי שנקבל את התמונות החדשות מהסטודיו."
+      ],
+      "roman": [
+        "Shalom lekulam, hine sikum hapgisha im Liat bastudio shela bebeer Sheva.",
+        "Liat biksha lehosif laatar harshama lesadnaot vetashlum merosh bekartis ashrai.",
+        "Hi ishra et haitzuv, aval biksha tmunot chadashot shel klei hakeramika.",
+        "Amir, tuchal lishloach la hayom reshima mesuderet shel hatmunot hachaserot?",
+        "Dana teadken et amud haharshama vetosif makom levakashot meyuchadot shel mishtatfim.",
+        "Ani evdok im tzevet hapituach matay efshar lechaber et maarechet hatashlumim.",
+        "Nishlach lalakocha girsa livdika ad yom revii, venevakesh feedback ad chamishi.",
+        "Chashuv shenivdok et tahalich haharshama gam batelefon lifnei shenaavir la link.",
+        "Toda lekulam al hahachanot, aadken acharei shenekabel et hatmunot hachadashot mehastudio."
+      ]
+    },
+    {
+      "id": "he-p03",
+      "kind": "para",
+      "title": "Lost in Acre",
+      "native": [
+        "בפעם הראשונה שהגעתי לעכו, הייתי בטוחה שאמצא בקלות את השוק.",
+        "ירדתי מהאוטובוס ליד העיר העתיקה ונכנסתי לסמטה צרה עם דלתות כחולות.",
+        "אחרי כמה פניות הבנתי שאני מסתובבת במעגלים ליד אותה חנות מזכרות.",
+        "פתחתי את המפה בטלפון, אבל הנקודה הכחולה קפצה בין הרחובות.",
+        "נעצרתי ליד מאפייה קטנה, והריח של הפיתות החמות משך אותי פנימה.",
+        "המוכר חייך כששאלתי איפה השוק, והצביע על הדלת שמאחוריי.",
+        "הוא הסביר שפספסתי את הפנייה ממש לפני חנות התבלינים בפינה.",
+        "קניתי פיתה עם זעתר והמשכתי לפי ההסבר שלו, בלי להסתכל בטלפון.",
+        "כשהגעתי סוף סוף לשוק, כבר הכרתי את הרחובות מסביב די טוב."
+      ],
+      "roman": [
+        "Bapaam harishona shehigati leako, hayiti betucha sheemtza bekalut et hashuk.",
+        "Yaradti mehaotobus leyad hair haatika venichnasti lesimta tzara im dlatot kchulot.",
+        "Acharei kama pniyot hevanti sheani mistovevet bemaagalim leyad ota chanut mazkarot.",
+        "Patachti et hamapa batelefon, aval hanekuda hakchula kaftza bein harechovot.",
+        "Neetzarti leyad maafiya ktana, vehareiach shel hapitot hachamot mashach oti pnima.",
+        "Hamocher chiyech ksheshaalti eifo hashuk, vehitzbia al hadelet shemeachoray.",
+        "Hu hisbir shepisfasti et hapniya mamash lifnei chanut hatavlinim bapina.",
+        "Kaniti pita im zaatar vehimshachti lefi hahesber shelo, bli lehistakel batelefon.",
+        "Kshehigati sof sof lashuk, kvar hikarti et harechovot misaviv day tov."
+      ]
+    },
+    {
+      "id": "he-p04",
+      "kind": "para",
+      "title": "Mom's New Phone",
+      "native": [
+        "אימא, בואי נסדר את הטלפון החדש לפני שאת יוצאת לקניון.",
+        "קודם נחבר את המטען לשקע שליד השולחן ונדליק את הטלפון.",
+        "במסך הראשון תבחרי עברית, ואז נחבר את הטלפון לרשת הביתית שלך.",
+        "את הסיסמה תמצאי על המדבקה שמתחת לראוטר, ליד שם הרשת.",
+        "אחר כך נעביר את התמונות ואנשי הקשר מהטלפון הישן לחדש.",
+        "כשההעברה תסתיים, נפתח את וואטסאפ ונבדוק שהשיחות והתמונות שלך מופיעות.",
+        "בהגדרות התצוגה נגדיל קצת את הכתב, כדי שיהיה לך נוח לקרוא.",
+        "נוסיף למסך הבית את פנגו, כדי שתוכלי לשלם על חניה.",
+        "בסוף תתקשרי אליי מהחדר השני, ונבדוק ששומעים טוב."
+      ],
+      "roman": [
+        "Ima, boi nesader et hatelefon hachadash lifnei sheat yotzet lekanyon.",
+        "Kodem nechaber et hamaten lasheka sheleyad hashulchan venadlik et hatelefon.",
+        "Bamasach harishon tivchari ivrit, veaz nechaber et hatelefon lereshet habeitit shelach.",
+        "Et hasisma timtzei al hamadbeka shemitachat larouter, leyad shem hareshet.",
+        "Achar kach naavir et hatmunot veanshei hakesher mehatelefon hayashan lachadash.",
+        "Kshehahaavara tistayem, niftach et WhatsApp venivdok shehasichot vehatmunot shelach mofiot.",
+        "Behagdarot hatetzuga nagdil ktzat et haktav, kedei sheyihye lach noach likro.",
+        "Nosif lemasach habayit et Pango, kedei shetuchli leshalem al chanaya.",
+        "Besof titkashri elay mehacheder hasheni, venivdok sheshomim tov."
+      ]
+    },
+    {
+      "id": "he-p05",
+      "kind": "para",
+      "title": "A Haifa Holiday Read",
+      "native": [
+        "בחופשה בזיכרון יעקב קראתי רומן שמתרחש בשכונת הדר בחיפה.",
+        "הגיבורה, תמר, חוזרת לעיר ופותחת מאפייה קטנה עם אחותה.",
+        "אהבתי במיוחד את התיאורים של הרחובות התלולים ושל חנויות השכונה.",
+        "השיחות בין האחיות נשמעו לי אמיתיות, כולל הוויכוחים על שטויות.",
+        "בהתחלה הסיפור התקדם לאט, וכמעט עברתי לספר אחר אחרי הפרק השני.",
+        "דווקא הפרטים הקטנים, כמו ריח הבצק בבוקר, גרמו לי להמשיך לקרוא.",
+        "פחות אהבתי את הסוף, כי הכול הסתדר מהר מדי לטעמי.",
+        "למרות זה, תמר נשארה לי בראש גם אחרי שסיימתי את הספר.",
+        "זה ספר שהייתי ממליצה לקחת לחופשה, במיוחד למי שמכיר את חיפה."
+      ],
+      "roman": [
+        "Bachufsha bezichron Yaakov karati roman shemitrachesh bishchunat Hadar becheifa.",
+        "Hagibora, Tamar, chozeret lair vepotachat maafiya ktana im achota.",
+        "Ahavti bimyuchad et hateurim shel harechovot hatlulim veshel chanuyot hashchuna.",
+        "Hasichot bein haachayot nishmeu li amitiyot, kolel havikuchim al shtuyot.",
+        "Bahatchala hasipur hitkadem leat, vekimat avarti lesefer acher acharei haperek hasheni.",
+        "Davka hapratim haktanim, kmo reiach habatzek baboker, garmu li lehamshich likro.",
+        "Pachot ahavti et hasof, ki hakol histader maher miday letaami.",
+        "Lamrot ze, Tamar nishara li barosh gam acharei shesiyamti et hasefer.",
+        "Ze sefer shehayiti mamlitza lakachat lachufsha, bimyuchad lemi shemakir et Cheifa."
+      ]
+    },
+    {
+      "id": "he-p06",
+      "kind": "para",
+      "title": "Three Days in Mitzpe Ramon",
+      "native": [
+        "התקציב לטיול של 3 ימים במצפה רמון הוא 1800 שקלים לזוג.",
+        "נצא מאשדוד ב-12 ביוני ונחזור הביתה ב-14 ביוני.",
+        "ביום הראשון נצא בשעה 08:30 ונגיע לצימר בשעה 11:30.",
+        "נזמין 2 לילות בצימר עם מטבחון, במחיר כולל של 960 שקלים.",
+        "נוציא 480 שקלים על אוכל, ואת ארוחות הבוקר נכין בעצמנו.",
+        "נשמור 240 שקלים לדלק, כולל הנסיעה חזרה לאשדוד.",
+        "נשאיר 120 שקלים לכניסה למרכז המבקרים ולפעילות נוספת.",
+        "ביום השני נלך במסלול של 4 קילומטרים, עם הפסקות לצילומים.",
+        "ביום האחרון נשתה קפה מול המכתש ונצא הביתה בשעה 16:30."
+      ],
+      "roman": [
+        "Hataktziv latiyul shel 3 yamim bemitzpe Ramon hu 1800 shkalim lazug.",
+        "Netze meashdod be-12 beyuni venachzor habayta be-14 beyuni.",
+        "Bayom harishon netze beshaa 08:30 venagia latzimer beshaa 11:30.",
+        "Nazmin 2 leilot betzimer im mitbachon, bimchir kolel shel 960 shkalim.",
+        "Notzi 480 shkalim al ochel, veet aruchot haboker nachin beatzmenu.",
+        "Nishmor 240 shkalim ledelek, kolel hanesia chazara leashdod.",
+        "Nashir 120 shkalim liknisa lemerkaz hamevakrim velepeilut nosefet.",
+        "Bayom hasheni nelech bemaslul shel 4 kilometrim, im hafsakot letzilumim.",
+        "Bayom haacharon nishte kafe mul hamachtesh venetze habayta beshaa 16:30."
+      ]
+    },
+    {
+      "id": "he-p07",
+      "kind": "para",
+      "title": "Requesting a School Payment Receipt",
+      "native": [
+        "שלום, מדברת שירה לוי, אימא של יואב.",
+        "אני מתקשרת לברר לגבי הקבלה על התשלום לטיול השנתי של הכיתה.",
+        "שילמתי 180 שקלים ביום שני דרך האתר של בית הספר.",
+        "ראיתי שהחיוב עבר, אבל הקבלה עדיין לא הגיעה אליי במייל.",
+        "בדקתי גם בתיקיית הספאם, ולא מצאתי שם הודעה עם אישור תשלום.",
+        "תוכלו לבדוק שכתובת המייל שלי מעודכנת אצלכם?",
+        "אם הקבלה כבר נשלחה, תוכלו בבקשה לשלוח לי אותה שוב היום?",
+        "אני צריכה להעביר עותק גם לאבא של יואב.",
+        "תודה רבה על העזרה. אם צריך עוד פרטים, תגידו לי."
+      ],
+      "roman": [
+        "Shalom, medaberet Shira Levi, ima shel Yoav.",
+        "Ani mitkasheret levarer legabei hakabala al hatashlum latiyul hashnati shel hakita.",
+        "Shilamti 180 shkalim beyom sheni derech haatar shel beit hasefer.",
+        "Raiti shehachiyuv avar, aval hakabala adayin lo higia elay bemail.",
+        "Badakti gam betikiyat haspam, velo matzati sham hodaa im ishur tashlum.",
+        "Tuchlu livdok shektovet hamail sheli meudkenet etzlechem?",
+        "Im hakabala kvar nishlecha, tuchlu bevakasha lishloach li ota shuv hayom?",
+        "Ani tzricha lehaavir otek gam leaba shel Yoav.",
+        "Toda raba al haezra. Im tzarich od pratim, tagidu li."
+      ]
+    },
+    {
+      "id": "he-p08",
+      "kind": "para",
+      "title": "Getting Around Tel Aviv",
+      "native": [
+        "בתל אביב אפשר לשלב נסיעה באוטובוס וברכבת הקלה.",
+        "הקו האדום נוסע מפתח תקווה לבת ים דרך תל אביב.",
+        "בתחנות אלנבי ויהודית אפשר לעבור בין הרכבת הקלה לקווי אוטובוס.",
+        "לנסיעות מחוץ לעיר אפשר לקחת רכבת מתחנת סבידור מרכז.",
+        "על הנסיעה אפשר לשלם ברב-קו או באפליקציה בטלפון.",
+        "חשוב לתקף כל נסיעה, גם כשעוברים לקו אחר.",
+        "בשעות העומס כדאי לצאת קצת יותר מוקדם, במיוחד אם צריך להחליף קו.",
+        "באפליקציות כמו מוביט אפשר לבדוק מסלולים וזמני הגעה משוערים לתחנות.",
+        "לפני שיוצאים בסוף השבוע, כדאי לבדוק אילו קווים פועלים ובאילו שעות."
+      ],
+      "roman": [
+        "Betel Aviv efshar leshalev nesia baotobus vebarakevet hakala.",
+        "Hakav haadom nosea mipetach Tikva lebat Yam derech Tel Aviv.",
+        "Batachanot Alenbi veyehudit efshar laavor bein harakevet hakala lekavei otobus.",
+        "Lenesiot michutz lair efshar lakachat rakevet mitachanat Savidor Merkaz.",
+        "Al hanesia efshar leshalem berav-kav o beaplikatzia batelefon.",
+        "Chashuv letakef kol nesia, gam ksheovrim lekav acher.",
+        "Beshaot haomes keday latzet ktzat yoter mukdam, bimyuchad im tzarich lehachlif kav.",
+        "Beaplikatziot kmo Moovit efshar livdok maslulim vezmanei hagaa meshuarim latachanot.",
+        "Lifnei sheyotzim besof hashavua, keday livdok eilu kavim poalim vebeeilu shaot."
+      ]
+    },
+    {
+      "id": "he-s001",
+      "kind": "sentence",
+      "native": [
+        "ברור, אני מביאה שמיכה."
+      ],
+      "roman": [
+        "Barur, ani mevia smicha."
+      ]
+    },
+    {
+      "id": "he-s002",
+      "kind": "sentence",
+      "native": [
+        "האישור הסופי עדיין חסר."
+      ],
+      "roman": [
+        "Haishur hasofi adayin chaser."
+      ]
+    },
+    {
+      "id": "he-s003",
+      "kind": "sentence",
+      "native": [
+        "הפעלתי כביסה ב-30 מעלות עם סחיטה של 800 סיבובים."
+      ],
+      "roman": [
+        "Hifalti kvisa be-30 maalot im schita shel 800 sivuvim."
+      ]
+    },
+    {
+      "id": "he-s004",
+      "kind": "sentence",
+      "native": [
+        "תרשום שאפשר להחזיר את התחפושת לחנות עד יום ראשון."
+      ],
+      "roman": [
+        "Tirshom sheefshar lehachzir et hatachposet lachanut ad yom rishon."
+      ]
+    },
+    {
+      "id": "he-s005",
+      "kind": "sentence",
+      "native": [
+        "איפה שמור הקובץ שהורדתי הבוקר למחשב הנייד?"
+      ],
+      "roman": [
+        "Eifo shamur hakovetz shehoradti haboker lamachshev hanayad?"
+      ]
+    },
+    {
+      "id": "he-s006",
+      "kind": "sentence",
+      "native": [
+        "בזק הודיעה שהתקלה באינטרנט תסתדר עד הערב."
+      ],
+      "roman": [
+        "Bezeq hodia shehatakala bainternet tistader ad haerev."
+      ]
+    },
+    {
+      "id": "he-s007",
+      "kind": "sentence",
+      "native": [
+        "הסנדלר נמצא בחצר הפנימית, ממש מאחורי חנות הפרחים."
+      ],
+      "roman": [
+        "Hasandlar nimtza bachatzer hapnimit, mamash meachorei chanut haprachim."
+      ]
+    },
+    {
+      "id": "he-s008",
+      "kind": "sentence",
+      "native": [
+        "בסניף הדואר ביקשו שאביא תעודה מזהה כדי לקבל את החבילה, אז אחזור לשם בהפסקה."
+      ],
+      "roman": [
+        "Basnif hadoar bikshu sheavi teuda mezaha kedei lekabel et hachavila, az echzor lesham bahafsaka."
+      ]
+    },
+    {
+      "id": "he-s009",
+      "kind": "sentence",
+      "native": [
+        "תארזי חולצה, גרביים ומברשת שיניים, וגם סוודר, לא, בעצם מעיל, כי בערב בטח יהיה קר."
+      ],
+      "roman": [
+        "Teerzi chultza, garbayim umivreshet shinayim, vegam sveder, lo, beetzem meil, ki baerev betach yihye kar."
+      ]
+    },
+    {
+      "id": "he-s010",
+      "kind": "sentence",
+      "native": [
+        "הטחינה במסעדה הזאת טעימה, אבל המנות קטנות יחסית למחיר."
+      ],
+      "roman": [
+        "Hatachina bamisada hazot teima, aval hamanot ktanot yachasit lamechir."
+      ]
+    },
+    {
+      "id": "he-s011",
+      "kind": "sentence",
+      "native": [
+        "תודה שהשקיתם את העציצים בזמן שהיינו בחופשה, השארנו לכם משהו קטן על השיש."
+      ],
+      "roman": [
+        "Toda shehishketem et haatzitzim bizman shehayinu bachufsha, hisharnu lachem mashehu katan al hashayish."
+      ]
+    },
+    {
+      "id": "he-s012",
+      "kind": "sentence",
+      "native": [
+        "קיבלתי את ההערות, אעבור עליהן אחרי הפסקת הצהריים."
+      ],
+      "roman": [
+        "Kibalti et hahearot, eevor aleihen acharei hafsakat hatzohorayim."
+      ]
+    },
+    {
+      "id": "he-s013",
+      "kind": "sentence",
+      "native": [
+        "המסלול המעגלי באורך 8 קילומטרים, עם עלייה של 240 מטר."
+      ],
+      "roman": [
+        "Hamaslul hamaagali beorech 8 kilometrim, im aliya shel 240 meter."
+      ]
+    },
+    {
+      "id": "he-s014",
+      "kind": "sentence",
+      "native": [
+        "חשוב לבדוק מתי נגמרת האחריות על המדיח החדש."
+      ],
+      "roman": [
+        "Chashuv livdok matay nigmeret haachrayut al hamadiach hechadash."
+      ]
+    },
+    {
+      "id": "he-s015",
+      "kind": "sentence",
+      "native": [
+        "חייג ללירון אוחנה."
+      ],
+      "roman": [
+        "Chayeg leliron Ochana."
+      ]
+    },
+    {
+      "id": "he-s016",
+      "kind": "sentence",
+      "native": [
+        "רוני, תבדקי אם יש לך הרשאת עריכה לטבלה."
+      ],
+      "roman": [
+        "Roni, tivdeki im yesh lach harshaat aricha latavla."
+      ]
+    },
+    {
+      "id": "he-s017",
+      "kind": "sentence",
+      "native": [
+        "חיפשנו חניה ליד המרכז הקהילתי, ובסוף מצאנו מקום ברחוב המקביל והלכנו עד האולם."
+      ],
+      "roman": [
+        "Chipasnu chanaya leyad hamerkaz hakehilati, uvasof matzanu makom barechov hamakbil vehalachnu ad haulam."
+      ]
+    },
+    {
+      "id": "he-s018",
+      "kind": "sentence",
+      "native": [
+        "העברתי את התור לתספורת לערב, זה נוח יותר."
+      ],
+      "roman": [
+        "Heevarti et hator letisporet laerev, ze noach yoter."
+      ]
+    },
+    {
+      "id": "he-s019",
+      "kind": "sentence",
+      "native": [
+        "קחי מלפפונים, גזר ופלפל, ועדיף שהפלפל יהיה אדום."
+      ],
+      "roman": [
+        "Kchi melafefonim, gezer ufilpel, veadif shehapilpel yihye adom."
+      ]
+    },
+    {
+      "id": "he-s020",
+      "kind": "sentence",
+      "native": [
+        "מיכל, בזכות העזרה שלך עם המעבר הצלחתי לנשום קצת, ואני באמת לא יודעת איך להודות לך."
+      ],
+      "roman": [
+        "Michal, bizchut haezra shelach im hamaavar hitzlachti linshom ktzat, vaani beemet lo yodaat eich lehodot lach."
+      ]
+    },
+    {
+      "id": "he-s021",
+      "kind": "sentence",
+      "native": [
+        "תקשיבו, אם אני נרדמת באמצע המשחק, זה לא משעמום, פשוט קמתי מוקדם היום."
+      ],
+      "roman": [
+        "Takshivu, im ani nirdemet beemtza hamischak, ze lo mishiamum, pashut kamti mukdam hayom."
+      ]
+    },
+    {
+      "id": "he-s022",
+      "kind": "sentence",
+      "native": [
+        "להתראות במפגש הבא."
+      ],
+      "roman": [
+        "Lehitraot bamifgash haba."
+      ]
+    },
+    {
+      "id": "he-s023",
+      "kind": "sentence",
+      "native": [
+        "הכתובת למשלוח היא רחוב ביאליק 27, רמת גן, דירה 5."
+      ],
+      "roman": [
+        "Haktovet lamishloach hi rechov Bialik 27, Ramat Gan, dira 5."
+      ]
+    },
+    {
+      "id": "he-s024",
+      "kind": "sentence",
+      "native": [
+        "הערה לעצמי: בתרגיל 16 מבקשים להסביר גם את הדרך."
+      ],
+      "roman": [
+        "Heara leatzmi: betargil 16 mevakshim lehasbir gam et haderech."
+      ]
+    },
+    {
+      "id": "he-s025",
+      "kind": "sentence",
+      "native": [
+        "תנמיך את הווליום."
+      ],
+      "roman": [
+        "Tanmich et havolume."
+      ]
+    },
+    {
+      "id": "he-s026",
+      "kind": "sentence",
+      "native": [
+        "הגיבוי לענן נעצר באמצע הלילה, אז בינתיים אל תמחקו שום דבר מהכונן הישן."
+      ],
+      "roman": [
+        "Hagibuy leanan neetzar beemtza halayla, az beintayim al timchaku shum davar mehakonen hayashan."
+      ]
+    },
+    {
+      "id": "he-s027",
+      "kind": "sentence",
+      "native": [
+        "דיברתי עם השומר, והוא יפתח לכם את המחסום."
+      ],
+      "roman": [
+        "Dibarti im hashomer, vehu yiftach lachem et hamachsom."
+      ]
+    },
+    {
+      "id": "he-s028",
+      "kind": "sentence",
+      "native": [
+        "לקראת שבועות ננסה להכין בורקס גבינה לבד, אז תביאו מערוך ותפנו מקום על השולחן."
+      ],
+      "roman": [
+        "Likrat Shavuot nenase lehachin burekas gvina levad, az taviu maaroch utefanu makom al hashulchan."
+      ]
+    },
+    {
+      "id": "he-s029",
+      "kind": "sentence",
+      "native": [
+        "שלומי, תביא מברג, פטיש וכמה מסמרים בשביל התמונה."
+      ],
+      "roman": [
+        "Shlomi, tavi mavreg, patish vechama masmerim bishvil hatmuna."
+      ]
+    },
+    {
+      "id": "he-s030",
+      "kind": "sentence",
+      "native": [
+        "נהניתי מכל רגע בהופעה."
+      ],
+      "roman": [
+        "Neheneti mikol rega bahofaa."
+      ]
+    },
+    {
+      "id": "he-s031",
+      "kind": "sentence",
+      "native": [
+        "חשבנו לקפוץ לחיפה בשבת, אז אם מתחשק לכם להצטרף נוכל לנסוע יחד באוטו שלנו."
+      ],
+      "roman": [
+        "Chashavnu likpotz lecheifa beshabat, az im mitchashek lachem lehitztaref nuchal linsoa yachad baoto shelanu."
+      ]
+    },
+    {
+      "id": "he-s032",
+      "kind": "sentence",
+      "native": [
+        "נשאר רק לחתום על ההזמנה. אחרי החתימה אעביר אותה לספק ואעדכן אתכם במייל."
+      ],
+      "roman": [
+        "Nishar rak lachtom al hahazmana. Acharei hachatima aavir ota lasapak veaadken etchem bamail."
+      ]
+    },
+    {
+      "id": "he-s033",
+      "kind": "sentence",
+      "native": [
+        "הפגישה מחר מ-09:15 עד 10:00."
+      ],
+      "roman": [
+        "Hapgisha machar mi-09:15 ad 10:00."
+      ]
+    },
+    {
+      "id": "he-s034",
+      "kind": "sentence",
+      "native": [
+        "לפני היציאה לבריכה, אני צריכה לארוז משקפת ומגבת."
+      ],
+      "roman": [
+        "Lifnei hayetzia labrecha, ani tzricha leeroz mishkefet umagevet."
+      ]
+    },
+    {
+      "id": "he-s035",
+      "kind": "sentence",
+      "native": [
+        "חפש חנות כלי נגינה באזור פתח תקווה שמוכרת גיטרות יד שנייה ואפשר לנסות אותן במקום."
+      ],
+      "roman": [
+        "Chapes chanut klei negina beezor Petach Tikva shemocheret gitarot yad shniya veefshar lenasot otan bamakom."
+      ]
+    },
+    {
+      "id": "he-s036",
+      "kind": "sentence",
+      "native": [
+        "סיגל, אני מעדיפה לשלוח פידבק בהודעה קולית, כי ככה קל לי להסביר מה הפריע לי."
+      ],
+      "roman": [
+        "Sigal, ani maadifa lishloach feedback behodaa kolit, ki kacha kal li lehasbir ma hifria li."
+      ]
+    },
+    {
+      "id": "he-s037",
+      "kind": "sentence",
+      "native": [
+        "מהכניסה לחניון ממשיכים ישר עד שרואים שלט כתום."
+      ],
+      "roman": [
+        "Mehaknisa lachanyon mamshichim yashar ad sheroim shelet katom."
+      ]
+    },
+    {
+      "id": "he-s038",
+      "kind": "sentence",
+      "native": [
+        "השטיח גדול מדי לפינת האוכל, נמדוד שוב לפני שנחליט אם להחליף אותו במשהו צר יותר."
+      ],
+      "roman": [
+        "Hashatiach gadol midai lepinat haochel, nimdod shuv lifnei shenachlit im lehachlif oto bemashehu tzar yoter."
+      ]
+    },
+    {
+      "id": "he-s039",
+      "kind": "sentence",
+      "native": [
+        "בעצם, נשארים לאכול כאן?"
+      ],
+      "roman": [
+        "Beetzem, nisharim leechol kan?"
+      ]
+    },
+    {
+      "id": "he-s040",
+      "kind": "sentence",
+      "native": [
+        "מצטערת על ההערה המיותרת."
+      ],
+      "roman": [
+        "Mitztaeret al haheara hameyuteret."
+      ]
+    },
+    {
+      "id": "he-s041",
+      "kind": "sentence",
+      "native": [
+        "הגעתי הביתה, הכול בסדר."
+      ],
+      "roman": [
+        "Higati habayta, hakol beseder."
+      ]
+    },
+    {
+      "id": "he-s042",
+      "kind": "sentence",
+      "native": [
+        "אורית טדסה תחליף אותי בדלפק הקבלה ביום רביעי."
+      ],
+      "roman": [
+        "Orit Tadese tachlif oti bedalpak hakabala beyom revii."
+      ]
+    },
+    {
+      "id": "he-s043",
+      "kind": "sentence",
+      "native": [
+        "הסוללה ירדה מ-64% ל-18%."
+      ],
+      "roman": [
+        "Hasolela yarda mi-64% le-18%."
+      ]
+    },
+    {
+      "id": "he-s044",
+      "kind": "sentence",
+      "native": [
+        "תזכירי לי להפשיר לחם."
+      ],
+      "roman": [
+        "Tazkiri li lehafshir lechem."
+      ]
+    },
+    {
+      "id": "he-s045",
+      "kind": "sentence",
+      "native": [
+        "למה עוגת השוקולד שוקעת באמצע אחרי האפייה, למרות שאני לא פותחת את התנור בכלל?"
+      ],
+      "roman": [
+        "Lama ugat hashokolad shokaat baemtza acharei haafiya, lamrot sheani lo potachat et hatanur bichlal?"
+      ]
+    },
+    {
+      "id": "he-s046",
+      "kind": "sentence",
+      "native": [
+        "אפשר להוריד פרקים של פודקאסט ולהאזין להם גם אופליין?"
+      ],
+      "roman": [
+        "Efshar lehorid prakim shel podcast ulehaazin lahem gam offline?"
+      ]
+    },
+    {
+      "id": "he-s047",
+      "kind": "sentence",
+      "native": [
+        "תחכי לי למטה, אני יורדת אלייך במעלית."
+      ],
+      "roman": [
+        "Techaki li lemata, ani yoredet elayich bamaalit."
+      ]
+    },
+    {
+      "id": "he-s048",
+      "kind": "sentence",
+      "native": [
+        "לכבוד יום ההולדת, הכנו לאימא אלבום עם ברכות מהנכדים."
+      ],
+      "roman": [
+        "Lichvod yom hahuledet, hechanu leima album im brachot mehanechadim."
+      ]
+    },
+    {
+      "id": "he-s049",
+      "kind": "sentence",
+      "native": [
+        "הרוכסן נתקע, יש פה אולי סיכה או משהו?"
+      ],
+      "roman": [
+        "Harochsan nitka, yesh po ulay sika o mashehu?"
+      ]
+    },
+    {
+      "id": "he-s050",
+      "kind": "sentence",
+      "native": [
+        "מעצבן שהקופה בשירות עצמי מצפצפת גם כשהכול מונח במקום."
+      ],
+      "roman": [
+        "Meatzben shehakupa besherut atzmi metzaftzefet gam kshehakol munach bamakom."
+      ]
+    },
+    {
+      "id": "he-s051",
+      "kind": "sentence",
+      "native": [
+        "רוצים לנגן אצלנו בחצר הערב? בתוך הבית צפוף, ובחוץ יש מקום לכולם לשבת בנוח."
+      ],
+      "roman": [
+        "Rotzim lenagen etzlenu bachatzer haerev? Betoch habayit tzafuf, uvachutz yesh makom lekulam lashevet benoach."
+      ]
+    },
+    {
+      "id": "he-s052",
+      "kind": "sentence",
+      "native": [
+        "צירפתי את הטבלה המעודכנת."
+      ],
+      "roman": [
+        "Tzirafti et hatavla hameudkenet."
+      ]
+    },
+    {
+      "id": "he-s053",
+      "kind": "sentence",
+      "native": [
+        "בחניון נשארו 12 מקומות פנויים מתוך 160 בסך הכול."
+      ],
+      "roman": [
+        "Bachanyon nisharu 12 mekomot pnuyim mitoch 160 besach hakol."
+      ]
+    },
+    {
+      "id": "he-s054",
+      "kind": "sentence",
+      "native": [
+        "המטרייה של רותם עדיין אצלי, אחזיר אותה ביום שני."
+      ],
+      "roman": [
+        "Hamitriya shel Rotem adayin etzli, achzir ota beyom sheni."
+      ]
+    },
+    {
+      "id": "he-s055",
+      "kind": "sentence",
+      "native": [
+        "מתי יוצא האוטובוס האחרון לכיוון טבריה ביום שישי?"
+      ],
+      "roman": [
+        "Matay yotze haotobus haacharon lekivun Tverya beyom shishi?"
+      ]
+    },
+    {
+      "id": "he-s056",
+      "kind": "sentence",
+      "native": [
+        "אסתר, תוכלי לבדוק למה המדפסת מוציאה דפים ריקים למרות שהחלפנו את הדיו רק אתמול?"
+      ],
+      "roman": [
+        "Ester, tuchli livdok lama hamadpeset motzia dapim reikim lamrot shehechlafnu et hadyo rak etmol?"
+      ]
+    },
+    {
+      "id": "he-s057",
+      "kind": "sentence",
+      "native": [
+        "הטיילת שקטה בשעות הבוקר."
+      ],
+      "roman": [
+        "Hatayelet shketa bishot haboker."
+      ]
+    },
+    {
+      "id": "he-s058",
+      "kind": "sentence",
+      "native": [
+        "אל תשטפי את הפטריות, מספיק לנגב אותן בעדינות."
+      ],
+      "roman": [
+        "Al tishtefi et hapitriyot, maspik lenagev otan beadinut."
+      ]
+    },
+    {
+      "id": "he-s059",
+      "kind": "sentence",
+      "native": [
+        "הסביח בלי ביצה, סליחה, בלי חציל ועם ביצה."
+      ],
+      "roman": [
+        "Hasabich bli beitza, slicha, bli chatzil veim beitza."
+      ]
+    },
+    {
+      "id": "he-s060",
+      "kind": "sentence",
+      "native": [
+        "תמר, השמלה שתפרת יושבת עלייך פשוט נהדר."
+      ],
+      "roman": [
+        "Tamar, hasimla shetafart yoshevet alayich pashut nehedar."
+      ]
+    },
+    {
+      "id": "he-s061",
+      "kind": "sentence",
+      "native": [
+        "אני בדרך אליכם, רק עוצרת במכולת להביא משהו מתוק."
+      ],
+      "roman": [
+        "Ani baderech aleichem, rak otzeret bamakolet lehavi mashehu matok."
+      ]
+    },
+    {
+      "id": "he-s062",
+      "kind": "sentence",
+      "native": [
+        "דניאל, נעשה שיחת זום במקום להיפגש במשרד השבוע?"
+      ],
+      "roman": [
+        "Daniel, naase sichat Zoom bimkom lehipagesh bamisrad hashavua?"
+      ]
+    },
+    {
+      "id": "he-s063",
+      "kind": "sentence",
+      "native": [
+        "אצל מאיה הסדנה מתחילה ב-16:20 ונמשכת 75 דקות."
+      ],
+      "roman": [
+        "Etzel Maya hasadna matchila be-16:20 venimshechet 75 dakot."
+      ]
+    },
+    {
+      "id": "he-s064",
+      "kind": "sentence",
+      "native": [
+        "אבדוק אם יש כניסה בלי מדרגות למוזיאון הילדים בחולון, כדי שאוכל להיכנס עם העגלה."
+      ],
+      "roman": [
+        "Evdok im yesh knisa bli madregot lemuzeon hayeladim becholon, kedei sheuchal lehikanes im haagala."
+      ]
+    },
+    {
+      "id": "he-s065",
+      "kind": "sentence",
+      "native": [
+        "תראה לי תמונות של כלבים קטנים עם פרווה מתולתלת."
+      ],
+      "roman": [
+        "Tare li tmunot shel klavim ktanim im parva metultelet."
+      ]
+    },
+    {
+      "id": "he-s066",
+      "kind": "sentence",
+      "native": [
+        "המסך מהבהב כשמחברים אליו את הכבל של המקרן."
+      ],
+      "roman": [
+        "Hamasach mehavhev kshemechabrim elav et hakabel shel hamakren."
+      ]
+    },
+    {
+      "id": "he-s067",
+      "kind": "sentence",
+      "native": [
+        "ניצן, בואי איתנו בשישי לסיור בוואדי ניסנאס, המדריכה מכירה שם פינות שלא היינו מגלים לבד."
+      ],
+      "roman": [
+        "Nitzan, boi itanu bashishi lesiyur bavadi Nisnas, hamadricha makira sham pinot shelo hayinu megalim levad."
+      ]
+    },
+    {
+      "id": "he-s068",
+      "kind": "sentence",
+      "native": [
+        "הסחוג הזה חריף לי מדי."
+      ],
+      "roman": [
+        "Haschug haze charif li midai."
+      ]
+    },
+    {
+      "id": "he-s069",
+      "kind": "sentence",
+      "native": [
+        "רגע, התכוונתי לכוס הגדולה."
+      ],
+      "roman": [
+        "Rega, hitkavanti lakos hagdola."
+      ]
+    },
+    {
+      "id": "he-s070",
+      "kind": "sentence",
+      "native": [
+        "מבאס שהמשלוח הגיע עם קופסה מעוכה ומכסה שבור."
+      ],
+      "roman": [
+        "Mevaes shehamishloach higia im kufsa meucha umichse shavur."
+      ]
+    },
+    {
+      "id": "he-s071",
+      "kind": "sentence",
+      "native": [
+        "אילנה, בשיעורי הבית צריך להסביר במילים או רק לחשב?"
+      ],
+      "roman": [
+        "Ilana, beshiurei habayit tzarich lehasbir bemilim o rak lechashev?"
+      ]
+    },
+    {
+      "id": "he-s072",
+      "kind": "sentence",
+      "native": [
+        "לקראת הסדנה, תשלחו לי נושאים שתרצו שנעבור עליהם."
+      ],
+      "roman": [
+        "Likrat hasadna, tishlechu li nosim shetirtzu shenaavor aleihem."
+      ]
+    },
+    {
+      "id": "he-s073",
+      "kind": "sentence",
+      "native": [
+        "עדי, תזמיני 4 מגשי פיצה ליום חמישי ב-19:30."
+      ],
+      "roman": [
+        "Adi, tazmini 4 magshei pizza leyom chamishi be-19:30."
+      ]
+    },
+    {
+      "id": "he-s074",
+      "kind": "sentence",
+      "native": [
+        "כשאגיע לכפר סבא, אני רוצה לעבור בחנות האופניים ולברר אם אפשר להחליף את האוכף."
+      ],
+      "roman": [
+        "Ksheagia lekfar Saba, ani rotza laavor bachanut haofanayim ulevarer im efshar lehachlif et haukaf."
+      ]
+    },
+    {
+      "id": "he-s075",
+      "kind": "sentence",
+      "native": [
+        "מה יהיה מזג האוויר באילת בשבת הקרובה?"
+      ],
+      "roman": [
+        "Ma yihye mezeg haavir beeilat beshabat hakrova?"
+      ]
+    },
+    {
+      "id": "he-s076",
+      "kind": "sentence",
+      "native": [
+        "הסיסמה החדשה עובדת בטלפון, אבל לא דרך הדפדפן."
+      ],
+      "roman": [
+        "Hasisma hachadasha ovedet batelefon, aval lo derech hadafdefan."
+      ]
+    },
+    {
+      "id": "he-s077",
+      "kind": "sentence",
+      "native": [
+        "לנתניה עדיף לנסוע דרך כביש 4 בשעה הזאת."
+      ],
+      "roman": [
+        "Lenetanya adif linsoa derech kvish 4 bashaa hazot."
+      ]
+    },
+    {
+      "id": "he-s078",
+      "kind": "sentence",
+      "native": [
+        "הברז במטבח שוב מטפטף."
+      ],
+      "roman": [
+        "Haberez bamitbach shuv metaftef."
+      ]
+    },
+    {
+      "id": "he-s079",
+      "kind": "sentence",
+      "native": [
+        "נו, הצנצנת נפתחת בקלות?"
+      ],
+      "roman": [
+        "Nu, hatzintzenet niftachat bekalut?"
+      ]
+    },
+    {
+      "id": "he-s080",
+      "kind": "sentence",
+      "native": [
+        "בירושלים תמיד מתחשק לי להסתובב עוד קצת, גם כשכבר צריך לחזור הביתה."
+      ],
+      "roman": [
+        "Biyerushalayim tamid mitchashek li lehistovev od ktzat, gam kshekvar tzarich lachzor habayta."
+      ]
+    },
+    {
+      "id": "he-s081",
+      "kind": "sentence",
+      "native": [
+        "הרכבת לבנימינה מתעכבת, אז אל תחכו לי בתחנה."
+      ],
+      "roman": [
+        "Harakevet lebinyamina mitakevet, az al techaku li batachana."
+      ]
+    },
+    {
+      "id": "he-s082",
+      "kind": "sentence",
+      "native": [
+        "יעל, תוכלי להעביר לי את המצגת לפני ההדרכה?"
+      ],
+      "roman": [
+        "Yael, tuchli lehaavir li et hamatzeget lifnei hahadracha?"
+      ]
+    },
+    {
+      "id": "he-s083",
+      "kind": "sentence",
+      "native": [
+        "בבקשה תשאירו 15 סנטימטרים בין המדף לתקרה, ועוד 11 סנטימטרים בצד בשביל הכבל."
+      ],
+      "roman": [
+        "Bevakasha tashiru 15 sentimetrim bein hamadaf latikra, veod 11 sentimetrim batzad bishvil hakabel."
+      ]
+    },
+    {
+      "id": "he-s084",
+      "kind": "sentence",
+      "native": [
+        "מחר מחזירים ספרים לספרייה."
+      ],
+      "roman": [
+        "Machar machzirim sfarim lasifriya."
+      ]
+    },
+    {
+      "id": "he-s085",
+      "kind": "sentence",
+      "native": [
+        "כבה את הפנס בטלפון."
+      ],
+      "roman": [
+        "Kabe et hapanas batelefon."
+      ]
+    },
+    {
+      "id": "he-s086",
+      "kind": "sentence",
+      "native": [
+        "נתקע לי העכבר."
+      ],
+      "roman": [
+        "Nitka li haachbar."
+      ]
+    },
+    {
+      "id": "he-s087",
+      "kind": "sentence",
+      "native": [
+        "טיגיסט הציעה שנמשיך ברגל משוק הפשפשים לנמל יפו, אבל אני מעדיפה לשכור אופניים."
+      ],
+      "roman": [
+        "Tigist hitzia shenamshich baregel mishuk hapishpeshim linmal Yafo, aval ani maadifa liskor ofanayim."
+      ]
+    },
+    {
+      "id": "he-s088",
+      "kind": "sentence",
+      "native": [
+        "ליאת, תשאלי את הגננת אם נשארו בגדי החלפה."
+      ],
+      "roman": [
+        "Liat, tishali et haganenet im nisharu bigdei hachlafa."
+      ]
+    },
+    {
+      "id": "he-s089",
+      "kind": "sentence",
+      "native": [
+        "התכוונתי לענות עכשיו, אבל רגע, עדיף שאקרא קודם את כל ההודעה עד הסוף ואז אגיב."
+      ],
+      "roman": [
+        "Hitkavanti laanot achshav, aval rega, adif sheekra kodem et kol hahodaa ad hasof veaz agiv."
+      ]
+    },
+    {
+      "id": "he-s090",
+      "kind": "sentence",
+      "native": [
+        "איתי, כל הכבוד על ההתמדה. רואים כמה התקדמת בשחייה."
+      ],
+      "roman": [
+        "Itay, kol hakavod al hahatmada. Roim kama hitkadamta baschiya."
+      ]
+    },
+    {
+      "id": "he-s091",
+      "kind": "sentence",
+      "native": [
+        "בסוף ויתרנו על הסרט ונשארנו לשחק קלפים בסלון."
+      ],
+      "roman": [
+        "Basof vitarnu al haseret venisharnu lesachek klafim basalon."
+      ]
+    },
+    {
+      "id": "he-s092",
+      "kind": "sentence",
+      "native": [
+        "עד איזו שעה דלפק הארנונה בעיריית כרמיאל פתוח היום?"
+      ],
+      "roman": [
+        "Ad eizo shaa dalpak haarnona beiriyat Karmiel patuach hayom?"
+      ]
+    },
+    {
+      "id": "he-s093",
+      "kind": "sentence",
+      "native": [
+        "במתכון כתוב 350 גרם קמח ו-200 מיליליטר מים."
+      ],
+      "roman": [
+        "Bamatkon katuv 350 gram kemach ve-200 mililiter mayim."
+      ]
+    },
+    {
+      "id": "he-s094",
+      "kind": "sentence",
+      "native": [
+        "חייבת לקפוץ לטמבורייה ולהביא ידיות חדשות לארון במסדרון."
+      ],
+      "roman": [
+        "Chayevet likpotz latamburiya ulehavi yadiyot chadashot laaron bamisderon."
+      ]
+    },
+    {
+      "id": "he-s095",
+      "kind": "sentence",
+      "native": [
+        "יש השבוע הקרנות לילדים בסינמטק הרצליה בשעות הבוקר?"
+      ],
+      "roman": [
+        "Yesh hashavua hakranot layeladim basinematek Hertzliya beshaot haboker?"
+      ]
+    },
+    {
+      "id": "he-s096",
+      "kind": "sentence",
+      "native": [
+        "קובץ אקסל נמחק לי בטעות, יש דרך לשחזר אותו?"
+      ],
+      "roman": [
+        "Kovetz Excel nimchak li betaut, yesh derech leshachzer oto?"
+      ]
+    },
+    {
+      "id": "he-s097",
+      "kind": "sentence",
+      "native": [
+        "המונית עוצרת מול המלון."
+      ],
+      "roman": [
+        "Hamonit otzeret mul hamalon."
+      ]
+    },
+    {
+      "id": "he-s098",
+      "kind": "sentence",
+      "native": [
+        "איזה חום בחוץ!"
+      ],
+      "roman": [
+        "Eize chom bachutz!"
+      ]
+    },
+    {
+      "id": "he-s099",
+      "kind": "sentence",
+      "native": [
+        "נעצור ליד חדרה, לא, ליד זיכרון יעקב בדרך צפונה."
+      ],
+      "roman": [
+        "Naatzor leyad Chadera, lo, leyad Zichron Yaakov baderech tzafona."
+      ]
+    },
+    {
+      "id": "he-s100",
+      "kind": "sentence",
+      "native": [
+        "אבא, נשאר חומוס במקרר או שצריך לקנות עוד?"
+      ],
+      "roman": [
+        "Aba, nishar chumus bamekarer o shetzarich liknot od?"
+      ]
+    },
+    {
+      "id": "he-s101",
+      "kind": "sentence",
+      "native": [
+        "הלקוח חזר אלינו עם בקשה לשנות את האריזה."
+      ],
+      "roman": [
+        "Halakoach chazar eleinu im bakasha leshanot et haariza."
+      ]
+    },
+    {
+      "id": "he-s102",
+      "kind": "sentence",
+      "native": [
+        "ההרשמה נסגרת ביום שלישי, 16 ביוני, ונשארו רק 24 מקומות במקצה של 5 קילומטרים."
+      ],
+      "roman": [
+        "Haharshama nisgeret beyom shlishi, 16 beyuni, venisharu rak 24 mekomot bamiktze shel 5 kilometrim."
+      ]
+    },
+    {
+      "id": "he-s103",
+      "kind": "sentence",
+      "native": [
+        "ביום רביעי אני צריכה לאסוף את המכנסיים מהתופרת, אז כדאי להכין מראש את הקבלה."
+      ],
+      "roman": [
+        "Beyom revii ani tzricha leesof et hamichnasayim mehatoferet, az keday lehachin merosh et hakabala."
+      ]
+    },
+    {
+      "id": "he-s104",
+      "kind": "sentence",
+      "native": [
+        "באיזה פח זורקים קופסאות שימורים אחרי שמרוקנים אותן?"
+      ],
+      "roman": [
+        "Beeize pach zorkim kufsaot shimurim acharei shemeroknim otan?"
+      ]
+    },
+    {
+      "id": "he-s105",
+      "kind": "sentence",
+      "native": [
+        "במהלך ההדגמה אשתף רק חלון אחד, כדי שלא יראו את כל ההתראות שקופצות אצלי."
+      ],
+      "roman": [
+        "Bemahalach hahadgama ashatef rak chalon echad, kedei shelo yiru et kol hahatraot shekoftzot etzli."
+      ]
+    },
+    {
+      "id": "he-s106",
+      "kind": "sentence",
+      "native": [
+        "דרך הסמטה הזאת אפשר להגיע ישר לרחוב הראשי?"
+      ],
+      "roman": [
+        "Derech hasimta hazot efshar lehagia yashar larechov harashi?"
+      ]
+    },
+    {
+      "id": "he-s107",
+      "kind": "sentence",
+      "native": [
+        "תעשה לי את העציץ ב-35 שקלים ואקח אותו עכשיו."
+      ],
+      "roman": [
+        "Taase li et haatzitz be-35 shkalim veekach oto achshav."
+      ]
+    },
+    {
+      "id": "he-s108",
+      "kind": "sentence",
+      "native": [
+        "אופס, כתבתי גלעד במקום גיא."
+      ],
+      "roman": [
+        "Oops, katavti Gilad bimkom Guy."
+      ]
+    },
+    {
+      "id": "he-s109",
+      "kind": "sentence",
+      "native": [
+        "שכחתי אצלך צעיף כחול, תוכל לשים אותו בצד?"
+      ],
+      "roman": [
+        "Shachachti etzlecha tzaif kachol, tuchal lasim oto batzad?"
+      ]
+    },
+    {
+      "id": "he-s110",
+      "kind": "sentence",
+      "native": [
+        "הצעת המחיר מבית הדפוס בעכו עדיין לא הגיעה."
+      ],
+      "roman": [
+        "Hatzaat hamechir mibeit hadfus beako adayin lo higia."
+      ]
+    },
+    {
+      "id": "he-s111",
+      "kind": "sentence",
+      "native": [
+        "החדר שלנו בקומה 6, ליד המעלית."
+      ],
+      "roman": [
+        "Hacheder shelanu bakoma 6, leyad hamaalit."
+      ]
+    },
+    {
+      "id": "he-s112",
+      "kind": "sentence",
+      "native": [
+        "צריך למלא לחתול מים."
+      ],
+      "roman": [
+        "Tzarich lemale lachatul mayim."
+      ]
+    },
+    {
+      "id": "he-s113",
+      "kind": "sentence",
+      "native": [
+        "נווט לחוף פלמחים."
+      ],
+      "roman": [
+        "Navet lechof Palmachim."
+      ]
+    },
+    {
+      "id": "he-s114",
+      "kind": "sentence",
+      "native": [
+        "מאז העדכון, האפליקציה נסגרת בכל פעם שאני נכנסת."
+      ],
+      "roman": [
+        "Meaz haidkun, haaplikatzia nisgeret bechol paam sheani nichneset."
+      ]
+    },
+    {
+      "id": "he-s115",
+      "kind": "sentence",
+      "native": [
+        "באיזו קומה נמצאת חנות הצעצועים שבמרכז המסחרי החדש?"
+      ],
+      "roman": [
+        "Beeizo koma nimtzet chanut hatzaatzuim shebamerkaz hamischari hachadash?"
+      ]
+    },
+    {
+      "id": "he-s116",
+      "kind": "sentence",
+      "native": [
+        "נגמרו השקיות לפח."
+      ],
+      "roman": [
+        "Nigmeru hasakiyot lapach."
+      ]
+    },
+    {
+      "id": "he-s117",
+      "kind": "sentence",
+      "native": [
+        "ההזמנה תהיה מוכנה בחמישי, לא, בשישי בבוקר, כי רק אז יגיעו החרוזים שחסרים לצמיד."
+      ],
+      "roman": [
+        "Hahazmana tihye muchana bachamishi, lo, bashishi baboker, ki rak az yagiu hacharuzim shechaserim latzamid."
+      ]
+    },
+    {
+      "id": "he-s118",
+      "kind": "sentence",
+      "native": [
+        "נועה, המפתח אצל השכנה."
+      ],
+      "roman": [
+        "Noa, hamafteach etzel hashchena."
+      ]
+    },
+    {
+      "id": "he-s119",
+      "kind": "sentence",
+      "native": [
+        "העברנו את הקרטונים למחזור, כי לא נשאר במחסן מקום לחומרי היצירה של הקייטנה."
+      ],
+      "roman": [
+        "Heevarnu et hakartonim lemichzur, ki lo nishar bamachsan makom lechomrei hayetzira shel hakaytana."
+      ]
+    },
+    {
+      "id": "he-s120",
+      "kind": "sentence",
+      "native": [
+        "הדפסתי 32 עמודים ב-4 עותקים."
+      ],
+      "roman": [
+        "Hidpasti 32 amudim be-4 otakim."
+      ]
+    },
+    {
+      "id": "he-s121",
+      "kind": "sentence",
+      "native": [
+        "צריך להחליף סוללות בשלט."
+      ],
+      "roman": [
+        "Tzarich lehachlif solelot bashalat."
+      ]
+    },
+    {
+      "id": "he-s122",
+      "kind": "sentence",
+      "native": [
+        "מותר לתת לארנב חסה?"
+      ],
+      "roman": [
+        "Mutar latet learnav chasa?"
+      ]
+    },
+    {
+      "id": "he-s123",
+      "kind": "sentence",
+      "native": [
+        "המיקרופון שלך מושתק."
+      ],
+      "roman": [
+        "Hamikrofon shelcha mushtak."
+      ]
+    },
+    {
+      "id": "he-s124",
+      "kind": "sentence",
+      "native": [
+        "אלון מחכה בכניסה לקניון."
+      ],
+      "roman": [
+        "Alon mechake baknisa lakanyon."
+      ]
+    },
+    {
+      "id": "he-s125",
+      "kind": "sentence",
+      "native": [
+        "מעדיפה להזמין נעליים אונליין, בחנות לא מצאתי את המידה שלי."
+      ],
+      "roman": [
+        "Maadifa lehazmin naalayim online, bachanut lo matzati et hamida sheli."
+      ]
+    },
+    {
+      "id": "he-s126",
+      "kind": "sentence",
+      "native": [
+        "סגרתי את התריס, בעצם רק הורדתי אותו קצת."
+      ],
+      "roman": [
+        "Sagarti et hatris, beetzem rak horadti oto ktzat."
+      ]
+    },
+    {
+      "id": "he-s127",
+      "kind": "sentence",
+      "native": [
+        "שלחתי בקבוצה תמונות מהטיול, תראו איזה נוף היה."
+      ],
+      "roman": [
+        "Shalachti bakvutza tmunot mehatiyul, tiru eize nof haya."
+      ]
+    },
+    {
+      "id": "he-s128",
+      "kind": "sentence",
+      "native": [
+        "למשרד ברחובות נכנסים בינתיים דרך השער האחורי, עד שיסיימו לסדר את הכניסה הראשית."
+      ],
+      "roman": [
+        "Lamisrad berechovot nichnasim beintayim derech hashaar haachori, ad sheyesaymu lesader et haknisa harashit."
+      ]
+    },
+    {
+      "id": "he-s129",
+      "kind": "sentence",
+      "native": [
+        "המנוי עולה 180 שקלים לחודש, וסטודנטים מקבלים 15% הנחה."
+      ],
+      "roman": [
+        "Haminuy ole 180 shkalim lachodesh, vestudentim mekablim 15% hanacha."
+      ]
+    },
+    {
+      "id": "he-s130",
+      "kind": "sentence",
+      "native": [
+        "קבעתי ביומן אימון כושר ביום שלישי בשעה 18:00."
+      ],
+      "roman": [
+        "Kavati bayoman imun kosher beyom shlishi beshaa 18:00."
+      ]
+    },
+    {
+      "id": "he-s131",
+      "kind": "sentence",
+      "native": [
+        "צלם תמונה במצב לילה."
+      ],
+      "roman": [
+        "Tzalem tmuna bematzav layla."
+      ]
+    },
+    {
+      "id": "he-s132",
+      "kind": "sentence",
+      "native": [
+        "הפעלתי אימות בשני שלבים."
+      ],
+      "roman": [
+        "Hifalti imut bishnei shlavim."
+      ]
+    },
+    {
+      "id": "he-s133",
+      "kind": "sentence",
+      "native": [
+        "ורד, ניפגש ליד הבימה ונלך משם ברגל למסעדה?"
+      ],
+      "roman": [
+        "Vered, nipagesh leyad Habima venelech misham baregel lamisada?"
+      ]
+    },
+    {
+      "id": "he-s134",
+      "kind": "sentence",
+      "native": [
+        "תשמרו לי קצת מהעוגה."
+      ],
+      "roman": [
+        "Tishmeru li ktzat mehauga."
+      ]
+    },
+    {
+      "id": "he-s135",
+      "kind": "sentence",
+      "native": [
+        "לצערי, לא אוכל לקחת משמרת נוספת."
+      ],
+      "roman": [
+        "Letzaari, lo uchal lakachat mishmeret nosefet."
+      ]
+    },
+    {
+      "id": "he-s136",
+      "kind": "sentence",
+      "native": [
+        "שילמתי 86 שקלים על 2 כרטיסים."
+      ],
+      "roman": [
+        "Shilamti 86 shkalim al 2 kartisim."
+      ]
+    },
+    {
+      "id": "he-s137",
+      "kind": "sentence",
+      "native": [
+        "תוסיף לרשימה נייר אפייה."
+      ],
+      "roman": [
+        "Tosif lareshima niyar afiya."
+      ]
+    },
+    {
+      "id": "he-s138",
+      "kind": "sentence",
+      "native": [
+        "כמה כפות שמן שמים בבצק של ג'חנון?"
+      ],
+      "roman": [
+        "Kama kapot shemen samim babatzek shel jachnun?"
+      ]
+    },
+    {
+      "id": "he-s139",
+      "kind": "sentence",
+      "native": [
+        "קניתי מקלדת בחנות ליד קניון איילון והיא ממש נוחה."
+      ],
+      "roman": [
+        "Kaniti mikledet bachanut leyad kanyon Ayalon vehi mamash nocha."
+      ]
+    },
+    {
+      "id": "he-s140",
+      "kind": "sentence",
+      "native": [
+        "תתקשר כשתהיה פנוי."
+      ],
+      "roman": [
+        "Titkasher kshetihye panuy."
+      ]
+    },
+    {
+      "id": "he-s141",
+      "kind": "sentence",
+      "native": [
+        "הילה, מתאים לך שנקדים את הריאיון לשעות הבוקר?"
+      ],
+      "roman": [
+        "Hila, matim lach shenakdim et hareayon leshaot haboker?"
+      ]
+    },
+    {
+      "id": "he-s142",
+      "kind": "sentence",
+      "native": [
+        "בשוק מחנה יהודה מוכרים 250 גרם חלבה ב-22 שקלים."
+      ],
+      "roman": [
+        "Beshuk Machane Yehuda mochrim 250 gram chalva be-22 shkalim."
+      ]
+    },
+    {
+      "id": "he-s143",
+      "kind": "sentence",
+      "native": [
+        "אני צריכה לקנות עדשים כתומות וקינמון."
+      ],
+      "roman": [
+        "Ani tzricha liknot adashim ktumot vekinamon."
+      ]
+    },
+    {
+      "id": "he-s144",
+      "kind": "sentence",
+      "native": [
+        "הכלבה כבר מזהה את הרצועה."
+      ],
+      "roman": [
+        "Hakalba kvar mezaha et haretzua."
+      ]
+    },
+    {
+      "id": "he-s145",
+      "kind": "sentence",
+      "native": [
+        "אמיר ביקש שנוסיף לתקציב גם את עלות הצילום."
+      ],
+      "roman": [
+        "Amir bikesh shenosif lataktziv gam et alut hatzilum."
+      ]
+    },
+    {
+      "id": "he-s146",
+      "kind": "sentence",
+      "native": [
+        "השער נפתח ב-06:40 ונסגר ב-22:15."
+      ],
+      "roman": [
+        "Hashaar niftach be-06:40 venisgar be-22:15."
+      ]
+    },
+    {
+      "id": "he-s147",
+      "kind": "sentence",
+      "native": [
+        "סמאח, את פנויה לקפה אחרי שאת אוספת את הילדים?"
+      ],
+      "roman": [
+        "Samach, at pnuya lekafe acharei sheat osefet et hayeladim?"
+      ]
+    },
+    {
+      "id": "he-s148",
+      "kind": "sentence",
+      "native": [
+        "בהצלחה בתפקיד החדש!"
+      ],
+      "roman": [
+        "Behatzlacha batafkid hechadash!"
+      ]
+    },
+    {
+      "id": "he-s149",
+      "kind": "sentence",
+      "native": [
+        "באולם יש 18 שורות, והמקומות שלנו הם 7 ו-8."
+      ],
+      "roman": [
+        "Baulam yesh 18 shurot, vehamekomot shelanu hem 7 ve-8."
+      ]
+    },
+    {
+      "id": "he-s150",
+      "kind": "sentence",
+      "native": [
+        "תרשמי את המספר, 050-000-0000, ותמחקי את הישן כדי שלא תתקשרי אליו בטעות."
+      ],
+      "roman": [
+        "Tirshemi et hamispar, 050-000-0000, vetimchaki et hayashan kedei shelo titkashri elav betaut."
+      ]
+    },
+    {
+      "id": "he-s151",
+      "kind": "sentence",
+      "native": [
+        "סבתא בת 83, וסבא בן 87."
+      ],
+      "roman": [
+        "Savta bat 83, vesaba ben 87."
+      ]
+    }
+  ]
+}

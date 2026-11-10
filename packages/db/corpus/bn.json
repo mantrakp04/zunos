@@ -1,0 +1,1816 @@
+{
+  "lang": "bn",
+  "starter": [
+    "bn-s063",
+    "bn-s014",
+    "bn-s147",
+    "bn-s111",
+    "bn-s072",
+    "bn-s112",
+    "bn-s153",
+    "bn-s075",
+    "bn-s090",
+    "bn-s039",
+    "bn-s002",
+    "bn-s141",
+    "bn-s088",
+    "bn-s127",
+    "bn-s021",
+    "bn-s095",
+    "bn-s110",
+    "bn-p01",
+    "bn-s038",
+    "bn-s120",
+    "bn-s047",
+    "bn-s069",
+    "bn-s032",
+    "bn-s079",
+    "bn-s154",
+    "bn-s058",
+    "bn-s059",
+    "bn-s100",
+    "bn-s012",
+    "bn-s060",
+    "bn-s073",
+    "bn-s007",
+    "bn-s104",
+    "bn-s096",
+    "bn-s008",
+    "bn-p04",
+    "bn-s065",
+    "bn-s143",
+    "bn-s130",
+    "bn-s066",
+    "bn-s015",
+    "bn-s036",
+    "bn-s070",
+    "bn-s042",
+    "bn-s010",
+    "bn-s094",
+    "bn-s001",
+    "bn-s009",
+    "bn-s081",
+    "bn-s031",
+    "bn-s034",
+    "bn-s016",
+    "bn-s013"
+  ],
+  "items": [
+    {
+      "id": "bn-p01",
+      "kind": "para",
+      "title": "Getting Ready for the Wedding",
+      "native": [
+        "শোনো, আগামী শুক্রবার শ্রীরামপুরে মিতালিদির বিয়ে, তুমি কিন্তু বৃহস্পতিবারই চলে এসো।",
+        "মা বলেছে, গায়ে হলুদের জন্য ছাদের ঘরটা আগে খালি করতে হবে।",
+        "তুমি এলে আমরা দুজনে মিলে ফুল আর রঙিন কাগজ কিনতে যাব।",
+        "স্টেশনের পাশের দোকানে নাকি এবার বেশ ভালো গাঁদা ফুল এসেছে।",
+        "তোমার নীল পাঞ্জাবিটা নিয়ে এসো, ওটার সঙ্গে সাদা পাজামা ভালো মানাবে।",
+        "রিমা ছোটদের নাচ শেখাচ্ছে, আর আমি গান বাছার দায়িত্ব নিয়েছি।",
+        "বৃহস্পতিবার রাতের খাওয়া বাড়িতেই হবে, লুচি আর আলুর দম থাকছে।",
+        "তুমি হাওড়া থেকে কোন ট্রেনে উঠবে, সেটা আমাকে আগেই জানিয়ো।",
+        "আমি স্টেশনে নিতে আসব, ভারী ব্যাগ নিয়ে একা টোটো ধরতে হবে না।"
+      ],
+      "roman": [
+        "Shono, agami Shukrobar Srirampure Mitalidir biye, tumi kintu Brihoshpotibarei chole esho.",
+        "Ma boleche, gaye holuder jonno chader ghorta age khali korte hobe.",
+        "Tumi ele amra dujone mile phul ar rongin kagoj kinte jabo.",
+        "Stationer pasher dokane naki ebar besh bhalo gada phul esheche.",
+        "Tomar nil panjabita niye esho, otar shonge shada pajama bhalo manabe.",
+        "Rima chotoder nach shekhachhe, ar ami gan bachar dayitto niyechi.",
+        "Brihoshpotibar rater khaoa baritei hobe, luchi ar alur dom thakche.",
+        "Tumi Howrah theke kon traine uthbe, sheta amake agei janiyo.",
+        "Ami statione nite ashbo, bhari bag niye eka toto dhorte hobe na."
+      ]
+    },
+    {
+      "id": "bn-p02",
+      "kind": "para",
+      "title": "Handover Before My Leave",
+      "native": [
+        "আগামী রবিবার থেকে আমি 4 দিন ছুটিতে থাকব, তাই কাজগুলো গুছিয়ে দিচ্ছি।",
+        "গুলশান অফিস থেকে শারমিন আজ ক্লায়েন্ট লিস্ট আর ফোন নম্বর পাঠাবেন।",
+        "বাকি কাজ কখন শেষ করতে হবে, সেই তারিখগুলো লিখে রেখেছি।",
+        "নতুন দামের লিস্ট কাল সকাল 10টার মধ্যে রাহাত আপনাদের পাঠাবেন।",
+        "আপনারা হিসাব মিলিয়ে দেখবেন, কোনো ভুল থাকলে আমাকে জানাবেন।",
+        "সোমবার দুপুরে ক্লায়েন্ট ফোন করলে শারমিন কথা বলবেন, আগেই জানিয়ে রেখেছি।",
+        "পুরোনো ফাইল মুছবেন না, দরকার হলে আলাদা নামে নতুন কপি রাখবেন।",
+        "জমা দেওয়ার সময় বদলালে দয়া করে সবাইকে একই মেসেজ পাঠাবেন।",
+        "ছুটির মধ্যে নিয়মিত ইমেল দেখব না, জরুরি কিছু হলে ফোন করবেন।"
+      ],
+      "roman": [
+        "Agami Robibar theke ami 4 din chutite thakbo, tai kajgulo guchiye dichhi.",
+        "Gulshan office theke Sharmin aj client list ar phone number pathaben.",
+        "Baki kaj kokhon shesh korte hobe, shei tarikhgulo likhe rekhechi.",
+        "Notun damer list kal shokal 10tar moddhe Rahat apnader pathaben.",
+        "Apnara hishab miliye dekhben, kono bhul thakle amake janaben.",
+        "Shombar dupure client phone korle Sharmin kotha bolben, agei janiye rekhechi.",
+        "Purono file muchben na, dorkar hole alada name notun copy rakhben.",
+        "Joma deoar shomoy bodlale doya kore shobaike eki message pathaben.",
+        "Chutir moddhe niyomito email dekhbo na, joruri kichu hole phone korben."
+      ]
+    },
+    {
+      "id": "bn-p03",
+      "kind": "para",
+      "title": "Rain at Daulatpur Market",
+      "native": [
+        "গত শনিবার খুলনার দৌলতপুর বাজারে গিয়েছিলাম, তখন আকাশ বেশ পরিষ্কার ছিল।",
+        "কাপড়ের ব্যাগে আলু আর পটল ভরে মাছের দোকানের দিকে এগোলাম।",
+        "একজন মাছওয়ালা বড় একটা রুই দেখিয়ে বললেন, আজ সকালেই এসেছে।",
+        "দাম জিজ্ঞেস করতে না করতেই টিনের চালে বৃষ্টির শব্দ পেলাম।",
+        "ছাতা বাড়িতে ফেলে গিয়েছিলাম, তাই পাশের চায়ের দোকানে ঢুকে পড়লাম।",
+        "দোকানদার বেঞ্চে জায়গা করে দিলেন, ভেজা ব্যাগটাও এক পাশে রাখলেন।",
+        "গরম চায়ে চুমুক দিতে দিতে দেখলাম, রাস্তা দিয়ে কাগজের নৌকা ভাসছে।",
+        "বৃষ্টি একটু কমতেই একটা রিকশা ডাকলাম, কিন্তু ততক্ষণে পায়ের চপ্পল কাদায় মাখামাখি।",
+        "বাড়ি ফিরে দেখি মা খিচুড়ি বসিয়েছে, বাজারের সেই রুই আর কেনাই হয়নি।"
+      ],
+      "roman": [
+        "Goto Shonibar Khulnar Daulatpur bajare giyechilam, tokhon akash besh porishkar chilo.",
+        "Kaporer bage alu ar potol bhore macher dokaner dike egolam.",
+        "Ekjon machwala boro ekta rui dekhiye bollen, aj shokalei esheche.",
+        "Dam jiggesh korte na kortei tiner chale brishtir shobdo pelam.",
+        "Chata barite phele giyechilam, tai pasher chayer dokane dhuke porlam.",
+        "Dokandar benche jayga kore dilen, bheja bagtao ek pashe rakhlen.",
+        "Gorom chaye chumuk dite dite dekhlam, rasta diye kagojer nouka bhashche.",
+        "Brishti ektu komtei ekta riksha daklam, kintu totokkhone payer choppol kaday makhamakhi.",
+        "Bari phire dekhi ma khichuri boshiyeche, bajarer shei rui ar kenai hoyni."
+      ]
+    },
+    {
+      "id": "bn-p04",
+      "kind": "para",
+      "title": "Setting Up Mother's Phone",
+      "native": [
+        "মা, নতুন ফোনে আগে সিম ঢোকাও।",
+        "পাশের পাওয়ার বাটন চেপে ধরে রাখো, স্ক্রিনে আলো এলে ছেড়ে দাও।",
+        "ফোন চালু হলে বাংলা ভাষা বেছে নাও, তাহলে কী করতে হবে বুঝতে সুবিধা হবে।",
+        "বাড়ির ওয়াই-ফাই বেছে নিয়ে পাসওয়ার্ড দাও, সেটা তোমার নীল খাতায় লেখা আছে।",
+        "এবার গুগল অ্যাকাউন্ট চাইলে খাতা দেখে তোমার ইমেল আর পাসওয়ার্ড দাও।",
+        "ফোন লক করার জন্য এমন একটা পাসওয়ার্ড দাও, যেটা মনে থাকবে।",
+        "সেটিংস খুলে লেখা একটু বড় করে নাও, তাহলে পড়তে আরাম হবে।",
+        "হোয়াটসঅ্যাপ ডাউনলোড করে নিজের নম্বর দাও। তারপর মেসেজ দেখে কোড বসাও।",
+        "সব শেষে আমাকে ফোন করে দেখো, তোমার গলা ঠিকমতো শোনা যাচ্ছে কি না।"
+      ],
+      "roman": [
+        "Ma, notun phonee age SIM dhokao.",
+        "Pasher power button chepe dhore rakho, screene alo ele chere dao.",
+        "Phone chalu hole Bangla bhasha beche nao, tahole ki korte hobe bujhte shubidha hobe.",
+        "Barir Wi-Fi beche niye password dao, sheta tomar nil khatay lekha ache.",
+        "Ebar Google account chaile khata dekhe tomar email ar password dao.",
+        "Phone lock korar jonno emon ekta password dao, jeta mone thakbe.",
+        "Settings khule lekha ektu boro kore nao, tahole porte aram hobe.",
+        "WhatsApp download kore nijer nombor dao. Tarpor message dekhe code bosao.",
+        "Shob sheshe amake phone kore dekho, tomar gola thikmoto shona jachhe ki na."
+      ]
+    },
+    {
+      "id": "bn-p05",
+      "kind": "para",
+      "title": "A Holiday Book Review",
+      "native": [
+        "পুজোর ছুটিতে কৃষ্ণনগরে মামার বাড়ি গিয়ে আদর্শ হিন্দু হোটেল পড়ে শেষ করলাম।",
+        "বিভূতিভূষণের এই উপন্যাসে রানাঘাটের হোটেলে কাজ করা মানুষগুলোকে খুব চেনা মনে হয়েছে।",
+        "হাজারি ঠাকুরের রান্নার প্রতি ভালোবাসা আর নিজের হোটেল খোলার ইচ্ছেটা ভালো লেগেছে।",
+        "হোটেলের লোকজনের কথাবার্তায় আলাদা টান আছে, কাউকেই দূরের মানুষ মনে হয় না।",
+        "খাবারের বর্ণনা এত জীবন্ত যে মাঝেমধ্যে সত্যি খিদে পেয়ে যাচ্ছিল।",
+        "তবে কয়েকটা জায়গায় গল্প একটু ধীরে এগিয়েছে, তখন মন অন্যদিকে চলে গেছে।",
+        "হাজারির ছোট ছোট সাফল্যগুলো অবশ্য খুব স্বাভাবিক লেগেছে।",
+        "বইটা শেষ করে মনে হলো, ভালো কাজের কদর পেতে ধৈর্য লাগে।",
+        "ছুটিতে আরাম করে পড়ার জন্য এমন সহজ গল্পই আমার বেশি পছন্দ।"
+      ],
+      "roman": [
+        "Pujor chutite Krishnanagare mamar bari giye Adarsha Hindu Hotel pore shesh korlam.",
+        "Bibhutibhushoner ei uponnashe Ranaghater hotele kaj kora manushguloke khub chena mone hoyeche.",
+        "Hazari Thakurer rannar proti bhalobasha ar nijer hotel kholar ichheta bhalo legeche.",
+        "Hoteler lokjoner kothabartay alada tan ache, kaukei durer manush mone hoy na.",
+        "Khabarer bornona eto jibonto je majhemoddhe shotti khide peye jachhilo.",
+        "Tobe koyekta jaygay golpo ektu dhire egiyeche, tokhon mon onnodike chole geche.",
+        "Hazarir choto choto shaphollogulo oboshsho khub shabhabik legeche.",
+        "Boita shesh kore mone holo, bhalo kajer kodor pete dhoirjo lage.",
+        "Chutite aram kore porar jonno emon shohoj golpoi amar beshi pochondo."
+      ]
+    },
+    {
+      "id": "bn-p06",
+      "kind": "para",
+      "title": "Planning the Team Outing",
+      "native": [
+        "18 জুলাই 2026 শনিবার আমরা অফিসের 12 জন মিলে বিরুলিয়ায় বেড়াতে যাব।",
+        "মিরপুর থেকে বিরুলিয়া প্রায় 15 কিলোমিটার, যেতে এক ঘণ্টা লাগবে ধরে নিচ্ছি।",
+        "সকাল 8:30 নাগাদ অফিসের সামনে থেকে 2টা মাইক্রোবাস ছাড়বে।",
+        "প্রতিটা গাড়িতে 6 জন বসলে আরামে যাওয়া যাবে, ভিড় হবে না।",
+        "রিসোর্টের ভাড়া আর খাবার মিলিয়ে মাথাপিছু খরচ পড়বে 1800 টাকা।",
+        "দুটো গাড়ির ভাড়া 9000 টাকা ধরলে মোট বাজেট হবে 30600 টাকা।",
+        "সকাল 10:00 থেকে দুপুর 12:00 পর্যন্ত পরের মাসের কাজ নিয়ে বসব।",
+        "দুপুরে ভাত আর মাছের ঝোল খাব। বিকেল 3:00 থেকে ব্যাডমিন্টন খেলব।",
+        "সন্ধ্যা 6:00 নাগাদ অফিসে ফিরব। রুমা আগে থেকে রিসোর্ট বুক করে রাখুক।"
+      ],
+      "roman": [
+        "18 July 2026 Shonibar amra officer 12 jon mile Biruliyay berate jabo.",
+        "Mirpur theke Biruliya pray 15 kilometer, jete ek ghonta lagbe dhore nichhi.",
+        "Shokal 8:30 nagad officer shamne theke 2ta microbus charbe.",
+        "Protita garite 6 jon boshle arame jaoa jabe, bhir hobe na.",
+        "Resorter bhara ar khabar miliye mathapichu khoroch porbe 1800 taka.",
+        "Duto garir bhara 9000 taka dhorle mot budget hobe 30600 taka.",
+        "Shokal 10:00 theke dupur 12:00 porjonto porer masher kaj niye boshbo.",
+        "Dupure bhat ar macher jhol khabo. Bikel 3:00 theke badminton khelbo.",
+        "Shondha 6:00 nagad officee phirbo. Ruma age theke resort book kore rakhuk."
+      ]
+    },
+    {
+      "id": "bn-p07",
+      "kind": "para",
+      "title": "A Duplicate Card Charge",
+      "native": [
+        "সালাম, আমি তানিয়া রহমান, আপনাদের আগ্রাবাদ শাখার একজন গ্রাহক।",
+        "6 আগস্ট জামালখানের একটা বইয়ের দোকানে কার্ড দিয়ে 1450 টাকা দিয়েছি।",
+        "ব্যাংকের অ্যাপ অনুযায়ী ওই দোকানে দুবার পেমেন্ট হয়েছে।",
+        "আমার হিসাব থেকে মোট 2900 টাকা কেটে নেওয়া হয়েছে।",
+        "দোকানের রসিদ আমার কাছে আছে, সেখানে কিন্তু 1450 টাকাই লেখা।",
+        "দরকার হলে রসিদের ছবি আপনাদের দেওয়া ঠিকানায় ইমেল করতে পারি।",
+        "আপনারা কি দেখে বলবেন, বাড়তি টাকা কাটার কারণটা কী?",
+        "অভিযোগ জানাতে আলাদা ফর্ম লাগলে সেটা কোথায় পাব, দয়া করে বলবেন?",
+        "বাড়তি টাকাটা ফেরত পেতে কত দিন লাগতে পারে, সেটাও জানতে চাই।"
+      ],
+      "roman": [
+        "Salam, ami Tania Rahman, apnader Agrabad shakhar ekjon grahok.",
+        "6 August Jamalkhaner ekta boiyer dokane card diye 1450 taka diyechi.",
+        "Banker app onujayi oi dokane dubar payment hoyeche.",
+        "Amar hishab theke mot 2900 taka kete neoa hoyeche.",
+        "Dokaner roshid amar kache ache, shekhane kintu 1450 takai lekha.",
+        "Dorkar hole roshider chobi apnader deoa thikanay email korte pari.",
+        "Apnara ki dekhe bolben, barti taka katar karonta ki?",
+        "Obhijog janate alada form lagle sheta kothay pabo, doya kore bolben?",
+        "Barti takata pherot pete koto din lagte pare, shetao jante chai."
+      ]
+    },
+    {
+      "id": "bn-p08",
+      "kind": "para",
+      "title": "Balaganj Shitalpati Weaving",
+      "native": [
+        "সিলেটের বালাগঞ্জে অনেক পরিবার এখনও শীতলপাটি বুনে সংসারের খরচ চালায়।",
+        "এই পাটি বুনতে মুর্তা নামের একধরনের গাছ লাগে।",
+        "কারিগরেরা প্রথমে গাছের ডাঁটা চিরে সরু বেত বের করেন, তারপর সেগুলো ঘষে মসৃণ করেন।",
+        "ভালো মানের পাটির জন্য বেত সেদ্ধ করে শুকিয়ে নেওয়া হয়।",
+        "বেতের ফালি যত সরু হয়, পাটির বুননও তত মিহি হয়।",
+        "রং করা বেত দিয়ে পাটিতে ফুল আর নানা রকম নকশা করা হয়।",
+        "একটা বড় নকশাদার পাটি বুনতে কারিগরদের বেশ কয়েক দিন সময় লাগে।",
+        "গরমে এই পাটিতে বসতে বা শুতে বেশ আরাম লাগে।",
+        "বালাগঞ্জের শীতলপাটি এখন হাটে আর অনলাইন দোকানেও কিনতে পাওয়া যায়।"
+      ],
+      "roman": [
+        "Sylheter Balaganje onek poribar ekhono shitalpati bune shongsharer khoroch chalay.",
+        "Ei pati bunte murta namer ekdhoroner gach lage.",
+        "Karigorera prothome gacher danta chire shoru bet ber koren, tarpor shegulo ghoshe mosrin koren.",
+        "Bhalo maner patir jonno bet sheddho kore shukiye neoa hoy.",
+        "Beter phali joto shoru hoy, patir bunono toto mihi hoy.",
+        "Rong kora bet diye patite phul ar nana rokom noksha kora hoy.",
+        "Ekta boro nokshadar pati bunte karigorder besh koyek din shomoy lage.",
+        "Gorome ei patite boshte ba shute besh aram lage.",
+        "Balaganjer shitalpati ekhon hate ar online dokaneo kinte paoa jay."
+      ]
+    },
+    {
+      "id": "bn-s001",
+      "kind": "sentence",
+      "native": [
+        "ব্যাগটা খুলে দেখো তো, ভুল করে আমার চার্জার নিয়ে গেছ কি না।"
+      ],
+      "roman": [
+        "Bagta khule dekho to, bhul kore amar charger niye gecho ki na."
+      ]
+    },
+    {
+      "id": "bn-s002",
+      "kind": "sentence",
+      "native": [
+        "ছুটির আবেদনটা দেখে আজকের মধ্যে অনুমতি দিতে পারবেন?"
+      ],
+      "roman": [
+        "Chutir abedonta dekhe ajker moddhe onumoti dite parben?"
+      ]
+    },
+    {
+      "id": "bn-s003",
+      "kind": "sentence",
+      "native": [
+        "দুধটা 2 লিটার নেবেন?"
+      ],
+      "roman": [
+        "Dudhta 2 liter neben?"
+      ]
+    },
+    {
+      "id": "bn-s004",
+      "kind": "sentence",
+      "native": [
+        "পয়লা বৈশাখের নেমন্তন্নে যাওয়ার আগে তনিমার জন্য একটা ছোট উপহার কেনার কথা মনে করিয়ে দাও।"
+      ],
+      "roman": [
+        "Poyla Boishakher nemontonne jawar age Tanimar jonno ekta choto upohar kenar kotha mone koriye dao."
+      ]
+    },
+    {
+      "id": "bn-s005",
+      "kind": "sentence",
+      "native": [
+        "ইংরেজি লেখাটার বাংলা মানে পড়ে শোনাও তো।"
+      ],
+      "roman": [
+        "Ingreji lekhatar Bangla mane pore shonao to."
+      ]
+    },
+    {
+      "id": "bn-s006",
+      "kind": "sentence",
+      "native": [
+        "দেবাশিস, স্ক্রিন শেয়ার করার আগে ব্যক্তিগত ট্যাবগুলো বন্ধ করে নিন, নইলে সবাই সেগুলো দেখতে পাবেন।"
+      ],
+      "roman": [
+        "Debashis, screen share korar age byaktigoto tabgulo bondho kore nin, noile shobai shegulo dekhte paben."
+      ]
+    },
+    {
+      "id": "bn-s007",
+      "kind": "sentence",
+      "native": [
+        "চায়ের দোকানের পেছনেই সাইকেল রাখার জায়গা আছে।"
+      ],
+      "roman": [
+        "Chayer dokaner pechonei cycle rakhar jayga ache."
+      ]
+    },
+    {
+      "id": "bn-s008",
+      "kind": "sentence",
+      "native": [
+        "ডালটা এখনও পুরোপুরি সেদ্ধ হয়নি।"
+      ],
+      "roman": [
+        "Dalta ekhono puropuri sheddho hoyni."
+      ]
+    },
+    {
+      "id": "bn-s009",
+      "kind": "sentence",
+      "native": [
+        "ফ্যান চলছে কেন? ও আচ্ছা, মেঝে শুকোনোর জন্য চালিয়েছ?"
+      ],
+      "roman": [
+        "Fan cholche keno? O achha, mejhe shukonor jonno chaliyecho?"
+      ]
+    },
+    {
+      "id": "bn-s010",
+      "kind": "sentence",
+      "native": [
+        "বারবার বিজ্ঞাপন এলে নাটক দেখার মজাটাই নষ্ট হয়ে যায়।"
+      ],
+      "roman": [
+        "Barbar biggapon ele natok dekhar mojatai noshto hoye jay."
+      ]
+    },
+    {
+      "id": "bn-s011",
+      "kind": "sentence",
+      "native": [
+        "শোনো, চাবিটা দরজার পাশের খোপে রেখে দিয়েছি, খুঁজে নিয়ো।"
+      ],
+      "roman": [
+        "Shono, chabita dorjar pasher khope rekhe diyechi, khunje niyo."
+      ]
+    },
+    {
+      "id": "bn-s012",
+      "kind": "sentence",
+      "native": [
+        "ওয়েবসাইট খুললেই পুরোনো ছবি আসছে, পেজ রিফ্রেশ করেও বদলাচ্ছে না।"
+      ],
+      "roman": [
+        "Website khullei purono chobi ashche, page refresh koreo bodlachhe na."
+      ]
+    },
+    {
+      "id": "bn-s013",
+      "kind": "sentence",
+      "native": [
+        "বোলপুরে 19 এপ্রিল থেকে 21 এপ্রিল পর্যন্ত ঘর বুক করেছি।"
+      ],
+      "roman": [
+        "Bolpure 19 April theke 21 April porjonto ghor book korechi."
+      ]
+    },
+    {
+      "id": "bn-s014",
+      "kind": "sentence",
+      "native": [
+        "নুসরাতের জন্মদিন 23 আগস্ট, দিনটা লিখে রাখো।"
+      ],
+      "roman": [
+        "Nusrater jonmodin 23 August, dinta likhe rakho."
+      ]
+    },
+    {
+      "id": "bn-s015",
+      "kind": "sentence",
+      "native": [
+        "খুলনায় কাল সারা দিন আকাশ মেঘলা থাকবে কি?"
+      ],
+      "roman": [
+        "Khulnay kal shara din akash meghla thakbe ki?"
+      ]
+    },
+    {
+      "id": "bn-s016",
+      "kind": "sentence",
+      "native": [
+        "রসিদটা ইমেল করে দিয়েছি।"
+      ],
+      "roman": [
+        "Roshidta email kore diyechi."
+      ]
+    },
+    {
+      "id": "bn-s017",
+      "kind": "sentence",
+      "native": [
+        "পিসিমা নিতে আসবেন বলেছেন, তাই আপনারা আমার জন্য অপেক্ষা না করে গাড়ি নিয়ে বেরিয়ে পড়ুন।"
+      ],
+      "roman": [
+        "Pishima nite ashben bolechen, tai apnara amar jonno opekkha na kore gari niye beriye porun."
+      ]
+    },
+    {
+      "id": "bn-s018",
+      "kind": "sentence",
+      "native": [
+        "রায়হান, তুমি রাতে গিটার বাজালে পাশের ঘরেও শোনা যায়, দরজাটা বন্ধ করে নিলে ভালো হয়।"
+      ],
+      "roman": [
+        "Raihan, tumi rate guitar bajale pasher ghoreo shona jay, dorjata bondho kore nile bhalo hoy."
+      ]
+    },
+    {
+      "id": "bn-s019",
+      "kind": "sentence",
+      "native": [
+        "8 কপি ছাপান, না না, 10 কপি লাগবে।"
+      ],
+      "roman": [
+        "8 copy chapan, na na, 10 copy lagbe."
+      ]
+    },
+    {
+      "id": "bn-s020",
+      "kind": "sentence",
+      "native": [
+        "বাহ, কী সুন্দর গাইলে!"
+      ],
+      "roman": [
+        "Bah, ki shundor gaile!"
+      ]
+    },
+    {
+      "id": "bn-s021",
+      "kind": "sentence",
+      "native": [
+        "সময় পেলে আমাকে ফোন করো।"
+      ],
+      "roman": [
+        "Shomoy pele amake phone koro."
+      ]
+    },
+    {
+      "id": "bn-s022",
+      "kind": "sentence",
+      "native": [
+        "আপনি কি পুরো লেখাটা চান, নাকি শুধু সারাংশ পাঠাব?"
+      ],
+      "roman": [
+        "Apni ki puro lekhata chan, naki shudhu sharangsho pathabo?"
+      ]
+    },
+    {
+      "id": "bn-s023",
+      "kind": "sentence",
+      "native": [
+        "ল্যাপটপে 512 জিবি থাকার কথা, অথচ দেখাচ্ছে 256 জিবি।"
+      ],
+      "roman": [
+        "Laptope 512 GB thakar kotha, othocho dekhachhe 256 GB."
+      ]
+    },
+    {
+      "id": "bn-s024",
+      "kind": "sentence",
+      "native": [
+        "জলরং শুকিয়ে গেলে ছবির নিচে নিজের নাম লিখব।"
+      ],
+      "roman": [
+        "Jolrong shukiye gele chobir niche nijer nam likhbo."
+      ]
+    },
+    {
+      "id": "bn-s025",
+      "kind": "sentence",
+      "native": [
+        "বড় ফ্রিজ আর ছোট ফ্রিজ চালানোর খরচে কতটা তফাত হয়? দুটোর বিদ্যুৎ খরচের হিসেব দেখাও তো।"
+      ],
+      "roman": [
+        "Boro fridge ar choto fridge chalanor khoroche kotota tofat hoy? Dutor biddut khorocher hisheb dekhao to."
+      ]
+    },
+    {
+      "id": "bn-s026",
+      "kind": "sentence",
+      "native": [
+        "সুমাইয়া, গুগল ড্রাইভ খুলে সবার সঙ্গে নতুন ফোল্ডার শেয়ার করুন।"
+      ],
+      "roman": [
+        "Sumaiya, Google Drive khule shobar shonge notun folder share korun."
+      ]
+    },
+    {
+      "id": "bn-s027",
+      "kind": "sentence",
+      "native": [
+        "বাঁদিকে ঘুরেই নীল বাড়িটার বাইরের সিঁড়িটা দিয়ে উঠবেন।"
+      ],
+      "roman": [
+        "Bandike ghurei nil baritar bairer sirita diye uthben."
+      ]
+    },
+    {
+      "id": "bn-s028",
+      "kind": "sentence",
+      "native": [
+        "বাচ্চাদের জুতোর মাপ বারবার বদলে যাচ্ছে বলে এবার ওদের সঙ্গে নিয়ে দোকানে জুতো কিনতে হবে।"
+      ],
+      "roman": [
+        "Bachchader jutor map barbar bodle jachhe bole ebar oder shonge niye dokane juto kinte hobe."
+      ]
+    },
+    {
+      "id": "bn-s029",
+      "kind": "sentence",
+      "native": [
+        "বুধবার রাখুন, না দাঁড়ান, বৃহস্পতিবার সেলাই শেখার ক্লাস রাখুন।"
+      ],
+      "roman": [
+        "Budhbar rakhun, na daran, Brihoshpotibar shelai shekhar class rakhun."
+      ]
+    },
+    {
+      "id": "bn-s030",
+      "kind": "sentence",
+      "native": [
+        "সরি, তোমাকে ভুল বুঝেছিলাম।"
+      ],
+      "roman": [
+        "Sorry, tomake bhul bujhechilam."
+      ]
+    },
+    {
+      "id": "bn-s031",
+      "kind": "sentence",
+      "native": [
+        "পাটিসাপটা দুটো তুলে রেখেছি, দিদা এলে একসঙ্গে খাব।"
+      ],
+      "roman": [
+        "Patishapta duto tule rekhechi, dida ele ekshonge khabo."
+      ]
+    },
+    {
+      "id": "bn-s032",
+      "kind": "sentence",
+      "native": [
+        "হিসেবের ভুলটা শুধরে দিয়েছি।"
+      ],
+      "roman": [
+        "Hiseber bhulta shudhre diyechi."
+      ]
+    },
+    {
+      "id": "bn-s033",
+      "kind": "sentence",
+      "native": [
+        "আপনি কি 32 মাপের জামাটা 34 দিয়ে বদলে দেবেন?"
+      ],
+      "roman": [
+        "Apni ki 32 maper jamata 34 diye bodle deben?"
+      ]
+    },
+    {
+      "id": "bn-s034",
+      "kind": "sentence",
+      "native": [
+        "জুতোর ফিতেটা পালটাতে হবে।"
+      ],
+      "roman": [
+        "Jutor phiteta paltate hobe."
+      ]
+    },
+    {
+      "id": "bn-s035",
+      "kind": "sentence",
+      "native": [
+        "গানটা শুরু থেকে বাজাও।"
+      ],
+      "roman": [
+        "Ganta shuru theke bajao."
+      ]
+    },
+    {
+      "id": "bn-s036",
+      "kind": "sentence",
+      "native": [
+        "রাউটার বন্ধ করে চালু করতেই ইন্টারনেট ফিরে এসেছে।"
+      ],
+      "roman": [
+        "Router bondho kore chalu kortei internet phire esheche."
+      ]
+    },
+    {
+      "id": "bn-s037",
+      "kind": "sentence",
+      "native": [
+        "দর্জির ঠিকানাটা কার কাছে আছে?"
+      ],
+      "roman": [
+        "Dorjir thikanata kar kache ache?"
+      ]
+    },
+    {
+      "id": "bn-s038",
+      "kind": "sentence",
+      "native": [
+        "পায়েসে গোবিন্দভোগ চাল দিলে গন্ধটা অনেক ভালো হয়।"
+      ],
+      "roman": [
+        "Payeshe Gobindobhog chal dile gondhota onek bhalo hoy."
+      ]
+    },
+    {
+      "id": "bn-s039",
+      "kind": "sentence",
+      "native": [
+        "রুমা পাল এলে বলবেন কুশন নয়, শুধু কভার ধুতে দিয়েছি।"
+      ],
+      "roman": [
+        "Ruma Pal ele bolben cushion noy, shudhu cover dhute diyechi."
+      ]
+    },
+    {
+      "id": "bn-s040",
+      "kind": "sentence",
+      "native": [
+        "আগে ভাবতাম একা বেড়াতে গেলে ভালো লাগবে না, কিন্তু শান্তিনিকেতনে গিয়ে নিজের মতো সময় কাটিয়ে বেশ লাগল।"
+      ],
+      "roman": [
+        "Age bhabtam eka berate gele bhalo lagbe na, kintu Santiniketane giye nijer moto shomoy katiye besh laglo."
+      ]
+    },
+    {
+      "id": "bn-s041",
+      "kind": "sentence",
+      "native": [
+        "কুষ্টিয়া থেকে মামা আসছেন, এবার কয়েকদিন আমাদের বাসায় থাকবেন।"
+      ],
+      "roman": [
+        "Kushtia theke mama ashchen, ebar koyekdin amader bashay thakben."
+      ]
+    },
+    {
+      "id": "bn-s042",
+      "kind": "sentence",
+      "native": [
+        "ছাপাখানা থেকে নমুনা এলে রংগুলো মিলিয়ে দেখবেন?"
+      ],
+      "roman": [
+        "Chapakhana theke nomuna ele ronggulo miliye dekhben?"
+      ]
+    },
+    {
+      "id": "bn-s043",
+      "kind": "sentence",
+      "native": [
+        "মিতালি দাসের নাচের অনুষ্ঠান 14 জুন বিকেল 5:30-এ শুরু হবে। আমরা 40 মিনিট আগেই ঢুকে পড়ব।"
+      ],
+      "roman": [
+        "Mitali Daser nacher onushthan 14 June bikel 5:30-e shuru hobe. Amra 40 minute agei dhuke porbo."
+      ]
+    },
+    {
+      "id": "bn-s044",
+      "kind": "sentence",
+      "native": [
+        "সপ্তাহের শেষে দরকারি ছবিগুলো আলাদা করে রেখে ফোন থেকে বাকি ঝাপসা ছবিগুলো মুছে ফেলতে হবে।"
+      ],
+      "roman": [
+        "Shoptaher sheshe dorkari chobigulo alada kore rekhe phone theke baki jhapsa chobigulo muche phelte hobe."
+      ]
+    },
+    {
+      "id": "bn-s045",
+      "kind": "sentence",
+      "native": [
+        "রাত 11:00 পর্যন্ত সব নোটিফিকেশন সাইলেন্ট করে রাখো, তবে অ্যালার্ম যেন ঠিক সময়ে বাজে।"
+      ],
+      "roman": [
+        "Rat 11:00 porjonto shob notification silent kore rakho, tobe alarm jeno thik shomoye baje."
+      ]
+    },
+    {
+      "id": "bn-s046",
+      "kind": "sentence",
+      "native": [
+        "মিরপুরের দোকানদার বললেন এই ওয়েবক্যাম লাগাতে আলাদা ড্রাইভার লাগবে না, কম্পিউটারে লাগালেই কাজ করবে।"
+      ],
+      "roman": [
+        "Mirpurer dokandar bollen ei webcam lagate alada driver lagbe na, computere lagalei kaj korbe."
+      ]
+    },
+    {
+      "id": "bn-s047",
+      "kind": "sentence",
+      "native": [
+        "রিকশাটা গলির মুখে দাঁড়াবে।"
+      ],
+      "roman": [
+        "Rickshawta golir mukhe darabe."
+      ]
+    },
+    {
+      "id": "bn-s048",
+      "kind": "sentence",
+      "native": [
+        "জানালার ছিটকিনিটা ঠিকমতো আটকাচ্ছে না।"
+      ],
+      "roman": [
+        "Janalar chitkinita thikmoto atkachhe na."
+      ]
+    },
+    {
+      "id": "bn-s049",
+      "kind": "sentence",
+      "native": [
+        "দিঘার হোটেল বুক করব ভাবছিলাম। না থাক, তৃষা আগে ছুটির দিন জানাক, তারপর সব ঠিক করব।"
+      ],
+      "roman": [
+        "Dighar hotel book korbo bhabchilam. Na thak, Trisha age chutir din janak, tarpor shob thik korbo."
+      ]
+    },
+    {
+      "id": "bn-s050",
+      "kind": "sentence",
+      "native": [
+        "সবাইকে খুশি রাখতে গিয়ে নিজের শখগুলো আর পূরণ করা হয় না। এভাবে চললে আমারই তো মন খারাপ হবে।"
+      ],
+      "roman": [
+        "Shobaike khushi rakhte giye nijer shokhgulo ar puron kora hoy na. Ebhabe cholle amari to mon kharap hobe."
+      ]
+    },
+    {
+      "id": "bn-s051",
+      "kind": "sentence",
+      "native": [
+        "শুক্রবার বিকেলে রবীন্দ্র সরোবরের ধারে বসে আড্ডা দেব?"
+      ],
+      "roman": [
+        "Shukrobar bikele Rabindra Sarobarer dhare boshe adda debo?"
+      ]
+    },
+    {
+      "id": "bn-s052",
+      "kind": "sentence",
+      "native": [
+        "অনন্যা সেন প্রস্তাবটা পড়েছেন, তবে বাজেট নিয়ে তাঁর কয়েকটা প্রশ্ন আছে বলে এখনও সায় দেননি।"
+      ],
+      "roman": [
+        "Ananya Sen prostabta porechen, tobe budget niye tar koyekta proshno ache bole ekhono shay denni."
+      ]
+    },
+    {
+      "id": "bn-s053",
+      "kind": "sentence",
+      "native": [
+        "স্কোর 96 রানে 1 উইকেট।"
+      ],
+      "roman": [
+        "Score 96 rune 1 wicket."
+      ]
+    },
+    {
+      "id": "bn-s054",
+      "kind": "sentence",
+      "native": [
+        "খাতায় মাসের খরচ লিখে রাখো।"
+      ],
+      "roman": [
+        "Khatay masher khoroch likhe rakho."
+      ]
+    },
+    {
+      "id": "bn-s055",
+      "kind": "sentence",
+      "native": [
+        "জুম খুলে ক্যামেরা চালু করো, তবে ঢোকার সময় মাইক যেন মিউট থাকে সেটা দেখে নাও।"
+      ],
+      "roman": [
+        "Zoom khule camera chalu koro, tobe dhokar shomoy mic jeno mute thake sheta dekhe nao."
+      ]
+    },
+    {
+      "id": "bn-s056",
+      "kind": "sentence",
+      "native": [
+        "পাসওয়ার্ড বদলানোর পর লগইন হচ্ছে না।"
+      ],
+      "roman": [
+        "Password bodlanor por login hochhe na."
+      ]
+    },
+    {
+      "id": "bn-s057",
+      "kind": "sentence",
+      "native": [
+        "আপনাদের গাড়িতে জায়গা থাকলে আমিও সঙ্গে যেতে চাই।"
+      ],
+      "roman": [
+        "Apnader garite jayga thakle amio shonge jete chai."
+      ]
+    },
+    {
+      "id": "bn-s058",
+      "kind": "sentence",
+      "native": [
+        "এই চাদরটা 450 টাকায় দিলে এখনই নিয়ে নেব।"
+      ],
+      "roman": [
+        "Ei chadorta 450 takay dile ekhoni niye nebo."
+      ]
+    },
+    {
+      "id": "bn-s059",
+      "kind": "sentence",
+      "native": [
+        "সাদাটা নয়, সরি, ধূসরটা দিন।"
+      ],
+      "roman": [
+        "Shadata noy, sorry, dhushorta din."
+      ]
+    },
+    {
+      "id": "bn-s060",
+      "kind": "sentence",
+      "native": [
+        "অসীমদা, আপনি পাশে দাঁড়িয়েছিলেন বলেই মঞ্চে উঠে কথা বলতে পেরেছি।"
+      ],
+      "roman": [
+        "Asimda, apni pashe dariyechilen bolei monche uthe kotha bolte perechi."
+      ]
+    },
+    {
+      "id": "bn-s061",
+      "kind": "sentence",
+      "native": [
+        "হ্যাঁ, চিরুনিটা আমার কাছেই আছে।"
+      ],
+      "roman": [
+        "Hya, chirunita amar kachei ache."
+      ]
+    },
+    {
+      "id": "bn-s062",
+      "kind": "sentence",
+      "native": [
+        "সায়ন্তন, তুমি বিজ্ঞাপনে আগের ছবিগুলো ব্যবহার করলে খরচ কম হবে, নতুন ছবি তোলার দরকার নেই।"
+      ],
+      "roman": [
+        "Sayantan, tumi biggapone ager chobigulo byabohar korle khoroch kom hobe, notun chobi tolar dorkar nei."
+      ]
+    },
+    {
+      "id": "bn-s063",
+      "kind": "sentence",
+      "native": [
+        "পার্সেলটা 28 কলেজ রোডে দুপুর 2:45 নাগাদ পৌঁছে দেবেন।"
+      ],
+      "roman": [
+        "Parcelta 28 College Roade dupur 2:45 nagad pouchhe deben."
+      ]
+    },
+    {
+      "id": "bn-s064",
+      "kind": "sentence",
+      "native": [
+        "বেহালার চশমার দোকান রবিবার খোলা থাকে কি না জেনে নেব।"
+      ],
+      "roman": [
+        "Behalar choshmar dokan Robibar khola thake ki na jene nebo."
+      ]
+    },
+    {
+      "id": "bn-s065",
+      "kind": "sentence",
+      "native": [
+        "সেলাইয়ের সহজ কয়েকটা নকশা দেখাও।"
+      ],
+      "roman": [
+        "Shelaier shohoj koyekta noksha dekhao."
+      ]
+    },
+    {
+      "id": "bn-s066",
+      "kind": "sentence",
+      "native": [
+        "ব্যাকআপ নেওয়া শেষ হলে পেনড্রাইভ খুলে নিতে পারেন।"
+      ],
+      "roman": [
+        "Backup newa shesh hole pendrive khule nite paren."
+      ]
+    },
+    {
+      "id": "bn-s067",
+      "kind": "sentence",
+      "native": [
+        "ফেরার পথে সেতু পেরিয়ে একটা অটো ধরে নেব।"
+      ],
+      "roman": [
+        "Pherar pothe shetu periye ekta auto dhore nebo."
+      ]
+    },
+    {
+      "id": "bn-s068",
+      "kind": "sentence",
+      "native": [
+        "কুমড়োটা কেটে দিতে পারবেন?"
+      ],
+      "roman": [
+        "Kumrota kete dite parben?"
+      ]
+    },
+    {
+      "id": "bn-s069",
+      "kind": "sentence",
+      "native": [
+        "মালপোয়া গরম আছে, নাকি ঠান্ডা?"
+      ],
+      "roman": [
+        "Malpoa gorom ache, naki thanda?"
+      ]
+    },
+    {
+      "id": "bn-s070",
+      "kind": "sentence",
+      "native": [
+        "প্রথমবারেই নিখুঁত না হলেও হাল ছেড়ো না, শিখে যাবে।"
+      ],
+      "roman": [
+        "Prothombarei nikhut na holeo hal chero na, shikhe jabe."
+      ]
+    },
+    {
+      "id": "bn-s071",
+      "kind": "sentence",
+      "native": [
+        "তোমার ছাতাটা সঙ্গে নিয়ে যেয়ো।"
+      ],
+      "roman": [
+        "Tomar chatata shonge niye jeyo."
+      ]
+    },
+    {
+      "id": "bn-s072",
+      "kind": "sentence",
+      "native": [
+        "শ্রেয়া, সোমবার সকাল 11:30 নাগাদ মিটিং রাখলে আপনার সুবিধা হবে?"
+      ],
+      "roman": [
+        "Shreya, shombar shokal 11:30 nagad meeting rakhle apnar shubidha hobe?"
+      ]
+    },
+    {
+      "id": "bn-s073",
+      "kind": "sentence",
+      "native": [
+        "4 কিলোমিটার হাঁটতে 55 মিনিট লেগেছে।"
+      ],
+      "roman": [
+        "4 kilometer hatte 55 minute legeche."
+      ]
+    },
+    {
+      "id": "bn-s074",
+      "kind": "sentence",
+      "native": [
+        "বিকেলে টবের শুকনো পাতাগুলো তুলে ফেলার কথা মনে করিয়ো।"
+      ],
+      "roman": [
+        "Bikele tober shukno patagulo tule phelar kotha mone koriyo."
+      ]
+    },
+    {
+      "id": "bn-s075",
+      "kind": "sentence",
+      "native": [
+        "ইউটিউব খুলে কাগজের নৌকা বানানোর সহজ ভিডিও খোঁজো।"
+      ],
+      "roman": [
+        "YouTube khule kagojer nouka bananor shohoj video khojo."
+      ]
+    },
+    {
+      "id": "bn-s076",
+      "kind": "sentence",
+      "native": [
+        "পার্থ, তুমি নকশাটা পাঠালে আমি সফটওয়্যার দিয়ে রং বদলে দেখাতে পারি, তাহলে কাপড় বাছতে সুবিধা হবে।"
+      ],
+      "roman": [
+        "Partha, tumi nokshata pathale ami software diye rong bodle dekhate pari, tahole kapor bachte shubidha hobe."
+      ]
+    },
+    {
+      "id": "bn-s077",
+      "kind": "sentence",
+      "native": [
+        "মাফ করবেন, এখান থেকেই কি লোকাল ট্রেন ধরতে পারব?"
+      ],
+      "roman": [
+        "Maph korben, ekhan thekei ki local train dhorte parbo?"
+      ]
+    },
+    {
+      "id": "bn-s078",
+      "kind": "sentence",
+      "native": [
+        "ছাদে কাপড় মেলো না, আকাশের অবস্থা সুবিধের নয়।"
+      ],
+      "roman": [
+        "Chade kapor melo na, akasher obostha shubidher noy."
+      ]
+    },
+    {
+      "id": "bn-s079",
+      "kind": "sentence",
+      "native": [
+        "আরে, উল্টো পিঠে সই করেছি!"
+      ],
+      "roman": [
+        "Are, ulto pithe shoi korechi!"
+      ]
+    },
+    {
+      "id": "bn-s080",
+      "kind": "sentence",
+      "native": [
+        "দামি জিনিস কিনলেই যে বেশি দিন টিকবে, সেটা মানি না। তুমি সস্তায় কেনা জামাটাই তো এখনও পরছ।"
+      ],
+      "roman": [
+        "Dami jinis kinlei je beshi din tikbe, sheta mani na. Tumi shostay kena jamatai to ekhono porcho."
+      ]
+    },
+    {
+      "id": "bn-s081",
+      "kind": "sentence",
+      "native": [
+        "এত ঘুমোলে বালিশটাও একদিন তোমার কাছে ভাড়া চাইবে!"
+      ],
+      "roman": [
+        "Eto ghumole balishtao ekdin tomar kache bhara chaibe!"
+      ]
+    },
+    {
+      "id": "bn-s082",
+      "kind": "sentence",
+      "native": [
+        "ধন্যবাদ, পরে আবার কথা হবে।"
+      ],
+      "roman": [
+        "Dhonnobad, pore abar kotha hobe."
+      ]
+    },
+    {
+      "id": "bn-s083",
+      "kind": "sentence",
+      "native": [
+        "শাড়িটার দাম ₹1850 বলেছে, তবে সঙ্গে ওই ওড়নাটা নিলে সব মিলিয়ে ₹2200 রাখবে।"
+      ],
+      "roman": [
+        "Sharitar dam ₹1850 boleche, tobe shonge oi ornata nile shob miliye ₹2200 rakhbe."
+      ]
+    },
+    {
+      "id": "bn-s084",
+      "kind": "sentence",
+      "native": [
+        "শান্তিনগরের বাসায় কেউ ছিল না বলে পার্সেলটা ফেরত গেছে। আবার কবে ডেলিভারি হবে, সেটা ঠিক করতে হবে।"
+      ],
+      "roman": [
+        "Shantinagarer bashay keu chilo na bole parcelta pherot geche. Abar kobe delivery hobe, sheta thik korte hobe."
+      ]
+    },
+    {
+      "id": "bn-s085",
+      "kind": "sentence",
+      "native": [
+        "উত্তরা যাওয়ার সবচেয়ে সহজ রাস্তা দেখাও তো।"
+      ],
+      "roman": [
+        "Uttara jawar shobcheye shohoj rasta dekhao to."
+      ]
+    },
+    {
+      "id": "bn-s086",
+      "kind": "sentence",
+      "native": [
+        "কিবোর্ডের কয়েকটা বোতাম কাজ করছে না।"
+      ],
+      "roman": [
+        "Keyboarder koyekta botam kaj korche na."
+      ]
+    },
+    {
+      "id": "bn-s087",
+      "kind": "sentence",
+      "native": [
+        "জয়া বসু এখনও স্টেশনের বাইরে অপেক্ষা করছেন?"
+      ],
+      "roman": [
+        "Jaya Basu ekhono stationer baire opekkha korchen?"
+      ]
+    },
+    {
+      "id": "bn-s088",
+      "kind": "sentence",
+      "native": [
+        "লাইব্রেরি থেকে নেওয়া বই আরও কয়েক দিন রাখা যাবে?"
+      ],
+      "roman": [
+        "Library theke neoa boi aro koyek din rakha jabe?"
+      ]
+    },
+    {
+      "id": "bn-s089",
+      "kind": "sentence",
+      "native": [
+        "বেগুন, কাঁচালঙ্কা আর ধনেপাতা নাও, টমেটো লাগবে না।"
+      ],
+      "roman": [
+        "Begun, kanchalonka ar dhonepata nao, tomato lagbe na."
+      ]
+    },
+    {
+      "id": "bn-s090",
+      "kind": "sentence",
+      "native": [
+        "রুবিনা, এত ধৈর্য ধরে অঙ্কটা বোঝানোর জন্য ধন্যবাদ।"
+      ],
+      "roman": [
+        "Rubina, eto dhoirjo dhore onkota bojhanor jonno dhonnobad."
+      ]
+    },
+    {
+      "id": "bn-s091",
+      "kind": "sentence",
+      "native": [
+        "অর্ক, শনিবার দুপুরে খেতে এসো, মা তোমার পছন্দের চিংড়ি মালাইকারি করবে বলে বাজারে গেছে।"
+      ],
+      "roman": [
+        "Arko, shonibar dupure khete esho, ma tomar pochonder chingri malaikari korbe bole bajare geche."
+      ]
+    },
+    {
+      "id": "bn-s092",
+      "kind": "sentence",
+      "native": [
+        "বৃহস্পতিবারের ডেমো এগিয়ে আনা হয়েছে। আপনার অংশটা তৈরি থাকলে দুপুরের মধ্যে প্র্যাকটিস করে নিতে চাই।"
+      ],
+      "roman": [
+        "Brihoshpotibarer demo egiye ana hoyeche. Apnar ongshota toiri thakle dupurer moddhe practice kore nite chai."
+      ]
+    },
+    {
+      "id": "bn-s093",
+      "kind": "sentence",
+      "native": [
+        "গড়িয়াহাটে ব্যাগটার দাম ₹1600, তবে 15% ছাড় পেলেও আমি এই মাসে আর কিনতে পারব না।"
+      ],
+      "roman": [
+        "Gariahate bagtar dam ₹1600, tobe 15% char peleo ami ei mashe ar kinte parbo na."
+      ]
+    },
+    {
+      "id": "bn-s094",
+      "kind": "sentence",
+      "native": [
+        "মঙ্গলবার পুরোনো কাগজগুলো বেচতে হবে।"
+      ],
+      "roman": [
+        "Mongolbar purono kagojgulo bechte hobe."
+      ]
+    },
+    {
+      "id": "bn-s095",
+      "kind": "sentence",
+      "native": [
+        "আহসান মঞ্জিলে গেলে ভেতরে ছবি তোলা যায় কি?"
+      ],
+      "roman": [
+        "Ahsan Manzile gele bhetore chobi tola jay ki?"
+      ]
+    },
+    {
+      "id": "bn-s096",
+      "kind": "sentence",
+      "native": [
+        "প্রিন্টারে কাগজ আটকে গেছে।"
+      ],
+      "roman": [
+        "Printere kagoj atke geche."
+      ]
+    },
+    {
+      "id": "bn-s097",
+      "kind": "sentence",
+      "native": [
+        "পেছনের গেট দিয়ে বেরোতে হবে।"
+      ],
+      "roman": [
+        "Pechoner gate diye berote hobe."
+      ]
+    },
+    {
+      "id": "bn-s098",
+      "kind": "sentence",
+      "native": [
+        "বোনের বিয়ের ছবিগুলো বড় করে ছাপিয়ে একটা খামে ভরে পাঠাব, ও এখনও কিছুই জানে না।"
+      ],
+      "roman": [
+        "Boner biyer chobigulo boro kore chapiye ekta khame bhore pathabo, o ekhono kichui jane na."
+      ]
+    },
+    {
+      "id": "bn-s099",
+      "kind": "sentence",
+      "native": [
+        "কুমিল্লার রসমালাই পেলে নিও, না পেলে অন্য মিষ্টি এনো।"
+      ],
+      "roman": [
+        "Cumillar roshmalai pele niyo, na pele onno mishti eno."
+      ]
+    },
+    {
+      "id": "bn-s100",
+      "kind": "sentence",
+      "native": [
+        "অপেক্ষা করতে করতে বিরক্ত লাগছে।"
+      ],
+      "roman": [
+        "Opekkha korte korte birokto lagche."
+      ]
+    },
+    {
+      "id": "bn-s101",
+      "kind": "sentence",
+      "native": [
+        "বইয়ের তাকটা একা সরাতে পারছি না, সন্ধ্যায় এলে একটু হাত লাগিয়ো, তারপর একসঙ্গে চা খাওয়া যাবে।"
+      ],
+      "roman": [
+        "Boiyer takta eka shorate parchi na, shondhay ele ektu hat lagiyo, tarpor ekshonge cha khawa jabe."
+      ]
+    },
+    {
+      "id": "bn-s102",
+      "kind": "sentence",
+      "native": [
+        "মালপত্র গুনে নেওয়া শেষ, গুদামের তালাও লাগিয়ে দিয়েছি।"
+      ],
+      "roman": [
+        "Malpotro gune neoa shesh, gudamer talao lagiye diyechi."
+      ]
+    },
+    {
+      "id": "bn-s103",
+      "kind": "sentence",
+      "native": [
+        "হাওড়ার ট্রেনে 53 আর 54 নম্বর সিট পেয়েছি।"
+      ],
+      "roman": [
+        "Howrahr traine 53 ar 54 number seat peyechi."
+      ]
+    },
+    {
+      "id": "bn-s104",
+      "kind": "sentence",
+      "native": [
+        "ধার নেওয়া হাতুড়িটা ফেরত দেব।"
+      ],
+      "roman": [
+        "Dhar neowa haturita pherot debo."
+      ]
+    },
+    {
+      "id": "bn-s105",
+      "kind": "sentence",
+      "native": [
+        "পিডিএফ বানিয়ে এই পাতাটা সেভ করে দাও।"
+      ],
+      "roman": [
+        "PDF baniye ei patata save kore dao."
+      ]
+    },
+    {
+      "id": "bn-s106",
+      "kind": "sentence",
+      "native": [
+        "মিটিং চলার সময় শব্দ কেটে যাচ্ছিল বলে ক্যামেরা বন্ধ রেখেছিলাম, তাতে কথা স্পষ্ট শোনা গেছে।"
+      ],
+      "roman": [
+        "Meeting cholar shomoy shobdo kete jachhilo bole camera bondho rekhechilam, tate kotha sposhto shona geche."
+      ]
+    },
+    {
+      "id": "bn-s107",
+      "kind": "sentence",
+      "native": [
+        "ইশরাত আজ ছেলেকে আনতে যেতে পারবে না, তুমি কি তেজগাঁওয়ের স্কুল থেকে ওকে নিয়ে আসবে?"
+      ],
+      "roman": [
+        "Ishrat aj cheleke ante jete parbe na, tumi ki Tejgaoner school theke oke niye ashbe?"
+      ]
+    },
+    {
+      "id": "bn-s108",
+      "kind": "sentence",
+      "native": [
+        "তরকারিতে নুন একটু বেশি হয়েছে।"
+      ],
+      "roman": [
+        "Torkarite nun ektu beshi hoyeche."
+      ]
+    },
+    {
+      "id": "bn-s109",
+      "kind": "sentence",
+      "native": [
+        "টেবিল মাপার সময় লম্বা আর চওড়া দুটোই লিখো। না, সরি, লিখতে হবে না, মুখে বললেই হবে।"
+      ],
+      "roman": [
+        "Table mapar shomoy lomba ar chowra dutoi likho. Na, sorry, likhte hobe na, mukhe bollei hobe."
+      ]
+    },
+    {
+      "id": "bn-s110",
+      "kind": "sentence",
+      "native": [
+        "উফ, মশারা ঘুমোতে দিচ্ছে না।"
+      ],
+      "roman": [
+        "Uf, moshara ghumote dichhe na."
+      ]
+    },
+    {
+      "id": "bn-s111",
+      "kind": "sentence",
+      "native": [
+        "সল্টলেকের ক্লায়েন্ট এখনও দাম নিয়ে কিছু জানাননি, আরেকবার খোঁজ নেব?"
+      ],
+      "roman": [
+        "Salt Laker client ekhono dam niye kichu jananni, arekbar khoj nebo?"
+      ]
+    },
+    {
+      "id": "bn-s112",
+      "kind": "sentence",
+      "native": [
+        "রাজশাহীর আম 3 কেজি নিয়েছি, দাম পড়েছে 360 টাকা।"
+      ],
+      "roman": [
+        "Rajshahir am 3 keji niyechi, dam poreche 360 taka."
+      ]
+    },
+    {
+      "id": "bn-s113",
+      "kind": "sentence",
+      "native": [
+        "চাল ফুরোনোর আগেই 5 কেজির একটা বস্তা কিনে রাখব।"
+      ],
+      "roman": [
+        "Chal phuronor agei 5 kejir ekta bosta kine rakhbo."
+      ]
+    },
+    {
+      "id": "bn-s114",
+      "kind": "sentence",
+      "native": [
+        "ব্লুটুথ বন্ধ করে ওয়াই-ফাই চালু করে দাও।"
+      ],
+      "roman": [
+        "Bluetooth bondho kore Wi-Fi chalu kore dao."
+      ]
+    },
+    {
+      "id": "bn-s115",
+      "kind": "sentence",
+      "native": [
+        "মোহাম্মদপুরের অফিসে নতুন স্ক্যানার বসেছে, কাগজগুলো নিয়ে আসুন।"
+      ],
+      "roman": [
+        "Mohammadpurer officee notun scanner bosheche, kagojgulo niye ashun."
+      ]
+    },
+    {
+      "id": "bn-s116",
+      "kind": "sentence",
+      "native": [
+        "সামনের খালি বেঞ্চটায় বসে থাকব, তুমি ভিড়ের মধ্যে আমাকে না পেলে সোজা সেখানেই চলে এসো।"
+      ],
+      "roman": [
+        "Shamner khali benchtay boshe thakbo, tumi bhirer moddhe amake na pele shoja shekhanei chole esho."
+      ]
+    },
+    {
+      "id": "bn-s117",
+      "kind": "sentence",
+      "native": [
+        "কাপড়টা আপনি কেটে দিন, সেলাইটা আমি করে দিতে পারব।"
+      ],
+      "roman": [
+        "Kaporta apni kete din, shelaita ami kore dite parbo."
+      ]
+    },
+    {
+      "id": "bn-s118",
+      "kind": "sentence",
+      "native": [
+        "কলেজ স্ট্রিট যাব, না থাক, বইটা এখানেই কিনে নিই।"
+      ],
+      "roman": [
+        "College Street jabo, na thak, boita ekhanei kine nii."
+      ]
+    },
+    {
+      "id": "bn-s119",
+      "kind": "sentence",
+      "native": [
+        "ধানমন্ডি পৌঁছাতে একটু দেরি হবে, তুমি দোকানের ভেতরে বসো।"
+      ],
+      "roman": [
+        "Dhanmondi pouchate ektu deri hobe, tumi dokaner bhetore bosho."
+      ]
+    },
+    {
+      "id": "bn-s120",
+      "kind": "sentence",
+      "native": [
+        "রফিক ভাই, কুরিয়ার বাবদ খরচটা আলাদা করে বিলে যোগ করবেন।"
+      ],
+      "roman": [
+        "Rafiq bhai, courier babod khorochta alada kore bille jog korben."
+      ]
+    },
+    {
+      "id": "bn-s121",
+      "kind": "sentence",
+      "native": [
+        "রবিবারের বাসটা সকাল 7:20 নাগাদ ছাড়বে, তাই 9 নম্বর গেটে অন্তত 25 মিনিট আগে দাঁড়াতে হবে।"
+      ],
+      "roman": [
+        "Robibarer busta shokal 7:20 nagad charbe, tai 9 number gatee ontoto 25 minute age darate hobe."
+      ]
+    },
+    {
+      "id": "bn-s122",
+      "kind": "sentence",
+      "native": [
+        "গ্যাসের বিল মেটানোর শেষ দিনটা নোট করে রাখো।"
+      ],
+      "roman": [
+        "Gaser bill metanor shesh dinta note kore rakho."
+      ]
+    },
+    {
+      "id": "bn-s123",
+      "kind": "sentence",
+      "native": [
+        "7 মিনিটের টাইমার চালু করো।"
+      ],
+      "roman": [
+        "7 minuter timer chalu koro."
+      ]
+    },
+    {
+      "id": "bn-s124",
+      "kind": "sentence",
+      "native": [
+        "কালকের আপডেট দেওয়ার পর থেকে বাংলা অক্ষরগুলো আর ভাঙছে না।"
+      ],
+      "roman": [
+        "Kalker update dewar por theke Bangla okkhorgulo ar bhangche na."
+      ]
+    },
+    {
+      "id": "bn-s125",
+      "kind": "sentence",
+      "native": [
+        "দাদুর পাশে বসতে পারি?"
+      ],
+      "roman": [
+        "Dadur pashe boshte pari?"
+      ]
+    },
+    {
+      "id": "bn-s126",
+      "kind": "sentence",
+      "native": [
+        "কলের মিস্ত্রি এলে বেসিনের নিচের পাইপটাও দেখিয়ে দেবেন।"
+      ],
+      "roman": [
+        "Koler mistri ele basiner nicher pipetao dekhiye deben."
+      ]
+    },
+    {
+      "id": "bn-s127",
+      "kind": "sentence",
+      "native": [
+        "আঠা, কাঁচি আর কী লাগবে?"
+      ],
+      "roman": [
+        "Atha, kanchi ar ki lagbe?"
+      ]
+    },
+    {
+      "id": "bn-s128",
+      "kind": "sentence",
+      "native": [
+        "বাড়ি পৌঁছেছি, চিন্তা কোরো না।"
+      ],
+      "roman": [
+        "Bari pouchechi, chinta koro na."
+      ]
+    },
+    {
+      "id": "bn-s129",
+      "kind": "sentence",
+      "native": [
+        "চট্টগ্রামের শাখায় মঙ্গলবার ট্রেনিং আছে, তাই সেদিনের অর্ডার সামলাতে বাড়তি দুজন লোক লাগবে।"
+      ],
+      "roman": [
+        "Chattogramer shakhay mongolbar training ache, tai shediner order shamlate barti dujon lok lagbe."
+      ]
+    },
+    {
+      "id": "bn-s130",
+      "kind": "sentence",
+      "native": [
+        "ছোটটার বয়স 6 বছর হলো।"
+      ],
+      "roman": [
+        "Chototar boyosh 6 bochor holo."
+      ]
+    },
+    {
+      "id": "bn-s131",
+      "kind": "sentence",
+      "native": [
+        "বাজারের লিস্ট বানিয়ে মুসুর ডাল লেখো।"
+      ],
+      "roman": [
+        "Bajarer list baniye musur dal lekho."
+      ]
+    },
+    {
+      "id": "bn-s132",
+      "kind": "sentence",
+      "native": [
+        "নন্দনে আজ কোন কোন সিনেমা চলছে বলো।"
+      ],
+      "roman": [
+        "Nandane aj kon kon cinema cholche bolo."
+      ]
+    },
+    {
+      "id": "bn-s133",
+      "kind": "sentence",
+      "native": [
+        "রেশমি, তোমার প্রেজেন্টেশন চলার সময় স্লাইড বদলাচ্ছে না কেন?"
+      ],
+      "roman": [
+        "Reshmi, tomar presentation cholar shomoy slide bodlachhe na keno?"
+      ]
+    },
+    {
+      "id": "bn-s134",
+      "kind": "sentence",
+      "native": [
+        "মেঘলা কি তোমাদের সঙ্গে যাচ্ছে?"
+      ],
+      "roman": [
+        "Meghla ki tomader shonge jachhe?"
+      ]
+    },
+    {
+      "id": "bn-s135",
+      "kind": "sentence",
+      "native": [
+        "চুল কাটাতে সন্ধ্যায় গেলে আগে থেকে সময় নিতে হবে?"
+      ],
+      "roman": [
+        "Chul katate shondhyay gele age theke shomoy nite hobe?"
+      ]
+    },
+    {
+      "id": "bn-s136",
+      "kind": "sentence",
+      "native": [
+        "বেশ খিদে পেয়েছে, আগে ডিম ভেজে পাউরুটির সঙ্গে দাও। তারপর চিনি ছাড়া কফি আর বিস্কুট দাও।"
+      ],
+      "roman": [
+        "Besh khide peyeche, age dim bheje paurutir shonge dao. Tarpor chini chara coffee ar biscuit dao."
+      ]
+    },
+    {
+      "id": "bn-s137",
+      "kind": "sentence",
+      "native": [
+        "তোমরা খেলা শুরু করে দাও, আমি জামা বদলেই নামছি।"
+      ],
+      "roman": [
+        "Tomra khela shuru kore dao, ami jama bodlei namchi."
+      ]
+    },
+    {
+      "id": "bn-s138",
+      "kind": "sentence",
+      "native": [
+        "আগের আলোচনার নোট খুঁজছি, কারও কাছে থাকলে এখানে দেবেন?"
+      ],
+      "roman": [
+        "Ager alochonar note khujchi, karo kache thakle ekhane deben?"
+      ]
+    },
+    {
+      "id": "bn-s139",
+      "kind": "sentence",
+      "native": [
+        "ব্যাটারিতে মাত্র 17% চার্জ আছে।"
+      ],
+      "roman": [
+        "Batteryte matro 17% charge ache."
+      ]
+    },
+    {
+      "id": "bn-s140",
+      "kind": "sentence",
+      "native": [
+        "সিলেট যাওয়ার আগে স্যুটকেসের ভাঙা চাকাটা পালটাতে হবে। কাজটা যেন শেষ দিন পর্যন্ত পড়ে না থাকে।"
+      ],
+      "roman": [
+        "Sylhet jawar age suitcaser bhanga chakata paltate hobe. Kajta jeno shesh din porjonto pore na thake."
+      ]
+    },
+    {
+      "id": "bn-s141",
+      "kind": "sentence",
+      "native": [
+        "দুঃখিত, ব্যক্তিগত অ্যাকাউন্ট থেকে এই সাবস্ক্রিপশন নিতে পারব না।"
+      ],
+      "roman": [
+        "Dukkhito, bektigoto account theke ei subscription nite parbo na."
+      ]
+    },
+    {
+      "id": "bn-s142",
+      "kind": "sentence",
+      "native": [
+        "মালিবাগের মোড়ে নামলে সেখান থেকে হেঁটেই যেতে পারবে।"
+      ],
+      "roman": [
+        "Malibager more namle shekhan theke hentei jete parbe."
+      ]
+    },
+    {
+      "id": "bn-s143",
+      "kind": "sentence",
+      "native": [
+        "ঈদের জামাটা বেশ মানিয়েছে তোমাকে।"
+      ],
+      "roman": [
+        "Eider jamata besh maniyeche tomake."
+      ]
+    },
+    {
+      "id": "bn-s144",
+      "kind": "sentence",
+      "native": [
+        "ফারজানা, কেক কাটার আগে আমাকে ডাকতে ভুলে যেয়ো না।"
+      ],
+      "roman": [
+        "Farzana, cake katar age amake dakte bhule jeyo na."
+      ]
+    },
+    {
+      "id": "bn-s145",
+      "kind": "sentence",
+      "native": [
+        "নমস্কার, আপনার ইমেল পেয়েছি।"
+      ],
+      "roman": [
+        "Nomoshkar, apnar email peyechi."
+      ]
+    },
+    {
+      "id": "bn-s146",
+      "kind": "sentence",
+      "native": [
+        "তুমি 12 মিনিটেই ছবিটা এঁকে ফেলেছ!"
+      ],
+      "roman": [
+        "Tumi 12 minutei chobita enke phelecho!"
+      ]
+    },
+    {
+      "id": "bn-s147",
+      "kind": "sentence",
+      "native": [
+        "রিমার স্কুলে কাল ছবি আঁকার প্রতিযোগিতা আছে।"
+      ],
+      "roman": [
+        "Rimar schoole kal chobi akar protijogita ache."
+      ]
+    },
+    {
+      "id": "bn-s148",
+      "kind": "sentence",
+      "native": [
+        "সোহিনী, রোববার তোমাদের ছাদে ঘুড়ি ওড়ানোর কথা মনে আছে তো?"
+      ],
+      "roman": [
+        "Sohini, robbar tomader chade ghuri oranor kotha mone ache to?"
+      ]
+    },
+    {
+      "id": "bn-s149",
+      "kind": "sentence",
+      "native": [
+        "খসড়ায় যোগাযোগের নম্বর 01000000000 রাখুন, পরে আসলটা বসিয়ে দেব।"
+      ],
+      "roman": [
+        "Khosray jogajoger number 01000000000 rakhun, pore asholta boshiye debo."
+      ]
+    },
+    {
+      "id": "bn-s150",
+      "kind": "sentence",
+      "native": [
+        "মা, তুমি সিরিয়াল দেখতে বসলে আমাকে ডেকো। আগের পর্বে কী হয়েছিল সেটা আমি এখনও জানি না।"
+      ],
+      "roman": [
+        "Ma, tumi serial dekhte boshle amake deko. Ager porbe ki hoyechilo sheta ami ekhono jani na."
+      ]
+    },
+    {
+      "id": "bn-s151",
+      "kind": "sentence",
+      "native": [
+        "অ্যালবাম ঘাঁটতে গিয়ে আমাদের ছোটবেলার সেই পুরোনো ছবিটা পেলাম, দেখলে হেসে গড়িয়ে পড়বে।"
+      ],
+      "roman": [
+        "Album ghatte giye amader chotobelar shei purono chobita pelam, dekhle heshe goriye porbe."
+      ]
+    },
+    {
+      "id": "bn-s152",
+      "kind": "sentence",
+      "native": [
+        "আমার জন্য একটু ভাত রেখো।"
+      ],
+      "roman": [
+        "Amar jonno ektu bhat rekho."
+      ]
+    },
+    {
+      "id": "bn-s153",
+      "kind": "sentence",
+      "native": [
+        "আজ কিন্তু রান্নাটা দারুণ হয়েছে।"
+      ],
+      "roman": [
+        "Aj kintu rannata darun hoyeche."
+      ]
+    },
+    {
+      "id": "bn-s154",
+      "kind": "sentence",
+      "native": [
+        "বৃষ্টি থামলে বেরোব, ভেজা জামা পরে রেস্তোরাঁয় বসতে চাই না।"
+      ],
+      "roman": [
+        "Brishti thamle berobo, bheja jama pore restoray boshte chai na."
+      ]
+    }
+  ]
+}

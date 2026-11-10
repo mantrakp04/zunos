@@ -1,0 +1,1824 @@
+{
+  "lang": "sd",
+  "starter": [
+    "sd-s156",
+    "sd-s152",
+    "sd-s111",
+    "sd-s067",
+    "sd-s136",
+    "sd-s059",
+    "sd-s157",
+    "sd-s003",
+    "sd-s069",
+    "sd-s079",
+    "sd-s044",
+    "sd-p05",
+    "sd-s121",
+    "sd-s099",
+    "sd-s126",
+    "sd-s108",
+    "sd-s142",
+    "sd-s115",
+    "sd-s026",
+    "sd-s029",
+    "sd-s084",
+    "sd-s060",
+    "sd-s056",
+    "sd-p04",
+    "sd-s076",
+    "sd-s014",
+    "sd-s145",
+    "sd-s091",
+    "sd-s110",
+    "sd-s022",
+    "sd-s062",
+    "sd-s040",
+    "sd-s144",
+    "sd-s095",
+    "sd-s141",
+    "sd-p03",
+    "sd-s042",
+    "sd-s018",
+    "sd-s101",
+    "sd-s122",
+    "sd-s116",
+    "sd-s030",
+    "sd-s133",
+    "sd-s158",
+    "sd-s020",
+    "sd-s103",
+    "sd-s130",
+    "sd-s080"
+  ],
+  "items": [
+    {
+      "id": "sd-p01",
+      "kind": "para",
+      "title": "Our New Flat",
+      "native": [
+        "سارنگ، قاسم آباد وارو نئون فليٽ ملي ويو آهي، آچر تي لڏينداسين۔",
+        "بالڪنيءَ مان آٽو ڀان روڊ نظر اچي ٿو، پر اندر خاموشي آهي۔",
+        "هتي اسڪول به ويجهو آهي، بازار به ويجهي آهي۔",
+        "مسواڙ 28000 رپيا آهي، پاڻي صبح شام اچي ٿو۔",
+        "مون ڪتاب الڳ پيتيءَ اندر رکيا آهن، باقي سامان اڃا پکڙيل آهي۔",
+        "امڙ چوي ٿي ته پهرين بورچيخانو سنڀاليو، پوءِ ٻيو ڪم ڪجو۔",
+        "تون آچر تي ٿورو سوير اچجانءِ، گڏجي ڳرا دٻا مٿي کڻنداسين۔",
+        "پنهنجي گاڏيءَ تي پردا به کڻي اچجانءِ، هتي دريون ڪافي وڏيون آهن۔",
+        "شام جو سامان رکي گڏجي چانهه پيئنداسين، پڪوڙا منهنجي طرفان هوندا۔"
+      ],
+      "roman": [
+        "Sarang, Qasimabad waaro naoon flat mili wayo aahe, Aachar te ladindaseen.",
+        "Balcony maan Auto Bhan Road nazar ache tho, par andar khamoshi aahe.",
+        "Hite school bi wejho aahe, bazaar bi wejhi aahe.",
+        "Maswaar 28000 rupiya aahe, paani subuh shaam ache tho.",
+        "Moon kitaab alag peti andar rakhya aahin, baaqi saamaan anja pakhriyal aahe.",
+        "Amar chave thi ta pahreen borchikhaano sambhaalyo, poi biyo kam kajo.",
+        "Toon Aachar te thoro sawer achjaan, gadji gara daba mathe khanandaseen.",
+        "Panhinji gaadi te parda bi khani achjaan, hite daryoon kaafi wadiyoon aahin.",
+        "Shaam jo saamaan rakhi gadji chaanh peendaseen, pakora munhinji tarafaan hoonda."
+      ]
+    },
+    {
+      "id": "sd-p02",
+      "kind": "para",
+      "title": "Client Meeting Follow-Up",
+      "native": [
+        "ساٿيو، اڄ شاهراهه فيصل واري آفيس تي ڪلائنٽ سان ميٽنگ ٿي۔",
+        "ڪپڙن جي دڪان واري ڪلائنٽ کي ويب سائيٽ جو نمونو پسند آيو۔",
+        "هن چيو ته مين پيج تي نئين ڪليڪشن جا فوٽو وڏا هجن۔",
+        "قيمتن واري لسٽ تي ڪجهه پراڻا اگهه آهن، اهي به بدلائڻا آهن۔",
+        "نصرت، توهان سڀاڻي منجهند تائين نوان فوٽو گڏ ڪري فولڊر اندر رکو۔",
+        "دليپ، توهان قيمتن جي لسٽ دڪان جي مئنيجر کان چيڪ ڪرائي وٺو۔",
+        "مان خميس تائين تبديليون ڪري ڪلائنٽ کي ڏسڻ لاءِ لنڪ موڪليندس۔",
+        "جمعي تي صبح 10 وڳي مختصر ميٽنگ رکنداسين، رهيل ڪم ورهائينداسين۔",
+        "ڪنهن ڪم لاءِ وڌيڪ وقت کپي ته اڄ ئي گروپ تي ٻڌائجو۔"
+      ],
+      "roman": [
+        "Saathiyo, aj Shahrah Faisal waari office te client saan meeting thi.",
+        "Kapran jee dukaan waari client khe website jo namoono pasand aayo.",
+        "Hin chayo ta main page te naeen collection jaa photo wada hujan.",
+        "Qeematan waari list te kujh praana agh aahin, ahe bi badlaaina aahin.",
+        "Nusrat, tawhaan subhaane munjhand taain nawaan photo gad kare folder andar rakho.",
+        "Dileep, tawhaan qeematan jee list dukaan jee manager khaan check karaai watho.",
+        "Maan Khamees taain tabdeeliyoon kare client khe disan laai link mokileendas.",
+        "Jume te subuh 10 wage mukhtasar meeting rakhandaseen, rahyal kam wirhaaindaseen.",
+        "Kanhin kam laai wadheek waqt khape ta aj ee group te budhaaijo."
+      ]
+    },
+    {
+      "id": "sd-p03",
+      "kind": "para",
+      "title": "Lost in Sukkur",
+      "native": [
+        "گذريل مهيني پهريون ڀيرو سکر ويس، اتي پنهنجي ماسيءَ سان ملڻو هو۔",
+        "بس مان لهي سوچيم ته گهنٽا گهر تائين پنڌ هليو وڃان۔",
+        "گوگل ميپس تي رستو ڏٺم، پر فون جي بيٽري جلدي ختم ٿي وئي۔",
+        "هڪ گهٽيءَ ڏانهن مڙيس ته اڳيان رنگين ڪپڙن جا دڪان هئا۔",
+        "مون سمجهيو ته صحيح پيو وڃان، پر وري ساڳئي هنڌ پهتس۔",
+        "پوءِ هڪ درزيءَ کان رستو پڇيم، هن دڪان کان ٻاهر اچي سمجهايو۔",
+        "درزيءَ چيو ته کاٻي پاسي وڃان، اتان گهنٽا گهر نظر ايندو۔",
+        "ٿورو اڳتي ويس ته ماسي پاڻ گهٽيءَ جي ڪنڊ تي بيٺي هئي۔",
+        "ماسيءَ منهنجو ٿيلهو کنيو، کلندي چيائين ته پهرين لسي پيئون۔"
+      ],
+      "roman": [
+        "Guzril mahine pahriyon bhero Sukkur wayas, ute panhinji masi saan milno ho.",
+        "Bus maan lahi sochim ta Ghanta Ghar taain pandh halyo wanjaan.",
+        "Google Maps te rasto ditham, par phone jee battery jaldi khatam thi wai.",
+        "Hik ghati daanhn muris ta agyaan rangeen kapran jaa dukaan hua.",
+        "Moon samjhyo ta saheeh piyo wanjaan, par wari saage handh pahutas.",
+        "Poi hik darzi khaan rasto puchhim, hin dukaan khaan baahar ache samjhaayo.",
+        "Darzi chayo ta kaabi paase wanjaan, utaan Ghanta Ghar nazar eendo.",
+        "Thoro agte wayas ta masi paan ghati jee kund te bethi hui.",
+        "Masi munhinjo thelho khanyo, khilandi chayain ta pahreen lassi peeoon."
+      ]
+    },
+    {
+      "id": "sd-p04",
+      "kind": "para",
+      "title": "Setting Up Baba's Phone",
+      "native": [
+        "اچو ته گڏجي بابا جو نئون فون سيٽ ڪريون۔",
+        "سڀ کان اڳ سم وجهو، پوءِ چارجر لڳايو۔",
+        "فون چالو ڪري ٻولي سنڌي رکو ته بابا آسانيءَ سان پڙهي سگهن۔",
+        "هاڻي موبائل ڊيٽا آن ڪريو، بابا جو گوگل اڪائونٽ ايڊ ڪريو۔",
+        "واٽس ايپ کوليو، بابا جو نمبر لکو۔",
+        "اسڪرين تي اکر وڏا ڪريو ته بابا کي پڙهڻ سولو ٿئي۔",
+        "گهر وارن جا نمبر سيو ڪريو، بابا کي نالا ڏيکاريو۔",
+        "بابا کي سيکاريو ته ميسيج ڪيئن موڪلجي، آواز ڪيئن وڌائجي۔",
+        "پوءِ بابا کي پاڻ فون ملائڻ ڏيو ته آزمائي ڏسن۔"
+      ],
+      "roman": [
+        "Acho ta gadji baba jo naoon phone set karyoon.",
+        "Sabh khaan ag SIM wijho, poi charger lagaayo.",
+        "Phone chaaloo kare boli Sindhi rakho ta baba aasani saan parhi saghan.",
+        "Haane mobile data on karyo, baba jo Google account add karyo.",
+        "WhatsApp kholiyo, baba jo number likho.",
+        "Screen te akhar wada karyo ta baba khe parhan solo thie.",
+        "Ghar waaran jaa number save karyo, baba khe naala dekhaaryo.",
+        "Baba khe sikhaariyo ta message keen mokilje, awaaz keen wadhaaije.",
+        "Poi baba khe paan phone milaaen diyo ta aazmaai disan."
+      ]
+    },
+    {
+      "id": "sd-p05",
+      "kind": "para",
+      "title": "Chaat in Mirpurkhas",
+      "native": [
+        "ميرپورخاص جي اسٽيشن روڊ واري ننڍڙي دڪان تان ڪالهه چاٽ کاڌم۔",
+        "دڪان ننڍڙو هو، پر ميز بلڪل صاف سٿري هئي۔",
+        "چاٽ جا چڻا نرم هئا، مرچ به گهڻا نه هئا۔",
+        "چٽڻي ٿوري کٽي هئي، تنهنڪري سڄي پليٽ شوق سان کاڌم۔",
+        "هڪ پليٽ 180 رپين جي هئي، مقدار به ٺيڪ هو۔",
+        "رش گهڻي هئي، تنهنڪري چاٽ لاءِ ٿورو ترسڻو پيو۔",
+        "ٻاهر ٿوري ڇانوَ هجي ها ته ويهي کائڻ جو مزو اچي ها۔",
+        "چاٽ مزيدار هئي، اگهه به مناسب هو۔",
+        "ايندڙ ڀيري ڀيڻ کي به وٺي ويندس، کيس چاٽ ڏاڍي وڻندي آهي۔"
+      ],
+      "roman": [
+        "Mirpurkhas jee Station Road waari nandhri dukaan taan kaalh chaat khaadham.",
+        "Dukaan nandhro ho, par mez bilkul saaf suthri hui.",
+        "Chaat jaa chana naram hua, mirch bi ghana na hua.",
+        "Chatni thori khati hui, tanhankare saji plate shauq saan khaadham.",
+        "Hik plate 180 rupiyan jee hui, miqdaar bi theek ho.",
+        "Rush ghani hui, tanhankare chaat laai thoro tarsano piyo.",
+        "Baahar thori chhaanwa huje haa ta wehi khaain jo mazo ache haa.",
+        "Chaat mazedaar hui, agh bi munasib ho.",
+        "Eendar bheri bhen khe bi wathi weendas, khes chaat daadhi wanandi aahe."
+      ]
+    },
+    {
+      "id": "sd-p06",
+      "kind": "para",
+      "title": "Planning Our Keenjhar Offsite",
+      "native": [
+        "آفيس جي ٽيم سان 22 نومبر 2026 تي ڪينجهر هلنداسين۔",
+        "اسان 12 ڄڻا آهيون، تنهنڪري هڪ وين بڪ ڪرائڻي پوندي۔",
+        "ڪراچي کان ڪينجهر تائين فاصلو لڳ ڀڳ 125 ڪلوميٽر آهي۔",
+        "وين صبح 7:30 وڳي نڪرندي، واپسي شام 6 وڳي ٿيندي۔",
+        "پيٽرول سميت وين جو اچڻ وڃڻ جو ڪرايو 18000 رپيا آهي۔",
+        "ماني لاءِ هر ماڻهوءَ جا 500 رپيا الڳ رکڻا پوندا۔",
+        "سڄو خرچ 24000 رپيا ٿيندو، هر ماڻهو 2000 رپيا ڏيندو۔",
+        "صبح 10 وڳي ڪم بابت ڳالهائينداسين، پوءِ گڏجي ماني کائينداسين۔",
+        "نائلا کي 18 نومبر 2026 تائين نالن سان گڏ پئسا موڪلي ڇڏجو۔"
+      ],
+      "roman": [
+        "Office jee team saan 22 November 2026 te Keenjhar halandaseen.",
+        "Asaan 12 jana aahiyoon, tanhankare hik van book karaaeni pawandi.",
+        "Karachi khaan Keenjhar taain faaslo lag bhag 125 kilometer aahe.",
+        "Van subuh 7:30 wage nikrandi, waapsi shaam 6 wage theendi.",
+        "Petrol samet van jo achan wanjan jo kiraayo 18000 rupiya aahe.",
+        "Maani laai har maanhua jaa 500 rupiya alag rakhna pawanda.",
+        "Sajo kharch 24000 rupiya theendo, har maanhu 2000 rupiya deendo.",
+        "Subuh 10 wage kam baabat gaalhaaeendaseen, poi gadji maani khaaindaseen.",
+        "Naila khe 18 November 2026 taain naalan saan gad paisa mokile chhadjo."
+      ]
+    },
+    {
+      "id": "sd-p07",
+      "kind": "para",
+      "title": "Getting Around Karachi",
+      "native": [
+        "ڪراچي جا ڪيترائي ماڻهو روز بسن يا رڪشن تي سفر ڪن ٿا۔",
+        "ڳاڙهيون بسون شهر جي ڪيترن علائقن ڏانهن وڃن ٿيون۔",
+        "ناگن چورنگي وٽ صبح جو ڪيترائي ماڻهو بس جو انتظار ڪن ٿا۔",
+        "بس تي چڙهڻ کان اڳ بورڊ ڏسي وٺو ته ڪيڏانهن وڃي ٿي۔",
+        "ڪنڊڪٽر کان ڀاڙو پڇي پوءِ بس تي چڙهو۔",
+        "آفيسن جي موڪل جي وقت رش هوندي آهي، سيٽ به مشڪل سان ملندي آهي۔",
+        "ڪو بزرگ بيٺو هجي ته کيس ويهڻ لاءِ سيٽ ڏيو۔",
+        "پنهنجي اسٽاپ کان ٿورو اڳ ڪنڊڪٽر کي ٻڌائي ڇڏيو ته لهڻ سولو ٿئي۔",
+        "نئين رستي تي وڃڻو هجي ته لهڻ وارو اسٽاپ اڳواٽ پڇي وٺو۔"
+      ],
+      "roman": [
+        "Karachi jaa ketraai maanhu roz busan yaa rikshan te safar kan thaa.",
+        "Gaarhiyoon busoon shahar jee ketran ilaaiqan daanhan wanjan thiyoon.",
+        "Nagan Chowrangi wat subuh jo ketraai maanhu bus jo intizaar kan thaa.",
+        "Bus te charhan khaan ag board disi watho ta kedaanhan wanje thi.",
+        "Conductor khaan bhaaro puchhi poi bus te charho.",
+        "Officen jee mokal jee waqt rush hoondi aahe, seat bi mushkil saan milandi aahe.",
+        "Ko buzurg beetho huje ta khes wehan laai seat diyo.",
+        "Panhinji stop khaan thoro ag conductor khe budhaai chhadyo ta lahan solo thie.",
+        "Naeen raste te wanjno huje ta lahan waaro stop agwaat puchhi watho."
+      ]
+    },
+    {
+      "id": "sd-s001",
+      "kind": "sentence",
+      "native": [
+        "اڄ چانهه تون پياريندين۔"
+      ],
+      "roman": [
+        "Aj chaanh toon piaareendeen."
+      ]
+    },
+    {
+      "id": "sd-s002",
+      "kind": "sentence",
+      "native": [
+        "نوابشاهه برانچ جو خرچ اڃا لسٽ تي لکيل ناهي۔"
+      ],
+      "roman": [
+        "Nawabshah branch jo kharch anja list te likhyal naahe."
+      ]
+    },
+    {
+      "id": "sd-s003",
+      "kind": "sentence",
+      "native": [
+        "باقي 850 رپيا موٽائي ڏيو۔"
+      ],
+      "roman": [
+        "Baaqi 850 rupiya motaai diyo."
+      ]
+    },
+    {
+      "id": "sd-s004",
+      "kind": "sentence",
+      "native": [
+        "خريداريءَ وقت ڪپڙا ڌوئڻ وارو صابڻ وٺڻ نه وسارجو۔"
+      ],
+      "roman": [
+        "Khareedari waqt kapra dhoean waaro saabun wathan na wisaarjo."
+      ]
+    },
+    {
+      "id": "sd-s005",
+      "kind": "sentence",
+      "native": [
+        "125 کي 16 سان ضرب ڪجي ته ڪيترا ٿيندا؟"
+      ],
+      "roman": [
+        "125 khe 16 saan zarb kaje ta ketra theenda?"
+      ]
+    },
+    {
+      "id": "sd-s006",
+      "kind": "sentence",
+      "native": [
+        "اپلوڊ اڌ تي بيهي رهيو، شايد نيٽ سست آهي۔"
+      ],
+      "roman": [
+        "Upload adh te behi rahyo, shaayad net sust aahe."
+      ]
+    },
+    {
+      "id": "sd-s007",
+      "kind": "sentence",
+      "native": [
+        "مٺي پهچنداسين ته راڻو اسان کي بس اڏي تان پنهنجي ڳوٺ وٺي ويندو۔"
+      ],
+      "roman": [
+        "Mithi pahchandaaseen ta Raano asaan khe bus adde taan panhinji goth wathi weendo."
+      ]
+    },
+    {
+      "id": "sd-s008",
+      "kind": "sentence",
+      "native": [
+        "کٽ جي هڪ ٽنگ لڏي ٿي، پيچ ڪسي ڇڏ۔"
+      ],
+      "roman": [
+        "Khat jee hik tang lade thi, pech kasi chhad."
+      ]
+    },
+    {
+      "id": "sd-s009",
+      "kind": "sentence",
+      "native": [
+        "کجورون، بادام، ڪشمش، بس اهي شيون وٺي اچجو۔"
+      ],
+      "roman": [
+        "Khajooroon, badaam, kishmish, bas ahe shayoon wathi achjo."
+      ]
+    },
+    {
+      "id": "sd-s010",
+      "kind": "sentence",
+      "native": [
+        "توهان سان ڳالهائي دل تان وڏو بار لهي ويو۔"
+      ],
+      "roman": [
+        "Tawhaan saan galhaai dil taan wado baar lahi wayo."
+      ]
+    },
+    {
+      "id": "sd-s011",
+      "kind": "sentence",
+      "native": [
+        "جيڪڏهن مينهن بند ٿي وڃي ته سائيڪلون کڻي نڪرون، گهڻن ڏينهن کان گهمڻ ئي ناهي ٿيو۔"
+      ],
+      "roman": [
+        "Jekadhan meenhan band thi wanje ta saikloon khani nikroon, ghanan deenhan khaan ghuman ee naahe thiyo."
+      ]
+    },
+    {
+      "id": "sd-s012",
+      "kind": "sentence",
+      "native": [
+        "سلام، اميد ته خيريت سان آهيو۔"
+      ],
+      "roman": [
+        "Salam, umeed ta khairiyat saan aahiyo."
+      ]
+    },
+    {
+      "id": "sd-s013",
+      "kind": "sentence",
+      "native": [
+        "بيٽري رڳو 18% بچي آهي۔"
+      ],
+      "roman": [
+        "Battery rago 18% bachi aahe."
+      ]
+    },
+    {
+      "id": "sd-s014",
+      "kind": "sentence",
+      "native": [
+        "رات جو سمهڻ کان اڳ ڏسڻو آهي ته رڌڻي جي دري چڱيءَ طرح بند آهي۔"
+      ],
+      "roman": [
+        "Raat jo sumhan khaan ag disno aahe ta radhni jee dari changi tarah band aahe."
+      ]
+    },
+    {
+      "id": "sd-s015",
+      "kind": "sentence",
+      "native": [
+        "وائي فائي بند ڪري موبائل ڊيٽا هلايو۔"
+      ],
+      "roman": [
+        "Wi-Fi band kare mobile data halaayo."
+      ]
+    },
+    {
+      "id": "sd-s016",
+      "kind": "sentence",
+      "native": [
+        "نئين هيڊسيٽ جي قيمت 4200 رپيا آهي، پر دڪاندار ان سان گڏ ڪيبل به ڏئي ٿو۔"
+      ],
+      "roman": [
+        "Naeen headset jee qeemat 4200 rupiya aahe, par dukaandaar un saan gad cable bi dei tho."
+      ]
+    },
+    {
+      "id": "sd-s017",
+      "kind": "sentence",
+      "native": [
+        "ڀٽ شاهه وڃي ريشما جي ڪڙهائي ڏٺم، هوءَ چادرن تي ڏاڍا سهڻا گل ڀري ٿي۔"
+      ],
+      "roman": [
+        "Bhit Shah wanje Reshma jee karhaai ditham, hua chaadaran te daadha suhna gul bhare thi."
+      ]
+    },
+    {
+      "id": "sd-s018",
+      "kind": "sentence",
+      "native": [
+        "سسئي، ٻارن جي يونيفارم ڌوئي ٻاهر وجهجانءِ۔"
+      ],
+      "roman": [
+        "Sassui, baaran jee uniform dhoi baahar wijhjaan."
+      ]
+    },
+    {
+      "id": "sd-s019",
+      "kind": "sentence",
+      "native": [
+        "راشد، چنگچيءَ تي جاءِ هجي ته اچجانءِ، نه ته مان اسڪوٽر کڻي توکي وٺڻ اچان ٿو۔"
+      ],
+      "roman": [
+        "Rashid, chingchiya te jaai huje ta achjaan, na ta maan scooter khani tokhe wathan achaan tho."
+      ]
+    },
+    {
+      "id": "sd-s020",
+      "kind": "sentence",
+      "native": [
+        "طارق روڊ تي پارڪنگ ڳولڻ به مٿي جو وڏو سور آهي۔"
+      ],
+      "roman": [
+        "Tariq Road te parking golan bi mathe jo wado soor aahe."
+      ]
+    },
+    {
+      "id": "sd-s021",
+      "kind": "sentence",
+      "native": [
+        "آچر تي ڪينجهر هلون ٿا، ترڻ نه اچي ته به هليو اچ، ڪناري تي ويهي ڪچهري ڪنداسين۔"
+      ],
+      "roman": [
+        "Aachar te Keenjhar haloon thaa, taran na ache ta bi halyo ach, kinaare te wehi kachahri kandaseen."
+      ]
+    },
+    {
+      "id": "sd-s022",
+      "kind": "sentence",
+      "native": [
+        "مهرباني ڪري هر صفحي تي تاريخ ضرور لکو۔"
+      ],
+      "roman": [
+        "Mehrbani kare har safhe te taareekh zaroor likho."
+      ]
+    },
+    {
+      "id": "sd-s023",
+      "kind": "sentence",
+      "native": [
+        "3800 رپيا ملي ويا، باقي 650 به موڪليا اٿوَ؟"
+      ],
+      "roman": [
+        "3800 rupiya mili waya, baaqi 650 bi mokilya athaw?"
+      ]
+    },
+    {
+      "id": "sd-s024",
+      "kind": "sentence",
+      "native": [
+        "لائبريريءَ جا ڪتاب ايندڙ هفتي کان اڳ موٽائڻا آهن۔"
+      ],
+      "roman": [
+        "Library jaa kitaab eendar hafte khaan ag motaaina aahin."
+      ]
+    },
+    {
+      "id": "sd-s025",
+      "kind": "sentence",
+      "native": [
+        "برياني ٺاهڻ جي سولي ترڪيب ڳولي ڏيو۔"
+      ],
+      "roman": [
+        "Biryani thaahan jee soli tarkeeb goli diyo."
+      ]
+    },
+    {
+      "id": "sd-s026",
+      "kind": "sentence",
+      "native": [
+        "فائل جو نالو بدلائي ڇڏيو۔"
+      ],
+      "roman": [
+        "File jo naalo badlaai chhadyo."
+      ]
+    },
+    {
+      "id": "sd-s027",
+      "kind": "sentence",
+      "native": [
+        "بينڪ جي مشين پئسا ڏنا، پر رسيد ڪانه نڪتي۔"
+      ],
+      "roman": [
+        "Bank jee machine paisa dina, par raseed kaana nikti."
+      ]
+    },
+    {
+      "id": "sd-s028",
+      "kind": "sentence",
+      "native": [
+        "پکو ايترو تيز نه هلاءِ۔"
+      ],
+      "roman": [
+        "Pakho etro tez na halaai."
+      ]
+    },
+    {
+      "id": "sd-s029",
+      "kind": "sentence",
+      "native": [
+        "ميرپورخاص نه، عمرڪوٽ تائين ڀاڙو ڪيترو ٿيندو؟"
+      ],
+      "roman": [
+        "Mirpurkhas na, Umerkot taain bhaaro ketro theendo?"
+      ]
+    },
+    {
+      "id": "sd-s030",
+      "kind": "sentence",
+      "native": [
+        "حوصلو رک، تون ڪري سگهندين۔"
+      ],
+      "roman": [
+        "Hauslo rakh, toon kare saghandeen."
+      ]
+    },
+    {
+      "id": "sd-s031",
+      "kind": "sentence",
+      "native": [
+        "سڀاڻي گڏجي بازار هلنداسين؟"
+      ],
+      "roman": [
+        "Subhaane gadji bazaar halandaseen?"
+      ]
+    },
+    {
+      "id": "sd-s032",
+      "kind": "sentence",
+      "native": [
+        "ڇنڇر تي موڪل آهي، ٽريننگ سومر تي رکون؟"
+      ],
+      "roman": [
+        "Chhanchhar te mokal aahe, training Somar te rakhoon?"
+      ]
+    },
+    {
+      "id": "sd-s033",
+      "kind": "sentence",
+      "native": [
+        "فائنل کيڏندي اسان 7 گول ڪيا، هنن 4 ڪيا۔"
+      ],
+      "roman": [
+        "Final khedandi asaan 7 goal kaya, hinan 4 kaya."
+      ]
+    },
+    {
+      "id": "sd-s034",
+      "kind": "sentence",
+      "native": [
+        "قينچي واپس ڏيڻ ياد ڏيارجو۔"
+      ],
+      "roman": [
+        "Qainchi wapas dayan yaad diyarjo."
+      ]
+    },
+    {
+      "id": "sd-s035",
+      "kind": "sentence",
+      "native": [
+        "پڙهائي دوران فون خاموش رکو، رڳو گهر وارن جي ڪال اچي ته گهنٽي وڄڻ ڏيو۔"
+      ],
+      "roman": [
+        "Parhaai dauraan phone khaamosh rakho, rago ghar waaran jee call ache ta ghanti wajan diyo."
+      ]
+    },
+    {
+      "id": "sd-s036",
+      "kind": "sentence",
+      "native": [
+        "ايڪسل جي آخري ڪالم جو ٽوٽل صحيح نٿو اچي۔"
+      ],
+      "roman": [
+        "Excel jee aakhri column jo total saheeh natho ache."
+      ]
+    },
+    {
+      "id": "sd-s037",
+      "kind": "sentence",
+      "native": [
+        "اسٽيشن جي سامهون واري هوٽل تي نيرن ڪنداسين۔"
+      ],
+      "roman": [
+        "Station jee saamhon waari hotel te neran kandaseen."
+      ]
+    },
+    {
+      "id": "sd-s038",
+      "kind": "sentence",
+      "native": [
+        "وار ڪٽائڻ لاءِ شام جو وقت خالي آهي؟"
+      ],
+      "roman": [
+        "Waar kataaen laai shaam jo waqt khaali aahe?"
+      ]
+    },
+    {
+      "id": "sd-s039",
+      "kind": "sentence",
+      "native": [
+        "مهمانن لاءِ شربت ٺاهيون، پر کنڊ ٿوري آهي، ائين ڪريون ته لسي کڻي ٿا اچون۔"
+      ],
+      "roman": [
+        "Mehmaanan laai sharbat thaahiyoon, par khand thori aahe, eean karyoon ta lassi khani thaa achoon."
+      ]
+    },
+    {
+      "id": "sd-s040",
+      "kind": "sentence",
+      "native": [
+        "واهه، رنگ ڏاڍا سٺا چونڊيا اٿوَ۔"
+      ],
+      "roman": [
+        "Waah, rang daadha sutha choondya athaw."
+      ]
+    },
+    {
+      "id": "sd-s041",
+      "kind": "sentence",
+      "native": [
+        "ڊرامي جي پڇاڙي نه ٻڌائجانءِ، اڃا ڏٺو ناهي۔"
+      ],
+      "roman": [
+        "Drame jee pachhaari na budhaijaan, anja ditho naahe."
+      ]
+    },
+    {
+      "id": "sd-s042",
+      "kind": "sentence",
+      "native": [
+        "رسيد اي ميل سان اٽيچ ڪئي اٿم۔"
+      ],
+      "roman": [
+        "Raseed email saan attach kai atham."
+      ]
+    },
+    {
+      "id": "sd-s043",
+      "kind": "sentence",
+      "native": [
+        "مهڪ، حيدرآباد واري بس جون 2 ٽڪيٽون ڪرايو، هر ٽڪيٽ جا 900 رپيا آهن۔"
+      ],
+      "roman": [
+        "Mehak, Hyderabad waari bus joon 2 ticketoon karaayo, har ticket jaa 900 rupiya aahin."
+      ]
+    },
+    {
+      "id": "sd-s044",
+      "kind": "sentence",
+      "native": [
+        "زينب ميمڻ سان اربع تي ترڻ جي مشق ڪرڻي آهي۔"
+      ],
+      "roman": [
+        "Zainab Memon saan arba te taran jee mashq karni aahe."
+      ]
+    },
+    {
+      "id": "sd-s045",
+      "kind": "sentence",
+      "native": [
+        "گيلري مان گذريل مهيني جا فوٽو ڳوليو، انهن مان ڌنڌلا فوٽو الڳ ڪري ڏيکاريو۔"
+      ],
+      "roman": [
+        "Gallery maan guzriyal mahine jaa photo golyo, unhan maan dhundhla photo alag kare dekhaaryo."
+      ]
+    },
+    {
+      "id": "sd-s046",
+      "kind": "sentence",
+      "native": [
+        "دادو واري ٽيم سان پريزنٽيشن ڪير شيئر ڪندو؟"
+      ],
+      "roman": [
+        "Dadu waari team saan presentation ker share kando?"
+      ]
+    },
+    {
+      "id": "sd-s047",
+      "kind": "sentence",
+      "native": [
+        "گاڏي ٻاهر بيهاري سگهجي ٿي؟"
+      ],
+      "roman": [
+        "Gaadi baahar behaari saghje thi?"
+      ]
+    },
+    {
+      "id": "sd-s048",
+      "kind": "sentence",
+      "native": [
+        "اشوڪ، هن ڀيري هولي تي مٺائي ڪٿان وٺنداسين؟"
+      ],
+      "roman": [
+        "Ashok, hin bhere Holi te mithai kithaan wathandaseen?"
+      ]
+    },
+    {
+      "id": "sd-s049",
+      "kind": "sentence",
+      "native": [
+        "ڳاڙهو نه، سائو وارو ڏيو۔"
+      ],
+      "roman": [
+        "Gaarho na, saao waaro diyo."
+      ]
+    },
+    {
+      "id": "sd-s050",
+      "kind": "sentence",
+      "native": [
+        "پنهنجن هٿن سان پوکيل گل ڏسي ايترو سڪون ملي ٿو جو سڄي ڏينهن جي ٿڪاوٽ وسري وڃي ٿي۔"
+      ],
+      "roman": [
+        "Panhinjan hathan saan pokhyal gul disi etro sukoon mile tho jo saji deenhan jee thakaawat wisri wanje thi."
+      ]
+    },
+    {
+      "id": "sd-s051",
+      "kind": "sentence",
+      "native": [
+        "مان گهر پهچي ويو آهيان۔"
+      ],
+      "roman": [
+        "Maan ghar pahchi wayo aahiyan."
+      ]
+    },
+    {
+      "id": "sd-s052",
+      "kind": "sentence",
+      "native": [
+        "بينش پنهور کي نئون لوگو پسند آيو آهي۔"
+      ],
+      "roman": [
+        "Beenish Panhwar khe nayon logo pasand aayo aahe."
+      ]
+    },
+    {
+      "id": "sd-s053",
+      "kind": "sentence",
+      "native": [
+        "پاڻي 2 ڪلاڪن کان بند آهي۔"
+      ],
+      "roman": [
+        "Paani 2 kalaakan khaan band aahe."
+      ]
+    },
+    {
+      "id": "sd-s054",
+      "kind": "sentence",
+      "native": [
+        "نوٽ ڪريو ته بجليءَ جو بل خميس تائين ڀرڻو آهي۔"
+      ],
+      "roman": [
+        "Note karyo ta bijli jo bill khamees taain bharno aahe."
+      ]
+    },
+    {
+      "id": "sd-s055",
+      "kind": "sentence",
+      "native": [
+        "گلاب جي پنن تي اڇا داغ ڇو ٿا ٿين؟ انهن کي ختم ڪيئن ڪجي؟"
+      ],
+      "roman": [
+        "Gulaab jee panan te achha daagh chho thaa thiyan? Unhan khe khatam keen kaje?"
+      ]
+    },
+    {
+      "id": "sd-s056",
+      "kind": "sentence",
+      "native": [
+        "مائوس صحيح ڪم نٿو ڪري۔"
+      ],
+      "roman": [
+        "Mouse saheeh kam natho kare."
+      ]
+    },
+    {
+      "id": "sd-s057",
+      "kind": "sentence",
+      "native": [
+        "رڪشا ايندڙ موڙ تي بيهاريو۔"
+      ],
+      "roman": [
+        "Riksha eendar mor te behaaryo."
+      ]
+    },
+    {
+      "id": "sd-s058",
+      "kind": "sentence",
+      "native": [
+        "استري گرم ٿيڻ ڏي۔"
+      ],
+      "roman": [
+        "Istari garam thiyan de."
+      ]
+    },
+    {
+      "id": "sd-s059",
+      "kind": "sentence",
+      "native": [
+        "سورٺ، ربڙي اڌ ڪلو نه، پاءُ وٺجو۔"
+      ],
+      "roman": [
+        "Sorath, rabri adh kilo na, paau wathjo."
+      ]
+    },
+    {
+      "id": "sd-s060",
+      "kind": "sentence",
+      "native": [
+        "دير ڪرڻ تي معافي ٿو گهران۔"
+      ],
+      "roman": [
+        "Der karan te maafi tho ghuraan."
+      ]
+    },
+    {
+      "id": "sd-s061",
+      "kind": "sentence",
+      "native": [
+        "تنهنجو چارجر کڻي ويو هئس، رات جو موٽائيندس۔"
+      ],
+      "roman": [
+        "Tunhinjo charger khani wayo huas, raat jo motaaindas."
+      ]
+    },
+    {
+      "id": "sd-s062",
+      "kind": "sentence",
+      "native": [
+        "ڪراچي آفيس مان سامان نڪري ويو آهي، سڀاڻي پهچندو۔"
+      ],
+      "roman": [
+        "Karachi office maan saamaan nikre wayo aahe, subhaane pahchando."
+      ]
+    },
+    {
+      "id": "sd-s063",
+      "kind": "sentence",
+      "native": [
+        "پارسل گهر نمبر 46، گهٽي نمبر 8، لطيف آباد پهچائجو، 0300-0000000 تي فون ڪجو۔"
+      ],
+      "roman": [
+        "Parcel ghar number 46, ghiti number 8, Latif Abad pahuchaijo, 0300-0000000 te phone kajo."
+      ]
+    },
+    {
+      "id": "sd-s064",
+      "kind": "sentence",
+      "native": [
+        "سياري جا سوئيٽر ڪڍڻا آهن۔"
+      ],
+      "roman": [
+        "Siyaare jaa sweater kadhana aahin."
+      ]
+    },
+    {
+      "id": "sd-s065",
+      "kind": "sentence",
+      "native": [
+        "يوٽيوب تي سچل جا ڪلام هلائي ڇڏ۔"
+      ],
+      "roman": [
+        "YouTube te Sachal jaa kalaam halaai chhad."
+      ]
+    },
+    {
+      "id": "sd-s066",
+      "kind": "sentence",
+      "native": [
+        "ميٽنگ دوران منهنجو آواز ٽٽي رهيو هو، تنهنڪري آخري ڳالهه چيٽ تي لکي ڇڏي اٿم۔"
+      ],
+      "roman": [
+        "Meeting dauraan munhinjo awaaz tuti rahyo ho, tanhankare aakhri gaalh chat te likhi chhadi atham."
+      ]
+    },
+    {
+      "id": "sd-s067",
+      "kind": "sentence",
+      "native": [
+        "صبا، صدر مان ايندي عينڪ جو فريم ڏسجانءِ۔"
+      ],
+      "roman": [
+        "Saba, Saddar maan eendi ainak jo frame disjaan."
+      ]
+    },
+    {
+      "id": "sd-s068",
+      "kind": "sentence",
+      "native": [
+        "هن چادر جا 1200 رپيا گهڻا آهن، ڪجهه گهٽايو۔"
+      ],
+      "roman": [
+        "Hin chaadar jaa 1200 rupiya ghana aahin, kujh ghataayo."
+      ]
+    },
+    {
+      "id": "sd-s069",
+      "kind": "sentence",
+      "native": [
+        "رسول بخش اڃا ناهي نڪتو؟"
+      ],
+      "roman": [
+        "Rasul Bakhsh ajha naahe nikto?"
+      ]
+    },
+    {
+      "id": "sd-s070",
+      "kind": "sentence",
+      "native": [
+        "اڳ ناڪاميءَ کان گهڻو ڊڄندو هئس، هاڻي لڳي ٿو ته ڪوشش ڪرڻ سان ئي ماڻهو سکي ٿو۔"
+      ],
+      "roman": [
+        "Ag nakaami khaan ghano dajando huas, haane lage tho ta koshish karan saan ee maanho sikhe tho."
+      ]
+    },
+    {
+      "id": "sd-s071",
+      "kind": "sentence",
+      "native": [
+        "گيتا کي ٻڌائجو ته سندس ڪتاب مون وٽ آهي۔"
+      ],
+      "roman": [
+        "Geeta khe budhaaijo ta sandas kitaab moon wat aahe."
+      ]
+    },
+    {
+      "id": "sd-s072",
+      "kind": "sentence",
+      "native": [
+        "پاسورڊ بدلائڻ کان پوءِ به ايپ نٿي کلي۔"
+      ],
+      "roman": [
+        "Password badlaain khaan poi bi app nathi khule."
+      ]
+    },
+    {
+      "id": "sd-s073",
+      "kind": "sentence",
+      "native": [
+        "هن 3 ڪلو واري ٿيلهي مان 500 گرام ڪڍو۔"
+      ],
+      "roman": [
+        "Hin 3 kilo waari thelhi maan 500 gram kadho."
+      ]
+    },
+    {
+      "id": "sd-s074",
+      "kind": "sentence",
+      "native": [
+        "استاد نسرين کان پڇڻو آهي ته گهر جو ڪم ڪاپيءَ تي لکجي يا الڳ پنن تي۔"
+      ],
+      "roman": [
+        "Ustad Nasreen khaan puchhno aahe ta ghar jo kam copy te likhje yaa alag panan te."
+      ]
+    },
+    {
+      "id": "sd-s075",
+      "kind": "sentence",
+      "native": [
+        "خيرپور اندر ٻارن لاءِ ڪرڪيٽ اڪيڊمي ڪٿي آهي؟"
+      ],
+      "roman": [
+        "Khairpur andar baaran laai cricket academy kithe aahe?"
+      ]
+    },
+    {
+      "id": "sd-s076",
+      "kind": "sentence",
+      "native": [
+        "پئسا ڏيڻ کان پوءِ رسيد ايپ تي پاڻ ئي سيو ٿي وڃي ٿي۔"
+      ],
+      "roman": [
+        "Paisa dayan khaan poi raseed app te paan ee save thi wanje thi."
+      ]
+    },
+    {
+      "id": "sd-s077",
+      "kind": "sentence",
+      "native": [
+        "رتنا حساب سٺو سمجهائي ٿي۔"
+      ],
+      "roman": [
+        "Ratna hisaab sutho samjhaai thi."
+      ]
+    },
+    {
+      "id": "sd-s078",
+      "kind": "sentence",
+      "native": [
+        "مڱڻيءَ لاءِ ڪرسين تي اڇا ڪپڙا وجهرائجو، گلن جو بندوبست ڇوڪريءَ جا ماما پاڻ ڪندا۔"
+      ],
+      "roman": [
+        "Mangniya laai kursiyan te achha kapra wijhraaijo, gulan jo bandobast chhokriya jaa maama paan kanda."
+      ]
+    },
+    {
+      "id": "sd-s079",
+      "kind": "sentence",
+      "native": [
+        "ترسو، اڱاري نه، خميس تي ايندس۔"
+      ],
+      "roman": [
+        "Tarso, angaare na, khamees te eendas."
+      ]
+    },
+    {
+      "id": "sd-s080",
+      "kind": "sentence",
+      "native": [
+        "پوجا، تنهنجي تقرير ٻڌي مون کي ڏاڍي خوشي ٿي۔"
+      ],
+      "roman": [
+        "Pooja, tunhinji taqreer budhi moon khe daadhi khushi thi."
+      ]
+    },
+    {
+      "id": "sd-s081",
+      "kind": "sentence",
+      "native": [
+        "کير وٺڻ نڪران پيو، ٻي ڪا شيءِ گهرجي؟"
+      ],
+      "roman": [
+        "Kheer wathan nikraan piyo, bi kaa shai ghurje?"
+      ]
+    },
+    {
+      "id": "sd-s082",
+      "kind": "sentence",
+      "native": [
+        "چڱو، باقي ڳالهيون پوءِ ڪنداسين۔"
+      ],
+      "roman": [
+        "Chango, baaqi gaalhiyoon poi kandaseen."
+      ]
+    },
+    {
+      "id": "sd-s083",
+      "kind": "sentence",
+      "native": [
+        "عمر 11 سال لکو، قد 140 سينٽي ميٽر آهي۔"
+      ],
+      "roman": [
+        "Umar 11 saal likho, qad 140 centimeter aahe."
+      ]
+    },
+    {
+      "id": "sd-s084",
+      "kind": "sentence",
+      "native": [
+        "هالا مان اجرڪ وٺڻ لاءِ 2800 رپيا الڳ رکڻا آهن۔"
+      ],
+      "roman": [
+        "Hala maan ajrak wathan laai 2800 rupiya alag rakhna aahin."
+      ]
+    },
+    {
+      "id": "sd-s085",
+      "kind": "sentence",
+      "native": [
+        "آواز ٿورو وڌائي ڇڏ۔"
+      ],
+      "roman": [
+        "Awaaz thoro wadhaai chhad."
+      ]
+    },
+    {
+      "id": "sd-s086",
+      "kind": "sentence",
+      "native": [
+        "ليپٽاپ ڏاڍو گرم آهي۔"
+      ],
+      "roman": [
+        "Laptop daadho garam aahe."
+      ]
+    },
+    {
+      "id": "sd-s087",
+      "kind": "sentence",
+      "native": [
+        "ڀاءُ جي گهر ڀرسان نئون حجام ويٺو آهي۔"
+      ],
+      "roman": [
+        "Bhau jee ghar bharsaan nawon hajaam wetho aahe."
+      ]
+    },
+    {
+      "id": "sd-s088",
+      "kind": "sentence",
+      "native": [
+        "چڻن جي دال رات کان ڀڄائي رکي اٿم، منجهند تائين رڌجي ويندي ته چانورن سان کائينداسين۔"
+      ],
+      "roman": [
+        "Chanan jee daal raat khaan bhijaai rakhi atham, munjhand taain radhji weendi ta chaanwaran saan khaaindaseen."
+      ]
+    },
+    {
+      "id": "sd-s089",
+      "kind": "sentence",
+      "native": [
+        "دروازي جي چاٻي کپي، الماريءَ واري نه ڏيو۔"
+      ],
+      "roman": [
+        "Darwaaze jee chaabi khape, almaariya waari na diyo."
+      ]
+    },
+    {
+      "id": "sd-s090",
+      "kind": "sentence",
+      "native": [
+        "سليم، سامان کڻڻ وقت مدد ڪرڻ لاءِ وڏي مهرباني۔"
+      ],
+      "roman": [
+        "Saleem, saamaan khanan waqt madad karan laai wadi mehrbani."
+      ]
+    },
+    {
+      "id": "sd-s091",
+      "kind": "sentence",
+      "native": [
+        "مريم، موٽندي درزي کان منهنجا ڪپڙا کڻي اچجانءِ۔"
+      ],
+      "roman": [
+        "Maryam, motande darzi khaan munhinja kapra khani achjaan."
+      ]
+    },
+    {
+      "id": "sd-s092",
+      "kind": "sentence",
+      "native": [
+        "رپورٽ لکڻ لاءِ مدد کپي ته گڏ ويهي ٿا ڏسون، مون وٽ اڃا اڌ ڪلاڪ آهي۔"
+      ],
+      "roman": [
+        "Report likhan laai madad khape ta gad wehi thaa disoon, moon wat anja adh kalaak aahe."
+      ]
+    },
+    {
+      "id": "sd-s093",
+      "kind": "sentence",
+      "native": [
+        "منهنجي بوگي جو نمبر 5 آهي، سيٽ نمبر 32 آهي۔"
+      ],
+      "roman": [
+        "Munhinji bogie jo number 5 aahe, seat number 32 aahe."
+      ]
+    },
+    {
+      "id": "sd-s094",
+      "kind": "sentence",
+      "native": [
+        "روهڙي واري نرسري مان ليمي جو ٻوٽو وٺڻو آهي، ان لاءِ وڏو گملو به گهرجي۔"
+      ],
+      "roman": [
+        "Rohri waari nursery maan leemi jo booto wathno aahe, in laai wado gamlo bi ghurje."
+      ]
+    },
+    {
+      "id": "sd-s095",
+      "kind": "sentence",
+      "native": [
+        "سجاول جي موسم ايندڙ هفتي ڪيئن رهندي؟"
+      ],
+      "roman": [
+        "Sujawal jee mausam eendar hafte keen rahandi?"
+      ]
+    },
+    {
+      "id": "sd-s096",
+      "kind": "sentence",
+      "native": [
+        "سڪينه، سنڌي لکڻ لاءِ ڪهڙو ڪيبورڊ انسٽال ڪيان؟"
+      ],
+      "roman": [
+        "Sakina, Sindhi likhan laai kehro keyboard install kayaan?"
+      ]
+    },
+    {
+      "id": "sd-s097",
+      "kind": "sentence",
+      "native": [
+        "واپس ٻي گهٽيءَ مان اچجو۔ هن پاسي پاڻي بيٺل آهي، جوتا خراب ٿي ويندا۔"
+      ],
+      "roman": [
+        "Wapas bi ghatiya maan achjo. Hin paase paani bethal aahe, joota kharaab thi weenda."
+      ]
+    },
+    {
+      "id": "sd-s098",
+      "kind": "sentence",
+      "native": [
+        "هوا ٿڌي آهي، ننڍڙي کي جيڪٽ پارائي ڇڏ۔"
+      ],
+      "roman": [
+        "Hawa thadhi aahe, nindhri khe jacket paaraai chhad."
+      ]
+    },
+    {
+      "id": "sd-s099",
+      "kind": "sentence",
+      "native": [
+        "پويون جملو ڊاهيو، نه، رڳو آخري لفظ ڪڍو۔"
+      ],
+      "roman": [
+        "Poiyon jumlo daahyo, na, rago aakhri lafz kadho."
+      ]
+    },
+    {
+      "id": "sd-s100",
+      "kind": "sentence",
+      "native": [
+        "واندو آهين ته فون ڪر۔"
+      ],
+      "roman": [
+        "Waando aaheen ta phone kar."
+      ]
+    },
+    {
+      "id": "sd-s101",
+      "kind": "sentence",
+      "native": [
+        "فرزانه، پگهارن واري شيٽ تي نوان ملازم شامل ڪجو۔"
+      ],
+      "roman": [
+        "Farzana, paghaaran waari sheet te nawaan mulaazim shaamil kajo."
+      ]
+    },
+    {
+      "id": "sd-s102",
+      "kind": "sentence",
+      "native": [
+        "استاد، 16 آڪٽوبر 2026 واري ٽيسٽ جا 25 سوال هوندا؟ هر سوال جا 2 نمبر هوندا؟"
+      ],
+      "roman": [
+        "Ustad, 16 October 2026 waari test jaa 25 sawaal hoonda? Har sawaal jaa 2 number hoonda?"
+      ]
+    },
+    {
+      "id": "sd-s103",
+      "kind": "sentence",
+      "native": [
+        "ڇٽي ٿيلهي اندر رکڻي آهي۔"
+      ],
+      "roman": [
+        "Chhati thelhi andar rakhni aahe."
+      ]
+    },
+    {
+      "id": "sd-s104",
+      "kind": "sentence",
+      "native": [
+        "مزار قائد تائين پنڌ وڃڻ جو رستو ڏيکار۔"
+      ],
+      "roman": [
+        "Mazar Quaid taain pandh wanjan jo rasto dekhaar."
+      ]
+    },
+    {
+      "id": "sd-s105",
+      "kind": "sentence",
+      "native": [
+        "اڪائونٽ مان لاگ آئوٽ ٿيو۔"
+      ],
+      "roman": [
+        "Account maan log out thiyo."
+      ]
+    },
+    {
+      "id": "sd-s106",
+      "kind": "sentence",
+      "native": [
+        "سامهون واري بيڪري اڃا کليل هجي ته ڪيڪ وٺي اچو، مهمان ٿوري دير اندر پهچندا۔"
+      ],
+      "roman": [
+        "Saamhon waari bakery anja khulyal huje ta cake wathi acho, mehmaan thori der andar pahchanda."
+      ]
+    },
+    {
+      "id": "sd-s107",
+      "kind": "sentence",
+      "native": [
+        "زاهده، پاڙي واري دڪان تان ڏهي وٺي اچجانءِ۔"
+      ],
+      "roman": [
+        "Zahida, paari waari dukaan taan dahi wathi achjaan."
+      ]
+    },
+    {
+      "id": "sd-s108",
+      "kind": "sentence",
+      "native": [
+        "پينسل، رٻڙ، ڪاپي کپن۔"
+      ],
+      "roman": [
+        "Pencil, rubber, copy khapan."
+      ]
+    },
+    {
+      "id": "sd-s109",
+      "kind": "sentence",
+      "native": [
+        "لڇمي، تنهنجي موڪليل ڪوڪي ڏاڍي مزيدار هئي۔"
+      ],
+      "roman": [
+        "Lachhmi, tunhinji mokilel koki daadhi mazedaar hui."
+      ]
+    },
+    {
+      "id": "sd-s110",
+      "kind": "sentence",
+      "native": [
+        "لنڪ وري موڪلي سگهو ٿا؟"
+      ],
+      "roman": [
+        "Link wari mokile sagho thaa?"
+      ]
+    },
+    {
+      "id": "sd-s111",
+      "kind": "sentence",
+      "native": [
+        "اڄ ٽيمپريچر 34 ڊگري آهي۔"
+      ],
+      "roman": [
+        "Aj temperature 34 degree aahe."
+      ]
+    },
+    {
+      "id": "sd-s112",
+      "kind": "sentence",
+      "native": [
+        "ڊائري کولي لک ته نئين قميص جون ٻانهون ڊگهيون آهن۔"
+      ],
+      "roman": [
+        "Diary kholi likh ta naeen qamees joon baanhoon dighiyoon aahin."
+      ]
+    },
+    {
+      "id": "sd-s113",
+      "kind": "sentence",
+      "native": [
+        "ٽائمر 9 منٽن جو لڳاءِ۔"
+      ],
+      "roman": [
+        "Timer 9 mintan jo lagaai."
+      ]
+    },
+    {
+      "id": "sd-s114",
+      "kind": "sentence",
+      "native": [
+        "رائوٽر کي ريسٽارٽ ڪرڻ کان پوءِ انٽرنيٽ وري هلي پيو۔"
+      ],
+      "roman": [
+        "Router khe restart karan khaan poi internet wari hali piyo."
+      ]
+    },
+    {
+      "id": "sd-s115",
+      "kind": "sentence",
+      "native": [
+        "توهان ڪهڙي دروازي وٽ منهنجو انتظار ڪندا؟"
+      ],
+      "roman": [
+        "Tawhaan kehri darwaaze wat munhinjo intezaar kanda?"
+      ]
+    },
+    {
+      "id": "sd-s116",
+      "kind": "sentence",
+      "native": [
+        "نل مان پاڻي ٽمي پيو۔"
+      ],
+      "roman": [
+        "Nal maan paani tami piyo."
+      ]
+    },
+    {
+      "id": "sd-s117",
+      "kind": "sentence",
+      "native": [
+        "ٽڪيٽ ڪائونٽر ڪهڙي پاسي آهي؟"
+      ],
+      "roman": [
+        "Ticket counter kehri paase aahe?"
+      ]
+    },
+    {
+      "id": "sd-s118",
+      "kind": "sentence",
+      "native": [
+        "معاف ڪجو، اوهان جو ميسيج هاڻي ڏٺو اٿم، ٻارن سان گڏ ڇت تي ويٺو هئس۔"
+      ],
+      "roman": [
+        "Maaf kajo, awhaan jo message haane ditho atham, baaran saan gad chhat te weetho huas."
+      ]
+    },
+    {
+      "id": "sd-s119",
+      "kind": "sentence",
+      "native": [
+        "پرنٽر جي مرمت لاءِ 3500 رپيا ٻڌايا اٿن، توهان چئو ته مستري کي گهرايان۔"
+      ],
+      "roman": [
+        "Printer jee maramat laai 3500 rupiya budhaaya athan, tawhaan chao ta mistree khe ghuraayaan."
+      ]
+    },
+    {
+      "id": "sd-s120",
+      "kind": "sentence",
+      "native": [
+        "ڪمرو نمبر 7 خالي آهي؟"
+      ],
+      "roman": [
+        "Kamro number 7 khaali aahe?"
+      ]
+    },
+    {
+      "id": "sd-s121",
+      "kind": "sentence",
+      "native": [
+        "آشا کي آچر تي رنگن جو دٻو ڏيڻو آهي۔"
+      ],
+      "roman": [
+        "Asha khe aachar te rangan jo dabo deno aahe."
+      ]
+    },
+    {
+      "id": "sd-s122",
+      "kind": "sentence",
+      "native": [
+        "هيڊفون بلوٽوٿ سان ڪنيڪٽ ڪري ڇڏ۔"
+      ],
+      "roman": [
+        "Headphone Bluetooth saan connect kare chhad."
+      ]
+    },
+    {
+      "id": "sd-s123",
+      "kind": "sentence",
+      "native": [
+        "حميده، اسڪين ٿيل صفحي تي مهر صاف نظر اچي ٿي؟"
+      ],
+      "roman": [
+        "Hameeda, scan thiyal safhe te muhar saaf nazar ache thi?"
+      ]
+    },
+    {
+      "id": "sd-s124",
+      "kind": "sentence",
+      "native": [
+        "وين هتان نڪري ٿي يا ٻئي اسٽاپ تان؟"
+      ],
+      "roman": [
+        "Van hitaan nikre thi yaa bie stop taan?"
+      ]
+    },
+    {
+      "id": "sd-s125",
+      "kind": "sentence",
+      "native": [
+        "چڪيءَ واري کي چئجو ته اٽو سنهو پيهي ڏئي، گذريل ڀيري ڏاڍو ٿلهو هو۔"
+      ],
+      "roman": [
+        "Chakkiya waari khe chaijo ta ato sanho peehi dei, guzriyal bheri daadho thulho ho."
+      ]
+    },
+    {
+      "id": "sd-s126",
+      "kind": "sentence",
+      "native": [
+        "چپل پائي اچان يا بوٽ ضروري آهن؟"
+      ],
+      "roman": [
+        "Chapal paai achaan yaa boot zaroori aahin?"
+      ]
+    },
+    {
+      "id": "sd-s127",
+      "kind": "sentence",
+      "native": [
+        "ڀيڻ، اڃا جاڳين پئي ڇا؟"
+      ],
+      "roman": [
+        "Bhen, anja jaageen pai chha?"
+      ]
+    },
+    {
+      "id": "sd-s128",
+      "kind": "sentence",
+      "native": [
+        "جواب ملي ته مون کي به ٻڌائجو، جيئن گراهڪ کي انتظار نه ڪرڻو پوي۔"
+      ],
+      "roman": [
+        "Jawaab mile ta moon khe bi budhaaijo, jeean graahak khe intizaar na karno pawe."
+      ]
+    },
+    {
+      "id": "sd-s129",
+      "kind": "sentence",
+      "native": [
+        "سکر تائين اڃا 68 ڪلوميٽر وڃڻو پوندو۔"
+      ],
+      "roman": [
+        "Sukkur taain anja 68 kilometer wanjano pawando."
+      ]
+    },
+    {
+      "id": "sd-s130",
+      "kind": "sentence",
+      "native": [
+        "واپسيءَ تي چپل جو ٽٽل پٽو ٺهرائڻو آهي۔"
+      ],
+      "roman": [
+        "Waapsi te chapal jo tutal pato thahraino aahe."
+      ]
+    },
+    {
+      "id": "sd-s131",
+      "kind": "sentence",
+      "native": [
+        "واٽس ايپ تي آيل آخري ميسيج پڙهي ٻڌايو، پر ان جو جواب اڃا نه موڪليو۔"
+      ],
+      "roman": [
+        "WhatsApp te aayal aakhri message parhi budhaayo, par un jo jawaab anja na mokilyo."
+      ]
+    },
+    {
+      "id": "sd-s132",
+      "kind": "sentence",
+      "native": [
+        "ڪالهه کان پروگرام پاڻمرادو بند ٿي وڃي ٿو، تنهنڪري هر ٿوري دير کان پوءِ سيو ڪريو۔"
+      ],
+      "roman": [
+        "Kaalh khaan program paanmuraado band thi wanje tho, tanhankare har thori der khaan poi save karyo."
+      ]
+    },
+    {
+      "id": "sd-s133",
+      "kind": "sentence",
+      "native": [
+        "هيٺين منزل واري گهر مان ڊرل اڌاري ملي ويندي۔"
+      ],
+      "roman": [
+        "Heethin manzil waari ghar maan drill udhaari mili weendi."
+      ]
+    },
+    {
+      "id": "sd-s134",
+      "kind": "sentence",
+      "native": [
+        "ڀينڊيون اڃا ڪچيون لڳن ٿيون۔"
+      ],
+      "roman": [
+        "Bhindiyoon anja kachiyoon lagan thiyoon."
+      ]
+    },
+    {
+      "id": "sd-s135",
+      "kind": "sentence",
+      "native": [
+        "گجرون، مٽر، گوبي پيا آهن۔ سڀ گڏائي ڀاڄي ٺاهيون؟"
+      ],
+      "roman": [
+        "Gajroon, matar, gobi piya aahin. Sabh gadaai bhaaji thaahiyoon?"
+      ]
+    },
+    {
+      "id": "sd-s136",
+      "kind": "sentence",
+      "native": [
+        "رومال صوفي تي وسري ويو۔"
+      ],
+      "roman": [
+        "Rumaal sofe te wisri wayo."
+      ]
+    },
+    {
+      "id": "sd-s137",
+      "kind": "sentence",
+      "native": [
+        "نائلا، توهان جي موڪل منظور ٿي وئي آهي۔"
+      ],
+      "roman": [
+        "Naila, tawhaan jee mokal manzoor thi wai aahe."
+      ]
+    },
+    {
+      "id": "sd-s138",
+      "kind": "sentence",
+      "native": [
+        "اڱاري تي صبح 10:30 کان 11:45 تائين آن لائن ڪلاس آهي۔"
+      ],
+      "roman": [
+        "Angaare te subuh 10:30 khaan 11:45 taain online class aahe."
+      ]
+    },
+    {
+      "id": "sd-s139",
+      "kind": "sentence",
+      "native": [
+        "ڌاڻا به لسٽ تي لکو۔"
+      ],
+      "roman": [
+        "Dhaana bi list te likho."
+      ]
+    },
+    {
+      "id": "sd-s140",
+      "kind": "sentence",
+      "native": [
+        "ڪئلينڊر کولي ڏسو ته ايندڙ سومر ڪهڙي تاريخ آهي؟"
+      ],
+      "roman": [
+        "Calendar kholi diso ta eendar Somar kehri taareekh aahe?"
+      ]
+    },
+    {
+      "id": "sd-s141",
+      "kind": "sentence",
+      "native": [
+        "برائوزر تي هر ڀيري اشتهارن جون نيون ونڊوز کلي وڃن ٿيون۔"
+      ],
+      "roman": [
+        "Browser te har bheri ishtehaaran joon niyoon windows khuli wanjan thiyoon."
+      ]
+    },
+    {
+      "id": "sd-s142",
+      "kind": "sentence",
+      "native": [
+        "نانو باغ وٽ ويٺو آهي۔"
+      ],
+      "roman": [
+        "Naano baagh wat wetho aahe."
+      ]
+    },
+    {
+      "id": "sd-s143",
+      "kind": "sentence",
+      "native": [
+        "لوڻ ٿورو گهٽ وجهجانءِ۔"
+      ],
+      "roman": [
+        "Loon thoro ghat wijhjaan."
+      ]
+    },
+    {
+      "id": "sd-s144",
+      "kind": "sentence",
+      "native": [
+        "ميچ دوران وقفو ڇو ٿيو؟"
+      ],
+      "roman": [
+        "Match dauraan waqfo chho thiyo?"
+      ]
+    },
+    {
+      "id": "sd-s145",
+      "kind": "sentence",
+      "native": [
+        "ٺٽي واري سفر جا فوٽو گروپ تي موڪليو۔"
+      ],
+      "roman": [
+        "Thatte waari safar jaa photo group te mokilyo."
+      ]
+    },
+    {
+      "id": "sd-s146",
+      "kind": "sentence",
+      "native": [
+        "اربع جي گڏجاڻي ٿوري دير سان شروع ڪنداسين، ڇو ته مهمان صبح واري فلائيٽ تي ايندا۔"
+      ],
+      "roman": [
+        "Arba jee gadjaani thori der saan shuroo kandaseen, chho ta mehmaan subuh waari flight te eenda."
+      ]
+    },
+    {
+      "id": "sd-s147",
+      "kind": "sentence",
+      "native": [
+        "سميع جي سالگرهه 19 نومبر 2026 تي آهي۔"
+      ],
+      "roman": [
+        "Sami jee saalgirah 19 November 2026 te aahe."
+      ]
+    },
+    {
+      "id": "sd-s148",
+      "kind": "sentence",
+      "native": [
+        "نديم شيخ کي هاڻي وڊيو ڪال ڪر۔"
+      ],
+      "roman": [
+        "Nadeem Shaikh khe haane video call kar."
+      ]
+    },
+    {
+      "id": "sd-s149",
+      "kind": "sentence",
+      "native": [
+        "وڏي اسڪرين تي پڙهڻ سولو لڳندو اٿم، تنهنڪري رپورٽ موبائل بدران ڪمپيوٽر تي پڙهندو آهيان۔"
+      ],
+      "roman": [
+        "Wadi screen te parhan solo lagando atham, tanhankare report mobile badraan computer te parhando aahiyan."
+      ]
+    },
+    {
+      "id": "sd-s150",
+      "kind": "sentence",
+      "native": [
+        "صدف، ڪالر ٿورو ويڪرو ڪجو، پر ترسو، گول ڳلو وڌيڪ سٺو لڳندو، اهو ئي ٺاهجو۔"
+      ],
+      "roman": [
+        "Sadaf, collar thoro weekro kajo, par tarso, gol galo wadheek sutho lagando, aho ee thaahjo."
+      ]
+    },
+    {
+      "id": "sd-s151",
+      "kind": "sentence",
+      "native": [
+        "ٻڌ، ٻاهر بيٺو آهيان، گهنٽي به نٿي وڄي، هيٺ اچي در کول ته اندر اچان۔"
+      ],
+      "roman": [
+        "Budh, baahar beetho aahiyan, ghanti bi nathi waje, heeth ache dar khol ta andar achaan."
+      ]
+    },
+    {
+      "id": "sd-s152",
+      "kind": "sentence",
+      "native": [
+        "الارم صبح 6:15 جو لڳاءِ۔"
+      ],
+      "roman": [
+        "Alarm subuh 6:15 jo lagaae."
+      ]
+    },
+    {
+      "id": "sd-s153",
+      "kind": "sentence",
+      "native": [
+        "امان انب موڪليا آهن، ٿورا توکي به ڏيان؟"
+      ],
+      "roman": [
+        "Amaan anb mokilya aahin, thora tokhe bi diyaan?"
+      ]
+    },
+    {
+      "id": "sd-s154",
+      "kind": "sentence",
+      "native": [
+        "ڪرسيون 24 گهرجن، ميزون رڳو 6 کپن۔"
+      ],
+      "roman": [
+        "Kursiyoon 24 ghurjan, mezoon rago 6 khapan."
+      ]
+    },
+    {
+      "id": "sd-s155",
+      "kind": "sentence",
+      "native": [
+        "بابا، عينڪ ميز تي اخبار جي هيٺان پئي آهي۔"
+      ],
+      "roman": [
+        "Baba, ainak mez te akhbaar jee hethaan pai aahe."
+      ]
+    },
+    {
+      "id": "sd-s156",
+      "kind": "sentence",
+      "native": [
+        "قاسم آباد واري پارڪ وٽ شام جو ملون؟"
+      ],
+      "roman": [
+        "Qasim Abad waari park wat shaam jo miloon?"
+      ]
+    },
+    {
+      "id": "sd-s157",
+      "kind": "sentence",
+      "native": [
+        "نوشين، لڊو کيڏڻ لاءِ اڄ رات وقت اٿئي؟"
+      ],
+      "roman": [
+        "Nosheen, Ludo khedan laai aj raat waqt athai?"
+      ]
+    },
+    {
+      "id": "sd-s158",
+      "kind": "sentence",
+      "native": [
+        "منهنجي لاءِ ماني رکجانءِ۔"
+      ],
+      "roman": [
+        "Munhinji laai maani rakhjaan."
+      ]
+    }
+  ]
+}

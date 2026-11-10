@@ -1,0 +1,1665 @@
+{
+  "lang": "ln",
+  "starter": [
+    "ln-s058",
+    "ln-s015",
+    "ln-s164",
+    "ln-s013",
+    "ln-s179",
+    "ln-s019",
+    "ln-s116",
+    "ln-s115",
+    "ln-s081",
+    "ln-s114",
+    "ln-s141",
+    "ln-s168",
+    "ln-s004",
+    "ln-s163",
+    "ln-s127",
+    "ln-s155",
+    "ln-s171",
+    "ln-s151",
+    "ln-s105",
+    "ln-p01",
+    "ln-s135",
+    "ln-s094",
+    "ln-s040",
+    "ln-s072",
+    "ln-s148",
+    "ln-s176",
+    "ln-s106",
+    "ln-s130",
+    "ln-s061",
+    "ln-s119",
+    "ln-s133",
+    "ln-s007",
+    "ln-s157",
+    "ln-s111",
+    "ln-s149",
+    "ln-s021",
+    "ln-s161",
+    "ln-s012",
+    "ln-p06",
+    "ln-s146",
+    "ln-s169",
+    "ln-s090",
+    "ln-s129",
+    "ln-s124",
+    "ln-s008",
+    "ln-s044",
+    "ln-s113",
+    "ln-s039",
+    "ln-s137",
+    "ln-s034",
+    "ln-s011",
+    "ln-s108",
+    "ln-s143",
+    "ln-s134",
+    "ln-s170",
+    "ln-s064",
+    "ln-s037",
+    "ln-s052"
+  ],
+  "items": [
+    {
+      "id": "ln-p01",
+      "kind": "para",
+      "title": "Last Night's Match",
+      "native": [
+        "Mireille, lobi na butu totalaki match ya Vita na Imana na Matonge.",
+        "Joël atyaki télévision na lopango, mpe baboti bafandaki elongo na bana.",
+        "Liboso match ebanda, tosombaki makemba ya kotumba na coin ya balabala.",
+        "Vita ebandaki malamu, kasi Imana ezalaki kobundela balle tii na suka.",
+        "Ntango Vita ekɔtisaki but, bato nyonso bapumbwaki mpe bagangaki na esengo.",
+        "Nasopaki mwa jus na pantalon na ngai ntango nazalaki kopumbwa.",
+        "Na mi-temps, Joël alobelaki arrêt moko ya kitoko oyo gardien asalaki.",
+        "Match esilaki, kasi biso totikalaki naino kosolola na porte ya lopango.",
+        "Lelo mongongo na ngai ebongwani mpo nagangaki mingi na match wana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-p02",
+      "kind": "para",
+      "title": "Handover Before Leave",
+      "native": [
+        "Baninga, congé na ngai ekobanda lundi, mpe nakozonga vendredi ya pɔsɔ ekoya.",
+        "Nasili kobongisa dossiers ya ba clients ya agence na biso na Gombe.",
+        "Natiki liste ya misala oyo etikali na bureau ya Carine Mukendi.",
+        "Carine akolanda ba commandes, mpe Patrick akotala ba factures oyo ekoti.",
+        "Facture ya imprimerie esengeli kofutama mercredi liboso ya 12 heures.",
+        "Ba fichiers nyonso ezali na dossier Congé na ordinateur ya bureau.",
+        "Botindela Carine ba messages ya ba clients mpo ayanola bango noki.",
+        "Tokoki kosolola lelo na 14 heures mpo nalimbola mosala oyo etikali.",
+        "Matɔndi mpo na lisungi na bino. Tokotalela misala yango elongo ntango nakozonga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-p03",
+      "kind": "para",
+      "title": "My First Driving Lesson",
+      "native": [
+        "Nayekolaki kotambwisa motuka na Brazzaville, na balabala moko ya kimya na Bacongo.",
+        "Tata leki na ngai, Émile, nde azalaki kolakisa ngai samedi nyonso.",
+        "Tongo ya liboso, nalataki basapato ya pɛpɛlɛ mpe nayaki liboso ya ngonga.",
+        "Nafandaki na esika ya chauffeur, mpe nabongisaki siège mpo nakoma na ba pédales.",
+        "Maboko na ngai ezalaki kolɛnga ntango nasimbaki volant mpo na mbala ya liboso.",
+        "Natombolaki lokolo noki na embrayage, mpe moteur ekufaki kaka na esika.",
+        "Tata leki asɛkaki mwa moke, mpe asɛngaki ngai nameka lisusu malɛmbɛ.",
+        "Na essai ya mibale, motuka etambolaki malamu tii na coin ya balabala.",
+        "Nasepelaki mingi ntango natɛlɛmisaki motuka ngai moko, kozanga lisungi ya tata leki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-p04",
+      "kind": "para",
+      "title": "Caring for Balcony Plants",
+      "native": [
+        "Na balcon na ngai na Moungali, nalonaka pilipili, tomate mpe menthe.",
+        "Liboso, zwa ba pots oyo ezali na mabulu mike na nse.",
+        "Tya mwa mabanga na nse, mpe bakisa mabele ya malamu likolo.",
+        "Bongisa ba pots na esika oyo moi ya tongo ekoki kokɔta.",
+        "Soki moi ya midi ezali makasi, tya ba pots na elili.",
+        "Simba mabele na mosapi liboso ya kosopela milona mai tongo nyonso.",
+        "Soki mabele ekauki, sopela milona mai malɛmbɛ pene na misisa.",
+        "Longola matiti ya mabe, mpe kata nkasa oyo ebandi kokauka.",
+        "Bongola ba pots mbala moko na pɔsɔ mpo milona nyonso ezwa moi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-p05",
+      "kind": "para",
+      "title": "A Weekend in Kisantu",
+      "native": [
+        "Na suka ya pɔsɔ, nakendaki na Kisantu elongo na moninga na ngai.",
+        "Tolekisaki mikolo mibale na Kisantu, mpe jardin botanique nde esepelisaki ngai koleka.",
+        "Na kati ya jardin botanique, banzete minene epesaka malili ata moi ezali makasi.",
+        "Nasepelaki kotambola malɛmbɛ, kozanga makɛlɛlɛ ya mituka oyo namesana koyoka na engumba.",
+        "Na midi, tolyaki mbisi ya kotumba na chikwangue na terrasse moko pene na jardin botanique.",
+        "Mbisi ezalaki elɛngi, kasi bazelisaki biso mingi liboso ya kopesa bilei.",
+        "Chambre na biso ezalaki pɛto, kasi ventilateur ezalaki kosala makɛlɛlɛ na butu.",
+        "Mpo na ngai, Kisantu ebongi soki olingi kopema kozanga mobulu mingi.",
+        "Nakoki kozonga na Kisantu, kasi mbala ya nsima nakolala na esika ya kimya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-p06",
+      "kind": "para",
+      "title": "Wedding Shopping Plans",
+      "native": [
+        "Libala ya Clarisse ekozala na Pointe-Noire na 18 juillet 2026.",
+        "Samedi tokokende na zando ya Tié-Tié na 8 heures 30.",
+        "Zando ezali na 6 kilomètres longwa na ndako. Tokokende kuna na taxi.",
+        "Nakosomba maputa motoba ya libala na 60 000 francs CFA.",
+        "Nakosomba sapato ya Clarisse na 25 000 francs CFA.",
+        "Nakobakisa 10 000 francs CFA mpo na rubans mpe enveloppes.",
+        "Tokosomba milangi 12 ya jus na 12 000 francs CFA.",
+        "Nakobomba 5 000 francs CFA mpo na taxi ya kozonga.",
+        "Tokosilisa kosomba biloko liboso ya 13 heures mpo tozonga noki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-p07",
+      "kind": "para",
+      "title": "A Leaking Kitchen Tap",
+      "native": [
+        "Mama propriétaire, nazali kofanda na ndako na bino na Bandalungwa.",
+        "Robinet ya cuisine ezali kotanga mai na esika ekangani na tuyau.",
+        "Ata soki nakangi robinet, mai ezali kaka kokita na carrelage.",
+        "Namonaki fuite ya robinet lobi, mpe lelo mai ezali kaka kobima.",
+        "Natiaki sani na nse ya robinet, kasi etondaka noki mpe mai esopanaka.",
+        "Bokoki kotinda plombier aya kotala robinet yango lobi na ntɔngɔ?",
+        "Lobi nakozala na ndako tii na 11 heures. Plombier akoki koya liboso ya ngonga wana?",
+        "Nakoki kotindela bino photo na WhatsApp mpo bomona esika mai ezali kobima.",
+        "Matɔndi mpo na lisalisi na bino. Nazali kozela eyano na bino."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-p08",
+      "kind": "para",
+      "title": "Changes Around Masina",
+      "native": [
+        "Na Masina, pembeni ya boulevard Lumumba, quartier ebongwani mingi.",
+        "Bisika mosusu oyo bizalaki polele kala bitondi sikoyo na bandako mpe baboutique.",
+        "Lelo, marché de la Liberté ebendaka basombi ya baquartier mingi ya Kinshasa.",
+        "Bilenge mosusu na quartier bazali kotonga bilamba, basusu bazali kobongisa batéléphone.",
+        "Boutique ya bilamba ezali sikoyo pembeni ya esika bazalaki kotɛka makala.",
+        "Bateki ya mikate babandaka mosala liboso moi ebima.",
+        "Na ntɔngɔ mpe na mpokwa, embouteillage ezalaka mingi na boulevard Lumumba.",
+        "Bato ya quartier bazali kosɛnga babongisa banzela ya kati mpe batia miinda na balabala.",
+        "Masina ezali kokola, mpe bato ya quartier balingi banzela ya malamu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s001",
+      "kind": "sentence",
+      "native": [
+        "Nazangi marteau mpo na kobongisa étagère, okoki kodefisa ngai oyo ya yo mwa moke?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s002",
+      "kind": "sentence",
+      "native": [
+        "Bibliothécaire abombi journal ya kala oyo tolukaki mpo na article."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s003",
+      "kind": "sentence",
+      "native": [
+        "Solde na ngai etikali 28 000 francs congolais nsima ya retrait."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s004",
+      "kind": "sentence",
+      "native": [
+        "Tia rendez-vous ya coiffeuse na calendrier mpo na jeudi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s005",
+      "kind": "sentence",
+      "native": [
+        "Fungola caméra ya liboso."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s006",
+      "kind": "sentence",
+      "native": [
+        "Na cyber ya Ngiri-Ngiri, heure moko ezali 1 500 francs congolais."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s007",
+      "kind": "sentence",
+      "native": [
+        "Boutique oyo batɛkaka tissus ezali nsima ya pharmacie."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s008",
+      "kind": "sentence",
+      "native": [
+        "Liboso ya fête na Makélékélé, tosengeli kodefa bakiti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s009",
+      "kind": "sentence",
+      "native": [
+        "Biloko elongwe na Madimba to ezali kaka kuna?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s010",
+      "kind": "sentence",
+      "native": [
+        "Coiffure oyo ebongi yo mpenza."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s011",
+      "kind": "sentence",
+      "native": [
+        "Maman, okoki kotindela ngai recette ya fumbwa na WhatsApp?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s012",
+      "kind": "sentence",
+      "native": [
+        "Joueur oyo azwi motoba abwakaka dé lisusu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s013",
+      "kind": "sentence",
+      "native": [
+        "Bazweli biso chambre numéro 26 na hôtel moko na Bandundu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s014",
+      "kind": "sentence",
+      "native": [
+        "Kundwela ngai kosomba sabuni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s015",
+      "kind": "sentence",
+      "native": [
+        "Bibliothèque ya Institut français na Brazzaville efungwamaka samedi na ntɔngɔ?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s016",
+      "kind": "sentence",
+      "native": [
+        "Tablette eleki téléphone mpo na kotanga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s017",
+      "kind": "sentence",
+      "native": [
+        "Toleki ndako ya yaya mwasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s018",
+      "kind": "sentence",
+      "native": [
+        "Nazali na monnaie te. Nakoki kofuta na téléphone?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s019",
+      "kind": "sentence",
+      "native": [
+        "Départ ezali mardi, te, zela, nalingaki koloba jeudi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s020",
+      "kind": "sentence",
+      "native": [
+        "Franchement, kozela boye mbala nyonso ekomi kosilikisa ngai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s021",
+      "kind": "sentence",
+      "native": [
+        "Benga ngai soki ozali libre."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s022",
+      "kind": "sentence",
+      "native": [
+        "Nazongiseli bino rapport na mwa corrections, botala mingimingi eteni oyo elobeli ndenge projet ezali kokende."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s023",
+      "kind": "sentence",
+      "native": [
+        "Match esili na 2 buts contre 1."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s024",
+      "kind": "sentence",
+      "native": [
+        "Nakotuna na piscine ya stade Tata Raphaël soki bana bakoki koyekola natation kuna na vacances."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s025",
+      "kind": "sentence",
+      "native": [
+        "Zongisa vidéo oyo mwa moke mpo nayoka malamu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s026",
+      "kind": "sentence",
+      "native": [
+        "Tableau ya Excel ezali kotangama malamu na ordinateur, kasi na smartphone nakoki komona colonnes nyonso te."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s027",
+      "kind": "sentence",
+      "native": [
+        "Mbala ya liboso okoya epai na biso, sɛnga gardien alakisa yo escalier ya pembeni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s028",
+      "kind": "sentence",
+      "native": [
+        "Mwinda ya couloir epeli butu mobimba."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s029",
+      "kind": "sentence",
+      "native": [
+        "Olingi sachet monene to moke?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s030",
+      "kind": "sentence",
+      "native": [
+        "Nayebi ete nakataki yo maloba, nasengelaki kotika yo osilisa liboso ya kopesa makanisi na ngai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s031",
+      "kind": "sentence",
+      "native": [
+        "Nazalaki na écouteurs, nayokaki te ntango obɛtaki porte. Zela mwa moke, nakoya kofungolela yo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s032",
+      "kind": "sentence",
+      "native": [
+        "Merci mingi mpo na lisungi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s033",
+      "kind": "sentence",
+      "native": [
+        "Mwana na ngai azali na 7 ans, alataka pointure 31."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s034",
+      "kind": "sentence",
+      "native": [
+        "Bakisa mungwa na liste."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s035",
+      "kind": "sentence",
+      "native": [
+        "Longola photo oyo ebimi flou na galerie na ngai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s036",
+      "kind": "sentence",
+      "native": [
+        "Esɛngɛli nabakisa forfait mpo internet ezala tii na mpokwa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s037",
+      "kind": "sentence",
+      "native": [
+        "Ndeko na biso akoya kozwa yo na aéroport."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s038",
+      "kind": "sentence",
+      "native": [
+        "Mopɛpɛ ezali makasi, bana balata pull liboso ya kobima."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s039",
+      "kind": "sentence",
+      "native": [
+        "Nayaki kozwa sac, te, valise oyo ya motane."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s040",
+      "kind": "sentence",
+      "native": [
+        "Nasepelaka na mopɛpɛ ya malili pembeni ya fleuve na Maluku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s041",
+      "kind": "sentence",
+      "native": [
+        "Tikela ngai mwa loso."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s042",
+      "kind": "sentence",
+      "native": [
+        "Version oyo ezali malamu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s043",
+      "kind": "sentence",
+      "native": [
+        "Batterie etikali kaka na 18 %."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s044",
+      "kind": "sentence",
+      "native": [
+        "Natindela Trésor Massamba copie ya diplôme na ngai lelo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s045",
+      "kind": "sentence",
+      "native": [
+        "Colle nini nakoki kosalela mpo na kokangisa perles na elamba kozanga ete yango etika bilembo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s046",
+      "kind": "sentence",
+      "native": [
+        "Technicien ya Ouenzé asɛngi namema ordinateur na atelier mpo atala ventilateur oyo ezali kosala makɛlɛlɛ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s047",
+      "kind": "sentence",
+      "native": [
+        "Tata Mbemba afandi na Kingasani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s048",
+      "kind": "sentence",
+      "native": [
+        "Bana bamemi basapato ya sport mpo na course ya eteyelo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s049",
+      "kind": "sentence",
+      "native": [
+        "Kata concombre, carotte mpe chou, kasi kosangisa yango te."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s050",
+      "kind": "sentence",
+      "native": [
+        "Matɔndi, oyambi biso na esengo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s051",
+      "kind": "sentence",
+      "native": [
+        "Masolo na yo esɛkisaka ngai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s052",
+      "kind": "sentence",
+      "native": [
+        "Connexion ekati, nazali kozonga sikoyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s053",
+      "kind": "sentence",
+      "native": [
+        "Télévision oyo ezali na 43 pouces."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s054",
+      "kind": "sentence",
+      "native": [
+        "Natondisa bidon liboso ete mayi ekata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s055",
+      "kind": "sentence",
+      "native": [
+        "Mbula ekobɛta na Nkayi lelo na nsima ya midi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s056",
+      "kind": "sentence",
+      "native": [
+        "Micro na yo ekangami?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s057",
+      "kind": "sentence",
+      "native": [
+        "Pélagie akiti na arrêt nini?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s058",
+      "kind": "sentence",
+      "native": [
+        "Yannick, maître asɛngi ozipa buku ya calcul na papier."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s059",
+      "kind": "sentence",
+      "native": [
+        "Sombela ngai yaourt, biscuits mpe avoka ya kotela."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s060",
+      "kind": "sentence",
+      "native": [
+        "Kobanga te, meka lisusu, nakotikala pembeni na yo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s061",
+      "kind": "sentence",
+      "native": [
+        "Week-end oyo nazali libre, tokoki kolekisa mwa ntango elongo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s062",
+      "kind": "sentence",
+      "native": [
+        "Client ya Pointe-Noire asɛngi tobongola couleur ya logo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s063",
+      "kind": "sentence",
+      "native": [
+        "Colis ya 4 kilos euti Kinshasa, nafuti 2 000 francs CFA mpo nazwa yango na Brazzaville."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s064",
+      "kind": "sentence",
+      "native": [
+        "Nabomba reçu ya frigo malamu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s065",
+      "kind": "sentence",
+      "native": [
+        "Lakisa nzela ya kokende Lemba."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s066",
+      "kind": "sentence",
+      "native": [
+        "Écho ezali kobɛta mingi, bokanga micro na bino soki bozali koloba te."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s067",
+      "kind": "sentence",
+      "native": [
+        "Wuta pont, landa kaka nzela oyo ezali kokita."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s068",
+      "kind": "sentence",
+      "native": [
+        "Photographe apesi biso rendez-vous na 11 heures, boya na bilamba oyo boponi mpo na photo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s069",
+      "kind": "sentence",
+      "native": [
+        "Ozwi clé ya portail, to natikela yo oyo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s070",
+      "kind": "sentence",
+      "native": [
+        "Namoni ete kopema mwa moke ezali kobebisa ntango te, epesaka moto makasi ya kokoba mosala."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s071",
+      "kind": "sentence",
+      "native": [
+        "Blandine, robe otindeli ngai ezali moke, ekoti ngai te."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s072",
+      "kind": "sentence",
+      "native": [
+        "Tokoki kosala entretien ya stagiaire jeudi après-midi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s073",
+      "kind": "sentence",
+      "native": [
+        "Nazwi 16 sur 20 na français mpe 14 na calcul."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s074",
+      "kind": "sentence",
+      "native": [
+        "Budget ya légumes na Moungali ekoleka 4 000 francs CFA te."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s075",
+      "kind": "sentence",
+      "native": [
+        "Okoki kolakisa ngai ndenge ya kolamba mosaka na YouTube?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s076",
+      "kind": "sentence",
+      "native": [
+        "Clavier ezali kozongela lettre moko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s077",
+      "kind": "sentence",
+      "native": [
+        "Mobali oyo azali kotya carrelage na véranda azali nɔkɔ na ngai, ayebi mosala yango malamu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s078",
+      "kind": "sentence",
+      "native": [
+        "Madesu ya mbila oyo nalei na Brazzaville ezalaki elɛngi, nalingi komeka kolamba yango mpe awa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s079",
+      "kind": "sentence",
+      "native": [
+        "Pardon, nalingaki koloba fourchette."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s080",
+      "kind": "sentence",
+      "native": [
+        "Aline, ndenge olimboli exercice esalisi ngai nakanga ntina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s081",
+      "kind": "sentence",
+      "native": [
+        "Nayoki message na yo sikoyo, téléphone ezalaki na sac."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s082",
+      "kind": "sentence",
+      "native": [
+        "Tissu oyo tozwi na Kinshasa ekoki mpo na costumes nyonso, tozali lisusu na mposa ya boutons."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s083",
+      "kind": "sentence",
+      "native": [
+        "Billet elakisi place numéro 23."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s084",
+      "kind": "sentence",
+      "native": [
+        "Nsima ya kotya photos ya vacances na ordinateur, nakopona oyo ebimi malamu mpo na album ya libota."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s085",
+      "kind": "sentence",
+      "native": [
+        "Bongisa minuteur ya 8 minutes mpo na maki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s086",
+      "kind": "sentence",
+      "native": [
+        "Souris esɛngi pile ya sika."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s087",
+      "kind": "sentence",
+      "native": [
+        "Solange atangelaka bana masolo na bibliothèque ya Limete."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s088",
+      "kind": "sentence",
+      "native": [
+        "Directrice asɛngi baboti bamema bana liboso ya 8 heures mpo bus ya excursion ezela te."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s089",
+      "kind": "sentence",
+      "native": [
+        "Bozali kotɛka enveloppes awa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s090",
+      "kind": "sentence",
+      "native": [
+        "Limbisa ngai mpo na makɛlɛlɛ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s091",
+      "kind": "sentence",
+      "native": [
+        "Nasilisi kosukola, etikali kolata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s092",
+      "kind": "sentence",
+      "native": [
+        "Mbote, nazali kosɛnga copie ya contrat oyo tosignaki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s093",
+      "kind": "sentence",
+      "native": [
+        "Rosine, numéro ya sika ya bureau ezali 081 000 00 00, bomba yango na téléphone na yo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s094",
+      "kind": "sentence",
+      "native": [
+        "Koma ete cours ya conduite ekozala mercredi na pokwa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s095",
+      "kind": "sentence",
+      "native": [
+        "Bongola message oyo na français, kasi tika nkombo ya bato ndenge nakomi yango na ebandeli."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s096",
+      "kind": "sentence",
+      "native": [
+        "Tobombi vidéo ya répétition na Google Drive mpo baninga oyo bazangaki bayekola mabina yango na ndako."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s097",
+      "kind": "sentence",
+      "native": [
+        "Mwana na ngai aponi club ya dessin na eteyelo, alingaka mingi koyema banzete mpe banyama."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s098",
+      "kind": "sentence",
+      "native": [
+        "Couvercle oyo ekangaka malamu te."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s099",
+      "kind": "sentence",
+      "native": [
+        "Josiane asɛngi ndakala, pondu mpe bitabe mpo na midi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s100",
+      "kind": "sentence",
+      "native": [
+        "Kwanga oyo ezali elɛngi, kasi eteni na ngai ezali moke."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s101",
+      "kind": "sentence",
+      "native": [
+        "Mireille alobi akoya na bana mibale dimanche, yango wana tobongisa esika ya kolala na salon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s102",
+      "kind": "sentence",
+      "native": [
+        "Sandrine, échantillons ya sika ekomi, okoki koleka kotala yango."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s103",
+      "kind": "sentence",
+      "native": [
+        "Botinda colis na avenue Tombalbaye, numéro 42, liboso ya 16 heures 45, moto akozala wana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s104",
+      "kind": "sentence",
+      "native": [
+        "Vendredi nakomema montre na ngai epai ya réparateur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s105",
+      "kind": "sentence",
+      "native": [
+        "Kanga baonglets nyonso ya navigateur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s106",
+      "kind": "sentence",
+      "native": [
+        "Antoinette, lakisa stagiaire ndenge ya kosalela scanner ya bureau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s107",
+      "kind": "sentence",
+      "native": [
+        "Voyage ya Dolisie ekozala na train to na bus?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s108",
+      "kind": "sentence",
+      "native": [
+        "Supu oyo ezali naino mɔtɔ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s109",
+      "kind": "sentence",
+      "native": [
+        "Entrée ezali 6 000 francs congolais, te, 7 000."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s110",
+      "kind": "sentence",
+      "native": [
+        "Napesi ndeko na yo buku, akozongisela yo yango lobi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s111",
+      "kind": "sentence",
+      "native": [
+        "Nandimi devis oyo, bokoba mosala."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s112",
+      "kind": "sentence",
+      "native": [
+        "Mpo na pâte ya crêpes, tia 250 grammes ya farine, 50 grammes ya sukali mpe maki mibale."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s113",
+      "kind": "sentence",
+      "native": [
+        "Mpo na maquette ya mwana, nasomba carton mpe colle."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s114",
+      "kind": "sentence",
+      "native": [
+        "Sala recherche ya écouteurs oyo esalaka na Bluetooth."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s115",
+      "kind": "sentence",
+      "native": [
+        "Grâce abombi présentation ya formation na clé USB."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s116",
+      "kind": "sentence",
+      "native": [
+        "Nadine aponi restaurant moko ya kimya na Gombe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s117",
+      "kind": "sentence",
+      "native": [
+        "Elamba ya fête ya Chantal ekomi epai ya nani?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s118",
+      "kind": "sentence",
+      "native": [
+        "Désiré, pince ezali wapi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s119",
+      "kind": "sentence",
+      "native": [
+        "Bilamba ekauki, longola yango na nsinga liboso mbula ebɛta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s120",
+      "kind": "sentence",
+      "native": [
+        "Liboso ya vendredi, bokoma nkombo ya bato nyonso oyo bakoya na atelier ya Kikwit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s121",
+      "kind": "sentence",
+      "native": [
+        "Longwa awa tii na pont ezali 9 kilomètres."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s122",
+      "kind": "sentence",
+      "native": [
+        "Esengeli nabongisa tiroir na ngai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s123",
+      "kind": "sentence",
+      "native": [
+        "Ndenge nini nakoki kolakisa écran ya ordinateur na télévision kozanga kosalela câble ya HDMI?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s124",
+      "kind": "sentence",
+      "native": [
+        "Gisèle asɛngi lien ya site oyo bateyaka kotonga bilamba."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s125",
+      "kind": "sentence",
+      "native": [
+        "Porte ya lopango efungwami, bokoki kokɔta na motuka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s126",
+      "kind": "sentence",
+      "native": [
+        "Menuisier akoya mercredi mpo na kobongisa makolo ya mesa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s127",
+      "kind": "sentence",
+      "native": [
+        "Chérie, okomɛla jus to mayi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s128",
+      "kind": "sentence",
+      "native": [
+        "Tosali mikate mingi awa. Soki ozali pɛnɛ na biso, leka kozwa mwa ndambo mpo na bana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s129",
+      "kind": "sentence",
+      "native": [
+        "Camion ya matiti eleki na Mfilou, kasi awa te."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s130",
+      "kind": "sentence",
+      "native": [
+        "Saani ya safou ezali 2 500 francs congolais na Masina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s131",
+      "kind": "sentence",
+      "native": [
+        "Yebisa ngai lobi na ntɔngɔ ete nasengeli kozwa sanduku ya bisaleli oyo etikali na Talangaï."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s132",
+      "kind": "sentence",
+      "native": [
+        "Wapi agence ya transfert ya mbongo oyo ezali pene na gare ya Matadi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s133",
+      "kind": "sentence",
+      "native": [
+        "Nalingi post oyo emonana kaka na baninga na ngai ya Facebook."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s134",
+      "kind": "sentence",
+      "native": [
+        "Moninga na yo afandaka wapi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s135",
+      "kind": "sentence",
+      "native": [
+        "Prix ekoki kokita mwa moke?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s136",
+      "kind": "sentence",
+      "native": [
+        "Komela ye ete nakoya na répétition, ah te, loba kaka ete nakoya mwa moke na retard."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s137",
+      "kind": "sentence",
+      "native": [
+        "Olei gâteau mobimba, otikeli biso ata mwa ndambo te!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s138",
+      "kind": "sentence",
+      "native": [
+        "Tokoki kosala inventaire nsima ya midi ntango magasin ekozala kimya?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s139",
+      "kind": "sentence",
+      "native": [
+        "Atelier ya poterie ekobanda mercredi na 13 heures mpe ekoumela 2 heures."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s140",
+      "kind": "sentence",
+      "native": [
+        "Lobi nakosomba mbika na zando ya Gambela."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s141",
+      "kind": "sentence",
+      "native": [
+        "Email ya sika euti epai ya nani? Tanga nkombo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s142",
+      "kind": "sentence",
+      "native": [
+        "Nakoki kokɔta na compte ya mosala te, code ya vérification ezali kokoma na téléphone ya kala."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s143",
+      "kind": "sentence",
+      "native": [
+        "Moto oyo azali liboso ya garage azali collègue na ngai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s144",
+      "kind": "sentence",
+      "native": [
+        "Cartable ya mwana epasuki lisusu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s145",
+      "kind": "sentence",
+      "native": [
+        "Biso tokokende na piscine ya Nsele, kasi soki moi ebimi te, tokotikala kaka kosakana awa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s146",
+      "kind": "sentence",
+      "native": [
+        "Lelo nakoki kobima te, nalɛmbi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s147",
+      "kind": "sentence",
+      "native": [
+        "Bozongisela ngai eyano mpo na transport ya basali, nasɛngɛli koyeba soki bus ekoleka lobi na ntɔngɔ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s148",
+      "kind": "sentence",
+      "native": [
+        "Okofuta 3 500 francs CFA mpo na course kino Bacongo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s149",
+      "kind": "sentence",
+      "native": [
+        "Salisa ngai nabosana te kokende kozwa pagne epai ya couturière."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s150",
+      "kind": "sentence",
+      "native": [
+        "Triangle ezali na mipanzi boni?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s151",
+      "kind": "sentence",
+      "native": [
+        "Podcast oyo nayokaka epesaka makanisi ya kobatela banzete na lopango."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s152",
+      "kind": "sentence",
+      "native": [
+        "Coiffeur afungolaka salon na dimanche?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s153",
+      "kind": "sentence",
+      "native": [
+        "Tomates oyo ezali pɛtɛɛ mingi, pesa ngai mosusu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s154",
+      "kind": "sentence",
+      "native": [
+        "Ah, nasɛngaki fil, aiguille mpe boutons, kasi nabosani ciseaux, bakisa yango mpe na panier."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s155",
+      "kind": "sentence",
+      "native": [
+        "Chargeur na yo etikali awa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s156",
+      "kind": "sentence",
+      "native": [
+        "Okanisaki ete naboyi kosalisa, kasi nayebaki te ete ozalaki kozela ngai mpo na komema mesa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s157",
+      "kind": "sentence",
+      "native": [
+        "Bakiseli ngai cahiers 6 na commande ya stylos 24."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s158",
+      "kind": "sentence",
+      "native": [
+        "Nakobomba 15 000 francs congolais pembeni mpo na kotinda rideaux ya chambre na pressing ya Kintambo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s159",
+      "kind": "sentence",
+      "native": [
+        "Bɛta miziki ya rumba sikoyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s160",
+      "kind": "sentence",
+      "native": [
+        "Chauffeur, kitisa ngai pembeni ya station ya essence."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s161",
+      "kind": "sentence",
+      "native": [
+        "Espérance, pesa biso ata mwa pilipili mpo na makayabu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s162",
+      "kind": "sentence",
+      "native": [
+        "Papa, soki osilisi mosala na yo, lekela biso na boulangerie, mapa ya tongo esili."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s163",
+      "kind": "sentence",
+      "native": [
+        "Bozwaki email na ngai?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s164",
+      "kind": "sentence",
+      "native": [
+        "Ascenseur etɛlɛmi na 4e étage."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s165",
+      "kind": "sentence",
+      "native": [
+        "Nabosana te komɛla mayi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s166",
+      "kind": "sentence",
+      "native": [
+        "Taxi oyo ekendaka tii wapi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s167",
+      "kind": "sentence",
+      "native": [
+        "Tantine Bijou, tokoki kolamba liboke ya mbisi na makasa oyo, to esengeli nasomba mosusu na zando?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s168",
+      "kind": "sentence",
+      "native": [
+        "Ornella, zela ngai liboso ya cinéma, nazali koya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s169",
+      "kind": "sentence",
+      "native": [
+        "Ngakosso azali kozela accord na bino mpo afuta fournisseur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s170",
+      "kind": "sentence",
+      "native": [
+        "Compteur etikali na 6 kilowattheures."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s171",
+      "kind": "sentence",
+      "native": [
+        "Ozali kaka na mposa ya koyekola kobɛta guitare?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s172",
+      "kind": "sentence",
+      "native": [
+        "Étienne, bapesi biso ndingisa ya kosalela cour mpo na répétition ya mabina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s173",
+      "kind": "sentence",
+      "native": [
+        "Nadefi babuku 3 na bibliothèque, nakozongisa yango nsima ya mikolo 10."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s174",
+      "kind": "sentence",
+      "native": [
+        "Soki ozali kokende na Poto-Poto, zwela ngai ananasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s175",
+      "kind": "sentence",
+      "native": [
+        "Bureau ya Ngaliema ekangami lelo, basali bakosala na bandako na bango."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s176",
+      "kind": "sentence",
+      "native": [
+        "Réunion ya équipe ekobanda mardi na 10 heures 15."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s177",
+      "kind": "sentence",
+      "native": [
+        "Nakomi na ndako, komitungisa te."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s178",
+      "kind": "sentence",
+      "native": [
+        "Liste ya matériel ezali na armoire pembeni ya fenêtre."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s179",
+      "kind": "sentence",
+      "native": [
+        "Alarme ekobɛta na 5 heures."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s180",
+      "kind": "sentence",
+      "native": [
+        "Devoir ya lelo ezalaki mpasi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s181",
+      "kind": "sentence",
+      "native": [
+        "Thermos oyo ekoki kozwa 2 litres."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s182",
+      "kind": "sentence",
+      "native": [
+        "Cédric, mema ballon na yo, tokobɛta mwa ndembo na pokwa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "ln-s183",
+      "kind": "sentence",
+      "native": [
+        "Déborah azwi réduction ya 15 % mpo asombi basanduku mwambe ya carreaux na mbala moko."
+      ],
+      "roman": null
+    }
+  ]
+}

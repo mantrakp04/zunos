@@ -1,0 +1,1862 @@
+{
+  "lang": "si",
+  "starter": [
+    "si-s056",
+    "si-s133",
+    "si-s143",
+    "si-s025",
+    "si-s096",
+    "si-s144",
+    "si-s073",
+    "si-s091",
+    "si-s142",
+    "si-s153",
+    "si-s053",
+    "si-s141",
+    "si-s051",
+    "si-s015",
+    "si-s068",
+    "si-s092",
+    "si-s095",
+    "si-p08",
+    "si-s135",
+    "si-s123",
+    "si-s109",
+    "si-s154",
+    "si-s114",
+    "si-s159",
+    "si-s030",
+    "si-s124",
+    "si-s040",
+    "si-s044",
+    "si-s155",
+    "si-s022",
+    "si-s055",
+    "si-s147",
+    "si-s113",
+    "si-s156",
+    "si-s072",
+    "si-p07",
+    "si-s083",
+    "si-s070",
+    "si-s127",
+    "si-s118",
+    "si-s087",
+    "si-s034",
+    "si-s140",
+    "si-s038",
+    "si-s131",
+    "si-s099",
+    "si-s128",
+    "si-s094",
+    "si-s057",
+    "si-s039",
+    "si-s079",
+    "si-s066",
+    "si-s100"
+  ],
+  "items": [
+    {
+      "id": "si-p01",
+      "kind": "para",
+      "title": "My New Bookshop Job",
+      "native": [
+        "නදීෂා, මට නුගේගොඩ පොත් සාප්පුවක අලුත් රස්සාවක් හම්බුණා.",
+        "මම ලබන සඳුදා වැඩ පටන් ගන්නවා, දැනට ඇණවුම් භාරගන්න තමයි තියෙන්නේ.",
+        "වැඩ පටන් ගන්නේ උදේ 8:30 ට නිසා ටිකක් කලින් නැගිටින්න වෙනවා.",
+        "මහරගම ඉඳලා බස් එකේ ගිහින් පයින් යන්න තියෙන්නේ පොඩි දුරයි.",
+        "ඉන්ටර්වියු එකට ගිය දවසේ එතන අය මට තේ එකකුත් දුන්නා.",
+        "දවල්ට කන්න බත් එකක් ගෙදරින් අරන් යන්න තමයි හිතාගෙන ඉන්නේ.",
+        "එතන වැඩ කරන අයට පොත් ගන්නකොට පොඩි වට්ටමකුත් දෙනවාලු.",
+        "ගෙදරට වෙලා හිටපු කාලේ ඉවරයි කියලා හිතද්දී මට හරි සතුටුයි.",
+        "මේ සෙනසුරාදා හවස හම්බෙමු, එතකොට මට විස්තර ඔක්කොම කියන්න පුළුවන්."
+      ],
+      "roman": [
+        "Nadeesha, mata Nugegoda poth saappuwaka aluth rassawak hambuna.",
+        "Mama labana sanduda waeda patan gannawa, daenata aenawum baaraganna thamai thiyenne.",
+        "Waeda patan ganne ude 8:30 ta nisaa tikak kalin naegitinna wenawa.",
+        "Maharagama indala bus eke gihin payin yanna thiyenne podi durai.",
+        "Interview ekata giya dawase ethana aya mata the ekakuth dunna.",
+        "Dawalta kanna bath ekak gedarin aran yanna thamai hithaagena inne.",
+        "Ethana waeda karana ayata poth gannakota podi wattamakuth denawaalu.",
+        "Gedarata wela hitapu kaale iwarai kiyala hithaddi mata hari sathutuyi.",
+        "Me senasuraada hawasa hambemu, ethakota mata wisthara okkoma kiyanna puluwan."
+      ]
+    },
+    {
+      "id": "si-p02",
+      "kind": "para",
+      "title": "Welcoming Our Matara Teammate",
+      "native": [
+        "අපේ මාතර ශාඛාවට අද එක්වන ෆාතිමා කාදර් මහත්මිය සාදරයෙන් පිළිගනිමු.",
+        "ඇය අද සිට පාරිභෝගික ඇණවුම් සහ බෙදාහැරීම් පිළිබඳව සොයා බලනු ඇත.",
+        "ඇය හඳුන්වා දීමේ කෙටි හමුව උදේ 10:15 ට රැස්වීම් කාමරයේ පැවැත්වේ.",
+        "කරුණාකර එම හමුවේදී ඔබේ නම කියා ඔබේ වගකීම් ගැන කෙටියෙන් පැහැදිලි කරන්න.",
+        "පසිඳු, ඇයගේ මේසය සහ කම්පියුටර් එක සූදානම් කර දෙන්න.",
+        "ඇයට අවශ්‍ය ෆෝල්ඩර්වලට දවල් 2:30 ට පෙර ඇක්සස් ලබා දෙන්න.",
+        "අලුත් ඇණවුම් ලිස්ට් එක අද හවසට ඇයට ඊමේල් කරන්න.",
+        "වැඩ බෙදාගැනීම ගැන ප්‍රශ්නයක් තිබේ නම් මට පෞද්ගලිකව දන්වන්න.",
+        "ඇයට පහසුවෙන් වැඩ ආරම්භ කිරීමට සහාය දෙන සැමට ස්තුතියි."
+      ],
+      "roman": [
+        "Ape Matara shaakawata ada ekwana Fathima Kader mahathmiya saadarayen piliganimu.",
+        "Aeya ada sita paaribogika aenawum saha bedahaereem pilibandawa soya balanu aetha.",
+        "Aeya handunwa deeme keti hamuwa ude 10:15 ta raesweem kaamaraye paewaethwe.",
+        "Karunaakara ema hamuwedi obe nama kiya obe wagakeem gaena ketiyen paehaedili karanna.",
+        "Pasindu, aeyage mesaya saha computer eka soodaanam kara denna.",
+        "Aeyata awashya folderwalata dawal 2:30 ta pera access labaa denna.",
+        "Aluth aenawum list eka ada hawasata aeyata email karanna.",
+        "Waeda bedagaeneema gaena prashnayak thibe nam mata paudgalikawa danwanna.",
+        "Aeyata pahasuwen waeda aarambha kireemata sahaaya dena saemata sthuthiyi."
+      ]
+    },
+    {
+      "id": "si-p03",
+      "kind": "para",
+      "title": "Rain at Kurunegala Market",
+      "native": [
+        "පසුගිය සෙනසුරාදා මම කුසුමා නැන්දා එක්ක කුරුණෑගල පොළට ගියා.",
+        "අපි මුලින්ම රුපියල් 300 කට ලොකු වට්ටක්කා කෑල්ලක් ගත්තා.",
+        "නැන්දා මුකුණුවැන්න තෝරන අතරේ එකපාරටම ලොකු වැස්සක් කඩාගෙන වැටුණා.",
+        "මගේ කුඩේ ගෙදර අමතක වුණ නිසා අපි කඩේ වහල යටට දිව්වා.",
+        "තහඩු වහලට වැහි බිංදු වැටෙන සද්දෙට කතා කරන දේවත් ඇහුණේ නැහැ.",
+        "එළවළු විකුණපු අයියා අපේ මල්ලට උඩින් තව බෑග් එකක් දාලා දුන්නා.",
+        "වැස්ස අඩු වෙනකල් අපි උණු කිරි තේ බීලා පරිප්පු වඩේ කෑවා.",
+        "පාරේ වතුර වළවල් මඟහැරලා බස් නැවතුමට යද්දී අපේ සෙරෙප්පුවලත් මඩ ගෑවිලා තිබුණා.",
+        "ගෙදර යද්දී මල්ල තෙමිලා තිබුණත් නැන්දාගේ වට්ටක්කා කෑල්ල නම් හොඳට තිබුණා."
+      ],
+      "roman": [
+        "Pasugiya senasuraada mama Kusuma naenda ekka Kurunegala polata giya.",
+        "Api mulinma rupiyal 300 kata loku wattakka kaellak gaththa.",
+        "Naenda mukunuwaenna thorana athare ekapaaratama loku waessak kadaagena waetuna.",
+        "Mage kude gedara amathaka wuna nisaa api kade wahala yatata diwwa.",
+        "Thahadu wahalata waehi bindu waetena saddeta katha karana dewath aehune naehae.",
+        "Elawalu wikunapu ayiya ape mallata udin thawa bag ekak daala dunna.",
+        "Waessa adu wenakal api unu kiri the beela parippu wade kaewa.",
+        "Paare wathura walawal mangahaerala bus naewathumata yaddi ape sereppuwalath mada gaewila thibuna.",
+        "Gedara yaddi malla themila thibunath naendage wattakka kaella nam hondata thibuna."
+      ]
+    },
+    {
+      "id": "si-p04",
+      "kind": "para",
+      "title": "Playing Carrom in Galle",
+      "native": [
+        "අද අපේ ගෙදර කැරම් ගහමු. මම ගහන හැටි කියලා දෙන්නම්.",
+        "රතු ඉත්තා මැදින් තියලා කළු ඉත්තොයි සුදු ඉත්තොයි ඒ වටේට තියන්න.",
+        "දෙන්නෙක් සෙල්ලම් කරනවා නම් බෝඩ් එකේ දෙපැත්තේ මුහුණට මුහුණ ඉඳගන්න.",
+        "පටන් ගන්න කෙනා සුදු ඉත්තොත් අනිත් කෙනා කළු ඉත්තොත් ගන්න ඕනේ.",
+        "තමන්ගේ පැත්තේ ඉරි දෙකම අල්ලන විදිහට ස්ට්‍රයිකර් එක තියලා ගහන්න.",
+        "තමන්ගේ ඉත්තෙක් වළට වැටුණොත් ආයෙත් ගහන්න. නැත්නම් අනිත් කෙනාට ගහන්න දෙන්න.",
+        "රතු ඉත්තා දාන පාරම හරි ඊළඟ පාර හරි තමන්ගේ ඉත්තෙකුත් වළට දාලා කවර් කරන්න ඕනේ.",
+        "එහෙම දාගන්න බැරි වුණොත් රතු ඉත්තා ආපහු මැදින් තියන්න.",
+        "රතු ඉත්තා කවර් කරලා තියෙනවා නම්, තමන්ගේ ඉත්තෝ මුලින්ම ඉවර කරන කෙනා දිනනවා."
+      ],
+      "roman": [
+        "Ada ape gedara carrom gahamu. Mama gahana haeti kiyala dennam.",
+        "Rathu iththa maedin thiyala kalu iththoi sudu iththoi e wateta thiyanna.",
+        "Dennek sellam karanawa nam board eke depaeththe muhunata muhuna indaganna.",
+        "Patan ganna kena sudu iththoth anith kena kalu iththoth ganna one.",
+        "Thamange paeththe iri dekama allana widihata striker eka thiyala gahanna.",
+        "Thamange iththek walata waetunoth aayeth gahanna. Naethnam anith kenata gahanna denna.",
+        "Rathu iththa daana paarama hari eelanga paara hari thamange iththekuth walata daala cover karanna one.",
+        "Ehema daaganna baeri wunoth rathu iththa aapahu maedin thiyanna.",
+        "Rathu iththa cover karala thiyenawa nam, thamange iththo mulinma iwara karana kena dinanawa."
+      ]
+    },
+    {
+      "id": "si-p05",
+      "kind": "para",
+      "title": "Watching Thaala at Home",
+      "native": [
+        "අපේ යාළුවෝ මේ දවස්වල තාල ෆිල්ම් එක ගැන කතා කරනවා.",
+        "මමත් ඉරිදා හවස ගෙදර අය එක්ක ඒක බලන්න වාඩි වුණා.",
+        "ෆිල්ම් එකේ ගමේ ඉස්කෝලේ දැක්කම මට අපේ පොඩි කාලේ මතක් වුණා.",
+        "ළමයි එකතු වෙලා සින්දු කියන දර්ශන ටික තමයි මට වැඩියෙන්ම දැනුණේ.",
+        "ගුරුවරයා ළමයින්ට ළං වෙන හැටිත් හරිම ස්වාභාවිකව පෙන්නලා තිබුණා.",
+        "කතාවේ සමහර තැන් නම් ටිකක් දිග වැඩියි කියලා මට හිතුණා.",
+        "ඒත් ළමයින්ගේ රඟපෑම් නිසා ඒ අඩුව එච්චර දැනෙන්නේ නැහැ.",
+        "සින්දු ටිකත් කතාවට හොඳට ගැළපෙන නිසා ආයෙත් අහන්න හිතුණා.",
+        "පවුලේ හැමෝටම එකට ඉඳගෙන බලන්න පුළුවන් ෆිල්ම් එකක් ඒක."
+      ],
+      "roman": [
+        "Ape yaaluwo me dawaswala Thaala film eka gaena katha karanawa.",
+        "Mamath irida hawasa gedara aya ekka eka balanna waadi wuna.",
+        "Film eke game iskole daekkama mata ape podi kale mathak wuna.",
+        "Lamai ekathu wela sindu kiyana darshana tika thamai mata waediyenma daenune.",
+        "Guruwaraya lamayinta lan wena haetith harima swabhaawikawa pennala thibuna.",
+        "Kathawe samahara thaen nam tikak diga waediyi kiyala mata hithuna.",
+        "Eth lamayinge rangapaem nisaa e aduwa echchara daenenne naehae.",
+        "Sindu tikath kathawata hondata gaelapena nisaa aayeth ahanna hithuna.",
+        "Pawule haemotama ekata indagena balanna puluwan film ekak eka."
+      ]
+    },
+    {
+      "id": "si-p06",
+      "kind": "para",
+      "title": "Wedding Shopping in Pettah",
+      "native": [
+        "දිනුකිගේ වෙඩින් එකට බඩු ගන්න 2026 අගෝස්තු 8 වැනිදා යමු.",
+        "පානදුරෙන් උදේ 8:30 වෙද්දී පිටත් වුණොත් කඩවල් බලන්න වෙලාව ඇති.",
+        "අපේ ගෙදර ඉඳලා රෙදි කඩේට කිලෝමීටර් 28 විතර තියෙනවා.",
+        "සාරිය ගන්න රුපියල් 28000 වෙනම තියාගන්න මම හිතාගෙන ඉන්නවා.",
+        "දෙවැනි මනාලියන් තුන් දෙනාට එකම පාටින් රෙදි මීටර් 18 ගන්න ඕනේ.",
+        "තෑගි පෙට්ටි 60 ගන්න රුපියල් 9000 විතර යයි කියලා හිතෙනවා.",
+        "එන 120 දෙනාට දෙන්න කේක් කෑලි 130 ගන්න ඕනේ කියලා list එකට දාගමු.",
+        "කඩවල් වහන්න කලින් වැඩ ඉවර කරලා හවස 4:00 වෙද්දී ගෙදර එමු."
+      ],
+      "roman": [
+        "Dinukige wedding ekata badu ganna 2026 Agosthu 8 waenida yamu.",
+        "Panaduren ude 8:30 weddi pitath wunoth kadawal balanna welaawa aethi.",
+        "Ape gedara indala redi kadeta kilometer 28 withara thiyenawa.",
+        "Sariya ganna rupiyal 28000 wenama thiyaganna mama hithaagena innawa.",
+        "Dewaeni manaliyan thun denaata ekama paatin redi meter 18 ganna one.",
+        "Thaegi petti 60 ganna rupiyal 9000 withara yayi kiyala hithenawa.",
+        "Ena 120 denaata denna cake kaeli 130 ganna one kiyala list ekata daagamu.",
+        "Kadawal wahanna kalin waeda iwara karala hawasa 4:00 weddi gedara emu."
+      ]
+    },
+    {
+      "id": "si-p07",
+      "kind": "para",
+      "title": "Checking a Duplicate Card Charge",
+      "native": [
+        "ආයුබෝවන්, මගේ කාඩ් එකේ ගනුදෙනුවක් ගැන විස්තර දැනගන්න පුළුවන්ද?",
+        "මම ඊයේ මීගමුවේ සුපර්මාකට් එකකින් ගෙදරට බඩු ගත්තා.",
+        "බිල රුපියල් 4750 වුණත් කාඩ් එකෙන් වැඩිපුර කැපිලා තියෙනවා.",
+        "එකම මුදල දෙපාරක් කැපිලා කියලා බැංකුවේ app එකේ පෙන්නනවා.",
+        "කඩේට කතා කළාම කිව්වේ සල්ලි ලැබිලා තියෙන්නේ එක පාරයි කියලා.",
+        "බිලයි ගනුදෙනු දෙකේ විස්තරයි ඕනේ නම් මට email කරන්න පුළුවන්.",
+        "මේක හොයලා බලන්න ඉල්ලීමක් දාන්න මම ශාඛාවට එන්න ඕනෙද?",
+        "වැඩිපුර කැපුණු මුදල ආපහු ලැබෙන්න දවස් කීයක් යයිද කියලා කියනවද?",
+        "උදව් කළාට ස්තුතියි, තව විස්තර අවශ්‍ය නම් මට කියන්න."
+      ],
+      "roman": [
+        "Aayubowan, mage card eke ganudenuwak gaena wisthara daenaganna puluwanda?",
+        "Mama eeye Meegamuwe supermarket ekakin gedarata badu gaththa.",
+        "Beela rupiyal 4750 wunath card eken waedipura kaepila thiyenawa.",
+        "Ekama mudala depaarak kaepila kiyala baenkuwe app eke pennanawa.",
+        "Kadeta katha kalaama kiwwe salli laebila thiyenne eka paarayi kiyala.",
+        "Bilayi ganudenu deke wistharayi one nam mata email karanna puluwan.",
+        "Meka hoyala balanna illeemak daanna mama shaakawata enna oneda?",
+        "Waedipura kaepunu mudala aapahu laebenna dawas keeyak yayida kiyala kiyanawada?",
+        "Udaw kalaata sthuthiyi, thawa wisthara awashya nam mata kiyanna."
+      ]
+    },
+    {
+      "id": "si-p08",
+      "kind": "para",
+      "title": "A Walk Through Beddagana",
+      "native": [
+        "කොළඹට කිට්ටුවෙන් තියෙන බැද්දගාන තෙත්බිම් උද්‍යානය කුරුල්ලන් බලන්න හොඳ තැනක්.",
+        "මේ උද්‍යානය තියෙන්නේ ශ්‍රී ජයවර්ධනපුර කෝට්ටේ.",
+        "වතුරට උඩින් හදලා තියෙන ලී පාලම් දිගේ ඇවිදින එක වෙනස් අත්දැකීමක්.",
+        "උදේට ආවොත් කුරුලු වර්ග කිහිපයක් ලේසියෙන් දැකගන්න පුළුවන්.",
+        "දියකාවුන් සහ කොකුන් වතුර ළඟ නිතර දකින්න ලැබෙනවා.",
+        "පවුලේ අය එක්ක ඇවිදින්න එනකොට සැහැල්ලු සපත්තු දාගෙන එන්න.",
+        "ෆොටෝ ගන්නකොට සතුන්ට බාධා නොවෙන්න ටිකක් ඈතින් ඉන්න.",
+        "කෑම දවටන සහ ප්ලාස්ටික් බෝතල් ආපහු අරන් යන්න අමතක කරන්න එපා."
+      ],
+      "roman": [
+        "Colombota kittuwen thiyena Beddagana thethbim udyaanaya kurullan balanna honda thaenak.",
+        "Me udyaanaya thiyenne Sri Jayawardenepura Kotte.",
+        "Wathurata udin hadala thiyena lee paalam dige aewidina eka wenas athdaekeemak.",
+        "Udeta aawoth kurulu warga kihipayak lesiyen daekaganna puluwan.",
+        "Diyakaawun saha kokun wathura langa nithara dakinna laebenawa.",
+        "Pawule aya ekka aewidinna enakota saehaellu sapaththu daagena enna.",
+        "Photo gannakota sathunta baadha nowenna tikak aethin inna.",
+        "Kaema dawatana saha plastic bothal aapahu aran yanna amathaka karanna epa."
+      ]
+    },
+    {
+      "id": "si-s001",
+      "kind": "sentence",
+      "native": [
+        "මම දැන් ගෙදර ආවා."
+      ],
+      "roman": [
+        "Mama daen gedara aawa."
+      ]
+    },
+    {
+      "id": "si-s002",
+      "kind": "sentence",
+      "native": [
+        "වාර්තාව යවන්න තවම අනුමැතිය නැහැ."
+      ],
+      "roman": [
+        "Waarthaawa yawanna thawama anumathiya naehae."
+      ]
+    },
+    {
+      "id": "si-s003",
+      "kind": "sentence",
+      "native": [
+        "මිශ්‍රණයට පිටි ග්‍රෑම් 250 එක්ක සීනි ග්‍රෑම් 75 දාන්න."
+      ],
+      "roman": [
+        "Mishranayata piti gram 250 ekka seeni gram 75 daanna."
+      ]
+    },
+    {
+      "id": "si-s004",
+      "kind": "sentence",
+      "native": [
+        "සබන් ඉවරයි. ඒකත් බඩු ලිස්ට් එකට දාගන්න."
+      ],
+      "roman": [
+        "Saban iwarai. Ekath badu list ekata daaganna."
+      ]
+    },
+    {
+      "id": "si-s005",
+      "kind": "sentence",
+      "native": [
+        "මගේ ෆෝන් එකේ වැඩියෙන්ම ඉඩ ගන්නේ මොන apps ද කියලා හොයාගන්නේ කොහොමද?"
+      ],
+      "roman": [
+        "Mage phone eke waediyenma ida ganne mona apps da kiyala hoyaganne kohomada?"
+      ]
+    },
+    {
+      "id": "si-s006",
+      "kind": "sentence",
+      "native": [
+        "අලුත්වැඩියාවට රුපියල් 3500 යනවා කියලා කම්පියුටර් කඩෙන් කිව්වා."
+      ],
+      "roman": [
+        "Aluthwaediyaawata rupiyal 3500 yanawa kiyala computer kaden kiwwa."
+      ]
+    },
+    {
+      "id": "si-s007",
+      "kind": "sentence",
+      "native": [
+        "කෝවිල ළඟ තියෙන මල් කඩේ වහලාද?"
+      ],
+      "roman": [
+        "Kowila langa thiyena mal kade wahalada?"
+      ]
+    },
+    {
+      "id": "si-s008",
+      "kind": "sentence",
+      "native": [
+        "බඩු ගේනකොට ගෙදර කවුරුත් නැත්නම් අල්ලපු ගෙදරට භාර දෙන්න."
+      ],
+      "roman": [
+        "Badu genakota gedara kawuruth naethnam allapu gedarata baara denna."
+      ]
+    },
+    {
+      "id": "si-s009",
+      "kind": "sentence",
+      "native": [
+        "ගාණ රුපියල් 950 නෙවෙයි, රුපියල් 590 වෙන්න ඕනේ."
+      ],
+      "roman": [
+        "Gaana rupiyal 950 newei, rupiyal 590 wenna one."
+      ]
+    },
+    {
+      "id": "si-s010",
+      "kind": "sentence",
+      "native": [
+        "පරක්කු වෙලා පිළිතුරු දුන්නට සමාවෙන්න."
+      ],
+      "roman": [
+        "Parakku wela pilithuru dunnata samaawenna."
+      ]
+    },
+    {
+      "id": "si-s011",
+      "kind": "sentence",
+      "native": [
+        "අක්කා එවපු කේක් එක කපන්නත් කලින් පොඩි එකා ඇඟිල්ලෙන් අයිසින් ටිකක් අරන් කාලා."
+      ],
+      "roman": [
+        "Akka ewapu cake eka kapannath kalin podi eka aengillen icing tikak aran kaala."
+      ]
+    },
+    {
+      "id": "si-s012",
+      "kind": "sentence",
+      "native": [
+        "මාතර වැඩමුළුවට ඕනේ බැනර් දෙක print කරලා ඉවර නම් අදම වාහනයක් ලෑස්ති කරමු."
+      ],
+      "roman": [
+        "Matara waedamuluwata one banner deka print karala iwara nam adama waahanayak laesthi karamu."
+      ]
+    },
+    {
+      "id": "si-s013",
+      "kind": "sentence",
+      "native": [
+        "පාර්සලේ අංක 42, විජය පාර, නුගේගොඩ ලිපිනයට එවන්න."
+      ],
+      "roman": [
+        "Parsale anka 42, Wijaya paara, Nugegoda lipinayata ewanna."
+      ]
+    },
+    {
+      "id": "si-s014",
+      "kind": "sentence",
+      "native": [
+        "පිහිනුම් තටාකය නඩත්තු කටයුතු සඳහා අද වසා ඇත."
+      ],
+      "roman": [
+        "Pihinum thataakaya nadaththu katayuthu sandaha ada wasaa aetha."
+      ]
+    },
+    {
+      "id": "si-s015",
+      "kind": "sentence",
+      "native": [
+        "යාපනය පුස්තකාලය සෙනසුරාදාට වහන්නේ හවස කීයටද?"
+      ],
+      "roman": [
+        "Yapanaya pusthakalaya senasuradata wahanne hawasa keeyatada?"
+      ]
+    },
+    {
+      "id": "si-s016",
+      "kind": "sentence",
+      "native": [
+        "රාජගිරියේ ඔෆිස් එකේ ස්කෑනර් එක වැඩ නැති හින්දා අද ලියකියවිලි ටික ෆෝන් එකෙන් scan කළා."
+      ],
+      "roman": [
+        "Rajagiriye office eke scanner eka waeda naethi hinda ada liyakiyawili tika phone eken scan kalaa."
+      ]
+    },
+    {
+      "id": "si-s017",
+      "kind": "sentence",
+      "native": [
+        "පේරාදෙණිය මල් වත්ත බලන්න යන්න කලින් දිනේෂ්ගෙන් අහමු, එයා ඒ පැත්ත හොඳට දන්නවා."
+      ],
+      "roman": [
+        "Peradeniya mal waththa balanna yanna kalin Dineshgen ahamu, eya e paeththa hondata dannawa."
+      ]
+    },
+    {
+      "id": "si-s018",
+      "kind": "sentence",
+      "native": [
+        "සෙල්ලම් බඩු ටික බිම දාලා යන්න එපා, කූඩයට දැම්මට පස්සේ කාටූන් බලන්න පුළුවන්."
+      ],
+      "roman": [
+        "Sellam badu tika bima daala yanna epa, koodayata daemmata passe cartoon balanna puluwan."
+      ]
+    },
+    {
+      "id": "si-s019",
+      "kind": "sentence",
+      "native": [
+        "සුදු පාට කමිසයක් ඕනේ කිව්වට, ලා නිල් පාට එකක් තිබුණොත් ඒක දෙන්න."
+      ],
+      "roman": [
+        "Sudu paata kamisayak one kiwwata, laa nil paata ekak thibunoth eka denna."
+      ]
+    },
+    {
+      "id": "si-s020",
+      "kind": "sentence",
+      "native": [
+        "ෂා, චිත්‍රේ නම් ලස්සනයි!"
+      ],
+      "roman": [
+        "Shaa, chithre nam lassanai!"
+      ]
+    },
+    {
+      "id": "si-s021",
+      "kind": "sentence",
+      "native": [
+        "අතිරස ටිකක් බැදලා තිබ්බා, ඔයාලටත් පංගුවක් වෙන් කළා."
+      ],
+      "roman": [
+        "Athirasa tikak baedala thibba, oyalatath panguwak wen kalaa."
+      ]
+    },
+    {
+      "id": "si-s022",
+      "kind": "sentence",
+      "native": [
+        "ඔෆිස් එකේ ලිෆ්ට් එක දැන් වැඩ කරනවද?"
+      ],
+      "roman": [
+        "Office eke lift eka daen waeda karanawada?"
+      ]
+    },
+    {
+      "id": "si-s023",
+      "kind": "sentence",
+      "native": [
+        "රාජ්‍ය සේවා ගැන විස්තර අහගන්න 1919 අමතන්න පුළුවන්."
+      ],
+      "roman": [
+        "Rajya sewa gaena wisthara ahaganna 1919 amathanna puluwan."
+      ]
+    },
+    {
+      "id": "si-s024",
+      "kind": "sentence",
+      "native": [
+        "ඔරලෝසුවේ බැටරි එක මාරු කරන එකත් ලියාගන්න ඕනේ."
+      ],
+      "roman": [
+        "Oralosuwe battery eka maaru karana ekath liyaganna one."
+      ]
+    },
+    {
+      "id": "si-s025",
+      "kind": "sentence",
+      "native": [
+        "ඩොලර් එකක් රුපියල් කීයද?"
+      ],
+      "roman": [
+        "Dollar ekak rupiyal keeyada?"
+      ]
+    },
+    {
+      "id": "si-s026",
+      "kind": "sentence",
+      "native": [
+        "මඩකලපුවට යන ගමන් signal නැති වුණත් කලින් ඩවුන්ලෝඩ් කරපු පාඩම් ටික අහන්න පුළුවන් වුණා."
+      ],
+      "roman": [
+        "Madakalapuwata yana gaman signal naethi wunath kalin download karapu paadam tika ahanna puluwan wuna."
+      ]
+    },
+    {
+      "id": "si-s027",
+      "kind": "sentence",
+      "native": [
+        "ඉම්රාන් අද වැඩට යන්නේ මීගමුවේ ඉඳලද?"
+      ],
+      "roman": [
+        "Imran ada waedata yanne Meegamuwe indalada?"
+      ]
+    },
+    {
+      "id": "si-s028",
+      "kind": "sentence",
+      "native": [
+        "කරාමෙන් වතුර බිංදු වැටෙනවා."
+      ],
+      "roman": [
+        "Karaamen wathura bindu waetenawa."
+      ]
+    },
+    {
+      "id": "si-s029",
+      "kind": "sentence",
+      "native": [
+        "චන්ද්‍රාට යවන්න, පොඩ්ඩක් ඉන්න, චන්ද්‍රිකාට යවන්න ඕනේ."
+      ],
+      "roman": [
+        "Chandrata yawanna, poddak inna, Chandrikata yawanna one."
+      ]
+    },
+    {
+      "id": "si-s030",
+      "kind": "sentence",
+      "native": [
+        "මෙච්චර පොඩි බෑග් එකකට රුපියල් 2400 නම් වැඩියි."
+      ],
+      "roman": [
+        "Mechchara podi bag ekakata rupiyal 2400 nam waediyi."
+      ]
+    },
+    {
+      "id": "si-s031",
+      "kind": "sentence",
+      "native": [
+        "බඩගිනිද, කෑම බෙදන්නද?"
+      ],
+      "roman": [
+        "Badaginida, kaema bedannada?"
+      ]
+    },
+    {
+      "id": "si-s032",
+      "kind": "sentence",
+      "native": [
+        "ස්තුතියි, විස්තර ටික ලැබුණා."
+      ],
+      "roman": [
+        "Sthuthiyi, wisthara tika laebuna."
+      ]
+    },
+    {
+      "id": "si-s033",
+      "kind": "sentence",
+      "native": [
+        "කඩවතට මෙතන ඉඳලා තව කිලෝමීටර් 12 තියෙනවා."
+      ],
+      "roman": [
+        "Kadawathata methana indala thawa kilometer 12 thiyenawa."
+      ]
+    },
+    {
+      "id": "si-s034",
+      "kind": "sentence",
+      "native": [
+        "පොල් රොටි ඇණවුම ලියාගන්න."
+      ],
+      "roman": [
+        "Pol roti aenawuma liyaganna."
+      ]
+    },
+    {
+      "id": "si-s035",
+      "kind": "sentence",
+      "native": [
+        "ලියපු ඩොකියුමන්ට් එක PDF එකක් විදිහට සේව් කරලා ඩවුන්ලෝඩ්ස් ෆෝල්ඩර් එක ඇතුළට දාන්න."
+      ],
+      "roman": [
+        "Liyapu document eka PDF ekak widihata save karala Downloads folder eka aethulata daanna."
+      ]
+    },
+    {
+      "id": "si-s036",
+      "kind": "sentence",
+      "native": [
+        "අප්ඩේට් එකෙන් පස්සේ ඇප් එක වැහෙන නිසා ඒකේ ස්ක්‍රීන්ෂොට් එකක් සපෝට් එකට යැව්වා."
+      ],
+      "roman": [
+        "Update eken passe app eka waehena nisaa eke screenshot ekak support ekata yaewwa."
+      ]
+    },
+    {
+      "id": "si-s037",
+      "kind": "sentence",
+      "native": [
+        "මිහිරි කියපු කොල්ලුපිටියේ රෙදි කඩේ මට හම්බවුණේ නැහැ, එතනට යන පාර දන්නවද?"
+      ],
+      "roman": [
+        "Mihiri kiyapu Kollupitiye redi kade mata hambawune naehae, ethanata yana paara dannawada?"
+      ]
+    },
+    {
+      "id": "si-s038",
+      "kind": "sentence",
+      "native": [
+        "මිනුම් ගන්න මහන කෙනා හවසට එන්න කිව්වා."
+      ],
+      "roman": [
+        "Minum ganna mahana kena hawasata enna kiwwa."
+      ]
+    },
+    {
+      "id": "si-s039",
+      "kind": "sentence",
+      "native": [
+        "ඉටිපන්දම්, ගිනිපෙට්ටියක්, බැටරි දෙකක් ගත්තොත් ඇති නේද?"
+      ],
+      "roman": [
+        "Itipandam, ginipettiyak, battery dekak gaththoth aethi neda?"
+      ]
+    },
+    {
+      "id": "si-s040",
+      "kind": "sentence",
+      "native": [
+        "අදහස හොඳයි, ඒත් අපිට ඒකට වෙලාව මදි වෙයි."
+      ],
+      "roman": [
+        "Adahasa hondai, eth apita ekata welaawa madi weyi."
+      ]
+    },
+    {
+      "id": "si-s041",
+      "kind": "sentence",
+      "native": [
+        "සාලේ ඉඳගෙන දවසම මැච් බලන ඔයාට නම් ක්‍රීඩා විස්තර කියන රස්සාවක් තමයි හරියන්නේ."
+      ],
+      "roman": [
+        "Saale indagena dawasama match balana oyata nam kreeda wisthara kiyana rassawak thamai hariyanne."
+      ]
+    },
+    {
+      "id": "si-s042",
+      "kind": "sentence",
+      "native": [
+        "ඔබගේ ගෙවීම තහවුරු කර ඇත."
+      ],
+      "roman": [
+        "Obage geweema thahawuru kara aetha."
+      ]
+    },
+    {
+      "id": "si-s043",
+      "kind": "sentence",
+      "native": [
+        "ජනේලේ පැත්තේ අංක 14 ආසනය මට වෙන් කරන්න."
+      ],
+      "roman": [
+        "Janele paeththe anka 14 aasanaya mata wen karanna."
+      ]
+    },
+    {
+      "id": "si-s044",
+      "kind": "sentence",
+      "native": [
+        "බදාදා දවල් පුස්තකාලේ පොත් ආපහු භාර දෙන්න ඕනේ."
+      ],
+      "roman": [
+        "Badada dawal pusthakale poth aapahu baara denna one."
+      ]
+    },
+    {
+      "id": "si-s045",
+      "kind": "sentence",
+      "native": [
+        "දැන් වෙලාව කීයද?"
+      ],
+      "roman": [
+        "Daen welaawa keeyada?"
+      ]
+    },
+    {
+      "id": "si-s046",
+      "kind": "sentence",
+      "native": [
+        "මවුස් එක ස්ක්‍රෝල් වෙන්නේ නැහැ."
+      ],
+      "roman": [
+        "Mouse eka scroll wenne naehae."
+      ]
+    },
+    {
+      "id": "si-s047",
+      "kind": "sentence",
+      "native": [
+        "කන්ද උඩ තියෙන ගෙදරට යන පටු පාරේ වාහන දෙකකට එක පාර මාරු වෙන්න බැහැ."
+      ],
+      "roman": [
+        "Kanda uda thiyena gedarata yana patu paare waahana dekakata eka paara maaru wenna baehae."
+      ]
+    },
+    {
+      "id": "si-s048",
+      "kind": "sentence",
+      "native": [
+        "තක්කාලි කිලෝවක් රුපියල් 280 ගාණේ දෙන්න බැරිද?"
+      ],
+      "roman": [
+        "Thakkali kilowak rupiyal 280 gaane denna baerida?"
+      ]
+    },
+    {
+      "id": "si-s049",
+      "kind": "sentence",
+      "native": [
+        "වටලප්පන් දෙකක් කිව්වට එකක් ඇති, අනික අවලංගු කරන්න."
+      ],
+      "roman": [
+        "Watalappan dekak kiwwata ekak aethi, anika awalangu karanna."
+      ]
+    },
+    {
+      "id": "si-s050",
+      "kind": "sentence",
+      "native": [
+        "වැරදුණාට කමක් නැහැ, ඊළඟ සැරේ තව හොඳට කරමු."
+      ],
+      "roman": [
+        "Waeradunata kamak naehae, eelanga saere thawa hondata karamu."
+      ]
+    },
+    {
+      "id": "si-s051",
+      "kind": "sentence",
+      "native": [
+        "ෆාතිමා, හෙට උදේ 9:30 වෙද්දී ලෑස්ති වෙලා ඉන්න, මම වාහනේ අරන් එන්නම්."
+      ],
+      "roman": [
+        "Fathima, heta ude 9:30 weddi laesthi wela inna, mama waahane aran ennam."
+      ]
+    },
+    {
+      "id": "si-s052",
+      "kind": "sentence",
+      "native": [
+        "අරුණි, නිවාඩුව අනුමත කළා."
+      ],
+      "roman": [
+        "Aruni, niwaaduwa anumatha kalaa."
+      ]
+    },
+    {
+      "id": "si-s053",
+      "kind": "sentence",
+      "native": [
+        "නිමේෂ්, හාල් කිලෝ 5ට රුපියල් 1150 දුන්නද?"
+      ],
+      "roman": [
+        "Nimesh, haal kilo 5ta rupiyal 1150 dunnada?"
+      ]
+    },
+    {
+      "id": "si-s054",
+      "kind": "sentence",
+      "native": [
+        "නිල ඇඳුම් භාර ගැනීමට බිල්පත ඉදිරිපත් කළ යුතුය."
+      ],
+      "roman": [
+        "Nila aendum baara gaeneemata bilpatha idiripath kala yuthuya."
+      ]
+    },
+    {
+      "id": "si-s055",
+      "kind": "sentence",
+      "native": [
+        "සින්දුව මුල ඉඳලා ආපහු play කරන්න පුළුවන්ද?"
+      ],
+      "roman": [
+        "Sinduwa mula indala aapahu play karanna puluwanda?"
+      ]
+    },
+    {
+      "id": "si-s056",
+      "kind": "sentence",
+      "native": [
+        "හෂාන් එවපු ඊමේල් එකේ ඇටෑච්මන්ට් එක නැහැ."
+      ],
+      "roman": [
+        "Hashan ewapu email eke attachment eka naehae."
+      ]
+    },
+    {
+      "id": "si-s057",
+      "kind": "sentence",
+      "native": [
+        "පාලිත අයියා කුරුණෑගල ඔරලෝසු කණුව ළඟ අපි එනකම් ඉන්නවද?"
+      ],
+      "roman": [
+        "Palitha ayya Kurunegala oralosu kanuwa langa api enakam innawada?"
+      ]
+    },
+    {
+      "id": "si-s058",
+      "kind": "sentence",
+      "native": [
+        "හුළඟට දොර වැහෙනවා නේද?"
+      ],
+      "roman": [
+        "Hulangata dora waehenawa neda?"
+      ]
+    },
+    {
+      "id": "si-s059",
+      "kind": "sentence",
+      "native": [
+        "සුරේකා, කුෂන් කවර හතරක් නෙවෙයි, පහක් මැහුවා. පොඩි පුටුවටත් එකක් මැහුව එක මට අමතක වුණා."
+      ],
+      "roman": [
+        "Sureka, cushion kawara hatharak newei, pahak maehuwa. Podi putuwatath ekak maehuwa eka mata amathaka wuna."
+      ]
+    },
+    {
+      "id": "si-s060",
+      "kind": "sentence",
+      "native": [
+        "වෙනදා වගේ හැම වැඩේම බදාගන්නේ නැතුව අද ටිකක් නිදහසේ හිටපු එක හොඳයි කියලා හිතෙනවා."
+      ],
+      "roman": [
+        "Wenada wage haema waedema badaaganne naethuwa ada tikak nidahase hitapu eka hondai kiyala hithenawa."
+      ]
+    },
+    {
+      "id": "si-s061",
+      "kind": "sentence",
+      "native": [
+        "සෙනසුරාදා විහාරමහාදේවී උද්‍යානය ළඟදී හම්බෙලා ඇවිදින්න යමුද?"
+      ],
+      "roman": [
+        "Senasuraada Viharamahadevi udyaanaya langadi hambela aewidinna yamuda?"
+      ]
+    },
+    {
+      "id": "si-s062",
+      "kind": "sentence",
+      "native": [
+        "මේ මාසේ ගමන් වියදම් විදිහට රුපියල් 4200ක් ගෙවලා තියෙනවා."
+      ],
+      "roman": [
+        "Me maase gaman wiyadam widihata rupiyal 4200k gewala thiyenawa."
+      ]
+    },
+    {
+      "id": "si-s063",
+      "kind": "sentence",
+      "native": [
+        "පෙට්ටි 4කට පැන්සල් 50 බැගින් දැම්මා, ඉතුරු 25 මේ ලාච්චුවේ දකුණු පැත්තට දාන්න."
+      ],
+      "roman": [
+        "Petti 4kata paensal 50 baegin daemma, ithuru 25 me lachchuwe dakunu paeththata daanna."
+      ]
+    },
+    {
+      "id": "si-s064",
+      "kind": "sentence",
+      "native": [
+        "ඉරිදා උදේ ජනෙල් තිර හෝදන්න වෙලාවක් වෙන් කරන්න."
+      ],
+      "roman": [
+        "Irida ude janel thira hodanna welaawak wen karanna."
+      ]
+    },
+    {
+      "id": "si-s065",
+      "kind": "sentence",
+      "native": [
+        "පිට්ටු හදන විදිහ පෙන්නන වීඩියෝ එකක් හොයලා දෙන්න."
+      ],
+      "roman": [
+        "Pittu hadana widiha pennana video ekak hoyala denna."
+      ]
+    },
+    {
+      "id": "si-s066",
+      "kind": "sentence",
+      "native": [
+        "ඔය ලින්ක් එක ඔබන්න එපා, තාම ටෙස්ට් කරනවා."
+      ],
+      "roman": [
+        "Oya link eka obanna epa, thaama test karanawa."
+      ]
+    },
+    {
+      "id": "si-s067",
+      "kind": "sentence",
+      "native": [
+        "රුවන් තාම කඩේද?"
+      ],
+      "roman": [
+        "Ruwan thaama kadeda?"
+      ]
+    },
+    {
+      "id": "si-s068",
+      "kind": "sentence",
+      "native": [
+        "කිරිබතට ලුණු මදි වගේ."
+      ],
+      "roman": [
+        "Kiribathata lunu madi wage."
+      ]
+    },
+    {
+      "id": "si-s069",
+      "kind": "sentence",
+      "native": [
+        "චමරි, යෝගට් කීයක් ගේන්නද?"
+      ],
+      "roman": [
+        "Chamari, yogurt keeyak gennada?"
+      ]
+    },
+    {
+      "id": "si-s070",
+      "kind": "sentence",
+      "native": [
+        "උළුඳු වඩේවල කරස් ගාලා හැපෙන ගතියට හරි ආසයි."
+      ],
+      "roman": [
+        "Ulundu wadewala karas gaala haepena gathiyata hari aasai."
+      ]
+    },
+    {
+      "id": "si-s071",
+      "kind": "sentence",
+      "native": [
+        "ඔයාගේ කුඩේ මෙහෙ අමතක වෙලා."
+      ],
+      "roman": [
+        "Oyage kude mehe amathaka wela."
+      ]
+    },
+    {
+      "id": "si-s072",
+      "kind": "sentence",
+      "native": [
+        "කලින් එවපු email එක ගැන තවම පිළිතුරක් ලැබිලා නැද්ද?"
+      ],
+      "roman": [
+        "Kalin ewapu email eka gaena thawama pilithurak laebila naedda?"
+      ]
+    },
+    {
+      "id": "si-s073",
+      "kind": "sentence",
+      "native": [
+        "කාමරේ අංකය 7 නේද?"
+      ],
+      "roman": [
+        "Kamare ankaya 7 neda?"
+      ]
+    },
+    {
+      "id": "si-s074",
+      "kind": "sentence",
+      "native": [
+        "අනුරාධපුරේ නවාතැනට යන්න කලින් චෙක්-ඉන් වෙලාව අයිතිකරුගෙන් අහගන්න."
+      ],
+      "roman": [
+        "Anuradhapure nawathaenata yanna kalin check-in welaawa aithikarugen ahaganna."
+      ]
+    },
+    {
+      "id": "si-s075",
+      "kind": "sentence",
+      "native": [
+        "හෙට බදුල්ලට වැස්ස තියෙයිද කියලා බලන්න."
+      ],
+      "roman": [
+        "Heta Badullata waessa thiyeida kiyala balanna."
+      ]
+    },
+    {
+      "id": "si-s076",
+      "kind": "sentence",
+      "native": [
+        "යසිරු, කෝඩ් එක රෙපෝ එකට පුෂ් කළාද?"
+      ],
+      "roman": [
+        "Yasiru, code eka repo ekata push kalaada?"
+      ]
+    },
+    {
+      "id": "si-s077",
+      "kind": "sentence",
+      "native": [
+        "ඉස්සරහ හන්දියෙන් වමට හැරෙන්න."
+      ],
+      "roman": [
+        "Issaraha handiyen wamata haerenna."
+      ]
+    },
+    {
+      "id": "si-s078",
+      "kind": "sentence",
+      "native": [
+        "අවුරුද්දට කැවුම් හදනකොට අපිවත් අඬගහන්න, එකතු වෙලා වැඩ කළාම මහන්සියත් අඩුයිනේ."
+      ],
+      "roman": [
+        "Awuruddata kaewum hadanakota apiwath andagahanna, ekathu wela waeda kalaama mahansiyath aduyine."
+      ]
+    },
+    {
+      "id": "si-s079",
+      "kind": "sentence",
+      "native": [
+        "රිසිට් එකත් මෙතන තියෙනවද?"
+      ],
+      "roman": [
+        "Receipt ekath methana thiyenawada?"
+      ]
+    },
+    {
+      "id": "si-s080",
+      "kind": "sentence",
+      "native": [
+        "පොඩි කාලේ මැහුම් වැඩ කරන්න කම්මැලි හිතුණා. දැන් ඒවා ආසාවෙන් කරන එක මටත් පුදුමයි."
+      ],
+      "roman": [
+        "Podi kale maehum waeda karanna kammaeli hithuna. Daen ewa aasawen karana eka matath pudumai."
+      ]
+    },
+    {
+      "id": "si-s081",
+      "kind": "sentence",
+      "native": [
+        "අර බළලා ආයෙත් මගේ පුටුව අල්ලගෙන නිදි."
+      ],
+      "roman": [
+        "Ara balala aayeth mage putuwa allagena nidi."
+      ]
+    },
+    {
+      "id": "si-s082",
+      "kind": "sentence",
+      "native": [
+        "බත්තරමුල්ල ශාඛාවට අලුත් සේවකයෙක් ගන්න දැන්වීම අද පළ කරන්න."
+      ],
+      "roman": [
+        "Battaramulla shaakawata aluth sewakayek ganna daenweema ada pala karanna."
+      ]
+    },
+    {
+      "id": "si-s083",
+      "kind": "sentence",
+      "native": [
+        "පැකේජ් එක දවස් 14කට වලංගුයි."
+      ],
+      "roman": [
+        "Package eka dawas 14kata walangui."
+      ]
+    },
+    {
+      "id": "si-s084",
+      "kind": "sentence",
+      "native": [
+        "මාලිනී නැන්දාගෙන් වැලිතලප හදන හැටි අහගන්නත් තියෙනවා."
+      ],
+      "roman": [
+        "Malini naendagen waelithalapa hadana haeti ahagannath thiyenawa."
+      ]
+    },
+    {
+      "id": "si-s085",
+      "kind": "sentence",
+      "native": [
+        "ස්ක්‍රීන් එකේ එළිය තව ටිකක් වැඩි කරන්න."
+      ],
+      "roman": [
+        "Screen eke eliya thawa tikak waedi karanna."
+      ]
+    },
+    {
+      "id": "si-s086",
+      "kind": "sentence",
+      "native": [
+        "වයි-ෆයි එක හරිම ස්ලෝ."
+      ],
+      "roman": [
+        "Wi-Fi eka harima slow."
+      ]
+    },
+    {
+      "id": "si-s087",
+      "kind": "sentence",
+      "native": [
+        "සීයාට වාඩි වෙන්න ජනේලයක් ළඟ ඉඩක් ලැබුණා."
+      ],
+      "roman": [
+        "Seeyata waadi wenna janelayak langa idak laebuna."
+      ]
+    },
+    {
+      "id": "si-s088",
+      "kind": "sentence",
+      "native": [
+        "ලිපේ ගින්දර අඩු කරන්න."
+      ],
+      "roman": [
+        "Lipe gindara adu karanna."
+      ]
+    },
+    {
+      "id": "si-s089",
+      "kind": "sentence",
+      "native": [
+        "නිල් එකද, කොළ එකද ඕනේ?"
+      ],
+      "roman": [
+        "Nil ekada, kola ekada one?"
+      ]
+    },
+    {
+      "id": "si-s090",
+      "kind": "sentence",
+      "native": [
+        "උදව්වට බොහොම ස්තුතියි, සචිනි."
+      ],
+      "roman": [
+        "Udawwata bohoma sthuthiyi, Sachini."
+      ]
+    },
+    {
+      "id": "si-s091",
+      "kind": "sentence",
+      "native": [
+        "වැස්ස නිසා රෙදි තෙමුණා."
+      ],
+      "roman": [
+        "Waessa nisaa redi themuna."
+      ]
+    },
+    {
+      "id": "si-s092",
+      "kind": "sentence",
+      "native": [
+        "ඔබගේ සහයෝගය ඉතා අගය කරමි."
+      ],
+      "roman": [
+        "Obage sahayogaya ithaa agaya karami."
+      ]
+    },
+    {
+      "id": "si-s093",
+      "kind": "sentence",
+      "native": [
+        "පාඨමාලාවට ලියාපදිංචි වෙන්න පුළුවන් 2026 අගෝස්තු 21 වැනිදා වෙනකම්."
+      ],
+      "roman": [
+        "Paatamaalawata liyapadinchi wenna puluwan 2026 Agosthu 21 waenida wenakam."
+      ]
+    },
+    {
+      "id": "si-s094",
+      "kind": "sentence",
+      "native": [
+        "ලැප්ටොප් එකේ පරණ පින්තූර වෙනම ෆෝල්ඩර් එකකට දාගන්න ඕනේ."
+      ],
+      "roman": [
+        "Laptop eke parana pinthoora wenama folder ekakata daaganna one."
+      ]
+    },
+    {
+      "id": "si-s095",
+      "kind": "sentence",
+      "native": [
+        "අයේෂාට කෝල් එකක් ගන්න."
+      ],
+      "roman": [
+        "Ayeshata call ekak ganna."
+      ]
+    },
+    {
+      "id": "si-s096",
+      "kind": "sentence",
+      "native": [
+        "Teams එකෙන් ස්ක්‍රීන් එක පොඩ්ඩක් ෂෙයාර් කරන්න පුළුවන්ද?"
+      ],
+      "roman": [
+        "Teams eken screen eka poddak share karanna puluwanda?"
+      ]
+    },
+    {
+      "id": "si-s097",
+      "kind": "sentence",
+      "native": [
+        "පාරේ වැඩ කෙරෙන හින්දා වෙනදා බහින තැනට වඩා ටිකක් එහායින් බැහැලා පයින් එන්න වුණා."
+      ],
+      "roman": [
+        "Paare waeda kerena hinda wenada bahina thaenata wadaa tikak ehaayin baehaelaa payin enna wuna."
+      ]
+    },
+    {
+      "id": "si-s098",
+      "kind": "sentence",
+      "native": [
+        "පොඩ්ඩාගේ කෑම පෙට්ටිය බෑග් එක ඇතුළේ නැද්ද?"
+      ],
+      "roman": [
+        "Poddage kaema pettiya bag eka aethule naedda?"
+      ]
+    },
+    {
+      "id": "si-s099",
+      "kind": "sentence",
+      "native": [
+        "පණිවිඩේ යවන්නද, නැත්නම් ඔයා තව මොනවා හරි එකතු කරනවද?"
+      ],
+      "roman": [
+        "Paniwide yawannada, naethnam oya thawa monawa hari ekathu karanawada?"
+      ]
+    },
+    {
+      "id": "si-s100",
+      "kind": "sentence",
+      "native": [
+        "තරුෂි, ඉරිදාට බැඩ්මින්ටන් ගහන්න කට්ටිය එකතු කරගමුද?"
+      ],
+      "roman": [
+        "Tharushi, iridaata badminton gahanna kattiya ekathu karagamuda?"
+      ]
+    },
+    {
+      "id": "si-s101",
+      "kind": "sentence",
+      "native": [
+        "වැඩේ භාරගන්න කලින් ඒකට ගත වෙන කාලය ගැන පැහැදිලි අදහසක් අපට දෙන්න පුළුවන්ද?"
+      ],
+      "roman": [
+        "Waede baaraganna kalin ekata gatha wena kaalaya gaena paehaedili adahasak apata denna puluwanda?"
+      ]
+    },
+    {
+      "id": "si-s102",
+      "kind": "sentence",
+      "native": [
+        "රුපියල් 2750ට ගත්ත කමිසයේ කර අඟල් 15යි, අඟල් 16 එකකට මාරු කරගන්න පුළුවන්ද?"
+      ],
+      "roman": [
+        "Rupiyal 2750ta gaththa kamisaye kara angal 15yi, angal 16 ekakata maaru karaganna puluwanda?"
+      ]
+    },
+    {
+      "id": "si-s103",
+      "kind": "sentence",
+      "native": [
+        "පැළවලට වතුර දාන්නත් තියෙනවා."
+      ],
+      "roman": [
+        "Paelawalata wathura daannath thiyenawa."
+      ]
+    },
+    {
+      "id": "si-s104",
+      "kind": "sentence",
+      "native": [
+        "විනාඩි 7කට ටයිමර් එකක් තියන්න."
+      ],
+      "roman": [
+        "Winaadi 7kata timer ekak thiyanna."
+      ]
+    },
+    {
+      "id": "si-s105",
+      "kind": "sentence",
+      "native": [
+        "ප්‍රින්ටර් එක ආයෙත් හිරවෙලා."
+      ],
+      "roman": [
+        "Printer eka aayeth hirawela."
+      ]
+    },
+    {
+      "id": "si-s106",
+      "kind": "sentence",
+      "native": [
+        "පාලම පහු කළාම වම් පැත්තේ බේකරිය පේනවා."
+      ],
+      "roman": [
+        "Paalama pahu kalaama wam paeththe bekariya penawa."
+      ]
+    },
+    {
+      "id": "si-s107",
+      "kind": "sentence",
+      "native": [
+        "හිරුණිගේ පුතාට පාසලෙන් දීපු අයදුම්පත පුරවලා යැව්වද?"
+      ],
+      "roman": [
+        "Hirunige puthata paasalen deepu ayadumpatha purawala yaewwada?"
+      ]
+    },
+    {
+      "id": "si-s108",
+      "kind": "sentence",
+      "native": [
+        "කතුරයි, ටේප් එකයි, ගම් බෝතලෙයි මෙතනට ගෙනත් දෙනවද?"
+      ],
+      "roman": [
+        "Kathurai, tape ekai, gum bothalei methanata genath denawada?"
+      ]
+    },
+    {
+      "id": "si-s109",
+      "kind": "sentence",
+      "native": [
+        "ඔයාලා පිටත් වෙන්න කලින් මට පින්තූරයක් එවන්න."
+      ],
+      "roman": [
+        "Oyala pitath wenna kalin mata pinthoorayak ewanna."
+      ]
+    },
+    {
+      "id": "si-s110",
+      "kind": "sentence",
+      "native": [
+        "අලුත් පාස්වර්ඩ් එක දාලත් අකවුන්ට් එකට ලොගින් වෙන්න බැරි නිසා IT අංශයට දැනුම් දුන්නා."
+      ],
+      "roman": [
+        "Aluth password eka daalath account ekata login wenna baeri nisaa IT anshayata daenum dunna."
+      ]
+    },
+    {
+      "id": "si-s111",
+      "kind": "sentence",
+      "native": [
+        "චාජ් එක දැන් 24% විතරයි."
+      ],
+      "roman": [
+        "Charge eka daen 24% witharai."
+      ]
+    },
+    {
+      "id": "si-s112",
+      "kind": "sentence",
+      "native": [
+        "බැලන්ස් එක රුපියල් 38යි. ෆෝන් එකට රීලෝඩ් එකක් ගහගන්න."
+      ],
+      "roman": [
+        "Balance eka rupiyal 38yi. Phone ekata reload ekak gahaganna."
+      ]
+    },
+    {
+      "id": "si-s113",
+      "kind": "sentence",
+      "native": [
+        "ඇල්ලට යන පාර map එකේ පෙන්නලා යන්න කොච්චර වෙලාවක් යයිද කියන්න."
+      ],
+      "roman": [
+        "Ellata yana paara map eke pennala yanna kochchara welaawak yayida kiyanna."
+      ]
+    },
+    {
+      "id": "si-s114",
+      "kind": "sentence",
+      "native": [
+        "Excel එකේ එකතුව වැරදියි වගේ, තව සැරයක් පොඩ්ඩක් බලනවද?"
+      ],
+      "roman": [
+        "Excel eke ekathuwa waeradiyi wage, thawa saerayak poddak balanawada?"
+      ]
+    },
+    {
+      "id": "si-s115",
+      "kind": "sentence",
+      "native": [
+        "සැලෝන් එකේ පුටු ඔක්කොම පිරිලා."
+      ],
+      "roman": [
+        "Salon eke putu okkoma pirila."
+      ]
+    },
+    {
+      "id": "si-s116",
+      "kind": "sentence",
+      "native": [
+        "පරණ පත්තර මිටිය වෙනම බැඳලා දොර ළඟින් තියන්න, එකතු කරන කෙනා අද දවල් එනවා."
+      ],
+      "roman": [
+        "Parana paththara mitiya wenama baendala dora langin thiyanna, ekathu karana kena ada dawal enawa."
+      ]
+    },
+    {
+      "id": "si-s117",
+      "kind": "sentence",
+      "native": [
+        "නැහැ, ලොකු හැන්ද දෙන්න."
+      ],
+      "roman": [
+        "Naehae, loku haenda denna."
+      ]
+    },
+    {
+      "id": "si-s118",
+      "kind": "sentence",
+      "native": [
+        "අනේ මල්ලි, සද්දේ ටිකක් අඩු කරන්න. ආච්චිට දැන් නින්ද ගියා විතරයි."
+      ],
+      "roman": [
+        "Ane malli, sadde tikak adu karanna. Aachchita daen ninda giya witharai."
+      ]
+    },
+    {
+      "id": "si-s119",
+      "kind": "sentence",
+      "native": [
+        "දිනූෂාගේ යෝජනාව ගැන කට්ටියගේ අදහස් දැනගන්න කැමතියි."
+      ],
+      "roman": [
+        "Dinushage yojanaawa gaena kattiyage adahas daenaganna kaemathiyi."
+      ]
+    },
+    {
+      "id": "si-s120",
+      "kind": "sentence",
+      "native": [
+        "ටීචර්, 32 වැනි පිටුවේ ගණන් 6ම සිකුරාදාට හදාගෙන එන්නද?"
+      ],
+      "roman": [
+        "Teacher, 32 waeni pituwe ganan 6ma sikuraadata hadaagena ennada?"
+      ]
+    },
+    {
+      "id": "si-s121",
+      "kind": "sentence",
+      "native": [
+        "කේෂාන්ගේ උපන්දිනය 2026 දෙසැම්බර් 18 වැනිදා නිසා මේ සතිය ඇතුළත තෑග්ගක් තෝරගන්න ඕනේ."
+      ],
+      "roman": [
+        "Keshange upandinaya 2026 desaembar 18 waenida nisaa me sathiya aethulatha thaeggak thoraganna one."
+      ]
+    },
+    {
+      "id": "si-s122",
+      "kind": "sentence",
+      "native": [
+        "ළඟම තියෙන තැපැල් කන්තෝරුව කොහෙද කියලා පෙන්නන්න."
+      ],
+      "roman": [
+        "Langama thiyena thaepael kanthoruwa koheda kiyala pennanna."
+      ]
+    },
+    {
+      "id": "si-s123",
+      "kind": "sentence",
+      "native": [
+        "Zoom එකේ සද්දේ මට පැහැදිලිව ඇහෙන්නේ නැහැ."
+      ],
+      "roman": [
+        "Zoom eke sadde mata paehaediliwa aehenne naehae."
+      ]
+    },
+    {
+      "id": "si-s124",
+      "kind": "sentence",
+      "native": [
+        "පිටිපස්සේ දොරෙන් ඇතුළට ඇවිත් උඩ තට්ටුවට නගින්න."
+      ],
+      "roman": [
+        "Pitipasse doren aethulata aewith uda thattuwata naginna."
+      ]
+    },
+    {
+      "id": "si-s125",
+      "kind": "sentence",
+      "native": [
+        "කොට්ටාවෙන් ගත්ත කලිසම ටිකක් දිග වැඩියි."
+      ],
+      "roman": [
+        "Kottawen gaththa kalisama tikak diga waediyi."
+      ]
+    },
+    {
+      "id": "si-s126",
+      "kind": "sentence",
+      "native": [
+        "කෑගල්ලට යනවා කියලා ලියපු එක මකන්න. ගමන තාම හරියට තීරණය කරලා නැහැ කියලා යවමු."
+      ],
+      "roman": [
+        "Kegalleta yanawa kiyala liyapu eka makanna. Gamana thaama hariyata theeranaya karala naehae kiyala yawamu."
+      ]
+    },
+    {
+      "id": "si-s127",
+      "kind": "sentence",
+      "native": [
+        "කවීෂා, හදන්න දීපු සපත්තු දෙක මම අරගෙන ආවා."
+      ],
+      "roman": [
+        "Kaveesha, hadanna deepu sapaththu deka mama aragena aawa."
+      ]
+    },
+    {
+      "id": "si-s128",
+      "kind": "sentence",
+      "native": [
+        "සමාවෙන්න, කෝල් එකට ජොයින් වෙන්න බැරි වුණා."
+      ],
+      "roman": [
+        "Samaawenna, call ekata join wenna baeri wuna."
+      ]
+    },
+    {
+      "id": "si-s129",
+      "kind": "sentence",
+      "native": [
+        "අලුත් සපත්තු දෙකට 20% වට්ටමක් තිබුණ නිසා රුපියල් 6000 වෙනුවට රුපියල් 4800 ගෙව්වා."
+      ],
+      "roman": [
+        "Aluth sapatthu dekata 20% wattamak thibuna nisaa rupiyal 6000 wenuwata rupiyal 4800 gewwa."
+      ]
+    },
+    {
+      "id": "si-s130",
+      "kind": "sentence",
+      "native": [
+        "වාහනේ ඇතුළත් පිරිසිදු කරගන්න."
+      ],
+      "roman": [
+        "Waahane aethulath pirisidu karaganna."
+      ]
+    },
+    {
+      "id": "si-s131",
+      "kind": "sentence",
+      "native": [
+        "බ්ලූටූත් එක ඔන් කරන්න."
+      ],
+      "roman": [
+        "Bluetooth eka on karanna."
+      ]
+    },
+    {
+      "id": "si-s132",
+      "kind": "sentence",
+      "native": [
+        "මෙම සොෆ්ට්වෙයාර් එක සඳහා මාසික ගාස්තුවක් අය නොකෙරේ."
+      ],
+      "roman": [
+        "Mema software eka sandaha maasika gaasthuwak aya nokere."
+      ]
+    },
+    {
+      "id": "si-s133",
+      "kind": "sentence",
+      "native": [
+        "දුම්රිය අද පරක්කුයි."
+      ],
+      "roman": [
+        "Dumriya ada parakkuyi."
+      ]
+    },
+    {
+      "id": "si-s134",
+      "kind": "sentence",
+      "native": [
+        "අල්මාරියේ යතුර හිරවෙන හින්දා අගුල මාරු කරන්න වෙයි."
+      ],
+      "roman": [
+        "Almaariye yathura hirawena hinda agula maaru karanna weyi."
+      ]
+    },
+    {
+      "id": "si-s135",
+      "kind": "sentence",
+      "native": [
+        "එන්නේ බ්‍රහස්පතින්දා නෙවෙයි, ලබන අඟහරුවාදා කියලා ලියන්න."
+      ],
+      "roman": [
+        "Enne brahaspathinda newei, labana angaharuwada kiyala liyanna."
+      ]
+    },
+    {
+      "id": "si-s136",
+      "kind": "sentence",
+      "native": [
+        "ගණන් පොතේ උදාහරණය බැලුවත් මේ ප්‍රශ්නේ හදන විදිහ තේරෙන්නේ නැහැ, ඔයාට වෙලාවක් තියෙනවද?"
+      ],
+      "roman": [
+        "Ganan pothe udaaharanaya baeluwath me prashne hadana widiha therenne naehae, oyata welaawak thiyenawada?"
+      ]
+    },
+    {
+      "id": "si-s137",
+      "kind": "sentence",
+      "native": [
+        "රත්නපුර ශාඛාවේ පුහුණුව ඉවර වුණ නිසා සේවකයන්ට ලබන සතියේ ඉඳලා වැඩ භාරගන්න පුළුවන්."
+      ],
+      "roman": [
+        "Ratnapura shaakhaawe puhunuwa iwara wuna nisaa sewakayanta labana sathiye indala waeda baaraganna puluwan."
+      ]
+    },
+    {
+      "id": "si-s138",
+      "kind": "sentence",
+      "native": [
+        "හවස 5:40ට යන දුම්රියේ යන්න නම් හවස 5:10 වෙද්දී මරදාන දුම්රිය ස්ථානයට එන්න."
+      ],
+      "roman": [
+        "Hawasa 5:40ta yana dumriye yanna nam hawasa 5:10 weddi Maradana dumriya sthanayata enna."
+      ]
+    },
+    {
+      "id": "si-s139",
+      "kind": "sentence",
+      "native": [
+        "අඟහරුවාදා නැටුම් පන්තිය තියෙනවා."
+      ],
+      "roman": [
+        "Angaharuwada naetum panthiya thiyenawa."
+      ]
+    },
+    {
+      "id": "si-s140",
+      "kind": "sentence",
+      "native": [
+        "කීබෝඩ් එක සිංහලට මාරු කරන්නේ කොහොමද කියලා කියන්න."
+      ],
+      "roman": [
+        "Keyboard eka Sinhalata maaru karanne kohomada kiyala kiyanna."
+      ]
+    },
+    {
+      "id": "si-s141",
+      "kind": "sentence",
+      "native": [
+        "නිපුනි, මයික්‍රෆෝන් එක මියුට් ද?"
+      ],
+      "roman": [
+        "Nipuni, microphone eka mute da?"
+      ]
+    },
+    {
+      "id": "si-s142",
+      "kind": "sentence",
+      "native": [
+        "ශාන්ති අක්කා දෙහිවල ඉඳලා එන්නේ බස් එකේ."
+      ],
+      "roman": [
+        "Shanthi akka Dehiwala indala enne bus eke."
+      ]
+    },
+    {
+      "id": "si-s143",
+      "kind": "sentence",
+      "native": [
+        "අහන්නකෝ, සෙරෙප්පු දෙක මාරු වෙලාද?"
+      ],
+      "roman": [
+        "Ahannako, sereppu deka maaru welada?"
+      ]
+    },
+    {
+      "id": "si-s144",
+      "kind": "sentence",
+      "native": [
+        "අපේ පැත්තේ වතුර කපලා."
+      ],
+      "roman": [
+        "Ape paeththe wathura kapala."
+      ]
+    },
+    {
+      "id": "si-s145",
+      "kind": "sentence",
+      "native": [
+        "බ්‍රහස්පතින්දා දවල් 2:30ට තියෙන සාකච්ඡාව සිකුරාදාට මාරු කරමුද?"
+      ],
+      "roman": [
+        "Brahaspathinda dawal 2:30ta thiyena saakachchaawa Sikuraadata maaru karamuda?"
+      ]
+    },
+    {
+      "id": "si-s146",
+      "kind": "sentence",
+      "native": [
+        "දුවට තාම අවුරුදු 6 විතරයි."
+      ],
+      "roman": [
+        "Duwata thaama awurudu 6 witharai."
+      ]
+    },
+    {
+      "id": "si-s147",
+      "kind": "sentence",
+      "native": [
+        "රවුටර් එක රීස්ටාට් කළාම කනෙක්ෂන් එක ආවා."
+      ],
+      "roman": [
+        "Router eka restart kalaama connection eka aawa."
+      ]
+    },
+    {
+      "id": "si-s148",
+      "kind": "sentence",
+      "native": [
+        "නැන්දා පාරෙන් එහා පැත්තේ ඉන්නේ."
+      ],
+      "roman": [
+        "Naenda paaren eha paeththe inne."
+      ]
+    },
+    {
+      "id": "si-s149",
+      "kind": "sentence",
+      "native": [
+        "නදීෂා, එන ගමන් පාන් ගෙඩියක් අරන් එන්න පුළුවන්ද?"
+      ],
+      "roman": [
+        "Nadeesha, ena gaman paan gediyak aran enna puluwanda?"
+      ]
+    },
+    {
+      "id": "si-s150",
+      "kind": "sentence",
+      "native": [
+        "රිස්වාන් එවපු ඉන්වොයිස් එකේ මුළු ගාණ හරිද?"
+      ],
+      "roman": [
+        "Rizwan ewapu invoice eke mulu gaana harida?"
+      ]
+    },
+    {
+      "id": "si-s151",
+      "kind": "sentence",
+      "native": [
+        "තරගය දිනුවේ ලකුණු 18කින්."
+      ],
+      "roman": [
+        "Tharagaya dinuwe lakunu 18kin."
+      ]
+    },
+    {
+      "id": "si-s152",
+      "kind": "sentence",
+      "native": [
+        "ගාල්ලට ආවම පණිවිඩයක් දාන්න, අපි එක්ක යන්න එන්නම්."
+      ],
+      "roman": [
+        "Gallata aawama paniwidayak daanna, api ekka yanna ennam."
+      ]
+    },
+    {
+      "id": "si-s153",
+      "kind": "sentence",
+      "native": [
+        "ක්ලයන්ට් ඉල්ලපු වෙනස්කම් ඔක්කොම අලුත් file එකට දැම්මා."
+      ],
+      "roman": [
+        "Client illapu wenaskam okkoma aluth file ekata daemma."
+      ]
+    },
+    {
+      "id": "si-s154",
+      "kind": "sentence",
+      "native": [
+        "සඳුදා උදේ 8:15 වෙනකොට මීටින් එක පටන් ගන්නවා."
+      ],
+      "roman": [
+        "Sanduda ude 8:15 wenakota meeting eka patan gannawa."
+      ]
+    },
+    {
+      "id": "si-s155",
+      "kind": "sentence",
+      "native": [
+        "අම්මා අද මහන මැෂිම හදන්න දීලා ආවා."
+      ],
+      "roman": [
+        "Amma ada mahana maeshima hadanna deela aawa."
+      ]
+    },
+    {
+      "id": "si-s156",
+      "kind": "sentence",
+      "native": [
+        "රෑට මටත් ඉඳිආප්ප ටිකක් ඉතුරු කරලා තියන්න."
+      ],
+      "roman": [
+        "Raeta matath indiappa tikak ithuru karala thiyanna."
+      ]
+    },
+    {
+      "id": "si-s157",
+      "kind": "sentence",
+      "native": [
+        "තාත්තාගේ කණ්ණාඩිය මේසෙ උඩ ඇති, පොඩ්ඩක් බලන්නකෝ."
+      ],
+      "roman": [
+        "Thaththage kannadiya mese uda aethi, poddak balannako."
+      ]
+    },
+    {
+      "id": "si-s158",
+      "kind": "sentence",
+      "native": [
+        "දෙන්නම තාම තරහද?"
+      ],
+      "roman": [
+        "Dennama thaama tharahada?"
+      ]
+    },
+    {
+      "id": "si-s159",
+      "kind": "sentence",
+      "native": [
+        "පුතාගේ පළවෙනි නැටුම බලලා අපි දෙන්නටම ඇඬුණා."
+      ],
+      "roman": [
+        "Puthaage palaweni naetuma balala api dennatama aenduna."
+      ]
+    }
+  ]
+}

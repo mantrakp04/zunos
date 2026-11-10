@@ -1,0 +1,1808 @@
+{
+  "lang": "ru",
+  "starter": [
+    "ru-s095",
+    "ru-s065",
+    "ru-s038",
+    "ru-s053",
+    "ru-s137",
+    "ru-s086",
+    "ru-s073",
+    "ru-s051",
+    "ru-s151",
+    "ru-s072",
+    "ru-s085",
+    "ru-s063",
+    "ru-s133",
+    "ru-s100",
+    "ru-s035",
+    "ru-s122",
+    "ru-s142",
+    "ru-s021",
+    "ru-p01",
+    "ru-s116",
+    "ru-s088",
+    "ru-s019",
+    "ru-s081",
+    "ru-s103",
+    "ru-s004",
+    "ru-s083",
+    "ru-s030",
+    "ru-s101",
+    "ru-s020",
+    "ru-s134",
+    "ru-s024",
+    "ru-s097",
+    "ru-s037",
+    "ru-s105",
+    "ru-s016",
+    "ru-s080",
+    "ru-p08",
+    "ru-s148",
+    "ru-s102",
+    "ru-s112",
+    "ru-s028",
+    "ru-s059",
+    "ru-s042",
+    "ru-s026",
+    "ru-s048",
+    "ru-s069",
+    "ru-s043",
+    "ru-s058",
+    "ru-s078",
+    "ru-s068",
+    "ru-s117",
+    "ru-s087",
+    "ru-s146",
+    "ru-s029",
+    "ru-s109"
+  ],
+  "items": [
+    {
+      "id": "ru-p01",
+      "kind": "para",
+      "title": "Last Night's Hockey Match",
+      "native": [
+        "Ты вчера смотрел хоккей или опять уснул перед самым интересным?",
+        "Мы с Маратом смотрели матч у него дома в Казани.",
+        "Анна принесла пирог с картошкой, а я забежал за семечками.",
+        "К последнему периоду даже его мама отложила вязание и придвинулась к экрану.",
+        "Когда наши сравняли счёт, Марат чуть не опрокинул чашку на ковёр.",
+        "Потом вратарь так выручил, что мы все разом вскочили с дивана.",
+        "После финальной сирены ещё долго обсуждали, кто лучше сыграл в защите.",
+        "Сегодня в нашем дворе только про этот матч и говорят.",
+        "В следующий раз приходи к нам, а то одному смотреть совсем скучно."
+      ],
+      "roman": [
+        "Ty vchera smotrel khokkey ili opyat usnul pered samym interesnym?",
+        "My s Maratom smotreli match u nego doma v Kazani.",
+        "Anna prinesla pirog s kartoshkoy, a ya zabezhal za semechkami.",
+        "K poslednemu periodu dazhe ego mama otlozhila vyazanie i pridvinulas k ekranu.",
+        "Kogda nashi sravnyali schyot, Marat chut ne oprokinul chashku na kovyor.",
+        "Potom vratar tak vyruchil, chto my vse razom vskochili s divana.",
+        "Posle finalnoy sireny eshchyo dolgo obsuzhdali, kto luchshe sygral v zashchite.",
+        "Segodnya v nashem dvore tolko pro etot match i govoryat.",
+        "V sleduyushchiy raz prikhodi k nam, a to odnomu smotret sovsem skuchno."
+      ]
+    },
+    {
+      "id": "ru-p02",
+      "kind": "para",
+      "title": "Handover Before Summer Leave",
+      "native": [
+        "Коллеги, с 12 июня я в отпуске, поэтому заранее передаю текущие задачи.",
+        "Все документы по пермскому филиалу лежат в общей папке на диске.",
+        "В таблице Excel я отметил сроки и добавил комментарии по каждому заказу.",
+        "Ольга, пожалуйста, отправьте клиенту смету после того, как он подтвердит размеры.",
+        "Денис уже получил контакты поставщика и договорится о доставке мебели.",
+        "Ключ от шкафа с образцами я оставлю у администратора Ирины.",
+        "Созвон с командой из Екатеринбурга назначен на понедельник в 11:00.",
+        "Светлана, внесите в готовый отчёт данные за пятницу и отправьте руководителю.",
+        "Пожалуйста, напишите мне до вечера, если по передаче дел остались вопросы."
+      ],
+      "roman": [
+        "Kollegi, s 12 iyunya ya v otpuske, poetomu zaranee peredayu tekushchie zadachi.",
+        "Vse dokumenty po permskomu filialu lezhat v obshchey papke na diske.",
+        "V tablitse Excel ya otmetil sroki i dobavil kommentarii po kazhdomu zakazu.",
+        "Olga, pozhaluysta, otpravte klientu smetu posle togo, kak on podtverdit razmery.",
+        "Denis uzhe poluchil kontakty postavshchika i dogovoritsya o dostavke mebeli.",
+        "Klyuch ot shkafa s obraztsami ya ostavlyu u administratora Iriny.",
+        "Sozvon s komandoy iz Ekaterinburga naznachen na ponedelnik v 11:00.",
+        "Svetlana, vnesite v gotovyy otchyot dannye za pyatnitsu i otpravte rukovoditelyu.",
+        "Pozhaluysta, napishite mne do vechera, esli po peredache del ostalis voprosy."
+      ]
+    },
+    {
+      "id": "ru-p03",
+      "kind": "para",
+      "title": "Learning to Cycle in Samara",
+      "native": [
+        "Прошлым летом я наконец решилась научиться кататься на велосипеде по городу.",
+        "Подруга Лена привезла свой старый велосипед на набережную в Самаре.",
+        "Мы пришли пораньше, пока на дорожке было мало людей.",
+        "Сначала я держалась за руль так крепко, что устали пальцы.",
+        "Лена придерживала седло и просила смотреть вперёд, а не под ноги.",
+        "У киоска с мороженым я вдруг поняла, что еду совершенно сама.",
+        "От радости я громко засмеялась и чуть не свернула на газон.",
+        "Потом я научилась плавно тормозить и спокойно объезжать лужи у скамеек.",
+        "Домой я вернулась в пыльных кроссовках и сразу начала выбирать велосипед."
+      ],
+      "roman": [
+        "Proshlym letom ya nakonets reshilas nauchitsya katatsya na velosipede po gorodu.",
+        "Podruga Lena privezla svoy staryy velosiped na naberezhnuyu v Samare.",
+        "My prishli poranshe, poka na dorozhke bylo malo lyudey.",
+        "Snachala ya derzhalas za rul tak krepko, chto ustali paltsy.",
+        "Lena priderzhivala sedlo i prosila smotret vperyod, a ne pod nogi.",
+        "U kioska s morozhenym ya vdrug ponyala, chto edu sovershenno sama.",
+        "Ot radosti ya gromko zasmeyalas i chut ne svernula na gazon.",
+        "Potom ya nauchilas plavno tormozit i spokoyno obezzhat luzhi u skameek.",
+        "Domoy ya vernulas v pylnykh krossovkakh i srazu nachala vybirat velosiped."
+      ]
+    },
+    {
+      "id": "ru-p04",
+      "kind": "para",
+      "title": "Tea at Home in Tula",
+      "native": [
+        "У нас дома в Туле чай заваривают в небольшом фарфоровом чайнике.",
+        "Для начала вскипятите свежую воду, а заварочный чайник ополосните кипятком.",
+        "Насыпьте в заварочный чайник 3 чайные ложки чёрного чая без добавок.",
+        "Залейте чайные листья кипятком, оставив немного места под крышкой.",
+        "Накройте чайник крышкой и дайте чаю настояться 5 минут.",
+        "Пока чай заваривается, нарежьте лимон и разложите тульские пряники на тарелке.",
+        "Налейте в каждую чашку немного заварки, а потом добавьте горячей воды.",
+        "Если любите чай покрепче, добавьте в чашку ещё немного заварки.",
+        "Сахар и лимон поставьте на стол отдельно, чтобы каждый добавил их по вкусу."
+      ],
+      "roman": [
+        "U nas doma v Tule chay zavarivayut v nebolshom farforovom chaynike.",
+        "Dlya nachala vskipyatite svezhuyu vodu, a zavarochnyy chaynik opolosnite kipyatkom.",
+        "Nasypte v zavarochnyy chaynik 3 chaynye lozhki chyornogo chaya bez dobavok.",
+        "Zaleyte chaynye listya kipyatkom, ostaviv nemnogo mesta pod kryshkoy.",
+        "Nakroyte chaynik kryshkoy i dayte chayu nastoyatsya 5 minut.",
+        "Poka chay zavarivaetsya, narezhte limon i razlozhite tulskie pryaniki na tarelke.",
+        "Naleyte v kazhduyu chashku nemnogo zavarki, a potom dobavte goryachey vody.",
+        "Esli lyubite chay pokrepche, dobavte v chashku eshchyo nemnogo zavarki.",
+        "Sakhar i limon postavte na stol otdelno, chtoby kazhdyy dobavil ikh po vkusu."
+      ]
+    },
+    {
+      "id": "ru-p05",
+      "kind": "para",
+      "title": "Pelmeni in Perm",
+      "native": [
+        "На выходных зашли с Лидой в пельменную на улице Ленина в Перми.",
+        "Внутри всего несколько столиков, зато можно спокойно поговорить без громкой музыки.",
+        "Я взял пельмени с говядиной, а Лида выбрала вареники с картошкой.",
+        "У пельменей тонкое тесто и сочная начинка, а бульон действительно вкусный.",
+        "Сметану подают отдельно, поэтому каждый добавляет столько, сколько ему нравится.",
+        "За обед на двоих мы заплатили 1100 рублей вместе с чаем.",
+        "Заказ пришлось подождать минут 20, хотя свободные места ещё были.",
+        "Девушка за стойкой сразу предупредила, что повара готовят каждую порцию отдельно.",
+        "Я бы вернулся сюда после прогулки, но в обеденный перерыв не рискнул."
+      ],
+      "roman": [
+        "Na vykhodnykh zashli s Lidoy v pelmennuyu na ulitse Lenina v Permi.",
+        "Vnutri vsego neskolko stolikov, zato mozhno spokoyno pogovorit bez gromkoy muzyki.",
+        "Ya vzyal pelmeni s govyadinoy, a Lida vybrala vareniki s kartoshkoy.",
+        "U pelmeney tonkoe testo i sochnaya nachinka, a bulon deystvitelno vkusnyy.",
+        "Smetanu podayut otdelno, poetomu kazhdyy dobavlyaet stolko, skolko emu nravitsya.",
+        "Za obed na dvoikh my zaplatili 1100 rubley vmeste s chaem.",
+        "Zakaz prishlos podozhdat minut 20, khotya svobodnye mesta eshchyo byli.",
+        "Devushka za stoykoy srazu predupredila, chto povara gotovyat kazhduyu portsiyu otdelno.",
+        "Ya by vernulsya syuda posle progulki, no v obedennyy pereryv ne risknul."
+      ]
+    },
+    {
+      "id": "ru-p06",
+      "kind": "para",
+      "title": "Planning Dinner in Ryazan",
+      "native": [
+        "Семейный ужин в Рязани устроим 18 октября, соберём за столом 16 человек.",
+        "Будет 10 взрослых и 6 детей, поэтому острое приготовим отдельно.",
+        "За продуктами пойдём в 11:00, пока на рынке не слишком людно.",
+        "До Центрального рынка от дома 2 километра, можно дойти пешком.",
+        "На горячее возьмём 4 килограмма курицы и 3 килограмма картошки.",
+        "Два пирога с капустой закажем в пекарне по 850 рублей.",
+        "На все продукты заложим 9000 рублей, включая фрукты и сок.",
+        "Гостей ждём к 18:30, а стол начнём накрывать в 17:00.",
+        "Денис принесёт 6 складных стульев, чтобы всем хватило места за столом."
+      ],
+      "roman": [
+        "Semeynyy uzhin v Ryazani ustroim 18 oktyabrya, soberyom za stolom 16 chelovek.",
+        "Budet 10 vzroslykh i 6 detey, poetomu ostroe prigotovim otdelno.",
+        "Za produktami poydyom v 11:00, poka na rynke ne slishkom lyudno.",
+        "Do Tsentralnogo rynka ot doma 2 kilometra, mozhno doyti peshkom.",
+        "Na goryachee vozmyom 4 kilogramma kuritsy i 3 kilogramma kartoshki.",
+        "Dva piroga s kapustoy zakazhem v pekarne po 850 rubley.",
+        "Na vse produkty zalozhim 9000 rubley, vklyuchaya frukty i sok.",
+        "Gostey zhdyom k 18:30, a stol nachnyom nakryvat v 17:00.",
+        "Denis prinesyot 6 skladnykh stulev, chtoby vsem khvatilo mesta za stolom."
+      ]
+    },
+    {
+      "id": "ru-p07",
+      "kind": "para",
+      "title": "Reporting an Unstable Connection",
+      "native": [
+        "Здравствуйте, я звоню по поводу интернета в квартире на Завеличье в Пскове.",
+        "Соединение пропадает несколько раз за вечер, хотя раньше всё работало нормально.",
+        "Сегодня связь оборвалась в 19:20, прямо во время рабочего созвона.",
+        "Я уже перезагрузил роутер и проверил, плотно ли вставлен кабель.",
+        "На ноутбуке и телефоне интернет отключается одновременно, даже рядом с роутером.",
+        "Подскажите, пожалуйста, есть ли сейчас какие-то неполадки на вашей стороне?",
+        "Если нужна проверка в квартире, я могу принять мастера завтра после 15:00.",
+        "Адрес для заявки: Рижский проспект, дом 14, квартира 8.",
+        "Пожалуйста, попросите мастера позвонить заранее, чтобы я успел вернуться домой."
+      ],
+      "roman": [
+        "Zdravstvuyte, ya zvonyu po povodu interneta v kvartire na Zaveliche v Pskove.",
+        "Soedinenie propadaet neskolko raz za vecher, khotya ranshe vsyo rabotalo normalno.",
+        "Segodnya svyaz oborvalas v 19:20, pryamo vo vremya rabochego sozvona.",
+        "Ya uzhe perezagruzil router i proveril, plotno li vstavlen kabel.",
+        "Na noutbuke i telefone internet otklyuchaetsya odnovremenno, dazhe ryadom s routerom.",
+        "Podskazhite, pozhaluysta, est li seychas kakie-to nepoladki na vashey storone?",
+        "Esli nuzhna proverka v kvartire, ya mogu prinyat mastera zavtra posle 15:00.",
+        "Adres dlya zayavki: Rizhskiy prospekt, dom 14, kvartira 8.",
+        "Pozhaluysta, poprosite mastera pozvonit zaranee, chtoby ya uspel vernutsya domoy."
+      ]
+    },
+    {
+      "id": "ru-p08",
+      "kind": "para",
+      "title": "Moscow's Danilovsky Market",
+      "native": [
+        "Даниловский рынок в Москве легко узнать по круглому зданию с широким куполом.",
+        "Рынок находится на Мытной улице, недалеко от метро Тульская.",
+        "На рынке есть и продуктовые ряды, и небольшие кафе.",
+        "На прилавках можно найти сезонные овощи, свежую зелень, сыры и сухофрукты.",
+        "У продавцов можно спросить, откуда привезли продукты, и попросить кусочек сыра на пробу.",
+        "Многие приезжают сюда не только за покупками, но и просто пообедать.",
+        "В кафе готовят блюда разных кухонь, от грузинской до вьетнамской.",
+        "Днём в выходные у популярных прилавков бывает тесно, особенно перед праздниками.",
+        "Утром в будни на рынке обычно меньше людей."
+      ],
+      "roman": [
+        "Danilovskiy rynok v Moskve legko uznat po kruglomu zdaniyu s shirokim kupolom.",
+        "Rynok nakhoditsya na Mytnoy ulitse, nedaleko ot metro Tulskaya.",
+        "Na rynke est i produktovye ryady, i nebolshie kafe.",
+        "Na prilavkakh mozhno nayti sezonnye ovoshchi, svezhuyu zelen, syry i sukhofrukty.",
+        "U prodavtsov mozhno sprosit, otkuda privezli produkty, i poprosit kusochek syra na probu.",
+        "Mnogie priezzhayut syuda ne tolko za pokupkami, no i prosto poobedat.",
+        "V kafe gotovyat blyuda raznykh kukhon, ot gruzinskoy do vetnamskoy.",
+        "Dnyom v vykhodnye u populyarnykh prilavkov byvaet tesno, osobenno pered prazdnikami.",
+        "Utrom v budni na rynke obychno menshe lyudey."
+      ]
+    },
+    {
+      "id": "ru-s001",
+      "kind": "sentence",
+      "native": [
+        "Зульфия, приходи к нам на блины после тренировки."
+      ],
+      "roman": [
+        "Zulfiya, prikhodi k nam na bliny posle trenirovki."
+      ]
+    },
+    {
+      "id": "ru-s002",
+      "kind": "sentence",
+      "native": [
+        "Тамара, тебе помочь упаковать образцы для выставки?"
+      ],
+      "roman": [
+        "Tamara, tebe pomoch upakovat obraztsy dlya vystavki?"
+      ]
+    },
+    {
+      "id": "ru-s003",
+      "kind": "sentence",
+      "native": [
+        "Запишите адрес: улица Малая Грузинская, дом 23, квартира 46."
+      ],
+      "roman": [
+        "Zapishite adres: ulitsa Malaya Gruzinskaya, dom 23, kvartira 46."
+      ]
+    },
+    {
+      "id": "ru-s004",
+      "kind": "sentence",
+      "native": [
+        "Спрошу у Людмилы, как записаться в бассейн."
+      ],
+      "roman": [
+        "Sproshu u Lyudmily, kak zapisatsya v basseyn."
+      ]
+    },
+    {
+      "id": "ru-s005",
+      "kind": "sentence",
+      "native": [
+        "Произнеси по-испански слово полотенце и повтори его помедленнее."
+      ],
+      "roman": [
+        "Proiznesi po-ispanski slovo polotentse i povtori ego pomedlennee."
+      ]
+    },
+    {
+      "id": "ru-s006",
+      "kind": "sentence",
+      "native": [
+        "Теперь поиск по почте находит даже удалённые письма."
+      ],
+      "roman": [
+        "Teper poisk po pochte nakhodit dazhe udalyonnye pisma."
+      ]
+    },
+    {
+      "id": "ru-s007",
+      "kind": "sentence",
+      "native": [
+        "Поверни налево за пекарней, там будет нужная арка."
+      ],
+      "roman": [
+        "Poverni nalevo za pekarney, tam budet nuzhnaya arka."
+      ]
+    },
+    {
+      "id": "ru-s008",
+      "kind": "sentence",
+      "native": [
+        "Ребятам в школу нужны жёлтые футболки для эстафеты."
+      ],
+      "roman": [
+        "Rebyatam v shkolu nuzhny zhyoltye futbolki dlya estafety."
+      ]
+    },
+    {
+      "id": "ru-s009",
+      "kind": "sentence",
+      "native": [
+        "Нет, погодите, нужен матовый лак."
+      ],
+      "roman": [
+        "Net, pogodite, nuzhen matovyy lak."
+      ]
+    },
+    {
+      "id": "ru-s010",
+      "kind": "sentence",
+      "native": [
+        "Ух ты, здорово получилось!"
+      ],
+      "roman": [
+        "Ukh ty, zdorovo poluchilos!"
+      ]
+    },
+    {
+      "id": "ru-s011",
+      "kind": "sentence",
+      "native": [
+        "Давай встретимся у выхода из метро на Соколе в 19:30."
+      ],
+      "roman": [
+        "Davay vstretimsya u vykhoda iz metro na Sokole v 19:30."
+      ]
+    },
+    {
+      "id": "ru-s012",
+      "kind": "sentence",
+      "native": [
+        "Руслан, перед отправкой в типографию уточните, все ли размеры указаны верно в приложенном файле."
+      ],
+      "roman": [
+        "Ruslan, pered otpravkoy v tipografiyu utochnite, vse li razmery ukazany verno v prilozhennom fayle."
+      ]
+    },
+    {
+      "id": "ru-s013",
+      "kind": "sentence",
+      "native": [
+        "Рейс вылетает в 08:10, посадка закончится в 07:50."
+      ],
+      "roman": [
+        "Reys vyletaet v 08:10, posadka zakonchitsya v 07:50."
+      ]
+    },
+    {
+      "id": "ru-s014",
+      "kind": "sentence",
+      "native": [
+        "Внеси в календарь мастер-класс по керамике у Алсу 22 ноября и предупреди меня за день."
+      ],
+      "roman": [
+        "Vnesi v kalendar master-klass po keramike u Alsu 22 noyabrya i predupredi menya za den."
+      ]
+    },
+    {
+      "id": "ru-s015",
+      "kind": "sentence",
+      "native": [
+        "Отправь сестре сообщение, что я задерживаюсь в пробке и приеду прямо к началу спектакля."
+      ],
+      "roman": [
+        "Otprav sestre soobshchenie, chto ya zaderzhivayus v probke i priedu pryamo k nachalu spektaklya."
+      ]
+    },
+    {
+      "id": "ru-s016",
+      "kind": "sentence",
+      "native": [
+        "Глеб, прикрепи скриншот ошибки к задаче в трекере."
+      ],
+      "roman": [
+        "Gleb, prikrepi skrinshot oshibki k zadache v trekere."
+      ]
+    },
+    {
+      "id": "ru-s017",
+      "kind": "sentence",
+      "native": [
+        "Трамвай свернул за угол."
+      ],
+      "roman": [
+        "Tramvay svernul za ugol."
+      ]
+    },
+    {
+      "id": "ru-s018",
+      "kind": "sentence",
+      "native": [
+        "Бабушка просила купить адыгейский сыр на рынке, потому что в Пятёрочке его разобрали."
+      ],
+      "roman": [
+        "Babushka prosila kupit adygeyskiy syr na rynke, potomu chto v Pyatyorochke ego razobrali."
+      ]
+    },
+    {
+      "id": "ru-s019",
+      "kind": "sentence",
+      "native": [
+        "А замша не потемнеет?"
+      ],
+      "roman": [
+        "A zamsha ne potemneet?"
+      ]
+    },
+    {
+      "id": "ru-s020",
+      "kind": "sentence",
+      "native": [
+        "Прости, зря вспылил."
+      ],
+      "roman": [
+        "Prosti, zrya vspylil."
+      ]
+    },
+    {
+      "id": "ru-s021",
+      "kind": "sentence",
+      "native": [
+        "Я уже дома, всё хорошо."
+      ],
+      "roman": [
+        "Ya uzhe doma, vsyo khorosho."
+      ]
+    },
+    {
+      "id": "ru-s022",
+      "kind": "sentence",
+      "native": [
+        "Я пока не получила от вас список тех, кому нужно отправить приглашения."
+      ],
+      "roman": [
+        "Ya poka ne poluchila ot vas spisok tekh, komu nuzhno otpravit priglasheniya."
+      ]
+    },
+    {
+      "id": "ru-s023",
+      "kind": "sentence",
+      "native": [
+        "Я выбрала дистанцию 21 километр на забеге в Самаре, который начнётся 27 сентября в 09:40."
+      ],
+      "roman": [
+        "Ya vybrala distantsiyu 21 kilometr na zabege v Samare, kotoryy nachnyotsya 27 sentyabrya v 09:40."
+      ]
+    },
+    {
+      "id": "ru-s024",
+      "kind": "sentence",
+      "native": [
+        "Куплю в Магните овсянку, бананы и бумажные полотенца."
+      ],
+      "roman": [
+        "Kuplyu v Magnite ovsyanku, banany i bumazhnye polotentsa."
+      ]
+    },
+    {
+      "id": "ru-s025",
+      "kind": "sentence",
+      "native": [
+        "Включи запись экрана со звуком с микрофона."
+      ],
+      "roman": [
+        "Vklyuchi zapis ekrana so zvukom s mikrofona."
+      ]
+    },
+    {
+      "id": "ru-s026",
+      "kind": "sentence",
+      "native": [
+        "Вам удобнее получить архив целиком или отдельными папками?"
+      ],
+      "roman": [
+        "Vam udobnee poluchit arkhiv tselikom ili otdelnymi papkami?"
+      ]
+    },
+    {
+      "id": "ru-s027",
+      "kind": "sentence",
+      "native": [
+        "Лучше поеду на велосипеде, а ты сможешь припарковаться во дворе за зданием торгового центра."
+      ],
+      "roman": [
+        "Luchshe poedu na velosipede, a ty smozhesh priparkovatsya vo dvore za zdaniem torgovogo tsentra."
+      ]
+    },
+    {
+      "id": "ru-s028",
+      "kind": "sentence",
+      "native": [
+        "Кран на кухне подтекает."
+      ],
+      "roman": [
+        "Kran na kukhne podtekaet."
+      ]
+    },
+    {
+      "id": "ru-s029",
+      "kind": "sentence",
+      "native": [
+        "Полы помою после ужина, хотя лучше ты помой, а я пока развешу бельё."
+      ],
+      "roman": [
+        "Poly pomoyu posle uzhina, khotya luchshe ty pomoy, a ya poka razveshu belyo."
+      ]
+    },
+    {
+      "id": "ru-s030",
+      "kind": "sentence",
+      "native": [
+        "Фатима, тебе очень идёт эта зелёная куртка."
+      ],
+      "roman": [
+        "Fatima, tebe ochen idyot eta zelyonaya kurtka."
+      ]
+    },
+    {
+      "id": "ru-s031",
+      "kind": "sentence",
+      "native": [
+        "Можешь забрать Лизу с рисования? Я сегодня задержусь."
+      ],
+      "roman": [
+        "Mozhesh zabrat Lizu s risovaniya? Ya segodnya zaderzhus."
+      ]
+    },
+    {
+      "id": "ru-s032",
+      "kind": "sentence",
+      "native": [
+        "Спасибо за приглашение на обучение. Не смогу прийти, потому что буду в командировке."
+      ],
+      "roman": [
+        "Spasibo za priglashenie na obuchenie. Ne smogu priyti, potomu chto budu v komandirovke."
+      ]
+    },
+    {
+      "id": "ru-s033",
+      "kind": "sentence",
+      "native": [
+        "За смену упаковали 64 заказа, осталось ещё 18."
+      ],
+      "roman": [
+        "Za smenu upakovali 64 zakaza, ostalos eshchyo 18."
+      ]
+    },
+    {
+      "id": "ru-s034",
+      "kind": "sentence",
+      "native": [
+        "Нужно вернуть Надежде книгу до конца этой недели."
+      ],
+      "roman": [
+        "Nuzhno vernut Nadezhde knigu do kontsa etoy nedeli."
+      ]
+    },
+    {
+      "id": "ru-s035",
+      "kind": "sentence",
+      "native": [
+        "Уменьши громкость музыки."
+      ],
+      "roman": [
+        "Umenshi gromkost muzyki."
+      ]
+    },
+    {
+      "id": "ru-s036",
+      "kind": "sentence",
+      "native": [
+        "Подписка на редактор подорожала до 490 рублей в месяц."
+      ],
+      "roman": [
+        "Podpiska na redaktor podorozhala do 490 rubley v mesyats."
+      ]
+    },
+    {
+      "id": "ru-s037",
+      "kind": "sentence",
+      "native": [
+        "Гардероб рядом с лифтом."
+      ],
+      "roman": [
+        "Garderob ryadom s liftom."
+      ]
+    },
+    {
+      "id": "ru-s038",
+      "kind": "sentence",
+      "native": [
+        "Отдадите эту вазу за 600 рублей?"
+      ],
+      "roman": [
+        "Otdadite etu vazu za 600 rubley?"
+      ]
+    },
+    {
+      "id": "ru-s039",
+      "kind": "sentence",
+      "native": [
+        "За этот плед просили 1700 рублей, ой, вру, 1600, я с покрывалом его путаю."
+      ],
+      "roman": [
+        "Za etot pled prosili 1700 rubley, oy, vru, 1600, ya s pokryvalom ego putayu."
+      ]
+    },
+    {
+      "id": "ru-s040",
+      "kind": "sentence",
+      "native": [
+        "Жаль, что новые кеды так быстро начали скрипеть."
+      ],
+      "roman": [
+        "Zhal, chto novye kedy tak bystro nachali skripet."
+      ]
+    },
+    {
+      "id": "ru-s041",
+      "kind": "sentence",
+      "native": [
+        "Слушай, перенесём поездку на воскресенье, а то в субботу мне должны привезти новый диван."
+      ],
+      "roman": [
+        "Slushay, perenesyom poezdku na voskresene, a to v subbotu mne dolzhny privezti novyy divan."
+      ]
+    },
+    {
+      "id": "ru-s042",
+      "kind": "sentence",
+      "native": [
+        "Коллеги, хороших выходных!"
+      ],
+      "roman": [
+        "Kollegi, khoroshikh vykhodnykh!"
+      ]
+    },
+    {
+      "id": "ru-s043",
+      "kind": "sentence",
+      "native": [
+        "До пляжа 800 метров, пешком дойдём за 10 минут."
+      ],
+      "roman": [
+        "Do plyazha 800 metrov, peshkom doydyom za 10 minut."
+      ]
+    },
+    {
+      "id": "ru-s044",
+      "kind": "sentence",
+      "native": [
+        "Добавь губки в список покупок."
+      ],
+      "roman": [
+        "Dobav gubki v spisok pokupok."
+      ]
+    },
+    {
+      "id": "ru-s045",
+      "kind": "sentence",
+      "native": [
+        "Засеки 12 минут."
+      ],
+      "roman": [
+        "Zaseki 12 minut."
+      ]
+    },
+    {
+      "id": "ru-s046",
+      "kind": "sentence",
+      "native": [
+        "Во время демонстрации не переключайтесь между окнами, иначе участники увидят ваши личные вкладки."
+      ],
+      "roman": [
+        "Vo vremya demonstratsii ne pereklyuchaytes mezhdu oknami, inache uchastniki uvidyat vashi lichnye vkladki."
+      ]
+    },
+    {
+      "id": "ru-s047",
+      "kind": "sentence",
+      "native": [
+        "У кассы справа продают проездные на весь месяц."
+      ],
+      "roman": [
+        "U kassy sprava prodayut proezdnye na ves mesyats."
+      ]
+    },
+    {
+      "id": "ru-s048",
+      "kind": "sentence",
+      "native": [
+        "Мастер обещал закончить укладку плитки к среде."
+      ],
+      "roman": [
+        "Master obeshchal zakonchit ukladku plitki k srede."
+      ]
+    },
+    {
+      "id": "ru-s049",
+      "kind": "sentence",
+      "native": [
+        "Еду до Выборга, точнее, до следующей за ним станции."
+      ],
+      "roman": [
+        "Edu do Vyborga, tochnee, do sleduyushchey za nim stantsii."
+      ]
+    },
+    {
+      "id": "ru-s050",
+      "kind": "sentence",
+      "native": [
+        "После прогулки по Кисловодску поняла, как же мне не хватало таких спокойных дней без спешки."
+      ],
+      "roman": [
+        "Posle progulki po Kislovodsku ponyala, kak zhe mne ne khvatalo takikh spokoynykh dney bez speshki."
+      ]
+    },
+    {
+      "id": "ru-s051",
+      "kind": "sentence",
+      "native": [
+        "Дима, одолжишь велосипед на пару дней?"
+      ],
+      "roman": [
+        "Dima, odolzhish velosiped na paru dney?"
+      ]
+    },
+    {
+      "id": "ru-s052",
+      "kind": "sentence",
+      "native": [
+        "Отлично, тогда оставляем прежний вариант обложки без изменений."
+      ],
+      "roman": [
+        "Otlichno, togda ostavlyaem prezhniy variant oblozhki bez izmeneniy."
+      ]
+    },
+    {
+      "id": "ru-s053",
+      "kind": "sentence",
+      "native": [
+        "Книги продлили до 23 апреля."
+      ],
+      "roman": [
+        "Knigi prodlili do 23 aprelya."
+      ]
+    },
+    {
+      "id": "ru-s054",
+      "kind": "sentence",
+      "native": [
+        "Вечером выучу новый аккорд."
+      ],
+      "roman": [
+        "Vecherom vyuchu novyy akkord."
+      ]
+    },
+    {
+      "id": "ru-s055",
+      "kind": "sentence",
+      "native": [
+        "Какая погода будет в Сочи на выходных?"
+      ],
+      "roman": [
+        "Kakaya pogoda budet v Sochi na vykhodnykh?"
+      ]
+    },
+    {
+      "id": "ru-s056",
+      "kind": "sentence",
+      "native": [
+        "Приложение опять просит пароль."
+      ],
+      "roman": [
+        "Prilozhenie opyat prosit parol."
+      ]
+    },
+    {
+      "id": "ru-s057",
+      "kind": "sentence",
+      "native": [
+        "Марина Соколова работает в цветочном напротив нашего офиса."
+      ],
+      "roman": [
+        "Marina Sokolova rabotaet v tsvetochnom naprotiv nashego ofisa."
+      ]
+    },
+    {
+      "id": "ru-s058",
+      "kind": "sentence",
+      "native": [
+        "На юбилей дедушки закажем торт без орехов."
+      ],
+      "roman": [
+        "Na yubiley dedushki zakazhem tort bez orekhov."
+      ]
+    },
+    {
+      "id": "ru-s059",
+      "kind": "sentence",
+      "native": [
+        "Понадобятся скотч, ножницы и плотный картон для донышка."
+      ],
+      "roman": [
+        "Ponadobyatsya skotch, nozhnitsy i plotnyy karton dlya donyshka."
+      ]
+    },
+    {
+      "id": "ru-s060",
+      "kind": "sentence",
+      "native": [
+        "Огромное спасибо за терпение, вы мне правда очень помогли."
+      ],
+      "roman": [
+        "Ogromnoe spasibo za terpenie, vy mne pravda ochen pomogli."
+      ]
+    },
+    {
+      "id": "ru-s061",
+      "kind": "sentence",
+      "native": [
+        "Билеты скинула в чат, сохрани их на всякий случай."
+      ],
+      "roman": [
+        "Bilety skinula v chat, sokhrani ikh na vsyakiy sluchay."
+      ]
+    },
+    {
+      "id": "ru-s062",
+      "kind": "sentence",
+      "native": [
+        "Предпочитаю обсудить условия письменно."
+      ],
+      "roman": [
+        "Predpochitayu obsudit usloviya pismenno."
+      ]
+    },
+    {
+      "id": "ru-s063",
+      "kind": "sentence",
+      "native": [
+        "Бронирую столик на 19:00 в пятницу, нас будет 6."
+      ],
+      "roman": [
+        "Broniruyu stolik na 19:00 v pyatnitsu, nas budet 6."
+      ]
+    },
+    {
+      "id": "ru-s064",
+      "kind": "sentence",
+      "native": [
+        "Обязательно уточнить, можно ли сдать старый принтер на переработку в магазине рядом с работой."
+      ],
+      "roman": [
+        "Obyazatelno utochnit, mozhno li sdat staryy printer na pererabotku v magazine ryadom s rabotoy."
+      ]
+    },
+    {
+      "id": "ru-s065",
+      "kind": "sentence",
+      "native": [
+        "Позвони бабушке Нине."
+      ],
+      "roman": [
+        "Pozvoni babushke Nine."
+      ]
+    },
+    {
+      "id": "ru-s066",
+      "kind": "sentence",
+      "native": [
+        "Сканер перестал видеть документ."
+      ],
+      "roman": [
+        "Skaner perestal videt dokument."
+      ]
+    },
+    {
+      "id": "ru-s067",
+      "kind": "sentence",
+      "native": [
+        "Последняя электричка уходит рано, поэтому лучше выехать с дачи сразу после ужина и не торопиться."
+      ],
+      "roman": [
+        "Poslednyaya elektrichka ukhodit rano, poetomu luchshe vyekhat s dachi srazu posle uzhina i ne toropitsya."
+      ]
+    },
+    {
+      "id": "ru-s068",
+      "kind": "sentence",
+      "native": [
+        "Римма, во сколько откроется ярмарка в Суздале?"
+      ],
+      "roman": [
+        "Rimma, vo skolko otkroetsya yarmarka v Suzdale?"
+      ]
+    },
+    {
+      "id": "ru-s069",
+      "kind": "sentence",
+      "native": [
+        "Галина, вы шарф забыли. Ой, нет, это мой."
+      ],
+      "roman": [
+        "Galina, vy sharf zabyli. Oy, net, eto moy."
+      ]
+    },
+    {
+      "id": "ru-s070",
+      "kind": "sentence",
+      "native": [
+        "Домашние щи раньше казались скучной едой, а теперь от одного запаха сразу становится уютнее."
+      ],
+      "roman": [
+        "Domashnie shchi ranshe kazalis skuchnoy edoy, a teper ot odnogo zapakha srazu stanovitsya uyutnee."
+      ]
+    },
+    {
+      "id": "ru-s071",
+      "kind": "sentence",
+      "native": [
+        "Только не покупай воздушные шарики, мы их уже надули столько, что в комнате негде пройти."
+      ],
+      "roman": [
+        "Tolko ne pokupay vozdushnye shariki, my ikh uzhe naduli stolko, chto v komnate negde proyti."
+      ]
+    },
+    {
+      "id": "ru-s072",
+      "kind": "sentence",
+      "native": [
+        "Оксана, презентация готова?"
+      ],
+      "roman": [
+        "Oksana, prezentatsiya gotova?"
+      ]
+    },
+    {
+      "id": "ru-s073",
+      "kind": "sentence",
+      "native": [
+        "Разменяйте, пожалуйста, 2000 рублей."
+      ],
+      "roman": [
+        "Razmenyayte, pozhaluysta, 2000 rubley."
+      ]
+    },
+    {
+      "id": "ru-s074",
+      "kind": "sentence",
+      "native": [
+        "Пора разобрать ящик с проводами."
+      ],
+      "roman": [
+        "Pora razobrat yashchik s provodami."
+      ]
+    },
+    {
+      "id": "ru-s075",
+      "kind": "sentence",
+      "native": [
+        "Покажи фотографии из прошлогодней поездки на Байкал."
+      ],
+      "roman": [
+        "Pokazhi fotografii iz proshlogodney poezdki na Baykal."
+      ]
+    },
+    {
+      "id": "ru-s076",
+      "kind": "sentence",
+      "native": [
+        "Учительнице нужна фотография рисунка, а я отправила через электронный дневник только название работы."
+      ],
+      "roman": [
+        "Uchitelnitse nuzhna fotografiya risunka, a ya otpravila cherez elektronnyy dnevnik tolko nazvanie raboty."
+      ]
+    },
+    {
+      "id": "ru-s077",
+      "kind": "sentence",
+      "native": [
+        "Парковка здесь платная?"
+      ],
+      "roman": [
+        "Parkovka zdes platnaya?"
+      ]
+    },
+    {
+      "id": "ru-s078",
+      "kind": "sentence",
+      "native": [
+        "Варежки совсем промокли."
+      ],
+      "roman": [
+        "Varezhki sovsem promokli."
+      ]
+    },
+    {
+      "id": "ru-s079",
+      "kind": "sentence",
+      "native": [
+        "Ремешок кожаный или тканевый?"
+      ],
+      "roman": [
+        "Remeshok kozhanyy ili tkanevyy?"
+      ]
+    },
+    {
+      "id": "ru-s080",
+      "kind": "sentence",
+      "native": [
+        "Ничего, с первого раза редко выходит, попробуй иначе."
+      ],
+      "roman": [
+        "Nichego, s pervogo raza redko vykhodit, poprobuy inache."
+      ]
+    },
+    {
+      "id": "ru-s081",
+      "kind": "sentence",
+      "native": [
+        "Артём, захвати зарядку для ноутбука."
+      ],
+      "roman": [
+        "Artyom, zakhvati zaryadku dlya noutbuka."
+      ]
+    },
+    {
+      "id": "ru-s082",
+      "kind": "sentence",
+      "native": [
+        "Добрый день! Отправляю договор."
+      ],
+      "roman": [
+        "Dobryy den! Otpravlyayu dogovor."
+      ]
+    },
+    {
+      "id": "ru-s083",
+      "kind": "sentence",
+      "native": [
+        "Будильник поставь на 06:45."
+      ],
+      "roman": [
+        "Budilnik postav na 06:45."
+      ]
+    },
+    {
+      "id": "ru-s084",
+      "kind": "sentence",
+      "native": [
+        "Напомни полить цветы."
+      ],
+      "roman": [
+        "Napomni polit tsvety."
+      ]
+    },
+    {
+      "id": "ru-s085",
+      "kind": "sentence",
+      "native": [
+        "Сколько сейчас стоит билет в Третьяковскую галерею?"
+      ],
+      "roman": [
+        "Skolko seychas stoit bilet v Tretyakovskuyu galereyu?"
+      ]
+    },
+    {
+      "id": "ru-s086",
+      "kind": "sentence",
+      "native": [
+        "Кажется, Excel превратил все номера заказов в даты."
+      ],
+      "roman": [
+        "Kazhetsya, Excel prevratil vse nomera zakazov v daty."
+      ]
+    },
+    {
+      "id": "ru-s087",
+      "kind": "sentence",
+      "native": [
+        "Илья встретит вас возле Русского музея после экскурсии."
+      ],
+      "roman": [
+        "Ilya vstretit vas vozle Russkogo muzeya posle ekskursii."
+      ]
+    },
+    {
+      "id": "ru-s088",
+      "kind": "sentence",
+      "native": [
+        "Чек выбросить или сохранить?"
+      ],
+      "roman": [
+        "Chek vybrosit ili sokhranit?"
+      ]
+    },
+    {
+      "id": "ru-s089",
+      "kind": "sentence",
+      "native": [
+        "Положи в сумку ласты, маску и полотенце, а купальник я уже надела под платье."
+      ],
+      "roman": [
+        "Polozhi v sumku lasty, masku i polotentse, a kupalnik ya uzhe nadela pod plate."
+      ]
+    },
+    {
+      "id": "ru-s090",
+      "kind": "sentence",
+      "native": [
+        "Ура, отпуск согласовали!"
+      ],
+      "roman": [
+        "Ura, otpusk soglasovali!"
+      ]
+    },
+    {
+      "id": "ru-s091",
+      "kind": "sentence",
+      "native": [
+        "Макет согласован, запускайте печать."
+      ],
+      "roman": [
+        "Maket soglasovan, zapuskayte pechat."
+      ]
+    },
+    {
+      "id": "ru-s092",
+      "kind": "sentence",
+      "native": [
+        "Скидка на кроссовки теперь 25%."
+      ],
+      "roman": [
+        "Skidka na krossovki teper 25%."
+      ]
+    },
+    {
+      "id": "ru-s093",
+      "kind": "sentence",
+      "native": [
+        "Сохрани размеры кухонного окна в заметках перед заказом жалюзи."
+      ],
+      "roman": [
+        "Sokhrani razmery kukhonnogo okna v zametkakh pered zakazom zhalyuzi."
+      ]
+    },
+    {
+      "id": "ru-s094",
+      "kind": "sentence",
+      "native": [
+        "Найди простой рецепт сырников без муки, чтобы они не разваливались на сковороде."
+      ],
+      "roman": [
+        "Naydi prostoy retsept syrnikov bez muki, chtoby oni ne razvalivalis na skovorode."
+      ]
+    },
+    {
+      "id": "ru-s095",
+      "kind": "sentence",
+      "native": [
+        "Фарида, проверьте, видны ли вам комментарии в Figma."
+      ],
+      "roman": [
+        "Farida, proverte, vidny li vam kommentarii v Figma."
+      ]
+    },
+    {
+      "id": "ru-s096",
+      "kind": "sentence",
+      "native": [
+        "Возле гостиницы сейчас ремонтируют тротуар, так что такси придётся заказать к соседнему зданию."
+      ],
+      "roman": [
+        "Vozle gostinitsy seychas remontiruyut trotuar, tak chto taksi pridyotsya zakazat k sosednemu zdaniyu."
+      ]
+    },
+    {
+      "id": "ru-s097",
+      "kind": "sentence",
+      "native": [
+        "Суп пока не соли."
+      ],
+      "roman": [
+        "Sup poka ne soli."
+      ]
+    },
+    {
+      "id": "ru-s098",
+      "kind": "sentence",
+      "native": [
+        "Розетка за креслом свободна или туда обогреватель подключён?"
+      ],
+      "roman": [
+        "Rozetka za kreslom svobodna ili tuda obogrevatel podklyuchyon?"
+      ]
+    },
+    {
+      "id": "ru-s099",
+      "kind": "sentence",
+      "native": [
+        "Фотографии с пикника получились отличные, особенно общий кадр."
+      ],
+      "roman": [
+        "Fotografii s piknika poluchilis otlichnye, osobenno obshchiy kadr."
+      ]
+    },
+    {
+      "id": "ru-s100",
+      "kind": "sentence",
+      "native": [
+        "Письмо получила, отвечу вечером."
+      ],
+      "roman": [
+        "Pismo poluchila, otvechu vecherom."
+      ]
+    },
+    {
+      "id": "ru-s101",
+      "kind": "sentence",
+      "native": [
+        "Хочу вернуть кофту за 2400 рублей. Размер не подошёл."
+      ],
+      "roman": [
+        "Khochu vernut koftu za 2400 rubley. Razmer ne podoshyol."
+      ]
+    },
+    {
+      "id": "ru-s102",
+      "kind": "sentence",
+      "native": [
+        "Послезавтра надо забрать подшитые брюки из ателье."
+      ],
+      "roman": [
+        "Poslezavtra nado zabrat podshitye bryuki iz atele."
+      ]
+    },
+    {
+      "id": "ru-s103",
+      "kind": "sentence",
+      "native": [
+        "Проложи пеший маршрут до ближайшего пункта выдачи."
+      ],
+      "roman": [
+        "Prolozhi peshiy marshrut do blizhayshego punkta vydachi."
+      ]
+    },
+    {
+      "id": "ru-s104",
+      "kind": "sentence",
+      "native": [
+        "Камера сейчас выключена."
+      ],
+      "roman": [
+        "Kamera seychas vyklyuchena."
+      ]
+    },
+    {
+      "id": "ru-s105",
+      "kind": "sentence",
+      "native": [
+        "Обратно поедем другой дорогой, через новый мост."
+      ],
+      "roman": [
+        "Obratno poedem drugoy dorogoy, cherez novyy most."
+      ]
+    },
+    {
+      "id": "ru-s106",
+      "kind": "sentence",
+      "native": [
+        "К вечеру обещают заморозки, поэтому рассаду лучше занести с балкона, пока земля не остыла."
+      ],
+      "roman": [
+        "K vecheru obeshchayut zamorozki, poetomu rassadu luchshe zanesti s balkona, poka zemlya ne ostyla."
+      ]
+    },
+    {
+      "id": "ru-s107",
+      "kind": "sentence",
+      "native": [
+        "Извините, я про синий рюкзак, не про чёрный."
+      ],
+      "roman": [
+        "Izvinite, ya pro siniy ryukzak, ne pro chyornyy."
+      ]
+    },
+    {
+      "id": "ru-s108",
+      "kind": "sentence",
+      "native": [
+        "Пап, я случайно увезла твой фонарик, верну завтра вечером вместе с набором отвёрток."
+      ],
+      "roman": [
+        "Pap, ya sluchayno uvezla tvoy fonarik, vernu zavtra vecherom vmeste s naborom otvyortok."
+      ]
+    },
+    {
+      "id": "ru-s109",
+      "kind": "sentence",
+      "native": [
+        "По итогам встречи добавил в таблицу отдельный столбец."
+      ],
+      "roman": [
+        "Po itogam vstrechi dobavil v tablitsu otdelnyy stolbets."
+      ]
+    },
+    {
+      "id": "ru-s110",
+      "kind": "sentence",
+      "native": [
+        "Счётчик показывает 348 кубометров."
+      ],
+      "roman": [
+        "Schyotchik pokazyvaet 348 kubometrov."
+      ]
+    },
+    {
+      "id": "ru-s111",
+      "kind": "sentence",
+      "native": [
+        "Перед поездкой в Коломну надо скачать карту, чтобы она открывалась даже без интернета."
+      ],
+      "roman": [
+        "Pered poezdkoy v Kolomnu nado skachat kartu, chtoby ona otkryvalas dazhe bez interneta."
+      ]
+    },
+    {
+      "id": "ru-s112",
+      "kind": "sentence",
+      "native": [
+        "Отключи уведомления от игр до завтрашнего утра."
+      ],
+      "roman": [
+        "Otklyuchi uvedomleniya ot igr do zavtrashnego utra."
+      ]
+    },
+    {
+      "id": "ru-s113",
+      "kind": "sentence",
+      "native": [
+        "Через браузер этот сайт открывается без проблем."
+      ],
+      "roman": [
+        "Cherez brauzer etot sayt otkryvaetsya bez problem."
+      ]
+    },
+    {
+      "id": "ru-s114",
+      "kind": "sentence",
+      "native": [
+        "Сергей, по пути в Зеленоградск загляни к дедушке, он обещал показать тебе старые фотографии."
+      ],
+      "roman": [
+        "Sergey, po puti v Zelenogradsk zaglyani k dedushke, on obeshchal pokazat tebe starye fotografii."
+      ]
+    },
+    {
+      "id": "ru-s115",
+      "kind": "sentence",
+      "native": [
+        "Утром отнесу сапоги в мастерскую, а ты пока выбери новые шнурки для своих ботинок."
+      ],
+      "roman": [
+        "Utrom otnesu sapogi v masterskuyu, a ty poka vyberi novye shnurki dlya svoikh botinok."
+      ]
+    },
+    {
+      "id": "ru-s116",
+      "kind": "sentence",
+      "native": [
+        "Юля, встречаемся в среду, нет, в четверг."
+      ],
+      "roman": [
+        "Yulya, vstrechaemsya v sredu, net, v chetverg."
+      ]
+    },
+    {
+      "id": "ru-s117",
+      "kind": "sentence",
+      "native": [
+        "Если соберётесь гулять, напишите заранее, я тоже хочу выбраться."
+      ],
+      "roman": [
+        "Esli soberyotes gulyat, napishite zaranee, ya tozhe khochu vybratsya."
+      ]
+    },
+    {
+      "id": "ru-s118",
+      "kind": "sentence",
+      "native": [
+        "Можем перенести демонстрацию на полчаса позже, чтобы разработчики успели настроить тестовый сервер?"
+      ],
+      "roman": [
+        "Mozhem perenesti demonstratsiyu na polchasa pozzhe, chtoby razrabotchiki uspeli nastroit testovyy server?"
+      ]
+    },
+    {
+      "id": "ru-s119",
+      "kind": "sentence",
+      "native": [
+        "Переведи за доставку 280 рублей, остальное оплачу при получении."
+      ],
+      "roman": [
+        "Perevedi za dostavku 280 rubley, ostalnoe oplachu pri poluchenii."
+      ]
+    },
+    {
+      "id": "ru-s120",
+      "kind": "sentence",
+      "native": [
+        "Стоит почистить фильтр у стиральной машины."
+      ],
+      "roman": [
+        "Stoit pochistit filtr u stiralnoy mashiny."
+      ]
+    },
+    {
+      "id": "ru-s121",
+      "kind": "sentence",
+      "native": [
+        "Останови подкаст."
+      ],
+      "roman": [
+        "Ostanovi podkast."
+      ]
+    },
+    {
+      "id": "ru-s122",
+      "kind": "sentence",
+      "native": [
+        "Уберите, пожалуйста, мой старый аккаунт из рабочей группы."
+      ],
+      "roman": [
+        "Uberite, pozhaluysta, moy staryy akkaunt iz rabochey gruppy."
+      ]
+    },
+    {
+      "id": "ru-s123",
+      "kind": "sentence",
+      "native": [
+        "От станции удобнее добираться на автобусе без пересадок."
+      ],
+      "roman": [
+        "Ot stantsii udobnee dobiratsya na avtobuse bez peresadok."
+      ]
+    },
+    {
+      "id": "ru-s124",
+      "kind": "sentence",
+      "native": [
+        "Манты лучше готовить прямо перед приходом гостей."
+      ],
+      "roman": [
+        "Manty luchshe gotovit pryamo pered prikhodom gostey."
+      ]
+    },
+    {
+      "id": "ru-s125",
+      "kind": "sentence",
+      "native": [
+        "Хотела спросить про репетицию, но сначала скажи, куда вы дели складные стулья после концерта?"
+      ],
+      "roman": [
+        "Khotela sprosit pro repetitsiyu, no snachala skazhi, kuda vy deli skladnye stulya posle kontserta?"
+      ]
+    },
+    {
+      "id": "ru-s126",
+      "kind": "sentence",
+      "native": [
+        "Набери меня, когда освободишься."
+      ],
+      "roman": [
+        "Naberi menya, kogda osvobodishsya."
+      ]
+    },
+    {
+      "id": "ru-s127",
+      "kind": "sentence",
+      "native": [
+        "Напоминаю, что заявки на пропуска принимают до четверга."
+      ],
+      "roman": [
+        "Napominayu, chto zayavki na propuska prinimayut do chetverga."
+      ]
+    },
+    {
+      "id": "ru-s128",
+      "kind": "sentence",
+      "native": [
+        "Заселение начинается в 14:00, но ваш номер на 3-м этаже уже готов. Можете подниматься."
+      ],
+      "roman": [
+        "Zaselenie nachinaetsya v 14:00, no vash nomer na 3-m etazhe uzhe gotov. Mozhete podnimatsya."
+      ]
+    },
+    {
+      "id": "ru-s129",
+      "kind": "sentence",
+      "native": [
+        "Чтобы обменять чайник, надо взять чек и проверить, осталась ли коробка на верхней полке."
+      ],
+      "roman": [
+        "Chtoby obmenyat chaynik, nado vzyat chek i proverit, ostalas li korobka na verkhney polke."
+      ]
+    },
+    {
+      "id": "ru-s130",
+      "kind": "sentence",
+      "native": [
+        "Почему беспроводные наушники подключаются к планшету, но звук всё равно идёт через динамики?"
+      ],
+      "roman": [
+        "Pochemu besprovodnye naushniki podklyuchayutsya k planshetu, no zvuk vsyo ravno idyot cherez dinamiki?"
+      ]
+    },
+    {
+      "id": "ru-s131",
+      "kind": "sentence",
+      "native": [
+        "Вчера установил апдейт, и баг с сохранением черновиков пропал, больше ничего настраивать не пришлось."
+      ],
+      "roman": [
+        "Vchera ustanovil apdeyt, i bag s sokhraneniem chernovikov propal, bolshe nichego nastraivat ne prishlos."
+      ]
+    },
+    {
+      "id": "ru-s132",
+      "kind": "sentence",
+      "native": [
+        "Вход со стороны двора."
+      ],
+      "roman": [
+        "Vkhod so storony dvora."
+      ]
+    },
+    {
+      "id": "ru-s133",
+      "kind": "sentence",
+      "native": [
+        "Спасибо за пирог, дети съели его ещё тёплым."
+      ],
+      "roman": [
+        "Spasibo za pirog, deti seli ego eshchyo tyoplym."
+      ]
+    },
+    {
+      "id": "ru-s134",
+      "kind": "sentence",
+      "native": [
+        "Пришлите, пожалуйста, исходник логотипа без белого фона."
+      ],
+      "roman": [
+        "Prishlite, pozhaluysta, iskhodnik logotipa bez belogo fona."
+      ]
+    },
+    {
+      "id": "ru-s135",
+      "kind": "sentence",
+      "native": [
+        "Тренировка по средам с 20:15 до 21:00, приходи."
+      ],
+      "roman": [
+        "Trenirovka po sredam s 20:15 do 21:00, prikhodi."
+      ]
+    },
+    {
+      "id": "ru-s136",
+      "kind": "sentence",
+      "native": [
+        "Проверить бы, хватает ли места для резервной копии."
+      ],
+      "roman": [
+        "Proverit by, khvataet li mesta dlya rezervnoy kopii."
+      ]
+    },
+    {
+      "id": "ru-s137",
+      "kind": "sentence",
+      "native": [
+        "Костя, могу помочь тебе подключить второй монитор."
+      ],
+      "roman": [
+        "Kostya, mogu pomoch tebe podklyuchit vtoroy monitor."
+      ]
+    },
+    {
+      "id": "ru-s138",
+      "kind": "sentence",
+      "native": [
+        "Посылку для Екатерины можно оставить у вас на стойке?"
+      ],
+      "roman": [
+        "Posylku dlya Ekateriny mozhno ostavit u vas na stoyke?"
+      ]
+    },
+    {
+      "id": "ru-s139",
+      "kind": "sentence",
+      "native": [
+        "Приезжайте налегке, постельное бельё у нас есть, а полотенца я вам положу в ванной."
+      ],
+      "roman": [
+        "Priezzhayte nalegke, postelnoe belyo u nas est, a polotentsa ya vam polozhu v vannoy."
+      ]
+    },
+    {
+      "id": "ru-s140",
+      "kind": "sentence",
+      "native": [
+        "Созвон начнётся в 11:30, приглашение отправила всем участникам через Outlook."
+      ],
+      "roman": [
+        "Sozvon nachnyotsya v 11:30, priglashenie otpravila vsem uchastnikam cherez Outlook."
+      ]
+    },
+    {
+      "id": "ru-s141",
+      "kind": "sentence",
+      "native": [
+        "Шкаф шириной 120 сантиметров поместится?"
+      ],
+      "roman": [
+        "Shkaf shirinoy 120 santimetrov pomestitsya?"
+      ]
+    },
+    {
+      "id": "ru-s142",
+      "kind": "sentence",
+      "native": [
+        "Ключи лежат под квитанциями на полке возле зеркала."
+      ],
+      "roman": [
+        "Klyuchi lezhat pod kvitantsiyami na polke vozle zerkala."
+      ]
+    },
+    {
+      "id": "ru-s143",
+      "kind": "sentence",
+      "native": [
+        "Заряда хватит ещё на 5 часов."
+      ],
+      "roman": [
+        "Zaryada khvatit eshchyo na 5 chasov."
+      ]
+    },
+    {
+      "id": "ru-s144",
+      "kind": "sentence",
+      "native": [
+        "Похоже, кот решил, что новая коробка важнее дорогой лежанки."
+      ],
+      "roman": [
+        "Pokhozhe, kot reshil, chto novaya korobka vazhnee dorogoy lezhanki."
+      ]
+    },
+    {
+      "id": "ru-s145",
+      "kind": "sentence",
+      "native": [
+        "Инна, запиши меня на стрижку 15 октября в 16:30, после 18:00 я уже не смогу."
+      ],
+      "roman": [
+        "Inna, zapishi menya na strizhku 15 oktyabrya v 16:30, posle 18:00 ya uzhe ne smogu."
+      ]
+    },
+    {
+      "id": "ru-s146",
+      "kind": "sentence",
+      "native": [
+        "В Уфе сейчас дождь, так что зонт очень пригодился."
+      ],
+      "roman": [
+        "V Ufe seychas dozhd, tak chto zont ochen prigodilsya."
+      ]
+    },
+    {
+      "id": "ru-s147",
+      "kind": "sentence",
+      "native": [
+        "Дочке завтра исполнится 9 лет."
+      ],
+      "roman": [
+        "Dochke zavtra ispolnitsya 9 let."
+      ]
+    },
+    {
+      "id": "ru-s148",
+      "kind": "sentence",
+      "native": [
+        "Оставь мне немного гречки."
+      ],
+      "roman": [
+        "Ostav mne nemnogo grechki."
+      ]
+    },
+    {
+      "id": "ru-s149",
+      "kind": "sentence",
+      "native": [
+        "Вера Павловна, вы задали 37-е упражнение целиком или только начало?"
+      ],
+      "roman": [
+        "Vera Pavlovna, vy zadali 37-e uprazhnenie tselikom ili tolko nachalo?"
+      ]
+    },
+    {
+      "id": "ru-s150",
+      "kind": "sentence",
+      "native": [
+        "Обнимаю, скучаю по вам."
+      ],
+      "roman": [
+        "Obnimayu, skuchayu po vam."
+      ]
+    },
+    {
+      "id": "ru-s151",
+      "kind": "sentence",
+      "native": [
+        "Поезд до Ярославля отправляется в 17:20 с 4-го пути."
+      ],
+      "roman": [
+        "Poezd do Yaroslavlya otpravlyaetsya v 17:20 s 4-go puti."
+      ]
+    },
+    {
+      "id": "ru-s152",
+      "kind": "sentence",
+      "native": [
+        "Ладно, жду у подъезда!"
+      ],
+      "roman": [
+        "Ladno, zhdu u podezda!"
+      ]
+    },
+    {
+      "id": "ru-s153",
+      "kind": "sentence",
+      "native": [
+        "Утром я могу выгуливать собаку в 07:15, а ты возьмёшь на себя вечернюю прогулку?"
+      ],
+      "roman": [
+        "Utrom ya mogu vygulivat sobaku v 07:15, a ty vozmyosh na sebya vechernyuyu progulku?"
+      ]
+    }
+  ]
+}

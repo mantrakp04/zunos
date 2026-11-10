@@ -1,0 +1,1682 @@
+{
+  "lang": "ne",
+  "starter": [
+    "ne-s013",
+    "ne-s135",
+    "ne-s092",
+    "ne-s044",
+    "ne-s047",
+    "ne-s140",
+    "ne-s023",
+    "ne-s131",
+    "ne-s133",
+    "ne-s026",
+    "ne-s002",
+    "ne-s018",
+    "ne-s056",
+    "ne-s094",
+    "ne-s112",
+    "ne-s081",
+    "ne-p03",
+    "ne-s030",
+    "ne-s008",
+    "ne-s009",
+    "ne-s016",
+    "ne-s093",
+    "ne-s103",
+    "ne-s072",
+    "ne-s046",
+    "ne-s052",
+    "ne-s029",
+    "ne-s040",
+    "ne-s100",
+    "ne-s076",
+    "ne-s128",
+    "ne-s053",
+    "ne-p07",
+    "ne-s137",
+    "ne-s028",
+    "ne-s066",
+    "ne-s111",
+    "ne-s098",
+    "ne-s080",
+    "ne-s062",
+    "ne-s110",
+    "ne-s099",
+    "ne-s021",
+    "ne-s134",
+    "ne-s129",
+    "ne-s121",
+    "ne-s089",
+    "ne-s079",
+    "ne-s025"
+  ],
+  "items": [
+    {
+      "id": "ne-p01",
+      "kind": "para",
+      "title": "Moving to Kirtipur",
+      "native": [
+        "म शनिबार कीर्तिपुरको नयाँ डेरामा सर्दै छु, तिमी बिहान आउन सक्छौ?",
+        "नयाँ डेरा पाँगा जाने बाटोको किराना पसलमाथि दोस्रो तलामा छ।",
+        "कोठाको झ्यालबाट घाम छिर्छ, अनि छतमा लुगा सुकाउने ठाउँ पनि छ।",
+        "भाडा महिनाको 18000 रुपैयाँ पर्छ, पानीको पैसा चाहिँ छुट्टै तिर्नुपर्छ।",
+        "ठूला सामान लैजान सानो गाडी बोलाएको छु, किताबहरू झोलामा राखिसकेँ।",
+        "तिमीले भान्साका सिसाका भाँडा बेर्न पुराना पत्रिका ल्याइदिए धेरै सजिलो हुन्छ।",
+        "आमाले पठाउनुभएको अचारको बट्टा चाहिँ म आफैँ बोकेर लैजान्छु।",
+        "सामान मिलाएपछि नजिकैको पसलबाट तातो समोसा र चिया मगाएर खाऔँला।",
+        "तिमी फर्किनुअघि पुरानो डेराको चाबी घरबेटीलाई बुझाउन मसँगै गइदेऊ न।"
+      ],
+      "roman": [
+        "Ma Shanibar Kirtipurko naya derama sardai chhu, timi bihan aauna sakchhau?",
+        "Naya dera Panga jane batoko kirana pasalmathi dosro talama chha.",
+        "Kothako jhyalbata gham chhirchha, ani chhatma luga sukaune thau pani chha.",
+        "Bhada mahinako 18000 rupaiya parchha, paniko paisa chahi chhuttai tirnuparchha.",
+        "Thula saman laijana sano gadi bolayeko chhu, kitabharu jholama rakhisake.",
+        "Timile bhansaka sisaka bhada berna purana patrika lyaidiye dherai sajilo hunchha.",
+        "Aamale pathaunubhayeko acharko batta chahi ma aafai bokera laijanchhu.",
+        "Saman milayepachhi najikaiko pasalbata tato samosa ra chiya magayera khaula.",
+        "Timi pharkinuaghi purano derako chabi gharbetilai bujhauna masangai gaideu na."
+      ]
+    },
+    {
+      "id": "ne-p02",
+      "kind": "para",
+      "title": "Office Floor Move",
+      "native": [
+        "हाम्रो पुतलीसडकको अफिस शुक्रबारदेखि यही भवनको चौथो तलामा सर्दै छ।",
+        "बिहीबार दिउँसो 3 बजेबाट टेबल र दराज माथि लैजान थाल्छौँ।",
+        "कृपया आफ्नो टेबलका सामान नाम लेखेको बाकसमा राखेर तयार पार्नुहोस्।",
+        "ल्यापटप र चार्जर भने आफूसँगै राख्नुहोस्, ती सामान बाकसमा नराख्नुहोस्।",
+        "साझा फाइलहरू नयाँ दराजमा राख्ने जिम्मा सविता श्रेष्ठले लिनुभएको छ।",
+        "इन्टरनेट जोड्ने काम नसकिएकाले शुक्रबार बिहानको मिटिङ घरबाटै अनलाइन गर्नेछौँ।",
+        "क्लाइन्टलाई भेट्न बोलाउनुभएको छ भने अफिस चौथो तलामा सर्दै छ भनेर खबर गरिदिनुहोस्।",
+        "चौथो तलाको बायाँपट्टिको ठूलो कोठामा सबैका टेबल राख्ने तय भएको छ।",
+        "सामान सार्दा केही अप्ठ्यारो परे मलाई फोन गर्नुहोस्, म अफिसमै हुन्छु।"
+      ],
+      "roman": [
+        "Hamro Putalisadakko office Shukrabardekhi yahi bhawanko chautho talama sardai chha.",
+        "Bihibar diuso 3 bajebata table ra daraj mathi laijana thalchhau.",
+        "Kripaya aafno tableka saman nam lekheko bakasma rakhera tayar parnuhos.",
+        "Laptop ra charger bhane aafusangai rakhnuhos, ti saman bakasma narakhnuhos.",
+        "Sajha fileharu naya darajma rakhne jimma Savita Shresthale linubhayeko chha.",
+        "Internet jodne kam nasakiyekale Shukrabar bihanko meeting gharbatai online garnechhau.",
+        "Clientlai bhetna bolaunubhayeko chha bhane office chautho talama sardai chha bhanera khabar garidinuhos.",
+        "Chautho talako bayapattiko thulo kothama sabaika table rakhne tay bhayeko chha.",
+        "Saman sarda kehi apthyaro pare malai phone garnuhos, ma officemai hunchhu."
+      ]
+    },
+    {
+      "id": "ne-p03",
+      "kind": "para",
+      "title": "Rain at Asan Market",
+      "native": [
+        "हिजो बिहान असनमा तरकारी किन्न जाँदा आकाश एकदम सफा थियो।",
+        "इन्द्रचोकबाट अघि बढ्दै गर्दा ताजा धनियाँको बास्ना आइरहेको थियो।",
+        "एउटी दिदीले डोकोबाट हरियो सिमी निकालेर सानो तराजुमा जोख्दै हुनुहुन्थ्यो।",
+        "मैले आधा किलो सिमी लिएँ र गोलभेँडाको भाउ सोधेँ।",
+        "पैसा निकाल्नै लाग्दा पानीका ठूला थोपा मेरो झोलामाथि पर्न थाले।",
+        "पसलका दाइले हतारहतार पाल तान्नुभयो, म पनि त्यही पालमुनि ओत लागेँ।",
+        "भुइँमा थुप्रिएको पानीले मेरा चप्पल भिजे, तर तरकारीको झोला जोगियो।",
+        "पानी अलि कम भएपछि मैले नजिकैको चिया पसलमा अदुवा चिया खाएँ।",
+        "घर पुग्दा ढिलो भइसकेको थियो, आमाले भिजेको कपाल देखेर तौलिया दिनुभयो।"
+      ],
+      "roman": [
+        "Hijo bihan Asanma tarkari kinna jada aakash ekdam sapha thiyo.",
+        "Indrachokbata aghi badhdai garda taja dhaniyako basna aairaheko thiyo.",
+        "Euti didile dokobata hariyo simi nikalera sano tarajuma jokhdai hunuhunthyo.",
+        "Maile aadha kilo simi liye ra golbhedako bhau sodhe.",
+        "Paisa nikalnai lagda panika thula thopa mero jholamathi parna thale.",
+        "Pasalka daile hatarhatar pal tannubhayo, ma pani tyahi palmuni ot lage.",
+        "Bhuima thupriyeko panile mera chappal bhije, tara tarkariko jhola jogiyo.",
+        "Pani ali kam bhayepachhi maile najikaiko chiya pasalma aduwa chiya khaye.",
+        "Ghar pugda dhilo bhaisakeko thiyo, aamale bhijeko kapal dekhera tauliya dinubhayo."
+      ]
+    },
+    {
+      "id": "ne-p04",
+      "kind": "para",
+      "title": "Learning Baghchal in Kirtipur",
+      "native": [
+        "हजुरबासँग खेल्दा सिकेको बाघचाल तिमीलाई सिकाउँछु। तिमी बाख्रा चलाऊ, म बाघ चलाउँछु।",
+        "सुरुमा चार बाघलाई बोर्डको चार कुनामा राख, 20 बाख्रा बाहिरै राख।",
+        "तिम्रो पालोमा एउटा बाख्रा खाली ठाउँमा राख। त्यसपछि मेरो पालो आउँछ।",
+        "बाघलाई रेखाले जोडिएको छेउको खाली ठाउँमा सार्न मिल्छ।",
+        "बाघले बाख्रा खान छेउको बाख्रामाथि उफ्रेर सोझै पछाडिको खाली ठाउँमा पुग्नुपर्छ।",
+        "बाघले खाएको बाख्रा बोर्डबाट हटाऊ। त्यसलाई फेरि खेलमा राख्न पाइँदैन।",
+        "सबै बाख्रा राखिसकेपछि मात्रै तिमीले बाख्रालाई रेखाले जोडिएको छेउको खाली ठाउँमा सार्न पाउँछौ।",
+        "बाख्रा उफार्न वा बाघ खान मिल्दैन। चारै बाघको बाटो छेक्न खोज।",
+        "पाँच बाख्रा खाए बाघले जित्छ, चारै बाघ चल्न नसके बाख्राले जित्छ।"
+      ],
+      "roman": [
+        "Hajurbasanga khelda sikeko baghchal timilai sikauchhu. Timi bakhra chalau, ma bagh chalauchhu.",
+        "Suruma char baghlai boardko char kunama rakha, 20 bakhra bahirai rakha.",
+        "Timro paloma euta bakhra khali thauma rakha. Tyaspachhi mero palo aauchha.",
+        "Baghlai rekhale jodiyeko chheuko khali thauma sarna milchha.",
+        "Baghle bakhra khana chheuko bakhramathi uphrera sojhai pachhadiko khali thauma pugnuparchha.",
+        "Baghle khayeko bakhra boardbata hatau. Tyaslai feri khelma rakhna paidaina.",
+        "Sabai bakhra rakhisakepachhi matrai timile bakhralai rekhale jodiyeko chheuko khali thauma sarna pauchhau.",
+        "Bakhra upharna wa bagh khana mildaina. Charai baghko bato chhekna khoja.",
+        "Panch bakhra khaye baghle jitchha, charai bagh chalna nasake bakhrale jitchha."
+      ]
+    },
+    {
+      "id": "ne-p05",
+      "kind": "para",
+      "title": "New Phone in Narayangadh",
+      "native": [
+        "हिजो नारायणगढको पुल्चोकमा किनेको नयाँ फोन दिनभरि चलाएर हेरेँ।",
+        "पुरानो फोनभन्दा यो अलि हलुका छ, खल्तीमा राख्न पनि सजिलो लाग्यो।",
+        "फोनको स्क्रिन घाममा पनि राम्रै देखिन्छ, अक्षर पढ्न गाह्रो हुँदैन।",
+        "नारायणी किनारमा खिचेका फोटोमा रङ अलि बढी चहकिलो देखियो।",
+        "क्यामेराले अनुहार चाहिँ अलि धेरै चिल्लो बनाइदिँदो रहेछ।",
+        "दिनभरि मेसेज हेर्दा र गीत सुन्दा पनि ब्याट्री बेलुकासम्म पुग्यो।",
+        "तर धेरै बेर भिडियो हेरेपछि फोनको पछाडिको भाग तात्यो।",
+        "पसलेले दिएको कभर नरम छ, हातबाट चिप्लेला भन्ने डर लागेन।",
+        "फोटो खिच्नुभन्दा अरू काम गर्न यो फोन बढी ठीक लाग्यो।"
+      ],
+      "roman": [
+        "Hijo Narayangadhko Pulchowkma kineko naya phone dinbhari chalaera here.",
+        "Purano phonebhanda yo ali haluka chha, khaltima rakhna pani sajilo lagyo.",
+        "Phoneko screen ghamma pani ramrai dekhinchha, akshar padhna gahro hudaina.",
+        "Narayani kinarma khicheka photoma rang ali badhi chahakilo dekhiyo.",
+        "Camerale anuhar chahi ali dherai chillo banaidido rahechha.",
+        "Dinbhari message herda ra git sunda pani battery belukasamma pugyo.",
+        "Tara dherai ber video herepachhi phoneko pachhadiko bhag tatyo.",
+        "Pasalele diyeko cover naram chha, hatbata chiplela bhanne dar lagena.",
+        "Photo khichnubhanda aru kam garna yo phone badhi thik lagyo."
+      ]
+    },
+    {
+      "id": "ne-p06",
+      "kind": "para",
+      "title": "Planning a Banepa Kitchen",
+      "native": [
+        "बनेपामा 2083 साल जेठ 8 गतेदेखि भान्सा मर्मत गर्ने सोचेको छु।",
+        "मिस्त्रीलाई बिहान 8 बजे बोलाउँछु, सामान चाहिँ अघिल्लै दिन ल्याउनुपर्छ।",
+        "पहिले 12 फिट लामो भित्ताको पुरानो टायल निकालेर सफा गर्नुपर्छ।",
+        "सामान किन्न घरबाट 3 किलोमिटर टाढाको हार्डवेयर पसल जान्छु।",
+        "नयाँ सिङ्कको 6500 रुपैयाँ र धाराको 2200 रुपैयाँ पर्ने रहेछ।",
+        "एक जना मिस्त्रीको ज्याला दिनको 1800 रुपैयाँ पर्ने रहेछ।",
+        "2 जना मिस्त्री आए भने 4 दिनमा काम सकिएला।",
+        "काम ढिलो हुन सक्छ, त्यसैले 6 दिनका लागि चुलो बरन्डामा सारेर राख्छु।",
+        "भान्साको कामका लागि 60000 रुपैयाँ छुट्याउँछु। खर्चको हिसाब चाहिँ दिनदिनै लेख्छु।"
+      ],
+      "roman": [
+        "Banepama 2083 sal Jeth 8 gatedekhi bhansa marmat garne socheko chhu.",
+        "Mistrilai bihan 8 baje bolauchhu, saman chahi aghillai din lyaunuparchha.",
+        "Pahile 12 feet lamo bhittako purano tile nikalera sapha garnuparchha.",
+        "Saman kinna gharbata 3 kilometer tadhako hardware pasal janchhu.",
+        "Naya sinkko 6500 rupaiya ra dharako 2200 rupaiya parne rahechha.",
+        "Ek jana mistriko jyala dinko 1800 rupaiya parne rahechha.",
+        "2 jana mistri aaye bhane 4 dinma kam sakiela.",
+        "Kam dhilo huna sakchha, tyasaile 6 dinka lagi chulo barandama sarera rakhchhu.",
+        "Bhansako kamka lagi 60000 rupaiya chhutyauchhu. Kharchako hisab chahi dindinai lekhchhu."
+      ]
+    },
+    {
+      "id": "ne-p07",
+      "kind": "para",
+      "title": "Dropping Internet in Vijaypur",
+      "native": [
+        "नमस्ते, म धरानको विजयपुरबाट इन्टरनेटको समस्याबारे फोन गर्दै छु।",
+        "हिजो बेलुकादेखि हाम्रो घरको इन्टरनेट केही बेर चल्छ, फेरि काटिन्छ।",
+        "राउटर एकपटक बन्द गरेर खोलेँ, तर समस्या उस्तै छ।",
+        "फोन र ल्यापटप दुवैमा उस्तै भएकाले घरको लाइनमै समस्या होला।",
+        "आज दिउँसो अनलाइन मिटिङ छ, बीचमै इन्टरनेट काटिएला भन्ने चिन्ता छ।",
+        "विजयपुरभरि समस्या आएको हो कि मेरो घरको लाइनमा मात्र हो?",
+        "त्यताबाट लाइन चेक गरेर मलाई खबर गरिदिनुहुन्छ?",
+        "टेक्निसियन पठाउनुपर्ने भए भोलि बिहान 10 बजेपछि म घरमै हुन्छु।",
+        "आउनुअघि यही नम्बरमा फोन गरिदिनुहोस्, म घरको बाटो बताइदिन्छु।"
+      ],
+      "roman": [
+        "Namaste, ma Dharanko Vijaypurbata internetko samasyabare phone gardai chhu.",
+        "Hijo belukadekhi hamro gharko internet kehi ber chalchha, feri katinchha.",
+        "Router ekpatak banda garera khole, tara samasya ustai chha.",
+        "Phone ra laptop duwaima ustai bhaekale gharko linemai samasya hola.",
+        "Aaja diuso online meeting chha, bichmai internet katiela bhanne chinta chha.",
+        "Vijaypurbhari samasya aaeko ho ki mero gharko linema matra ho?",
+        "Tyatabata line check garera malai khabar garidinuhunchha?",
+        "Technician pathaunuparne bhae bholi bihan 10 bajepachhi ma gharmai hunchhu.",
+        "Aaunuaghi yahi numberma phone garidinuhos, ma gharko bato bataidinchhu."
+      ]
+    },
+    {
+      "id": "ne-p08",
+      "kind": "para",
+      "title": "Volleyball Fans in Lamachaur",
+      "native": [
+        "पोखराको लामाचौरमा महिला भलिबल हेर्न धेरै मान्छे भेला हुन्छन्।",
+        "तीजताका हुने प्रतियोगिता हेर्न वरपरका गाउँबाट पनि मान्छे आउँछन्।",
+        "कोर्ट वरिपरि बसेका दर्शकले राम्रो सर्भिस देख्दा ताली बजाउँछन्।",
+        "अप्ठ्यारो बल उठाउँदा ताली झन् चर्को हुन्छ, खेलाडीको हौसला पनि बढ्छ।",
+        "बल फर्काउँदा खेलाडीको तालमेल र फुर्ती दुवै देखिन्छ।",
+        "लामो र्‍याली चल्दा सबैको ध्यान बलतिरै हुन्छ।",
+        "आफ्नो मनपर्ने टिमले पोइन्ट जोड्दा दर्शकहरू खुसीले कराउँछन्।",
+        "खेलको बीचमा नजिकका चियापसलमा पनि खेलकै कुरा चल्छ।",
+        "यस्ता प्रतियोगितामा स्थानीय खेलाडीले पनि आफ्नो खेल देखाउने मौका पाउँछन्।"
+      ],
+      "roman": [
+        "Pokharako Lamachaurma mahila volleyball herna dherai manchhe bhela hunchhan.",
+        "Teejtaka hune pratiyogita herna warparka gaubata pani manchhe aauchhan.",
+        "Court waripari baseka darshakle ramro service dekhda tali bajauchhan.",
+        "Apthyaro ball uthauda tali jhan charko hunchha, kheladiko hausala pani badhchha.",
+        "Ball pharkauda kheladiko talmel ra phurti duwai dekhinchha.",
+        "Lamo rally chalda sabaiko dhyan balltirai hunchha.",
+        "Aafno manparne teamle point jodda darshakharu khusile karauchhan.",
+        "Khelko bichma najikka chiyapasalma pani khelkai kura chalchha.",
+        "Yasta pratiyogitama sthaniya kheladile pani aafno khel dekhaune mauka pauchhan."
+      ]
+    },
+    {
+      "id": "ne-s001",
+      "kind": "sentence",
+      "native": [
+        "आमालाई सन्चै छ नि? बिहानदेखि खबर आएको छैन।"
+      ],
+      "roman": [
+        "Aamalai sanchai chha ni? Bihandekhi khabar aayeko chhaina."
+      ]
+    },
+    {
+      "id": "ne-s002",
+      "kind": "sentence",
+      "native": [
+        "फुर्बाजी, तपाईंले सिकाउनुभएको तरिकाले कपडा काट्न सजिलो भयो।"
+      ],
+      "roman": [
+        "Furbaji, tapaile sikaunubhayeko tarikale kapada katna sajilo bhayo."
+      ]
+    },
+    {
+      "id": "ne-s003",
+      "kind": "sentence",
+      "native": [
+        "चामल 5 किलो र रहरको दाल 2 किलो जोखिदिनुहोस्।"
+      ],
+      "roman": [
+        "Chamal 5 kilo ra raharko dal 2 kilo jokhidinuhos."
+      ]
+    },
+    {
+      "id": "ne-s004",
+      "kind": "sentence",
+      "native": [
+        "सेलरोटी पकाउनुअघि चामल भिजाउनुपर्छ भनेर बेलुकै सम्झाइदेऊ।"
+      ],
+      "roman": [
+        "Selroti pakaunuaghi chamal bhijaunuparchha bhanera belukai samjhaideu."
+      ]
+    },
+    {
+      "id": "ne-s005",
+      "kind": "sentence",
+      "native": [
+        "स्टपवाच सुरु गर न।"
+      ],
+      "roman": [
+        "Stopwatch suru gara na."
+      ]
+    },
+    {
+      "id": "ne-s006",
+      "kind": "sentence",
+      "native": [
+        "माउसको ब्याट्री फेर्नुपर्छ जस्तो छ।"
+      ],
+      "roman": [
+        "Mouseko battery fernuparchha jasto chha."
+      ]
+    },
+    {
+      "id": "ne-s007",
+      "kind": "sentence",
+      "native": [
+        "अलिकति अगाडि बढेपछि दायाँपट्टि नीलो सटर देखिन्छ, त्यहीँ साइकल बनाउने दाइको पसल छ, त्यतै जाऔँ।"
+      ],
+      "roman": [
+        "Alikati agadi badhepachhi dayapatti nilo shutter dekhinchha, tyahi cycle banaune daiko pasal chha, tyatai jaau."
+      ]
+    },
+    {
+      "id": "ne-s008",
+      "kind": "sentence",
+      "native": [
+        "सागको मुठालाई 30 रुपैयाँ त अलि महँगो भएन?"
+      ],
+      "roman": [
+        "Sagko muthalai 30 rupaiya ta ali mahango bhayena?"
+      ]
+    },
+    {
+      "id": "ne-s009",
+      "kind": "sentence",
+      "native": [
+        "व्याकरणको अभ्यास पनि बुझाउने हो?"
+      ],
+      "roman": [
+        "Wyakaranko abhyas pani bujhaune ho?"
+      ]
+    },
+    {
+      "id": "ne-s010",
+      "kind": "sentence",
+      "native": [
+        "पहिले एक्लै बस्दा न्यास्रो लाग्थ्यो, अचेल खाना पकाएर गीत सुन्दै खान पनि रमाइलो लाग्न थालेको छ।"
+      ],
+      "roman": [
+        "Pahile eklai basda nyasro lagthyo, achel khana pakaera git sundai khan pani ramailo lagna thaleko chha."
+      ]
+    },
+    {
+      "id": "ne-s011",
+      "kind": "sentence",
+      "native": [
+        "ल, फोटो चाहिँ राम्रै आएछ।"
+      ],
+      "roman": [
+        "La, photo chahi ramrai aayechha."
+      ]
+    },
+    {
+      "id": "ne-s012",
+      "kind": "sentence",
+      "native": [
+        "तपाईंले भनेको ठाउँमा बजेट घटाएको छु, एकचोटि हेरेर ठीक छ भन्नुभयो भने प्रस्ताव पठाउँछु।"
+      ],
+      "roman": [
+        "Tapaile bhaneko thauma budget ghataeko chhu, ekchoti herera thik chha bhannubhayo bhane prastaw pathauchhu."
+      ]
+    },
+    {
+      "id": "ne-s013",
+      "kind": "sentence",
+      "native": [
+        "पार्किङको 40 रुपैयाँ तिरेँ।"
+      ],
+      "roman": [
+        "Parkingko 40 rupaiya tire."
+      ]
+    },
+    {
+      "id": "ne-s014",
+      "kind": "sentence",
+      "native": [
+        "असन पुगेपछि सिलौटाको भाउ सोध्न सम्झाइदेऊ।"
+      ],
+      "roman": [
+        "Asan pugepachhi silautako bhau sodhna samjhaideu."
+      ]
+    },
+    {
+      "id": "ne-s015",
+      "kind": "sentence",
+      "native": [
+        "स्क्रिनको ब्राइटनेस 60% मा राखेर डार्क मोड खोलिदेऊ।"
+      ],
+      "roman": [
+        "Screenko brightness 60% ma rakhera dark mode kholideu."
+      ]
+    },
+    {
+      "id": "ne-s016",
+      "kind": "sentence",
+      "native": [
+        "त्यो सफ्टवेयरको ट्रायल सकिएपछि महिनाको 750 रुपैयाँ तिर्नुपर्छ।"
+      ],
+      "roman": [
+        "Tyo softwareko trial sakiepachhi mahinako 750 rupaiya tirnuparchha."
+      ]
+    },
+    {
+      "id": "ne-s017",
+      "kind": "sentence",
+      "native": [
+        "काकी पसलमै पर्खिरहनुभएको छ।"
+      ],
+      "roman": [
+        "Kaki pasalmai parkhirahanubhayeko chha."
+      ]
+    },
+    {
+      "id": "ne-s018",
+      "kind": "sentence",
+      "native": [
+        "आयुषाको स्कुलमा अभिभावक भेला कुन दिन रहेछ?"
+      ],
+      "roman": [
+        "Ayushako schoolma abhibhawak bhela kun din rahechha?"
+      ]
+    },
+    {
+      "id": "ne-s019",
+      "kind": "sentence",
+      "native": [
+        "ढिँडोसँग कुखुराको झोल दिनुहोस्, तर छुट्टै कचौरामा राखिदिनुहोस्, आफैँ मिसाएर खान्छु।"
+      ],
+      "roman": [
+        "Dhidosanga kukhurako jhol dinuhos, tara chhuttai kachaurama rakhidinuhos, aafai misaera khanchhu."
+      ]
+    },
+    {
+      "id": "ne-s020",
+      "kind": "sentence",
+      "native": [
+        "शबनम, तिमीले साथ दिएपछि बल्ल गाउने आँट आयो, धन्यवाद।"
+      ],
+      "roman": [
+        "Shabnam, timile sath diyepachhi balla gaune aant aayo, dhanyabad."
+      ]
+    },
+    {
+      "id": "ne-s021",
+      "kind": "sentence",
+      "native": [
+        "तिम्रो ज्याकेट यहीँ छुटेछ।"
+      ],
+      "roman": [
+        "Timro jacket yahi chhutechha."
+      ]
+    },
+    {
+      "id": "ne-s022",
+      "kind": "sentence",
+      "native": [
+        "विवेक राईले तालिमको हल हेर्नुभएको छ, उहाँसँग बसेर चाहिने सामानको लिस्ट एकपटक मिलाउनुहोस् न।"
+      ],
+      "roman": [
+        "Vivek Raile talimko hall hernubhaeko chha, uhasanga basera chahine samanko list ekpatak milaunuhos na."
+      ]
+    },
+    {
+      "id": "ne-s023",
+      "kind": "sentence",
+      "native": [
+        "पर्सि बुधबार दिउँसो 2 बजे मिटिङ सुरु हुन्छ।"
+      ],
+      "roman": [
+        "Parsi Budhbar diuso 2 baje meeting suru hunchha."
+      ]
+    },
+    {
+      "id": "ne-s024",
+      "kind": "sentence",
+      "native": [
+        "बिरालोको दाना किन्न बाँकी छ।"
+      ],
+      "roman": [
+        "Biraloko dana kinna baki chha."
+      ]
+    },
+    {
+      "id": "ne-s025",
+      "kind": "sentence",
+      "native": [
+        "युट्युब एपमा क्वाँटी बनाउने सजिलो तरिका देखाऊ त।"
+      ],
+      "roman": [
+        "YouTube appma kwati banaune sajilo tarika dekhau ta."
+      ]
+    },
+    {
+      "id": "ne-s026",
+      "kind": "sentence",
+      "native": [
+        "रेकर्डिङमा पछाडिको हल्लाले बोलेको कुरा बुझ्नै गाह्रो भयो।"
+      ],
+      "roman": [
+        "Recordingma pachhadiko hallale boleko kura bujhnai gahro bhayo."
+      ]
+    },
+    {
+      "id": "ne-s027",
+      "kind": "sentence",
+      "native": [
+        "तपाईंको पसलबाट लगेको जुत्ता सानो भएछ, अर्को जोडीसँग साट्न आज दिउँसोतिर आउँदा तपाईं हुनुहुन्छ?"
+      ],
+      "roman": [
+        "Tapaiko pasalbata lageko jutta sano bhayechha, arko jodisanga satna aaja diusotira aauda tapai hunuhunchha?"
+      ]
+    },
+    {
+      "id": "ne-s028",
+      "kind": "sentence",
+      "native": [
+        "भान्जाको पास्नीमा लगाउने कुर्ता अझै सिलाएर आएको छैन।"
+      ],
+      "roman": [
+        "Bhanjako pasnima lagaune kurta ajhai silaera aaeko chhaina."
+      ]
+    },
+    {
+      "id": "ne-s029",
+      "kind": "sentence",
+      "native": [
+        "एक दर्जन केरा, दही र चिउरा ल्याइदेऊ न।"
+      ],
+      "roman": [
+        "Ek darjan kera, dahi ra chiura lyaideu na."
+      ]
+    },
+    {
+      "id": "ne-s030",
+      "kind": "sentence",
+      "native": [
+        "किताबको अन्त्य चाहिँ चित्त बुझेन, कथा अलि हतारमा टुङ्गिएजस्तो लाग्यो।"
+      ],
+      "roman": [
+        "Kitabko antya chahi chitta bujhena, katha ali hatarma tungiejasto lagyo."
+      ]
+    },
+    {
+      "id": "ne-s031",
+      "kind": "sentence",
+      "native": [
+        "बुबा, तपाईंको चस्मा दराजको माथिल्लो घर्रामा राखिदिएको छु।"
+      ],
+      "roman": [
+        "Buba, tapaiko chasma darajko mathillo gharrama rakhidiyeko chhu."
+      ]
+    },
+    {
+      "id": "ne-s032",
+      "kind": "sentence",
+      "native": [
+        "अञ्जलीजी, जनकपुरको शाखाबाट बिक्रीको हिसाब आयो कि आएन?"
+      ],
+      "roman": [
+        "Anjaliji, Janakpurko shakhabata bikriko hisab aayo ki aayena?"
+      ]
+    },
+    {
+      "id": "ne-s033",
+      "kind": "sentence",
+      "native": [
+        "खेलमा हाम्रो टोलीले 3 गोल हान्यो, उनीहरूले 2 हाने।"
+      ],
+      "roman": [
+        "Khelma hamro tolile 3 goal hanyo, uniharule 2 hane."
+      ]
+    },
+    {
+      "id": "ne-s034",
+      "kind": "sentence",
+      "native": [
+        "किनमेलको लिस्टमा साबुन थपिदेऊ।"
+      ],
+      "roman": [
+        "Kinmelko listma sabun thapideu."
+      ]
+    },
+    {
+      "id": "ne-s035",
+      "kind": "sentence",
+      "native": [
+        "चन्द्रागिरिको केबल कारमा बच्चाको भाडा कति हो र कति वर्षसम्म पैसा लाग्दैन भनेर हेरिदेऊ।"
+      ],
+      "roman": [
+        "Chandragiriko cable carma bachchako bhada kati ho ra kati warshasamma paisa lagdaina bhanera herideu."
+      ]
+    },
+    {
+      "id": "ne-s036",
+      "kind": "sentence",
+      "native": [
+        "प्रिन्टरले कागज तान्दैन, भित्र कतै अड्किएको छ कि?"
+      ],
+      "roman": [
+        "Printerle kagaj tandaina, bhitra katai adkieko chha ki?"
+      ]
+    },
+    {
+      "id": "ne-s037",
+      "kind": "sentence",
+      "native": [
+        "मञ्जु दिदीले लगनखेलबाट जावलाखेलसम्म पैदलै जान सकिन्छ भन्नुभएको थियो।"
+      ],
+      "roman": [
+        "Manju didile Lagankhelbata Jawalakhelsamma paidalai jana sakinchha bhannubhayeko thiyo."
+      ]
+    },
+    {
+      "id": "ne-s038",
+      "kind": "sentence",
+      "native": [
+        "गुन्द्रुक अलि अमिलो भएछ है।"
+      ],
+      "roman": [
+        "Gundruk ali amilo bhayechha hai."
+      ]
+    },
+    {
+      "id": "ne-s039",
+      "kind": "sentence",
+      "native": [
+        "अदुवा आधा किलो, होइन, पाउ मात्रै दिनुहोस्, अचारलाई पुग्छ।"
+      ],
+      "roman": [
+        "Aduwa aadha kilo, hoina, pau matrai dinuhos, acharlai pugchha."
+      ]
+    },
+    {
+      "id": "ne-s040",
+      "kind": "sentence",
+      "native": [
+        "ढिला जवाफ दिएकोमा माफ गर्नुहोस्।"
+      ],
+      "roman": [
+        "Dhila jawaph diyekoma maph garnuhos."
+      ]
+    },
+    {
+      "id": "ne-s041",
+      "kind": "sentence",
+      "native": [
+        "म घर आइपुगेँ है।"
+      ],
+      "roman": [
+        "Ma ghar aipuge hai."
+      ]
+    },
+    {
+      "id": "ne-s042",
+      "kind": "sentence",
+      "native": [
+        "रोजिनाले बनाएको पोस्टरमा पसलको ठेगाना सच्याउन बाँकी रहेछ।"
+      ],
+      "roman": [
+        "Rozinale banaeko posterma pasalko thegana sachyauna banki rahechha."
+      ]
+    },
+    {
+      "id": "ne-s043",
+      "kind": "sentence",
+      "native": [
+        "धरानबाट भेडेटार पुग्न अझै 17 किलोमिटर बाँकी छ।"
+      ],
+      "roman": [
+        "Dharanbata Bhedetar pugna ajhai 17 kilometer baki chha."
+      ]
+    },
+    {
+      "id": "ne-s044",
+      "kind": "sentence",
+      "native": [
+        "मङ्गलबार समीक्षा गुरुङसँग बाँसुरी सिक्न जाने कुरा टिपिदेऊ।"
+      ],
+      "roman": [
+        "Mangalbar Samiksha Gurungsanga bansuri sikna jane kura tipideu."
+      ]
+    },
+    {
+      "id": "ne-s045",
+      "kind": "sentence",
+      "native": [
+        "खुलेको पेजमा भएको अङ्ग्रेजी लेख नेपालीमा अनुवाद गरेर अक्षर पनि अलि ठूलो पारिदेऊ न।"
+      ],
+      "roman": [
+        "Khuleko pagema bhayeko angreji lekh Nepalima anuwad garera akshar pani ali thulo parideu na."
+      ]
+    },
+    {
+      "id": "ne-s046",
+      "kind": "sentence",
+      "native": [
+        "जुममा पस्दा माइक्रोफोन आफैँ म्युट हुने रहेछ नि।"
+      ],
+      "roman": [
+        "Zoomma pasda microphone aafai mute hune rahechha ni."
+      ]
+    },
+    {
+      "id": "ne-s047",
+      "kind": "sentence",
+      "native": [
+        "सञ्जु, कमलपोखरीको गेटमा भेटौँ, म हिँडेरै आइपुग्छु।"
+      ],
+      "roman": [
+        "Sanju, Kamalpokhariko gatema bhetau, ma hiderai aaipugchhu."
+      ]
+    },
+    {
+      "id": "ne-s048",
+      "kind": "sentence",
+      "native": [
+        "कपाल काट्न साँझतिर आउँदा पालो पाइन्छ कि कुर्नुपर्छ?"
+      ],
+      "roman": [
+        "Kapal katna sanjhatira aauda palo painchha ki kurnuparchha?"
+      ]
+    },
+    {
+      "id": "ne-s049",
+      "kind": "sentence",
+      "native": [
+        "कुचो यहाँ थियो, कहाँ गयो?"
+      ],
+      "roman": [
+        "Kucho yaha thiyo, kaha gayo?"
+      ]
+    },
+    {
+      "id": "ne-s050",
+      "kind": "sentence",
+      "native": [
+        "वाह, कस्तो मिठो योमरी बनाएछौ।"
+      ],
+      "roman": [
+        "Wah, kasto mitho yomari banaechhau."
+      ]
+    },
+    {
+      "id": "ne-s051",
+      "kind": "sentence",
+      "native": [
+        "दाइ, पोखरा जाने बसको टिकट काटिसक्नुभयो कि बाँकी छ?"
+      ],
+      "roman": [
+        "Dai, Pokhara jane busko ticket katisaknubhayo ki baki chha?"
+      ]
+    },
+    {
+      "id": "ne-s052",
+      "kind": "sentence",
+      "native": [
+        "सहयोगका लागि धेरै धन्यवाद है।"
+      ],
+      "roman": [
+        "Sahayogka lagi dherai dhanyabad hai."
+      ]
+    },
+    {
+      "id": "ne-s053",
+      "kind": "sentence",
+      "native": [
+        "कोठा नम्बर 7 खाली छ?"
+      ],
+      "roman": [
+        "Kotha number 7 khali chha?"
+      ]
+    },
+    {
+      "id": "ne-s054",
+      "kind": "sentence",
+      "native": [
+        "गणितको छुटेको पाठ बुझ्न भोलि सरलाई सोध्नु छ।"
+      ],
+      "roman": [
+        "Ganitko chhuteko path bujhna bholi sirlai sodhnu chha."
+      ]
+    },
+    {
+      "id": "ne-s055",
+      "kind": "sentence",
+      "native": [
+        "आवाज अलि सानो पार न।"
+      ],
+      "roman": [
+        "Aawaj ali sano par na."
+      ]
+    },
+    {
+      "id": "ne-s056",
+      "kind": "sentence",
+      "native": [
+        "हेमन्त, वेबसाइटमा सामान छानिसकेपछि डेलिभरीको ठेगाना कहाँ लेख्ने हो?"
+      ],
+      "roman": [
+        "Hemant, websitema saman chhanisakepachhi deliveryko thegana kaha lekhne ho?"
+      ]
+    },
+    {
+      "id": "ne-s057",
+      "kind": "sentence",
+      "native": [
+        "यतै ओर्लिन्छु, ढोका खोलिदिनुहोस्।"
+      ],
+      "roman": [
+        "Yatai orlinchhu, dhoka kholidinuhos."
+      ]
+    },
+    {
+      "id": "ne-s058",
+      "kind": "sentence",
+      "native": [
+        "खाजा डब्बामा हालिसक्यौ त?"
+      ],
+      "roman": [
+        "Khaja dabbama halisakyau ta?"
+      ]
+    },
+    {
+      "id": "ne-s059",
+      "kind": "sentence",
+      "native": [
+        "माफ गर्नुहोस्, 350 होइन, 450 रुपैयाँ फिर्ता दिनुपर्ने रहेछ।"
+      ],
+      "roman": [
+        "Maph garnuhos, 350 hoina, 450 rupaiya phirta dinuparne rahechha."
+      ]
+    },
+    {
+      "id": "ne-s060",
+      "kind": "sentence",
+      "native": [
+        "जित्न त सकिएन, तर महिनौँ सँगै खेलेका साथीहरूसँग यति नजिक भइयो कि नतिजाले फरक पारेन।"
+      ],
+      "roman": [
+        "Jitna ta sakiena, tara mahinau sangai kheleka sathiharusanga yati najik bhaiyo ki natijale farak parena."
+      ]
+    },
+    {
+      "id": "ne-s061",
+      "kind": "sentence",
+      "native": [
+        "शनिबार कीर्तिपुरमा भेट्ने भए म अलि ढिला आउँछु, बिहान बहिनीलाई कलेज पुर्‍याउन जानु छ।"
+      ],
+      "roman": [
+        "Shanibar Kirtipurma bhetne bhaye ma ali dhila aauchhu, bihan bahinilai college puryauna janu chha."
+      ]
+    },
+    {
+      "id": "ne-s062",
+      "kind": "sentence",
+      "native": [
+        "धनगढीको सामान बुझाउन ड्राइभरलाई कसको नम्बर दिने होला?"
+      ],
+      "roman": [
+        "Dhangadhiko saman bujhauna driverlai kasko number dine hola?"
+      ]
+    },
+    {
+      "id": "ne-s063",
+      "kind": "sentence",
+      "native": [
+        "नेहा शाक्यलाई 12 वटा कार्ड सोमबारसम्म प्रिन्ट गरेर दिनुपर्छ।"
+      ],
+      "roman": [
+        "Neha Shakyalai 12 wata card Sombarsamma print garera dinuparchha."
+      ]
+    },
+    {
+      "id": "ne-s064",
+      "kind": "sentence",
+      "native": [
+        "नेपालगन्जको गर्मीमा सुतीको तन्ना नै किन्ने हो। अरू कपडाको तन्नामा सुत्दा पसिना आएर असजिलो लाग्छ।"
+      ],
+      "roman": [
+        "Nepalgunjko garmima sutiko tanna nai kinne ho. Aru kapadako tannama sutda pasina aayera asajilo lagchha."
+      ]
+    },
+    {
+      "id": "ne-s065",
+      "kind": "sentence",
+      "native": [
+        "झ्यालबाट घाम कम आउने कोठामा राख्न मिल्ने र धेरै स्याहार नचाहिने बिरुवा कुन कुन हुन्?"
+      ],
+      "roman": [
+        "Jhyalbata gham kam aaune kothama rakhna milne ra dherai syahar nachahine biruwa kun kun hun?"
+      ]
+    },
+    {
+      "id": "ne-s066",
+      "kind": "sentence",
+      "native": [
+        "ओहो, इन्टरनेट त बल्ल चल्यो।"
+      ],
+      "roman": [
+        "Oho, internet ta balla chalyo."
+      ]
+    },
+    {
+      "id": "ne-s067",
+      "kind": "sentence",
+      "native": [
+        "हतार नगरी आउनुहोस्, कार्यक्रम सुरु हुन अझै समय छ, हामी बाहिरको बेन्चमा बसेर गफ गर्दै छौँ।"
+      ],
+      "roman": [
+        "Hatar nagari aaunuhos, karyakram suru huna ajhai samay chha, hami bahirako benchma basera gaf gardai chhau."
+      ]
+    },
+    {
+      "id": "ne-s068",
+      "kind": "sentence",
+      "native": [
+        "धाराको टुटी फेरि चुहिन थाल्यो।"
+      ],
+      "roman": [
+        "Dharako tuti feri chuhina thalyo."
+      ]
+    },
+    {
+      "id": "ne-s069",
+      "kind": "sentence",
+      "native": [
+        "पुष्पा, तिम्रो सिलाइको कोर्स कस्तो चल्दै छ? सिकेको कुरा त घरमा पनि काम लाग्छ होला नि?"
+      ],
+      "roman": [
+        "Pushpa, timro silaiko course kasto chaldai chha? Sikeko kura ta gharma pani kam lagchha hola ni?"
+      ]
+    },
+    {
+      "id": "ne-s070",
+      "kind": "sentence",
+      "native": [
+        "हार नमान, अभ्यास गर्दै गएपछि तिम्रो बोली झन् खुल्छ।"
+      ],
+      "roman": [
+        "Har naman, abhyas gardai gayepachhi timro boli jhan khulchha."
+      ]
+    },
+    {
+      "id": "ne-s071",
+      "kind": "sentence",
+      "native": [
+        "फर्किँदा पसलबाट एउटा ठूलो झोला ल्याइदेऊ है, पुरानो झोलाको फित्ता चुँडिएर सामान बोक्नै नमिल्ने भयो।"
+      ],
+      "roman": [
+        "Farkida pasalbata euta thulo jhola lyaideu hai, purano jholako fitta chudiyera saman boknai namilne bhayo."
+      ]
+    },
+    {
+      "id": "ne-s072",
+      "kind": "sentence",
+      "native": [
+        "अघिल्लो फाइल नखुलेर काम अड्कियो, अर्को कपी पठाइदिनुहुन्छ?"
+      ],
+      "roman": [
+        "Aghillo file nakhulera kam adkiyo, arko copy pathaidinuhunchha?"
+      ]
+    },
+    {
+      "id": "ne-s073",
+      "kind": "sentence",
+      "native": [
+        "पार्सल गठ्ठाघर, घर नम्बर 36 मा ल्याइदिनुहोस्, बेलुका 5 बजेपछि मात्रै मान्छे घरमा हुन्छ।"
+      ],
+      "roman": [
+        "Parcel Gatthaghar, ghar number 36 ma lyaidinuhos, beluka 5 bajepachhi matrai manchhe gharma hunchha."
+      ]
+    },
+    {
+      "id": "ne-s074",
+      "kind": "sentence",
+      "native": [
+        "दराज मिलाउँदा नलगाउने लुगा छुट्टै निकालेर राख्नुपर्छ।"
+      ],
+      "roman": [
+        "Daraj milauda nalagaune luga chhuttai nikalera rakhnuparchha."
+      ]
+    },
+    {
+      "id": "ne-s075",
+      "kind": "sentence",
+      "native": [
+        "तानसेन पुग्ने बाटो नक्सामा देखाऊ र कति समय लाग्छ भन।"
+      ],
+      "roman": [
+        "Tansen pugne bato naksama dekhau ra kati samaya lagchha bhana."
+      ]
+    },
+    {
+      "id": "ne-s076",
+      "kind": "sentence",
+      "native": [
+        "नोटिफिकेसनले काममा ध्यानै दिन दिएन।"
+      ],
+      "roman": [
+        "Notificationle kaamma dhyanai dina diyena."
+      ]
+    },
+    {
+      "id": "ne-s077",
+      "kind": "sentence",
+      "native": [
+        "उहाँको सिलाइ पसल यही गल्लीको पुछारमा पर्छ।"
+      ],
+      "roman": [
+        "Uhako silai pasal yahi galliko puchharma parchha."
+      ]
+    },
+    {
+      "id": "ne-s078",
+      "kind": "sentence",
+      "native": [
+        "हुलाक जाँदै हुनुहुन्छ भने यो चिठी पनि लगिदिनुहोस्।"
+      ],
+      "roman": [
+        "Hulak jadai hunuhunchha bhane yo chithi pani lagidinuhos."
+      ]
+    },
+    {
+      "id": "ne-s079",
+      "kind": "sentence",
+      "native": [
+        "रश्मि, शुक्रबार भनेछु, आइतबार नाटक हेर्न जाने भनेको हो।"
+      ],
+      "roman": [
+        "Rashmi, shukrabar bhanechhu, aaitabar natak herna jane bhaneko ho."
+      ]
+    },
+    {
+      "id": "ne-s080",
+      "kind": "sentence",
+      "native": [
+        "चाबहिलको जामले दिक्क पार्छ, आधा समय सडकमै बित्छ।"
+      ],
+      "roman": [
+        "Chabahilko jamle dikka parchha, aadha samaya sadakmai bitchha."
+      ]
+    },
+    {
+      "id": "ne-s081",
+      "kind": "sentence",
+      "native": [
+        "तीजको नाच सिकेको भिडियो हाम्रो ग्रुपमा पनि पठाऊ न।"
+      ],
+      "roman": [
+        "Teejko nach sikeko video hamro groupma pani pathau na."
+      ]
+    },
+    {
+      "id": "ne-s082",
+      "kind": "sentence",
+      "native": [
+        "नमस्ते, तपाईंलाई इमेल पठाएको छु।"
+      ],
+      "roman": [
+        "Namaste, tapailai email pathaeko chhu."
+      ]
+    },
+    {
+      "id": "ne-s083",
+      "kind": "sentence",
+      "native": [
+        "सापटीको 650 रुपैयाँ खल्तीबाट पठाएँ, एकचोटि हेर्नुहोस् है।"
+      ],
+      "roman": [
+        "Sapatiko 650 rupaiya Khaltibata pathaye, ekchoti hernuhos hai."
+      ]
+    },
+    {
+      "id": "ne-s084",
+      "kind": "sentence",
+      "native": [
+        "आउँदो महिनादेखि पौडी सिक्न थाल्ने हो। सातदोबाटोको स्विमिङ पुल खुल्ने समय बुझ्न मलाई सम्झाइदेऊ।"
+      ],
+      "roman": [
+        "Aaudo mahinadekhi paudi sikna thalne ho. Satdobatoko swimming pool khulne samaya bujhna malai samjhaideu."
+      ]
+    },
+    {
+      "id": "ne-s085",
+      "kind": "sentence",
+      "native": [
+        "रचनालाई भिडियो कल गरिदेऊ।"
+      ],
+      "roman": [
+        "Rachanalai video call garideu."
+      ]
+    },
+    {
+      "id": "ne-s086",
+      "kind": "sentence",
+      "native": [
+        "बोक्न सजिलो हुने भएकाले मैले हलुका ल्यापटप रोजेँ, कलेज र घर दुवैतिर एउटैमा काम गर्न मिल्छ।"
+      ],
+      "roman": [
+        "Bokna sajilo hune bhayekale maile haluka laptop roje, college ra ghar duwaitira eutaima kam garna milchha."
+      ]
+    },
+    {
+      "id": "ne-s087",
+      "kind": "sentence",
+      "native": [
+        "वीरेन्द्रनगरको घण्टाघरमै भेटौँ, त्यहाँबाट बजार घुम्दै चिया खान जाऔँला।"
+      ],
+      "roman": [
+        "Birendranagarko ghantagharmai bhetau, tyahabata bajar ghumdai chiya khana jaula."
+      ]
+    },
+    {
+      "id": "ne-s088",
+      "kind": "sentence",
+      "native": [
+        "यति बाक्लो हुस्सु पो लागेछ।"
+      ],
+      "roman": [
+        "Yati baklo hussu po lagechha."
+      ]
+    },
+    {
+      "id": "ne-s089",
+      "kind": "sentence",
+      "native": [
+        "पख, अघिको मेसेज नमेट, त्यसैमा ठेगाना रहेछ।"
+      ],
+      "roman": [
+        "Pakha, aghiko message nameta, tyasaima thegana rahechha."
+      ]
+    },
+    {
+      "id": "ne-s090",
+      "kind": "sentence",
+      "native": [
+        "सुनिता, आउँदा मलाई पनि जुजु धौ ल्याइदेऊ है।"
+      ],
+      "roman": [
+        "Sunita, aauda malai pani juju dhau lyaideu hai."
+      ]
+    },
+    {
+      "id": "ne-s091",
+      "kind": "sentence",
+      "native": [
+        "नयाँ डिजाइन मलाई ठीक लाग्यो।"
+      ],
+      "roman": [
+        "Naya design malai thik lagyo."
+      ]
+    },
+    {
+      "id": "ne-s092",
+      "kind": "sentence",
+      "native": [
+        "ब्याट्री 18% मात्रै बाँकी रहेछ।"
+      ],
+      "roman": [
+        "Battery 18% matrai baki rahechha."
+      ]
+    },
+    {
+      "id": "ne-s093",
+      "kind": "sentence",
+      "native": [
+        "बट्टाको बिर्को चर्किएको छ। नयाँ किन्दा नचुहिने खालको रोज्नुपर्छ।"
+      ],
+      "roman": [
+        "Battako birko charkieko chha. Naya kinda nachuhine khalko rojnuparchha."
+      ]
+    },
+    {
+      "id": "ne-s094",
+      "kind": "sentence",
+      "native": [
+        "चिठी लेख्न कम्प्युटरमा नेपाली किबोर्ड कसरी राख्ने हो?"
+      ],
+      "roman": [
+        "Chithi lekhna computerma Nepali keyboard kasari rakhne ho?"
+      ]
+    },
+    {
+      "id": "ne-s095",
+      "kind": "sentence",
+      "native": [
+        "स्क्रिन सेयर गर्न मिलिरहेको छ?"
+      ],
+      "roman": [
+        "Screen share garna miliraheko chha?"
+      ]
+    },
+    {
+      "id": "ne-s096",
+      "kind": "sentence",
+      "native": [
+        "बसपार्कमा उत्रेपछि त्यहीँको काउन्टरमा सामान राख्न मिल्छ रे।"
+      ],
+      "roman": [
+        "Busparkma utrepachhi tyahiko counterma saman rakhna milchha re."
+      ]
+    },
+    {
+      "id": "ne-s097",
+      "kind": "sentence",
+      "native": [
+        "ग्यास सकिएछ, दाल चाहिँ इन्डक्सनमा बसालौँ न।"
+      ],
+      "roman": [
+        "Gas sakiechha, dal chahi inductionma basalau na."
+      ]
+    },
+    {
+      "id": "ne-s098",
+      "kind": "sentence",
+      "native": [
+        "नक्सालसम्म पुर्‍याइदिनुहोस्, होइन, गैरीधारामै रोक्दा पनि हुन्छ।"
+      ],
+      "roman": [
+        "Naxalsamma puryaidinuhos, hoina, Gairidharamai rokda pani hunchha."
+      ]
+    },
+    {
+      "id": "ne-s099",
+      "kind": "sentence",
+      "native": [
+        "आज भान्सा मेरो जिम्मा, तिमी भाँडा माझ्न तयार होऊ।"
+      ],
+      "roman": [
+        "Aaja bhansa mero jimma, timi bhada majhna tayar hou."
+      ]
+    },
+    {
+      "id": "ne-s100",
+      "kind": "sentence",
+      "native": [
+        "बिहीबारको छलफल बिहान 8 बजेतिर सार्न मिल्छ?"
+      ],
+      "roman": [
+        "Bihibarko chhalphal bihan 8 bajetira sarna milchha?"
+      ]
+    },
+    {
+      "id": "ne-s101",
+      "kind": "sentence",
+      "native": [
+        "बुकिङ शुक्रबारदेखि 3 रातको हो, 2 जनालाई नास्ता चाहिन्छ।"
+      ],
+      "roman": [
+        "Booking Shukrabardekhi 3 ratko ho, 2 janalai nasta chahinchha."
+      ]
+    },
+    {
+      "id": "ne-s102",
+      "kind": "sentence",
+      "native": [
+        "इटहरी जानुअघि पेमा तामाङलाई उनको ऊनको टोपी फिर्ता दिनुपर्ने कुरा पनि नोटमा लेखिदेऊ।"
+      ],
+      "roman": [
+        "Itahari januaghi Pema Tamanglai unko unko topi phirta dinuparne kura pani notema lekhideu."
+      ]
+    },
+    {
+      "id": "ne-s103",
+      "kind": "sentence",
+      "native": [
+        "हेडफोन जोडिएको छ कि छैन जाँच गरेर भन।"
+      ],
+      "roman": [
+        "Headphone jodiyeko chha ki chhaina janch garera bhana."
+      ]
+    },
+    {
+      "id": "ne-s104",
+      "kind": "sentence",
+      "native": [
+        "निमाजीको अकाउन्टबाट लगआउट गरेर आफ्नै अकाउन्ट खोल्नुहोस् न।"
+      ],
+      "roman": [
+        "Nimajiko accountbata logout garera aafnai account kholnuhos na."
+      ]
+    },
+    {
+      "id": "ne-s105",
+      "kind": "sentence",
+      "native": [
+        "घुम्तीबाट देब्रे लाग्नुहोस् है।"
+      ],
+      "roman": [
+        "Ghumtibata debre lagnuhos hai."
+      ]
+    },
+    {
+      "id": "ne-s106",
+      "kind": "sentence",
+      "native": [
+        "इन्द्रचोकको त्यो कपडा पसलमा पर्दा छोट्याइदिन्छन् रे, झ्यालको नाप लगेर कति पर्छ भनेर बुझौँ।"
+      ],
+      "roman": [
+        "Indrachokko tyo kapada pasalma parda chhotyaidinchhan re, jhyalko nap lagera kati parchha bhanera bujhau."
+      ]
+    },
+    {
+      "id": "ne-s107",
+      "kind": "sentence",
+      "native": [
+        "गाँठो फुकाउन कुन टुप्पो तान्ने?"
+      ],
+      "roman": [
+        "Gatho phukauna kun tuppo tanne?"
+      ]
+    },
+    {
+      "id": "ne-s108",
+      "kind": "sentence",
+      "native": [
+        "अस्ति तिमीले रोपेको खुर्सानीमा फूल लागेछ, तिमी त गमलामै खेती गर्न पनि जान्ने रहेछौ।"
+      ],
+      "roman": [
+        "Asti timile ropeko khursanima phool lagechha, timi ta gamalamai kheti garna pani janne rahechhau."
+      ]
+    },
+    {
+      "id": "ne-s109",
+      "kind": "sentence",
+      "native": [
+        "छलफलमा बस्न मन थियो, तर छोरालाई स्कुलबाट लिन जानुपर्ने भएकाले चाँडै निस्कनुपर्छ है।"
+      ],
+      "roman": [
+        "Chhalphalma basna man thiyo, tara chhoralai schoolbata lina januparne bhayekale chadai niskanuparchha hai."
+      ]
+    },
+    {
+      "id": "ne-s110",
+      "kind": "sentence",
+      "native": [
+        "छोरी फागुनमा 9 वर्षकी हुन्छे।"
+      ],
+      "roman": [
+        "Chhori Phagunma 9 warshaki hunchhe."
+      ]
+    },
+    {
+      "id": "ne-s111",
+      "kind": "sentence",
+      "native": [
+        "बनाउन दिएको घडी लिन बिहीबार बजार जानु छ।"
+      ],
+      "roman": [
+        "Banauna diyeko ghadi lina bihibar bajar janu chha."
+      ]
+    },
+    {
+      "id": "ne-s112",
+      "kind": "sentence",
+      "native": [
+        "बुटवलमा आउँदो शुक्रबार घाम लाग्छ कि बादल लाग्छ?"
+      ],
+      "roman": [
+        "Butwalma aaudo Shukrabar gham lagchha ki badal lagchha?"
+      ]
+    },
+    {
+      "id": "ne-s113",
+      "kind": "sentence",
+      "native": [
+        "सविना, स्प्रेडसिटमा तिमीले भरेको डाटा सेभ भएन कि?"
+      ],
+      "roman": [
+        "Savina, spreadsheetma timile bhareko data save bhayena ki?"
+      ]
+    },
+    {
+      "id": "ne-s114",
+      "kind": "sentence",
+      "native": [
+        "भरतपुर जाने गाडी छुट्नै लागेको रहेछ, करुणा चौधरीले हात हल्लाएर रोकेपछि बल्ल चढ्न भ्याएँ।"
+      ],
+      "roman": [
+        "Bharatpur jane gadi chhutnai lageko rahechha, Karuna Chaudharyle hat hallaera rokepachhi balla chadhna bhyaye."
+      ]
+    },
+    {
+      "id": "ne-s115",
+      "kind": "sentence",
+      "native": [
+        "हजुरआमालाई भुइँमा बस्न गाह्रो हुन्छ, सबै जना भेला हुँदा उहाँका लागि ढाड अड्याउन मिल्ने कुर्सी राखौँ है।"
+      ],
+      "roman": [
+        "Hajuraamalai bhuima basna gahro hunchha, sabai jana bhela huda uhaka lagi dhad adyauna milne kursi rakhau hai."
+      ]
+    },
+    {
+      "id": "ne-s116",
+      "kind": "sentence",
+      "native": [
+        "नापेर काटौँ कि पहिले सिसाकलमले चिनो लगाऔँ?"
+      ],
+      "roman": [
+        "Napera katau ki pahile sisakalamle chino lagau?"
+      ]
+    },
+    {
+      "id": "ne-s117",
+      "kind": "sentence",
+      "native": [
+        "मेरो लागि खाना राखिदेऊ।"
+      ],
+      "roman": [
+        "Mero lagi khana rakhideu."
+      ]
+    },
+    {
+      "id": "ne-s118",
+      "kind": "sentence",
+      "native": [
+        "खर्चको बिल पनि जोडिदिनुहोस् है।"
+      ],
+      "roman": [
+        "Kharchako bill pani jodidinuhos hai."
+      ]
+    },
+    {
+      "id": "ne-s119",
+      "kind": "sentence",
+      "native": [
+        "टिकटमा सिट नम्बर 24 छ, झ्यालपट्टि पर्ने हो?"
+      ],
+      "roman": [
+        "Ticketma seat number 24 chha, jhyalpatti parne ho?"
+      ]
+    },
+    {
+      "id": "ne-s120",
+      "kind": "sentence",
+      "native": [
+        "लाइब्रेरीको मेम्बरशिप रिन्यु गर्नुपर्छ।"
+      ],
+      "roman": [
+        "Libraryko membership renew garnuparchha."
+      ]
+    },
+    {
+      "id": "ne-s121",
+      "kind": "sentence",
+      "native": [
+        "नारायणहिटी दरबार घुम्न विद्यार्थीलाई टिकटमा छुट मिल्छ कि मिल्दैन?"
+      ],
+      "roman": [
+        "Narayanhiti darbar ghumna widyarthilai ticketma chhut milchha ki mildaina?"
+      ]
+    },
+    {
+      "id": "ne-s122",
+      "kind": "sentence",
+      "native": [
+        "अपडेट गरेपछि एप बारम्बार बन्द हुन थाल्यो, पुरानै भर्सनमा फर्किने कुनै सजिलो उपाय छ कि?"
+      ],
+      "roman": [
+        "Update garepachhi app barambar banda huna thalyo, puranai versionma farkine kunai sajilo upaya chha ki?"
+      ]
+    },
+    {
+      "id": "ne-s123",
+      "kind": "sentence",
+      "native": [
+        "बाटो खन्न थालेपछि टेम्पो अर्कै चोकबाट घुमेर आउँछ।"
+      ],
+      "roman": [
+        "Bato khanna thalepachhi tempo arkai chokbata ghumera aauchha."
+      ]
+    },
+    {
+      "id": "ne-s124",
+      "kind": "sentence",
+      "native": [
+        "रातो होइन, हरियो रिबन दिनुहोस्।"
+      ],
+      "roman": [
+        "Rato hoina, hariyo ribbon dinuhos."
+      ]
+    },
+    {
+      "id": "ne-s125",
+      "kind": "sentence",
+      "native": [
+        "फुर्सद भएपछि फोन गर न।"
+      ],
+      "roman": [
+        "Fursad bhayepachhi phone gar na."
+      ]
+    },
+    {
+      "id": "ne-s126",
+      "kind": "sentence",
+      "native": [
+        "क्लाइन्टसँग कुरा टुङ्गिएपछि म तपाईंलाई खबर गरिदिन्छु।"
+      ],
+      "roman": [
+        "Clientsanga kura tungiepachhi ma tapailai khabar garidinchhu."
+      ]
+    },
+    {
+      "id": "ne-s127",
+      "kind": "sentence",
+      "native": [
+        "जन्मदिनको केक 2 किलोको बनाउनुहोस्। 1 हजार 800 रुपैयाँ अहिले दिन्छु, बाँकी केक लिन आउँदा तिर्छु।"
+      ],
+      "roman": [
+        "Janmadinko cake 2 kiloko banaunuhos. 1 hajar 800 rupaiya ahile dinchhu, banki cake lina aaunda tirchhu."
+      ]
+    },
+    {
+      "id": "ne-s128",
+      "kind": "sentence",
+      "native": [
+        "साइकलमा हावा भर्न सम्झाइदेऊ।"
+      ],
+      "roman": [
+        "Cyclema hawa bharna samjhaideu."
+      ]
+    },
+    {
+      "id": "ne-s129",
+      "kind": "sentence",
+      "native": [
+        "नजिकै जुत्ता सिलाउने पसल कहाँ छ भनेर खोजिदेऊ।"
+      ],
+      "roman": [
+        "Najikai jutta silaune pasal kaha chha bhanera khojideu."
+      ]
+    },
+    {
+      "id": "ne-s130",
+      "kind": "sentence",
+      "native": [
+        "धुलिखेलको होटलमा वाइफाइ चलाउन रिसेप्सनबाट कोड लिनुपर्ने रहेछ।"
+      ],
+      "roman": [
+        "Dhulikhelko hotelma wifi chalauna receptionbata code linuparne rahechha."
+      ]
+    },
+    {
+      "id": "ne-s131",
+      "kind": "sentence",
+      "native": [
+        "दीपक माइक्रो चढेर गएछ।"
+      ],
+      "roman": [
+        "Deepak micro chadhera gayechha."
+      ]
+    },
+    {
+      "id": "ne-s132",
+      "kind": "sentence",
+      "native": [
+        "चिनी राख्यौ कि नुन राख्यौ?"
+      ],
+      "roman": [
+        "Chini rakhyau ki nun rakhyau?"
+      ]
+    },
+    {
+      "id": "ne-s133",
+      "kind": "sentence",
+      "native": [
+        "भोलि पाटन घुम्न जाऔँ, तिमी कति बजे निस्कन्छौ?"
+      ],
+      "roman": [
+        "Bholi Patan ghumna jaau, timi kati baje niskanchhau?"
+      ]
+    },
+    {
+      "id": "ne-s134",
+      "kind": "sentence",
+      "native": [
+        "यो खर्च कम्पनीले नै बेहोर्छ।"
+      ],
+      "roman": [
+        "Yo kharcha companyle nai behorchha."
+      ]
+    },
+    {
+      "id": "ne-s135",
+      "kind": "sentence",
+      "native": [
+        "अलार्म बिहान 6 बजे लगाइदेऊ।"
+      ],
+      "roman": [
+        "Alarm bihan 6 baje lagaideu."
+      ]
+    },
+    {
+      "id": "ne-s136",
+      "kind": "sentence",
+      "native": [
+        "सुन्दै गरेको पोडकास्ट यहीँ रोकिदेऊ, पछि फेरि खोल्दा यसै ठाउँबाट सुन्न मिल्ने गरी राख।"
+      ],
+      "roman": [
+        "Sundai gareko podcast yahi rokideu, pachhi feri kholda yasai thaubata sunna milne gari rakha."
+      ]
+    },
+    {
+      "id": "ne-s137",
+      "kind": "sentence",
+      "native": [
+        "मामाघरको आँगन त फेरिएछ नि।"
+      ],
+      "roman": [
+        "Mamagharko aangan ta feriechha ni."
+      ]
+    },
+    {
+      "id": "ne-s138",
+      "kind": "sentence",
+      "native": [
+        "सुरुमा सबैलाई निम्तो पठाउने सोचेको थिएँ, तर हल सानो रहेछ, यसपालि नजिकका साथीलाई मात्रै बोलाऔँ।"
+      ],
+      "roman": [
+        "Suruma sabailai nimto pathaune socheko thiye, tara hall sano rahechha, yaspali najikka sathilai matrai bolau."
+      ]
+    },
+    {
+      "id": "ne-s139",
+      "kind": "sentence",
+      "native": [
+        "पानी पर्लाजस्तो छ, बाहिर सुकाएका कपडा उठाइदेऊ न।"
+      ],
+      "roman": [
+        "Pani parlajasto chha, bahira sukayeka kapada uthaideu na."
+      ]
+    },
+    {
+      "id": "ne-s140",
+      "kind": "sentence",
+      "native": [
+        "पासवर्ड छुट्टै मेसेजमा पठाइदिन्छु है।"
+      ],
+      "roman": [
+        "Password chhuttai messagema pathaidinchhu hai."
+      ]
+    },
+    {
+      "id": "ne-s141",
+      "kind": "sentence",
+      "native": [
+        "तालिमका लागि 2083 साल असार 11 गतेभित्र नाम लेखाए शुल्कमा 10% छुट पाइन्छ रे।"
+      ],
+      "roman": [
+        "Talimka lagi 2083 sal Asar 11 gatebhitra nam lekhaye shulkama 10% chhut painchha re."
+      ]
+    }
+  ]
+}

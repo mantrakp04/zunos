@@ -1,0 +1,2094 @@
+{
+  "lang": "km",
+  "starter": [
+    "km-s170",
+    "km-s133",
+    "km-s168",
+    "km-s139",
+    "km-s063",
+    "km-s181",
+    "km-s084",
+    "km-s019",
+    "km-s160",
+    "km-s153",
+    "km-s131",
+    "km-s007",
+    "km-p07",
+    "km-s040",
+    "km-s102",
+    "km-s164",
+    "km-s137",
+    "km-s058",
+    "km-s143",
+    "km-s077",
+    "km-s092",
+    "km-s033",
+    "km-s151",
+    "km-s055",
+    "km-s166",
+    "km-p03",
+    "km-s006",
+    "km-s064",
+    "km-s173",
+    "km-s157",
+    "km-s034",
+    "km-s162",
+    "km-s150",
+    "km-s088",
+    "km-s178",
+    "km-s146",
+    "km-s072",
+    "km-s099",
+    "km-p04",
+    "km-s138",
+    "km-s068",
+    "km-s090",
+    "km-s014",
+    "km-s024",
+    "km-s096",
+    "km-s123",
+    "km-s081",
+    "km-s026",
+    "km-s091",
+    "km-s015",
+    "km-s176"
+  ],
+  "items": [
+    {
+      "id": "km-p01",
+      "kind": "para",
+      "title": "Moving to Tuol Kork",
+      "native": [
+        "សុភា ថ្ងៃសៅរ៍នេះខ្ញុំរើទៅនៅផ្ទះជួលថ្មីនៅទួលគោក។",
+        "ផ្ទះថ្មីនៅជាន់ទី 3 តែជណ្តើរមិនសូវចោតទេ។",
+        "បន្ទប់មានបង្អួចធំ បើកទៅឃើញដើមស្វាយ។",
+        "ថ្លៃឈ្នួលមួយខែ 180 ដុល្លារ រួមទាំងថ្លៃទឹក។",
+        "ម្ចាស់ផ្ទះឱ្យខ្ញុំយកឆ្មាទៅនៅជាមួយបានដែរ។",
+        "ខ្ញុំខ្ចីឡានពូសុខដឹកទូ និងពូកនៅព្រឹកថ្ងៃសៅរ៍។",
+        "បងប្រុសខ្ញុំនឹងមកជួយលើកទូឡើងជាន់លើ។",
+        "បើទំនេរ សុភាមកជួយរៀបសៀវភៅឱ្យខ្ញុំផង។",
+        "រើរួច យើងទៅញ៉ាំបាយសាច់ជ្រូកនៅក្បែរផ្ទះ។"
+      ],
+      "roman": [
+        "Sophea thngai sao nih nhom rer tov nov phteah chuol thmey nov Tuol Kork.",
+        "Phteah thmey nov choan ti 3 tae chondaer min sov chaot te.",
+        "Bantob mean bongouch thom baek tov khernh daem svay.",
+        "Thlai chhnuol muoy khae 180 dollar ruom teang thlai teuk.",
+        "Mchas phteah aoy nhom yok chhma tov nov cheamuoy ban dae.",
+        "Nhom khchei lan pu Sok doek tu neng puk nov preuk thngai sao.",
+        "Bong bros nhom neng mok chuoy leuk tu laeung choan ler.",
+        "Bae tomner Sophea mok chuoy reab sievphov aoy nhom phong.",
+        "Rer ruoch yeung tov nham bay sach chrouk nov kbae phteah."
+      ]
+    },
+    {
+      "id": "km-p02",
+      "kind": "para",
+      "title": "Office Floor Move",
+      "native": [
+        "ថ្ងៃសុក្រនេះ ការិយាល័យយើងនៅបឹងកេងកងនឹងរើទៅជាន់ថ្មី។",
+        "យើងរើពីជាន់ទី 2 ទៅជាន់ទី 4 ក្នុងអគារដដែល។",
+        "សូមរៀបចំឯកសារដាក់ប្រអប់ឱ្យរួចត្រឹមថ្ងៃព្រហស្បតិ៍។",
+        "សរសេរឈ្មោះលើប្រអប់ ដើម្បីងាយរកពេលរើរួច។",
+        "បងចាន់ណាជួយប្រមូលសោទូដាក់ទុកនៅតុទទួលភ្ញៀវផង។",
+        "ក្រុមដឹកជញ្ជូននឹងមកដល់ម៉ោង 8 ព្រឹកថ្ងៃសុក្រ។",
+        "ថ្ងៃនោះ សូមយកកុំព្យូទ័រយួរដៃទៅធ្វើការនៅផ្ទះ។",
+        "វ៉ាយហ្វាយនៅជាន់ថ្មីអាចប្រើបាននៅល្ងាចថ្ងៃសុក្រ។",
+        "ថ្ងៃចន្ទ យើងចូលធ្វើការនៅជាន់ទី 4 តាមម៉ោងធម្មតា។"
+      ],
+      "roman": [
+        "Thngai sok nih, kariyealay yeung nov Boeng Keng Kang neng rer tov choan thmey.",
+        "Yeung rer pi choan ti 2 tov choan ti 4 knong akea dadael.",
+        "Som riep cham ekasar dak proab aoy ruoch trem thngai prohoas.",
+        "Sorser chhmoh ler proab daembi ngeay rok pel rer ruoch.",
+        "Bong Channa chuoy promoul sao tu dak tuk nov to totuol phnhiev phong.",
+        "Krom doek chonhchoun neng mok dol maong 8 preuk thngai sok.",
+        "Thngai nuh, som yok kompyuter yuor dai tov thver ka nov phteah.",
+        "Vay fay nov choan thmey ach prer ban nov lngeach thngai sok.",
+        "Thngai chan, yeung chol thver ka nov choan ti 4 tam maong thommada."
+      ]
+    },
+    {
+      "id": "km-p03",
+      "kind": "para",
+      "title": "Lunch Was Running Late",
+      "native": [
+        "ម្សិលមិញ មីងខ្ញុំពីបាត់ដំបងមកលេងផ្ទះនៅច្បារអំពៅ។",
+        "ខ្ញុំខ្ចប់អាម៉ុកត្រីក្នុងស្លឹកចេកទុកចំហុយ។",
+        "ដល់ម៉ោងញ៉ាំ ទើបដឹងថាភ្លេចដោតភ្លើងឆ្នាំងបាយ។",
+        "ពេលនោះ អាម៉ុកក្នុងឆ្នាំងចំហុយក៏មិនទាន់ឆ្អិន។",
+        "ខ្ញុំប្រញាប់បន្ថែមទឹក ហើយចំហុយអាម៉ុកបន្ត។",
+        "ប្អូនស្រីខ្ញុំទៅទិញបាយសនៅហាងមុខផ្ទះ។",
+        "មីងជួយហាន់ត្រសក់ និងរៀបចានដាក់លើតុ។",
+        "អាម៉ុកឆ្អិនល្មមពេលប្អូនត្រឡប់មកដល់ផ្ទះ។",
+        "មីងសើចថា ម្ហូបឆ្ងាញ់តែចុងភៅឱ្យចាំយូរពេក។"
+      ],
+      "roman": [
+        "Msel menh ming nhom pi Battambang mok leng phteah nov Chbar Ampov.",
+        "Nhom khchob amok trei knong sleuk chek tuk chamhoy.",
+        "Dol maong nham teub deng tha phlech daot phleung chhnang bay.",
+        "Pel nuh amok knong chhnang chamhoy kor min toan chhaen.",
+        "Nhom bronhab bonthem teuk haey chamhoy amok banto.",
+        "Poun srey nhom tov tinh bay sa nov hang muk phteah.",
+        "Ming chuoy han trosok neng reab chan dak ler to.",
+        "Amok chhaen lmom pel poun trolob mok dol phteah.",
+        "Ming saech tha mhoub chhnganh tae chongphov aoy cham yu pek."
+      ]
+    },
+    {
+      "id": "km-p04",
+      "kind": "para",
+      "title": "Playing Crosses and Circles",
+      "native": [
+        "យើងលេងខ្វែងរង្វង់នៅផ្ទះយាយ។",
+        "ល្បែងនេះលេងពីរនាក់ ហើយប្តូរវេនគ្នាគូសម្តងម្នាក់។",
+        "គូសតារាង 9 ក្រឡា ចែកជាបីជួរ។",
+        "ម្នាក់គូសខ្វែង ហើយម្នាក់ទៀតគូសរង្វង់។",
+        "អ្នកគូសខ្វែងចាប់ផ្តើមមុន ហើយគូសក្នុងក្រឡាទំនេរណាក៏បាន។",
+        "កុំគូសក្នុងក្រឡាដែលមានសញ្ញារួចហើយ។",
+        "អ្នកណាគូសសញ្ញារបស់ខ្លួនបានបីជាប់គ្នាមុន អ្នកនោះឈ្នះ។",
+        "សញ្ញាទាំងបីអាចតម្រៀបជាជួរដេក ជួរឈរ ឬជួរទ្រេត។",
+        "បើគូសពេញគ្រប់ក្រឡាហើយគ្មានអ្នកឈ្នះ គឺស្មើគ្នា។"
+      ],
+      "roman": [
+        "Yeung leng khvaeng rongvong nov phteah yeay.",
+        "Lbaeng nih leng pi neak, haey bdo ven knea kous mdong mneak.",
+        "Kous tarang 9 krala, chaek chea bei chuor.",
+        "Mneak kous khvaeng, haey mneak tiet kous rongvong.",
+        "Neak kous khvaeng chab pdaem mun, haey kous knong krala tomner na kor ban.",
+        "Kom kous knong krala dael mean sanhnha ruoch haey.",
+        "Neak na kous sanhnha robos khluon ban bei choab knea mun, neak nuh chhneah.",
+        "Sanhnha teang bei ach tomriep chea chuor dek, chuor chhor, rue chuor tret.",
+        "Bae kous penh krob krala haey kmean neak chhneah, kue smer knea."
+      ]
+    },
+    {
+      "id": "km-p05",
+      "kind": "para",
+      "title": "A Quiet Kep Weekend",
+      "native": [
+        "ចុងសប្តាហ៍មុន ខ្ញុំទៅលេងកែបជាមួយមិត្តភក្តិបីនាក់។",
+        "ខ្ញុំចូលចិត្តទីនោះ ព្រោះស្ងាត់ហើយមានខ្យល់ត្រជាក់។",
+        "ផ្ទះសំណាក់យើងនៅជិតឆ្នេរ ដើរបន្តិចក៏ដល់សមុទ្រ។",
+        "ព្រឹកឡើង យើងអង្គុយញ៉ាំបបរត្រីមើលទឹករលកបោកចូលឆ្នេរ។",
+        "ក្តាមឆាម្រេចខ្ចីឆ្ងាញ់ តែតម្លៃរាងថ្លៃបន្តិច។",
+        "ខ្ញុំថា គួរសួរតម្លៃឱ្យច្បាស់មុនហៅម្ហូបមកញ៉ាំ។",
+        "ពេលរសៀល យើងដើរមើលព្រៃនៅឧទ្យានជាតិកែប។",
+        "ផ្លូវខ្លះឡើងចំណោត តែទេសភាពស្អាតគួរឱ្យចង់ថត។",
+        "ខ្ញុំចង់ទៅកែបម្តងទៀត បើមានពេលទំនេរពីរថ្ងៃ។"
+      ],
+      "roman": [
+        "Chong sapda mun nhom tov leng Kep cheamuoy mit pheak bei neak.",
+        "Nhom chol chet ti nuh pruoh sngat haey mean khyal tracheak.",
+        "Phteah samnak yeung nov chit chhne daer bantech ko dol samot.",
+        "Preuk laeung yeung angkuy nham bobor trei merl teuk rolok baok chol chhne.",
+        "Kdam chha mrech khchei chhnganh tae tomlai reang thlai bantech.",
+        "Nhom tha kuor sour tomlai aoy chbah mun hao mhop mok nham.",
+        "Pel rosiel yeung daer merl prey nov Utyean Cheat Kep.",
+        "Phlov khlah laeung chamnot tae tesapheap saat kuor aoy chong thot.",
+        "Nhom chong tov Kep mdong tiet bae mean pel tomner pi thngai."
+      ]
+    },
+    {
+      "id": "km-p06",
+      "kind": "para",
+      "title": "Planning Our Kirirom Offsite",
+      "native": [
+        "ក្រុមយើងនឹងទៅគិរីរម្យមួយថ្ងៃ។",
+        "យើងចេញដំណើរថ្ងៃទី 18 ខែធ្នូ ឆ្នាំ 2026។",
+        "ចាំយើងជួបគ្នានៅការិយាល័យម៉ោង 6 កន្លះព្រឹក។",
+        "ពីភ្នំពេញទៅគិរីរម្យមានចម្ងាយប្រហែល 110 គីឡូម៉ែត្រ។",
+        "យើងមានគ្នា 12 នាក់ ដូច្នេះជួលឡាន 15 កៅអីទៅ។",
+        "ថ្លៃឡានទាំងទៅទាំងមកគឺ 500000 រៀល។",
+        "ម្នាក់ដាក់ 70000 រៀល សម្រាប់ឡាននិងបាយថ្ងៃត្រង់។",
+        "ម៉ោង 9 ព្រឹក យើងជួបគ្នារៀបចំផែនការសម្រាប់ខែក្រោយ។",
+        "យើងចេញមកវិញម៉ោង 4 រសៀល កុំឱ្យដល់ផ្ទះយប់ពេក។"
+      ],
+      "roman": [
+        "Krom yeung neng tov Kirirom muoy thngai.",
+        "Yeung chenh damnaer thngai ti 18 khae Thnou chnam 2026.",
+        "Cham yeung chuob knea nov kariyealay maong 6 kanlah preuk.",
+        "Pi Phnom Penh tov Kirirom mean chamngay brahael 110 kilomaet.",
+        "Yeung mean knea 12 neak dochneh chuol lan 15 kao ey tov.",
+        "Thlai lan teang tov teang mok kue 500000 riel.",
+        "Mneak dak 70000 riel samrab lan neng bay thngai trang.",
+        "Maong 9 preuk yeung chuob knea reab cham phaen ka samrab khae kraoy.",
+        "Yeung chenh mok vinh maong 4 rosiel kom aoy dol phteah yub pek."
+      ]
+    },
+    {
+      "id": "km-p07",
+      "kind": "para",
+      "title": "Home Internet Keeps Dropping",
+      "native": [
+        "បាទ ខ្ញុំចង់សួររឿងអ៊ីនធឺណិតនៅផ្ទះបន្តិច។",
+        "ផ្ទះខ្ញុំនៅសែនសុខ ជិតផ្សារឈូកមាស។",
+        "តាំងពីម្សិលមិញមក វាដាច់ហើយភ្ជាប់ឡើងវិញរហូត។",
+        "ពេលខ្ញុំប្រជុំតាម Zoom សំឡេងដាច់ស្តាប់មិនបាន។",
+        "ខ្ញុំបិទបើកដុំវ៉ាយហ្វាយរួចហើយ តែនៅតែដាច់។",
+        "ទូរស័ព្ទនិងកុំព្យូទ័រខ្ញុំមានបញ្ហាដូចគ្នា។",
+        "បងជួយពិនិត្យសេវាឱ្យខ្ញុំបន្តិចបានទេ?",
+        "បើត្រូវមកផ្ទះ ខ្ញុំនៅចាំបានក្រោយម៉ោង 2 រសៀល។",
+        "អរគុណបង បើមានថ្លៃជាង សូមប្រាប់ខ្ញុំមុនផង។"
+      ],
+      "roman": [
+        "Bat nhom chong sour reung inthernet nov phteah bantech.",
+        "Phteah nhom nov Sen Sok chit Phsar Chhouk Meas.",
+        "Tang pi msel menh mok vea dach haey phchoab laeung vinh rohot.",
+        "Pel nhom prachum tam Zoom somleng dach sdab min ban.",
+        "Nhom bet baek dom vay fay ruoch haey tae nov tae dach.",
+        "Toursap neng kompyuter nhom mean banha doch knea.",
+        "Bong chuoy pinit seva aoy nhom bantech ban te?",
+        "Bae trov mok phteah nhom nov cham ban kraoy maong 2 rosiel.",
+        "Arkun bong bae mean thlai cheang som brab nhom mun phong."
+      ]
+    },
+    {
+      "id": "km-p08",
+      "kind": "para",
+      "title": "Getting Around Phnom Penh",
+      "native": [
+        "នៅភ្នំពេញ ជិះឡានក្រុងថោកជាងជិះតុកតុក។",
+        "ថ្លៃជិះធម្មតាគឺ 1500 រៀលក្នុងមួយជើង។",
+        "បើចង់ជិះ ត្រូវទៅចាំនៅចំណតដែលមានស្លាកសម្គាល់។",
+        "មុនឡើងជិះ មើលលេខខ្សែនិងទិសដៅឱ្យច្បាស់សិន។",
+        "ឡានក្រុងខ្សែខ្លះកាត់តាមផ្សារថ្មីនិងម្តុំវត្តភ្នំ។",
+        "ពេលល្ងាច ឡានក្រុងអាចមកយឺតព្រោះស្ទះផ្លូវ។",
+        "បើមានណាត់សំខាន់ គួរចេញឱ្យបានមុនបន្តិច។",
+        "ពេលចង់ចុះ គួរចុចប៊ូតុងប្រាប់អ្នកបើកបរជាមុន។",
+        "បើជិះឡានក្រុងទៅធ្វើការ អាចសន្សំលុយបានខ្លះដែរ។"
+      ],
+      "roman": [
+        "Nov Phnom Penh chih lan krong thaok cheang chih tuk tuk.",
+        "Thlai chih thommata kue 1500 riel knong muoy cheung.",
+        "Bae chong chih trov tov cham nov chamnot dael mean slak samkoal.",
+        "Mun laeung chih merl lek khsae neng tis dao aoy chbah sen.",
+        "Lan krong khsae khlah kat tam Phsar Thmey neng mdom Wat Phnom.",
+        "Pel lngeach lan krong ach mok yeut pruoh sdah phlov.",
+        "Bae mean nat somkhan kuor chenh aoy ban mun bantech.",
+        "Pel chong choh kuor choch butong brab neak baek bor chea mun.",
+        "Bae chih lan krong tov thver ka ach sansom luy ban khlah dae."
+      ]
+    },
+    {
+      "id": "km-s001",
+      "kind": "sentence",
+      "native": [
+        "រស្មី យប់នេះមកលេងអុកនៅផ្ទះខ្ញុំអត់?"
+      ],
+      "roman": [
+        "Rasmey yub nih mok leng ok nov phteah nhom ot?"
+      ]
+    },
+    {
+      "id": "km-s002",
+      "kind": "sentence",
+      "native": [
+        "អរគុណច្រើនដែលជួយកែ។"
+      ],
+      "roman": [
+        "Arkun chraen dael chuoy kae."
+      ]
+    },
+    {
+      "id": "km-s003",
+      "kind": "sentence",
+      "native": [
+        "កម្រាលនេះបណ្តោយ 180 ទទឹង 120 សង់ទីម៉ែត្រ។"
+      ],
+      "roman": [
+        "Kamreal nih bandaoy 180 toteung 120 sangtimet."
+      ]
+    },
+    {
+      "id": "km-s004",
+      "kind": "sentence",
+      "native": [
+        "ព្រឹកថ្ងៃពុធ ត្រូវយកគំរូក្រណាត់ទៅឱ្យមីងចន្ថានៅផ្សារអូរឫស្សី។"
+      ],
+      "roman": [
+        "Preuk thngai Put trov yok komrou kranat tov aoy ming Chanthea nov Phsar Ou Ruessei."
+      ]
+    },
+    {
+      "id": "km-s005",
+      "kind": "sentence",
+      "native": [
+        "អានសារចុងក្រោយដែលទើបចូលឱ្យខ្ញុំស្តាប់បន្តិច។ ខ្ញុំកំពុងធ្វើម្ហូប។"
+      ],
+      "roman": [
+        "An sar chong kraoy del terb chol aoy nhom sdab bantech. Nhom kompong thver mhoob."
+      ]
+    },
+    {
+      "id": "km-s006",
+      "kind": "sentence",
+      "native": [
+        "ដារ៉ា ភ្ជាប់ file ខុសមកក្នុងអ៊ីមែលហើយ។"
+      ],
+      "roman": [
+        "Dara phchoab file khos mok knong imeil haey."
+      ]
+    },
+    {
+      "id": "km-s007",
+      "kind": "sentence",
+      "native": [
+        "រតនា ចាំនៅខាងណា?"
+      ],
+      "roman": [
+        "Ratana cham nov khang na?"
+      ]
+    },
+    {
+      "id": "km-s008",
+      "kind": "sentence",
+      "native": [
+        "ធុងទឹកលើដំបូលហៀរហើយ ជាងអាចមកមើលបានទេ?"
+      ],
+      "roman": [
+        "Thung tuek ler damboul hier haey cheang ach mok merl ban te?"
+      ]
+    },
+    {
+      "id": "km-s009",
+      "kind": "sentence",
+      "native": [
+        "ថែមស្ករស ទឹកត្រី ហើយនិងប្រេងឆាមួយដប។"
+      ],
+      "roman": [
+        "Thaem skar sa teuk trei haey neng preng chha muoy dob."
+      ]
+    },
+    {
+      "id": "km-s010",
+      "kind": "sentence",
+      "native": [
+        "ត្រឡប់ពីបាត់ដំបងវិញហើយ តែខ្ញុំនៅនឹកបរិយាកាសស្ងប់ស្ងាត់ទីនោះ។"
+      ],
+      "roman": [
+        "Tralob pi Battambang vinh haey tae nhom nov neuk boriyeakas sngob sngat ti nuh."
+      ]
+    },
+    {
+      "id": "km-s011",
+      "kind": "sentence",
+      "native": [
+        "កាបូបនៅលើសាឡុងហ្នឹងជារបស់បងមែនទេ?"
+      ],
+      "roman": [
+        "Kaboub nov ler salong neng chea robos bong men te?"
+      ]
+    },
+    {
+      "id": "km-s012",
+      "kind": "sentence",
+      "native": [
+        "តម្លៃក្រដាសឡើងដល់ 18000 រៀលក្នុងមួយរ៉ាមហើយ។"
+      ],
+      "roman": [
+        "Tamlai kradas laeung dol 18000 riel knong muoy ram haey."
+      ]
+    },
+    {
+      "id": "km-s013",
+      "kind": "sentence",
+      "native": [
+        "កក់តុសម្រាប់មនុស្ស 8 នាក់នៅកែប ថ្ងៃទី 16 ខែសីហា ម៉ោង 6 ល្ងាចផង។"
+      ],
+      "roman": [
+        "Kak tok samrab monus 8 neak nov Kep thngai ti 16 khae Seiha maong 6 lngach phong."
+      ]
+    },
+    {
+      "id": "km-s014",
+      "kind": "sentence",
+      "native": [
+        "កុំភ្លេចស្រោចផ្កា។"
+      ],
+      "roman": [
+        "Kom phlech sraoch phka."
+      ]
+    },
+    {
+      "id": "km-s015",
+      "kind": "sentence",
+      "native": [
+        "រកវគ្គរៀនលេងហ្គីតានៅក្រុងកំពង់ស្ពឺ ដែលមានថ្នាក់ពេលល្ងាច។"
+      ],
+      "roman": [
+        "Rok vok rean leng gita nov krong Kampong Speu dael mean thnak pel lngach."
+      ]
+    },
+    {
+      "id": "km-s016",
+      "kind": "sentence",
+      "native": [
+        "កាសនេះឮតែម្ខាងទេ។"
+      ],
+      "roman": [
+        "Kas nih leu tae mkhang te."
+      ]
+    },
+    {
+      "id": "km-s017",
+      "kind": "sentence",
+      "native": [
+        "មុខស្ថានីយមានកៅអីទំនេរ ពូអង្គុយសិនទៅ ខ្ញុំនឹងយកឡានមកទទួលត្រង់ហ្នឹង។"
+      ],
+      "roman": [
+        "Muk sthani mean kao ey tomner pu angkuy sen tov nhom neng yok lan mok totuol trong neng."
+      ]
+    },
+    {
+      "id": "km-s018",
+      "kind": "sentence",
+      "native": [
+        "កញ្ចប់នេះផ្ញើថ្ងៃនេះ ថ្ងៃណាទើបដល់?"
+      ],
+      "roman": [
+        "Kanhchob nih phnher thngai nih thngai na terb dol?"
+      ]
+    },
+    {
+      "id": "km-s019",
+      "kind": "sentence",
+      "native": [
+        "ដីឥដ្ឋនេះស្ងួតហើយឬនៅ?"
+      ],
+      "roman": [
+        "Dei et nih snguot haey rue nov?"
+      ]
+    },
+    {
+      "id": "km-s020",
+      "kind": "sentence",
+      "native": [
+        "នឹកដល់កាលរៀនជាមួយគ្នា ខ្ញុំនៅតែអរគុណបងដែលជួយពន្យល់មេរៀនឱ្យ។"
+      ],
+      "roman": [
+        "Neuk dol kal rean cheamuoy knea nhom nov tae arkun bong del chuoy ponyol merean aoy."
+      ]
+    },
+    {
+      "id": "km-s021",
+      "kind": "sentence",
+      "native": [
+        "បងទំនេរពីការងារពេលណា តេមកខ្ញុំផង។"
+      ],
+      "roman": [
+        "Bong tomner pi kar ngear pel na te mok nhom phong."
+      ]
+    },
+    {
+      "id": "km-s022",
+      "kind": "sentence",
+      "native": [
+        "រឿងសុំទិញម៉ាស៊ីនស្កេន ខាងគណនេយ្យឆ្លើយហើយឬនៅ?"
+      ],
+      "roman": [
+        "Reung som tinh masin sken khang konaney chhlaey haey rue nov?"
+      ]
+    },
+    {
+      "id": "km-s023",
+      "kind": "sentence",
+      "native": [
+        "ថ្ងៃព្រហស្បតិ៍ ថ្នាក់ទី 9 រៀនរូបវិទ្យាម៉ោង 8 ដល់ម៉ោង 10 ព្រឹក។"
+      ],
+      "roman": [
+        "Thngai Prohoas thnak ti 9 rean roub vityea maong 8 dol maong 10 preuk."
+      ]
+    },
+    {
+      "id": "km-s024",
+      "kind": "sentence",
+      "native": [
+        "នំគមត្រូវកុម្ម៉ង់មុនថ្ងៃទៅលេងផ្ទះយាយ។"
+      ],
+      "roman": [
+        "Nom kom trov komang mun thngai tov leng phteah yeay."
+      ]
+    },
+    {
+      "id": "km-s025",
+      "kind": "sentence",
+      "native": [
+        "បើកប៊្លូធូសឱ្យខ្ញុំផង។"
+      ],
+      "roman": [
+        "Baek Bluetooth aoy nhom phong."
+      ]
+    },
+    {
+      "id": "km-s026",
+      "kind": "sentence",
+      "native": [
+        "វិសាល ចង់ប្តូរឈ្មោះគណនីហ្វេសប៊ុកមែនទេ?"
+      ],
+      "roman": [
+        "Visal chong bdo chhmoh konani Facebook men te?"
+      ]
+    },
+    {
+      "id": "km-s027",
+      "kind": "sentence",
+      "native": [
+        "ចុងសប្តាហ៍នេះ បងមករានាំកូនទៅមើលសត្វនៅភ្នំតាម៉ៅ ពូចង់ទៅដែរអត់?"
+      ],
+      "roman": [
+        "Chung sapda nih bong Makara noam koun tov merl sat nov Phnom Tamao pu chong tov dae ot?"
+      ]
+    },
+    {
+      "id": "km-s028",
+      "kind": "sentence",
+      "native": [
+        "នំអន្សមនៅផ្សារចាស់អស់តាំងពីព្រលឹម។"
+      ],
+      "roman": [
+        "Nom ansam nov Phsar Chas os tang pi proluem."
+      ]
+    },
+    {
+      "id": "km-s029",
+      "kind": "sentence",
+      "native": [
+        "ទេ ច្រកនេះបិទហើយ។"
+      ],
+      "roman": [
+        "Te chrok nih bet haey."
+      ]
+    },
+    {
+      "id": "km-s030",
+      "kind": "sentence",
+      "native": [
+        "ចាន់ណា ច្រៀងលើឆាកលើកដំបូងបានល្អណាស់។"
+      ],
+      "roman": [
+        "Channa chrieng ler chhak leuk dambong ban laor nas."
+      ]
+    },
+    {
+      "id": "km-s031",
+      "kind": "sentence",
+      "native": [
+        "ហត់ហើយ សុំអង្គុយសិន។"
+      ],
+      "roman": [
+        "Hot haey som angkuy sen."
+      ]
+    },
+    {
+      "id": "km-s032",
+      "kind": "sentence",
+      "native": [
+        "រឿងថវិកា យើងពិភាក្សាម៉ោង 11 ព្រឹកនៅបន្ទប់ខាងលើបានទេ?"
+      ],
+      "roman": [
+        "Reung thavika yeung pipheaksa maong 11 preuk nov bantoab khang ler ban te?"
+      ]
+    },
+    {
+      "id": "km-s033",
+      "kind": "sentence",
+      "native": [
+        "ទឹកអំពៅ 3 កែវ អស់ 9000 រៀលគត់។"
+      ],
+      "roman": [
+        "Teuk ampov 3 kaev os 9000 riel kot."
+      ]
+    },
+    {
+      "id": "km-s034",
+      "kind": "sentence",
+      "native": [
+        "ខោដែលទើបទិញ ត្រូវយកទៅប្តូរយកទំហំធំជាងនេះ។"
+      ],
+      "roman": [
+        "Khao dael terb tinh trov yok tov bdo yok tomhom thom cheang nih."
+      ]
+    },
+    {
+      "id": "km-s035",
+      "kind": "sentence",
+      "native": [
+        "បិទសំឡេងរោទ៍ទាំងអស់។"
+      ],
+      "roman": [
+        "Bet samleng rour teang os."
+      ]
+    },
+    {
+      "id": "km-s036",
+      "kind": "sentence",
+      "native": [
+        "ខ្ញុំចូលចិត្តរៀនកាត់តវីដេអូតាម YouTube ព្រោះខ្ញុំអាចមើលឡើងវិញបាន។"
+      ],
+      "roman": [
+        "Nhom chol chet rean kat tor video tam YouTube pruoh nhom ach merl laeung vinh ban."
+      ]
+    },
+    {
+      "id": "km-s037",
+      "kind": "sentence",
+      "native": [
+        "យាយចង់អង្គុយខាងបង្អួច ដើម្បីមើលទេសភាព។"
+      ],
+      "roman": [
+        "Yeay chong angkuy khang bangouch daembi merl tesapheap."
+      ]
+    },
+    {
+      "id": "km-s038",
+      "kind": "sentence",
+      "native": [
+        "ខ្យល់បក់ខ្លាំងណាស់ ជួយប្រមូលខោអាវពីខ្សែហាលមកផង ខ្លាចហើរទៅបាត់។"
+      ],
+      "roman": [
+        "Khyal bok khlang nas chuoy pramoul khao av pi khsae hal mok phong khlach haer tov bat."
+      ]
+    },
+    {
+      "id": "km-s039",
+      "kind": "sentence",
+      "native": [
+        "កន្ត្រៃនេះមុតអត់?"
+      ],
+      "roman": [
+        "Kantrai nih mot ot?"
+      ]
+    },
+    {
+      "id": "km-s040",
+      "kind": "sentence",
+      "native": [
+        "មានបងជួយមើលកូនឱ្យ ខ្ញុំធូរចិត្តច្រើនណាស់។"
+      ],
+      "roman": [
+        "Mean bong chuoy merl koun aoy nhom thour chet chraen nas."
+      ]
+    },
+    {
+      "id": "km-s041",
+      "kind": "sentence",
+      "native": [
+        "សុំទោស យប់មិញខ្ញុំដេកលក់បាត់ ទើបតែឃើញសារបង អត់បានឆ្លើយភ្លាមទេ។"
+      ],
+      "roman": [
+        "Som tos yob menh nhom dek luok bat terb tae khernh sa bong ot ban chhlaey phleam te."
+      ]
+    },
+    {
+      "id": "km-s042",
+      "kind": "sentence",
+      "native": [
+        "សំណាង ថ្ងៃត្រង់ខ្ញុំចូលប្រជុំជំនួសបងបាន។"
+      ],
+      "roman": [
+        "Samnang thngai trang nhom chol brochum chomnuos bong ban."
+      ]
+    },
+    {
+      "id": "km-s043",
+      "kind": "sentence",
+      "native": [
+        "ប្រឡងលើកទី 2 នេះ ខ្ញុំបាន 87 ពិន្ទុ។"
+      ],
+      "roman": [
+        "Pralong leuk ti 2 nih nhom ban 87 pintu."
+      ]
+    },
+    {
+      "id": "km-s044",
+      "kind": "sentence",
+      "native": [
+        "យប់នេះត្រូវរៀបក្រដាសពណ៌និងកាវដាក់កាបូបកូន សម្រាប់រៀនសិល្បៈថ្ងៃស្អែក។"
+      ],
+      "roman": [
+        "Yob nih trov riep kradas por neng kav dak kaboub koun samrab rean selpak thngai saek."
+      ]
+    },
+    {
+      "id": "km-s045",
+      "kind": "sentence",
+      "native": [
+        "ជួយយករូបថតដែលថតម្សិលមិញទាំងអស់ទៅដាក់ក្នុង folder ថ្មីឈ្មោះដំណើរកម្សាន្តផង។"
+      ],
+      "roman": [
+        "Chuoy yok roub thot del thot msel menh teang os tov dak knong folder thmey chhmoh domnaer komsan phong."
+      ]
+    },
+    {
+      "id": "km-s046",
+      "kind": "sentence",
+      "native": [
+        "ត្រង់ទំព័រដើម អក្សរជាន់គ្នាលើទូរស័ព្ទ តែលើកុំព្យូទ័រអត់អីទេ។"
+      ],
+      "roman": [
+        "Trong tompor daem aksar choan knea ler toursap tae ler kompyuter ot ey te."
+      ]
+    },
+    {
+      "id": "km-s047",
+      "kind": "sentence",
+      "native": [
+        "អ្នកបើកឡានប្រាប់ថាជិតដល់ចំណតចុងក្រោយហើយ។"
+      ],
+      "roman": [
+        "Neak baek lan brab tha chit dol chamnot chung kraoy haey."
+      ]
+    },
+    {
+      "id": "km-s048",
+      "kind": "sentence",
+      "native": [
+        "ទ្វាររបងបិទមិនជិតទេ។"
+      ],
+      "roman": [
+        "Tvear robong bet min chit te."
+      ]
+    },
+    {
+      "id": "km-s049",
+      "kind": "sentence",
+      "native": [
+        "ណាត់នៅបាក់ទូក អូ មិនមែន នៅស្ទឹងមានជ័យ។"
+      ],
+      "roman": [
+        "Nat nov Bak Touk o min men nov Stueng Mean Chey."
+      ]
+    },
+    {
+      "id": "km-s050",
+      "kind": "sentence",
+      "native": [
+        "ស្តាយណាស់ អត់បានទៅ។"
+      ],
+      "roman": [
+        "Sday nas ot ban tov."
+      ]
+    },
+    {
+      "id": "km-s051",
+      "kind": "sentence",
+      "native": [
+        "សោបន្ទប់បង ខ្ញុំផ្ញើនឹងអ្នកយាមហើយ។"
+      ],
+      "roman": [
+        "Sao bantob bong nhom phnher neng neak yeam haey."
+      ]
+    },
+    {
+      "id": "km-s052",
+      "kind": "sentence",
+      "native": [
+        "ពេលទំនេរ ជួយឆ្លើយអ៊ីមែលអតិថិជនផង។"
+      ],
+      "roman": [
+        "Pel tomner chuoy chhlaey imeil atithichun phong."
+      ]
+    },
+    {
+      "id": "km-s053",
+      "kind": "sentence",
+      "native": [
+        "ក្រមា 2 អស់ 22000 រៀល តែលុយអាប់ខ្វះ 3000 រៀល។"
+      ],
+      "roman": [
+        "Kroma 2 os 22000 riel tae luy ab khvah 3000 riel."
+      ]
+    },
+    {
+      "id": "km-s054",
+      "kind": "sentence",
+      "native": [
+        "ថ្នាក់រាំនៅកំពង់ឆ្នាំងចាប់ផ្តើមថ្ងៃអាទិត្យ។"
+      ],
+      "roman": [
+        "Thnak roam nov Kampong Chhnang chab phdaem thngai Atit."
+      ]
+    },
+    {
+      "id": "km-s055",
+      "kind": "sentence",
+      "native": [
+        "ផ្ញើទីតាំងខ្ញុំឱ្យបងគឹមហេងតាមតេឡេក្រាមផង។"
+      ],
+      "roman": [
+        "Phnher titang nhom aoy bong Kimheng tam Telegram phong."
+      ]
+    },
+    {
+      "id": "km-s056",
+      "kind": "sentence",
+      "native": [
+        "ប៊ុនថា កុំដក USB ចេញអី ព្រោះវាកំពុងចម្លងឯកសារមិនទាន់រួចទេ។"
+      ],
+      "roman": [
+        "Buntha kom dok USB chenh ey pruoh vea kompong chamlong ekasar min toan ruoch te."
+      ]
+    },
+    {
+      "id": "km-s057",
+      "kind": "sentence",
+      "native": [
+        "ជាងកាត់ដេររើទៅខាងទល់មុខហើយ បងអាចសួរអ្នកលក់ផ្លែឈើនៅក្បែរនោះបាន។"
+      ],
+      "roman": [
+        "Cheang kat der rer tov khang tol muk haey bong ach sour neak luok phlae chheu nov kbae nuh ban."
+      ]
+    },
+    {
+      "id": "km-s058",
+      "kind": "sentence",
+      "native": [
+        "ខោនេះមានពណ៌ផ្សេងអត់?"
+      ],
+      "roman": [
+        "Khao nih mean po phseng ot?"
+      ]
+    },
+    {
+      "id": "km-s059",
+      "kind": "sentence",
+      "native": [
+        "កំប៉ុង ដបជ័រ និងក្រដាស ខ្ញុំញែកទុកលក់។"
+      ],
+      "roman": [
+        "Kampong dab chor neng kradas nhom nhek tuk luok."
+      ]
+    },
+    {
+      "id": "km-s060",
+      "kind": "sentence",
+      "native": [
+        "ពិតជាពូកែតែងខ្លួនមែន។"
+      ],
+      "roman": [
+        "Pit chea poukae taeng khluon men."
+      ]
+    },
+    {
+      "id": "km-s061",
+      "kind": "sentence",
+      "native": [
+        "ថ្មទូរស័ព្ទជិតអស់ហើយ។"
+      ],
+      "roman": [
+        "Thmor toursap chit os haey."
+      ]
+    },
+    {
+      "id": "km-s062",
+      "kind": "sentence",
+      "native": [
+        "ថ្លៃធ្វើដំណើរខែនេះ សុំភ្ជាប់បង្កាន់ដៃមកផង។"
+      ],
+      "roman": [
+        "Thlai thver damnaer khae nih som phchoab bangkan dai mok phong."
+      ]
+    },
+    {
+      "id": "km-s063",
+      "kind": "sentence",
+      "native": [
+        "រថភ្លើងទៅកំពតចេញម៉ោង 7 ព្រឹកមែនទេ?"
+      ],
+      "roman": [
+        "Rot phleung tov Kampot chenh maong 7 preuk men te?"
+      ]
+    },
+    {
+      "id": "km-s064",
+      "kind": "sentence",
+      "native": [
+        "កង់ត្រូវបូមខ្យល់មុនចេញដំណើរព្រឹកស្អែក។"
+      ],
+      "roman": [
+        "Kang trov baom khyal mun chenh damnaer preuk saek."
+      ]
+    },
+    {
+      "id": "km-s065",
+      "kind": "sentence",
+      "native": [
+        "ផ្អាកការទាញយកឯកសារទាំងនេះសិនបានទេ?"
+      ],
+      "roman": [
+        "Phaak ka teanh yok ekasar teang nih sen ban te?"
+      ]
+    },
+    {
+      "id": "km-s066",
+      "kind": "sentence",
+      "native": [
+        "សំឡេងខាងបងមិនច្បាស់។"
+      ],
+      "roman": [
+        "Samleng khang bong min chbas."
+      ]
+    },
+    {
+      "id": "km-s067",
+      "kind": "sentence",
+      "native": [
+        "ជណ្ដើរនៅខាងឆ្វេង។"
+      ],
+      "roman": [
+        "Chondaer nov khang chhveng."
+      ]
+    },
+    {
+      "id": "km-s068",
+      "kind": "sentence",
+      "native": [
+        "ទឹកស៊ុបនេះផ្អែមល្មមហើយ។"
+      ],
+      "roman": [
+        "Tuek sup nih phaem lmom haey."
+      ]
+    },
+    {
+      "id": "km-s069",
+      "kind": "sentence",
+      "native": [
+        "បាយសាច់ជ្រូកខ្ចប់មួយ អេ យកពីរកញ្ចប់វិញ មួយដាក់ពងទា មួយអត់ដាក់។"
+      ],
+      "roman": [
+        "Bay sach chrouk khchob muoy e yok pi kanhchob vinh muoy dak pong tea muoy ot dak."
+      ]
+    },
+    {
+      "id": "km-s070",
+      "kind": "sentence",
+      "native": [
+        "ស្បែកជើងនេះមើលទៅស្អាត តែពាក់មិនសូវស្រួលទេ។"
+      ],
+      "roman": [
+        "Sbaek cheung nih merl tov saat tae peak min sov sruol te."
+      ]
+    },
+    {
+      "id": "km-s071",
+      "kind": "sentence",
+      "native": [
+        "ទុកបាយឱ្យខ្ញុំផងណា។"
+      ],
+      "roman": [
+        "Tuk bay aoy nhom phong na."
+      ]
+    },
+    {
+      "id": "km-s072",
+      "kind": "sentence",
+      "native": [
+        "ហាងនៅទួលគោកទើបដឹកតុថ្មីមកដល់ការិយាល័យ។"
+      ],
+      "roman": [
+        "Hang nov Tuol Kork terb doek tok thmey mok dol kariyealay."
+      ]
+    },
+    {
+      "id": "km-s073",
+      "kind": "sentence",
+      "native": [
+        "សៀវភៅនេះមាន 96 ទំព័រ ខ្ញុំអានចប់ក្នុង 2 ថ្ងៃ។"
+      ],
+      "roman": [
+        "Sievphov nih mean 96 tompor nhom an chob knong 2 thngai."
+      ]
+    },
+    {
+      "id": "km-s074",
+      "kind": "sentence",
+      "native": [
+        "ប្រអប់បាយរបស់ម៉ាលីត្រូវយកទៅឱ្យគាត់វិញ។"
+      ],
+      "roman": [
+        "Praob bay robos Mali trov yok tov aoy koat vinh."
+      ]
+    },
+    {
+      "id": "km-s075",
+      "kind": "sentence",
+      "native": [
+        "តើនៅសៀមរាបថ្ងៃនេះក្តៅប៉ុន្មានអង្សា?"
+      ],
+      "roman": [
+        "Ter nov Siem Reap thngai nih kdav ponman angsa?"
+      ]
+    },
+    {
+      "id": "km-s076",
+      "kind": "sentence",
+      "native": [
+        "ម៉ៅស៍នេះស្រួលកាន់។"
+      ],
+      "roman": [
+        "Maos nih sruol kan."
+      ]
+    },
+    {
+      "id": "km-s077",
+      "kind": "sentence",
+      "native": [
+        "ផ្លូវទៅតាខ្មៅថ្ងៃនេះស្រួលជិះណាស់។"
+      ],
+      "roman": [
+        "Phlov tov Ta Khmau thngai nih sruol chih nas."
+      ]
+    },
+    {
+      "id": "km-s078",
+      "kind": "sentence",
+      "native": [
+        "វ៉ែនតាថ្មីខ្ញុំរួចហើយ តែទាល់តែថ្ងៃត្រង់ទើបខ្ញុំទំនេរទៅយក។"
+      ],
+      "roman": [
+        "Vaenta thmey nhom ruoch haey tae toal tae thngai trang terb nhom tomner tov yok."
+      ]
+    },
+    {
+      "id": "km-s079",
+      "kind": "sentence",
+      "native": [
+        "កែវនេះ 5000 រៀល មិនមែន 6000 រៀលទេ។"
+      ],
+      "roman": [
+        "Kaev nih 5000 riel min men 6000 riel te."
+      ]
+    },
+    {
+      "id": "km-s080",
+      "kind": "sentence",
+      "native": [
+        "បុកល្ហុងហាងនេះហឹរពេក ខ្ញុំញ៉ាំមិនអស់ទេ។"
+      ],
+      "roman": [
+        "Bok lhong hang nih her pek nhom nham min os te."
+      ]
+    },
+    {
+      "id": "km-s081",
+      "kind": "sentence",
+      "native": [
+        "ឆ្មាឯងដេកលើខ្នើយខ្ញុំទៀតហើយ ឡូយមែន។"
+      ],
+      "roman": [
+        "Chhma aeng dek ler khnaey nhom tiet haey loy men."
+      ]
+    },
+    {
+      "id": "km-s082",
+      "kind": "sentence",
+      "native": [
+        "វេនល្ងាចថ្ងៃចន្ទ ខ្ញុំដូរជាមួយបងបាន ព្រោះថ្នាក់ភាសាចិនលើកទៅថ្ងៃផ្សេង។"
+      ],
+      "roman": [
+        "Ven lngach thngai Chan nhom dou cheamuoy bong ban pruoh thnak pheasa chen leuk tov thngai phseng."
+      ]
+    },
+    {
+      "id": "km-s083",
+      "kind": "sentence",
+      "native": [
+        "សាកដាក់លេខគំរូ 010 000 000 ក្នុង app នេះ មើលថាវាដំណើរការអត់។"
+      ],
+      "roman": [
+        "Sak dak lek komrou 010 000 000 knong app nih merl tha vea domnaer ka ot."
+      ]
+    },
+    {
+      "id": "km-s084",
+      "kind": "sentence",
+      "native": [
+        "ពូសុវណ្ណនឹងមកវាស់បង្អួចម៉ោង 3 រសៀល។"
+      ],
+      "roman": [
+        "Pu Sovann neng mok veas banguoch maong 3 rosiel."
+      ]
+    },
+    {
+      "id": "km-s085",
+      "kind": "sentence",
+      "native": [
+        "ជួយបង្ហាញហាងជួសជុលកាមេរ៉ាដែលនៅជិតនេះ ហើយនៅបើកពេលនេះផង។"
+      ],
+      "roman": [
+        "Chuoy bangheanh hang chuos chul kamera del nov chit nih haey nov baek pel nih phong."
+      ]
+    },
+    {
+      "id": "km-s086",
+      "kind": "sentence",
+      "native": [
+        "ចុចប៊ូតុងរក្សាទុកហើយ តែអត្ថបទបាត់អស់។"
+      ],
+      "roman": [
+        "Choch butong reksa tuk haey tae atthabot bat os."
+      ]
+    },
+    {
+      "id": "km-s087",
+      "kind": "sentence",
+      "native": [
+        "និតាទើបផ្លាស់មកធ្វើការនៅក្រុមហ៊ុនយើង។"
+      ],
+      "roman": [
+        "Nita terb phlas mok thver ka nov krom hun yeung."
+      ]
+    },
+    {
+      "id": "km-s088",
+      "kind": "sentence",
+      "native": [
+        "មេឃស្រឡះល្អណាស់ថ្ងៃនេះ។"
+      ],
+      "roman": [
+        "Mek sralah laor nas thngai nih."
+      ]
+    },
+    {
+      "id": "km-s089",
+      "kind": "sentence",
+      "native": [
+        "ធីតា ផ្ញើទៅក្រចេះវិញ មិនមែនកំពង់ចាមទេ។ គាត់ទើបប្រាប់មិញ។"
+      ],
+      "roman": [
+        "Thida phnher tov Kracheh vinh min men Kampong Cham te. Koat terb brab menh."
+      ]
+    },
+    {
+      "id": "km-s090",
+      "kind": "sentence",
+      "native": [
+        "មកយឺតបន្តិច សុំទោសផង។"
+      ],
+      "roman": [
+        "Mok yeut bantech som tos phong."
+      ]
+    },
+    {
+      "id": "km-s091",
+      "kind": "sentence",
+      "native": [
+        "ចាស ចាំជួបគ្នាស្អែក។"
+      ],
+      "roman": [
+        "Chas cham chuob knea saek."
+      ]
+    },
+    {
+      "id": "km-s092",
+      "kind": "sentence",
+      "native": [
+        "បោះពុម្ពគំរូនេះបាន។"
+      ],
+      "roman": [
+        "Baoh pum komru nih ban."
+      ]
+    },
+    {
+      "id": "km-s093",
+      "kind": "sentence",
+      "native": [
+        "ទិញពងមាន់ 10 គ្រាប់ និងទឹកដោះគោ 2 ប្រអប់។"
+      ],
+      "roman": [
+        "Tinh pong moan 10 kroab neng teuk doh ko 2 praob."
+      ]
+    },
+    {
+      "id": "km-s094",
+      "kind": "sentence",
+      "native": [
+        "ថ្ងៃអង្គារមានណាត់កាត់សក់នៅទឹកថ្លា។"
+      ],
+      "roman": [
+        "Thngai Angkea mean nat kat sak nov Tuek Thla."
+      ]
+    },
+    {
+      "id": "km-s095",
+      "kind": "sentence",
+      "native": [
+        "ស្វែងរករបៀបធ្វើនំបញ្ចុកសម្លខ្មែរឱ្យខ្ញុំផង។"
+      ],
+      "roman": [
+        "Svaeng rok robieb thver nom banhchok samlor Khmer aoy nhom phong."
+      ]
+    },
+    {
+      "id": "km-s096",
+      "kind": "sentence",
+      "native": [
+        "ខ្សែសាកមួយនៅហាងបងសុខាថ្លៃ 25000 រៀល។"
+      ],
+      "roman": [
+        "Khsae sak muoy nov hang bong Sokha thlai 25000 riel."
+      ]
+    },
+    {
+      "id": "km-s097",
+      "kind": "sentence",
+      "native": [
+        "ចតក្បែរច្រកចេញទៅ។"
+      ],
+      "roman": [
+        "Chot kbae chrok chenh tov."
+      ]
+    },
+    {
+      "id": "km-s098",
+      "kind": "sentence",
+      "native": [
+        "អាវទាំងពីរនេះ 35000 រៀលបានអត់បង?"
+      ],
+      "roman": [
+        "Av teang pi nih 35000 riel ban ot bong?"
+      ]
+    },
+    {
+      "id": "km-s099",
+      "kind": "sentence",
+      "native": [
+        "អាវភ្លៀងធំមួយ អេ តូចមួយវិញបានអត់?"
+      ],
+      "roman": [
+        "Av phleang thom muoy e toch muoy vinh ban ot?"
+      ]
+    },
+    {
+      "id": "km-s100",
+      "kind": "sentence",
+      "native": [
+        "ទោះមិនទាន់ចេះ ក៏សាកធ្វើម្តងទៀតទៅណា។"
+      ],
+      "roman": [
+        "Tuoh min toan cheh kor sak thver mdong tiet tov na."
+      ]
+    },
+    {
+      "id": "km-s101",
+      "kind": "sentence",
+      "native": [
+        "កុសល កុំភ្លេចយកឆ្នាំងខ្ញុំមកវិញផង។"
+      ],
+      "roman": [
+        "Kosal kom phlech yok chhnang nhom mok vinh phong."
+      ]
+    },
+    {
+      "id": "km-s102",
+      "kind": "sentence",
+      "native": [
+        "យល់ព្រមតាមនេះចុះ។"
+      ],
+      "roman": [
+        "Yol prom tam nih choh."
+      ]
+    },
+    {
+      "id": "km-s103",
+      "kind": "sentence",
+      "native": [
+        "ហាងនេះបញ្ចុះតម្លៃ 15% រហូតដល់ថ្ងៃទី 28។"
+      ],
+      "roman": [
+        "Hang nih banhchoh tamlai 15% rohot dol thngai ti 28."
+      ]
+    },
+    {
+      "id": "km-s104",
+      "kind": "sentence",
+      "native": [
+        "អំបិលអស់ហើយ ត្រូវទិញថែម។"
+      ],
+      "roman": [
+        "Ambel os haey trov tinh thaem."
+      ]
+    },
+    {
+      "id": "km-s105",
+      "kind": "sentence",
+      "native": [
+        "ពង្រីកអក្សរឱ្យធំជាងនេះបន្តិចបានទេ?"
+      ],
+      "roman": [
+        "Pongrik aksor aoy thom cheang nih bantech ban te?"
+      ]
+    },
+    {
+      "id": "km-s106",
+      "kind": "sentence",
+      "native": [
+        "គ្រាប់ចុចនេះជាប់ហើយ។"
+      ],
+      "roman": [
+        "Kroab choch nih choab haey."
+      ]
+    },
+    {
+      "id": "km-s107",
+      "kind": "sentence",
+      "native": [
+        "ស្រីមុំ ជិះកង់បីទៅបឹងកក់ជាមួយខ្ញុំអត់?"
+      ],
+      "roman": [
+        "Srey Mom chih kang bei tov Boeng Kak cheamuoy nhom ot?"
+      ]
+    },
+    {
+      "id": "km-s108",
+      "kind": "sentence",
+      "native": [
+        "សុជាតា ចង់បានបង្អែមល្ពៅប៉ុន្មានចាន?"
+      ],
+      "roman": [
+        "Socheata chong ban bangaem lpov ponman chan?"
+      ]
+    },
+    {
+      "id": "km-s109",
+      "kind": "sentence",
+      "native": [
+        "កុំទាន់ផ្ញើសារនេះចូលក្រុមកីឡា។ ខ្ញុំចង់កែឈ្មោះក្រុមសិន។"
+      ],
+      "roman": [
+        "Kom toan phnher sar nih chol krom keila. Nhom chong kae chhmoh krom sen."
+      ]
+    },
+    {
+      "id": "km-s110",
+      "kind": "sentence",
+      "native": [
+        "ហ្វាទីម៉ា ខ្ញុំផ្ញើរូបថតទាំងអស់តាម Telegram ហើយ បើបើកមិនបាន ប្រាប់ខ្ញុំផង។"
+      ],
+      "roman": [
+        "Fatima nhom phnher roub thot teang os tam Telegram haey bae baek min ban brab nhom phong."
+      ]
+    },
+    {
+      "id": "km-s111",
+      "kind": "sentence",
+      "native": [
+        "ពណ៌នេះសមនឹងហាងយើង។"
+      ],
+      "roman": [
+        "Poar nih som neng hang yeung."
+      ]
+    },
+    {
+      "id": "km-s112",
+      "kind": "sentence",
+      "native": [
+        "ប្រាក់កក់ត្រឹម 20% ទេ។"
+      ],
+      "roman": [
+        "Brak kak treum 20% te."
+      ]
+    },
+    {
+      "id": "km-s113",
+      "kind": "sentence",
+      "native": [
+        "សោទូទុកក្នុងថតតូច។"
+      ],
+      "roman": [
+        "Sao tou tuk knong thot toch."
+      ]
+    },
+    {
+      "id": "km-s114",
+      "kind": "sentence",
+      "native": [
+        "បង្ហាញផ្លូវទៅផ្សារទួលទំពូងផង។"
+      ],
+      "roman": [
+        "Banghan phlov tov Phsar Tuol Tumpoung phong."
+      ]
+    },
+    {
+      "id": "km-s115",
+      "kind": "sentence",
+      "native": [
+        "កម្មវិធីហ្នឹងគាំងទៀតហើយ។"
+      ],
+      "roman": [
+        "Kammavithi neng keang tiet haey."
+      ]
+    },
+    {
+      "id": "km-s116",
+      "kind": "sentence",
+      "native": [
+        "បត់ស្តាំត្រង់ភ្លើងស្តុប។"
+      ],
+      "roman": [
+        "Bot sdam trong phleung stop."
+      ]
+    },
+    {
+      "id": "km-s117",
+      "kind": "sentence",
+      "native": [
+        "ចូលឆ្នាំនេះ មីងសុធីចង់ជុំគ្នានៅផ្ទះ គាត់ថាមិនចង់ចេញដើរទេ។"
+      ],
+      "roman": [
+        "Chol chnam nih ming Sothy chong chum knea nov phteah koat tha min chong chenh daer te."
+      ]
+    },
+    {
+      "id": "km-s118",
+      "kind": "sentence",
+      "native": [
+        "ហ្នឹងថ្លៃមួយគូមែនទេ?"
+      ],
+      "roman": [
+        "Neng thlai muoy ku men te?"
+      ]
+    },
+    {
+      "id": "km-s119",
+      "kind": "sentence",
+      "native": [
+        "ម៉ាក់ កូនចេញពីរៀនហើយ ចាំមុខខ្លោងទ្វារ។"
+      ],
+      "roman": [
+        "Mak koun chenh pi rean haey cham muk khlaong tvear."
+      ]
+    },
+    {
+      "id": "km-s120",
+      "kind": "sentence",
+      "native": [
+        "កាបូបពណ៌ខៀវនៅសល់តែ 6 ក្នុងស្តុក។"
+      ],
+      "roman": [
+        "Kaboub poar khiev nov sal tae 6 knong stok."
+      ]
+    },
+    {
+      "id": "km-s121",
+      "kind": "sentence",
+      "native": [
+        "ចាន់នីចាប់ផ្តើមរៀនហែលទឹកថ្ងៃទី 9 ខែកក្កដា ម៉ោង 6 កន្លះល្ងាច។"
+      ],
+      "roman": [
+        "Channy chab phdaem rean hael teuk thngai ti 9 khae Kakkada maong 6 kanlah lngeach."
+      ]
+    },
+    {
+      "id": "km-s122",
+      "kind": "sentence",
+      "native": [
+        "ដូរថ្មនាឡិកាជញ្ជាំងផង។"
+      ],
+      "roman": [
+        "Dou thmor nealika chonhcheang phong."
+      ]
+    },
+    {
+      "id": "km-s123",
+      "kind": "sentence",
+      "native": [
+        "3 ម៉ែត្រស្មើនឹងប៉ុន្មានសង់ទីម៉ែត្រ?"
+      ],
+      "roman": [
+        "3 maet smae neng ponman sangtimaet?"
+      ]
+    },
+    {
+      "id": "km-s124",
+      "kind": "sentence",
+      "native": [
+        "ក្រោយអាប់ដេត ចុចស្វែងរកហើយមិនចេញអីសោះ។"
+      ],
+      "roman": [
+        "Kraoy apdet choch svaeng rok haey min chenh ey saoh."
+      ]
+    },
+    {
+      "id": "km-s125",
+      "kind": "sentence",
+      "native": [
+        "តាមច្រកក្រោយទៅ ងាយរកកន្លែងចតជាង។"
+      ],
+      "roman": [
+        "Tam chrok kraoy tov ngeay rok kanlaeng chot cheang."
+      ]
+    },
+    {
+      "id": "km-s126",
+      "kind": "sentence",
+      "native": [
+        "ខួបកំណើតក្មួយ ចាប់ផ្តើមម៉ោង 5 ល្ងាច។"
+      ],
+      "roman": [
+        "Khuob komnaet kmuoy chab phdaem maong 5 lngeach."
+      ]
+    },
+    {
+      "id": "km-s127",
+      "kind": "sentence",
+      "native": [
+        "ក្រណាត់ពីកោះដាច់នេះ ខ្ញុំយក 4 ម៉ែត្រ អេ យក 5 ម៉ែត្រវិញទើបគ្រប់។"
+      ],
+      "roman": [
+        "Kronat pi Koh Dach nih nhom yok 4 maet e yok 5 maet vinh terb krob."
+      ]
+    },
+    {
+      "id": "km-s128",
+      "kind": "sentence",
+      "native": [
+        "អូនដេកមុនទៅ កុំចាំបង។"
+      ],
+      "roman": [
+        "Oun dek mun tov kom cham bong."
+      ]
+    },
+    {
+      "id": "km-s129",
+      "kind": "sentence",
+      "native": [
+        "សួស្តី បុប្ផា មានសំណួរមួយចង់សួរ។"
+      ],
+      "roman": [
+        "Sour sdey Bopha mean samnuor muoy chong sour."
+      ]
+    },
+    {
+      "id": "km-s130",
+      "kind": "sentence",
+      "native": [
+        "វីដេអូនេះវែង 14 នាទី ខ្ញុំទើបមើលបាន 5 នាទីទេ។"
+      ],
+      "roman": [
+        "Video nih veng 14 neati nhom terb merl ban 5 neati te."
+      ]
+    },
+    {
+      "id": "km-s131",
+      "kind": "sentence",
+      "native": [
+        "ដកឌុយដែកអ៊ុតចេញ។"
+      ],
+      "roman": [
+        "Dok duy daek ut chenh."
+      ]
+    },
+    {
+      "id": "km-s132",
+      "kind": "sentence",
+      "native": [
+        "ដាក់ម៉ោងរាប់ថយក្រោយ 12 នាទីឱ្យខ្ញុំផង។"
+      ],
+      "roman": [
+        "Dak maong roab thoy kraoy 12 neati aoy nhom phong."
+      ]
+    },
+    {
+      "id": "km-s133",
+      "kind": "sentence",
+      "native": [
+        "តារាងវេនធ្វើការក្នុង Excel នេះមានឈ្មោះខ្ញុំអត់?"
+      ],
+      "roman": [
+        "Tarang ven thver ka knong Excel nih mean chhmoh nhom ot?"
+      ]
+    },
+    {
+      "id": "km-s134",
+      "kind": "sentence",
+      "native": [
+        "ហួសស្ពានបន្តិច បងនឹងឃើញហាងលក់ផ្កា។"
+      ],
+      "roman": [
+        "Huos spean bantech bong neng khernh hang luok phka."
+      ]
+    },
+    {
+      "id": "km-s135",
+      "kind": "sentence",
+      "native": [
+        "លំហាត់គណិតវិទ្យា កូនធ្វើដល់ណាហើយ?"
+      ],
+      "roman": [
+        "Lomhat konit vityea koun thver dol na haey?"
+      ]
+    },
+    {
+      "id": "km-s136",
+      "kind": "sentence",
+      "native": [
+        "ក្រដាសស្អិតមានពណ៌លឿងទេ ឬមានតែពណ៌ស?"
+      ],
+      "roman": [
+        "Kradas saet mean poa leung te rue mean tae poa sa?"
+      ]
+    },
+    {
+      "id": "km-s137",
+      "kind": "sentence",
+      "native": [
+        "រវល់អីហ្នឹង ស្ងាត់មិនឃើញឆាតមកសោះ?"
+      ],
+      "roman": [
+        "Rovol ey neng sngat min khernh chhat mok sos?"
+      ]
+    },
+    {
+      "id": "km-s138",
+      "kind": "sentence",
+      "native": [
+        "កេសរ វគ្គបណ្តុះបណ្តាលចាប់ផ្តើមម៉ោងប៉ុន្មាន?"
+      ],
+      "roman": [
+        "Kesor voak bandoh bandal chab phdaem maong ponman?"
+      ]
+    },
+    {
+      "id": "km-s139",
+      "kind": "sentence",
+      "native": [
+        "ដាវី ផ្ញើឱ្យខ្ញុំ 45000 រៀលតាម ABA ផង។"
+      ],
+      "roman": [
+        "Davy phnher aoy nhom 45000 riel tam ABA phong."
+      ]
+    },
+    {
+      "id": "km-s140",
+      "kind": "sentence",
+      "native": [
+        "លាងជក់ផាត់មុខថ្ងៃនេះ។"
+      ],
+      "roman": [
+        "Leang chok phat muk thngai nih."
+      ]
+    },
+    {
+      "id": "km-s141",
+      "kind": "sentence",
+      "native": [
+        "ចាក់ភ្លេងស្រាលឱ្យខ្ញុំស្តាប់ពេលអានសៀវភៅផង។"
+      ],
+      "roman": [
+        "Chak phleng sral aoy nhom sdab pel an sievphov phong."
+      ]
+    },
+    {
+      "id": "km-s142",
+      "kind": "sentence",
+      "native": [
+        "ពាក្យសម្ងាត់ថ្មីត្រូវមានយ៉ាងតិច 8 តួអក្សរ។"
+      ],
+      "roman": [
+        "Peak samngat thmey trov mean yang tech 8 tuo aksar."
+      ]
+    },
+    {
+      "id": "km-s143",
+      "kind": "sentence",
+      "native": [
+        "ឡានក្រុងនេះឈប់នៅជិតសាលារៀនមែនទេ?"
+      ],
+      "roman": [
+        "Lan krong nih chhob nov chit sala rean men te?"
+      ]
+    },
+    {
+      "id": "km-s144",
+      "kind": "sentence",
+      "native": [
+        "ចាននៅក្នុងទូខាងក្រោម។"
+      ],
+      "roman": [
+        "Chan nov knong tu khang kraom."
+      ]
+    },
+    {
+      "id": "km-s145",
+      "kind": "sentence",
+      "native": [
+        "យូសុះ យកតែទឹកក្រូចទេ អត់យកទឹកកកទេ។"
+      ],
+      "roman": [
+        "Yusoh yok tae teuk kroch te ot yok teuk kok te."
+      ]
+    },
+    {
+      "id": "km-s146",
+      "kind": "sentence",
+      "native": [
+        "សុភា ស្អែកទៅញ៉ាំលតឆាជាមួយគ្នាអត់?"
+      ],
+      "roman": [
+        "Sophea saek tov nham lot chha cheamuoy knea ot?"
+      ]
+    },
+    {
+      "id": "km-s147",
+      "kind": "sentence",
+      "native": [
+        "មុនចេញទៅជួប client ជួយប្រាប់ខ្ញុំថាត្រូវយកគំរូមួយណាទៅ ឱ្យខ្ញុំរៀបចំទុក។"
+      ],
+      "roman": [
+        "Mun chenh tov chuob client chuoy brab nhom tha trov yok komru muoy na tov aoy nhom riep chom tuk."
+      ]
+    },
+    {
+      "id": "km-s148",
+      "kind": "sentence",
+      "native": [
+        "សូមទៅផ្ទះលេខ 18 ផ្លូវ 310 នៅបឹងកេងកង។"
+      ],
+      "roman": [
+        "Som tov phteah lek 18 phlov 310 nov Boeng Keng Kang."
+      ]
+    },
+    {
+      "id": "km-s149",
+      "kind": "sentence",
+      "native": [
+        "មុនទទួលតុពីហាងនៅស្ទឹងត្រែង ត្រូវវាស់បណ្តោយមើលថាបាន 90 សង់ទីម៉ែត្រអត់។"
+      ],
+      "roman": [
+        "Mun totuol tok pi hang nov Stung Treng trov voas bandoay merl tha ban 90 sangtimaet ot."
+      ]
+    },
+    {
+      "id": "km-s150",
+      "kind": "sentence",
+      "native": [
+        "ចាប់ផ្តើមថតសំឡេង។"
+      ],
+      "roman": [
+        "Chab phdaem thot samleng."
+      ]
+    },
+    {
+      "id": "km-s151",
+      "kind": "sentence",
+      "native": [
+        "Client ថ្មីចង់សាកប្រើសិន មុនសម្រេចចិត្តទិញកម្មវិធីនេះ។"
+      ],
+      "roman": [
+        "Client thmey chong sak brae sen mun samrach chet tinh kammavithi nih."
+      ]
+    },
+    {
+      "id": "km-s152",
+      "kind": "sentence",
+      "native": [
+        "មីងណាវីមកដល់ហើយឬនៅ?"
+      ],
+      "roman": [
+        "Ming Navy mok dol haey rue nov?"
+      ]
+    },
+    {
+      "id": "km-s153",
+      "kind": "sentence",
+      "native": [
+        "រ៉ានី រសៀលថ្ងៃសៅរ៍មកសាករ៉ូបបានទេ?"
+      ],
+      "roman": [
+        "Rany rosiel thngai sao mok sak rob ban te?"
+      ]
+    },
+    {
+      "id": "km-s154",
+      "kind": "sentence",
+      "native": [
+        "រើកៅអីទៅមាត់ទ្វារ អត់ទេ ទុកត្រង់នេះវិញ។"
+      ],
+      "roman": [
+        "Rer kao ey tov moat tvear ot te tuk trang nih vinh."
+      ]
+    },
+    {
+      "id": "km-s155",
+      "kind": "sentence",
+      "native": [
+        "លីណា បើឆ្លងកាត់ផ្សារថ្មី ជួយទិញនំប៉័ងឱ្យខ្ញុំមួយដើមផង ចាំខ្ញុំឱ្យលុយ។"
+      ],
+      "roman": [
+        "Lina bae chhlong kat Phsar Thmey chuoy tinh nom pang aoy nhom muoy daem phong cham nhom aoy luy."
+      ]
+    },
+    {
+      "id": "km-s156",
+      "kind": "sentence",
+      "native": [
+        "ម៉ាស៊ីនដំណើរការវិញហើយ។"
+      ],
+      "roman": [
+        "Masin domnaer ka vinh haey."
+      ]
+    },
+    {
+      "id": "km-s157",
+      "kind": "sentence",
+      "native": [
+        "អង្ករនៅសល់ 4 គីឡូ។"
+      ],
+      "roman": [
+        "Angkor nov sal 4 kilo."
+      ]
+    },
+    {
+      "id": "km-s158",
+      "kind": "sentence",
+      "native": [
+        "ចាំដូរអំពូលផ្ទះបាយផង។"
+      ],
+      "roman": [
+        "Cham dor ampul phteah bay phong."
+      ]
+    },
+    {
+      "id": "km-s159",
+      "kind": "sentence",
+      "native": [
+        "បន្ថយពន្លឺអេក្រង់បន្តិច។"
+      ],
+      "roman": [
+        "Bonthoy ponleu ekrang bantech."
+      ]
+    },
+    {
+      "id": "km-s160",
+      "kind": "sentence",
+      "native": [
+        "លីងនេះចុចមិនចូលទេ។"
+      ],
+      "roman": [
+        "Ling nih choch min chol te."
+      ]
+    },
+    {
+      "id": "km-s161",
+      "kind": "sentence",
+      "native": [
+        "ឥឡូវភ្លៀងខ្លាំងណាស់ ចាំរាំងសិនចាំចេញ។"
+      ],
+      "roman": [
+        "Eilov phleang khlang nas cham reang sen cham chenh."
+      ]
+    },
+    {
+      "id": "km-s162",
+      "kind": "sentence",
+      "native": [
+        "ខ្ញុំដករូបចាស់ចេញពីទំព័រដើមហើយ។"
+      ],
+      "roman": [
+        "Nhom dok roub chas chenh pi tompor daem haey."
+      ]
+    },
+    {
+      "id": "km-s163",
+      "kind": "sentence",
+      "native": [
+        "កូនពៅអាយុ 6 ឆ្នាំហើយ។"
+      ],
+      "roman": [
+        "Koun pov ayu 6 chnam haey."
+      ]
+    },
+    {
+      "id": "km-s164",
+      "kind": "sentence",
+      "native": [
+        "កាតបណ្ណាល័យខ្ញុំផុតកំណត់ខែក្រោយ។"
+      ],
+      "roman": [
+        "Kat bannalay nhom phot komnot khae kraoy."
+      ]
+    },
+    {
+      "id": "km-s165",
+      "kind": "sentence",
+      "native": [
+        "ប៉ា ពេលចេញមក យកឆត្រធំមកឱ្យកូនផងណា។"
+      ],
+      "roman": [
+        "Pa pel chenh mok yok chhat thom mok aoy koun phong na."
+      ]
+    },
+    {
+      "id": "km-s166",
+      "kind": "sentence",
+      "native": [
+        "អតិថិជននៅពោធិ៍សាត់ចង់បានវិក្កយបត្រដែរទេ?"
+      ],
+      "roman": [
+        "Atithichun nov Pursat chong ban vikkayabat dae te?"
+      ]
+    },
+    {
+      "id": "km-s167",
+      "kind": "sentence",
+      "native": [
+        "បន្ទប់ខ្ញុំលេខ 24។"
+      ],
+      "roman": [
+        "Bantob nhom lek 24."
+      ]
+    },
+    {
+      "id": "km-s168",
+      "kind": "sentence",
+      "native": [
+        "ពុទ្ធីណាត់ហាត់បាល់នៅស្តាតអូឡាំពិកថ្ងៃសៅរ៍។"
+      ],
+      "roman": [
+        "Puthy nat hat bal nov Stad Olympic thngai sao."
+      ]
+    },
+    {
+      "id": "km-s169",
+      "kind": "sentence",
+      "native": [
+        "ដល់ផ្ទះហើយ កុំបារម្ភ។"
+      ],
+      "roman": [
+        "Dol phteah haey kom barom."
+      ]
+    },
+    {
+      "id": "km-s170",
+      "kind": "sentence",
+      "native": [
+        "នារី សុំ list ភ្ញៀវមុនថ្ងៃព្រហស្បតិ៍ផង។"
+      ],
+      "roman": [
+        "Nary som list phnhiev mun thngai prohoas phong."
+      ]
+    },
+    {
+      "id": "km-s171",
+      "kind": "sentence",
+      "native": [
+        "ស្បែកជើងលេខ 38 តឹងពេក។"
+      ],
+      "roman": [
+        "Sbaek cheung lek 38 teung pek."
+      ]
+    },
+    {
+      "id": "km-s172",
+      "kind": "sentence",
+      "native": [
+        "ទិញស្បែកជើងថ្មីត្រឹម 60000 រៀលបានហើយ កុំទិញថ្លៃជាងហ្នឹង។"
+      ],
+      "roman": [
+        "Tinh sbaek cheung thmey treum 60000 riel ban haey kom tinh thlai cheang neng."
+      ]
+    },
+    {
+      "id": "km-s173",
+      "kind": "sentence",
+      "native": [
+        "ឮហើយ ចាំប្រាប់គាត់។"
+      ],
+      "roman": [
+        "Leu haey cham brab koat."
+      ]
+    },
+    {
+      "id": "km-s174",
+      "kind": "sentence",
+      "native": [
+        "អ៊ីចឹងខ្ញុំឈប់រំខានហើយ បើមានអ្វីបន្ទាន់ សរសេរមកក្នុងឆាតនេះបានណា។"
+      ],
+      "roman": [
+        "Echeng nhom chhob romkhan haey bae mean avey bantoan sorser mok knong chhat nih ban na."
+      ]
+    },
+    {
+      "id": "km-s175",
+      "kind": "sentence",
+      "native": [
+        "ក្រុមយើងឈ្នះ 2 ទល់នឹង 1។"
+      ],
+      "roman": [
+        "Krom yeung chhneah 2 tol neng 1."
+      ]
+    },
+    {
+      "id": "km-s176",
+      "kind": "sentence",
+      "native": [
+        "បន្ថែមថង់សំរាមទៅក្នុង list ទិញឥវ៉ាន់ផង។"
+      ],
+      "roman": [
+        "Banthaem thang samram tov knong list tinh eivan phong."
+      ]
+    },
+    {
+      "id": "km-s177",
+      "kind": "sentence",
+      "native": [
+        "ប្អូននៅតាកែវដាំត្រកួនបានច្រើនណាស់ គេចែកឱ្យផ្ទះជិតខាងទៀត។"
+      ],
+      "roman": [
+        "Poun nov Takeo dam trakuon ban chraen nas ke chaek aoy phteah chit khang tiet."
+      ]
+    },
+    {
+      "id": "km-s178",
+      "kind": "sentence",
+      "native": [
+        "សំបុត្រកុនខ្ញុំនៅជួរ 5 កៅអីលេខ 17។"
+      ],
+      "roman": [
+        "Sambot kon nhom nov chuor 5 kaoey lek 17."
+      ]
+    },
+    {
+      "id": "km-s179",
+      "kind": "sentence",
+      "native": [
+        "ហេតុអីថ្ងៃសុក្រកូនរៀនគំនូរដល់ល្ងាច?"
+      ],
+      "roman": [
+        "Het ey thngai Sok koun rean komnur dol lngach?"
+      ]
+    },
+    {
+      "id": "km-s180",
+      "kind": "sentence",
+      "native": [
+        "ប្តូរថ្ងៃណាត់ទៅថ្ងៃទី 23 ខែមិថុនា ឆ្នាំ 2026 ម៉ោង 4 រសៀលវិញបានទេ?"
+      ],
+      "roman": [
+        "Bdo thngai nat tov thngai ti 23 khae Mithona chnam 2026 maong 4 rosiel vinh ban te?"
+      ]
+    },
+    {
+      "id": "km-s181",
+      "kind": "sentence",
+      "native": [
+        "ប៉ាក់ផ្ការួចមួយហើយ។"
+      ],
+      "roman": [
+        "Pak phka ruoch muoy haey."
+      ]
+    },
+    {
+      "id": "km-s182",
+      "kind": "sentence",
+      "native": [
+        "គ្រាន់តែឮថាមីងធ្វើនំបាញ់ឌុក ខ្ញុំឃ្លានបាត់ហើយ។ ថ្ងៃណាធ្វើទៀត ហៅខ្ញុំផង។"
+      ],
+      "roman": [
+        "Kroan tae leu tha ming thver nom banh duk nhom khlean bat haey. Thngai na thver tiet hav nhom phong."
+      ]
+    }
+  ]
+}

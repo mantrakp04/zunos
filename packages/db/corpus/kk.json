@@ -1,0 +1,1831 @@
+{
+  "lang": "kk",
+  "starter": [
+    "kk-s086",
+    "kk-s094",
+    "kk-s006",
+    "kk-s089",
+    "kk-s005",
+    "kk-s083",
+    "kk-s035",
+    "kk-s016",
+    "kk-s032",
+    "kk-s106",
+    "kk-s004",
+    "kk-s132",
+    "kk-s121",
+    "kk-s013",
+    "kk-s140",
+    "kk-s036",
+    "kk-s095",
+    "kk-s055",
+    "kk-s054",
+    "kk-p03",
+    "kk-s057",
+    "kk-s143",
+    "kk-s026",
+    "kk-s125",
+    "kk-s065",
+    "kk-s079",
+    "kk-s058",
+    "kk-s045",
+    "kk-s019",
+    "kk-s039",
+    "kk-s012",
+    "kk-s078",
+    "kk-s061",
+    "kk-s129",
+    "kk-s118",
+    "kk-s011",
+    "kk-s108",
+    "kk-s060",
+    "kk-p07",
+    "kk-s128",
+    "kk-s022",
+    "kk-s149",
+    "kk-s114",
+    "kk-s137",
+    "kk-s110",
+    "kk-s027",
+    "kk-s052",
+    "kk-s020",
+    "kk-s099",
+    "kk-s124",
+    "kk-s071",
+    "kk-s104",
+    "kk-s002",
+    "kk-s109",
+    "kk-s127",
+    "kk-s044",
+    "kk-s111",
+    "kk-s120"
+  ],
+  "items": [
+    {
+      "id": "kk-p01",
+      "kind": "para",
+      "title": "Plans Keep Changing",
+      "native": [
+        "Аружан, сенбіде Медеуге барамыз деген жоспарымыз тағы өзгеріп кетті.",
+        "Басында таңертең ерте шығып, тауда біраз серуендейміз деп едік.",
+        "Данияр сенбіде жұмыс істейтінін айтты, сондықтан жексенбіге ауыстыра салдық.",
+        "Жексенбіде жаңбыр жауады екен, тауға бармай-ақ қояйық деп отырмыз.",
+        "Анам түсте үйге шақырып, бауырсақ пісіріп қоямын деп жатыр.",
+        "Сен де келсең, тамақтан кейін Көктөбеге бірге шығып қайтармыз.",
+        "Күн ашылмаса, үйде қалып, шай ішіп, кино көре саламыз.",
+        "Әзірге жолға тамақ ала тұрма, қайда баратынымыз әлі белгісіз.",
+        "Сен қашан босайтыныңды жаза салшы, қалғанын кешке қарай келісейік."
+      ],
+      "roman": [
+        "Aruzhan, senbide Medeuge baramiz degen zhosparimiz tagi ozgerip ketti.",
+        "Basinda tangerteng erte shigip, tauda biraz seruendeymiz dep edik.",
+        "Daniyar senbide zhumis isteytinin aytti, sondiqtan zheksenbige auistira saldiq.",
+        "Zheksenbide zhangbir zhauadi eken, tauga barmay-aq qoyayiq dep otirmiz.",
+        "Anam tuste uyge shaqirip, bauirsaq pisirip qoyamin dep zhatir.",
+        "Sen de kelseng, tamaqtan keyin Koktobege birge shigip qaytarmiz.",
+        "Kun ashilmasa, uyde qalip, shay iship, kino kore salamiz.",
+        "Azirge zholga tamaq ala turma, qayda baratinimiz ali belgisiz.",
+        "Sen qashan bosaytiningdi zhaza salshi, qalganin keshke qaray keliseyik."
+      ]
+    },
+    {
+      "id": "kk-p02",
+      "kind": "para",
+      "title": "Handover Before Leave",
+      "native": [
+        "Әріптестер, дүйсенбіден бастап бір апта демалыста боламын.",
+        "Астанадағы дүкеннің жөндеу жұмыстары бойынша негізгі құжаттарды дайындап қойдым.",
+        "Соңғы смета мен төлем кестесі ортақ папкада тұр.",
+        "Папканың сілтемесін бүгін жұмыс чатына жіберемін, бөлек іздеп отырмайсыздар.",
+        "Мердігер жұмаға дейін есіктің өлшемдерін нақтылап жіберуі керек.",
+        "Әсел, сол мәліметтерді алған соң, сызбамен салыстырып шығыңызшы.",
+        "Клиентпен сейсенбі күні 11:00-де Zoom арқылы кездесеміз деп келістік.",
+        "Сол кездесуді Ерлан өткізеді, клиентке бұл туралы ескертіп қойдым.",
+        "Сұрақтарыңыз болса, бүгін түстен кейін хабарласыңыздар, бәрін бірге қарап шығайық."
+      ],
+      "roman": [
+        "Ariptester, duysenbiden bastap bir apta demalista bolamin.",
+        "Astanadagi dukenning zhondeu zhumistari boyinsha negizgi quzhattardi dayindap qoydim.",
+        "Songgi smeta men tolem kestesi ortaq papkada tur.",
+        "Papkaning siltemesin bugin zhumis chatina zhiberemin, bolek izdep otirmaysizdar.",
+        "Merdiger zhumaga deyin esikting olshemderin naqtilap zhiberui kerek.",
+        "Asel, sol malimetterdi algan song, sizbamen salistirip shigingizshi.",
+        "Klientpen seysenbi kuni 11:00-de Zoom arqili kezdesemiz dep kelistik.",
+        "Sol kezdesudi Erlan otkizedi, klientke bul turali eskertip qoydim.",
+        "Suraqtaringiz bolsa, bugin tusten keyin khabarlasingizdar, barin birge qarap shigayiq."
+      ]
+    },
+    {
+      "id": "kk-p03",
+      "kind": "para",
+      "title": "Help at the Bus Stop",
+      "native": [
+        "Кеше Қарағандыда автобустан түскенде, сөмкемнің бауы үзіліп қалды.",
+        "Ішіндегі алма мен картоп аялдаманың жанына шашылып кетті.",
+        "Қолымда үлкен қорап бар еді, өзім еңкейе алмадым.",
+        "Аялдамада тұрған апай қасыма келіп, қорабымды ұстай тұрды.",
+        "Көк күртеше киген бір жігіт алмаларды жинауға көмектесті.",
+        "Апай сөмкесінен мықты пакет шығарып, заттарымды соған салды.",
+        "Үйім алыс емес екенін айтып, екеуіне рақмет айттым.",
+        "Әлгі жігіт пакетті көтеріп, мені подъезге дейін жеткізіп салды.",
+        "Үйге кірген соң, болған жағдайды үйдегілерге айтып бердім."
+      ],
+      "roman": [
+        "Keshe Qaragandida avtobustan tuskende, somkemning baui uzilip qaldi.",
+        "Ishindegi alma men kartop ayaldamaning zhanina shashilip ketti.",
+        "Qolimda ulken qorap bar edi, ozim engkeye almadim.",
+        "Ayaldamada turgan apay qasima kelip, qorabimdi ustay turdi.",
+        "Kok kurteshe kigen bir zhigit almalardi zhinauga komektesti.",
+        "Apay somkesinen miqti paket shigarip, zattarimdi sogan saldi.",
+        "Uyim alis emes ekenin aytip, ekeuine raqmet ayttim.",
+        "Algi zhigit paketti koterip, meni podezge deyin zhetkizip saldi.",
+        "Uyge kirgen song, bolgan zhagdaydi uydegilerge aytip berdim."
+      ]
+    },
+    {
+      "id": "kk-p04",
+      "kind": "para",
+      "title": "Balcony Garden Care",
+      "native": [
+        "Шымкенттің ыстығында балкондағы гүлдер мен жалбызға күнде қарау керек.",
+        "Алдымен құмыраларды таңғы күн түсетін жаққа қойып шығыңыз.",
+        "Түсте күн қатты қыздырса, жұқа пердемен көлеңке жасаңыз.",
+        "Су құярда топырақтың бетін саусағыңызбен ақырын басып көріңіз.",
+        "Топырақ әлі дымқыл болса, бүгін су құймай-ақ қойыңыз.",
+        "Топырақ құрғап кетсе, суды жапыраққа шашпай, өсімдіктің түбіне жайлап құйыңыз.",
+        "Құмыраның астындағы табақшаға жиналған артық суды міндетті түрде төгіңіз.",
+        "Қураған жапырақтарды алып тастап, жалбыздың ұзарып кеткен сабағын қысқартыңыз.",
+        "Кешке балконды желдетіңіз, бірақ құмыраларды жел өтінде қалдырмаңыз."
+      ],
+      "roman": [
+        "Shimkentting istiginda balkondagi gulder men zhalbizga kunde qarau kerek.",
+        "Aldimen qumiralardi tanggi kun tusetin zhaqqa qoyip shigingiz.",
+        "Tuste kun qatti qizdirsa, zhuqa perdemen kolengke zhasangiz.",
+        "Su quyarda topiraqting betin sausagingizben aqirin basip koringiz.",
+        "Topiraq ali dimqil bolsa, bugin su quymay-aq qoyingiz.",
+        "Topiraq qurgap ketse, sudi zhapiraqqa shashpay, osimdikting tubine zhaylap quyingiz.",
+        "Qumiraning astindagi tabaqshaga zhinalgan artiq sudi mindetti turde togingiz.",
+        "Quragan zhapiraqtardi alip tastap, zhalbizding uzarip ketken sabagin qisqartingiz.",
+        "Keshke balkondi zheldetingiz, biraq qumiralardi zhel otinde qaldirmangiz."
+      ]
+    },
+    {
+      "id": "kk-p05",
+      "kind": "para",
+      "title": "Getting Around Atyrau",
+      "native": [
+        "Атырауда такси шақыру үшін көбіне қосымша қолданамын.",
+        "Кеше Әуезов даңғылынан орталық базарға 1400 теңгеге жеттім.",
+        "Жүргізуші асықпай айдады, түсетін жерімді де алдын ала сұрап алды.",
+        "Такси қосымшасында көліктің қайда келе жатқанын анық көріп отырасың.",
+        "Жаңбыр жауса, таксидің бағасы бірден өсіп кететіні ұнамайды.",
+        "Кейде картадағы белгі көрші ауланың кіреберісіне түсіп қалады.",
+        "Такси жүргізушісіне қоңырау шалып, қай подъездің алдында тұрғанымды түсіндіруге тура келеді.",
+        "Қолма-қол ақша іздемей, картамен төлей салатыным маған қатты ұнайды.",
+        "Күнде таксимен жүру қымбаттау, бірақ кешіккенде көмегі тиеді."
+      ],
+      "roman": [
+        "Atirauda taksi shaqiru ushin kobine qosimsha qoldanamin.",
+        "Keshe Auezov danggilinan ortaliq bazarga 1400 tenggege zhettim.",
+        "Zhurgizushi asiqpay aydadi, tusetin zherimdi de aldin ala surap aldi.",
+        "Taksi qosimshasinda kolikting qayda kele zhatqanin aniq korip otirasing.",
+        "Zhangbir zhausa, taksiding bagasi birden osip ketetini unamaydi.",
+        "Keyde kartadagi belgi korshi aulaning kireberisine tusip qaladi.",
+        "Taksi zhurgizushisine qongirau shalip, qay podezding aldinda turganimdi tusindiruge tura keledi.",
+        "Qolma-qol aqsha izdemey, kartamen toley salatinim magan qatti unaydi.",
+        "Kunde taksimen zhuru qimbattau, biraq keshikkende komegi tiedi."
+      ]
+    },
+    {
+      "id": "kk-p06",
+      "kind": "para",
+      "title": "Three Days in Burabay",
+      "native": [
+        "Бурабайға 3 күнге барып келуге 65000 теңге бөлдім.",
+        "Бурабайда 2026 жылғы 12 маусымнан 14 маусымға дейін боламын.",
+        "Астанадан Бурабайға 08:00-де жолға шығып, 14 маусым күні 18:30-да қайтамын.",
+        "Қайтар жолды қоса есептегенде, пойыз билеттеріне 10000 теңге кетеді.",
+        "Қонақүйде 2 түн қонуға барлығы 24000 теңге төлеймін.",
+        "Үш күндік тамағыма 18000 теңге жетеді деп ойлаймын.",
+        "Қайық жалдауға және автобуспен жүруге тағы 8000 теңге қалдырамын.",
+        "Көлге дейін 2 шақырым ғана екен, жаяу барамын.",
+        "Қалған 5000 теңгені күтпеген шығынға сақтап қойғаным дұрыс шығар."
+      ],
+      "roman": [
+        "Burabayga 3 kunge barip keluge 65000 tengge boldim.",
+        "Burabayda 2026 zhilgi 12 mausimnan 14 mausimga deyin bolamin.",
+        "Astanadan Burabayga 08:00-de zholga shigip, 14 mausim kuni 18:30-da qaytamin.",
+        "Qaytar zholdi qosa eseptegende, poyiz biletterine 10000 tengge ketedi.",
+        "Qonaquyde 2 tun qonuga barligi 24000 tengge toleymin.",
+        "Ush kundik tamagima 18000 tengge zhetedi dep oylaymin.",
+        "Qayiq zhaldauga zhane avtobuspen zhuruge tagi 8000 tengge qaldiramin.",
+        "Kolge deyin 2 shaqirim gana eken, zhayau baramin.",
+        "Qalgan 5000 tenggeni kutpegen shiginga saqtap qoyganim duris shigar."
+      ]
+    },
+    {
+      "id": "kk-p07",
+      "kind": "para",
+      "title": "A Duplicate Card Charge",
+      "native": [
+        "Сәлеметсіз бе! Картамнан екі рет ақша алынғанын тексеріп бересіз бе?",
+        "Кеше Тараздағы дүкеннен азық-түлік сатып алдым.",
+        "Сатып алған заттарыма 7350 теңге төледім.",
+        "Дүкенде сағат 17:40-та төледім, чекті сақтап қойдым.",
+        "Halyk қосымшасында дүкендегі төлем екі рет көрсетілген.",
+        "Екі төлемнің де күні мен дүкен атауы бірдей көрінеді.",
+        "Кассир төлемнің бір рет қана өткенін айтып отыр.",
+        "Қажет болса, чектің суретін банк қосымшасындағы чатқа жібере аламын.",
+        "Артық алынған ақша қашан қайтатынын да айтып берсеңіз екен."
+      ],
+      "roman": [
+        "Salemetsiz be! Kartamnan eki ret aqsha alinganin tekserip beresiz be?",
+        "Keshe Tarazdagi dukennen aziq-tulik satip aldim.",
+        "Satip algan zattarima 7350 tengge toledim.",
+        "Dukende sagat 17:40-ta toledim, chekti saqtap qoydim.",
+        "Halyk qosimshasinda dukendegi tolem eki ret korsetilgen.",
+        "Eki tolemning de kuni men duken ataui birdey korinedi.",
+        "Kassir tolemning bir ret qana otkenin aytip otir.",
+        "Qazhet bolsa, chekting suretin bank qosimshasindagi chatqa zhibere alamin.",
+        "Artiq alingan aqsha qashan qaytatinin da aytip bersengiz eken."
+      ]
+    },
+    {
+      "id": "kk-p08",
+      "kind": "para",
+      "title": "Nauryz by the Irtysh",
+      "native": [
+        "Павлодарда Наурыз мерекесіне көп адам жиналады.",
+        "22 наурызда Ертіс жағалауында концерт болады, түрлі ойындар өтеді.",
+        "Мерекеге келгендер киіз үйлерге кіріп, бауырсақ жеп, наурызкөже ішеді.",
+        "Наурызкөжеге жеті түрлі дәм қосады.",
+        "Наурызкөжеге біреулер бидай, ал басқалары тары не күріш қосады.",
+        "Балалар асық атып жарысады, ал үлкендер концерт тамашалайды.",
+        "Қолөнер жәрмеңкесінде киіз бұйымдар мен ағаш ыдыстар сатылады.",
+        "Көршілер бір-біріне қонаққа барып, дастарқан басында жақсы тілектер айтады.",
+        "Наурызда алыстағы туыстарға хабарласып, мерекемен құттықтаймыз."
+      ],
+      "roman": [
+        "Pavlodarda Nauriz merekesine kop adam zhinaladi.",
+        "22 naurizda Ertis zhagalauinda kontsert boladi, turli oyindar otedi.",
+        "Merekege kelgender kiiz uylerge kirip, bauirsaq zhep, naurizkozhe ishedi.",
+        "Naurizkozhege zheti turli dam qosadi.",
+        "Naurizkozhege bireuler biday, al basqalari tari ne kurish qosadi.",
+        "Balalar asiq atip zharisadi, al ulkender kontsert tamashalaydi.",
+        "Qoloner zharmengkesinde kiiz buyimdar men agash idistar satiladi.",
+        "Korshiler bir-birine qonaqqa barip, dastarqan basinda zhaqsi tilekter aytadi.",
+        "Naurizda alistagi tuistarga khabarlasip, merekemen quttiqtaymiz."
+      ]
+    },
+    {
+      "id": "kk-s001",
+      "kind": "sentence",
+      "native": [
+        "Мына мысыққа қарашы, өзіне бөлек төсек алдық, ал ол менің жастығымда ұйықтап жатыр."
+      ],
+      "roman": [
+        "Mina misiqqa qarashi, ozine bolek tosek aldiq, al ol mening zhastigimda uyiqtap zhatir."
+      ]
+    },
+    {
+      "id": "kk-s002",
+      "kind": "sentence",
+      "native": [
+        "Салтанат, жеткізуші әкелген матаның түсі үлгіге сәйкес пе?"
+      ],
+      "roman": [
+        "Saltanat, zhetkizushi akelgen mataning tusi ulgige saykes pe?"
+      ]
+    },
+    {
+      "id": "kk-s003",
+      "kind": "sentence",
+      "native": [
+        "Кеше 12500 теңгеге алған шалбарымды 48-өлшемге ауыстырдым."
+      ],
+      "roman": [
+        "Keshe 12500 tenggege algan shalbarimdi 48-olshemge auistirdim."
+      ]
+    },
+    {
+      "id": "kk-s004",
+      "kind": "sentence",
+      "native": [
+        "Сәрсенбіде Күләш апайға жіп апарып беруді ескертші."
+      ],
+      "roman": [
+        "Sarsenbide Kulash apayga zhip aparip berudi eskertshi."
+      ]
+    },
+    {
+      "id": "kk-s005",
+      "kind": "sentence",
+      "native": [
+        "Әлияға қоңырау шалшы."
+      ],
+      "roman": [
+        "Aliyaga qongirau shalshi."
+      ]
+    },
+    {
+      "id": "kk-s006",
+      "kind": "sentence",
+      "native": [
+        "Ақтөбедегі офиске ортақ Wi-Fi желісін орнатып қойдық."
+      ],
+      "roman": [
+        "Aqtobedegi ofiske ortaq Wi-Fi zhelisin ornatip qoydiq."
+      ]
+    },
+    {
+      "id": "kk-s007",
+      "kind": "sentence",
+      "native": [
+        "Тәтемнің үйіне соғып, содан соң орталыққа шығамыз."
+      ],
+      "roman": [
+        "Tatemning uyine sogip, sodan song ortaliqqa shigamiz."
+      ]
+    },
+    {
+      "id": "kk-s008",
+      "kind": "sentence",
+      "native": [
+        "Кілемді тазалауға бердік, жұмада дайын болады деді."
+      ],
+      "roman": [
+        "Kilemdi tazalauga berdik, zhumada dayin boladi dedi."
+      ]
+    },
+    {
+      "id": "kk-s009",
+      "kind": "sentence",
+      "native": [
+        "Әлгі чек қайда кетті?"
+      ],
+      "roman": [
+        "Algi chek qayda ketti?"
+      ]
+    },
+    {
+      "id": "kk-s010",
+      "kind": "sentence",
+      "native": [
+        "Айып етпеңіз, байқамай қалдым."
+      ],
+      "roman": [
+        "Ayip etpengiz, bayqamay qaldim."
+      ]
+    },
+    {
+      "id": "kk-s011",
+      "kind": "sentence",
+      "native": [
+        "Құлаққапты іздемей-ақ қой, сөмкеңнің сыртқы қалтасында тұр."
+      ],
+      "roman": [
+        "Qulaqqapti izdemey-aq qoy, somkengning sirtqi qaltasinda tur."
+      ]
+    },
+    {
+      "id": "kk-s012",
+      "kind": "sentence",
+      "native": [
+        "Бағасын 18500 теңге деп көрсетсек, сізге қолайлы ма?"
+      ],
+      "roman": [
+        "Bagasin 18500 tengge dep korsetsek, sizge qolayli ma?"
+      ]
+    },
+    {
+      "id": "kk-s013",
+      "kind": "sentence",
+      "native": [
+        "Су 16:20-да қайта қосылды."
+      ],
+      "roman": [
+        "Su 16:20-da qayta qosildi."
+      ]
+    },
+    {
+      "id": "kk-s014",
+      "kind": "sentence",
+      "native": [
+        "Сапарға алатын заттар тізіміне жаңбырлық пен аяқкиімге арналған қапшықты қосып қой."
+      ],
+      "roman": [
+        "Saparga alatin zattar tizimine zhangbirliq pen ayaqkiimge arnalgan qapshiqti qosip qoy."
+      ]
+    },
+    {
+      "id": "kk-s015",
+      "kind": "sentence",
+      "native": [
+        "Семейдегі Абай музейі жексенбі күні нешеге дейін ашық екенін ресми сайтынан тексеріп берші."
+      ],
+      "roman": [
+        "Semeydegi Abay muzeyi zheksenbi kuni neshege deyin ashiq ekenin resmi saytinan tekserip bershi."
+      ]
+    },
+    {
+      "id": "kk-s016",
+      "kind": "sentence",
+      "native": [
+        "Парольді ешкімге айтпа."
+      ],
+      "roman": [
+        "Paroldi eshkimge aytpa."
+      ]
+    },
+    {
+      "id": "kk-s017",
+      "kind": "sentence",
+      "native": [
+        "Түркістанға барған кезде Отырарға да соққымыз келеді, оған бөлек бір күн қалдырдық."
+      ],
+      "roman": [
+        "Turkistanga bargan kezde Otirarga da soqqimiz keledi, ogan bolek bir kun qaldirdiq."
+      ]
+    },
+    {
+      "id": "kk-s018",
+      "kind": "sentence",
+      "native": [
+        "Жейдеңнің түймесі түсіп қалыпты."
+      ],
+      "roman": [
+        "Zheydengning tuymesi tusip qalipti."
+      ]
+    },
+    {
+      "id": "kk-s019",
+      "kind": "sentence",
+      "native": [
+        "Қант, жұмыртқа, айран алшы, тұздың қажеті жоқ."
+      ],
+      "roman": [
+        "Qant, zhumirtqa, ayran alshi, tuzding qazheti zhoq."
+      ]
+    },
+    {
+      "id": "kk-s020",
+      "kind": "sentence",
+      "native": [
+        "Даусыңды естіп қуанып қалдым. Біраздан бері сөйлеспеп едік."
+      ],
+      "roman": [
+        "Dausingdi estip quanip qaldim. Birazdan beri soylespep edik."
+      ]
+    },
+    {
+      "id": "kk-s021",
+      "kind": "sentence",
+      "native": [
+        "Жарайды, сен айтқандай болсын."
+      ],
+      "roman": [
+        "Zharaydi, sen aytqanday bolsin."
+      ]
+    },
+    {
+      "id": "kk-s022",
+      "kind": "sentence",
+      "native": [
+        "Жарнама мәтінін бекіттім."
+      ],
+      "roman": [
+        "Zharnama matinin bekittim."
+      ]
+    },
+    {
+      "id": "kk-s023",
+      "kind": "sentence",
+      "native": [
+        "Күріштің 5 килосына 4200 теңге төледім."
+      ],
+      "roman": [
+        "Kurishting 5 kilosina 4200 tengge toledim."
+      ]
+    },
+    {
+      "id": "kk-s024",
+      "kind": "sentence",
+      "native": [
+        "Балабақшадағы кезекші тәрбиешіге баламды 17:00-де өзім алып кететінімді түске дейін хабарлап қоямын."
+      ],
+      "roman": [
+        "Balabaqshadagi kezekshi tarbieshige balamdi 17:00-de ozim alip ketetinimdi tuske deyin khabarlap qoyamin."
+      ]
+    },
+    {
+      "id": "kk-s025",
+      "kind": "sentence",
+      "native": [
+        "Алматыда ескі батарейкаларды қай жерге тапсыруға болады?"
+      ],
+      "roman": [
+        "Almatida eski batareykalardi qay zherge tapsiruga boladi?"
+      ]
+    },
+    {
+      "id": "kk-s026",
+      "kind": "sentence",
+      "native": [
+        "Скриншот анық шықты ма?"
+      ],
+      "roman": [
+        "Skrinshot aniq shiqti ma?"
+      ]
+    },
+    {
+      "id": "kk-s027",
+      "kind": "sentence",
+      "native": [
+        "Тігін шеберханасы дәріхананың артындағы аулаға көшіп кетіпті."
+      ],
+      "roman": [
+        "Tigin sheberkhanasi darikhananing artindagi aulaga koship ketipti."
+      ]
+    },
+    {
+      "id": "kk-s028",
+      "kind": "sentence",
+      "native": [
+        "Етіктің кішірек өлшемі бар ма?"
+      ],
+      "roman": [
+        "Etikting kishirek olshemi bar ma?"
+      ]
+    },
+    {
+      "id": "kk-s029",
+      "kind": "sentence",
+      "native": [
+        "Маратқа артық орындықты апарайық деп едім, бірақ өзімізге керек екен, қонақтар көбейіпті."
+      ],
+      "roman": [
+        "Maratqa artiq orindiqti aparayiq dep edim, biraq ozimizge kerek eken, qonaqtar kobeyipti."
+      ]
+    },
+    {
+      "id": "kk-s030",
+      "kind": "sentence",
+      "native": [
+        "Жарасып тұр, Інжу!"
+      ],
+      "roman": [
+        "Zharasip tur, Inzhu!"
+      ]
+    },
+    {
+      "id": "kk-s031",
+      "kind": "sentence",
+      "native": [
+        "Үйге аман жеттім."
+      ],
+      "roman": [
+        "Uyge aman zhettim."
+      ]
+    },
+    {
+      "id": "kk-s032",
+      "kind": "sentence",
+      "native": [
+        "Файлды аша алмадым, Word форматында жіберіңізші."
+      ],
+      "roman": [
+        "Fayldi asha almadim, Word formatinda zhiberingizshi."
+      ]
+    },
+    {
+      "id": "kk-s033",
+      "kind": "sentence",
+      "native": [
+        "Қарағандыдағы пәтердің мекенжайын жазып алшы: Бұқар жырау даңғылы, 48-үй, 17-пәтер, 2-кіреберіс."
+      ],
+      "roman": [
+        "Qaragandidagi paterding mekenzhayin zhazip alshi: Buqar zhirau dangili, 48-uy, 17-pater, 2-kireberis."
+      ]
+    },
+    {
+      "id": "kk-s034",
+      "kind": "sentence",
+      "native": [
+        "Постаматтың кодын сәлемдемені алған соң ғана өшіремін."
+      ],
+      "roman": [
+        "Postamatting kodin salemdemeni algan song gana oshiremin."
+      ]
+    },
+    {
+      "id": "kk-s035",
+      "kind": "sentence",
+      "native": [
+        "Таңғы 06:50-ге күн сайын соғатын оятқыш қойшы."
+      ],
+      "roman": [
+        "Tanggi 06:50-ge kun sayin sogatin oyatqish qoyshi."
+      ]
+    },
+    {
+      "id": "kk-s036",
+      "kind": "sentence",
+      "native": [
+        "Құжатты өңдеуге рұқсат беріңізші, тек оқи аламын."
+      ],
+      "roman": [
+        "Quzhatti ongdeuge ruqsat beringizshi, tek oqi alamin."
+      ]
+    },
+    {
+      "id": "kk-s037",
+      "kind": "sentence",
+      "native": [
+        "Аялдамадан кейін оңға бұрылыңыз."
+      ],
+      "roman": [
+        "Ayaldamadan keyin ongga burilingiz."
+      ]
+    },
+    {
+      "id": "kk-s038",
+      "kind": "sentence",
+      "native": [
+        "Сурет сабағына түрлі түсті қағаз апару керек пе?"
+      ],
+      "roman": [
+        "Suret sabagina turli tusti qagaz aparu kerek pe?"
+      ]
+    },
+    {
+      "id": "kk-s039",
+      "kind": "sentence",
+      "native": [
+        "Домбыраны әкелші, әлде алдымен шай ішіп аламыз ба?"
+      ],
+      "roman": [
+        "Dombirani akelshi, alde aldimen shay iship alamiz ba?"
+      ]
+    },
+    {
+      "id": "kk-s040",
+      "kind": "sentence",
+      "native": [
+        "Қолдауыңызға шын жүректен рақмет."
+      ],
+      "roman": [
+        "Qoldauingizga shin zhurekten raqmet."
+      ]
+    },
+    {
+      "id": "kk-s041",
+      "kind": "sentence",
+      "native": [
+        "Балаңның алғашқы қадамын видеоға түсіріп үлгерсең, бізге де жібер. Бәріміздің көргіміз келіп отыр."
+      ],
+      "roman": [
+        "Balangning algashqi qadamin videoga tusirip ulgerseng, bizge de zhiber. Barimizding korgimiz kelip otir."
+      ]
+    },
+    {
+      "id": "kk-s042",
+      "kind": "sentence",
+      "native": [
+        "Әлібек, хаттың соңына компанияның деректерін де қоса салшы."
+      ],
+      "roman": [
+        "Alibek, khatting songina kompaniyaning derekterin de qosa salshi."
+      ]
+    },
+    {
+      "id": "kk-s043",
+      "kind": "sentence",
+      "native": [
+        "Көрме 2026 жылғы 13 ақпанда ашылады, ал шеберлік сабағына тек 12 адам қатыса алады."
+      ],
+      "roman": [
+        "Korme 2026 zhilgi 13 aqpanda ashiladi, al sheberlik sabagina tek 12 adam qatisa aladi."
+      ]
+    },
+    {
+      "id": "kk-s044",
+      "kind": "sentence",
+      "native": [
+        "Сүтті тізімге қосып қой."
+      ],
+      "roman": [
+        "Sutti tizimge qosip qoy."
+      ]
+    },
+    {
+      "id": "kk-s045",
+      "kind": "sentence",
+      "native": [
+        "Экран жарығын азайтшы."
+      ],
+      "roman": [
+        "Ekran zharigin azaytshi."
+      ]
+    },
+    {
+      "id": "kk-s046",
+      "kind": "sentence",
+      "native": [
+        "Жазылым айына 3900 теңге екен, әзірге тегін нұсқасы жетеді."
+      ],
+      "roman": [
+        "Zhazilim ayina 3900 tengge eken, azirge tegin nusqasi zhetedi."
+      ]
+    },
+    {
+      "id": "kk-s047",
+      "kind": "sentence",
+      "native": [
+        "Жанармен Сайран көлінің жағасында кездесетін болып келістік."
+      ],
+      "roman": [
+        "Zhanarmen Sayran kolining zhagasinda kezdesetin bolip kelistik."
+      ]
+    },
+    {
+      "id": "kk-s048",
+      "kind": "sentence",
+      "native": [
+        "Ермек, асүйге сөре ілетін шеберге хабарластым. Керекті бұрандаларды өзі әкеледі екен."
+      ],
+      "roman": [
+        "Ermek, asuyge sore iletin sheberge khabarlastim. Kerekti burandalardi ozi akeledi eken."
+      ]
+    },
+    {
+      "id": "kk-s049",
+      "kind": "sentence",
+      "native": [
+        "Шелпек пе, таба нан ба?"
+      ],
+      "roman": [
+        "Shelpek pe, taba nan ba?"
+      ]
+    },
+    {
+      "id": "kk-s050",
+      "kind": "sentence",
+      "native": [
+        "Ақтаудың теңіз жағасында серуендесем, көңілім бірден жайланады."
+      ],
+      "roman": [
+        "Aqtauding tengiz zhagasinda seruendesem, kongilim birden zhaylanadi."
+      ]
+    },
+    {
+      "id": "kk-s051",
+      "kind": "sentence",
+      "native": [
+        "Ертең Тараздан келетін ағамды күтіп алуға барамын, сен де менімен бірге жүресің бе?"
+      ],
+      "roman": [
+        "Erteng Tarazdan keletin agamdi kutip aluga baramin, sen de menimen birge zhuresing be?"
+      ]
+    },
+    {
+      "id": "kk-s052",
+      "kind": "sentence",
+      "native": [
+        "Гүлнар апай, баяндамаңызға суреттерді өзім қосып қояйын ба?"
+      ],
+      "roman": [
+        "Gulnar apay, bayandamangizga suretterdi ozim qosip qoyayin ba?"
+      ]
+    },
+    {
+      "id": "kk-s053",
+      "kind": "sentence",
+      "native": [
+        "Тоңазытқышты жөндеуге сейсенбі күні 11:30-да келесіз бе, әлде 15:45-тен кейін күтейін бе?"
+      ],
+      "roman": [
+        "Tongazitqishti zhondeuge seysenbi kuni 11:30-da kelesiz be, alde 15:45-ten keyin kuteyin be?"
+      ]
+    },
+    {
+      "id": "kk-s054",
+      "kind": "sentence",
+      "native": [
+        "Ноутбуктағы ескі суреттерді бөлек папкаға көшіріп қояйын."
+      ],
+      "roman": [
+        "Noutbuktagi eski suretterdi bolek papkaga koshirip qoyayin."
+      ]
+    },
+    {
+      "id": "kk-s055",
+      "kind": "sentence",
+      "native": [
+        "Хан Шатырға көлікпен баратын жолды көрсетші."
+      ],
+      "roman": [
+        "Khan Shatirga kolikpen baratin zholdi korsetshi."
+      ]
+    },
+    {
+      "id": "kk-s056",
+      "kind": "sentence",
+      "native": [
+        "Руслан, камераңды сәл жоғары көтерсең, бетің көрінеді."
+      ],
+      "roman": [
+        "Ruslan, kamerangdi sal zhogari koterseng, beting korinedi."
+      ]
+    },
+    {
+      "id": "kk-s057",
+      "kind": "sentence",
+      "native": [
+        "Көпірден жаяу өтеміз бе?"
+      ],
+      "roman": [
+        "Kopirden zhayau otemiz be?"
+      ]
+    },
+    {
+      "id": "kk-s058",
+      "kind": "sentence",
+      "native": [
+        "Тырнақ жасатуға бейсенбі күні түстен кейін жазылсам бола ма?"
+      ],
+      "roman": [
+        "Tirnaq zhasatuga beysenbi kuni tusten keyin zhazilsam bola ma?"
+      ]
+    },
+    {
+      "id": "kk-s059",
+      "kind": "sentence",
+      "native": [
+        "Кешіріңіз, ұзындығын емес, салмағын сұраған едім."
+      ],
+      "roman": [
+        "Keshiringiz, uzindigin emes, salmagin suragan edim."
+      ]
+    },
+    {
+      "id": "kk-s060",
+      "kind": "sentence",
+      "native": [
+        "Бекзат, жақсы бастапсың, жалғастыра бер!"
+      ],
+      "roman": [
+        "Bekzat, zhaqsi bastapsing, zhalgastira ber!"
+      ]
+    },
+    {
+      "id": "kk-s061",
+      "kind": "sentence",
+      "native": [
+        "Балкондағы киімдерді жинап алшы, жаңбыр жауатын сияқты."
+      ],
+      "roman": [
+        "Balkondagi kiimderdi zhinap alshi, zhangbir zhauatin siyaqti."
+      ]
+    },
+    {
+      "id": "kk-s062",
+      "kind": "sentence",
+      "native": [
+        "Өткен аптада жіберген сұрағыма әлі жауап келмеді. Маманның есіне тағы бір рет салып жібересіз бе?"
+      ],
+      "roman": [
+        "Otken aptada zhibergen suragima ali zhauap kelmedi. Mamanning esine tagi bir ret salip zhiberesiz be?"
+      ]
+    },
+    {
+      "id": "kk-s063",
+      "kind": "sentence",
+      "native": [
+        "Есеп 3:2 болып тұр."
+      ],
+      "roman": [
+        "Esep 3:2 bolip tur."
+      ]
+    },
+    {
+      "id": "kk-s064",
+      "kind": "sentence",
+      "native": [
+        "Шаштаразға жазылуды ұмытып кетпейін."
+      ],
+      "roman": [
+        "Shashtarazga zhaziludi umitip ketpeyin."
+      ]
+    },
+    {
+      "id": "kk-s065",
+      "kind": "sentence",
+      "native": [
+        "Диктофонды қосып жіберші."
+      ],
+      "roman": [
+        "Diktofondi qosip zhibershi."
+      ]
+    },
+    {
+      "id": "kk-s066",
+      "kind": "sentence",
+      "native": [
+        "Айсұлу, дизайнның соңғы нұсқасын Figma ішінен қарашы, пікірлеріңді сол жерде қалдырсаң болады."
+      ],
+      "roman": [
+        "Aysulu, dizaynning songgi nusqasin Figma ishinen qarashi, pikirleringdi sol zherde qaldirsang boladi."
+      ]
+    },
+    {
+      "id": "kk-s067",
+      "kind": "sentence",
+      "native": [
+        "Бос орын болса, терезе жаққа отырсам бола ма?"
+      ],
+      "roman": [
+        "Bos orin bolsa, tereze zhaqqa otirsam bola ma?"
+      ]
+    },
+    {
+      "id": "kk-s068",
+      "kind": "sentence",
+      "native": [
+        "Ата-аналар жиналысына бұл жолы сен баршы, кешкі аспаздық сабағыма кешіккім келмейді."
+      ],
+      "roman": [
+        "Ata-analar zhinalisina bul zholi sen barshi, keshki aspazdiq sabagima keshikkim kelmeydi."
+      ]
+    },
+    {
+      "id": "kk-s069",
+      "kind": "sentence",
+      "native": [
+        "Алдымен шаң сүртемін, сосын еденді жуамын. Әйтпесе еден қайта былғанады."
+      ],
+      "roman": [
+        "Aldimen shang surtemin, sosin edendi zhuamin. Aytpese eden qayta bilganadi."
+      ]
+    },
+    {
+      "id": "kk-s070",
+      "kind": "sentence",
+      "native": [
+        "Кезекте ұзақ тұрғаным болмаса, қызмет көрсетуі ұнады."
+      ],
+      "roman": [
+        "Kezekte uzaq turganim bolmasa, qizmet korsetui unadi."
+      ]
+    },
+    {
+      "id": "kk-s071",
+      "kind": "sentence",
+      "native": [
+        "Әже, құртты сәлемдемеге салмай-ақ қойыңыз, үйде әлі бар."
+      ],
+      "roman": [
+        "Azhe, qurtti salemdemege salmay-aq qoyingiz, uyde ali bar."
+      ]
+    },
+    {
+      "id": "kk-s072",
+      "kind": "sentence",
+      "native": [
+        "Түскі үзілістен соң қысқаша сөйлесуге уақытыңыз бар ма?"
+      ],
+      "roman": [
+        "Tuski uzilisten song qisqasha soylesuge uaqitingiz bar ma?"
+      ]
+    },
+    {
+      "id": "kk-s073",
+      "kind": "sentence",
+      "native": [
+        "Жеңілдік мөлшері 25% екен."
+      ],
+      "roman": [
+        "Zhengildik molsheri 25% eken."
+      ]
+    },
+    {
+      "id": "kk-s074",
+      "kind": "sentence",
+      "native": [
+        "Терезенің биіктігі мен енін өлшеп, перде аларда шатаспау үшін телефонға түртіп қояйын."
+      ],
+      "roman": [
+        "Terezening biiktigi men enin olshep, perde alarda shataspau ushin telefonga turtip qoyayin."
+      ]
+    },
+    {
+      "id": "kk-s075",
+      "kind": "sentence",
+      "native": [
+        "Қазір ашық тұрған браузердегі бетті қазақшаға аударшы."
+      ],
+      "roman": [
+        "Qazir ashiq turgan brauzerdegi betti qazaqshaga audarshi."
+      ]
+    },
+    {
+      "id": "kk-s076",
+      "kind": "sentence",
+      "native": [
+        "Топтың хабарландыруларын кешке дейін өшіріп қойдым."
+      ],
+      "roman": [
+        "Topting khabarlandirularin keshke deyin oshirip qoydim."
+      ]
+    },
+    {
+      "id": "kk-s077",
+      "kind": "sentence",
+      "native": [
+        "Апайым базарға кетіпті."
+      ],
+      "roman": [
+        "Apayim bazarga ketipti."
+      ]
+    },
+    {
+      "id": "kk-s078",
+      "kind": "sentence",
+      "native": [
+        "Жел әбден күшейіп кетті."
+      ],
+      "roman": [
+        "Zhel abden kusheyip ketti."
+      ]
+    },
+    {
+      "id": "kk-s079",
+      "kind": "sentence",
+      "native": [
+        "Креслоны бұрышқа қояйық, әйтпесе есік ашылмай қалады."
+      ],
+      "roman": [
+        "Kresloni burishqa qoyayiq, aytpese esik ashilmay qaladi."
+      ]
+    },
+    {
+      "id": "kk-s080",
+      "kind": "sentence",
+      "native": [
+        "Ренжітіп алғанымды енді түсіндім. Келесіде сөзіңді бөлмей тыңдаймын."
+      ],
+      "roman": [
+        "Renzhitip alganimdi endi tusindim. Keleside sozingdi bolmey tingdaymin."
+      ]
+    },
+    {
+      "id": "kk-s081",
+      "kind": "sentence",
+      "native": [
+        "Қолың босағанда хабарласшы."
+      ],
+      "roman": [
+        "Qoling bosaganda khabarlasshi."
+      ]
+    },
+    {
+      "id": "kk-s082",
+      "kind": "sentence",
+      "native": [
+        "Түзетулерді енгізіп бітірдім."
+      ],
+      "roman": [
+        "Tuzetulerdi engizip bitirdim."
+      ]
+    },
+    {
+      "id": "kk-s083",
+      "kind": "sentence",
+      "native": [
+        "Әсел 29 жасқа толды."
+      ],
+      "roman": [
+        "Asel 29 zhasqa toldi."
+      ]
+    },
+    {
+      "id": "kk-s084",
+      "kind": "sentence",
+      "native": [
+        "Кітапханадан алған журналымды келесі аптада қайтаруым керек."
+      ],
+      "roman": [
+        "Kitapkhanadan algan zhurnalimdi kelesi aptada qaytaruim kerek."
+      ]
+    },
+    {
+      "id": "kk-s085",
+      "kind": "sentence",
+      "native": [
+        "Чаттағы соңғы келген хабарламаны оқып берші."
+      ],
+      "roman": [
+        "Chattagi songgi kelgen khabarlamani oqip bershi."
+      ]
+    },
+    {
+      "id": "kk-s086",
+      "kind": "sentence",
+      "native": [
+        "Excel кестесіндегі формула соманы қате есептеп тұр."
+      ],
+      "roman": [
+        "Excel kestesindegi formula somani qate eseptep tur."
+      ]
+    },
+    {
+      "id": "kk-s087",
+      "kind": "sentence",
+      "native": [
+        "Чемоданың ауыр болса, баспалдақпен көтерілмей, вокзалдың арғы жағындағы лифтімен жоғары шыға аласың."
+      ],
+      "roman": [
+        "Chemodaning auir bolsa, baspaldaqpen koterilmey, vokzalding argi zhagindagi liftimen zhogari shiga alasing."
+      ]
+    },
+    {
+      "id": "kk-s088",
+      "kind": "sentence",
+      "native": [
+        "Оралдағы ағайындар бесіктойға түгел келетін болды, қонақтарға жататын жер дайындап қояйық."
+      ],
+      "roman": [
+        "Oraldagi agayindar besiktoyga tugel keletin boldi, qonaqtarga zhatatin zher dayindap qoyayiq."
+      ]
+    },
+    {
+      "id": "kk-s089",
+      "kind": "sentence",
+      "native": [
+        "Зере, жұмада емес, бейсенбіде бассейнге барайықшы."
+      ],
+      "roman": [
+        "Zere, zhumada emes, beysenbide basseynge barayiqshi."
+      ]
+    },
+    {
+      "id": "kk-s090",
+      "kind": "sentence",
+      "native": [
+        "Бұрын бәріне үлгеруге тырысатынмын. Қазір таңертең асықпай кофе ішкеннің өзіне қуанамын."
+      ],
+      "roman": [
+        "Burin barine ulgeruge tirisatinmin. Qazir tangerteng asiqpay kofe ishkenning ozine quanamin."
+      ]
+    },
+    {
+      "id": "kk-s091",
+      "kind": "sentence",
+      "native": [
+        "Жандос, велосипедімді алсаң, дөңгелегін үрлеп алшы."
+      ],
+      "roman": [
+        "Zhandos, velosipedimdi alsang, donggelegin urlep alshi."
+      ]
+    },
+    {
+      "id": "kk-s092",
+      "kind": "sentence",
+      "native": [
+        "Клиент презентацияны ұнатыпты, бірақ өнімнің жұмыс істейтінін видео арқылы көрсетсек жақсы болар еді."
+      ],
+      "roman": [
+        "Klient prezentatsiyani unatipti, biraq onimning zhumis isteytinin video arqili korsetsek zhaqsi bolar edi."
+      ]
+    },
+    {
+      "id": "kk-s093",
+      "kind": "sentence",
+      "native": [
+        "Дүйсенбі күні 10:40-та келіңіз, 207-кабинетте күтемін."
+      ],
+      "roman": [
+        "Duysenbi kuni 10:40-ta kelingiz, 207-kabinette kutemin."
+      ]
+    },
+    {
+      "id": "kk-s094",
+      "kind": "sentence",
+      "native": [
+        "Magnum дүкенінен ыдыс жуатын сұйықтық алуым керек болатын."
+      ],
+      "roman": [
+        "Magnum dukeninen idis zhuatin suyiqtiq aluim kerek bolatin."
+      ]
+    },
+    {
+      "id": "kk-s095",
+      "kind": "sentence",
+      "native": [
+        "Балқашта бүгін күн қандай?"
+      ],
+      "roman": [
+        "Balqashta bugin kun qanday?"
+      ]
+    },
+    {
+      "id": "kk-s096",
+      "kind": "sentence",
+      "native": [
+        "Жаңартудан кейін бағдарлама өздігінен жабылып қалады, ал ескі нұсқасында мұндай мәселе болмаған еді."
+      ],
+      "roman": [
+        "Zhangartudan keyin bagdarlama ozdiginen zhabilip qaladi, al eski nusqasinda munday masele bolmagan edi."
+      ]
+    },
+    {
+      "id": "kk-s097",
+      "kind": "sentence",
+      "native": [
+        "Самал ықшамауданында тұратын Сәуле апам бүгін немересін ертіп, бізге қонаққа келетінін айтты."
+      ],
+      "roman": [
+        "Samal iqshamaudaninda turatin Saule apam bugin nemeresin ertip, bizge qonaqqa keletinin aytti."
+      ]
+    },
+    {
+      "id": "kk-s098",
+      "kind": "sentence",
+      "native": [
+        "Қамыр жақсы көтеріліпті ғой."
+      ],
+      "roman": [
+        "Qamir zhaqsi koterilipti goy."
+      ]
+    },
+    {
+      "id": "kk-s099",
+      "kind": "sentence",
+      "native": [
+        "Тоқта, қай касса бос?"
+      ],
+      "roman": [
+        "Toqta, qay kassa bos?"
+      ]
+    },
+    {
+      "id": "kk-s100",
+      "kind": "sentence",
+      "native": [
+        "Сенсіз бастағымыз келмей отыр, қашан жететініңді айтшы, пицца суып қалатын болды ғой."
+      ],
+      "roman": [
+        "Sensiz bastagimiz kelmey otir, qashan zhetetiningdi aytshi, pitstsa suip qalatin boldi goy."
+      ]
+    },
+    {
+      "id": "kk-s101",
+      "kind": "sentence",
+      "native": [
+        "Павлодардағы серіктестер үлгіні мақұлдады, енді қаптаманың түсін таңдап алсақ, басып шығаруға бере аламыз."
+      ],
+      "roman": [
+        "Pavlodardagi seriktester ulgini maquldadi, endi qaptamaning tusin tangdap alsaq, basip shigaruga bere alamiz."
+      ]
+    },
+    {
+      "id": "kk-s102",
+      "kind": "sentence",
+      "native": [
+        "Математикадан 62-беттегі 9-есептің жауабы 144 емес, 156 екен."
+      ],
+      "roman": [
+        "Matematikadan 62-bettegi 9-esepting zhauabi 144 emes, 156 eken."
+      ]
+    },
+    {
+      "id": "kk-s103",
+      "kind": "sentence",
+      "native": [
+        "Тотықұсқа жем салып қояйын."
+      ],
+      "roman": [
+        "Totiqusqa zhem salip qoyayin."
+      ]
+    },
+    {
+      "id": "kk-s104",
+      "kind": "sentence",
+      "native": [
+        "Музыканы уақытша тоқтата тұр."
+      ],
+      "roman": [
+        "Muzikani uaqitsha toqtata tur."
+      ]
+    },
+    {
+      "id": "kk-s105",
+      "kind": "sentence",
+      "native": [
+        "Ноутбук тышқанды танымай тұр."
+      ],
+      "roman": [
+        "Noutbuk tishqandi tanimay tur."
+      ]
+    },
+    {
+      "id": "kk-s106",
+      "kind": "sentence",
+      "native": [
+        "Нұрлан төменде күтіп тұр."
+      ],
+      "roman": [
+        "Nurlan tomende kutip tur."
+      ]
+    },
+    {
+      "id": "kk-s107",
+      "kind": "sentence",
+      "native": [
+        "Палауға сәбізді ірілеу турасаң, дәмі жақсы шығады."
+      ],
+      "roman": [
+        "Palauga sabizdi irileu turasang, dami zhaqsi shigadi."
+      ]
+    },
+    {
+      "id": "kk-s108",
+      "kind": "sentence",
+      "native": [
+        "Шәйнектің қақпағы қайда екен?"
+      ],
+      "roman": [
+        "Shaynekting qaqpagi qayda eken?"
+      ]
+    },
+    {
+      "id": "kk-s109",
+      "kind": "sentence",
+      "native": [
+        "Меруерт, кір жуғышты жылдам режимге қойсам бола ма?"
+      ],
+      "roman": [
+        "Meruert, kir zhugishti zhildam rezhimge qoysam bola ma?"
+      ]
+    },
+    {
+      "id": "kk-s110",
+      "kind": "sentence",
+      "native": [
+        "Шымкенттегі филиал жаңа қызметкерді келесі аптада қабылдайды."
+      ],
+      "roman": [
+        "Shimkenttegi filial zhanga qizmetkerdi kelesi aptada qabildaydi."
+      ]
+    },
+    {
+      "id": "kk-s111",
+      "kind": "sentence",
+      "native": [
+        "Көкшетауға дейін 286 шақырым, жолға 4 сағат кетеді."
+      ],
+      "roman": [
+        "Kokshetauga deyin 286 shaqirim, zholga 4 sagat ketedi."
+      ]
+    },
+    {
+      "id": "kk-s112",
+      "kind": "sentence",
+      "native": [
+        "Жексенбіде 15:00-де Ботагөзбен қыштан құмыра жасау сабағына барамын. Күнтізбеге белгілеші."
+      ],
+      "roman": [
+        "Zheksenbide 15:00-de Botagozben qishtan qumira zhasau sabagina baramin. Kuntizbege belgileshi."
+      ]
+    },
+    {
+      "id": "kk-s113",
+      "kind": "sentence",
+      "native": [
+        "Соңғы түсірген видеомның басындағы артық жерін қиып таста да, қалғанын бөлек сақта."
+      ],
+      "roman": [
+        "Songgi tusirgen videomning basindagi artiq zherin qiip tasta da, qalganin bolek saqta."
+      ]
+    },
+    {
+      "id": "kk-s114",
+      "kind": "sentence",
+      "native": [
+        "Роутерді токтан ажыратып көрші."
+      ],
+      "roman": [
+        "Routerdi toktan azhiratip korshi."
+      ]
+    },
+    {
+      "id": "kk-s115",
+      "kind": "sentence",
+      "native": [
+        "Кіреберістегі домофон істемейді, келгенде есікті ақырын қаға сал."
+      ],
+      "roman": [
+        "Kireberistegi domofon istemeydi, kelgende esikti aqirin qaga sal."
+      ]
+    },
+    {
+      "id": "kk-s116",
+      "kind": "sentence",
+      "native": [
+        "Роза апайдың мерейтойына қандай сыйлық апарамыз?"
+      ],
+      "roman": [
+        "Roza apayding mereytoyina qanday siyliq aparamiz?"
+      ]
+    },
+    {
+      "id": "kk-s117",
+      "kind": "sentence",
+      "native": [
+        "Кәмшат, бүгін дүкенде кешке дейін әріптесімнің орнына қаламын."
+      ],
+      "roman": [
+        "Kamshat, bugin dukende keshke deyin ariptesimning ornina qalamin."
+      ]
+    },
+    {
+      "id": "kk-s118",
+      "kind": "sentence",
+      "native": [
+        "Телефонымның қуаты бітіп барады, мекенжайды қазір жібер."
+      ],
+      "roman": [
+        "Telefonimning quati bitip baradi, mekenzhaydi qazir zhiber."
+      ]
+    },
+    {
+      "id": "kk-s119",
+      "kind": "sentence",
+      "native": [
+        "Көмегіңізге рақмет, хабарласып тұрайық."
+      ],
+      "roman": [
+        "Komegingizge raqmet, khabarlasip turayiq."
+      ]
+    },
+    {
+      "id": "kk-s120",
+      "kind": "sentence",
+      "native": [
+        "Тапсырыс нөмірі 583, оны 18:30-ға дейін алып кетемін."
+      ],
+      "roman": [
+        "Tapsiris nomiri 583, oni 18:30-ga deyin alip ketemin."
+      ]
+    },
+    {
+      "id": "kk-s121",
+      "kind": "sentence",
+      "native": [
+        "Сызу сабағына Назымнан циркуль сұрап алуым керек."
+      ],
+      "roman": [
+        "Sizu sabagina Nazimnan tsirkul surap aluim kerek."
+      ]
+    },
+    {
+      "id": "kk-s122",
+      "kind": "sentence",
+      "native": [
+        "Осы аптада неше қадам жүргенімді көрсетші."
+      ],
+      "roman": [
+        "Osi aptada neshe qadam zhurgenimdi korsetshi."
+      ]
+    },
+    {
+      "id": "kk-s123",
+      "kind": "sentence",
+      "native": [
+        "Планшетке қаламмен жазып үйрендім, енді сабаққа қалың дәптерлерді көтеріп барудың қажеті жоқ."
+      ],
+      "roman": [
+        "Planshetke qalammen zhazip uyrendim, endi sabaqqa qaling dapterlerdi koterip baruding qazheti zhoq."
+      ]
+    },
+    {
+      "id": "kk-s124",
+      "kind": "sentence",
+      "native": [
+        "Соңғы маршруткаға үлгеру үшін жұмыстан ертерек сұрандым."
+      ],
+      "roman": [
+        "Songgi marshrutkaga ulgeru ushin zhumistan erterek surandim."
+      ]
+    },
+    {
+      "id": "kk-s125",
+      "kind": "sentence",
+      "native": [
+        "Көк базарда құлпынайдың келісі 1600 теңге екен."
+      ],
+      "roman": [
+        "Kok bazarda qulpinayding kelisi 1600 tengge eken."
+      ]
+    },
+    {
+      "id": "kk-s126",
+      "kind": "sentence",
+      "native": [
+        "Сенбілікке тырма, күрек, қалың қолғап әкелдім."
+      ],
+      "roman": [
+        "Senbilikke tirma, kurek, qaling qolgap akeldim."
+      ]
+    },
+    {
+      "id": "kk-s127",
+      "kind": "sentence",
+      "native": [
+        "Бүгін ыдысты өзім жуамын, сен демала бер."
+      ],
+      "roman": [
+        "Bugin idisti ozim zhuamin, sen demala ber."
+      ]
+    },
+    {
+      "id": "kk-s128",
+      "kind": "sentence",
+      "native": [
+        "Данияр, кестедегі бос ұяшықтарды толтырып жіберші."
+      ],
+      "roman": [
+        "Daniyar, kestedegi bos uyashiqtardi toltirip zhibershi."
+      ]
+    },
+    {
+      "id": "kk-s129",
+      "kind": "sentence",
+      "native": [
+        "Пойыздың 9-вагонындағы 36-орынға билет алдым, жөнелетін уақыты 21:55."
+      ],
+      "roman": [
+        "Poyizding 9-vagonindagi 36-oringa bilet aldim, zhoneletin uaqiti 21:55."
+      ]
+    },
+    {
+      "id": "kk-s130",
+      "kind": "sentence",
+      "native": [
+        "Бүгін жастыққаптарды ауыстыруым керек."
+      ],
+      "roman": [
+        "Bugin zhastiqqaptardi auistiruim kerek."
+      ]
+    },
+    {
+      "id": "kk-s131",
+      "kind": "sentence",
+      "native": [
+        "Қуырдақ дайындаудың оңай рецептін тауып берші, үйде картоп пен сиыр еті ғана бар."
+      ],
+      "roman": [
+        "Quirdaq dayindauding ongay retseptin tauip bershi, uyde kartop pen siir eti gana bar."
+      ]
+    },
+    {
+      "id": "kk-s132",
+      "kind": "sentence",
+      "native": [
+        "Микрофоның өшіп тұр ғой."
+      ],
+      "roman": [
+        "Mikrofoning oship tur goy."
+      ]
+    },
+    {
+      "id": "kk-s133",
+      "kind": "sentence",
+      "native": [
+        "Рақым аға Өскеменге көлікпен емес, ұшақпен барады."
+      ],
+      "roman": [
+        "Raqim aga Oskemenge kolikpen emes, ushaqpen baradi."
+      ]
+    },
+    {
+      "id": "kk-s134",
+      "kind": "sentence",
+      "native": [
+        "Сәлемдемені поштадан өзің аласың ба, әлде мен барайын ба?"
+      ],
+      "roman": [
+        "Salemdemeni poshtadan ozing alasing ba, alde men barayin ba?"
+      ]
+    },
+    {
+      "id": "kk-s135",
+      "kind": "sentence",
+      "native": [
+        "Қаптамасын ашпаңызшы, сыйлыққа аламын, лентамен байлап бересіз бе?"
+      ],
+      "roman": [
+        "Qaptamasin ashpangizshi, siyliqqa alamin, lentamen baylap beresiz be?"
+      ]
+    },
+    {
+      "id": "kk-s136",
+      "kind": "sentence",
+      "native": [
+        "Әкемнің көзілдірігін асүйдегі үстелден көрдім."
+      ],
+      "roman": [
+        "Akemning kozildirigin asuydegi ustelden kordim."
+      ]
+    },
+    {
+      "id": "kk-s137",
+      "kind": "sentence",
+      "native": [
+        "Сервер қайта жұмыс істеп тұр."
+      ],
+      "roman": [
+        "Server qayta zhumis istep tur."
+      ]
+    },
+    {
+      "id": "kk-s138",
+      "kind": "sentence",
+      "native": [
+        "Бөлмеміз 6-қабатта, нөмірі 614."
+      ],
+      "roman": [
+        "Bolmemiz 6-qabatta, nomiri 614."
+      ]
+    },
+    {
+      "id": "kk-s139",
+      "kind": "sentence",
+      "native": [
+        "Қостанайға баратын автобус билетін алдын ала қарап қояйын."
+      ],
+      "roman": [
+        "Qostanayga baratin avtobus biletin aldin ala qarap qoyayin."
+      ]
+    },
+    {
+      "id": "kk-s140",
+      "kind": "sentence",
+      "native": [
+        "7 минутқа таймер қойшы."
+      ],
+      "roman": [
+        "7 minutqa taymer qoyshi."
+      ]
+    },
+    {
+      "id": "kk-s141",
+      "kind": "sentence",
+      "native": [
+        "Принтердің қағазы таусылыпты."
+      ],
+      "roman": [
+        "Printerding qagazi tausilipti."
+      ]
+    },
+    {
+      "id": "kk-s142",
+      "kind": "sentence",
+      "native": [
+        "Өріктің бағасын 900 теңге деп жазыппын. Сөйтсем, 950 теңге екен."
+      ],
+      "roman": [
+        "Orikting bagasin 900 tengge dep zhazippin. Soytsem, 950 tengge eken."
+      ]
+    },
+    {
+      "id": "kk-s143",
+      "kind": "sentence",
+      "native": [
+        "Кілтіңді тағы ұмыттың ба?"
+      ],
+      "roman": [
+        "Kiltingdi tagi umitting ba?"
+      ]
+    },
+    {
+      "id": "kk-s144",
+      "kind": "sentence",
+      "native": [
+        "Дүкенде жарық өшіп қалды, клиенттерге жағдайды түсіндірдік. Касса қосылғанша тауарларды реттеп қойдық."
+      ],
+      "roman": [
+        "Dukende zhariq oship qaldi, klientterge zhagdaydi tusindirdik. Kassa qosilgansha tauarlardi rettep qoydiq."
+      ]
+    },
+    {
+      "id": "kk-s145",
+      "kind": "sentence",
+      "native": [
+        "Жаттығу 07:15-те басталады."
+      ],
+      "roman": [
+        "Zhattigu 07:15-te bastaladi."
+      ]
+    },
+    {
+      "id": "kk-s146",
+      "kind": "sentence",
+      "native": [
+        "Бөлме гүлінің жапырақтары сарғайып барады. Суды көп құйып жүрмін бе, әлде жарық жетпей ме?"
+      ],
+      "roman": [
+        "Bolme gulining zhapiraqtari sargayip baradi. Sudi kop quyip zhurmin be, alde zhariq zhetpey me?"
+      ]
+    },
+    {
+      "id": "kk-s147",
+      "kind": "sentence",
+      "native": [
+        "Жанболат, Telegram аккаунтыңа компьютерден кіргенде растау коды саған келді ме?"
+      ],
+      "roman": [
+        "Zhanbolat, Telegram akkauntinga kompyuterden kirgende rastau kodi sagan keldi me?"
+      ]
+    },
+    {
+      "id": "kk-s148",
+      "kind": "sentence",
+      "native": [
+        "Қызылын емес, жасылын беріңізші."
+      ],
+      "roman": [
+        "Qizilin emes, zhasilin beringizshi."
+      ]
+    },
+    {
+      "id": "kk-s149",
+      "kind": "sentence",
+      "native": [
+        "Түсімде екеуміз ұшып жүр екенбіз."
+      ],
+      "roman": [
+        "Tusimde ekeumiz uship zhur ekenbiz."
+      ]
+    },
+    {
+      "id": "kk-s150",
+      "kind": "sentence",
+      "native": [
+        "Сәлеметсіз бе! Хатыңызды алдым."
+      ],
+      "roman": [
+        "Salemetsiz be! Khatingizdi aldim."
+      ]
+    },
+    {
+      "id": "kk-s151",
+      "kind": "sentence",
+      "native": [
+        "Күртемнің жеңі қысқа екен."
+      ],
+      "roman": [
+        "Kurtemning zhengi qisqa eken."
+      ]
+    },
+    {
+      "id": "kk-s152",
+      "kind": "sentence",
+      "native": [
+        "Кешкі асқа үлгермеймін, жұмыстан сәл кешірек шығамын."
+      ],
+      "roman": [
+        "Keshki asqa ulgermeymin, zhumistan sal keshirek shigamin."
+      ]
+    },
+    {
+      "id": "kk-s153",
+      "kind": "sentence",
+      "native": [
+        "Мәдина, тоқып жатқан шарфыңның түсін көрсетші."
+      ],
+      "roman": [
+        "Madina, toqip zhatqan sharfingning tusin korsetshi."
+      ]
+    },
+    {
+      "id": "kk-s154",
+      "kind": "sentence",
+      "native": [
+        "Дауыстық хабарламаң естілмей қалыпты."
+      ],
+      "roman": [
+        "Dauistiq khabarlamang estilmey qalipti."
+      ]
+    },
+    {
+      "id": "kk-s155",
+      "kind": "sentence",
+      "native": [
+        "Қорапты ашып қарадым, тапсырыс берген шамымыз келіпті, бірақ бірге келуі керек батарейкалары жоқ екен."
+      ],
+      "roman": [
+        "Qorapti aship qaradim, tapsiris bergen shamimiz kelipti, biraq birge kelui kerek batareykalari zhoq eken."
+      ]
+    }
+  ]
+}

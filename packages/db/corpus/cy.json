@@ -1,0 +1,1716 @@
+{
+  "lang": "cy",
+  "starter": [
+    "cy-s016",
+    "cy-s012",
+    "cy-s155",
+    "cy-s064",
+    "cy-s003",
+    "cy-s161",
+    "cy-s151",
+    "cy-s070",
+    "cy-s121",
+    "cy-s022",
+    "cy-s127",
+    "cy-s066",
+    "cy-s080",
+    "cy-p01",
+    "cy-s143",
+    "cy-s026",
+    "cy-s065",
+    "cy-s171",
+    "cy-s039",
+    "cy-s038",
+    "cy-s029",
+    "cy-s009",
+    "cy-s086",
+    "cy-s045",
+    "cy-s061",
+    "cy-s097",
+    "cy-p03",
+    "cy-s166",
+    "cy-s034",
+    "cy-s140",
+    "cy-s019",
+    "cy-s004",
+    "cy-s148",
+    "cy-s043",
+    "cy-s119",
+    "cy-s030",
+    "cy-s071",
+    "cy-s150",
+    "cy-s037",
+    "cy-p02",
+    "cy-s123",
+    "cy-s087",
+    "cy-s008",
+    "cy-s031",
+    "cy-s092",
+    "cy-s044",
+    "cy-s125",
+    "cy-s189",
+    "cy-s079",
+    "cy-s156",
+    "cy-s041",
+    "cy-s059",
+    "cy-s081"
+  ],
+  "items": [
+    {
+      "id": "cy-p01",
+      "kind": "para",
+      "title": "Changing Weekend Plans",
+      "native": [
+        "Y cynllun oedd mynd i Ddinas Dinlle fore Sadwrn gyda thi.",
+        "Ond mae'r rhagolygon nawr yn sôn am law tan amser cinio.",
+        "Mae Ceri eisiau aros yng Nghaernarfon a chael brecwast yn y dref.",
+        "Wedyn daeth neges gan Mam am ginio teulu dydd Sul.",
+        "Dw i wedi dweud wrthi y bydda i'n dod â phwdin.",
+        "Felly fyddwn ni ddim yn mynd am dro ddydd Sul chwaith.",
+        "Beth am gwrdd wrth y castell am 10 o'r gloch fore Sadwrn?",
+        "Gallwn ni gael coffi yn gyntaf a gweld sut mae'r tywydd.",
+        "Rho wybod os yw hynny'n siwtio ti cyn i rywbeth arall newid."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-p02",
+      "kind": "para",
+      "title": "Welcoming Our New Teammate",
+      "native": [
+        "Bydd Nia Parry yn ymuno â'n tîm yng Nghaerdydd ddydd Llun.",
+        "Mae hi'n mynd i helpu gyda'r wefan ac ateb cwestiynau cwsmeriaid.",
+        "Dw i wedi trefnu desg iddi wrth y ffenest yn y swyddfa.",
+        "Dewch i'r gegin am 10 o'r gloch i gael paned gyda Nia.",
+        "Bydd Gareth yn dangos iddi sut i agor y ffolder ar Teams.",
+        "Mae'r amserlen ar gyfer ei hwythnos gyntaf yn y ffeil sydd ynghlwm.",
+        "Anfonwch eich awgrymiadau am lefydd cinio ger Heol y Frenhines ata i.",
+        "Byddai'n braf mynd am frechdan gyda'n gilydd ar ei diwrnod cyntaf.",
+        "Diolch am helpu Nia i deimlo'n gartrefol o'r dechrau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-p03",
+      "kind": "para",
+      "title": "Rain at the Market",
+      "native": [
+        "Es i i farchnad Machynlleth fore dydd Mercher gyda fy chwaer.",
+        "Roedd yr haul yn gynnes pan gyrhaeddon ni'r stondin lysiau.",
+        "Wnes i brynu bag o datws a moron am £3.",
+        "Roedd fy chwaer wrthi'n dewis mêl pan ddechreuodd hi fwrw glaw.",
+        "O fewn munud, roedd hi'n bwrw'n drwm.",
+        "Wnes i roi'r bag papur o dan fy nghôt i'w gadw'n sych.",
+        "Rhedon ni i gaffi bach ger Tŵr y Cloc.",
+        "Cawson ni de poeth a darn mawr o gacen sinsir yr un.",
+        "Roedd ein hesgidiau'n dal yn wlyb ar y bws adref i Aberystwyth."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-p04",
+      "kind": "para",
+      "title": "Setting Up Mam's Phone",
+      "native": [
+        "Mam, gad i ni gael dy ffôn newydd yn barod.",
+        "Cysyllta'r ffôn â'r gwefrydd a dal y botwm ar yr ochr i lawr nes i'r sgrin oleuo.",
+        "Dewisa Gymraeg ar y sgrin gyntaf, ac wedyn rhwydwaith Wi-Fi y tŷ.",
+        "Teipia'r cyfrinair sydd ar gefn y router i gysylltu â'r rhyngrwyd.",
+        "Rho dy gyfeiriad e-bost a chyfrinair dy gyfrif Google yn y blychau.",
+        "Dewisa drosglwyddo'r lluniau a'r rhifau o dy hen ffôn i'r un newydd.",
+        "Ar ôl hynny, agor y siop apiau a llwytha WhatsApp i lawr.",
+        "Agor osodiadau'r sgrin a gwna'r ysgrifen ychydig yn fwy.",
+        "Yn olaf, anfona neges ata i i weld bod popeth yn gweithio."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-p05",
+      "kind": "para",
+      "title": "Talking About Stad",
+      "native": [
+        "Roedd pawb yn y caffi yng Nghaernarfon yn trafod Stad fore ddoe.",
+        "Mae'r gyfres yn dilyn bywydau teuluoedd ar stad yng ngogledd Cymru.",
+        "Dw i wedi gwylio sawl pennod erbyn hyn, a dw i'n deall y cyffro.",
+        "Mae'r cymeriadau wrth fwrdd y gegin yn swnio fel pobl dw i'n eu nabod.",
+        "Y pethau bach sy'n gwneud i mi chwerthin, yn hytrach na jôcs amlwg.",
+        "Mae'r gerddoriaeth weithiau'n rhy uchel, ac mae hynny'n tynnu sylw oddi ar y sgwrs.",
+        "Roedd rhai pethau yn y stori'n hawdd eu dyfalu, ond wnes i fwynhau'r gyfres beth bynnag.",
+        "Dw i eisiau gweld mwy o'r cymeriadau hŷn, sydd â digon i'w ddweud.",
+        "Bydda i'n gwylio'r bennod nesaf, er bod y dechrau wedi bod braidd yn araf."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-p06",
+      "kind": "para",
+      "title": "Planning the Family Dinner",
+      "native": [
+        "Dw i'n trefnu cinio i'r teulu ym Mhwllheli ar 18 Gorffennaf.",
+        "Bydd 18 o bobl yn dod, gan gynnwys 5 o blant a Modryb Rhiannon.",
+        "Mae'r neuadd yn costio £60, felly mae £140 ar ôl ar gyfer y bwyd.",
+        "Byddwn ni'n bwyta am 1 o'r gloch y prynhawn, ar ôl i bawb gyrraedd.",
+        "Mae Eleri'n byw 8 milltir i ffwrdd, a bydd hi'n dod yn gynnar i helpu.",
+        "Bydda i'n prynu 4 cilo o datws a 2 gilo o foron.",
+        "Bydd Harri'n dod â phastai lysiau fawr i'r llysieuwyr.",
+        "Mae angen 20 plât arna i, rhag ofn i rywun arall ddod.",
+        "Dw i eisiau gosod y byrddau am 11 o'r gloch y bore."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-p07",
+      "kind": "para",
+      "title": "Reporting a Leaking Tap",
+      "native": [
+        "Bore da, Tesni ydw i, o'r fflat yn Heol Goring, Llanelli.",
+        "Mae tap y gegin wedi bod yn diferu ers nos Lun.",
+        "Wnes i geisio cau'r tap yn dynnach, ond mae'r dŵr yn dal i ddiferu.",
+        "Does dim dŵr ar y llawr, felly does dim angen galwad frys.",
+        "Allwch chi drefnu i rywun ddod i edrych ar y tap yr wythnos yma?",
+        "Bydd rhywun yn y fflat drwy'r bore ddydd Iau a dydd Gwener.",
+        "Dw i'n gweithio gartref, felly galla i agor y drws i'r plymwr.",
+        "Rhowch wybod pa ddiwrnod sy'n gyfleus, a bydda i'n cadw'r bore'n rhydd.",
+        "Diolch am eich help, a dw i'n edrych ymlaen at glywed gennych chi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-p08",
+      "kind": "para",
+      "title": "Inside Swansea Market",
+      "native": [
+        "Mae Marchnad Abertawe yng nghanol y ddinas, ychydig funudau ar droed o'r orsaf fysiau.",
+        "Dyma'r farchnad dan do fwyaf yng Nghymru, ac mae digon o ddewis yno.",
+        "Mae'r stondinau'n gwerthu pysgod ffres, llysiau tymhorol, bara a phob math o gacennau.",
+        "Mae bara lawr a chocos ar gael yno'n rheolaidd.",
+        "Mae modd stopio am baned wrth fynd o gwmpas y farchnad.",
+        "Mae rhai teuluoedd wedi bod yn rhedeg stondinau yma ers sawl cenhedlaeth.",
+        "Mae pobl yn dod yma i gael sgwrs hefyd, nid dim ond i siopa.",
+        "Mae'r bobl ar y stondinau'n gallu rhoi cyngor ar sut i baratoi'r bwyd.",
+        "Mae stondinau eraill yn gwerthu blodau, cardiau a phethau i'r cartref."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s001",
+      "kind": "sentence",
+      "native": [
+        "Hwnna oedd y pos anoddaf, felly cei di ddewis nesaf."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s002",
+      "kind": "sentence",
+      "native": [
+        "Ydy'r stoc yn y gangen yn Nhalacharn ar gael i ni?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s003",
+      "kind": "sentence",
+      "native": [
+        "Dim ond £18.75 sydd ar ôl o'r £50 gwreiddiol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s004",
+      "kind": "sentence",
+      "native": [
+        "Rhaid golchi'r siwmper â llaw."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s005",
+      "kind": "sentence",
+      "native": [
+        "Faint mae tocyn dwyffordd i Landudno yn ei gostio os bydda i'n teithio ar ôl awr frys y bore?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s006",
+      "kind": "sentence",
+      "native": [
+        "Heddiw, dw i'n gweithio o lyfrgell Aberystwyth achos bod y rhyngrwyd adref wedi torri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s007",
+      "kind": "sentence",
+      "native": [
+        "Aisha Williams sy'n dangos y fflat i ni yn Abertawe, felly gad i ni beidio â bod yn hwyr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s008",
+      "kind": "sentence",
+      "native": [
+        "Anghofiodd Harri ei focs bwyd yn ffreutur yr ysgol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s009",
+      "kind": "sentence",
+      "native": [
+        "Tua Dinbych-y-pysgod, nid Dinbych, mae'r bws yma'n mynd, on'd yw e?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s010",
+      "kind": "sentence",
+      "native": [
+        "Braidd yn araf oedd y gwasanaeth yn y caffi yn Nolgellau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s011",
+      "kind": "sentence",
+      "native": [
+        "Neis iawn oedd gweld dy luniau o'r briodas ar Instagram."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s012",
+      "kind": "sentence",
+      "native": [
+        "Ymunwch â'r sesiwn ar Zoom drwy'r link yn y gwahoddiad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s013",
+      "kind": "sentence",
+      "native": [
+        "Ydych chi'n gwerthu'r trowsus £32 mewn maint 14 neu 16?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s014",
+      "kind": "sentence",
+      "native": [
+        "Fy mlaenoriaeth heddiw yw talu'r bil trydan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s015",
+      "kind": "sentence",
+      "native": [
+        "Dangos y lluniau o'r daith wersylla fis Medi diwethaf."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s016",
+      "kind": "sentence",
+      "native": [
+        "Ers ddoe, mae Excel yn cau bob tro dw i'n copïo cell."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s017",
+      "kind": "sentence",
+      "native": [
+        "Ddoe, ges i sedd wrth y ffenest am unwaith."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s018",
+      "kind": "sentence",
+      "native": [
+        "Mabli, chwytha'r canhwyllau allan ar dy gacen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s019",
+      "kind": "sentence",
+      "native": [
+        "Wyt ti'n golygu'r rhes uchaf?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s020",
+      "kind": "sentence",
+      "native": [
+        "Wrth feddwl yn ôl, dw i'n difaru bod mor swta gyda ti pan ofynnaist ti am help."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s021",
+      "kind": "sentence",
+      "native": [
+        "Wel, mae'r ci wedi dwyn fy hosan eto, felly mae'n rhaid ei fod eisiau mynd am dro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s022",
+      "kind": "sentence",
+      "native": [
+        "Cafodd Rhys Evans gyfle i brofi'r offer newydd ddoe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s023",
+      "kind": "sentence",
+      "native": [
+        "Rydyn ni'n aros yn 31 Heol y Deri tan ddydd Gwener."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s024",
+      "kind": "sentence",
+      "native": [
+        "Nesaf ar y rhestr mae trefnu gwers delyn gyda Gwenno."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s025",
+      "kind": "sentence",
+      "native": [
+        "Ga i glywed sut i ynganu'r enw ar y map?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s026",
+      "kind": "sentence",
+      "native": [
+        "Na, dim ond y client fydd yn gweld y sylwadau yma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s027",
+      "kind": "sentence",
+      "native": [
+        "Fedri di gwrdd â Thomos o flaen Canolfan Dewi Sant?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s028",
+      "kind": "sentence",
+      "native": [
+        "Rhag ofn iddi fwrw, dw i wedi rhoi'r welingtons wrth y babell ar gyfer y Sioe Frenhinol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s029",
+      "kind": "sentence",
+      "native": [
+        "Wnei di basio'r staplwr, a hefyd y pecyn o glipiau?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s030",
+      "kind": "sentence",
+      "native": [
+        "Fyddwn i byth wedi ymdopi heb dy help gyda'r symud."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s031",
+      "kind": "sentence",
+      "native": [
+        "Cadwa ychydig o'r pasta i mi achos bydda i'n hwyr heno."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s032",
+      "kind": "sentence",
+      "native": [
+        "Helo, braf cael clywed gennych chi ar ôl yr haf."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s033",
+      "kind": "sentence",
+      "native": [
+        "Gethin, mae'r sesiwn nofio i blant rhwng 7 ac 11 oed am 6 o'r gloch nos Fercher."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s034",
+      "kind": "sentence",
+      "native": [
+        "Ar gyfer y danfoniad nesaf, dw i eisiau newid y cyfeiriad o'r tŷ i'r gweithdy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s035",
+      "kind": "sentence",
+      "native": [
+        "O ble alla i fenthyg llyfr i ymarfer algebra?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s036",
+      "kind": "sentence",
+      "native": [
+        "Llwyddodd Llinos i gysylltu'r sganiwr â'r til heb unrhyw drafferth."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s037",
+      "kind": "sentence",
+      "native": [
+        "Lowri, arhosa wrth y fynedfa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s038",
+      "kind": "sentence",
+      "native": [
+        "Dyma dy ffedog lân di."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s039",
+      "kind": "sentence",
+      "native": [
+        "Chwarter wedi 6, na, hanner wedi 6 mae'r côr yn dechrau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s040",
+      "kind": "sentence",
+      "native": [
+        "Rhyfedd faint gwell dw i'n teimlo ar ôl tacluso'r sied."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s041",
+      "kind": "sentence",
+      "native": [
+        "Ffonia fi pan fyddi di'n rhydd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s042",
+      "kind": "sentence",
+      "native": [
+        "Sori, wnes i anghofio'r atodiad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s043",
+      "kind": "sentence",
+      "native": [
+        "Aeth y batri o 85% i 12% mewn awr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s044",
+      "kind": "sentence",
+      "native": [
+        "Pan fydd y glaw wedi stopio, dw i eisiau clirio'r dail o'r gwter uwchben y drws cefn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s045",
+      "kind": "sentence",
+      "native": [
+        "Pryd mae'r biniau ailgylchu'n cael eu casglu yn Llanrwst?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s046",
+      "kind": "sentence",
+      "native": [
+        "Allwch chi ddatgloi fy nghyfrif cyn y cyfarfod staff?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s047",
+      "kind": "sentence",
+      "native": [
+        "Aeth fy mrawd ar ei feic."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s048",
+      "kind": "sentence",
+      "native": [
+        "Ydyn ni i fod i ddangos pob cam o'r cyfrifiad?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s049",
+      "kind": "sentence",
+      "native": [
+        "Mefus neu fafon sydd orau gen ti?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s050",
+      "kind": "sentence",
+      "native": [
+        "Weithiau, mae awr ar y prom yn Aberaeron yn ddigon i godi fy hwyliau ar ôl wythnos brysur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s051",
+      "kind": "sentence",
+      "native": [
+        "Bydd y parsel yn cyrraedd ddydd Mawrth, felly cadw lygad amdano."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s052",
+      "kind": "sentence",
+      "native": [
+        "Yn anffodus, dw i ddim yn gallu gorffen yr adroddiad cyn dydd Mercher, ond mae'r canlyniadau cyntaf yn barod."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s053",
+      "kind": "sentence",
+      "native": [
+        "£16.20 yw pris 9 copi o'r llun yn y siop argraffu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s054",
+      "kind": "sentence",
+      "native": [
+        "Er mwyn osgoi talu am fis arall, mae angen i mi ganslo'r tanysgrifiad cyn diwedd yr wythnos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s055",
+      "kind": "sentence",
+      "native": [
+        "Pa ffordd sydd gyflymaf i Gastell Caerffili heb fynd ar y draffordd?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s056",
+      "kind": "sentence",
+      "native": [
+        "Pam mae'r llygoden yn rhewi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s057",
+      "kind": "sentence",
+      "native": [
+        "Drwy'r parc mae'r llwybr byrraf o'r orsaf i'r coleg."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s058",
+      "kind": "sentence",
+      "native": [
+        "Dal dy het, mae'n wyntog!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s059",
+      "kind": "sentence",
+      "native": [
+        "Oes sôs coch ar ôl?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s060",
+      "kind": "sentence",
+      "native": [
+        "Chwarae teg, wnes i fwynhau'r ddrama fwy nag oeddwn i'n disgwyl."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s061",
+      "kind": "sentence",
+      "native": [
+        "Un peth cyn i ti fynd: oes modd gadael dy feic yma fel bod lle yn y fan?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s062",
+      "kind": "sentence",
+      "native": [
+        "Rhowch wybod faint fydd cost llogi'r neuadd ym Mhontypridd, er mwyn i ni allu trefnu'r diwrnod agored."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s063",
+      "kind": "sentence",
+      "native": [
+        "Wnes i redeg 6 chilometr mewn 34 munud."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s064",
+      "kind": "sentence",
+      "native": [
+        "Pryna selsig Morgannwg ar gyfer swper nos Sul."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s065",
+      "kind": "sentence",
+      "native": [
+        "Dyweda wrth Aled ar WhatsApp fod y bws yn hwyr ac y bydda i yno cyn bo hir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s066",
+      "kind": "sentence",
+      "native": [
+        "Teams sy'n gweithio orau i ni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s067",
+      "kind": "sentence",
+      "native": [
+        "Daliwch i'r chwith ar ôl y bont."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s068",
+      "kind": "sentence",
+      "native": [
+        "Hoffet ti flasu'r cawl cennin cyn ychwanegu mwy o halen?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s069",
+      "kind": "sentence",
+      "native": [
+        "Gaf i dderbynneb bapur hefyd?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s070",
+      "kind": "sentence",
+      "native": [
+        "Cred yn dy hun, Yusuf. Rwyt ti wedi paratoi'n drylwyr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s071",
+      "kind": "sentence",
+      "native": [
+        "Gad i mi fenthyg dy gês ar gyfer y gwyliau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s072",
+      "kind": "sentence",
+      "native": [
+        "Disgwyl am ymateb gan y cyflenwr ydyn ni ar hyn o bryd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s073",
+      "kind": "sentence",
+      "native": [
+        "Dewison ni ystafell ar yr 2il lawr am 3 noson, gyda brecwast bob bore."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s074",
+      "kind": "sentence",
+      "native": [
+        "Ychwanega sebon at y rhestr siopa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s075",
+      "kind": "sentence",
+      "native": [
+        "Gwna'r sgrin yn dywyllach i arbed y batri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s076",
+      "kind": "sentence",
+      "native": [
+        "Dywedodd Idris fod angen trwydded ar wahân i ddefnyddio'r rhaglen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s077",
+      "kind": "sentence",
+      "native": [
+        "Gallet ti barcio y tu ôl i'r siop flodau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s078",
+      "kind": "sentence",
+      "native": [
+        "Caewch y rhewgell yn iawn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s079",
+      "kind": "sentence",
+      "native": [
+        "Ffrio'r madarch oedd y bwriad, ond mae'n well gen i eu pobi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s080",
+      "kind": "sentence",
+      "native": [
+        "Maddeua i mi am darfu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s081",
+      "kind": "sentence",
+      "native": [
+        "Anfona lun o'r llenni cyn i ti eu prynu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s082",
+      "kind": "sentence",
+      "native": [
+        "Ddydd Llun, bydda i yn Nhreorci, felly dewch â'r catalogau i'r dderbynfa cyn i mi adael."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s083",
+      "kind": "sentence",
+      "native": [
+        "Bore dydd Sadwrn, 21 Tachwedd 2026, mae ffair yn Rhuthun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s084",
+      "kind": "sentence",
+      "native": [
+        "Archeba fag o fwyd cwningen pan ddaw'r cyflog i mewn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s085",
+      "kind": "sentence",
+      "native": [
+        "Lle mae'r garej agosaf sydd ar agor nawr ac yn gwerthu teiars?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s086",
+      "kind": "sentence",
+      "native": [
+        "Ble mae Elin Hughes wedi cadw'r contract ar y cyfrifiadur?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s087",
+      "kind": "sentence",
+      "native": [
+        "Hanner ffordd i Gasnewydd, wnes i sylweddoli fy mod i ar y trên anghywir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s088",
+      "kind": "sentence",
+      "native": [
+        "Crebachodd fy nghrys yn y sychwr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s089",
+      "kind": "sentence",
+      "native": [
+        "Cyw iâr, reis a phys sydd i ginio, nid swper."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s090",
+      "kind": "sentence",
+      "native": [
+        "Bendigedig, rwyt ti wedi llwyddo!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s091",
+      "kind": "sentence",
+      "native": [
+        "Wnes i gyrraedd adref yn saff."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s092",
+      "kind": "sentence",
+      "native": [
+        "Cawson ni ganiatâd i ddechrau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s093",
+      "kind": "sentence",
+      "native": [
+        "Ffonia'r derbynnydd ar 07700 900761 cyn 5 o'r gloch y prynhawn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s094",
+      "kind": "sentence",
+      "native": [
+        "Rho nodyn yn y calendr am ben-blwydd Anwen ddydd Sadwrn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s095",
+      "kind": "sentence",
+      "native": [
+        "Stopia'r gerddoriaeth am funud bach."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s096",
+      "kind": "sentence",
+      "native": [
+        "Alla i ddim argraffu o'r gliniadur ers newid y rhwydwaith."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s097",
+      "kind": "sentence",
+      "native": [
+        "Dacw'r siop esgidiau dros y ffordd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s098",
+      "kind": "sentence",
+      "native": [
+        "Catrin sydd wedi gwneud y gwahoddiadau i'r parti, ac mae hi wedi gadael lle i ni ysgrifennu'r enwau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s099",
+      "kind": "sentence",
+      "native": [
+        "Tynna'r platiau, y powlenni a'r soserau o'r cwpwrdd, ond gad y cwpanau yno am y tro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s100",
+      "kind": "sentence",
+      "native": [
+        "Trueni bod y soffa mor anghyfforddus ar ôl yr holl ddisgwyl."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s101",
+      "kind": "sentence",
+      "native": [
+        "Nos Wener, dewch draw am noson gemau yn Llangefni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s102",
+      "kind": "sentence",
+      "native": [
+        "Gobeithio y cei di benwythnos braf ar ôl wythnos mor brysur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s103",
+      "kind": "sentence",
+      "native": [
+        "Poba'r darten ar 180 gradd am 35 munud."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s104",
+      "kind": "sentence",
+      "native": [
+        "Mae angen holi Bethan am y sylwadau ar fy nhraethawd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s105",
+      "kind": "sentence",
+      "native": [
+        "Symuda fy nghyfarfod gyda'r dylunydd i 2 o'r gloch brynhawn Mercher."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s106",
+      "kind": "sentence",
+      "native": [
+        "Byddai'n well gan Ffion gael y nodiadau drwy e-bost na neges destun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s107",
+      "kind": "sentence",
+      "native": [
+        "Gareth sydd wrth y llyw heddiw."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s108",
+      "kind": "sentence",
+      "native": [
+        "Tybed oes stondin grefftau yn Eisteddfod yr Urdd eleni?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s109",
+      "kind": "sentence",
+      "native": [
+        "£9.40 oedd y cyfanswm, na, £11 gyda'r stampiau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s110",
+      "kind": "sentence",
+      "native": [
+        "Angharad, mae dy wau di'n hyfryd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s111",
+      "kind": "sentence",
+      "native": [
+        "Alli di nôl llaeth ar y ffordd yn ôl?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s112",
+      "kind": "sentence",
+      "native": [
+        "Cytunodd Delyth i gyfrannu £90 at gost hyfforddi'r prentis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s113",
+      "kind": "sentence",
+      "native": [
+        "Dylai 5 litr o baent fod yn ddigon i roi 3 côt ar 11 metr sgwâr o wal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s114",
+      "kind": "sentence",
+      "native": [
+        "Neilltua hanner awr bore yfory i dacluso'r cwpwrdd o dan y grisiau a didoli'r hen esgidiau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s115",
+      "kind": "sentence",
+      "native": [
+        "Beth yw daffodil yn Gymraeg, a sut mae ei sillafu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s116",
+      "kind": "sentence",
+      "native": [
+        "Fel arfer, dw i'n gwisgo clustffonau wrth chwarae ar-lein fel bod pawb arall yn gallu gwylio'r teledu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s117",
+      "kind": "sentence",
+      "native": [
+        "Pwy sy'n dod i'r gig yn y ganolfan gelfyddydau heno?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s118",
+      "kind": "sentence",
+      "native": [
+        "Efallai y byddai'n haws gweini'r bara brith ar blatiau bach, achos bydd y gwesteion yn bwyta ar eu sefyll."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s119",
+      "kind": "sentence",
+      "native": [
+        "Lawr mae'r lifft yn mynd, nid lan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s120",
+      "kind": "sentence",
+      "native": [
+        "Os wyt ti'n pasio'r farchnad yn Aberteifi, alli di godi torth ffres i ni ar gyfer brecwast?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s121",
+      "kind": "sentence",
+      "native": [
+        "Rhanna'r spreadsheet gyda Nia cyn amser cinio yfory."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s122",
+      "kind": "sentence",
+      "native": [
+        "Cadarnhewch yr archeb am 8 o'r gloch nos 18 Awst."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s123",
+      "kind": "sentence",
+      "native": [
+        "Cyn gadael am y pwll, bydd angen rhoi'r wisg nofio a'r gogls yn y sach gefn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s124",
+      "kind": "sentence",
+      "native": [
+        "Dw i eisiau gweld fideo sy'n dangos sut i ddal raced wrth weini mewn tenis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s125",
+      "kind": "sentence",
+      "native": [
+        "Edrych, mae'r botwm chwilio wedi symud i waelod y dudalen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s126",
+      "kind": "sentence",
+      "native": [
+        "Roedd y twnnel ar gau dros y penwythnos achos gwaith trwsio, felly aethon ni ffordd arall."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s127",
+      "kind": "sentence",
+      "native": [
+        "Llenwa'r jwg â dŵr oer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s128",
+      "kind": "sentence",
+      "native": [
+        "Pensiliau, rhwbwyr a phren mesur sydd yn y tun, ond ble mae'r siswrn bach wedi mynd?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s129",
+      "kind": "sentence",
+      "native": [
+        "Roedd y tocynnau'n £8 yr un, tipyn o fargen!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s130",
+      "kind": "sentence",
+      "native": [
+        "Does dim brys gyda'r cyfieithiad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s131",
+      "kind": "sentence",
+      "native": [
+        "Fyddet ti'n gallu talu £27 i Sioned am y gwersi piano?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s132",
+      "kind": "sentence",
+      "native": [
+        "Fyddi di'n fy atgoffa i gasglu'r esgidiau o'r crydd yfory?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s133",
+      "kind": "sentence",
+      "native": [
+        "Darllena'r neges destun ddiweddaraf."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s134",
+      "kind": "sentence",
+      "native": [
+        "Diffodda'r meicroffon cyn tisian."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s135",
+      "kind": "sentence",
+      "native": [
+        "Cymer yr ail allanfa ac fe weli di'r garej."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s136",
+      "kind": "sentence",
+      "native": [
+        "Am faint fydd y siop trin ewinedd ar agor heno?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s137",
+      "kind": "sentence",
+      "native": [
+        "Gyda Manon Patel mae'r wers grochenwaith, nid gyda'r tiwtor arferol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s138",
+      "kind": "sentence",
+      "native": [
+        "Doedd y siaced ddim yn ffitio, ond fe ges i un fwy heb orfod chwilio am y dderbynneb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s139",
+      "kind": "sentence",
+      "native": [
+        "Bydda i'n cymryd drosodd nawr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s140",
+      "kind": "sentence",
+      "native": [
+        "Dw i wedi newid fy rhif i 07700 900482, felly dilëa'r hen un."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s141",
+      "kind": "sentence",
+      "native": [
+        "Gwna'n siŵr bod y camera yn y bag cyn mynd i'r traeth."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s142",
+      "kind": "sentence",
+      "native": [
+        "Sut fydd y tywydd ar Ynys Môn dros y penwythnos?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s143",
+      "kind": "sentence",
+      "native": [
+        "Daeth yr update drwodd neithiwr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s144",
+      "kind": "sentence",
+      "native": [
+        "Mae fy modryb wedi symud i Borthmadog, felly bydda i'n mynd i'w gweld hi dros wyliau'r ysgol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s145",
+      "kind": "sentence",
+      "native": [
+        "Torrodd handlen y drws ffrynt wrth i mi adael."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s146",
+      "kind": "sentence",
+      "native": [
+        "Ar gyfer y golch yma, dw i'n dewis 30 gradd, sbin araf a dim sychu. Ydy hynny'n iawn?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s147",
+      "kind": "sentence",
+      "native": [
+        "Cai, sut aeth yr arholiad?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s148",
+      "kind": "sentence",
+      "native": [
+        "Iawn, cei di gyhoeddi'r hysbyseb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s149",
+      "kind": "sentence",
+      "native": [
+        "Darllenon ni 40 tudalen mewn 2 awr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s150",
+      "kind": "sentence",
+      "native": [
+        "Atgoffa fi i ddyfrio'r tomatos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s151",
+      "kind": "sentence",
+      "native": [
+        "Cyfrifa 18 gwaith 7."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s152",
+      "kind": "sentence",
+      "native": [
+        "Sain y fideo sy'n diflannu wrth i mi ei lwytho i fyny, ond mae'r llun yn iawn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s153",
+      "kind": "sentence",
+      "native": [
+        "Bydd fy nghydweithiwr yn dod gyda ni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s154",
+      "kind": "sentence",
+      "native": [
+        "Gofynna i'r athrawes pryd mae angen dy wisg chwaraeon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s155",
+      "kind": "sentence",
+      "native": [
+        "Siân, ai dy sbectol di yw hon ar y silff?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s156",
+      "kind": "sentence",
+      "native": [
+        "Diolch am godi'r plant heddiw."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s157",
+      "kind": "sentence",
+      "native": [
+        "Pryd fydd y manylion cyflog ar gael i'r tîm?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s158",
+      "kind": "sentence",
+      "native": [
+        "Erbyn dydd Iau, 14 Mai, bydd angen 24 copi o'r daflen ar gyfer y gweithdy yn y neuadd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s159",
+      "kind": "sentence",
+      "native": [
+        "Newidia'r tywelion yn yr ystafell ymolchi ar ôl golchi'r dillad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s160",
+      "kind": "sentence",
+      "native": [
+        "Gwell i ni brofi'r ap ar dabled cyn rhoi'r fersiwn ddiweddaraf ar gael i bawb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s161",
+      "kind": "sentence",
+      "native": [
+        "Wnewch chi dderbyn £15 am y drych yma?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s162",
+      "kind": "sentence",
+      "native": [
+        "Heno, mynd i'r sinema yn Nhreganna oedd y cynllun, ond byddai'n well gen i wneud jig-so adref."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s163",
+      "kind": "sentence",
+      "native": [
+        "Beca, cei di fenthyg fy ngeiriadur ar gyfer y gwaith cartref."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s164",
+      "kind": "sentence",
+      "native": [
+        "Gallwn ni dderbyn taliadau cerdyn eto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s165",
+      "kind": "sentence",
+      "native": [
+        "Hoffwn gadw sedd 46 ar y trên i Gaerfyrddin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s166",
+      "kind": "sentence",
+      "native": [
+        "Trefna apwyntiad i mi gael torri fy ngwallt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s167",
+      "kind": "sentence",
+      "native": [
+        "Fflur, dw i eisiau'r rhuban gwyrdd, sori, yr un porffor."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s168",
+      "kind": "sentence",
+      "native": [
+        "Paid â bwyta'r gacen i gyd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s169",
+      "kind": "sentence",
+      "native": [
+        "Oes lle yn swyddfa Wrecsam ar gyfer yr hyfforddiant?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s170",
+      "kind": "sentence",
+      "native": [
+        "Mae'r rhent wedi codi 4% eleni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s171",
+      "kind": "sentence",
+      "native": [
+        "Chwilia am oriau agor Amgueddfa Lechi Cymru cyn cynllunio'r ymweliad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s172",
+      "kind": "sentence",
+      "native": [
+        "Gelli di ddod draw i flasu'r deisen lap, ond paid â disgwyl dim byd rhy arbennig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s173",
+      "kind": "sentence",
+      "native": [
+        "Mali, wyt ti wedi dewis dyddiad ar gyfer yr ymweliad?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s174",
+      "kind": "sentence",
+      "native": [
+        "Llwyddon ni i nofio 25 metr heb stopio heddiw, ar ôl 4 wythnos o ymarfer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s175",
+      "kind": "sentence",
+      "native": [
+        "Dylai'r clai fod yn sych ar ôl 2 ddiwrnod arall."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s176",
+      "kind": "sentence",
+      "native": [
+        "Dw i'n mynd i Fangor fory. Oes angen lifft arnat ti?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s177",
+      "kind": "sentence",
+      "native": [
+        "Gan fod y cwsmer eisiau gorffeniad mat, fydd y farnais sgleiniog ddim yn addas ar gyfer y bwrdd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s178",
+      "kind": "sentence",
+      "native": [
+        "Lled y mat yw 80 centimetr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s179",
+      "kind": "sentence",
+      "native": [
+        "Gwna nodyn bod y compost yn costio £3.20 yn y ganolfan arddio."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s180",
+      "kind": "sentence",
+      "native": [
+        "Ydy Siôn wedi dod o hyd i'w allweddi o'r diwedd?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s181",
+      "kind": "sentence",
+      "native": [
+        "Ar ôl siarad ag Eleri, dw i'n hapus i gadw'r gyllideb ar gyfer y prosiect fel mae hi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s182",
+      "kind": "sentence",
+      "native": [
+        "Mesura 250 gram o flawd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s183",
+      "kind": "sentence",
+      "native": [
+        "Dylwn i ddychwelyd y nofel i lyfrgell Llanelli cyn dydd Llun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s184",
+      "kind": "sentence",
+      "native": [
+        "Dysgon ni gamau'r ddawns neithiwr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s185",
+      "kind": "sentence",
+      "native": [
+        "Wnes i dalu £6.80 am 2 frechdan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s186",
+      "kind": "sentence",
+      "native": [
+        "Cofia ddiffodd y teledu pan fydd y babi'n cysgu, achos mae pob sŵn bach yn ei ddeffro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s187",
+      "kind": "sentence",
+      "native": [
+        "Enillon ni o 4 i 1."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s188",
+      "kind": "sentence",
+      "native": [
+        "Mae dy gath ar fy nghadair."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s189",
+      "kind": "sentence",
+      "native": [
+        "Dechreua'r dosbarth yn ystafell 23 am 10 o'r gloch bore yfory."
+      ],
+      "roman": null
+    },
+    {
+      "id": "cy-s190",
+      "kind": "sentence",
+      "native": [
+        "Trodd fy nith yn 19 oed ddoe."
+      ],
+      "roman": null
+    }
+  ]
+}

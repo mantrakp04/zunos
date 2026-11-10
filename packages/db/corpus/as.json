@@ -1,0 +1,1733 @@
+{
+  "lang": "as",
+  "starter": [
+    "as-s013",
+    "as-s143",
+    "as-s081",
+    "as-s100",
+    "as-s092",
+    "as-s110",
+    "as-s010",
+    "as-s098",
+    "as-s073",
+    "as-s105",
+    "as-s130",
+    "as-s050",
+    "as-s076",
+    "as-s032",
+    "as-s132",
+    "as-s044",
+    "as-p08",
+    "as-s138",
+    "as-s103",
+    "as-s080",
+    "as-s083",
+    "as-s007",
+    "as-s053",
+    "as-s024",
+    "as-s030",
+    "as-s078",
+    "as-s113",
+    "as-s095",
+    "as-s097",
+    "as-s061",
+    "as-s038",
+    "as-s135",
+    "as-s117",
+    "as-p01",
+    "as-s033",
+    "as-s016",
+    "as-s039",
+    "as-s014",
+    "as-s112",
+    "as-s058",
+    "as-s094",
+    "as-s085",
+    "as-s025",
+    "as-s046",
+    "as-s140",
+    "as-s037",
+    "as-s126",
+    "as-s057",
+    "as-s012",
+    "as-s026"
+  ],
+  "items": [
+    {
+      "id": "as-p01",
+      "kind": "para",
+      "title": "Juri's Wedding in Jorhat",
+      "native": [
+        "অহা শুকুৰবাৰে যোৰহাটত জুৰি বাইদেউৰ বিয়া, তুমি বৃহস্পতিবাৰেই আহি যাবা।",
+        "মামাহঁতৰ ঘৰতে থাকিবা, তোমাৰ বাবে ওপৰৰ কোঠাটো খালী কৰি থৈছোঁ।",
+        "তোমাক আনিবলৈ পল্লৱে ষ্টেচনলৈ গাড়ী লৈ যাব।",
+        "তোমাৰ ৰে'লখন কেতিয়া পাবহি, মোক আগদিনাই মেছেজ কৰি জনাবা।",
+        "বিয়াৰ আগদিনা আবেলি আমি সকলোৱে মিলি চোতালখন সজাম।",
+        "মায়ে তোমাৰ পছন্দৰ তিলপিঠা বনাবলৈ তিল আনি থৈছে।",
+        "পিন্ধিবলৈ পাতল কাপোৰো আনিবা, ইয়াত দিনত এতিয়াও গৰম লাগে।",
+        "কেমেৰাটো আনিবলৈ নাপাহৰিবা, জুৰি বাইদেৱে তোমাক ফটো তুলিবলৈ কৈছে।",
+        "বহুদিনৰ মূৰত আমি সকলো লগ হ'ম, এইবাৰ কিন্তু সোনকালে উভতি নাযাবা।"
+      ],
+      "roman": [
+        "Oha xukurbare Jorhatot Juri baideur biya, tumi brihospotibarei ahi jaba.",
+        "Mamahotor ghorote thakiba, tumar babe oporor kothato khali kori thoisu.",
+        "Tumak aniboloi Pallave stationoloi gari loi jabo.",
+        "Tumar re'lkhon ketiya pabohi, mok agodinai message kori jonaba.",
+        "Biyar agodina abeli ami xokolowe mili sutalkhon xojam.",
+        "Maye tumar posondor tilpitha bonaboloi til ani thoise.",
+        "Pindhiboloi patol kapuro aniba, iyat dinot etiyao gorom lage.",
+        "Camerato aniboloi napahoriba, Juri baidewe tumak photo tuliboloi koise.",
+        "Bohudinor murot ami xokolo log h'om, eibar kintu xonkale ubhoti najaba."
+      ]
+    },
+    {
+      "id": "as-p02",
+      "kind": "para",
+      "title": "Feedback on Bus Booking",
+      "native": [
+        "গুৱাহাটীৰ যাত্ৰীসকলে এতিয়া এপতে বাছৰ টিকট বুকিং কৰিছে।",
+        "এই সপ্তাহত অহা মেছেজবোৰ পঢ়ি মই কেইটামান কথা ইয়াত লিখিছোঁ।",
+        "বেছিভাগেই কৈছে, এতিয়া নিজৰ পছন্দৰ ছিটটো বাছি লোৱাটো সহজ হৈছে।",
+        "কিন্তু কিছুমানৰ ফোনত টকা দিয়াৰ পাছতো টিকটটো দেখা যোৱা নাই।",
+        "ইয়াৰ বাবে তেওঁলোকে একেটা টিকট আকৌ কাটিবলৈ চেষ্টা কৰিছে।",
+        "দীক্ষিতা, আপুনি আজি প্ৰথমে এই সমস্যাটো চাই দিব পাৰিব নেকি?",
+        "এপৰ মেইন পেজত হেল্পলাইন নম্বৰটোও অলপ ডাঙৰকৈ দেখুৱাব লাগিব।",
+        "যাত্ৰীসকলে পঠিওৱা ছবিকেইখন মই এই ইমেইলৰ লগত পঠিয়াইছোঁ।",
+        "কাইলৈ দুপৰীয়া 2 বজাত মিটিং এখন পাতি বাকী কথাবোৰ আলোচনা কৰিম।"
+      ],
+      "roman": [
+        "Guwahatir jatrixokole etiya appote busor ticket booking korise.",
+        "Ei xoptahot oha messagebor porhi moi keitaman kotha iyat likhisu.",
+        "Besibhagei koise, etiya nijor posondor seatto basi luwato xohoj hoise.",
+        "Kintu kisumanor phoneot toka diyar pasoto ticketto dekha juwa nai.",
+        "Iyar babe teonloke eketa ticket akou katiboloi sesta korise.",
+        "Dikshita, apuni aji prothome ei xomoxyato sai dibo paribo neki?",
+        "Appor main pageot helpline nombortoo olop dangorkoi dekhuwabo lagibo.",
+        "Jatrixokole pothiuwa sobikeikhon moi ei emailor logot pothiyaisu.",
+        "Kailoi duporiya 2 bojat meeting ekhon pati baki kothabor alosona korim."
+      ]
+    },
+    {
+      "id": "as-p03",
+      "kind": "para",
+      "title": "An Evening Without Power",
+      "native": [
+        "সোমবাৰে সন্ধিয়া তেজপুৰত আমাৰ ঘৰত ৰন্ধা-বঢ়াৰ মাজতে লাইট গ'ল।",
+        "মই পাকঘৰত আটা সানি আছিলোঁ, ভণ্টীয়ে মেজত বহি অংক কৰিছিল।",
+        "বাহিৰত বৰষুণ দি আছিল বাবে খিৰিকীকেইখনো জপাই থোৱা আছিল।",
+        "দেউতাই ফোনৰ পোহৰেৰে আলমাৰিৰ ওপৰত থকা টৰ্চটো বিচাৰি উলিয়ালে।",
+        "টৰ্চটো জ্বলোৱাৰ লগে লগে মেকুৰীজনী আহি মেজৰ তলত সোমাল।",
+        "মায়ে বাৰাণ্ডাত মম এডাল জ্বলাই আমাক তালৈ মাতি নিলে।",
+        "আমি তাতে বহি চাহ খালোঁ আৰু গৰম ৰুটি ভগাই খালোঁ।",
+        "এঘণ্টামান পাছত লাইট আহিল। ভণ্টীয়ে তেতিয়াও স্কুলৰ কথা কৈ আছিল।",
+        "পোহৰ হোৱাৰ পাছতো সেইদিনা কাৰো বাৰাণ্ডাৰ পৰা উঠিবলৈ মন নাছিল।"
+      ],
+      "roman": [
+        "Xombare xondhiya Tezpurot amar ghorot rondha-borhar majote light g'ol.",
+        "Moi pakghorot ata xani asilu, bhontiye mejot bohi ongko korisil.",
+        "Bahirot boroxun di asil babe khirikikeikhono jopai thuwa asil.",
+        "Deutai phoneor pohorere almarir oporot thoka torchto bisari uliyale.",
+        "Torchto joluwar loge loge mekurijoni ahi mejor tolot xomal.",
+        "Maye barandat mom edal jolai amak taloi mati nile.",
+        "Ami tate bohi sah khalu aru gorom ruti bhogai khalu.",
+        "Eghontaman pasot light ahil. Bhontiye tetiyao schoolor kotha koi asil.",
+        "Pohor huwar pasoto xeidina karo barandar pora uthiboloi mon nasil."
+      ]
+    },
+    {
+      "id": "as-p04",
+      "kind": "para",
+      "title": "Packing for Bengaluru",
+      "native": [
+        "গুৱাহাটীৰ পৰা বেংগালুৰুলৈ ৰে'লেৰে যাবলৈ ওলাইছা যদি, বেগটো আগদিনাই সাজু কৰা।",
+        "আগতে টিকট আৰু আইডি কাৰ্ডখন সৰু বেগ এটাত ভৰাই লোৱা।",
+        "ফোনত টিকট থাকিলেও তাৰ প্ৰিণ্ট এটা লগত লৈ যাবা।",
+        "কাপোৰবোৰ মেৰিয়াই থ'লে ডাঙৰ বেগটোত আন বস্তুৰ বাবেও ঠাই ওলাব।",
+        "এযোৰ চেণ্ডেল বেলেগ মোনা এখনত ভৰাই কাপোৰৰ তলত ৰাখিবা।",
+        "দাঁত ঘঁহা ব্ৰাছ আৰু চাবোন একেলগে সৰু পেকেট এটাত থোৱা।",
+        "পানীৰ বটল আৰু শুকান জলপান হাততে পোৱাকৈ ওপৰত ৰাখিবা।",
+        "পাৱাৰ বেংকটো সম্পূৰ্ণ চাৰ্জ কৰি চাৰ্জাৰডাল বেগত সুমুৱাই লোৱা।",
+        "শেষত বেগটো এবাৰ দাঙি চাবা, বেছি গধুৰ হ'লে কাপোৰ দুটামান উলিয়াবা।"
+      ],
+      "roman": [
+        "Guwahatir pora Bengaluruloi re'lere jaboloi olaisa jodi, bagto agodinai xaju kora.",
+        "Agote ticket aru ID cardkhon xoru bag etat bhorai luwa.",
+        "Phonet ticket thakileo tar print eta logot loi jaba.",
+        "Kapurbor meriyai th'ole dangor bagtot an bostur babeo thai olabo.",
+        "Ejor sandal beleg mona ekhonot bhorai kapuror tolot rakhiba.",
+        "Dat ghoha brush aru sabon ekeloge xoru packet etat thuwa.",
+        "Panir bottle aru xukan jolpan hatote puwakoi oporot rakhiba.",
+        "Power bankto xompurno charge kori chargerdal bagot xumuwai luwa.",
+        "Xexot bagto ebar dangi saba, besi godhur h'ole kapur dutaman uliyaba."
+      ]
+    },
+    {
+      "id": "as-p05",
+      "kind": "para",
+      "title": "A Weekend at Chandubi",
+      "native": [
+        "যোৱা শনিবাৰে আমি চানডুবিলৈ গৈ দেওবাৰে আবেলি ঘৰলৈ উভতি আহিলোঁ।",
+        "চহৰৰ হুলস্থূলৰ পৰা আঁতৰি দুদিন কটাবলৈ ঠাইখন মোৰ ভাল লাগিল।",
+        "বিলৰ কাষৰ সৰু ঘৰটোত বহিয়েই আমি বেলি ডুব যোৱা চালোঁ।",
+        "থকা ঠাইৰ গৰাকীয়ে ৰাতি গৰম ভাত আৰু মাছৰ টেঙা খুৱালে।",
+        "ভাতৰ লগত বেছি আঞ্জা নাছিল, কিন্তু খাই বৰ ভাল লাগিল।",
+        "পুৱা খোজ কাঢ়িবলৈ ওলাওঁতে চৰাইৰ মাতৰ বাহিৰে বিশেষ একো শুনা নাছিলোঁ।",
+        "দুপৰীয়া অৱশ্যে ৰ'দ বেছি আছিল, গতিকে ছাতি নিবলৈ নাপাহৰিব।",
+        "ৰাস্তাৰ শেষৰ ফালছোৱা অলপ বেয়া, সেয়ে হাতত সময় লৈ যোৱাই ভাল।",
+        "চানডুবিত ঘূৰি ফুৰাতকৈ বিলৰ পাৰত বহি থাকিয়েই মোৰ বেছি ভাল লাগিল।"
+      ],
+      "roman": [
+        "Juwa xonibare ami Chandubiloi goi deobare abeli ghoroloi ubhoti ahilu.",
+        "Sohoror hulosthulor pora atori dudin kotaboloi thaikhon mor bhal lagil.",
+        "Bilor kaxor xoru ghortot bohiyei ami beli dub juwa salu.",
+        "Thoka thair gorakiye rati gorom bhat aru masor tenga khuwale.",
+        "Bhator logot besi anja nasil, kintu khai bor bhal lagil.",
+        "Puwa khoj karhiboloi olaute sorair mator bahire bixex eku xuna nasilu.",
+        "Duporiya owoxye r'od besi asil, gotike sati niboloi napahoribo.",
+        "Rastar xexor phalsuwa olop beya, xeye hatot xomoy loi juwai bhal.",
+        "Chandubit ghuri phuratkoi bilor parot bohi thakiyei mor besi bhal lagil."
+      ]
+    },
+    {
+      "id": "as-p06",
+      "kind": "para",
+      "title": "Planning Our Kitchen Renovation",
+      "native": [
+        "নলবাৰীৰ আমাৰ ঘৰৰ পাকঘৰটোৰ কাম 14 জুন 2026 তাৰিখে আৰম্ভ কৰিম।",
+        "প্ৰথম দিনা পুৱা 9 বজাত মিস্ত্ৰী ধীৰেন আহি পুৰণি তাকবোৰ খুলিব।",
+        "পাকঘৰটো 10 ফুট দীঘল আৰু 8 ফুট বহল, জুখি থৈছোঁ।",
+        "বেৰত লগাবলৈ 120 খন টাইলছ লাগিব, প্ৰতিখনৰ দাম ₹45 কৈ ধৰিছোঁ।",
+        "দোকানখন ঘৰৰ পৰা 3 কিলোমিটাৰ দূৰত, বস্তু অনাৰ ভাৰা ₹600।",
+        "পানীৰ পাইপ সলাবলৈ ₹2500 আৰু নতুন বেচিনটোৰ বাবে ₹3200 ৰাখিছোঁ।",
+        "কাঠৰ আলমাৰিটোৰ সলনি এইবাৰ 3 খন দুৱাৰ থকা নতুন আলমাৰি লগাম।",
+        "মুঠ খৰচৰ বাবে ₹45000 ৰাখিছোঁ, তাৰ ভিতৰতে মিস্ত্ৰীৰ মজুৰিও ধৰিছোঁ।",
+        "কামটো 6 দিনত শেষ হ'লে 20 জুন তাৰিখে ৰন্ধা আৰম্ভ কৰিম।"
+      ],
+      "roman": [
+        "Nalbarir amar ghoror pakghortor kam 14 June 2026 tarikhe arombho korim.",
+        "Prothom dina puwa 9 bojat mistri Dhiren ahi puroni takbor khulibo.",
+        "Pakghorto 10 foot dighol aru 8 foot bohol, jukhi thoisu.",
+        "Berot logaboloi 120 khon tiles lagibo, protikhonor dam ₹45 koi dhorisu.",
+        "Dokankhon ghoror pora 3 kilometer durot, bostu onar bhara ₹600.",
+        "Panir pipe xolaboloi ₹2500 aru notun basintor babe ₹3200 rakhisu.",
+        "Kathor almaritor xoloni eibar 3 khon duwar thoka notun almari logam.",
+        "Muth khorosor babe ₹45000 rakhisu, tar bhitorote mistrir mojurio dhorisu.",
+        "Kamto 6 dinot xex h'ole 20 June tarikhe rondha arombho korim."
+      ]
+    },
+    {
+      "id": "as-p07",
+      "kind": "para",
+      "title": "Internet Trouble in Pathsala",
+      "native": [
+        "নমস্কাৰ, মই পাঠশালাৰ মিলনপুৰৰ পৰা কৈছোঁ। আপোনালোকৰ ইণ্টাৰনেট ব্যৱহাৰ কৰোঁ।",
+        "যোৱা 3 দিন ধৰি ইণ্টাৰনেটটো অলপ সময় চলিয়েই আকৌ বন্ধ হৈ যায়।",
+        "বিশেষকৈ সন্ধিয়া ভিডিঅ' কল কৰিলে মাতটো ভালকৈ শুনা নাযায় আৰু ছবিখন ৰৈ যায়।",
+        "ৰাউটাৰটো বন্ধ কৰি আকৌ চলাই চালোঁ, কিন্তু একো লাভ নহ'ল।",
+        "ফোন আৰু লেপটপ দুয়োটাতে একেলগে ইণ্টাৰনেট বন্ধ হৈ যায়। এবাৰ চাই দিব।",
+        "মাহিলি বিলটো সোমবাৰেই গুগল পেৰ জৰিয়তে দিছোঁ, ৰচিদখনো মোৰ লগত আছে।",
+        "আপোনালোকে কাইলৈ পুৱা সংযোগটো চাবলৈ কাৰোবাক পঠিয়াব পাৰিব নে?",
+        "মই দুপৰীয়া 1 বজালৈ ঘৰতে থাকিম, তাৰ পাছত দোকানলৈ যাব লাগিব।",
+        "অহাৰ আগতে এবাৰ ফোন কৰিব, মই গলিটোৰ মুখলৈ ওলাই আহিম।"
+      ],
+      "roman": [
+        "Nomoskar, moi Pathshalar Milonpuror pora koisu. Apunalokor internet byobohar koru.",
+        "Juwa 3 din dhori internetto olop xomoy soliyei akou bondho hoi jai.",
+        "Bixexkoi xondhiya video' call korile matto bhalkoi xuna najai aru sobikhon roi jai.",
+        "Routerto bondho kori akou solai salu, kintu eku labh noh'ol.",
+        "Phone aru laptop duyotate ekeloge internet bondho hoi jai. Ebar sai dibo.",
+        "Mahili billto xombarei Google Payr joriyote disu, rosidkhono mor logot ase.",
+        "Apunaloke kailoi puwa xongjogto saboloi karobak pothiyabo paribo ne?",
+        "Moi duporiya 1 bojaloi ghorote thakim, tar pasot dokanoloi jabo lagibo.",
+        "Ohar agote ebar phone koribo, moi golitor mukholoi olai ahim."
+      ]
+    },
+    {
+      "id": "as-p08",
+      "kind": "para",
+      "title": "Banipur Through the Years",
+      "native": [
+        "ডিব্ৰুগড়ৰ বাণীপুৰত আগৰ তুলনাত এতিয়া ঘৰ আৰু দোকান বহুত বাঢ়িছে।",
+        "আগতে ইয়াৰ বাটৰ কাষত খালী মাটি আৰু সৰু সৰু বাৰী আছিল।",
+        "এতিয়া সেই ঠাইবোৰত নতুন ঘৰ আৰু ফ্লেট উঠিছে।",
+        "ইয়াৰ মূল বাটটোত ৰাতিপুৱাৰ পৰাই অটো আৰু গাড়ীৰ ভিৰ লাগে।",
+        "ওচৰৰ দোকানতে গাখীৰ আৰু শাক-পাচলি পোৱা যায়, দূৰলৈ যাব নালাগে।",
+        "ৰাস্তাত লাইট লগোৱাৰ পাছত সন্ধিয়াও মানুহে খোজ কাঢ়িবলৈ ওলাই আহে।",
+        "অৱশ্যে বৰষুণ দিলে কিছুমান গলিত এতিয়াও পানী জমা হৈ থাকে।",
+        "পুৰণি চাহৰ দোকানকেইখনত আজিও সন্ধিয়া চুবুৰীয়াৰ আড্ডা জমে।",
+        "বাণীপুৰৰ চেহেৰা সলনি হ'লেও চুবুৰীয়াই এতিয়াও আগৰ দৰেই মিলিজুলি থাকে।"
+      ],
+      "roman": [
+        "Dibrugarhor Banipurot agor tulonat etiya ghor aru dokan bohut barhise.",
+        "Agote iyar bator kaxot khali mati aru xoru xoru bari asil.",
+        "Etiya xei thaiborot notun ghor aru flat uthise.",
+        "Iyar mul batot ratipuwar porai auto aru garir bhir lage.",
+        "Osoror dokanote gakhir aru xak-pasoli puwa jai, duroloi jabo nalage.",
+        "Rastat light loguwar pasot xondhiyao manuhe khoj karhiboloi olai ahe.",
+        "Owoxye boroxun dile kisuman golit etiyao pani joma hoi thake.",
+        "Puroni sahor dokankeikhonot ajio xondhiya suburiyar adda jome.",
+        "Banipuror sehera xoloni h'oleo suburiyai etiyao agor dorei milijuli thake."
+      ]
+    },
+    {
+      "id": "as-s001",
+      "kind": "sentence",
+      "native": [
+        "দেউতা, চশমাযোৰ বিচাৰি ফুৰিব নালাগে, মেজৰ ড্ৰয়াৰত থৈছোঁ।"
+      ],
+      "roman": [
+        "Deuta, soxmajur bisari phuribo nalage, mejor drawerot thoisu."
+      ]
+    },
+    {
+      "id": "as-s002",
+      "kind": "sentence",
+      "native": [
+        "শুৱালকুছিৰ পৰা সূতা আহিলেই নতুন চাদৰখন বোৱা আৰম্ভ কৰিম।"
+      ],
+      "roman": [
+        "Sualkuchir pora xuta ahilei notun sadorkhon buwa arombho korim."
+      ]
+    },
+    {
+      "id": "as-s003",
+      "kind": "sentence",
+      "native": [
+        "ঠিকনাটো লিখি লওক, ঘৰ নম্বৰ 16, উপপথ নম্বৰ 5, হেঙেৰাবাৰী, গুৱাহাটী, পিন নম্বৰ 781036।"
+      ],
+      "roman": [
+        "Thikonato likhi louk, ghor nombor 16, upopoth nombor 5, Hengrabari, Guwahati, PIN nombor 781036."
+      ]
+    },
+    {
+      "id": "as-s004",
+      "kind": "sentence",
+      "native": [
+        "লেপটপটো বিক্ৰী কৰাৰ আগতে দৰকাৰী ফাইলবোৰ পেন ড্ৰাইভত কপি কৰি ৰাখিম। তাৰ পাছত পুৰণি ডাটা ডিলিট কৰিম।"
+      ],
+      "roman": [
+        "Laptopto bikri korar agote dorkari filebor pen driveot copy kori rakhim. Tar pasot puroni data delete korim."
+      ]
+    },
+    {
+      "id": "as-s005",
+      "kind": "sentence",
+      "native": [
+        "সকলো পুৰণি ইমেইল একেলগে মচি নিদিবা, কেৱল বিজ্ঞাপনৰ মেইলবোৰ বাছি বেলেগ এটা ফোল্ডাৰত ভৰাই থোৱা।"
+      ],
+      "roman": [
+        "Xokolu puroni email ekeloge mosi nidiba, kewol bigyaponor mailbor basi beleg eta folderot bhorai thuwa."
+      ]
+    },
+    {
+      "id": "as-s006",
+      "kind": "sentence",
+      "native": [
+        "ৰেকৰ্ডিংটোত মাজে মাজে মাত কাটি গৈছে, ভলিউম বঢ়াই শুনিলেও শেষৰ কথাখিনি একেবাৰে বুজিব পৰা নাই।"
+      ],
+      "roman": [
+        "Recordingtot maje maje mat kati goise, volume borhai xunileo xexor kothakhini ekebare bujibo pora nai."
+      ]
+    },
+    {
+      "id": "as-s007",
+      "kind": "sentence",
+      "native": [
+        "বাওঁফালে ঘূৰিলেই এখন খেলপথাৰ পাব, তাৰ কাষতে ডাকঘৰটো আছে।"
+      ],
+      "roman": [
+        "Baophale ghurilei ekhon khelpothar pab, tar kaxote dakghorto ase."
+      ]
+    },
+    {
+      "id": "as-s008",
+      "kind": "sentence",
+      "native": [
+        "আলহী আহিব বুলি বহা কোঠাটো মুকলি কৰি থৈছোঁ, ভিতৰৰ পৰা প্লাষ্টিকৰ চকী দুখন আনি দিবা।"
+      ],
+      "roman": [
+        "Alohi ahibo buli boha kothato mukoli kori thoisu, bhitoror pora plasticor soki dukhon ani diba."
+      ]
+    },
+    {
+      "id": "as-s009",
+      "kind": "sentence",
+      "native": [
+        "অৰ্ডাৰটো বাতিল নকৰিব, কেৱল মিঠাইৰ সলনি বিস্কুট দিব, বাকী যি কৈছিলোঁ সেইবোৰ একেই থাকিব।"
+      ],
+      "roman": [
+        "Orderto batil nokoribo, kewol mithair xoloni biscuit dibo, baki ji koisilu xeibor ekei thakibo."
+      ]
+    },
+    {
+      "id": "as-s010",
+      "kind": "sentence",
+      "native": [
+        "ৰুক্মিণী, তোমাৰ আলু পিটিকাখনৰ সোৱাদ মুখত লাগি আছে।"
+      ],
+      "roman": [
+        "Rukmini, tumar alu pitikakhonor xuwad mukhot lagi ase."
+      ]
+    },
+    {
+      "id": "as-s011",
+      "kind": "sentence",
+      "native": [
+        "ৰাতিৰ চিনেমাৰ টিকট কাটি থৈছোঁ, তুমি কেৱল সময়ত ওলাবা।"
+      ],
+      "roman": [
+        "Ratir sinemar ticket kati thoisu, tumi kewol xomoyot olaba."
+      ]
+    },
+    {
+      "id": "as-s012",
+      "kind": "sentence",
+      "native": [
+        "পাছৱৰ্ডটো সলনি কৰিলোঁ, সোমাই চাবচোন।"
+      ],
+      "roman": [
+        "Passwordto xoloni korilu, xomai sabosun."
+      ]
+    },
+    {
+      "id": "as-s013",
+      "kind": "sentence",
+      "native": [
+        "পাৰ্কিঙৰ মাচুল 2 ঘণ্টাত ₹30।"
+      ],
+      "roman": [
+        "Parkingor masul 2 ghontat ₹30."
+      ]
+    },
+    {
+      "id": "as-s014",
+      "kind": "sentence",
+      "native": [
+        "ৰঞ্জনক ধাৰলৈ দিয়া কিতাপখন ঘূৰাই বিচাৰিবলৈ মনত পেলাই দিবা।"
+      ],
+      "roman": [
+        "Ranjanok dharoloi diya kitapkhon ghurai bisariboloi monot pelai diba."
+      ]
+    },
+    {
+      "id": "as-s015",
+      "kind": "sentence",
+      "native": [
+        "নলবাৰীৰ পৰা বৰপেটা সত্ৰলৈ গাড়ীৰে যাবলৈ বাট দেখুওৱা, ৰাস্তাত ক'ৰবাত কাম চলি থাকিলে আগতেই জনাবা।"
+      ],
+      "roman": [
+        "Nalbarir pora Barpeta Satraloi garire jaboloi bat dekhuwa, rastat k'orbat kam soli thakile agotei jonaba."
+      ]
+    },
+    {
+      "id": "as-s016",
+      "kind": "sentence",
+      "native": [
+        "ছেভ নকৰাকৈ টেবটো বন্ধ কৰিলে লিখাখিনি থাকিব নে?"
+      ],
+      "roman": [
+        "Save nokorakoi tabto bondho korile likhakhini thakibo ne?"
+      ]
+    },
+    {
+      "id": "as-s017",
+      "kind": "sentence",
+      "native": [
+        "কাষৰ ছীটটো খালী আছে নে?"
+      ],
+      "roman": [
+        "Kaxor seatto khali ase ne?"
+      ]
+    },
+    {
+      "id": "as-s018",
+      "kind": "sentence",
+      "native": [
+        "পাৰ্চেলটো পঠিয়াবলৈ যোৱাৰ আগতে ঠিকনাটো মিলাই চাবা, পিন নম্বৰটো ভুল হ'লে বস্তুটো ঘূৰি আহিব পাৰে।"
+      ],
+      "roman": [
+        "Parcelto pothiyaboloi juwar agote thikonato milai saba, PIN nomborto bhul h'ole bostuto ghuri ahibo pare."
+      ]
+    },
+    {
+      "id": "as-s019",
+      "kind": "sentence",
+      "native": [
+        "বেয়া পাইছা নেকি বুলি সুধিব খুজিছিলোঁ, আচলতে কালি হঠাৎ গুচি গ'লা যে, সেইবাবেহে চিন্তা হ'ল।"
+      ],
+      "roman": [
+        "Beya paisa neki buli xudhibo khujisilu, asolote kali hothat gusi g'ola je, xeibabehe sinta h'ol."
+      ]
+    },
+    {
+      "id": "as-s020",
+      "kind": "sentence",
+      "native": [
+        "অপেক্ষা কৰি কৰি আমনি লাগিছে, শাৰীটো দেখোন লৰচৰেই কৰা নাই।"
+      ],
+      "roman": [
+        "Opekha kori kori amoni lagise, xarito dekhun lorsorei kora nai."
+      ]
+    },
+    {
+      "id": "as-s021",
+      "kind": "sentence",
+      "native": [
+        "হাৰি থাকিলেই কেৰমৰ বোৰ্ডখন বেয়া বুলি নক'বা, তোমাৰ সলনি মই খেলি দেখুৱাম নেকি এবাৰ?"
+      ],
+      "roman": [
+        "Hari thakilei carromor boardkhon beya buli nok'oba, tumar xoloni moi kheli dekhuwam neki ebar?"
+      ]
+    },
+    {
+      "id": "as-s022",
+      "kind": "sentence",
+      "native": [
+        "দেৰিৰ বাবে ক্ষমা বিচাৰিছোঁ।"
+      ],
+      "roman": [
+        "Derir babe khoma bisarisu."
+      ]
+    },
+    {
+      "id": "as-s023",
+      "kind": "sentence",
+      "native": [
+        "ৰূপমৰ জন্মদিন 19 ছেপ্টেম্বৰত, এইবাৰ তাৰ 28 বছৰ হ'ব।"
+      ],
+      "roman": [
+        "Rupamor jonmodin 19 Septemberot, eibar tar 28 bosor h'obo."
+      ]
+    },
+    {
+      "id": "as-s024",
+      "kind": "sentence",
+      "native": [
+        "কেলেণ্ডাৰত বুধবাৰে সন্ধিয়া 7 বজাত সাঁতোৰৰ অনুশীলন আছে বুলি লিখা।"
+      ],
+      "roman": [
+        "Calendarot Budhbare xondhiya 7 bojat xatoror onuxilon ase buli likha."
+      ]
+    },
+    {
+      "id": "as-s025",
+      "kind": "sentence",
+      "native": [
+        "চলি থকা গানটো ৰখাই দিয়া।"
+      ],
+      "roman": [
+        "Soli thoka ganto rokhai diya."
+      ]
+    },
+    {
+      "id": "as-s026",
+      "kind": "sentence",
+      "native": [
+        "এইটো আপডেট দিয়াৰ পাছৰে পৰা এপটো বাৰে বাৰে বন্ধ হৈছে।"
+      ],
+      "roman": [
+        "Eitu update diyar pasore pora appto bare bare bondho hoise."
+      ]
+    },
+    {
+      "id": "as-s027",
+      "kind": "sentence",
+      "native": [
+        "তোমালোক চাৰিআলিটোতে নামিবা, তাৰ পৰা ভিতৰৰ সৰু বাটটোৰে আহিলে আমাৰ চোতালতে ওলাবা, ঘূৰিব নালাগে।"
+      ],
+      "roman": [
+        "Tumalok sarialitote namiba, tar pora bhitoror xoru battore ahile amar sotalote olaba, ghuribo nalage."
+      ]
+    },
+    {
+      "id": "as-s028",
+      "kind": "sentence",
+      "native": [
+        "নলটোৰ পৰা পানী পৰিছে।"
+      ],
+      "roman": [
+        "Noltor pora pani porise."
+      ]
+    },
+    {
+      "id": "as-s029",
+      "kind": "sentence",
+      "native": [
+        "জুৰিক কৈছিলোঁ, গামোচাখনৰ ফুলখিনি ৰঙা হ'ব লাগে। বাকীখিনি বগা হ'লেই হ'ব।"
+      ],
+      "roman": [
+        "Jurik koisilu, gamosakhonor phulkhini ronga h'obo lage. Bakikhini boga h'olei h'obo."
+      ]
+    },
+    {
+      "id": "as-s030",
+      "kind": "sentence",
+      "native": [
+        "ক্ষমা কৰিব, কথাটো ভুলকৈ বুজিলোঁ।"
+      ],
+      "roman": [
+        "Khyoma koribo, kothato bhulkoi bujilu."
+      ]
+    },
+    {
+      "id": "as-s031",
+      "kind": "sentence",
+      "native": [
+        "দেওবাৰে জোনালীৰ ঘৰলৈ যাওঁ ব'লা, নতুন কুকুৰ পোৱালিটো চাই আহোঁ।"
+      ],
+      "roman": [
+        "Deubare Jonalir ghoroloi jau b'ola, notun kukur puwalito sai ahu."
+      ]
+    },
+    {
+      "id": "as-s032",
+      "kind": "sentence",
+      "native": [
+        "ছাহিদা, আজি দুপৰীয়া দোকানত মই থাকিম। তুমি জিৰণি লোৱা।"
+      ],
+      "roman": [
+        "Shahida, aji duporiya dokanot moi thakim. Tumi jironi luwa."
+      ]
+    },
+    {
+      "id": "as-s033",
+      "kind": "sentence",
+      "native": [
+        "দলটোৱে 6 পইণ্ট বেছিকৈ পাইছে।"
+      ],
+      "roman": [
+        "Doltowe 6 point besikoi paise."
+      ]
+    },
+    {
+      "id": "as-s034",
+      "kind": "sentence",
+      "native": [
+        "সন্ধিয়া লণ্ড্ৰীৰ পৰা ধুবলৈ দিয়া কাপোৰখিনি লৈ আহিম।"
+      ],
+      "roman": [
+        "Xondhiya laundryr pora dhuboloi diya kaporkhini loi ahim."
+      ]
+    },
+    {
+      "id": "as-s035",
+      "kind": "sentence",
+      "native": [
+        "সুৰভিলৈ ফোন লগাই দিয়া।"
+      ],
+      "roman": [
+        "Surabhiloi phone logai diya."
+      ]
+    },
+    {
+      "id": "as-s036",
+      "kind": "sentence",
+      "native": [
+        "মানসে শ্বেয়াৰ কৰা শ্বীটখনত কোনেও লিখিব পৰা নাই।"
+      ],
+      "roman": [
+        "Manase share kora sheetkhonot kuneu likhibo pora nai."
+      ]
+    },
+    {
+      "id": "as-s037",
+      "kind": "sentence",
+      "native": [
+        "পল্লৱী বসুমতাৰীয়ে মোক বঙাইগাঁও ষ্টেচনৰ বাহিৰত ৰ'বলৈ কৈছে।"
+      ],
+      "roman": [
+        "Pallavi Basumatarye mok Bongaigaon stationor bahirot r'oboloi koise."
+      ]
+    },
+    {
+      "id": "as-s038",
+      "kind": "sentence",
+      "native": [
+        "ধেমাজিৰ বজাৰত কচুপাত পালে এমুঠি মোৰ কাৰণেও আনিবা।"
+      ],
+      "roman": [
+        "Dhemajir bojarot kosupat pale emuthi mor karoneo aniba."
+      ]
+    },
+    {
+      "id": "as-s039",
+      "kind": "sentence",
+      "native": [
+        "ঢাকনিখনো লগত দিব নে?"
+      ],
+      "roman": [
+        "Dhakonikhono logot dibo ne?"
+      ]
+    },
+    {
+      "id": "as-s040",
+      "kind": "sentence",
+      "native": [
+        "জিতেন, এবাৰ নোৱাৰিলেই এৰি নিদিবা, চেষ্টা কৰি থাকা।"
+      ],
+      "roman": [
+        "Jiten, ebar nuwarilei eri nidiba, sesta kori thaka."
+      ]
+    },
+    {
+      "id": "as-s041",
+      "kind": "sentence",
+      "native": [
+        "মেছেজটো এতিয়াহে দেখিলোঁ, কামত লাগি থাকি গমেই নাপালোঁ।"
+      ],
+      "roman": [
+        "Messageto etiyahe dekhilu, kamot lagi thaki gomei napalu."
+      ]
+    },
+    {
+      "id": "as-s042",
+      "kind": "sentence",
+      "native": [
+        "নিৰ্মালী, হিচাপটো এবাৰ মিলাই দিবাচোন।"
+      ],
+      "roman": [
+        "Nirmali, hisapto ebar milai dibasun."
+      ]
+    },
+    {
+      "id": "as-s043",
+      "kind": "sentence",
+      "native": [
+        "তেজপুৰৰ বাছখন পুৱা 6:20 বজাত 4 নম্বৰ গেটৰ পৰা ওলাব।"
+      ],
+      "roman": [
+        "Tezpuror buskhon puwa 6:20 bojat 4 nombor gateor pora olabo."
+      ]
+    },
+    {
+      "id": "as-s044",
+      "kind": "sentence",
+      "native": [
+        "বীণাৰ ওচৰত চিলাই শিকিবলৈ বেজী আৰু ৰঙীন সূতা কিনিম।"
+      ],
+      "roman": [
+        "Binar osorot silai xikiboloi beji aru rongin xuta kinim."
+      ]
+    },
+    {
+      "id": "as-s045",
+      "kind": "sentence",
+      "native": [
+        "টবত জলকীয়া ৰুবলৈ মাটিৰ লগত কি মিহলাব লাগে আৰু পুলিবোৰ কিমান দূৰত ৰুলে ভাল হয় বুজাই কোৱা।"
+      ],
+      "roman": [
+        "Tobot jolokiya ruboloi matir logot ki miholabo lage aru pulibor kiman durot rule bhal hoi bujai kuwa."
+      ]
+    },
+    {
+      "id": "as-s046",
+      "kind": "sentence",
+      "native": [
+        "ব্লুটুথে হেডফোনযোৰ বিচাৰি পোৱা নাই।"
+      ],
+      "roman": [
+        "Bluetoothe headphonejor bisari puwa nai."
+      ]
+    },
+    {
+      "id": "as-s047",
+      "kind": "sentence",
+      "native": [
+        "অমলদাই উজানবজাৰৰ গুদামত গোটেই দিনটো ব্যস্ত থাকিব, সেয়ে তেওঁক লগ ধৰিবলৈ পৰহিলৈ যাম বুলি ভাবিছোঁ।"
+      ],
+      "roman": [
+        "Amaldai Uzanbazaror gudamot gotei dinto byosto thakibo, xeye teonk log dhoriboloi porohiloi jam buli bhabisu."
+      ]
+    },
+    {
+      "id": "as-s048",
+      "kind": "sentence",
+      "native": [
+        "নিমখখিনি শেষত দিলেই হ'ব।"
+      ],
+      "roman": [
+        "Nimokhkhini xexot dilei h'obo."
+      ]
+    },
+    {
+      "id": "as-s049",
+      "kind": "sentence",
+      "native": [
+        "টেবুলখন ইয়াত ৰাখোঁ, নহয় ৰ'বা, দুৱাৰখন খুলিবলৈ ঠাই নাথাকিব।"
+      ],
+      "roman": [
+        "Tablekhon iyat rakhu, nohoi r'oba, duwarkhon khuliboloi thai nathakibo."
+      ]
+    },
+    {
+      "id": "as-s050",
+      "kind": "sentence",
+      "native": [
+        "ইমান ধুনীয়াকৈ গাইছা, বৰ ভাল লাগিল।"
+      ],
+      "roman": [
+        "Iman dhuniyakoi gaisa, bor bhal lagil."
+      ]
+    },
+    {
+      "id": "as-s051",
+      "kind": "sentence",
+      "native": [
+        "গৰম ঘিলা পিঠা আছে, চাহ খাবলৈ সোনকালে আহা।"
+      ],
+      "roman": [
+        "Gorom ghila pitha ase, sah khaboloi xonkale aha."
+      ]
+    },
+    {
+      "id": "as-s052",
+      "kind": "sentence",
+      "native": [
+        "বাৰু, বাকী কথাখিনি পৰহিলৈ লগ হ'লে পাতিম। সময় দিয়াৰ বাবে সকলোকে ধন্যবাদ।"
+      ],
+      "roman": [
+        "Baru, baki kothakhini porohiloi log h'ole patim. Xomoy diyar babe xokoloke dhonyobad."
+      ]
+    },
+    {
+      "id": "as-s053",
+      "kind": "sentence",
+      "native": [
+        "চোলাটোত 15% ৰেহাই দিলে দাম ₹680 হ'ব নে?"
+      ],
+      "roman": [
+        "Solatot 15% rehai dile dam ₹680 h'obo ne?"
+      ]
+    },
+    {
+      "id": "as-s054",
+      "kind": "sentence",
+      "native": [
+        "শনিবাৰে চুলি কাটিবলৈ যাব লাগিব।"
+      ],
+      "roman": [
+        "Xonibare suli katiboloi jabo lagibo."
+      ]
+    },
+    {
+      "id": "as-s055",
+      "kind": "sentence",
+      "native": [
+        "ডিব্ৰুগড়ত অহা সপ্তাহৰ মঙলবাৰে বৰষুণ দিয়াৰ সম্ভাৱনা আছে নেকি?"
+      ],
+      "roman": [
+        "Dibrugarhot oha xoptahor Mongolbare boroxun diyar xombhabona ase neki?"
+      ]
+    },
+    {
+      "id": "as-s056",
+      "kind": "sentence",
+      "native": [
+        "অফলাইনত কাম কৰিব পাৰিম বুলি ভাবিছিলোঁ, এতিয়া দেখিছোঁ প্ৰতিবাৰ ফাইল খুলিলেই ছফ্টৱেৰটোৱে ইণ্টাৰনেট বিচাৰে।"
+      ],
+      "roman": [
+        "Offlineot kam koribo parim buli bhabisilu, etiya dekhisu protibar file khulilei softwaretowe internet bisare."
+      ]
+    },
+    {
+      "id": "as-s057",
+      "kind": "sentence",
+      "native": [
+        "ৰেণু বাইদেউ এতিয়াও কলেজতে আছে।"
+      ],
+      "roman": [
+        "Renu baideu etiyao collegete ase."
+      ]
+    },
+    {
+      "id": "as-s058",
+      "kind": "sentence",
+      "native": [
+        "খাৰখিনিত নেমু নিদিবা, সোৱাদটো বেয়া হৈ যাব।"
+      ],
+      "roman": [
+        "Kharkhinit nemu nidiba, xuwadto beya hoi jabo."
+      ]
+    },
+    {
+      "id": "as-s059",
+      "kind": "sentence",
+      "native": [
+        "চাৰ্জাৰটো কেনেবাকৈ তোমাৰ ওচৰত আছে নেকি, বগা ৰঙৰটো?"
+      ],
+      "roman": [
+        "Chargerto kenebakoi tumar osorot ase neki, boga rongorto?"
+      ]
+    },
+    {
+      "id": "as-s060",
+      "kind": "sentence",
+      "native": [
+        "শিৱসাগৰত পঢ়োঁতে পইচা কম আছিল, অথচ বন্ধুবোৰৰ লগত কটোৱা সময়খিনি ভাবিলে মনটো ভৰি পৰে।"
+      ],
+      "roman": [
+        "Sivasagarot porhute poisa kom asil, othos bondhuboror logot kotuwa xomoykhini bhabile monto bhori pore."
+      ]
+    },
+    {
+      "id": "as-s061",
+      "kind": "sentence",
+      "native": [
+        "পৰীক্ষাটো ভবাতকৈ সহজ হ'ল, শেষৰ প্ৰশ্নটোৰ উত্তৰো লিখি আহিছোঁ।"
+      ],
+      "roman": [
+        "Porikkhato bhobatkoi xohoj h'ol, xexor proxnotor uttoro likhi ahisu."
+      ]
+    },
+    {
+      "id": "as-s062",
+      "kind": "sentence",
+      "native": [
+        "বেনাৰখনৰ ৰং অলপ পাতল কৰি দিলে আখৰবোৰ স্পষ্টকৈ ওলাব।"
+      ],
+      "roman": [
+        "Bannerkhonor rong olop patol kori dile akhorbor spostokoi olabo."
+      ]
+    },
+    {
+      "id": "as-s063",
+      "kind": "sentence",
+      "native": [
+        "পিকনিকত 25জন মানুহ হ'ব, 4 কিলো চাউল আৰু 6 কিলো আলু ল'লেই জুৰিব বুলি ভাবিছোঁ।"
+      ],
+      "roman": [
+        "Picnicot 25jon manuh h'obo, 4 kilo saul aru 6 kilo alu l'olei juribo buli bhabisu."
+      ]
+    },
+    {
+      "id": "as-s064",
+      "kind": "sentence",
+      "native": [
+        "ফ্ৰকটো সৰু হৈছে, সলাবলৈ যাওঁতে ৰচিদখন লগত নিম আৰু নতুনটো পিন্ধি চাইহে বাছিম।"
+      ],
+      "roman": [
+        "Frockto xoru hoise, xolaboloi jaute rosidkhon logot nim aru notunto pindhi saihe basim."
+      ]
+    },
+    {
+      "id": "as-s065",
+      "kind": "sentence",
+      "native": [
+        "উমানন্দলৈ যাবলৈ ফেৰী ক'ৰ পৰা পোৱা যায় বিচাৰি দিয়া।"
+      ],
+      "roman": [
+        "Umanandaloi jaboloi ferry k'or pora puwa jai bisari diya."
+      ]
+    },
+    {
+      "id": "as-s066",
+      "kind": "sentence",
+      "native": [
+        "মাইকটো মিউট হৈ আছে, আপোনাৰ মাত শুনা পোৱা নাই।"
+      ],
+      "roman": [
+        "Micto mute hoi ase, apunar mat xuna puwa nai."
+      ]
+    },
+    {
+      "id": "as-s067",
+      "kind": "sentence",
+      "native": [
+        "স্কুটাৰখন দলঙৰ সিপাৰে ৰাখক।"
+      ],
+      "roman": [
+        "Scooterkhon dolongor xipare rakhok."
+      ]
+    },
+    {
+      "id": "as-s068",
+      "kind": "sentence",
+      "native": [
+        "দৰ্জীজনে জোখ ল'বলৈ মোক বৃহস্পতিবাৰে মাতিছে, তুমি লগত যাবা নে?"
+      ],
+      "roman": [
+        "Dorjijone jokh l'oboloi mok Brihospotibare matise, tumi logot jaba ne?"
+      ]
+    },
+    {
+      "id": "as-s069",
+      "kind": "sentence",
+      "native": [
+        "সৰুটো নহয়, মাজৰটো দিয়কচোন।"
+      ],
+      "roman": [
+        "Xoruto nohoi, majorto diyoksun."
+      ]
+    },
+    {
+      "id": "as-s070",
+      "kind": "sentence",
+      "native": [
+        "বাগিচাখন পাতোঁতে বহুত কষ্ট হৈছিল, এতিয়া নিজে ৰোৱা গছত ফুল দেখিলে সেই ভাগৰ একেবাৰে মনত নপৰে।"
+      ],
+      "roman": [
+        "Bagisakhon patute bohut kosto hoisil, etiya nije ruwa gosot phul dekhile xei bhagor ekebare monot nopore."
+      ]
+    },
+    {
+      "id": "as-s071",
+      "kind": "sentence",
+      "native": [
+        "ফৰহানা, মায়ে তোমাৰ আচাৰখিনিৰ ৰেচিপিটো বিচাৰিছে, সময় পালে পঠিয়াবা।"
+      ],
+      "roman": [
+        "Farhana, maye tumar asarkhinir recipeto bisarise, xomoy pale pothiyaba."
+      ]
+    },
+    {
+      "id": "as-s072",
+      "kind": "sentence",
+      "native": [
+        "তালিকাখনত দীপালী ভূঞাৰ নামটো বাদ পৰিছে, যোগ কৰি দিবা।"
+      ],
+      "roman": [
+        "Talikakhonot Dipali Bhuyanar namto bad porise, jog kori diba."
+      ]
+    },
+    {
+      "id": "as-s073",
+      "kind": "sentence",
+      "native": [
+        "পেকেটত 12টা পেঞ্চিল আৰু 8খন বহী ভৰাই দিয়ক।"
+      ],
+      "roman": [
+        "Packetot 12ta pencil aru 8khon bohi bhorai diyok."
+      ]
+    },
+    {
+      "id": "as-s074",
+      "kind": "sentence",
+      "native": [
+        "দুপৰীয়া মুচীৰ দোকানৰ পৰা মেৰামতি কৰোৱা জোতাযোৰ আনিবলৈ সোঁৱৰাই দিবা।"
+      ],
+      "roman": [
+        "Duporiya musir dukanor pora meramoti koruwa jotajor aniboloi xuworai diba."
+      ]
+    },
+    {
+      "id": "as-s075",
+      "kind": "sentence",
+      "native": [
+        "এখন কাগজৰ দুয়োফালে প্ৰিণ্ট কৰিবলৈ হ'লে কি সলনি কৰিব লাগে, মোক সহজকৈ বুজাই দিয়া।"
+      ],
+      "roman": [
+        "Ekhon kagojor duyophale print koriboloi h'ole ki xoloni koribo lage, mok xohojkoi bujai diya."
+      ]
+    },
+    {
+      "id": "as-s076",
+      "kind": "sentence",
+      "native": [
+        "একাউণ্টটো নিজে নিজে লগআউট হৈছে।"
+      ],
+      "roman": [
+        "Accountto nije nije logout hoise."
+      ]
+    },
+    {
+      "id": "as-s077",
+      "kind": "sentence",
+      "native": [
+        "অফিচৰ পৰা ওলোৱাৰ সময়ত মোকো মাত দিব, একেলগে গ'লে টেক্সিৰ ভাৰাটো দুয়োৰে মাজত ভগাই ল'ব পাৰিম।"
+      ],
+      "roman": [
+        "Officeor pora oluwar xomoyot moko mat dibo, ekeloge g'ole taxir bharato duyore majot bhogai l'obo parim."
+      ]
+    },
+    {
+      "id": "as-s078",
+      "kind": "sentence",
+      "native": [
+        "বেঙেনাকেইটা বেছি বুঢ়া যেন লাগিছে।"
+      ],
+      "roman": [
+        "Bengenakeita besi bura jen lagise."
+      ]
+    },
+    {
+      "id": "as-s079",
+      "kind": "sentence",
+      "native": [
+        "মাজুলীৰ ফেৰীত চাইকেল নিব পাৰি নে? ভাৰা বেলেগ লাগে?"
+      ],
+      "roman": [
+        "Majulir ferryt cycle nibo pari ne? Bhara beleg lage?"
+      ]
+    },
+    {
+      "id": "as-s080",
+      "kind": "sentence",
+      "native": [
+        "দৰকাৰৰ সময়ত কাষত থিয় দিয়াৰ বাবে আপোনাক সঁচাকৈয়ে ধন্যবাদ।"
+      ],
+      "roman": [
+        "Dorkaror xomoyot kaxot thiya diyar babe apunak xosakoiye dhonyobad."
+      ]
+    },
+    {
+      "id": "as-s081",
+      "kind": "sentence",
+      "native": [
+        "আজৰি হ'লে এবাৰ ফোন কৰিবা।"
+      ],
+      "roman": [
+        "Ajori h'ole ebar phone koriba."
+      ]
+    },
+    {
+      "id": "as-s082",
+      "kind": "sentence",
+      "native": [
+        "হাফলঙৰ দোকানখনলৈ পঠোৱা সামগ্ৰীখিনি শুকুৰবাৰৰ ভিতৰত পাবগৈ বুলি জনাইছে।"
+      ],
+      "roman": [
+        "Haflongor dokankhonoloi pothuwa xamogrikhini xukurbaror bhitorot pabogoi buli jonaise."
+      ]
+    },
+    {
+      "id": "as-s083",
+      "kind": "sentence",
+      "native": [
+        "সপ্তাহত 3 দিন গানৰ ক্লাছ হয়। মঙলবাৰে আবেলি 5:30 বজাত আৰম্ভ হয়।"
+      ],
+      "roman": [
+        "Xoptahot 3 din ganor class hoi. Mongolbare abeli 5:30 bojat arombho hoi."
+      ]
+    },
+    {
+      "id": "as-s084",
+      "kind": "sentence",
+      "native": [
+        "ফুলৰ পুলিবোৰত পানী দিবলৈ সোঁৱৰাবা।"
+      ],
+      "roman": [
+        "Phulor puliborot pani diboloi xuworaba."
+      ]
+    },
+    {
+      "id": "as-s085",
+      "kind": "sentence",
+      "native": [
+        "স্ক্ৰীনৰ পোহৰ অলপ কমাই দিয়া।"
+      ],
+      "roman": [
+        "Screenor pohor olop komai diya."
+      ]
+    },
+    {
+      "id": "as-s086",
+      "kind": "sentence",
+      "native": [
+        "মাইনাওৰ কম্পিউটাৰত অসমীয়া লিখিবলৈ কি ছেটিং সলনি কৰিব লাগিব?"
+      ],
+      "roman": [
+        "Mainaor computerot Oxomiya likhiboloi ki setting xoloni koribo lagibo?"
+      ]
+    },
+    {
+      "id": "as-s087",
+      "kind": "sentence",
+      "native": [
+        "খুৰা কোনটো গলিৰে সোমাব?"
+      ],
+      "roman": [
+        "Khura kunto golire xomabo?"
+      ]
+    },
+    {
+      "id": "as-s088",
+      "kind": "sentence",
+      "native": [
+        "বতাহজাক বৰ চেঁচা লাগিছে।"
+      ],
+      "roman": [
+        "Botahjak bor sesa lagise."
+      ]
+    },
+    {
+      "id": "as-s089",
+      "kind": "sentence",
+      "native": [
+        "সুধাক কাগজখন নহয়, গোটেই বহীখন আনিবলৈ ক'বা।"
+      ],
+      "roman": [
+        "Sudhak kagojkhon nohoi, gotei bohikhon aniboloi k'oba."
+      ]
+    },
+    {
+      "id": "as-s090",
+      "kind": "sentence",
+      "native": [
+        "মই এতিয়া ঘৰ পালোঁহি।"
+      ],
+      "roman": [
+        "Moi etiya ghor paluhi."
+      ]
+    },
+    {
+      "id": "as-s091",
+      "kind": "sentence",
+      "native": [
+        "ট্ৰেইনিংটো পুৱা পাতিলে মোৰ সুবিধা হ'ব। আবেলি নতুন কৰ্মচাৰীকেইজনক কামবোৰ বুজাবলৈ অলপ সময় পাম।"
+      ],
+      "roman": [
+        "Trainingto puwa patile mor xubidha h'obo. Abeli notun kormosarikeijonok kambor bujaboloi olop xomoy pam."
+      ]
+    },
+    {
+      "id": "as-s092",
+      "kind": "sentence",
+      "native": [
+        "লিফ্টখন 7 নম্বৰ মহলাত ৰৈছে।"
+      ],
+      "roman": [
+        "Liftkhon 7 nombor moholat roise."
+      ]
+    },
+    {
+      "id": "as-s093",
+      "kind": "sentence",
+      "native": [
+        "বজাৰৰ লিষ্টত মচুৰ দাইল লিখা।"
+      ],
+      "roman": [
+        "Bojaror listot mosur dail likha."
+      ]
+    },
+    {
+      "id": "as-s094",
+      "kind": "sentence",
+      "native": [
+        "ইংৰাজীত জন্মদিনৰ শুভেচ্ছা জনাবলৈ চুটি বাক্য এটা লিখি দিয়া।"
+      ],
+      "roman": [
+        "Ingrajit jonmodinor xubhesa jonaboloi suti bakyo eta likhi diya."
+      ]
+    },
+    {
+      "id": "as-s095",
+      "kind": "sentence",
+      "native": [
+        "মাউছৰ সলনি টাচপেড ব্যৱহাৰ কৰোঁ।"
+      ],
+      "roman": [
+        "Mouseor xoloni touchpad byobohar koru."
+      ]
+    },
+    {
+      "id": "as-s096",
+      "kind": "sentence",
+      "native": [
+        "শেষৰ অটোখনো গুচি গ'ল, এতিয়া উভতিবলৈ আন গাড়ী বিচাৰিব লাগিব।"
+      ],
+      "roman": [
+        "Xexor autokhono gusi g'ol, etiya ubhotiboloi an gari bisaribo lagibo."
+      ]
+    },
+    {
+      "id": "as-s097",
+      "kind": "sentence",
+      "native": [
+        "চাদৰখনৰ দাম ₹900 ৰাখক, নগদ দি লৈ যাম।"
+      ],
+      "roman": [
+        "Sadorkhonor dam ₹900 rakhok, nogod di loi jam."
+      ]
+    },
+    {
+      "id": "as-s098",
+      "kind": "sentence",
+      "native": [
+        "কাপোৰৰ নহয়, কাগজৰ বেগ লাগে, ডাঙৰ জোখৰ এটা।"
+      ],
+      "roman": [
+        "Kapuror nohoi, kagojor bag lage, dangor jokhor eta."
+      ]
+    },
+    {
+      "id": "as-s099",
+      "kind": "sentence",
+      "native": [
+        "বাটত গাখীৰৰ পেকেট এটা লৈ আহিবা, চাহপাত আছে।"
+      ],
+      "roman": [
+        "Batot gakhiror packet eta loi ahiba, sahpat ase."
+      ]
+    },
+    {
+      "id": "as-s100",
+      "kind": "sentence",
+      "native": [
+        "সোমবাৰৰ মিটিংখন দুপৰীয়াৰ পাছলৈ নিলে আপোনাৰ অসুবিধা হ'ব নেকি?"
+      ],
+      "roman": [
+        "Xombaror meetingkhon duporiyar pasoloi nile apunar oxubidha h'obo neki?"
+      ]
+    },
+    {
+      "id": "as-s101",
+      "kind": "sentence",
+      "native": [
+        "কোঠাটোৰ নম্বৰ 208। চাবিটো ৰাতিপুৱা 9 বজাত তলৰ কাউণ্টাৰত পাব।"
+      ],
+      "roman": [
+        "Kothator nombor 208. Sabito ratipuwa 9 bojat tolor counterot pabo."
+      ]
+    },
+    {
+      "id": "as-s102",
+      "kind": "sentence",
+      "native": [
+        "পুৰণি ৰচিদবোৰ পেলোৱাৰ আগতে সেইবোৰৰ ফটো তুলি ৰাখিব লাগিব।"
+      ],
+      "roman": [
+        "Puroni rosidbor peluwar agote xeiboror photo tuli rakhibo lagibo."
+      ]
+    },
+    {
+      "id": "as-s103",
+      "kind": "sentence",
+      "native": [
+        "ইউটিউব খুলি মালপোৱা বনোৱাৰ সহজ উপায় এটা বিচাৰি উলিওৱা।"
+      ],
+      "roman": [
+        "YouTube khuli malpuwa bonuwar xohoj upay eta bisari uliuwa."
+      ]
+    },
+    {
+      "id": "as-s104",
+      "kind": "sentence",
+      "native": [
+        "নীলাভ, স্ক্ৰীন শ্বেয়াৰ কৰিলে কেৱল স্লাইডখিনিহে দেখুৱাবা, আন টেববোৰ খোলা থাকিলে সকলোৰে আগত ওলাই যাব।"
+      ],
+      "roman": [
+        "Nilabh, screen share korile kewol slidekhinihe dekhuwaba, an tabbor khula thakile xokolore agot olai jabo."
+      ]
+    },
+    {
+      "id": "as-s105",
+      "kind": "sentence",
+      "native": [
+        "দীক্ষিতাৰ লগত আবেলি পাণবজাৰত দেখা হ'ব বুলি কথা আছিল।"
+      ],
+      "roman": [
+        "Dikshitar logot abeli Panbazarot dekha h'obo buli kotha asil."
+      ]
+    },
+    {
+      "id": "as-s106",
+      "kind": "sentence",
+      "native": [
+        "ভোগালীৰ উৰুকাত এইবাৰ সকলোৱে চোতালতে বহি খাম, তুমি সৰু ল'ৰা-ছোৱালীবোৰৰ বাবে মিঠাই অলপ আনিবা।"
+      ],
+      "roman": [
+        "Bhogalir urukat eibar xokolowe sotalote bohi kham, tumi xoru l'ora-suwaliboror babe mithai olop aniba."
+      ]
+    },
+    {
+      "id": "as-s107",
+      "kind": "sentence",
+      "native": [
+        "বৃহস্পতিবাৰে নহয়, শুকুৰবাৰে দেখা কৰিম।"
+      ],
+      "roman": [
+        "Brihospotibare nohoi, xukurbare dekha korim."
+      ]
+    },
+    {
+      "id": "as-s108",
+      "kind": "sentence",
+      "native": [
+        "তোমাৰ ছাতিটো গাড়ীতে থাকিল।"
+      ],
+      "roman": [
+        "Tumar satito garite thakil."
+      ]
+    },
+    {
+      "id": "as-s109",
+      "kind": "sentence",
+      "native": [
+        "বাজেটখন ঠিক আছে, খৰচ কৰিব পাৰে।"
+      ],
+      "roman": [
+        "Budgetkhon thik ase, khoros koribo pare."
+      ]
+    },
+    {
+      "id": "as-s110",
+      "kind": "sentence",
+      "native": [
+        "এপ্ৰিলৰ 14 তাৰিখে আবেলি 3:45 বজাত প্ৰিণ্টাৰটো চাবলৈ আহিব।"
+      ],
+      "roman": [
+        "Aprilor 14 tarikhe abeli 3:45 bojat printerto saboloi ahibo."
+      ]
+    },
+    {
+      "id": "as-s111",
+      "kind": "sentence",
+      "native": [
+        "সৰ্থেবাৰীৰ দোকানখনত কাঁহৰ বাটি এটাৰ দাম সুধি থ'ম।"
+      ],
+      "roman": [
+        "Sarthebarir dokankhonot kahor bati etar dam xudhi th'om."
+      ]
+    },
+    {
+      "id": "as-s112",
+      "kind": "sentence",
+      "native": [
+        "ফটোখনৰ কাষৰ খালী ঠাইখিনি কাটি ফুলজোপা ডাঙৰকৈ দেখুওৱা।"
+      ],
+      "roman": [
+        "Photokhonor kaxor khali thaikhini kati phuljupa dangorkoi dekhuwa."
+      ]
+    },
+    {
+      "id": "as-s113",
+      "kind": "sentence",
+      "native": [
+        "অৰূপৰ দোকানত গুগল পে চলে, খুচুৰা পইচা নাথাকিলেও চিন্তা নাই।"
+      ],
+      "roman": [
+        "Arupor dokanot Google Pay sole, khusura poisa nathakileo sinta nai."
+      ]
+    },
+    {
+      "id": "as-s114",
+      "kind": "sentence",
+      "native": [
+        "মামাহঁতক নমাই ড্ৰাইভাৰজনে পোনে পোনে বিমানবন্দৰলৈ গুচি গ'ল।"
+      ],
+      "roman": [
+        "Mamahotok nomai driverjone pone pone bimanbondorloi gusi g'ol."
+      ]
+    },
+    {
+      "id": "as-s115",
+      "kind": "sentence",
+      "native": [
+        "ছোৱালীজনীৰ বহীত শিক্ষকে লিখা কথাখিনি এবাৰ পঢ়ি চাবা।"
+      ],
+      "roman": [
+        "Suwalijonir bohit xikhoke likha kothakhini ebar porhi saba."
+      ]
+    },
+    {
+      "id": "as-s116",
+      "kind": "sentence",
+      "native": [
+        "আদা, নহৰু, পিঁয়াজ কিনি আনিবা।"
+      ],
+      "roman": [
+        "Ada, nohoru, piyaj kini aniba."
+      ]
+    },
+    {
+      "id": "as-s117",
+      "kind": "sentence",
+      "native": [
+        "মেকুৰীটোৱে দুৱাৰ খোলাৰ শব্দ শুনিলেই পাকঘৰলৈ দৌৰ মাৰে।"
+      ],
+      "roman": [
+        "Mekuritowe duwar kholar xobdo xunilei pakghorloi dour mare."
+      ]
+    },
+    {
+      "id": "as-s118",
+      "kind": "sentence",
+      "native": [
+        "ধন্যবাদ, আপোনাৰ উত্তৰলৈ বাট চাইছোঁ।"
+      ],
+      "roman": [
+        "Dhonyobad, apunar uttoroloi bat saisu."
+      ]
+    },
+    {
+      "id": "as-s119",
+      "kind": "sentence",
+      "native": [
+        "বেটাৰী এতিয়া 18% আছে।"
+      ],
+      "roman": [
+        "Battery etiya 18% ase."
+      ]
+    },
+    {
+      "id": "as-s120",
+      "kind": "sentence",
+      "native": [
+        "আলমাৰীৰ ওপৰৰ খাপত শীতৰ কম্বলবোৰ ভৰোৱাৰ আগতে ভালকৈ ৰ'দত দিব লাগিব, নহ'লে বেয়া গোন্ধ ওলাব পাৰে।"
+      ],
+      "roman": [
+        "Almarir oporor khapot xitor kombolbor bhorowar agote bhalkoi r'odot dibo lagibo, noh'ole beya gondho olabo pare."
+      ]
+    },
+    {
+      "id": "as-s121",
+      "kind": "sentence",
+      "native": [
+        "20 মিনিটৰ টাইমাৰ লগাই দিয়া।"
+      ],
+      "roman": [
+        "20 minuter timer logai diya."
+      ]
+    },
+    {
+      "id": "as-s122",
+      "kind": "sentence",
+      "native": [
+        "কেমেৰাটো অন হোৱাই নাই।"
+      ],
+      "roman": [
+        "Camerato on huwai nai."
+      ]
+    },
+    {
+      "id": "as-s123",
+      "kind": "sentence",
+      "native": [
+        "আপোনাৰ দোকানখন বেকাৰীখনৰ আগত নে পাছত পৰে?"
+      ],
+      "roman": [
+        "Apunar dokankhon bakerykhonor agot ne pasot pore?"
+      ]
+    },
+    {
+      "id": "as-s124",
+      "kind": "sentence",
+      "native": [
+        "ৰ'দ ওলালেই ধোৱা কাপোৰবোৰ ছাদত মেলি দিম।"
+      ],
+      "roman": [
+        "R'od olalei dhuwa kapurbor sadot meli dim."
+      ]
+    },
+    {
+      "id": "as-s125",
+      "kind": "sentence",
+      "native": [
+        "চিৰা, দৈ আৰু গুৰ ল'ম, কোমল চাউল নালাগে।"
+      ],
+      "roman": [
+        "Sira, doi aru gur l'om, komol saul nalage."
+      ]
+    },
+    {
+      "id": "as-s126",
+      "kind": "sentence",
+      "native": [
+        "নালাগে, বাকী পইচাখিনি তুমিয়েই ৰাখা।"
+      ],
+      "roman": [
+        "Nalage, baki poisakhini tumiyei rakha."
+      ]
+    },
+    {
+      "id": "as-s127",
+      "kind": "sentence",
+      "native": [
+        "আপোনালোকে নিজৰ নিজৰ কামৰ খবৰ এই গ্ৰুপতে জনাই থাকিব, তেতিয়া বাৰে বাৰে ফোন কৰি থাকিব নালাগিব।"
+      ],
+      "roman": [
+        "Apunaloke nijor nijor kamor khobor ei groupte jonai thakibo, tetiya bare bare phone kori thakibo nalagibo."
+      ]
+    },
+    {
+      "id": "as-s128",
+      "kind": "sentence",
+      "native": [
+        "ধুবুৰীলৈ ইয়াৰ পৰা 45 কিলোমিটাৰ, গাড়ীত প্ৰায় 1 ঘণ্টা লাগিব।"
+      ],
+      "roman": [
+        "Dhuburiloi iyar pora 45 kilometer, garit prai 1 ghonta lagibo."
+      ]
+    },
+    {
+      "id": "as-s129",
+      "kind": "sentence",
+      "native": [
+        "নতুন ঝাড়ু এটা কিনিম।"
+      ],
+      "roman": [
+        "Notun jharu eta kinim."
+      ]
+    },
+    {
+      "id": "as-s130",
+      "kind": "sentence",
+      "native": [
+        "হোৱাটছএপ খুলি শেষৰ মেছেজটো পঢ়ি শুনাই দিয়া।"
+      ],
+      "roman": [
+        "WhatsApp khuli xexor messageto porhi xunai diya."
+      ]
+    },
+    {
+      "id": "as-s131",
+      "kind": "sentence",
+      "native": [
+        "ক্লাছৰ নোটবোৰ টেবলেটত লিখি ভাল পাওঁ, ভুল হ'লে মচিবলৈ সহজ আৰু কাগজো কম খৰচ হয়।"
+      ],
+      "roman": [
+        "Classor notebor tabletot likhi bhal pau, bhul h'ole mosiboloi xohoj aru kagojo kom khoros hoi."
+      ]
+    },
+    {
+      "id": "as-s132",
+      "kind": "sentence",
+      "native": [
+        "কাইলৈ দীঘলীপুখুৰীৰ পাৰত বহি অলপ আড্ডা দিম নেকি?"
+      ],
+      "roman": [
+        "Kailoi Dighalipukhurir parot bohi olop adda dim neki?"
+      ]
+    },
+    {
+      "id": "as-s133",
+      "kind": "sentence",
+      "native": [
+        "লেখাটোৰ শিৰোনামটো মোৰ পছন্দ হৈছে।"
+      ],
+      "roman": [
+        "Lekhator xironamto mor posondo hoise."
+      ]
+    },
+    {
+      "id": "as-s134",
+      "kind": "sentence",
+      "native": [
+        "ওজনটো 750 গ্ৰাম হ'ব।"
+      ],
+      "roman": [
+        "Ojonto 750 gram h'obo."
+      ]
+    },
+    {
+      "id": "as-s135",
+      "kind": "sentence",
+      "native": [
+        "মঙলদৈৰ হোটেলখনত কোঠা বুকিং কৰাৰ আগতে দামটো সুধি ল'ব লাগিব।"
+      ],
+      "roman": [
+        "Mangaldoir hotelkhonot kotha booking korar agote damto xudhi l'obo lagibo."
+      ]
+    },
+    {
+      "id": "as-s136",
+      "kind": "sentence",
+      "native": [
+        "যোৰহাটৰ তাৰকাগৃহটো দেওবাৰে কিমান বজাৰ পৰা খোলা থাকে?"
+      ],
+      "roman": [
+        "Jorhator tarokagrihoto deobare kiman bojar pora khola thake?"
+      ]
+    },
+    {
+      "id": "as-s137",
+      "kind": "sentence",
+      "native": [
+        "মোৰ বাবে ভাত অলপ ৰাখিবা।"
+      ],
+      "roman": [
+        "Mor babe bhat olop rakhiba."
+      ]
+    },
+    {
+      "id": "as-s138",
+      "kind": "sentence",
+      "native": [
+        "ছুটীৰ আবেদনখন দিছোঁ, আপোনাৰ অনুমতি পালে টিকট কাটিম।"
+      ],
+      "roman": [
+        "Sutir abedonkhon disu, apunar onumoti pale ticket katim."
+      ]
+    },
+    {
+      "id": "as-s139",
+      "kind": "sentence",
+      "native": [
+        "ৰেলখন 40 মিনিট পলম। আমি পুৱা 11:25 বজাৰ সলনি দুপৰীয়া 12:05 বজাতহে ষ্টেচন পামগৈ।"
+      ],
+      "roman": [
+        "Railkhon 40 minute polom. Ami puwa 11:25 bojar xoloni duporiya 12:05 bojathe station pamgoi."
+      ]
+    },
+    {
+      "id": "as-s140",
+      "kind": "sentence",
+      "native": [
+        "বিহুৰ আখৰালৈ ওলালে মোকো মাতিবা, একেলগে খোজকাঢ়ি যাম।"
+      ],
+      "roman": [
+        "Bihur akhoraloi olale moko matiba, ekeloge khojkarhi jam."
+      ]
+    },
+    {
+      "id": "as-s141",
+      "kind": "sentence",
+      "native": [
+        "চোলাৰ বুটামটো ময়েই লগাই দিম।"
+      ],
+      "roman": [
+        "Solar butamto moyei logai dim."
+      ]
+    },
+    {
+      "id": "as-s142",
+      "kind": "sentence",
+      "native": [
+        "মিতালীয়ে পুথিভঁৰালৰ পৰা অনা কিতাপখন পঢ়ি আছোঁ, কাহিনীবোৰ চুটি হোৱা কাৰণে শুবৰ আগতে পঢ়িবলৈ ভাল।"
+      ],
+      "roman": [
+        "Mitaliye puthibhoralor pora ona kitapkhon porhi asu, kahinibor suti huwa karone xubor agote porhiboloi bhal."
+      ]
+    },
+    {
+      "id": "as-s143",
+      "kind": "sentence",
+      "native": [
+        "ৰিমঝিমে পঠিওৱা ফটোখন দেখি হাঁহি ৰখাব পৰা নাই।"
+      ],
+      "roman": [
+        "Rimjhime pothiuwa photokhon dekhi hahi rokhab pora nai."
+      ]
+    },
+    {
+      "id": "as-s144",
+      "kind": "sentence",
+      "native": [
+        "শুনা, তোমালোকে আগতে খাই লোৱা। মোৰ মিটিং শেষ হোৱালৈ দেৰি হ'ব, আহি নিজেই গৰম কৰি খাম।"
+      ],
+      "roman": [
+        "Xuna, tumaloke agote khai luwa. Mor meeting xex huwaloi deri h'obo, ahi nijei gorom kori kham."
+      ]
+    },
+    {
+      "id": "as-s145",
+      "kind": "sentence",
+      "native": [
+        "আজি গণেশগুৰিত তোমাৰ বাইদেউক লগ পালোঁ। তেওঁ নতুন দোকান এখন খুলিছে, সময় পালে সোমাবলৈ কৈছে।"
+      ],
+      "roman": [
+        "Aji Ganeshgurit tumar baideuk log palu. Teon notun dukan ekhon khulise, xomoy pale xumaboloi koise."
+      ]
+    },
+    {
+      "id": "as-s146",
+      "kind": "sentence",
+      "native": [
+        "বাইদেউ, আজি তোমালৈ বৰ মনত পৰিছে।"
+      ],
+      "roman": [
+        "Baideu, aji tumaloi bor monot porise."
+      ]
+    }
+  ]
+}

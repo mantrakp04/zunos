@@ -1,0 +1,1484 @@
+{
+  "lang": "sn",
+  "starter": [
+    "sn-s046",
+    "sn-s053",
+    "sn-s076",
+    "sn-s005",
+    "sn-s024",
+    "sn-s155",
+    "sn-s066",
+    "sn-s006",
+    "sn-s148",
+    "sn-s033",
+    "sn-s115",
+    "sn-s019",
+    "sn-s154",
+    "sn-s093",
+    "sn-s062",
+    "sn-s153",
+    "sn-s082",
+    "sn-s029",
+    "sn-s061",
+    "sn-s112",
+    "sn-p03",
+    "sn-s098",
+    "sn-s009",
+    "sn-s075",
+    "sn-s052",
+    "sn-s085",
+    "sn-s026",
+    "sn-s036",
+    "sn-s118",
+    "sn-s054",
+    "sn-s090",
+    "sn-s017",
+    "sn-s150",
+    "sn-s014",
+    "sn-s145",
+    "sn-s041",
+    "sn-s034",
+    "sn-s035",
+    "sn-s048",
+    "sn-s105",
+    "sn-p01",
+    "sn-s086",
+    "sn-s135",
+    "sn-s158",
+    "sn-s131",
+    "sn-s074",
+    "sn-s110",
+    "sn-s038",
+    "sn-s023",
+    "sn-s051",
+    "sn-s139",
+    "sn-s159",
+    "sn-s132",
+    "sn-s096",
+    "sn-s010",
+    "sn-s111",
+    "sn-s012",
+    "sn-s113",
+    "sn-s091",
+    "sn-s087",
+    "sn-s125"
+  ],
+  "items": [
+    {
+      "id": "sn-p01",
+      "kind": "para",
+      "title": "Our New Puppy",
+      "native": [
+        "Tariro, kumba kwedu kuZengeza tava nembwanana ine makwapa matema.",
+        "Takatora imbwanana yedu nezuro, vana vakabva vaitumidza kuti Bhobho.",
+        "Mangwanani Bhobho inonditevera kwese, kunyange ndichingobuda kunotora mutsvairo.",
+        "Paidamoyo akawaridzira imbwanana kagumbeze mukona yekicheni, pedyo nemusuwo.",
+        "Asi Bhobho inongoda kurara pedyo neshangu dzangu dzebasa.",
+        "Nhasi imbwanana yedu yatora bhora revana ikahwanda naro pasi petafura.",
+        "Vana vamboseka pavakaona imbwanana ichiedza kusunda bhora nemhino yayo.",
+        "Ndichakutumira mufananidzo wembwanana yedu paWhatsApp kana yambomira kumhanya muchivanze.",
+        "Ukauya neMugovera, uchaonawo imbwanana yedu itsva."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-p02",
+      "kind": "para",
+      "title": "Feedback on Order Tracking",
+      "native": [
+        "Mangwanani, ndaverenga zvataurwa nevatengi vekuMutare nezvechikamu chitsva paapp yedu.",
+        "Vatengi vazhinji vafarira kukwanisa kuona kuti odha yavo yasvika papi.",
+        "Rumbidzai Dube ati mashoko ari paapp yedu ari nyore kuverenga.",
+        "Vamwe vatengi vati vari kunetseka kuwana help button paapp yedu.",
+        "Pane vatengi vatatu vati app inononoka kana network isina kusimba.",
+        "Takudzwa, isai help button pedyo nenhamba yeodha kuti ikurumidze kuoneka.",
+        "Ndapota, edzaiwo app yedu pane phone isingabati network zvakanaka.",
+        "Tinoda kupedza kugadzirisa app neChishanu, tisati tatumira update kuvatengi.",
+        "Nditumirei list yezvamunenge magadzirisa muapp na2 masikati kuti ndigozivisa chikwata chedu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-p03",
+      "kind": "para",
+      "title": "Dinner During a Power Cut",
+      "native": [
+        "NeChipiri manheru, magetsi akadzima tichigadzirira kudya kumba kwedu kuHighfield.",
+        "Rudo akanga achiaina yunifomu, ini ndichisvuura mbatatisi.",
+        "Magetsi paakadzima, mwana wangu akati haachaoni zvaainyora mubhuku rake.",
+        "Ndakatsvaga tochi mudhirowa, asi mabhatiri acho akanga apera.",
+        "Tawanda akatibatidzira mwenje wephone, tikazowana makenduru pamusoro pekabhodhi.",
+        "Takazobika mbatatisi pachitofu chegasi.",
+        "Rudo akapeta yunifomu yake, ndokuuya kuzobatsira kucheka matomatisi.",
+        "Takazodya patafura takavhenekerwa nemakenduru.",
+        "Magetsi akazodzoka tapedza kudya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-p04",
+      "kind": "para",
+      "title": "Making Sadza at Home",
+      "native": [
+        "Kumba kwedu kuMasvingo tinowanzobika sadza rechibage kana mhuri yaungana.",
+        "Tanga waisa mvura muhari, woirega ichifashaira.",
+        "Mukapu, sanganisa hupfu hushoma nemvura inotonhora kusvikira pasisina mapundu.",
+        "Dururira hupfu hwawasanganisa nemvura muhari, uchikurunga nemugoti.",
+        "Rega bota rikwate kwemaminitsi 10, uchipota uchikurunga kuti risatsva.",
+        "Wedzera hupfu zvishoma nezvishoma, uchimona nemugoti kusvikira sadza ratanga kukora.",
+        "Fukidza hari, udzikise moto, worega sadza richinyatsoibva kwemaminitsi mashanu.",
+        "Mona sadza zvakare kuti rinyatsotsetseka.",
+        "Chibura sadza mundiro, woridya richipisa nederere kana nemuriwo wemunyemba."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-p05",
+      "kind": "para",
+      "title": "My New Phone",
+      "native": [
+        "Ndakatenga phone itsva yeSamsung muchitoro chiri pakati peChinhoyi.",
+        "Ndanga ndisingadi phone inodhura, asi ndaida ine camera yakanaka.",
+        "Camera yacho yakatora mifananidzo yakanaka patakashanyira mapako ekuChinhoyi nemhuri yangu.",
+        "Bhatiri rephone iyi rinogara zuva rose ndisina kuichaja.",
+        "Ndinonzwa vanhu zvakanaka pandinofona paWhatsApp, kunyange ndiri panze paine ruzha.",
+        "Chandisingafariri ndechekuti phone yacho yakakura, saka haikwani zvakanaka muhomwe.",
+        "Zvakanditorera nguva kujaira keyboard yephone itsva pandainyora message kuna Rudo.",
+        "Handidembi kutenga phone iyi. Inondibatsira pabasa nepamba.",
+        "Phone iyi yakanakira munhu anoda bhatiri rinogara kwenguva refu uye asinganetseki nekukura kwayo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-p06",
+      "kind": "para",
+      "title": "Kitchen Renovation Plans",
+      "native": [
+        "Tichatanga kugadzirisa kicheni yedu kuNorton musi wa12 Gunyana 2026.",
+        "Ndichaisa parutivi US$600 yekugadzirisa kicheni yose, kusanganisira mubhadharo wevashandi.",
+        "Makabhati matsva achaita US$240, asi tichasiya sherufu yekare iripo.",
+        "Tinoda mabhokisi 6 emataira, rimwe nerimwe richidhura US$18.",
+        "Chitoro chemataira chiri makiromita 4 kubva kumba kwedu kuKatanga.",
+        "Muvezi achauya na8 mangwanani, oisa makabhati kusvika na3 masikati.",
+        "Anogadzira pombi achada US$50 kuti aise singi itsva.",
+        "Ndichatenga marambi 2, rimwe nerimwe risingapfuuri US$15 muchitoro chemagetsi.",
+        "Tinofanira kupedza basa musi wa15 Gunyana 2026, tisati tagamuchira vaenzi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-p07",
+      "kind": "para",
+      "title": "Reporting an Unstable Connection",
+      "native": [
+        "Mangwanani, ndiri kukumbirawo rubatsiro painternet yepamba pangu kuMkoba muGweru.",
+        "Internet yacho yave nemazuva matatu ichingodambuka, kunyanya nguva dzemanheru.",
+        "Ndinombokwanisa kupinda mumusangano wepabasa, asi ndobva ndabudiswa internet painodambuka.",
+        "Ndakambodzima router ndokuibatidzazve, asi internet yakaramba ichingodambuka sezvayaiita.",
+        "Mwenje weparouter unoramba wakabatidzwa, kunyange internet yacho isiri kushanda.",
+        "Mungatarisawo here kuti dambudziko racho riri panetwork here kana parouter?",
+        "Ndinoda kuziva kana muchikwanisa kutumira munhu kuzotarisa tambo dzacho.",
+        "Mangwana ndinenge ndiri pamba kubva na10 mangwanani kusvika na2 masikati.",
+        "Ndapota munditumire message kana mawana dambudziko, ndigoziva kuti ndoita sei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-p08",
+      "kind": "para",
+      "title": "Netball and Its Supporters",
+      "native": [
+        "Zvikwata zvezvikoro nezvemunharaunda zvinokwikwidzana pamitambo yenetball kuMutoko.",
+        "Chikwata chimwe nechimwe chine vatambi 7 vanenge vari munhandare.",
+        "Vatambi vanokandirana bhora vachitsvaga mukana wekuripinza mumambure.",
+        "Vatambi vanoshevedzerana vachikumbirana bhora.",
+        "Vatsigiri vanowanzouya nemhuri dzavo vogara pedyo nenhandare kuti vaone zvakanaka.",
+        "Bhora parinopinda mumambure, vatsigiri vanobva vaombera vachipembera.",
+        "Panguva yekuzorora, vamwe vanotenga maputi nemvura kune vatengesi vepedyo.",
+        "Vadzidzisi nevarairidzi vanodzidzisa vechidiki mitemo yenetball uye kuremekedza vamwe vatambi.",
+        "Vagari vanosangana pamakwikwi aya vachitsigira zvikwata zvavo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s001",
+      "kind": "sentence",
+      "native": [
+        "Wava shasha yekunonoka!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s002",
+      "kind": "sentence",
+      "native": [
+        "Maita basa nekundipindura."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s003",
+      "kind": "sentence",
+      "native": [
+        "Muemail yandatumira mune file rine mapeji 36, asi printa mapeji 30 ekutanga chete."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s004",
+      "kind": "sentence",
+      "native": [
+        "Pakudzoka kubva kuMsasa, ndichapfuura nepachitoro chemapuranga kunobvunza mutengo wepuranga resherufu yemukicheni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s005",
+      "kind": "sentence",
+      "native": [
+        "Deredza kupenya kwescreen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s006",
+      "kind": "sentence",
+      "native": [
+        "Software iyi inoda update ndisati ndatumira invoice."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s007",
+      "kind": "sentence",
+      "native": [
+        "Munoziva here panogadziriswa mabhasikoro pedyo nepano?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s008",
+      "kind": "sentence",
+      "native": [
+        "Mungandidzikisirawo mutengo wegumbeze iri?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s009",
+      "kind": "sentence",
+      "native": [
+        "Toenda kuBulawayo neChishanu, aiwa, neChina svondo rino."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s010",
+      "kind": "sentence",
+      "native": [
+        "Ndafara kuti wakazopasa bvunzo yawanga uchityira kubva pakutanga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s011",
+      "kind": "sentence",
+      "native": [
+        "Wadzanai, mbesa dzawakatipa dzatobudisa mashizha matsva."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s012",
+      "kind": "sentence",
+      "native": [
+        "Makadii, ndine mubvunzo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s013",
+      "kind": "sentence",
+      "native": [
+        "Ndakagara pachigaro chenhamba 23."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s014",
+      "kind": "sentence",
+      "native": [
+        "Hupfu hwechibage hwava hushoma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s015",
+      "kind": "sentence",
+      "native": [
+        "Fonera Nyasha Mutasa izvozvi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s016",
+      "kind": "sentence",
+      "native": [
+        "Pakombiyuta yepahofisi yedu kuChitungwiza hapana nzvimbo yekuisa imwe program."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s017",
+      "kind": "sentence",
+      "native": [
+        "Ndakamira panze pehofisi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s018",
+      "kind": "sentence",
+      "native": [
+        "Mudzidzisi akumbira kuti mwana auye nekabhuku kekudhirowa mangwana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s019",
+      "kind": "sentence",
+      "native": [
+        "Nhai, mvura yapera here?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s020",
+      "kind": "sentence",
+      "native": [
+        "Waita hako nekundimirira."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s021",
+      "kind": "sentence",
+      "native": [
+        "Handichakwanisi kuuya kuzokubatsira kurongedza nhasi, asi ndinogona kupfuura kwauri mangwana kana uchinge wavapo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s022",
+      "kind": "sentence",
+      "native": [
+        "Vashanyi vekuBindura vachasvika na2 masikati, saka gadzirirai nzvimbo yekuti vagare vachimirira kutanga kwehurukuro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s023",
+      "kind": "sentence",
+      "native": [
+        "Kana ukakamura 48 ne6, mhinduro yacho inova 8."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s024",
+      "kind": "sentence",
+      "native": [
+        "Kudakwashe achauya kuzodzidzira gitare neChipiri na5 manheru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s025",
+      "kind": "sentence",
+      "native": [
+        "Ndiratidze nzira yekuenda kuChinhoyi Caves kubva pano."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s026",
+      "kind": "sentence",
+      "native": [
+        "Simbarashe, ita scan yemapepa aya woachengeta pamwe chete."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s027",
+      "kind": "sentence",
+      "native": [
+        "Burukai pamharadzano, mozofamba netsoka kusvika pachigayo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s028",
+      "kind": "sentence",
+      "native": [
+        "Hwindo remukicheni harichavhariki zvakanaka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s029",
+      "kind": "sentence",
+      "native": [
+        "Kwete, ndakumbira chipunu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s030",
+      "kind": "sentence",
+      "native": [
+        "Zvamasona izvi zvinoyevedza."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s031",
+      "kind": "sentence",
+      "native": [
+        "Ndati ndikuzivise kuti tichanonoka zvishoma, mwana achiri kutsvaga shangu yake yaakasiya pasi pemubhedha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s032",
+      "kind": "sentence",
+      "native": [
+        "Chikumbiro chenyu chezororo ndachibvuma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s033",
+      "kind": "sentence",
+      "native": [
+        "Takatenga matomatisi eUS$3 nemagaka eUS$2 kuSakubva."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s034",
+      "kind": "sentence",
+      "native": [
+        "Ndinofanira kutenga bepa rekuputira zvipo kuSPAR nhasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s035",
+      "kind": "sentence",
+      "native": [
+        "Wedzera volume zvishoma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s036",
+      "kind": "sentence",
+      "native": [
+        "Makanganwa kubatidza microphone yenyu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s037",
+      "kind": "sentence",
+      "native": [
+        "Hanzvadzi yangu inochovha ichienda kukoreji mazuva ose."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s038",
+      "kind": "sentence",
+      "native": [
+        "PaHarare Gardens pachange paine mutambo wevana, saka tichaenda nezvekudya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s039",
+      "kind": "sentence",
+      "native": [
+        "Zivisai Sekuru Nkomo kuti tave kusangana masikati, kwete mangwanani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s040",
+      "kind": "sentence",
+      "native": [
+        "KuNyanga ndakazorodza pfungwa. Ndakanga ndava nenguva ndisina kuzorora zvakadaro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s041",
+      "kind": "sentence",
+      "native": [
+        "Ndisiyirewo sadza remanheru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s042",
+      "kind": "sentence",
+      "native": [
+        "Ropafadzo ati client anoda kuona sample dzemachira acho asati asarudza ruvara rwaanoda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s043",
+      "kind": "sentence",
+      "native": [
+        "Tangi rinozara nemarita 500."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s044",
+      "kind": "sentence",
+      "native": [
+        "Chengeta zita rependi yatashandisa mumba yekutandarira kuti ndizoziva yekutenga kana yapera."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s045",
+      "kind": "sentence",
+      "native": [
+        "Verenga message yandatumirwa nasisi vangu paWhatsApp zvinonzwika."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s046",
+      "kind": "sentence",
+      "native": [
+        "Excel yaverenga mari zvisizvo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s047",
+      "kind": "sentence",
+      "native": [
+        "Chiedza, ndichakusiya paWestgate ndodzoka kuzokutora kana wapedza kutenga zvaunoda kuchitoro chemidziyo yemumba."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s048",
+      "kind": "sentence",
+      "native": [
+        "Nguva yekutora zviyero zverokwe rangu yachinja, ndava kuenda masikati."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s049",
+      "kind": "sentence",
+      "native": [
+        "Zvanzi bvunzo dzatanga here, kana kuti vachiri kugadzirira?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s050",
+      "kind": "sentence",
+      "native": [
+        "Handichazvienzanisi nevamwe sezvandaiita kare, nokuti ndava kuona kuti munhu wese ane nguva yake."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s051",
+      "kind": "sentence",
+      "native": [
+        "Sekai atiunzira nzungu dzichangobva kumunda nhasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s052",
+      "kind": "sentence",
+      "native": [
+        "Tapedza kugadzirisa network, munhu wese anogona kudzokera pabasa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s053",
+      "kind": "sentence",
+      "native": [
+        "Keke iri rinoita US$18."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s054",
+      "kind": "sentence",
+      "native": [
+        "Isa mutakura palist yezvekubika svondo rino."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s055",
+      "kind": "sentence",
+      "native": [
+        "Tsvaga mabikirwo emupotohayi ari nyore kutevedzera asingadi zvinhu zvakawanda kana nguva yakareba."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s056",
+      "kind": "sentence",
+      "native": [
+        "Chipo ati tikurise mavara epresentation kuti vanhu vakagara kumashure vaone zviri nyore."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s057",
+      "kind": "sentence",
+      "native": [
+        "Ndingasiyawo bhegi rangu kwamuri ndichinotenga tikiti here?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s058",
+      "kind": "sentence",
+      "native": [
+        "Munyu wawandisa musobho umu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s059",
+      "kind": "sentence",
+      "native": [
+        "Ko Choppies inovhara nenguvai musi weMugovera manheru?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s060",
+      "kind": "sentence",
+      "native": [
+        "Vimbai, usaore mwoyo, uchazvigona kana waramba uchiedza."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s061",
+      "kind": "sentence",
+      "native": [
+        "Titumirewo mashoko erwiyo rwataimbonzwa tichiri vadiki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s062",
+      "kind": "sentence",
+      "native": [
+        "VaSithole vadzosa yunifomu nekuti maoko ayo mapfupi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s063",
+      "kind": "sentence",
+      "native": [
+        "Tumirai pasuru yangu panhamba 16, Josiah Chinamano Avenue, nguva dza9 mangwanani dzisati dzakwana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s064",
+      "kind": "sentence",
+      "native": [
+        "Ndichanorukwa bvudzi kuAvondale musi wa18 Gunyana 2026 na8 mangwanani. Ndiyeuchidzewo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s065",
+      "kind": "sentence",
+      "native": [
+        "Vhura kamera yekumberi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s066",
+      "kind": "sentence",
+      "native": [
+        "Usape mumwe munhu password yako."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s067",
+      "kind": "sentence",
+      "native": [
+        "Tosangana pamusuwo webhangi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s068",
+      "kind": "sentence",
+      "native": [
+        "Mubhedha uyu wakapamhama chaizvo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s069",
+      "kind": "sentence",
+      "native": [
+        "Ndinotenga mafuta, shuga, tii nekofi chete nhasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s070",
+      "kind": "sentence",
+      "native": [
+        "Ndine urombo nekukukanganisa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s071",
+      "kind": "sentence",
+      "native": [
+        "Handina kuzokupindura nezuro nekuti ndakakotsira ndichiteerera voice note yako, usafunga kuti ndakakanganwa nezvako."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s072",
+      "kind": "sentence",
+      "native": [
+        "Budget yekutenga macheya yabvumirwa, asi matafura achazomirira."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s073",
+      "kind": "sentence",
+      "native": [
+        "Nditengerewo data reUS$8 panhamba 0773 000 426."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s074",
+      "kind": "sentence",
+      "native": [
+        "Nyorawo zuva rekuongorora motokari."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s075",
+      "kind": "sentence",
+      "native": [
+        "Bvisa zvandanyora musearch box, asi usavhara peji racho."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s076",
+      "kind": "sentence",
+      "native": [
+        "Mouse yangu haisi kuita click."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s077",
+      "kind": "sentence",
+      "native": [
+        "Vatyairi vemabhazi vanoti mugwagwa wekumusha wagadzirwa, saka rwendo rwacho haruchatori nguva yakareba."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s078",
+      "kind": "sentence",
+      "native": [
+        "Zuva rabuda, asi machira aya haasati aoma. Ndichamboasiya patambo kusvikira tadzoka kubva kumusika."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s079",
+      "kind": "sentence",
+      "native": [
+        "Pamusoroi, ndaireva tauro rebhuruu, kwete jira rekupukuta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s080",
+      "kind": "sentence",
+      "native": [
+        "Nhopi iyi yandiyeuchidza madyiro ataiita tiri vadiki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s081",
+      "kind": "sentence",
+      "native": [
+        "Wadya here nhasi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s082",
+      "kind": "sentence",
+      "native": [
+        "Attachment yamakaisa paemail haivhuriki, ndapota itumirei zvakare."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s083",
+      "kind": "sentence",
+      "native": [
+        "Muzukuru wangu ava nemakore 7."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s084",
+      "kind": "sentence",
+      "native": [
+        "Ndinofanira kusona bhatani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s085",
+      "kind": "sentence",
+      "native": [
+        "Misa vhidhiyo yandiri kuona."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s086",
+      "kind": "sentence",
+      "native": [
+        "Account yangu iri kuramba code yandatumirwa nemessage."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s087",
+      "kind": "sentence",
+      "native": [
+        "Kombi yenyu inomira papi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s088",
+      "kind": "sentence",
+      "native": [
+        "Dai mvura yambomira kuti ndiende kunotora hupfu kuchigayo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s089",
+      "kind": "sentence",
+      "native": [
+        "Tora sando hombe, imbomira, diki ndiyo inokwana mubhokisi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s090",
+      "kind": "sentence",
+      "native": [
+        "Ruzha rwemuchina uyu rwandinetesa, handichakwanisi kuisa pfungwa pabasa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s091",
+      "kind": "sentence",
+      "native": [
+        "Hembe dzako dzandikwana!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s092",
+      "kind": "sentence",
+      "native": [
+        "Pfungwa yekutamisa kabati yakanaka, asi ngatitange tabvisa madhoo aro kuti ripinde pamusuwo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s093",
+      "kind": "sentence",
+      "native": [
+        "Bhatiri rangu rasara ne15%."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s094",
+      "kind": "sentence",
+      "native": [
+        "Ndozobvunza kuti marara anotakurwa kangani pamwedzi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s095",
+      "kind": "sentence",
+      "native": [
+        "Ridza nziyo dzaOliver Mtukudzi dziri mufoni mangu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s096",
+      "kind": "sentence",
+      "native": [
+        "Backup yapera pasina dambudziko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s097",
+      "kind": "sentence",
+      "native": [
+        "Pamuchasvika pamuti mukuru, rambai muchitevedza ruzhowa kusvikira maona imba ine denga dzvuku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s098",
+      "kind": "sentence",
+      "native": [
+        "Bhutsu dzechikoro dziri kutengeswa neUS$12 kuchitoro chitsva chiri pedyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s099",
+      "kind": "sentence",
+      "native": [
+        "Parwendo urwu tinoda matende, mapiro nemagumbeze, mira, wedzerawo tambo yekuturika hembe dzanyorova."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s100",
+      "kind": "sentence",
+      "native": [
+        "Ngatiende kuLake Chivero kunofurwa nemhepo masikati ano."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s101",
+      "kind": "sentence",
+      "native": [
+        "Endererai mberi nehurongwa hwenyu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s102",
+      "kind": "sentence",
+      "native": [
+        "Kosi yekusona inotanga musi wa12 Ndira 2027, ichipera musi wa26 Kukadzi wegore iroro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s103",
+      "kind": "sentence",
+      "native": [
+        "Ndisakanganwa kudzosera amburera."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s104",
+      "kind": "sentence",
+      "native": [
+        "Kunze kuchange kuchipisa zvakadii kuMasvingo neMuvhuro?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s105",
+      "kind": "sentence",
+      "native": [
+        "Rutendo, link yeZoom yanhasi iri mugroup rebasa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s106",
+      "kind": "sentence",
+      "native": [
+        "VaMoyo vachatitora kuMarondera kana vabva kumunda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s107",
+      "kind": "sentence",
+      "native": [
+        "Mai Dube vari kuitira mwanasikana wavo mabiko ekupedza chikoro. Vakumbira kuti tiuye nemadhishi edu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s108",
+      "kind": "sentence",
+      "native": [
+        "Ndanga ndichida kubika nhasi, asi regai, ngatidye zvakasara kubva nezuro zvisati zvashata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s109",
+      "kind": "sentence",
+      "native": [
+        "Kana wasvika kuchitoro, nditorerewo chingwa nemazai matanhatu, ndichakudzosera mari yacho paEcoCash kana wadzoka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s110",
+      "kind": "sentence",
+      "native": [
+        "Sibusiso achatibatsira kuverenga zvinhu zvakasara mudura tisati taodha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s111",
+      "kind": "sentence",
+      "native": [
+        "Chikwata chedu chakakunda ne6-0 pamutambo weSvondo masikati."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s112",
+      "kind": "sentence",
+      "native": [
+        "Ndiisire reminder yekudzorera mabhuku kuraibhurari na3 masikati."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s113",
+      "kind": "sentence",
+      "native": [
+        "Dzosera file randabvisa pakombiyuta nhasi mangwanani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s114",
+      "kind": "sentence",
+      "native": [
+        "PaWord unogona kuenzanisa magwaro maviri woona pakachinjwa mashoko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s115",
+      "kind": "sentence",
+      "native": [
+        "Tendai atamira kuDzivarasekwa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s116",
+      "kind": "sentence",
+      "native": [
+        "Katsi yedu yavanda kupi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s117",
+      "kind": "sentence",
+      "native": [
+        "Pamela, zororo rinotanga rinhi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s118",
+      "kind": "sentence",
+      "native": [
+        "KuMbare ndichasvika na9 mangwanani, wondimirira pachiteshi here?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s119",
+      "kind": "sentence",
+      "native": [
+        "Musati mapedza report yemwedzi uno, onai kuti mari yose yakapinda yakanyorwa nemazvo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s120",
+      "kind": "sentence",
+      "native": [
+        "Rwendo rwekuGweru rwatora maawa 4 nemaminitsi 35."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s121",
+      "kind": "sentence",
+      "native": [
+        "Ndisati ndarara, ndinoda kuchinja password yeemail yangu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s122",
+      "kind": "sentence",
+      "native": [
+        "Shandura mashoko ari pamufananidzo uyu kubva kuchiFrench kuenda kuchiShona ndisina kuanyora patsva."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s123",
+      "kind": "sentence",
+      "native": [
+        "Mungandipawo mvumo yekugadzirisa gwaro ratiri kushandisa tese here?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s124",
+      "kind": "sentence",
+      "native": [
+        "Fungai, huyai kuzoona muzukuru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s125",
+      "kind": "sentence",
+      "native": [
+        "KuMufakose kune anotengesa hari dzakanaka pedyo nemusika."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s126",
+      "kind": "sentence",
+      "native": [
+        "Muodha yangu isai mapaketi 4 embeu. Ndakanganisa, itai 6 nekuti ndawedzera nzvimbo yekudyara."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s127",
+      "kind": "sentence",
+      "native": [
+        "Ambuya, muri kuronga kushanya kwatiri musi upi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s128",
+      "kind": "sentence",
+      "native": [
+        "Pamain page panofanira kuoneka nhamba yekufonera kambani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s129",
+      "kind": "sentence",
+      "native": [
+        "Mune bhurugwa resaizi 38 here?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s130",
+      "kind": "sentence",
+      "native": [
+        "Ndichasiya bhegi randinoenda naro kunotenga pedyo nemusuwo kuti ndisarikanganwa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s131",
+      "kind": "sentence",
+      "native": [
+        "Chinja mutauro wekeyboard kuti ndinyore nechiShona."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s132",
+      "kind": "sentence",
+      "native": [
+        "Headphones idzi dzinoshanda chete kana tambo yakabatwa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s133",
+      "kind": "sentence",
+      "native": [
+        "Muchato waTinashe uchaitirwa kuGreendale neMugovera unouya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s134",
+      "kind": "sentence",
+      "native": [
+        "Ruvimbo, uya nerupiza paunouya kuzodya nesu nhasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s135",
+      "kind": "sentence",
+      "native": [
+        "Mbambaira idzi dzatengwa kupi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s136",
+      "kind": "sentence",
+      "native": [
+        "Ungandikweretesawo manera ako here?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s137",
+      "kind": "sentence",
+      "native": [
+        "Tingashandisa bepa risina mitsetse here pakudhinda zvitupa izvi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s138",
+      "kind": "sentence",
+      "native": [
+        "Ndabhadhara neUS$20 pazvinhu zveUS$13, saka change yangu inofanira kuva US$7, kwete US$5."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s139",
+      "kind": "sentence",
+      "native": [
+        "Mangwana ndinotora shangu dzangu dzakagadzirwa kuMachipisa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s140",
+      "kind": "sentence",
+      "native": [
+        "Ndingawana kupi chitoro chinotengesa midziyo yekusona kuKadoma?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s141",
+      "kind": "sentence",
+      "native": [
+        "Ndabatanidza mapepa nestapler kuti asapararira patafura."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s142",
+      "kind": "sentence",
+      "native": [
+        "Hatichashandisi gedhi rekumashure, pindai nepanopinda motokari chete."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s143",
+      "kind": "sentence",
+      "native": [
+        "Risiti remagetsi riri mudhirowa repamusoro pedyo nechitofu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s144",
+      "kind": "sentence",
+      "native": [
+        "Ndifonere kana wasununguka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s145",
+      "kind": "sentence",
+      "native": [
+        "Parizvino printer haisi kushanda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s146",
+      "kind": "sentence",
+      "native": [
+        "Chekai jira remamita 13, rakafara mita 1 chete."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s147",
+      "kind": "sentence",
+      "native": [
+        "Pakupera kwemwedzi ndinofanira kubhadhara mari yekutamba tenisi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s148",
+      "kind": "sentence",
+      "native": [
+        "Batidza Bluetooth pafoni yangu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s149",
+      "kind": "sentence",
+      "native": [
+        "VaMushonga, mutengo uri painvoice wakasiyana newatakabvumirana. Mungatarisazve here monditumira ine mari chaiyo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s150",
+      "kind": "sentence",
+      "native": [
+        "Ndasvika kumba zvakanaka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s151",
+      "kind": "sentence",
+      "native": [
+        "Bika mupunga kwemaminitsi 20, wozourega wakafukidzwa kwemamwe 5."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s152",
+      "kind": "sentence",
+      "native": [
+        "Chii chinoita kuti pombi yemukicheni irambe ichidonhedza mvura kana ndatoivhara zvakasimba?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s153",
+      "kind": "sentence",
+      "native": [
+        "Chaja yangu waiisepi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s154",
+      "kind": "sentence",
+      "native": [
+        "Rudo achasvitsa makore 32 musi wa19 Nyamavhuvhu 2026."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s155",
+      "kind": "sentence",
+      "native": [
+        "Tanga timer yemaminitsi 17 kubva izvozvi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s156",
+      "kind": "sentence",
+      "native": [
+        "Zviri nani tidzosere ketera iyi kuchitoro, chivharo chayo hachinyatsovhariki kunyange tikachitsikirira nemaoko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s157",
+      "kind": "sentence",
+      "native": [
+        "Farai ati achatiperekedza kunoona bhora neMugovera masikati."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s158",
+      "kind": "sentence",
+      "native": [
+        "Tarisa muhomwe yebhegi rako, ndimo mune makiyi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s159",
+      "kind": "sentence",
+      "native": [
+        "Ndatengera vana masawu, vachadya kana vabva kuchikoro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sn-s160",
+      "kind": "sentence",
+      "native": [
+        "Tariro, uchauya kuzotora bhachi rako rinhi?"
+      ],
+      "roman": null
+    }
+  ]
+}

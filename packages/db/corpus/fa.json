@@ -1,0 +1,1652 @@
+{
+  "lang": "fa",
+  "starter": [
+    "fa-s031",
+    "fa-s096",
+    "fa-s028",
+    "fa-s023",
+    "fa-s090",
+    "fa-s007",
+    "fa-s017",
+    "fa-s088",
+    "fa-s116",
+    "fa-s002",
+    "fa-s049",
+    "fa-s008",
+    "fa-s030",
+    "fa-s073",
+    "fa-s012",
+    "fa-s134",
+    "fa-s131",
+    "fa-p07",
+    "fa-s069",
+    "fa-s041",
+    "fa-s027",
+    "fa-s097",
+    "fa-s080",
+    "fa-s025",
+    "fa-s075",
+    "fa-s001",
+    "fa-s014",
+    "fa-s110",
+    "fa-s099",
+    "fa-s124",
+    "fa-s035",
+    "fa-s067",
+    "fa-s135",
+    "fa-s107",
+    "fa-s054",
+    "fa-p06",
+    "fa-s108",
+    "fa-s102",
+    "fa-s039",
+    "fa-s006",
+    "fa-s105",
+    "fa-s066",
+    "fa-s092",
+    "fa-s101",
+    "fa-s072",
+    "fa-s038",
+    "fa-s133",
+    "fa-s109",
+    "fa-s055",
+    "fa-s064",
+    "fa-s094",
+    "fa-s100",
+    "fa-s118"
+  ],
+  "items": [
+    {
+      "id": "fa-p01",
+      "kind": "para",
+      "title": "New Job in Tehran",
+      "native": [
+        "نازنین، بالاخره توی یه انتشارات نزدیک خیابون کریم‌خان کار پیدا کردم.",
+        "امروز اولین روزم بود و با همکارای بخش طراحی آشنا شدم.",
+        "میزم رو کنار پنجره گذاشتن و درختای کوچه از اونجا پیداست.",
+        "فعلاً قراره جلد کتاب‌های کودک رو با کمک سحر طراحی کنم.",
+        "ساعت 8:30 صبح شروع می‌کنیم و عصرها حدود 5 برمی‌گردم خونه.",
+        "با مترو میام و از ایستگاه میدون ولیعصر پیاده می‌رم.",
+        "برای ناهار هم یه آشپزخونه کوچیک داریم که یخچالش حسابی جا داره.",
+        "هنوز حقوق اولم رو نگرفتم، ولی از همین حالا کلی نقشه دارم.",
+        "آخر هفته بیا خونه‌مون تا با یه شام درست‌وحسابی جشن بگیریم."
+      ],
+      "roman": [
+        "Naazanin, belaakhare tooye ye enteshaaraat-e nazdik-e khiaaboon-e Karimkhaan kaar peydaa kardam.",
+        "Emrooz avvalin roozam bood va baa hamkaaraaye bakhsh-e tarraahi aashnaa shodam.",
+        "Mizam ro kenaar-e panjare gozaashtan va derakhtaaye kooche az oonjaa peydaast.",
+        "Felan gharaare jeld-e ketaabhaaye koodak ro baa komak-e Sahar tarraahi konam.",
+        "Saat 8:30 sobh shoroo mikonim va asrhaa hodood-e 5 barmigardam khoone.",
+        "Baa metro miaam va az istgaah-e meydoon-e Valiasr piaade miram.",
+        "Baraaye naahaar ham ye aashpazkhoone-ye koochik daarim ke yakhchaalesh hesaabi jaa daare.",
+        "Hanooz hoghoogh-e avvalam ro nagereftam, vali az hamin haalaa kolli naghshe daaram.",
+        "Aakhar-e hafte biaa khoonemoon taa baa ye shaam-e dorostohesaabi jashn begirim."
+      ]
+    },
+    {
+      "id": "fa-p02",
+      "kind": "para",
+      "title": "Shiraz Client Meeting Update",
+      "native": [
+        "جلسه امروز با مدیر فروشگاه لوازم خانگی در شیراز برگزار شد.",
+        "خانم قاسمی خواستند موجودی کالا در صفحه اصلی سایت نمایش داده شود.",
+        "همچنین تأکید کردند که قیمت‌ها باید به تومان نوشته شوند.",
+        "نسخه فعلی سایت روی گوشی کند است و عکس‌ها دیر باز می‌شوند.",
+        "قرار شد تا دوشنبه حجم عکس‌ها را کم کنیم.",
+        "آقای رستمی، لطفاً لینک نسخه آزمایشی را تا فردا برایم بفرستید.",
+        "من هم فهرست تغییرات را امروز برای مشتری ایمیل می‌کنم.",
+        "هزینه پشتیبانی ماهانه را بعد از بررسی نیازهای فروشگاه اعلام می‌کنیم.",
+        "جلسه بعدی را برای چهارشنبه ساعت 10 صبح هماهنگ کرده‌ایم."
+      ],
+      "roman": [
+        "Jalase-ye emrooz baa modir-e forooshgaah-e lavaazem-e khaanegi dar Shiraaz bargozaar shod.",
+        "Khaanom Ghaasemi khaastand mojoodi-ye kaalaa dar safhe-ye asli-ye site namaayesh daade shavad.",
+        "Hamchenin takid kardand ke gheymathaa baayad be toomaan neveshte shavand.",
+        "Noskhe-ye feli-ye site rooye gooshi kond ast va akshaa dir baaz mishavand.",
+        "Gharaar shod taa Doshanbe hajm-e akshaa raa kam konim.",
+        "Aaghaaye Rostami, lotfan link-e noskhe-ye aazmaayeshi raa taa farda baraayam beferestid.",
+        "Man ham fehrest-e taghyiraat raa emrooz baraaye moshtari email mikonam.",
+        "Hazine-ye poshtibaani-ye maahaane raa bad az barresi-ye niyaazhaaye forooshgaah elaam mikonim.",
+        "Jalase-ye badi raa baraaye Chahaarshanbe saat 10 sobh hamaahang kardeim."
+      ]
+    },
+    {
+      "id": "fa-p03",
+      "kind": "para",
+      "title": "Rain at Rasht Market",
+      "native": [
+        "پنجشنبه صبح با مامان رفتیم بازار رشت تا سبزی تازه بخریم.",
+        "جلوی بساط زیتون‌فروش ایستادیم و چند مدل زیتون پرورده چشیدیم.",
+        "مامان یه دسته چوچاق برداشت و فروشنده برامون چند شاخه نعنا گذاشت.",
+        "هنوز به ماهی‌فروشی نرسیده بودیم که بارون تندی گرفت و خیس شدیم.",
+        "کیسه‌های خرید رو بغل کردم و زیر سایه‌بون یه مغازه دویدم.",
+        "صاحب مغازه یه چهارپایه آورد و گفت بارون به این زودی بند نمیاد.",
+        "همون‌جا یه چای داغ خوردیم و شیشه عینکم بخار گرفت.",
+        "وقتی بارون آروم شد، کوچه بوی خاک خیس و نون تازه می‌داد.",
+        "با کفشای خیس برگشتیم خونه، ولی برای ناهار باقلاقاتق خوشمزه‌ای داشتیم."
+      ],
+      "roman": [
+        "Panjshanbe sobh baa maamaan raftim baazaar-e Rasht taa sabzi-ye taaze bekharim.",
+        "Jelooye besaat-e zeytoonforoosh istaadim va chand model zeytoon parvarde cheshidim.",
+        "Maamaan ye daste choochaagh bardaasht va forooshande baraamoon chand shaakhe nanaa gozaasht.",
+        "Hanooz be maahiforooshi nareside boodim ke baaroon-e tondi gereft va khis shodim.",
+        "Kisehaaye kharid ro baghal kardam va zir-e saayeboon-e ye maghaaze davidam.",
+        "Saaheb-e maghaaze ye chahaarpaaye aavard va goft baaroon be in zoodi band nemiaad.",
+        "Hamoonjaa ye chaay-e daagh khordim va shishe-ye eynakam bokhaar gereft.",
+        "Vaghti baaroon aaroom shod, kooche booye khaak-e khis va noon-e taaze midaad.",
+        "Baa kafshaaye khis bargashtim khoone, vali baraaye naahaar baaghelaaghaatogh-e khoshmaze-i daashtim."
+      ]
+    },
+    {
+      "id": "fa-p04",
+      "kind": "para",
+      "title": "Brewing Tea in Lahijan",
+      "native": [
+        "ما توی لاهیجان چای عصرونه رو این‌طوری با سماور دم می‌کنیم.",
+        "اول آب تازه توی سماور بریز و صبر کن جوش بیاد.",
+        "قوری رو با آب جوش گرم کن و بعد آبش رو خالی کن.",
+        "توی قوری گرم دو قاشق چای خشک بریز و آروم تکونش بده.",
+        "ما برای این قوری از چای سیاه ایرانی بدون عطر استفاده می‌کنیم.",
+        "بعد روی چای آب جوش بریز و در قوری رو بذار.",
+        "قوری رو روی سماور بذار تا چای حدود 15 دقیقه دم بکشه.",
+        "برای هر استکان، اول کمی چای بریز و بعد آب جوش اضافه کن.",
+        "چای رو با چند تا حبه قند یا یه تکه نبات بیار."
+      ],
+      "roman": [
+        "Maa tooye Laahijaan chaay-e asroone ro intoori baa samaavar dam mikonim.",
+        "Avval aab-e taaze tooye samaavar beriz va sabr kon joosh biaad.",
+        "Ghoori ro baa aab-e joosh garm kon va bad aabesh ro khaali kon.",
+        "Tooye ghoori-ye garm do ghaashogh chaay-e khoshk beriz va aaroom tekoonesh bede.",
+        "Maa baraaye in ghoori az chaay-e siyaah-e Iraani bedoon-e atr estefaade mikonim.",
+        "Bad rooye chaay aab-e joosh beriz va dar-e ghoori ro bezaar.",
+        "Ghoori ro rooye samaavar bezaar taa chaay hodood-e 15 daghighe dam bekeshe.",
+        "Baraaye har estekaan, avval kami chaay beriz va bad aab-e joosh ezaafe kon.",
+        "Chaay ro baa chand taa habbe ghand yaa ye teke nabaat biaar."
+      ]
+    },
+    {
+      "id": "fa-p05",
+      "kind": "para",
+      "title": "Rewatching Ghessehaaye Majid",
+      "native": [
+        "این روزها توی جمع ما همه از قصه‌های مجید حرف می‌زنن.",
+        "من بیشتر از داستان‌ها، حال و هوای اصفهان رو دوست دارم.",
+        "کوچه‌های قدیمی و حیاط خونه بی‌بی هنوز برام آشنان.",
+        "رابطه مجید و بی‌بی خیلی طبیعی از آب دراومده.",
+        "شوخی‌های سریال ساده‌ان، ولی من رو می‌خندونن.",
+        "بعضی قسمت‌ها آروم پیش می‌رن، اما من از ریتم کندش خسته نمی‌شم.",
+        "بازیگر نقش مجید اون‌قدر طبیعی بازی می‌کنه که گاهی یادم می‌ره دارم سریال می‌بینم.",
+        "اگه بخوایم با خانواده سریال ببینیم، قصه‌های مجید هنوز انتخاب خوبیه.",
+        "فقط کاش کیفیت تصویر این سریال توی پلتفرم‌ها بهتر بود."
+      ],
+      "roman": [
+        "In roozhaa tooye jam-e maa hame az Ghessehaaye Majid harf mizanan.",
+        "Man bishtar az daastaanhaa, haal va havaaye Esfahaan ro doost daaram.",
+        "Koochehaaye ghadimi va hayaat-e khoone-ye Bibi hanooz baraam aashnaan.",
+        "Raabete-ye Majid va Bibi kheyli tabii az aab daroomade.",
+        "Shookhihaaye seriaal saade-an, vali man ro mikhandoonan.",
+        "Baazi ghesmathaa aaroom pish miran, ammaa man az ritm-e kondesh khaste nemisham.",
+        "Baazigar-e naghsh-e Majid oonghadr tabii baazi mikone ke gaahi yaadam mire daaram seriaal mibinam.",
+        "Age bekhaaym baa khaanevaade seriaal bebinim, Ghessehaaye Majid hanooz entekhaab-e khoobiye.",
+        "Faghat kaash keyfiyat-e tasvir-e in seriaal tooye platformhaa behtar bood."
+      ]
+    },
+    {
+      "id": "fa-p06",
+      "kind": "para",
+      "title": "Planning a Kordaan Offsite",
+      "native": [
+        "برنامه سفر تیمی به کردان رو برای 18 خرداد 1405 می‌چینم.",
+        "ساعت 8:30 صبح از میدان آزادی کرج راه می‌افتیم.",
+        "تا اقامتگاهمون توی کردان حدود 35 کیلومتر راه داریم.",
+        "برای 12 نفر، یه مینی‌بوس با کرایه 4800000 تومان می‌گیریم.",
+        "هزینه ناهار هر نفر با دوغ 350000 تومان می‌شه.",
+        "جلسه رو ساعت 10 شروع می‌کنیم و ساعت 12 تموم می‌کنیم.",
+        "بعد از ناهار، 2 ساعت برای بازی گروهی وقت می‌ذاریم.",
+        "برگشت رو برای ساعت 16 می‌ذاریم تا به شلوغی عصر نخوریم."
+      ],
+      "roman": [
+        "Barnaame-ye safar-e teami be Kordaan ro baraaye 18 Khordaad 1405 michinam.",
+        "Saat-e 8:30 sobh az Meydaan-e Aazaadi-ye Karaj raah mioftim.",
+        "Taa eghaamatgaahmoon tooye Kordaan hodood-e 35 kilometr raah daarim.",
+        "Baraaye 12 nafar, ye minibus baa keraaye-ye 4800000 toomaan migirim.",
+        "Hazine-ye naahaar-e har nafar baa doogh 350000 toomaan mishe.",
+        "Jalase ro saat-e 10 shoroo mikonim va saat-e 12 tamoom mikonim.",
+        "Bad az naahaar, 2 saat baraaye baazi-ye goroohi vaght mizaarim.",
+        "Bargasht ro baraaye saat-e 16 mizaarim taa be sholooghi-ye asr nakhorim."
+      ]
+    },
+    {
+      "id": "fa-p07",
+      "kind": "para",
+      "title": "Internet Support in Hamedaan",
+      "native": [
+        "سلام، بابت قطعی اینترنت خانه‌ام در سعیدیه همدان تماس گرفتم.",
+        "اینترنت از دیروز تقریباً هر 20 دقیقه قطع می‌شود.",
+        "چراغ اینترنت مودم خاموش می‌شود، ولی چراغ برق روشن می‌ماند.",
+        "مودم را خاموش و روشن کردم، اما مشکل حل نشد.",
+        "وسط جلسه‌های کاری آنلاین هم اینترنت قطع می‌شود.",
+        "لطفاً بررسی کنید مشکل از خط است یا تنظیمات مودم.",
+        "اگر لازم است تعمیرکار بیاید، فردا بعدازظهر در خانه هستم.",
+        "لطفاً از قبل بگویید تعمیرکار چه ساعتی می‌آید و هزینه چقدر است."
+      ],
+      "roman": [
+        "Salam, baabate ghatiye internet-e khaaneam dar Saeidiye-ye Hamedaan tamaas gereftam.",
+        "Internet az dirooz taghriban har 20 daghighe ghat mishavad.",
+        "Cheraaghe internet-e modem khaamoosh mishavad, vali cheraaghe bargh roshan mimaanad.",
+        "Modem raa khaamoosh va roshan kardam, ammaa moshkel hal nashod.",
+        "Vasate jalasehaaye kaariye online ham internet ghat mishavad.",
+        "Lotfan barrasi konid moshkel az khat ast yaa tanzimaate modem.",
+        "Agar laazem ast tamirkaar biaayad, farda badazzohr dar khaane hastam.",
+        "Lotfan az ghabl begooyid tamirkaar che saaati miaayad va hazine cheghadr ast."
+      ]
+    },
+    {
+      "id": "fa-p08",
+      "kind": "para",
+      "title": "Ziloo Weaving in Meybod",
+      "native": [
+        "زیلوبافی هنوز هم در میبد رواج دارد.",
+        "بافنده‌ها با نخ پنبه زیلوهای محکم و بادوام می‌بافند.",
+        "خیلی از زیلوهای میبد آبی و سفید هستند.",
+        "در طرح زیلو معمولاً شکل‌های هندسی ساده تکرار می‌شوند.",
+        "در کارگاه زیلوبافی، بافنده نخ‌های رنگی را با دست جابه‌جا می‌کند.",
+        "بافتن یک زیلوی بزرگ ممکن است چند هفته طول بکشد.",
+        "در بعضی از کارگاه‌های میبد می‌توانید بافت زیلو را از نزدیک ببینید.",
+        "بعضی‌ها زیلو را برای تزیین خانه می‌خرند.",
+        "خرید مستقیم زیلو از بافنده‌ها به ادامه کارشان کمک می‌کند."
+      ],
+      "roman": [
+        "Ziloobaafi hanooz ham dar Meybod ravaaj daarad.",
+        "Baafandehaa baa nakhe panbe ziloohaaye mohkam va baadavaam mibaafand.",
+        "Kheyli az ziloohaaye Meybod aabi va sefid hastand.",
+        "Dar tarhe ziloo mamoolan sheklhaaye hendesiye saade tekraar mishavand.",
+        "Dar kaargaahe ziloobaafi, baafande nakhhaaye rangi raa baa dast jaabejaa mikonad.",
+        "Baaftane yek zilooye bozorg momken ast chand hafte tool bekeshad.",
+        "Dar baazi az kaargaahhaaye Meybod mitavaanid baafte ziloo raa az nazdik bebinid.",
+        "Bazihaa ziloo raa baraaye tazyine khaane mikharand.",
+        "Kharide mostaghime ziloo az baafandehaa be edaame-ye kaareshaan komak mikonad."
+      ]
+    },
+    {
+      "id": "fa-s001",
+      "kind": "sentence",
+      "native": [
+        "نوبت توئه آهنگ بذاری، دوباره همون قبلی رو نذار."
+      ],
+      "roman": [
+        "Nobate toe aahang bezaari, dobaare hamoon ghabli ro nazaar."
+      ]
+    },
+    {
+      "id": "fa-s002",
+      "kind": "sentence",
+      "native": [
+        "نسخه نهایی رو تأیید می‌کنم."
+      ],
+      "roman": [
+        "Noskhe-ye nahaayi ro taayid mikonam."
+      ]
+    },
+    {
+      "id": "fa-s003",
+      "kind": "sentence",
+      "native": [
+        "از ورودی تا آبشار حدود 800 متر پیاده‌روی داریم."
+      ],
+      "roman": [
+        "Az voroodi taa aabshaar hodood-e 800 metr piaaderavi daarim."
+      ]
+    },
+    {
+      "id": "fa-s004",
+      "kind": "sentence",
+      "native": [
+        "لیست خرید رو باز کن."
+      ],
+      "roman": [
+        "List-e kharid ro baaz kon."
+      ]
+    },
+    {
+      "id": "fa-s005",
+      "kind": "sentence",
+      "native": [
+        "هوای ساری امروز برای شستن فرش توی حیاط مناسبه؟"
+      ],
+      "roman": [
+        "Havaa-ye Saari emrooz baraaye shostane farsh tooye hayaat monaasebe?"
+      ]
+    },
+    {
+      "id": "fa-s006",
+      "kind": "sentence",
+      "native": [
+        "ژینوس، لینک مصاحبه رو توی واتساپ برات گذاشتم."
+      ],
+      "roman": [
+        "Zhinoos, linke mosaahebe ro tooye WhatsApp baraat gozaashtam."
+      ]
+    },
+    {
+      "id": "fa-s007",
+      "kind": "sentence",
+      "native": [
+        "ورودی پاساژ اون طرفه."
+      ],
+      "roman": [
+        "Voroodi-ye paasaazh oon tarafe."
+      ]
+    },
+    {
+      "id": "fa-s008",
+      "kind": "sentence",
+      "native": [
+        "ببخشید، این سرویس استکان رو 420000 تومان حساب می‌کنید؟"
+      ],
+      "roman": [
+        "Bebakhshid, in servis-e estekaan ro 420000 tomaan hesaab mikonid?"
+      ]
+    },
+    {
+      "id": "fa-s009",
+      "kind": "sentence",
+      "native": [
+        "ماست، خیار و نعنا بگیر، گردو هم لازمه."
+      ],
+      "roman": [
+        "Maast, khiyaar va nanaa begir, gerdoo ham laazeme."
+      ]
+    },
+    {
+      "id": "fa-s010",
+      "kind": "sentence",
+      "native": [
+        "قبلاً فکر می‌کردم باید کارها رو بی‌نقص انجام بدم، ولی حالا از اشتباه‌هام هم یاد می‌گیرم."
+      ],
+      "roman": [
+        "Ghablan fekr mikardam baayad kaarhaa ro binaghs anjaam bedam, vali haalaa az eshtebaahhaam ham yaad migiram."
+      ]
+    },
+    {
+      "id": "fa-s011",
+      "kind": "sentence",
+      "native": [
+        "اگه از نونوایی رد شدی، دو تا سنگک بگیر که برای صبحونه نون داشته باشیم."
+      ],
+      "roman": [
+        "Age az noonvaayi rad shodi, do taa sangak begir ke baraaye sobhoone noon daashte baashim."
+      ]
+    },
+    {
+      "id": "fa-s012",
+      "kind": "sentence",
+      "native": [
+        "بعد از آپدیت، خروجی اکسل روی لپ‌تاپ من درست ذخیره نمی‌شه."
+      ],
+      "roman": [
+        "Bad az update, khorooji-ye Excel rooye laptop-e man dorost zakhire nemishe."
+      ]
+    },
+    {
+      "id": "fa-s013",
+      "kind": "sentence",
+      "native": [
+        "پرواز 1126 به مشهد ساعت 7:45 صبح است. شماره صندلی من 19 است."
+      ],
+      "roman": [
+        "Parvaaz-e 1126 be Mashhad saat 7:45 sobh ast. Shomaare-ye sandali-ye man 19 ast."
+      ]
+    },
+    {
+      "id": "fa-s014",
+      "kind": "sentence",
+      "native": [
+        "یادم بنداز ظرف دلمه رو به پروین پس بدم."
+      ],
+      "roman": [
+        "Yaadam bendaaz zarf-e dolme ro be Parvin pas bedam."
+      ]
+    },
+    {
+      "id": "fa-s015",
+      "kind": "sentence",
+      "native": [
+        "موجودی حسابم رو نشون بده."
+      ],
+      "roman": [
+        "Mojoodi-ye hesaabam ro neshoon bede."
+      ]
+    },
+    {
+      "id": "fa-s016",
+      "kind": "sentence",
+      "native": [
+        "بالاخره تونستم بازی رو نصب کنم."
+      ],
+      "roman": [
+        "Belaakhare toonestam baazi ro nasb konam."
+      ]
+    },
+    {
+      "id": "fa-s017",
+      "kind": "sentence",
+      "native": [
+        "عمو جمشید این هفته از بوشهر برمی‌گرده."
+      ],
+      "roman": [
+        "Amoo Jamshid in hafte az Booshehr barmigarde."
+      ]
+    },
+    {
+      "id": "fa-s018",
+      "kind": "sentence",
+      "native": [
+        "نوبتم رو می‌تونید به جای صبح، بعدازظهر بذارید؟"
+      ],
+      "roman": [
+        "Nobatam ro mitoonid be jaaye sobh, badazzohr bezaarid?"
+      ]
+    },
+    {
+      "id": "fa-s019",
+      "kind": "sentence",
+      "native": [
+        "مگه رمز عوض شده؟ قبلی رو قبول نمی‌کنه."
+      ],
+      "roman": [
+        "Mage ramz avaz shode? Ghabli ro ghabool nemikone."
+      ]
+    },
+    {
+      "id": "fa-s020",
+      "kind": "sentence",
+      "native": [
+        "کاش صندلی‌های سالن این‌قدر به هم نزدیک نبود."
+      ],
+      "roman": [
+        "Kaash sandalihaaye saalon inghadr be ham nazdik nabood."
+      ]
+    },
+    {
+      "id": "fa-s021",
+      "kind": "sentence",
+      "native": [
+        "مامان، اون شال آبی رو توی ماشین جا گذاشتی."
+      ],
+      "roman": [
+        "Maamaan, oon shaale aabi ro tooye maashin jaa gozaashti."
+      ]
+    },
+    {
+      "id": "fa-s022",
+      "kind": "sentence",
+      "native": [
+        "پیش از ارسال فاکتور، لطفاً نام مشتری و مبلغ پیش‌پرداخت را یک بار دیگر بررسی کنید."
+      ],
+      "roman": [
+        "Pish az ersaal-e faaktor, lotfan naam-e moshtari va mablagh-e pishpardaakht raa yek baar-e digar barresi konid."
+      ]
+    },
+    {
+      "id": "fa-s023",
+      "kind": "sentence",
+      "native": [
+        "تخفیف کفش‌ها فقط 15% بود."
+      ],
+      "roman": [
+        "Takhfif-e kafshhaa faghat 15% bood."
+      ]
+    },
+    {
+      "id": "fa-s024",
+      "kind": "sentence",
+      "native": [
+        "هزینه کلاس سفالگری رو 680000 تومان یادداشت کن تا موقع حساب اشتباه نکنم."
+      ],
+      "roman": [
+        "Hazine-ye kelaas-e sofaalgari ro 680000 toomaan yaaddaasht kon taa moghe-e hesaab eshtebaah nakonam."
+      ]
+    },
+    {
+      "id": "fa-s025",
+      "kind": "sentence",
+      "native": [
+        "چند گیگ از حافظه تبلتم هنوز خالی مونده؟"
+      ],
+      "roman": [
+        "Chand gig az haafeze-ye tabletam hanooz khaali moonde?"
+      ]
+    },
+    {
+      "id": "fa-s026",
+      "kind": "sentence",
+      "native": [
+        "توی پنل ترب قیمت چراغ مطالعه رو عوض کردم، ولی سایت مبلغ قبلی رو نشون می‌ده."
+      ],
+      "roman": [
+        "Tooye panele Torob gheymate cheraaghe motaalee ro avaz kardam, vali site mablaghe ghabli ro neshoon mide."
+      ]
+    },
+    {
+      "id": "fa-s027",
+      "kind": "sentence",
+      "native": [
+        "آرمان صاحب گل‌فروشی محله‌مونه."
+      ],
+      "roman": [
+        "Aarmaan saaheb-e golforooshi-ye mahallemoone."
+      ]
+    },
+    {
+      "id": "fa-s028",
+      "kind": "sentence",
+      "native": [
+        "برنج هنوز دم نکشیده."
+      ],
+      "roman": [
+        "Berenj hanooz dam nakeshide."
+      ]
+    },
+    {
+      "id": "fa-s029",
+      "kind": "sentence",
+      "native": [
+        "ارسال عادی 75000 تومان بود، درسته؟ یا اون مبلغ برای تحویل فوری حساب شده بود؟"
+      ],
+      "roman": [
+        "Ersaale aadi 75000 toomaan bood, doroste? Yaa oon mablagh baraaye tahvile foori hesaab shode bood?"
+      ]
+    },
+    {
+      "id": "fa-s030",
+      "kind": "sentence",
+      "native": [
+        "سمیرا، ممنون که با حوصله بافتنی یادم دادی."
+      ],
+      "roman": [
+        "Samiraa, mamnoon ke baa hosele baaftani yaadam daadi."
+      ]
+    },
+    {
+      "id": "fa-s031",
+      "kind": "sentence",
+      "native": [
+        "کلیدت پیش من جا مونده."
+      ],
+      "roman": [
+        "Kelidet pishe man jaa moonde."
+      ]
+    },
+    {
+      "id": "fa-s032",
+      "kind": "sentence",
+      "native": [
+        "دسترسی به پوشه مشترک برای همکار جدید فعال نیست."
+      ],
+      "roman": [
+        "Dastresi be pooshe-ye moshtarak baraaye hamkaar-e jadid faal nist."
+      ]
+    },
+    {
+      "id": "fa-s033",
+      "kind": "sentence",
+      "native": [
+        "این شلوار سایز 38 رو با 40 عوض می‌کنید؟"
+      ],
+      "roman": [
+        "In shalvaar size 38 ro baa 40 avaz mikonid?"
+      ]
+    },
+    {
+      "id": "fa-s034",
+      "kind": "sentence",
+      "native": [
+        "یادم باشه سفارش دیجی‌کالا رو امشب از داخل برنامه پیگیری کنم."
+      ],
+      "roman": [
+        "Yaadam baashe sefaaresh-e Digikala ro emshab az daakhel-e barnaame peygiri konam."
+      ]
+    },
+    {
+      "id": "fa-s035",
+      "kind": "sentence",
+      "native": [
+        "چطور می‌تونم اندازه نوشته‌های صفحه رو بزرگ‌تر کنم؟"
+      ],
+      "roman": [
+        "Chetor mitoonam andaaze-ye neveshtehaa-ye safhe ro bozorgtar konam?"
+      ]
+    },
+    {
+      "id": "fa-s036",
+      "kind": "sentence",
+      "native": [
+        "قرار شد گزارش رو آنلاین ویرایش کنیم تا لازم نباشه چند نسخه ازش درست کنیم."
+      ],
+      "roman": [
+        "Gharaar shod gozaaresh ro online viraayesh konim taa laazem nabaashe chand noskhe azash dorost konim."
+      ]
+    },
+    {
+      "id": "fa-s037",
+      "kind": "sentence",
+      "native": [
+        "آسانسور تا پارکینگ می‌ره؟"
+      ],
+      "roman": [
+        "Aasaansor taa parking mire?"
+      ]
+    },
+    {
+      "id": "fa-s038",
+      "kind": "sentence",
+      "native": [
+        "دستگیره کابینت لق شده."
+      ],
+      "roman": [
+        "Dastgire-ye kaabinet lagh shode."
+      ]
+    },
+    {
+      "id": "fa-s039",
+      "kind": "sentence",
+      "native": [
+        "کاغذرنگی، چسب و قیچی بیار."
+      ],
+      "roman": [
+        "Kaaghazrangi, chasb va gheychi biaar."
+      ]
+    },
+    {
+      "id": "fa-s040",
+      "kind": "sentence",
+      "native": [
+        "بعد از گردش توی باغ ارم حسابی سرحال اومدم."
+      ],
+      "roman": [
+        "Bad az gardesh tooye baagh-e Eram hesaabi sarhaal oomadam."
+      ]
+    },
+    {
+      "id": "fa-s041",
+      "kind": "sentence",
+      "native": [
+        "راستی، پیمان گفت جمعه واسه اسباب‌کشی میاد کمکمون."
+      ],
+      "roman": [
+        "Raasti, Peymaan goft jome vaase asbaabkeshi miaad komakemoon."
+      ]
+    },
+    {
+      "id": "fa-s042",
+      "kind": "sentence",
+      "native": [
+        "خانم فرهمند، اگر نمونه پارچه آماده است، می‌توانم چهارشنبه به دفترتان بیایم؟"
+      ],
+      "roman": [
+        "Khaanom-e Farahmand, agar nemoone-ye paarche aamaade ast, mitavaanam Chahaarshanbe be daftaretaan biaayam?"
+      ]
+    },
+    {
+      "id": "fa-s043",
+      "kind": "sentence",
+      "native": [
+        "آدرس کارگاه خیابان سهروردی، کوچه نسترن، پلاک 46 است."
+      ],
+      "roman": [
+        "Aadres-e kaargaah khiyaabaan-e Sohravardi, kooche-ye Nastaran, pelaak 46 ast."
+      ]
+    },
+    {
+      "id": "fa-s044",
+      "kind": "sentence",
+      "native": [
+        "بنویس که چترم رو توی کمد ورودی گذاشتم."
+      ],
+      "roman": [
+        "Benevis ke chatram ro tooye komod-e voroodi gozaashtam."
+      ]
+    },
+    {
+      "id": "fa-s045",
+      "kind": "sentence",
+      "native": [
+        "نزدیک‌ترین عینک‌سازی به من کجاست و کی باز می‌کنه؟"
+      ],
+      "roman": [
+        "Nazdiktarin eynaksaazi be man kojaast va ki baaz mikone?"
+      ]
+    },
+    {
+      "id": "fa-s046",
+      "kind": "sentence",
+      "native": [
+        "فلش رو جدا نکن، انتقال ویدیو هنوز تموم نشده."
+      ],
+      "roman": [
+        "Flash ro jodaa nakon, enteghaale video hanooz tamoom nashode."
+      ]
+    },
+    {
+      "id": "fa-s047",
+      "kind": "sentence",
+      "native": [
+        "برای کوتاهی مو تلفنی نوبت می‌دید یا باید بیام آرایشگاه؟"
+      ],
+      "roman": [
+        "Baraaye kootaahi-ye moo telefoni nobat midid yaa baayad biaam aaraayeshgaah?"
+      ]
+    },
+    {
+      "id": "fa-s048",
+      "kind": "sentence",
+      "native": [
+        "ته‌دیگ باقالی‌پلو رو جدا بذار تا نرم نشه."
+      ],
+      "roman": [
+        "Tahdig-e baaghaali-polo ro jodaa bezaar taa narm nashe."
+      ]
+    },
+    {
+      "id": "fa-s049",
+      "kind": "sentence",
+      "native": [
+        "سیمین، سه‌شنبه نه، پنجشنبه برای پرو لباس میام."
+      ],
+      "roman": [
+        "Simin, seshanbe na, panjshanbe baraaye porove lebaas miaam."
+      ]
+    },
+    {
+      "id": "fa-s050",
+      "kind": "sentence",
+      "native": [
+        "شرمنده، حرفت رو قطع کردم."
+      ],
+      "roman": [
+        "Sharmande, harfet ro ghat kardam."
+      ]
+    },
+    {
+      "id": "fa-s051",
+      "kind": "sentence",
+      "native": [
+        "شام منتظرم نباش، با همکارام بیرون غذا می‌خورم."
+      ],
+      "roman": [
+        "Shaam montazeram nabaash, baa hamkaaraam biroon ghazaa mikhoram."
+      ]
+    },
+    {
+      "id": "fa-s052",
+      "kind": "sentence",
+      "native": [
+        "لباس فرم برام تنگه، می‌تونید عوضش کنید؟"
+      ],
+      "roman": [
+        "Lebaas-e form baraam tange, mitoonid avazesh konid?"
+      ]
+    },
+    {
+      "id": "fa-s053",
+      "kind": "sentence",
+      "native": [
+        "خواهرم امروز 27 ساله شد."
+      ],
+      "roman": [
+        "Khaaharam emrooz 27 saale shod."
+      ]
+    },
+    {
+      "id": "fa-s054",
+      "kind": "sentence",
+      "native": [
+        "موقع خرید، اندازه پرده آشپزخونه رو همراه داشته باشم."
+      ],
+      "roman": [
+        "Moghe-e kharid, andaaze-ye parde-ye aashpazkhoone ro hamraah daashte baasham."
+      ]
+    },
+    {
+      "id": "fa-s055",
+      "kind": "sentence",
+      "native": [
+        "با آوات تماس بگیر."
+      ],
+      "roman": [
+        "Baa Aavaat tamaas begir."
+      ]
+    },
+    {
+      "id": "fa-s056",
+      "kind": "sentence",
+      "native": [
+        "دکمه پرداخت توی اپ بانک سامان واکنش نشون نمی‌ده."
+      ],
+      "roman": [
+        "Dokmeye pardaakht tooye appe Banke Saamaan vaakonesh neshoon nemide."
+      ]
+    },
+    {
+      "id": "fa-s057",
+      "kind": "sentence",
+      "native": [
+        "پریسا، کنار کتاب‌فروشی نزدیک میدان ونک پیاده شو تا با هم بریم کلاس نقاشی."
+      ],
+      "roman": [
+        "Parisaa, kenaar-e ketaabforooshi-ye nazdik-e meydaan-e Vanak piaade sho taa baa ham berim kelaas-e naghaashi."
+      ]
+    },
+    {
+      "id": "fa-s058",
+      "kind": "sentence",
+      "native": [
+        "دفتر مشقش تموم شده، سر راه یه دونه بخر که تکلیف امشبش رو توش بنویسه."
+      ],
+      "roman": [
+        "Daftar-e mashghesh tamoom shode, sar-e raah ye doone bekhar ke taklif-e emshabesh ro toosh benevise."
+      ]
+    },
+    {
+      "id": "fa-s059",
+      "kind": "sentence",
+      "native": [
+        "صبر کن، منظورم سبز بود."
+      ],
+      "roman": [
+        "Sabr kon, manzooram sabz bood."
+      ]
+    },
+    {
+      "id": "fa-s060",
+      "kind": "sentence",
+      "native": [
+        "راستش از شنیدن نتیجه مسابقه حسابی ذوق کردم."
+      ],
+      "roman": [
+        "Raastesh az shenidan-e natije-ye mosaabeghe hesaabi zogh kardam."
+      ]
+    },
+    {
+      "id": "fa-s061",
+      "kind": "sentence",
+      "native": [
+        "مرسی که بسته رو گرفتی، موقع برگشت ازت می‌گیرمش."
+      ],
+      "roman": [
+        "Merci ke baste ro gerefti, mogheye bargasht azat migiramesh."
+      ]
+    },
+    {
+      "id": "fa-s062",
+      "kind": "sentence",
+      "native": [
+        "سلام، بابت راهنمایی شما ممنونم."
+      ],
+      "roman": [
+        "Salam, baabat-e raahnamaayi-ye shomaa mamnoonam."
+      ]
+    },
+    {
+      "id": "fa-s063",
+      "kind": "sentence",
+      "native": [
+        "شماره آزمایشی 021 0000 0000 رو تک‌تک بخون و هر صفر رو هم جدا بگو."
+      ],
+      "roman": [
+        "Shomaare-ye aazmaayeshi 021 0000 0000 ro tak-tak bekhoon va har sefr ro ham jodaa begoo."
+      ]
+    },
+    {
+      "id": "fa-s064",
+      "kind": "sentence",
+      "native": [
+        "تمرین سنتور رو برای چهارشنبه عصر توی تقویم بذار."
+      ],
+      "roman": [
+        "Tamrin-e santoor ro baraaye Chahaarshanbe asr tooye taghvim bezaar."
+      ]
+    },
+    {
+      "id": "fa-s065",
+      "kind": "sentence",
+      "native": [
+        "آخرین فایل صوتی رو که دانلود کردم پیدا کن و با سرعت معمولی پخشش کن."
+      ],
+      "roman": [
+        "Aakharin file-e soti ro ke download kardam peydaa kon va baa sorat-e mamooli pakhshesh kon."
+      ]
+    },
+    {
+      "id": "fa-s066",
+      "kind": "sentence",
+      "native": [
+        "میکروفنت خاموشه، صدات توی تماس تصویری نمیاد."
+      ],
+      "roman": [
+        "Microphonet khaamooshe, sedaat tooye tamaase tasviri nemiaad."
+      ]
+    },
+    {
+      "id": "fa-s067",
+      "kind": "sentence",
+      "native": [
+        "اتوبوس بعدی مستقیم می‌ره یا باید خط عوض کنیم؟"
+      ],
+      "roman": [
+        "Otooboose badi mostaghim mire yaa baayad khat avaz konim?"
+      ]
+    },
+    {
+      "id": "fa-s068",
+      "kind": "sentence",
+      "native": [
+        "خاله فرزانه گفته برای عید شیرینی نخریم، چون خودش یه سینی شیرینی خونگی میاره."
+      ],
+      "roman": [
+        "Khaale Farzaane gofte baraaye Eyd shirini nakharim, choon khodesh ye sini shirini-ye khoonegi miaare."
+      ]
+    },
+    {
+      "id": "fa-s069",
+      "kind": "sentence",
+      "native": [
+        "بریم حیاط؟ نه، هوا سرده، بمونیم داخل."
+      ],
+      "roman": [
+        "Berim hayaat? Na, havaa sarde, bemoonim daakhel."
+      ]
+    },
+    {
+      "id": "fa-s070",
+      "kind": "sentence",
+      "native": [
+        "ادامه بده، خیلی پیشرفت کردی."
+      ],
+      "roman": [
+        "Edaame bede, kheyli pishraft kardi."
+      ]
+    },
+    {
+      "id": "fa-s071",
+      "kind": "sentence",
+      "native": [
+        "بلیت‌های شیراز رو گرفتم، فقط یادت نره قبل از حرکت به گلدون‌ها آب بدی."
+      ],
+      "roman": [
+        "Belithaa-ye Shiraaz ro gereftam, faghat yaadet nare ghabl az harekat be goldoonhaa aab bedi."
+      ]
+    },
+    {
+      "id": "fa-s072",
+      "kind": "sentence",
+      "native": [
+        "پیوست ایمیل باز نمی‌شود."
+      ],
+      "roman": [
+        "Peyvast-e email baaz nemishavad."
+      ]
+    },
+    {
+      "id": "fa-s073",
+      "kind": "sentence",
+      "native": [
+        "نتیجه بازی 3 به 1 شد."
+      ],
+      "roman": [
+        "Natije-ye baazi 3 be 1 shod."
+      ]
+    },
+    {
+      "id": "fa-s074",
+      "kind": "sentence",
+      "native": [
+        "پنجشنبه باید دوچرخه رو برای تنظیم ترمز ببرم تعمیرگاه."
+      ],
+      "roman": [
+        "Panjshanbe baayad docharkhe ro baraaye tanzim-e tormoz bebaram tamirgaah."
+      ]
+    },
+    {
+      "id": "fa-s075",
+      "kind": "sentence",
+      "native": [
+        "بلوتوث گوشی رو روشن کن."
+      ],
+      "roman": [
+        "Bluetooth-e gooshi ro roshan kon."
+      ]
+    },
+    {
+      "id": "fa-s076",
+      "kind": "sentence",
+      "native": [
+        "می‌تونم به جای رمز، با اثر انگشت وارد حسابم بشم؟"
+      ],
+      "roman": [
+        "Mitoonam be jaaye ramz, baa asare angosht vaared-e hesaabam besham?"
+      ]
+    },
+    {
+      "id": "fa-s077",
+      "kind": "sentence",
+      "native": [
+        "مهسا جلوی سینما ایستاده."
+      ],
+      "roman": [
+        "Mahsaa jeloye sinamaa istaade."
+      ]
+    },
+    {
+      "id": "fa-s078",
+      "kind": "sentence",
+      "native": [
+        "پنجره رو ببند، باد میاد."
+      ],
+      "roman": [
+        "Panjere ro beband, baad miaad."
+      ]
+    },
+    {
+      "id": "fa-s079",
+      "kind": "sentence",
+      "native": [
+        "اول ملحفه‌ها رو جمع کن، یعنی فقط اونایی که خشکن. بقیه هنوز باید روی بند بمونن."
+      ],
+      "roman": [
+        "Avval malhafehaa ro jam kon, yani faghat oonaayi ke khoshkan. Baghiye hanooz baayad rooye band bemoonan."
+      ]
+    },
+    {
+      "id": "fa-s080",
+      "kind": "sentence",
+      "native": [
+        "بوی آش رشته‌ات واقعاً آدم رو گرسنه می‌کنه!"
+      ],
+      "roman": [
+        "Booye aash-e reshte-at vaaghean aadam ro gorosne mikone!"
+      ]
+    },
+    {
+      "id": "fa-s081",
+      "kind": "sentence",
+      "native": [
+        "باشه، خودم ظرف‌ها رو می‌شورم."
+      ],
+      "roman": [
+        "Baashe, khodam zarfhaa ro mishooram."
+      ]
+    },
+    {
+      "id": "fa-s082",
+      "kind": "sentence",
+      "native": [
+        "هنوز منتظر پاسخ حسابداری هستم."
+      ],
+      "roman": [
+        "Hanooz montazer-e paasokh-e hesaabdaari hastam."
+      ]
+    },
+    {
+      "id": "fa-s083",
+      "kind": "sentence",
+      "native": [
+        "برای کیک، 3 تخم‌مرغ رو با 180 گرم شکر بزن."
+      ],
+      "roman": [
+        "Baraaye keyk, 3 tokhm-morgh ro baa 180 geram shekar bezan."
+      ]
+    },
+    {
+      "id": "fa-s084",
+      "kind": "sentence",
+      "native": [
+        "خرید باتری قلمی یادم نره."
+      ],
+      "roman": [
+        "Kharid-e baatri-ye ghalami yaadam nare."
+      ]
+    },
+    {
+      "id": "fa-s085",
+      "kind": "sentence",
+      "native": [
+        "بین جاروبرقی کیسه‌ای و مخزن‌دار کدوم برای خونه بهتره و تمیز کردنش راحت‌تره؟"
+      ],
+      "roman": [
+        "Beyn-e jaaroobarghi-ye kisei va makhzandaar kodoom baraaye khoone behtare va tamiz kardanesh raahattare?"
+      ]
+    },
+    {
+      "id": "fa-s086",
+      "kind": "sentence",
+      "native": [
+        "بیایید اسلایدهای معرفی محصول رو یک دور مرور کنیم."
+      ],
+      "roman": [
+        "Biaayid slidehaaye moarefiye mahsool ro yek dor moroor konim."
+      ]
+    },
+    {
+      "id": "fa-s087",
+      "kind": "sentence",
+      "native": [
+        "تیم ما توی سالن پشت فرهنگسرا تمرین می‌کنه، از در حیاط برو که زودتر برسی."
+      ],
+      "roman": [
+        "Team-e maa tooye saalon-e posht-e farhangsaraa tamrin mikone, az dar-e hayaat boro ke zoodtar beresi."
+      ]
+    },
+    {
+      "id": "fa-s088",
+      "kind": "sentence",
+      "native": [
+        "آیلین امروز نقاشیش رو روی یخچال چسبوند."
+      ],
+      "roman": [
+        "Aylin emrooz naghaashish ro rooye yakhchaal chasboond."
+      ]
+    },
+    {
+      "id": "fa-s089",
+      "kind": "sentence",
+      "native": [
+        "قرارمون جلوی موزه بود، نه پشتش. حالا تو کدوم طرفی که بیام همون سمت؟"
+      ],
+      "roman": [
+        "Gharaaremoon jeloye mooze bood, na poshtesh. Haalaa to kodoom tarafi ke biaam hamoon samt?"
+      ]
+    },
+    {
+      "id": "fa-s090",
+      "kind": "sentence",
+      "native": [
+        "نرگس، یه کم کوفته تبریزی برام نگه دار."
+      ],
+      "roman": [
+        "Narges, ye kam koofte-ye Tabrizi baraam negah daar."
+      ]
+    },
+    {
+      "id": "fa-s091",
+      "kind": "sentence",
+      "native": [
+        "تسویه پیمانکار انجام شد."
+      ],
+      "roman": [
+        "Tasviye-ye peymaankaar anjaam shod."
+      ]
+    },
+    {
+      "id": "fa-s092",
+      "kind": "sentence",
+      "native": [
+        "این قفسه 85 سانت عرض و 190 سانت ارتفاع داره."
+      ],
+      "roman": [
+        "In ghafase 85 saant arz va 190 saant ertefaa daare."
+      ]
+    },
+    {
+      "id": "fa-s093",
+      "kind": "sentence",
+      "native": [
+        "شنبه باید کتونی‌هام رو تمیز کنم."
+      ],
+      "roman": [
+        "Shanbe baayad katoonihaam ro tamiz konam."
+      ]
+    },
+    {
+      "id": "fa-s094",
+      "kind": "sentence",
+      "native": [
+        "مسیر پیاده تا بازار وکیل رو نشون بده."
+      ],
+      "roman": [
+        "Masir-e piaade taa Baazaar-e Vakil ro neshoon bede."
+      ]
+    },
+    {
+      "id": "fa-s095",
+      "kind": "sentence",
+      "native": [
+        "موقع نصب اگه ارور دیدی، متنش رو کپی کن تا از پشتیبانی بپرسم مشکل از کجاست."
+      ],
+      "roman": [
+        "Mogheye nasb age error didi, matnesh ro copy kon taa az poshtibaani beporsam moshkel az kojaast."
+      ]
+    },
+    {
+      "id": "fa-s096",
+      "kind": "sentence",
+      "native": [
+        "الهام رو نزدیک پل خواجو سوار می‌کنیم."
+      ],
+      "roman": [
+        "Elhaam ro nazdik-e pol-e Khaajoo savaar mikonim."
+      ]
+    },
+    {
+      "id": "fa-s097",
+      "kind": "sentence",
+      "native": [
+        "زنگ تفریح شروع شده؟"
+      ],
+      "roman": [
+        "Zang-e tafrih shoroo shode?"
+      ]
+    },
+    {
+      "id": "fa-s098",
+      "kind": "sentence",
+      "native": [
+        "وای، اسم کوچیکش چی بود؟"
+      ],
+      "roman": [
+        "Vaay, esme koochikesh chi bood?"
+      ]
+    },
+    {
+      "id": "fa-s099",
+      "kind": "sentence",
+      "native": [
+        "عکس جدیدت چقدر بامزه شده!"
+      ],
+      "roman": [
+        "Akse jadidet cheghadr baamazze shode!"
+      ]
+    },
+    {
+      "id": "fa-s100",
+      "kind": "sentence",
+      "native": [
+        "سپاسگزارم، روز خوبی داشته باشید."
+      ],
+      "roman": [
+        "Sepaasgozaaram, rooz-e khoobi daashte baashid."
+      ]
+    },
+    {
+      "id": "fa-s101",
+      "kind": "sentence",
+      "native": [
+        "اتاق 208 طبقه 2 است."
+      ],
+      "roman": [
+        "Otaagh 208 tabaghe 2 ast."
+      ]
+    },
+    {
+      "id": "fa-s102",
+      "kind": "sentence",
+      "native": [
+        "عینکم رو بذارم کنار تخت."
+      ],
+      "roman": [
+        "Eynakam ro bezaaram kenaar-e takht."
+      ]
+    },
+    {
+      "id": "fa-s103",
+      "kind": "sentence",
+      "native": [
+        "صدای زنگ رو کمتر کن."
+      ],
+      "roman": [
+        "Sedaa-ye zang ro kamtar kon."
+      ]
+    },
+    {
+      "id": "fa-s104",
+      "kind": "sentence",
+      "native": [
+        "کاغذ توی پرینتر گیر کرده."
+      ],
+      "roman": [
+        "Kaaghaz tooye printer gir karde."
+      ]
+    },
+    {
+      "id": "fa-s105",
+      "kind": "sentence",
+      "native": [
+        "راننده گفت چمدونم رو بذارم توی صندوق عقب."
+      ],
+      "roman": [
+        "Raanande goft chamadoonam ro bezaaram tooye sandoogh-e aghab."
+      ]
+    },
+    {
+      "id": "fa-s106",
+      "kind": "sentence",
+      "native": [
+        "خشکشویی گفت پالتوم تا آخر هفته آماده نمی‌شه."
+      ],
+      "roman": [
+        "Khoshkshooyi goft paaltom taa aakhar-e hafte aamaade nemishe."
+      ]
+    },
+    {
+      "id": "fa-s107",
+      "kind": "sentence",
+      "native": [
+        "اهواز رو اشتباه نوشتم، مقصد آبادانه، درستش کن."
+      ],
+      "roman": [
+        "Ahvaaz ro eshtebaah neveshtam, maghsad Aabaadaane, dorostesh kon."
+      ]
+    },
+    {
+      "id": "fa-s108",
+      "kind": "sentence",
+      "native": [
+        "رسیدم خونه، خیالت راحت باشه."
+      ],
+      "roman": [
+        "Residam khoone, khiaalet raahat baashe."
+      ]
+    },
+    {
+      "id": "fa-s109",
+      "kind": "sentence",
+      "native": [
+        "تجهیزات غرفه نمایشگاه اصفهان امروز به انبار رسید."
+      ],
+      "roman": [
+        "Tajhizaat-e ghorfe-ye namaayeshgaah-e Esfahaan emrooz be anbaar resid."
+      ]
+    },
+    {
+      "id": "fa-s110",
+      "kind": "sentence",
+      "native": [
+        "سهم هرکدوممون 95000 تومنه."
+      ],
+      "roman": [
+        "Sahme harkodoomemoon 95000 toomane."
+      ]
+    },
+    {
+      "id": "fa-s111",
+      "kind": "sentence",
+      "native": [
+        "عکس‌های قدیمی رو اول بر اساس سال جدا کنم، بعد از هر دسته یه نسخه پشتیبان بگیرم."
+      ],
+      "roman": [
+        "Aks-haaye ghadimi ro avval bar asaas-e saal jodaa konam, bad az har daste ye noskhe-ye poshtibaan begiram."
+      ]
+    },
+    {
+      "id": "fa-s112",
+      "kind": "sentence",
+      "native": [
+        "تایمر رو روی 12 دقیقه تنظیم کن."
+      ],
+      "roman": [
+        "Timer ro rooye 12 daghighe tanzim kon."
+      ]
+    },
+    {
+      "id": "fa-s113",
+      "kind": "sentence",
+      "native": [
+        "بهنام گفت مشکل ورود با پاک کردن کش مرورگر حل شد."
+      ],
+      "roman": [
+        "Behnaam goft moshkele vorood baa paak kardane cache-e moroorgar hal shod."
+      ]
+    },
+    {
+      "id": "fa-s114",
+      "kind": "sentence",
+      "native": [
+        "ایستگاه چقدر از اینجا دوره؟"
+      ],
+      "roman": [
+        "Istgaah cheghadr az injaa doore?"
+      ]
+    },
+    {
+      "id": "fa-s115",
+      "kind": "sentence",
+      "native": [
+        "تعمیرکار گفته واشر شیر حموم باید عوض بشه."
+      ],
+      "roman": [
+        "Tamirkaar gofte vaasher-e shir-e hamoom baayad avaz beshe."
+      ]
+    },
+    {
+      "id": "fa-s116",
+      "kind": "sentence",
+      "native": [
+        "پیام بده. نه، ولش کن، خودم توضیح می‌دم."
+      ],
+      "roman": [
+        "Payaam bede. Na, velesh kon, khodam tozih midam."
+      ]
+    },
+    {
+      "id": "fa-s117",
+      "kind": "sentence",
+      "native": [
+        "وقت کردی بهم زنگ بزن."
+      ],
+      "roman": [
+        "Vaght kardi behem zang bezan."
+      ]
+    },
+    {
+      "id": "fa-s118",
+      "kind": "sentence",
+      "native": [
+        "مهلت ثبت پیشنهادها تا پایان وقت اداری تمدید شد."
+      ],
+      "roman": [
+        "Mohlat-e sabt-e pishnahaadhaa taa paayaan-e vaght-e edaari tamdid shod."
+      ]
+    },
+    {
+      "id": "fa-s119",
+      "kind": "sentence",
+      "native": [
+        "پرداخت 2400000 تومان رو برای 23 بهمن 1404 ثبت کن تا عقب نیفته."
+      ],
+      "roman": [
+        "Pardaakht-e 2400000 toomaan ro baraaye 23 Bahman 1404 sabt kon taa aghab nayofte."
+      ]
+    },
+    {
+      "id": "fa-s120",
+      "kind": "sentence",
+      "native": [
+        "دفعه بعد که رفتم سوپرمارکت، کیسه پارچه‌ای ببرم تا مجبور نشم کیسه پلاستیکی بگیرم."
+      ],
+      "roman": [
+        "Dafe-ye bad ke raftam supermarket, kise-ye paarchei bebaram taa majboor nasham kise-ye pelaastiki begiram."
+      ]
+    },
+    {
+      "id": "fa-s121",
+      "kind": "sentence",
+      "native": [
+        "کدوم گزینه رو باید تغییر بدم تا موقع رانندگی هیچ اعلانی روی نمایشگر ظاهر نشه؟"
+      ],
+      "roman": [
+        "Kodoom gozine ro baayad taghyir bedam taa mogheye raanandegi hich elaani rooye namaayeshgar zaaher nashe?"
+      ]
+    },
+    {
+      "id": "fa-s122",
+      "kind": "sentence",
+      "native": [
+        "رویا، رضایت‌نامه اردوی مدرسه رو اسکن کردم و توی گروه والدین گذاشتم تا چاپش کنی."
+      ],
+      "roman": [
+        "Royaa, rezaayatnaameye ordooye madrese ro scan kardam va tooye goroohe vaaledeyn gozaashtam taa chaapesh koni."
+      ]
+    },
+    {
+      "id": "fa-s123",
+      "kind": "sentence",
+      "native": [
+        "مسافرهای واگن کناری هم دنبال خروجی می‌گشتن، انگار تابلوی راهنما پشت ستون بود."
+      ],
+      "roman": [
+        "Mosaaferhaaye vaagon-e kenaari ham donbaal-e khorooji migashtan, engaar taablo-ye raahnamaa posht-e sotoon bood."
+      ]
+    },
+    {
+      "id": "fa-s124",
+      "kind": "sentence",
+      "native": [
+        "یعنی کیش هم میای؟"
+      ],
+      "roman": [
+        "Yani Kish ham miaay?"
+      ]
+    },
+    {
+      "id": "fa-s125",
+      "kind": "sentence",
+      "native": [
+        "فردا عصر دم پارک لاله منتظرت می‌مونم، دیر نکن."
+      ],
+      "roman": [
+        "Farda asr dame Paarke Laale montazeret mimoonam, dir nakon."
+      ]
+    },
+    {
+      "id": "fa-s126",
+      "kind": "sentence",
+      "native": [
+        "چاپ سربرگ‌ها را متوقف کنید."
+      ],
+      "roman": [
+        "Chaap-e sarbarghaa raa motevaghef konid."
+      ]
+    },
+    {
+      "id": "fa-s127",
+      "kind": "sentence",
+      "native": [
+        "لطفاً 750 گرم پسته و 2 کیلو کشمش بکشید."
+      ],
+      "roman": [
+        "Lotfan 750 geram peste va 2 kilo keshmesh bekeshid."
+      ]
+    },
+    {
+      "id": "fa-s128",
+      "kind": "sentence",
+      "native": [
+        "اشتراک فیلیمو رو قبل از سفر به کرمان تمدید کنم."
+      ],
+      "roman": [
+        "Eshteraak-e Filimo ro ghabl az safar be Kermaan tamdid konam."
+      ]
+    },
+    {
+      "id": "fa-s129",
+      "kind": "sentence",
+      "native": [
+        "سرچ کن چطوری با موزهای رسیده بستنی خونگی درست کنم که شکر لازم نداشته باشه."
+      ],
+      "roman": [
+        "Search kon chetori baa mozhaa-ye reside bastani-ye khoonegi dorost konam ke shekar laazem nadaashte baashe."
+      ]
+    },
+    {
+      "id": "fa-s130",
+      "kind": "sentence",
+      "native": [
+        "کیبوردت فارسی هم داره؟"
+      ],
+      "roman": [
+        "Keyboardet Faarsi ham daare?"
+      ]
+    },
+    {
+      "id": "fa-s131",
+      "kind": "sentence",
+      "native": [
+        "مغازه ابزارفروشی نبش کوچه تا غروب بازه."
+      ],
+      "roman": [
+        "Maghaaze-ye abzaarforooshi-ye nabsh-e kooche taa ghoroob baaze."
+      ]
+    },
+    {
+      "id": "fa-s132",
+      "kind": "sentence",
+      "native": [
+        "ببین، قرار بود زود بخوابیم، ولی بازم نشستیم تا نصفه‌شب درباره یه سریال حرف زدیم."
+      ],
+      "roman": [
+        "Bebin, gharaar bood zood bekhaabim, vali baazam neshastim taa nesfeshab darbaare-ye ye seriaal harf zadim."
+      ]
+    },
+    {
+      "id": "fa-s133",
+      "kind": "sentence",
+      "native": [
+        "آقای رستمی، برای نصب هواکش کارگاه چه ابزاری لازم دارید؟"
+      ],
+      "roman": [
+        "Aaghaaye Rostami, baraaye nasb-e havaakesh-e kaargaah che abzaari laazem daarid?"
+      ]
+    },
+    {
+      "id": "fa-s134",
+      "kind": "sentence",
+      "native": [
+        "قطار یزد ساعت 16:20 از سکوی 4 حرکت می‌کند."
+      ],
+      "roman": [
+        "Ghataar-e Yazd saat 16:20 az sakkooye 4 harekat mikonad."
+      ]
+    },
+    {
+      "id": "fa-s135",
+      "kind": "sentence",
+      "native": [
+        "شارژم داره تموم می‌شه، ادامه‌ش رو شب تعریف می‌کنم."
+      ],
+      "roman": [
+        "Shaarzham daare tamoom mishe, edaamesh ro shab tarif mikonam."
+      ]
+    },
+    {
+      "id": "fa-s136",
+      "kind": "sentence",
+      "native": [
+        "مریم، هزینه پذیرایی شعبه رشت رو جدا حساب کن تا سهم هر بخش مشخص بشه."
+      ],
+      "roman": [
+        "Maryam, hazine-ye paziraayi-ye shobe-ye Rasht ro jodaa hesaab kon taa sahm-e har bakhsh moshakhas beshe."
+      ]
+    },
+    {
+      "id": "fa-s137",
+      "kind": "sentence",
+      "native": [
+        "امانت این 2 کتاب رو تا 18 آبان تمدید می‌کنید؟ مهلت قبلیشون 11 آبان بود."
+      ],
+      "roman": [
+        "Amaanate in 2 ketaab ro taa 18 Aabaan tamdid mikonid? Mohlate ghablishoon 11 Aabaan bood."
+      ]
+    },
+    {
+      "id": "fa-s138",
+      "kind": "sentence",
+      "native": [
+        "کرایه اسنپ تا تجریش 165000 تومان شده."
+      ],
+      "roman": [
+        "Keraaye-ye Snapp taa Tajrish 165000 toomaan shode."
+      ]
+    }
+  ]
+}

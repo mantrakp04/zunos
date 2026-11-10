@@ -1,0 +1,1682 @@
+{
+  "lang": "oc",
+  "starter": [
+    "oc-s135",
+    "oc-s159",
+    "oc-s071",
+    "oc-s005",
+    "oc-s063",
+    "oc-s073",
+    "oc-s041",
+    "oc-s096",
+    "oc-s026",
+    "oc-s169",
+    "oc-s015",
+    "oc-s114",
+    "oc-p07",
+    "oc-s162",
+    "oc-s143",
+    "oc-s125",
+    "oc-s184",
+    "oc-s147",
+    "oc-s070",
+    "oc-s127",
+    "oc-s057",
+    "oc-s101",
+    "oc-s173",
+    "oc-s102",
+    "oc-s119",
+    "oc-p05",
+    "oc-s077",
+    "oc-s182",
+    "oc-s181",
+    "oc-s148",
+    "oc-s078",
+    "oc-s141",
+    "oc-s176",
+    "oc-s081",
+    "oc-s115",
+    "oc-s109",
+    "oc-s107",
+    "oc-s017",
+    "oc-p08",
+    "oc-s036",
+    "oc-s091",
+    "oc-s112",
+    "oc-s066",
+    "oc-s137",
+    "oc-s124",
+    "oc-s072",
+    "oc-s034",
+    "oc-s157",
+    "oc-s001",
+    "oc-s018",
+    "oc-s027"
+  ],
+  "items": [
+    {
+      "id": "oc-p01",
+      "kind": "para",
+      "title": "A Birthday Surprise",
+      "native": [
+        "Escota, dissabte preparam una suspresa per l'anniversari de Lucila, a Tolosa.",
+        "Nos retrobam al jardin de Compans-Caffarelli a 16:30, prèp de l'intrada.",
+        "Li pòdes dire que sortissètz simplament per passejar un pauc en vila.",
+        "Quand arribaretz, serem amagats darrièr los arbres amb lo pastís de pomas.",
+        "Ramon portarà una granda manta e de chuc de frucha per totes.",
+        "De ton costat, pòrta qualques gobelets e un cotèl per copar lo pastís.",
+        "Avèm convidat sa sòrre tanben, mas Lucila sap pas que vendrà.",
+        "Manda-me un messatge quand seretz prèp del jardin, per que nos poscam preparar.",
+        "Se plòu, farem la fèsta a l'ostal de Ramon, sens cambiar l'ora."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-p02",
+      "kind": "para",
+      "title": "Before Going on Leave",
+      "native": [
+        "Bonjorn, abans de partir en vacanças, vos daissi qualques informacions sul trabalh en cors.",
+        "Lo dorsièr de Nimes es dins lo repertòri partejat, amb las darrièras modificacions.",
+        "Clara a ja verificat los prètzes, mas manca encara la confirmacion del client.",
+        "Se telefona al burèu de Montpelhièr, podètz li dire que tot es prèst.",
+        "Cal mandar la comanda al talhièr abans dijòus a 12:00.",
+        "Per las liurasons de la setmana que ven, demandatz dirèctament a Yanis.",
+        "Trobaretz los numèros dels fornidors dins lo fichièr de contactes de l'equipa.",
+        "Vos mandi en pèça junta la lista dels punts que demòran de reglar.",
+        "Tòrni diluns 17 d'agost, e farem lo punt ensemble dins la matinada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-p03",
+      "kind": "para",
+      "title": "Help at the Market",
+      "native": [
+        "Dissabte passat, tornavi del mercat de Revèl amb las crompas de la setmana.",
+        "Lo sac de papièr s'es estripat, e mas pomas an rotlat pel trepador.",
+        "Aviái tanben un ramelet de flors que podiái pas pausar per tèrra.",
+        "Una dòna qu'esperava son filh s'es lèu acostada per m'ajudar.",
+        "A tirat un cabàs plegat de sa pòcha e me l'a balhat.",
+        "Puèi a recampat las pomas, mentre que teniái lo ramelet dins los braces.",
+        "Avèm parlat un moment de las pebronièras qu'aviá crompadas per son òrt.",
+        "Son filh m'a ajudat a portar las crompas fins a l'arrèst de l'autobús.",
+        "Ara gardi totjorn un sac de tela de mai dins mon cabàs."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-p04",
+      "kind": "para",
+      "title": "Balcony Garden Care",
+      "native": [
+        "Per plantar sus ton balcon, comença amb de pòts traucats al fons.",
+        "Met una sieta jos cada pòt per pas banhar lo balcon del vesin.",
+        "Mescla de tèrra amb un pauc de compost abans de plantar.",
+        "Plaça lo baselic a l'ombra quand lo solelh pica tròp fòrt.",
+        "Las tomatas an besonh de mai de lutz e d'un bon tutor.",
+        "L'estiu, tòca la tèrra cada matin per veire se cal asagar.",
+        "Asaga doçament al pè de las plantas, sens banhar las fuèlhas.",
+        "Quand fa de vent, sarra los pòts contra la paret del balcon.",
+        "Leva las fuèlhas secas cada setmana e verifica que l'aiga s'escola plan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-p05",
+      "kind": "para",
+      "title": "Dinner Delivery in Narbonne",
+      "native": [
+        "Dijòus passat, ai comandat mon sopar amb Uber Eats, a Narbona.",
+        "Lo restaurant prepausava de merluça amb de legums, e aquò m'a donat enveja.",
+        "L'aplicacion èra aisida d'utilizar, e ai trobat lèu çò que cercavi.",
+        "Ai pogut seguir lo liuraire sus lo plan.",
+        "Lo repais es arribat amb 10 minutas de retard, mas èri pas preissat.",
+        "Lo peis èra encara caud, mas las patatas èran vengudas mòlas.",
+        "La liurason m'a costat 3,90 €, çò que tròbi un pauc car.",
+        "Aquel servici es practic quand ai pas lo temps de cosinar.",
+        "Me'n servirai encara, mas compararai los prètzes abans de tornar comandar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-p06",
+      "kind": "para",
+      "title": "Wedding Shopping in Albi",
+      "native": [
+        "Per las nòças d'Inès e de Bastien, farem las crompas a Albi.",
+        "Pel repais del 19 de setembre, serem 48 en comptant los enfants.",
+        "Divendres, partirem a 09:00 per arribar al mercat abans de la fola.",
+        "Caldrà crompar 6 quilòs de tomatas e 4 quilòs de formatge del país.",
+        "Apondrai 12 botelhas de chuc de poma e 24 botelhas d'aiga.",
+        "Per las flors, avèm previst 85 €, sens comptar los vasos.",
+        "La pastissariá es a 2 quilomètres del mercat, e lo pastís còsta 96 €.",
+        "Anarem cercar las 50 servietas de teissut a 14:30, abans de tornar.",
+        "Per aquelas crompas, avèm un budgèt de 350 €, amb una resèrva pels imprevistes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-p07",
+      "kind": "para",
+      "title": "A Duplicate Card Charge",
+      "native": [
+        "Bonjorn, vos telefoni per un pagament amb carta dins una botiga de Carcassona.",
+        "Ai crompat una lampa a 32 € dissabte.",
+        "Sus mon compte, i a dos pagaments de 32 € per aquela meteissa crompa.",
+        "Ai pas fach cap d'autre pagament dins aquela botiga aquel jorn.",
+        "Lo tiquet de caissa correspond plan a un sol article.",
+        "La vendeira m'a confirmat qu'aviá enregistrat una sola venda.",
+        "Podètz verificar aquel segond pagament e me dire se i a agut una error?",
+        "Vos pòdi mandar una fòto del tiquet amb l'aplicacion de la banca.",
+        "Mercés de me dire cossí tornar aver l'argent que m'an levat de tròp."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-p08",
+      "kind": "para",
+      "title": "Getting Around Montpellier",
+      "native": [
+        "A Montpelhièr, lo tram es practic per se desplaçar cada jorn.",
+        "La linha 1 passa per Antigòna e la gara de Sant Ròc.",
+        "A la gara de Sant Ròc, podètz cambiar de linha de tram.",
+        "Los bus van tanben dins las comunas vesinas, coma Clapièrs.",
+        "Se demoratz dins la metropòli, vos cal un pass per viatjar gratis.",
+        "Se demoratz endacòm mai, cal crompar un bilhet abans de montar dins lo tram.",
+        "Per consultar los oraris e preparar vòstre trajècte, anatz sul sit de TaM.",
+        "A las oras de punta, comptatz un pauc mai de temps.",
+        "I a tanben d'aparcaments per bicicletas prèp de las estacions."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s001",
+      "kind": "sentence",
+      "native": [
+        "Sara ven dimenge amb son can, alara caldrà pensar a barrar lo portal abans de partir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s002",
+      "kind": "sentence",
+      "native": [
+        "Dempuèi la mesa a jorn, lo logicial se blòca pas pus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s003",
+      "kind": "sentence",
+      "native": [
+        "Rèsta 18 % de batariá."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s004",
+      "kind": "sentence",
+      "native": [
+        "Prevei 6,80 € per la flauna de la fornariá."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s005",
+      "kind": "sentence",
+      "native": [
+        "Arrèsta la lectura del tèxte."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s006",
+      "kind": "sentence",
+      "native": [
+        "Çò que m'embèstia, es de tornar picar mon identificant cada còp que la connexion se pèrd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s007",
+      "kind": "sentence",
+      "native": [
+        "Passarem pel pont vièlh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s008",
+      "kind": "sentence",
+      "native": [
+        "Èra bon, aquel pelardon!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s009",
+      "kind": "sentence",
+      "native": [
+        "Aurèlia, te presti ma maquina de cóser, vòli dire la de ma maire. La mieuna marcha pas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s010",
+      "kind": "sentence",
+      "native": [
+        "Sèrgi, sens ton ajuda, auriái pas gausat cantar davant totes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s011",
+      "kind": "sentence",
+      "native": [
+        "Miquèl, as pas vist mas claus sus la taula?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s012",
+      "kind": "sentence",
+      "native": [
+        "Segon l'associacion de Fois, caldrà un interprèt per que totes pòscan participar a las discussions sens dificultat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s013",
+      "kind": "sentence",
+      "native": [
+        "Èrem 8 per jogar als escacs de 16:00 a 17:30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s014",
+      "kind": "sentence",
+      "native": [
+        "Fai-me pensar de sortir las escobilhas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s015",
+      "kind": "sentence",
+      "native": [
+        "Aficha los sostítols en occitan pendent la vidèo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s016",
+      "kind": "sentence",
+      "native": [
+        "A Carcassona, la fibra serà installada dins nòstres burèus diluns."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s017",
+      "kind": "sentence",
+      "native": [
+        "Cecília m'espèra davant la gara."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s018",
+      "kind": "sentence",
+      "native": [
+        "Bufa fòrt, barra los contravents."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s019",
+      "kind": "sentence",
+      "native": [
+        "Per la sortida, prenèm una gòrra, d'aiga e lo gostaron."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s020",
+      "kind": "sentence",
+      "native": [
+        "Me fa plaser de te veire."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s021",
+      "kind": "sentence",
+      "native": [
+        "Òc, soi encara en pijama."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s022",
+      "kind": "sentence",
+      "native": [
+        "Passatz una bona serada, a deman!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s023",
+      "kind": "sentence",
+      "native": [
+        "Dimars 17 de novembre, la mediatèca dobrirà a 10:30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s024",
+      "kind": "sentence",
+      "native": [
+        "Sul calendièr, marca la visita de l'apartament per diluns."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s025",
+      "kind": "sentence",
+      "native": [
+        "Coma se ditz en espanhòl que vòli cambiar mon bilhet per partir pus lèu dins la matinada?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s026",
+      "kind": "sentence",
+      "native": [
+        "Inès a retrobat ton mail dins los spams, aqueste matin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s027",
+      "kind": "sentence",
+      "native": [
+        "Viratz a drecha après la farmaciá, puèi seguitz las flèchas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s028",
+      "kind": "sentence",
+      "native": [
+        "Adieu, vèni recuperar mon mantèl."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s029",
+      "kind": "sentence",
+      "native": [
+        "Aquò se pòt congelar, o pas?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s030",
+      "kind": "sentence",
+      "native": [
+        "Quina polida vèsta avètz causida!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s031",
+      "kind": "sentence",
+      "native": [
+        "Marieta, pòdes anar quèrre mon filh a l'escòla, que la cadena de ma bicicleta s'es copada?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s032",
+      "kind": "sentence",
+      "native": [
+        "Bonjorn, auretz un moment aqueste matin?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s033",
+      "kind": "sentence",
+      "native": [
+        "Estampa 32 exemplars del programa, amb 2 paginas per fuèlh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s034",
+      "kind": "sentence",
+      "native": [
+        "Cal recóser lo boton del pantalon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s035",
+      "kind": "sentence",
+      "native": [
+        "Guida-me fins al parcatge mai pròche del musèu Soulages."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s036",
+      "kind": "sentence",
+      "native": [
+        "Prefeririái un clavièr mens bruchós."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s037",
+      "kind": "sentence",
+      "native": [
+        "Daissarai ma valisa a la consigna abans de vos rejónher."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s038",
+      "kind": "sentence",
+      "native": [
+        "Seriá plan de tornar los libres a la bibliotèca abans de partir en vacanças la setmana venenta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s039",
+      "kind": "sentence",
+      "native": [
+        "Espèra, preni tanben mon gilet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s040",
+      "kind": "sentence",
+      "native": [
+        "Ara que ne parlam tranquillament, me disi qu'auriam pogut evitar aquel malentendut en nos escotant melhor."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s041",
+      "kind": "sentence",
+      "native": [
+        "Uèi vau manjar amb Leïla, comptatz pas sus ieu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s042",
+      "kind": "sentence",
+      "native": [
+        "Quand auretz causit una data per la formacion a Lunèl, avisatz-me que pòsca organizar mon desplaçament."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s043",
+      "kind": "sentence",
+      "native": [
+        "Botatz 250 gramas de farina e 3 uòus dins un bol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s044",
+      "kind": "sentence",
+      "native": [
+        "Anirai a Albi amb l'associacion, e me cal preparar lo quasèrn e l'aparelh fòto la velha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s045",
+      "kind": "sentence",
+      "native": [
+        "Escafa lo darrièr messatge vocal, l'ai enregistrat per error."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s046",
+      "kind": "sentence",
+      "native": [
+        "Tròbi pas lo boton d'enregistrament."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s047",
+      "kind": "sentence",
+      "native": [
+        "Benlèu que ton oncle poiriá nos menar amb sa veitura."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s048",
+      "kind": "sentence",
+      "native": [
+        "Tre que l'aiga bolhirà, l'abocarai sus la semola e daissarai conflar lo tot qualques minutas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s049",
+      "kind": "sentence",
+      "native": [
+        "Voliái lo modèl roge, enfin non, lo blau amb raiaduras."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s050",
+      "kind": "sentence",
+      "native": [
+        "Passejar pel canal de la Robina me fa de ben, subretot après una jornada passada a córrer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s051",
+      "kind": "sentence",
+      "native": [
+        "Telefona-me quand seràs liure."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s052",
+      "kind": "sentence",
+      "native": [
+        "Finissi mon torn dins cinc minutas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s053",
+      "kind": "sentence",
+      "native": [
+        "Vòstre paquet arribarà lo 22 d'abril entre 14:00 e 18:00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s054",
+      "kind": "sentence",
+      "native": [
+        "Dissabte a 9:15, vendrà lo reparador per la maquina de lavar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s055",
+      "kind": "sentence",
+      "native": [
+        "Cèrca una recèpta de tarta de figas sens lach."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s056",
+      "kind": "sentence",
+      "native": [
+        "Cada còp que cliqui aquí, lo navigador se barra."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s057",
+      "kind": "sentence",
+      "native": [
+        "Ta cosina coneis lo camin?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s058",
+      "kind": "sentence",
+      "native": [
+        "Aprofiecharai de la pausa per anar pesar mon paquet a la pòsta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s059",
+      "kind": "sentence",
+      "native": [
+        "Justament, cercavi una taula bassa pel salon, mas aquela prendriá tròp de plaça davant la fenèstra."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s060",
+      "kind": "sentence",
+      "native": [
+        "Sincerament, aquela musica es tròp fòrta per charrar aicí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s061",
+      "kind": "sentence",
+      "native": [
+        "Ai doblidat mon cargador en cò teu, lo poiràs metre dins ta saca per me lo tornar?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s062",
+      "kind": "sentence",
+      "native": [
+        "Poiriam recebre los candidats dimècres entre 9:00 e 11:00?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s063",
+      "kind": "sentence",
+      "native": [
+        "Sèm a 2 quilomètres d'aquí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s064",
+      "kind": "sentence",
+      "native": [
+        "Abans de sopar, me cal metre las lentilhas a trempar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s065",
+      "kind": "sentence",
+      "native": [
+        "Convertís 18 quilomètres en mètres."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s066",
+      "kind": "sentence",
+      "native": [
+        "Desconnècta-te de WhatsApp abans de me prestar l'ordinator del burèu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s067",
+      "kind": "sentence",
+      "native": [
+        "Trabalhatz dins quin quartièr?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s068",
+      "kind": "sentence",
+      "native": [
+        "Tasta aquela sopa abans de servir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s069",
+      "kind": "sentence",
+      "native": [
+        "E ben, quina talha te cal?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s070",
+      "kind": "sentence",
+      "native": [
+        "Laurenç, ton explicacion èra clara, ara compreni melhor l'exercici."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s071",
+      "kind": "sentence",
+      "native": [
+        "Adèla, vendriás amb nautres al carnaval de Limós?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s072",
+      "kind": "sentence",
+      "native": [
+        "Joana, pòdes apondre lo devís al dorsièr del client?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s073",
+      "kind": "sentence",
+      "native": [
+        "L'ensag comença a 19:45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s074",
+      "kind": "sentence",
+      "native": [
+        "Inscriu lo talhièr de terralha de Lodèva dins mon agenda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s075",
+      "kind": "sentence",
+      "native": [
+        "Quin temps farà a Besièrs aquesta nuèch?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s076",
+      "kind": "sentence",
+      "native": [
+        "Capiti pas de jónher lo fichièr al formulari d'inscripcion."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s077",
+      "kind": "sentence",
+      "native": [
+        "Danièl davala del tram just après l'estadi municipal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s078",
+      "kind": "sentence",
+      "native": [
+        "Ma saca s'es descosuda dejós."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s079",
+      "kind": "sentence",
+      "native": [
+        "Son vòstras aquelas lunetas, las qu'èran jos lo banc?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s080",
+      "kind": "sentence",
+      "native": [
+        "Aimavi plan aquel parquet, mas ara que craqueja a cada pas, me demandi se cal pas lo cambiar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s081",
+      "kind": "sentence",
+      "native": [
+        "Felicitacions per ton permés, farem un torn quand voldràs!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s082",
+      "kind": "sentence",
+      "native": [
+        "Pensi que dos gropes pichons trabalharián melhor qu'un sol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s083",
+      "kind": "sentence",
+      "native": [
+        "Venètz al 36 carrièra de l'Universitat a Montpelhièr lo 9 de junh de 2026, a 11:20."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s084",
+      "kind": "sentence",
+      "native": [
+        "Tanlèu que la bugada serà seca, caldrà plegar los lançòls e los rengar dins l'armari de la cambra."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s085",
+      "kind": "sentence",
+      "native": [
+        "Baissa un pauc la luminositat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s086",
+      "kind": "sentence",
+      "native": [
+        "L'estampaira reconeis pas la cartocha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s087",
+      "kind": "sentence",
+      "native": [
+        "Alavetz, se sortisses pel passatge cobèrt, mon fraire t'esperarà de l'autre costat amb un parapluèja blau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s088",
+      "kind": "sentence",
+      "native": [
+        "Acceptariatz 15 € per aquel vaisselièr amb una pòrta de mens?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s089",
+      "kind": "sentence",
+      "native": [
+        "Èri partit per crompar de caulets, puèi ai vist las merinjanas e ai cambiat d'idèa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s090",
+      "kind": "sentence",
+      "native": [
+        "Te mercegi d'aver gardat mon gat tot lo dimenge."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s091",
+      "kind": "sentence",
+      "native": [
+        "Perqué la docha raja tan pauc?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s092",
+      "kind": "sentence",
+      "native": [
+        "Compreni vòstra demanda, mas podèm pas trabalhar lo dimenge."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s093",
+      "kind": "sentence",
+      "native": [
+        "Lisa a corregut 8 quilomètres en 52 minutas aqueste matin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s094",
+      "kind": "sentence",
+      "native": [
+        "Remembra-me de crompar de cebas doças de las Cevenas divendres."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s095",
+      "kind": "sentence",
+      "native": [
+        "Pendent la videoconferéncia, copa mon micro e garda la camèra alucada fins que s'acabe la presentacion."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s096",
+      "kind": "sentence",
+      "native": [
+        "Margarida, lo wifi marcha tanben dins la cort de l'escòla?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s097",
+      "kind": "sentence",
+      "native": [
+        "Cresi que ta cosina ensenha dins aquela escòla, m'enganhi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s098",
+      "kind": "sentence",
+      "native": [
+        "Estela a besonh d'un cartable mai grand per la dintrada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s099",
+      "kind": "sentence",
+      "native": [
+        "Aquel tirador se dobrís cossí?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s100",
+      "kind": "sentence",
+      "native": [
+        "Perdona-me, ai respondut tròp lèu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s101",
+      "kind": "sentence",
+      "native": [
+        "Ja soi arribat a l'ostal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s102",
+      "kind": "sentence",
+      "native": [
+        "Lídia, remplaçaràs Sandrina a l'acuèlh pendent sa pausa de dinar?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s103",
+      "kind": "sentence",
+      "native": [
+        "L'abonament còsta 9,99 € per mes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s104",
+      "kind": "sentence",
+      "native": [
+        "Apond de sabon a la lista."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s105",
+      "kind": "sentence",
+      "native": [
+        "Explica-me coma levar una taca de tinta sus una camisa de coton sens abimar lo teissut."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s106",
+      "kind": "sentence",
+      "native": [
+        "Robèrt Vidal m'a demandat d'installar Signal sul telefòn de l'atalhièr per parlar amb los autres artesans."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s107",
+      "kind": "sentence",
+      "native": [
+        "Avisa ton collèga que la naveta va pas pus fins a l'aeropòrt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s108",
+      "kind": "sentence",
+      "native": [
+        "Farid Bousquet pòt ajudar a montar los mòbles de la cosina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s109",
+      "kind": "sentence",
+      "native": [
+        "Agnès, passarem divendres, non, puslèu diluns se siás d'acòrdi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s110",
+      "kind": "sentence",
+      "native": [
+        "Coratge, amb un ensag de mai o vas capitar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s111",
+      "kind": "sentence",
+      "native": [
+        "M'agrada mai lo libre que lo film, e tu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s112",
+      "kind": "sentence",
+      "native": [
+        "Alícia, quand dises urgent, parlas d'uèi o de deman?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s113",
+      "kind": "sentence",
+      "native": [
+        "Mon coifaire de Montalban demanda 29 € per la copa, mas aicí me'n fan pagar 36 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s114",
+      "kind": "sentence",
+      "native": [
+        "Demanda un tornavís a Naïm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s115",
+      "kind": "sentence",
+      "native": [
+        "Passa a la cançon seguenta sens cambiar lo volum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s116",
+      "kind": "sentence",
+      "native": [
+        "Ton compte es encara accessible?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s117",
+      "kind": "sentence",
+      "native": [
+        "Dins lo quartièr de la Mosson, la botiga de teissuts es entre l'especiariá e lo salon de coifadura."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s118",
+      "kind": "sentence",
+      "native": [
+        "Te conselhi pas de legir aquel conte als enfants abans de dormir, perque la fin es tròp trista."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s119",
+      "kind": "sentence",
+      "native": [
+        "Aurètz de ficèla, de papièr espés e qualques elastics?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s120",
+      "kind": "sentence",
+      "native": [
+        "Pecat, esperavi una autra responsa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s121",
+      "kind": "sentence",
+      "native": [
+        "Podètz mandar una fòto de la pichona sul grop?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s122",
+      "kind": "sentence",
+      "native": [
+        "Bona fin de setmana a tota l'equipa, e felicitacions per aver acabat aquela comanda a temps."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s123",
+      "kind": "sentence",
+      "native": [
+        "Pel tren de 16:42 cap a Nimes, resèrva doas plaças."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s124",
+      "kind": "sentence",
+      "native": [
+        "Vòli triar mas fòtos e ne far una còpia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s125",
+      "kind": "sentence",
+      "native": [
+        "Met lo revèlh a 6:40."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s126",
+      "kind": "sentence",
+      "native": [
+        "Quitament sens internet, poiràs trabalhar sus aqueste document, e tot se sincronizarà quand te tornaràs connectar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s127",
+      "kind": "sentence",
+      "native": [
+        "Ma sòrre pòt vos acompanhar fins a l'ofici de torisme."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s128",
+      "kind": "sentence",
+      "native": [
+        "Quant ne volètz per l'escala?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s129",
+      "kind": "sentence",
+      "native": [
+        "Quand venèm de Besièrs, Milhau es abans o après lo viaducte?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s130",
+      "kind": "sentence",
+      "native": [
+        "Pensa a portar ta servieta, anam nadar a la piscina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s131",
+      "kind": "sentence",
+      "native": [
+        "L'artesan de Pàmias m'a confirmat que vendrà reparar l'ascensor, mas cal li dobrir lo portal del pati."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s132",
+      "kind": "sentence",
+      "native": [
+        "Pels devers de deman, devèm acabar l'exercici 9 de la pagina 63."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s133",
+      "kind": "sentence",
+      "native": [
+        "Dijòus, signarai l'autorizacion per la sortida al musèu Fabre e la metrai dins lo cartable de ma filha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s134",
+      "kind": "sentence",
+      "native": [
+        "Cossí se desactiva la vibracion?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s135",
+      "kind": "sentence",
+      "native": [
+        "Dobrís un onglet novèl."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s136",
+      "kind": "sentence",
+      "native": [
+        "Prèp de la font, i a un banc a l'ombra."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s137",
+      "kind": "sentence",
+      "native": [
+        "Sabètz se la piscina d'Usès es dobèrta pendent las vacanças?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s138",
+      "kind": "sentence",
+      "native": [
+        "Servissi l'aligòt ara, o esperam encara un pauc?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s139",
+      "kind": "sentence",
+      "native": [
+        "D'acòrdi, te passi quèrre deman."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s140",
+      "kind": "sentence",
+      "native": [
+        "Es possible de reservar una sala pus tranquilla per enregistrar?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s141",
+      "kind": "sentence",
+      "native": [
+        "Talha 4 tròces de fusta de 35 centimètres cadun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s142",
+      "kind": "sentence",
+      "native": [
+        "Devi netejar lo filtre de l'aspirador."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s143",
+      "kind": "sentence",
+      "native": [
+        "Desactiva lo Bluetooth per estalviar la batariá del telefòn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s144",
+      "kind": "sentence",
+      "native": [
+        "Escusatz-me, vòli pas crear un compte sonque per consultar lo programa de vòstre talhièr en linha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s145",
+      "kind": "sentence",
+      "native": [
+        "L'intrada dona sus la placeta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s146",
+      "kind": "sentence",
+      "native": [
+        "Quora poiretz venir reparar lo robinet que degota?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s147",
+      "kind": "sentence",
+      "native": [
+        "Disiái 12,50 €, mas ai pas comptat lo transpòrt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s148",
+      "kind": "sentence",
+      "native": [
+        "Mercés pel còp de man amb aquelas caissas tan pesugas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s149",
+      "kind": "sentence",
+      "native": [
+        "Bernat, te daissi verificar las somas del tablèu abans de las transmetre a nòstra comptabla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s150",
+      "kind": "sentence",
+      "native": [
+        "Quitarem Narbona lo 23 de julhet a 8:15 e tornarem lo 29 a 21:40 amb los enfants."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s151",
+      "kind": "sentence",
+      "native": [
+        "Aquesta setmana, portarai mas bòtas al cordonièr per far cambiar las sòlas que son tròp usadas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s152",
+      "kind": "sentence",
+      "native": [
+        "Ont pòdi trobar un talhièr de reparacion de bicicletas a Seta?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s153",
+      "kind": "sentence",
+      "native": [
+        "Sus l'aplicacion TaM, los oraris del tram apareisson pas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s154",
+      "kind": "sentence",
+      "native": [
+        "Vesi que lo restaurant es barrat, val mai contunhar fins a la pizzeria del canton per manjar quicòm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s155",
+      "kind": "sentence",
+      "native": [
+        "Tornarem dançar al balèti de Total Festum aqueste estiu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s156",
+      "kind": "sentence",
+      "native": [
+        "Non, perdon, parlavi del verd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s157",
+      "kind": "sentence",
+      "native": [
+        "Fin finala, vendrem totes dos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s158",
+      "kind": "sentence",
+      "native": [
+        "Podèm gardar aquesta version de l'aficha, las colors me van."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s159",
+      "kind": "sentence",
+      "native": [
+        "Ela farà 47 ans dijòus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s160",
+      "kind": "sentence",
+      "native": [
+        "Cada ser, donarai de granas al canari après lo trabalh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s161",
+      "kind": "sentence",
+      "native": [
+        "Mòstra-me los oraris de la piscina de Blanhac per dissabte."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s162",
+      "kind": "sentence",
+      "native": [
+        "Preferissi recebre lo còdi per messatge puslèu que per mail."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s163",
+      "kind": "sentence",
+      "native": [
+        "Ruben trabalha ara a Castras."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s164",
+      "kind": "sentence",
+      "native": [
+        "Sens lo tiquet, poirai pas escambiar aquelas sabatas tròp estrechas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s165",
+      "kind": "sentence",
+      "native": [
+        "Crompa de lach, d'uòus e dos pans, se te plai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s166",
+      "kind": "sentence",
+      "native": [
+        "Se plòu encara dissabte, poirem demorar aicí e far de crespèls en escotant ton darrièr podcast."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s167",
+      "kind": "sentence",
+      "native": [
+        "Voldriái saber se vòstres locals son accessibles sens prene l'escalièr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s168",
+      "kind": "sentence",
+      "native": [
+        "Lo bus 14 passa per Sant Çubran a 7:23, just abans que comence mon cors de dessenh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s169",
+      "kind": "sentence",
+      "native": [
+        "Apèla Guilhèm sus son mobil."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s170",
+      "kind": "sentence",
+      "native": [
+        "Entendi pas res dins lo casc."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s171",
+      "kind": "sentence",
+      "native": [
+        "Clamença m'a conselhat un coifaire a Rodés, mas sabi pas se pren de clients sens rendètz-vos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s172",
+      "kind": "sentence",
+      "native": [
+        "Portarai las cartas per jogar pendent que los enfants dormisson."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s173",
+      "kind": "sentence",
+      "native": [
+        "Indicatz la referéncia de l'article dins l'objècte de vòstre mail."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s174",
+      "kind": "sentence",
+      "native": [
+        "Notatz 06 73 28 54 91 coma numèro de contacte."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s175",
+      "kind": "sentence",
+      "native": [
+        "Garda-me un pauc de caçolet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s176",
+      "kind": "sentence",
+      "native": [
+        "Benvenguda dins nòstre talhièr!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s177",
+      "kind": "sentence",
+      "native": [
+        "Demòri dins la cambra 208."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s178",
+      "kind": "sentence",
+      "native": [
+        "Amb ton novèl capèl, te reconeisserai pas dins la carrièra!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s179",
+      "kind": "sentence",
+      "native": [
+        "Vos mandi la factura corregida, per un total de 48 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s180",
+      "kind": "sentence",
+      "native": [
+        "Amb 25 % de reduccion, aquela camisa còsta 27,90 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s181",
+      "kind": "sentence",
+      "native": [
+        "T'inquietes pas, tot va plan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s182",
+      "kind": "sentence",
+      "native": [
+        "La reünion de Tolosa es desplaçada a 14:30 dijòus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s183",
+      "kind": "sentence",
+      "native": [
+        "Aqueste cable de 4 mètres arriba pas fins al burèu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s184",
+      "kind": "sentence",
+      "native": [
+        "Nos trobam davant lo cinèma a 20:30, se te va."
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s185",
+      "kind": "sentence",
+      "native": [
+        "Quina talha pòrtas, 38 o 40?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "oc-s186",
+      "kind": "sentence",
+      "native": [
+        "Finalament, avèm ganhat 21 a 18, e lo torneg de dissabte començarà a 15:00 al gimnasi."
+      ],
+      "roman": null
+    }
+  ]
+}

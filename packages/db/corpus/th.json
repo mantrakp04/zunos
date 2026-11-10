@@ -1,0 +1,1930 @@
+{
+  "lang": "th",
+  "starter": [
+    "th-s155",
+    "th-s149",
+    "th-s066",
+    "th-s121",
+    "th-s106",
+    "th-s042",
+    "th-s129",
+    "th-s008",
+    "th-s089",
+    "th-s056",
+    "th-s081",
+    "th-p01",
+    "th-s004",
+    "th-s005",
+    "th-s102",
+    "th-s079",
+    "th-s125",
+    "th-s018",
+    "th-s087",
+    "th-s153",
+    "th-s131",
+    "th-s076",
+    "th-s074",
+    "th-p04",
+    "th-s114",
+    "th-s138",
+    "th-s139",
+    "th-s101",
+    "th-s051",
+    "th-s116",
+    "th-s013",
+    "th-s036",
+    "th-s024",
+    "th-s082",
+    "th-s112",
+    "th-p07",
+    "th-s020",
+    "th-s012",
+    "th-s108",
+    "th-s073",
+    "th-s111",
+    "th-s146",
+    "th-s109",
+    "th-s117",
+    "th-s031",
+    "th-s070",
+    "th-s003"
+  ],
+  "items": [
+    {
+      "id": "th-p01",
+      "kind": "para",
+      "title": "The New On Nut Flat",
+      "native": [
+        "ย้ายเข้าห้องใหม่แถวอ่อนนุชเรียบร้อยแล้วนะ.",
+        "ห้องอยู่ชั้นที่ 4 มีระเบียงหันไปทางคลอง.",
+        "ช่วงเช้าลมเข้าดีจนแทบไม่ต้องเปิดแอร์เลย.",
+        "ค่าเช่าเดือนละ 8500 บาท รวมค่าส่วนกลางแล้ว.",
+        "เมื่อวานแม่ช่วยจัดจานชามเข้าตู้จนเสร็จ.",
+        "ยังเหลือกล่องหนังสือวางอยู่ข้างโซฟาอีก 3 ใบ.",
+        "เย็นนี้จะเดินไปซื้อข้าวมันไก่ตรงปากซอย.",
+        "วันเสาร์ถ้าว่างก็มาช่วยเลือกที่วางต้นไม้หน่อยนะ.",
+        "เดี๋ยวส่งลิงก์แผนที่ให้ใน LINE จะได้หาเจอง่าย."
+      ],
+      "roman": [
+        "Yai khao hong mai thaeo On Nut riap roi laew na.",
+        "Hong yoo chan thee 4 mee rabiang han pai thang khlong.",
+        "Chuang chao lom khao dee jon thaep mai tong poet air loei.",
+        "Kha chao duean la 8500 baht ruam kha suan glang laew.",
+        "Muea wan mae chuai jat jan cham khao too jon set.",
+        "Yang luea glong nang sue wang yoo khang sofa eek 3 bai.",
+        "Yen nee ja doen pai sue khao man gai trong pak soi.",
+        "Wan sao tha wang gor ma chuai lueak thee wang ton mai noi na.",
+        "Diao song link phaen thee hai nai LINE ja dai ha jer ngai."
+      ]
+    },
+    {
+      "id": "th-p02",
+      "kind": "para",
+      "title": "Moving Upstairs in Sathon",
+      "native": [
+        "ออฟฟิศที่สาทรจะย้ายจากชั้นที่ 5 ไปชั้นที่ 8 ค่ะ.",
+        "เริ่มทำงานที่ชั้นใหม่วันที่ 20 กรกฎาคม 2569 ค่ะ.",
+        "รบกวนเก็บของบนโต๊ะให้เสร็จภายในวันศุกร์นะคะ.",
+        "ติดชื่อกับเลขโต๊ะไว้บนกล่องทุกใบด้วยค่ะ.",
+        "เอกสารที่ใช้บ่อยแยกใส่กระเป๋าไว้ก่อนนะคะ.",
+        "พี่วิชัยจะคุยเรื่องขนของกับทางอาคารให้ค่ะ.",
+        "ทีมไอทีจะย้ายเครื่องพิมพ์ขึ้นไปให้ค่ะ.",
+        "ช่วงย้ายของขอให้ใช้ลิฟต์ฝั่งลานจอดรถนะคะ.",
+        "ถ้าหากล่องเพิ่มไม่ได้ ทักมาในแชตได้เลยค่ะ."
+      ],
+      "roman": [
+        "Office thee Sathon ja yai jak chan thee 5 pai chan thee 8 ka.",
+        "Roem tham ngan thee chan mai wan thee 20 Garagada khom 2569 ka.",
+        "Rop guan geb khong bon to hai set phai nai wan suk na kha.",
+        "Tit chue gab lek to wai bon glong thuk bai duai ka.",
+        "Ek ga san thee chai boi yaek sai grapao wai gon na kha.",
+        "Phee Wichai ja khui rueang khon khong gab thang akhan hai ka.",
+        "Team IT ja yai khrueang phim kheun pai hai ka.",
+        "Chuang yai khong khor hai chai lift fang lan jot rot na kha.",
+        "Tha ha glong phoem mai dai thak ma nai chat dai loei ka."
+      ]
+    },
+    {
+      "id": "th-p03",
+      "kind": "para",
+      "title": "Rain at Warorot Market",
+      "native": [
+        "เมื่อวันอาทิตย์ฉันไปตลาดวโรรสกับพี่สาว.",
+        "ตั้งใจจะซื้อไส้อั่วกับน้ำพริกหนุ่มไปฝากแม่.",
+        "พอเดินถึงร้านดอกไม้ ฝนก็เทลงมาแบบไม่ทันตั้งตัว.",
+        "ป้าคนขายลำไยเรียกให้เข้าไปหลบใต้กันสาด.",
+        "รองเท้าผ้าใบเปียกแฉะไปหมดเลย.",
+        "พี่สาวเลยซื้อน้ำเต้าหู้ร้อนมาให้ดื่มรอฝนซา.",
+        "เรายืนดูน้ำไหลตามขอบถนนอยู่เกือบครึ่งชั่วโมง.",
+        "พอฝนหยุด แม่ค้าก็แถมลำไยให้หนึ่งกำมือ.",
+        "วันนั้นได้ของฝากครบ แต่ต้องตากรองเท้าอีก 2 วัน."
+      ],
+      "roman": [
+        "Muea wan athit chan pai talat Warorot gab phee sao.",
+        "Tang jai ja sue sai ua gab nam phrik num pai fak mae.",
+        "Phor doen thueng ran dok mai, fon gor the long ma baep mai than tang tua.",
+        "Pa khon khai lam yai riak hai khao pai lop tai gan sat.",
+        "Rong thao pha bai piak chae pai mot loei.",
+        "Phee sao loei sue nam tao hoo ron ma hai duem ror fon sa.",
+        "Rao yuen doo nam lai tam khob thanon yoo gueap khrueng chua mong.",
+        "Phor fon yut, mae kha gor thaem lam yai hai nueng gam mue.",
+        "Wan nan dai khong fak khrop, tae tong tak rong thao eek 2 wan."
+      ]
+    },
+    {
+      "id": "th-p04",
+      "kind": "para",
+      "title": "Paying the Electricity Bill",
+      "native": [
+        "เปิดบิลค่าไฟของห้องที่บางนาในอีเมลก่อนนะ.",
+        "แคปหน้าจอตรงคิวอาร์โค้ดท้ายบิลเก็บไว้ในมือถือ.",
+        "เปิดแอปธนาคารแล้วเลือกเมนูสแกนจ่าย.",
+        "กดเลือกรูปจากเครื่องแล้วแตะภาพที่เก็บไว้.",
+        "เช็กว่าชื่อผู้รับเป็นการไฟฟ้านครหลวงนะ.",
+        "เช็กยอดเงินที่ขึ้นบนหน้าจอให้ตรงกับบิลด้วย.",
+        "ถ้าข้อมูลถูกต้องแล้วก็กดยืนยันจ่ายเงินได้เลย.",
+        "ใส่รหัสหรือสแกนใบหน้าตามที่แอปบอกนะ.",
+        "พอจ่ายสำเร็จ เซฟสลิปไว้เผื่อต้องใช้เช็กทีหลัง."
+      ],
+      "roman": [
+        "Poet bill kha fai khong hong thee Bang Na nai email gon na.",
+        "Cap na jor trong QR code thai bill geb wai nai mue thue.",
+        "Poet app thanakhan laew lueak menu scan jai.",
+        "Got lueak roop jak khrueang laew tae phap thee geb wai.",
+        "Check wa chue phoo rab pen Gan Fai Fa Nakhon Luang na.",
+        "Check yot ngoen thee kheun bon na jor hai trong gab bill duai.",
+        "Tha kho moon thook tong laew gor got yuen yan jai ngoen dai loei.",
+        "Sai rahat rue scan bai na tam thee app bok na.",
+        "Phor jai sam ret, save slip wai phuea tong chai check thee lang."
+      ]
+    },
+    {
+      "id": "th-p05",
+      "kind": "para",
+      "title": "Yoga Class in Ari",
+      "native": [
+        "เมื่อวานฉันลองเรียนโยคะแถวอารีย์มาค่ะ.",
+        "สตูดิโออยู่ในซอยพหลโยธิน 7 เดินจากสถานีอารีย์ไม่ไกล.",
+        "ครูอธิบายแต่ละท่าชัดเจน แล้วเดินดูว่าทำถูกไหม.",
+        "คนเพิ่งเริ่มแบบฉันเลยตามทันเกือบทุกท่า.",
+        "ถ้ายืดขาแล้วเมื่อย ครูก็ให้พักได้ค่ะ.",
+        "เสื่อสะอาดดี แต่ห้องเปลี่ยนเสื้อผ้าค่อนข้างแคบ.",
+        "เสียงรถจากปากซอยดังเข้ามาบ้างตอนนอนพัก.",
+        "ค่าเรียนครั้งละ 250 บาท ได้เรียนกลุ่มเล็กก็ถือว่าคุ้มค่ะ.",
+        "ถ้าชอบคลาสที่เงียบสนิท ที่นี่อาจไม่เหมาะค่ะ."
+      ],
+      "roman": [
+        "Muea wan chan long rian yoga thaeo Ari ma ka.",
+        "Studio yoo nai soi Phahonyothin 7 doen jak sathanee Ari mai glai.",
+        "Khru athibai tae la tha chat jen, laew doen doo wa tham thook mai.",
+        "Khon phoeng roem baep chan loei tam than gueap thuk tha.",
+        "Tha yuet kha laew mueai, khru gor hai phak dai ka.",
+        "Suea sa at dee, tae hong plian suea pha khon khang khaep.",
+        "Siang rot jak pak soi dang khao ma bang ton non phak.",
+        "Kha rian khrang la 250 baht, dai rian glum lek gor thue wa khum ka.",
+        "Tha chob class thee ngiap sanit, thee nee at mai mor ka."
+      ]
+    },
+    {
+      "id": "th-p06",
+      "kind": "para",
+      "title": "Planning for University Admission",
+      "native": [
+        "ผมวางแผนสมัครเรียนที่มหาวิทยาลัยรามคำแหงครับ.",
+        "วันที่ 18 มิถุนายน 2569 จะเช็กกำหนดรับสมัคร.",
+        "ผมจะเตรียมสำเนาใบจบไว้ก่อน 2 ชุดครับ.",
+        "ถ้าเปิดรับแล้ว จะไปสมัครวันที่ 22 มิถุนายน 2569.",
+        "ตั้งใจออกจากบ้านเวลา 09:30 จะได้ไม่ต้องรีบ.",
+        "มหาวิทยาลัยอยู่ห่างจากบ้านประมาณ 8 กิโลเมตร.",
+        "กันเงินค่าเดินทางไปกลับไว้ 120 บาทครับ.",
+        "ผมเผื่อค่าถ่ายรูปกับค่าถ่ายเอกสารไว้อีก 150 บาท.",
+        "สมัครเสร็จแล้วจะเช็กอีเมลทุกเย็นครับ."
+      ],
+      "roman": [
+        "Phom wang phaen samak rian thee maha witthayalai Ramkhamhaeng krub.",
+        "Wan thee 18 Mithunayon 2569 ja check gam not rab samak.",
+        "Phom ja triam sam nao bai jop wai gon 2 chut krub.",
+        "Tha poet rab laew ja pai samak wan thee 22 Mithunayon 2569.",
+        "Tang jai ok jak ban wela 09:30 ja dai mai tong reep.",
+        "Maha witthayalai yoo hang jak ban praman 8 kilometer.",
+        "Gan ngoen kha dern thang pai glab wai 120 baht krub.",
+        "Phom phuea kha thai roop gab kha thai ek ga san wai eek 150 baht.",
+        "Samak set laew ja check email thuk yen krub."
+      ]
+    },
+    {
+      "id": "th-p07",
+      "kind": "para",
+      "title": "Calling About a Leaking Tap",
+      "native": [
+        "สวัสดีค่ะ มะลิที่เช่าห้องแถววุฒากาศนะคะ.",
+        "ก๊อกน้ำตรงอ่างล้างจานมีน้ำหยดตลอดเลยค่ะ.",
+        "ลองหมุนปิดจนสุดแล้ว แต่น้ำก็ยังหยดอยู่ค่ะ.",
+        "ใต้ตู้ยังแห้งอยู่ ไม่มีน้ำไหลลงพื้นนะคะ.",
+        "ถ่ายรูปกับวิดีโอส่งให้ทาง LINE แล้วค่ะ.",
+        "รบกวนช่วยนัดช่างมาดูให้หน่อยได้ไหมคะ?",
+        "พรุ่งนี้ช่วงเช้ามีคนอยู่ห้องถึง 11:00 ค่ะ.",
+        "ถ้าช่างมาเวลาอื่น ขอให้แจ้งก่อนสัก 1 ชั่วโมงนะคะ.",
+        "อยากทราบว่าค่าซ่อมส่วนนี้ใครเป็นคนจ่ายคะ?"
+      ],
+      "roman": [
+        "Sawasdee ka Mali thee chao hong thaeo Wutthakat na kha.",
+        "Gok nam trong ang lang jan mee nam yot talot loei ka.",
+        "Long moon pit jon sut laew tae nam gor yang yot yoo ka.",
+        "Tai too yang haeng yoo mai mee nam lai long phuen na kha.",
+        "Thai roop gab video song hai thang LINE laew ka.",
+        "Rop guan chuai nat chang ma doo hai noi dai mai kha?",
+        "Prung nee chuang chao mee khon yoo hong thueng 11:00 ka.",
+        "Tha chang ma wela uen khor hai jaeng gon sak 1 chua mong na kha.",
+        "Yak sap wa kha som suan nee khrai pen khon jai kha?"
+      ]
+    },
+    {
+      "id": "th-p08",
+      "kind": "para",
+      "title": "Exploring Sam Chuk Market",
+      "native": [
+        "ตลาดสามชุกอยู่ริมแม่น้ำท่าจีนในสุพรรณบุรี.",
+        "ที่นี่เป็นตลาดเก่าที่มีห้องแถวไม้เรียงต่อกัน.",
+        "ตามทางเดินยังเห็นป้ายร้านเก่าอยู่หลายป้าย.",
+        "บางร้านมีมุมเล่าเรื่องการค้าขายในชุมชนสมัยก่อนด้วย.",
+        "ของกินที่หลายคนแวะซื้อคือข้าวห่อใบบัว.",
+        "ส่วนลูกชิ้นยักษ์ก็เป็นอีกอย่างที่เห็นได้บ่อย.",
+        "วันหยุดช่วงสายคนจะเยอะหน่อย.",
+        "ถ้าอยากเดินสบาย แนะนำให้มาตอนร้านเพิ่งเปิด.",
+        "ซื้อของแล้วอย่าลืมทิ้งขยะลงถังที่จัดไว้."
+      ],
+      "roman": [
+        "Talat Sam Chuk yoo rim mae nam Tha Chin nai Suphan Buri.",
+        "Thee nee pen talat gao thee mee hong thaeo mai riang tor gan.",
+        "Tam thang dern yang hen pai ran gao yoo lai pai.",
+        "Bang ran mee mum lao rueang gan kha khai nai chum chon samai gon duai.",
+        "Khong gin thee lai khon wae sue khue khao hor bai bua.",
+        "Suan look chin yak gor pen eek yang thee hen dai boi.",
+        "Wan yut chuang sai khon ja yer noi.",
+        "Tha yak dern sabai nae nam hai ma ton ran phoeng poet.",
+        "Sue khong laew ya luem thing khaya long thang thee jat wai."
+      ]
+    },
+    {
+      "id": "th-s001",
+      "kind": "sentence",
+      "native": [
+        "ใครหยิบที่ชาร์จไป ช่วยเอามาคืนก่อนนอนด้วยนะ."
+      ],
+      "roman": [
+        "Khrai yib thee charge pai chuai ao ma khuen gon non duai na."
+      ]
+    },
+    {
+      "id": "th-s002",
+      "kind": "sentence",
+      "native": [
+        "พี่พัชรีสะดวกคุยเรื่องงบวันจันทร์ไหมคะ?"
+      ],
+      "roman": [
+        "Phee Phatcharee saduak khui rueang ngop wan jan mai kha?"
+      ]
+    },
+    {
+      "id": "th-s003",
+      "kind": "sentence",
+      "native": [
+        "กระเป๋าหนัก 17 กิโล ยังใส่ของได้อีก 3 กิโลค่ะ."
+      ],
+      "roman": [
+        "Grapao nak 17 kilo yang sai khong dai eek 3 kilo ka."
+      ]
+    },
+    {
+      "id": "th-s004",
+      "kind": "sentence",
+      "native": [
+        "วันอังคารเอาร่มไปซ่อม."
+      ],
+      "roman": [
+        "Wan ang khan ao rom pai som."
+      ]
+    },
+    {
+      "id": "th-s005",
+      "kind": "sentence",
+      "native": [
+        "บ้านแพ้วอยู่จังหวัดอะไร?"
+      ],
+      "roman": [
+        "Ban Phaeo yoo jang wat arai?"
+      ]
+    },
+    {
+      "id": "th-s006",
+      "kind": "sentence",
+      "native": [
+        "เมาส์ไม่ขยับเลยครับ."
+      ],
+      "roman": [
+        "Mouse mai khayab loei krub."
+      ]
+    },
+    {
+      "id": "th-s007",
+      "kind": "sentence",
+      "native": [
+        "ช่วงดึกยังมีรถสองแถวผ่านบ้านคุณไหมคะ?"
+      ],
+      "roman": [
+        "Chuang duek yang mee rot song thaew phan ban khun mai kha?"
+      ]
+    },
+    {
+      "id": "th-s008",
+      "kind": "sentence",
+      "native": [
+        "ถังขยะเต็มแล้วจ้ะ."
+      ],
+      "roman": [
+        "Thang khaya tem laew ja."
+      ]
+    },
+    {
+      "id": "th-s009",
+      "kind": "sentence",
+      "native": [
+        "ลงบางซ่อนค่ะ อ๋อ ไม่ใช่ ต้องลงเตาปูนค่ะ."
+      ],
+      "roman": [
+        "Long Bang Son ka or mai chai tong long Tao Poon ka."
+      ]
+    },
+    {
+      "id": "th-s010",
+      "kind": "sentence",
+      "native": [
+        "พอได้เดินริมกว๊านพะเยาแบบไม่ต้องรีบ ก็รู้สึกว่าไม่ได้พักผ่อนแบบนี้มานานแล้วค่ะ."
+      ],
+      "roman": [
+        "Phor dai doen rim Kwan Phayao baep mai tong reep gor roo suek wa mai dai phak phon baep nee ma nan laew ka."
+      ]
+    },
+    {
+      "id": "th-s011",
+      "kind": "sentence",
+      "native": [
+        "คิดถึงนะ ไว้ไปกอดกัน."
+      ],
+      "roman": [
+        "Khit thueng na wai pai god gan."
+      ]
+    },
+    {
+      "id": "th-s012",
+      "kind": "sentence",
+      "native": [
+        "ขนาดเสื้อพนักงานไม่ตรงกับที่สั่ง เปลี่ยนได้ไหมคะ?"
+      ],
+      "roman": [
+        "Khanat suea phanak ngan mai trong gab thee sang plian dai mai kha?"
+      ]
+    },
+    {
+      "id": "th-s013",
+      "kind": "sentence",
+      "native": [
+        "สั่งกระดาษ 8 รีมกับปากกา 12 ด้ามให้หน่อย."
+      ],
+      "roman": [
+        "Sang gradat 8 ream gab pakga 12 dam hai noi."
+      ]
+    },
+    {
+      "id": "th-s014",
+      "kind": "sentence",
+      "native": [
+        "เพิ่มฟองน้ำในรายการซื้อของ."
+      ],
+      "roman": [
+        "Phoem fong nam nai rai gan sue khong."
+      ]
+    },
+    {
+      "id": "th-s015",
+      "kind": "sentence",
+      "native": [
+        "อ่านข้อความล่าสุดในแชตให้ฟังหน่อยได้ไหม?"
+      ],
+      "roman": [
+        "Aan khor khwam la sut nai chat hai fang noi dai mai?"
+      ]
+    },
+    {
+      "id": "th-s016",
+      "kind": "sentence",
+      "native": [
+        "ถนัดใช้ Excel มากกว่า ขอสรุปยอดขายในเครื่องก่อนแล้วค่อยแชร์ให้ทีมได้ไหมคะ?"
+      ],
+      "roman": [
+        "Thanat chai Excel mak gwa khor sarup yot khai nai khrueang gon laew khoi share hai team dai mai kha?"
+      ]
+    },
+    {
+      "id": "th-s017",
+      "kind": "sentence",
+      "native": [
+        "รถตู้ไปศรีราชาขึ้นตรงชานชาลาไหนครับ?"
+      ],
+      "roman": [
+        "Rot too pai Si Racha kheun trong chan chala nai krub?"
+      ]
+    },
+    {
+      "id": "th-s018",
+      "kind": "sentence",
+      "native": [
+        "ครูให้เตรียมกล่องเปล่าไปทำงานประดิษฐ์ด้วยนะ."
+      ],
+      "roman": [
+        "Khru hai triam glong plao pai tham ngan pradit duai na."
+      ]
+    },
+    {
+      "id": "th-s019",
+      "kind": "sentence",
+      "native": [
+        "ช้อนอยู่ไหน? มีแต่ส้อม."
+      ],
+      "roman": [
+        "Chon yoo nai? Mee tae som."
+      ]
+    },
+    {
+      "id": "th-s020",
+      "kind": "sentence",
+      "native": [
+        "ขอโทษนะที่พูดแทรก."
+      ],
+      "roman": [
+        "Khor thot na thee phoot saek."
+      ]
+    },
+    {
+      "id": "th-s021",
+      "kind": "sentence",
+      "native": [
+        "รถติดอยู่ตรงลาดพร้าว คงไปไม่ทันหนังรอบนี้ เปลี่ยนเป็นรอบค่ำได้ไหม?"
+      ],
+      "roman": [
+        "Rot tit yoo trong Lat Phrao khong pai mai than nang rop nee plian pen rop kham dai mai?"
+      ]
+    },
+    {
+      "id": "th-s022",
+      "kind": "sentence",
+      "native": [
+        "ขอเวลาตรวจยอดอีกนิดครับ."
+      ],
+      "roman": [
+        "Khor wela truat yot eek nit krub."
+      ]
+    },
+    {
+      "id": "th-s023",
+      "kind": "sentence",
+      "native": [
+        "คอนโดอยู่ในซอยสุขุมวิท 31 มาที่ตึกที่ 2 ได้เลยค่ะ."
+      ],
+      "roman": [
+        "Condo yoo nai soi Sukhumvit 31 ma thee tuek thee 2 dai loei ka."
+      ]
+    },
+    {
+      "id": "th-s024",
+      "kind": "sentence",
+      "native": [
+        "เตือนให้พับผ้าด้วยนะ."
+      ],
+      "roman": [
+        "Tuean hai phab pha duai na."
+      ]
+    },
+    {
+      "id": "th-s025",
+      "kind": "sentence",
+      "native": [
+        "อากาศที่หัวหินช่วงบ่ายจะร้อนแค่ไหน?"
+      ],
+      "roman": [
+        "Agat thee Hua Hin chuang bai ja ron khae nai?"
+      ]
+    },
+    {
+      "id": "th-s026",
+      "kind": "sentence",
+      "native": [
+        "พอเปลี่ยนสายต่อจอ ภาพก็กลับมาชัดแล้ว ไม่ต้องซื้อจอใหม่ให้เปลืองเงินนะครับ."
+      ],
+      "roman": [
+        "Phor plian sai tor jor phap gor glab ma chat laew mai tong sue jor mai hai plueang ngoen na krub."
+      ]
+    },
+    {
+      "id": "th-s027",
+      "kind": "sentence",
+      "native": [
+        "ระวังขึ้นรถผิดฝั่งนะครับ คันที่ไปห้างต้องขึ้นป้ายข้างสวน ไม่ใช่ฝั่งธนาคาร."
+      ],
+      "roman": [
+        "Ra wang kheun rot phit fang na krub khan thee pai hang tong kheun pai khang suan mai chai fang thanakhan."
+      ]
+    },
+    {
+      "id": "th-s028",
+      "kind": "sentence",
+      "native": [
+        "อ่างล้างหน้าระบายน้ำช้า สงสัยต้องล้างท่อแล้ว."
+      ],
+      "roman": [
+        "Ang lang naa rabai nam cha song sai tong lang thor laew."
+      ]
+    },
+    {
+      "id": "th-s029",
+      "kind": "sentence",
+      "native": [
+        "ปกหนังสือเอารูปทะเลนะ เดี๋ยวสิ รูปภูเขาน่าจะเข้ากับชื่อเรื่องมากกว่าค่ะ."
+      ],
+      "roman": [
+        "Pok nang sue ao roop thale na diao si roop phoo khao na ja khao gab chue rueang mak gwa ka."
+      ]
+    },
+    {
+      "id": "th-s030",
+      "kind": "sentence",
+      "native": [
+        "งานนี้ยังไม่สำเร็จ แต่ผมดีใจที่กล้าลอง อย่างน้อยก็ได้รู้ว่าตัวเองชอบอะไรครับ."
+      ],
+      "roman": [
+        "Ngan nee yang mai sam ret tae phom dee jai thee gla long yang noi gor dai roo wa tua eng chob arai krub."
+      ]
+    },
+    {
+      "id": "th-s031",
+      "kind": "sentence",
+      "native": [
+        "รูปที่ส่งมาใน LINE มืดจนมองหน้าไม่เห็นเลยนะ."
+      ],
+      "roman": [
+        "Roop thee song ma nai LINE muet jon mong na mai hen loei na."
+      ]
+    },
+    {
+      "id": "th-s032",
+      "kind": "sentence",
+      "native": [
+        "สวัสดีค่ะ คุณชุติมา รบกวนยืนยันจำนวนผู้เข้าอบรมภายในวันพฤหัสบดีนะคะ."
+      ],
+      "roman": [
+        "Sawasdee ka khun Chutima rob guan yuen yan jamnuan phoo khao obrom phai nai wan phruehat sabordee na kha."
+      ]
+    },
+    {
+      "id": "th-s033",
+      "kind": "sentence",
+      "native": [
+        "เสื้อเบอร์ 38 คับไปค่ะ มีเบอร์ 40 ให้เปลี่ยนไหมคะ?"
+      ],
+      "roman": [
+        "Suea boe 38 khab pai ka mee boe 40 hai plian mai kha?"
+      ]
+    },
+    {
+      "id": "th-s034",
+      "kind": "sentence",
+      "native": [
+        "คืนนี้ต้องสำรองรูปไว้."
+      ],
+      "roman": [
+        "Khuen nee tong sam rong roop wai."
+      ]
+    },
+    {
+      "id": "th-s035",
+      "kind": "sentence",
+      "native": [
+        "หยุดเล่นเพลงก่อนนะ."
+      ],
+      "roman": [
+        "Yut len phleng gon na."
+      ]
+    },
+    {
+      "id": "th-s036",
+      "kind": "sentence",
+      "native": [
+        "รหัสผ่านจำยากจัง."
+      ],
+      "roman": [
+        "Rahat phan jam yak jang."
+      ]
+    },
+    {
+      "id": "th-s037",
+      "kind": "sentence",
+      "native": [
+        "แป้งนัดเจอที่สวนเบญจกิติตอนบ่ายค่ะ."
+      ],
+      "roman": [
+        "Paeng nat jer thee Suan Benjakitti ton bai ka."
+      ]
+    },
+    {
+      "id": "th-s038",
+      "kind": "sentence",
+      "native": [
+        "ดินสอหักอีกแล้วเหรอ?"
+      ],
+      "roman": [
+        "Din sor hak eek laew ror?"
+      ]
+    },
+    {
+      "id": "th-s039",
+      "kind": "sentence",
+      "native": [
+        "หาร้านขายไหมพรมแถวดินแดง หรือแถวห้วยขวางก็ได้ ขอร้านที่เดินทางสะดวกนะ."
+      ],
+      "roman": [
+        "Ha ran khai mai phrom thaeo Din Daeng rue thaeo Huai Khwang gor dai khor ran thee doen thang saduak na."
+      ]
+    },
+    {
+      "id": "th-s040",
+      "kind": "sentence",
+      "native": [
+        "เย็นตาโฟชามละ 70 บาทแบบนี้ แพงไปหน่อยนะครับ."
+      ],
+      "roman": [
+        "Yen ta fo cham la 70 baht baep nee phaeng pai noi na krub."
+      ]
+    },
+    {
+      "id": "th-s041",
+      "kind": "sentence",
+      "native": [
+        "ลูกหลับแล้ว เบาเสียงหน่อยนะ."
+      ],
+      "roman": [
+        "Look lab laew bao siang noi na."
+      ]
+    },
+    {
+      "id": "th-s042",
+      "kind": "sentence",
+      "native": [
+        "บุษบาจะดูแลหน้าร้านระหว่างที่ฉันไปอบรมค่ะ."
+      ],
+      "roman": [
+        "Butsaba ja doo lae na ran rawang thee chan pai op rom ka."
+      ]
+    },
+    {
+      "id": "th-s043",
+      "kind": "sentence",
+      "native": [
+        "เบอร์ติดต่อช่างคือ 089-246-7315 นัดมาวันศุกร์เวลา 10:30 ได้เลยครับ."
+      ],
+      "roman": [
+        "Boe tit tor chang khue 089-246-7315 nat ma wan suk wela 10:30 dai loei krub."
+      ]
+    },
+    {
+      "id": "th-s044",
+      "kind": "sentence",
+      "native": [
+        "ก่อนเดินทางไปตรัง ต้องดาวน์โหลดแผนที่เก็บไว้ เผื่อระหว่างทางไม่มีสัญญาณ."
+      ],
+      "roman": [
+        "Gon doen thang pai Trang tong download phaen thee geb wai phuea rawang thang mai mee sanyan."
+      ]
+    },
+    {
+      "id": "th-s045",
+      "kind": "sentence",
+      "native": [
+        "เชื่อมต่อหูฟังแทนลำโพงเครื่องนี้ได้ไหม?"
+      ],
+      "roman": [
+        "Chueam tor hoo fang thaen lam phong khrueang nee dai mai?"
+      ]
+    },
+    {
+      "id": "th-s046",
+      "kind": "sentence",
+      "native": [
+        "คีย์บอร์ดมีฝุ่นเต็มเลย."
+      ],
+      "roman": [
+        "Keyboard mee fun tem loei."
+      ]
+    },
+    {
+      "id": "th-s047",
+      "kind": "sentence",
+      "native": [
+        "เจอกันหน้าร้านดอกไม้ฝั่งตรงข้ามโรงเรียนนะ."
+      ],
+      "roman": [
+        "Jer gan naa ran dok mai fang trong kham rong rian na."
+      ]
+    },
+    {
+      "id": "th-s048",
+      "kind": "sentence",
+      "native": [
+        "ใบรับประกันเครื่องดูดฝุ่นอยู่ในลิ้นชัก หยิบติดไปด้วยเผื่อทางศูนย์ขอดูนะ."
+      ],
+      "roman": [
+        "Bai rab pragan khrueang doot fun yoo nai lin chak yib tit pai duai phuea thang soon khor doo na."
+      ]
+    },
+    {
+      "id": "th-s049",
+      "kind": "sentence",
+      "native": [
+        "ซิปสีดำยังมีของไหมคะ?"
+      ],
+      "roman": [
+        "Zip see dam yang mee khong mai kha?"
+      ]
+    },
+    {
+      "id": "th-s050",
+      "kind": "sentence",
+      "native": [
+        "ช่อดอกไม้ที่พี่วิมลจัดสวยจนไม่อยากแกะเลยค่ะ."
+      ],
+      "roman": [
+        "Chor dok mai thee phee Wimon jat suai jon mai yak gae loei ka."
+      ]
+    },
+    {
+      "id": "th-s051",
+      "kind": "sentence",
+      "native": [
+        "พี่พลอยบอกว่าเค้กอร่อยมาก ฝากถามว่าซื้อจากไหน."
+      ],
+      "roman": [
+        "Phee Ploy bok wa cake aroi mak fak tham wa sue jak nai."
+      ]
+    },
+    {
+      "id": "th-s052",
+      "kind": "sentence",
+      "native": [
+        "ใบลาพักร้อนอนุมัติแล้วค่ะ."
+      ],
+      "roman": [
+        "Bai la phak ron anumat laew ka."
+      ]
+    },
+    {
+      "id": "th-s053",
+      "kind": "sentence",
+      "native": [
+        "เดินอีก 600 เมตรก็ครบ 5 กิโล."
+      ],
+      "roman": [
+        "Doen eek 600 met gor khrob 5 kilo."
+      ]
+    },
+    {
+      "id": "th-s054",
+      "kind": "sentence",
+      "native": [
+        "บ่ายนี้ว่างเมื่อไหร่ ต้องคัดเสื้อที่ไม่ใส่แล้วไว้บริจาค จะได้มีที่ในตู้เพิ่ม."
+      ],
+      "roman": [
+        "Bai nee wang muea rai tong khat suea thee mai sai laew wai bori jak ja dai mee thee nai too phoem."
+      ]
+    },
+    {
+      "id": "th-s055",
+      "kind": "sentence",
+      "native": [
+        "เปรียบเทียบเครื่องพิมพ์ที่ต่อกับมือถือได้ให้หน่อย เน้นรุ่นที่เติมหมึกเองได้."
+      ],
+      "roman": [
+        "Priap thiap khrueang phim thee tor gab mue thue dai hai noi nen run thee toem muek eng dai."
+      ]
+    },
+    {
+      "id": "th-s056",
+      "kind": "sentence",
+      "native": [
+        "พิมพ์ชนกขอเลื่อนประชุมเป็นช่วงบ่าย ต้องไปรับลูกค่ะ."
+      ],
+      "roman": [
+        "Pimchanok khor luean prachum pen chuang bai tong pai rab look ka."
+      ]
+    },
+    {
+      "id": "th-s057",
+      "kind": "sentence",
+      "native": [
+        "สังเกตป้ายร้านสีเหลือง ทางเข้าจะอยู่ด้านข้าง."
+      ],
+      "roman": [
+        "Sang get pai ran see lueang thang khao ja yoo dan khang."
+      ]
+    },
+    {
+      "id": "th-s058",
+      "kind": "sentence",
+      "native": [
+        "ลมแรงขนาดนี้ ย้ายราวตากผ้าเข้ามาข้างในดีกว่า."
+      ],
+      "roman": [
+        "Lom raeng khanat nee yai rao tak pha khao ma khang nai dee gwa."
+      ]
+    },
+    {
+      "id": "th-s059",
+      "kind": "sentence",
+      "native": [
+        "จัดกระเป๋าใส่เสื้อกันหนาว ถุงเท้า กับหมวก อ้อ เปลี่ยนหมวกเป็นผ้าพันคอแทนนะ."
+      ],
+      "roman": [
+        "Jat grapao sai suea gan nao thung thao gab muak or plian muak pen pha phan khor thaen na."
+      ]
+    },
+    {
+      "id": "th-s060",
+      "kind": "sentence",
+      "native": [
+        "สู้หน่อยนะ อีกนิดก็เสร็จ."
+      ],
+      "roman": [
+        "Soo noi na eek nit gor set."
+      ]
+    },
+    {
+      "id": "th-s061",
+      "kind": "sentence",
+      "native": [
+        "เมื่อกี้กดรับสายไม่ทัน มีเรื่องด่วนหรือเปล่า?"
+      ],
+      "roman": [
+        "Muea gee got rab sai mai than mee rueang duan rue plao?"
+      ]
+    },
+    {
+      "id": "th-s062",
+      "kind": "sentence",
+      "native": [
+        "ขอบคุณที่แจ้งล่วงหน้าค่ะ."
+      ],
+      "roman": [
+        "Khob khun thee jaeng luang na ka."
+      ]
+    },
+    {
+      "id": "th-s063",
+      "kind": "sentence",
+      "native": [
+        "ลูกสาวอายุครบ 7 ขวบแล้ว."
+      ],
+      "roman": [
+        "Look sao ayu khrob 7 khuab laew."
+      ]
+    },
+    {
+      "id": "th-s064",
+      "kind": "sentence",
+      "native": [
+        "เช้าวันเสาร์ต้องไปลองชุดที่ร้านแถวท่าพระ."
+      ],
+      "roman": [
+        "Chao wan sao tong pai long chut thee ran thaeo Tha Phra."
+      ]
+    },
+    {
+      "id": "th-s065",
+      "kind": "sentence",
+      "native": [
+        "ขยายตัวหนังสือบนหน้าจอให้ใหญ่กว่านี้ได้ไหม?"
+      ],
+      "roman": [
+        "Khayai tua nang sue bon na jor hai yai gwa nee dai mai?"
+      ]
+    },
+    {
+      "id": "th-s066",
+      "kind": "sentence",
+      "native": [
+        "คุณกมลช่วยเพิ่มผมเข้ากลุ่มงานใน LINE หน่อยครับ."
+      ],
+      "roman": [
+        "Khun Kamon chuai phoem phom khao glum ngan nai LINE noi krub."
+      ]
+    },
+    {
+      "id": "th-s067",
+      "kind": "sentence",
+      "native": [
+        "จูนถึงท่ารถหรือยัง?"
+      ],
+      "roman": [
+        "June thueng tha rot rue yang?"
+      ]
+    },
+    {
+      "id": "th-s068",
+      "kind": "sentence",
+      "native": [
+        "นัดช่างวัดม่านไว้ตอนเที่ยง เลื่อนไปบ่ายได้ไหมคะ?"
+      ],
+      "roman": [
+        "Nat chang wat man wai ton thiang luean pai bai dai mai kha?"
+      ]
+    },
+    {
+      "id": "th-s069",
+      "kind": "sentence",
+      "native": [
+        "ใส่หอมแดง ตะไคร้ แล้วก็ใบมะกรูด กลิ่นหอมขึ้นเลย."
+      ],
+      "roman": [
+        "Sai hom daeng ta khrai laew gor bai ma grood glin hom kheun loei."
+      ]
+    },
+    {
+      "id": "th-s070",
+      "kind": "sentence",
+      "native": [
+        "เสียดายจัง อุตส่าห์ซ้อมร้องเพลงแต่ไม่ได้ขึ้นเวที."
+      ],
+      "roman": [
+        "Sia dai jang ut sa som rong phleng tae mai dai kheun wethee."
+      ]
+    },
+    {
+      "id": "th-s071",
+      "kind": "sentence",
+      "native": [
+        "พ่อครับ ผมจองคิวตัดผมช่วงสายวันอาทิตย์ให้แล้ว."
+      ],
+      "roman": [
+        "Phor krub phom jong queue tat phom chuang sai wan athit hai laew."
+      ]
+    },
+    {
+      "id": "th-s072",
+      "kind": "sentence",
+      "native": [
+        "ทางบัญชียังรอใบกำกับภาษีอยู่ เลยปิดยอดไม่ได้ครับ."
+      ],
+      "roman": [
+        "Thang ban chee yang ror bai gam gab pha see yoo loei pit yot mai dai krub."
+      ]
+    },
+    {
+      "id": "th-s073",
+      "kind": "sentence",
+      "native": [
+        "ครึ่งแรกเรานำอยู่ 2 ต่อ 0."
+      ],
+      "roman": [
+        "Khrueng raek rao nam yoo 2 tor 0."
+      ]
+    },
+    {
+      "id": "th-s074",
+      "kind": "sentence",
+      "native": [
+        "อย่าลืมต่ออายุสมาชิกแอปฟังเพลงก่อนสิ้นเดือน."
+      ],
+      "roman": [
+        "Ya luem tor ayu samachik app fang phleng gon sin duean."
+      ]
+    },
+    {
+      "id": "th-s075",
+      "kind": "sentence",
+      "native": [
+        "แถวสถานีวงเวียนใหญ่มีร้านถ่ายรูปไหม?"
+      ],
+      "roman": [
+        "Thaeo sathanee Wongwian Yai mee ran thai roop mai?"
+      ]
+    },
+    {
+      "id": "th-s076",
+      "kind": "sentence",
+      "native": [
+        "ไฟล์ตารางเปิดในมือถือแล้วตัวเลขตกขอบหมดเลย."
+      ],
+      "roman": [
+        "File tarang poet nai mue thue laew tua lek tok khob mot loei."
+      ]
+    },
+    {
+      "id": "th-s077",
+      "kind": "sentence",
+      "native": [
+        "จอดส่งตรงปากซอยก็พอค่ะ เดินไปบ้านเพื่อนอีกไม่ไกล ไม่ต้องเลี้ยวเข้าไปหรอก."
+      ],
+      "roman": [
+        "Jot song trong pak soi gor phor ka doen pai ban phuean eek mai glai mai tong liao khao pai rork."
+      ]
+    },
+    {
+      "id": "th-s078",
+      "kind": "sentence",
+      "native": [
+        "เสื้อสีกรมตัวนี้ลดเหลือ 190 บาทได้ไหมคะ?"
+      ],
+      "roman": [
+        "Suea see grom tua nee lot luea 190 baht dai mai kha?"
+      ]
+    },
+    {
+      "id": "th-s079",
+      "kind": "sentence",
+      "native": [
+        "ยอดโอน 650 บาทนะ เมื่อกี้บอกขาดไป 50 บาทค่ะ."
+      ],
+      "roman": [
+        "Yot on 650 baht na muea gee bok khat pai 50 baht ka."
+      ]
+    },
+    {
+      "id": "th-s080",
+      "kind": "sentence",
+      "native": [
+        "ขอบใจที่รับฟังกันนะ."
+      ],
+      "roman": [
+        "Khob jai thee rab fang gan na."
+      ]
+    },
+    {
+      "id": "th-s081",
+      "kind": "sentence",
+      "native": [
+        "ถุงผ้าวางอยู่ข้างประตู อย่าลืมหยิบติดมือมาด้วยค่ะ."
+      ],
+      "roman": [
+        "Thung pha wang yoo khang pratu ya luem yib tit mue ma duai ka."
+      ]
+    },
+    {
+      "id": "th-s082",
+      "kind": "sentence",
+      "native": [
+        "แนบใบเสร็จมาแล้วค่ะ."
+      ],
+      "roman": [
+        "Naeb bai set ma laew ka."
+      ]
+    },
+    {
+      "id": "th-s083",
+      "kind": "sentence",
+      "native": [
+        "แบตเหลือ 18% เองนะ."
+      ],
+      "roman": [
+        "Bat luea 18% eng na."
+      ]
+    },
+    {
+      "id": "th-s084",
+      "kind": "sentence",
+      "native": [
+        "บันทึกค่าซ่อมพัดลม 350 บาทไว้ในรายจ่ายเดือนนี้."
+      ],
+      "roman": [
+        "Ban thuek kha som phat lom 350 baht wai nai rai jai duean nee."
+      ]
+    },
+    {
+      "id": "th-s085",
+      "kind": "sentence",
+      "native": [
+        "จับเวลา 9 นาทีให้ที."
+      ],
+      "roman": [
+        "Jab wela 9 nathee hai thee."
+      ]
+    },
+    {
+      "id": "th-s086",
+      "kind": "sentence",
+      "native": [
+        "แอปเด้งอีกแล้วค่ะ."
+      ],
+      "roman": [
+        "App deng eek laew ka."
+      ]
+    },
+    {
+      "id": "th-s087",
+      "kind": "sentence",
+      "native": [
+        "ข้ามสะพานแล้วเลี้ยวซ้าย."
+      ],
+      "roman": [
+        "Kham saphan laew liao sai."
+      ]
+    },
+    {
+      "id": "th-s088",
+      "kind": "sentence",
+      "native": [
+        "ญาติจากพิษณุโลกจะมาเยี่ยมคืนนี้ ช่วยปูที่นอนในห้องเล็กให้หน่อยนะ."
+      ],
+      "roman": [
+        "Yat jak Phitsanulok ja ma yiam khuen nee chuai poo thee non nai hong lek hai noi na."
+      ]
+    },
+    {
+      "id": "th-s089",
+      "kind": "sentence",
+      "native": [
+        "ผัดซีอิ๊วเส้นใหญ่ ไม่สิ เส้นหมี่ ไม่ใส่พริกนะ."
+      ],
+      "roman": [
+        "Phat see ew sen yai mai si sen mee mai sai phrik na."
+      ]
+    },
+    {
+      "id": "th-s090",
+      "kind": "sentence",
+      "native": [
+        "เสียงเจาะผนังดังจนอ่านหนังสือไม่รู้เรื่องเลย."
+      ],
+      "roman": [
+        "Siang jor phanang dang jon aan nang sue mai roo rueang loei."
+      ]
+    },
+    {
+      "id": "th-s091",
+      "kind": "sentence",
+      "native": [
+        "ได้เลย เดี๋ยวตามไปนะ."
+      ],
+      "roman": [
+        "Dai loei diao tam pai na."
+      ]
+    },
+    {
+      "id": "th-s092",
+      "kind": "sentence",
+      "native": [
+        "ก่อนเลิกงาน ช่วยรวมคำถามจากลูกค้าไว้ในไฟล์เดียว จะเอาไปทำคู่มือให้คนใหม่ค่ะ."
+      ],
+      "roman": [
+        "Gon loek ngan chuai ruam kham tham jak look kha wai nai file diao ja ao pai tham khoo mue hai khon mai ka."
+      ]
+    },
+    {
+      "id": "th-s093",
+      "kind": "sentence",
+      "native": [
+        "ส่งพัสดุให้คุณวารุณีที่บ้านเลขที่ 58 ซอยอารีย์ 4 ก่อนวันที่ 23 สิงหาคมนะคะ."
+      ],
+      "roman": [
+        "Song phatsadu hai khun Warunee thee ban lek thee 58 soi Ari 4 gon wan thee 23 Singhakhom na kha."
+      ]
+    },
+    {
+      "id": "th-s094",
+      "kind": "sentence",
+      "native": [
+        "พรุ่งนี้แวะคืนหนังสือที่ห้องสมุดก่อนกลับบ้าน."
+      ],
+      "roman": [
+        "Prung nee wae khuen nang sue thee hong sa mut gon glab ban."
+      ]
+    },
+    {
+      "id": "th-s095",
+      "kind": "sentence",
+      "native": [
+        "วิดีโอที่กำลังดูอยู่มีคำบรรยายภาษาไทยไหม? ถ้ามีก็เปิดให้ด้วยนะครับ."
+      ],
+      "roman": [
+        "Video thee gam lang doo yoo mee kham banyai phasa Thai mai? Tha mee gor poet hai duai na krub."
+      ]
+    },
+    {
+      "id": "th-s096",
+      "kind": "sentence",
+      "native": [
+        "สาขาโคราชใช้แท็บเล็ตรับออร์เดอร์ รายการอาหารก็เลยขึ้นจอในครัวได้ทันทีค่ะ."
+      ],
+      "roman": [
+        "Sa kha Korat chai tablet rab order rai gan ahan gor loei kheun jor nai khrua dai than thee ka."
+      ]
+    },
+    {
+      "id": "th-s097",
+      "kind": "sentence",
+      "native": [
+        "นั่งรอตรงม้านั่งได้เลย."
+      ],
+      "roman": [
+        "Nang ror trong ma nang dai loei."
+      ]
+    },
+    {
+      "id": "th-s098",
+      "kind": "sentence",
+      "native": [
+        "ผ้ากันเปื้อนเลอะซอสหมดเลย."
+      ],
+      "roman": [
+        "Pha gan puean loe sauce mot loei."
+      ]
+    },
+    {
+      "id": "th-s099",
+      "kind": "sentence",
+      "native": [
+        "อันนี้ของใคร ของเธอเหรอ?"
+      ],
+      "roman": [
+        "An nee khong khrai khong ther ror?"
+      ]
+    },
+    {
+      "id": "th-s100",
+      "kind": "sentence",
+      "native": [
+        "ฝันดีนะ เจอกันพรุ่งนี้."
+      ],
+      "roman": [
+        "Fan dee na jer gan prung nee."
+      ]
+    },
+    {
+      "id": "th-s101",
+      "kind": "sentence",
+      "native": [
+        "ตัวอย่างผ้าจากลำพูนสีเข้มกว่าในรูปนิดหน่อยค่ะ."
+      ],
+      "roman": [
+        "Tua yang pha jak Lamphun see khem gwa nai roop nit noi ka."
+      ]
+    },
+    {
+      "id": "th-s102",
+      "kind": "sentence",
+      "native": [
+        "ไข่ไก่เหลือแค่ 4 ฟอง."
+      ],
+      "roman": [
+        "Khai gai luea khae 4 fong."
+      ]
+    },
+    {
+      "id": "th-s103",
+      "kind": "sentence",
+      "native": [
+        "ตั้งเวลาเตือนให้ยืดเส้นหลังนั่งทำงานครบ 1 ชั่วโมง."
+      ],
+      "roman": [
+        "Tang wela tuean hai yuet sen lang nang tham ngan khrob 1 chua mong."
+      ]
+    },
+    {
+      "id": "th-s104",
+      "kind": "sentence",
+      "native": [
+        "สแกนเอกสารหน้านี้แล้วแปลงเป็นไฟล์ให้หน่อย."
+      ],
+      "roman": [
+        "Scan ekkasan na nee laew plaeng pen file hai noi."
+      ]
+    },
+    {
+      "id": "th-s105",
+      "kind": "sentence",
+      "native": [
+        "จิราภรณ์ลองกดจ่ายเงินบน Android ให้หน่อยนะ ลูกค้าบอกว่ากดแล้วเงียบเลย."
+      ],
+      "roman": [
+        "Jiraporn long got jai ngoen bon Android hai noi na look kha bok wa got laew ngiap loei."
+      ]
+    },
+    {
+      "id": "th-s106",
+      "kind": "sentence",
+      "native": [
+        "อ้อมรออยู่หน้าลิฟต์นะ."
+      ],
+      "roman": [
+        "Aom ror yoo naa lift na."
+      ]
+    },
+    {
+      "id": "th-s107",
+      "kind": "sentence",
+      "native": [
+        "กะเพราจานนี้เผ็ดไปนิด ขอน้ำเปล่าหน่อยครับ."
+      ],
+      "roman": [
+        "Gaprao jan nee phet pai nit khor nam plao noi krub."
+      ]
+    },
+    {
+      "id": "th-s108",
+      "kind": "sentence",
+      "native": [
+        "แว่นตานี่เท่าไหร่คะ? เฉพาะกรอบ ไม่รวมเลนส์นะ."
+      ],
+      "roman": [
+        "Waen ta nee thao rai kha? Chaphor grop mai ruam lens na."
+      ]
+    },
+    {
+      "id": "th-s109",
+      "kind": "sentence",
+      "native": [
+        "แม่อย่าเพิ่งรดน้ำต้นไม้นะ เมื่อกี้ฝนตกหนักเลย."
+      ],
+      "roman": [
+        "Mae ya phoeng rot nam ton mai na muea gee fon tok nak loei."
+      ]
+    },
+    {
+      "id": "th-s110",
+      "kind": "sentence",
+      "native": [
+        "ห้องประชุมเล็กจะปิดซ่อมเพดาน ระหว่างนี้คุยงานที่ห้องรับรองแทนได้ค่ะ."
+      ],
+      "roman": [
+        "Hong prachum lek ja pit som phedan rawang nee khui ngan thee hong rab rong thaen dai ka."
+      ]
+    },
+    {
+      "id": "th-s111",
+      "kind": "sentence",
+      "native": [
+        "วันพุธมีสอบ 2 วิชา เริ่ม 08:40 นะ."
+      ],
+      "roman": [
+        "Wan phut mee sop 2 wicha roem 08:40 na."
+      ]
+    },
+    {
+      "id": "th-s112",
+      "kind": "sentence",
+      "native": [
+        "ซื้อเต้าหู้แข็งกับเห็ดหอมมาไว้ทำมื้อเย็นนะ."
+      ],
+      "roman": [
+        "Sue tao hoo khaeng gab het hom ma wai tham mue yen na."
+      ]
+    },
+    {
+      "id": "th-s113",
+      "kind": "sentence",
+      "native": [
+        "ค้นหาวิธีทำแกงเลียงแบบไม่ใส่กุ้งให้หน่อย."
+      ],
+      "roman": [
+        "Khon ha withee tham gaeng liang baeb mai sai gung hai noi."
+      ]
+    },
+    {
+      "id": "th-s114",
+      "kind": "sentence",
+      "native": [
+        "เน็ตหลุดกลางสายเลย."
+      ],
+      "roman": [
+        "Net lut glang sai loei."
+      ]
+    },
+    {
+      "id": "th-s115",
+      "kind": "sentence",
+      "native": [
+        "ถนนเส้นนี้เดินรถทางเดียว ต้องวนไปอีกซอยครับ."
+      ],
+      "roman": [
+        "Thanon sen nee doen rot thang diao tong won pai eek soi krub."
+      ]
+    },
+    {
+      "id": "th-s116",
+      "kind": "sentence",
+      "native": [
+        "หอมเจียวกรอบกำลังดีเลย."
+      ],
+      "roman": [
+        "Hom jiao grob gam lang dee loei."
+      ]
+    },
+    {
+      "id": "th-s117",
+      "kind": "sentence",
+      "native": [
+        "หยิบโยเกิร์ต กล้วยหอม แล้วก็ข้าวโอ๊ตให้หน่อย."
+      ],
+      "roman": [
+        "Yib yogurt gluai hom laew gor khao oat hai noi."
+      ]
+    },
+    {
+      "id": "th-s118",
+      "kind": "sentence",
+      "native": [
+        "ถึงบ้านแล้วนะครับ."
+      ],
+      "roman": [
+        "Thueng ban laew na krub."
+      ]
+    },
+    {
+      "id": "th-s119",
+      "kind": "sentence",
+      "native": [
+        "ตารางเวรเดือนหน้าปรับตามที่คุยกันไว้แล้วครับ."
+      ],
+      "roman": [
+        "Tarang wen duean na prab tam thee khui gan wai laew krub."
+      ]
+    },
+    {
+      "id": "th-s120",
+      "kind": "sentence",
+      "native": [
+        "เครื่องซักผ้าเหลืออีก 27 นาที จะเสร็จตอน 11:50."
+      ],
+      "roman": [
+        "Khrueang sak pha luea eek 27 nathee ja set ton 11:50."
+      ]
+    },
+    {
+      "id": "th-s121",
+      "kind": "sentence",
+      "native": [
+        "ฝากจดว่าป้าสมศรีชอบส้มตำแบบไม่ใส่ถั่วลิสง."
+      ],
+      "roman": [
+        "Fak jot wa pa Somsri chob som tam baep mai sai thua li song."
+      ]
+    },
+    {
+      "id": "th-s122",
+      "kind": "sentence",
+      "native": [
+        "ถั่วแดงต้องแช่น้ำกี่ชั่วโมง?"
+      ],
+      "roman": [
+        "Thua daeng tong chae nam gee chua mong?"
+      ]
+    },
+    {
+      "id": "th-s123",
+      "kind": "sentence",
+      "native": [
+        "ไมค์ยังไม่ติดเลยครับ."
+      ],
+      "roman": [
+        "Mic yang mai tit loei krub."
+      ]
+    },
+    {
+      "id": "th-s124",
+      "kind": "sentence",
+      "native": [
+        "ตามแผนที่มาได้เลย หมุดอยู่ตรงประตูหลังตลาด."
+      ],
+      "roman": [
+        "Tam phaen thee ma dai loei mut yoo trong pratu lang talat."
+      ]
+    },
+    {
+      "id": "th-s125",
+      "kind": "sentence",
+      "native": [
+        "มะม่วงสุกหอมจังค่ะ."
+      ],
+      "roman": [
+        "Ma muang suk hom jang ka."
+      ]
+    },
+    {
+      "id": "th-s126",
+      "kind": "sentence",
+      "native": [
+        "จะปั่นจักรยานไปทำงาน แต่ฝนที่หาดใหญ่ยังไม่หยุดเลย คงต้องนั่งรถสองแถวแทน."
+      ],
+      "roman": [
+        "Ja pan jak gra yan pai tham ngan tae fon thee Hat Yai yang mai yut loei khong tong nang rot song thaew thaen."
+      ]
+    },
+    {
+      "id": "th-s127",
+      "kind": "sentence",
+      "native": [
+        "อารีฟช่วยแวะรับยายที่สถานีหมอชิตหน่อยได้ไหม? แกถือของเยอะ เดินไม่สะดวก."
+      ],
+      "roman": [
+        "Arif chuai wae rab yai thee sathanee Mo Chit noi dai mai? Gae thue khong yoe doen mai saduak."
+      ]
+    },
+    {
+      "id": "th-s128",
+      "kind": "sentence",
+      "native": [
+        "เรื่องหน้าเว็บ ผมแก้สีพื้นหลังแล้ว ลองเปิดดูว่าตรงตามที่ตกลงกันไว้ไหมครับ."
+      ],
+      "roman": [
+        "Rueang na web phom gae see phuen lang laew long poet doo wa trong tam thee tok long gan wai mai krub."
+      ]
+    },
+    {
+      "id": "th-s129",
+      "kind": "sentence",
+      "native": [
+        "วันอาทิตย์เรียนเปียโนตอน 14:20 ห้อง 7 นะ."
+      ],
+      "roman": [
+        "Wan Athit rian piano ton 14:20 hong 7 na."
+      ]
+    },
+    {
+      "id": "th-s130",
+      "kind": "sentence",
+      "native": [
+        "จดไว้ว่ากาแฟหมดแล้ว."
+      ],
+      "roman": [
+        "Jot wai wa ga fae mot laew."
+      ]
+    },
+    {
+      "id": "th-s131",
+      "kind": "sentence",
+      "native": [
+        "ลูกสุนัขควรกินอาหารเม็ดวันละกี่มื้อ?"
+      ],
+      "roman": [
+        "Look soo nak khuan gin ahan met wan la gee mue?"
+      ]
+    },
+    {
+      "id": "th-s132",
+      "kind": "sentence",
+      "native": [
+        "ระบบให้ยืนยันตัวตนทุกครั้งที่เปลี่ยนเครื่องเลย."
+      ],
+      "roman": [
+        "Rabob hai yuen yan tua ton thuk khrang thee plian khrueang loei."
+      ]
+    },
+    {
+      "id": "th-s133",
+      "kind": "sentence",
+      "native": [
+        "ลุงเดชย้ายไปปากเกร็ดแล้ว."
+      ],
+      "roman": [
+        "Lung Det yai pai Pak Kret laew."
+      ]
+    },
+    {
+      "id": "th-s134",
+      "kind": "sentence",
+      "native": [
+        "ป้ารัตนาจะมาช่วยห่อขนมเทียนช่วงตรุษจีนค่ะ."
+      ],
+      "roman": [
+        "Pa Rattana ja ma chuai hor khanom thian chuang Trut Chin ka."
+      ]
+    },
+    {
+      "id": "th-s135",
+      "kind": "sentence",
+      "native": [
+        "หัวกระดาษใช้คำว่าใบเสนอราคา ไม่ใช่ใบสั่งซื้อนะ."
+      ],
+      "roman": [
+        "Hua gradat chai kham wa bai sanoe rakha mai chai bai sang sue na."
+      ]
+    },
+    {
+      "id": "th-s136",
+      "kind": "sentence",
+      "native": [
+        "พี่มะลิฝากถามว่าวันเสาร์ไปเกาะเกร็ดกันไหม?"
+      ],
+      "roman": [
+        "Phee Mali fak tham wa wan sao pai Koh Kret gan mai?"
+      ]
+    },
+    {
+      "id": "th-s137",
+      "kind": "sentence",
+      "native": [
+        "ยินดีที่ได้ร่วมงานกันครับ."
+      ],
+      "roman": [
+        "Yin dee thee dai ruam ngan gan krub."
+      ]
+    },
+    {
+      "id": "th-s138",
+      "kind": "sentence",
+      "native": [
+        "รองเท้าคู่นี้ลด 20% เหลือ 960 บาทครับ."
+      ],
+      "roman": [
+        "Rong thao khoo nee lot 20% luea 960 baht krub."
+      ]
+    },
+    {
+      "id": "th-s139",
+      "kind": "sentence",
+      "native": [
+        "ใส่เวลาเรียนว่ายน้ำของน้องภูมิไว้ในปฏิทินด้วย."
+      ],
+      "roman": [
+        "Sai wela rian wai nam khong nong Phum wai nai pa thee thin duai."
+      ]
+    },
+    {
+      "id": "th-s140",
+      "kind": "sentence",
+      "native": [
+        "ถ้าไม่ได้อยู่บ้านตอนพัสดุมาส่ง จะไปรับเองที่สาขาได้ไหม ต้องเตรียมอะไรบ้าง?"
+      ],
+      "roman": [
+        "Tha mai dai yoo ban ton phat sa doo ma song ja pai rab eng thee sa kha dai mai tong triam arai bang?"
+      ]
+    },
+    {
+      "id": "th-s141",
+      "kind": "sentence",
+      "native": [
+        "อีเมลนี้ไว้สมัครงาน ไม่ได้ใช้ซื้อของออนไลน์ค่ะ."
+      ],
+      "roman": [
+        "Email nee wai samak ngan mai dai chai sue khong online ka."
+      ]
+    },
+    {
+      "id": "th-s142",
+      "kind": "sentence",
+      "native": [
+        "ออกจากสถานีแล้วเดินตามทางเชื่อมมาเลย จะยืนรอตรงบันไดเลื่อนหน้าร้านรองเท้านะ."
+      ],
+      "roman": [
+        "Ok jak sathanee laew doen tam thang chueam ma loei ja yuen ror trong bandai luean naa ran rong thao na."
+      ]
+    },
+    {
+      "id": "th-s143",
+      "kind": "sentence",
+      "native": [
+        "กางเกงที่จะใส่ไปงานแต่งยาวไปหน่อย มีร้านรับแก้แถวตลาดพลูไหมคะ?"
+      ],
+      "roman": [
+        "Gang geng thee ja sai pai ngan taeng yao pai noi mee ran rab gae thaeo Talat Phlu mai kha?"
+      ]
+    },
+    {
+      "id": "th-s144",
+      "kind": "sentence",
+      "native": [
+        "น้ำแข็งหมดหรือยังครับ?"
+      ],
+      "roman": [
+        "Nam khaeng mot rue yang krub?"
+      ]
+    },
+    {
+      "id": "th-s145",
+      "kind": "sentence",
+      "native": [
+        "ขนมครกเจ้านี้กล่องละ 30 บาท ซื้อเผื่อให้แล้วนะ."
+      ],
+      "roman": [
+        "Khanom khrok jao nee glong la 30 baht sue phuea hai laew na."
+      ]
+    },
+    {
+      "id": "th-s146",
+      "kind": "sentence",
+      "native": [
+        "นทีช่วยย่อหัวข้อบนสไลด์ให้สั้นลงหน่อยนะ."
+      ],
+      "roman": [
+        "Nathee chuai yor hua khor bon slide hai san long noi na."
+      ]
+    },
+    {
+      "id": "th-s147",
+      "kind": "sentence",
+      "native": [
+        "จองที่พักระยองไว้วันที่ 24 ธันวาคม 2569 นอน 2 คืน จ่ายรวม 3400 บาทนะ."
+      ],
+      "roman": [
+        "Jong thee phak Rayong wai wan thee 24 Thanwakhom 2569 non 2 khuen jai ruam 3400 baht na."
+      ]
+    },
+    {
+      "id": "th-s148",
+      "kind": "sentence",
+      "native": [
+        "รอบหน้าที่ไปซูเปอร์มาร์เก็ต ให้ซื้อน้ำยาล้างจานแบบถุงเติม จะได้ลดขยะในบ้าน."
+      ],
+      "roman": [
+        "Rop na thee pai supermarket hai sue nam ya lang jan baep thung toem ja dai lot kha ya nai ban."
+      ]
+    },
+    {
+      "id": "th-s149",
+      "kind": "sentence",
+      "native": [
+        "ตั๋วรถทัวร์ไปลำปางซื้อออนไลน์ได้ที่ไหน?"
+      ],
+      "roman": [
+        "Tua rot tour pai Lampang sue online dai thee nai?"
+      ]
+    },
+    {
+      "id": "th-s150",
+      "kind": "sentence",
+      "native": [
+        "อีเมลยืนยันไปอยู่ในถังขยะ เลยเพิ่งเห็นค่ะ."
+      ],
+      "roman": [
+        "Email yuen yan pai yoo nai thang khaya loei phoeng hen ka."
+      ]
+    },
+    {
+      "id": "th-s151",
+      "kind": "sentence",
+      "native": [
+        "เสาร์นี้ขอยืมรถไปรับเพื่อนที่สนามบินหน่อยนะ จะเติมน้ำมันให้เต็มถังก่อนคืน."
+      ],
+      "roman": [
+        "Sao nee khor yuem rot pai rab phuean thee sanam bin noi na ja toem nam man hai tem thang gon khuen."
+      ]
+    },
+    {
+      "id": "th-s152",
+      "kind": "sentence",
+      "native": [
+        "ชาไทยแก้วละ 45 บาท เอา 3 แก้วนะครับ."
+      ],
+      "roman": [
+        "Cha Thai gaew la 45 baht ao 3 gaew na krub."
+      ]
+    },
+    {
+      "id": "th-s153",
+      "kind": "sentence",
+      "native": [
+        "ปุ่มบันทึกในแอปหายไปหลังอัปเดตเมื่อคืนนี้."
+      ],
+      "roman": [
+        "Pum banthuek nai app hai pai lang update muea khuen nee."
+      ]
+    },
+    {
+      "id": "th-s154",
+      "kind": "sentence",
+      "native": [
+        "วันหยุดนี้ไปเดินเล่นที่บางกระเจ้ากันไหม?"
+      ],
+      "roman": [
+        "Wan yut nee pai doen len thee Bang Krachao gan mai?"
+      ]
+    },
+    {
+      "id": "th-s155",
+      "kind": "sentence",
+      "native": [
+        "พี่ณิชาฝากจองโต๊ะ 6 คนตอน 19:15 ค่ะ."
+      ],
+      "roman": [
+        "Phee Nicha fak jong to 6 khon ton 19:15 ka."
+      ]
+    },
+    {
+      "id": "th-s156",
+      "kind": "sentence",
+      "native": [
+        "แพ็กเกจเน็ตเดือนละ 399 บาท ใช้ได้ไม่จำกัดค่ะ."
+      ],
+      "roman": [
+        "Package net duean la 399 baht chai dai mai jam gat ka."
+      ]
+    },
+    {
+      "id": "th-s157",
+      "kind": "sentence",
+      "native": [
+        "เก็บกับข้าวให้ด้วยค่ะ."
+      ],
+      "roman": [
+        "Geb gab khao hai duai ka."
+      ]
+    },
+    {
+      "id": "th-s158",
+      "kind": "sentence",
+      "native": [
+        "แป้ง 200 กรัมใช้ไข่ 2 ฟอง."
+      ],
+      "roman": [
+        "Paeng 200 gram chai khai 2 fong."
+      ]
+    },
+    {
+      "id": "th-s159",
+      "kind": "sentence",
+      "native": [
+        "ว่างแล้วโทรหาหน่อยนะ."
+      ],
+      "roman": [
+        "Wang laew tho ha noi na."
+      ]
+    },
+    {
+      "id": "th-s160",
+      "kind": "sentence",
+      "native": [
+        "รอบเอว 32 ยาว 40 นิ้วครับ."
+      ],
+      "roman": [
+        "Rop eo 32 yao 40 niw krub."
+      ]
+    },
+    {
+      "id": "th-s161",
+      "kind": "sentence",
+      "native": [
+        "น้องปันอยากกินข้าวซอยไก่ เย็นนี้แวะซื้อกันไหม?"
+      ],
+      "roman": [
+        "Nong Pan yak gin khao soi gai yen nee wae sue gan mai?"
+      ]
+    },
+    {
+      "id": "th-s162",
+      "kind": "sentence",
+      "native": [
+        "ช่วยตั้งอุณหภูมิไว้ที่ 25 องศาสัก 2 ชั่วโมงนะ."
+      ],
+      "roman": [
+        "Chuai tang un ha phum wai thee 25 ongsa sak 2 chua mong na."
+      ]
+    },
+    {
+      "id": "th-s163",
+      "kind": "sentence",
+      "native": [
+        "นาฬิกาปลุกดังจนแมวตื่น แต่เจ้าของยังหลับอยู่เลย สงสัยคืนนี้ต้องเข้านอนเร็วหน่อย."
+      ],
+      "roman": [
+        "Naliga pluk dang jon maeo tuen tae jao khong yang lab yoo loei song sai khuen nee tong khao non reo noi."
+      ]
+    },
+    {
+      "id": "th-s164",
+      "kind": "sentence",
+      "native": [
+        "ค่าที่จอดรถ 60 บาท จ่ายแบงก์ 100 ได้ไหมคะ?"
+      ],
+      "roman": [
+        "Kha thee jot rot 60 baht jai bank 100 dai mai kha?"
+      ]
+    },
+    {
+      "id": "th-s165",
+      "kind": "sentence",
+      "native": [
+        "รถทัวร์ไปอุดรธานีรอบ 21:45 เหลือ 3 ที่ไหมคะ? จะเดินทางวันที่ 17 เดือนนี้ค่ะ."
+      ],
+      "roman": [
+        "Rot tour pai Udon Thani rop 21:45 luea 3 thee mai kha? Ja doen thang wan thee 17 duean nee ka."
+      ]
+    },
+    {
+      "id": "th-s166",
+      "kind": "sentence",
+      "native": [
+        "ตั๋วรถไฟขบวน 43 วันที่ 16 พฤศจิกายน ได้ที่นั่ง 22 ตู้ที่ 3 ใช่ไหมคะ?"
+      ],
+      "roman": [
+        "Tua rot fai khabuan 43 wan thee 16 Phruetsajikayon dai thee nang 22 too thee 3 chai mai kha?"
+      ]
+    }
+  ]
+}

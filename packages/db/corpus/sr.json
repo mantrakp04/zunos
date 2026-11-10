@@ -1,0 +1,1945 @@
+{
+  "lang": "sr",
+  "starter": [
+    "sr-s137",
+    "sr-s004",
+    "sr-s131",
+    "sr-s102",
+    "sr-s156",
+    "sr-s044",
+    "sr-s124",
+    "sr-s069",
+    "sr-s104",
+    "sr-s061",
+    "sr-s018",
+    "sr-s150",
+    "sr-s149",
+    "sr-s103",
+    "sr-s087",
+    "sr-s008",
+    "sr-s090",
+    "sr-s091",
+    "sr-s067",
+    "sr-s072",
+    "sr-p01",
+    "sr-s010",
+    "sr-s082",
+    "sr-s052",
+    "sr-s002",
+    "sr-s114",
+    "sr-s100",
+    "sr-s022",
+    "sr-s020",
+    "sr-s140",
+    "sr-s122",
+    "sr-s127",
+    "sr-s058",
+    "sr-s016",
+    "sr-s151",
+    "sr-s096",
+    "sr-s086",
+    "sr-s019",
+    "sr-s005",
+    "sr-s059",
+    "sr-s161",
+    "sr-p06",
+    "sr-s123",
+    "sr-s025",
+    "sr-s134",
+    "sr-s060",
+    "sr-s071",
+    "sr-s089",
+    "sr-s139",
+    "sr-s143",
+    "sr-s064",
+    "sr-s027",
+    "sr-s133",
+    "sr-s029",
+    "sr-s049",
+    "sr-s128",
+    "sr-s097",
+    "sr-s126",
+    "sr-s030",
+    "sr-s053",
+    "sr-s078",
+    "sr-s038"
+  ],
+  "items": [
+    {
+      "id": "sr-p01",
+      "kind": "para",
+      "title": "Moving to Zvezdara",
+      "native": [
+        "Селим се у суботу на Звездару, у стан близу Ђерам пијаце.",
+        "Нови стан је на 3. спрату, али зграда срећом има лифт.",
+        "Кухиња је мала, али у њу стају и сто и машина за судове.",
+        "Највише ми се свиђа тераса, јер гледа на велико двориште.",
+        "Можеш ли да дођеш око 10.30 и помогнеш око тежих кутија?",
+        "Брат ће позајмити комби, па не морамо да плаћамо превоз.",
+        "Понеси стару дуксерицу, сигурно ћемо се испрљати док будемо носили ствари.",
+        "После селидбе наручујем пицу, а ти бирај шта ћемо да гледамо.",
+        "Баш ми је драго што ћемо сад живети на десетак минута пешке једно од другог."
+      ],
+      "roman": [
+        "Selim se u subotu na Zvezdaru, u stan blizu Đeram pijace.",
+        "Novi stan je na 3. spratu, ali zgrada srećom ima lift.",
+        "Kuhinja je mala, ali u nju staju i sto i mašina za sudove.",
+        "Najviše mi se sviđa terasa, jer gleda na veliko dvorište.",
+        "Možeš li da dođeš oko 10.30 i pomogneš oko težih kutija?",
+        "Brat će pozajmiti kombi, pa ne moramo da plaćamo prevoz.",
+        "Ponesi staru duksericu, sigurno ćemo se isprljati dok budemo nosili stvari.",
+        "Posle selidbe naručujem picu, a ti biraj šta ćemo da gledamo.",
+        "Baš mi je drago što ćemo sad živeti na desetak minuta peške jedno od drugog."
+      ]
+    },
+    {
+      "id": "sr-p02",
+      "kind": "para",
+      "title": "Handover Before Leave",
+      "native": [
+        "Колеге, од понедељка сам на одмору, па шаљем план рада за наредну недељу.",
+        "Јелена преузима поруџбине за нашу продавницу у Нишу и свакодневно проверава стање залиха.",
+        "Списак добављача је у заједничком фолдеру, поред табеле са актуелним ценама.",
+        "Молим вас да све нове захтеве уписујете у табелу за праћење поруџбина.",
+        "Са штампаријом је договорена испорука налепница у уторак до 12.00.",
+        "Душане, провери количину чим пакет стигне и јави ако нешто недостаје.",
+        "Рачун за последњу испоруку проследила сам рачуноводству, тако да је то завршено.",
+        "За све што је хитно јавите се Сањи, која има контакте свих сарадника.",
+        "Враћам се 22. јула, а пре одласка ћу завршити месечни извештај."
+      ],
+      "roman": [
+        "Kolege, od ponedeljka sam na odmoru, pa šaljem plan rada za narednu nedelju.",
+        "Jelena preuzima porudžbine za našu prodavnicu u Nišu i svakodnevno proverava stanje zaliha.",
+        "Spisak dobavljača je u zajedničkom folderu, pored tabele sa aktuelnim cenama.",
+        "Molim vas da sve nove zahteve upisujete u tabelu za praćenje porudžbina.",
+        "Sa štamparijom je dogovorena isporuka nalepnica u utorak do 12.00.",
+        "Dušane, proveri količinu čim paket stigne i javi ako nešto nedostaje.",
+        "Račun za poslednju isporuku prosledila sam računovodstvu, tako da je to završeno.",
+        "Za sve što je hitno javite se Sanji, koja ima kontakte svih saradnika.",
+        "Vraćam se 22. jula, a pre odlaska ću završiti mesečni izveštaj."
+      ]
+    },
+    {
+      "id": "sr-p03",
+      "kind": "para",
+      "title": "Lost in Novi Sad",
+      "native": [
+        "Први пут сам сама дошла у Нови Сад на курс фотографије.",
+        "Изашла сам из аутобуса код Футошке пијаце и одмах погрешно скренула.",
+        "Тражила сам Дунавски парк, а некако сам стално кружила по истом крају.",
+        "Телефон ми се угасио баш док сам покушавала да отворим мапу.",
+        "Застала сам код једне пекаре да купим бурек за доручак.",
+        "Продавачица ми је на папиру нацртала пут до Змај Јовине улице.",
+        "Пратила сам пут који ми је продавачица нацртала и лако се снашла.",
+        "Учионицу сам нашла одмах поред парка, а бурек је још био топао.",
+        "На курс сам закаснила десетак минута, али сам бар имала добар доручак."
+      ],
+      "roman": [
+        "Prvi put sam sama došla u Novi Sad na kurs fotografije.",
+        "Izašla sam iz autobusa kod Futoške pijace i odmah pogrešno skrenula.",
+        "Tražila sam Dunavski park, a nekako sam stalno kružila po istom kraju.",
+        "Telefon mi se ugasio baš dok sam pokušavala da otvorim mapu.",
+        "Zastala sam kod jedne pekare da kupim burek za doručak.",
+        "Prodavačica mi je na papiru nacrtala put do Zmaj Jovine ulice.",
+        "Pratila sam put koji mi je prodavačica nacrtala i lako se snašla.",
+        "Učionicu sam našla odmah pored parka, a burek je još bio topao.",
+        "Na kurs sam zakasnila desetak minuta, ali sam bar imala dobar doručak."
+      ]
+    },
+    {
+      "id": "sr-p04",
+      "kind": "para",
+      "title": "Board Game in Kragujevac",
+      "native": [
+        "Кад се окупимо код Ненада, играћемо Човече, не љути се.",
+        "Прво изабери боју и стави своје 4 фигурице на одговарајућа почетна места.",
+        "Да би извео фигурицу на стазу, мораш прво да добијеш шестицу.",
+        "Затим померај једну своју фигурицу за онолико поља колико покаже коцкица.",
+        "Фигурице помераш у смеру кретања казаљке на сату.",
+        "После сваке шестице имаш право да бациш коцкицу још једном.",
+        "Ако станеш на поље са туђом фигурицом, врати је на почетно место.",
+        "Да би убацио фигурицу у кућицу, треба ти тачан број на коцкици.",
+        "Побеђује онај ко први смести све своје фигурице у кућицу своје боје."
+      ],
+      "roman": [
+        "Kad se okupimo kod Nenada, igraćemo Čoveče, ne ljuti se.",
+        "Prvo izaberi boju i stavi svoje 4 figurice na odgovarajuća početna mesta.",
+        "Da bi izveo figuricu na stazu, moraš prvo da dobiješ šesticu.",
+        "Zatim pomeraj jednu svoju figuricu za onoliko polja koliko pokaže kockica.",
+        "Figurice pomeraš u smeru kretanja kazaljke na satu.",
+        "Posle svake šestice imaš pravo da baciš kockicu još jednom.",
+        "Ako staneš na polje sa tuđom figuricom, vrati je na početno mesto.",
+        "Da bi ubacio figuricu u kućicu, treba ti tačan broj na kockici.",
+        "Pobeđuje onaj ko prvi smesti sve svoje figurice u kućicu svoje boje."
+      ]
+    },
+    {
+      "id": "sr-p05",
+      "kind": "para",
+      "title": "A Laptop in Užice",
+      "native": [
+        "Нови лаптоп сам купио прошле недеље у Ужицу, углавном због посла.",
+        "Узео сам лакши модел јер често радим ван куће, по кафићима.",
+        "На тераси кафића поред Ђетиње екран се добро види и по сунцу.",
+        "Тастатура је удобна, а тастери су тихи чак и кад брзо куцам.",
+        "Батерија ми издржи цео радни дан, без сталног тражења слободне утичнице.",
+        "Једино ме нервира што се вентилатор чује чим отворим више програма.",
+        "Камера је просечна, па за састанке ипак седнем ближе прозору.",
+        "За цену од 78.000 динара очекивао сам мало боље звучнике.",
+        "Ипак, задовољан сам јер је знатно бржи од мог старог рачунара."
+      ],
+      "roman": [
+        "Novi laptop sam kupio prošle nedelje u Užicu, uglavnom zbog posla.",
+        "Uzeo sam lakši model jer često radim van kuće, po kafićima.",
+        "Na terasi kafića pored Đetinje ekran se dobro vidi i po suncu.",
+        "Tastatura je udobna, a tasteri su tihi čak i kad brzo kucam.",
+        "Baterija mi izdrži ceo radni dan, bez stalnog traženja slobodne utičnice.",
+        "Jedino me nervira što se ventilator čuje čim otvorim više programa.",
+        "Kamera je prosečna, pa za sastanke ipak sednem bliže prozoru.",
+        "Za cenu od 78.000 dinara očekivao sam malo bolje zvučnike.",
+        "Ipak, zadovoljan sam jer je znatno brži od mog starog računara."
+      ]
+    },
+    {
+      "id": "sr-p06",
+      "kind": "para",
+      "title": "Wedding Shopping in Niš",
+      "native": [
+        "Свадбу у Нишу смо заказали за 19. 9. 2026.",
+        "У суботу крећемо у 9.30 да избегнемо гужву око пијаце.",
+        "Прво узимамо 30 платнених салвета, по 180 динара за комад.",
+        "За украшавање столова треба нам 6 ваза и исто толико свећа.",
+        "Код цвећарке на Булевару Немањића наручујемо букете за 6.000 динара.",
+        "Од цвећаре до посластичарнице има 2 километра, па ћемо ићи колима.",
+        "Торта за 30 гостију кошта 9.000 динара, а капару смо већ дали.",
+        "До 12.45 морамо да преузмемо ципеле које сам јуче резервисала.",
+        "За сваки случај остављам још 5.000 динара."
+      ],
+      "roman": [
+        "Svadbu u Nišu smo zakazali za 19. 9. 2026.",
+        "U subotu krećemo u 9.30 da izbegnemo gužvu oko pijace.",
+        "Prvo uzimamo 30 platnenih salveta, po 180 dinara za komad.",
+        "Za ukrašavanje stolova treba nam 6 vaza i isto toliko sveća.",
+        "Kod cvećarke na Bulevaru Nemanjića naručujemo bukete za 6.000 dinara.",
+        "Od cvećare do poslastičarnice ima 2 kilometra, pa ćemo ići kolima.",
+        "Torta za 30 gostiju košta 9.000 dinara, a kaparu smo već dali.",
+        "Do 12.45 moramo da preuzmemo cipele koje sam juče rezervisala.",
+        "Za svaki slučaj ostavljam još 5.000 dinara."
+      ]
+    },
+    {
+      "id": "sr-p07",
+      "kind": "para",
+      "title": "A Duplicate Card Charge",
+      "native": [
+        "Добар дан, зовем јер ми је једна куповина наплаћена два пута.",
+        "Картицом сам јуче платила намирнице у продавници близу Градске куће у Суботици.",
+        "На рачуну из продавнице пише да је укупан износ 1.850 динара.",
+        "У апликацији банке видим две наплате у истом износу.",
+        "Обе наплате су од јуче и на обе пише исти назив продавнице.",
+        "Нисам поново прислањала картицу нити сам јуче још нешто куповала у тој продавници.",
+        "Можете ли да проверите да ли ми је иста куповина наплаћена два пута?",
+        "Рачун из продавнице сам сачувала и могу да вам пошаљем фотографију ако треба.",
+        "Молим вас, реците ми шта треба да урадим и када могу да очекујем одговор."
+      ],
+      "roman": [
+        "Dobar dan, zovem jer mi je jedna kupovina naplaćena dva puta.",
+        "Karticom sam juče platila namirnice u prodavnici blizu Gradske kuće u Subotici.",
+        "Na računu iz prodavnice piše da je ukupan iznos 1.850 dinara.",
+        "U aplikaciji banke vidim dve naplate u istom iznosu.",
+        "Obe naplate su od juče i na obe piše isti naziv prodavnice.",
+        "Nisam ponovo prislanjala karticu niti sam juče još nešto kupovala u toj prodavnici.",
+        "Možete li da proverite da li mi je ista kupovina naplaćena dva puta?",
+        "Račun iz prodavnice sam sačuvala i mogu da vam pošaljem fotografiju ako treba.",
+        "Molim vas, recite mi šta treba da uradim i kada mogu da očekujem odgovor."
+      ]
+    },
+    {
+      "id": "sr-p08",
+      "kind": "para",
+      "title": "Traditional Weaving in Pirot",
+      "native": [
+        "У Пироту се ћилими и данас ткају ручно, на усправном разбоју.",
+        "Пиротски ћилими се ткају од овчије вуне, а на њима често има црвене и црне боје.",
+        "Ткаље провлаче обојене нити кроз основу и тако праве шаре.",
+        "На пиротским ћилимима често се појављују ромбови и друге геометријске шаре.",
+        "Пиротски ћилими изгледају исто са обе стране.",
+        "Већи ћилим може да се тка месецима, поготово ако има сложену шару.",
+        "Некада су људи често куповали ћилиме кад су опремали нови дом.",
+        "Пиротски ћилими могу да се виде у Музеју Понишавља, али и у породичним кућама.",
+        "Ткање ћилима се учи на разбоју, уз помоћ искусних ткаља."
+      ],
+      "roman": [
+        "U Pirotu se ćilimi i danas tkaju ručno, na uspravnom razboju.",
+        "Pirotski ćilimi se tkaju od ovčije vune, a na njima često ima crvene i crne boje.",
+        "Tkalje provlače obojene niti kroz osnovu i tako prave šare.",
+        "Na pirotskim ćilimima često se pojavljuju rombovi i druge geometrijske šare.",
+        "Pirotski ćilimi izgledaju isto sa obe strane.",
+        "Veći ćilim može da se tka mesecima, pogotovo ako ima složenu šaru.",
+        "Nekada su ljudi često kupovali ćilime kad su opremali novi dom.",
+        "Pirotski ćilimi mogu da se vide u Muzeju Ponišavlja, ali i u porodičnim kućama.",
+        "Tkanje ćilima se uči na razboju, uz pomoć iskusnih tkalja."
+      ]
+    },
+    {
+      "id": "sr-s001",
+      "kind": "sentence",
+      "native": [
+        "Купио сам толико грицкалица за вечерас да можемо да отворимо киоск ако нико не дође."
+      ],
+      "roman": [
+        "Kupio sam toliko grickalica za večeras da možemo da otvorimo kiosk ako niko ne dođe."
+      ]
+    },
+    {
+      "id": "sr-s002",
+      "kind": "sentence",
+      "native": [
+        "Колеге, данашњи састанак држимо у малој сали поред рецепције."
+      ],
+      "roman": [
+        "Kolege, današnji sastanak držimo u maloj sali pored recepcije."
+      ]
+    },
+    {
+      "id": "sr-s003",
+      "kind": "sentence",
+      "native": [
+        "Меч почиње у 20.45, улазимо на капију 7."
+      ],
+      "roman": [
+        "Meč počinje u 20.45, ulazimo na kapiju 7."
+      ]
+    },
+    {
+      "id": "sr-s004",
+      "kind": "sentence",
+      "native": [
+        "Упиши у календар пробу хора у четвртак увече."
+      ],
+      "roman": [
+        "Upiši u kalendar probu hora u četvrtak uveče."
+      ]
+    },
+    {
+      "id": "sr-s005",
+      "kind": "sentence",
+      "native": [
+        "Покажи најбржи пут пешке до улаза у Нишку тврђаву."
+      ],
+      "roman": [
+        "Pokaži najbrži put peške do ulaza u Nišku tvrđavu."
+      ]
+    },
+    {
+      "id": "sr-s006",
+      "kind": "sentence",
+      "native": [
+        "Апликација ми не прихвата лозинку."
+      ],
+      "roman": [
+        "Aplikacija mi ne prihvata lozinku."
+      ]
+    },
+    {
+      "id": "sr-s007",
+      "kind": "sentence",
+      "native": [
+        "Слободно паркирај иза наше зграде."
+      ],
+      "roman": [
+        "Slobodno parkiraj iza naše zgrade."
+      ]
+    },
+    {
+      "id": "sr-s008",
+      "kind": "sentence",
+      "native": [
+        "Дуња данас носи ужину."
+      ],
+      "roman": [
+        "Dunja danas nosi užinu."
+      ]
+    },
+    {
+      "id": "sr-s009",
+      "kind": "sentence",
+      "native": [
+        "Тања, могу да нахраним мачку ујутру, али за вече ћеш морати да питаш неког другог."
+      ],
+      "roman": [
+        "Tanja, mogu da nahranim mačku ujutru, ali za veče ćeš morati da pitaš nekog drugog."
+      ]
+    },
+    {
+      "id": "sr-s010",
+      "kind": "sentence",
+      "native": [
+        "Баш је добар овај ајвар. Одмах ме је подсетио на бакину кухињу."
+      ],
+      "roman": [
+        "Baš je dobar ovaj ajvar. Odmah me je podsetio na bakinu kuhinju."
+      ]
+    },
+    {
+      "id": "sr-s011",
+      "kind": "sentence",
+      "native": [
+        "Ако свратите на Футошку пијацу, узмите ми везу першуна и неколико шаргарепа за супу."
+      ],
+      "roman": [
+        "Ako svratite na Futošku pijacu, uzmite mi vezu peršuna i nekoliko šargarepa za supu."
+      ]
+    },
+    {
+      "id": "sr-s012",
+      "kind": "sentence",
+      "native": [
+        "Желим вам пријатан остатак дана."
+      ],
+      "roman": [
+        "Želim vam prijatan ostatak dana."
+      ]
+    },
+    {
+      "id": "sr-s013",
+      "kind": "sentence",
+      "native": [
+        "Камповаћемо од 21. до 24. јула, па понеси ранац од 65 литара и шатор за двоје."
+      ],
+      "roman": [
+        "Kampovaćemo od 21. do 24. jula, pa ponesi ranac od 65 litara i šator za dvoje."
+      ]
+    },
+    {
+      "id": "sr-s014",
+      "kind": "sentence",
+      "native": [
+        "Подсети ме да залијем босиљак."
+      ],
+      "roman": [
+        "Podseti me da zalijem bosiljak."
+      ]
+    },
+    {
+      "id": "sr-s015",
+      "kind": "sentence",
+      "native": [
+        "Колико је тренутно сати у Токију и који је дан?"
+      ],
+      "roman": [
+        "Koliko je trenutno sati u Tokiju i koji je dan?"
+      ]
+    },
+    {
+      "id": "sr-s016",
+      "kind": "sentence",
+      "native": [
+        "Линк за онлајн обуку води на погрешну страницу."
+      ],
+      "roman": [
+        "Link za onlajn obuku vodi na pogrešnu stranicu."
+      ]
+    },
+    {
+      "id": "sr-s017",
+      "kind": "sentence",
+      "native": [
+        "Договориле смо се да кренемо раније, јер нас од хотела до плаже чека прилично дуга шетња."
+      ],
+      "roman": [
+        "Dogovorile smo se da krenemo ranije, jer nas od hotela do plaže čeka prilično duga šetnja."
+      ]
+    },
+    {
+      "id": "sr-s018",
+      "kind": "sentence",
+      "native": [
+        "Може ли ова торба за 700 динара?"
+      ],
+      "roman": [
+        "Može li ova torba za 700 dinara?"
+      ]
+    },
+    {
+      "id": "sr-s019",
+      "kind": "sentence",
+      "native": [
+        "Хтела бих да вратим сукњу, односно да је заменим."
+      ],
+      "roman": [
+        "Htela bih da vratim suknju, odnosno da je zamenim."
+      ]
+    },
+    {
+      "id": "sr-s020",
+      "kind": "sentence",
+      "native": [
+        "Много ми значи што си ме саслушао без осуђивања."
+      ],
+      "roman": [
+        "Mnogo mi znači što si me saslušao bez osuđivanja."
+      ]
+    },
+    {
+      "id": "sr-s021",
+      "kind": "sentence",
+      "native": [
+        "Стигао сам кући, не брини."
+      ],
+      "roman": [
+        "Stigao sam kući, ne brini."
+      ]
+    },
+    {
+      "id": "sr-s022",
+      "kind": "sentence",
+      "native": [
+        "Нажалост, не стижем на обуку."
+      ],
+      "roman": [
+        "Nažalost, ne stižem na obuku."
+      ]
+    },
+    {
+      "id": "sr-s023",
+      "kind": "sentence",
+      "native": [
+        "До Краљева има 47 километара, отприлике 50 минута вожње."
+      ],
+      "roman": [
+        "Do Kraljeva ima 47 kilometara, otprilike 50 minuta vožnje."
+      ]
+    },
+    {
+      "id": "sr-s024",
+      "kind": "sentence",
+      "native": [
+        "Чим завршим сређивање балкона, треба да измерим ограду и наручим нове саксије за мушкатле."
+      ],
+      "roman": [
+        "Čim završim sređivanje balkona, treba da izmerim ogradu i naručim nove saksije za muškatle."
+      ]
+    },
+    {
+      "id": "sr-s025",
+      "kind": "sentence",
+      "native": [
+        "Смањи осветљење екрана на пола."
+      ],
+      "roman": [
+        "Smanji osvetljenje ekrana na pola."
+      ]
+    },
+    {
+      "id": "sr-s026",
+      "kind": "sentence",
+      "native": [
+        "Зумирај мало тај графикон, овако не могу да разазнам шта пише поред плаве линије."
+      ],
+      "roman": [
+        "Zumiraj malo taj grafikon, ovako ne mogu da razaznam šta piše pored plave linije."
+      ]
+    },
+    {
+      "id": "sr-s027",
+      "kind": "sentence",
+      "native": [
+        "Трамвај стаје преко пута позоришта."
+      ],
+      "roman": [
+        "Tramvaj staje preko puta pozorišta."
+      ]
+    },
+    {
+      "id": "sr-s028",
+      "kind": "sentence",
+      "native": [
+        "Тесто је превише лепљиво, па ћу додати још мало брашна пре него што развучем коре."
+      ],
+      "roman": [
+        "Testo je previše lepljivo, pa ću dodati još malo brašna pre nego što razvučem kore."
+      ]
+    },
+    {
+      "id": "sr-s029",
+      "kind": "sentence",
+      "native": [
+        "Заправо, Небојша доноси рекете."
+      ],
+      "roman": [
+        "Zapravo, Nebojša donosi rekete."
+      ]
+    },
+    {
+      "id": "sr-s030",
+      "kind": "sentence",
+      "native": [
+        "Милоше, хвала ти што си ми причувао пса."
+      ],
+      "roman": [
+        "Miloše, hvala ti što si mi pričuvao psa."
+      ]
+    },
+    {
+      "id": "sr-s031",
+      "kind": "sentence",
+      "native": [
+        "Можеш ли успут да покупиш мој пакет из поште?"
+      ],
+      "roman": [
+        "Možeš li usput da pokupiš moj paket iz pošte?"
+      ]
+    },
+    {
+      "id": "sr-s032",
+      "kind": "sentence",
+      "native": [
+        "Емина ће водити радионицу уместо мене, па јој проследите материјале које сте припремили за учеснике."
+      ],
+      "roman": [
+        "Emina će voditi radionicu umesto mene, pa joj prosledite materijale koje ste pripremili za učesnike."
+      ]
+    },
+    {
+      "id": "sr-s033",
+      "kind": "sentence",
+      "native": [
+        "Тренинг траје 55 минута."
+      ],
+      "roman": [
+        "Trening traje 55 minuta."
+      ]
+    },
+    {
+      "id": "sr-s034",
+      "kind": "sentence",
+      "native": [
+        "Вечерас провери да ли је кишобран остао у пртљажнику, да га не тражим пред полазак у Пирот."
+      ],
+      "roman": [
+        "Večeras proveri da li je kišobran ostao u prtljažniku, da ga ne tražim pred polazak u Pirot."
+      ]
+    },
+    {
+      "id": "sr-s035",
+      "kind": "sentence",
+      "native": [
+        "Пусти неку мирну музику за читање."
+      ],
+      "roman": [
+        "Pusti neku mirnu muziku za čitanje."
+      ]
+    },
+    {
+      "id": "sr-s036",
+      "kind": "sentence",
+      "native": [
+        "Ђорђе ће послати позив за састанак чим проверимо да ли су сви слободни у четвртак."
+      ],
+      "roman": [
+        "Đorđe će poslati poziv za sastanak čim proverimo da li su svi slobodni u četvrtak."
+      ]
+    },
+    {
+      "id": "sr-s037",
+      "kind": "sentence",
+      "native": [
+        "Сестра ће ти показати крај док ја спремим вечеру."
+      ],
+      "roman": [
+        "Sestra će ti pokazati kraj dok ja spremim večeru."
+      ]
+    },
+    {
+      "id": "sr-s038",
+      "kind": "sentence",
+      "native": [
+        "Пекар каже да ће кифле бити готове за десетак минута."
+      ],
+      "roman": [
+        "Pekar kaže da će kifle biti gotove za desetak minuta."
+      ]
+    },
+    {
+      "id": "sr-s039",
+      "kind": "sentence",
+      "native": [
+        "Јесу ли ово твоје наочаре?"
+      ],
+      "roman": [
+        "Jesu li ovo tvoje naočare?"
+      ]
+    },
+    {
+      "id": "sr-s040",
+      "kind": "sentence",
+      "native": [
+        "Смета ми што комшије померају намештај рано ујутру."
+      ],
+      "roman": [
+        "Smeta mi što komšije pomeraju nameštaj rano ujutru."
+      ]
+    },
+    {
+      "id": "sr-s041",
+      "kind": "sentence",
+      "native": [
+        "Деда доноси трешње из Зајечара, па ослободи једну полицу у фрижидеру пре него што стигне."
+      ],
+      "roman": [
+        "Deda donosi trešnje iz Zaječara, pa oslobodi jednu policu u frižideru pre nego što stigne."
+      ]
+    },
+    {
+      "id": "sr-s042",
+      "kind": "sentence",
+      "native": [
+        "Проверићу зашто прилог не може да се отвори."
+      ],
+      "roman": [
+        "Proveriću zašto prilog ne može da se otvori."
+      ]
+    },
+    {
+      "id": "sr-s043",
+      "kind": "sentence",
+      "native": [
+        "Доплата за пртљаг је 1800 динара."
+      ],
+      "roman": [
+        "Doplata za prtljag je 1800 dinara."
+      ]
+    },
+    {
+      "id": "sr-s044",
+      "kind": "sentence",
+      "native": [
+        "Закажи шишање код Весне."
+      ],
+      "roman": [
+        "Zakaži šišanje kod Vesne."
+      ]
+    },
+    {
+      "id": "sr-s045",
+      "kind": "sentence",
+      "native": [
+        "Искључи сва обавештења док гледам овај снимак, али остави позиве укључене."
+      ],
+      "roman": [
+        "Isključi sva obaveštenja dok gledam ovaj snimak, ali ostavi pozive uključene."
+      ]
+    },
+    {
+      "id": "sr-s046",
+      "kind": "sentence",
+      "native": [
+        "Интернет у канцеларији у Крагујевцу опет не ради."
+      ],
+      "roman": [
+        "Internet u kancelariji u Kragujevcu opet ne radi."
+      ]
+    },
+    {
+      "id": "sr-s047",
+      "kind": "sentence",
+      "native": [
+        "Тамара, налазимо се код Вуковог споменика, поред цвећаре."
+      ],
+      "roman": [
+        "Tamara, nalazimo se kod Vukovog spomenika, pored cvećare."
+      ]
+    },
+    {
+      "id": "sr-s048",
+      "kind": "sentence",
+      "native": [
+        "Организатори фестивала су најавили бесплатну радионицу цртања, па бисмо могли да поведемо и близанце."
+      ],
+      "roman": [
+        "Organizatori festivala su najavili besplatnu radionicu crtanja, pa bismo mogli da povedemo i blizance."
+      ]
+    },
+    {
+      "id": "sr-s049",
+      "kind": "sentence",
+      "native": [
+        "Еј, ради ли пекара?"
+      ],
+      "roman": [
+        "Ej, radi li pekara?"
+      ]
+    },
+    {
+      "id": "sr-s050",
+      "kind": "sentence",
+      "native": [
+        "Откако сам се преселила на Дорћол, прија ми што све могу да обавим пешке, без журбе."
+      ],
+      "roman": [
+        "Otkako sam se preselila na Dorćol, prija mi što sve mogu da obavim peške, bez žurbe."
+      ]
+    },
+    {
+      "id": "sr-s051",
+      "kind": "sentence",
+      "native": [
+        "Резервисала сам нам сто за 19.30, па крени на време."
+      ],
+      "roman": [
+        "Rezervisala sam nam sto za 19.30, pa kreni na vreme."
+      ]
+    },
+    {
+      "id": "sr-s052",
+      "kind": "sentence",
+      "native": [
+        "Знате ли када можемо да очекујемо резултате конкурса?"
+      ],
+      "roman": [
+        "Znate li kada možemo da očekujemo rezultate konkursa?"
+      ]
+    },
+    {
+      "id": "sr-s053",
+      "kind": "sentence",
+      "native": [
+        "Стан је у Таковској 28, на 4. спрату."
+      ],
+      "roman": [
+        "Stan je u Takovskoj 28, na 4. spratu."
+      ]
+    },
+    {
+      "id": "sr-s054",
+      "kind": "sentence",
+      "native": [
+        "Поред брашна, недостају ми презле и папир за печење."
+      ],
+      "roman": [
+        "Pored brašna, nedostaju mi prezle i papir za pečenje."
+      ]
+    },
+    {
+      "id": "sr-s055",
+      "kind": "sentence",
+      "native": [
+        "Укључи режим рада у авиону."
+      ],
+      "roman": [
+        "Uključi režim rada u avionu."
+      ]
+    },
+    {
+      "id": "sr-s056",
+      "kind": "sentence",
+      "native": [
+        "Пошто нисам била пријављена, сајт није сачувао измене, па сад морам поново да попуним цео образац."
+      ],
+      "roman": [
+        "Pošto nisam bila prijavljena, sajt nije sačuvao izmene, pa sad moram ponovo da popunim ceo obrazac."
+      ]
+    },
+    {
+      "id": "sr-s057",
+      "kind": "sentence",
+      "native": [
+        "Скрените десно одмах после семафора."
+      ],
+      "roman": [
+        "Skrenite desno odmah posle semafora."
+      ]
+    },
+    {
+      "id": "sr-s058",
+      "kind": "sentence",
+      "native": [
+        "Комшиница тражи мердевине да дохвати кутију изнад ормана."
+      ],
+      "roman": [
+        "Komšinica traži merdevine da dohvati kutiju iznad ormana."
+      ]
+    },
+    {
+      "id": "sr-s059",
+      "kind": "sentence",
+      "native": [
+        "Зашто лифт стоји, јеси ли притиснуо дугме за приземље?"
+      ],
+      "roman": [
+        "Zašto lift stoji, jesi li pritisnuo dugme za prizemlje?"
+      ]
+    },
+    {
+      "id": "sr-s060",
+      "kind": "sentence",
+      "native": [
+        "Опрости због оног неспоразума."
+      ],
+      "roman": [
+        "Oprosti zbog onog nesporazuma."
+      ]
+    },
+    {
+      "id": "sr-s061",
+      "kind": "sentence",
+      "native": [
+        "Невена, јеси ли за кафу после тренинга?"
+      ],
+      "roman": [
+        "Nevena, jesi li za kafu posle treninga?"
+      ]
+    },
+    {
+      "id": "sr-s062",
+      "kind": "sentence",
+      "native": [
+        "Дејане, можеш ли да преузмеш разговор са добављачем?"
+      ],
+      "roman": [
+        "Dejane, možeš li da preuzmeš razgovor sa dobavljačem?"
+      ]
+    },
+    {
+      "id": "sr-s063",
+      "kind": "sentence",
+      "native": [
+        "По Рељу долазим у вртић у 14.20, а његова бака ће га сутра покупити у 16.10."
+      ],
+      "roman": [
+        "Po Relju dolazim u vrtić u 14.20, a njegova baka će ga sutra pokupiti u 16.10."
+      ]
+    },
+    {
+      "id": "sr-s064",
+      "kind": "sentence",
+      "native": [
+        "Ујутру прво пребацујем снимке са телефона на лаптоп."
+      ],
+      "roman": [
+        "Ujutru prvo prebacujem snimke sa telefona na laptop."
+      ]
+    },
+    {
+      "id": "sr-s065",
+      "kind": "sentence",
+      "native": [
+        "Када полази последњи аутобус из Новог Пазара за Београд у петак и колико траје путовање?"
+      ],
+      "roman": [
+        "Kada polazi poslednji autobus iz Novog Pazara za Beograd u petak i koliko traje putovanje?"
+      ]
+    },
+    {
+      "id": "sr-s066",
+      "kind": "sentence",
+      "native": [
+        "Александра, могу да ти покажем како се подешава рутер."
+      ],
+      "roman": [
+        "Aleksandra, mogu da ti pokažem kako se podešava ruter."
+      ]
+    },
+    {
+      "id": "sr-s067",
+      "kind": "sentence",
+      "native": [
+        "Тетка нам маше са прозора."
+      ],
+      "roman": [
+        "Tetka nam maše sa prozora."
+      ]
+    },
+    {
+      "id": "sr-s068",
+      "kind": "sentence",
+      "native": [
+        "Бака је за рођендан пожелела мекан јастук."
+      ],
+      "roman": [
+        "Baka je za rođendan poželela mekan jastuk."
+      ]
+    },
+    {
+      "id": "sr-s069",
+      "kind": "sentence",
+      "native": [
+        "Чекај, ипак хоћу плаву шољу."
+      ],
+      "roman": [
+        "Čekaj, ipak hoću plavu šolju."
+      ]
+    },
+    {
+      "id": "sr-s070",
+      "kind": "sentence",
+      "native": [
+        "Понекад ми буде криво што ређе виђам старе пријатеље, али драго ми је што смо остали блиски."
+      ],
+      "roman": [
+        "Ponekad mi bude krivo što ređe viđam stare prijatelje, ali drago mi je što smo ostali bliski."
+      ]
+    },
+    {
+      "id": "sr-s071",
+      "kind": "sentence",
+      "native": [
+        "Ипак остајем код куће вечерас."
+      ],
+      "roman": [
+        "Ipak ostajem kod kuće večeras."
+      ]
+    },
+    {
+      "id": "sr-s072",
+      "kind": "sentence",
+      "native": [
+        "Радије бих да буџет размотримо уживо него преко мејла."
+      ],
+      "roman": [
+        "Radije bih da budžet razmotrimo uživo nego preko mejla."
+      ]
+    },
+    {
+      "id": "sr-s073",
+      "kind": "sentence",
+      "native": [
+        "Подеси рерну на 190 степени и после 25 минута окрени плех да се све равномерно испече."
+      ],
+      "roman": [
+        "Podesi rernu na 190 stepeni i posle 25 minuta okreni pleh da se sve ravnomerno ispeče."
+      ]
+    },
+    {
+      "id": "sr-s074",
+      "kind": "sentence",
+      "native": [
+        "Ове суботе треба да разврстам стару гардеробу и спакујем све што више не носим."
+      ],
+      "roman": [
+        "Ove subote treba da razvrstam staru garderobu i spakujem sve što više ne nosim."
+      ]
+    },
+    {
+      "id": "sr-s075",
+      "kind": "sentence",
+      "native": [
+        "Покрени тајмер на 7 минута."
+      ],
+      "roman": [
+        "Pokreni tajmer na 7 minuta."
+      ]
+    },
+    {
+      "id": "sr-s076",
+      "kind": "sentence",
+      "native": [
+        "Дељење екрана ради, али не чујемо звук снимка."
+      ],
+      "roman": [
+        "Deljenje ekrana radi, ali ne čujemo zvuk snimka."
+      ]
+    },
+    {
+      "id": "sr-s077",
+      "kind": "sentence",
+      "native": [
+        "Јавите нам којим улазом да уђемо у двориште, пошто она велика капија поред гараже није отворена."
+      ],
+      "roman": [
+        "Javite nam kojim ulazom da uđemo u dvorište, pošto ona velika kapija pored garaže nije otvorena."
+      ]
+    },
+    {
+      "id": "sr-s078",
+      "kind": "sentence",
+      "native": [
+        "Загорела ми је кајгана."
+      ],
+      "roman": [
+        "Zagorela mi je kajgana."
+      ]
+    },
+    {
+      "id": "sr-s079",
+      "kind": "sentence",
+      "native": [
+        "Значи, улазнице су 950 динара, не 900, погрешно сам чула."
+      ],
+      "roman": [
+        "Znači, ulaznice su 950 dinara, ne 900, pogrešno sam čula."
+      ]
+    },
+    {
+      "id": "sr-s080",
+      "kind": "sentence",
+      "native": [
+        "Браво, успела си без помоћи!"
+      ],
+      "roman": [
+        "Bravo, uspela si bez pomoći!"
+      ]
+    },
+    {
+      "id": "sr-s081",
+      "kind": "sentence",
+      "native": [
+        "Сачекај ме док обујем ципеле."
+      ],
+      "roman": [
+        "Sačekaj me dok obujem cipele."
+      ]
+    },
+    {
+      "id": "sr-s082",
+      "kind": "sentence",
+      "native": [
+        "Потврдите да сте добили документ."
+      ],
+      "roman": [
+        "Potvrdite da ste dobili dokument."
+      ]
+    },
+    {
+      "id": "sr-s083",
+      "kind": "sentence",
+      "native": [
+        "Пери ћебе на 30 степени, највише 45 минута."
+      ],
+      "roman": [
+        "Peri ćebe na 30 stepeni, najviše 45 minuta."
+      ]
+    },
+    {
+      "id": "sr-s084",
+      "kind": "sentence",
+      "native": [
+        "Забележи шифру за ормарић."
+      ],
+      "roman": [
+        "Zabeleži šifru za ormarić."
+      ]
+    },
+    {
+      "id": "sr-s085",
+      "kind": "sentence",
+      "native": [
+        "Потражи како се скида флека од фломастера са памучне мајице, а да се не оштети боја."
+      ],
+      "roman": [
+        "Potraži kako se skida fleka od flomastera sa pamučne majice, a da se ne ošteti boja."
+      ]
+    },
+    {
+      "id": "sr-s086",
+      "kind": "sentence",
+      "native": [
+        "Превуци тај фајл у корпу, сачувала сам копију."
+      ],
+      "roman": [
+        "Prevuci taj fajl u korpu, sačuvala sam kopiju."
+      ]
+    },
+    {
+      "id": "sr-s087",
+      "kind": "sentence",
+      "native": [
+        "Арпад Ковач нас води на пешачење по Фрушкој гори."
+      ],
+      "roman": [
+        "Arpad Kovač nas vodi na pešačenje po Fruškoj gori."
+      ]
+    },
+    {
+      "id": "sr-s088",
+      "kind": "sentence",
+      "native": [
+        "На Цветној пијаци сам нашла лепе саднице парадајза."
+      ],
+      "roman": [
+        "Na Cvetnoj pijaci sam našla lepe sadnice paradajza."
+      ]
+    },
+    {
+      "id": "sr-s089",
+      "kind": "sentence",
+      "native": [
+        "Овде се поништава карта?"
+      ],
+      "roman": [
+        "Ovde se poništava karta?"
+      ]
+    },
+    {
+      "id": "sr-s090",
+      "kind": "sentence",
+      "native": [
+        "Дивно ти стоји та јакна."
+      ],
+      "roman": [
+        "Divno ti stoji ta jakna."
+      ]
+    },
+    {
+      "id": "sr-s091",
+      "kind": "sentence",
+      "native": [
+        "Баш ти хвала, ове фотографије су ми улепшале дан."
+      ],
+      "roman": [
+        "Baš ti hvala, ove fotografije su mi ulepšale dan."
+      ]
+    },
+    {
+      "id": "sr-s092",
+      "kind": "sentence",
+      "native": [
+        "Јављам се поводом јучерашњег договора, јер још нисмо добили распоред дежурстава за наредни месец."
+      ],
+      "roman": [
+        "Javljam se povodom jučerašnjeg dogovora, jer još nismo dobili raspored dežurstava za naredni mesec."
+      ]
+    },
+    {
+      "id": "sr-s093",
+      "kind": "sentence",
+      "native": [
+        "За доставу позовите 060 000 00 00 после 17.15."
+      ],
+      "roman": [
+        "Za dostavu pozovite 060 000 00 00 posle 17.15."
+      ]
+    },
+    {
+      "id": "sr-s094",
+      "kind": "sentence",
+      "native": [
+        "Сутра обавезно враћам књиге у Библиотеку града Београда."
+      ],
+      "roman": [
+        "Sutra obavezno vraćam knjige u Biblioteku grada Beograda."
+      ]
+    },
+    {
+      "id": "sr-s095",
+      "kind": "sentence",
+      "native": [
+        "Да ли у Нишу могу да платим аутобуску карту телефоном?"
+      ],
+      "roman": [
+        "Da li u Nišu mogu da platim autobusku kartu telefonom?"
+      ]
+    },
+    {
+      "id": "sr-s096",
+      "kind": "sentence",
+      "native": [
+        "Довољна ми је бесплатна верзија."
+      ],
+      "roman": [
+        "Dovoljna mi je besplatna verzija."
+      ]
+    },
+    {
+      "id": "sr-s097",
+      "kind": "sentence",
+      "native": [
+        "Аутобуско стајалиште је привремено померено ближе пешачком прелазу."
+      ],
+      "roman": [
+        "Autobusko stajalište je privremeno pomereno bliže pešačkom prelazu."
+      ]
+    },
+    {
+      "id": "sr-s098",
+      "kind": "sentence",
+      "native": [
+        "Напољу баш дува ветар."
+      ],
+      "roman": [
+        "Napolju baš duva vetar."
+      ]
+    },
+    {
+      "id": "sr-s099",
+      "kind": "sentence",
+      "native": [
+        "За ликовно нам требају водене боје, четкице и блок."
+      ],
+      "roman": [
+        "Za likovno nam trebaju vodene boje, četkice i blok."
+      ]
+    },
+    {
+      "id": "sr-s100",
+      "kind": "sentence",
+      "native": [
+        "Остави ми мало гибанице, молим те."
+      ],
+      "roman": [
+        "Ostavi mi malo gibanice, molim te."
+      ]
+    },
+    {
+      "id": "sr-s101",
+      "kind": "sentence",
+      "native": [
+        "Хвала на брзом одговору."
+      ],
+      "roman": [
+        "Hvala na brzom odgovoru."
+      ]
+    },
+    {
+      "id": "sr-s102",
+      "kind": "sentence",
+      "native": [
+        "Мачић има тек 9 недеља."
+      ],
+      "roman": [
+        "Mačić ima tek 9 nedelja."
+      ]
+    },
+    {
+      "id": "sr-s103",
+      "kind": "sentence",
+      "native": [
+        "Сачувај рецепт за лесковачку мућкалицу у посебној белешци."
+      ],
+      "roman": [
+        "Sačuvaj recept za leskovačku mućkalicu u posebnoj belešci."
+      ]
+    },
+    {
+      "id": "sr-s104",
+      "kind": "sentence",
+      "native": [
+        "Израчунај колико износи 15% од 4800 динара."
+      ],
+      "roman": [
+        "Izračunaj koliko iznosi 15% od 4800 dinara."
+      ]
+    },
+    {
+      "id": "sr-s105",
+      "kind": "sentence",
+      "native": [
+        "Блутут ми не проналази слушалице."
+      ],
+      "roman": [
+        "Blutut mi ne pronalazi slušalice."
+      ]
+    },
+    {
+      "id": "sr-s106",
+      "kind": "sentence",
+      "native": [
+        "Кроз Земун пролазим сваког јутра кад идем на посао."
+      ],
+      "roman": [
+        "Kroz Zemun prolazim svakog jutra kad idem na posao."
+      ]
+    },
+    {
+      "id": "sr-s107",
+      "kind": "sentence",
+      "native": [
+        "Час керамике ми више одговара у понедељак увече."
+      ],
+      "roman": [
+        "Čas keramike mi više odgovara u ponedeljak uveče."
+      ]
+    },
+    {
+      "id": "sr-s108",
+      "kind": "sentence",
+      "native": [
+        "Мислио сам да наручимо пицу, али хајде ипак да скувамо нешто, има поврћа у замрзивачу."
+      ],
+      "roman": [
+        "Mislio sam da naručimo picu, ali hajde ipak da skuvamo nešto, ima povrća u zamrzivaču."
+      ]
+    },
+    {
+      "id": "sr-s109",
+      "kind": "sentence",
+      "native": [
+        "Позови кад завршиш са учењем."
+      ],
+      "roman": [
+        "Pozovi kad završiš sa učenjem."
+      ]
+    },
+    {
+      "id": "sr-s110",
+      "kind": "sentence",
+      "native": [
+        "Презентација за клијента из Суботице спремна је за преглед."
+      ],
+      "roman": [
+        "Prezentacija za klijenta iz Subotice spremna je za pregled."
+      ]
+    },
+    {
+      "id": "sr-s111",
+      "kind": "sentence",
+      "native": [
+        "Екран има 27 инча, а гаранција важи 5 година."
+      ],
+      "roman": [
+        "Ekran ima 27 inča, a garancija važi 5 godina."
+      ]
+    },
+    {
+      "id": "sr-s112",
+      "kind": "sentence",
+      "native": [
+        "Следеће недеље треба да однесем чизме код обућара."
+      ],
+      "roman": [
+        "Sledeće nedelje treba da odnesem čizme kod obućara."
+      ]
+    },
+    {
+      "id": "sr-s113",
+      "kind": "sentence",
+      "native": [
+        "Преведи ову поруку са немачког на српски језик."
+      ],
+      "roman": [
+        "Prevedi ovu poruku sa nemačkog na srpski jezik."
+      ]
+    },
+    {
+      "id": "sr-s114",
+      "kind": "sentence",
+      "native": [
+        "Бојане, микрофон ти крчи кад год се укључиш."
+      ],
+      "roman": [
+        "Bojane, mikrofon ti krči kad god se uključiš."
+      ]
+    },
+    {
+      "id": "sr-s115",
+      "kind": "sentence",
+      "native": [
+        "Возач каже да преседамо на наредној станици због радова."
+      ],
+      "roman": [
+        "Vozač kaže da presedamo na narednoj stanici zbog radova."
+      ]
+    },
+    {
+      "id": "sr-s116",
+      "kind": "sentence",
+      "native": [
+        "Понестало је детерџента, а веш се већ нагомилао."
+      ],
+      "roman": [
+        "Ponestalo je deterdženta, a veš se već nagomilao."
+      ]
+    },
+    {
+      "id": "sr-s117",
+      "kind": "sentence",
+      "native": [
+        "Слушај, идемо у Сомбор, ма не, у Апатин."
+      ],
+      "roman": [
+        "Slušaj, idemo u Sombor, ma ne, u Apatin."
+      ]
+    },
+    {
+      "id": "sr-s118",
+      "kind": "sentence",
+      "native": [
+        "Код мене је остао твој шал, сврати кад будеш могла."
+      ],
+      "roman": [
+        "Kod mene je ostao tvoj šal, svrati kad budeš mogla."
+      ]
+    },
+    {
+      "id": "sr-s119",
+      "kind": "sentence",
+      "native": [
+        "У среду излазим у 15.00 због родитељског састанка, али ћу завршити табелу пре поласка."
+      ],
+      "roman": [
+        "U sredu izlazim u 15.00 zbog roditeljskog sastanka, ali ću završiti tabelu pre polaska."
+      ]
+    },
+    {
+      "id": "sr-s120",
+      "kind": "sentence",
+      "native": [
+        "Имате ли 3 кесе земље за цвеће од по 5 литара?"
+      ],
+      "roman": [
+        "Imate li 3 kese zemlje za cveće od po 5 litara?"
+      ]
+    },
+    {
+      "id": "sr-s121",
+      "kind": "sentence",
+      "native": [
+        "Не заборави да понесеш простирку на час јоге."
+      ],
+      "roman": [
+        "Ne zaboravi da poneseš prostirku na čas joge."
+      ]
+    },
+    {
+      "id": "sr-s122",
+      "kind": "sentence",
+      "native": [
+        "Какво ће време бити на Златибору за викенд?"
+      ],
+      "roman": [
+        "Kakvo će vreme biti na Zlatiboru za vikend?"
+      ]
+    },
+    {
+      "id": "sr-s123",
+      "kind": "sentence",
+      "native": [
+        "Нема више места на диску."
+      ],
+      "roman": [
+        "Nema više mesta na disku."
+      ]
+    },
+    {
+      "id": "sr-s124",
+      "kind": "sentence",
+      "native": [
+        "Чекамо Ивана испред Спенса."
+      ],
+      "roman": [
+        "Čekamo Ivana ispred Spensa."
+      ]
+    },
+    {
+      "id": "sr-s125",
+      "kind": "sentence",
+      "native": [
+        "Кад одеш у Вршац, врати ујаку бушилицу, већ ме данима пита када ћеш наићи."
+      ],
+      "roman": [
+        "Kad odeš u Vršac, vrati ujaku bušilicu, već me danima pita kada ćeš naići."
+      ]
+    },
+    {
+      "id": "sr-s126",
+      "kind": "sentence",
+      "native": [
+        "Дај ми ону дебљу свеску, не ту, другу."
+      ],
+      "roman": [
+        "Daj mi onu deblju svesku, ne tu, drugu."
+      ]
+    },
+    {
+      "id": "sr-s127",
+      "kind": "sentence",
+      "native": [
+        "Љиљана ипак долази на ручак."
+      ],
+      "roman": [
+        "Ljiljana ipak dolazi na ručak."
+      ]
+    },
+    {
+      "id": "sr-s128",
+      "kind": "sentence",
+      "native": [
+        "Добро јутро, имате ли минут?"
+      ],
+      "roman": [
+        "Dobro jutro, imate li minut?"
+      ]
+    },
+    {
+      "id": "sr-s129",
+      "kind": "sentence",
+      "native": [
+        "Тражим собу 214 на 2. спрату."
+      ],
+      "roman": [
+        "Tražim sobu 214 na 2. spratu."
+      ]
+    },
+    {
+      "id": "sr-s130",
+      "kind": "sentence",
+      "native": [
+        "Одвој 1200 динара за чланарину у пливачком клубу."
+      ],
+      "roman": [
+        "Odvoj 1200 dinara za članarinu u plivačkom klubu."
+      ]
+    },
+    {
+      "id": "sr-s131",
+      "kind": "sentence",
+      "native": [
+        "Где у Ваљеву могу да поправим рајсфершлус на ранцу?"
+      ],
+      "roman": [
+        "Gde u Valjevu mogu da popravim rajsferšlus na rancu?"
+      ]
+    },
+    {
+      "id": "sr-s132",
+      "kind": "sentence",
+      "native": [
+        "У апликацији WhatsApp сам закачила обавештење о школском излету да се не изгуби међу порукама."
+      ],
+      "roman": [
+        "U aplikaciji WhatsApp sam zakačila obaveštenje o školskom izletu da se ne izgubi među porukama."
+      ]
+    },
+    {
+      "id": "sr-s133",
+      "kind": "sentence",
+      "native": [
+        "Мајстор из суседног локала поправља бицикле и недељом пре подне."
+      ],
+      "roman": [
+        "Majstor iz susednog lokala popravlja bicikle i nedeljom pre podne."
+      ]
+    },
+    {
+      "id": "sr-s134",
+      "kind": "sentence",
+      "native": [
+        "Проја се још хлади."
+      ],
+      "roman": [
+        "Proja se još hladi."
+      ]
+    },
+    {
+      "id": "sr-s135",
+      "kind": "sentence",
+      "native": [
+        "Ух, мислила сам на патике."
+      ],
+      "roman": [
+        "Uh, mislila sam na patike."
+      ]
+    },
+    {
+      "id": "sr-s136",
+      "kind": "sentence",
+      "native": [
+        "Извини што касним, тражим кључеве по целом стану."
+      ],
+      "roman": [
+        "Izvini što kasnim, tražim ključeve po celom stanu."
+      ]
+    },
+    {
+      "id": "sr-s137",
+      "kind": "sentence",
+      "native": [
+        "Одговара ли вам разговор преко апликације Viber у 14.45?"
+      ],
+      "roman": [
+        "Odgovara li vam razgovor preko aplikacije Viber u 14.45?"
+      ]
+    },
+    {
+      "id": "sr-s138",
+      "kind": "sentence",
+      "native": [
+        "Полица је широка 85 центиметара, а дубока 32."
+      ],
+      "roman": [
+        "Polica je široka 85 centimetara, a duboka 32."
+      ]
+    },
+    {
+      "id": "sr-s139",
+      "kind": "sentence",
+      "native": [
+        "Додај сунђере на списак."
+      ],
+      "roman": [
+        "Dodaj sunđere na spisak."
+      ]
+    },
+    {
+      "id": "sr-s140",
+      "kind": "sentence",
+      "native": [
+        "Отвори подешавања за бежичну мрежу."
+      ],
+      "roman": [
+        "Otvori podešavanja za bežičnu mrežu."
+      ]
+    },
+    {
+      "id": "sr-s141",
+      "kind": "sentence",
+      "native": [
+        "Сања Павловић тражи приступ нашем налогу за оглашавање."
+      ],
+      "roman": [
+        "Sanja Pavlović traži pristup našem nalogu za oglašavanje."
+      ]
+    },
+    {
+      "id": "sr-s142",
+      "kind": "sentence",
+      "native": [
+        "Са Маријом се обично нађем на Каленићу, па одатле заједно прошетамо до њене радње."
+      ],
+      "roman": [
+        "Sa Marijom se obično nađem na Kaleniću, pa odatle zajedno prošetamo do njene radnje."
+      ]
+    },
+    {
+      "id": "sr-s143",
+      "kind": "sentence",
+      "native": [
+        "Чесма капље целу ноћ."
+      ],
+      "roman": [
+        "Česma kaplje celu noć."
+      ]
+    },
+    {
+      "id": "sr-s144",
+      "kind": "sentence",
+      "native": [
+        "Понеси пешкир, купаћи и ону велику шналу за косу."
+      ],
+      "roman": [
+        "Ponesi peškir, kupaći i onu veliku šnalu za kosu."
+      ]
+    },
+    {
+      "id": "sr-s145",
+      "kind": "sentence",
+      "native": [
+        "Пошаљи ми слику оног зеленог џемпера кад стигнеш, да видим да ли иде уз сукњу."
+      ],
+      "roman": [
+        "Pošalji mi sliku onog zelenog džempera kad stigneš, da vidim da li ide uz suknju."
+      ]
+    },
+    {
+      "id": "sr-s146",
+      "kind": "sentence",
+      "native": [
+        "Послала сам узорке у Чачак, курир стиже до подне."
+      ],
+      "roman": [
+        "Poslala sam uzorke u Čačak, kurir stiže do podne."
+      ]
+    },
+    {
+      "id": "sr-s147",
+      "kind": "sentence",
+      "native": [
+        "Повратна карта кошта 1760 динара, са попустом од 20%."
+      ],
+      "roman": [
+        "Povratna karta košta 1760 dinara, sa popustom od 20%."
+      ]
+    },
+    {
+      "id": "sr-s148",
+      "kind": "sentence",
+      "native": [
+        "Треба заменити кесу у усисивачу."
+      ],
+      "roman": [
+        "Treba zameniti kesu u usisivaču."
+      ]
+    },
+    {
+      "id": "sr-s149",
+      "kind": "sentence",
+      "native": [
+        "Пронађи упутство за уклањање каменца из електричног бокала."
+      ],
+      "roman": [
+        "Pronađi uputstvo za uklanjanje kamenca iz električnog bokala."
+      ]
+    },
+    {
+      "id": "sr-s150",
+      "kind": "sentence",
+      "native": [
+        "Заблокирао ми је цео лаптоп."
+      ],
+      "roman": [
+        "Zablokirao mi je ceo laptop."
+      ]
+    },
+    {
+      "id": "sr-s151",
+      "kind": "sentence",
+      "native": [
+        "Јелена каже да је представа одлична. Идемо заједно?"
+      ],
+      "roman": [
+        "Jelena kaže da je predstava odlična. Idemo zajedno?"
+      ]
+    },
+    {
+      "id": "sr-s152",
+      "kind": "sentence",
+      "native": [
+        "Радимо од 8.30 до 16.30."
+      ],
+      "roman": [
+        "Radimo od 8.30 do 16.30."
+      ]
+    },
+    {
+      "id": "sr-s153",
+      "kind": "sentence",
+      "native": [
+        "Промени време аларма са 6.15 на 6.50 и искључи понављање, јер ујутру не морам да журим."
+      ],
+      "roman": [
+        "Promeni vreme alarma sa 6.15 na 6.50 i isključi ponavljanje, jer ujutru ne moram da žurim."
+      ]
+    },
+    {
+      "id": "sr-s154",
+      "kind": "sentence",
+      "native": [
+        "Тата, јеси ли успео да повежеш нови телевизор?"
+      ],
+      "roman": [
+        "Tata, jesi li uspeo da povežeš novi televizor?"
+      ]
+    },
+    {
+      "id": "sr-s155",
+      "kind": "sentence",
+      "native": [
+        "Победили смо са 3 према 1."
+      ],
+      "roman": [
+        "Pobedili smo sa 3 prema 1."
+      ]
+    },
+    {
+      "id": "sr-s156",
+      "kind": "sentence",
+      "native": [
+        "Зови Соњу на мобилни телефон."
+      ],
+      "roman": [
+        "Zovi Sonju na mobilni telefon."
+      ]
+    },
+    {
+      "id": "sr-s157",
+      "kind": "sentence",
+      "native": [
+        "Мама, спакуј и папуче, код нас је хладан под."
+      ],
+      "roman": [
+        "Mama, spakuj i papuče, kod nas je hladan pod."
+      ]
+    },
+    {
+      "id": "sr-s158",
+      "kind": "sentence",
+      "native": [
+        "Радмила слави 68. рођендан у суботу у 13.30."
+      ],
+      "roman": [
+        "Radmila slavi 68. rođendan u subotu u 13.30."
+      ]
+    },
+    {
+      "id": "sr-s159",
+      "kind": "sentence",
+      "native": [
+        "Хоћемо ли у недељу бициклом до Аде?"
+      ],
+      "roman": [
+        "Hoćemo li u nedelju biciklom do Ade?"
+      ]
+    },
+    {
+      "id": "sr-s160",
+      "kind": "sentence",
+      "native": [
+        "Батерија је већ на 12%."
+      ],
+      "roman": [
+        "Baterija je već na 12%."
+      ]
+    },
+    {
+      "id": "sr-s161",
+      "kind": "sentence",
+      "native": [
+        "Важи, понећу твој пуњач сутра."
+      ],
+      "roman": [
+        "Važi, poneću tvoj punjač sutra."
+      ]
+    },
+    {
+      "id": "sr-s162",
+      "kind": "sentence",
+      "native": [
+        "Узми 250 грама качкаваља и 1,5 литара јогурта."
+      ],
+      "roman": [
+        "Uzmi 250 grama kačkavalja i 1,5 litara jogurta."
+      ]
+    },
+    {
+      "id": "sr-s163",
+      "kind": "sentence",
+      "native": [
+        "Немој да бациш кутију, требаће ми за селидбу."
+      ],
+      "roman": [
+        "Nemoj da baciš kutiju, trebaće mi za selidbu."
+      ]
+    },
+    {
+      "id": "sr-s164",
+      "kind": "sentence",
+      "native": [
+        "Путујем возом који полази у 6.40. Бићу у вагону 8, на седишту 36."
+      ],
+      "roman": [
+        "Putujem vozom koji polazi u 6.40. Biću u vagonu 8, na sedištu 36."
+      ]
+    },
+    {
+      "id": "sr-s165",
+      "kind": "sentence",
+      "native": [
+        "Милица има 32 године, а њена сестра тек 19."
+      ],
+      "roman": [
+        "Milica ima 32 godine, a njena sestra tek 19."
+      ]
+    },
+    {
+      "id": "sr-s166",
+      "kind": "sentence",
+      "native": [
+        "Помери обуку на петак, 18. 9. 2026. у 11.30, да сви стигнемо после јутарње смене."
+      ],
+      "roman": [
+        "Pomeri obuku na petak, 18. 9. 2026. u 11.30, da svi stignemo posle jutarnje smene."
+      ]
+    }
+  ]
+}

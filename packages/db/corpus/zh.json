@@ -1,0 +1,2265 @@
+{
+  "lang": "zh",
+  "starter": [
+    "zh-s063",
+    "zh-s074",
+    "zh-s071",
+    "zh-s124",
+    "zh-s138",
+    "zh-s034",
+    "zh-s146",
+    "zh-s093",
+    "zh-s178",
+    "zh-s015",
+    "zh-s091",
+    "zh-s191",
+    "zh-p05",
+    "zh-s121",
+    "zh-s056",
+    "zh-s097",
+    "zh-s153",
+    "zh-s115",
+    "zh-s102",
+    "zh-s116",
+    "zh-s061",
+    "zh-s046",
+    "zh-s110",
+    "zh-s180",
+    "zh-s120",
+    "zh-p01",
+    "zh-s044",
+    "zh-s168",
+    "zh-s085",
+    "zh-s006",
+    "zh-s131",
+    "zh-s143",
+    "zh-s163",
+    "zh-s129",
+    "zh-s024",
+    "zh-s197",
+    "zh-s119",
+    "zh-s167",
+    "zh-p04",
+    "zh-s109",
+    "zh-s114",
+    "zh-s067",
+    "zh-s159",
+    "zh-s158",
+    "zh-s092",
+    "zh-s078",
+    "zh-s176",
+    "zh-s079",
+    "zh-s141",
+    "zh-s026",
+    "zh-s165",
+    "zh-s133"
+  ],
+  "items": [
+    {
+      "id": "zh-p01",
+      "kind": "para",
+      "title": "A New Job in Hangzhou",
+      "native": [
+        "我下周就去杭州滨江的新公司上班了。",
+        "公司做家用电器，我负责拍产品照片。",
+        "面试的时候，主管还带我逛了摄影棚。",
+        "我最喜欢的是窗边那张宽宽的工作台。",
+        "上班时间是9点半，早上不用太赶。",
+        "从我住的地方骑车到公司，大概只要20分钟。",
+        "楼下有家面馆，番茄鸡蛋面才18元。",
+        "我打算先带几天饭，慢慢熟悉周围的店。",
+        "等我领了工资，周末请你去吃顿杭帮菜。"
+      ],
+      "roman": [
+        "Wo xiazhou jiu qu Hangzhou Binjiang de xin gongsi shangban le.",
+        "Gongsi zuo jiayong dianqi, wo fuze pai chanpin zhaopian.",
+        "Mianshi de shihou, zhuguan hai dai wo guang le sheyingpeng.",
+        "Wo zui xihuan de shi chuang bian na zhang kuankuan de gongzuotai.",
+        "Shangban shijian shi 9 dian ban, zaoshang bu yong tai gan.",
+        "Cong wo zhu de difang qiche dao gongsi, dagai zhiyao 20 fenzhong.",
+        "Louxia you jia mianguan, fanqie jidanmian cai 18 yuan.",
+        "Wo dasuan xian dai ji tian fan, manman shuxi zhouwei de dian.",
+        "Deng wo ling le gongzi, zhoumo qing ni qu chi dun hangbangcai."
+      ]
+    },
+    {
+      "id": "zh-p02",
+      "kind": "para",
+      "title": "Shanghai Client Meeting Recap",
+      "native": [
+        "各位好，今天在上海徐家汇和客户谈好了展台方案。",
+        "客户选了浅蓝色的背景板，展台尺寸不变。",
+        "入口的展示屏要往右挪，给观众留条通道。",
+        "报价里要单独列出运输费，方便客户核对。",
+        "陈雨桐负责改图，明天上午10点前发群里。",
+        "我会把会议记录和现场照片整理好。",
+        "采购那边请再确认一下灯具的到货时间。",
+        "新版PPT发出前，麻烦大家检查图片清晰度。",
+        "我们周五下午再过一遍方案，然后发给客户。"
+      ],
+      "roman": [
+        "Gewei hao, jintian zai Shanghai Xujiahui he kehu tan hao le zhantai fang'an.",
+        "Kehu xuan le qianlanse de beijingban, zhantai chicun bu bian.",
+        "Rukou de zhanshiping yao wang you nuo, gei guanzhong liu tiao tongdao.",
+        "Baojia li yao dandu liechu yunshufei, fangbian kehu hedui.",
+        "Chen Yutong fuze gai tu, mingtian shangwu 10 dian qian fa qun li.",
+        "Wo hui ba huiyi jilu he xianchang zhaopian zhengli hao.",
+        "Caigou nabian qing zai queren yixia dengju de daohuo shijian.",
+        "Xinban PPT fachu qian, mafan dajia jiancha tupian qingxidu.",
+        "Women zhouwu xiawu zai guo yi bian fang'an, ranhou fa gei kehu."
+      ]
+    },
+    {
+      "id": "zh-p03",
+      "kind": "para",
+      "title": "Lost in Chengdu",
+      "native": [
+        "上个月我第1次去成都，刚出地铁就走反了。",
+        "我本来想去人民公园，结果绕进了小巷。",
+        "手机电量只剩8%，地图还一直转圈。",
+        "我站在卖蛋烘糕的摊子旁边，有点发愁。",
+        "摊主阿姨看我来回张望，问我要去哪儿。",
+        "阿姨听说我要去人民公园，就指了指街对面。",
+        "人民公园的入口就在前面，被树枝挡住了。",
+        "阿姨还提醒我，过马路要走旁边的地下通道。",
+        "后来我坐在茶馆里，点了盖碗茶才松了口气。"
+      ],
+      "roman": [
+        "Shang ge yue wo di 1 ci qu Chengdu, gang chu ditie jiu zou fan le.",
+        "Wo benlai xiang qu Renmin Gongyuan, jieguo rao jin le xiaoxiang.",
+        "Shouji dianliang zhi sheng 8%, ditu hai yizhi zhuanquan.",
+        "Wo zhan zai mai danhonggao de tanzi pangbian, youdian fachou.",
+        "Tanzhu ayi kan wo laihui zhangwang, wen wo yao qu nar.",
+        "Ayi tingshuo wo yao qu Renmin Gongyuan, jiu zhi le zhi jie duimian.",
+        "Renmin Gongyuan de rukou jiu zai qianmian, bei shuzhi dangzhu le.",
+        "Ayi hai tixing wo, guo malu yao zou pangbian de dixia tongdao.",
+        "Houlai wo zuo zai chaguan li, dian le gaiwancha cai song le kou qi."
+      ]
+    },
+    {
+      "id": "zh-p04",
+      "kind": "para",
+      "title": "Making Wuhan Hot Dry Noodles",
+      "native": [
+        "我在武汉长大，早饭最爱吃一碗热干面。",
+        "在家做热干面，买现成的熟碱水面最省事。",
+        "先把芝麻酱倒进碗里，加点香油慢慢搅匀。",
+        "芝麻酱要搅到能顺着筷子流下来，别太稠。",
+        "锅里的水烧开后，把面条放进去烫20秒。",
+        "面条烫好就捞进大碗里，别在热水里泡太久。",
+        "往面里加生抽和一点老抽，再放萝卜丁。",
+        "把调好的芝麻酱浇上去，撒一小把葱花。",
+        "最后趁热拌匀，让每根面都裹上芝麻酱。"
+      ],
+      "roman": [
+        "Wo zai Wuhan zhangda, zaofan zui ai chi yi wan reganmian.",
+        "Zai jia zuo reganmian, mai xiancheng de shu jianshuimian zui shengshi.",
+        "Xian ba zhimajiang dao jin wan li, jia dian xiangyou manman jiaoyun.",
+        "Zhimajiang yao jiao dao neng shunzhe kuaizi liu xialai, bie tai chou.",
+        "Guo li de shui shaokai hou, ba miantiao fang jinqu tang 20 miao.",
+        "Miantiao tang hao jiu lao jin da wan li, bie zai reshui li pao tai jiu.",
+        "Wang mian li jia shengchou he yidian laochou, zai fang luobo ding.",
+        "Ba tiao hao de zhimajiang jiao shangqu, sa yi xiao ba conghua.",
+        "Zuihou chenre banyun, rang mei gen mian dou guo shang zhimajiang."
+      ]
+    },
+    {
+      "id": "zh-p05",
+      "kind": "para",
+      "title": "Strength Classes in Qingdao",
+      "native": [
+        "我在青岛台东上了1个月的小班力量课。",
+        "这家健身房藏在居民楼后面，门口不太好找。",
+        "教练周敏讲动作很细，也愿意等新手跟上。",
+        "每班最多6个人，练深蹲时基本不用排队。",
+        "这里不催着办年卡，这点让我挺放心的。",
+        "不过更衣室有点挤，周末常要等空柜子。",
+        "上完课走到台东步行街，还能顺手买点水果。",
+        "晚上7点那节课音乐偏响，我偶尔会分心。",
+        "要是想安静练动作，我更推荐周末上午的课。"
+      ],
+      "roman": [
+        "Wo zai Qingdao Taidong shang le 1 ge yue de xiaoban liliang ke.",
+        "Zhe jia jianshenfang cang zai juminlou houmian, menkou bu tai hao zhao.",
+        "Jiaolian Zhou Min jiang dongzuo hen xi, ye yuanyi deng xinshou genshang.",
+        "Mei ban zuiduo 6 ge ren, lian shendun shi jiben bu yong paidui.",
+        "Zheli bu cui zhe ban nianka, zhe dian rang wo ting fangxin de.",
+        "Buguo gengyishi youdian ji, zhoumo chang yao deng kong guizi.",
+        "Shang wan ke zou dao Taidong Buxingjie, hai neng shunshou mai dian shuiguo.",
+        "Wanshang 7 dian na jie ke yinyue pian xiang, wo ouer hui fenxin.",
+        "Yaoshi xiang anjing lian dongzuo, wo geng tuijian zhoumo shangwu de ke."
+      ]
+    },
+    {
+      "id": "zh-p06",
+      "kind": "para",
+      "title": "Planning a Tianjin Kitchen",
+      "native": [
+        "天津南开的老房子，厨房这回得好好改改了。",
+        "我打算6月12日开工，前后留出10天。",
+        "周六上午9点20分，先约师傅上门量尺寸。",
+        "厨房长3米、宽2米，水槽还放在窗户下面。",
+        "橱柜做3米长，台面预算先按2400元算。",
+        "墙砖和地砖加起来，尽量别超过1800元。",
+        "我挑了2家建材店，离小区都不到5公里。",
+        "电源插座留6个，冰箱旁边再装1盏小灯。",
+        "另外留出5000元，拆旧和人工都从这里出。"
+      ],
+      "roman": [
+        "Tianjin Nankai de lao fangzi, chufang zhe hui dei haohao gaigai le.",
+        "Wo dasuan 6 yue 12 ri kaigong, qianhou liu chu 10 tian.",
+        "Zhouliu shangwu 9 dian 20 fen, xian yue shifu shangmen liang chicun.",
+        "Chufang chang 3 mi, kuan 2 mi, shuicao hai fang zai chuanghu xiamian.",
+        "Chugui zuo 3 mi chang, taimian yusuan xian an 2400 yuan suan.",
+        "Qiangzhuan he dizhuan jia qilai, jinliang bie chaoguo 1800 yuan.",
+        "Wo tiao le 2 jia jiancai dian, li xiaoqu dou bu dao 5 gongli.",
+        "Dianyuan chazuo liu 6 ge, bingxiang pangbian zai zhuang 1 zhan xiao deng.",
+        "Lingwai liu chu 5000 yuan, chai jiu he rengong dou cong zheli chu."
+      ]
+    },
+    {
+      "id": "zh-p07",
+      "kind": "para",
+      "title": "Requesting a School Receipt",
+      "native": [
+        "您好，我是厦门集美小学学生许一诺的妈妈。",
+        "想跟学校财务室确认一下，课后服务费的收据开好了吗？",
+        "孩子下学期的课后服务费，我上周二已经交了。",
+        "缴费记录上是600元，付款人写的是许岚。",
+        "收据上的学生姓名，麻烦您写许一诺。",
+        "如果收据已经开好了，我周五下午4点能到学校取。",
+        "要是只能发电子收据，麻烦发到我在学校登记的邮箱。",
+        "收据上麻烦注明收费项目，方便我们核对。",
+        "谢谢您帮忙，领收据还要带什么材料吗？"
+      ],
+      "roman": [
+        "Nin hao, wo shi Xiamen Jimei Xiaoxue xuesheng Xu Yinuo de mama.",
+        "Xiang gen xuexiao caiwushi queren yixia, kehou fuwufei de shouju kai hao le ma?",
+        "Haizi xia xueqi de kehou fuwufei, wo shang zhou'er yijing jiao le.",
+        "Jiaofei jilu shang shi 600 yuan, fukuanren xie de shi Xu Lan.",
+        "Shouju shang de xuesheng xingming, mafan nin xie Xu Yinuo.",
+        "Ruguo shouju yijing kai hao le, wo zhouwu xiawu 4 dian neng dao xuexiao qu.",
+        "Yaoshi zhi neng fa dianzi shouju, mafan fa dao wo zai xuexiao dengji de youxiang.",
+        "Shouju shang mafan zhuming shoufei xiangmu, fangbian women hedui.",
+        "Xiexie nin bangmang, ling shouju hai yao dai shenme cailiao ma?"
+      ]
+    },
+    {
+      "id": "zh-p08",
+      "kind": "para",
+      "title": "Weifang Kite Making",
+      "native": [
+        "在山东潍坊，不少人都会做风筝。",
+        "做传统风筝，一般要先扎骨架，再糊纸、画图案。",
+        "竹条得先削薄，再慢慢弯成合适的弧度。",
+        "风筝骨架看着轻巧，其实很讲究左右两边的平衡。",
+        "潍坊常见的燕子风筝，翅膀宽，尾巴像把剪刀。",
+        "师傅会先在风筝上勾线，再填上鲜亮的颜色。",
+        "春天去潍坊的白浪河边，经常能看到有人放风筝。",
+        "潍坊有些风筝工作室开了体验课，游客也能亲手糊个风筝。",
+        "做风筝的师傅不光做老样式，也会设计一些新款。"
+      ],
+      "roman": [
+        "Zai Shandong Weifang, bu shao ren dou hui zuo fengzheng.",
+        "Zuo chuantong fengzheng, yiban yao xian za gujia, zai hu zhi, hua tu'an.",
+        "Zhutiao dei xian xiao bao, zai manman wan cheng heshi de hudu.",
+        "Fengzheng gujia kan zhe qingqiao, qishi hen jiangjiu zuoyou liang bian de pingheng.",
+        "Weifang changjian de yanzi fengzheng, chibang kuan, weiba xiang ba jiandao.",
+        "Shifu hui xian zai fengzheng shang gouxian, zai tian shang xianliang de yanse.",
+        "Chuntian qu Weifang de Bailang He bian, jingchang neng kandao you ren fang fengzheng.",
+        "Weifang youxie fengzheng gongzuoshi kai le tiyanke, youke ye neng qinshou hu ge fengzheng.",
+        "Zuo fengzheng de shifu buguang zuo lao yangshi, ye hui sheji yixie xinkuan."
+      ]
+    },
+    {
+      "id": "zh-s001",
+      "kind": "sentence",
+      "native": [
+        "有空给我打个电话。"
+      ],
+      "roman": [
+        "You kong gei wo da ge dianhua."
+      ]
+    },
+    {
+      "id": "zh-s002",
+      "kind": "sentence",
+      "native": [
+        "方便的话，把上季度的销量单独列出来。"
+      ],
+      "roman": [
+        "Fangbian de hua, ba shang jidu de xiaoliang dandu lie chulai."
+      ]
+    },
+    {
+      "id": "zh-s003",
+      "kind": "sentence",
+      "native": [
+        "包裹重2公斤，运费收了15元。"
+      ],
+      "roman": [
+        "Baoguo zhong 2 gongjin, yunfei shou le 15 yuan."
+      ]
+    },
+    {
+      "id": "zh-s004",
+      "kind": "sentence",
+      "native": [
+        "出门前查查去泉州的动车还有没有票。"
+      ],
+      "roman": [
+        "Chumen qian chacha qu Quanzhou de dongche haiyou meiyou piao."
+      ]
+    },
+    {
+      "id": "zh-s005",
+      "kind": "sentence",
+      "native": [
+        "帮我接通杜晓梅的电话。"
+      ],
+      "roman": [
+        "Bang wo jietong Du Xiaomei de dianhua."
+      ]
+    },
+    {
+      "id": "zh-s006",
+      "kind": "sentence",
+      "native": [
+        "鼠标滚轮不太灵了。"
+      ],
+      "roman": [
+        "Shubiao gunlun bu tai ling le."
+      ]
+    },
+    {
+      "id": "zh-s007",
+      "kind": "sentence",
+      "native": [
+        "师傅，前面商场门口能临时停一下吗？"
+      ],
+      "roman": [
+        "Shifu, qianmian shangchang menkou neng linshi ting yixia ma?"
+      ]
+    },
+    {
+      "id": "zh-s008",
+      "kind": "sentence",
+      "native": [
+        "程露，裁缝说裤脚已经改好了，你去取的时候顺便试试腰围合不合适。"
+      ],
+      "roman": [
+        "Cheng Lu, caifeng shuo kujiao yijing gai hao le, ni qu qu de shihou shunbian shishi yaowei he bu heshi."
+      ]
+    },
+    {
+      "id": "zh-s009",
+      "kind": "sentence",
+      "native": [
+        "场地费每人25元吗？"
+      ],
+      "roman": [
+        "Changdifei mei ren 25 yuan ma?"
+      ]
+    },
+    {
+      "id": "zh-s010",
+      "kind": "sentence",
+      "native": [
+        "加油，离目标就差一点了。"
+      ],
+      "roman": [
+        "Jiayou, li mubiao jiu cha yidian le."
+      ]
+    },
+    {
+      "id": "zh-s011",
+      "kind": "sentence",
+      "native": [
+        "原本说好陪你练羽毛球，结果球还没接住，我倒把球拍甩到地上了。"
+      ],
+      "roman": [
+        "Yuanben shuo hao pei ni lian yumaoqiu, jieguo qiu hai mei jie zhu, wo dao ba qiupai shuai dao dishang le."
+      ]
+    },
+    {
+      "id": "zh-s012",
+      "kind": "sentence",
+      "native": [
+        "先把麦克风静音。"
+      ],
+      "roman": [
+        "Xian ba maikefeng jingyin."
+      ]
+    },
+    {
+      "id": "zh-s013",
+      "kind": "sentence",
+      "native": [
+        "鸡蛋先拿上12个。"
+      ],
+      "roman": [
+        "Jidan xian na shang 12 ge."
+      ]
+    },
+    {
+      "id": "zh-s014",
+      "kind": "sentence",
+      "native": [
+        "把雨伞放进背包里。"
+      ],
+      "roman": [
+        "Ba yusan fang jin beibao li."
+      ]
+    },
+    {
+      "id": "zh-s015",
+      "kind": "sentence",
+      "native": [
+        "支付宝里怎么查上个月的燃气缴费记录？"
+      ],
+      "roman": [
+        "Zhifubao li zenme cha shang ge yue de ranqi jiaofei jilu?"
+      ]
+    },
+    {
+      "id": "zh-s016",
+      "kind": "sentence",
+      "native": [
+        "罗欣，线上面试时只共享PPT窗口，别让对方看到桌面上的私人文件。"
+      ],
+      "roman": [
+        "Luo Xin, xianshang mianshi shi zhi gongxiang PPT chuangkou, bie rang duifang kandao zhuomian shang de siren wenjian."
+      ]
+    },
+    {
+      "id": "zh-s017",
+      "kind": "sentence",
+      "native": [
+        "小区西门外的修车铺周末也开门，你推着车过去就能补胎。"
+      ],
+      "roman": [
+        "Xiaoqu ximen wai de xiuchepu zhoumo ye kai men, ni tui zhe che guoqu jiu neng butai."
+      ]
+    },
+    {
+      "id": "zh-s018",
+      "kind": "sentence",
+      "native": [
+        "螺蛳粉里的酸笋麻烦单独装，我回家再拌。"
+      ],
+      "roman": [
+        "Luosifen li de suansun mafan dandu zhuang, wo huijia zai ban."
+      ]
+    },
+    {
+      "id": "zh-s019",
+      "kind": "sentence",
+      "native": [
+        "奶奶，您的老花镜是不是放在茶几上了？"
+      ],
+      "roman": [
+        "Nainai, nin de laohuajing shi bu shi fang zai chaji shang le?"
+      ]
+    },
+    {
+      "id": "zh-s020",
+      "kind": "sentence",
+      "native": [
+        "多亏你帮我解了围。"
+      ],
+      "roman": [
+        "Duokui ni bang wo jie le wei."
+      ]
+    },
+    {
+      "id": "zh-s021",
+      "kind": "sentence",
+      "native": [
+        "转账收到了，谢谢你。"
+      ],
+      "roman": [
+        "Zhuanzhang shoudao le, xiexie ni."
+      ]
+    },
+    {
+      "id": "zh-s022",
+      "kind": "sentence",
+      "native": [
+        "赵雨桐，明天和供应商谈包装时，记得确认样品能不能免费寄过来。"
+      ],
+      "roman": [
+        "Zhao Yutong, mingtian he gongyingshang tan baozhuang shi, jide queren yangpin neng bu neng mianfei ji guolai."
+      ]
+    },
+    {
+      "id": "zh-s023",
+      "kind": "sentence",
+      "native": [
+        "周日的书法班从14点上到16点30分。"
+      ],
+      "roman": [
+        "Zhouri de shufaban cong 14 dian shang dao 16 dian 30 fen."
+      ]
+    },
+    {
+      "id": "zh-s024",
+      "kind": "sentence",
+      "native": [
+        "还剩2卷厨房纸，下单时凑上垃圾袋，别再单独付运费了。"
+      ],
+      "roman": [
+        "Hai sheng 2 juan chufangzhi, xiadan shi cou shang lajidai, bie zai dandu fu yunfei le."
+      ]
+    },
+    {
+      "id": "zh-s025",
+      "kind": "sentence",
+      "native": [
+        "浏览器里新建一个标签页，别关掉原来的网页。"
+      ],
+      "roman": [
+        "Liulanqi li xinjian yi ge biaoqianye, bie guandiao yuanlai de wangye."
+      ]
+    },
+    {
+      "id": "zh-s026",
+      "kind": "sentence",
+      "native": [
+        "密码别存在便签里。"
+      ],
+      "roman": [
+        "Mima bie cun zai bianqian li."
+      ]
+    },
+    {
+      "id": "zh-s027",
+      "kind": "sentence",
+      "native": [
+        "认错楼了，你家是在幼儿园后面那栋吧？"
+      ],
+      "roman": [
+        "Ren cuo lou le, ni jia shi zai youeryuan houmian na dong ba?"
+      ]
+    },
+    {
+      "id": "zh-s028",
+      "kind": "sentence",
+      "native": [
+        "作业本落在教室了，我得回去拿。"
+      ],
+      "roman": [
+        "Zuoyeben la zai jiaoshi le, wo dei huiqu na."
+      ]
+    },
+    {
+      "id": "zh-s029",
+      "kind": "sentence",
+      "native": [
+        "凉皮给我来小份的，哎，还是大份的吧。"
+      ],
+      "roman": [
+        "Liangpi gei wo lai xiao fen de, ai, haishi da fen de ba."
+      ]
+    },
+    {
+      "id": "zh-s030",
+      "kind": "sentence",
+      "native": [
+        "电梯怎么又停在顶楼了？"
+      ],
+      "roman": [
+        "Dianti zenme you ting zai dinglou le?"
+      ]
+    },
+    {
+      "id": "zh-s031",
+      "kind": "sentence",
+      "native": [
+        "爸，书架下午送到，你签收时看看纸箱有没有磕碰，等我回来再拆。"
+      ],
+      "roman": [
+        "Ba, shujia xiawu songdao, ni qianshou shi kankan zhixiang you meiyou kepeng, deng wo huilai zai chai."
+      ]
+    },
+    {
+      "id": "zh-s032",
+      "kind": "sentence",
+      "native": [
+        "多谢提醒，合同里的公司名称已经更正了。"
+      ],
+      "roman": [
+        "Duoxie tixing, hetong li de gongsi mingcheng yijing gengzheng le."
+      ]
+    },
+    {
+      "id": "zh-s033",
+      "kind": "sentence",
+      "native": [
+        "去苏州的车票每张86元，买7张。"
+      ],
+      "roman": [
+        "Qu Suzhou de chepiao mei zhang 86 yuan, mai 7 zhang."
+      ]
+    },
+    {
+      "id": "zh-s034",
+      "kind": "sentence",
+      "native": [
+        "每周清理1次鱼缸。"
+      ],
+      "roman": [
+        "Meizhou qingli 1 ci yugang."
+      ]
+    },
+    {
+      "id": "zh-s035",
+      "kind": "sentence",
+      "native": [
+        "电脑连不上蓝牙耳机，帮我找个排查教程，最好每一步都有图片说明。"
+      ],
+      "roman": [
+        "Diannao lian bu shang lanya erji, bang wo zhao ge paicha jiaocheng, zuihao mei yi bu dou you tupian shuoming."
+      ]
+    },
+    {
+      "id": "zh-s036",
+      "kind": "sentence",
+      "native": [
+        "软件订阅每月要28元，暂时不续了。"
+      ],
+      "roman": [
+        "Ruanjian dingyue mei yue yao 28 yuan, zanshi bu xu le."
+      ]
+    },
+    {
+      "id": "zh-s037",
+      "kind": "sentence",
+      "native": [
+        "姐姐从长沙带回来的酱板鸭有点辣。"
+      ],
+      "roman": [
+        "Jiejie cong Changsha dai huilai de jiangbanya youdian la."
+      ]
+    },
+    {
+      "id": "zh-s038",
+      "kind": "sentence",
+      "native": [
+        "醋快没了，少倒点吧。"
+      ],
+      "roman": [
+        "Cu kuai mei le, shao dao dian ba."
+      ]
+    },
+    {
+      "id": "zh-s039",
+      "kind": "sentence",
+      "native": [
+        "文件名写春季活动方案，后面加上终稿，哎，别写终稿，写修改版。"
+      ],
+      "roman": [
+        "Wenjianming xie chunji huodong fang'an, houmian jiashang zhonggao, ai, bie xie zhonggao, xie xiugaiban."
+      ]
+    },
+    {
+      "id": "zh-s040",
+      "kind": "sentence",
+      "native": [
+        "学琴进步慢也没关系，能完整弹完一首曲子，我就觉得挺有成就感。"
+      ],
+      "roman": [
+        "Xue qin jinbu man ye mei guanxi, neng wanzheng tan wan yi shou quzi, wo jiu juede ting you chengjiugan."
+      ]
+    },
+    {
+      "id": "zh-s041",
+      "kind": "sentence",
+      "native": [
+        "佩珊，你推荐的那家肠粉店今天排了好长的队，下次咱们早点去吃吧。"
+      ],
+      "roman": [
+        "Peishan, ni tuijian de na jia changfendian jintian pai le hao chang de dui, xiaci zanmen zao dian qu chi ba."
+      ]
+    },
+    {
+      "id": "zh-s042",
+      "kind": "sentence",
+      "native": [
+        "您好，附件是这个月的项目进度表。标黄的部分还在核对，最晚后天补齐。"
+      ],
+      "roman": [
+        "Nin hao, fujian shi zhege yue de xiangmu jindubiao. Biaohuang de bufen hai zai hedui, zui wan houtian buqi."
+      ]
+    },
+    {
+      "id": "zh-s043",
+      "kind": "sentence",
+      "native": [
+        "每袋茶叶装30克。"
+      ],
+      "roman": [
+        "Mei dai chaye zhuang 30 ke."
+      ]
+    },
+    {
+      "id": "zh-s044",
+      "kind": "sentence",
+      "native": [
+        "购物清单加上燕麦。"
+      ],
+      "roman": [
+        "Gouwu qingdan jia shang yanmai."
+      ]
+    },
+    {
+      "id": "zh-s045",
+      "kind": "sentence",
+      "native": [
+        "开个9分钟的倒计时。"
+      ],
+      "roman": [
+        "Kai ge 9 fenzhong de daojishi."
+      ]
+    },
+    {
+      "id": "zh-s046",
+      "kind": "sentence",
+      "native": [
+        "用USB接口给这块硬盘供电就行。"
+      ],
+      "roman": [
+        "Yong USB jiekou gei zhe kuai yingpan gongdian jiu xing."
+      ]
+    },
+    {
+      "id": "zh-s047",
+      "kind": "sentence",
+      "native": [
+        "姑父坐地铁上班。"
+      ],
+      "roman": [
+        "Gufu zuo ditie shangban."
+      ]
+    },
+    {
+      "id": "zh-s048",
+      "kind": "sentence",
+      "native": [
+        "福州的龙舟赛几点开始，附近能停车吗？"
+      ],
+      "roman": [
+        "Fuzhou de longzhousai ji dian kaishi, fujin neng tingche ma?"
+      ]
+    },
+    {
+      "id": "zh-s049",
+      "kind": "sentence",
+      "native": [
+        "稍等，靠背能放倒吗？"
+      ],
+      "roman": [
+        "Shaodeng, kaobei neng fangdao ma?"
+      ]
+    },
+    {
+      "id": "zh-s050",
+      "kind": "sentence",
+      "native": [
+        "楼上总有人拖椅子，听着实在有点烦。"
+      ],
+      "roman": [
+        "Loushang zong you ren tuo yizi, ting zhe shizai youdian fan."
+      ]
+    },
+    {
+      "id": "zh-s051",
+      "kind": "sentence",
+      "native": [
+        "试穿才发现鞋子小了半码，我打算申请退货。"
+      ],
+      "roman": [
+        "Shichuan cai faxian xiezi xiao le ban ma, wo dasuan shenqing tuihuo."
+      ]
+    },
+    {
+      "id": "zh-s052",
+      "kind": "sentence",
+      "native": [
+        "午休时大家想安静一会儿，接电话的同事能不能挪到走廊那边？"
+      ],
+      "roman": [
+        "Wuxiu shi dajia xiang anjing yihuir, jie dianhua de tongshi neng bu neng nuo dao zoulang nabian?"
+      ]
+    },
+    {
+      "id": "zh-s053",
+      "kind": "sentence",
+      "native": [
+        "运动鞋要39码的。"
+      ],
+      "roman": [
+        "Yundongxie yao 39 ma de."
+      ]
+    },
+    {
+      "id": "zh-s054",
+      "kind": "sentence",
+      "native": [
+        "洗衣液快用完了，补货时选无香型的。"
+      ],
+      "roman": [
+        "Xiyiye kuai yong wan le, buhuo shi xuan wuxiangxing de."
+      ]
+    },
+    {
+      "id": "zh-s055",
+      "kind": "sentence",
+      "native": [
+        "启用手机的省电模式。"
+      ],
+      "roman": [
+        "Qiyong shouji de shengdian moshi."
+      ]
+    },
+    {
+      "id": "zh-s056",
+      "kind": "sentence",
+      "native": [
+        "修改建议写在腾讯文档里，别直接覆盖原稿。"
+      ],
+      "roman": [
+        "Xiugai jianyi xie zai Tengxun Wendang li, bie zhijie fugai yuangao."
+      ]
+    },
+    {
+      "id": "zh-s057",
+      "kind": "sentence",
+      "native": [
+        "冯叔叔每天遛弯都要走到湖边再回来。"
+      ],
+      "roman": [
+        "Feng shushu meitian liuwan dou yao zou dao hubian zai huilai."
+      ]
+    },
+    {
+      "id": "zh-s058",
+      "kind": "sentence",
+      "native": [
+        "理发约在星期六上午，剪短些就行。"
+      ],
+      "roman": [
+        "Lifa yue zai xingqiliu shangwu, jian duan xie jiu xing."
+      ]
+    },
+    {
+      "id": "zh-s059",
+      "kind": "sentence",
+      "native": [
+        "帐篷、睡袋和防潮垫都装好了。等等，还得塞件雨衣，山里天气说变就变。"
+      ],
+      "roman": [
+        "Zhangpeng, shuidai he fangchaodian dou zhuang hao le. Dengdeng, hai dei sai jian yuyi, shan li tianqi shuo bian jiu bian."
+      ]
+    },
+    {
+      "id": "zh-s060",
+      "kind": "sentence",
+      "native": [
+        "洛阳这趟没白来，龙门石窟真值得慢慢看。"
+      ],
+      "roman": [
+        "Luoyang zhe tang mei bai lai, Longmen Shiku zhen zhide manman kan."
+      ]
+    },
+    {
+      "id": "zh-s061",
+      "kind": "sentence",
+      "native": [
+        "袁媛，去大理别把行李箱塞太满，还得装特产呢。"
+      ],
+      "roman": [
+        "Yuan Yuan, qu Dali bie ba xinglixiang sai tai man, hai dei zhuang techan ne."
+      ]
+    },
+    {
+      "id": "zh-s062",
+      "kind": "sentence",
+      "native": [
+        "厦门分店的菜单已经排好了，等店长点头，我就把文件交给印刷厂。"
+      ],
+      "roman": [
+        "Xiamen fendian de caidan yijing pai hao le, deng dianzhang diantou, wo jiu ba wenjian jiao gei yinshuachang."
+      ]
+    },
+    {
+      "id": "zh-s063",
+      "kind": "sentence",
+      "native": [
+        "电费每度6毛钱吗？"
+      ],
+      "roman": [
+        "Dianfei mei du 6 mao qian ma?"
+      ]
+    },
+    {
+      "id": "zh-s064",
+      "kind": "sentence",
+      "native": [
+        "趁午休清理一下微信里不看的群，免得重要消息总被刷下去。"
+      ],
+      "roman": [
+        "Chen wuxiu qingli yixia Weixin li bu kan de qun, miande zhongyao xiaoxi zong bei shua xiaqu."
+      ]
+    },
+    {
+      "id": "zh-s065",
+      "kind": "sentence",
+      "native": [
+        "看电子书时屏幕老是转来转去，能不能单独把阅读软件设成竖屏？"
+      ],
+      "roman": [
+        "Kan dianzishu shi pingmu laoshi zhuan lai zhuan qu, neng bu neng dandu ba yuedu ruanjian she cheng shuping?"
+      ]
+    },
+    {
+      "id": "zh-s066",
+      "kind": "sentence",
+      "native": [
+        "钉钉更新以后，打卡页面总是闪退。"
+      ],
+      "roman": [
+        "Dingding gengxin yihou, daka yemian zongshi shantui."
+      ]
+    },
+    {
+      "id": "zh-s067",
+      "kind": "sentence",
+      "native": [
+        "骑车走公园旁边那条小路更快。"
+      ],
+      "roman": [
+        "Qiche zou gongyuan pangbian na tiao xiaolu geng kuai."
+      ]
+    },
+    {
+      "id": "zh-s068",
+      "kind": "sentence",
+      "native": [
+        "表姐办满月宴不收礼，带上相机过去，给宝宝多拍几张照片就好。"
+      ],
+      "roman": [
+        "Biaojie ban manyueyan bu shouli, dai shang xiangji guoqu, gei baobao duo pai ji zhang zhaopian jiu hao."
+      ]
+    },
+    {
+      "id": "zh-s069",
+      "kind": "sentence",
+      "native": [
+        "孟瑶，彩排定在星期五，不对，是星期日。"
+      ],
+      "roman": [
+        "Meng Yao, caipai ding zai xingqiwu, bu dui, shi xingqiri."
+      ]
+    },
+    {
+      "id": "zh-s070",
+      "kind": "sentence",
+      "native": [
+        "忙了一天，能坐下来安安静静地吃顿热饭，就觉得日子还挺踏实。"
+      ],
+      "roman": [
+        "Mang le yi tian, neng zuo xialai ananjingjing de chi dun refan, jiu juede rizi hai ting tashi."
+      ]
+    },
+    {
+      "id": "zh-s071",
+      "kind": "sentence",
+      "native": [
+        "小陈，周六在深圳北站碰头，别跑错出口了。"
+      ],
+      "roman": [
+        "Xiao Chen, zhouliu zai Shenzhen Beizhan pengtou, bie pao cuo chukou le."
+      ]
+    },
+    {
+      "id": "zh-s072",
+      "kind": "sentence",
+      "native": [
+        "上回垫的打车费，报销款什么时候能到账？"
+      ],
+      "roman": [
+        "Shanghui dian de dachefei, baoxiaokuan shenme shihou neng daozhang?"
+      ]
+    },
+    {
+      "id": "zh-s073",
+      "kind": "sentence",
+      "native": [
+        "数学卷子有20道题，我错了4道。"
+      ],
+      "roman": [
+        "Shuxue juanzi you 20 dao ti, wo cuo le 4 dao."
+      ]
+    },
+    {
+      "id": "zh-s074",
+      "kind": "sentence",
+      "native": [
+        "星期三提醒我到少年宫门口接许诺。"
+      ],
+      "roman": [
+        "Xingqi san tixing wo dao shaoniangong menkou jie Xu Nuo."
+      ]
+    },
+    {
+      "id": "zh-s075",
+      "kind": "sentence",
+      "native": [
+        "附近有没有周末也营业的修鞋店？"
+      ],
+      "roman": [
+        "Fujin you meiyou zhoumo ye yingye de xiuxiedian?"
+      ]
+    },
+    {
+      "id": "zh-s076",
+      "kind": "sentence",
+      "native": [
+        "高航，周报里的饼图换成柱状图更清楚。"
+      ],
+      "roman": [
+        "Gao Hang, zhoubao li de bingtu huancheng zhuzhuangtu geng qingchu."
+      ]
+    },
+    {
+      "id": "zh-s077",
+      "kind": "sentence",
+      "native": [
+        "咱们在书店门口见。"
+      ],
+      "roman": [
+        "Zanmen zai shudian menkou jian."
+      ]
+    },
+    {
+      "id": "zh-s078",
+      "kind": "sentence",
+      "native": [
+        "拖鞋穿反了，换过来。"
+      ],
+      "roman": [
+        "Tuoxie chuan fan le, huan guolai."
+      ]
+    },
+    {
+      "id": "zh-s079",
+      "kind": "sentence",
+      "native": [
+        "郑叔，您钓鱼用的折叠凳落在岸边了吧？"
+      ],
+      "roman": [
+        "Zheng shu, nin diaoyu yong de zhediedeng la zai anbian le ba?"
+      ]
+    },
+    {
+      "id": "zh-s080",
+      "kind": "sentence",
+      "native": [
+        "抱歉，让你白等了。"
+      ],
+      "roman": [
+        "Baoqian, rang ni bai deng le."
+      ]
+    },
+    {
+      "id": "zh-s081",
+      "kind": "sentence",
+      "native": [
+        "蛋糕藏好了，别说漏嘴。"
+      ],
+      "roman": [
+        "Dangao cang hao le, bie shuo louzui."
+      ]
+    },
+    {
+      "id": "zh-s082",
+      "kind": "sentence",
+      "native": [
+        "团建我就不参加了。"
+      ],
+      "roman": [
+        "Tuanjian wo jiu bu canjia le."
+      ]
+    },
+    {
+      "id": "zh-s083",
+      "kind": "sentence",
+      "native": [
+        "订单满300元减45元，我又凑了2支笔，最后付了268元。"
+      ],
+      "roman": [
+        "Dingdan man 300 yuan jian 45 yuan, wo you cou le 2 zhi bi, zuihou fu le 268 yuan."
+      ]
+    },
+    {
+      "id": "zh-s084",
+      "kind": "sentence",
+      "native": [
+        "别忘了换床单。"
+      ],
+      "roman": [
+        "Bie wang le huan chuangdan."
+      ]
+    },
+    {
+      "id": "zh-s085",
+      "kind": "sentence",
+      "native": [
+        "大众点评上成都春熙路附近哪家火锅店评分高？"
+      ],
+      "roman": [
+        "Dazhong Dianping shang Chengdu Chunxi Lu fujin na jia huoguodian pingfen gao?"
+      ]
+    },
+    {
+      "id": "zh-s086",
+      "kind": "sentence",
+      "native": [
+        "新买的手机一插充电线就发烫。"
+      ],
+      "roman": [
+        "Xin mai de shouji yi cha chongdianxian jiu fatang."
+      ]
+    },
+    {
+      "id": "zh-s087",
+      "kind": "sentence",
+      "native": [
+        "许曼住在榕树下那栋楼，窗台上都是花。"
+      ],
+      "roman": [
+        "Xu Man zhu zai rongshu xia na dong lou, chuangtai shang dou shi hua."
+      ]
+    },
+    {
+      "id": "zh-s088",
+      "kind": "sentence",
+      "native": [
+        "橘子挑软的还是硬的？"
+      ],
+      "roman": [
+        "Juzi tiao ruan de haishi ying de?"
+      ]
+    },
+    {
+      "id": "zh-s089",
+      "kind": "sentence",
+      "native": [
+        "广州早茶能点半份吗，我想多尝几样。"
+      ],
+      "roman": [
+        "Guangzhou zaocha neng dian ban fen ma, wo xiang duo chang ji yang."
+      ]
+    },
+    {
+      "id": "zh-s090",
+      "kind": "sentence",
+      "native": [
+        "贺阿姨讲故事太生动了，连大人都听入迷了。"
+      ],
+      "roman": [
+        "He ayi jiang gushi tai shengdong le, lian daren dou ting rumi le."
+      ]
+    },
+    {
+      "id": "zh-s091",
+      "kind": "sentence",
+      "native": [
+        "听说东湖的荷花开了，咱们周日去拍照吧。"
+      ],
+      "roman": [
+        "Tingshuo Donghu de hehua kai le, zanmen zhouri qu paizhao ba."
+      ]
+    },
+    {
+      "id": "zh-s092",
+      "kind": "sentence",
+      "native": [
+        "辛苦了，早点休息。"
+      ],
+      "roman": [
+        "Xinku le, zao dian xiuxi."
+      ]
+    },
+    {
+      "id": "zh-s093",
+      "kind": "sentence",
+      "native": [
+        "闹钟设到6点半吧。"
+      ],
+      "roman": [
+        "Naozhong she dao 6 dian ban ba."
+      ]
+    },
+    {
+      "id": "zh-s094",
+      "kind": "sentence",
+      "native": [
+        "冯倩的围棋比赛在下周六，提前留出时间。"
+      ],
+      "roman": [
+        "Feng Qian de weiqi bisai zai xia zhou liu, tiqian liuchu shijian."
+      ]
+    },
+    {
+      "id": "zh-s095",
+      "kind": "sentence",
+      "native": [
+        "今晚会不会下雨？"
+      ],
+      "roman": [
+        "Jinwan hui bu hui xiayu?"
+      ]
+    },
+    {
+      "id": "zh-s096",
+      "kind": "sentence",
+      "native": [
+        "升级系统之前先检查一下插件兼不兼容，免得设计软件打开就崩溃。"
+      ],
+      "roman": [
+        "Shengji xitong zhiqian xian jiancha yixia chajian jian bu jianrong, miande sheji ruanjian dakai jiu bengkui."
+      ]
+    },
+    {
+      "id": "zh-s097",
+      "kind": "sentence",
+      "native": [
+        "青岛这几天风挺大，去五四广场看日落记得多穿件衣服。"
+      ],
+      "roman": [
+        "Qingdao zhe ji tian feng ting da, qu Wusi Guangchang kan riluo jide duo chuan jian yifu."
+      ]
+    },
+    {
+      "id": "zh-s098",
+      "kind": "sentence",
+      "native": [
+        "老板，这筐草莓算我25元，成不成？"
+      ],
+      "roman": [
+        "Laoban, zhe kuang caomei suan wo 25 yuan, cheng bu cheng?"
+      ]
+    },
+    {
+      "id": "zh-s099",
+      "kind": "sentence",
+      "native": [
+        "咦，遥控器怎么湿了？"
+      ],
+      "roman": [
+        "Yi, yaokongqi zenme shi le?"
+      ]
+    },
+    {
+      "id": "zh-s100",
+      "kind": "sentence",
+      "native": [
+        "演出时突然忘词，幸好搭档反应特别快。"
+      ],
+      "roman": [
+        "Yanchu shi turan wang ci, xinghao dadang fanying tebie kuai."
+      ]
+    },
+    {
+      "id": "zh-s101",
+      "kind": "sentence",
+      "native": [
+        "杭州图书馆借的小说快到期了，你知道怎么在手机上续借吗？"
+      ],
+      "roman": [
+        "Hangzhou Tushuguan jie de xiaoshuo kuai daoqi le, ni zhidao zenme zai shouji shang xujie ma?"
+      ]
+    },
+    {
+      "id": "zh-s102",
+      "kind": "sentence",
+      "native": [
+        "想确认一下，试用账号周五下班前能开通吗？"
+      ],
+      "roman": [
+        "Xiang queren yixia, shiyong zhanghao zhouwu xiaban qian neng kaitong ma?"
+      ]
+    },
+    {
+      "id": "zh-s103",
+      "kind": "sentence",
+      "native": [
+        "相册里有1260张照片，先备份到电脑上，再删掉重复的200张。"
+      ],
+      "roman": [
+        "Xiangce li you 1260 zhang zhaopian, xian beifen dao diannao shang, zai shandiao chongfu de 200 zhang."
+      ]
+    },
+    {
+      "id": "zh-s104",
+      "kind": "sentence",
+      "native": [
+        "帮我在备忘录里记上：请梁师傅来换纱窗。"
+      ],
+      "roman": [
+        "Bang wo zai beiwanglu li ji shang: qing Liang shifu lai huan shachuang."
+      ]
+    },
+    {
+      "id": "zh-s105",
+      "kind": "sentence",
+      "native": [
+        "等这集播客放完就停止播放，别自动跳到下一集，我准备睡觉了。"
+      ],
+      "roman": [
+        "Deng zhe ji boke fang wan jiu tingzhi bofang, bie zidong tiao dao xia yi ji, wo zhunbei shuijiao le."
+      ]
+    },
+    {
+      "id": "zh-s106",
+      "kind": "sentence",
+      "native": [
+        "测试发现这个bug只在安卓手机上出现，提交订单后页面就卡住了。"
+      ],
+      "roman": [
+        "Ceshi faxian zhe ge bug zhi zai Anzhuo shouji shang chuxian, tijiao dingdan hou yemian jiu kazhu le."
+      ]
+    },
+    {
+      "id": "zh-s107",
+      "kind": "sentence",
+      "native": [
+        "楼道里的自行车能往墙边挪一点吗？拎着东西从这儿过不太方便。"
+      ],
+      "roman": [
+        "Loudao li de zixingche neng wang qiangbian nuo yidian ma? Lin zhe dongxi cong zher guo bu tai fangbian."
+      ]
+    },
+    {
+      "id": "zh-s108",
+      "kind": "sentence",
+      "native": [
+        "锅盖掀开就不冒泡了。"
+      ],
+      "roman": [
+        "Guogai xiankai jiu bu maopao le."
+      ]
+    },
+    {
+      "id": "zh-s109",
+      "kind": "sentence",
+      "native": [
+        "分母抄错了，不对，是我把加号看成减号了。"
+      ],
+      "roman": [
+        "Fenmu chao cuo le, bu dui, shi wo ba jiahao kan cheng jianhao le."
+      ]
+    },
+    {
+      "id": "zh-s110",
+      "kind": "sentence",
+      "native": [
+        "周师傅，您把这双旧皮鞋擦得跟新的一样。"
+      ],
+      "roman": [
+        "Zhou shifu, nin ba zhe shuang jiu pixie ca de gen xin de yiyang."
+      ]
+    },
+    {
+      "id": "zh-s111",
+      "kind": "sentence",
+      "native": [
+        "今晚视频时别开美颜，我都快认不出你了。"
+      ],
+      "roman": [
+        "Jinwan shipin shi bie kai meiyan, wo dou kuai ren bu chu ni le."
+      ]
+    },
+    {
+      "id": "zh-s112",
+      "kind": "sentence",
+      "native": [
+        "茶水间的灯修好了。"
+      ],
+      "roman": [
+        "Chashuijian de deng xiu hao le."
+      ]
+    },
+    {
+      "id": "zh-s113",
+      "kind": "sentence",
+      "native": [
+        "投影仪亮度调到65%，声音降到20%。"
+      ],
+      "roman": [
+        "Touyingyi liangdu tiao dao 65%, shengyin jiang dao 20%."
+      ]
+    },
+    {
+      "id": "zh-s114",
+      "kind": "sentence",
+      "native": [
+        "下次去西安，提前预约陕西历史博物馆。"
+      ],
+      "roman": [
+        "Xia ci qu Xi'an, tiqian yuyue Shanxi Lishi Bowuguan."
+      ]
+    },
+    {
+      "id": "zh-s115",
+      "kind": "sentence",
+      "native": [
+        "微信的扫一扫在哪儿？帮我打开。"
+      ],
+      "roman": [
+        "Weixin de sao yi sao zai nar? Bang wo dakai."
+      ]
+    },
+    {
+      "id": "zh-s116",
+      "kind": "sentence",
+      "native": [
+        "无锡办公室的Wi-Fi密码贴在路由器背面。"
+      ],
+      "roman": [
+        "Wuxi bangongshi de Wi-Fi mima tie zai luyouqi beimian."
+      ]
+    },
+    {
+      "id": "zh-s117",
+      "kind": "sentence",
+      "native": [
+        "莲花路正在修路，公交车得绕一大圈。"
+      ],
+      "roman": [
+        "Lianhua Lu zhengzai xiulu, gongjiaoche dei rao yi da quan."
+      ]
+    },
+    {
+      "id": "zh-s118",
+      "kind": "sentence",
+      "native": [
+        "预报说后半夜会降温，客厅那条厚毯子要不要拿进卧室放在床尾？"
+      ],
+      "roman": [
+        "Yubao shuo houbanye hui jiangwen, keting na tiao hou tanzi yao bu yao na jin woshi fang zai chuangwei?"
+      ]
+    },
+    {
+      "id": "zh-s119",
+      "kind": "sentence",
+      "native": [
+        "算了，拼图留着下回玩。"
+      ],
+      "roman": [
+        "Suan le, pintu liu zhe xiahui wan."
+      ]
+    },
+    {
+      "id": "zh-s120",
+      "kind": "sentence",
+      "native": [
+        "豆汁儿我还是喝不惯，不过焦圈挺酥的。"
+      ],
+      "roman": [
+        "Douzhir wo haishi he bu guan, buguo jiaoquan ting su de."
+      ]
+    },
+    {
+      "id": "zh-s121",
+      "kind": "sentence",
+      "native": [
+        "阿依古丽，烤馕我放餐桌上了，凉了记得热热。"
+      ],
+      "roman": [
+        "Ayiguli, kaonang wo fang canzhuo shang le, liang le jide rere."
+      ]
+    },
+    {
+      "id": "zh-s122",
+      "kind": "sentence",
+      "native": [
+        "这封邮件不用抄送全组，交接日期定下来后再通知接手的同事。"
+      ],
+      "roman": [
+        "Zhe feng youjian bu yong chaosong quan zu, jiaojie riqi ding xialai hou zai tongzhi jieshou de tongshi."
+      ]
+    },
+    {
+      "id": "zh-s123",
+      "kind": "sentence",
+      "native": [
+        "7月18日我想请假1天，上午9点到12点的班能帮我顶一下吗？"
+      ],
+      "roman": [
+        "7 yue 18 ri wo xiang qingjia 1 tian, shangwu 9 dian dao 12 dian de ban neng bang wo ding yixia ma?"
+      ]
+    },
+    {
+      "id": "zh-s124",
+      "kind": "sentence",
+      "native": [
+        "中秋节前给桂兰阿姨寄盒莲蓉月饼。"
+      ],
+      "roman": [
+        "Zhongqiujie qian gei Guilan ayi ji he lianrong yuebing."
+      ]
+    },
+    {
+      "id": "zh-s125",
+      "kind": "sentence",
+      "native": [
+        "播放我收藏的音乐。"
+      ],
+      "roman": [
+        "Bofang wo shoucang de yinyue."
+      ]
+    },
+    {
+      "id": "zh-s126",
+      "kind": "sentence",
+      "native": [
+        "唐悦，这个表格公式怎么一直报错？"
+      ],
+      "roman": [
+        "Tang Yue, zhe ge biaoge gongshi zenme yizhi baocuo?"
+      ]
+    },
+    {
+      "id": "zh-s127",
+      "kind": "sentence",
+      "native": [
+        "换乘通道太长，我还是坐直达公交吧。"
+      ],
+      "roman": [
+        "Huancheng tongdao tai chang, wo haishi zuo zhida gongjiao ba."
+      ]
+    },
+    {
+      "id": "zh-s128",
+      "kind": "sentence",
+      "native": [
+        "取件码发到旧号码了，快递柜打不开。"
+      ],
+      "roman": [
+        "Qujianma fa dao jiu haoma le, kuaidigui da bu kai."
+      ]
+    },
+    {
+      "id": "zh-s129",
+      "kind": "sentence",
+      "native": [
+        "窗帘选米色，抱歉，我刚才说成白色了。"
+      ],
+      "roman": [
+        "Chuanglian xuan mise, baoqian, wo gangcai shuocheng baise le."
+      ]
+    },
+    {
+      "id": "zh-s130",
+      "kind": "sentence",
+      "native": [
+        "以前总怕独自旅行会无聊，没想到按自己的节奏走反而更自在。"
+      ],
+      "roman": [
+        "Yiqian zong pa duzi lvxing hui wuliao, mei xiangdao an ziji de jiezou zou faner geng zizai."
+      ]
+    },
+    {
+      "id": "zh-s131",
+      "kind": "sentence",
+      "native": [
+        "明早路过菜市场的话，顺便捎几根黄瓜回来。"
+      ],
+      "roman": [
+        "Mingzao luguo caishichang de hua, shunbian shao ji gen huanggua huilai."
+      ]
+    },
+    {
+      "id": "zh-s132",
+      "kind": "sentence",
+      "native": [
+        "苏州仓库星期三盘点，当天先暂停出货。"
+      ],
+      "roman": [
+        "Suzhou cangku xingqi san pandian, dangtian xian zanting chuhuo."
+      ]
+    },
+    {
+      "id": "zh-s133",
+      "kind": "sentence",
+      "native": [
+        "请拨10086，按0转人工客服。"
+      ],
+      "roman": [
+        "Qing bo 10086, an 0 zhuan rengong kefu."
+      ]
+    },
+    {
+      "id": "zh-s134",
+      "kind": "sentence",
+      "native": [
+        "周末清理一下冰箱。"
+      ],
+      "roman": [
+        "Zhoumo qingli yixia bingxiang."
+      ]
+    },
+    {
+      "id": "zh-s135",
+      "kind": "sentence",
+      "native": [
+        "屏幕上的英文能直接翻译成中文吗？"
+      ],
+      "roman": [
+        "Pingmu shang de yingwen neng zhijie fanyi cheng zhongwen ma?"
+      ]
+    },
+    {
+      "id": "zh-s136",
+      "kind": "sentence",
+      "native": [
+        "触控板怎么关掉啊？"
+      ],
+      "roman": [
+        "Chukongban zenme guandiao a?"
+      ]
+    },
+    {
+      "id": "zh-s137",
+      "kind": "sentence",
+      "native": [
+        "舅妈那边的客房已经收拾好了，你们下了飞机直接过去，不用另外订酒店。"
+      ],
+      "roman": [
+        "Jiuma nabian de kefang yijing shoushi hao le, nimen xia le feiji zhijie guoqu, bu yong lingwai ding jiudian."
+      ]
+    },
+    {
+      "id": "zh-s138",
+      "kind": "sentence",
+      "native": [
+        "邓奶奶蒸的发糕很松软，趁热尝尝。"
+      ],
+      "roman": [
+        "Deng nainai zheng de fagao hen songruan, chenre changchang."
+      ]
+    },
+    {
+      "id": "zh-s139",
+      "kind": "sentence",
+      "native": [
+        "刘婧，去顺德那趟先订双人房，不，改成家庭房，孩子也跟我们去。"
+      ],
+      "roman": [
+        "Liu Jing, qu Shunde na tang xian ding shuangrenfang, bu, gaicheng jiatingfang, haizi ye gen women qu."
+      ]
+    },
+    {
+      "id": "zh-s140",
+      "kind": "sentence",
+      "native": [
+        "姥姥，您晒的萝卜干太下饭了，下回来天津的时候再给我们带一小袋吧。"
+      ],
+      "roman": [
+        "Laolao, nin shai de luobogan tai xiafan le, xiahui lai Tianjin de shihou zai gei women dai yi xiao dai ba."
+      ]
+    },
+    {
+      "id": "zh-s141",
+      "kind": "sentence",
+      "native": [
+        "丁蕾的实习结束了，大家写张卡片送给她吧。"
+      ],
+      "roman": [
+        "Ding Lei de shixi jieshu le, dajia xie zhang kapian song gei ta ba."
+      ]
+    },
+    {
+      "id": "zh-s142",
+      "kind": "sentence",
+      "native": [
+        "这段录音有42分钟，分成3份发吧。"
+      ],
+      "roman": [
+        "Zhe duan luyin you 42 fenzhong, fencheng 3 fen fa ba."
+      ]
+    },
+    {
+      "id": "zh-s143",
+      "kind": "sentence",
+      "native": [
+        "给多肉浇水的日子也加进日历里。"
+      ],
+      "roman": [
+        "Gei duorou jiaoshui de rizi ye jia jin rili li."
+      ]
+    },
+    {
+      "id": "zh-s144",
+      "kind": "sentence",
+      "native": [
+        "盒马能买到扬州狮子头的半成品吗？"
+      ],
+      "roman": [
+        "Hema neng mai dao Yangzhou shizitou de banchengpin ma?"
+      ]
+    },
+    {
+      "id": "zh-s145",
+      "kind": "sentence",
+      "native": [
+        "网盘同步暂停一下。"
+      ],
+      "roman": [
+        "Wangpan tongbu zanting yixia."
+      ]
+    },
+    {
+      "id": "zh-s146",
+      "kind": "sentence",
+      "native": [
+        "韩宁跟我是同学。"
+      ],
+      "roman": [
+        "Han Ning gen wo shi tongxue."
+      ]
+    },
+    {
+      "id": "zh-s147",
+      "kind": "sentence",
+      "native": [
+        "水龙头底下渗水，垫圈是不是该换了？"
+      ],
+      "roman": [
+        "Shuilongtou dixia shenshui, dianquan shi bu shi gai huan le?"
+      ]
+    },
+    {
+      "id": "zh-s148",
+      "kind": "sentence",
+      "native": [
+        "晚饭做咖喱，土豆、胡萝卜、洋葱都买点，哦，冰箱里好像还剩半个洋葱。"
+      ],
+      "roman": [
+        "Wanfan zuo gali, tudou, huluobo, yangcong dou mai dian, o, bingxiang li haoxiang hai sheng ban ge yangcong."
+      ]
+    },
+    {
+      "id": "zh-s149",
+      "kind": "sentence",
+      "native": [
+        "刚看见你家猫趴在键盘上，这是替你加班呢？"
+      ],
+      "roman": [
+        "Gang kanjian ni jia mao pa zai jianpan shang, zhe shi ti ni jiaban ne?"
+      ]
+    },
+    {
+      "id": "zh-s150",
+      "kind": "sentence",
+      "native": [
+        "何静，报销单还缺发票，补齐后再提交。"
+      ],
+      "roman": [
+        "He Jing, baoxiaodan hai que fapiao, buqi hou zai tijiao."
+      ]
+    },
+    {
+      "id": "zh-s151",
+      "kind": "sentence",
+      "native": [
+        "表弟今年11岁，已经长到150厘米了。"
+      ],
+      "roman": [
+        "Biaodi jinnian 11 sui, yijing zhang dao 150 limi le."
+      ]
+    },
+    {
+      "id": "zh-s152",
+      "kind": "sentence",
+      "native": [
+        "下回带猫去宠物店洗澡之前，先问问能不能顺便把指甲剪了。"
+      ],
+      "roman": [
+        "Xia hui dai mao qu chongwudian xizao zhiqian, xian wenwen neng bu neng shunbian ba zhijia jian le."
+      ]
+    },
+    {
+      "id": "zh-s153",
+      "kind": "sentence",
+      "native": [
+        "从第5页开始朗读这份PDF，语速慢一点。"
+      ],
+      "roman": [
+        "Cong di 5 ye kaishi langdu zhe fen PDF, yusu man yidian."
+      ]
+    },
+    {
+      "id": "zh-s154",
+      "kind": "sentence",
+      "native": [
+        "聊天记录还能恢复吗？"
+      ],
+      "roman": [
+        "Liaotian jilu hai neng huifu ma?"
+      ]
+    },
+    {
+      "id": "zh-s155",
+      "kind": "sentence",
+      "native": [
+        "对面那家花店搬了。"
+      ],
+      "roman": [
+        "Duimian na jia huadian ban le."
+      ]
+    },
+    {
+      "id": "zh-s156",
+      "kind": "sentence",
+      "native": [
+        "毛衣能用冷水洗吗？"
+      ],
+      "roman": [
+        "Maoyi neng yong lengshui xi ma?"
+      ]
+    },
+    {
+      "id": "zh-s157",
+      "kind": "sentence",
+      "native": [
+        "抽屉里有订书机、橡皮，还有回形针。"
+      ],
+      "roman": [
+        "Chouti li you dingshuji, xiangpi, haiyou huixingzhen."
+      ]
+    },
+    {
+      "id": "zh-s158",
+      "kind": "sentence",
+      "native": [
+        "外婆，你寄的围巾收到了，摸着真软和。"
+      ],
+      "roman": [
+        "Waipo, ni ji de weijin shoudao le, mo zhe zhen ruanhuo."
+      ]
+    },
+    {
+      "id": "zh-s159",
+      "kind": "sentence",
+      "native": [
+        "去北京出差的高铁票，我已经自己改签了。"
+      ],
+      "roman": [
+        "Qu Beijing chuchai de gaotie piao, wo yijing ziji gaiqian le."
+      ]
+    },
+    {
+      "id": "zh-s160",
+      "kind": "sentence",
+      "native": [
+        "沿着江边跑5公里，大概花32分钟。"
+      ],
+      "roman": [
+        "Yanzhe jiangbian pao 5 gongli, dagai hua 32 fenzhong."
+      ]
+    },
+    {
+      "id": "zh-s161",
+      "kind": "sentence",
+      "native": [
+        "采购单上添包芝麻，烙饼的时候撒点。"
+      ],
+      "roman": [
+        "Caigoudan shang tian bao zhima, laobing de shihou sa dian."
+      ]
+    },
+    {
+      "id": "zh-s162",
+      "kind": "sentence",
+      "native": [
+        "现在能识别这首歌吗？"
+      ],
+      "roman": [
+        "Xianzai neng shibie zhe shou ge ma?"
+      ]
+    },
+    {
+      "id": "zh-s163",
+      "kind": "sentence",
+      "native": [
+        "咖啡馆今天不开门，换到隔壁茶馆聊吧。"
+      ],
+      "roman": [
+        "Kafeiguan jintian bu kai men, huan dao gebi chaguan liao ba."
+      ]
+    },
+    {
+      "id": "zh-s164",
+      "kind": "sentence",
+      "native": [
+        "今天下班有点晚，麻烦帮我把阳台上的被子收了。"
+      ],
+      "roman": [
+        "Jintian xiaban youdian wan, mafan bang wo ba yangtai shang de beizi shou le."
+      ]
+    },
+    {
+      "id": "zh-s165",
+      "kind": "sentence",
+      "native": [
+        "麻烦补个邮件标题。"
+      ],
+      "roman": [
+        "Mafan bu ge youjian biaoti."
+      ]
+    },
+    {
+      "id": "zh-s166",
+      "kind": "sentence",
+      "native": [
+        "坐高铁去济南要2小时18分钟，比开车省90分钟。"
+      ],
+      "roman": [
+        "Zuo gaotie qu Jinan yao 2 xiaoshi 18 fenzhong, bi kaiche sheng 90 fenzhong."
+      ]
+    },
+    {
+      "id": "zh-s167",
+      "kind": "sentence",
+      "native": [
+        "记得给电动牙刷充电。"
+      ],
+      "roman": [
+        "Jide gei diandong yashua chongdian."
+      ]
+    },
+    {
+      "id": "zh-s168",
+      "kind": "sentence",
+      "native": [
+        "录音结束以后能自动转成文字吗？"
+      ],
+      "roman": [
+        "Luyin jieshu yihou neng zidong zhuan cheng wenzi ma?"
+      ]
+    },
+    {
+      "id": "zh-s169",
+      "kind": "sentence",
+      "native": [
+        "你先选歌，我负责鼓掌。"
+      ],
+      "roman": [
+        "Ni xian xuan ge, wo fuze guzhang."
+      ]
+    },
+    {
+      "id": "zh-s170",
+      "kind": "sentence",
+      "native": [
+        "月底结算前，咱们得先核对一下加班记录。"
+      ],
+      "roman": [
+        "Yuedi jiesuan qian, zanmen dei xian hedui yixia jiaban jilu."
+      ]
+    },
+    {
+      "id": "zh-s171",
+      "kind": "sentence",
+      "native": [
+        "终场比分是3比2。"
+      ],
+      "roman": [
+        "Zhongchang bifen shi 3 bi 2."
+      ]
+    },
+    {
+      "id": "zh-s172",
+      "kind": "sentence",
+      "native": [
+        "路过面包店时买袋吐司，留着当早餐。"
+      ],
+      "roman": [
+        "Luguo mianbaodian shi mai dai tusi, liu zhe dang zaocan."
+      ]
+    },
+    {
+      "id": "zh-s173",
+      "kind": "sentence",
+      "native": [
+        "导航到北京南锣鼓巷。"
+      ],
+      "roman": [
+        "Daohang dao Beijing Nanluoguxiang."
+      ]
+    },
+    {
+      "id": "zh-s174",
+      "kind": "sentence",
+      "native": [
+        "钥匙还在老地方。"
+      ],
+      "roman": [
+        "Yaoshi hai zai lao difang."
+      ]
+    },
+    {
+      "id": "zh-s175",
+      "kind": "sentence",
+      "native": [
+        "陆师傅，打印机又卡纸了，您方便过来看看吗？"
+      ],
+      "roman": [
+        "Lu shifu, dayinji you kazhi le, nin fangbian guolai kankan ma?"
+      ]
+    },
+    {
+      "id": "zh-s176",
+      "kind": "sentence",
+      "native": [
+        "烤箱预热到180度。"
+      ],
+      "roman": [
+        "Kaoxiang yure dao 180 du."
+      ]
+    },
+    {
+      "id": "zh-s177",
+      "kind": "sentence",
+      "native": [
+        "晚上练琴结束后提醒我录段视频，发给老师看看新学的曲子练得怎么样。"
+      ],
+      "roman": [
+        "Wanshang lianqin jieshu hou tixing wo lu duan shipin, fa gei laoshi kankan xin xue de quzi lian de zenmeyang."
+      ]
+    },
+    {
+      "id": "zh-s178",
+      "kind": "sentence",
+      "native": [
+        "切换到手写输入。"
+      ],
+      "roman": [
+        "Qiehuan dao shouxie shuru."
+      ]
+    },
+    {
+      "id": "zh-s179",
+      "kind": "sentence",
+      "native": [
+        "照片不用修了，笑得最傻的那张就发给我。"
+      ],
+      "roman": [
+        "Zhaopian buyong xiu le, xiao de zui sha de na zhang jiu fa gei wo."
+      ]
+    },
+    {
+      "id": "zh-s180",
+      "kind": "sentence",
+      "native": [
+        "下午的培训改到线上，参会链接已经发群里了。"
+      ],
+      "roman": [
+        "Xiawu de peixun gai dao xianshang, canhui lianjie yijing fa qun li le."
+      ]
+    },
+    {
+      "id": "zh-s181",
+      "kind": "sentence",
+      "native": [
+        "收货地址填成都市武侯区科华北路58号，订的8套杯子分2箱装。"
+      ],
+      "roman": [
+        "Shouhuo dizhi tian Chengdu Shi Wuhou Qu Kehua Beilu 58 hao, ding de 8 tao beizi fen 2 xiang zhuang."
+      ]
+    },
+    {
+      "id": "zh-s182",
+      "kind": "sentence",
+      "native": [
+        "抽空擦擦穿衣镜。"
+      ],
+      "roman": [
+        "Choukong caca chuanyijing."
+      ]
+    },
+    {
+      "id": "zh-s183",
+      "kind": "sentence",
+      "native": [
+        "照片里的这种花叫什么，适合养在室内吗？"
+      ],
+      "roman": [
+        "Zhaopian li de zhe zhong hua jiao shenme, shihe yang zai shinei ma?"
+      ]
+    },
+    {
+      "id": "zh-s184",
+      "kind": "sentence",
+      "native": [
+        "妈，给我留点米饭。"
+      ],
+      "roman": [
+        "Ma, gei wo liu dian mifan."
+      ]
+    },
+    {
+      "id": "zh-s185",
+      "kind": "sentence",
+      "native": [
+        "排班有分歧很正常，咱们把各自的难处说清楚。"
+      ],
+      "roman": [
+        "Paiban you fenqi hen zhengchang, zanmen ba gezi de nanchu shuo qingchu."
+      ]
+    },
+    {
+      "id": "zh-s186",
+      "kind": "sentence",
+      "native": [
+        "泳池长25米，游8趟就够了。"
+      ],
+      "roman": [
+        "Yongchi chang 25 mi, you 8 tang jiu gou le."
+      ]
+    },
+    {
+      "id": "zh-s187",
+      "kind": "sentence",
+      "native": [
+        "退租前拍好屋里的照片，交接时可能用得上。"
+      ],
+      "roman": [
+        "Tuizu qian pai hao wuli de zhaopian, jiaojie shi keneng yong de shang."
+      ]
+    },
+    {
+      "id": "zh-s188",
+      "kind": "sentence",
+      "native": [
+        "切到前置摄像头，我要录一段生日祝福，录好以后直接发给董佳宁。"
+      ],
+      "roman": [
+        "Qie dao qianzhi shexiangtou, wo yao lu yi duan shengri zhufu, lu hao yihou zhijie fa gei Dong Jianing."
+      ]
+    },
+    {
+      "id": "zh-s189",
+      "kind": "sentence",
+      "native": [
+        "我到家了，你放心吧。"
+      ],
+      "roman": [
+        "Wo dao jia le, ni fangxin ba."
+      ]
+    },
+    {
+      "id": "zh-s190",
+      "kind": "sentence",
+      "native": [
+        "收到，附件能打开。"
+      ],
+      "roman": [
+        "Shoudao, fujian neng dakai."
+      ]
+    },
+    {
+      "id": "zh-s191",
+      "kind": "sentence",
+      "native": [
+        "南京这套房月租2800元，押金也一样。"
+      ],
+      "roman": [
+        "Nanjing zhe tao fang yuezu 2800 yuan, yajin ye yiyang."
+      ]
+    },
+    {
+      "id": "zh-s192",
+      "kind": "sentence",
+      "native": [
+        "整理衣柜时，把不穿的外套单独装好，周末送到小区的旧衣回收箱。"
+      ],
+      "roman": [
+        "Zhengli yigui shi, ba bu chuan de waitao dandu zhuang hao, zhoumo song dao xiaoqu de jiuyi huishouxiang."
+      ]
+    },
+    {
+      "id": "zh-s193",
+      "kind": "sentence",
+      "native": [
+        "退货的快递昨天就签收了，退款一般还要等多久才能到账？"
+      ],
+      "roman": [
+        "Tuihuo de kuaidi zuotian jiu qianshou le, tuikuan yiban hai yao deng duojiu cai neng daozhang?"
+      ]
+    },
+    {
+      "id": "zh-s194",
+      "kind": "sentence",
+      "native": [
+        "手机没电自动关机了，刚看到你发的消息，等我到宿舍就跟你视频。"
+      ],
+      "roman": [
+        "Shouji mei dian zidong guanji le, gang kandao ni fa de xiaoxi, deng wo dao sushe jiu gen ni shipin."
+      ]
+    },
+    {
+      "id": "zh-s195",
+      "kind": "sentence",
+      "native": [
+        "武汉科技馆能约9月12日的门票吗？"
+      ],
+      "roman": [
+        "Wuhan Kejiguan neng yue 9 yue 12 ri de menpiao ma?"
+      ]
+    },
+    {
+      "id": "zh-s196",
+      "kind": "sentence",
+      "native": [
+        "睡前检查燃气开关。"
+      ],
+      "roman": [
+        "Shuiqian jiancha ranqi kaiguan."
+      ]
+    },
+    {
+      "id": "zh-s197",
+      "kind": "sentence",
+      "native": [
+        "端午那天来我家包粽子吧，糯米已经泡上了。"
+      ],
+      "roman": [
+        "Duanwu na tian lai wo jia bao zongzi ba, nuomi yijing pao shang le."
+      ]
+    },
+    {
+      "id": "zh-s198",
+      "kind": "sentence",
+      "native": [
+        "陶艺课约在2026年8月23日10点，提前15分钟到。"
+      ],
+      "roman": [
+        "Taoyi ke yue zai 2026 nian 8 yue 23 ri 10 dian, tiqian 15 fenzhong dao."
+      ]
+    },
+    {
+      "id": "zh-s199",
+      "kind": "sentence",
+      "native": [
+        "放心睡吧，我来哄宝宝。"
+      ],
+      "roman": [
+        "Fangxin shui ba, wo lai hong baobao."
+      ]
+    }
+  ]
+}

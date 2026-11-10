@@ -1,0 +1,1609 @@
+{
+  "lang": "sw",
+  "starter": [
+    "sw-s018",
+    "sw-s035",
+    "sw-s086",
+    "sw-s045",
+    "sw-s099",
+    "sw-s157",
+    "sw-s076",
+    "sw-s026",
+    "sw-s033",
+    "sw-s065",
+    "sw-s113",
+    "sw-s098",
+    "sw-s134",
+    "sw-s004",
+    "sw-s121",
+    "sw-s143",
+    "sw-s174",
+    "sw-s073",
+    "sw-s115",
+    "sw-p06",
+    "sw-s028",
+    "sw-s163",
+    "sw-s055",
+    "sw-s005",
+    "sw-s118",
+    "sw-s107",
+    "sw-s111",
+    "sw-s135",
+    "sw-s128",
+    "sw-s043",
+    "sw-s067",
+    "sw-s108",
+    "sw-s046",
+    "sw-s112",
+    "sw-s105",
+    "sw-s051",
+    "sw-s038",
+    "sw-s030",
+    "sw-p01",
+    "sw-s114",
+    "sw-s016",
+    "sw-s015",
+    "sw-s146",
+    "sw-s093",
+    "sw-s092",
+    "sw-s150",
+    "sw-s167",
+    "sw-s124",
+    "sw-s095",
+    "sw-s149",
+    "sw-s151",
+    "sw-s130",
+    "sw-s138",
+    "sw-s021",
+    "sw-s019",
+    "sw-s017",
+    "sw-s161",
+    "sw-s148"
+  ],
+  "items": [
+    {
+      "id": "sw-p01",
+      "kind": "para",
+      "title": "Our New Cat",
+      "native": [
+        "Saumu, huku Mikocheni tumepata paka mdogo, na tumempa jina la Pamba.",
+        "Ana manyoya meupe na doa la kijivu karibu na sikio lake.",
+        "Tulimletea kikapu chenye kitambaa laini, lakini amechagua kulala kwenye kochi.",
+        "Kila nikifungua mlango wa jikoni, anakimbia kunifuata huku akilia kidogo.",
+        "Jana alivuta soksi yangu kutoka chumbani hadi chini ya meza.",
+        "Mama alicheka sana alipomwona amelala na kichwa juu ya soksi yangu.",
+        "Nimemwekea bakuli la maji pembeni, mbali kidogo na sehemu ya chakula.",
+        "Leo jioni nitapitia dukani nimnunulie chakula cha paka na mpira mdogo.",
+        "Ukija Jumamosi, usishangae akikufuata kila mahali akitaka ucheze naye."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-p02",
+      "kind": "para",
+      "title": "Comparing Office Chair Quotes",
+      "native": [
+        "Habari zenu, nimepitia bei tulizotumiwa za viti sita vya wageni.",
+        "Maduka yote mawili yako Nakuru, kwa hiyo usafirishaji hautachukua muda mrefu.",
+        "Duka la Mwangaza limetaja shilingi 18000, lakini usafirishaji utalipiwa kando.",
+        "Wamesema gharama ya kuleta viti kwenye ofisi yetu ni shilingi 1500.",
+        "Duka la Baraka limetaja shilingi 21000, pamoja na gharama za usafirishaji.",
+        "Viti vya maduka yote mawili vina miguu ya chuma na mito.",
+        "Nashauri tuchague Mwangaza kwa sababu jumla yao ni shilingi 19500.",
+        "Nimeambatisha picha za viti na maelezo ya bei kutoka maduka yote.",
+        "Naomba mnitumie maoni kesho kabla ya saa 5 asubuhi ili nithibitishe agizo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-p03",
+      "kind": "para",
+      "title": "Learning to Ride",
+      "native": [
+        "Nilipokuwa likizoni Kisumu, binamu yangu Achieng' alinifundisha kuendesha baiskeli.",
+        "Tulikwenda kwenye uwanja wa karibu mapema, kabla jua halijawa kali.",
+        "Baiskeli yake ilikuwa ya buluu, ikiwa na kikapu kidogo mbele.",
+        "Alishusha kiti kidogo ili miguu yangu iweze kufika chini bila shida.",
+        "Mwanzoni nilikaza mikono sana, nikashindwa hata kugeuza usukani vizuri.",
+        "Achieng' alishikilia kiti kwa nyuma huku nikianza kukanyaga pedali taratibu.",
+        "Aliponiachia bila kuniambia, niliendelea kuendesha mpaka upande wa pili wa uwanja.",
+        "Nilipogeuka nikamwona amebaki nyuma, nilicheka kwa furaha na kupunguza mwendo.",
+        "Jioni nilirudi nyumbani nikitangaza kwamba sasa ningeweza kwenda dukani kwa baiskeli."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-p04",
+      "kind": "para",
+      "title": "Making Potato Pilau",
+      "native": [
+        "Hapa Mombasa, napenda kupika pilau ya viazi nikitarajia wageni wachache.",
+        "Kwanza, osha vikombe viwili vya mchele wa basmati, kisha uchuje maji.",
+        "Kaanga vitunguu viwili vilivyokatwa kwenye mafuta mpaka vipate rangi ya kahawia.",
+        "Ongeza vitunguu saumu, tangawizi na kijiko kimoja cha viungo vya pilau.",
+        "Weka viazi vitatu vilivyomenywa na kukatwa vipande, kisha koroga vizuri.",
+        "Mimina vikombe vinne vya maji ya moto, halafu tia chumvi kiasi.",
+        "Maji yakichemka, ongeza mchele na ukoroge taratibu mpaka usambae vizuri.",
+        "Funika sufuria, punguza moto, halafu acha pilau iive kwa dakika 20.",
+        "Zima moto, subiri dakika 5, kisha pakua pilau pamoja na kachumbari."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-p05",
+      "kind": "para",
+      "title": "Lunch in Ngamiani",
+      "native": [
+        "Jana nilikula kwenye kibanda cha Mama Pili pale Ngamiani, Tanga.",
+        "Nilichagua wali wa nazi, samaki wa kukaanga na mchicha uliopikwa vizuri.",
+        "Samaki alikuwa mtamu, na viungo havikuzidi.",
+        "Wali nao ulikuwa laini, lakini mchicha ulikuwa na chumvi nyingi kidogo.",
+        "Mama Pili alinisikiliza nilipomwambia, akasema atapunguza chumvi akipika tena.",
+        "Kwa shilingi 6000, nilishiba vizuri bila kuhitaji kuongeza chakula kingine.",
+        "Benchi la nje lilikuwa safi, ingawa lilikuwa juani.",
+        "Wakati wa mchana, ningependelea kukaa ndani kuliko kuvumilia jua lile.",
+        "Nitarudi kwa ajili ya samaki, lakini safari ijayo nitachagua mboga nyingine."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-p06",
+      "kind": "para",
+      "title": "Planning the Kitchen Renovation",
+      "native": [
+        "Nimepanga kuanza kutengeneza jiko langu hapa Eldoret tarehe 8 Agosti.",
+        "Fundi atafika saa 2 asubuhi ili tupime makabati kabla ya kuvunja chochote.",
+        "Ukuta wa kuweka makabati una urefu wa mita 3 na nusu.",
+        "Nitahitaji makabati matatu ya juu na mawili chini ya sehemu ya kupikia.",
+        "Nimetenga shilingi 18000 kwa makabati, lakini bado nasubiri fundi anipe bei.",
+        "Vigae vitagharimu shilingi 6000, na usafiri hautazidi shilingi 500.",
+        "Duka la vifaa liko umbali wa kilomita 4 kutoka nyumbani.",
+        "Tarehe 10 Agosti, nitahakikisha sinki na bomba jipya yamefungwa vizuri.",
+        "Kazi yote iishe tarehe 12 Agosti, kabla wageni hawajafika."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-p07",
+      "kind": "para",
+      "title": "Rescheduling a Doctor Appointment",
+      "native": [
+        "Habari, naitwa Rehema Juma, na ninapiga simu kuhusu miadi yangu kwenye kliniki yenu.",
+        "Niliweka miadi ya kumwona daktari tarehe 15 Septemba, saa 4 asubuhi.",
+        "Kwa sasa niko Naivasha, na sitarudi Nakuru mapema kama nilivyotarajia.",
+        "Naomba kubadilisha miadi hiyo iwe tarehe 18 Septemba, ikiwezekana wakati wa mchana.",
+        "Ningependa kuonana na daktari yuleyule, kama atakuwepo siku hiyo.",
+        "Kama hakuna nafasi mchana, naweza pia kufika saa 3 asubuhi.",
+        "Naomba mnithibitishie saa ya miadi kabla sijapanga usafiri wa kuja kliniki.",
+        "Mkihitaji maelezo mengine ili kuangalia miadi yangu kwenye mfumo, niambieni.",
+        "Asanteni kwa msaada wenu, na samahani kwa usumbufu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-p08",
+      "kind": "para",
+      "title": "How Mazimbu Has Changed",
+      "native": [
+        "Mazimbu, Morogoro, imekua haraka na sasa kuna nyumba nyingi zaidi.",
+        "Sehemu zilizokuwa na mashamba sasa zina nyumba, maduka na karakana ndogo.",
+        "Kwa kuwa kuna wanafunzi wengi, vyumba vya kupanga karibu na chuo vinatafutwa sana.",
+        "Maduka mengi sasa yanauza vifaa vya masomo na kutoa huduma za kuchapa.",
+        "Daladala zinatoka Mazimbu kwenda katikati ya mji, kwa hiyo ni rahisi kusafiri kila siku.",
+        "Magari yameongezeka, na baadhi ya barabara za mitaani zinahitaji kutengenezwa.",
+        "Watu walioishi hapa muda mrefu wanasema zamani kulikuwa na utulivu zaidi.",
+        "Majirani wengi bado wanafahamiana, ingawa familia mpya zinahamia hapa kila mwezi.",
+        "Kwa kuwa watu wameongezeka, tunahitaji maji ya uhakika, mifereji mizuri na maeneo ya kupumzikia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s001",
+      "kind": "sentence",
+      "native": [
+        "Tafadhali waambie wageni wasubiri, tunatafuta sehemu ya kuegesha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s002",
+      "kind": "sentence",
+      "native": [
+        "Halima, tumepokea sampuli ulizoleta jana na zimetufaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s003",
+      "kind": "sentence",
+      "native": [
+        "Matatu ya kwenda Thika imenitoza shilingi 150 leo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s004",
+      "kind": "sentence",
+      "native": [
+        "Jumanne nina miadi ya kusuka nywele pale Mbagala."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s005",
+      "kind": "sentence",
+      "native": [
+        "Tafuta mapishi rahisi ya mahamri yenye vipimo vya vikombe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s006",
+      "kind": "sentence",
+      "native": [
+        "Daudi ameunganisha projector, lakini tunahitaji kufunga mapazia ili maandishi yaonekane vizuri hata tukiwa nyuma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s007",
+      "kind": "sentence",
+      "native": [
+        "Mwenzetu amehamia karibu na karakana, si mbali na hapa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s008",
+      "kind": "sentence",
+      "native": [
+        "Mdogo wangu amekataa kuvaa viatu vipya leo. Anasema vinambana hata nikilegeza kamba zake."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s009",
+      "kind": "sentence",
+      "native": [
+        "Hapana, nilimaanisha sketi ya kijani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s010",
+      "kind": "sentence",
+      "native": [
+        "Kelele hizi zinanikera kidogo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s011",
+      "kind": "sentence",
+      "native": [
+        "Wiki hii sitakuwepo, unaweza kunitunzia paka wangu hadi nirudi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s012",
+      "kind": "sentence",
+      "native": [
+        "Nashukuru kwa mwaliko, lakini sitaweza kuhudhuria hafla ya kampuni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s013",
+      "kind": "sentence",
+      "native": [
+        "Nimeazima vitabu 3 hadi tarehe 19 Septemba, lakini naweza kuongeza muda kwa siku 7?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s014",
+      "kind": "sentence",
+      "native": [
+        "Nisije nikasahau kupiga pasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s015",
+      "kind": "sentence",
+      "native": [
+        "Unaweza kubadilisha lugha ya kibodi iwe Kiswahili?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s016",
+      "kind": "sentence",
+      "native": [
+        "Wambui hajapata uthibitisho wa malipo yake ya M-Pesa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s017",
+      "kind": "sentence",
+      "native": [
+        "Kondakta amesema tushukie mbele kwa sababu kituo hiki kimehamishwa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s018",
+      "kind": "sentence",
+      "native": [
+        "Atieno, mbegu za mchicha ulizopanda zimeanza kuota."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s019",
+      "kind": "sentence",
+      "native": [
+        "Basi, tuagize samaki wa kupaka?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s020",
+      "kind": "sentence",
+      "native": [
+        "Kuimba mbele ya watu kulinitisha mwanzoni, lakini sasa najivunia kwamba sikukata tamaa nilipokosea jukwaani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s021",
+      "kind": "sentence",
+      "native": [
+        "Jumamosi twende Coco Beach, watoto wakacheze kwenye mchanga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s022",
+      "kind": "sentence",
+      "native": [
+        "Kikao cha Jumatano kimehamishiwa kwenye ukumbi wa ghorofa ya 2."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s023",
+      "kind": "sentence",
+      "native": [
+        "Viatu hivi ni saizi 38."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s024",
+      "kind": "sentence",
+      "native": [
+        "Alasiri nichukue redio yangu iliyotengenezwa pale kwa Jebet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s025",
+      "kind": "sentence",
+      "native": [
+        "Hoteli zipi za Mombasa zina vyumba vinavyoangalia bahari na sehemu ya watoto kucheza?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s026",
+      "kind": "sentence",
+      "native": [
+        "Otieno anasubiri ruhusa ya kuingia kwenye kikao cha Teams."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s027",
+      "kind": "sentence",
+      "native": [
+        "Ukivuka daraja, utaona kibanda cha fundi wa viatu kushoto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s028",
+      "kind": "sentence",
+      "native": [
+        "Hiyo ndiyo bei ya mwisho?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s029",
+      "kind": "sentence",
+      "native": [
+        "Tuma mzigo Malindi, hapana, Kilifi, nimechanganya majina kidogo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s030",
+      "kind": "sentence",
+      "native": [
+        "Naserian, hadithi yako imenichekesha mpaka machozi yamenitoka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s031",
+      "kind": "sentence",
+      "native": [
+        "Mnaonaje tukienda Bagamoyo kuendesha baiskeli wakati wa likizo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s032",
+      "kind": "sentence",
+      "native": [
+        "Je, maelekezo ya kujaza fomu ya saa za ziada yameeleweka?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s033",
+      "kind": "sentence",
+      "native": [
+        "Umeme umekatika saa 2 usiku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s034",
+      "kind": "sentence",
+      "native": [
+        "Kesho nimpelekee Wanjiku kitabu alichoniazima mwezi uliopita."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s035",
+      "kind": "sentence",
+      "native": [
+        "Zima Bluetooth kwenye simu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s036",
+      "kind": "sentence",
+      "native": [
+        "Nikifunga akaunti yangu, taarifa zangu zote zitafutika pia?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s037",
+      "kind": "sentence",
+      "native": [
+        "Mama Pendo huuza vitumbua karibu na soko la Mwenge."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s038",
+      "kind": "sentence",
+      "native": [
+        "Uji wa ulezi ukipoa sana huwa mzito zaidi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s039",
+      "kind": "sentence",
+      "native": [
+        "Chukua nyanya, parachichi na pakiti moja ya tambi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s040",
+      "kind": "sentence",
+      "native": [
+        "Nafurahi kusikia kwamba umechaguliwa kuongoza kikundi chetu cha ushonaji."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s041",
+      "kind": "sentence",
+      "native": [
+        "Bado unayo chaja yangu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s042",
+      "kind": "sentence",
+      "native": [
+        "Nawatakia mwisho mwema wa wiki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s043",
+      "kind": "sentence",
+      "native": [
+        "Zimebaki dakika 18 tu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s044",
+      "kind": "sentence",
+      "native": [
+        "Nikumbushe kumwagilia maua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s045",
+      "kind": "sentence",
+      "native": [
+        "Nihesabie dakika 7 kuanzia sasa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s046",
+      "kind": "sentence",
+      "native": [
+        "Karatasi imekwama kwenye printa ya ofisi yetu ya Arusha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s047",
+      "kind": "sentence",
+      "native": [
+        "Binamu yangu anakuja na mizigo mingi, kwa hiyo nitamfuata uwanja wa ndege badala ya kumsubiri hotelini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s048",
+      "kind": "sentence",
+      "native": [
+        "Mwalimu ameomba kila mwanafunzi aje na kifutio chake."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s049",
+      "kind": "sentence",
+      "native": [
+        "Bakari amekubali, au bado?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s050",
+      "kind": "sentence",
+      "native": [
+        "Endelea kujifunza kuogelea. Utazoea maji taratibu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s051",
+      "kind": "sentence",
+      "native": [
+        "Shikamoo bibi, mmeendeleaje huko tangu tulipoondoka wiki iliyopita?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s052",
+      "kind": "sentence",
+      "native": [
+        "Habari za kazi, Wairimu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s053",
+      "kind": "sentence",
+      "native": [
+        "Nikitoa shilingi 8000 kwa M-Pesa, makato yatakuwa shilingi 115?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s054",
+      "kind": "sentence",
+      "native": [
+        "Suruali niliyonunua jana ni ndogo, kwa hiyo niibadilishe nikienda mjini mwishoni mwa wiki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s055",
+      "kind": "sentence",
+      "native": [
+        "Hamishia picha zote za jana kwenye folda tofauti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s056",
+      "kind": "sentence",
+      "native": [
+        "Kipanya kimeacha kufanya kazi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s057",
+      "kind": "sentence",
+      "native": [
+        "Salma, nikitokea Forodhani kwa miguu, nitumie njia gani kufika kwenye duka lako la vitambaa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s058",
+      "kind": "sentence",
+      "native": [
+        "Zuhura, una vikapu vidogo kuliko hivi vilivyopo nje?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s059",
+      "kind": "sentence",
+      "native": [
+        "Kalamu ipi inaandika vizuri, hii nyembamba au ile nene?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s060",
+      "kind": "sentence",
+      "native": [
+        "Umenisaidia sana, nakushukuru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s061",
+      "kind": "sentence",
+      "native": [
+        "Zainabu, njoo na dada yako tule chakula cha jioni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s062",
+      "kind": "sentence",
+      "native": [
+        "Naweza kujua matokeo ya mahojiano tuliyofanya wiki iliyopita?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s063",
+      "kind": "sentence",
+      "native": [
+        "Fungua ukurasa wa 46, tusome aya ya 5."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s064",
+      "kind": "sentence",
+      "native": [
+        "Weka kwenye kalenda kwamba nitamtembelea Mwanaidi Jumapili ijayo baada ya kutoka kazini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s065",
+      "kind": "sentence",
+      "native": [
+        "Mpigie Hassan Mwinyi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s066",
+      "kind": "sentence",
+      "native": [
+        "Mkinisikia lakini hamwoni ninachoonyesha, niambieni nionyeshe skrini nzima badala ya dirisha la programu tu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s067",
+      "kind": "sentence",
+      "native": [
+        "Tukutane nje ya maktaba."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s068",
+      "kind": "sentence",
+      "native": [
+        "Pale Molo gunia la viazi linauzwa shilingi 900, ukinunua mawili watakupunguzia bei kidogo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s069",
+      "kind": "sentence",
+      "native": [
+        "Kipa wetu ametoka tena?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s070",
+      "kind": "sentence",
+      "native": [
+        "Kusema kweli, foleni ya Ubungo imenichosha kupita kiasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s071",
+      "kind": "sentence",
+      "native": [
+        "Sawa, nimeona picha ulizotuma, mtoto amekua sana jamani!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s072",
+      "kind": "sentence",
+      "native": [
+        "Tangu tubadilishe kampuni ya kukusanya taka, eneo la nyuma ya ofisi limekuwa safi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s073",
+      "kind": "sentence",
+      "native": [
+        "Hapa Moshi, maparachichi 5 yanauzwa kwa shilingi 2000."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s074",
+      "kind": "sentence",
+      "native": [
+        "Malipo ya kozi ya udereva niyakamilishe kabla ya mwisho wa wiki ili nisikose nafasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s075",
+      "kind": "sentence",
+      "native": [
+        "Nisaidie kutafuta video inayoonyesha namna ya kushona kifungo kilichotoka kwenye shati la mtoto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s076",
+      "kind": "sentence",
+      "native": [
+        "Link hii muda wake umeisha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s077",
+      "kind": "sentence",
+      "native": [
+        "Nipitie ofisini kwangu tuondoke pamoja kuelekea kwenye semina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s078",
+      "kind": "sentence",
+      "native": [
+        "Rashid, ongea na mwenye hema atuletee viti vingine, maana ndugu wengi wanakuja kwenye sherehe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s079",
+      "kind": "sentence",
+      "native": [
+        "Nimebeba sindano, uzi na mkasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s080",
+      "kind": "sentence",
+      "native": [
+        "Kwangu mimi, biriani inapendeza zaidi ikiwa na kachumbari."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s081",
+      "kind": "sentence",
+      "native": [
+        "Mbona umevaa sweta kinyume?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s082",
+      "kind": "sentence",
+      "native": [
+        "Badala ya kuchapisha kurasa zote, tutumie nakala ya Word ili kila mmoja aweke maoni yake."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s083",
+      "kind": "sentence",
+      "native": [
+        "Treni imefika saa 10 jioni, dakika 20 mapema."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s084",
+      "kind": "sentence",
+      "native": [
+        "Kila jioni nitenge dakika chache kufanya mazoezi ya gitaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s085",
+      "kind": "sentence",
+      "native": [
+        "Mtumie Asha Odhiambo ujumbe kwamba nitachelewa kidogo kwa sababu bado nasubiri dereva afike."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s086",
+      "kind": "sentence",
+      "native": [
+        "Neema, nitumie jedwali la mauzo kupitia WhatsApp nikague."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s087",
+      "kind": "sentence",
+      "native": [
+        "Njia hii inapita sokoni au inaelekea uwanjani moja kwa moja?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s088",
+      "kind": "sentence",
+      "native": [
+        "Bawaba za dirisha zimelegea."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s089",
+      "kind": "sentence",
+      "native": [
+        "Juma, tunachora pembetatu tu au tunaandika majina ya pembe pia?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s090",
+      "kind": "sentence",
+      "native": [
+        "Nilidhani ningependa kuishi peke yangu, lakini sasa naona umuhimu wa kuwa karibu na ndugu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s091",
+      "kind": "sentence",
+      "native": [
+        "Nimeshiba, siwezi kuongeza tena."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s092",
+      "kind": "sentence",
+      "native": [
+        "Mteja wa Nakuru ameomba nakala nyingine ya ankara."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s093",
+      "kind": "sentence",
+      "native": [
+        "Betri yangu imefika 27%."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s094",
+      "kind": "sentence",
+      "native": [
+        "Ninunue tokeni za umeme."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s095",
+      "kind": "sentence",
+      "native": [
+        "Hali ya hewa itakuwaje Kisumu kesho kutwa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s096",
+      "kind": "sentence",
+      "native": [
+        "Kabla hujaondoka, chomoa hard disk kwenye kompyuta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s097",
+      "kind": "sentence",
+      "native": [
+        "Chebet atanipokea Eldoret, halafu tutaenda nyumbani kwa shangazi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s098",
+      "kind": "sentence",
+      "native": [
+        "Keki ya Wema imependeza!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s099",
+      "kind": "sentence",
+      "native": [
+        "Huku Nyeri ndoo ni shilingi 800, siyo 600, nimekosea."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s100",
+      "kind": "sentence",
+      "native": [
+        "Nisamehe, sikukusikia uliponiita."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s101",
+      "kind": "sentence",
+      "native": [
+        "Naomba unichukulie mkate ukipita dukani, nitakurudishia pesa kesho."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s102",
+      "kind": "sentence",
+      "native": [
+        "Wenzetu wa Kakamega wamewahi kumaliza mafunzo, kwa hiyo tutaanza kipindi kinachofuata kabla ya chakula."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s103",
+      "kind": "sentence",
+      "native": [
+        "Namba yangu mpya ni 0784 593 026, ihifadhi sasa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s104",
+      "kind": "sentence",
+      "native": [
+        "Nihifadhi tiketi kwenye pochi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s105",
+      "kind": "sentence",
+      "native": [
+        "Nionyeshe njia ya kufika Kariakoo bila kupitia barabara yenye foleni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s106",
+      "kind": "sentence",
+      "native": [
+        "Mtandao wa ofisini hauturuhusu kuunganisha simu zetu binafsi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s107",
+      "kind": "sentence",
+      "native": [
+        "Mjomba amepanda basi gani?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s108",
+      "kind": "sentence",
+      "native": [
+        "Dobi amesema mapazia yetu yatakuwa tayari keshokutwa alasiri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s109",
+      "kind": "sentence",
+      "native": [
+        "Tulikuwa tunatafuta meza, lakini hebu tuangalie vitanda kwanza."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s110",
+      "kind": "sentence",
+      "native": [
+        "Muthoni, umesuka vizuri sana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s111",
+      "kind": "sentence",
+      "native": [
+        "Leo umeamka mapema kweli!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s112",
+      "kind": "sentence",
+      "native": [
+        "Kuhusu likizo yangu, kuna fomu nyingine ninayohitaji kujaza?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s113",
+      "kind": "sentence",
+      "native": [
+        "Mtungi huu una lita 6."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s114",
+      "kind": "sentence",
+      "native": [
+        "Siku ya mwisho ya kurudisha vifaa ni Alhamisi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s115",
+      "kind": "sentence",
+      "native": [
+        "Punguza mwangaza wa skrini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s116",
+      "kind": "sentence",
+      "native": [
+        "Spika zako zinatoa mwangwi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s117",
+      "kind": "sentence",
+      "native": [
+        "Mlangoni kuna bango la bluu, hapo ndipo tunapofanyia mazoezi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s118",
+      "kind": "sentence",
+      "native": [
+        "Siwezi kuanika nguo wakati mawingu yamejaa hivi angani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s119",
+      "kind": "sentence",
+      "native": [
+        "Tununue mpira wa kikapu, au bora tuazime wa jirani kwanza tuone kama watoto wataupenda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s120",
+      "kind": "sentence",
+      "native": [
+        "Tumaini amesema atatupitia saa 4 asubuhi, kwa hiyo tuwe tayari kabla hajafika getini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s121",
+      "kind": "sentence",
+      "native": [
+        "Samahani kwa kuchelewa kujibu email kuhusu nafasi ya mhasibu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s122",
+      "kind": "sentence",
+      "native": [
+        "Fatuma, maonyesho ni tarehe 6 hadi 8 Novemba 2026, na tumepewa banda namba 45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s123",
+      "kind": "sentence",
+      "native": [
+        "Nitenge shilingi 700 za kununua kikapu pale Gikomba."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s124",
+      "kind": "sentence",
+      "native": [
+        "Sitisha wimbo huu kwanza."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s125",
+      "kind": "sentence",
+      "native": [
+        "Dotto, ukimaliza kuhariri tangazo, nitumie toleo la mwisho lenye nembo mpya kabla hatujalituma kwa client."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s126",
+      "kind": "sentence",
+      "native": [
+        "Subiri pembeni ya lango."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s127",
+      "kind": "sentence",
+      "native": [
+        "Upepo umepeperusha kofia yangu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s128",
+      "kind": "sentence",
+      "native": [
+        "Nilitaka kwenda kukimbia, lakini ngoja, kwa mvua hii bora nifanye mazoezi humu ndani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s129",
+      "kind": "sentence",
+      "native": [
+        "Achieng', tutakutana wapi baada ya mazoezi ya jioni?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s130",
+      "kind": "sentence",
+      "native": [
+        "Moraa, nani atachukua zamu yangu wakati niko likizoni?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s131",
+      "kind": "sentence",
+      "native": [
+        "Chumba chenu ni namba 32."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s132",
+      "kind": "sentence",
+      "native": [
+        "Jioni niweke nakala ya vyeti vyangu kwenye kompyuta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s133",
+      "kind": "sentence",
+      "native": [
+        "Nina miadi gani kwenye kalenda wiki hii?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s134",
+      "kind": "sentence",
+      "native": [
+        "Password hii haikubaliki tena."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s135",
+      "kind": "sentence",
+      "native": [
+        "Dereva, nishushe kwenye kona."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s136",
+      "kind": "sentence",
+      "native": [
+        "Zamu ya kufagia ni yangu, lakini unaweza kunisaidia kusogeza sofa ili nisafishe chini yake?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s137",
+      "kind": "sentence",
+      "native": [
+        "Sikusema ufute sehemu yote, ondoa mstari wa mwisho tu, ule unaotaja gharama za usafiri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s138",
+      "kind": "sentence",
+      "native": [
+        "Saumu ameacha mwavuli wake hapa, mkumbushe aje kuuchukua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s139",
+      "kind": "sentence",
+      "native": [
+        "Muda wa majaribio umeongezwa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s140",
+      "kind": "sentence",
+      "native": [
+        "Harusi ya Rehema ni Ijumaa, tarehe 14 Agosti 2026."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s141",
+      "kind": "sentence",
+      "native": [
+        "Nahitaji daftari jipya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s142",
+      "kind": "sentence",
+      "native": [
+        "Rudisha ujumbe nilioufuta kimakosa dakika chache zilizopita."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s143",
+      "kind": "sentence",
+      "native": [
+        "Headphones hizi zinanibana kichwani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s144",
+      "kind": "sentence",
+      "native": [
+        "Njeri yuko saluni ya jirani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s145",
+      "kind": "sentence",
+      "native": [
+        "Sabuni ya kuogea imeisha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s146",
+      "kind": "sentence",
+      "native": [
+        "Unataka nikutumie sauti au niandike ujumbe tu hapa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s147",
+      "kind": "sentence",
+      "native": [
+        "Kumbe ulificha biskuti kwenye kabati, ukadhani sitaziona kabisa!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s148",
+      "kind": "sentence",
+      "native": [
+        "Baraka, unaweza kunisaidia kuandaa ratiba ya mafunzo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s149",
+      "kind": "sentence",
+      "native": [
+        "Leta magunia 4 ya mchele kwenye nyumba namba 73, Mtaa wa Msimbazi, Dar es Salaam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s150",
+      "kind": "sentence",
+      "native": [
+        "Baada ya chakula, nitazame kama sare zimekauka nje."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s151",
+      "kind": "sentence",
+      "native": [
+        "Soma email mpya kutoka kwa kampuni ya usafirishaji."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s152",
+      "kind": "sentence",
+      "native": [
+        "App inajifunga yenyewe kila nikigusa hapa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s153",
+      "kind": "sentence",
+      "native": [
+        "Mwakalinga amesema tukifika Morogoro tumsubiri pale Msamvu, atakuja kutuonyesha ilipo nyumba yake mpya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s154",
+      "kind": "sentence",
+      "native": [
+        "Fundi wa friji amenipa miadi ya Alhamisi asubuhi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s155",
+      "kind": "sentence",
+      "native": [
+        "Ukiona funguo zangu chini ya kochi, ziweke mezani ili nisihangaike kuzitafuta tena nikirudi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s156",
+      "kind": "sentence",
+      "native": [
+        "Chausiku, naweza kuanza zamu mapema ili niondoke kabla yako?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s157",
+      "kind": "sentence",
+      "native": [
+        "Safari yetu inaanza saa 11 alfajiri kutoka Voi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s158",
+      "kind": "sentence",
+      "native": [
+        "Nikihifadhi rasimu kwenye tovuti, ujumbe wa hitilafu unatokea na maandishi yote yanafutika ghafla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s159",
+      "kind": "sentence",
+      "native": [
+        "Kisamvu hiki kinanikumbusha jinsi mama alivyokuwa akitupikia zamani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s160",
+      "kind": "sentence",
+      "native": [
+        "Nimefika nyumbani, msijali."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s161",
+      "kind": "sentence",
+      "native": [
+        "Mercy, kikao kikiisha unaweza kubaki tuzungumzie mgawanyo wa majukumu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s162",
+      "kind": "sentence",
+      "native": [
+        "Oka biskuti kwa dakika 15 kwenye joto la nyuzi 170."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s163",
+      "kind": "sentence",
+      "native": [
+        "Update mpya imeondoa kitufe cha kutafuta kwenye menyu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s164",
+      "kind": "sentence",
+      "native": [
+        "Nilizima simu wakati wa filamu, ndiyo maana sikuona ujumbe wako hadi nilipotoka ukumbini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s165",
+      "kind": "sentence",
+      "native": [
+        "Faili limefunguka bila shida."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s166",
+      "kind": "sentence",
+      "native": [
+        "Kiwanja kina urefu wa mita 24 na upana wa 16."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s167",
+      "kind": "sentence",
+      "native": [
+        "Usimalize pilau, niachie kidogo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s168",
+      "kind": "sentence",
+      "native": [
+        "Zawadi atashughulikia mapokezi wakati wa maonyesho, kwa hiyo tumtafutie mtu wa kumsaidia wageni wakiongezeka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s169",
+      "kind": "sentence",
+      "native": [
+        "Usiongeze sukari zaidi ya vijiko 3 kwenye chai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s170",
+      "kind": "sentence",
+      "native": [
+        "Nimejaribu kufungua video yako mara kadhaa, lakini intaneti inasumbua, kwa hiyo nitaiangalia baadaye."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s171",
+      "kind": "sentence",
+      "native": [
+        "Ofisi ya Tanga inahitaji mtu wa kuwafundisha wafanyakazi wapya. Unaweza kwenda huko kwa siku mbili?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s172",
+      "kind": "sentence",
+      "native": [
+        "Dada yangu anatimiza miaka 29 mwezi ujao."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s173",
+      "kind": "sentence",
+      "native": [
+        "Ukipata nafasi, nipigie simu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s174",
+      "kind": "sentence",
+      "native": [
+        "Orodha ya washiriki iko tayari. Unaweza kuipitia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s175",
+      "kind": "sentence",
+      "native": [
+        "Meeting ya Zoom itaanza saa 8 mchana na kuisha saa 9 na nusu alasiri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sw-s176",
+      "kind": "sentence",
+      "native": [
+        "Tumefungana mabao 2 kwa 2."
+      ],
+      "roman": null
+    }
+  ]
+}

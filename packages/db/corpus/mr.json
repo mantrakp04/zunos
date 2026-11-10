@@ -1,0 +1,1779 @@
+{
+  "lang": "mr",
+  "starter": [
+    "mr-s094",
+    "mr-s082",
+    "mr-s146",
+    "mr-s005",
+    "mr-s103",
+    "mr-s135",
+    "mr-s149",
+    "mr-s101",
+    "mr-s019",
+    "mr-s058",
+    "mr-s120",
+    "mr-s041",
+    "mr-s046",
+    "mr-s122",
+    "mr-s029",
+    "mr-s010",
+    "mr-s007",
+    "mr-p01",
+    "mr-s064",
+    "mr-s037",
+    "mr-s004",
+    "mr-s143",
+    "mr-s126",
+    "mr-s125",
+    "mr-s090",
+    "mr-s075",
+    "mr-s079",
+    "mr-s009",
+    "mr-s053",
+    "mr-s138",
+    "mr-s022",
+    "mr-s124",
+    "mr-s104",
+    "mr-s056",
+    "mr-p07",
+    "mr-s049",
+    "mr-s095",
+    "mr-s043",
+    "mr-s140",
+    "mr-s047",
+    "mr-s134",
+    "mr-s069",
+    "mr-s016",
+    "mr-s139",
+    "mr-s080",
+    "mr-s114",
+    "mr-s133",
+    "mr-s026",
+    "mr-s052",
+    "mr-s061",
+    "mr-s040",
+    "mr-s102"
+  ],
+  "items": [
+    {
+      "id": "mr-p01",
+      "kind": "para",
+      "title": "Mitali's Wedding Plans",
+      "native": [
+        "अगं, आपल्या मितालीचं लग्न पुढच्या रविवारी ठाण्यातल्या नौपाड्यात आहे.",
+        "शनिवारी संध्याकाळी घरीच हळद आहे, म्हणून तू दुपारपर्यंत ये.",
+        "आईने तुझ्यासाठी आणि सईसाठी वरच्या खोलीत गाद्या घालून ठेवल्या आहेत.",
+        "स्टेशनवर पोहोचल्यावर मला फोन कर, मी तुला न्यायला येईन.",
+        "रविवारी सकाळी 10 वाजता सगळ्यांनी सभागृहात पोहोचायचं असं ठरलं आहे.",
+        "तुझा निळा कुर्ता घाल, त्यावर तो पांढरा दुपट्टा छान दिसेल.",
+        "मितालीने फोटोसाठी सगळ्या चुलत भावंडांना एकत्र जमायला सांगितलं आहे.",
+        "जेवणात पुरणपोळी आणि मसालेभात आहेत, पण आधी भरपूर पोहे खाऊ नकोस.",
+        "येताना केसात माळायला मोगऱ्याचे गजरे घेऊन ये, बाकी सगळी तयारी झाली आहे."
+      ],
+      "roman": [
+        "Agan, aaplya Mitalichan lagna pudhchya Ravivari Thanyatlya Naupadyat aahe.",
+        "Shanivari sandhyakali gharich halad aahe, mhanun tu duparparyant ye.",
+        "Aaine tujhyasathi aani Saisathi varchya kholit gadya ghalun thevlya aahet.",
+        "Stationvar pohochlyavar mala phone kar, mi tula nyayla yein.",
+        "Ravivari sakali 10 vajta saglyanni sabhagruhat pohochaychan asan tharlan aahe.",
+        "Tujha nila kurta ghal, tyavar to pandhra dupatta chhan disel.",
+        "Mitaline photosathi saglya chulat bhavandanna ekatra jamayla sangitlan aahe.",
+        "Jevnat puranpoli aani masalebhat aahet, pan aadhi bharpur pohe khau nakos.",
+        "Yetana kesat malayla mogryache gajre gheun ye, baki sagli tayari jhali aahe."
+      ]
+    },
+    {
+      "id": "mr-p02",
+      "kind": "para",
+      "title": "Comparing Pune Printing Quotes",
+      "native": [
+        "पुढच्या आठवड्यातल्या कार्यक्रमासाठी पुण्यातल्या दोन प्रिंटिंगवाल्यांकडून कोटेशनं घेतली आहेत.",
+        "दोन्ही कोटेशनांमध्ये 200 पत्रकांचे आणि 2 बॅनरचे दर दिले आहेत.",
+        "नारायण पेठेतल्या प्रिंटिंगवाल्यांनी 4800 रुपये सांगितले आहेत.",
+        "कोथरूडच्या प्रिंटिंगवाल्यांनी 5200 रुपये सांगितले आहेत.",
+        "दोन्ही रकमांमध्ये टॅक्स आणि ऑफिसपर्यंत पोहोचवण्याचा खर्च धरलेला आहे.",
+        "कोथरूडचे प्रिंटिंगवाले गुरुवारी सकाळी 11 वाजेपर्यंत पत्रकं आणि बॅनर पोहोचवू शकतात.",
+        "नारायण पेठेतून मात्र शुक्रवारी दुपारनंतरच पत्रकं आणि बॅनर मिळणार आहेत.",
+        "आपला कार्यक्रम शुक्रवारी सकाळी असल्यामुळे आपल्याला गुरुवारीच सगळं हवं आहे.",
+        "त्यामुळे 400 रुपये जास्त पडले तरी कोथरूडचा पर्याय बरा वाटतो.",
+        "तुम्ही हो म्हटलं की मी आज संध्याकाळी ऑर्डर पक्की करतो."
+      ],
+      "roman": [
+        "Pudhchya aathavdyatlya karyakramasathi Punyatlya don printingvalyankadun quotationan ghetli aahet.",
+        "Donhi quotationanmadhye 200 patrakanche aani 2 bannerche dar dile aahet.",
+        "Narayan Pethetlya printingvalyanni 4800 rupaye sangitle aahet.",
+        "Kothrudchya printingvalyanni 5200 rupaye sangitle aahet.",
+        "Donhi rakmanmadhye tax aani officeparyant pohochavnyacha kharch dharlela aahe.",
+        "Kothrudche printingvale Guruvari sakali 11 vajeparyant patrakan aani banner pohochavu shaktat.",
+        "Narayan Pethetun matra Shukravari duparnantarch patrakan aani banner milnar aahet.",
+        "Aapla karyakram Shukravari sakali aslyamule aaplyala Guruvarich saglan havan aahe.",
+        "Tyamule 400 rupaye jast padle tari Kothrudcha paryay bara vatato.",
+        "Tumhi ho mhatlan ki mi aaj sandhyakali order pakki karto."
+      ]
+    },
+    {
+      "id": "mr-p03",
+      "kind": "para",
+      "title": "Rain at Cotton Market",
+      "native": [
+        "शनिवारी संध्याकाळी मी नागपूरच्या कॉटन मार्केटमध्ये आठवड्याची भाजी घ्यायला गेले होते.",
+        "ताजा पालक आणि कोथिंबीर दिसल्यावर मी लगेच दोन जुड्या घेतल्या.",
+        "टोमॅटोचे भाव विचारत असतानाच अचानक जोराचा वारा सुटला.",
+        "मी पिशवी आवरेपर्यंत टपरीच्या पत्र्यावर पावसाचे मोठे थेंब पडायला लागले.",
+        "भाजीवाल्या मावशींनी मला त्यांच्या ताडपत्रीखाली उभं राहायला सांगितलं.",
+        "शेजारच्या चहावाल्याने गरम चहा दिला आणि थोड्या गप्पाही झाल्या.",
+        "पाऊस थांबला तेव्हा रस्त्यावर जागोजागी पाणी साचलं होतं.",
+        "रिक्षात बसल्यावरही हाताला ताज्या कोथिंबिरीचा वास येत होता.",
+        "त्या दिवशी भाजीपेक्षा पावसातल्या गप्पांचीच जास्त मजा आली होती."
+      ],
+      "roman": [
+        "Shanivari sandhyakali mi Nagpurchya Cotton Marketmadhye aathavdyachi bhaji ghyayla gele hote.",
+        "Taja palak aani kothimbir dislyavar mi lagech don judya ghetlya.",
+        "Tomatoche bhav vicharat astanach achanak joracha vara sutla.",
+        "Mi pishvi avareparyant taprichya patryavar pavsache mothe themb padayla lagle.",
+        "Bhajivalya mavshinni mala tyanchya tadpatrikhali ubhan rahayla sangitlan.",
+        "Shejarchya chahavalyane garam chaha dila aani thodya gappahi jhalya.",
+        "Paus thambla tevha rastyavar jagojagi paani sachlan hotan.",
+        "Rikshat baslyavarhi hatala tajya kothimbiricha vas yet hota.",
+        "Tya divshi bhajipeksha pavsatlya gappanchich jast maja aali hoti."
+      ]
+    },
+    {
+      "id": "mr-p04",
+      "kind": "para",
+      "title": "Homestyle Pune Kande Pohe",
+      "native": [
+        "आज नाश्त्याला कांदेपोहे करूया.",
+        "दोघांसाठी 2 वाट्या जाड पोहे चाळणीत घेऊन हलक्या हाताने धुऊन घ्या.",
+        "धुतलेले पोहे 5 मिनिटं बाजूला ठेवा आणि एक कांदा बारीक चिरा.",
+        "कढईत 2 चमचे तेल तापवून त्यात मोहरी, जिरं आणि कढीपत्ता घाला.",
+        "मग मूठभर शेंगदाणे परतून घ्या आणि चिरलेली हिरवी मिरची घाला.",
+        "आता कांदा मऊ होईपर्यंत परता आणि त्यात थोडी हळद घाला.",
+        "भिजवलेले पोहे, चवीपुरतं मीठ आणि चिमूटभर साखर घालून हलक्या हाताने मिसळा.",
+        "झाकण ठेवून मंद आचेवर 2 मिनिटं वाफ येऊ द्या.",
+        "वरून लिंबू पिळा आणि कोथिंबीर घालून गरम कांदेपोहे वाढा."
+      ],
+      "roman": [
+        "Aaj nashtyala kandepohe karuya.",
+        "Doghansathi 2 vatya jad pohe chalnit gheun halkya hatane dhuun ghya.",
+        "Dhutlele pohe 5 minitan bajula theva aani ek kanda barik chira.",
+        "Kadhait 2 chamche tel tapavun tyat mohari, jiran aani kadhipatta ghala.",
+        "Mag muthbhar shengdane paratun ghya aani chirleli hirvi mirchi ghala.",
+        "Aata kanda mau hoiparyant parata aani tyat thodi halad ghala.",
+        "Bhijavlele pohe, chavipurtan mith aani chimutbhar sakhar ghalun halkya hatane misala.",
+        "Jhakan thevun mand aachevar 2 minitan vaph yeu dya.",
+        "Varun limbu pila aani kothimbir ghalun garam kandepohe vadha."
+      ]
+    },
+    {
+      "id": "mr-p05",
+      "kind": "para",
+      "title": "Ordering Dinner in Nashik",
+      "native": [
+        "नाशिकच्या गंगापूर रोडवर माझ्या घरी झोमॅटोवरून जेवण मागवणं बऱ्यापैकी सोयीचं पडतं.",
+        "गेल्या शुक्रवारी मी जवळच्या खानावळीतून पिठलं आणि ज्वारीची भाकरी मागवली होती.",
+        "अॅपवर 30 मिनिटं दाखवली होती, पण जेवण 40 मिनिटांनी पोहोचलं.",
+        "पिठलं गरम होतं आणि भाकरीही छान मऊ होती, त्यामुळे जेवण आवडलं.",
+        "180 रुपयांचं जेवण होतं, पण सगळे चार्जेस धरून बिल 235 रुपये झालं.",
+        "डिलिव्हरीचे पैसे ठीक आहेत, पण बाकीचे पैसे कशासाठी घेतात ते स्पष्ट दिसायला हवं.",
+        "पाऊस असूनही डिलिव्हरी करणाऱ्या मुलाने पिशवी न भिजवता व्यवस्थित आणून दिली.",
+        "त्याला पत्ता नीट सापडला, त्यामुळे फोनवर रस्ता सांगत बसावं लागलं नाही.",
+        "एकूण सोय चांगली आहे, पण सगळे चार्जेस आधीच स्पष्ट दिसले तर बरं होईल."
+      ],
+      "roman": [
+        "Nashikchya Gangapur Roadvar majhya ghari Zomatovarun jevan magavnan baryapaiki soyichan padtan.",
+        "Gelya shukravari mi javalchya khanavalitun pithlan aani jwarichi bhakari magavli hoti.",
+        "Appvar 30 minitan dakhavli hoti, pan jevan 40 minitanni pohochlan.",
+        "Pithlan garam hotan aani bhakarihi chhan mau hoti, tyamule jevan aavadlan.",
+        "180 rupayanchan jevan hotan, pan sagle charges dharun bill 235 rupaye jhalan.",
+        "Deliveryche paise thik aahet, pan bakiche paise kashasathi ghetat te spasht disayla havan.",
+        "Paus asunhi delivery karnarya mulane pishvi na bhijavta vyavasthit aanun dili.",
+        "Tyala patta nit sapadla, tyamule phonevar rasta sangat basavan laglan nahi.",
+        "Ekun soy changli aahe, pan sagle charges aadhich spasht disle tar baran hoil."
+      ]
+    },
+    {
+      "id": "mr-p06",
+      "kind": "para",
+      "title": "Planning Our Panhala Offsite",
+      "native": [
+        "आपल्या 16 जणांच्या टीमसाठी 18 सप्टेंबर 2026 रोजी पन्हाळ्याला जायचं ठरवूया.",
+        "कोल्हापूरच्या ऑफिसपासून तिथलं हॉटेल साधारण 22 किलोमीटरवर आहे.",
+        "त्यामुळे पोहोचायला फार वेळ लागणार नाही.",
+        "सकाळी 8 वाजून 15 मिनिटांनी निघालो तर 9 वाजेपर्यंत सहज पोहोचू.",
+        "बसचं भाडं 6500 रुपये आहे, त्यात ड्रायव्हरचे पैसेही धरले आहेत.",
+        "नाश्ता आणि दुपारचं जेवण मिळून प्रत्येकासाठी 700 रुपये बाजूला ठेवूया.",
+        "हॉलसाठी 4000 रुपये लागतील, तिथे प्रोजेक्टर आणि 20 खुर्च्या मिळतील.",
+        "सकाळी 10 वाजता पुढच्या 3 महिन्यांच्या कामाबद्दल तासभर बोलूया.",
+        "जेवणानंतर 2 गट करून खेळ खेळू आणि मग चहासाठी थांबू.",
+        "संध्याकाळी 5 वाजता परत निघू, म्हणजे सगळ्यांना घरी पोहोचायला उशीर होणार नाही."
+      ],
+      "roman": [
+        "Aaplya 16 jananchya teamsathi 18 September 2026 roji Panhalyala jaychan tharavuya.",
+        "Kolhapurchya officepasun tithlan hotel sadharan 22 kilometervar aahe.",
+        "Tyamule pohochayla phar vel lagnar nahi.",
+        "Sakali 8 vajun 15 minitanni nighalo tar 9 vajeparyant sahaj pohochu.",
+        "Buschan bhadan 6500 rupaye aahe, tyat driverche paisehi dharle aahet.",
+        "Nashta aani duparchan jevan milun pratyekasathi 700 rupaye bajula thevuya.",
+        "Hallsathi 4000 rupaye lagtil, tithe projector aani 20 khurchya miltil.",
+        "Sakali 10 vajta pudhchya 3 mahinyanchya kamabaddal tasbhar boluya.",
+        "Jevananantar 2 gat karun khel khelu aani mag chahasathi thambu.",
+        "Sandhyakali 5 vajta parat nighu, mhanje saglyanna ghari pohochayla ushir honar nahi."
+      ]
+    },
+    {
+      "id": "mr-p07",
+      "kind": "para",
+      "title": "Calling About a Leaking Tap",
+      "native": [
+        "नमस्कार, मी प्राजक्ता बोलतेय. नागपूरच्या प्रतापनगरमधल्या तुमच्या फ्लॅटमध्ये भाड्याने राहते.",
+        "स्वयंपाकघरातला नळ काल संध्याकाळपासून गळतोय, म्हणून तुम्हाला फोन केला.",
+        "नळ घट्ट बंद केला तरी त्यातून थेंब थेंब पाणी पडतंय.",
+        "सध्या खाली बादली ठेवली आहे, पण बरंच पाणी वाया जातंय.",
+        "तुमच्या ओळखीचे प्लंबर असतील तर त्यांना एकदा बघायला पाठवाल का?",
+        "मी उद्या दुपारी 2 वाजल्यानंतर घरी असेन, त्याआधी ऑफिसमध्ये असेन.",
+        "त्यांना वेगळी वेळ सोयीची असेल तर मी तसं जमवून घेईन.",
+        "नळाचा फोटो हवा असेल तर मी तुम्हाला लगेच पाठवते.",
+        "दुरुस्तीचे पैसे मी आधी देऊ का, तेही जरा कळवा म्हणजे बरं होईल."
+      ],
+      "roman": [
+        "Namaskar, mi Prajakta boltey. Nagpurchya Pratapnagarmadhlya tumchya flatmadhye bhadyane rahte.",
+        "Swayampakgharatla nal kaal sandhyakalpasun galtoy, mhanun tumhala phone kela.",
+        "Nal ghatt band kela tari tyatun themb themb paani padtay.",
+        "Sadhya khali badli thevli aahe, pan baranch paani vaya jatay.",
+        "Tumchya olakhiche plumber astil tar tyanna ekda baghayla pathval ka?",
+        "Mi udya dupari 2 vajlyanantar ghari asen, tyaadhi officemadhye asen.",
+        "Tyanna vegli vel soyichi asel tar mi tasan jamvun ghein.",
+        "Nalacha photo hava asel tar mi tumhala lagech pathavte.",
+        "Durustiche paise mi aadhi deu ka, tehi jara kalva mhanje baran hoil."
+      ]
+    },
+    {
+      "id": "mr-p08",
+      "kind": "para",
+      "title": "A Morning at Karnala",
+      "native": [
+        "मुंबईजवळ निसर्गात वेळ घालवायचा असेल तर कर्नाळा पक्षी अभयारण्य हा छान पर्याय आहे.",
+        "कर्नाळा पनवेलपासून साधारण 12 किलोमीटरवर आहे. इथे दाट झाडी आहे.",
+        "सकाळी लवकर गेल्यावर पक्ष्यांचे वेगवेगळे आवाज ऐकत शांतपणे फिरता येतं.",
+        "इथल्या पायवाटांवर चालताना बुलबुल आणि कोतवाल असे पक्षी दिसू शकतात.",
+        "हिवाळ्यात इथे स्थलांतरित पक्षीही येतात, त्यामुळे पक्षी पाहायला अनेक जण येतात.",
+        "पक्षी बघायला दुर्बीण असेल तर छानच, पण नसली तरी हरकत नाही.",
+        "इथे फिरायला येताना पाणी आणि थोडा खाऊ आणा, पायात चांगले बूट घाला.",
+        "पावसाळ्यात वाटा निसरड्या होतात, त्यामुळे चालताना जरा जपून चला.",
+        "पक्ष्यांना खाऊ देऊ नका आणि फिरताना मोठ्याने गाणी लावू नका."
+      ],
+      "roman": [
+        "Mumbaijaval nisargat vel ghalvaycha asel tar Karnala pakshi abhayaranya ha chhan paryay aahe.",
+        "Karnala Panvelpasun sadharan 12 kilometervar aahe. Ithe daat jhadi aahe.",
+        "Sakali lavkar gelyavar pakshyanche vegvegle aavaj aikat shantpane phirta yetan.",
+        "Ithlya payvatanvar chaltana bulbul aani kotwal ase pakshi disu shaktat.",
+        "Hivalyat ithe sthalantarit pakshihi yetat, tyamule pakshi pahayla anek jan yetat.",
+        "Pakshi baghayla durbin asel tar chhanch, pan nasli tari harkat nahi.",
+        "Ithe phirayla yetana paani aani thoda khau aana, payat changle boot ghala.",
+        "Pavsalyat vata nisardya hotat, tyamule chaltana jara japun chala.",
+        "Pakshyanna khau deu naka aani phirtana mothyane gaani lavu naka."
+      ]
+    },
+    {
+      "id": "mr-s001",
+      "kind": "sentence",
+      "native": [
+        "बाहेर वारा सुटलाय, बाल्कनीत वाळत घातलेले कपडे आत घे आणि खिडकी नीट लावून ठेव."
+      ],
+      "roman": [
+        "Baher vara sutlay, balconyt valat ghatlele kapde aat ghe aani khidki nit lavun thev."
+      ]
+    },
+    {
+      "id": "mr-s002",
+      "kind": "sentence",
+      "native": [
+        "सायली, जाहिरातीचा मजकूर छान जमलाय, तसाच पुढे पाठव."
+      ],
+      "roman": [
+        "Sayali, jahiraticha majkur chhan jamlay, tasach pudhe pathav."
+      ]
+    },
+    {
+      "id": "mr-s003",
+      "kind": "sentence",
+      "native": [
+        "आपला स्कोअर 2 बाद 84 आहे."
+      ],
+      "roman": [
+        "Aapla score 2 bad 84 aahe."
+      ]
+    },
+    {
+      "id": "mr-s004",
+      "kind": "sentence",
+      "native": [
+        "इस्त्रीवाल्याचे 90 रुपये द्यायचे आहेत, खर्चात लिहून ठेव."
+      ],
+      "roman": [
+        "Istrivalyache 90 rupaye dyayche aahet, kharchat lihun thev."
+      ]
+    },
+    {
+      "id": "mr-s005",
+      "kind": "sentence",
+      "native": [
+        "ब्लूटूथ सुरू कर."
+      ],
+      "roman": [
+        "Bluetooth suru kar."
+      ]
+    },
+    {
+      "id": "mr-s006",
+      "kind": "sentence",
+      "native": [
+        "चुकून डिलीट झालेली फाइल परत मिळवता येईल का?"
+      ],
+      "roman": [
+        "Chukun delete jhaleli file parat milavta yeil ka?"
+      ]
+    },
+    {
+      "id": "mr-s007",
+      "kind": "sentence",
+      "native": [
+        "शबानाच्या दुकानात पँटची लांबी कमी करून मिळेल का?"
+      ],
+      "roman": [
+        "Shabanachya dukanat pantchi lambi kami karun milel ka?"
+      ]
+    },
+    {
+      "id": "mr-s008",
+      "kind": "sentence",
+      "native": [
+        "पावती मिळाली की ती पिशवीत ठेव, मिक्सर बदलून आणताना दुकानात नक्की मागतील."
+      ],
+      "roman": [
+        "Pavti milali ki ti pishvit thev, mixer badlun aantana dukanat nakki magtil."
+      ]
+    },
+    {
+      "id": "mr-s009",
+      "kind": "sentence",
+      "native": [
+        "ऐक, जिना कुठून आहे?"
+      ],
+      "roman": [
+        "Aik, jina kuthun aahe?"
+      ]
+    },
+    {
+      "id": "mr-s010",
+      "kind": "sentence",
+      "native": [
+        "रांगेत इतका वेळ उभं राहून आता कंटाळा आलाय."
+      ],
+      "roman": [
+        "Ranget itka vel ubhan rahun aata kantala aalay."
+      ]
+    },
+    {
+      "id": "mr-s011",
+      "kind": "sentence",
+      "native": [
+        "तुझं पार्सल मी घेतलं."
+      ],
+      "roman": [
+        "Tujhan parcel mi ghetlan."
+      ]
+    },
+    {
+      "id": "mr-s012",
+      "kind": "sentence",
+      "native": [
+        "औंधच्या ऑफिसमध्ये पाहुणे येणार आहेत, त्यांच्यासाठी चहा आणि कोथिंबीर वडी मागवून ठेवशील का?"
+      ],
+      "roman": [
+        "Aundhchya officemadhye pahune yenar aahet, tyanchyasathi chaha aani kothimbir vadi magvun thevshil ka?"
+      ]
+    },
+    {
+      "id": "mr-s013",
+      "kind": "sentence",
+      "native": [
+        "दूध 2 लिटर आणि दही 500 ग्रॅम लिहून ठेव."
+      ],
+      "roman": [
+        "Dudh 2 liter aani dahi 500 gram lihun thev."
+      ]
+    },
+    {
+      "id": "mr-s014",
+      "kind": "sentence",
+      "native": [
+        "झाडांना पाणी घालायचं आहे."
+      ],
+      "roman": [
+        "Jhadanna paani ghalaychan aahe."
+      ]
+    },
+    {
+      "id": "mr-s015",
+      "kind": "sentence",
+      "native": [
+        "नागपूरमध्ये आज पाऊस पडणार आहे का ते सांग."
+      ],
+      "roman": [
+        "Nagpurmadhye aaj paus padnar aahe ka te sang."
+      ]
+    },
+    {
+      "id": "mr-s016",
+      "kind": "sentence",
+      "native": [
+        "नव्या अकाउंटसाठी वेगळा ईमेल वापरला तर चालेल का?"
+      ],
+      "roman": [
+        "Navya accountsathi vegla email vaparla tar chalel ka?"
+      ]
+    },
+    {
+      "id": "mr-s017",
+      "kind": "sentence",
+      "native": [
+        "जतिन, तुला खारघरहून इथे यायला किती वेळ लागतो?"
+      ],
+      "roman": [
+        "Jatin, tula Khargharhun ithe yayla kiti vel lagto?"
+      ]
+    },
+    {
+      "id": "mr-s018",
+      "kind": "sentence",
+      "native": [
+        "रिकाम्या डब्यांची झाकणं पुसून वेगळी ठेवली तर पटकन सापडतील."
+      ],
+      "roman": [
+        "Rikamya dabyanchi jhaknan pusun vegli thevli tar patkan sapadtil."
+      ]
+    },
+    {
+      "id": "mr-s019",
+      "kind": "sentence",
+      "native": [
+        "नितीनने टायर बदलला, सॉरी, फक्त पंक्चर काढलं."
+      ],
+      "roman": [
+        "Nitinne tyre badalla, sorry, fakt puncture kadhlan."
+      ]
+    },
+    {
+      "id": "mr-s020",
+      "kind": "sentence",
+      "native": [
+        "अलिबागच्या किनाऱ्यावर नुसतं बसून राहिले तरी बरं वाटतं, दरवेळी काहीतरी करायलाच हवं असं नाही."
+      ],
+      "roman": [
+        "Alibagchya kinaryavar nusatan basun rahile tari baran vatatan, darveli kahitari karaylach havan asan nahi."
+      ]
+    },
+    {
+      "id": "mr-s021",
+      "kind": "sentence",
+      "native": [
+        "मोकळी झालीस की फोन कर."
+      ],
+      "roman": [
+        "Mokli jhalis ki phone kar."
+      ]
+    },
+    {
+      "id": "mr-s022",
+      "kind": "sentence",
+      "native": [
+        "आठवड्याचा रिपोर्ट तयार आहे, आकडे पडताळून मग सेव्ह कर."
+      ],
+      "roman": [
+        "Aathavdyacha report tayar aahe, aakde padtalun mag save kar."
+      ]
+    },
+    {
+      "id": "mr-s023",
+      "kind": "sentence",
+      "native": [
+        "माझा सभासद क्रमांक 73 आहे, पुस्तकाची मुदत 18 जूनऐवजी 2 जुलैपर्यंत वाढवता येईल का?"
+      ],
+      "roman": [
+        "Majha sabhasad kramank 73 aahe, pustakachi mudat 18 Juneaivaji 2 Julyparyant vadhavta yeil ka?"
+      ]
+    },
+    {
+      "id": "mr-s024",
+      "kind": "sentence",
+      "native": [
+        "सायकलची चेन तपासून घ्यायची."
+      ],
+      "roman": [
+        "Cyclechi chain tapasun ghyaychi."
+      ]
+    },
+    {
+      "id": "mr-s025",
+      "kind": "sentence",
+      "native": [
+        "आवाज थोडा कमी कर."
+      ],
+      "roman": [
+        "Aavaj thoda kami kar."
+      ]
+    },
+    {
+      "id": "mr-s026",
+      "kind": "sentence",
+      "native": [
+        "माधुरीने झूमच्या चॅटमध्ये खर्चाचा तपशील टाकला आहे."
+      ],
+      "roman": [
+        "Madhurine Zoomchya chatmadhye kharchacha tapshil takla aahe."
+      ]
+    },
+    {
+      "id": "mr-s027",
+      "kind": "sentence",
+      "native": [
+        "टेकडीच्या पायथ्याशी एक छोटी टपरी दिसेल, तिच्या शेजारच्या चढावरून वर आलात की आमचं घर लागेल."
+      ],
+      "roman": [
+        "Tekdichya paythyashi ek chhoti tapri disel, tichya shejarchya chadhavarun var aalat ki aamchan ghar lagel."
+      ]
+    },
+    {
+      "id": "mr-s028",
+      "kind": "sentence",
+      "native": [
+        "सावंतवाडीत घेतलेल्या लाकडी खेळण्याचा रंग उडालाय. ते पुन्हा रंगवायला कोणता रंग वापरला तर टिकेल?"
+      ],
+      "roman": [
+        "Sawantwadit ghetlelya lakdi khelnyacha rang udalay. Te punha rangvayla konta rang vaparla tar tikel?"
+      ]
+    },
+    {
+      "id": "mr-s029",
+      "kind": "sentence",
+      "native": [
+        "पेन्सिल, खोडरबर आणि कोरा कागद एवढं पुरेल ना?"
+      ],
+      "roman": [
+        "Pencil, khodrabar aani kora kagad evdhan purel na?"
+      ]
+    },
+    {
+      "id": "mr-s030",
+      "kind": "sentence",
+      "native": [
+        "सना, तुझ्या रांगोळीतले रंग किती छान उठून दिसतायत!"
+      ],
+      "roman": [
+        "Sana, tujhya rangolitale rang kiti chhan uthun disatayat!"
+      ]
+    },
+    {
+      "id": "mr-s031",
+      "kind": "sentence",
+      "native": [
+        "पुण्याहून निघायला उशीर झाला, त्यामुळे तुम्ही माझी वाट न बघता आधी नाश्ता करून घ्या."
+      ],
+      "roman": [
+        "Punyahun nighayla ushir jhala, tyamule tumhi majhi vaat na baghta aadhi nashta karun ghya."
+      ]
+    },
+    {
+      "id": "mr-s032",
+      "kind": "sentence",
+      "native": [
+        "सध्या दुसऱ्या कॉलवर आहे, तुमचं काम तातडीचं असेल तर मला थोडक्यात मेसेज पाठवा."
+      ],
+      "roman": [
+        "Sadhya dusrya callvar aahe, tumchan kaam tatdichan asel tar mala thodkyat message pathva."
+      ]
+    },
+    {
+      "id": "mr-s033",
+      "kind": "sentence",
+      "native": [
+        "बुकिंग करताना 43 आणि 44 नंबरच्या सीट एकाच डब्यात मिळाल्या."
+      ],
+      "roman": [
+        "Booking kartana 43 aani 44 numberchya seat ekach dabyat milalya."
+      ]
+    },
+    {
+      "id": "mr-s034",
+      "kind": "sentence",
+      "native": [
+        "मोबाइलचा रिचार्ज संपण्याआधी मला आठवण करून दे."
+      ],
+      "roman": [
+        "Mobilecha recharge sampanyaaadhi mala aathvan karun de."
+      ]
+    },
+    {
+      "id": "mr-s035",
+      "kind": "sentence",
+      "native": [
+        "गेल्या महिन्यात काढलेले समुद्राचे फोटो शोध आणि त्यांचा एक वेगळा अल्बम तयार कर."
+      ],
+      "roman": [
+        "Gelya mahinyat kadhlele samudrache photo shodh aani tyancha ek vegla album tayar kar."
+      ]
+    },
+    {
+      "id": "mr-s036",
+      "kind": "sentence",
+      "native": [
+        "शिवाजीनगरच्या दुकानात हा चार्जर 650 रुपयांना मिळतोय."
+      ],
+      "roman": [
+        "Shivajinagarchya dukanat ha charger 650 rupayanna miltoy."
+      ]
+    },
+    {
+      "id": "mr-s037",
+      "kind": "sentence",
+      "native": [
+        "डावीकडच्या गल्लीत वळा."
+      ],
+      "roman": [
+        "Davikadchya gallit vala."
+      ]
+    },
+    {
+      "id": "mr-s038",
+      "kind": "sentence",
+      "native": [
+        "केस कापायला संध्याकाळी तुमच्याकडे वेळ मिळेल का?"
+      ],
+      "roman": [
+        "Kes kapayla sandhyakali tumchyakade vel milel ka?"
+      ]
+    },
+    {
+      "id": "mr-s039",
+      "kind": "sentence",
+      "native": [
+        "मंगळवारी येईन. नाही, थांब, गुरुवारी येणं जास्त सोयीचं होईल."
+      ],
+      "roman": [
+        "Mangalvari yein. Nahi, thamb, guruvari yenan jast soyichan hoil."
+      ]
+    },
+    {
+      "id": "mr-s040",
+      "kind": "sentence",
+      "native": [
+        "वेळ काढलात त्याबद्दल धन्यवाद."
+      ],
+      "roman": [
+        "Vel kadhlat tyabaddal dhanyavad."
+      ]
+    },
+    {
+      "id": "mr-s041",
+      "kind": "sentence",
+      "native": [
+        "तुझ्या मांजराने पुन्हा माझ्या पिशवीत झोप काढली."
+      ],
+      "roman": [
+        "Tujhya manjarane punha majhya pishvit jhop kadhli."
+      ]
+    },
+    {
+      "id": "mr-s042",
+      "kind": "sentence",
+      "native": [
+        "दुपारच्या गर्दीत बिलं करायला माणसं कमी पडत असतील तर मी काउंटरवर मदतीला येऊ का?"
+      ],
+      "roman": [
+        "Duparchya gardit bilan karayla manasan kami padat astil tar mi countervar madatila yeu ka?"
+      ]
+    },
+    {
+      "id": "mr-s043",
+      "kind": "sentence",
+      "native": [
+        "थालीपिठासाठी 250 ग्रॅम भाजणी आणि 2 कांदे पुरतील."
+      ],
+      "roman": [
+        "Thalipithasathi 250 gram bhajani aani 2 kande purtil."
+      ]
+    },
+    {
+      "id": "mr-s044",
+      "kind": "sentence",
+      "native": [
+        "बँकेत जाण्याआधी पासबुक बॅगेत ठेवलंय का ते बघायचं."
+      ],
+      "roman": [
+        "Banket janyaaadhi passbook baget thevlay ka te baghaychan."
+      ]
+    },
+    {
+      "id": "mr-s045",
+      "kind": "sentence",
+      "native": [
+        "कॅलेंडरमध्ये पुढच्या मंगळवारी कोणत्या मीटिंग आहेत ते वाचून दाखव."
+      ],
+      "roman": [
+        "Calendarmadhye pudhchya mangalvari kontya meeting aahet te vachun dakhav."
+      ]
+    },
+    {
+      "id": "mr-s046",
+      "kind": "sentence",
+      "native": [
+        "अॅप उघडल्याबरोबर बंद पडतं, अपडेट करूनही फरक नाही."
+      ],
+      "roman": [
+        "App ughadlyabarobar band padtan, update karunhi pharak nahi."
+      ]
+    },
+    {
+      "id": "mr-s047",
+      "kind": "sentence",
+      "native": [
+        "मावशींच्या सोसायटीत पाहुण्यांची गाडी लावायला वेगळी जागा आहे."
+      ],
+      "roman": [
+        "Mavshinchya societyt pahunyanchi gadi lavayla vegli jaga aahe."
+      ]
+    },
+    {
+      "id": "mr-s048",
+      "kind": "sentence",
+      "native": [
+        "मुलांच्या सहलीसाठी परवानगीचा कागद दिलाय, त्यावर सही करून उद्या दप्तरात ठेवायला विसरू नकोस."
+      ],
+      "roman": [
+        "Mulanchya sahalisathi parvangicha kagad dilay, tyavar sahi karun udya daptarat thevayla visaru nakos."
+      ]
+    },
+    {
+      "id": "mr-s049",
+      "kind": "sentence",
+      "native": [
+        "खिडकी उघडू नका. वाऱ्याने कापडाचे हे छोटे तुकडे उडतील."
+      ],
+      "roman": [
+        "Khidki ughadu naka. Varyane kapdache he chhote tukde udtil."
+      ]
+    },
+    {
+      "id": "mr-s050",
+      "kind": "sentence",
+      "native": [
+        "पहिल्याच प्रयत्नात जमलं नाही म्हणून लगेच निराश होऊ नकोस."
+      ],
+      "roman": [
+        "Pahilyach prayatnat jamlan nahi mhanun lagech nirash hou nakos."
+      ]
+    },
+    {
+      "id": "mr-s051",
+      "kind": "sentence",
+      "native": [
+        "ऋतुजा, तुझं काम आटोपल्यावर मेसेज कर, आपण फक्त अर्धा तास गच्चीवर गप्पा मारू."
+      ],
+      "roman": [
+        "Rutuja, tujhan kaam aatoplyavar message kar, aapan fakt ardha taas gachchivar gappa maru."
+      ]
+    },
+    {
+      "id": "mr-s052",
+      "kind": "sentence",
+      "native": [
+        "माफ करा, सवलत देता येणार नाही."
+      ],
+      "roman": [
+        "Maf kara, savalat deta yenar nahi."
+      ]
+    },
+    {
+      "id": "mr-s053",
+      "kind": "sentence",
+      "native": [
+        "ऑफरमध्ये 1200 रुपयांच्या बॅगवर 25% सूट मिळतेय."
+      ],
+      "roman": [
+        "Offermadhye 1200 rupayanchya bagvar 25% sut miltey."
+      ]
+    },
+    {
+      "id": "mr-s054",
+      "kind": "sentence",
+      "native": [
+        "ठाण्याला निघण्यापूर्वी रेल्वेचा पास काढायचा आहे, विसरू नको."
+      ],
+      "roman": [
+        "Thanyala nighanyapurvi railwaycha pass kadhaycha aahe, visaru nako."
+      ]
+    },
+    {
+      "id": "mr-s055",
+      "kind": "sentence",
+      "native": [
+        "अमरावतीत चपला दुरुस्त करणारं दुकान कुठे आहे?"
+      ],
+      "roman": [
+        "Amravatit chapla durust karnaran dukan kuthe aahe?"
+      ]
+    },
+    {
+      "id": "mr-s056",
+      "kind": "sentence",
+      "native": [
+        "पासवर्ड कोणाला सांगू नकोस."
+      ],
+      "roman": [
+        "Password konala sangu nakos."
+      ]
+    },
+    {
+      "id": "mr-s057",
+      "kind": "sentence",
+      "native": [
+        "पलीकडच्या थांब्यावर उतरलात तर बाजारात जायला कमी चालावं लागेल."
+      ],
+      "roman": [
+        "Palikadchya thambyavar utarlat tar bajarat jayla kami chalavan lagel."
+      ]
+    },
+    {
+      "id": "mr-s058",
+      "kind": "sentence",
+      "native": [
+        "या चादरीचे 450 रुपये थोडे जास्त वाटतायत."
+      ],
+      "roman": [
+        "Ya chadariche 450 rupaye thode jast vatatayat."
+      ]
+    },
+    {
+      "id": "mr-s059",
+      "kind": "sentence",
+      "native": [
+        "चष्मा कुठे ठेवलास रे?"
+      ],
+      "roman": [
+        "Chashma kuthe thevlas re?"
+      ]
+    },
+    {
+      "id": "mr-s060",
+      "kind": "sentence",
+      "native": [
+        "सॉरी, जरा चिडून बोलले."
+      ],
+      "roman": [
+        "Sorry, jara chidun bolale."
+      ]
+    },
+    {
+      "id": "mr-s061",
+      "kind": "sentence",
+      "native": [
+        "आपला जुना फोटो सापडला, हसून हसून पोट दुखलं."
+      ],
+      "roman": [
+        "Aapla juna photo sapadla, hasun hasun pot dukhlan."
+      ]
+    },
+    {
+      "id": "mr-s062",
+      "kind": "sentence",
+      "native": [
+        "तुमच्या ईमेलसोबत जोडलेली यादी उघडत नाही, पुन्हा पाठवाल का?"
+      ],
+      "roman": [
+        "Tumchya emailsobat jodleli yadi ughadat nahi, punha pathval ka?"
+      ]
+    },
+    {
+      "id": "mr-s063",
+      "kind": "sentence",
+      "native": [
+        "बॅटरी फक्त 17% उरलीय."
+      ],
+      "roman": [
+        "Battery fakt 17% uraliy."
+      ]
+    },
+    {
+      "id": "mr-s064",
+      "kind": "sentence",
+      "native": [
+        "शॅम्पूची बाटली घ्यायची आहे."
+      ],
+      "roman": [
+        "Shampoochi batli ghyaychi aahe."
+      ]
+    },
+    {
+      "id": "mr-s065",
+      "kind": "sentence",
+      "native": [
+        "साताऱ्याला जाण्यासाठी टोल टाळून दुसरा रस्ता सुचव."
+      ],
+      "roman": [
+        "Sataryala janyasathi toll talun dusra rasta suchav."
+      ]
+    },
+    {
+      "id": "mr-s066",
+      "kind": "sentence",
+      "native": [
+        "सोलापूरच्या टीमला ट्रेनिंगचं रेकॉर्डिंग हवं आहे, ते गूगल ड्राइव्हवर टाकून त्यांना लिंक पाठवशील का?"
+      ],
+      "roman": [
+        "Solapurchya teamla trainingchan recording havan aahe, te Google Drivevar takun tyanna link pathavshil ka?"
+      ]
+    },
+    {
+      "id": "mr-s067",
+      "kind": "sentence",
+      "native": [
+        "काका दुकानात बसलेत."
+      ],
+      "roman": [
+        "Kaka dukanat baslet."
+      ]
+    },
+    {
+      "id": "mr-s068",
+      "kind": "sentence",
+      "native": [
+        "भात अजून कच्चा आहे."
+      ],
+      "roman": [
+        "Bhat ajun kachcha aahe."
+      ]
+    },
+    {
+      "id": "mr-s069",
+      "kind": "sentence",
+      "native": [
+        "लाल नको, जांभळा दाखवा."
+      ],
+      "roman": [
+        "Lal nako, jambhala dakhva."
+      ]
+    },
+    {
+      "id": "mr-s070",
+      "kind": "sentence",
+      "native": [
+        "पूर्वी सगळ्यांना खूश ठेवायचा खूप प्रयत्न करायचो, पण स्वतःसाठी वेळ ठेवणंही महत्त्वाचं आहे."
+      ],
+      "roman": [
+        "Purvi saglyanna khush thevaycha khup prayatna karaycho, pan swatahsathi vel thevnanhi mahattvachan aahe."
+      ]
+    },
+    {
+      "id": "mr-s071",
+      "kind": "sentence",
+      "native": [
+        "आजोबांना सांग, त्यांनी शिकवलेली भरली वांगी अगदी मस्त जमली."
+      ],
+      "roman": [
+        "Aajobanna sang, tyanni shikavleli bharli vangi agdi mast jamli."
+      ]
+    },
+    {
+      "id": "mr-s072",
+      "kind": "sentence",
+      "native": [
+        "स्क्रीन नीट दिसतेय का?"
+      ],
+      "roman": [
+        "Screen nit distey ka?"
+      ]
+    },
+    {
+      "id": "mr-s073",
+      "kind": "sentence",
+      "native": [
+        "सोमवारच्या सरावाला 12 मुलं आणि 9 मुली येणार आहेत."
+      ],
+      "roman": [
+        "Somvarchya saravala 12 mulan aani 9 muli yenar aahet."
+      ]
+    },
+    {
+      "id": "mr-s074",
+      "kind": "sentence",
+      "native": [
+        "सुट्टीच्या दिवशी पाण्याची टाकी साफ करायला माणूस बोलवायचा आहे, त्यासाठी सोसायटीच्या ग्रुपवर विचारून ठेव."
+      ],
+      "roman": [
+        "Suttichya divshi paanyachi taki saf karayla manus bolvaycha aahe, tyasathi societychya groupvar vicharun thev."
+      ]
+    },
+    {
+      "id": "mr-s075",
+      "kind": "sentence",
+      "native": [
+        "जवळचं पोस्ट ऑफिस किती वाजता उघडतं ते शोध."
+      ],
+      "roman": [
+        "Javalchan post office kiti vajta ughadtan te shodh."
+      ]
+    },
+    {
+      "id": "mr-s076",
+      "kind": "sentence",
+      "native": [
+        "कीबोर्डवर मराठी कसं निवडायचं?"
+      ],
+      "roman": [
+        "Keyboardvar Marathi kasan nivdaychan?"
+      ]
+    },
+    {
+      "id": "mr-s077",
+      "kind": "sentence",
+      "native": [
+        "जेवणाच्या सुट्टीत खाली भेटूया. समोरच्या खानावळीत सगळ्यांसोबत जेवू म्हणजे ओळखही होईल."
+      ],
+      "roman": [
+        "Jevanachya suttit khali bhetuya. Samorchya khanavalit saglyansobat jevu mhanje olakhhi hoil."
+      ]
+    },
+    {
+      "id": "mr-s078",
+      "kind": "sentence",
+      "native": [
+        "बाळाला झोप लागली आहे, दाराची बेल वाजवू नका."
+      ],
+      "roman": [
+        "Balala jhop lagli aahe, darachi bell vajavu naka."
+      ]
+    },
+    {
+      "id": "mr-s079",
+      "kind": "sentence",
+      "native": [
+        "वसुधाला कॉफी द्या, सॉरी, तिला चहा हवा होता."
+      ],
+      "roman": [
+        "Vasudhala coffee dya, sorry, tila chaha hava hota."
+      ]
+    },
+    {
+      "id": "mr-s080",
+      "kind": "sentence",
+      "native": [
+        "मिसळीत इतकं तेल नसतं तर आणखी मजा आली असती."
+      ],
+      "roman": [
+        "Misalit itkan tel nastan tar aankhi maja aali asti."
+      ]
+    },
+    {
+      "id": "mr-s081",
+      "kind": "sentence",
+      "native": [
+        "कॅरम खेळायला येतोस का?"
+      ],
+      "roman": [
+        "Carrom khelayla yetos ka?"
+      ]
+    },
+    {
+      "id": "mr-s082",
+      "kind": "sentence",
+      "native": [
+        "नाशिकच्या शाखेत प्रिंटर बंद असल्यामुळे पावत्या निघत नाहीयेत."
+      ],
+      "roman": [
+        "Nashikchya shakhet printer band aslyamule pavatya nighat nahiyet."
+      ]
+    },
+    {
+      "id": "mr-s083",
+      "kind": "sentence",
+      "native": [
+        "500 रुपयांच्या 4 नोटांऐवजी 100 रुपयांच्या 20 नोटा मिळतील का?"
+      ],
+      "roman": [
+        "500 rupayanchya 4 notanaivaji 100 rupayanchya 20 nota miltil ka?"
+      ]
+    },
+    {
+      "id": "mr-s084",
+      "kind": "sentence",
+      "native": [
+        "अळूवडीसाठी अळूची पानं आणायची आहेत, ती यादीत घाल."
+      ],
+      "roman": [
+        "Aluvadisathi aluchi panan aanaychi aahet, ti yadit ghal."
+      ]
+    },
+    {
+      "id": "mr-s085",
+      "kind": "sentence",
+      "native": [
+        "ऑनलाइन ऑर्डर रद्द करून आठवडा झाला तरी रिफंड मिळाला नाही, आता तक्रार कशी करायची?"
+      ],
+      "roman": [
+        "Online order radda karun aathavda jhala tari refund milala nahi, aata takrar kashi karaychi?"
+      ]
+    },
+    {
+      "id": "mr-s086",
+      "kind": "sentence",
+      "native": [
+        "वैदेहीच्या टॅबलेटमध्ये जागा उरलेली नाही, म्हणून त्यातले जुने व्हिडिओ लॅपटॉपवर हलवायला मदत हवी आहे."
+      ],
+      "roman": [
+        "Vaidehichya tabletmadhye jaga urleli nahi, mhanun tyatle june video laptopvar halvayla madat havi aahe."
+      ]
+    },
+    {
+      "id": "mr-s087",
+      "kind": "sentence",
+      "native": [
+        "कचरा गोळा करणारी गाडी आता मुख्य रस्त्यावर थांबते म्हणून आम्हाला तिथपर्यंत चालत जावं लागतं."
+      ],
+      "roman": [
+        "Kachara gola karnari gadi aata mukhya rastyavar thambte mhanun aamhala tithparyant chalat javan lagtan."
+      ]
+    },
+    {
+      "id": "mr-s088",
+      "kind": "sentence",
+      "native": [
+        "उन्हामुळे फरशी गरम झाली."
+      ],
+      "roman": [
+        "Unhamule pharshi garam jhali."
+      ]
+    },
+    {
+      "id": "mr-s089",
+      "kind": "sentence",
+      "native": [
+        "बाबांसाठी खिडकीजवळची खुर्ची ठेव, नको, तिथे ऊन येतं, त्यापेक्षा पंख्याखाली बसायला जागा कर."
+      ],
+      "roman": [
+        "Babansathi khidkijavalchi khurchi thev, nako, tithe un yetan, tyapeksha pankhyakhali basayla jaga kar."
+      ]
+    },
+    {
+      "id": "mr-s090",
+      "kind": "sentence",
+      "native": [
+        "वा, आज चक्क लवकर उठलास!"
+      ],
+      "roman": [
+        "Va, aaj chakk lavkar uthlas!"
+      ]
+    },
+    {
+      "id": "mr-s091",
+      "kind": "sentence",
+      "native": [
+        "तन्वीरकडून अजून कोटेशन आलेलं नाही, त्याला आठवण करून देशील?"
+      ],
+      "roman": [
+        "Tanveerkadun ajun quotation aalelan nahi, tyala aathvan karun deshil?"
+      ]
+    },
+    {
+      "id": "mr-s092",
+      "kind": "sentence",
+      "native": [
+        "किराण्याचे 350 रुपये आणि भाजीचे 180 रुपये मिळून खर्च 530 रुपये झाला, तो वाटून घेऊ."
+      ],
+      "roman": [
+        "Kiranyache 350 rupaye aani bhajiche 180 rupaye milun kharch 530 rupaye jhala, to vatun gheu."
+      ]
+    },
+    {
+      "id": "mr-s093",
+      "kind": "sentence",
+      "native": [
+        "कपाट आवरताना बाजूला काढलेले कपडे दान करायचे आहेत, ते नेण्यासाठी मोठी कापडी पिशवी शोधायची."
+      ],
+      "roman": [
+        "Kapat aavartana bajula kadhlele kapde dan karayche aahet, te nenyasathi mothi kapdi pishvi shodhaychi."
+      ]
+    },
+    {
+      "id": "mr-s094",
+      "kind": "sentence",
+      "native": [
+        "इरफान शेखला कॉल लाव."
+      ],
+      "roman": [
+        "Irfan Shaikhla call lav."
+      ]
+    },
+    {
+      "id": "mr-s095",
+      "kind": "sentence",
+      "native": [
+        "हेडफोनमधून खरखर ऐकू येतेय."
+      ],
+      "roman": [
+        "Headphonemadhun kharkhar aiku yetey."
+      ]
+    },
+    {
+      "id": "mr-s096",
+      "kind": "sentence",
+      "native": [
+        "सरांना त्यांच्या केबिनमध्ये भेटायला दुपारनंतर गेलात तर बरं."
+      ],
+      "roman": [
+        "Siranna tyanchya cabinmadhye bhetayla duparnantar gelat tar baran."
+      ]
+    },
+    {
+      "id": "mr-s097",
+      "kind": "sentence",
+      "native": [
+        "तुळशीबागेत बांगड्या बघायला गेले होते, पण आवडलेल्या रंगात माझ्या मापाची जोडीच मिळाली नाही."
+      ],
+      "roman": [
+        "Tulshibaget bangdya baghayla gele hote, pan aavadlelya rangat majhya mapachi jodich milali nahi."
+      ]
+    },
+    {
+      "id": "mr-s098",
+      "kind": "sentence",
+      "native": [
+        "टॉवेल, साबण आणि कंगवा एवढंच सामान नेणार आहेस?"
+      ],
+      "roman": [
+        "Towel, saban aani kangva evdhanch saman nenar aahes?"
+      ]
+    },
+    {
+      "id": "mr-s099",
+      "kind": "sentence",
+      "native": [
+        "माझ्यासाठी थोडं जेवण ठेव."
+      ],
+      "roman": [
+        "Majhyasathi thodan jevan thev."
+      ]
+    },
+    {
+      "id": "mr-s100",
+      "kind": "sentence",
+      "native": [
+        "यावेळी प्रेझेंटेशन तू कर, प्रश्नांची उत्तरं द्यायला मी सोबत असेन आणि तयारी आपण एकत्र करू."
+      ],
+      "roman": [
+        "Yaveli presentation tu kar, prashnanchi uttaran dyayla mi sobat asen aani tayari aapan ekatra karu."
+      ]
+    },
+    {
+      "id": "mr-s101",
+      "kind": "sentence",
+      "native": [
+        "अनघाला आज 28 वर्षं झाली."
+      ],
+      "roman": [
+        "Anaghala aaj 28 varshan jhali."
+      ]
+    },
+    {
+      "id": "mr-s102",
+      "kind": "sentence",
+      "native": [
+        "रात्री झोपण्याआधी लॅपटॉपवरच्या कामाचा बॅकअप घ्यायला विसरायचं नाही."
+      ],
+      "roman": [
+        "Ratri jhopanyaaadhi laptopvarchya kamacha backup ghyayla visaraychan nahi."
+      ]
+    },
+    {
+      "id": "mr-s103",
+      "kind": "sentence",
+      "native": [
+        "8 मिनिटांचा टाइमर लाव."
+      ],
+      "roman": [
+        "8 minitancha timer lav."
+      ]
+    },
+    {
+      "id": "mr-s104",
+      "kind": "sentence",
+      "native": [
+        "इंटरनेटचं कनेक्शन वारंवार तुटतं, राउटर थोडा वेळ बंद ठेवूया."
+      ],
+      "roman": [
+        "Internetchan connection varanvar tuttan, router thoda vel band thevuya."
+      ]
+    },
+    {
+      "id": "mr-s105",
+      "kind": "sentence",
+      "native": [
+        "रिक्षा पुलाखाली मिळेल का?"
+      ],
+      "roman": [
+        "Riksha pulakhali milel ka?"
+      ]
+    },
+    {
+      "id": "mr-s106",
+      "kind": "sentence",
+      "native": [
+        "गॅसचं बुकिंग झालं आहे."
+      ],
+      "roman": [
+        "Gaschan booking jhalan aahe."
+      ]
+    },
+    {
+      "id": "mr-s107",
+      "kind": "sentence",
+      "native": [
+        "भाषणाची सुरुवात लिहून झाली. आता पाहुण्यांची नावं योग्य क्रमाने लावते."
+      ],
+      "roman": [
+        "Bhashanachi suruvat lihun jhali. Aata pahunyanchi navan yogya kramane lavte."
+      ]
+    },
+    {
+      "id": "mr-s108",
+      "kind": "sentence",
+      "native": [
+        "पेमेंट अडकलं म्हणतोयस म्हणजे पैसे तुझ्या खात्यातून गेलेत पण दुकानदाराला मिळाले नाहीत असं झालं का?"
+      ],
+      "roman": [
+        "Payment adaklan mhantoyas mhanje paise tujhya khatyatun gelet pan dukandarala milale nahit asan jhalan ka?"
+      ]
+    },
+    {
+      "id": "mr-s109",
+      "kind": "sentence",
+      "native": [
+        "बिलामध्ये 850 रुपये जास्त लावलेत, कृपया तपासून कळवा."
+      ],
+      "roman": [
+        "Billamadhye 850 rupaye jast lavlet, krupaya tapasun kalva."
+      ]
+    },
+    {
+      "id": "mr-s110",
+      "kind": "sentence",
+      "native": [
+        "लिफ्ट 2 दिवस बंद असेल."
+      ],
+      "roman": [
+        "Lift 2 divas band asel."
+      ]
+    },
+    {
+      "id": "mr-s111",
+      "kind": "sentence",
+      "native": [
+        "फराहचा वाढदिवस पुढच्या महिन्यात आहे. तिच्यासाठी नर्सरीतून फुलझाड घेऊन यायचं लक्षात ठेव."
+      ],
+      "roman": [
+        "Farahcha vadhdivas pudhchya mahinyat aahe. Tichyasathi nurserytun phuljhad gheun yaychan lakshat thev."
+      ]
+    },
+    {
+      "id": "mr-s112",
+      "kind": "sentence",
+      "native": [
+        "रत्नागिरीला जाणाऱ्या बसचं उद्याचं तिकीट मिळेल का आणि भाडं किती आहे ते तपास."
+      ],
+      "roman": [
+        "Ratnagirila janarya buschan udyachan tikit milel ka aani bhadan kiti aahe te tapas."
+      ]
+    },
+    {
+      "id": "mr-s113",
+      "kind": "sentence",
+      "native": [
+        "सॉफ्टवेअरमध्ये तारीख बदलताना एरर येतो, बाकी सगळं नीट चालतं असं सपोर्टला लिहून कळवा."
+      ],
+      "roman": [
+        "Softwaremadhye tarikh badaltana error yeto, baki saglan nit chaltan asan supportla lihun kalva."
+      ]
+    },
+    {
+      "id": "mr-s114",
+      "kind": "sentence",
+      "native": [
+        "तिकडच्या बेकरीत केकची ऑर्डर देऊनच पुढे जाऊया."
+      ],
+      "roman": [
+        "Tikadchya bakeryt cakechi order deunch pudhe jauya."
+      ]
+    },
+    {
+      "id": "mr-s115",
+      "kind": "sentence",
+      "native": [
+        "बाई, गृहपाठासाठी धड्यातले प्रश्नसुद्धा लिहायचे की फक्त उत्तरं पुरतील?"
+      ],
+      "roman": [
+        "Bai, gruhpathasathi dhadyatle prashnasuddha lihayche ki fakt uttaran purtil?"
+      ]
+    },
+    {
+      "id": "mr-s116",
+      "kind": "sentence",
+      "native": [
+        "डब्यात सफरचंदाचे काप, खारे शेंगदाणे आणि मनुका भर, अरे हो, छोटा चमचा सुद्धा लागेल."
+      ],
+      "roman": [
+        "Dabyat safarchandache kap, khare shengdane aani manuka bhar, are ho, chhota chamcha suddha lagel."
+      ]
+    },
+    {
+      "id": "mr-s117",
+      "kind": "sentence",
+      "native": [
+        "आई, कपाटातल्या वरच्या खणात तुझी निळी ओढणी आहे."
+      ],
+      "roman": [
+        "Aai, kapatatlya varchya khanat tujhi nili odhani aahe."
+      ]
+    },
+    {
+      "id": "mr-s118",
+      "kind": "sentence",
+      "native": [
+        "नमस्कार, बोलायला वेळ आहे का?"
+      ],
+      "roman": [
+        "Namaskar, bolayla vel aahe ka?"
+      ]
+    },
+    {
+      "id": "mr-s119",
+      "kind": "sentence",
+      "native": [
+        "खोलीचा नंबर 206 आहे."
+      ],
+      "roman": [
+        "Kholicha number 206 aahe."
+      ]
+    },
+    {
+      "id": "mr-s120",
+      "kind": "sentence",
+      "native": [
+        "गुरुवारी मुक्ता जोशींच्या गाण्याच्या कार्यक्रमाला जायचं लक्षात ठेव."
+      ],
+      "roman": [
+        "Guruvari Mukta Joshinchya ganyachya karyakramala jaychan lakshat thev."
+      ]
+    },
+    {
+      "id": "mr-s121",
+      "kind": "sentence",
+      "native": [
+        "टॉर्च बंद कर."
+      ],
+      "roman": [
+        "Torch band kar."
+      ]
+    },
+    {
+      "id": "mr-s122",
+      "kind": "sentence",
+      "native": [
+        "माऊसचं व्हील अडकलं आहे."
+      ],
+      "roman": [
+        "Mousechan wheel adaklan aahe."
+      ]
+    },
+    {
+      "id": "mr-s123",
+      "kind": "sentence",
+      "native": [
+        "आत्यांचा पत्ता बदलला आहे."
+      ],
+      "roman": [
+        "Aatyancha patta badalla aahe."
+      ]
+    },
+    {
+      "id": "mr-s124",
+      "kind": "sentence",
+      "native": [
+        "गणवेशाची बटणं लावलीस का?"
+      ],
+      "roman": [
+        "Ganaveshachi batanan lavlis ka?"
+      ]
+    },
+    {
+      "id": "mr-s125",
+      "kind": "sentence",
+      "native": [
+        "सही इथे करायची का?"
+      ],
+      "roman": [
+        "Sahi ithe karaychi ka?"
+      ]
+    },
+    {
+      "id": "mr-s126",
+      "kind": "sentence",
+      "native": [
+        "छत्री तुझ्याकडे विसरलो बहुतेक."
+      ],
+      "roman": [
+        "Chhatri tujhyakade visarlo bahutek."
+      ]
+    },
+    {
+      "id": "mr-s127",
+      "kind": "sentence",
+      "native": [
+        "इचलकरंजीच्या कारखान्यात कापडाची पहिली बॅच तयार झाली."
+      ],
+      "roman": [
+        "Ichalkaranjichya karkhanyat kapadachi pahili batch tayar jhali."
+      ]
+    },
+    {
+      "id": "mr-s128",
+      "kind": "sentence",
+      "native": [
+        "तिकिटावर 21 नोव्हेंबर 2026 ही तारीख आहे आणि गाडी रात्री 11 वाजून 40 मिनिटांनी सुटेल."
+      ],
+      "roman": [
+        "Tikitavar 21 November 2026 hi tarikh aahe aani gadi ratri 11 vajun 40 minitanni sutel."
+      ]
+    },
+    {
+      "id": "mr-s129",
+      "kind": "sentence",
+      "native": [
+        "पडद्यांची मापं लिहून ठेव."
+      ],
+      "roman": [
+        "Paddyanchi mapan lihun thev."
+      ]
+    },
+    {
+      "id": "mr-s130",
+      "kind": "sentence",
+      "native": [
+        "लॅपटॉपची स्क्रीन बंद झाली तरी सुरू असलेलं डाउनलोड थांबू नये यासाठी कोणती सेटिंग बदलू?"
+      ],
+      "roman": [
+        "Laptopchi screen band jhali tari suru aslelan download thambu naye yasathi konti setting badlu?"
+      ]
+    },
+    {
+      "id": "mr-s131",
+      "kind": "sentence",
+      "native": [
+        "संतोष, तुझा माइक म्यूट असल्यामुळे आम्हाला काहीच ऐकू येत नाही."
+      ],
+      "roman": [
+        "Santosh, tujha mic mute aslyamule aamhala kahich aiku yet nahi."
+      ]
+    },
+    {
+      "id": "mr-s132",
+      "kind": "sentence",
+      "native": [
+        "चिपळूणला पोचल्यावर सलीम मामांच्या गॅरेजजवळ उतर, तुला न्यायला माझा चुलत भाऊ तिथे उभा असेल."
+      ],
+      "roman": [
+        "Chiplunla pochlyavar Salim mamanchya garagejaval utar, tula nyayla majha chulat bhau tithe ubha asel."
+      ]
+    },
+    {
+      "id": "mr-s133",
+      "kind": "sentence",
+      "native": [
+        "मीनलच्या डोहाळजेवणाला आपण सगळ्यांनी हिरव्या साड्या नेसूया का?"
+      ],
+      "roman": [
+        "Minalchya dohaljevanala aapan saglyanni hiravya sadhya nesuya ka?"
+      ]
+    },
+    {
+      "id": "mr-s134",
+      "kind": "sentence",
+      "native": [
+        "केदार, तुझ्या कुंड्यांच्या तळाशी छिद्रं पाडायला मी मदत करू का?"
+      ],
+      "roman": [
+        "Kedar, tujhya kundyanchya talashi chhidran padayla mi madat karu ka?"
+      ]
+    },
+    {
+      "id": "mr-s135",
+      "kind": "sentence",
+      "native": [
+        "बुधवारची मीटिंग दुपारी 3 ऐवजी 4 वाजता घेऊया का?"
+      ],
+      "roman": [
+        "Budhvarchi meeting dupari 3 aivaji 4 vajta gheuya ka?"
+      ]
+    },
+    {
+      "id": "mr-s136",
+      "kind": "sentence",
+      "native": [
+        "फोटोची रुंदी 800 पिक्सेल आणि उंची 600 पिक्सेल ठेवा."
+      ],
+      "roman": [
+        "Photochi rundi 800 pixel aani unchi 600 pixel theva."
+      ]
+    },
+    {
+      "id": "mr-s137",
+      "kind": "sentence",
+      "native": [
+        "पुढचं गाणं लाव."
+      ],
+      "roman": [
+        "Pudhchan gaanan lav."
+      ]
+    },
+    {
+      "id": "mr-s138",
+      "kind": "sentence",
+      "native": [
+        "रश्मी कुलकर्णींचं घर बालगंधर्व रंगमंदिराच्या अगदी समोर आहे."
+      ],
+      "roman": [
+        "Rashmi Kulkarninchan ghar Balgandharva Rangmandirachya agdi samor aahe."
+      ]
+    },
+    {
+      "id": "mr-s139",
+      "kind": "sentence",
+      "native": [
+        "सिमरन, तुझ्या नाटकाची तिकिटं आमच्यासाठीही काढशील का?"
+      ],
+      "roman": [
+        "Simran, tujhya natakachi tikitan aamchyasathihi kadhshil ka?"
+      ]
+    },
+    {
+      "id": "mr-s140",
+      "kind": "sentence",
+      "native": [
+        "क्लायंटला नवीन डिझाइन पसंत पडलं, रंग मात्र बदलावे लागतील."
+      ],
+      "roman": [
+        "Clientla navin design pasant padlan, rang matra badlave lagtil."
+      ]
+    },
+    {
+      "id": "mr-s141",
+      "kind": "sentence",
+      "native": [
+        "कुरिअरवर फ्लॅट 12, इमारत 3, कोथरूड, पुणे असा पत्ता लिहा आणि दुपारी 2 नंतर पाठवा."
+      ],
+      "roman": [
+        "Couriervar flat 12, imarat 3, Kothrud, Pune asa patta liha aani dupari 2 nantar pathva."
+      ]
+    },
+    {
+      "id": "mr-s142",
+      "kind": "sentence",
+      "native": [
+        "इकडे सकाळपासून वीज नाहीये."
+      ],
+      "roman": [
+        "Ikde sakalpasun vij nahiye."
+      ]
+    },
+    {
+      "id": "mr-s143",
+      "kind": "sentence",
+      "native": [
+        "रजेचा अर्ज मंजूर केला."
+      ],
+      "roman": [
+        "Rajecha arj manjur kela."
+      ]
+    },
+    {
+      "id": "mr-s144",
+      "kind": "sentence",
+      "native": [
+        "सकाळचा अलार्म 6 वाजता लाव."
+      ],
+      "roman": [
+        "Sakalcha alarm 6 vajta lav."
+      ]
+    },
+    {
+      "id": "mr-s145",
+      "kind": "sentence",
+      "native": [
+        "बरं, मग संध्याकाळचा बेत पक्का समजू ना?"
+      ],
+      "roman": [
+        "Baran, mag sandhyakalcha bet pakka samju na?"
+      ]
+    },
+    {
+      "id": "mr-s146",
+      "kind": "sentence",
+      "native": [
+        "येताना अर्धा किलो टोमॅटो आणशील का रे?"
+      ],
+      "roman": [
+        "Yetana ardha kilo tomato aanshil ka re?"
+      ]
+    },
+    {
+      "id": "mr-s147",
+      "kind": "sentence",
+      "native": [
+        "सुट्टीत मुलांना तुमच्याकडे पाठवू का, म्हणजे त्यांना बागेत खेळायला मिळेल आणि मलाही घर आवरता येईल?"
+      ],
+      "roman": [
+        "Suttit mulanna tumchyakade pathavu ka, mhanje tyanna baget khelayla milel aani malahi ghar aavarta yeil?"
+      ]
+    },
+    {
+      "id": "mr-s148",
+      "kind": "sentence",
+      "native": [
+        "नेहाला सांग, तिचं पुस्तक मी रविवारी परत देईन."
+      ],
+      "roman": [
+        "Nehala sang, tichan pustak mi ravivari parat dein."
+      ]
+    },
+    {
+      "id": "mr-s149",
+      "kind": "sentence",
+      "native": [
+        "उद्या दादरला भेटू, तिथून सोबत गाडी पकडू."
+      ],
+      "roman": [
+        "Udya Dadarla bhetu, tithun sobat gadi pakdu."
+      ]
+    },
+    {
+      "id": "mr-s150",
+      "kind": "sentence",
+      "native": [
+        "घरी पोचलो, काळजी करू नकोस."
+      ],
+      "roman": [
+        "Ghari pochlo, kalji karu nakos."
+      ]
+    }
+  ]
+}

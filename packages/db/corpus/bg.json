@@ -1,0 +1,1879 @@
+{
+  "lang": "bg",
+  "starter": [
+    "bg-s043",
+    "bg-s108",
+    "bg-s125",
+    "bg-s062",
+    "bg-s068",
+    "bg-s105",
+    "bg-s085",
+    "bg-s091",
+    "bg-s048",
+    "bg-s016",
+    "bg-s136",
+    "bg-s144",
+    "bg-s060",
+    "bg-s159",
+    "bg-s087",
+    "bg-s009",
+    "bg-s140",
+    "bg-s020",
+    "bg-p01",
+    "bg-s132",
+    "bg-s095",
+    "bg-s133",
+    "bg-s089",
+    "bg-s151",
+    "bg-s106",
+    "bg-s156",
+    "bg-s122",
+    "bg-s119",
+    "bg-s033",
+    "bg-s126",
+    "bg-s115",
+    "bg-s157",
+    "bg-s121",
+    "bg-s109",
+    "bg-s134",
+    "bg-s064",
+    "bg-s148",
+    "bg-p07",
+    "bg-s006",
+    "bg-s150",
+    "bg-s054",
+    "bg-s005",
+    "bg-s084",
+    "bg-s111",
+    "bg-s100",
+    "bg-s027",
+    "bg-s145",
+    "bg-s061",
+    "bg-s147",
+    "bg-s010",
+    "bg-s090",
+    "bg-s058",
+    "bg-s086",
+    "bg-s124",
+    "bg-s110",
+    "bg-s154"
+  ],
+  "items": [
+    {
+      "id": "bg-p01",
+      "kind": "para",
+      "title": "Our New Cat",
+      "native": [
+        "Мира, от вчера в апартамента ни в Люлин живее котаракът Рони.",
+        "Взехме го от приют и още свиква с новото място.",
+        "Първо се скри под дивана, но после излезе за малко храна.",
+        "Сега обикаля стаите и си търси удобно място за спане.",
+        "Купих му меко легло, а той избра кашона от новата прахосмукачка.",
+        "Майка ми уж не искаше котка, а вече му говори непрекъснато.",
+        "Довечера ще сложим мрежа на балкона, за да не излиза навън.",
+        "Ела в неделя да го видиш и да пием по кафе.",
+        "Само си прибери връзките на обувките, защото Рони вече ги хареса."
+      ],
+      "roman": [
+        "Mira, ot vchera v apartamenta ni v Lyulin zhivee kotarakat Roni.",
+        "Vzehme go ot priyut i oshte svikva s novoto myasto.",
+        "Parvo se skri pod divana, no posle izleze za malko hrana.",
+        "Sega obikalya staite i si tarsi udobno myasto za spane.",
+        "Kupih mu meko leglo, a toy izbra kashona ot novata prahosmukachka.",
+        "Mayka mi uzh ne iskashe kotka, a veche mu govori neprekasnato.",
+        "Dovechera shte slozhim mrezha na balkona, za da ne izliza navan.",
+        "Ela v nedelya da go vidish i da piem po kafe.",
+        "Samo si priberi vrazkite na obuvkite, zashtoto Roni veche gi haresa."
+      ]
+    },
+    {
+      "id": "bg-p02",
+      "kind": "para",
+      "title": "Feedback on Repeat Orders",
+      "native": [
+        "Здравейте, изпращам обобщение на отзивите за новата функция за повторна поръчка.",
+        "Пробвахме функцията за повторна поръчка с клиенти на магазина ни в Пловдив.",
+        "На повечето хора им харесва, че вече не се налага да добавят всеки продукт поотделно.",
+        "Няколко потребители обаче трудно намират бутона, когато поръчват през телефона.",
+        "Една клиентка очакваше да види и бележката от предишната си доставка.",
+        "В момента се прехвърлят само продуктите, а полето за бележка остава празно.",
+        "Моля да преместим бутона по-нагоре и да запазваме бележките за доставка.",
+        "Ще поканя клиентите, които пробваха повторната поръчка, да я тестват отново след промените.",
+        "Пишете ми до четвъртък, ако има пречки да преместим бутона и да запазваме бележките за доставка."
+      ],
+      "roman": [
+        "Zdraveyte, izprashtam obobshtenie na otzivite za novata funktsiya za povtorna porachka.",
+        "Probvahme funktsiyata za povtorna porachka s klienti na magazina ni v Plovdiv.",
+        "Na povecheto hora im haresva, che veche ne se nalaga da dobavyat vseki produkt pootdelno.",
+        "Nyakolko potrebiteli obache trudno namirat butona, kogato porachvat prez telefona.",
+        "Edna klientka ochakvashe da vidi i belezhkata ot predishnata si dostavka.",
+        "V momenta se prehvarlyat samo produktite, a poleto za belezhka ostava prazno.",
+        "Molya da premestim butona po-nagore i da zapazvame belezhkite za dostavka.",
+        "Shte pokanya klientite, koito probvaha povtornata porachka, da ya testvat otnovo sled promenite.",
+        "Pishete mi do chetvartak, ako ima prechki da premestim butona i da zapazvame belezhkite za dostavka."
+      ]
+    },
+    {
+      "id": "bg-p03",
+      "kind": "para",
+      "title": "Rain at the Market",
+      "native": [
+        "В събота отидох на пазара Краснодар в Бургас за пресни зеленчуци.",
+        "Беше топло и оставих чадъра вкъщи, въпреки че по прогнозата щеше да вали.",
+        "Избрах розови домати, връзка магданоз и няколко чушки за пълнене.",
+        "Тъкмо плащах на продавачката, когато заваля силно.",
+        "За минута пътеката между сергиите се покри с локви.",
+        "Жената ми подаде още една торба, за да не се намокрят зеленчуците.",
+        "Скрих се под навеса до една баба с пазарска количка.",
+        "Докато чакахме, тя ми разказа как прави лютеница на село.",
+        "Прибрах се с мокри обувки, но поне научих нова рецепта за лютеница."
+      ],
+      "roman": [
+        "V sabota otidoh na pazara Krasnodar v Burgas za presni zelenchutsi.",
+        "Beshe toplo i ostavih chadara vkashti, vapreki che po prognozata shteshe da vali.",
+        "Izbrah rozovi domati, vrazka magdanoz i nyakolko chushki za palnene.",
+        "Takmo plashtah na prodavachkata, kogato zavalya silno.",
+        "Za minuta patekata mezhdu sergiite se pokri s lokvi.",
+        "Zhenata mi podade oshte edna torba, za da ne se namokryat zelenchutsite.",
+        "Skrih se pod navesa do edna baba s pazarska kolichka.",
+        "Dokato chakahme, tya mi razkaza kak pravi lyutenitsa na selo.",
+        "Pribrah se s mokri obuvki, no pone nauchih nova retsepta za lyutenitsa."
+      ]
+    },
+    {
+      "id": "bg-p04",
+      "kind": "para",
+      "title": "Caring for Balcony Herbs",
+      "native": [
+        "За билките на балкона избери здрави саксии с отвори отдолу.",
+        "Първо сложи подложки, за да не капе вода при съседите.",
+        "Напълни саксиите с почва, но остави малко място до горния ръб.",
+        "Засади босилека на слънце, а ментата премести в по-сенчестия край.",
+        "Всяка сутрин проверявай с пръст дали почвата под повърхността е суха.",
+        "Ако почвата е суха, полей бавно около стъблата, без да мокриш листата.",
+        "След поливането излей останалата вода от подложките, за да не застоява.",
+        "При силен вятър прибирай леките саксии навътре, близо до стената.",
+        "Веднъж седмично махай изсъхналите листа и разрохквай внимателно почвата с вилица."
+      ],
+      "roman": [
+        "Za bilkite na balkona izberi zdravi saksii s otvori otdolu.",
+        "Parvo slozhi podlozhki, za da ne kape voda pri sasedite.",
+        "Napalni saksiite s pochva, no ostavi malko myasto do gorniya rab.",
+        "Zasadi bosileka na slantse, a mentata premesti v po-senchestiya kray.",
+        "Vsyaka sutrin proveryavay s prast dali pochvata pod povarhnostta e suha.",
+        "Ako pochvata e suha, poley bavno okolo stablata, bez da mokrish listata.",
+        "Sled polivaneto izley ostanalata voda ot podlozhkite, za da ne zastoyava.",
+        "Pri silen vyatar pribiray lekite saksii navatre, blizo do stenata.",
+        "Vednazh sedmichno mahay izsahnalite lista i razrohkvay vnimatelno pochvata s vilitsa."
+      ]
+    },
+    {
+      "id": "bg-p05",
+      "kind": "para",
+      "title": "Laptop Test in Ruse",
+      "native": [
+        "Новият ми лаптоп вече мина първия си тест в центъра на Русе.",
+        "Работих цял следобед в едно кафене на улица Александровска.",
+        "Екранът се вижда добре дори на масата до големия прозорец.",
+        "Клавиатурата е удобна и след няколко часа писане пръстите ми не се уморяват.",
+        "Най-много ме зарадва батерията, защото този път зарядното остана в раницата.",
+        "При видеоразговор обаче вентилаторът се чуваше доста отчетливо.",
+        "Камерата също не ме впечатли, а за работните срещи ми трябва.",
+        "Лаптопът отваря снимки и документи бързо, но още не съм пробвал игри.",
+        "Не беше евтин, затова очаквах по-добър звук, но като цяло съм доволен."
+      ],
+      "roman": [
+        "Noviyat mi laptop veche mina parviya si test v tsentara na Ruse.",
+        "Rabotih tsyal sledobed v edno kafene na ulitsa Aleksandrovska.",
+        "Ekranat se vizhda dobre dori na masata do golemiya prozorets.",
+        "Klaviaturata e udobna i sled nyakolko chasa pisane prastite mi ne se umoryavat.",
+        "Nay-mnogo me zaradva bateriyata, zashtoto tozi pat zaryadnoto ostana v ranitsata.",
+        "Pri videorazgovor obache ventilatorat se chuvashe dosta otchetlivo.",
+        "Kamerata sashto ne me vpechatli, a za rabotnite sreshti mi tryabva.",
+        "Laptopat otvarya snimki i dokumenti barzo, no oshte ne sam probval igri.",
+        "Ne beshe evtin, zatova ochakvah po-dobar zvuk, no kato tsyalo sam dovolen."
+      ]
+    },
+    {
+      "id": "bg-p06",
+      "kind": "para",
+      "title": "Team Trip to Tryavna",
+      "native": [
+        "За екипното пътуване до Трявна предлагам 15 май 2026 година.",
+        "Тръгваме от Габрово в 9:30 и пристигаме около 10:00.",
+        "Пътят е около 25 километра, така че няма да бързаме.",
+        "Ще бъдем 8 души и ще пътуваме с 2 коли.",
+        "Двойната стая струва 95 евро на вечер, а ни трябват 4.",
+        "За 2 нощувки общата цена на стаите излиза 760 евро.",
+        "В събота започваме работната част в 10:00 и приключваме в 12:30.",
+        "За обяда отделяме по 18,50 евро на човек, без напитките.",
+        "Връщаме се на 17 май след закуската, най-късно до 11:00."
+      ],
+      "roman": [
+        "Za ekipnoto patuvane do Tryavna predlagam 15 may 2026 godina.",
+        "Tragvame ot Gabrovo v 9:30 i pristigame okolo 10:00.",
+        "Patyat e okolo 25 kilometra, taka che nyama da barzame.",
+        "Shte badem 8 dushi i shte patuvame s 2 koli.",
+        "Dvoynata staya struva 95 evro na vecher, a ni tryabvat 4.",
+        "Za 2 noshtuvki obshtata tsena na staite izliza 760 evro.",
+        "V sabota zapochvame rabotnata chast v 10:00 i priklyuchvame v 12:30.",
+        "Za obyada otdelyame po 18,50 evro na chovek, bez napitkite.",
+        "Vrashtame se na 17 may sled zakuskata, nay-kasno do 11:00."
+      ]
+    },
+    {
+      "id": "bg-p07",
+      "kind": "para",
+      "title": "A Leaking Kitchen Tap",
+      "native": [
+        "Здравейте, господин Николов, пиша Ви за апартамента в Кършияка.",
+        "От вчера кранът на кухненската чешма капе, въпреки че го затягам.",
+        "Проблемът е само в кухнята, а в банята всичко е наред.",
+        "Под мивката засега е сухо, но капенето вече се засилва.",
+        "Бихте ли изпратили водопроводчик да провери дали уплътнението е за смяна?",
+        "Утре ще съм вкъщи след 17:30 и мога да го посрещна.",
+        "В петък мога да осигуря достъп и сутринта между 9:00 и 11:00.",
+        "Моля, кажете ми дали Вие ще уговорите посещението, или да потърся майстор.",
+        "Ще Ви изпратя и снимка по Viber, за да видите модела на крана."
+      ],
+      "roman": [
+        "Zdraveyte, gospodin Nikolov, pisha vi za apartamenta v Karshiyaka.",
+        "Ot vchera kranat na kuhnenskata cheshma kape, vapreki che go zatyagam.",
+        "Problemat e samo v kuhnyata, a v banyata vsichko e nared.",
+        "Pod mivkata zasega e suho, no kapeneto veche se zasilva.",
+        "Bihte li izpratili vodoprovodchik da proveri dali uplatnenieto e za smyana?",
+        "Utre shte sam vkashti sled 17:30 i moga da go posreshtna.",
+        "V petak moga da osigurya dostap i sutrinta mezhdu 9:00 i 11:00.",
+        "Molya, kazhete mi dali vie shte ugovorite poseshtenieto, ili da potarsya maystor.",
+        "Shte vi izpratya i snimka po Viber, za da vidite modela na krana."
+      ]
+    },
+    {
+      "id": "bg-p08",
+      "kind": "para",
+      "title": "Pottery in Troyan",
+      "native": [
+        "В Троян и днес има семейства, които се прехранват с грънчарство.",
+        "В работилниците около Орешак правят глинени стомни, кани и гювечи.",
+        "Майсторът слага влажната глина на грънчарското колело и с ръце оформя съда.",
+        "Глинените съдове съхнат бавно, за да не се напукат при изпичането.",
+        "Троянската керамика лесно се познава по топлите цветове и преливащите шарки.",
+        "След първото изпичане съдовете се покриват с глазура и се пекат още веднъж.",
+        "Можеш да купиш троянска керамика от магазините в Троян или от изложението в Орешак.",
+        "На изложението в Орешак можеш да разгледаш отблизо глинени съдове с различни форми и шарки.",
+        "Ръчно направените купи и чинии са хубав подарък, но можеш да ги ползваш и вкъщи."
+      ],
+      "roman": [
+        "V Troyan i dnes ima semeystva, koito se prehranvat s grancharstvo.",
+        "V rabotilnitsite okolo Oreshak pravyat glineni stomni, kani i gyuvechi.",
+        "Maystorat slaga vlazhnata glina na grancharskoto kolelo i s ratse oformya sada.",
+        "Glinenite sadove sahnat bavno, za da ne se napukat pri izpichaneto.",
+        "Troyanskata keramika lesno se poznava po toplite tsvetove i prelivashtite sharki.",
+        "Sled parvoto izpichane sadovete se pokrivat s glazura i se pekat oshte vednazh.",
+        "Mozhesh da kupish troyanska keramika ot magazinite v Troyan ili ot izlozhenieto v Oreshak.",
+        "Na izlozhenieto v Oreshak mozhesh da razgledash otblizo glineni sadove s razlichni formi i sharki.",
+        "Rachno napravenite kupi i chinii sa hubav podarak, no mozhesh da gi polzvash i vkashti."
+      ]
+    },
+    {
+      "id": "bg-s001",
+      "kind": "sentence",
+      "native": [
+        "Забравих си слънчевите очила у вас, но няма да ми трябват скоро, така че ги прибери някъде."
+      ],
+      "roman": [
+        "Zabravih si slanchevite ochila u vas, no nyama da mi tryabvat skoro, taka che gi priberi nyakade."
+      ]
+    },
+    {
+      "id": "bg-s002",
+      "kind": "sentence",
+      "native": [
+        "Добавих коментар към черновата."
+      ],
+      "roman": [
+        "Dobavih komentar kam chernovata."
+      ]
+    },
+    {
+      "id": "bg-s003",
+      "kind": "sentence",
+      "native": [
+        "Извинете, номер 43 за гише 7 мина ли вече?"
+      ],
+      "roman": [
+        "Izvinete, nomer 43 za gishe 7 mina li veche?"
+      ]
+    },
+    {
+      "id": "bg-s004",
+      "kind": "sentence",
+      "native": [
+        "Да проверя филтъра на прахосмукачката."
+      ],
+      "roman": [
+        "Da proverya filtara na prahosmukachkata."
+      ]
+    },
+    {
+      "id": "bg-s005",
+      "kind": "sentence",
+      "native": [
+        "Увеличи яркостта на екрана."
+      ],
+      "roman": [
+        "Uvelichi yarkostta na ekrana."
+      ]
+    },
+    {
+      "id": "bg-s006",
+      "kind": "sentence",
+      "native": [
+        "Силвия си забрави микрофона включен."
+      ],
+      "roman": [
+        "Silviya si zabravi mikrofona vklyuchen."
+      ]
+    },
+    {
+      "id": "bg-s007",
+      "kind": "sentence",
+      "native": [
+        "Отсреща продават билети, но касата отваря чак следобед."
+      ],
+      "roman": [
+        "Otsreshta prodavat bileti, no kasata otvarya chak sledobed."
+      ]
+    },
+    {
+      "id": "bg-s008",
+      "kind": "sentence",
+      "native": [
+        "Пощальонът остави известие, трябва да отида до пощата."
+      ],
+      "roman": [
+        "Poshtalyonat ostavi izvestie, tryabva da otida do poshtata."
+      ]
+    },
+    {
+      "id": "bg-s009",
+      "kind": "sentence",
+      "native": [
+        "Всичките круши ли са узрели?"
+      ],
+      "roman": [
+        "Vsichkite krushi li sa uzreli?"
+      ]
+    },
+    {
+      "id": "bg-s010",
+      "kind": "sentence",
+      "native": [
+        "Продължавай смело, справяш се все по-добре с всяка репетиция."
+      ],
+      "roman": [
+        "Prodalzhavay smelo, spravyash se vse po-dobre s vsyaka repetitsiya."
+      ]
+    },
+    {
+      "id": "bg-s011",
+      "kind": "sentence",
+      "native": [
+        "Звънни ми, когато се освободиш."
+      ],
+      "roman": [
+        "Zvanni mi, kogato se osvobodish."
+      ]
+    },
+    {
+      "id": "bg-s012",
+      "kind": "sentence",
+      "native": [
+        "Колегите от Русе потвърдиха участието си в обучението."
+      ],
+      "roman": [
+        "Kolegite ot Ruse potvardiha uchastieto si v obuchenieto."
+      ]
+    },
+    {
+      "id": "bg-s013",
+      "kind": "sentence",
+      "native": [
+        "Сметката излезе 18,40 евро общо."
+      ],
+      "roman": [
+        "Smetkata izleze 18,40 evro obshto."
+      ]
+    },
+    {
+      "id": "bg-s014",
+      "kind": "sentence",
+      "native": [
+        "Когато мина през Казанлък, да оставя старите снимки при леля, за да ги сканира."
+      ],
+      "roman": [
+        "Kogato mina prez Kazanlak, da ostavya starite snimki pri lelya, za da gi skanira."
+      ]
+    },
+    {
+      "id": "bg-s015",
+      "kind": "sentence",
+      "native": [
+        "Какво ще е времето в Сандански през уикенда?"
+      ],
+      "roman": [
+        "Kakvo shte e vremeto v Sandanski prez uikenda?"
+      ]
+    },
+    {
+      "id": "bg-s016",
+      "kind": "sentence",
+      "native": [
+        "Явор обработва снимките, а аз подготвям надписите."
+      ],
+      "roman": [
+        "Yavor obrabotva snimkite, a az podgotvyam nadpisite."
+      ]
+    },
+    {
+      "id": "bg-s017",
+      "kind": "sentence",
+      "native": [
+        "Братовчед ми Калоян държи велосервиз в Лозенец."
+      ],
+      "roman": [
+        "Bratovched mi Kaloyan darzhi veloserviz v Lozenets."
+      ]
+    },
+    {
+      "id": "bg-s018",
+      "kind": "sentence",
+      "native": [
+        "Супата има нужда от сол."
+      ],
+      "roman": [
+        "Supata ima nuzhda ot sol."
+      ]
+    },
+    {
+      "id": "bg-s019",
+      "kind": "sentence",
+      "native": [
+        "Започнах да гладя ризата, обаче първо трябва да почистя ютията."
+      ],
+      "roman": [
+        "Zapochnah da gladya rizata, obache parvo tryabva da pochistya yutiyata."
+      ]
+    },
+    {
+      "id": "bg-s020",
+      "kind": "sentence",
+      "native": [
+        "Дразни ме, че в басейна в Разград няма свободни шкафчета."
+      ],
+      "roman": [
+        "Drazni me, che v baseyna v Razgrad nyama svobodni shkafcheta."
+      ]
+    },
+    {
+      "id": "bg-s021",
+      "kind": "sentence",
+      "native": [
+        "Надя, ще успееш ли да вземеш детето от занималнята в 17:30, че още съм на работа?"
+      ],
+      "roman": [
+        "Nadya, shte uspeesh li da vzemesh deteto ot zanimalnyata v 17:30, che oshte sam na rabota?"
+      ]
+    },
+    {
+      "id": "bg-s022",
+      "kind": "sentence",
+      "native": [
+        "Вторник имаме среща с партньорите в Пловдив, затова предлагам да преместим оперативката за сряда."
+      ],
+      "roman": [
+        "Vtornik imame sreshta s partnyorite v Plovdiv, zatova predlagam da premestim operativkata za sryada."
+      ]
+    },
+    {
+      "id": "bg-s023",
+      "kind": "sentence",
+      "native": [
+        "Победихме с 3 на 1."
+      ],
+      "roman": [
+        "Pobedihme s 3 na 1."
+      ]
+    },
+    {
+      "id": "bg-s024",
+      "kind": "sentence",
+      "native": [
+        "Сложи ми напомняне за неделя да сменя водата в аквариума и да почистя стъклото."
+      ],
+      "roman": [
+        "Slozhi mi napomnyane za nedelya da smenya vodata v akvariuma i da pochistya stakloto."
+      ]
+    },
+    {
+      "id": "bg-s025",
+      "kind": "sentence",
+      "native": [
+        "Преведи на испански как да стигна до летището."
+      ],
+      "roman": [
+        "Prevedi na ispanski kak da stigna do letishteto."
+      ]
+    },
+    {
+      "id": "bg-s026",
+      "kind": "sentence",
+      "native": [
+        "Мога да Ви заема графичния си таблет за няколко дни, за да го пробвате преди покупката."
+      ],
+      "roman": [
+        "Moga da vi zaema grafichniya si tablet za nyakolko dni, za da go probvate predi pokupkata."
+      ]
+    },
+    {
+      "id": "bg-s027",
+      "kind": "sentence",
+      "native": [
+        "Леля Зорка препоръча малката пекарна зад Часовниковата кула в Трявна."
+      ],
+      "roman": [
+        "Lelya Zorka preporacha malkata pekarna zad Chasovnikovata kula v Tryavna."
+      ]
+    },
+    {
+      "id": "bg-s028",
+      "kind": "sentence",
+      "native": [
+        "Приемате ли одеяла за пране тук, или трябва да ги занеса в другия ви обект?"
+      ],
+      "roman": [
+        "Priemate li odeyala za prane tuk, ili tryabva da gi zanesa v drugiya vi obekt?"
+      ]
+    },
+    {
+      "id": "bg-s029",
+      "kind": "sentence",
+      "native": [
+        "Порцията таратор с копър ли е, или без?"
+      ],
+      "roman": [
+        "Portsiyata tarator s kopar li e, ili bez?"
+      ]
+    },
+    {
+      "id": "bg-s030",
+      "kind": "sentence",
+      "native": [
+        "Обожавам тишината в Копривщица, особено рано сутрин през есента."
+      ],
+      "roman": [
+        "Obozhavam tishinata v Koprivshtitsa, osobeno rano sutrin prez esenta."
+      ]
+    },
+    {
+      "id": "bg-s031",
+      "kind": "sentence",
+      "native": [
+        "Снежана вече си хареса рокля за абитуриентския бал."
+      ],
+      "roman": [
+        "Snezhana veche si haresa roklya za abiturientskiya bal."
+      ]
+    },
+    {
+      "id": "bg-s032",
+      "kind": "sentence",
+      "native": [
+        "Здравейте, бих искала повече информация за свободната позиция."
+      ],
+      "roman": [
+        "Zdraveyte, bih iskala poveche informatsiya za svobodnata pozitsiya."
+      ]
+    },
+    {
+      "id": "bg-s033",
+      "kind": "sentence",
+      "native": [
+        "Резервацията е за 4 нощувки в стая 208 със закуска."
+      ],
+      "roman": [
+        "Rezervatsiyata e za 4 noshtuvki v staya 208 sas zakuska."
+      ]
+    },
+    {
+      "id": "bg-s034",
+      "kind": "sentence",
+      "native": [
+        "В сряда трябва да занеса обувките на обущар."
+      ],
+      "roman": [
+        "V sryada tryabva da zanesa obuvkite na obushtar."
+      ]
+    },
+    {
+      "id": "bg-s035",
+      "kind": "sentence",
+      "native": [
+        "Ще се побере ли диван с ширина 180 сантиметра в ниша, която е широка 195 сантиметра?"
+      ],
+      "roman": [
+        "Shte se pobere li divan s shirina 180 santimetra v nisha, koyato e shiroka 195 santimetra?"
+      ]
+    },
+    {
+      "id": "bg-s036",
+      "kind": "sentence",
+      "native": [
+        "Всъщност браузърът помни старата версия. Пробвай в режим инкогнито."
+      ],
+      "roman": [
+        "Vsashtnost brauzarat pomni starata versiya. Probvay v rezhim inkognito."
+      ]
+    },
+    {
+      "id": "bg-s037",
+      "kind": "sentence",
+      "native": [
+        "Десислава живее срещу Женския пазар."
+      ],
+      "roman": [
+        "Desislava zhivee sreshtu Zhenskiya pazar."
+      ]
+    },
+    {
+      "id": "bg-s038",
+      "kind": "sentence",
+      "native": [
+        "Навън духа доста студен вятър."
+      ],
+      "roman": [
+        "Navan duha dosta studen vyatar."
+      ]
+    },
+    {
+      "id": "bg-s039",
+      "kind": "sentence",
+      "native": [
+        "Чакай, четвъртък казах, не понеделник."
+      ],
+      "roman": [
+        "Chakay, chetvartak kazah, ne ponedelnik."
+      ]
+    },
+    {
+      "id": "bg-s040",
+      "kind": "sentence",
+      "native": [
+        "Много красиво сте опаковали подаръка!"
+      ],
+      "roman": [
+        "Mnogo krasivo ste opakovali podaraka!"
+      ]
+    },
+    {
+      "id": "bg-s041",
+      "kind": "sentence",
+      "native": [
+        "Заповядай, вратата вече е отключена."
+      ],
+      "roman": [
+        "Zapovyaday, vratata veche e otklyuchena."
+      ]
+    },
+    {
+      "id": "bg-s042",
+      "kind": "sentence",
+      "native": [
+        "Предпочитате ли да Ви донеса мострата на място, за да проверите цвета на дневна светлина?"
+      ],
+      "roman": [
+        "Predpochitate li da vi donesa mostrata na myasto, za da proverite tsveta na dnevna svetlina?"
+      ]
+    },
+    {
+      "id": "bg-s043",
+      "kind": "sentence",
+      "native": [
+        "Дядо навършва 78 тази събота."
+      ],
+      "roman": [
+        "Dyado navarshva 78 tazi sabota."
+      ]
+    },
+    {
+      "id": "bg-s044",
+      "kind": "sentence",
+      "native": [
+        "Добави гъби към списъка за пазаруване."
+      ],
+      "roman": [
+        "Dobavi gabi kam spisaka za pazaruvane."
+      ]
+    },
+    {
+      "id": "bg-s045",
+      "kind": "sentence",
+      "native": [
+        "Защо банкоматът ми върна картата, без да ми даде пари?"
+      ],
+      "roman": [
+        "Zashto bankomatat mi varna kartata, bez da mi dade pari?"
+      ]
+    },
+    {
+      "id": "bg-s046",
+      "kind": "sentence",
+      "native": [
+        "Новият ъпдейт размести всички икони на началния екран."
+      ],
+      "roman": [
+        "Noviyat apdeyt razmesti vsichki ikoni na nachalniya ekran."
+      ]
+    },
+    {
+      "id": "bg-s047",
+      "kind": "sentence",
+      "native": [
+        "Срещаме се при фонтана, откъм входа на парка."
+      ],
+      "roman": [
+        "Sreshtame se pri fontana, otkam vhoda na parka."
+      ]
+    },
+    {
+      "id": "bg-s048",
+      "kind": "sentence",
+      "native": [
+        "Севда събира по 7,50 евро за подаръка на учителката."
+      ],
+      "roman": [
+        "Sevda sabira po 7,50 evro za podaraka na uchitelkata."
+      ]
+    },
+    {
+      "id": "bg-s049",
+      "kind": "sentence",
+      "native": [
+        "Само корицата разпечатай, а, чакай, трябват ми и последните страници."
+      ],
+      "roman": [
+        "Samo koritsata razpechatay, a, chakay, tryabvat mi i poslednite stranitsi."
+      ]
+    },
+    {
+      "id": "bg-s050",
+      "kind": "sentence",
+      "native": [
+        "Радвам се, че отказах допълнителните задачи, защото най-после имам време просто да поседя на спокойствие."
+      ],
+      "roman": [
+        "Radvam se, che otkazah dopalnitelnite zadachi, zashtoto nay-posle imam vreme prosto da posedya na spokoystvie."
+      ]
+    },
+    {
+      "id": "bg-s051",
+      "kind": "sentence",
+      "native": [
+        "Няма нужда да носиш десерт, направих палачинки за всички."
+      ],
+      "roman": [
+        "Nyama nuzhda da nosish desert, napravih palachinki za vsichki."
+      ]
+    },
+    {
+      "id": "bg-s052",
+      "kind": "sentence",
+      "native": [
+        "Чертежите за обекта във Варна са качени в общата папка."
+      ],
+      "roman": [
+        "Chertezhite za obekta vav Varna sa kacheni v obshtata papka."
+      ]
+    },
+    {
+      "id": "bg-s053",
+      "kind": "sentence",
+      "native": [
+        "В Античния театър сме на ред 5, места 14 и 15."
+      ],
+      "roman": [
+        "V Antichniya teatar sme na red 5, mesta 14 i 15."
+      ]
+    },
+    {
+      "id": "bg-s054",
+      "kind": "sentence",
+      "native": [
+        "Запиши, че библиотеката в Шумен затваря в 18:00."
+      ],
+      "roman": [
+        "Zapishi, che bibliotekata v Shumen zatvarya v 18:00."
+      ]
+    },
+    {
+      "id": "bg-s055",
+      "kind": "sentence",
+      "native": [
+        "Покажи ми детските прожекции в кино Люмиер за неделя и провери дали има свободни места."
+      ],
+      "roman": [
+        "Pokazhi mi detskite prozhektsii v kino Lyumier za nedelya i proveri dali ima svobodni mesta."
+      ]
+    },
+    {
+      "id": "bg-s056",
+      "kind": "sentence",
+      "native": [
+        "Този софтуер ми върши работа, но лицензът позволява инсталация само на един компютър, а ползвам два."
+      ],
+      "roman": [
+        "Tozi softuer mi varshi rabota, no litsenzat pozvolyava instalatsiya samo na edin kompyutar, a polzvam dva."
+      ]
+    },
+    {
+      "id": "bg-s057",
+      "kind": "sentence",
+      "native": [
+        "Закарай ме до ателието, че трамваите днес не вървят."
+      ],
+      "roman": [
+        "Zakaray me do atelieto, che tramvaite dnes ne varvyat."
+      ]
+    },
+    {
+      "id": "bg-s058",
+      "kind": "sentence",
+      "native": [
+        "Ахмед донесе домашна лютеница."
+      ],
+      "roman": [
+        "Ahmed donese domashna lyutenitsa."
+      ]
+    },
+    {
+      "id": "bg-s059",
+      "kind": "sentence",
+      "native": [
+        "Търсех отвертката в чекмеджето, но сега виждам, че ми трябва шестограм за крака на масата."
+      ],
+      "roman": [
+        "Tarseh otvertkata v chekmedzheto, no sega vizhdam, che mi tryabva shestogram za kraka na masata."
+      ]
+    },
+    {
+      "id": "bg-s060",
+      "kind": "sentence",
+      "native": [
+        "Мерси, много ми помогна днес."
+      ],
+      "roman": [
+        "Mersi, mnogo mi pomogna dnes."
+      ]
+    },
+    {
+      "id": "bg-s061",
+      "kind": "sentence",
+      "native": [
+        "Прати снимка на зарядното, за да купя същото."
+      ],
+      "roman": [
+        "Prati snimka na zaryadnoto, za da kupya sashtoto."
+      ]
+    },
+    {
+      "id": "bg-s062",
+      "kind": "sentence",
+      "native": [
+        "Петя, удобно ли ти е да започнем в 10:30?"
+      ],
+      "roman": [
+        "Petya, udobno li ti e da zapochnem v 10:30?"
+      ]
+    },
+    {
+      "id": "bg-s063",
+      "kind": "sentence",
+      "native": [
+        "Термометърът на терасата показва 29 градуса още в 9:20."
+      ],
+      "roman": [
+        "Termometarat na terasata pokazva 29 gradusa oshte v 9:20."
+      ]
+    },
+    {
+      "id": "bg-s064",
+      "kind": "sentence",
+      "native": [
+        "За курса по керамика ми трябват престилка и тефтер."
+      ],
+      "roman": [
+        "Za kursa po keramika mi tryabvat prestilka i tefter."
+      ]
+    },
+    {
+      "id": "bg-s065",
+      "kind": "sentence",
+      "native": [
+        "Обади се на Милена Димова и включи високоговорителя."
+      ],
+      "roman": [
+        "Obadi se na Milena Dimova i vklyuchi visokogovoritelya."
+      ]
+    },
+    {
+      "id": "bg-s066",
+      "kind": "sentence",
+      "native": [
+        "Предлагате ли клавиатури с подсветка?"
+      ],
+      "roman": [
+        "Predlagate li klaviaturi s podsvetka?"
+      ]
+    },
+    {
+      "id": "bg-s067",
+      "kind": "sentence",
+      "native": [
+        "Главната улица е в ремонт. Завий след цветарския магазин и продължи покрай оградата на училището."
+      ],
+      "roman": [
+        "Glavnata ulitsa e v remont. Zaviy sled tsvetarskiya magazin i prodalzhi pokray ogradata na uchilishteto."
+      ]
+    },
+    {
+      "id": "bg-s068",
+      "kind": "sentence",
+      "native": [
+        "Бихте ли ми дали този килим за 35 евро?"
+      ],
+      "roman": [
+        "Bihte li mi dali tozi kilim za 35 evro?"
+      ]
+    },
+    {
+      "id": "bg-s069",
+      "kind": "sentence",
+      "native": [
+        "Премести кашона наляво, още малко, така вече е добре."
+      ],
+      "roman": [
+        "Premesti kashona nalyavo, oshte malko, taka veche e dobre."
+      ]
+    },
+    {
+      "id": "bg-s070",
+      "kind": "sentence",
+      "native": [
+        "Благодаря за поканата, но този път ще пропусна излета, защото обещах да помогна на училищния базар."
+      ],
+      "roman": [
+        "Blagodarya za pokanata, no tozi pat shte propusna izleta, zashtoto obeshtah da pomogna na uchilishtniya bazar."
+      ]
+    },
+    {
+      "id": "bg-s071",
+      "kind": "sentence",
+      "native": [
+        "Утре да се разходим ли в Борисовата градина?"
+      ],
+      "roman": [
+        "Utre da se razhodim li v Borisovata gradina?"
+      ]
+    },
+    {
+      "id": "bg-s072",
+      "kind": "sentence",
+      "native": [
+        "Приключих с подреждането на склада."
+      ],
+      "roman": [
+        "Priklyuchih s podrezhdaneto na sklada."
+      ]
+    },
+    {
+      "id": "bg-s073",
+      "kind": "sentence",
+      "native": [
+        "Батерията падна на 12%."
+      ],
+      "roman": [
+        "Bateriyata padna na 12%."
+      ]
+    },
+    {
+      "id": "bg-s074",
+      "kind": "sentence",
+      "native": [
+        "Трябва да отделя металните капачки от бурканите, преди да изхвърля стъклото в зеления контейнер."
+      ],
+      "roman": [
+        "Tryabva da otdelya metalnite kapachki ot burkanite, predi da izhvarlya stakloto v zeleniya konteyner."
+      ]
+    },
+    {
+      "id": "bg-s075",
+      "kind": "sentence",
+      "native": [
+        "Води ме до паркинга при Рилския манастир."
+      ],
+      "roman": [
+        "Vodi me do parkinga pri Rilskiya manastir."
+      ]
+    },
+    {
+      "id": "bg-s076",
+      "kind": "sentence",
+      "native": [
+        "Абонаментът за облачно пространство струва 3 евро месечно."
+      ],
+      "roman": [
+        "Abonamentat za oblachno prostranstvo struva 3 evro mesechno."
+      ]
+    },
+    {
+      "id": "bg-s077",
+      "kind": "sentence",
+      "native": [
+        "Местя се по-напред във вагона, тук няма свободни седалки."
+      ],
+      "roman": [
+        "Mestya se po-napred vav vagona, tuk nyama svobodni sedalki."
+      ]
+    },
+    {
+      "id": "bg-s078",
+      "kind": "sentence",
+      "native": [
+        "Кажи на майстора да донесе по-дълги винтове, защото тези не държат добре пантите на вратата."
+      ],
+      "roman": [
+        "Kazhi na maystora da donese po-dalgi vintove, zashtoto tezi ne darzhat dobre pantite na vratata."
+      ]
+    },
+    {
+      "id": "bg-s079",
+      "kind": "sentence",
+      "native": [
+        "Червения ли искаше, или синия?"
+      ],
+      "roman": [
+        "Cherveniya li iskashe, ili siniya?"
+      ]
+    },
+    {
+      "id": "bg-s080",
+      "kind": "sentence",
+      "native": [
+        "Честно, опашките във Фантастико вече започват да ме изнервят."
+      ],
+      "roman": [
+        "Chestno, opashkite vav Fantastiko veche zapochvat da me iznervyat."
+      ]
+    },
+    {
+      "id": "bg-s081",
+      "kind": "sentence",
+      "native": [
+        "Взех пратката от автомата, няма нужда да ходиш."
+      ],
+      "roman": [
+        "Vzeh pratkata ot avtomata, nyama nuzhda da hodish."
+      ]
+    },
+    {
+      "id": "bg-s082",
+      "kind": "sentence",
+      "native": [
+        "Благодаря Ви за предложението, ще го обсъдя с ръководителя."
+      ],
+      "roman": [
+        "Blagodarya vi za predlozhenieto, shte go obsadya s rakovoditelya."
+      ]
+    },
+    {
+      "id": "bg-s083",
+      "kind": "sentence",
+      "native": [
+        "На етикета пише 6,90 евро, а на касовата бележка виждам 8,20 евро за същата кърпа."
+      ],
+      "roman": [
+        "Na etiketa pishe 6,90 evro, a na kasovata belezhka vizhdam 8,20 evro za sashtata karpa."
+      ]
+    },
+    {
+      "id": "bg-s084",
+      "kind": "sentence",
+      "native": [
+        "Антон ще получи доставката вместо мен във вторник следобед."
+      ],
+      "roman": [
+        "Anton shte poluchi dostavkata vmesto men vav vtornik sledobed."
+      ]
+    },
+    {
+      "id": "bg-s085",
+      "kind": "sentence",
+      "native": [
+        "Пусни таймер за 9 минути."
+      ],
+      "roman": [
+        "Pusni taymer za 9 minuti."
+      ]
+    },
+    {
+      "id": "bg-s086",
+      "kind": "sentence",
+      "native": [
+        "Интернетът прекъсва през няколко минути."
+      ],
+      "roman": [
+        "Internetat prekasva prez nyakolko minuti."
+      ]
+    },
+    {
+      "id": "bg-s087",
+      "kind": "sentence",
+      "native": [
+        "Тук ли спира междуградският автобус?"
+      ],
+      "roman": [
+        "Tuk li spira mezhdugradskiyat avtobus?"
+      ]
+    },
+    {
+      "id": "bg-s088",
+      "kind": "sentence",
+      "native": [
+        "Татко иска тутманик вместо торта за рождения си ден."
+      ],
+      "roman": [
+        "Tatko iska tutmanik vmesto torta za rozhdeniya si den."
+      ]
+    },
+    {
+      "id": "bg-s089",
+      "kind": "sentence",
+      "native": [
+        "Става ли без допълнителна захар?"
+      ],
+      "roman": [
+        "Stava li bez dopalnitelna zahar?"
+      ]
+    },
+    {
+      "id": "bg-s090",
+      "kind": "sentence",
+      "native": [
+        "Съжалявам, обърках ти плановете."
+      ],
+      "roman": [
+        "Sazhalyavam, obarkah ti planovete."
+      ]
+    },
+    {
+      "id": "bg-s091",
+      "kind": "sentence",
+      "native": [
+        "Йоана, взе ли си ключовете?"
+      ],
+      "roman": [
+        "Yoana, vze li si klyuchovete?"
+      ]
+    },
+    {
+      "id": "bg-s092",
+      "kind": "sentence",
+      "native": [
+        "Имате ли вече отговор от доставчика за наличните мостри?"
+      ],
+      "roman": [
+        "Imate li veche otgovor ot dostavchika za nalichnite mostri?"
+      ]
+    },
+    {
+      "id": "bg-s093",
+      "kind": "sentence",
+      "native": [
+        "Автобус 204 пристига след 6 минути според приложението."
+      ],
+      "roman": [
+        "Avtobus 204 pristiga sled 6 minuti spored prilozhenieto."
+      ]
+    },
+    {
+      "id": "bg-s094",
+      "kind": "sentence",
+      "native": [
+        "Довечера да избера подарък за пенсионирането на Невена."
+      ],
+      "roman": [
+        "Dovechera da izbera podarak za pensioniraneto na Nevena."
+      ]
+    },
+    {
+      "id": "bg-s095",
+      "kind": "sentence",
+      "native": [
+        "Къде се изхвърлят старите батерии?"
+      ],
+      "roman": [
+        "Kade se izhvarlyat starite baterii?"
+      ]
+    },
+    {
+      "id": "bg-s096",
+      "kind": "sentence",
+      "native": [
+        "Приложението забива при всяко обаждане."
+      ],
+      "roman": [
+        "Prilozhenieto zabiva pri vsyako obazhdane."
+      ]
+    },
+    {
+      "id": "bg-s097",
+      "kind": "sentence",
+      "native": [
+        "Цветан ще ни посрещне на автогарата в Хасково, а оттам продължаваме с неговата кола към селото."
+      ],
+      "roman": [
+        "Tsvetan shte ni posreshtne na avtogarata v Haskovo, a ottam prodalzhavame s negovata kola kam seloto."
+      ]
+    },
+    {
+      "id": "bg-s098",
+      "kind": "sentence",
+      "native": [
+        "Госпожата помоли децата да донесат кестени за занималнята."
+      ],
+      "roman": [
+        "Gospozhata pomoli detsata da donesat kesteni za zanimalnyata."
+      ]
+    },
+    {
+      "id": "bg-s099",
+      "kind": "sentence",
+      "native": [
+        "Мислех да запиша Ива на танци, но тя май предпочита рисуване, ще я питам довечера."
+      ],
+      "roman": [
+        "Misleh da zapisha Iva na tantsi, no tya may predpochita risuvane, shte ya pitam dovechera."
+      ]
+    },
+    {
+      "id": "bg-s100",
+      "kind": "sentence",
+      "native": [
+        "Браво, страхотно ти стои прическата!"
+      ],
+      "roman": [
+        "Bravo, strahotno ti stoi pricheskata!"
+      ]
+    },
+    {
+      "id": "bg-s101",
+      "kind": "sentence",
+      "native": [
+        "След работа ще мина да ти върна бормашината и да видя новия шкаф в кухнята."
+      ],
+      "roman": [
+        "Sled rabota shte mina da ti varna bormashinata i da vidya noviya shkaf v kuhnyata."
+      ]
+    },
+    {
+      "id": "bg-s102",
+      "kind": "sentence",
+      "native": [
+        "Получих файла, благодаря за съдействието."
+      ],
+      "roman": [
+        "Poluchih fayla, blagodarya za sadeystvieto."
+      ]
+    },
+    {
+      "id": "bg-s103",
+      "kind": "sentence",
+      "native": [
+        "Поръчах 2 килограма череши по 4,80 евро."
+      ],
+      "roman": [
+        "Porachah 2 kilograma chereshi po 4,80 evro."
+      ]
+    },
+    {
+      "id": "bg-s104",
+      "kind": "sentence",
+      "native": [
+        "Запази събота за подреждане на мазето."
+      ],
+      "roman": [
+        "Zapazi sabota za podrezhdane na mazeto."
+      ]
+    },
+    {
+      "id": "bg-s105",
+      "kind": "sentence",
+      "native": [
+        "Къде има отворена книжарница около площад Славейков?"
+      ],
+      "roman": [
+        "Kade ima otvorena knizharnitsa okolo ploshtad Slaveykov?"
+      ]
+    },
+    {
+      "id": "bg-s106",
+      "kind": "sentence",
+      "native": [
+        "За да вляза в акаунта си, трябва да въведа кода от съобщението."
+      ],
+      "roman": [
+        "Za da vlyaza v akaunta si, tryabva da vaveda koda ot saobshtenieto."
+      ]
+    },
+    {
+      "id": "bg-s107",
+      "kind": "sentence",
+      "native": [
+        "Покрай реката има пряка пътека към хижата."
+      ],
+      "roman": [
+        "Pokray rekata ima pryaka pateka kam hizhata."
+      ]
+    },
+    {
+      "id": "bg-s108",
+      "kind": "sentence",
+      "native": [
+        "Киселото мляко в Lidl е намалено до края на седмицата."
+      ],
+      "roman": [
+        "Kiseloto mlyako v Lidl e namaleno do kraya na sedmitsata."
+      ]
+    },
+    {
+      "id": "bg-s109",
+      "kind": "sentence",
+      "native": [
+        "Радославе, вземи големия чадър - не, по-добре малкия сгъваем."
+      ],
+      "roman": [
+        "Radoslave, vzemi golemiya chadar - ne, po-dobre malkiya sgavaem."
+      ]
+    },
+    {
+      "id": "bg-s110",
+      "kind": "sentence",
+      "native": [
+        "Кремена, тиквеникът ти е чудесен. Сладък е точно колкото трябва."
+      ],
+      "roman": [
+        "Kremena, tikvenikat ti e chudesen. Sladak e tochno kolkoto tryabva."
+      ]
+    },
+    {
+      "id": "bg-s111",
+      "kind": "sentence",
+      "native": [
+        "Можеш ли да прибереш прането, преди да завали?"
+      ],
+      "roman": [
+        "Mozhesh li da priberesh praneto, predi da zavali?"
+      ]
+    },
+    {
+      "id": "bg-s112",
+      "kind": "sentence",
+      "native": [
+        "Успешна седмица от целия екип!"
+      ],
+      "roman": [
+        "Uspeshna sedmitsa ot tseliya ekip!"
+      ]
+    },
+    {
+      "id": "bg-s113",
+      "kind": "sentence",
+      "native": [
+        "Сложих 350 грама брашно и 200 милилитра мляко, но тестото още ми се струва прекалено гъсто."
+      ],
+      "roman": [
+        "Slozhih 350 grama brashno i 200 mililitra mlyako, no testoto oshte mi se struva prekaleno gasto."
+      ]
+    },
+    {
+      "id": "bg-s114",
+      "kind": "sentence",
+      "native": [
+        "Преди почивката да подновя картата за басейна."
+      ],
+      "roman": [
+        "Predi pochivkata da podnovya kartata za baseyna."
+      ]
+    },
+    {
+      "id": "bg-s115",
+      "kind": "sentence",
+      "native": [
+        "Намери пералня на самообслужване в Бургас, която работи денонощно."
+      ],
+      "roman": [
+        "Nameri peralnya na samoobsluzhvane v Burgas, koyato raboti denonoshtno."
+      ]
+    },
+    {
+      "id": "bg-s116",
+      "kind": "sentence",
+      "native": [
+        "Архивът е защитен с парола."
+      ],
+      "roman": [
+        "Arhivat e zashtiten s parola."
+      ]
+    },
+    {
+      "id": "bg-s117",
+      "kind": "sentence",
+      "native": [
+        "Ралица слезе на предишната спирка."
+      ],
+      "roman": [
+        "Ralitsa sleze na predishnata spirka."
+      ]
+    },
+    {
+      "id": "bg-s118",
+      "kind": "sentence",
+      "native": [
+        "Оказа се, че якето е малко на детето, затова ще го заменя с по-голям размер."
+      ],
+      "roman": [
+        "Okaza se, che yaketo e malko na deteto, zatova shte go zamenya s po-golyam razmer."
+      ]
+    },
+    {
+      "id": "bg-s119",
+      "kind": "sentence",
+      "native": [
+        "До Добрич ли пътуваме, или обърках посоката?"
+      ],
+      "roman": [
+        "Do Dobrich li patuvame, ili obarkah posokata?"
+      ]
+    },
+    {
+      "id": "bg-s120",
+      "kind": "sentence",
+      "native": [
+        "Хайде този път да тръгнем навреме, за да не изпуснем началото на представлението като миналия път."
+      ],
+      "roman": [
+        "Hayde tozi pat da tragnem navreme, za da ne izpusnem nachaloto na predstavlenieto kato minaliya pat."
+      ]
+    },
+    {
+      "id": "bg-s121",
+      "kind": "sentence",
+      "native": [
+        "Одобрявам бюджета за новото оборудване."
+      ],
+      "roman": [
+        "Odobryavam byudzheta za novoto oborudvane."
+      ]
+    },
+    {
+      "id": "bg-s122",
+      "kind": "sentence",
+      "native": [
+        "Пратката е за улица Оборище 36, вход 8."
+      ],
+      "roman": [
+        "Pratkata e za ulitsa Oborishte 36, vhod 8."
+      ]
+    },
+    {
+      "id": "bg-s123",
+      "kind": "sentence",
+      "native": [
+        "Нека измеря прозореца, преди да поръчам нови щори."
+      ],
+      "roman": [
+        "Neka izmerya prozoretsa, predi da poracham novi shtori."
+      ]
+    },
+    {
+      "id": "bg-s124",
+      "kind": "sentence",
+      "native": [
+        "Изключи звука на известията до края на филма."
+      ],
+      "roman": [
+        "Izklyuchi zvuka na izvestiyata do kraya na filma."
+      ]
+    },
+    {
+      "id": "bg-s125",
+      "kind": "sentence",
+      "native": [
+        "Тъчпадът изобщо не реагира днес."
+      ],
+      "roman": [
+        "Tachpadat izobshto ne reagira dnes."
+      ]
+    },
+    {
+      "id": "bg-s126",
+      "kind": "sentence",
+      "native": [
+        "Подлезът е от другата страна."
+      ],
+      "roman": [
+        "Podlezat e ot drugata strana."
+      ]
+    },
+    {
+      "id": "bg-s127",
+      "kind": "sentence",
+      "native": [
+        "Баба Цветана ще покаже на внуците как се правят мартеници, а ние ще подготвим конците."
+      ],
+      "roman": [
+        "Baba Tsvetana shte pokazhe na vnutsite kak se pravyat martenitsi, a nie shte podgotvim kontsite."
+      ]
+    },
+    {
+      "id": "bg-s128",
+      "kind": "sentence",
+      "native": [
+        "Първо отдели чорапите, после кърпите. Чаршафите ги остави, тях ще ги пера отделно."
+      ],
+      "roman": [
+        "Parvo otdeli chorapite, posle karpite. Charshafite gi ostavi, tyah shte gi pera otdelno."
+      ]
+    },
+    {
+      "id": "bg-s129",
+      "kind": "sentence",
+      "native": [
+        "Прибрах се, всичко е наред."
+      ],
+      "roman": [
+        "Pribrah se, vsichko e nared."
+      ]
+    },
+    {
+      "id": "bg-s130",
+      "kind": "sentence",
+      "native": [
+        "Валентине, свободен ли си за смяната в неделя?"
+      ],
+      "roman": [
+        "Valentine, svoboden li si za smyanata v nedelya?"
+      ]
+    },
+    {
+      "id": "bg-s131",
+      "kind": "sentence",
+      "native": [
+        "Преведох 250 евро за курса, а останалите 150 ще платя до 22 септември с карта."
+      ],
+      "roman": [
+        "Prevedoh 250 evro za kursa, a ostanalite 150 shte platya do 22 septemvri s karta."
+      ]
+    },
+    {
+      "id": "bg-s132",
+      "kind": "sentence",
+      "native": [
+        "Потърси рецепта за родопски клин."
+      ],
+      "roman": [
+        "Potarsi retsepta za rodopski klin."
+      ]
+    },
+    {
+      "id": "bg-s133",
+      "kind": "sentence",
+      "native": [
+        "Колко евро са 60 швейцарски франка по днешния курс?"
+      ],
+      "roman": [
+        "Kolko evro sa 60 shveytsarski franka po dneshniya kurs?"
+      ]
+    },
+    {
+      "id": "bg-s134",
+      "kind": "sentence",
+      "native": [
+        "Елица, скрийншотът е размазан и текстът не се чете."
+      ],
+      "roman": [
+        "Elitsa, skriynshotat e razmazan i tekstat ne se chete."
+      ]
+    },
+    {
+      "id": "bg-s135",
+      "kind": "sentence",
+      "native": [
+        "Сестра ми предложи да обядваме в заведението до офиса ѝ, само че на мен ми е далече."
+      ],
+      "roman": [
+        "Sestra mi predlozhi da obyadvame v zavedenieto do ofisa i, samo che na men mi e daleche."
+      ]
+    },
+    {
+      "id": "bg-s136",
+      "kind": "sentence",
+      "native": [
+        "Часът ми при фризьорката е в четвъртък следобед."
+      ],
+      "roman": [
+        "Chasat mi pri frizyorkata e v chetvartak sledobed."
+      ]
+    },
+    {
+      "id": "bg-s137",
+      "kind": "sentence",
+      "native": [
+        "Купи ориз, яйца, олио и пакет кори за баница."
+      ],
+      "roman": [
+        "Kupi oriz, yaytsa, olio i paket kori za banitsa."
+      ]
+    },
+    {
+      "id": "bg-s138",
+      "kind": "sentence",
+      "native": [
+        "Донеси таблата, че тази вечер ми се играе."
+      ],
+      "roman": [
+        "Donesi tablata, che tazi vecher mi se igrae."
+      ]
+    },
+    {
+      "id": "bg-s139",
+      "kind": "sentence",
+      "native": [
+        "Даниела, прегледай таблицата с разходите преди обяд, за да я включа в месечния отчет."
+      ],
+      "roman": [
+        "Daniela, pregleday tablitsata s razhodite predi obyad, za da ya vklyucha v mesechniya otchet."
+      ]
+    },
+    {
+      "id": "bg-s140",
+      "kind": "sentence",
+      "native": [
+        "Тренировката започва в 19:15."
+      ],
+      "roman": [
+        "Trenirovkata zapochva v 19:15."
+      ]
+    },
+    {
+      "id": "bg-s141",
+      "kind": "sentence",
+      "native": [
+        "Обади се на Огнян Агопян за уроците по китара и уточни кои дни са свободни."
+      ],
+      "roman": [
+        "Obadi se na Ognyan Agopyan za urotsite po kitara i utochni koi dni sa svobodni."
+      ]
+    },
+    {
+      "id": "bg-s142",
+      "kind": "sentence",
+      "native": [
+        "Прочети ми последното съобщение в семейния чат, но не го отбелязвай като прочетено."
+      ],
+      "roman": [
+        "Procheti mi poslednoto saobshtenie v semeyniya chat, no ne go otbelyazvay kato procheteno."
+      ]
+    },
+    {
+      "id": "bg-s143",
+      "kind": "sentence",
+      "native": [
+        "Борисе, прати ми линка за срещата."
+      ],
+      "roman": [
+        "Borise, prati mi linka za sreshtata."
+      ]
+    },
+    {
+      "id": "bg-s144",
+      "kind": "sentence",
+      "native": [
+        "Торбичка не ми трябва, благодаря."
+      ],
+      "roman": [
+        "Torbichka ne mi tryabva, blagodarya."
+      ]
+    },
+    {
+      "id": "bg-s145",
+      "kind": "sentence",
+      "native": [
+        "Добре, пазя ти място отпред."
+      ],
+      "roman": [
+        "Dobre, pazya ti myasto otpred."
+      ]
+    },
+    {
+      "id": "bg-s146",
+      "kind": "sentence",
+      "native": [
+        "Отменям днешната презентация, понеже клиентът поиска още няколко промени."
+      ],
+      "roman": [
+        "Otmenyam dneshnata prezentatsiya, ponezhe klientat poiska oshte nyakolko promeni."
+      ]
+    },
+    {
+      "id": "bg-s147",
+      "kind": "sentence",
+      "native": [
+        "Шкафът е широк 85 сантиметра."
+      ],
+      "roman": [
+        "Shkafat e shirok 85 santimetra."
+      ]
+    },
+    {
+      "id": "bg-s148",
+      "kind": "sentence",
+      "native": [
+        "Костюмът е готов в химическото."
+      ],
+      "roman": [
+        "Kostyumat e gotov v himicheskoto."
+      ]
+    },
+    {
+      "id": "bg-s149",
+      "kind": "sentence",
+      "native": [
+        "Печатницата в Габрово приема поръчки само през сайта си."
+      ],
+      "roman": [
+        "Pechatnitsata v Gabrovo priema porachki samo prez sayta si."
+      ]
+    },
+    {
+      "id": "bg-s150",
+      "kind": "sentence",
+      "native": [
+        "Извинявай, бях под душа и чак сега виждам съобщението."
+      ],
+      "roman": [
+        "Izvinyavay, byah pod dusha i chak sega vizhdam saobshtenieto."
+      ]
+    },
+    {
+      "id": "bg-s151",
+      "kind": "sentence",
+      "native": [
+        "Моля, изпратете ми фактурата с коригираните данни за фирмата."
+      ],
+      "roman": [
+        "Molya, izpratete mi fakturata s korigiranite danni za firmata."
+      ]
+    },
+    {
+      "id": "bg-s152",
+      "kind": "sentence",
+      "native": [
+        "Записах Ви за петък, 17 юли, в 11:30."
+      ],
+      "roman": [
+        "Zapisah vi za petak, 17 yuli, v 11:30."
+      ]
+    },
+    {
+      "id": "bg-s153",
+      "kind": "sentence",
+      "native": [
+        "Стефане, ще вземеш ли баба от гарата в Плевен?"
+      ],
+      "roman": [
+        "Stefane, shte vzemesh li baba ot garata v Pleven?"
+      ]
+    },
+    {
+      "id": "bg-s154",
+      "kind": "sentence",
+      "native": [
+        "Раницата тежи 7 килограма, а куфарът е 16."
+      ],
+      "roman": [
+        "Ranitsata tezhi 7 kilograma, a kufarat e 16."
+      ]
+    },
+    {
+      "id": "bg-s155",
+      "kind": "sentence",
+      "native": [
+        "Ако още си в магазина, вземи и торби за боклук, че нашите свършиха вчера."
+      ],
+      "roman": [
+        "Ako oshte si v magazina, vzemi i torbi za bokluk, che nashite svarshiha vchera."
+      ]
+    },
+    {
+      "id": "bg-s156",
+      "kind": "sentence",
+      "native": [
+        "Митко, навит ли си за Витоша през уикенда?"
+      ],
+      "roman": [
+        "Mitko, navit li si za Vitosha prez uikenda?"
+      ]
+    },
+    {
+      "id": "bg-s157",
+      "kind": "sentence",
+      "native": [
+        "Разсмя ме с този клип."
+      ],
+      "roman": [
+        "Razsmya me s tozi klip."
+      ]
+    },
+    {
+      "id": "bg-s158",
+      "kind": "sentence",
+      "native": [
+        "Остави ми малко от мусаката."
+      ],
+      "roman": [
+        "Ostavi mi malko ot musakata."
+      ]
+    },
+    {
+      "id": "bg-s159",
+      "kind": "sentence",
+      "native": [
+        "Ползвай моята ракета за тенис."
+      ],
+      "roman": [
+        "Polzvay moyata raketa za tenis."
+      ]
+    },
+    {
+      "id": "bg-s160",
+      "kind": "sentence",
+      "native": [
+        "Чакам те пред читалището, точно до голямата липа."
+      ],
+      "roman": [
+        "Chakam te pred chitalishteto, tochno do golyamata lipa."
+      ]
+    }
+  ]
+}

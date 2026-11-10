@@ -1,0 +1,1825 @@
+{
+  "lang": "be",
+  "starter": [
+    "be-s138",
+    "be-s032",
+    "be-s051",
+    "be-s098",
+    "be-s072",
+    "be-s119",
+    "be-s149",
+    "be-s133",
+    "be-s064",
+    "be-s019",
+    "be-s068",
+    "be-s122",
+    "be-s070",
+    "be-s042",
+    "be-s142",
+    "be-s095",
+    "be-s052",
+    "be-p01",
+    "be-s045",
+    "be-s012",
+    "be-s050",
+    "be-s037",
+    "be-s113",
+    "be-s094",
+    "be-s074",
+    "be-s108",
+    "be-s054",
+    "be-s009",
+    "be-s120",
+    "be-s073",
+    "be-s035",
+    "be-s041",
+    "be-s048",
+    "be-s091",
+    "be-p07",
+    "be-s038",
+    "be-s102",
+    "be-s141",
+    "be-s020",
+    "be-s033",
+    "be-s075",
+    "be-s031",
+    "be-s103",
+    "be-s004",
+    "be-s023",
+    "be-s071",
+    "be-s107",
+    "be-s067",
+    "be-s144",
+    "be-s126",
+    "be-s007",
+    "be-s134"
+  ],
+  "items": [
+    {
+      "id": "be-p01",
+      "kind": "para",
+      "title": "Moving to Hrushauka",
+      "native": [
+        "Слухай, мы з Алесем нарэшце перавезлі ўсе рэчы ў новую кватэру.",
+        "Цяпер жывём на Грушаўцы, зусім недалёка ад метро і невялікага сквера.",
+        "У суботу цэлы дзень складалі скрынкі, а ўвечары ледзь знайшлі кубкі.",
+        "Затое на кухні вялікае акно, і раніцай там вельмі ўтульна.",
+        "Стары стол пакуль пакінулі, а крэслы я ўжо нагледзела на Kufar.",
+        "Суседка знізу прынесла нам яблыкаў і падказала, дзе бліжэйшая пякарня.",
+        "Да прыпынку цяпер ісці 5 хвілін, таму раніцай можна даўжэй паспаць.",
+        "Прыязджай у нядзелю пасля абеду, пакажу табе наш новы балкон.",
+        "Толькі захапі свае хатнія тапкі, бо падлога пакуль без дывана."
+      ],
+      "roman": [
+        "Slukhaj, my z Alesem nareshtse peravezli use rechy u novuyu kvateru.",
+        "Tsiaper zhyvyom na Hrushautsy, zusim nedalyoka ad metro i nevialikaha skvera.",
+        "U subotu tsely dzen skladali skrynki, a uvechary ledz znajshli kubki.",
+        "Zatoye na kukhni vialikaye akno, i ranitsaj tam velmi utulna.",
+        "Stary stol pakul pakinuli, a kresly ya uzho nahledzela na Kufar.",
+        "Susedka znizu prynesla nam yablykau i padkazala, dze blizhejshaya piakarnia.",
+        "Da prypynku tsiaper istsi 5 khvilin, tamu ranitsaj mozhna dauzhej paspats.",
+        "Pryyazdzhaj u niadzelyu paslia abedu, pakazhu tabe nash novy balkon.",
+        "Tolki zakhapi svaye khatniya tapki, bo padloha pakul bez dyvana."
+      ]
+    },
+    {
+      "id": "be-p02",
+      "kind": "para",
+      "title": "Welcoming Hanna in Homel",
+      "native": [
+        "Калегі, у панядзелак да нашай гомельскай каманды далучаецца новая дызайнерка Ганна Савіцкая.",
+        "Ганна будзе працаваць над галоўнай старонкай сайта і карткамі тавараў.",
+        "У першы тыдзень я дапамагу ёй разабрацца з задачамі і нашымі працэсамі.",
+        "Калі ласка, дадайце Ганну ў працоўны чат і дашліце патрэбныя файлы.",
+        "Першую сустрэчу правядзём у панядзелак а 10:30 у нашым офісе.",
+        "Зойдзем у перамоўную каля кухні, там ужо падрыхтавалі вялікі экран.",
+        "Пасля знаёмства кожны коратка раскажа пра сваю частку працы над сайтам.",
+        "Пытанні пра доступ да дакументаў можна адразу дасылаць мне.",
+        "На абед прапаную разам схадзіць у кавярню на вуліцы Савецкай."
+      ],
+      "roman": [
+        "Kalehi, u paniadzelak da nashaj homelskaj kamandy daluchayetstsa novaya dyzajnerka Hanna Savitskaya.",
+        "Hanna budze pratsavats nad halounaj staronkaj sajta i kartkami tavarau.",
+        "U pershy tydzen ya dapamahu yoj razabratstsa z zadachami i nashymi pratsesami.",
+        "Kali laska, dadajtse Hannu u pratsouny chat i dashlitse patrebnyya fajly.",
+        "Pershuyu sustrechu praviadzyom u paniadzelak a 10:30 u nashym ofise.",
+        "Zojdzem u peramounuyu kalia kukhni, tam uzho padrykhtavali vialiki ekran.",
+        "Paslia znayomstva kozhny koratka raskazha pra svayu chastku pratsy nad sajtam.",
+        "Pytanni pra dostup da dakumentau mozhna adrazu dasylats mne.",
+        "Na abed prapanuyu razam skhadzits u kaviarnyu na vulitsy Savetskaj."
+      ]
+    },
+    {
+      "id": "be-p03",
+      "kind": "para",
+      "title": "Learning to Cycle in Brest",
+      "native": [
+        "Летась у Брэсце брат Мікіта вучыў мяне ездзіць на ровары.",
+        "Мы выбралі ціхую дарожку каля Мухаўца, дзе раніцай амаль нікога не было.",
+        "Брат спачатку трымаў ровар за сядло, пакуль я спрабавала ўтрымаць раўнавагу.",
+        "Я моцна сціскала руль і ўвесь час глядзела на педалі.",
+        "Потым Мікіта параіў глядзець наперад, і ехаць адразу стала прасцей.",
+        "Калі я азірнулася, брат ужо стаяў далёка і махаў рукой.",
+        "Я нават засмяялася ад радасці, бо ўжо ехала сама.",
+        "Каля лаўкі я сама спынілася і злезла з ровара.",
+        "Па дарозе дадому мы купілі марожанае, а я ўжо планавала наступную паездку."
+      ],
+      "roman": [
+        "Letas u Brestse brat Mikita vuchyu miane yezdzits na rovary.",
+        "My vybrali tsikhuyu darozhku kalia Mukhautsa, dze ranitsaj amal nikaho ne bylo.",
+        "Brat spachatku trymau rovar za siadlo, pakul ya sprabavala utrymats raunavahu.",
+        "Ya motsna stsiskala rul i uves chas hliadzela na pedali.",
+        "Potym Mikita paraiu hliadzets naperad, i yekhats adrazu stala prastsej.",
+        "Kali ya azirnulasia, brat uzho stayau dalyoka i makhau rukoj.",
+        "Ya navat zasmiayalasia ad radastsi, bo uzho yekhala sama.",
+        "Kalia lauki ya sama spynilasia i zlezla z rovara.",
+        "Pa daroze dadomu my kupili marozhanaye, a ya uzho planavala nastupnuyu payezdku."
+      ]
+    },
+    {
+      "id": "be-p04",
+      "kind": "para",
+      "title": "Making Grandma's Draniki",
+      "native": [
+        "Пакажу, як мы з бабуляй у Лідзе гатуем хрумсткія дранікі.",
+        "На вячэру для дваіх вазьмі 6 сярэдніх бульбін і невялікую цыбуліну.",
+        "Спачатку пачысці бульбу, добра прамый яе і натры на дробнай тарцы.",
+        "Цыбулю таксама натры, каб яна раўнамерна змяшалася з бульбай.",
+        "Калі соку атрымалася зашмат, асцярожна злі яго ў асобную міску.",
+        "Дадай у бульбяную масу яйка, крыху солі і ўсё добра перамяшай.",
+        "Разагрэй на патэльні алей і выкладвай масу лыжкай невялікімі порцыямі.",
+        "Смаж дранікі з абодвух бакоў, пакуль не з'явіцца залацістая скарыначка.",
+        "Гатовыя дранікі падавай са смятанай, пакуль яны гарачыя."
+      ],
+      "roman": [
+        "Pakazhu, yak my z babuliaj u Lidze hatuyem khrumstkiya draniki.",
+        "Na viacheru dlia dvaikh vazmi 6 siarednikh bulbin i nevialikuyu tsybulinu.",
+        "Spachatku pachystsi bulbu, dobra pramyj yaye i natry na drobnaj tartsy.",
+        "Tsybulyu taksama natry, kab yana raunamerna zmiashalasia z bulbaj.",
+        "Kali soku atrymalasia zashmat, astsiarozhna zli yaho u asobnuyu misku.",
+        "Dadaj u bulbianuyu masu yajka, krykhu soli i usyo dobra peramiashaj.",
+        "Razahrej na patelni alej i vykladvaj masu lyzhkaj nevialikimi portsyyami.",
+        "Smazh draniki z abodvukh bakou, pakul ne z'yavitstsa zalatsistaya skarynachka.",
+        "Hatovyya draniki padavaj sa smiatanaj, pakul yany harachyya."
+      ]
+    },
+    {
+      "id": "be-p05",
+      "kind": "para",
+      "title": "A Phone in Vitebsk",
+      "native": [
+        "Новы тэлефон я купіла ў Віцебску, у краме каля ратушы.",
+        "Перад пакупкай доўга выбірала, бо стары ўжо ледзь трымаў зарад.",
+        "Цяпер магу цэлы дзень хадзіць па горадзе без падзарадкі.",
+        "Увечары здымала Дзвіну, і нават пры слабым святле фота атрымаліся выразныя.",
+        "Экран яркі, але на сонцы ўсё ж хочацца дадаць яркасці.",
+        "Гук у навушніках чысты, у аўтобусе добра чуваць кожнае слова.",
+        "Мяне раздражняюць толькі лішнія праграмы, якія ўжо былі на тэлефоне.",
+        "Частку я выдаліла, а астатнія схавала ў асобную папку.",
+        "За гэтыя грошы тэлефон добры, хоць камера магла б працаваць хутчэй."
+      ],
+      "roman": [
+        "Novy telefon ya kupila u Vitsebsku, u krame kalia ratushy.",
+        "Perad pakupkaj douha vybirala, bo stary uzho ledz trymau zarad.",
+        "Tsiaper mahu tsely dzen khadzits pa horadze bez padzaradki.",
+        "Uvechary zdymala Dzvinu, i navat pry slabym sviatle fota atrymalisia vyraznyya.",
+        "Ekran yarki, ale na sontsy usyo zh khochatstsa dadats yarkastsi.",
+        "Huk u navushnikakh chysty, u autobuse dobra chuvats kozhnaye slova.",
+        "Miane razdrazhniayuts tolki lishniya prahramy, yakiya uzho byli na telefone.",
+        "Chastku ya vydalila, a astatniya skhavala u asobnuyu papku.",
+        "Za hetyya hroshy telefon dobry, khots kamera mahla b pratsavats khutchej."
+      ]
+    },
+    {
+      "id": "be-p06",
+      "kind": "para",
+      "title": "Planning a Kitchen Renovation",
+      "native": [
+        "Кухню ў нашай кватэры ў Маладзечне пачнём рамантаваць 12 жніўня.",
+        "На сцены трэба 5 літраў фарбы, гэта прыкладна 80 рублёў.",
+        "Плітка для падлогі абыдзецца ў 240 рублёў разам з дастаўкай.",
+        "Да будаўнічай крамы ад дома 3 кіламетры, таму паедзем машынай.",
+        "У суботу а 10:00 забяром 6 пачкаў пліткі і клей.",
+        "Майстар Павел прыйдзе 14 жніўня а 9:30, ключы пакінем суседцы.",
+        "Новую мыйку замовім шырынёй 60 сантыметраў, каб засталося месца для посуду.",
+        "На зборку шаф адкладзём яшчэ 300 рублёў, лепш з запасам.",
+        "Хачу да 20 жніўня ўсё скончыць і прыгатаваць вячэру на новай кухні."
+      ],
+      "roman": [
+        "Kukhnyu u nashaj kvatery u Maladzechne pachnyom ramantavats 12 zhniunia.",
+        "Na stseny treba 5 litrau farby, heta prykladna 80 rublyou.",
+        "Plitka dlia padlohi abydzetstsa u 240 rublyou razam z dastaukaj.",
+        "Da budaunichaj kramy ad doma 3 kilametry, tamu payedzem mashynaj.",
+        "U subotu a 10:00 zabiarom 6 pachkau plitki i klej.",
+        "Majstar Pavel pryjdze 14 zhniunia a 9:30, klyuchy pakinem susedtsy.",
+        "Novuyu myjku zamovim shyrynyoj 60 santymetrau, kab zastalosia mesta dlia posudu.",
+        "Na zborku shaf adkladzyom yashche 300 rublyou, lepsh z zapasam.",
+        "Khachu da 20 zhniunia usyo skonchyts i pryhatavats viacheru na novaj kukhni."
+      ]
+    },
+    {
+      "id": "be-p07",
+      "kind": "para",
+      "title": "Requesting a School Receipt",
+      "native": [
+        "Добры дзень, пішу наконт аплаты гуртка керамікі ў полацкай школе.",
+        "Мая дачка Вера Кавальчук займаецца ў групе настаўніцы Наталлі Ліс.",
+        "Учора я пералічыў за верасень 45 рублёў праз банкаўскую праграму.",
+        "Грошы спісаліся адразу, але квітанцыя чамусьці не захавалася ў тэлефоне.",
+        "У гісторыі плацяжоў бачу толькі суму і дату пераводу.",
+        "Падкажыце, калі ласка, ці дайшла аплата і як атрымаць квітанцыю?",
+        "Калі трэба, магу даслаць скрыншот або зайсці да вас пасля працы.",
+        "Хацелася б разабрацца да пятніцы, каб потым не шукаць дакументы.",
+        "Дзякуй за дапамогу, буду чакаць вашага адказу ў Viber."
+      ],
+      "roman": [
+        "Dobry dzen, pishu nakont aplaty hurtka keramiki u polatskaj shkole.",
+        "Maya dachka Vera Kavalchuk zajmayetstsa u hrupe nastaunitsy Natalli Lis.",
+        "Uchora ya peralychyu za verasen 45 rublyou praz bankauskuyu prahramu.",
+        "Hroshy spisalisia adrazu, ale kvitantsyya chamustsi ne zakhavalasia u telefone.",
+        "U historyi platsiazhou bachu tolki sumu i datu peravodu.",
+        "Padkazhytse, kali laska, tsi dajshla aplata i yak atrymats kvitantsyyu?",
+        "Kali treba, mahu daslats skrynshot abo zajstsi da vas paslia pratsy.",
+        "Khatselasia b razabratstsa da piatnitsy, kab potym ne shukats dakumenty.",
+        "Dziakuj za dapamohu, budu chakats vashaha adkazu u Viber."
+      ]
+    },
+    {
+      "id": "be-p08",
+      "kind": "para",
+      "title": "A Visit to Minsk Sea",
+      "native": [
+        "Заслаўскае вадасховішча пад Мінскам многія ведаюць як Мінскае мора.",
+        "Сюды прыязджаюць адпачыць ля вады, пагуляць па беразе і паназіраць за птушкамі.",
+        "З горада зручна даехаць электрычкай да станцыі Мінскае Мора.",
+        "Ад станцыі да берага можна дайсці пешшу, не спяшаючыся.",
+        "У цёплыя выхадныя на пляжах людна, асабліва каля зручных спускаў.",
+        "Для ціхай прагулкі лепш прыехаць у будні або рана раніцай.",
+        "На адкрытых участках бывае ветрана, таму лёгкая куртка не перашкодзіць.",
+        "Каля вады можна ўбачыць качак, чаек і дробных птушак у кустах.",
+        "Пасля адпачынку важна забраць смецце і пакінуць бераг чыстым."
+      ],
+      "roman": [
+        "Zaslauskaye vadaskhovishcha pad Minskam mnohiya vedayuts yak Minskaye mora.",
+        "Syudy pryyazdzhayuts adpachyts lia vady, pahuliats pa beraze i panazirats za ptushkami.",
+        "Z horada zruchna dayekhats elektrychkaj da stantsyi Minskaye Mora.",
+        "Ad stantsyi da beraha mozhna dajstsi peshshu, ne spiashayuchysia.",
+        "U tsyoplyya vykhadnyya na pliazhakh lyudna, asabliva kalia zruchnykh spuskau.",
+        "Dlia tsikhaj prahulki lepsh pryyekhats u budni abo rana ranitsaj.",
+        "Na adkrytykh uchastkakh byvaye vetrana, tamu lyohkaya kurtka ne perashkodzits.",
+        "Kalia vady mozhna ubachyts kachak, chayek i drobnykh ptushak u kustakh.",
+        "Paslia adpachynku vazhna zabrats smetstse i pakinuts berah chystym."
+      ]
+    },
+    {
+      "id": "be-s001",
+      "kind": "sentence",
+      "native": [
+        "Абдымаю, сумую па табе."
+      ],
+      "roman": [
+        "Abdymayu, sumuyu pa tabe."
+      ]
+    },
+    {
+      "id": "be-s002",
+      "kind": "sentence",
+      "native": [
+        "Рада была з вамі папрацаваць!"
+      ],
+      "roman": [
+        "Rada byla z vami papratsavats!"
+      ]
+    },
+    {
+      "id": "be-s003",
+      "kind": "sentence",
+      "native": [
+        "Зніжка 20% дзейнічае да 14 верасня, потым будзе даражэй."
+      ],
+      "roman": [
+        "Znizhka 20% dzejnichaye da 14 verasnia, potym budze darazhej."
+      ]
+    },
+    {
+      "id": "be-s004",
+      "kind": "sentence",
+      "native": [
+        "Пастаў напамін вярнуць кнігу ў бібліятэку праз тыдзень."
+      ],
+      "roman": [
+        "Pastau napamin viarnuts knihu u bibliyateku praz tydzen."
+      ]
+    },
+    {
+      "id": "be-s005",
+      "kind": "sentence",
+      "native": [
+        "Перакладзі слова ручнік на іспанскую мову і агуч яго."
+      ],
+      "roman": [
+        "Perakladzi slova ruchnik na ispanskuyu movu i ahuch yaho."
+      ]
+    },
+    {
+      "id": "be-s006",
+      "kind": "sentence",
+      "native": [
+        "Старонка Белпошты на смартфоне загружаецца ўжо некалькі хвілін."
+      ],
+      "roman": [
+        "Staronka Belposhty na smartfone zahruzhayetstsa uzho nekalki khvilin."
+      ]
+    },
+    {
+      "id": "be-s007",
+      "kind": "sentence",
+      "native": [
+        "Побач з вакзалам зручней перасесці на тралейбус да рынку."
+      ],
+      "roman": [
+        "Pobach z vakzalam zruchnej perasestsi na tralejbus da rynku."
+      ]
+    },
+    {
+      "id": "be-s008",
+      "kind": "sentence",
+      "native": [
+        "Кран пад ракавінай працякае."
+      ],
+      "roman": [
+        "Kran pad rakavinaj pratsiakaye."
+      ]
+    },
+    {
+      "id": "be-s009",
+      "kind": "sentence",
+      "native": [
+        "Купі алей, яйкі і батон, толькі не нарэзаны."
+      ],
+      "roman": [
+        "Kupi alej, yajki i baton, tolki ne narezany."
+      ]
+    },
+    {
+      "id": "be-s010",
+      "kind": "sentence",
+      "native": [
+        "Ганна, табе вельмі пасуе гэты зялёны шалік."
+      ],
+      "roman": [
+        "Hanna, tabe velmi pasuye hety zialyony shalik."
+      ]
+    },
+    {
+      "id": "be-s011",
+      "kind": "sentence",
+      "native": [
+        "Мы з сястрой вырашылі пераставіць шафу, дык цяпер палова рэчаў жыве проста на падлозе."
+      ],
+      "roman": [
+        "My z siastroj vyrashyli perastavits shafu, dyk tsiaper palova rechau zhyve prosta na padloze."
+      ]
+    },
+    {
+      "id": "be-s012",
+      "kind": "sentence",
+      "native": [
+        "Прабачце, файл не адкрываецца, перашліце яго ў іншым фармаце."
+      ],
+      "roman": [
+        "Prabachtse, fajl ne adkryvayetstsa, perashlitse yaho u inshym farmatse."
+      ]
+    },
+    {
+      "id": "be-s013",
+      "kind": "sentence",
+      "native": [
+        "За ўсё атрымалася 27 рублёў."
+      ],
+      "roman": [
+        "Za usyo atrymalasia 27 rublyou."
+      ]
+    },
+    {
+      "id": "be-s014",
+      "kind": "sentence",
+      "native": [
+        "Трэба забраць абутак з рамонту."
+      ],
+      "roman": [
+        "Treba zabrats abutak z ramontu."
+      ]
+    },
+    {
+      "id": "be-s015",
+      "kind": "sentence",
+      "native": [
+        "Выдалі апошні здымак, ён атрымаўся зусім размыты."
+      ],
+      "roman": [
+        "Vydali aposhni zdymak, yon atrymausia zusim razmyty."
+      ]
+    },
+    {
+      "id": "be-s016",
+      "kind": "sentence",
+      "native": [
+        "Захавай чарнавік у воблаку."
+      ],
+      "roman": [
+        "Zakhavaj charnavik u voblaku."
+      ]
+    },
+    {
+      "id": "be-s017",
+      "kind": "sentence",
+      "native": [
+        "Карткай разлічыцца можна?"
+      ],
+      "roman": [
+        "Kartkaj razlichytstsa mozhna?"
+      ]
+    },
+    {
+      "id": "be-s018",
+      "kind": "sentence",
+      "native": [
+        "Перанясіце, калі ласка, маю стрыжку на раніцу, бо ўдзень няма з кім пакінуць дзіця."
+      ],
+      "roman": [
+        "Peraniasitse, kali laska, mayu stryzhku na ranitsu, bo udzen niama z kim pakinuts dzitsia."
+      ]
+    },
+    {
+      "id": "be-s019",
+      "kind": "sentence",
+      "native": [
+        "Гэта кошт за пару?"
+      ],
+      "roman": [
+        "Heta kosht za paru?"
+      ]
+    },
+    {
+      "id": "be-s020",
+      "kind": "sentence",
+      "native": [
+        "Выбачай, не хацела цябе перабіваць."
+      ],
+      "roman": [
+        "Vybachaj, ne khatsela tsiabe perabivats."
+      ]
+    },
+    {
+      "id": "be-s021",
+      "kind": "sentence",
+      "native": [
+        "Патэлефануй, як будзеш вольны."
+      ],
+      "roman": [
+        "Patelefanuj, yak budzesh volny."
+      ]
+    },
+    {
+      "id": "be-s022",
+      "kind": "sentence",
+      "native": [
+        "Ці можна атрымаць узоры тканіны перад замовай фартухоў?"
+      ],
+      "roman": [
+        "Tsi mozhna atrymats uzory tkaniny perad zamovaj fartukhou?"
+      ]
+    },
+    {
+      "id": "be-s023",
+      "kind": "sentence",
+      "native": [
+        "Электрычка да Маладзечна адпраўляецца ў 17:26 з 2-й платформы."
+      ],
+      "roman": [
+        "Elektrychka da Maladzechna adprauliayetstsa u 17:26 z 2-j platformy."
+      ]
+    },
+    {
+      "id": "be-s024",
+      "kind": "sentence",
+      "native": [
+        "Пазнач, што абанемент у спартзалу заканчваецца 28 лютага."
+      ],
+      "roman": [
+        "Paznach, shto abanement u spartzalu zakanchvayetstsa 28 lyutaha."
+      ]
+    },
+    {
+      "id": "be-s025",
+      "kind": "sentence",
+      "native": [
+        "Растлумач, чаму ў архідэі жаўцее ніжняе лісце і ці трэба пераставіць вазон далей ад акна."
+      ],
+      "roman": [
+        "Rastlumach, chamu u arkhidei zhautseye nizhniaye listse i tsi treba perastavits vazon dalej ad akna."
+      ]
+    },
+    {
+      "id": "be-s026",
+      "kind": "sentence",
+      "native": [
+        "Замена акумулятара ў Кобрыне каштуе 60 рублёў разам з працай."
+      ],
+      "roman": [
+        "Zamena akumuliatara u Kobryne kashtuye 60 rublyou razam z pratsaj."
+      ]
+    },
+    {
+      "id": "be-s027",
+      "kind": "sentence",
+      "native": [
+        "Павярніце направа за аптэкай."
+      ],
+      "roman": [
+        "Paviarnitse naprava za aptekaj."
+      ]
+    },
+    {
+      "id": "be-s028",
+      "kind": "sentence",
+      "native": [
+        "Суп трэба яшчэ пасаліць."
+      ],
+      "roman": [
+        "Sup treba yashche pasalits."
+      ]
+    },
+    {
+      "id": "be-s029",
+      "kind": "sentence",
+      "native": [
+        "Замоў жоўтыя цюльпаны, штук 9, не, лепш 11, і без гэтай бліскучай стужкі, калі ласка."
+      ],
+      "roman": [
+        "Zamou zhoutyya tsyulpany, shtuk 9, ne, lepsh 11, i bez hetaj bliskuchaj stuzhki, kali laska."
+      ]
+    },
+    {
+      "id": "be-s030",
+      "kind": "sentence",
+      "native": [
+        "Асабліва прыемна, што суседзі самі прапанавалі дапамогу з пераездам, хоць мы амаль не знаёмыя."
+      ],
+      "roman": [
+        "Asabliva pryyemna, shto susedzi sami prapanavali dapamohu z perayezdam, khots my amal ne znayomyya."
+      ]
+    },
+    {
+      "id": "be-s031",
+      "kind": "sentence",
+      "native": [
+        "Добра, тады да заўтра!"
+      ],
+      "roman": [
+        "Dobra, tady da zautra!"
+      ]
+    },
+    {
+      "id": "be-s032",
+      "kind": "sentence",
+      "native": [
+        "Пераносім планёрку на 10:15."
+      ],
+      "roman": [
+        "Peranosim planyorku na 10:15."
+      ]
+    },
+    {
+      "id": "be-s033",
+      "kind": "sentence",
+      "native": [
+        "Аўдыторыя 412 на 4-м паверсе."
+      ],
+      "roman": [
+        "Audytoryya 412 na 4-m paverse."
+      ]
+    },
+    {
+      "id": "be-s034",
+      "kind": "sentence",
+      "native": [
+        "Для пірага патрэбныя грушы, карыца і разрыхляльнік цеста."
+      ],
+      "roman": [
+        "Dlia piraha patrebnyya hrushy, karytsa i razrykhlialnik tsesta."
+      ]
+    },
+    {
+      "id": "be-s035",
+      "kind": "sentence",
+      "native": [
+        "Якая тэмпература будзе ў Віцебску заўтра пасля абеду?"
+      ],
+      "roman": [
+        "Yakaya temperatura budze u Vitsebsku zautra paslia abedu?"
+      ]
+    },
+    {
+      "id": "be-s036",
+      "kind": "sentence",
+      "native": [
+        "Камера на планшэце запацела."
+      ],
+      "roman": [
+        "Kamera na planshetse zapatsela."
+      ]
+    },
+    {
+      "id": "be-s037",
+      "kind": "sentence",
+      "native": [
+        "Ваш аўтобус ужо пад'ехаў."
+      ],
+      "roman": [
+        "Vash autobus uzho pad'yekhau."
+      ]
+    },
+    {
+      "id": "be-s038",
+      "kind": "sentence",
+      "native": [
+        "Чыстую сукенку забяру з хімчысткі па дарозе дадому."
+      ],
+      "roman": [
+        "Chystuyu sukenku zabiaru z khimchystki pa daroze dadomu."
+      ]
+    },
+    {
+      "id": "be-s039",
+      "kind": "sentence",
+      "native": [
+        "Стоп, дзверы дакладна зачыненыя?"
+      ],
+      "roman": [
+        "Stop, dzvery dakladna zachynenyya?"
+      ]
+    },
+    {
+      "id": "be-s040",
+      "kind": "sentence",
+      "native": [
+        "Раней мне здавалася, што адпачываць без плана сумна, а цяпер менавіта так і хочацца."
+      ],
+      "roman": [
+        "Ranej mne zdavalasia, shto adpachyvats bez plana sumna, a tsiaper menavita tak i khochatstsa."
+      ]
+    },
+    {
+      "id": "be-s041",
+      "kind": "sentence",
+      "native": [
+        "Слухай, твой кот зноў заняў маё месца на канапе."
+      ],
+      "roman": [
+        "Slukhaj, tvoj kot znou zaniau mayo mestsa na kanape."
+      ]
+    },
+    {
+      "id": "be-s042",
+      "kind": "sentence",
+      "native": [
+        "Пярэчанняў няма, я згодная."
+      ],
+      "roman": [
+        "Piarechanniau niama, ya zhodnaya."
+      ]
+    },
+    {
+      "id": "be-s043",
+      "kind": "sentence",
+      "native": [
+        "Дастаўце пасылку на вуліцу Прытыцкага, дом 38, кватэра 65."
+      ],
+      "roman": [
+        "Dastautse pasylku na vulitsu Prytytskaha, dom 38, kvatera 65."
+      ]
+    },
+    {
+      "id": "be-s044",
+      "kind": "sentence",
+      "native": [
+        "Дадай грэчку ў спіс пакупак."
+      ],
+      "roman": [
+        "Dadaj hrechku u spis pakupak."
+      ]
+    },
+    {
+      "id": "be-s045",
+      "kind": "sentence",
+      "native": [
+        "Адкрый налады экрана."
+      ],
+      "roman": [
+        "Adkryj nalady ekrana."
+      ]
+    },
+    {
+      "id": "be-s046",
+      "kind": "sentence",
+      "native": [
+        "Код для ўваходу прыйшоў на старую пошту."
+      ],
+      "roman": [
+        "Kod dlia uvakhodu pryjshou na staruyu poshtu."
+      ]
+    },
+    {
+      "id": "be-s047",
+      "kind": "sentence",
+      "native": [
+        "Бацька сустрэне вас на прыпынку насупраць старога ўнівермага."
+      ],
+      "roman": [
+        "Batska sustrene vas na prypynku nasuprats staroha univermaha."
+      ]
+    },
+    {
+      "id": "be-s048",
+      "kind": "sentence",
+      "native": [
+        "Цётка прывязе з Пінска яблыкі, вызвалі скрыню на балконе."
+      ],
+      "roman": [
+        "Tsyotka pryviaze z Pinska yablyki, vyzvali skrynyu na balkone."
+      ]
+    },
+    {
+      "id": "be-s049",
+      "kind": "sentence",
+      "native": [
+        "Паеду ў Магілёў у чацвер, не, у сераду."
+      ],
+      "roman": [
+        "Payedu u Mahilyou u chatsver, ne, u seradu."
+      ]
+    },
+    {
+      "id": "be-s050",
+      "kind": "sentence",
+      "native": [
+        "Шкада, што выстава ў Вілейцы скончылася так хутка."
+      ],
+      "roman": [
+        "Shkada, shto vystava u Vilejtsy skonchylasia tak khutka."
+      ]
+    },
+    {
+      "id": "be-s051",
+      "kind": "sentence",
+      "native": [
+        "Сустрэнемся каля Камароўкі, мне яшчэ трэба купіць гародніны."
+      ],
+      "roman": [
+        "Sustrenemsia kalia Kamarouki, mne yashche treba kupits harodniny."
+      ]
+    },
+    {
+      "id": "be-s052",
+      "kind": "sentence",
+      "native": [
+        "За дастаўку да склада ў Лідзе просяць 18 рублёў."
+      ],
+      "roman": [
+        "Za dastauku da sklada u Lidze prosiats 18 rublyou."
+      ]
+    },
+    {
+      "id": "be-s053",
+      "kind": "sentence",
+      "native": [
+        "Пачынаем у пятніцу а 19:15, скончым недзе праз 90 хвілін."
+      ],
+      "roman": [
+        "Pachynayem u piatnitsu a 19:15, skonchym nedze praz 90 khvilin."
+      ]
+    },
+    {
+      "id": "be-s054",
+      "kind": "sentence",
+      "native": [
+        "Перад паездкай у Полацк спампуй карту, каб карыстацца ёй без інтэрнэту."
+      ],
+      "roman": [
+        "Perad payezdkaj u Polatsk spampuj kartu, kab karystatstsa yoj bez internetu."
+      ]
+    },
+    {
+      "id": "be-s055",
+      "kind": "sentence",
+      "native": [
+        "Дзе ў Мінску можна арандаваць ровар на цэлы дзень і пакінуць яго каля вакзала?"
+      ],
+      "roman": [
+        "Dze u Minsku mozhna arandavats rovar na tsely dzen i pakinuts yaho kalia vakzala?"
+      ]
+    },
+    {
+      "id": "be-s056",
+      "kind": "sentence",
+      "native": [
+        "Падключыла педаль да планшэта і цяпер перагортваю ноты нагой, не адрываючы рук ад скрыпкі."
+      ],
+      "roman": [
+        "Padklyuchyla pedal da plansheta i tsiaper perahortvayu noty nahoj, ne adryvayuchy ruk ad skrypki."
+      ]
+    },
+    {
+      "id": "be-s057",
+      "kind": "sentence",
+      "native": [
+        "Пачакайце мяне ля ўвахода, я толькі прыпаркую машыну."
+      ],
+      "roman": [
+        "Pachakajtse miane lia uvakhoda, ya tolki pryparkuyu mashynu."
+      ]
+    },
+    {
+      "id": "be-s058",
+      "kind": "sentence",
+      "native": [
+        "Хочаш, спячом на татаў юбілей торт самі, а не будзем заказваць у кандытарскай?"
+      ],
+      "roman": [
+        "Khochash, spiachom na tatau yubilej tort sami, a ne budzem zakazvats u kandytarskaj?"
+      ]
+    },
+    {
+      "id": "be-s059",
+      "kind": "sentence",
+      "native": [
+        "Алесь, ты на месцы?"
+      ],
+      "roman": [
+        "Ales, ty na mestsy?"
+      ]
+    },
+    {
+      "id": "be-s060",
+      "kind": "sentence",
+      "native": [
+        "Трымайся, у цябе атрымаецца!"
+      ],
+      "roman": [
+        "Trymajsia, u tsiabe atrymayetstsa!"
+      ]
+    },
+    {
+      "id": "be-s061",
+      "kind": "sentence",
+      "native": [
+        "Калі пойдзеш у краму, вазьмі яшчэ малака, бо нашага хопіць толькі на ранішнюю каву."
+      ],
+      "roman": [
+        "Kali pojdzesh u kramu, vazmi yashche malaka, bo nashaha khopits tolki na ranishnyuyu kavu."
+      ]
+    },
+    {
+      "id": "be-s062",
+      "kind": "sentence",
+      "native": [
+        "Ірына, дашлі, калі ласка, табліцу выдаткаў за красавік."
+      ],
+      "roman": [
+        "Iryna, dashli, kali laska, tablitsu vydatkau za krasavik."
+      ]
+    },
+    {
+      "id": "be-s063",
+      "kind": "sentence",
+      "native": [
+        "Вераніцы споўнілася 32 гады, а дачцэ хутка будзе 7."
+      ],
+      "roman": [
+        "Veranitsy spounilasia 32 hady, a dachtse khutka budze 7."
+      ]
+    },
+    {
+      "id": "be-s064",
+      "kind": "sentence",
+      "native": [
+        "На сераду заплануй паход у басейн з Русланам."
+      ],
+      "roman": [
+        "Na seradu zaplanuj pakhod u basejn z Ruslanam."
+      ]
+    },
+    {
+      "id": "be-s065",
+      "kind": "sentence",
+      "native": [
+        "Пакажы акорды для ўкулеле."
+      ],
+      "roman": [
+        "Pakazhy akordy dlia ukulele."
+      ]
+    },
+    {
+      "id": "be-s066",
+      "kind": "sentence",
+      "native": [
+        "Учора калега пакінуў каментарый у старой версіі праекта, таму я яго не адразу заўважыла."
+      ],
+      "roman": [
+        "Uchora kaleha pakinuu kamentaryj u staroj versii prayekta, tamu ya yaho ne adrazu zauvazhyla."
+      ]
+    },
+    {
+      "id": "be-s067",
+      "kind": "sentence",
+      "native": [
+        "Вольга жыве ў Серабранцы."
+      ],
+      "roman": [
+        "Volha zhyve u Serabrantsy."
+      ]
+    },
+    {
+      "id": "be-s068",
+      "kind": "sentence",
+      "native": [
+        "Марына, дадай у клёцкі крыху смажанай цыбулі."
+      ],
+      "roman": [
+        "Maryna, dadaj u klyotski krykhu smazhanaj tsybuli."
+      ]
+    },
+    {
+      "id": "be-s069",
+      "kind": "sentence",
+      "native": [
+        "Хвілінку, спачатку хацела сесці каля акна, але тут дзьме. Можна перайсці за той столік?"
+      ],
+      "roman": [
+        "Khvilinku, spachatku khatsela sestsi kalia akna, ale tut dzme. Mozhna perajstsi za toj stolik?"
+      ]
+    },
+    {
+      "id": "be-s070",
+      "kind": "sentence",
+      "native": [
+        "Цаню тваю падтрымку: без яе было б значна цяжэй."
+      ],
+      "roman": [
+        "Tsanyu tvayu padtrymku: bez yaye bylo b znachna tsiazhej."
+      ]
+    },
+    {
+      "id": "be-s071",
+      "kind": "sentence",
+      "native": [
+        "Дзякуй, парасон вельмі спатрэбіўся."
+      ],
+      "roman": [
+        "Dziakuj, parason velmi spatrebiusia."
+      ]
+    },
+    {
+      "id": "be-s072",
+      "kind": "sentence",
+      "native": [
+        "Пасля абнаўлення ў Zoom знік гук, далучуся з тэлефона."
+      ],
+      "roman": [
+        "Paslia abnaulennia u Zoom znik huk, daluchusia z telefona."
+      ]
+    },
+    {
+      "id": "be-s073",
+      "kind": "sentence",
+      "native": [
+        "Пакладзі 350 грамаў тварагу і 3 лыжкі цукру."
+      ],
+      "roman": [
+        "Pakladzi 350 hramau tvarahu i 3 lyzhki tsukru."
+      ]
+    },
+    {
+      "id": "be-s074",
+      "kind": "sentence",
+      "native": [
+        "Мне трэба падшыць фіранку."
+      ],
+      "roman": [
+        "Mne treba padshyts firanku."
+      ]
+    },
+    {
+      "id": "be-s075",
+      "kind": "sentence",
+      "native": [
+        "Пракладзі пешы маршрут да Лошыцкага парку без лесвіц."
+      ],
+      "roman": [
+        "Prakladzi peshy marshrut da Loshytskaha parku bez lesvits."
+      ]
+    },
+    {
+      "id": "be-s076",
+      "kind": "sentence",
+      "native": [
+        "Падчас званка лепш не запускаць спампоўку вялікіх файлаў, бо тады ў мяне пачынае тармазіць відэа."
+      ],
+      "roman": [
+        "Padchas zvanka lepsh ne zapuskats spampouku vialikikh fajlau, bo tady u miane pachynaye tarmazits videa."
+      ]
+    },
+    {
+      "id": "be-s077",
+      "kind": "sentence",
+      "native": [
+        "Мікола, падвязеш мяне да Баранавічаў у нядзелю раніцай?"
+      ],
+      "roman": [
+        "Mikola, padviazesh miane da Baranavichau u niadzelyu ranitsaj?"
+      ]
+    },
+    {
+      "id": "be-s078",
+      "kind": "sentence",
+      "native": [
+        "Каля сцэны на свяце надта гучна, таму мы з малой сядзем крыху далей."
+      ],
+      "roman": [
+        "Kalia stseny na sviatse nadta huchna, tamu my z maloj siadzem krykhu dalej."
+      ]
+    },
+    {
+      "id": "be-s079",
+      "kind": "sentence",
+      "native": [
+        "Лепш вазьмі зялёны аловак, а не сіні."
+      ],
+      "roman": [
+        "Lepsh vazmi zialyony alovak, a ne sini."
+      ]
+    },
+    {
+      "id": "be-s080",
+      "kind": "sentence",
+      "native": [
+        "Сырнікі тут смачныя, але варэння да іх шкадуюць."
+      ],
+      "roman": [
+        "Syrniki tut smachnyya, ale varennia da ikh shkaduyuts."
+      ]
+    },
+    {
+      "id": "be-s081",
+      "kind": "sentence",
+      "native": [
+        "Усё, бягу на танцы!"
+      ],
+      "roman": [
+        "Usyo, biahu na tantsy!"
+      ]
+    },
+    {
+      "id": "be-s082",
+      "kind": "sentence",
+      "native": [
+        "На вячэрнюю змену не выйду, але магу падмяніць каго-небудзь у суботу з самай раніцы."
+      ],
+      "roman": [
+        "Na viachernyuyu zmenu ne vyjdu, ale mahu padmianits kaho-nebudz u subotu z samaj ranitsy."
+      ]
+    },
+    {
+      "id": "be-s083",
+      "kind": "sentence",
+      "native": [
+        "А 38-ы памер ёсць?"
+      ],
+      "roman": [
+        "A 38-y pamer yosts?"
+      ]
+    },
+    {
+      "id": "be-s084",
+      "kind": "sentence",
+      "native": [
+        "Запішу ў каляндар заняткі па кераміцы ў Заслаўі."
+      ],
+      "roman": [
+        "Zapishu u kaliandar zaniatki pa keramitsy u Zaslaui."
+      ]
+    },
+    {
+      "id": "be-s085",
+      "kind": "sentence",
+      "native": [
+        "Уключы таймер на 9 хвілін."
+      ],
+      "roman": [
+        "Uklyuchy tajmer na 9 khvilin."
+      ]
+    },
+    {
+      "id": "be-s086",
+      "kind": "sentence",
+      "native": [
+        "Наталля, перад паездкай у Гомель наладзь аддалены доступ, каб можна было працаваць з гасцініцы."
+      ],
+      "roman": [
+        "Natallia, perad payezdkaj u Homel naladz addaleny dostup, kab mozhna bylo pratsavats z hastinitsy."
+      ]
+    },
+    {
+      "id": "be-s087",
+      "kind": "sentence",
+      "native": [
+        "Лепш паедзем праз мост, бо каля гандлёвага цэнтра цяпер мяняюць асфальт і звузілі праезд."
+      ],
+      "roman": [
+        "Lepsh payedzem praz most, bo kalia handlyovaha tsentra tsiaper mianiayuts asfalt i zvuzili prayezd."
+      ]
+    },
+    {
+      "id": "be-s088",
+      "kind": "sentence",
+      "native": [
+        "Дзянісу патрэбны каляровы кардон на заўтрашні ўрок працы."
+      ],
+      "roman": [
+        "Dzianisu patrebny kaliarovy kardon na zautrashni urok pratsy."
+      ]
+    },
+    {
+      "id": "be-s089",
+      "kind": "sentence",
+      "native": [
+        "Спытай у Цімафея, куды падзеўся стэплер. А зрэшты, не трэба: я знайшла яго ў шуфлядзе."
+      ],
+      "roman": [
+        "Spytaj u Tsimafeya, kudy padzeusia stepler. A zreshty, ne treba: ya znajshla yaho u shufliadze."
+      ]
+    },
+    {
+      "id": "be-s090",
+      "kind": "sentence",
+      "native": [
+        "Бабуля пытаецца, ці прывязеш ты малога на выхадныя."
+      ],
+      "roman": [
+        "Babulia pytayetstsa, tsi pryviazesh ty maloha na vykhadnyya."
+      ]
+    },
+    {
+      "id": "be-s091",
+      "kind": "sentence",
+      "native": [
+        "У бухгалтэрыі пацвердзілі аплату, замову можна аддаваць кур'еру."
+      ],
+      "roman": [
+        "U bukhhalteryi patsverdzili aplatu, zamovu mozhna addavats kur'yeru."
+      ]
+    },
+    {
+      "id": "be-s092",
+      "kind": "sentence",
+      "native": [
+        "Рэйс 183 вылятае ў 11:50, рэгістрацыя пачынаецца а 9:20, таму выедзем з запасам."
+      ],
+      "roman": [
+        "Rejs 183 vyliataye u 11:50, rehistratsyya pachynayetstsa a 9:20, tamu vyyedzem z zapasam."
+      ]
+    },
+    {
+      "id": "be-s093",
+      "kind": "sentence",
+      "native": [
+        "Бялізну з кошыка трэба разабраць па колерах і праверыць, ці не засталося нічога ў кішэнях."
+      ],
+      "roman": [
+        "Bializnu z koshyka treba razabrats pa kolerakh i praveryts, tsi ne zastalosia nichoha u kisheniakh."
+      ]
+    },
+    {
+      "id": "be-s094",
+      "kind": "sentence",
+      "native": [
+        "Зрабі гук цішэй, каб музыка не перашкаджала размаўляць."
+      ],
+      "roman": [
+        "Zrabi huk tsishej, kab muzyka ne perashkadzhala razmauliats."
+      ]
+    },
+    {
+      "id": "be-s095",
+      "kind": "sentence",
+      "native": [
+        "Сэнсар не рэагуе на дотык."
+      ],
+      "roman": [
+        "Sensar ne reahuye na dotyk."
+      ]
+    },
+    {
+      "id": "be-s096",
+      "kind": "sentence",
+      "native": [
+        "Кіроўца высадзіў нас ля пошты, адтуль да кірмашу ўсяго некалькі хвілін пешшу."
+      ],
+      "roman": [
+        "Kiroutsa vysadziu nas lia poshty, adtul da kirmashu usiaho nekalki khvilin peshshu."
+      ]
+    },
+    {
+      "id": "be-s097",
+      "kind": "sentence",
+      "native": [
+        "Чэк пакласці ў пакет?"
+      ],
+      "roman": [
+        "Chek paklastsi u paket?"
+      ]
+    },
+    {
+      "id": "be-s098",
+      "kind": "sentence",
+      "native": [
+        "Валянціна, дыван прывязуць а 16:20 ці ўсё ж пазней?"
+      ],
+      "roman": [
+        "Valiantsina, dyvan pryviazuts a 16:20 tsi usyo zh paznej?"
+      ]
+    },
+    {
+      "id": "be-s099",
+      "kind": "sentence",
+      "native": [
+        "Красоўкі мне ціснуць, можаш пайсці са мной у краму дапамагчы выбраць іншую пару?"
+      ],
+      "roman": [
+        "Krasouki mne tsisnuts, mozhash pajstsi sa mnoj u kramu dapamahchy vybrats inshuyu paru?"
+      ]
+    },
+    {
+      "id": "be-s100",
+      "kind": "sentence",
+      "native": [
+        "Раман падрыхтаваў прэзентацыю, засталося дадаць вынікі апытання кліентаў."
+      ],
+      "roman": [
+        "Raman padrykhtavau prezentatsyyu, zastalosia dadats vyniki apytannia kliyentau."
+      ]
+    },
+    {
+      "id": "be-s101",
+      "kind": "sentence",
+      "native": [
+        "Патрэбна дошка даўжынёй 120 сантыметраў, шырынёй 25 сантыметраў і таўшчынёй 18 міліметраў."
+      ],
+      "roman": [
+        "Patrebna doshka dauzhynyoj 120 santymetrau, shyrynyoj 25 santymetrau i taushchynyoj 18 milimetrau."
+      ]
+    },
+    {
+      "id": "be-s102",
+      "kind": "sentence",
+      "native": [
+        "Нагадай пакарміць рыбак увечары."
+      ],
+      "roman": [
+        "Nahadaj pakarmits rybak uvechary."
+      ]
+    },
+    {
+      "id": "be-s103",
+      "kind": "sentence",
+      "native": [
+        "Чаму бесправадная мышка не падключаецца да ноўтбука?"
+      ],
+      "roman": [
+        "Chamu bespravadnaya myshka ne padklyuchayetstsa da noutbuka?"
+      ]
+    },
+    {
+      "id": "be-s104",
+      "kind": "sentence",
+      "native": [
+        "Праграма просіць увесці пароль."
+      ],
+      "roman": [
+        "Prahrama prosits uvestsi parol."
+      ]
+    },
+    {
+      "id": "be-s105",
+      "kind": "sentence",
+      "native": [
+        "Эльвіра, пасля рэпетыцыі заходзь да нас на вуліцу Кузьмы Чорнага, будзем пячы вафлі."
+      ],
+      "roman": [
+        "Elvira, paslia repetytsyi zakhodz da nas na vulitsu Kuzmy Chornaha, budzem piachy vafli."
+      ]
+    },
+    {
+      "id": "be-s106",
+      "kind": "sentence",
+      "native": [
+        "Можа, саступіце 6 рублёў, калі вазьму абедзве кашулі?"
+      ],
+      "roman": [
+        "Mozha, sastupitse 6 rublyou, kali vazmu abedzve kashuli?"
+      ]
+    },
+    {
+      "id": "be-s107",
+      "kind": "sentence",
+      "native": [
+        "Прабач, пераблытала: патрэбны шырокі пэндзаль, а не тонкі."
+      ],
+      "roman": [
+        "Prabach, perablytala: patrebny shyroki pendzal, a ne tonki."
+      ]
+    },
+    {
+      "id": "be-s108",
+      "kind": "sentence",
+      "native": [
+        "Кінь у чат фоткі з учарашняга шпацыру, паглядзім разам."
+      ],
+      "roman": [
+        "Kin u chat fotki z ucharashniaha shpatsyru, pahliadzim razam."
+      ]
+    },
+    {
+      "id": "be-s109",
+      "kind": "sentence",
+      "native": [
+        "Здаецца, у раскладзе семінара памылка: дзве лекцыі паставілі на адзін час, паглядзіце, калі ласка."
+      ],
+      "roman": [
+        "Zdayetstsa, u raskladze seminara pamylka: dzve lektsyi pastavili na adzin chas, pahliadzitse, kali laska."
+      ]
+    },
+    {
+      "id": "be-s110",
+      "kind": "sentence",
+      "native": [
+        "Кнігу для мяне адклалі да 26 мая, забяру яе ў пятніцу пасля 18:00."
+      ],
+      "roman": [
+        "Knihu dlia miane adklali da 26 maya, zabiaru yaye u piatnitsu paslia 18:00."
+      ]
+    },
+    {
+      "id": "be-s111",
+      "kind": "sentence",
+      "native": [
+        "Праз месяц праверыць падпіску на музыку і адключыць яе, калі больш не буду слухаць."
+      ],
+      "roman": [
+        "Praz mesiats praveryts padpisku na muzyku i adklyuchyts yaye, kali bolsh ne budu slukhats."
+      ]
+    },
+    {
+      "id": "be-s112",
+      "kind": "sentence",
+      "native": [
+        "Куды ў Навагрудку можна здаць старыя батарэйкі на перапрацоўку?"
+      ],
+      "roman": [
+        "Kudy u Navahrudku mozhna zdats staryya batarejki na perapratsouku?"
+      ]
+    },
+    {
+      "id": "be-s113",
+      "kind": "sentence",
+      "native": [
+        "Навошта ліхтарык просіць доступ да маіх кантактаў?"
+      ],
+      "roman": [
+        "Navoshta likhtaryk prosits dostup da maikh kantaktau?"
+      ]
+    },
+    {
+      "id": "be-s114",
+      "kind": "sentence",
+      "native": [
+        "Выйдзіце з метро праз выхад бліжэй да фантана."
+      ],
+      "roman": [
+        "Vyjdzitse z metro praz vykhad blizhej da fantana."
+      ]
+    },
+    {
+      "id": "be-s115",
+      "kind": "sentence",
+      "native": [
+        "Майстар абяцаў замяніць разетку ў чацвер пасля абеду."
+      ],
+      "roman": [
+        "Majstar abiatsau zamianits razetku u chatsver paslia abedu."
+      ]
+    },
+    {
+      "id": "be-s116",
+      "kind": "sentence",
+      "native": [
+        "Шпульку пакінь на паліцы. Не, лепш дай сюды, я адразу наматаю чырвоную нітку."
+      ],
+      "roman": [
+        "Shpulku pakin na palitsy. Ne, lepsh daj syudy, ya adrazu namatayu chyrvonuyu nitku."
+      ]
+    },
+    {
+      "id": "be-s117",
+      "kind": "sentence",
+      "native": [
+        "Андрэй, квіткі на канцэрт ужо ў мяне, можаш не шукаць."
+      ],
+      "roman": [
+        "Andrej, kvitki na kantsert uzho u miane, mozhash ne shukats."
+      ]
+    },
+    {
+      "id": "be-s118",
+      "kind": "sentence",
+      "native": [
+        "Аксана, перад адпачынкам пакінь калегам інструкцыю, каб яны маглі самі адказваць на звароты пакупнікоў."
+      ],
+      "roman": [
+        "Aksana, perad adpachynkam pakin kaleham instruktsyyu, kab yany mahli sami adkazvats na zvaroty pakupnikou."
+      ]
+    },
+    {
+      "id": "be-s119",
+      "kind": "sentence",
+      "native": [
+        "Будзільнік пастаў на 6:45."
+      ],
+      "roman": [
+        "Budzilnik pastau na 6:45."
+      ]
+    },
+    {
+      "id": "be-s120",
+      "kind": "sentence",
+      "native": [
+        "Занатуй рэцэпт мачанкі."
+      ],
+      "roman": [
+        "Zanatuj retsept machanki."
+      ]
+    },
+    {
+      "id": "be-s121",
+      "kind": "sentence",
+      "native": [
+        "Як аформіць вяртанне курткі з інтэрнэт-крамы, калі яна аказалася завялікай, а ўпакоўку я ўжо выкінула?"
+      ],
+      "roman": [
+        "Yak aformits viartannie kurtki z internet-kramy, kali yana akazalasia zavialikaj, a upakouku ya uzho vykinula?"
+      ]
+    },
+    {
+      "id": "be-s122",
+      "kind": "sentence",
+      "native": [
+        "Драйвер для сканера лепш спампаваць з сайта вытворцы."
+      ],
+      "roman": [
+        "Drajver dlia skanera lepsh spampavats z sajta vytvortsy."
+      ]
+    },
+    {
+      "id": "be-s123",
+      "kind": "sentence",
+      "native": [
+        "Ніна забярэ дачку са школы, пакуль я ў цырульні."
+      ],
+      "roman": [
+        "Nina zabiare dachku sa shkoly, pakul ya u tsyrulni."
+      ]
+    },
+    {
+      "id": "be-s124",
+      "kind": "sentence",
+      "native": [
+        "Нарэшце дождж сціх."
+      ],
+      "roman": [
+        "Nareshtse dozhdzh stsikh."
+      ]
+    },
+    {
+      "id": "be-s125",
+      "kind": "sentence",
+      "native": [
+        "Бавоўна ці ўсё ж лён?"
+      ],
+      "roman": [
+        "Bavouna tsi usyo zh lyon?"
+      ]
+    },
+    {
+      "id": "be-s126",
+      "kind": "sentence",
+      "native": [
+        "Я ўжо дома, не хвалюйся."
+      ],
+      "roman": [
+        "Ya uzho doma, ne khvalyujsia."
+      ]
+    },
+    {
+      "id": "be-s127",
+      "kind": "sentence",
+      "native": [
+        "Друкарня ў Слоніме паабяцала прывезці буклеты да адкрыцця."
+      ],
+      "roman": [
+        "Drukarnia u Slonime paabiatsala pryveztsi buklety da adkrytstsia."
+      ]
+    },
+    {
+      "id": "be-s128",
+      "kind": "sentence",
+      "native": [
+        "Матч скончыўся. Наша каманда забіла 3 галы, а сапернікі забілі 1 гол."
+      ],
+      "roman": [
+        "Match skonchyusia. Nasha kamanda zabila 3 haly, a saperniki zabili 1 hol."
+      ]
+    },
+    {
+      "id": "be-s129",
+      "kind": "sentence",
+      "native": [
+        "Да прыезду Таццяны трэба вызваліць паліцу ў пярэднім пакоі і дастаць чыстыя ручнікі для гасцей."
+      ],
+      "roman": [
+        "Da pryyezdu Tatstsiany treba vyzvalits palitsu u piarednim pakoi i dastats chystyya ruchniki dlia hastsej."
+      ]
+    },
+    {
+      "id": "be-s130",
+      "kind": "sentence",
+      "native": [
+        "Адпраў маме ў WhatsApp паведамленне, што пасылка дайшла і ўсе слоікі з мёдам цэлыя."
+      ],
+      "roman": [
+        "Adprau mame u WhatsApp pavedamlennie, shto pasylka dajshla i use sloiki z myodam tselyya."
+      ]
+    },
+    {
+      "id": "be-s131",
+      "kind": "sentence",
+      "native": [
+        "Прынтар зноў зажаваў паперу."
+      ],
+      "roman": [
+        "Pryntar znou zazhavau paperu."
+      ]
+    },
+    {
+      "id": "be-s132",
+      "kind": "sentence",
+      "native": [
+        "Павел Мароз чакае каля кінатэатра."
+      ],
+      "roman": [
+        "Pavel Maroz chakaye kalia kinateatra."
+      ]
+    },
+    {
+      "id": "be-s133",
+      "kind": "sentence",
+      "native": [
+        "У бібліятэцы ў Капылі часопісы даюць дадому ці толькі кнігі?"
+      ],
+      "roman": [
+        "U bibliyatetsy u Kapyli chasopisy dayuts dadomu tsi tolki knihi?"
+      ]
+    },
+    {
+      "id": "be-s134",
+      "kind": "sentence",
+      "native": [
+        "Мама, не выкідай тую скрынку: яна для падарунка."
+      ],
+      "roman": [
+        "Mama, ne vykidaj tuyu skrynku: yana dlia padarunka."
+      ]
+    },
+    {
+      "id": "be-s135",
+      "kind": "sentence",
+      "native": [
+        "Макет падыходзіць, запускаем у друк."
+      ],
+      "roman": [
+        "Maket padykhodzits, zapuskayem u druk."
+      ]
+    },
+    {
+      "id": "be-s136",
+      "kind": "sentence",
+      "native": [
+        "Запішы мяне на 23 кастрычніка 2026 года на 10:30, каб паспець перад працай."
+      ],
+      "roman": [
+        "Zapishy miane na 23 kastrychnika 2026 hoda na 10:30, kab paspets perad pratsaj."
+      ]
+    },
+    {
+      "id": "be-s137",
+      "kind": "sentence",
+      "native": [
+        "Увечары адкласці 45 рублёў на экскурсію па Гродне і пакласці дробныя грошы ў кашалёк."
+      ],
+      "roman": [
+        "Uvechary adklastsi 45 rublyou na ekskursiyu pa Hrodne i paklastsi drobnyya hroshy u kashalyok."
+      ]
+    },
+    {
+      "id": "be-s138",
+      "kind": "sentence",
+      "native": [
+        "Набяры Сяргея Бандарэнку."
+      ],
+      "roman": [
+        "Nabiary Siarheya Bandarenku."
+      ]
+    },
+    {
+      "id": "be-s139",
+      "kind": "sentence",
+      "native": [
+        "Без інтэрнэту я магу толькі праглядаць захаваныя нататкі."
+      ],
+      "roman": [
+        "Bez internetu ya mahu tolki prahliadats zakhavanyya natatki."
+      ]
+    },
+    {
+      "id": "be-s140",
+      "kind": "sentence",
+      "native": [
+        "Хлопцы з суседняга аддзела запрасілі мяне на валейбол, але я не ведаю дарогі да залы."
+      ],
+      "roman": [
+        "Khloptsy z susedniaha addzela zaprasili miane na valejbol, ale ya ne vedayu darohi da zaly."
+      ]
+    },
+    {
+      "id": "be-s141",
+      "kind": "sentence",
+      "native": [
+        "Налі гарбаты, хаця не, давай лепш проста вады."
+      ],
+      "roman": [
+        "Nali harbaty, khatsia ne, davaj lepsh prosta vady."
+      ]
+    },
+    {
+      "id": "be-s142",
+      "kind": "sentence",
+      "native": [
+        "Сёння затрымаюся на працы, вячэрайце пакуль без мяне."
+      ],
+      "roman": [
+        "Syonnia zatrymayusia na pratsy, viacherajtse pakul bez miane."
+      ]
+    },
+    {
+      "id": "be-s143",
+      "kind": "sentence",
+      "native": [
+        "Вітаю, ці зручна зараз пагаварыць?"
+      ],
+      "roman": [
+        "Vitayu, tsi zruchna zaraz pahavaryts?"
+      ]
+    },
+    {
+      "id": "be-s144",
+      "kind": "sentence",
+      "native": [
+        "Засталося 37% зараду."
+      ],
+      "roman": [
+        "Zastalosia 37% zaradu."
+      ]
+    },
+    {
+      "id": "be-s145",
+      "kind": "sentence",
+      "native": [
+        "Дадай асобны напамін купіць пражу для шаліка."
+      ],
+      "roman": [
+        "Dadaj asobny napamin kupits prazhu dlia shalika."
+      ]
+    },
+    {
+      "id": "be-s146",
+      "kind": "sentence",
+      "native": [
+        "Аліна, захапі маю зарадку, яна ляжыць каля тэлевізара."
+      ],
+      "roman": [
+        "Alina, zakhapi mayu zaradku, yana liazhyts kalia televizara."
+      ]
+    },
+    {
+      "id": "be-s147",
+      "kind": "sentence",
+      "native": [
+        "З 50 рублёў будзе 17 рублёў 80 капеек рэшты."
+      ],
+      "roman": [
+        "Z 50 rublyou budze 17 rublyou 80 kapeyek reshty."
+      ]
+    },
+    {
+      "id": "be-s148",
+      "kind": "sentence",
+      "native": [
+        "У Якуба заўтра басейн, ручнік я паклала ў заплечнік."
+      ],
+      "roman": [
+        "U Yakuba zautra basejn, ruchnik ya paklala u zaplechnik."
+      ]
+    },
+    {
+      "id": "be-s149",
+      "kind": "sentence",
+      "native": [
+        "Купіла 5 сшыткаў па 2 рублі 40 капеек."
+      ],
+      "roman": [
+        "Kupila 5 sshytkau pa 2 rubli 40 kapeyek."
+      ]
+    },
+    {
+      "id": "be-s150",
+      "kind": "sentence",
+      "native": [
+        "Завітай на гарбату: прывезла з Рагачова згушчонку."
+      ],
+      "roman": [
+        "Zavitaj na harbatu: pryvezla z Rahachova zhushchonku."
+      ]
+    },
+    {
+      "id": "be-s151",
+      "kind": "sentence",
+      "native": [
+        "Гітара цяпер гучыць лепш."
+      ],
+      "roman": [
+        "Hitara tsiaper huchyts lepsh."
+      ]
+    },
+    {
+      "id": "be-s152",
+      "kind": "sentence",
+      "native": [
+        "Правер, калі ласка, ці не засталіся мае навушнікі ў цябе на кухонным стале."
+      ],
+      "roman": [
+        "Praver, kali laska, tsi ne zastalisia maye navushniki u tsiabe na kukhonnym stale."
+      ]
+    },
+    {
+      "id": "be-s153",
+      "kind": "sentence",
+      "native": [
+        "Зміцер, прынось настолку. Будзем гуляць пасля вячэры."
+      ],
+      "roman": [
+        "Zmitser, prynos nastolku. Budzem huliats paslia viachery."
+      ]
+    },
+    {
+      "id": "be-s154",
+      "kind": "sentence",
+      "native": [
+        "Збіралася проста разабраць фотаздымкі, а ў выніку цэлы вечар успамінала наш школьны выпускны."
+      ],
+      "roman": [
+        "Zbiralasia prosta razabrats fotazdymki, a u vyniku tsely vechar uspaminala nash shkolny vypuskny."
+      ]
+    },
+    {
+      "id": "be-s155",
+      "kind": "sentence",
+      "native": [
+        "Давай у суботу з'ездзім у Нясвіж, калі пагода дазволіць."
+      ],
+      "roman": [
+        "Davaj u subotu z'yezdzim u Niasvizh, kali pahoda dazvolits."
+      ]
+    }
+  ]
+}

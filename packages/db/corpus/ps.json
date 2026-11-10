@@ -1,0 +1,2124 @@
+{
+  "lang": "ps",
+  "starter": [
+    "ps-s084",
+    "ps-s178",
+    "ps-s023",
+    "ps-s175",
+    "ps-s159",
+    "ps-s011",
+    "ps-s117",
+    "ps-s093",
+    "ps-s162",
+    "ps-s118",
+    "ps-s092",
+    "ps-s179",
+    "ps-p01",
+    "ps-s065",
+    "ps-s042",
+    "ps-s111",
+    "ps-s155",
+    "ps-s164",
+    "ps-s166",
+    "ps-s153",
+    "ps-s007",
+    "ps-s004",
+    "ps-s028",
+    "ps-s033",
+    "ps-s152",
+    "ps-p07",
+    "ps-s129",
+    "ps-s135",
+    "ps-s061",
+    "ps-s098",
+    "ps-s077",
+    "ps-s127",
+    "ps-s048",
+    "ps-s066",
+    "ps-s125",
+    "ps-s005",
+    "ps-s060",
+    "ps-s151",
+    "ps-p03",
+    "ps-s105",
+    "ps-s169",
+    "ps-s019",
+    "ps-s054",
+    "ps-s020",
+    "ps-s183",
+    "ps-s047",
+    "ps-s021",
+    "ps-s017",
+    "ps-s036",
+    "ps-s154",
+    "ps-s102"
+  ],
+  "items": [
+    {
+      "id": "ps-p01",
+      "kind": "para",
+      "title": "Moving to Khairkhana",
+      "native": [
+        "مینا، پرون د کابل په خیرخانه کې نوي فلیټ ته کډه شوم۔",
+        "نوی کور مې په درېیم پوړ کې دی، خو لفټ لري۔",
+        "د کوڅې په سر کې نانوایي او د سبزیو دوکان شته۔",
+        "سهار د کړکۍ مخې ته لمر وي، کوټه ښه تودېږي۔",
+        "اسباب مې راوړل، خو د لوښو کارتن لا بند پروت دی۔",
+        "د پخلنځي لپاره یو وړوکی مېز هم اخیستل غواړم۔",
+        "ته د شنبې په مازیګر راشه، دواړه به پردې ولګوو۔",
+        "مور دې هم راوله، د هغې مشوره به راته پکار شي۔",
+        "ماښام به د کور مخې ته له دوکانه کباب راوړو۔"
+      ],
+      "roman": [
+        "Mina, parun da Kabul pa Khairkhana ke nawi flat ta kada shom.",
+        "Naway kor me pa dreyam por ke day, kho lift lari.",
+        "Da kotse pa sar ke nanwayi aw da sabziyo dukan shta.",
+        "Sahar da karkay makhe ta lmar wi, kota kha todegi.",
+        "Asbab me rawral, kho da lokho kartan la band prot day.",
+        "Da pakhlandzi lapara yaw wrukay mez ham akhistal ghwaram.",
+        "Ta da Shanbe pa mazigar rasha, dwara ba parde walagawu.",
+        "Mor de ham rawala, da haghe mashwara ba rata pakar shi.",
+        "Makham ba da kor makhe ta la dukana kabab rawru."
+      ]
+    },
+    {
+      "id": "ps-p02",
+      "kind": "para",
+      "title": "Leave Handover in Jalalabad",
+      "native": [
+        "سلامونه، زه د دوشنبې له ورځې تر چهارشنبې پورې په رخصتۍ یم۔",
+        "د جلال اباد د دوکانونو نوی لیست مې درته په ایمیل لېږلی دی۔",
+        "د هر دوکان پته او د اړیکې شمېره په فایل کې شته۔",
+        "له سپین غر شرکت سره د فرمایش خبره لا پاتې ده۔",
+        "زبیر به د سې شنبې په سهار د شرکت مدیر ته زنګ ووهي۔",
+        "د نرخونو وروستی فایل مې د ټیم په ګډ فولډر کې ایښی دی۔",
+        "شازیه به راغلي فرمایشونه وګوري او د لېږلو وخت به وټاکي۔",
+        "که کومه پوښتنه لرئ، نن مازیګر تر 4 بجو راته ووایئ۔",
+        "د پنجشنبې په سهار بېرته راځم، پاتې کار به یوځای وګورو۔"
+      ],
+      "roman": [
+        "Salamuna, za da Dushanbe la wradze tar Charshambe pore pa rukhsatay yam.",
+        "Da Jalal Abad da dukanuno naway list me darta pa email legalay day.",
+        "Da har dukan pata aw da arike shmera pa file ke shta.",
+        "La Spin Ghar shirkat sara da farmayish khabara la pate da.",
+        "Zubair ba da Se Shanbe pa sahar da shirkat mudir ta zang wowahi.",
+        "Da narkhuno warustay file me da team pa gad folder ke ekhay day.",
+        "Shazia ba raghli farmayishuna wogori aw da leglo wakht ba wataki.",
+        "Ka kuma pukhtana laray, nan mazigar tar 4 bajo rata wowayay.",
+        "Da Panjshambe pa sahar berta radzam, pate kar ba yawdzay wogoru."
+      ]
+    },
+    {
+      "id": "ps-p03",
+      "kind": "para",
+      "title": "Help at Mardan Market",
+      "native": [
+        "تېره جمعه د مردان له بازار نه کور ته روان وم۔",
+        "د رومي بانجانو کڅوړه مې د بس تمځي ته نږدې وشلېده۔",
+        "بانجان پر ځمکه خواره شول، ما سره بله کڅوړه نه وه۔",
+        "د مېوو یوه دوکاندار راته غږ کړ چې لږ تم شه۔",
+        "له خپل دوکان نه یې د ټوکر یوه کڅوړه راوړه۔",
+        "هغه زما تر څنګ کېناست او بانجان یې راسره راټول کړل۔",
+        "ما پیسې راوایستې، خو هغه په خندا لاس شاته کړ۔",
+        "ویل یې، کڅوړه وساته، بس مېوې رانه کله کله اخله۔",
+        "کور ته چې ورسېدم، د هغه مرسته مې مور ته یاده کړه۔"
+      ],
+      "roman": [
+        "Tera Juma da Mardan la bazar na kor ta rawan wom.",
+        "Da rumi banjano katsora me da bus tamdzi ta nagde washleda.",
+        "Banjan par dzmaka khwara shwal, ma sara bala katsora na wa.",
+        "Da mewo yawa dukandar rata ghag kr che lag tam sha.",
+        "La khpal dukan na ye da tokar yawa katsora rawra.",
+        "Hagha zma tar tsang kenast aw banjan ye rasara ratol kral.",
+        "Ma paise rawaiste, kho hagha pa khanda las shata kr.",
+        "Wel ye, katsora wasata, bas mewe rana kala kala akhla.",
+        "Kor ta che warsedam, da hagha mrasta me mor ta yada kra."
+      ]
+    },
+    {
+      "id": "ps-p04",
+      "kind": "para",
+      "title": "Paying a Peshawar Electricity Bill",
+      "native": [
+        "په پېښور کې د برېښنا بل د موبایل له لارې ورکولی شې۔",
+        "لومړی د برېښنا بل او خپل موبایل مخې ته کېږده۔",
+        "په اپ کې د بلونو ورکولو برخه خلاصه کړه۔",
+        "د برېښنا په برخه کې پیسکو وټاکه۔",
+        "د بل د ریفرنس نمبر ټولې 14 شمېرې په اپ کې ولیکه۔",
+        "په سکرین چې کوم نوم او پیسې ښکاري، له کاغذي بل سره یې پرتله کړه۔",
+        "د بل له ورکولو مخکې وګوره چې په اپ کې کافي پیسې لرې۔",
+        "که معلومات سم وي، خپل پن کوډ ولیکه او بل ورکړه۔",
+        "د بل رسید په موبایل کې وساته، بیا به دې پکار شي۔"
+      ],
+      "roman": [
+        "Pa Pekhawar ke da brekhna bil da mobile la lare warkawalay she.",
+        "Lomray da brekhna bil aw khpal mobile makhe ta kegda.",
+        "Pa app ke da biluno warkawalo barkha khlasa kra.",
+        "Da brekhna pa barkha ke PESCO wataka.",
+        "Da bil da reference number tole 14 shmere pa app ke walika.",
+        "Pa screen che kum num aw paise khkari, la kaghazi bil sara ye partala kra.",
+        "Da bil la warkawalo makhke wogora che pa app ke kafi paise lare.",
+        "Ka malumat sam wi, khpal PIN code walika aw bil warkra.",
+        "Da bil rasid pa mobile ke wasata, bia ba de pakar shi."
+      ]
+    },
+    {
+      "id": "ps-p05",
+      "kind": "para",
+      "title": "A Phone from Khost",
+      "native": [
+        "تېره اونۍ مې د خوست له بازاره نوی موبایل واخیست۔",
+        "د دوکاندار خبرې خوږې وې، خو ما موبایل پخپله وکوت۔",
+        "سکرین یې روښانه دی او توري پرې په اسانه لوستلی شم۔",
+        "په لمر کې هم د تصویر رنګونه ښه ښکاري۔",
+        "د مور غږ پرې صاف اورم، دا راته ډېره مهمه خبره ده۔",
+        "بیټرۍ یې تر ماښامه چلېږي، خو زه لوبې پرې نه کوم۔",
+        "کېمره یې د ورځې ښه عکسونه اخلي، خو د شپې عکسونه تت راځي۔",
+        "بیه یې 18000 افغانۍ وه، نو لږ ګران راته تمام شو۔",
+        "زما په نظر، د ورځني کار لپاره ښه موبایل دی۔"
+      ],
+      "roman": [
+        "Tera unay me da Khost la bazara naway mobile wakhist.",
+        "Da dukandar khabare khwage we, kho ma mobile pakhpala wokot.",
+        "Screen ye rokhana day aw tori pre pa asana lwastalay sham.",
+        "Pa lmar ke ham da taswir ranguna kha khkari.",
+        "Da mor ghag pre saf awram, da rata dera muhima khabara da.",
+        "Battery ye tar makhama chalegi, kho za lobe pre na kawam.",
+        "Camera ye da wradze kha aksuna akhli, kho da shpe aksuna tat radzi.",
+        "Bia ye 18000 afghanay wa, no lag gran rata tamam sho.",
+        "Zma pa nazar, da wradzani kar lapara kha mobile day."
+      ]
+    },
+    {
+      "id": "ps-p06",
+      "kind": "para",
+      "title": "Our Kandahar Household Budget",
+      "native": [
+        "په کندهار کې د مې میاشتې لپاره 40000 افغانۍ لرو۔",
+        "د 2026 کال د مې په 2 کرایه ورکوو۔",
+        "د کور کرایه 12000 افغانۍ ده، دا پیسې لومړی بېلوم۔",
+        "د اوړو، وریجو او غوړیو لپاره به 9000 افغانۍ کېږدم۔",
+        "بازار 3 کیلومتره لرې دی، سبا سهار 9 بجې ورځم۔",
+        "د تګ راتګ لپاره به د میاشتې 2000 افغانۍ وساتو۔",
+        "د برېښنا او اوبو لپاره 3000 افغانۍ جلا کوم۔",
+        "د 2 ماشومانو د کتابونو او جامو لپاره 8000 افغانۍ بېلوم۔",
+        "پاتې 6000 افغانۍ به ساتو چې ناڅاپي لګښت پرې پوره کړو۔"
+      ],
+      "roman": [
+        "Pa Kandahar ke da May miashte lapara 40000 afghanay laru.",
+        "Da 2026 kal da May pa 2 kiraya warkawu.",
+        "Da kor kiraya 12000 afghanay da, da paise lomray belawam.",
+        "Da oro, wrijo aw ghwaryo lapara ba 9000 afghanay kegdam.",
+        "Bazar 3 kilometra lare day, saba sahar 9 baje wradzam.",
+        "Da tag ratag lapara ba da miashte 2000 afghanay wasatu.",
+        "Da brekhna aw obo lapara 3000 afghanay jala kawam.",
+        "Da 2 mashumano da kitabuno aw jamo lapara 8000 afghanay belawam.",
+        "Pate 6000 afghanay ba satu che natsapi lagakht pre pura kro."
+      ]
+    },
+    {
+      "id": "ps-p07",
+      "kind": "para",
+      "title": "Internet Trouble in Mazar",
+      "native": [
+        "سلامونه، زه د مزار شریف له کارته اریانا نه زنګ وهم۔",
+        "زموږ د کور انټرنېټ له پرون راهیسې بیا بیا پرې کېږي۔",
+        "په موبایل او لپټاپ دواړو کې انټرنېټ یو ځای پرې کېږي۔",
+        "راوټر مې بند او بیا چالان کړ، خو ستونزه حل نه شوه۔",
+        "د راوټر شین څراغ بل وي، خو هېڅ پاڼه نه خلاصېږي۔",
+        "نن مې د کار میټینګ نیمګړی پاتې شو، غږ مې نه ورتلو۔",
+        "مهرباني وکړئ، وګورئ چې ستونزه له کومه ده۔",
+        "که تخنیکر رالېږئ، سبا له غرمې وروسته په کور یم۔",
+        "د راتګ وخت راته په مېسج کې ولیکئ، مننه۔"
+      ],
+      "roman": [
+        "Salamuna, za da Mazar Sharif la Karte Ariana na zang waham.",
+        "Zmung da kor internet la parun rahise bia bia pre kegi.",
+        "Pa mobile aw laptop dwaro ke internet yaw dzay pre kegi.",
+        "Router me band aw bia chalan kr, kho stunza hal na shwa.",
+        "Da router shin tsiragh bal wi, kho hets pana na khlasegi.",
+        "Nan me da kar meeting nimgaray pate sho, ghag me na wartlo.",
+        "Mehrabani wokray, wogoray che stunza la kuma da.",
+        "Ka takhnikar ralegay, saba la gharme warusta pa kor yam.",
+        "Da ratag wakht rata pa message ke wolikay, manana."
+      ]
+    },
+    {
+      "id": "ps-p08",
+      "kind": "para",
+      "title": "Cricket Fans in Kabal",
+      "native": [
+        "د سوات په کبل کې ځوانان کرکټ ډېر خوښوي۔",
+        "د جمعې په ماسپښین د لوبغالي شاوخوا خلک ورو ورو راټولېږي۔",
+        "ځینې خلک له نږدې کلیو د لوبې لیدو ته راځي۔",
+        "ماشومان د میدان له غاړې د منډو حساب ساتي۔",
+        "چې څوک شپږیزه ووهي، خلک ورته چکچکې وهي۔",
+        "د چای دوکانداران هم د لوبې په ورځ تر ناوخته بوخت وي۔",
+        "لوبغاړي له لوبې وروسته یو بل ته لاس ورکوي او خبرې کوي۔",
+        "په میدان کې د ناستې لپاره ځایونه هم شته۔",
+        "له لوبې وروسته خلک ډلې ډلې کورونو ته ځي۔"
+      ],
+      "roman": [
+        "Da Swat pa Kabal ke dzwanan cricket der khwakhawi.",
+        "Da jume pa maspakhin da lobghali shawkhwa khalk wro wro ratolegi.",
+        "Dzine khalk la nagde kilyo da lobe lido ta radzi.",
+        "Mashuman da maidan la ghare da mando hisab sati.",
+        "Che tsok shpagiza wowahi, khalk warta chakchake wahi.",
+        "Da chay dukandaran ham da lobe pa wradz tar nawakhta bokht wi.",
+        "Lobghari la lobe warusta yaw bal ta las warkawi aw khabare kawi.",
+        "Pa maidan ke da naste lapara dzayuna ham shta.",
+        "La lobe warusta khalk dale dale koruno ta dzi."
+      ]
+    },
+    {
+      "id": "ps-s001",
+      "kind": "sentence",
+      "native": [
+        "بیړه مه کوه، زه هم لا تیار نه یم۔"
+      ],
+      "roman": [
+        "Bera ma kawa, za ham la tayar na yam."
+      ]
+    },
+    {
+      "id": "ps-s002",
+      "kind": "sentence",
+      "native": [
+        "سلامونه، د حسابونو حال څنګه دی؟"
+      ],
+      "roman": [
+        "Salamuna, da hisabuno hal tsanga day?"
+      ]
+    },
+    {
+      "id": "ps-s003",
+      "kind": "sentence",
+      "native": [
+        "نرګس د 2026 کال د اګست په 18 راځي، د شپې 10 بجې یې له تمځایه راوله۔"
+      ],
+      "roman": [
+        "Nargis da 2026 kal da Agast pa 18 radzi, da shpe 10 baje ye la tamdzaya rawala."
+      ]
+    },
+    {
+      "id": "ps-s004",
+      "kind": "sentence",
+      "native": [
+        "آشک به د شنبې مېلمنو ته پاخه کړم۔"
+      ],
+      "roman": [
+        "Ashak ba da shanbe melmano ta pakha kram."
+      ]
+    },
+    {
+      "id": "ps-s005",
+      "kind": "sentence",
+      "native": [
+        "بلوتوت همدا اوس چالان کړه۔"
+      ],
+      "roman": [
+        "Bluetooth hamda os chalan kra."
+      ]
+    },
+    {
+      "id": "ps-s006",
+      "kind": "sentence",
+      "native": [
+        "راته ووایه چې په زوم کې خبرې څنګه ثبت کړم، سبا یې همکارانو ته اورول غواړم۔"
+      ],
+      "roman": [
+        "Rata wowaya che pa Zoom ke khabare tsanga sabt kram, saba ye hamkarano ta awrawal ghwaram."
+      ]
+    },
+    {
+      "id": "ps-s007",
+      "kind": "sentence",
+      "native": [
+        "وروستی ګاډی هم ډک دی۔"
+      ],
+      "roman": [
+        "Warustay gaday ham dak day."
+      ]
+    },
+    {
+      "id": "ps-s008",
+      "kind": "sentence",
+      "native": [
+        "بولاني په توده تابه کې واچوه چې بېرته ګرم شي۔"
+      ],
+      "roman": [
+        "Bolani pa toda taba ke wachawa che berta garm shi."
+      ]
+    },
+    {
+      "id": "ps-s009",
+      "kind": "sentence",
+      "native": [
+        "لوبیا چې پخه شي، لومړی به د ماشومانو برخه بېله کړو۔ بیا مرچ ورواچوه۔"
+      ],
+      "roman": [
+        "Lubia che pakha shi, lumray ba da mashumano barkha bela kru. Bia march warwachawa."
+      ]
+    },
+    {
+      "id": "ps-s010",
+      "kind": "sentence",
+      "native": [
+        "عجیبه ده، ستړی یم خو بیا هم خوب نه راځي۔"
+      ],
+      "roman": [
+        "Ajiba da, staray yam kho bia ham khob na radzi."
+      ]
+    },
+    {
+      "id": "ps-s011",
+      "kind": "sentence",
+      "native": [
+        "رڼا، د ګنډل شوي کمیس عکس په واټس اپ راولېږه۔"
+      ],
+      "roman": [
+        "Rana, da gandal shwi kamis aks pa WhatsApp rawalega."
+      ]
+    },
+    {
+      "id": "ps-s012",
+      "kind": "sentence",
+      "native": [
+        "په حاضرۍ کې زما د راتګ وخت ناسم لیکل شوی دی۔"
+      ],
+      "roman": [
+        "Pa haziray ke zma da ratag wakht nasam likal shway day."
+      ]
+    },
+    {
+      "id": "ps-s013",
+      "kind": "sentence",
+      "native": [
+        "له ګردېزه تر کابله شاوخوا 130 کیلومتره لار ده۔"
+      ],
+      "roman": [
+        "La Gardeza tar Kabula shawkhwa 130 kilometra lar da."
+      ]
+    },
+    {
+      "id": "ps-s014",
+      "kind": "sentence",
+      "native": [
+        "صابون هم په لیست کې واچوه۔"
+      ],
+      "roman": [
+        "Sabun ham pa list ke wachawa."
+      ]
+    },
+    {
+      "id": "ps-s015",
+      "kind": "sentence",
+      "native": [
+        "دوکاندار ته ولیکه چې دا پردې زما د کړکۍ لپاره لنډې دي او غواړم بېرته یې ورکړم۔"
+      ],
+      "roman": [
+        "Dukandar ta walika che da parde zma da krkay lapara lande di aw ghwaram berta ye warkram."
+      ]
+    },
+    {
+      "id": "ps-s016",
+      "kind": "sentence",
+      "native": [
+        "لپټاپ مې وخت سم نه ښيي، څو دقیقې شاته دی۔"
+      ],
+      "roman": [
+        "Laptop me wakht sam na khayi, tso daqiqe shata day."
+      ]
+    },
+    {
+      "id": "ps-s017",
+      "kind": "sentence",
+      "native": [
+        "بېرته چې راګرځې، د پټرولو له پمپه ښي خوا ته تاو شه۔"
+      ],
+      "roman": [
+        "Berta che ragardze, da petrolo la pampa khi khwa ta taw sha."
+      ]
+    },
+    {
+      "id": "ps-s018",
+      "kind": "sentence",
+      "native": [
+        "رخسانې، د نکریزو لپاره شنه بنګړي راوړه، ناوې ته همدا رنګ خوښ دی، نور رنګونه مه اخله۔"
+      ],
+      "roman": [
+        "Rukhsane, da nakrizo lapara shna bangri rawra, nawe ta hamda rang khwakh day, nor ranguna ma akhla."
+      ]
+    },
+    {
+      "id": "ps-s019",
+      "kind": "sentence",
+      "native": [
+        "ودرېږه، نوم مې سم ولیکه۔"
+      ],
+      "roman": [
+        "Wadrega, num me sam walika."
+      ]
+    },
+    {
+      "id": "ps-s020",
+      "kind": "sentence",
+      "native": [
+        "وبخښه، بې وخته مې راویښ کړې۔"
+      ],
+      "roman": [
+        "Wobakha, be wakhte me rawikh kre."
+      ]
+    },
+    {
+      "id": "ps-s021",
+      "kind": "sentence",
+      "native": [
+        "سمه ده، د جمعې مېلمستیا ته دواړه درځو۔"
+      ],
+      "roman": [
+        "Sama da, da jume melmastia ta dwara dardzu."
+      ]
+    },
+    {
+      "id": "ps-s022",
+      "kind": "sentence",
+      "native": [
+        "بښنه، ستاسو پخوانی مېسج رانه پاتې و، د فرمایش نمبر به اوس درولېږم۔"
+      ],
+      "roman": [
+        "Bakhana, staso pakhwanay message rana pate wo, da farmayish number ba os darwalegam."
+      ]
+    },
+    {
+      "id": "ps-s023",
+      "kind": "sentence",
+      "native": [
+        "ډاونلوډ ته لا 15 دقیقې او 20 ثانیې پاتې دي۔"
+      ],
+      "roman": [
+        "Download ta la 15 daqiqe aw 20 saniye pate di."
+      ]
+    },
+    {
+      "id": "ps-s024",
+      "kind": "sentence",
+      "native": [
+        "چارسدې ته له تلو مخکې د موټر ټایرونه ګورم۔"
+      ],
+      "roman": [
+        "Charsadde ta la tlo makhke da motor tireuna goram."
+      ]
+    },
+    {
+      "id": "ps-s025",
+      "kind": "sentence",
+      "native": [
+        "غږ تر نیمایي کم کړه۔"
+      ],
+      "roman": [
+        "Ghag tar nimayi kam kra."
+      ]
+    },
+    {
+      "id": "ps-s026",
+      "kind": "sentence",
+      "native": [
+        "مایک مو بند پاتې دی۔"
+      ],
+      "roman": [
+        "Mic mo band pate day."
+      ]
+    },
+    {
+      "id": "ps-s027",
+      "kind": "sentence",
+      "native": [
+        "چلوونکي ته ووایه چې د عمومي سړک پر ځای دې د باغ کوڅې ته بوځي۔"
+      ],
+      "roman": [
+        "Chalawunki ta wowaya che da umumi sarak par dzay de da bagh kutse ta bodzi."
+      ]
+    },
+    {
+      "id": "ps-s028",
+      "kind": "sentence",
+      "native": [
+        "مالګه پکې نوره مه اچوه۔"
+      ],
+      "roman": [
+        "Malga pake nora ma achawa."
+      ]
+    },
+    {
+      "id": "ps-s029",
+      "kind": "sentence",
+      "native": [
+        "کتاب له المارۍ راواخله، د کیسو نه، د شعرونو کتاب غواړم۔ عینکې مې هم ورسره راوړه۔"
+      ],
+      "roman": [
+        "Kitab la almaray rawakhla, da kiso na, da sheruno kitab ghwaram. Aynake me ham warsara rawra."
+      ]
+    },
+    {
+      "id": "ps-s030",
+      "kind": "sentence",
+      "native": [
+        "لاسونه دې درد نه کړي۔"
+      ],
+      "roman": [
+        "Lasuna de dard na kri."
+      ]
+    },
+    {
+      "id": "ps-s031",
+      "kind": "sentence",
+      "native": [
+        "لږ قابلي پلو راته پرېږده۔"
+      ],
+      "roman": [
+        "Lag qabuli palaw rata pregda."
+      ]
+    },
+    {
+      "id": "ps-s032",
+      "kind": "sentence",
+      "native": [
+        "ستاسو وړاندیز راته مناسب ښکاري۔"
+      ],
+      "roman": [
+        "Staso wrandiz rata munasib khkari."
+      ]
+    },
+    {
+      "id": "ps-s033",
+      "kind": "sentence",
+      "native": [
+        "1000 روپۍ ماتې لرئ؟"
+      ],
+      "roman": [
+        "1000 rupay mate laray?"
+      ]
+    },
+    {
+      "id": "ps-s034",
+      "kind": "sentence",
+      "native": [
+        "هېر مې نه شي چې د ژمي کمپلې لمر ته وباسم او بیا یې ځای پر ځای کړم۔"
+      ],
+      "roman": [
+        "Her me na shi che da zhami kampale lmar ta wobasam aw bia ye dzay par dzay kram."
+      ]
+    },
+    {
+      "id": "ps-s035",
+      "kind": "sentence",
+      "native": [
+        "په ایمیلونو کې د هغې نوې څوکۍ رسید پیدا کړه چې تېره میاشت مې اخیستې وه۔"
+      ],
+      "roman": [
+        "Pa emailuno ke da haghe nawe tsawkay rasid paida kra che tera miasht me akhiste wa."
+      ]
+    },
+    {
+      "id": "ps-s036",
+      "kind": "sentence",
+      "native": [
+        "اپډېټ به وروسته نصب کړم۔"
+      ],
+      "roman": [
+        "Update ba warusta nasb kram."
+      ]
+    },
+    {
+      "id": "ps-s037",
+      "kind": "sentence",
+      "native": [
+        "سوات ته په لاره لږه دمه کول غواړم۔"
+      ],
+      "roman": [
+        "Swat ta pa lara laga dama kawal ghwaram."
+      ]
+    },
+    {
+      "id": "ps-s038",
+      "kind": "sentence",
+      "native": [
+        "اختر ته لا وخت شته، خو کوچنیان جامې اوس غواړي۔"
+      ],
+      "roman": [
+        "Akhtar ta la wakht shta, kho kuchnian jame os ghwari."
+      ]
+    },
+    {
+      "id": "ps-s039",
+      "kind": "sentence",
+      "native": [
+        "اوف، ستنه بیا ماته شوه، بله په دې بکس کې شته؟"
+      ],
+      "roman": [
+        "Uf, stana bia mata shwa, bala pa de box ke shta?"
+      ]
+    },
+    {
+      "id": "ps-s040",
+      "kind": "sentence",
+      "native": [
+        "هڅه مه پرېږده، هر ځل دې لیکنه ښه کېږي۔"
+      ],
+      "roman": [
+        "Hatsa ma pregda, har dzal de likana kha kegi."
+      ]
+    },
+    {
+      "id": "ps-s041",
+      "kind": "sentence",
+      "native": [
+        "پلوشې، که د کېک لپاره هګۍ اخلې، زما لپاره هم نیم درجن واخله، پیسې بیا درکوم۔"
+      ],
+      "roman": [
+        "Palwashe, ka da cake lapara hagay akhle, zma lapara ham nim darjan wakhla, paise bia darkawom."
+      ]
+    },
+    {
+      "id": "ps-s042",
+      "kind": "sentence",
+      "native": [
+        "منظور دی، اعلان خپور کړئ۔"
+      ],
+      "roman": [
+        "Manzur day, elan khpor kray."
+      ]
+    },
+    {
+      "id": "ps-s043",
+      "kind": "sentence",
+      "native": [
+        "ټانک 75% ډک دی، نورې 200 لیتره اوبه غواړي۔"
+      ],
+      "roman": [
+        "Tank 75% dak day, nore 200 litra oba ghwari."
+      ]
+    },
+    {
+      "id": "ps-s044",
+      "kind": "sentence",
+      "native": [
+        "بوټان باید نن پاک کړم۔"
+      ],
+      "roman": [
+        "Botan bayad nan pak kram."
+      ]
+    },
+    {
+      "id": "ps-s045",
+      "kind": "sentence",
+      "native": [
+        "همدا سندره بیا له پیله وغږوه او تر ختمېدو وروسته بله سندره مه لګوه۔"
+      ],
+      "roman": [
+        "Hamda sandara bia la pila waghagawa aw tar khatmedo warusta bala sandara ma lagawa."
+      ]
+    },
+    {
+      "id": "ps-s046",
+      "kind": "sentence",
+      "native": [
+        "حیات، د پروژې بیک اپ په جلا هارډ ډرایو کې وساته چې کار مو ضایع نه شي۔"
+      ],
+      "roman": [
+        "Hayat, da prozhe backup pa jala hard drive ke wasata che kar mo zaya na shi."
+      ]
+    },
+    {
+      "id": "ps-s047",
+      "kind": "sentence",
+      "native": [
+        "ګڼه ګوڼه زیاته ده، که پلي لاړ شو نو تر موټر به ژر ورسېږو۔"
+      ],
+      "roman": [
+        "Gana guna ziata da, ka pali lar sho no tar motar ba zhar warsegu."
+      ]
+    },
+    {
+      "id": "ps-s048",
+      "kind": "sentence",
+      "native": [
+        "بخارۍ ته وچ لرګي پکار دي۔"
+      ],
+      "roman": [
+        "Bukharay ta wuch largi pakar di."
+      ]
+    },
+    {
+      "id": "ps-s049",
+      "kind": "sentence",
+      "native": [
+        "بشیر وايي د والیبال جال شلېدلی دی، نن به یوازې تمرین کوو۔"
+      ],
+      "roman": [
+        "Bashir wayi da volleyball jal shledalay day, nan ba yawaze tamrin kawu."
+      ]
+    },
+    {
+      "id": "ps-s050",
+      "kind": "sentence",
+      "native": [
+        "پخوا به مې د بل چا خبره ژر منله، اوس تر پرېکړې مخکې خپله هم سوچ کوم۔"
+      ],
+      "roman": [
+        "Pakhwa ba me da bal cha khabara zhar manala, os tar prekre makhke khpala ham soch kawom."
+      ]
+    },
+    {
+      "id": "ps-s051",
+      "kind": "sentence",
+      "native": [
+        "ماشومان لا ویښ دي که ټول ویده شوي دي؟"
+      ],
+      "roman": [
+        "Mashuman la wikh di ka tol wida shwi di?"
+      ]
+    },
+    {
+      "id": "ps-s052",
+      "kind": "sentence",
+      "native": [
+        "مرسته مو ډېره پر ځای وه، بیا به خبرې وکړو۔"
+      ],
+      "roman": [
+        "Mrasta mo dera par dzay wa, bia ba khabare wokru."
+      ]
+    },
+    {
+      "id": "ps-s053",
+      "kind": "sentence",
+      "native": [
+        "عمر مې 32 کاله دی۔"
+      ],
+      "roman": [
+        "Umar me 32 kala day."
+      ]
+    },
+    {
+      "id": "ps-s054",
+      "kind": "sentence",
+      "native": [
+        "پنجشنبه خپل ساعت جوړولو ته وړم۔"
+      ],
+      "roman": [
+        "Panjshamba khpal sat jorawalo ta wram."
+      ]
+    },
+    {
+      "id": "ps-s055",
+      "kind": "sentence",
+      "native": [
+        "یوټیوب خلاص کړه او د اتڼ ویډیو ولټوه۔"
+      ],
+      "roman": [
+        "YouTube khlas kra aw da atan video walatawa."
+      ]
+    },
+    {
+      "id": "ps-s056",
+      "kind": "sentence",
+      "native": [
+        "نصیر په ټیلیګرام کې د عکاسۍ ګروپ جوړ کړی دی۔"
+      ],
+      "roman": [
+        "Nasir pa Telegram ke da akasay group jor karay day."
+      ]
+    },
+    {
+      "id": "ps-s057",
+      "kind": "sentence",
+      "native": [
+        "ترور مې کلي ته تللې ده۔"
+      ],
+      "roman": [
+        "Tror me kali ta talale da."
+      ]
+    },
+    {
+      "id": "ps-s058",
+      "kind": "sentence",
+      "native": [
+        "غرمه به لمر راووځي، دومره درنې جامې مه اغونده۔"
+      ],
+      "roman": [
+        "Gharma ba lmar rawodzi, domra drane jame ma aghunda."
+      ]
+    },
+    {
+      "id": "ps-s059",
+      "kind": "sentence",
+      "native": [
+        "قلم دې لیکي که نه؟"
+      ],
+      "roman": [
+        "Qalam de liki ka na?"
+      ]
+    },
+    {
+      "id": "ps-s060",
+      "kind": "sentence",
+      "native": [
+        "انتظار دومره اوږد شو چې د تګ شوق مې ختم شو۔"
+      ],
+      "roman": [
+        "Intizar domra ogd sho che da tag shawq me khatam sho."
+      ]
+    },
+    {
+      "id": "ps-s061",
+      "kind": "sentence",
+      "native": [
+        "مبارک دې شه، سیالي دې وګټله۔"
+      ],
+      "roman": [
+        "Mubarak de sha, siyali de wogatla."
+      ]
+    },
+    {
+      "id": "ps-s062",
+      "kind": "sentence",
+      "native": [
+        "شفیقې، د نوو کارکوونکو قراردادونه چا ته وسپارم؟"
+      ],
+      "roman": [
+        "Shafiqe, da nawo karkawunko qarardaduna cha ta wosparam?"
+      ]
+    },
+    {
+      "id": "ps-s063",
+      "kind": "sentence",
+      "native": [
+        "کتابچه 48 پاڼې لري، لومړۍ 12 پاڼې یې ډکې دي۔"
+      ],
+      "roman": [
+        "Kitabcha 48 pane lari, lumray 12 pane ye dake di."
+      ]
+    },
+    {
+      "id": "ps-s064",
+      "kind": "sentence",
+      "native": [
+        "راتلونکې یکشنبه د وېښتانو پرې کولو لپاره وخت واخله۔"
+      ],
+      "roman": [
+        "Ratlunke yakshamba da wekhtano pre kawalo lapara wakht wakhla."
+      ]
+    },
+    {
+      "id": "ps-s065",
+      "kind": "sentence",
+      "native": [
+        "جلبۍ په کور کې څنګه جوړولی شم؟"
+      ],
+      "roman": [
+        "Jalabay pa kor ke tsanga jorawalay sham?"
+      ]
+    },
+    {
+      "id": "ps-s066",
+      "kind": "sentence",
+      "native": [
+        "په پرنټر کې کاغذ شته، خو رنګ یې خلاص شوی دی۔"
+      ],
+      "roman": [
+        "Pa printer ke kaghaz shta, kho rang ye khlas shway day."
+      ]
+    },
+    {
+      "id": "ps-s067",
+      "kind": "sentence",
+      "native": [
+        "کونج ته نږدې د بایسکلونو د جوړولو دوکان دی۔"
+      ],
+      "roman": [
+        "Kunj ta nigde da baiskaluno da jorawalo dukan day."
+      ]
+    },
+    {
+      "id": "ps-s068",
+      "kind": "sentence",
+      "native": [
+        "استاد صاحب، د لامبو درس مو کومه ورځ پیلېږي؟"
+      ],
+      "roman": [
+        "Ustad sahib, da lambo dars mo kuma wradz pilegi?"
+      ]
+    },
+    {
+      "id": "ps-s069",
+      "kind": "sentence",
+      "native": [
+        "پتنګ دې پورته شو؟"
+      ],
+      "roman": [
+        "Patang de porta sho?"
+      ]
+    },
+    {
+      "id": "ps-s070",
+      "kind": "sentence",
+      "native": [
+        "په باغ ناران کې د ونو سیوري ته ناست وم، هېڅ بیړه مې نه وه۔"
+      ],
+      "roman": [
+        "Pa Bagh Naran ke da wano syori ta nast wom, hets bera me na wa."
+      ]
+    },
+    {
+      "id": "ps-s071",
+      "kind": "sentence",
+      "native": [
+        "ریکشه مې ونیوله، د پوهنتون مخې ته راته ودرېږه۔"
+      ],
+      "roman": [
+        "Riksha me waniwala, da pohantun makhe ta rata wadrega."
+      ]
+    },
+    {
+      "id": "ps-s072",
+      "kind": "sentence",
+      "native": [
+        "راپور مې وکوت، یوازې وروستۍ پاڼه یې نه خلاصېږي۔"
+      ],
+      "roman": [
+        "Rapor me wakot, yawaze warustay pana ye na khalasegi."
+      ]
+    },
+    {
+      "id": "ps-s073",
+      "kind": "sentence",
+      "native": [
+        "میټینګ غرمه 12 بجې پیلېږي او 1 بجه ختمېږي۔"
+      ],
+      "roman": [
+        "Meeting gharma 12 baje pilegi aw 1 baja khatmegi."
+      ]
+    },
+    {
+      "id": "ps-s074",
+      "kind": "sentence",
+      "native": [
+        "د ګاونډي زینه بېرته سپارم۔"
+      ],
+      "roman": [
+        "Da gawandi zina berta sparam."
+      ]
+    },
+    {
+      "id": "ps-s075",
+      "kind": "sentence",
+      "native": [
+        "نازو ته زنګ ووهه۔"
+      ],
+      "roman": [
+        "Nazo ta zang woha."
+      ]
+    },
+    {
+      "id": "ps-s076",
+      "kind": "sentence",
+      "native": [
+        "دې سافټویر کې پښتو توري له یو بل سره نه نښلي۔"
+      ],
+      "roman": [
+        "De software ke Pakhto tori la yaw bal sara na nakhli."
+      ]
+    },
+    {
+      "id": "ps-s077",
+      "kind": "sentence",
+      "native": [
+        "بس له اډې وخوځېد۔"
+      ],
+      "roman": [
+        "Bus la ade wakhudzed."
+      ]
+    },
+    {
+      "id": "ps-s078",
+      "kind": "sentence",
+      "native": [
+        "پرده سمه نه ځړېږي، میله یې له منځه کږه ده۔"
+      ],
+      "roman": [
+        "Parda sama na dzaregi, mila ye la mandza kaga da."
+      ]
+    },
+    {
+      "id": "ps-s079",
+      "kind": "sentence",
+      "native": [
+        "شیدې، مستې او کوچ راوړه۔"
+      ],
+      "roman": [
+        "Shide, maste aw kuch rawra."
+      ]
+    },
+    {
+      "id": "ps-s080",
+      "kind": "sentence",
+      "native": [
+        "کاش د اوونۍ په منځ کې هم یوه رخصتي وای۔"
+      ],
+      "roman": [
+        "Kash da owunay pa mandz ke ham yawa rukhsati way."
+      ]
+    },
+    {
+      "id": "ps-s081",
+      "kind": "sentence",
+      "native": [
+        "ټوکه مې کوله، خپه نه شې۔"
+      ],
+      "roman": [
+        "Toka me kawala, khapa na she."
+      ]
+    },
+    {
+      "id": "ps-s082",
+      "kind": "sentence",
+      "native": [
+        "پلور مو 10% زیات شوی دی۔"
+      ],
+      "roman": [
+        "Plor mo 10% ziat shway day."
+      ]
+    },
+    {
+      "id": "ps-s083",
+      "kind": "sentence",
+      "native": [
+        "چپلي کباب 180 روپۍ دی، 3 دانې راکړئ۔"
+      ],
+      "roman": [
+        "Chapli kabab 180 rupay day, 3 dane rakray."
+      ]
+    },
+    {
+      "id": "ps-s084",
+      "kind": "sentence",
+      "native": [
+        "جمعه سهار 7 بجې له زبیر سره منډې وهم۔"
+      ],
+      "roman": [
+        "Juma sahar 7 baje la Zubair sara mande waham."
+      ]
+    },
+    {
+      "id": "ps-s085",
+      "kind": "sentence",
+      "native": [
+        "خپل موبایل ته له بانکي حسابه بیلانس څنګه واچوم؟"
+      ],
+      "roman": [
+        "Khpal mobile ta la banki hisaba balance tsanga wachawom?"
+      ]
+    },
+    {
+      "id": "ps-s086",
+      "kind": "sentence",
+      "native": [
+        "ډیزاین دې راته خوښ شو۔"
+      ],
+      "roman": [
+        "Design de rata khwakh sho."
+      ]
+    },
+    {
+      "id": "ps-s087",
+      "kind": "sentence",
+      "native": [
+        "حمیرا د چوک د خیاطۍ په دوکان کې نوی کار پیلوي۔"
+      ],
+      "roman": [
+        "Humaira da chok da khyatay pa dukan ke naway kar pilawi."
+      ]
+    },
+    {
+      "id": "ps-s088",
+      "kind": "sentence",
+      "native": [
+        "لور مې اوس خپل نوم بې له مرستې لیکي۔"
+      ],
+      "roman": [
+        "Lor me os khpal num be la maraste liki."
+      ]
+    },
+    {
+      "id": "ps-s089",
+      "kind": "sentence",
+      "native": [
+        "څپلۍ دلته وباسم که تر برنډې پورې ورشم؟"
+      ],
+      "roman": [
+        "Tsaplay dalta wobasam ka tar barande pore warsham?"
+      ]
+    },
+    {
+      "id": "ps-s090",
+      "kind": "sentence",
+      "native": [
+        "فرني دې ډېره خوندوره ده، لږه نوره هم راکړه۔"
+      ],
+      "roman": [
+        "Firni de dera khwandawara da, laga nora ham rakra."
+      ]
+    },
+    {
+      "id": "ps-s091",
+      "kind": "sentence",
+      "native": [
+        "چای خو نن پر ما دی۔"
+      ],
+      "roman": [
+        "Chay kho nan par ma day."
+      ]
+    },
+    {
+      "id": "ps-s092",
+      "kind": "sentence",
+      "native": [
+        "چهارشنبه ماسپښین 3 بجې د روزنې لپاره وزګار یاست؟"
+      ],
+      "roman": [
+        "Chaharshamba maspakhin 3 baje da rozane lapara wazgar yast?"
+      ]
+    },
+    {
+      "id": "ps-s093",
+      "kind": "sentence",
+      "native": [
+        "کرایه 80 روپۍ شوه۔"
+      ],
+      "roman": [
+        "Kiraya 80 rupay shwa."
+      ]
+    },
+    {
+      "id": "ps-s094",
+      "kind": "sentence",
+      "native": [
+        "کیلي باید له وتلو مخکې په جېب کې واچوم۔"
+      ],
+      "roman": [
+        "Kili bayad la watlo makhke pa jeb ke wachawom."
+      ]
+    },
+    {
+      "id": "ps-s095",
+      "kind": "sentence",
+      "native": [
+        "دلته نږدې اوس کوم دوکان پرنټ کوي؟"
+      ],
+      "roman": [
+        "Dalta nagde os kum dukan print kawi?"
+      ]
+    },
+    {
+      "id": "ps-s096",
+      "kind": "sentence",
+      "native": [
+        "ویډیو چې په ټیټ کیفیت ګورم، د انټرنېټ بسته مې تر پخوا ډېرې ورځې چلېږي۔"
+      ],
+      "roman": [
+        "Video che pa tit kaifiyat goram, da internet basta me tar pakhwa dere wradze chalegi."
+      ]
+    },
+    {
+      "id": "ps-s097",
+      "kind": "sentence",
+      "native": [
+        "پورته چې راشئ، چپ لوري ته دویمه دروازه زموږ ده، بې له ټکولو راننوځئ۔"
+      ],
+      "roman": [
+        "Porta che rashay, chap lori ta dwayma darwaza zmung da, be la takawalo rananodzay."
+      ]
+    },
+    {
+      "id": "ps-s098",
+      "kind": "sentence",
+      "native": [
+        "نل لا هم څاڅي۔"
+      ],
+      "roman": [
+        "Nal la ham tsatsi."
+      ]
+    },
+    {
+      "id": "ps-s099",
+      "kind": "sentence",
+      "native": [
+        "سهیلا، پکوړې لا تودې دي؟"
+      ],
+      "roman": [
+        "Suhaila, pakore la tode di?"
+      ]
+    },
+    {
+      "id": "ps-s100",
+      "kind": "sentence",
+      "native": [
+        "محموده، غږ دې ډېر خوږ دی۔"
+      ],
+      "roman": [
+        "Mahmuda, ghag de der khog day."
+      ]
+    },
+    {
+      "id": "ps-s101",
+      "kind": "sentence",
+      "native": [
+        "مورې، نن ماښام به ډوډۍ له بهر نه راوړم۔"
+      ],
+      "roman": [
+        "More, nan makham ba doday la bahar na rawram."
+      ]
+    },
+    {
+      "id": "ps-s102",
+      "kind": "sentence",
+      "native": [
+        "مردان ته د نمونو د لېږلو لګښت څومره کېږي؟"
+      ],
+      "roman": [
+        "Mardan ta da namuno da legalo lagakht tsomra kegi?"
+      ]
+    },
+    {
+      "id": "ps-s103",
+      "kind": "sentence",
+      "native": [
+        "واوره، 7 متره ټوکر بس دی، خو سور یې باید له 90 سانتي مترو کم نه وي۔"
+      ],
+      "roman": [
+        "Wawra, 7 metra tokar bas day, kho sor ye bayad la 90 santi metro kam na wi."
+      ]
+    },
+    {
+      "id": "ps-s104",
+      "kind": "sentence",
+      "native": [
+        "وریجې باید له پخولو 30 دقیقې مخکې په اوبو کې کېږدم چې دانې یې ماتې نه شي۔"
+      ],
+      "roman": [
+        "Wrije bayad la pakhawalo 30 daqiqe makhke pa obo ke kegdam che dane ye mate na shi."
+      ]
+    },
+    {
+      "id": "ps-s105",
+      "kind": "sentence",
+      "native": [
+        "ټولې خلاصې کړکۍ وتړه، یوازې براوزر خلاص پرېږده۔"
+      ],
+      "roman": [
+        "Tole khlase karkay watara, yawaze browser khlas pregda."
+      ]
+    },
+    {
+      "id": "ps-s106",
+      "kind": "sentence",
+      "native": [
+        "ګوګل کې د لټون ژبه څنګه پښتو کړم؟"
+      ],
+      "roman": [
+        "Google ke da latun zhaba tsanga Pakhto kram?"
+      ]
+    },
+    {
+      "id": "ps-s107",
+      "kind": "sentence",
+      "native": [
+        "وږمې، د سپین جومات مخې ته سره وینو۔"
+      ],
+      "roman": [
+        "Wagme, da Spin Jumat makhe ta sara winu."
+      ]
+    },
+    {
+      "id": "ps-s108",
+      "kind": "sentence",
+      "native": [
+        "یخچال مو ټوله شپه غږ کاوه، مستري ته ووایه چې نن راشي او یو ځل یې وګوري۔"
+      ],
+      "roman": [
+        "Yakhchal mo tola shpa ghag kawa, mistri ta wowaya che nan rashi aw yaw dzal ye wogori."
+      ]
+    },
+    {
+      "id": "ps-s109",
+      "kind": "sentence",
+      "native": [
+        "کندهار ته دوې بستې لېږم، وبښه، درې بستې دي۔"
+      ],
+      "roman": [
+        "Kandahar ta dwe baste legam, wobakha, dre baste di."
+      ]
+    },
+    {
+      "id": "ps-s110",
+      "kind": "sentence",
+      "native": [
+        "وروره، چارجر مې ستا په موټر کې هېر شوی دی۔"
+      ],
+      "roman": [
+        "Wrora, charger me sta pa motor ke her shway day."
+      ]
+    },
+    {
+      "id": "ps-s111",
+      "kind": "sentence",
+      "native": [
+        "ضمیمه په ایمیل کې نه ښکاري۔"
+      ],
+      "roman": [
+        "Zamima pa email ke na khkari."
+      ]
+    },
+    {
+      "id": "ps-s112",
+      "kind": "sentence",
+      "native": [
+        "ښوونځی غرمه 12 بجې رخصتېږي، د 4م ټولګي دواړه ماشومان به په 15 دقیقو کې راولم۔"
+      ],
+      "roman": [
+        "Khowandzay gharma 12 baje rukhsategi, da 4m tolgi dwara mashuman ba pa 15 daqiqo ke rawalam."
+      ]
+    },
+    {
+      "id": "ps-s113",
+      "kind": "sentence",
+      "native": [
+        "کمربند باید بېرته بدل کړم۔"
+      ],
+      "roman": [
+        "Kamarband bayad berta badal kram."
+      ]
+    },
+    {
+      "id": "ps-s114",
+      "kind": "sentence",
+      "native": [
+        "ماشوم ته د کسرونو جمع څنګه ورزده کړم؟"
+      ],
+      "roman": [
+        "Mashum ta da kasruno jama tsanga warzada kram?"
+      ]
+    },
+    {
+      "id": "ps-s115",
+      "kind": "sentence",
+      "native": [
+        "هر څوک چې دا فایل خلاصوي، یوازې یې لوستلی شي او بدلون پکې نه شي راوستلی۔"
+      ],
+      "roman": [
+        "Har tsok che da file khlasawi, yawaze ye lwastalay shi aw badlun pake na shi rawastalay."
+      ]
+    },
+    {
+      "id": "ps-s116",
+      "kind": "sentence",
+      "native": [
+        "نسیمه په نوښار کې د خپلې ترور کره پاتې ده۔"
+      ],
+      "roman": [
+        "Nasima pa Nokhar ke da khpale tror kara pate da."
+      ]
+    },
+    {
+      "id": "ps-s117",
+      "kind": "sentence",
+      "native": [
+        "زوی مې پنسل بیا ورک کړ۔"
+      ],
+      "roman": [
+        "Zoy me pencil bia wark kr."
+      ]
+    },
+    {
+      "id": "ps-s118",
+      "kind": "sentence",
+      "native": [
+        "یاسمین، سرې مڼې واخلم که ژېړې دې خوښې دي؟"
+      ],
+      "roman": [
+        "Yasmin, sre mane wakhlam ka zhere de khwakhe di?"
+      ]
+    },
+    {
+      "id": "ps-s119",
+      "kind": "sentence",
+      "native": [
+        "زینب، د سفر ستړیا دې وتلې که لا استراحت کوې؟"
+      ],
+      "roman": [
+        "Zenab, da safar starya de watale ka la istirahat kawe?"
+      ]
+    },
+    {
+      "id": "ps-s120",
+      "kind": "sentence",
+      "native": [
+        "جلال اباد ته مال ولې لا نه دی رسېدلی؟"
+      ],
+      "roman": [
+        "Jalal Abad ta mal wale la na day rasedalay?"
+      ]
+    },
+    {
+      "id": "ps-s121",
+      "kind": "sentence",
+      "native": [
+        "پېښور، حیات اباد، فېز 6، کوڅه 8، کور 25 ته راشئ، له رسېدو مخکې زنګ ووهئ۔"
+      ],
+      "roman": [
+        "Pekhawar, Hayat Abad, phase 6, kutsa 8, kor 25 ta rashay, la rasedo makhke zang wowahay."
+      ]
+    },
+    {
+      "id": "ps-s122",
+      "kind": "sentence",
+      "native": [
+        "غوږۍ به له اخیستلو وروسته چک کړم۔ رسید به یې د ضمانت لپاره په بکس کې وساتم۔"
+      ],
+      "roman": [
+        "Ghwagay ba la akhistalo warusta check kram. Rasid ba ye da zamanat lapara pa box ke wasatam."
+      ]
+    },
+    {
+      "id": "ps-s123",
+      "kind": "sentence",
+      "native": [
+        "شازیې ته مېسج ولیکه چې زه د کتابتون مخې ته یم او دلته به انتظار کوم۔"
+      ],
+      "roman": [
+        "Shazie ta message walika che za da kitabtun makhe ta yam aw dalta ba intizar kawom."
+      ]
+    },
+    {
+      "id": "ps-s124",
+      "kind": "sentence",
+      "native": [
+        "اکاونټ ته نه شم ننوتلی۔"
+      ],
+      "roman": [
+        "Account ta na sham nanawatlay."
+      ]
+    },
+    {
+      "id": "ps-s125",
+      "kind": "sentence",
+      "native": [
+        "کنډکټر صاحب، موزیم ته ځم۔ دلته کوز شم که په بل سټاپ کې؟"
+      ],
+      "roman": [
+        "Conductor sahib, museum ta dzam. Dalta kuz sham ka pa bal stop ke?"
+      ]
+    },
+    {
+      "id": "ps-s126",
+      "kind": "sentence",
+      "native": [
+        "بهر خو یخ باد لګېږي۔"
+      ],
+      "roman": [
+        "Bahar kho yakh bad lagegi."
+      ]
+    },
+    {
+      "id": "ps-s127",
+      "kind": "sentence",
+      "native": [
+        "توریالیه، راډیو چالان کړه، نه، لومړی دا خبرې خلاصې کړو۔"
+      ],
+      "roman": [
+        "Turyalaya, radio chalan kra, na, lumray da khabare khlase kro."
+      ]
+    },
+    {
+      "id": "ps-s128",
+      "kind": "sentence",
+      "native": [
+        "ملالۍ، سبا بازار ته ځې که بله ورځ؟"
+      ],
+      "roman": [
+        "Malalay, saba bazar ta dze ka bala wradz?"
+      ]
+    },
+    {
+      "id": "ps-s129",
+      "kind": "sentence",
+      "native": [
+        "رحمت ته ووایه چې د دوکان د لوحې رنګ بدل کړي، شین رنګ ښه ښکاري۔"
+      ],
+      "roman": [
+        "Rahmat ta wowaya che da dukan da lawhe rang badal kri, shin rang kha khkari."
+      ]
+    },
+    {
+      "id": "ps-s130",
+      "kind": "sentence",
+      "native": [
+        "نن دوشنبه ده، کتابونه په 4 ورځو کې بېرته وسپاره۔"
+      ],
+      "roman": [
+        "Nan doshanba da, kitabuna pa 4 wradzo ke berta waspara."
+      ]
+    },
+    {
+      "id": "ps-s131",
+      "kind": "sentence",
+      "native": [
+        "زوړ پاسورډ بدل کړه او نوی په یاد وساته۔"
+      ],
+      "roman": [
+        "Zor password badal kra aw naway pa yad wasata."
+      ]
+    },
+    {
+      "id": "ps-s132",
+      "kind": "sentence",
+      "native": [
+        "د 6 دقیقو ټایمر ولګوه۔"
+      ],
+      "roman": [
+        "Da 6 daqiqo timer walagawa."
+      ]
+    },
+    {
+      "id": "ps-s133",
+      "kind": "sentence",
+      "native": [
+        "مینا، په ایکسل کې د خرڅلاو جدول جوړ کړه۔"
+      ],
+      "roman": [
+        "Mina, pa Excel ke da khartsalaw jadwal jor kra."
+      ]
+    },
+    {
+      "id": "ps-s134",
+      "kind": "sentence",
+      "native": [
+        "لاندې د مېلمنو خونه ده۔"
+      ],
+      "roman": [
+        "Lande da melmano khona da."
+      ]
+    },
+    {
+      "id": "ps-s135",
+      "kind": "sentence",
+      "native": [
+        "حارثه، د سبا سبق دې په کتابچه کې لیکلی دی؟"
+      ],
+      "roman": [
+        "Harisa, da saba sabaq de pa kitabcha ke likalay day?"
+      ]
+    },
+    {
+      "id": "ps-s136",
+      "kind": "sentence",
+      "native": [
+        "نور نه غواړم، همدومره بس دي۔"
+      ],
+      "roman": [
+        "Nor na ghwaram, hamdomra bas di."
+      ]
+    },
+    {
+      "id": "ps-s137",
+      "kind": "sentence",
+      "native": [
+        "حمید نن له پېښوره راغلی، ماښام یې لیدو ته ځو۔"
+      ],
+      "roman": [
+        "Hamid nan la Pekhawara raghlay, makham ye lido ta dzu."
+      ]
+    },
+    {
+      "id": "ps-s138",
+      "kind": "sentence",
+      "native": [
+        "سږکال د دفتر لپاره نوی پرنټر نه اخلو۔"
+      ],
+      "roman": [
+        "Sagkal da daftar lapara naway printer na akhlu."
+      ]
+    },
+    {
+      "id": "ps-s139",
+      "kind": "sentence",
+      "native": [
+        "سعدیه د 2027 کال د مارچ په 21 د ماسپښین 4 بجې خپل نندارتون پرانیزي۔"
+      ],
+      "roman": [
+        "Sadia da 2027 kal da March pa 21 da maspakhin 4 baje khpal nandartun pranizi."
+      ]
+    },
+    {
+      "id": "ps-s140",
+      "kind": "sentence",
+      "native": [
+        "انلاین درس د سې شنبې ماښام 6 بجې پیلېږي، نیم ساعت مخکې یې راته یاد کړه۔"
+      ],
+      "roman": [
+        "Online dars da se shanbe makham 6 baje pilegi, nim sat makhke ye rata yad kra."
+      ]
+    },
+    {
+      "id": "ps-s141",
+      "kind": "sentence",
+      "native": [
+        "قرغې ته تر ټولو لنډه لار راته وښیه۔"
+      ],
+      "roman": [
+        "Qarghe ta tar tolo landa lar rata wakhaya."
+      ]
+    },
+    {
+      "id": "ps-s142",
+      "kind": "sentence",
+      "native": [
+        "کوهاټ کې د فایبر انټرنېټ میاشتنی لګښت څومره دی؟"
+      ],
+      "roman": [
+        "Kohat ke da fiber internet miashtanay lagakht tsomra day?"
+      ]
+    },
+    {
+      "id": "ps-s143",
+      "kind": "sentence",
+      "native": [
+        "سمیع د پله ترڅنګ ولاړ دی۔"
+      ],
+      "roman": [
+        "Sami da pala tartsang walar day."
+      ]
+    },
+    {
+      "id": "ps-s144",
+      "kind": "sentence",
+      "native": [
+        "له حسابه 5000 افغانۍ ایستل غواړم، د نوي کابل بانک دا څانګه تر څو بجو خلاصه وي؟"
+      ],
+      "roman": [
+        "La hisaba 5000 afghanay istal ghwaram, da Nawi Kabul Bank da tsanga tar tso bajo khlasa wi?"
+      ]
+    },
+    {
+      "id": "ps-s145",
+      "kind": "sentence",
+      "native": [
+        "مېنګورې ته سبا ځم، نه، بله ورځ ځم، سبا خو د خور د فراغت غونډه ده۔"
+      ],
+      "roman": [
+        "Mingore ta saba dzam, na, bala wradz dzam, saba kho da khor da faraghat ghunda da."
+      ]
+    },
+    {
+      "id": "ps-s146",
+      "kind": "sentence",
+      "native": [
+        "خورې، پوکاڼۍ تر ماښامه پټې وساته چې کوچنی یې له وخته مخکې ونه ویني۔"
+      ],
+      "roman": [
+        "Khore, pokanay tar makhama pate wasata che kochnay ye la wakhte makhke wona wini."
+      ]
+    },
+    {
+      "id": "ps-s147",
+      "kind": "sentence",
+      "native": [
+        "تر غرمې پورې خپل بدلونونه ولیکئ، بیا به زه د ټولو نظرونه په یوه پاڼه کې راټول کړم۔"
+      ],
+      "roman": [
+        "Tar gharme pore khpal badlununa walikay, bia ba za da tolo nazaruna pa yawa pana ke ratol kram."
+      ]
+    },
+    {
+      "id": "ps-s148",
+      "kind": "sentence",
+      "native": [
+        "تودوخه نن 28 درجې ده۔"
+      ],
+      "roman": [
+        "Todukha nan 28 daraje da."
+      ]
+    },
+    {
+      "id": "ps-s149",
+      "kind": "sentence",
+      "native": [
+        "نعمان ته د ترکاڼۍ 600 روپۍ مزدوري پاتې ده۔"
+      ],
+      "roman": [
+        "Numan ta da tarkanay 600 rupay mazduri pate da."
+      ]
+    },
+    {
+      "id": "ps-s150",
+      "kind": "sentence",
+      "native": [
+        "سبا په بامیانو کې هوا څنګه ده؟"
+      ],
+      "roman": [
+        "Saba pa Bamiyano ke hawa tsanga da?"
+      ]
+    },
+    {
+      "id": "ps-s151",
+      "kind": "sentence",
+      "native": [
+        "نادیې، د پریزنټېشن لپاره پروجکټر له چا واخلو؟"
+      ],
+      "roman": [
+        "Nadiye, da presentation lapara projector la cha wakhlo?"
+      ]
+    },
+    {
+      "id": "ps-s152",
+      "kind": "sentence",
+      "native": [
+        "تاسو له کومې لارې هره ورځ دفتر ته راځئ؟"
+      ],
+      "roman": [
+        "Taso la kume lare hara wradz daftar ta radzay?"
+      ]
+    },
+    {
+      "id": "ps-s153",
+      "kind": "sentence",
+      "native": [
+        "انګور لږ ارزانه کړئ، په 120 افغانیو یې راکړئ۔"
+      ],
+      "roman": [
+        "Angur lag arzana kray, pa 120 afghaniyo ye rakray."
+      ]
+    },
+    {
+      "id": "ps-s154",
+      "kind": "sentence",
+      "native": [
+        "چمچونه، ګیلاسونه او قابونه وباسه، دسترخوان به زه هوار کړم۔"
+      ],
+      "roman": [
+        "Chamchuna, gilasuna aw qabuna wobasa, dastarkhwan ba za hawar kram."
+      ]
+    },
+    {
+      "id": "ps-s155",
+      "kind": "sentence",
+      "native": [
+        "راتلونکې اوونۍ هرات ته درځم، د لیدو وخت به لرې؟"
+      ],
+      "roman": [
+        "Ratlunke owunay Herat ta dardzam, da lido wakht ba lare?"
+      ]
+    },
+    {
+      "id": "ps-s156",
+      "kind": "sentence",
+      "native": [
+        "ترکاڼ راته وویل چې پنجشنبه به دفتر ته راشي، نو د الماریو ترمیم به هماغه ورځ وکړو۔"
+      ],
+      "roman": [
+        "Tarkan rata wowil che pinjshamba ba daftar ta rashi, no da almariyo tarmim ba hamagha wradz wokro."
+      ]
+    },
+    {
+      "id": "ps-s157",
+      "kind": "sentence",
+      "native": [
+        "اوړه 5 کیلو او بوره 2 کیلو راوړه۔"
+      ],
+      "roman": [
+        "Ora 5 kilo aw bura 2 kilo rawra."
+      ]
+    },
+    {
+      "id": "ps-s158",
+      "kind": "sentence",
+      "native": [
+        "ماښام به له اجمل سره د رسامۍ لپاره رنګونه واخلم۔"
+      ],
+      "roman": [
+        "Makham ba la Ajmal sara da rasamay lapara ranguna wakhlam."
+      ]
+    },
+    {
+      "id": "ps-s159",
+      "kind": "sentence",
+      "native": [
+        "فرید د کلاینټ پوښتنې په ګروپ کې ځوابوي۔"
+      ],
+      "roman": [
+        "Farid da client pokhtane pa group ke dzawabawi."
+      ]
+    },
+    {
+      "id": "ps-s160",
+      "kind": "sentence",
+      "native": [
+        "مخامخ کوڅه بنده ده۔"
+      ],
+      "roman": [
+        "Makhamakh kutsa banda da."
+      ]
+    },
+    {
+      "id": "ps-s161",
+      "kind": "sentence",
+      "native": [
+        "نجونې چې له ښوونځي راشي، لومړی دې خپلې کتابچې راټولې کړي، بیا دې په انګړ کې لوبې کوي۔"
+      ],
+      "roman": [
+        "Najune che la khowandzi rashi, lumray de khpale kitabche ratole kri, bia de pa angar ke lobe kawi."
+      ]
+    },
+    {
+      "id": "ps-s162",
+      "kind": "sentence",
+      "native": [
+        "ستا چترۍ دلته پاتې ده۔"
+      ],
+      "roman": [
+        "Sta chatray dalta pate da."
+      ]
+    },
+    {
+      "id": "ps-s163",
+      "kind": "sentence",
+      "native": [
+        "نازیې، له چاپخونې سره دې د کتابچو خبره وکړه؟"
+      ],
+      "roman": [
+        "Naziye, la chapkhune sara de da kitabcho khabara wakra?"
+      ]
+    },
+    {
+      "id": "ps-s164",
+      "kind": "sentence",
+      "native": [
+        "پرواز د شپې 11 بجې دی، ګېټ 9 دی۔"
+      ],
+      "roman": [
+        "Parwaz da shpe 11 baje day, gate 9 day."
+      ]
+    },
+    {
+      "id": "ps-s165",
+      "kind": "sentence",
+      "native": [
+        "مازیګر چې وزګار شم، د پخلنځي د المارۍ اندازه به واخلم او په کتابچه کې به یې ولیکم۔"
+      ],
+      "roman": [
+        "Mazigar che wazgar sham, da pakhlandzi da almaray andaza ba wakhlam aw pa kitabcha ke ba ye walikam."
+      ]
+    },
+    {
+      "id": "ps-s166",
+      "kind": "sentence",
+      "native": [
+        "کیبورډ توري دوه ځله لیکي۔"
+      ],
+      "roman": [
+        "Keyboard tori dwa dzala liki."
+      ]
+    },
+    {
+      "id": "ps-s167",
+      "kind": "sentence",
+      "native": [
+        "کریمې، له پوستې نه زما پارسل هم درسره راوړه۔"
+      ],
+      "roman": [
+        "Karime, la poste na zma parcel ham darsara rawra."
+      ]
+    },
+    {
+      "id": "ps-s168",
+      "kind": "sentence",
+      "native": [
+        "باران شروع شو، کالي له بامه راکوز کړه چې لانده نه شي، زه په لاره یم۔"
+      ],
+      "roman": [
+        "Baran shuru sho, kali la bama rakuz kra che landa na shi, za pa lara yam."
+      ]
+    },
+    {
+      "id": "ps-s169",
+      "kind": "sentence",
+      "native": [
+        "ثریا نوې همکارې ته د ګنډلو طریقه ورښيي۔"
+      ],
+      "roman": [
+        "Suraya nawe hamkare ta da gandalo tariqa warkhayi."
+      ]
+    },
+    {
+      "id": "ps-s170",
+      "kind": "sentence",
+      "native": [
+        "بیټرۍ مې 23% چارج لري۔"
+      ],
+      "roman": [
+        "Battery me 23% charge lari."
+      ]
+    },
+    {
+      "id": "ps-s171",
+      "kind": "sentence",
+      "native": [
+        "ګلانو ته مازیګر اوبه ورکوم۔"
+      ],
+      "roman": [
+        "Gulano ta mazigar oba warkawom."
+      ]
+    },
+    {
+      "id": "ps-s172",
+      "kind": "sentence",
+      "native": [
+        "بالاخره مې ډوډۍ پخول زده کړل، نور به وږی نه ګرځم۔"
+      ],
+      "roman": [
+        "Bilakhara me doday pakhawal zda kral, nor ba wagay na gardzam."
+      ]
+    },
+    {
+      "id": "ps-s173",
+      "kind": "sentence",
+      "native": [
+        "فرزانې، مسوده دې خوښه شوه؟"
+      ],
+      "roman": [
+        "Farzane, maswada de khwakha shwa?"
+      ]
+    },
+    {
+      "id": "ps-s174",
+      "kind": "sentence",
+      "native": [
+        "کمیس مې 38 نمبر دی، په 40 نمبر یې بدلوئ؟"
+      ],
+      "roman": [
+        "Kamis me 38 number day, pa 40 number ye badlaway?"
+      ]
+    },
+    {
+      "id": "ps-s175",
+      "kind": "sentence",
+      "native": [
+        "سپوږمۍ ته شطرنج ورزده کوم۔"
+      ],
+      "roman": [
+        "Spogmay ta shatranj warzda kawom."
+      ]
+    },
+    {
+      "id": "ps-s176",
+      "kind": "sentence",
+      "native": [
+        "کمپیوټر مې بیا بند شو، ښکاري چې هغه هم زما غوندې رخصتي غواړي۔"
+      ],
+      "roman": [
+        "Computer me bia band sho, khkari che hagha ham zma ghunde rukhsati ghwari."
+      ]
+    },
+    {
+      "id": "ps-s177",
+      "kind": "sentence",
+      "native": [
+        "دوشنبه سهار 10 بجې د غزني له څانګې سره خبرې لرو، د غونډې خونه راته ونیسئ۔"
+      ],
+      "roman": [
+        "Dushanba sahar 10 baje da Ghazni la tsange sara khabare laru, da ghunde khona rata wonisay."
+      ]
+    },
+    {
+      "id": "ps-s178",
+      "kind": "sentence",
+      "native": [
+        "کوټه مو 214 نمبر ده۔"
+      ],
+      "roman": [
+        "Kota mo 214 number da."
+      ]
+    },
+    {
+      "id": "ps-s179",
+      "kind": "sentence",
+      "native": [
+        "د موبایل له خرڅولو مخکې به ترې شخصي عکسونه پاک کړم۔"
+      ],
+      "roman": [
+        "Da mobile la khartsawalo makhke ba tre shakhsi aksuna pak kram."
+      ]
+    },
+    {
+      "id": "ps-s180",
+      "kind": "sentence",
+      "native": [
+        "زه کور ته ورسېدم۔"
+      ],
+      "roman": [
+        "Za kor ta warsedam."
+      ]
+    },
+    {
+      "id": "ps-s181",
+      "kind": "sentence",
+      "native": [
+        "ژباړه مې نیمایي ته ورسېده۔"
+      ],
+      "roman": [
+        "Zhbara me nimayi ta warseda."
+      ]
+    },
+    {
+      "id": "ps-s182",
+      "kind": "sentence",
+      "native": [
+        "شکیلا سبا سهار 9 بجې مرکه لري۔"
+      ],
+      "roman": [
+        "Shakila saba sahar 9 baje maraka lari."
+      ]
+    },
+    {
+      "id": "ps-s183",
+      "kind": "sentence",
+      "native": [
+        "شګوفې ته د کوژدې مبارکي ورکول رانه پاتې دي۔"
+      ],
+      "roman": [
+        "Shagufe ta da kozhde mubaraki warkawol rana pate di."
+      ]
+    },
+    {
+      "id": "ps-s184",
+      "kind": "sentence",
+      "native": [
+        "چې وزګار شوې، زنګ راته ووهه۔"
+      ],
+      "roman": [
+        "Che wuzgar shwe, zang rata woha."
+      ]
+    },
+    {
+      "id": "ps-s185",
+      "kind": "sentence",
+      "native": [
+        "زما څوکۍ 17 نمبر ده، ستا کومه ده؟"
+      ],
+      "roman": [
+        "Zma tsokay 17 number da, sta kuma da?"
+      ]
+    }
+  ]
+}

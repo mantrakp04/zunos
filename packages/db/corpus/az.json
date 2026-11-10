@@ -1,0 +1,1626 @@
+{
+  "lang": "az",
+  "starter": [
+    "az-s060",
+    "az-s025",
+    "az-s168",
+    "az-s143",
+    "az-s113",
+    "az-s046",
+    "az-s153",
+    "az-s023",
+    "az-s048",
+    "az-s163",
+    "az-s013",
+    "az-s016",
+    "az-s009",
+    "az-s019",
+    "az-s154",
+    "az-s028",
+    "az-s122",
+    "az-s129",
+    "az-s106",
+    "az-p03",
+    "az-s042",
+    "az-s057",
+    "az-s082",
+    "az-s029",
+    "az-s175",
+    "az-s056",
+    "az-s159",
+    "az-s151",
+    "az-s072",
+    "az-s039",
+    "az-s007",
+    "az-s155",
+    "az-s171",
+    "az-s119",
+    "az-s006",
+    "az-s067",
+    "az-s001",
+    "az-s141",
+    "az-s026",
+    "az-p01",
+    "az-s065",
+    "az-s005",
+    "az-s111",
+    "az-s021",
+    "az-s063",
+    "az-s170",
+    "az-s054",
+    "az-s017",
+    "az-s097",
+    "az-s022",
+    "az-s104",
+    "az-s164",
+    "az-s115",
+    "az-s068",
+    "az-s176",
+    "az-s137",
+    "az-s092",
+    "az-s160",
+    "az-s135"
+  ],
+  "items": [
+    {
+      "id": "az-p01",
+      "kind": "para",
+      "title": "Our New Kitten",
+      "native": [
+        "Sevda, dünən Yasamaldakı evimizə balaca, sarı bir pişik gətirdik.",
+        "Adını Fındıq qoyduq, çünki rəngi elə qovrulmuş fındığa oxşayır.",
+        "Anam əvvəl razı deyildi, indi pişiyi qucağından yerə qoymur.",
+        "Atam da bu səhər ona pəncərənin yanında yer düzəltdi.",
+        "Fındıq gah pərdənin arxasında gizlənir, gah ayaqqabılarımızın bağları ilə oynayır.",
+        "Yeməyini mətbəxdə yeyir, sonra gəlib divandakı yumşaq yastığın üstündə yatır.",
+        "Axşam televizora baxanda qəfil gəlib düz ekranın qabağında oturdu.",
+        "Sən gələndə çantanı açıq qoyma, mütləq içinə girib orada yatacaq.",
+        "Bu bazar bizə gəl, həm çay içərik, həm Fındıqla tanış olarsan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-p02",
+      "kind": "para",
+      "title": "Welcoming Our New Teammate",
+      "native": [
+        "Salam, sabah Gəncə ofisimizdə yeni həmkarımız Nərmin Əliyevanı qarşılayacağıq.",
+        "Nərmin müştəri sifarişləri ilə işləyəcək, ilk həftə yanında mən olacağam.",
+        "Səhər saat 09:30-da mətbəxdə çay içib rahatca tanış ola bilərik.",
+        "Rauf, zəhmət olmasa, pəncərənin yanındakı boş masanı Nərmin üçün hazırla.",
+        "Aysel, sən də ortaq qovluqların linklərini sabah Nərminə göndərə bilərsən?",
+        "İlk günə çox görüş salmayaq ki, sənədlərə baxmağa vaxtı qalsın.",
+        "Nərminə hazırkı sifarişlər barədə günortadan sonra qısa məlumat verəcəyəm.",
+        "Nərmini komanda çatına da əlavə edəcəyəm ki, suallarını rahat yaza bilsin.",
+        "Başqa təklifiniz varsa, bu gün axşama qədər mənə yazın."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-p03",
+      "kind": "para",
+      "title": "Learning to Ride",
+      "native": [
+        "Keçən yay Sumqayıt bulvarında ilk dəfə velosiped sürməyi öyrəndim.",
+        "Əmim Elçin səhər tezdən məni dəniz kənarındakı geniş yola apardı.",
+        "Hava sərin idi, asfaltın üstündə ağacların uzun kölgələri görünürdü.",
+        "Əvvəlcə oturacağı aşağı saldıq ki, ayaqlarım yerə rahat çatsın.",
+        "Əmim velosipedi arxadan tutmuşdu, mən isə sükanı bərk sıxırdım.",
+        "Pedalı çevirdikcə elə bilirdim ki, velosiped hər an yana əyiləcək.",
+        "Bir az sonra arxaya baxdım, əmim xeyli geridə dayanmışdı.",
+        "Velosipedi tək sürdüyümü görəndə sevindim, amma tez yenidən yola baxdım.",
+        "Evə qayıdanda ayaqlarım yorulmuşdu, yenə də sabahı səbirsizliklə gözləyirdim."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-p04",
+      "kind": "para",
+      "title": "Making Herb Qutab",
+      "native": [
+        "Göyərti qutabını həmişə anamın öyrətdiyi kimi bişiririk.",
+        "Əvvəlcə 500 qram una bir çimdik duz və ilıq su qat.",
+        "Yumşaq xəmir yoğur, üstünü dəsmalla örtüb 20 dəqiqə kənarda saxla.",
+        "Bu arada ispanağı, keşnişi və şüyüdü yuyub suyunu yaxşıca süz.",
+        "Göyərtini xırda doğra, azca duz vurub hamısını bir qabda qarışdır.",
+        "Xəmirdən balaca kündələr düzəlt, sonra hər birini oxlovla nazik yay.",
+        "Yaydığın xəmirin bir yarısına içlik qoy, qatla və kənarlarını sıx.",
+        "Qutabları yağsız, isti tavada bişir, hər iki üzü yüngülcə qızarsın.",
+        "Hazır qutabların üstünə kərə yağı çək, yanına qatıq qoyub süfrəyə ver."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-p05",
+      "kind": "para",
+      "title": "Lunch in Lankaran",
+      "native": [
+        "Şənbə günü Lənkəranda, dənizə yaxın kiçik bir yeməkxanada nahar elədik.",
+        "Girişdə menyu asılmışdı, qiymətləri oturmamışdan əvvəl rahatca görə bildik.",
+        "Toyuq ləvəngisinin içliyi bol idi, qozun dadı yaxşı bilinirdi.",
+        "Yanında gətirdikləri düyü dənə-dənə idi, amma məncə, bir az soyumuşdu.",
+        "Çörəyi isti gətirmələri xoşuma gəldi, yeməyin yanında da yaxşı gedirdi.",
+        "Çayla birlikdə iki nəfərlik nahara cəmi 38 manat ödədik.",
+        "Ofisiant sifarişi diqqətlə dinlədi, yeməyi də çox gözləmədik.",
+        "Musiqinin səsi bir az yüksək idi, danışanda bir-birimizi çətin eşidirdik.",
+        "Yenə yolum Lənkərana düşsə, həmin ləvəngidən yeməyə mütləq qayıdaram."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-p06",
+      "kind": "para",
+      "title": "Planning College Admission",
+      "native": [
+        "Kollecə qəbul üçün sənədləri 12 iyul 2026-cı ildə toplamağa başlayacağam.",
+        "Sənədləri verməzdən əvvəl Mingəçevirdəki kollecin qəbul şərtlərini öyrənəcəyəm.",
+        "13 iyulda saat 09:30-da kollecə zəng edəcəyəm.",
+        "Kollecə avtobusla gedəcəyəm. Evimizdən ora təxminən 4 kilometrdir.",
+        "Yolpuluna 2 manat, sənədlərin surətini çıxarmağa isə 3 manat ayıracağam.",
+        "Sənədlər üçün 6 şəkil çəkdirməyə 8 manat ayıracağam.",
+        "Lazım olan sənədləri 14 iyula qədər bir qovluğa yığacağam.",
+        "15 iyulda saat 10:00-da sənədləri yoxlatdırmaq üçün kollecə gedəcəyəm.",
+        "Sənəd qəbulunun son gününü öyrənib telefonumda 2 xatırlatma qoyacağam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-p07",
+      "kind": "para",
+      "title": "Requesting a School Receipt",
+      "native": [
+        "Salam, Xırdalandakı məktəbinizdə oxuyan Murad Məmmədovun anası Aytən Məmmədovayam.",
+        "Bu gün sentyabr ayının təhsil haqqını bank tətbiqindən ödəmişəm.",
+        "450 manat ödəmişəm, bankın tətbiqində də ödənişin uğurla tamamlandığı görünür.",
+        "Məktəbin tətbiqində isə sentyabr ayının təhsil haqqı hələ də borc kimi göstərilir.",
+        "Zəhmət olmasa, təhsil haqqı ödənişini mühasibatlıqla dəqiqləşdirə bilərsiniz?",
+        "Bank qəbzini sizə WhatsAppda göndərsəm, yoxlamaq üçün kifayət edər?",
+        "Ödənişin təyinatında uşağın adını və 3-cü sinifdə oxuduğunu yazmışam.",
+        "Mənə məktəbin möhürlü ödəniş qəbzi də lazımdır, onu hazırlaya bilərsiniz?",
+        "Qəbz hazır olanda xəbər versəniz, sabah günortadan sonra gəlib götürərəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-p08",
+      "kind": "para",
+      "title": "Sheki Central Market",
+      "native": [
+        "Şəkidə gündəlik bazarlıq üçün mərkəzi bazara getmək olar.",
+        "Səhərlər bazarda kəndlərdən gətirilən göyərti və tərəvəz daha bol olur.",
+        "Mövsümündə bazardan alma, armud, zoğal və fındıq almaq olur.",
+        "Bazarda pendir alanda əvvəl dadına baxmaq olur.",
+        "Bazarın ədviyyat satılan hissəsində sarıkök və sumaq da var.",
+        "Satıcılar çox vaxt məhsulun hansı kənddən gətirildiyini də deyirlər.",
+        "Bazarda meyvə-tərəvəzin qiyməti mövsümə görə dəyişir.",
+        "Şəki halvası üçün bazarın ətrafındakı şirniyyat dükanlarına da baxmaq olar.",
+        "Şəkinin mərkəzi bazarından yerli camaat da, şəhərə gələn qonaqlar da alış-veriş edirlər."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s001",
+      "kind": "sentence",
+      "native": [
+        "Paltaryuyan dayananda dəsmalları çıxarıb balkonda asarsan, zəhmət olmasa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s002",
+      "kind": "sentence",
+      "native": [
+        "Bu həftə növbətçiyəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s003",
+      "kind": "sentence",
+      "native": [
+        "Dünən 6500 addım atmışam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s004",
+      "kind": "sentence",
+      "native": [
+        "Südü siyahıya əlavə et."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s005",
+      "kind": "sentence",
+      "native": [
+        "Brauzerdə bayaq bağladığım səhifəni yenidən aça bilərsən?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s006",
+      "kind": "sentence",
+      "native": [
+        "İnternet niyə belə zəifdir?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s007",
+      "kind": "sentence",
+      "native": [
+        "Deyəsən, eyniadlı iki küçə var, taksi bizi tamam başqa məhəlləyə gətirib."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s008",
+      "kind": "sentence",
+      "native": [
+        "Pencəyin qolunu qısaltdırmaq üçün dərziyə nə vaxt gedim?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s009",
+      "kind": "sentence",
+      "native": [
+        "Tamara da qoşulacaq, hə?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s010",
+      "kind": "sentence",
+      "native": [
+        "Tural, sazı elə həvəslə çalırsan ki, dinləməkdən doymuram."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s011",
+      "kind": "sentence",
+      "native": [
+        "Gəzintidən qayıdanda ayaqqabılarımız elə palçıq içində idi ki, anam bizi qapıda saxladı."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s012",
+      "kind": "sentence",
+      "native": [
+        "Qaxdakı arıçı bal nümunələrini günortadan sonra gətirəcək."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s013",
+      "kind": "sentence",
+      "native": [
+        "Sumqayıt qatarında 16-cı və 17-ci yerləri bizə ayırın."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s014",
+      "kind": "sentence",
+      "native": [
+        "Şəkiyə səfərdən əvvəl fotoaparatın yaddaş kartını boşaltmağı və ehtiyat batareyanı doldurmağı unutmayım."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s015",
+      "kind": "sentence",
+      "native": [
+        "Qusarda xizək avadanlığını kirayə verən yerlər haradadır?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s016",
+      "kind": "sentence",
+      "native": [
+        "Google axtarışında nəticələri tarixə görə necə sıralayım?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s017",
+      "kind": "sentence",
+      "native": [
+        "Vitrindəki mavi çəkməni geyinib baxmaq istəyirəm, ölçüm 38-dir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s018",
+      "kind": "sentence",
+      "native": [
+        "Xalçanın saçaqları içəri qatlanıb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s019",
+      "kind": "sentence",
+      "native": [
+        "Rəşad, albomu bacına yox, əmioğluna verməli idin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s020",
+      "kind": "sentence",
+      "native": [
+        "Paxlavanın qozunu bol qoymusan, lap ürəyimcə alınıb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s021",
+      "kind": "sentence",
+      "native": [
+        "Göndərdiyin şəkillərə baxdım, pişik lap böyüyüb ha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s022",
+      "kind": "sentence",
+      "native": [
+        "Büdcədə reklam xərcləri üçün əlavə vəsait ayırmışıq."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s023",
+      "kind": "sentence",
+      "native": [
+        "Rənanın 28 yaşı var."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s024",
+      "kind": "sentence",
+      "native": [
+        "İlahə müəllimədən uşağın ev tapşırığını soruşmağı dərsdən sonra mənə xatırlat, dəftərdə heç nə yazılmayıb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s025",
+      "kind": "sentence",
+      "native": [
+        "Bluetooth bağlantısını söndür."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s026",
+      "kind": "sentence",
+      "native": [
+        "Proqram yenə özbaşına bağlandı."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s027",
+      "kind": "sentence",
+      "native": [
+        "Xalamgil yeni binaya köçüb, girişləri həyət tərəfdəndir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s028",
+      "kind": "sentence",
+      "native": [
+        "Çöldə yaman bürkü var."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s029",
+      "kind": "sentence",
+      "native": [
+        "Marketdən düyü, mərci, salfet, bir də kibrit götür."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s030",
+      "kind": "sentence",
+      "native": [
+        "Doğrusu, tamaşanın sonu gözlədiyimdən daha təsirli oldu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s031",
+      "kind": "sentence",
+      "native": [
+        "Bağışla, mesajını indi gördüm, cavab yazmağa imkan olmadı."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s032",
+      "kind": "sentence",
+      "native": [
+        "Günel, təqdimatdakı son slaydı çıxarsaq, əsas fikri daha aydın çatdıra bilərik. Səncə, necə olar?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s033",
+      "kind": "sentence",
+      "native": [
+        "Zəhmət olmasa, 120 manatın 70 manatını karta köçürün, qalan 50 manatını nağd verin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s034",
+      "kind": "sentence",
+      "native": [
+        "Gitaranın simlərini dəyişməyi unutmayım."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s035",
+      "kind": "sentence",
+      "native": [
+        "Ekranın parlaqlığını artır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s036",
+      "kind": "sentence",
+      "native": [
+        "Konsolun yaddaşını oyunları silmədən artıra bilərsiniz?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s037",
+      "kind": "sentence",
+      "native": [
+        "Bravo marketdə meyvə tərəzisi düz girişin yanındadır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s038",
+      "kind": "sentence",
+      "native": [
+        "Balacanın bağçadakı tamaşası saat 10:00-da başlayacaq, işdən icazə ala bilsən, birlikdə baxmağa gedərik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s039",
+      "kind": "sentence",
+      "native": [
+        "Dayan, giriş ödənişlidir?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s040",
+      "kind": "sentence",
+      "native": [
+        "Bəzən hər şeyi çatdırmağa çalışanda özümə vaxt ayırmıram, sonra da səbəbsiz yerə əsəbiləşirəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s041",
+      "kind": "sentence",
+      "native": [
+        "Ülviyyə, balacanın ilk addımlarını çəkmişəm, axşam sənə göndərəcəyəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s042",
+      "kind": "sentence",
+      "native": [
+        "Mingəçevir filialından gələn sifarişləri ayrıca qovluqda saxlamışam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s043",
+      "kind": "sentence",
+      "native": [
+        "Taymeri 18 dəqiqəyə qur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s044",
+      "kind": "sentence",
+      "native": [
+        "Kitabları cüməyədək qaytarmalıyam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s045",
+      "kind": "sentence",
+      "native": [
+        "Saniyəölçəni işə sal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s046",
+      "kind": "sentence",
+      "native": [
+        "Zoomda mikrofonun bağlı qalıb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s047",
+      "kind": "sentence",
+      "native": [
+        "Dayım bizi vağzalda qarşılayacaq."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s048",
+      "kind": "sentence",
+      "native": [
+        "Sədərəkdə bu parçanın metrini 6 manata satırdılar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s049",
+      "kind": "sentence",
+      "native": [
+        "Əslində, liftlə qalxacaqdım, yaxşısı budur, pilləkənlə çıxım."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s050",
+      "kind": "sentence",
+      "native": [
+        "Zülfiyyə, bu rəng sənə yaman yaraşır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s051",
+      "kind": "sentence",
+      "native": [
+        "Evə çatdım, narahat olma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s052",
+      "kind": "sentence",
+      "native": [
+        "Masallıdan gələn zənbillərin qiymətini qaldırmağa razı deyiləm. Alıcılara indiki qiymət də baha gəlir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s053",
+      "kind": "sentence",
+      "native": [
+        "Bu çantanın qiyməti 47,90 manatdır, büdcəmi aşır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s054",
+      "kind": "sentence",
+      "native": [
+        "Cümə axşamına saç ustasından vaxt almalıyam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s055",
+      "kind": "sentence",
+      "native": [
+        "Qulaqlığı qoşanda musiqi avtomatik başlayır. Bunu necə söndürə bilərəm?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s056",
+      "kind": "sentence",
+      "native": [
+        "Update gələndən bəri kamera görüntünü tərs göstərir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s057",
+      "kind": "sentence",
+      "native": [
+        "Qonşumuzun qızı məktəbdən birbaşa rəsm dərnəyinə gedir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s058",
+      "kind": "sentence",
+      "native": [
+        "Azərpoçtdan bağlamanı götürəndə şəxsiyyət vəsiqəsini də özünüzlə aparın."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s059",
+      "kind": "sentence",
+      "native": [
+        "Məbləğ 22 manatdır, yox, çatdırılma ilə 27 manat edir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s060",
+      "kind": "sentence",
+      "native": [
+        "Əziyyətin üçün çox sağ ol."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s061",
+      "kind": "sentence",
+      "native": [
+        "Yadına düşsə, çıxmazdan əvvəl pəncərəni bağla, dünən külək bütün kağızları yerə tökmüşdü."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s062",
+      "kind": "sentence",
+      "native": [
+        "Eskizi bəyəndim, rəngləməyə başlaya bilərsiniz."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s063",
+      "kind": "sentence",
+      "native": [
+        "Yeni parolun uzunluğu 12 simvoldur, əvvəlki isə 8 idi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s064",
+      "kind": "sentence",
+      "native": [
+        "Təqvimə yaz ki, bazar günü saat 15:00-da Azərbaycan Milli Xalça Muzeyində sərgiyə baxmağa gedəcəyəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s065",
+      "kind": "sentence",
+      "native": [
+        "Bu mahnının adı nədir? Kim oxuyur?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s066",
+      "kind": "sentence",
+      "native": [
+        "Vüsal, axşam şahmatı telefonda yox, kompüterdə oynayaq, böyük ekranda fiqurlar daha aydın görünür."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s067",
+      "kind": "sentence",
+      "native": [
+        "Sürücüdən soruşdum, bu avtobus körpüdən o yana getmir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s068",
+      "kind": "sentence",
+      "native": [
+        "Nərminin müəlliməsi sabah dərsə rəngli karton gətirməyi tapşırıb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s069",
+      "kind": "sentence",
+      "native": [
+        "Sizdə də su kəsilib?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s070",
+      "kind": "sentence",
+      "native": [
+        "Sözünü kəsdiyimə görə bağışla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s071",
+      "kind": "sentence",
+      "native": [
+        "Anam xəngəl açır, istəyirsənsə, sən də bizə gəl."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s072",
+      "kind": "sentence",
+      "native": [
+        "Fuad, müştərinin qaytardığı ayaqqabının pulunu bu gün köçürə bilərik?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s073",
+      "kind": "sentence",
+      "native": [
+        "Sənəddə 45 səhifə var, indiyədək 19-unu çap etmişəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s074",
+      "kind": "sentence",
+      "native": [
+        "Dibçəkləri sulamağı unutmayım."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s075",
+      "kind": "sentence",
+      "native": [
+        "Nizami kinoteatrında bu axşam uşaqlarla hansı cizgi filminə baxa bilərik? Seansları göstər."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s076",
+      "kind": "sentence",
+      "native": [
+        "Səbinə, iş hesabına giriş hələ də açılmayıb?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s077",
+      "kind": "sentence",
+      "native": [
+        "Keçid bir az irəlidədir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s078",
+      "kind": "sentence",
+      "native": [
+        "Uşağın önlüyü çantadadır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s079",
+      "kind": "sentence",
+      "native": [
+        "Qırmızını yox, sarını göstər."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s080",
+      "kind": "sentence",
+      "native": [
+        "Bilgəhdəki sakitlikdən sonra şəhərin səs-küyünə alışmaq çətindir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s081",
+      "kind": "sentence",
+      "native": [
+        "Axşam yeməyinə məni gözləməyin, işdən gec çıxacağam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s082",
+      "kind": "sentence",
+      "native": [
+        "Təlimin linkini Teams çatında hamı ilə paylaşdım."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s083",
+      "kind": "sentence",
+      "native": [
+        "Otağımız 4-cü mərtəbədədir, nömrəsi də 412-dir, yadda saxla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s084",
+      "kind": "sentence",
+      "native": [
+        "Pərdələrin ölçüsünü alış-verişə çıxmazdan qabaq bir də götürməliyəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s085",
+      "kind": "sentence",
+      "native": [
+        "Şəkildəki yazını seçib ayrıca mətn kimi çıxar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s086",
+      "kind": "sentence",
+      "native": [
+        "Siçanın batareyası tamam bitib."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s087",
+      "kind": "sentence",
+      "native": [
+        "Bibim kənddəki köhnə evin eyvanını təzələyib, yayda hamımız orada rahat otura biləcəyik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s088",
+      "kind": "sentence",
+      "native": [
+        "Səmayə xalanın yubileyinə tortu kim sifariş verəcək?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s089",
+      "kind": "sentence",
+      "native": [
+        "Deməli, məşq bazar ertəsidir, bir dəqiqə, çərşənbə axşamıdır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s090",
+      "kind": "sentence",
+      "native": [
+        "Gecikdim, üzrlü sayın məni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s091",
+      "kind": "sentence",
+      "native": [
+        "Nigar, gələndə yolüstü bir çörək alarsan, evdə qalmayıb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s092",
+      "kind": "sentence",
+      "native": [
+        "Sexdə elektrik kəsildiyi üçün sifariş bir az gec hazır olacaq."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s093",
+      "kind": "sentence",
+      "native": [
+        "Qəbələdə 23 avqustdan 26 avqusta qədər qalacağıq."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s094",
+      "kind": "sentence",
+      "native": [
+        "Gödəkçəmi kimyəvi təmizləməyə verməliyəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s095",
+      "kind": "sentence",
+      "native": [
+        "Yaxınlıqda bazar günü işləyən ayaqqabı ustası var?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s096",
+      "kind": "sentence",
+      "native": [
+        "Tətbiqə barmaq izi ilə girmək daha rahatdır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s097",
+      "kind": "sentence",
+      "native": [
+        "Buradan sola dönmək olar?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s098",
+      "kind": "sentence",
+      "native": [
+        "Yarmarkada uşaqlar üçün ayrıca oyun guşəsi də qurublar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s099",
+      "kind": "sentence",
+      "native": [
+        "Fırçanı, akvareli, bir də qalın rəsm kağızını götür."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s100",
+      "kind": "sentence",
+      "native": [
+        "Növbədə bu qədər gözləmək adamı lap yorur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s101",
+      "kind": "sentence",
+      "native": [
+        "Vaxtın olanda zəng elə."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s102",
+      "kind": "sentence",
+      "native": [
+        "Dəstəyiniz üçün təşəkkür edirəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s103",
+      "kind": "sentence",
+      "native": [
+        "Naviqasiya 7 kilometr yol qaldığını göstərir, 11 dəqiqəyə çatarıq."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s104",
+      "kind": "sentence",
+      "native": [
+        "BakıKart balansını artırmağı bazar ertəsi mənə xatırlat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s105",
+      "kind": "sentence",
+      "native": [
+        "Klaviaturanın dilini Azərbaycan dilindən ingilis dilinə dəyiş."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s106",
+      "kind": "sentence",
+      "native": [
+        "Aylıq abunə üçün kartımdan 9 manat çıxılıb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s107",
+      "kind": "sentence",
+      "native": [
+        "Mehmanxanaya tez çatsaq, çantaları orada qoyub sahilə enərik, otağın hazır olmasını gözləməyə dəyməz."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s108",
+      "kind": "sentence",
+      "native": [
+        "Şorbanın duzu azdır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s109",
+      "kind": "sentence",
+      "native": [
+        "Şirvan avtovağzalında boz papaq tapılmayıb? Yox, tünd yaşıl idi, rəngini səhv dedim."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s110",
+      "kind": "sentence",
+      "native": [
+        "Əvvəl elə bilirdim ki, gil qab düzəltmək asandır, sən demə, xeyli səbir istəyirmiş."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s111",
+      "kind": "sentence",
+      "native": [
+        "Yatmısan, yoxsa hələ oyaqsan?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s112",
+      "kind": "sentence",
+      "native": [
+        "Orxan məzuniyyətdədir, onun işlərini aramızda bölüşdürək."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s113",
+      "kind": "sentence",
+      "native": [
+        "İclas 14:20-də başlayır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s114",
+      "kind": "sentence",
+      "native": [
+        "Mətbəx üçün süngər və zibil torbası da lazımdır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s115",
+      "kind": "sentence",
+      "native": [
+        "İçərişəhərə piyada getmək üçün ən qısa yolu göstər."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s116",
+      "kind": "sentence",
+      "native": [
+        "Bildirişlər diqqətimi çox yayındırır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s117",
+      "kind": "sentence",
+      "native": [
+        "Mərdəkandakı bağa bu dəfə başqa yoldan gedək."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s118",
+      "kind": "sentence",
+      "native": [
+        "Mətbəxdəki rəf laxlayır, ağır qazanları hələlik aşağı qoyaq, axşam vintlərini özüm bərkidərəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s119",
+      "kind": "sentence",
+      "native": [
+        "Üzr istəyirəm, adınızı səhv dedim."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s120",
+      "kind": "sentence",
+      "native": [
+        "Afərin, axır ki, bacardın!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s121",
+      "kind": "sentence",
+      "native": [
+        "Yox, bu dəfə qabları sən yuyacaqsan, keçən dəfə də yorulmuşam deyib aradan çıxdın."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s122",
+      "kind": "sentence",
+      "native": [
+        "Sınaq müddətim bitəndən sonra iş qrafikim dəyişəcəkmi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s123",
+      "kind": "sentence",
+      "native": [
+        "Kuryerə de ki, ünvanımız Təbriz küçəsi, ev 62, mənzil 15-dir, giriş sağ tərəfdəndir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s124",
+      "kind": "sentence",
+      "native": [
+        "Velosipedin təkərini şişirtməliyəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s125",
+      "kind": "sentence",
+      "native": [
+        "Buzovnada həftəsonu hava necə olacaq, yağış gözlənilir?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s126",
+      "kind": "sentence",
+      "native": [
+        "Adapteri evdə unutmuşam, səninkindən bir saat istifadə edə bilərəm?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s127",
+      "kind": "sentence",
+      "native": [
+        "Çamadanım baqaja sığmadı."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s128",
+      "kind": "sentence",
+      "native": [
+        "Hamısını götürsəm, qiymətdə bir az aşağı düşərsiniz?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s129",
+      "kind": "sentence",
+      "native": [
+        "Zəncir qızıldır, yoxsa gümüş?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s130",
+      "kind": "sentence",
+      "native": [
+        "Zarafat edirəm, məndən incimə."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s131",
+      "kind": "sentence",
+      "native": [
+        "Çəkiliş problemsiz başa çatdı."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s132",
+      "kind": "sentence",
+      "native": [
+        "Bağlama 4 kiloqram gəldi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s133",
+      "kind": "sentence",
+      "native": [
+        "Novruz bazarlığına başlamazdan əvvəl evdəki qozu yoxlayım."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s134",
+      "kind": "sentence",
+      "native": [
+        "Səsi bir az azalt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s135",
+      "kind": "sentence",
+      "native": [
+        "Səhvən sildiyim sənəd zibil qutusunda da yoxdur, onu başqa haradan bərpa edə bilərəm?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s136",
+      "kind": "sentence",
+      "native": [
+        "Elvinlə Azadlıq prospektindəki dayanacaqda təsadüfən rastlaşdım."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s137",
+      "kind": "sentence",
+      "native": [
+        "Kranın altından su damcılayır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s138",
+      "kind": "sentence",
+      "native": [
+        "Dənizkənarı bulvarda velosipedləri axşam neçəyə qədər kirayəyə verirlər?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s139",
+      "kind": "sentence",
+      "native": [
+        "Razıyam, biletləri sən al."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s140",
+      "kind": "sentence",
+      "native": [
+        "Hesabatı yekunlaşdırmaq üçün anbar qalığı lazımdır, dəqiq rəqəmləri nə vaxt ala bilərəm?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s141",
+      "kind": "sentence",
+      "native": [
+        "Hesab 3:2 oldu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s142",
+      "kind": "sentence",
+      "native": [
+        "Ləmanın ad günü üçün hədiyyə seçməliyəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s143",
+      "kind": "sentence",
+      "native": [
+        "WhatsAppda son gələn səsli mesajı səsləndir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s144",
+      "kind": "sentence",
+      "native": [
+        "Deadline dəyişməyib, amma test zamanı çıxan xətanı düzəltmədən bu versiyanı müştəriyə göndərməyək."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s145",
+      "kind": "sentence",
+      "native": [
+        "Balaxanıda emalatxananın yerini Səlim ustadan soruşa bilərsən."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s146",
+      "kind": "sentence",
+      "native": [
+        "Nişan üçün zal tutmağa ehtiyac yoxdur, yaxın qohumları həyətə yığsaq, hamı rahat yerləşər."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s147",
+      "kind": "sentence",
+      "native": [
+        "Boşqabları, stəkanları, bir də çəngəlləri ayrıca bükün."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s148",
+      "kind": "sentence",
+      "native": [
+        "Açarlar yenə səndə qalıb?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s149",
+      "kind": "sentence",
+      "native": [
+        "Şamaxıdakı seminar üçün qeydiyyat bu gün başa çatır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s150",
+      "kind": "sentence",
+      "native": [
+        "Sobanı 180 dərəcəyə qoy, keks 35 dəqiqəyə bişər."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s151",
+      "kind": "sentence",
+      "native": [
+        "Qeyd et ki, tozsoranın filtrini dəyişmək lazımdır."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s152",
+      "kind": "sentence",
+      "native": [
+        "Dovğa bişirəndə qatığın çürüməməsi üçün nə etmək lazımdır?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s153",
+      "kind": "sentence",
+      "native": [
+        "Spotifyda musiqini oflayn dinləyirəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s154",
+      "kind": "sentence",
+      "native": [
+        "Jalə pilləkəndə səni gözləyir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s155",
+      "kind": "sentence",
+      "native": [
+        "Kükünün göyərtisini doğra, yumurtasını sonra özüm əlavə edərəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s156",
+      "kind": "sentence",
+      "native": [
+        "Planşeti hələ satmayaq, dayan, əvvəlcə görüm balaca onunla tapşırıqlarını edə bilirmi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s157",
+      "kind": "sentence",
+      "native": [
+        "Göy donunu mənə versən, toya geyinərəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s158",
+      "kind": "sentence",
+      "native": [
+        "Cümə axşamı 15:30-da mağazada olacaqsınızsa, təmir etdiyiniz qəhvə aparatını yerində yoxlayıb götürmək istərdim."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s159",
+      "kind": "sentence",
+      "native": [
+        "Hovuzda çərşənbə günü 16:10-dan 17:40-a qədər olacağam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s160",
+      "kind": "sentence",
+      "native": [
+        "İdman çantasına təmiz corab qoymağı yadıma sal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s161",
+      "kind": "sentence",
+      "native": [
+        "Gürzə istəyirdim, fikrimi dəyişdim, mənə qutab gətirin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s162",
+      "kind": "sentence",
+      "native": [
+        "Şəkərburadan birini də saxla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s163",
+      "kind": "sentence",
+      "native": [
+        "Həftəsonu növbəni dəyişsək, cümə günü sənə kömək edərəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s164",
+      "kind": "sentence",
+      "native": [
+        "Noutbukda 256 giqabayt yaddaş var, 93 giqabaytı boşdur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s165",
+      "kind": "sentence",
+      "native": [
+        "Usta gəlməmişdən qabaq dəhlizdəki xalçanı yığışdırmalıyam, yoxsa təmir zamanı üstünə boya tökülə bilər."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s166",
+      "kind": "sentence",
+      "native": [
+        "Hə, xalamoğlu üçün şərf seçirdim, amma bu əlcəklər xoşuma gəldi, bunları mənə ayırın."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s167",
+      "kind": "sentence",
+      "native": [
+        "Lənkərandan gətirdiyin çaydan dəmlə, mən də şirniyyat götürüb yarım saata sizə gəlirəm."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s168",
+      "kind": "sentence",
+      "native": [
+        "Çərşənbə axşamı saat 11:30 sizə uyğundur?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s169",
+      "kind": "sentence",
+      "native": [
+        "Endirim 25% deyil, 30%-dir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s170",
+      "kind": "sentence",
+      "native": [
+        "Telefonumun enerjisi bitir, çatan kimi sənə yazacağam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s171",
+      "kind": "sentence",
+      "native": [
+        "Fasilədə stolüstü tennis oynayaq, uduzan çay dəmləsin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s172",
+      "kind": "sentence",
+      "native": [
+        "Gəncədə 14 iyun 2026-cı ildə keçiriləcək keramika dərsinə 6 nəfər yazılmaq istəyirik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s173",
+      "kind": "sentence",
+      "native": [
+        "Sabah Gənclik metrosunun çıxışında görüşək, oradan piyada gedərik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s174",
+      "kind": "sentence",
+      "native": [
+        "Sevinc, sınaq üçün ayırdığımız parçalar emalatxanaya çatıb?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s175",
+      "kind": "sentence",
+      "native": [
+        "Fındığın kilosu 18 manatdır, mənə 300 qram çəkin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s176",
+      "kind": "sentence",
+      "native": [
+        "Şənbə günü Qubaya gedirik, sən də gəlirsən?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s177",
+      "kind": "sentence",
+      "native": [
+        "Salam, vaxtınız xeyir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "az-s178",
+      "kind": "sentence",
+      "native": [
+        "Uçuşumuz saat 06:45-dədir, ona görə zəngli saatı 03:50-yə qur ki, gecikməyək."
+      ],
+      "roman": null
+    }
+  ]
+}

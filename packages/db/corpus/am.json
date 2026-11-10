@@ -1,0 +1,1908 @@
+{
+  "lang": "am",
+  "starter": [
+    "am-s096",
+    "am-s158",
+    "am-s099",
+    "am-s008",
+    "am-s024",
+    "am-s017",
+    "am-s138",
+    "am-s104",
+    "am-s002",
+    "am-s005",
+    "am-s084",
+    "am-p01",
+    "am-s071",
+    "am-s074",
+    "am-s133",
+    "am-s149",
+    "am-s012",
+    "am-s030",
+    "am-s058",
+    "am-s075",
+    "am-s016",
+    "am-s154",
+    "am-p05",
+    "am-s063",
+    "am-s105",
+    "am-s128",
+    "am-s026",
+    "am-s036",
+    "am-s082",
+    "am-s122",
+    "am-s010",
+    "am-s023",
+    "am-s025",
+    "am-p04",
+    "am-s011",
+    "am-s155",
+    "am-s067",
+    "am-s127",
+    "am-s052",
+    "am-s092",
+    "am-s125",
+    "am-s109",
+    "am-s110",
+    "am-s056",
+    "am-s077"
+  ],
+  "items": [
+    {
+      "id": "am-p01",
+      "kind": "para",
+      "title": "Settling Into Ayat",
+      "native": [
+        "ሰላም፣ ቅዳሜ አያት ወዳለው አዲሱ ቤቴ ገባሁ።",
+        "ቤቱ ከመንገዱ ትንሽ ገባ ስለሚል የመኪና ጫጫታ ብዙም የለም።",
+        "ወጥ ቤቱ ትንሽ ቢሆንም የሳሎኑ መስኮት ጥሩ ብርሃን ያስገባል።",
+        "ሳጥኖቹን ገና ስላልከፈትኩ ማንኪያ ፍለጋ ብዙ ጊዜ አጠፋሁ።",
+        "የሶፋውን ቦታ ለመወሰን እየተቸገርኩ ነው፣ አንቺ መጥተሽ እዪው።",
+        "ከታች ያለው የሰፈር ሱቅ ትኩስ ዳቦ ጠዋት ጠዋት ያመጣል።",
+        "የቤቱ ቁጥር 24 ነው፣ በሩ ደግሞ ሰማያዊ ነው።",
+        "እሁድ ከሰዓት ነፃ ከሆንሽ ቡና ልናፈላ ነይ።",
+        "ስትደርሺ ደውይልኝ፣ እስከ መንገድ ወጥቼ እቀበልሻለሁ።"
+      ],
+      "roman": [
+        "Selam, kidame Ayat wedalew adisu bete gebahu.",
+        "Betu kemengedu tinish geba silemil yemekina chachata bizum yelem.",
+        "Wot betu tinish bihonim yesalonu meskot tiru birhan yasgebal.",
+        "Satinochun gena silalkefetku mankiya filega bizu gize atefahu.",
+        "Yesofawn bota lemewesen eyetechegerku new, anchi metesh eyiw.",
+        "Ketach yalew yesefer suk tikus dabo tewat tewat yametal.",
+        "Yebetu kutir 24 new, beru degmo semayawi new.",
+        "Ehud keseat netsa kehonsh buna linafela ney.",
+        "Sitdershi dewyilign, eske menged wetche ekebelshalehu."
+      ]
+    },
+    {
+      "id": "am-p02",
+      "kind": "para",
+      "title": "Revised Catalogue Project Plan",
+      "native": [
+        "ሰላም ባልደረቦች፣ የቦሌው ሱቅ ካታሎግ ከታቀደው ጊዜ በሁለት ቀናት ይዘገያል።",
+        "የአዲሶቹ ምርቶች ፎቶዎች ስላልደረሱን የመጨረሻውን ዝግጅት አልጨረስንም።",
+        "ደንበኛውን አነጋግሬው ካታሎጉን አርብ ለመላክ ተስማምተናል።",
+        "ራሄል፣ የቀሩትን ፎቶዎች ዛሬ ከሰዓት ከፎቶግራፍ አንሺው ተቀበዪ።",
+        "ዳዊት፣ ነገ ጠዋት የዋጋ ዝርዝሩን ከሱቁ ኃላፊ ጋር አረጋግጥ።",
+        "እኔ ደግሞ ፎቶዎቹ እንደደረሱ አዲሱን ፋይል ለማተሚያ ቤቱ እልካለሁ።",
+        "ሐሙስ ጠዋት በ3 ሰዓት አጭር ውይይት እናድርግ።",
+        "እስከዚያ የተሰጣችሁን ሥራ ጨርሳችሁ ያጋጠማችሁን ችግር ንገሩኝ።",
+        "ለውጥ ካለ ቴሌግራም ላይ በቡድናችን ውስጥ ወዲያውኑ ጻፉ።"
+      ],
+      "roman": [
+        "Selam baldereboch, yebolew suk catalog ketakedew gize behulet kenat yizegeyal.",
+        "Yeadisochu mirtoch photowoch silalderesun yemechereshawn zigijit alcheresnim.",
+        "Denbegnawn anegagrew catalogun arb lemelak tesmamtenal.",
+        "Rahel, yekerutin photowoch zare keseat kephotograph anshiw tekebeyi.",
+        "Dawit, nege tewat yewaga zirzirun kesuku halafi gar aregagit.",
+        "Ene degmo photowochu endederesu adisun file lematemiya betu elkalehu.",
+        "Hamus tewat be3 seat achir wiyiyit enadirg.",
+        "Eskeziya yetesetachihun sira chersachihu yagatemachihun chigir nigerugn.",
+        "Lewt kale Telegram lay bebudnachin wist wediyawnu tsafu."
+      ]
+    },
+    {
+      "id": "am-p03",
+      "kind": "para",
+      "title": "Lunch That Nearly Failed",
+      "native": [
+        "ባለፈው እሁድ ሐዋሳ ባለው ቤቴ ለጓደኞቼ ምሳ አዘጋጀሁ።",
+        "ቦንቱና ሶስና ከመድረሳቸው በፊት ሽሮውን ለመጨረስ አስቤ ነበር።",
+        "ሽንኩርቱን እያቁላላሁ የሻይ ብርጭቆ ለማጠብ ወደ ማጠቢያው ዞርኩ።",
+        "ድስቱ ማጨስ ሲጀምር ነበር ምድጃውን ከፍ እንዳደረግኩት ያስታወስኩት።",
+        "ሽንኩርቱ ግን ጠቁሮ ስለነበር እንደገና መጀመር ነበረብኝ።",
+        "አዲስ ሽንኩርት ልቆርጥ ስል ጓደኞቼ ደርሰው በሩን አንኳኩ።",
+        "ቦንቱ ከእኔ ጋር ሽሮውን ሠራች፣ ሶስና ደግሞ ሰላጣውን ከተፈች።",
+        "ከመኝታ ቤቱ ትንሽ ጠረጴዛ አምጥተን ሦስታችንም ተቀመጥን።",
+        "ምሳችን ቢዘገይም በተቃጠለው ሽንኩርት እየተሳሳቅን በደስታ በላን።"
+      ],
+      "roman": [
+        "Balefew ehud Hawassa balew bete legwadegnoche misa azegajehu.",
+        "Bontuna Sosna kemedresachew befit shirown lemecheres asbe neber.",
+        "Shinkurtun eyakulalahu yeshay birchiko lemateb wede matebiyaw zorku.",
+        "Distu maches sijemir neber midjawn kef endaderegkut yastaweskut.",
+        "Shinkurtu gin tekuro sileneber endegena mejemer neberebign.",
+        "Addis shinkurt likort sil gwadegnoche dersew berun ankuaku.",
+        "Bontu keene gar shirown serach, Sosna degmo selatawn ketefech.",
+        "Kemegnta betu tinish terepeza amtiten sostachinim tekemeten.",
+        "Misachin bizegeym betekatelew shinkurt eyetesasakin bedesta belan."
+      ]
+    },
+    {
+      "id": "am-p04",
+      "kind": "para",
+      "title": "Coffee in a Jebena",
+      "native": [
+        "በቤታችን ቡና የምናፈላው በጀበና ነው።",
+        "መጀመሪያ ለሦስት ሰው የሚበቃ ጥሬ ቡና በደንብ እጠቢ።",
+        "ከዚያ ቡናውን በመቁያው ላይ አድርገሽ በትንሽ እሳት ቁዪው።",
+        "ቡናው በአንድ በኩል ብቻ እንዳይቃጠል ያለማቋረጥ አማስዪው።",
+        "ቡናው ጥሩ ቡናማ ቀለም ሲይዝ አውርጂና ትንሽ እንዲቀዘቅዝ ተዪው።",
+        "የተቆላውን ቡና ውቀጪና ውሃ ባለበት ጀበና ውስጥ ጨምሪው።",
+        "ጀበናውን በከሰል ምድጃ ላይ አስቀምጠሽ ቡናው እስኪፈላ ጠብቂ።",
+        "ቡናው ሲፈላ ጀበናውን አውርደሽ በመቀመጫው ላይ ትንሽ አቆዪው።",
+        "በመጨረሻ ቡናውን በሲኒ ቀድተሽ ከፋንዲሻ ጋር አቅርቢ።"
+      ],
+      "roman": [
+        "Bebetachin buna yemnafelaw bejebena new.",
+        "Mejemeriya lesost sew yemibeka tire buna bedenb etebi.",
+        "Keziya bunawn bemekuyaw lay adirgesh betinish esat kuyiw.",
+        "Bunaw beand bekul bicha endaykatel yalemakuaret amasiyiw.",
+        "Bunaw tiru bunama kelem siyiz awrjina tinish endikezekiz teyiw.",
+        "Yetekolawn buna wikechina wuha balebet jebena wist chemriw.",
+        "Jebenawn bekesel midja lay askemtesh bunaw eskifela tebki.",
+        "Bunaw sifela jebenawn awrdesh bemekemechaw lay tinish akoyiw.",
+        "Bemecheresha bunawn besini kedtesh kefandisha gar akirbi."
+      ]
+    },
+    {
+      "id": "am-p05",
+      "kind": "para",
+      "title": "My New Phone",
+      "native": [
+        "ከፒያሳ የገዛሁትን አዲስ ስልክ ለአንድ ሳምንት ያህል በደንብ ሞክሬዋለሁ።",
+        "ዋጋው ትንሽ ወደድ ቢልም፣ ለምፈልገው ነገር ጥሩ ሆኖልኛል።",
+        "በተለይ ቀኑን ሙሉ ቻርጀር ሳልይዝ መዋሌ በጣም ተመችቶኛል።",
+        "በአውቶቡስ ስጓዝ ሙዚቃ ባዳምጥም፣ ባትሪው ቶሎ አያልቅም።",
+        "በቀን የማነሳቸው ፎቶዎች ጥርት ብለው ይወጣሉ፣ ማታ ግን ይደበዝዛሉ።",
+        "ብዙ አፕ አንድ ላይ ስከፍት ግን ትንሽ ይዘገያል።",
+        "ድምፁ ግልጽ ስለሆነ፣ እናቴ ስትደውል የምትለውን ሁሉ በደንብ እሰማለሁ።",
+        "ከበፊቱ ስልኬ ትንሽ ይከብዳል፣ በኪስ ለመያዝም ብዙም አይመችም።",
+        "ለመደወልና መልዕክት ለመላክ ጥሩ ነው። ለፎቶ ብቻ ግን አልመክረውም።"
+      ],
+      "roman": [
+        "Kepiyasa yegezahutin addis silk leand samint yahil bedenb mokrewalehu.",
+        "Wagaw tinish weded bilim, lemefelgew neger tiru honognal.",
+        "Beteley kenun mulu charger salyiz mewale betam temechitognal.",
+        "Beawtobus siguaz muzika badamtim, batteryw tolo ayalkim.",
+        "Beken yemanesachew photowoch tirt bilew yiwetalu, mata gin yidebezizalu.",
+        "Bizu app and lay sikefit gin tinish yizegeyal.",
+        "Dimtsu gilts silehone, enate sitdewel yemtitlewin hulu bedenb esemalehu.",
+        "Kebefitu silke tinish yikebdal, bekis lemeyazim bizum aymechim.",
+        "Lemedewelna melikt lemelak tiru new. Lephoto bicha gin almekrewim."
+      ]
+    },
+    {
+      "id": "am-p06",
+      "kind": "para",
+      "title": "Planning Our Bishoftu Offsite",
+      "native": [
+        "የቡድናችንን ውይይት በቢሾፍቱ ብናደርግ ጥሩ ይመስለኛል።",
+        "የመረጥኩት ቀን ኅዳር 20 ቀን 2018 ነው።",
+        "12 ሰዎች ስለሆንን፣ ለሁላችንም የሚበቃ ሚኒባስ እንከራይ።",
+        "ከቃሊቲ ጠዋት 1 ሰዓት ከ30 ደቂቃ ላይ እንነሳ።",
+        "እስከ መድረሻችን ያለው መንገድ 40 ኪሎሜትር ያህል ነው።",
+        "ለመጓጓዣ 6000 ብር፣ ለአዳራሹ ደግሞ 4000 ብር እንያዝ።",
+        "ለእያንዳንዳችን ምሳ 500 ብር ከያዝን፣ በድምሩ 6000 ብር ይሆናል።",
+        "ለውይይቱ 2 ሰዓት፣ ለቡድን ጨዋታዎች ደግሞ 1 ሰዓት እንመድብ።",
+        "ማታ 12 ሰዓት ላይ ቃሊቲ እንድንደርስ፣ በጊዜ መመለስ አለብን።"
+      ],
+      "roman": [
+        "Yebudnachinin wiyiyit bebishoftu binaderg tiru yimeslegnal.",
+        "Yemeretkut ken Hidar 20 ken 2018 new.",
+        "12 sewoch silehonen, lehulachinim yemibeka minibus enkeray.",
+        "Kekaliti tewat 1 seat ke30 dekika lay ennesa.",
+        "Eske medreshachin yalew menged 40 kilometer yahil new.",
+        "Lemeguaguazha 6000 birr, leadarashu degmo 4000 birr enyaz.",
+        "Leyandandachin misa 500 birr keyazn, bedimru 6000 birr yihonal.",
+        "Lewiyiyitu 2 seat, lebudin chewatawoch degmo 1 seat enmedib.",
+        "Mata 12 seat lay Kaliti endinders, begize memeles alebin."
+      ]
+    },
+    {
+      "id": "am-p07",
+      "kind": "para",
+      "title": "Requesting a School Receipt",
+      "native": [
+        "ሰላም፣ ልድያ ነኝ። ልጄ ናኦድ በአስኮ ቅርንጫፍ ይማራል።",
+        "የዚህን ወር የትምህርት ክፍያ ትናንት በባንክ በኩል ከፍያለሁ።",
+        "የላክሁት ገንዘብ 3500 ብር ነው፣ ማስረጃውንም ቴሌግራም ላይ ልኬዋለሁ።",
+        "ደረሰኙን ግን ገና ስላልተቀበልኩ፣ ደውዬ ላረጋግጥ ፈልጌ ነበር።",
+        "እባክዎ ክፍያው በልጄ ስም መመዝገቡን አይተው ይንገሩኝ።",
+        "ደረሰኙን ሲያዘጋጁ የተከፈለበት ወር በግልጽ እንዲጻፍልኝ እፈልጋለሁ።",
+        "ከተቻለ የደረሰኙን ፎቶ በዚያው ቴሌግራም ላይ ቢልኩልኝ በጣም ይመቸኛል።",
+        "ዋናውን ደረሰኝ ደግሞ ልጄን ለመውሰድ ስመጣ ከቢሮዎ እወስዳለሁ።",
+        "ስለረዱኝ አመሰግናለሁ። ሌላ ማስረጃ ካስፈለገዎት እባክዎ በመልዕክት ያሳውቁኝ።"
+      ],
+      "roman": [
+        "Selam, Lidiya negn. Lije Naod beasko kirinchaf yimaral.",
+        "Yezihin wer yetimhirt kifiya tinant bebank bekul kefiyalehu.",
+        "Yelakhut genzeb 3500 birr new, masrejawnim Telegram lay likewalehu.",
+        "Deresegnun gin gena silaltekebelku, dewye laregagit felge neber.",
+        "Ebakiwo kifyaw belije sim memezgebun aytew yingerugn.",
+        "Deresegnun siyazegaju yetekefelebet wer begilts enditsafilign efelgalehu.",
+        "Ketechale yederesegnun photo beziyaw Telegram lay bilkulign betam yimechegnal.",
+        "Wanawn deresegn degmo lijen lemewsed simeta kebirowo ewesdalehu.",
+        "Sileredugn ameseginalehu. Lela masreja kasfelegewot ebakiwo bemelekt yasawkugn."
+      ]
+    },
+    {
+      "id": "am-p08",
+      "kind": "para",
+      "title": "Traditional Weaving in Chencha",
+      "native": [
+        "በጨንቻ አካባቢ ባህላዊ ሽመና ለብዙ ቤተሰቦች የገቢ ምንጭ ነው።",
+        "የዶርዜ ሸማኔዎች በጥጥ ክር ነጠላና ጋቢ ይሸምናሉ።",
+        "ከሽመናው በፊት ጥጡን በእጅ ፈትለው ክር ያዘጋጃሉ።",
+        "ሸማኔዎቹ የሽመና መሣሪያውን በእጅና በእግር እያንቀሳቀሱ ይሠራሉ።",
+        "በጨርቁ ዳር ያለው ጥለት የተለያየ ቀለም ባላቸው ክሮች ይሠራል።",
+        "አንድን ጨርቅ ለመጨረስ የሚወስደው ጊዜ እንደመጠኑና እንደንድፉ ይለያያል።",
+        "በጨንቻ ገበያ ገዢዎች የጨርቁን ውፍረትና የሽመናውን ጥራት እያዩ ይመርጣሉ።",
+        "አንዳንድ ወጣቶች ከቤተሰባቸው ጋር እየሠሩ ሽመና ይማራሉ።",
+        "የዶርዜ የእጅ ሥራዎች አዲስ አበባ ባሉ ሱቆችም ይሸጣሉ።"
+      ],
+      "roman": [
+        "Bechencha akababi bahlawi shimena lebizu beteseboch yegebi minch new.",
+        "Yedorze shemanewoch betit kir netelana gabi yishemnalu.",
+        "Keshimenaw befit titun beej fetlew kir yazegajalu.",
+        "Shemanewochu yeshimena mesariyawn beejna beegir eyankesakesu yiseralu.",
+        "Becherku dar yalew tilet yeteleyaye kelem balachew kiroch yiseral.",
+        "Andin cherk lemecheres yemiwesdew gize endemetenuna endenidfu yileyayal.",
+        "Bechencha gebeya gezhiwoch yecherkun wifretna yeshimenawn tirat eyayu yimertalu.",
+        "Andand wetatoch kebetesebachew gar eyeseru shimena yimaralu.",
+        "Yedorze yeej sirawoch Addis Ababa balu sukochm yishetalu."
+      ]
+    },
+    {
+      "id": "am-s001",
+      "kind": "sentence",
+      "native": [
+        "መገናኛ ስደርስ እነግርሃለሁ፣ አሁን ገና ታክሲ ላይ ነኝ።"
+      ],
+      "roman": [
+        "Megenagna sideres enegirhalehu, ahun gena taxi lay negn."
+      ]
+    },
+    {
+      "id": "am-s002",
+      "kind": "sentence",
+      "native": [
+        "ራሂማ፣ የደንበኞቹን ዝርዝር በኢሜይል ልከሽልኝ ነበር?"
+      ],
+      "roman": [
+        "Rahima, yedenbegnochun zirzir beemail likeshilign neber?"
+      ]
+    },
+    {
+      "id": "am-s003",
+      "kind": "sentence",
+      "native": [
+        "ከሐዋሳ ወደ ይርጋለም በ45 ደቂቃ ደረስን።"
+      ],
+      "roman": [
+        "Kehawasa wede Yirgalem be45 dekika deresin."
+      ]
+    },
+    {
+      "id": "am-s004",
+      "kind": "sentence",
+      "native": [
+        "ለጨጨብሳው የሚሆን ቅቤ እና በርበሬ በግዢ ዝርዝሩ ላይ ጨምር።"
+      ],
+      "roman": [
+        "Lechechebsaw yemihon kibe ena berbere begizhi zirziru lay chemir."
+      ]
+    },
+    {
+      "id": "am-s005",
+      "kind": "sentence",
+      "native": [
+        "የቆጮ አሠራር የሚያሳይ ቪዲዮ ዩቲዩብ ላይ ፈልግልኝ።"
+      ],
+      "roman": [
+        "Yekocho aserar yemiyasay video YouTube lay felgilign."
+      ]
+    },
+    {
+      "id": "am-s006",
+      "kind": "sentence",
+      "native": [
+        "ሳላስቀምጥ ፕሮግራሙ ተዘግቶ የጻፍኩት ሁሉ ጠፋብኝ።"
+      ],
+      "roman": [
+        "Salaskemit programu tezegto yetsafkut hulu tefabign."
+      ]
+    },
+    {
+      "id": "am-s007",
+      "kind": "sentence",
+      "native": [
+        "ቢጫውን ሕንፃ ካለፍሽ ትንሽ ተመለሺ፣ የምንገናኝበት የስፌት ቤት ከዚያ ወዲህ በቀኝ በኩል ነው።"
+      ],
+      "roman": [
+        "Bichawn hintsa kalefsh tinish temeleshi, yemingenagnbet yesifet bet keziya wedih bekegn bekul new."
+      ]
+    },
+    {
+      "id": "am-s008",
+      "kind": "sentence",
+      "native": [
+        "ሄኖክ የሥዕል ደብተሩን ክፍል ውስጥ ረስቶታል።"
+      ],
+      "roman": [
+        "Henok yesil debterun kifil wist restotal."
+      ]
+    },
+    {
+      "id": "am-s009",
+      "kind": "sentence",
+      "native": [
+        "ወተት፣ እርጎና አይብ አምጣ፣ እርጎው ግን ትንሽ ይሁን።"
+      ],
+      "roman": [
+        "Wetet, ergona ayib amta, ergow gin tinish yihun."
+      ]
+    },
+    {
+      "id": "am-s010",
+      "kind": "sentence",
+      "native": [
+        "ያቀረብሽው ሐሳብ ደስ ብሎኛል፣ አብረን ብንሞክረው ጥሩ ይመስለኛል።"
+      ],
+      "roman": [
+        "Yakerebshiw hasab des bilognal, abren binmokrew tiru yimeslegnal."
+      ]
+    },
+    {
+      "id": "am-s011",
+      "kind": "sentence",
+      "native": [
+        "ከሾላ ምን ላምጣልህ፣ ቡና አልቆብሃል ወይ?"
+      ],
+      "roman": [
+        "Keshola min lamtalih, buna alkobhal wey?"
+      ]
+    },
+    {
+      "id": "am-s012",
+      "kind": "sentence",
+      "native": [
+        "ቶላ፣ የላከኸው የመጓጓዣ ወጪ በጀት ጸድቋል።"
+      ],
+      "roman": [
+        "Tola, yelakehew yemeguaguazha wechi bejet tsedkual."
+      ]
+    },
+    {
+      "id": "am-s013",
+      "kind": "sentence",
+      "native": [
+        "ለ6 ብርጭቆዎች 480 ብር ከፍዬ 5 ብቻ ደረሱኝ።"
+      ],
+      "roman": [
+        "Le6 birchikowoch 480 birr kefye 5 bicha deresugn."
+      ]
+    },
+    {
+      "id": "am-s014",
+      "kind": "sentence",
+      "native": [
+        "ቁርሴን ከበላሁ በኋላ በረንዳ ላይ ያሉትን አበቦች ውሃ ላጠጣ።"
+      ],
+      "roman": [
+        "Kursen kebelahu behuala berenda lay yalutin abeboch wuha lateta."
+      ]
+    },
+    {
+      "id": "am-s015",
+      "kind": "sentence",
+      "native": [
+        "ዘፈኑን ማን ዘፈነው?"
+      ],
+      "roman": [
+        "Zefenun man zefenew?"
+      ]
+    },
+    {
+      "id": "am-s016",
+      "kind": "sentence",
+      "native": [
+        "ፓስወርዴን እንደገና ልቀይረው።"
+      ],
+      "roman": [
+        "Passworden endegena likeyirew."
+      ]
+    },
+    {
+      "id": "am-s017",
+      "kind": "sentence",
+      "native": [
+        "ዳዊት ከደጅ ይጠብቅሃል።"
+      ],
+      "roman": [
+        "Dawit kedej yitebikhal."
+      ]
+    },
+    {
+      "id": "am-s018",
+      "kind": "sentence",
+      "native": [
+        "ጨው ትንሽ ይጎድለዋል።"
+      ],
+      "roman": [
+        "Chew tinish yigodilewal."
+      ]
+    },
+    {
+      "id": "am-s019",
+      "kind": "sentence",
+      "native": [
+        "ሜሮን፣ ቦታውን ለማክሰኞ ያዢልን፣ አይ፣ ለሐሙስ ማለቴ ነው።"
+      ],
+      "roman": [
+        "Meron, botawin lemaksegno yazhilin, ay, lehamus malete new."
+      ]
+    },
+    {
+      "id": "am-s020",
+      "kind": "sentence",
+      "native": [
+        "ድሮ ሁሉንም ነገር በአንድ ጊዜ ለመጨረስ እጣደፍ ነበር፣ አሁን ቀስ ብዬ መሥራት እየተማርኩ ነው።"
+      ],
+      "roman": [
+        "Diro hulunim neger beand gize lemecheres etadef neber, ahun kes biye mesrat eyetemarku new."
+      ]
+    },
+    {
+      "id": "am-s021",
+      "kind": "sentence",
+      "native": [
+        "ዳማ ላይ በቀላሉ አታሸንፈኝም። በዚህ ሳምንት ብዙ ተለማምጃለሁ።"
+      ],
+      "roman": [
+        "Dama lay bekelalu atashenfegnim. Bezih samint bizu telemamjalehu."
+      ]
+    },
+    {
+      "id": "am-s022",
+      "kind": "sentence",
+      "native": [
+        "የጠየቁት ናሙና ተዘጋጅቷል።"
+      ],
+      "roman": [
+        "Yeteyekut namuna tezegajitwal."
+      ]
+    },
+    {
+      "id": "am-s023",
+      "kind": "sentence",
+      "native": [
+        "ለንፍሮው ግማሽ ኪሎ ስንዴና 250 ግራም ሽምብራ ይበቃል።"
+      ],
+      "roman": [
+        "Lenifrow gimash kilo sindena 250 gram shimbira yibekal."
+      ]
+    },
+    {
+      "id": "am-s024",
+      "kind": "sentence",
+      "native": [
+        "ሐና መስከረም 6 ቀን እንደምትመረቅ በማስታወሻዬ ላይ ጻፍ።"
+      ],
+      "roman": [
+        "Hana Meskerem 6 ken endemitmerek bemastaweshaye lay tsaf."
+      ]
+    },
+    {
+      "id": "am-s025",
+      "kind": "sentence",
+      "native": [
+        "የጨረቃ ቅርጽ በየቀኑ ለምን እንደሚለወጥ በቀላሉ አስረዳኝ።"
+      ],
+      "roman": [
+        "Yechereka kirts beyekenu lemin endemilewet bekelalu asredagn."
+      ]
+    },
+    {
+      "id": "am-s026",
+      "kind": "sentence",
+      "native": [
+        "ስካነሩ ወረቀት ይዞብኛል።"
+      ],
+      "roman": [
+        "Scanneru wereket yizobignal."
+      ]
+    },
+    {
+      "id": "am-s027",
+      "kind": "sentence",
+      "native": [
+        "አክስቴ አብራን ልትጓዝ ነው።"
+      ],
+      "roman": [
+        "Akiste abran litguaz new."
+      ]
+    },
+    {
+      "id": "am-s028",
+      "kind": "sentence",
+      "native": [
+        "የቆሻሻ መኪና ሲመጣ እንዳያልፈን ከደጅ ሆነህ ጠብቅ።"
+      ],
+      "roman": [
+        "Yekoshasha mekina simeta endayalfen kedej honeh tebik."
+      ]
+    },
+    {
+      "id": "am-s029",
+      "kind": "sentence",
+      "native": [
+        "ለትዕግሥት ቀይ ክር ግዛላት። ሌላ ቀለም እንዳታመጣ መጀመሪያ ናሙናውን ጠይቃት።"
+      ],
+      "roman": [
+        "Letigist key kir gizalat. Lela kelem endatameta mejemeriya namunawin teykat."
+      ]
+    },
+    {
+      "id": "am-s030",
+      "kind": "sentence",
+      "native": [
+        "ሻንጣዬን ተሸክመውልኝ እስከዚህ ስለመጡ ከልብ አመሰግናለሁ።"
+      ],
+      "roman": [
+        "Shantayen teshekimewlegn eskezih silemetu kelib ameseginalehu."
+      ]
+    },
+    {
+      "id": "am-s031",
+      "kind": "sentence",
+      "native": [
+        "ዛሬ ልብስ ለማጠብ ተነስቼ ነበር፣ ድመቷ ግን ቅርጫቱ ውስጥ ተኝታ ከቦታዋ አልነሳም ብላለች።"
+      ],
+      "roman": [
+        "Zare libs lemateb tenesche neber, dimetwa gin kirchatu wist tegnita kebotawa alnesam bilalech."
+      ]
+    },
+    {
+      "id": "am-s032",
+      "kind": "sentence",
+      "native": [
+        "በዋጋው ተስማምተናል። እባክዎ ዕቃው በመንገድ ላይ እንዳይበላሽ በወፍራም ካርቶን ያሽጉት።"
+      ],
+      "roman": [
+        "Bewagaw tesmamtenal. Ebakiwo ekaw bemenged lay endaybelash bewefram karton yashigut."
+      ]
+    },
+    {
+      "id": "am-s033",
+      "kind": "sentence",
+      "native": [
+        "ሂሳቡ 840 ብር መጥቷል። እያንዳንዳችን 280 ብር እንክፈል።"
+      ],
+      "roman": [
+        "Hisabu 840 birr metwal. Eyandandachin 280 birr enkifel."
+      ]
+    },
+    {
+      "id": "am-s034",
+      "kind": "sentence",
+      "native": [
+        "ገበያ ከመሄዴ በፊት ማቀዝቀዣው ውስጥ ያለውን ልፈትሽ፣ የማያስፈልግ ነገር ገዝቼ ብር ማባከን አልፈልግም።"
+      ],
+      "roman": [
+        "Gebeya kemehede befit makezkezhaw wist yalewin lifetish, yemayasfelig neger gezche birr mabaken alfelgim."
+      ]
+    },
+    {
+      "id": "am-s035",
+      "kind": "sentence",
+      "native": [
+        "በፎቶው ውስጥ ያለውን ጽሑፍ ለይተህ አውጣና በቀላሉ ኮፒ ማድረግ እንድችል ለብቻው አስቀምጥልኝ።"
+      ],
+      "roman": [
+        "Befotow wist yalewin tsihuf leyteh awtana bekelalu copy madreg endichil lebichaw askemitlign."
+      ]
+    },
+    {
+      "id": "am-s036",
+      "kind": "sentence",
+      "native": [
+        "የተቀዳው ድምፅ በግልጽ ይሰማል።"
+      ],
+      "roman": [
+        "Yetekedaw dimts begilts yisemal."
+      ]
+    },
+    {
+      "id": "am-s037",
+      "kind": "sentence",
+      "native": [
+        "ከድልድዩ ማዶ ያለው ሰፊ በር የትምህርት ቤቱ መግቢያ ነው።"
+      ],
+      "roman": [
+        "Kedildiyu mado yalew sefi ber yetimhirt betu megbiya new."
+      ]
+    },
+    {
+      "id": "am-s038",
+      "kind": "sentence",
+      "native": [
+        "ነፋሱ መስኮቱን ከፈተው።"
+      ],
+      "roman": [
+        "Nefasu meskotun kefetew."
+      ]
+    },
+    {
+      "id": "am-s039",
+      "kind": "sentence",
+      "native": [
+        "ሩዝ፣ ዘይትና ሳሙና ጨምርልኝ፣ እስቲ ቆይ፣ ሳሙናውን ተወው፣ ያልተከፈተ ሌላ ፓኬት እቤት አለኝ።"
+      ],
+      "roman": [
+        "Ruz, zeyitna samuna chemirlign, esti koy, samunawin tewew, yaltekefete lela packet ebet alegn."
+      ]
+    },
+    {
+      "id": "am-s040",
+      "kind": "sentence",
+      "native": [
+        "ይቅርታ፣ ሳላስበው አቋረጥኩሽ።"
+      ],
+      "roman": [
+        "Yikirta, salasbew akuaretkush."
+      ]
+    },
+    {
+      "id": "am-s041",
+      "kind": "sentence",
+      "native": [
+        "ሰላማዊት፣ ነገ ከሰዓት በኋላ አንቺ ጋር ልምጣ?"
+      ],
+      "roman": [
+        "Selamawit, nege keseat behuala anchi gar limta?"
+      ]
+    },
+    {
+      "id": "am-s042",
+      "kind": "sentence",
+      "native": [
+        "የማታ ፈረቃ ሠራተኛ እስኪመጣ ድረስ እዚህ እቆያለሁ፣ እናንተ ግን ከጨረሳችሁ መሄድ ትችላላችሁ።"
+      ],
+      "roman": [
+        "Yemata fereka serategna eskimeta dires ezih ekoyalehu, enante gin kecheresachihu mehed tichilalachihu."
+      ]
+    },
+    {
+      "id": "am-s043",
+      "kind": "sentence",
+      "native": [
+        "መደርደሪያው 120 ሴንቲሜትር ርዝመትና 35 ሴንቲሜትር ስፋት አለው።"
+      ],
+      "roman": [
+        "Mederderiyaw 120 sentimetr rizmetna 35 sentimetr sifat alew."
+      ]
+    },
+    {
+      "id": "am-s044",
+      "kind": "sentence",
+      "native": [
+        "የተዋስኩትን መጽሐፍ ሰኞ ልመልስ።"
+      ],
+      "roman": [
+        "Yetewaskutin metsihaf segno limelis."
+      ]
+    },
+    {
+      "id": "am-s045",
+      "kind": "sentence",
+      "native": [
+        "ሐረር ውስጥ ያሉ የመጻሕፍት መደብሮች እሁድ ክፍት እንደሆኑ እና እስከ ስንት ሰዓት እንደሚሠሩ ፈልግልኝ።"
+      ],
+      "roman": [
+        "Harar wist yalu yemetsahift medebroch ehud kift endehonu ena eske sint seat endemiseru felgilign."
+      ]
+    },
+    {
+      "id": "am-s046",
+      "kind": "sentence",
+      "native": [
+        "የቴሌብር አፑን አፕዴት ካደረግኩ በኋላ በትክክል ሠራልኝ።"
+      ],
+      "roman": [
+        "Yetelebirr appun update kaderegku behuala betikikil seralign."
+      ]
+    },
+    {
+      "id": "am-s047",
+      "kind": "sentence",
+      "native": [
+        "ወንድሜ የሚኖረው ከዚህ ትንሽ ራቅ ብሎ ነው።"
+      ],
+      "roman": [
+        "Wendme yeminorew kezih tinish rak bilo new."
+      ]
+    },
+    {
+      "id": "am-s048",
+      "kind": "sentence",
+      "native": [
+        "ከሸጎሌ የገዛሁት ምንጣፍ ሳሎኑን ሙሉ ሸፈነው።"
+      ],
+      "roman": [
+        "Keshegole yegezahut mintaf salonun mulu shefenew."
+      ]
+    },
+    {
+      "id": "am-s049",
+      "kind": "sentence",
+      "native": [
+        "ሰማያዊውን፣ ይቅርታ፣ አረንጓዴውን ስጠኝ።"
+      ],
+      "roman": [
+        "Semayawiwin, yikirta, arengwadewin sitegn."
+      ]
+    },
+    {
+      "id": "am-s050",
+      "kind": "sentence",
+      "native": [
+        "ለአንድ ኩባያ ቡና 100 ብር መክፈል ትንሽ ይከብዳል።"
+      ],
+      "roman": [
+        "Leand kubaya buna 100 birr mekfel tinish yikebdal."
+      ]
+    },
+    {
+      "id": "am-s051",
+      "kind": "sentence",
+      "native": [
+        "ስትፈታ ደውልልኝ እሺ?"
+      ],
+      "roman": [
+        "Sitfeta dewilelign eshi?"
+      ]
+    },
+    {
+      "id": "am-s052",
+      "kind": "sentence",
+      "native": [
+        "ሳሚራ፣ በደረሰኙ ላይ የደንበኛው ስም ተሳስቶ ተጽፏል።"
+      ],
+      "roman": [
+        "Samira, bederesegnu lay yedenbegnaw sim tesasto tetsifwal."
+      ]
+    },
+    {
+      "id": "am-s053",
+      "kind": "sentence",
+      "native": [
+        "ሙኒራ ከድር በ11ኛው ረድፍ መቀመጫ ቁጥር 26 ያዘች።"
+      ],
+      "roman": [
+        "Munira Kedir be11gnaw redif mekemecha kutir 26 yazech."
+      ]
+    },
+    {
+      "id": "am-s054",
+      "kind": "sentence",
+      "native": [
+        "አበበ ቁምሳጥኑን ለመጠገን ማክሰኞ ከምሳ በኋላ ይመጣል።"
+      ],
+      "roman": [
+        "Abebe kumsatnun lemetegen maksegno kemisa behuala yimetal."
+      ]
+    },
+    {
+      "id": "am-s055",
+      "kind": "sentence",
+      "native": [
+        "ከአሁን ጀምሮ ለ12 ደቂቃ ታይመር አስጀምርልኝ።"
+      ],
+      "roman": [
+        "Keahun jemro le12 dekika timer asjemirlign."
+      ]
+    },
+    {
+      "id": "am-s056",
+      "kind": "sentence",
+      "native": [
+        "ቻርጀሩን ስሰካው ላፕቶፑ ለምን እንዲህ ይሞቃል?"
+      ],
+      "roman": [
+        "Chargerun sisekaw laptopu lemin endih yimokal?"
+      ]
+    },
+    {
+      "id": "am-s057",
+      "kind": "sentence",
+      "native": [
+        "ስትመጪ ከመጻሕፍት መደብሩ አጠገብ ያለውን ደረጃ ተጠቀሚ።"
+      ],
+      "roman": [
+        "Sitmechi kemetsahift medebru ategeb yalewn dereja tetekemi."
+      ]
+    },
+    {
+      "id": "am-s058",
+      "kind": "sentence",
+      "native": [
+        "ቧንቧው እያንጠባጠበ ነው።"
+      ],
+      "roman": [
+        "Buanbuaw eyantebatebe new."
+      ]
+    },
+    {
+      "id": "am-s059",
+      "kind": "sentence",
+      "native": [
+        "የመጨረሻውን አንቀጽ አስወግደው፣ ይልቅ ለብቻው በሌላ ገጽ አስቀምጠው።"
+      ],
+      "roman": [
+        "Yemechereshawin ankets aswegdew, yilik lebichaw belela gets askemtew."
+      ]
+    },
+    {
+      "id": "am-s060",
+      "kind": "sentence",
+      "native": [
+        "አብረን ቁጭ ብለን ስናወራ በጣም ደስ ይለኛል።"
+      ],
+      "roman": [
+        "Abren kuch bilen sinawera betam des yilegnal."
+      ]
+    },
+    {
+      "id": "am-s061",
+      "kind": "sentence",
+      "native": [
+        "ባትሪዬ ሊያልቅ ስለሆነ ለጥቂት ጊዜ ስልኬን እዘጋዋለሁ።"
+      ],
+      "roman": [
+        "Batiriye liyalk silehone letikit gize silken ezegawalehu."
+      ]
+    },
+    {
+      "id": "am-s062",
+      "kind": "sentence",
+      "native": [
+        "ማሽኑ ሲሠራ ያልተለመደ ድምፅ ያሰማል። መጥተው ሊፈትሹት ይችላሉ?"
+      ],
+      "roman": [
+        "Mashinu sisera yaltelemede dimts yasemal. Metitew lifetishut yichilalu?"
+      ]
+    },
+    {
+      "id": "am-s063",
+      "kind": "sentence",
+      "native": [
+        "ልጄ 7 ዓመት ሞላው።"
+      ],
+      "roman": [
+        "Lije 7 amet molaw."
+      ]
+    },
+    {
+      "id": "am-s064",
+      "kind": "sentence",
+      "native": [
+        "እንቁላል እንድገዛ አስታውሰኝ።"
+      ],
+      "roman": [
+        "Enkulal endigeza astawsegn."
+      ]
+    },
+    {
+      "id": "am-s065",
+      "kind": "sentence",
+      "native": [
+        "ስክሪኑን ሳልነካ ስልኩን በድምፅ መቆጣጠር እንዴት እችላለሁ?"
+      ],
+      "roman": [
+        "Screenun salneka silkun bedimts mekotater endet echilalehu?"
+      ]
+    },
+    {
+      "id": "am-s066",
+      "kind": "sentence",
+      "native": [
+        "ሶስና ብርሃኑ የስብሰባውን ማስታወሻ ዋትስአፕ ላይ ልካልናለች።"
+      ],
+      "roman": [
+        "Sosna Birhanu yesibsebawn mastawesha WhatsApp lay likalnalech."
+      ]
+    },
+    {
+      "id": "am-s067",
+      "kind": "sentence",
+      "native": [
+        "አቶ ግርማ በእረፍት ላይ ስለሆኑ በምትካቸው እኔን ያነጋግሩኝ።"
+      ],
+      "roman": [
+        "Ato Girma beereft lay silehonu bemitkachew enen yanegagrugn."
+      ]
+    },
+    {
+      "id": "am-s068",
+      "kind": "sentence",
+      "native": [
+        "መቀሱን ማን ወሰደው?"
+      ],
+      "roman": [
+        "Mekesun man wesedew?"
+      ]
+    },
+    {
+      "id": "am-s069",
+      "kind": "sentence",
+      "native": [
+        "በሳሪስ አውርዱኝ። አይ፣ ቀጥሎ ያለው ማቆሚያ ይሻለኛል።"
+      ],
+      "roman": [
+        "Besaris awridugn. Ay, ketlo yalew makomiya yishalegnal."
+      ]
+    },
+    {
+      "id": "am-s070",
+      "kind": "sentence",
+      "native": [
+        "ልፋትህ በከንቱ አልቀረም።"
+      ],
+      "roman": [
+        "Lifatih bekentu alkerem."
+      ]
+    },
+    {
+      "id": "am-s071",
+      "kind": "sentence",
+      "native": [
+        "ቁልፉን እኔ ይዤዋለሁ።"
+      ],
+      "roman": [
+        "Kulfun ene yizhewalehu."
+      ]
+    },
+    {
+      "id": "am-s072",
+      "kind": "sentence",
+      "native": [
+        "መልካም የሥራ ሳምንት ይሁንልዎ።"
+      ],
+      "roman": [
+        "Melkam yesira samint yihunliwo."
+      ]
+    },
+    {
+      "id": "am-s073",
+      "kind": "sentence",
+      "native": [
+        "ጨዋታው 2 ለ2 ተጠናቀቀ።"
+      ],
+      "roman": [
+        "Chewataw 2 le2 tetenakeke."
+      ]
+    },
+    {
+      "id": "am-s074",
+      "kind": "sentence",
+      "native": [
+        "ያረጁትን ጋዜጦች ካወጣሁ በኋላ የጠረጴዛውን መሳቢያ ላስተካክል።"
+      ],
+      "roman": [
+        "Yarejutin gazetoch kawetahu behuala yeterepezawun mesabiya lastekakil."
+      ]
+    },
+    {
+      "id": "am-s075",
+      "kind": "sentence",
+      "native": [
+        "ድሬዳዋ ውስጥ ለልጆች የዋና ትምህርት የት ይሰጣል?"
+      ],
+      "roman": [
+        "Diredawa wist lelijoch yewana timhirt yet yisetal?"
+      ]
+    },
+    {
+      "id": "am-s076",
+      "kind": "sentence",
+      "native": [
+        "ማውሱ ጨርሶ አይሠራም።"
+      ],
+      "roman": [
+        "Mouseu cherso ayseram."
+      ]
+    },
+    {
+      "id": "am-s077",
+      "kind": "sentence",
+      "native": [
+        "አውቶቡሱ ሙሉ ሆኗል።"
+      ],
+      "roman": [
+        "Awtobusu mulu honual."
+      ]
+    },
+    {
+      "id": "am-s078",
+      "kind": "sentence",
+      "native": [
+        "ቀጠሮዬን ለማስቀደም ደውዬ ነበር፣ ከምሳ በፊት ክፍት ናችሁ?"
+      ],
+      "roman": [
+        "Keteroyen lemaskedem dewye neber, kemisa befit kifit nachihu?"
+      ]
+    },
+    {
+      "id": "am-s079",
+      "kind": "sentence",
+      "native": [
+        "ብዕር፣ እርሳስና ማጥፊያ ይዘሃል፣ መስመሪያስ አያስፈልግህም?"
+      ],
+      "roman": [
+        "Birr, ersasna matfiya yizehal, mesmeriyas ayasfelgihim?"
+      ]
+    },
+    {
+      "id": "am-s080",
+      "kind": "sentence",
+      "native": [
+        "አስቴር፣ አለባበስሽ ያምራል።"
+      ],
+      "roman": [
+        "Aster, alebabesish yamral."
+      ]
+    },
+    {
+      "id": "am-s081",
+      "kind": "sentence",
+      "native": [
+        "እማዬ፣ የላክሽልኝ ዳቦ በጣም ጣፋጭ ነበር፣ እዚህ ያሉት ልጆች ሁሉ እያመሰገኑሽ ናቸው።"
+      ],
+      "roman": [
+        "Emaye, yelakshilign dabo betam tafach neber, ezih yalut lijoch hulu eyamesegenush nachew."
+      ]
+    },
+    {
+      "id": "am-s082",
+      "kind": "sentence",
+      "native": [
+        "ከአዳማ ቅርንጫፍ የጠየቅነው የዕቃ ቆጠራ ሪፖርት ገና አልደረሰም።"
+      ],
+      "roman": [
+        "Keadama kirinchaf yeteyeknew yeeka kotera report gena alderesem."
+      ]
+    },
+    {
+      "id": "am-s083",
+      "kind": "sentence",
+      "native": [
+        "በፈተናው ከ50 47 አግኝቻለሁ።"
+      ],
+      "roman": [
+        "Befetenaw ke50 47 agegnchalehu."
+      ]
+    },
+    {
+      "id": "am-s084",
+      "kind": "sentence",
+      "native": [
+        "ከአትክልት መደብሩ ጎመንና ካሮት መግዛት አለብኝ።"
+      ],
+      "roman": [
+        "Keatikilt medebru gomenna karot megzat alebign."
+      ]
+    },
+    {
+      "id": "am-s085",
+      "kind": "sentence",
+      "native": [
+        "ሳምንታዊ የኢንተርኔት ጥቅል ለመግዛት ምን ማድረግ አለብኝ?"
+      ],
+      "roman": [
+        "Samintawi yeinternet tikil lemegzat min madreg alebign?"
+      ]
+    },
+    {
+      "id": "am-s086",
+      "kind": "sentence",
+      "native": [
+        "አካውንቴ ለምን ተዘጋ?"
+      ],
+      "roman": [
+        "Accounte lemin tezega?"
+      ]
+    },
+    {
+      "id": "am-s087",
+      "kind": "sentence",
+      "native": [
+        "መውጫው በስተግራ በኩል ነው።"
+      ],
+      "roman": [
+        "Mewchaw bestegira bekul new."
+      ]
+    },
+    {
+      "id": "am-s088",
+      "kind": "sentence",
+      "native": [
+        "እህቴ ከወለደች ወዲህ አላየኋትም፣ ይህን ለሕፃኑ የገዛሁትን ልብስ ይዤ ልጠይቃት ልሄድ ነው።"
+      ],
+      "roman": [
+        "Ehte keweledech wedih alayehwatim, yihin lehitsanu yegezahutin libis yizhe liteyikat lihed new."
+      ]
+    },
+    {
+      "id": "am-s089",
+      "kind": "sentence",
+      "native": [
+        "ቆይ፣ ማንን ነው የጠየቅከው?"
+      ],
+      "roman": [
+        "Koy, manin new yeteyekew?"
+      ]
+    },
+    {
+      "id": "am-s090",
+      "kind": "sentence",
+      "native": [
+        "በደሴ ያሳለፍነው እረፍት አጭር ቢሆንም ጥሩ ትዝታ ትቶልኛል።"
+      ],
+      "roman": [
+        "Bedese yasalefnew ereft achir bihonim tiru tizita titolignal."
+      ]
+    },
+    {
+      "id": "am-s091",
+      "kind": "sentence",
+      "native": [
+        "ይህ ሰዓት ይመቸኛል።"
+      ],
+      "roman": [
+        "Yih seat yimechegnal."
+      ]
+    },
+    {
+      "id": "am-s092",
+      "kind": "sentence",
+      "native": [
+        "እሺ፣ በዚሁ ቀጥሉበት።"
+      ],
+      "roman": [
+        "Eshi, bezihu ketilubet."
+      ]
+    },
+    {
+      "id": "am-s093",
+      "kind": "sentence",
+      "native": [
+        "ሱሪው ላይ 25% ቅናሽ ካለ ሁለት እወስዳለሁ።"
+      ],
+      "roman": [
+        "Suriw lay 25% kinash kale hulet ewesdalehu."
+      ]
+    },
+    {
+      "id": "am-s094",
+      "kind": "sentence",
+      "native": [
+        "ለወላጆች ስብሰባ ስሄድ የልጄን የሂሳብ ደብተር እይዛለሁ። ስለከበዱት ልምምዶች አስተማሪዋን እጠይቃታለሁ።"
+      ],
+      "roman": [
+        "Lewelajoch sibseba sihed yelijen yehisab debter eyizalehu. Silekebedut limimdoch astemariwan eteyikatalehu."
+      ]
+    },
+    {
+      "id": "am-s095",
+      "kind": "sentence",
+      "native": [
+        "ለሜሳ ሙሉጌታ ጋር ደውል።"
+      ],
+      "roman": [
+        "Lemesa Mulugeta gar dewil."
+      ]
+    },
+    {
+      "id": "am-s096",
+      "kind": "sentence",
+      "native": [
+        "ሩት፣ የሽያጭ ሶፍትዌሩ ያለ ኢንተርኔት ግንኙነት ይሠራል?"
+      ],
+      "roman": [
+        "Ruth, yeshiyach softwareu yale internet gignunet yiseral?"
+      ]
+    },
+    {
+      "id": "am-s097",
+      "kind": "sentence",
+      "native": [
+        "የባቡር ትኬቱን ከጉዞው በፊት መግዛት ይሻላል ብለውኛል።"
+      ],
+      "roman": [
+        "Yebabur tiketun keguzow befit megzat yishalal bilewgnal."
+      ]
+    },
+    {
+      "id": "am-s098",
+      "kind": "sentence",
+      "native": [
+        "የድንቹን ዋጋ ትንሽ ቀንሱልኝ፣ በ90 ብር ይስጡኝ።"
+      ],
+      "roman": [
+        "Yedinchun waga tinish kensulign, be90 birr yistugn."
+      ]
+    },
+    {
+      "id": "am-s099",
+      "kind": "sentence",
+      "native": [
+        "አርባ ምንጭ ደረሳችሁ እንዴ?"
+      ],
+      "roman": [
+        "Arba Minch deresachihu ende?"
+      ]
+    },
+    {
+      "id": "am-s100",
+      "kind": "sentence",
+      "native": [
+        "ፎቶው በጣም አስቆኛል።"
+      ],
+      "roman": [
+        "Photow betam askognal."
+      ]
+    },
+    {
+      "id": "am-s101",
+      "kind": "sentence",
+      "native": [
+        "ማስታወቂያው ላይ ያለውን የድርጅታችንን አርማ ትንሽ አሳድጊው።"
+      ],
+      "roman": [
+        "Mastawekiyaw lay yalewin yedirjitachinin arma tinish asadgiw."
+      ]
+    },
+    {
+      "id": "am-s102",
+      "kind": "sentence",
+      "native": [
+        "የ32 ጊጋ ፍላሽ አለ?"
+      ],
+      "roman": [
+        "Ye32 giga flash ale?"
+      ]
+    },
+    {
+      "id": "am-s103",
+      "kind": "sentence",
+      "native": [
+        "ምሽት የኦንላይን ትምህርቴ ከመጀመሩ በፊት አዲሱን የጆሮ ማዳመጫዬን ሞክሬ ድምፁን ማስተካከል አለብኝ።"
+      ],
+      "roman": [
+        "Mishet yeonline timhirte kemejemeru befit adisun yejoro madamechayen mokre dimtsun mastekakel alebign."
+      ]
+    },
+    {
+      "id": "am-s104",
+      "kind": "sentence",
+      "native": [
+        "በባሕር ዳር ነገ የአየር ሁኔታው እንዴት ይሆናል?"
+      ],
+      "roman": [
+        "Bebahir Dar nege yeayer hunetaw endet yihonal?"
+      ]
+    },
+    {
+      "id": "am-s105",
+      "kind": "sentence",
+      "native": [
+        "ኤክሴል ሰንጠረዥ ውስጥ ያለው ድምር ትክክል አይመስለኝም።"
+      ],
+      "roman": [
+        "Excel senterezh wist yalew dimir tikikil ayimeslegnim."
+      ]
+    },
+    {
+      "id": "am-s106",
+      "kind": "sentence",
+      "native": [
+        "ለመጀመሪያ ጊዜ ወደ ጅማ ስለምሄድ ለማደር የሚመች ሆቴል ካወቃችሁ ስሙን ንገሩኝ።"
+      ],
+      "roman": [
+        "Lemejemeriya gize wede Jimma silemhed lemader yemimech hotel kawekachu simun nigerugn."
+      ]
+    },
+    {
+      "id": "am-s107",
+      "kind": "sentence",
+      "native": [
+        "ወለሉን አሁን ነው ያጠብኩት፣ ጫማችሁን አውልቁና እስኪደርቅ ድረስ በሌላው ክፍል ቆዩልኝ።"
+      ],
+      "roman": [
+        "Welelun ahun new yatebikut, chamachihun awlikuna eskiderk dires belelaw kifil koyulign."
+      ]
+    },
+    {
+      "id": "am-s108",
+      "kind": "sentence",
+      "native": [
+        "ዋናውን መግቢያ ዝጋው፣ ተወው፣ የሚገባ ሰው አለ።"
+      ],
+      "roman": [
+        "Wanawin megbiya zigaw, tewew, yemigeba sew ale."
+      ]
+    },
+    {
+      "id": "am-s109",
+      "kind": "sentence",
+      "native": [
+        "እባክህ ስትወጣ የውጭውን መብራት ሳታጠፋ እንዳትሄድ።"
+      ],
+      "roman": [
+        "Ebakih sitweta yewichiwun mebrat satatefa endathed."
+      ]
+    },
+    {
+      "id": "am-s110",
+      "kind": "sentence",
+      "native": [
+        "ፋይሉን መክፈት አልቻልኩም።"
+      ],
+      "roman": [
+        "Fileun mekfet alchalkum."
+      ]
+    },
+    {
+      "id": "am-s111",
+      "kind": "sentence",
+      "native": [
+        "ናርዶስ፣ ለአዳራሹ 60 ወንበሮችና 8 ጠረጴዛዎች ጠይቄያለሁ፣ እስከ ጠዋት 5 ሰዓት ያመጧቸዋል።"
+      ],
+      "roman": [
+        "Nardos, leadarashu 60 wenberochina 8 terepezawoch teyikeyalehu, eske tewat 5 seat yametwachewal."
+      ]
+    },
+    {
+      "id": "am-s112",
+      "kind": "sentence",
+      "native": [
+        "ለሻይ ቀረፋ ያስፈልገኛል።"
+      ],
+      "roman": [
+        "Leshay kerefa yasfelgegnal."
+      ]
+    },
+    {
+      "id": "am-s113",
+      "kind": "sentence",
+      "native": [
+        "በኪሎሜትር ሲሰላ 14 ማይል ስንት ይሆናል?"
+      ],
+      "roman": [
+        "Bekilometer sisela 14 mile sint yihonal?"
+      ]
+    },
+    {
+      "id": "am-s114",
+      "kind": "sentence",
+      "native": [
+        "መፈለጊያው ላይ በአማርኛ ስጽፍ ውጤት አያመጣም፣ በእንግሊዝኛ ስሞክር ግን የፈለግኩትን ወዲያው አገኛለሁ።"
+      ],
+      "roman": [
+        "Mefelegiyaw lay beamarigna sitsif witet ayametam, beenglizigna simokir gin yefelegkutin wediyaw agegnalehu."
+      ]
+    },
+    {
+      "id": "am-s115",
+      "kind": "sentence",
+      "native": [
+        "አያቴን ከአውሮፕላን ማረፊያ ልንቀበል ስንሄድ መኪናው ውስጥ ለሻንጣዋ የሚሆን በቂ ቦታ እንተው።"
+      ],
+      "roman": [
+        "Ayaten keawroplan marefiya linkebel sinhed mekinaw wist leshantawa yemihon beki bota entew."
+      ]
+    },
+    {
+      "id": "am-s116",
+      "kind": "sentence",
+      "native": [
+        "ጥብሱን በደንብ አብስሉት።"
+      ],
+      "roman": [
+        "Tibsun bedenb abislut."
+      ]
+    },
+    {
+      "id": "am-s117",
+      "kind": "sentence",
+      "native": [
+        "ማንጎ፣ ፓፓያና ሙዝ አለ?"
+      ],
+      "roman": [
+        "Mango, papayana muz ale?"
+      ]
+    },
+    {
+      "id": "am-s118",
+      "kind": "sentence",
+      "native": [
+        "ናፍቀሽኛል፣ መቼ እንገናኝ?"
+      ],
+      "roman": [
+        "Nafkeshignal, meche enegenagn?"
+      ]
+    },
+    {
+      "id": "am-s119",
+      "kind": "sentence",
+      "native": [
+        "ለፈጣኑ ምላሽዎ አመሰግናለሁ።"
+      ],
+      "roman": [
+        "Lefetanu milashiwo ameseginalehu."
+      ]
+    },
+    {
+      "id": "am-s120",
+      "kind": "sentence",
+      "native": [
+        "በየ5 ኪሎሜትሩ ለ2 ደቂቃ እያረፍን እንቀጥል።"
+      ],
+      "roman": [
+        "Beye5 kilometru le2 dekika eyarefin enketil."
+      ]
+    },
+    {
+      "id": "am-s121",
+      "kind": "sentence",
+      "native": [
+        "ጫማዬን ለጥገና ልውሰድ።"
+      ],
+      "roman": [
+        "Chamayen letigena liwsed."
+      ]
+    },
+    {
+      "id": "am-s122",
+      "kind": "sentence",
+      "native": [
+        "ወደ ብሔራዊ ሙዚየም የሚወስደውን መንገድ በካርታ አሳየኝ።"
+      ],
+      "roman": [
+        "Wede Biherawi Muziyem yemiwesdewn menged bekarta asayegn."
+      ]
+    },
+    {
+      "id": "am-s123",
+      "kind": "sentence",
+      "native": [
+        "ለአዲሱ ኪቦርድ 1800 ብር ከፍዬ ደረሰኝ ወስጃለሁ።"
+      ],
+      "roman": [
+        "Leadisu keyboard 1800 birr kefye deresegn wesjalehu."
+      ]
+    },
+    {
+      "id": "am-s124",
+      "kind": "sentence",
+      "native": [
+        "ጫልቱ ሱቋን ከፍታለች?"
+      ],
+      "roman": [
+        "Chaltu sukuan keftalech?"
+      ]
+    },
+    {
+      "id": "am-s125",
+      "kind": "sentence",
+      "native": [
+        "ለእንቁጣጣሽ አዲስ ቀሚስ ማሰፋት እፈልጋለሁ፣ መቼ ይደርስልኛል?"
+      ],
+      "roman": [
+        "Lenkutatash addis kemis masefat efelgalehu, meche yidersilignal?"
+      ]
+    },
+    {
+      "id": "am-s126",
+      "kind": "sentence",
+      "native": [
+        "ቀዝቃዛ ነው፣ ወይስ ሞቅ ያለ?"
+      ],
+      "roman": [
+        "Kezkaza new, weyis mok yale?"
+      ]
+    },
+    {
+      "id": "am-s127",
+      "kind": "sentence",
+      "native": [
+        "ቦንቱ የልደት ስጦታዋን እንዳታይ ቦርሳውን ጓዳ ውስጥ ደብቂው።"
+      ],
+      "roman": [
+        "Bontu yelidet sitotawan endatay borsawn guada wist debkiw."
+      ]
+    },
+    {
+      "id": "am-s128",
+      "kind": "sentence",
+      "native": [
+        "ፕሪንተሩ ተስተካክሏል፣ ሰነዶቻችሁን አሁን ማተም ትችላላችሁ።"
+      ],
+      "roman": [
+        "Printeru testekaklual, senedochachihun ahun matem tichilalachihu."
+      ]
+    },
+    {
+      "id": "am-s129",
+      "kind": "sentence",
+      "native": [
+        "የውድድሩ ምዝገባ ጥር 9 ቀን 2019 ይዘጋል።"
+      ],
+      "roman": [
+        "Yewididiru mizgeba Tir 9 ken 2019 yizegal."
+      ]
+    },
+    {
+      "id": "am-s130",
+      "kind": "sentence",
+      "native": [
+        "ፒያሳ ስሄድ የእጅ ሰዓቴን ባትሪ ላስቀይር።"
+      ],
+      "roman": [
+        "Piassa sihed yeij seaten battery laskeyir."
+      ]
+    },
+    {
+      "id": "am-s131",
+      "kind": "sentence",
+      "native": [
+        "ሁለት ክፍልፋዮችን ለመደመር መጀመሪያ ምን ማድረግ እንዳለብኝ ቀላል ምሳሌ እየሰጠህ አስረዳኝ።"
+      ],
+      "roman": [
+        "Hulet kifilfayochin lemedemer mejemeriya min madreg endalebign kelal misale eyeseteh asredagn."
+      ]
+    },
+    {
+      "id": "am-s132",
+      "kind": "sentence",
+      "native": [
+        "ኢንተርኔቱ ሲዘገይ ቪዲዮውን ዝጋና በድምፅ ብቻ ተከታተል፣ እኛ የምናሳየውን በኋላ እንልክልሃለን።"
+      ],
+      "roman": [
+        "Internetu sizegey videown zigana bedimts bicha teketatel, egna yeminasayewn behuala enlikilihalen."
+      ]
+    },
+    {
+      "id": "am-s133",
+      "kind": "sentence",
+      "native": [
+        "ሹፌሩ ከፊት ያለው መንገድ ለጥገና ተዘግቷል አለን።"
+      ],
+      "roman": [
+        "Shuferu kefit yalew menged letigena tezegtual alen."
+      ]
+    },
+    {
+      "id": "am-s134",
+      "kind": "sentence",
+      "native": [
+        "የገዛኸው ድስት ክዳኑ በደንብ አይገጥምም፣ ደረሰኙን ይዘን ወደ ሱቁ ብንመለስ ይቀይሩልን ይሆን?"
+      ],
+      "roman": [
+        "Yegezahew dist kidanu bedenb aygetmim, deresegnun yizen wede suku binmeles yikeyirulin yihon?"
+      ]
+    },
+    {
+      "id": "am-s135",
+      "kind": "sentence",
+      "native": [
+        "ክፍያው 350 ብር ነው፣ እንዴ፣ መላኪያውም ውስጡ ነው?"
+      ],
+      "roman": [
+        "Kifyaw 350 birr new, ende, melakiyawm wistu new?"
+      ]
+    },
+    {
+      "id": "am-s136",
+      "kind": "sentence",
+      "native": [
+        "ዝናቡ እስኪቆም እዚሁ እንቆይ፣ ምን ያስቸኩለናል?"
+      ],
+      "roman": [
+        "Zinabu eskikom ezihu enkoy, min yaschekulenal?"
+      ]
+    },
+    {
+      "id": "am-s137",
+      "kind": "sentence",
+      "native": [
+        "ወይንሸት፣ ለሥልጠናው የሚያስፈልጉትን ማስታወሻ ደብተሮች አዝዣለሁ፣ እስከ ዓርብ ድረስ ይደርሳሉ ብለውኛል።"
+      ],
+      "roman": [
+        "Weynshet, lesiltenaw yemiyasfelgutin mastawesha debteroch azizhalehu, eske Arb dires yidersalu bilewgnal."
+      ]
+    },
+    {
+      "id": "am-s138",
+      "kind": "sentence",
+      "native": [
+        "ደመወዜ በ1500 ብር ጨምሯል።"
+      ],
+      "roman": [
+        "Demeweze be1500 birr chemrwal."
+      ]
+    },
+    {
+      "id": "am-s139",
+      "kind": "sentence",
+      "native": [
+        "የመብራት ሂሳቡን ለመክፈል 600 ብር ለብቻ ላስቀምጥ።"
+      ],
+      "roman": [
+        "Yemebrat hisabun lemekfel 600 birr lebicha laskemit."
+      ]
+    },
+    {
+      "id": "am-s140",
+      "kind": "sentence",
+      "native": [
+        "ብሉቱዝ አብራልኝ እስቲ።"
+      ],
+      "roman": [
+        "Bluetooth abralign esti."
+      ]
+    },
+    {
+      "id": "am-s141",
+      "kind": "sentence",
+      "native": [
+        "ሄለን፣ ማይክሽ ክፍት ነው።"
+      ],
+      "roman": [
+        "Helen, micsh kift new."
+      ]
+    },
+    {
+      "id": "am-s142",
+      "kind": "sentence",
+      "native": [
+        "በሜክሲኮ ያለው የታክሲ መያዣ ወደ የት ተዛወረ?"
+      ],
+      "roman": [
+        "Bemeksiko yalew yetaksi meyazha wede yet tezawere?"
+      ]
+    },
+    {
+      "id": "am-s143",
+      "kind": "sentence",
+      "native": [
+        "ቲማቲሙን ከመክተፍሽ በፊት ለስላሳዎቹን ለይተሽ አስቀምጪልኝ።"
+      ],
+      "roman": [
+        "Timatimun kemektefish befit leslasawochun leyitesh askemchilign."
+      ]
+    },
+    {
+      "id": "am-s144",
+      "kind": "sentence",
+      "native": [
+        "መጋረጃውን ልለካ ነበር፣ ግን ሜትሩ የት እንዳለ ታውቃለህ፣ ወይስ ትናንት ለጎረቤቱ ሰጥተኸዋል?"
+      ],
+      "roman": [
+        "Megarejawin lileka neber, gin metru yet endale tawkaleh, weyis tinant legorebetu setehewal?"
+      ]
+    },
+    {
+      "id": "am-s145",
+      "kind": "sentence",
+      "native": [
+        "ቅዳሜ ወደ እንጦጦ ለመሄድ አስበናል፣ እናንተም ከተመቻችሁ አብረን እንሂድና ትንሽ እንናፈስ።"
+      ],
+      "roman": [
+        "Kidame wede Entoto lemehed asbenal, enantem ketemechachihu abren enhidna tinish ennafes."
+      ]
+    },
+    {
+      "id": "am-s146",
+      "kind": "sentence",
+      "native": [
+        "ሰላም፣ እንዴት ነዎት?"
+      ],
+      "roman": [
+        "Selam, endet newot?"
+      ]
+    },
+    {
+      "id": "am-s147",
+      "kind": "sentence",
+      "native": [
+        "ያለሁት ክፍል ቁጥር 208 ነው።"
+      ],
+      "roman": [
+        "Yalehut kifil kutir 208 new."
+      ]
+    },
+    {
+      "id": "am-s148",
+      "kind": "sentence",
+      "native": [
+        "የጊታር ልምምዴ ረቡዕ ነው።"
+      ],
+      "roman": [
+        "Yeguitar limimde rebu new."
+      ]
+    },
+    {
+      "id": "am-s149",
+      "kind": "sentence",
+      "native": [
+        "አቮካዶ መብሰሉን ሳልቆርጠው እንዴት ማወቅ እችላለሁ?"
+      ],
+      "roman": [
+        "Avokado mebselun salkortew endet mawek echilalehu?"
+      ]
+    },
+    {
+      "id": "am-s150",
+      "kind": "sentence",
+      "native": [
+        "በካዛንቺስ ቢሮ ያለው ራውተር በየጊዜው እየጠፋ ነው።"
+      ],
+      "roman": [
+        "Bekazanchis biro yalew router beyegizew eyetefa new."
+      ]
+    },
+    {
+      "id": "am-s151",
+      "kind": "sentence",
+      "native": [
+        "ሻንጣሽ ውስጥ የእኔ ሹራብ በስህተት ገብቶ ይሆን?"
+      ],
+      "roman": [
+        "Shantash wist yeene shurab besihitet gebto yihon?"
+      ]
+    },
+    {
+      "id": "am-s152",
+      "kind": "sentence",
+      "native": [
+        "የገጽ 42 ልምምድ አልገባኝም።"
+      ],
+      "roman": [
+        "Yegets 42 limimid algebagnim."
+      ]
+    },
+    {
+      "id": "am-s153",
+      "kind": "sentence",
+      "native": [
+        "መልዕክትሽን አሁን አየሁት።"
+      ],
+      "roman": [
+        "Melektishin ahun ayehut."
+      ]
+    },
+    {
+      "id": "am-s154",
+      "kind": "sentence",
+      "native": [
+        "ለ2 ቀናት ብስክሌቱን በ700 ብር ተከራየሁት።"
+      ],
+      "roman": [
+        "Le2 kenat bisikletun be700 birr tekerayehut."
+      ]
+    },
+    {
+      "id": "am-s155",
+      "kind": "sentence",
+      "native": [
+        "ሊያ፣ የፊልሙን ትኬት ለሁለታችንም ቆርጬያለሁ፣ አንቺ ብቻ አትዘግዪ።"
+      ],
+      "roman": [
+        "Liya, yefilmun tiket lehuletachinim korcheyalehu, anchi bicha atizegiyi."
+      ]
+    },
+    {
+      "id": "am-s156",
+      "kind": "sentence",
+      "native": [
+        "አድራሻችን ለቡ፣ የቤት ቁጥር 73 ነው፣ ከዋናው መንገድ 200 ሜትር ወደ ውስጥ ግቡ።"
+      ],
+      "roman": [
+        "Adrashachin Lebu, yebet kutir 73 new, kewanaw menged 200 metr wede wist gibu."
+      ]
+    },
+    {
+      "id": "am-s157",
+      "kind": "sentence",
+      "native": [
+        "አባዬ፣ ልጆቹ የላክክላቸውን መጫወቻ ከጠዋቱ ጀምሮ አልለቀቁትም።"
+      ],
+      "roman": [
+        "Abaye, lijochu yelakiklachewin mechawecha ketewatu jemro allekekutim."
+      ]
+    },
+    {
+      "id": "am-s158",
+      "kind": "sentence",
+      "native": [
+        "ሐሙስ ጠዋት 4 ሰዓት ከ20 ደቂቃ ፀጉሬን ላስተካክል ቀጠሮ ይዣለሁ።"
+      ],
+      "roman": [
+        "Hamus tewat 4 seat ke20 dekika tseguren lastekakil ketero yizhalehu."
+      ]
+    },
+    {
+      "id": "am-s159",
+      "kind": "sentence",
+      "native": [
+        "ሽሮው ካልተበላ ለእኔ አቆዩልኝ፣ እየመጣሁ ነው።"
+      ],
+      "roman": [
+        "Shirow kaltebela leene akoyulign, eyemetahu new."
+      ]
+    },
+    {
+      "id": "am-s160",
+      "kind": "sentence",
+      "native": [
+        "ወረቀቱን በ500 በ500 ሳይሆን በ100 በ100 አሽጉልኝ።"
+      ],
+      "roman": [
+        "Wereketun be500 be500 sayhon be100 be100 ashigulign."
+      ]
+    },
+    {
+      "id": "am-s161",
+      "kind": "sentence",
+      "native": [
+        "ቤት ደረስኩ፣ አትጨነቂ።"
+      ],
+      "roman": [
+        "Bet deresku, atcheneki."
+      ]
+    },
+    {
+      "id": "am-s162",
+      "kind": "sentence",
+      "native": [
+        "ውሃው ከጠዋቱ 2 ሰዓት ጀምሮ ጠፍቷል፣ እስከ ማታ 12 ሰዓት ይመጣ ይሆን?"
+      ],
+      "roman": [
+        "Wuhaw ketewatu 2 seat jemro teftwal, eske mata 12 seat yimeta yihon?"
+      ]
+    },
+    {
+      "id": "am-s163",
+      "kind": "sentence",
+      "native": [
+        "ስልኬ 0900000000 ነው፣ እስቲ ቁጥሩን አንድ በአንድ አንብበሽ በትክክል መጻፉን እናረጋግጥ።"
+      ],
+      "roman": [
+        "Silke 0900000000 new, esti kutirun and beand anbibesh betikikil metsafun enaregagit."
+      ]
+    },
+    {
+      "id": "am-s164",
+      "kind": "sentence",
+      "native": [
+        "ታህሳስ 18 ቀን 2018 የመንጃ ፈቃዴን አድሳለሁ።"
+      ],
+      "roman": [
+        "Tahsas 18 ken 2018 yemenja fekaden adsalehu."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1921 @@
+{
+  "lang": "mk",
+  "starter": [
+    "mk-s079",
+    "mk-s047",
+    "mk-s129",
+    "mk-s137",
+    "mk-s130",
+    "mk-s002",
+    "mk-s101",
+    "mk-s071",
+    "mk-s110",
+    "mk-s060",
+    "mk-s036",
+    "mk-s120",
+    "mk-s001",
+    "mk-s103",
+    "mk-s151",
+    "mk-s093",
+    "mk-s022",
+    "mk-s025",
+    "mk-s105",
+    "mk-p07",
+    "mk-s070",
+    "mk-s044",
+    "mk-s027",
+    "mk-s061",
+    "mk-s088",
+    "mk-s091",
+    "mk-s075",
+    "mk-s068",
+    "mk-s085",
+    "mk-s125",
+    "mk-s059",
+    "mk-s072",
+    "mk-s058",
+    "mk-s109",
+    "mk-s048",
+    "mk-s039",
+    "mk-s037",
+    "mk-s055",
+    "mk-p03",
+    "mk-s082",
+    "mk-s132",
+    "mk-s086",
+    "mk-s014",
+    "mk-s049",
+    "mk-s096",
+    "mk-s038",
+    "mk-s016",
+    "mk-s018",
+    "mk-s138",
+    "mk-s029",
+    "mk-s056",
+    "mk-s081",
+    "mk-s010",
+    "mk-s012",
+    "mk-s067",
+    "mk-s152",
+    "mk-s087",
+    "mk-s162"
+  ],
+  "items": [
+    {
+      "id": "mk-p01",
+      "kind": "para",
+      "title": "Weekend Plans Keep Changing",
+      "native": [
+        "Бојана, за сабота прво се договоривме да одиме на Матка.",
+        "Сега Љупчо вели дека ќе врне, па предлага да останеме во Скопје.",
+        "И Ана ни пиша дека може да дојде дури по ручек.",
+        "Затоа мислев прво да јадеме нешто во Дебар Маало, без брзање.",
+        "Ако се разведри, можеме да прошетаме покрај Вардар пред да се стемни.",
+        "За недела пак се зборува за Велес, ама ништо не е сигурно.",
+        "Татко ми сака да дојде, само уште го чека распоредот за работа.",
+        "Немој уште да купуваш билети, може пак да ги смениме плановите.",
+        "Ќе ти пишам вечерва, штом конечно се договориме кој кога е слободен."
+      ],
+      "roman": [
+        "Bojana, za sabota prvo se dogovorivme da odime na Matka.",
+        "Sega Ljupcho veli deka kje vrne, pa predlaga da ostaneme vo Skopje.",
+        "I Ana ni pisha deka mozhe da dojde duri po ruchek.",
+        "Zatoa mislev prvo da jademe neshto vo Debar Maalo, bez brzanje.",
+        "Ako se razvedri, mozheme da proshetame pokraj Vardar pred da se stemni.",
+        "Za nedela pak se zboruva za Veles, ama nishto ne e sigurno.",
+        "Tatko mi saka da dojde, samo ushte go cheka rasporedot za rabota.",
+        "Nemoj ushte da kupuvash bileti, mozhe pak da gi smenime planovite.",
+        "Kje ti pisham vecherva, shtom konechno se dogovorime koj koga e sloboden."
+      ]
+    },
+    {
+      "id": "mk-p02",
+      "kind": "para",
+      "title": "Feedback on Pickup Scheduling",
+      "native": [
+        "Марија, ги собрав коментарите за изборот на термин за подигање нарачки.",
+        "Опцијата ја испробаа 12 купувачи од нашата продавница во Битола.",
+        "На повеќето им се допаѓа што веднаш ги гледаат слободните термини.",
+        "Сепак, тројца не забележале дека прво треба да изберат датум.",
+        "Една корисничка побара поголеми букви, бидејќи најчесто нарачува преку телефон.",
+        "Предлагам полето за датум да го преместиме над списокот со термини.",
+        "Филип, те молам провери зошто потврдата понекогаш стигнува со задоцнување.",
+        "Измените би било добро да ги завршиме до четврток напладне.",
+        "Потоа повторно ќе ја провериме опцијата со колегите од продавницата."
+      ],
+      "roman": [
+        "Marija, gi sobrav komentarite za izborot na termin za podiganje narachki.",
+        "Opcijata ja isprobaa 12 kupuvachi od nashata prodavnica vo Bitola.",
+        "Na povekjeto im se dopagja shto vednash gi gledaat slobodnite termini.",
+        "Sepak, trojca ne zabelezhale deka prvo treba da izberat datum.",
+        "Edna korisnichka pobara pogolemi bukvi, bidejkji najchesto narachuva preku telefon.",
+        "Predlagam poleto za datum da go premestime nad spisokot so termini.",
+        "Filip, te molam proveri zoshto potvrdata ponekogash stignuva so zadocnuvanje.",
+        "Izmenite bi bilo dobro da gi zavrshime do chetvrtok napladne.",
+        "Potoa povtorno kje ja proverime opcijata so kolegite od prodavnicata."
+      ]
+    },
+    {
+      "id": "mk-p03",
+      "kind": "para",
+      "title": "Missing the Last Bus",
+      "native": [
+        "Минатата недела го пропуштив последниот автобус од Охрид за Струга.",
+        "Со Арта седнавме да јадеме палачинки и сосема заборавивме на времето.",
+        "Кога го погледнав телефонот, до поаѓањето остануваа само пет минути.",
+        "Го зедов ранецот и потрчав кон станицата со јакната во раце.",
+        "Стоев кај киоскот и мавтав, ама автобусот веќе заминуваше.",
+        "На станицата останавме само јас и еден човек со празна гајба.",
+        "За среќа, сестра ми таа вечер се враќаше од работа во Охрид.",
+        "Ме собра со колата, а јас ветив дека следниот пат ќе внимавам.",
+        "Сестра ми се смееше кога ѝ кажав како трчав по автобусот."
+      ],
+      "roman": [
+        "Minatata nedela go propushtiv posledniot avtobus od Ohrid za Struga.",
+        "So Arta sednavme da jademe palachinki i sosema zaboravivme na vremeto.",
+        "Koga go poglednav telefonot, do poagjanjeto ostanuvaa samo pet minuti.",
+        "Go zedov ranecot i potrchav kon stanicata so jaknata vo race.",
+        "Stoev kaj kioskot i mavtav, ama avtobusot vekje zaminuvashe.",
+        "Na stanicata ostanavme samo jas i eden chovek so prazna gajba.",
+        "Za srekja, sestra mi taa vecher se vrakjashe od rabota vo Ohrid.",
+        "Me sobra so kolata, a jas vetiv deka sledniot pat kje vnimavam.",
+        "Sestra mi se smeeshe koga i kazhav kako trchav po avtobusot."
+      ]
+    },
+    {
+      "id": "mk-p04",
+      "kind": "para",
+      "title": "Setting Up Mum's Phone",
+      "native": [
+        "Мамо, прво приклучи го новиот телефон на полначот до телевизорот.",
+        "Потоа држи го страничното копче додека не се појави логото.",
+        "Избери македонски јазик и поврзи го телефонот со домашниот интернет.",
+        "Лозинката за интернетот е запишана на ливчето залепено врз рутерот.",
+        "Најави се со истата сметка што ја користеше на стариот телефон.",
+        "Кога телефонот ќе понуди да ги префрли контактите, избери ја таа опција.",
+        "Потоа инсталирај Viber и внеси го својот телефонски број.",
+        "Во поставките зголеми ги буквите за полесно да читаш.",
+        "Во временската прогноза избери Прилеп, па јави ми се за проба."
+      ],
+      "roman": [
+        "Mamo, prvo prikluchi go noviot telefon na polnachot do televizorot.",
+        "Potoa drzhi go stranichnoto kopche dodeka ne se pojavi logoto.",
+        "Izberi makedonski jazik i povrzi go telefonot so domashniot internet.",
+        "Lozinkata za internetot e zapishana na livcheto zalepeno vrz ruterot.",
+        "Najavi se so istata smetka shto ja koristeshe na stariot telefon.",
+        "Koga telefonot kje ponudi da gi prefrli kontaktite, izberi ja taa opcija.",
+        "Potoa instaliraj Viber i vnesi go svojot telefonski broj.",
+        "Vo postavkite zgolemi gi bukvite za polesno da chitash.",
+        "Vo vremenskata prognoza izberi Prilep, pa javi mi se za proba."
+      ]
+    },
+    {
+      "id": "mk-p05",
+      "kind": "para",
+      "title": "Lunch in Bitola",
+      "native": [
+        "Вчера ручав во мала ќебапчилница близу Старата чаршија во Битола.",
+        "За 280 денари добив десет ќебапи, лепче и свеж кромид.",
+        "Месото беше сочно, а лепчето топло и малку крцкаво однадвор.",
+        "Ми се допадна што салатата ја сечат дури откако ќе нарачаш.",
+        "Сепак, масите беа премногу блиску, па едвај ја сместивме детската количка.",
+        "Келнерот веднаш ни помогна и најде место поблиску до вратата.",
+        "За време на ручекот имаше гужва, но не чекавме долго.",
+        "Би сакал да имаат и помала порција за деца во понудата.",
+        "Би дошол пак, најмногу поради храната и љубезниот однос кон гостите."
+      ],
+      "roman": [
+        "Vchera ruchav vo mala kjebapchilnica blizu Starata charshija vo Bitola.",
+        "Za 280 denari dobiv deset kjebapi, lepche i svezh kromid.",
+        "Mesoto beshe sochno, a lepcheto toplo i malku krckavo odnadvor.",
+        "Mi se dopadna shto salatata ja sechat duri otkako kje narachash.",
+        "Sepak, masite bea premnogu blisku, pa edvaj ja smestivme detskata kolichka.",
+        "Kelnerot vednash ni pomogna i najde mesto poblisku do vratata.",
+        "Za vreme na ruchekot imashe guzhva, no ne chekavme dolgo.",
+        "Bi sakal da imaat i pomala porcija za deca vo ponudata.",
+        "Bi doshol pak, najmnogu poradi hranata i ljubezniot odnos kon gostite."
+      ]
+    },
+    {
+      "id": "mk-p06",
+      "kind": "para",
+      "title": "June Household Budget",
+      "native": [
+        "За јуни планирам домашен буџет од 42000 денари.",
+        "На 1 јуни 2026 година ќе издвојам 14000 денари за кирија.",
+        "За струја, вода и интернет ќе оставам уште 4500 денари.",
+        "За храна ќе одвојам 15000 денари за нас тројца.",
+        "Во сабота, на 6 јуни, ќе пазарам на пазарот околу 8:30.",
+        "До работа имам 3 километри, па најчесто ќе одам пеш.",
+        "Сепак, ќе одвојам 1500 денари за превоз кога ќе врне.",
+        "За излегувања ни остануваат 3000 денари, односно по 750 за секој викенд.",
+        "Преостанатите 4000 денари ќе ги тргнам настрана за некој непланиран трошок дома."
+      ],
+      "roman": [
+        "Za juni planiram domashen budjet od 42000 denari.",
+        "Na 1 juni 2026 godina kje izdvojam 14000 denari za kirija.",
+        "Za struja, voda i internet kje ostavam ushte 4500 denari.",
+        "Za hrana kje odvojam 15000 denari za nas trojca.",
+        "Vo sabota, na 6 juni, kje pazaram na pazarot okolu 8:30.",
+        "Do rabota imam 3 kilometri, pa najchesto kje odam pesh.",
+        "Sepak, kje odvojam 1500 denari za prevoz koga kje vrne.",
+        "Za izleguvanja ni ostanuvaat 3000 denari, odnosno po 750 za sekoj vikend.",
+        "Preostanatite 4000 denari kje gi trgnam nastrana za nekoj neplaniran troshok doma."
+      ]
+    },
+    {
+      "id": "mk-p07",
+      "kind": "para",
+      "title": "Washing Machine Warranty Call",
+      "native": [
+        "Добар ден, Ви се јавувам од Куманово за расипана машина за перење.",
+        "Машината ја купив пред 8 месеци и сѐ уште е под гаранција.",
+        "Од вчера не ја исфрла водата и програмата застанува пред центрифугирање.",
+        "На екранот нема порака за грешка, само трепка едно светло.",
+        "Ги имам сметката и гарантниот лист, ако Ви требаат за пријавата.",
+        "Може ли да испратите сервисер во среда, по 15:30?",
+        "Живеам во населбата Карпош, а зградата има влез од главната улица.",
+        "Ќе Ви пратам слика од влезот преку Viber, ако Ви одговара.",
+        "Ве молам, јавете ми однапред кога би можел да дојде сервисерот."
+      ],
+      "roman": [
+        "Dobar den, Vi se javuvam od Kumanovo za rasipana mashina za perenje.",
+        "Mashinata ja kupiv pred 8 meseci i se ushte e pod garancija.",
+        "Od vchera ne ja isfrla vodata i programata zastanuva pred centrifugiranje.",
+        "Na ekranot nema poraka za greshka, samo trepka edno svetlo.",
+        "Gi imam smetkata i garantniot list, ako Vi trebaat za prijavata.",
+        "Mozhe li da ispratite serviser vo sreda, po 15:30?",
+        "Zhiveam vo naselbata Karposh, a zgradata ima vlez od glavnata ulica.",
+        "Kje Vi pratam slika od vlezot preku Viber, ako Vi odgovara.",
+        "Ve molam, javete mi odnapred koga bi mozhel da dojde serviserot."
+      ]
+    },
+    {
+      "id": "mk-p08",
+      "kind": "para",
+      "title": "Debar Maalo Through the Years",
+      "native": [
+        "Скопското Дебар Маало денес изгледа поинаку од пред 20 години.",
+        "Меѓу старите куќи сега има повеќе станбени згради и кафулиња.",
+        "Уличките веќе не се толку тивки, особено попладне и за викенд.",
+        "По обновувањето на тротоарите, на улицата Орце Николов има повеќе простор за пешаци.",
+        "Од Дебар Маало лесно се стигнува пеш до Градскиот парк.",
+        "Во маалските пекарници сѐ уште се чека ред за бурек наутро.",
+        "Со толку посетители, тешко се наоѓа слободно место за паркирање.",
+        "Постарите соседи уште ги паметат куќите и дворовите на местото на новите згради.",
+        "И сега соседите застануваат на улица да се поздрават и да си поразговараат."
+      ],
+      "roman": [
+        "Skopskoto Debar Maalo denes izgleda poinaku od pred 20 godini.",
+        "Megju starite kukji sega ima povekje stanbeni zgradi i kafulinja.",
+        "Ulichkite vekje ne se tolku tivki, osobeno popladne i za vikend.",
+        "Po obnovuvanjeto na trotoarite, na ulicata Orce Nikolov ima povekje prostor za peshaci.",
+        "Od Debar Maalo lesno se stignuva pesh do Gradskiot park.",
+        "Vomaalskite pekarnici se ushte se cheka red za burek nautro.",
+        "So tolku posetiteli, teshko se naogja slobodno mesto za parkiranje.",
+        "Postarite sosedi ushte gi pametat kukjite i dvorovite na mestoto na novite zgradi.",
+        "I sega sosedite zastanuvaat na ulica da se pozdravat i da si porazgovaraat."
+      ]
+    },
+    {
+      "id": "mk-s001",
+      "kind": "sentence",
+      "native": [
+        "Стигнав дома, сѐ е супер."
+      ],
+      "roman": [
+        "Stignav doma, se e super."
+      ]
+    },
+    {
+      "id": "mk-s002",
+      "kind": "sentence",
+      "native": [
+        "Сузана, дали ти одговара разговор во 11:30?"
+      ],
+      "roman": [
+        "Suzana, dali ti odgovara razgovor vo 11:30?"
+      ]
+    },
+    {
+      "id": "mk-s003",
+      "kind": "sentence",
+      "native": [
+        "Префрли ми 1200 денари, па ќе ја платам резервацијата."
+      ],
+      "roman": [
+        "Prefrli mi 1200 denari, pa kje ja platam rezervacijata."
+      ]
+    },
+    {
+      "id": "mk-s004",
+      "kind": "sentence",
+      "native": [
+        "Штом ќе стигне новата банкарска картичка, да ги сменам податоците за плаќање на Netflix."
+      ],
+      "roman": [
+        "Shtom kje stigne novata bankarska kartichka, da gi smenam podatocite za plakjanje na Netflix."
+      ]
+    },
+    {
+      "id": "mk-s005",
+      "kind": "sentence",
+      "native": [
+        "Кој сервис во Ресен поправа машини за миење садови?"
+      ],
+      "roman": [
+        "Koj servis vo Resen poprava mashini za mienje sadovi?"
+      ]
+    },
+    {
+      "id": "mk-s006",
+      "kind": "sentence",
+      "native": [
+        "Даниела направи веб-страница за нашата мала слаткарница."
+      ],
+      "roman": [
+        "Daniela napravi veb-stranica za nashata mala slatkarnica."
+      ]
+    },
+    {
+      "id": "mk-s007",
+      "kind": "sentence",
+      "native": [
+        "Почекај ме под настрешницата, многу врне."
+      ],
+      "roman": [
+        "Pochekaj me pod nastreshnicata, mnogu vrne."
+      ]
+    },
+    {
+      "id": "mk-s008",
+      "kind": "sentence",
+      "native": [
+        "Игор ќе ни помогне да го изнесеме стариот тросед, само треба да го ослободиме ходникот."
+      ],
+      "roman": [
+        "Igor kje ni pomogne da go izneseme stariot trosed, samo treba da go oslobodime hodnikot."
+      ]
+    },
+    {
+      "id": "mk-s009",
+      "kind": "sentence",
+      "native": [
+        "Слушај, возот за Гевгелија оди директно или се преседнува?"
+      ],
+      "roman": [
+        "Slushaj, vozot za Gevgelija odi direktno ili se presednuva?"
+      ]
+    },
+    {
+      "id": "mk-s010",
+      "kind": "sentence",
+      "native": [
+        "Мило ми е што конечно најде време за себе."
+      ],
+      "roman": [
+        "Milo mi e shto konechno najde vreme za sebe."
+      ]
+    },
+    {
+      "id": "mk-s011",
+      "kind": "sentence",
+      "native": [
+        "Вечерва не ме чекајте за јадење, излегувам со друштвото."
+      ],
+      "roman": [
+        "Vecherva ne me chekajte za jadenje, izleguvam so drushtvoto."
+      ]
+    },
+    {
+      "id": "mk-s012",
+      "kind": "sentence",
+      "native": [
+        "Дизајнот изгледа добро, само зголеми го логото малку."
+      ],
+      "roman": [
+        "Dizajnot izgleda dobro, samo zgolemi go logoto malku."
+      ]
+    },
+    {
+      "id": "mk-s013",
+      "kind": "sentence",
+      "native": [
+        "За овој рецепт ми требаат 350 грама брашно и 200 милилитри млеко."
+      ],
+      "roman": [
+        "Za ovoj recept mi trebaat 350 grama brashno i 200 mililitri mleko."
+      ]
+    },
+    {
+      "id": "mk-s014",
+      "kind": "sentence",
+      "native": [
+        "Додај сунѓери на списокот."
+      ],
+      "roman": [
+        "Dodaj sungjeri na spisokot."
+      ]
+    },
+    {
+      "id": "mk-s015",
+      "kind": "sentence",
+      "native": [
+        "Објасни ми како да го поврзам телевизорот со безжичните слушалки без да купувам дополнителен уред."
+      ],
+      "roman": [
+        "Objasni mi kako da go povrzam televizorot so bezzhichnite slushalki bez da kupuvam dopolnitelen ured."
+      ]
+    },
+    {
+      "id": "mk-s016",
+      "kind": "sentence",
+      "native": [
+        "Батеријата издржува цел работен ден."
+      ],
+      "roman": [
+        "Baterijata izdrzhuva cel raboten den."
+      ]
+    },
+    {
+      "id": "mk-s017",
+      "kind": "sentence",
+      "native": [
+        "Сврти десно кај семафорот."
+      ],
+      "roman": [
+        "Svrti desno kaj semaforot."
+      ]
+    },
+    {
+      "id": "mk-s018",
+      "kind": "sentence",
+      "native": [
+        "Наставничката ги пофали сите деца."
+      ],
+      "roman": [
+        "Nastavnichkata gi pofali site deca."
+      ]
+    },
+    {
+      "id": "mk-s019",
+      "kind": "sentence",
+      "native": [
+        "Бојан, твој ли е шлемов?"
+      ],
+      "roman": [
+        "Bojan, tvoj li e shlemov?"
+      ]
+    },
+    {
+      "id": "mk-s020",
+      "kind": "sentence",
+      "native": [
+        "Секогаш кога шетам низ Берово, си велам дека треба почесто да доаѓам."
+      ],
+      "roman": [
+        "Sekogash koga shetam niz Berovo, si velam deka treba pochesto da doagjam."
+      ]
+    },
+    {
+      "id": "mk-s021",
+      "kind": "sentence",
+      "native": [
+        "Денес заглавив на работа, па собери ја Мила од градинка и кажи ѝ дека доаѓам подоцна."
+      ],
+      "roman": [
+        "Denes zaglaviv na rabota, pa soberi ja Mila od gradinka i kazhi i deka doagjam podocna."
+      ]
+    },
+    {
+      "id": "mk-s022",
+      "kind": "sentence",
+      "native": [
+        "Благодарам за брзиот одговор."
+      ],
+      "roman": [
+        "Blagodaram za brziot odgovor."
+      ]
+    },
+    {
+      "id": "mk-s023",
+      "kind": "sentence",
+      "native": [
+        "Доставата нека биде на улица Ленинова 28, по 16:00."
+      ],
+      "roman": [
+        "Dostavata neka bide na ulica Leninova 28, po 16:00."
+      ]
+    },
+    {
+      "id": "mk-s024",
+      "kind": "sentence",
+      "native": [
+        "Потсети ме да купам батерии."
+      ],
+      "roman": [
+        "Potseti me da kupam baterii."
+      ]
+    },
+    {
+      "id": "mk-s025",
+      "kind": "sentence",
+      "native": [
+        "Има ли нов апдејт за овој браузер?"
+      ],
+      "roman": [
+        "Ima li nov apdejt za ovoj brauzer?"
+      ]
+    },
+    {
+      "id": "mk-s026",
+      "kind": "sentence",
+      "native": [
+        "Откако го рестартирав рутерот, врската се среди, ама принтерот сѐ уште не се поврзува безжично."
+      ],
+      "roman": [
+        "Otkako go restartirav ruterot, vrskata se sredi, ama printerot se ushte ne se povrzuva bezzhichno."
+      ]
+    },
+    {
+      "id": "mk-s027",
+      "kind": "sentence",
+      "native": [
+        "Наташа ќе нѐ земе од Велес, па заедно ќе одиме на гости во Штип."
+      ],
+      "roman": [
+        "Natasha kje ne zeme od Veles, pa zaedno kje odime na gosti vo Shtip."
+      ]
+    },
+    {
+      "id": "mk-s028",
+      "kind": "sentence",
+      "native": [
+        "За утрешниот час по ликовно треба ли да носиме водени бои?"
+      ],
+      "roman": [
+        "Za utreshniot chas po likovno treba li da nosime vodeni boi?"
+      ]
+    },
+    {
+      "id": "mk-s029",
+      "kind": "sentence",
+      "native": [
+        "Обувките ги ставив во ходникот, поточно зад вратата."
+      ],
+      "roman": [
+        "Obuvkite gi staviv vo hodnikot, potochno zad vratata."
+      ]
+    },
+    {
+      "id": "mk-s030",
+      "kind": "sentence",
+      "native": [
+        "Арта, прекрасно пееш во живо."
+      ],
+      "roman": [
+        "Arta, prekrasno peesh vo zhivo."
+      ]
+    },
+    {
+      "id": "mk-s031",
+      "kind": "sentence",
+      "native": [
+        "Кога ќе завршиш со учење, наврати кај нас, мајка ми направи сладолед и баш сака да те види."
+      ],
+      "roman": [
+        "Koga kje zavrshish so uchenje, navrati kaj nas, majka mi napravi sladoled i bash saka da te vidi."
+      ]
+    },
+    {
+      "id": "mk-s032",
+      "kind": "sentence",
+      "native": [
+        "Повелете, во прилог Ви ја праќам бараната понуда."
+      ],
+      "roman": [
+        "Povelete, vo prilog Vi ja prakjam baranata ponuda."
+      ]
+    },
+    {
+      "id": "mk-s033",
+      "kind": "sentence",
+      "native": [
+        "Пешачевме 7,5 километри за 90 минути, без долги паузи."
+      ],
+      "roman": [
+        "Peshachevme 7,5 kilometri za 90 minuti, bez dolgi pauzi."
+      ]
+    },
+    {
+      "id": "mk-s034",
+      "kind": "sentence",
+      "native": [
+        "Позајмената скала да му ја вратам на Драган вечерва."
+      ],
+      "roman": [
+        "Pozajmenata skala da mu ja vratam na Dragan vecherva."
+      ]
+    },
+    {
+      "id": "mk-s035",
+      "kind": "sentence",
+      "native": [
+        "Што значат симболите за перење на етикетата од џемперот?"
+      ],
+      "roman": [
+        "Shto znachat simbolite za perenje na etiketata od djemperot?"
+      ]
+    },
+    {
+      "id": "mk-s036",
+      "kind": "sentence",
+      "native": [
+        "Тастатурата ми пишува погрешни букви."
+      ],
+      "roman": [
+        "Tastaturata mi pishuva pogreshni bukvi."
+      ]
+    },
+    {
+      "id": "mk-s037",
+      "kind": "sentence",
+      "native": [
+        "Таксистот рече дека оваа уличка нема друг излез."
+      ],
+      "roman": [
+        "Taksistot reche deka ovaa ulichka nema drug izlez."
+      ]
+    },
+    {
+      "id": "mk-s038",
+      "kind": "sentence",
+      "native": [
+        "Стави ги чашите на маса додека ја сечам салатата."
+      ],
+      "roman": [
+        "Stavi gi chashite na masa dodeka ja secham salatata."
+      ]
+    },
+    {
+      "id": "mk-s039",
+      "kind": "sentence",
+      "native": [
+        "Всушност, ќе платам во готово."
+      ],
+      "roman": [
+        "Vsushnost, kje platam vo gotovo."
+      ]
+    },
+    {
+      "id": "mk-s040",
+      "kind": "sentence",
+      "native": [
+        "Порано ми беше тешко да побарам помош, ама сега гледам колку полесно оди кога работиме заедно."
+      ],
+      "roman": [
+        "Porano mi beshe teshko da pobaram pomosh, ama sega gledam kolku polesno odi koga rabotime zaedno."
+      ]
+    },
+    {
+      "id": "mk-s041",
+      "kind": "sentence",
+      "native": [
+        "Ако поминуваш покрај пекара, купи и нешто за појадок."
+      ],
+      "roman": [
+        "Ako pominuvash pokraj pekara, kupi i neshto za pojadok."
+      ]
+    },
+    {
+      "id": "mk-s042",
+      "kind": "sentence",
+      "native": [
+        "Одобрен е трошокот за печатење."
+      ],
+      "roman": [
+        "Odobren e troshokot za pechatenje."
+      ]
+    },
+    {
+      "id": "mk-s043",
+      "kind": "sentence",
+      "native": [
+        "Соба 214 е на 3. кат."
+      ],
+      "roman": [
+        "Soba 214 e na 3. kat."
+      ]
+    },
+    {
+      "id": "mk-s044",
+      "kind": "sentence",
+      "native": [
+        "Картонските кутии да ги одвојам."
+      ],
+      "roman": [
+        "Kartonskite kutii da gi odvojam."
+      ]
+    },
+    {
+      "id": "mk-s045",
+      "kind": "sentence",
+      "native": [
+        "Пушти го последниот подкаст што го слушав вчера."
+      ],
+      "roman": [
+        "Pushti go posledniot podkast shto go slushav vchera."
+      ]
+    },
+    {
+      "id": "mk-s046",
+      "kind": "sentence",
+      "native": [
+        "Ќерка ми го користи твојот таблет за домашната по информатика, па ќе ти го вратам вечерва."
+      ],
+      "roman": [
+        "Kjerka mi go koristi tvojot tablet za domashnata po informatika, pa kje ti go vratam vecherva."
+      ]
+    },
+    {
+      "id": "mk-s047",
+      "kind": "sentence",
+      "native": [
+        "Марија се пресели во Тафталиџе, близу до училиштето."
+      ],
+      "roman": [
+        "Marija se preseli vo Taftalidje, blizu do uchilishteto."
+      ]
+    },
+    {
+      "id": "mk-s048",
+      "kind": "sentence",
+      "native": [
+        "Оставете го пакетот кај соседите, тие се дома."
+      ],
+      "roman": [
+        "Ostavete go paketot kaj sosedite, tie se doma."
+      ]
+    },
+    {
+      "id": "mk-s049",
+      "kind": "sentence",
+      "native": [
+        "Резервирај за среда, не, сепак нека биде четврток."
+      ],
+      "roman": [
+        "Rezerviraj za sreda, ne, sepak neka bide chetvrtok."
+      ]
+    },
+    {
+      "id": "mk-s050",
+      "kind": "sentence",
+      "native": [
+        "Баш ми се погодија мекиците, ме потсетија на детството."
+      ],
+      "roman": [
+        "Bash mi se pogodija mekicite, me potsetija na detstvoto."
+      ]
+    },
+    {
+      "id": "mk-s051",
+      "kind": "sentence",
+      "native": [
+        "За викенд конечно го склопивме шкафот, ама ни останаа две шрафчиња и не знам каде одат."
+      ],
+      "roman": [
+        "Za vikend konechno go sklopivme shkafot, ama ni ostanaa dve shrafchinja i ne znam kade odat."
+      ]
+    },
+    {
+      "id": "mk-s052",
+      "kind": "sentence",
+      "native": [
+        "Пратката е подготвена за подигање."
+      ],
+      "roman": [
+        "Pratkata e podgotvena za podiganje."
+      ]
+    },
+    {
+      "id": "mk-s053",
+      "kind": "sentence",
+      "native": [
+        "Автобусот за Прилеп тргнува во 17:20 од перон 6."
+      ],
+      "roman": [
+        "Avtobusot za Prilep trgnuva vo 17:20 od peron 6."
+      ]
+    },
+    {
+      "id": "mk-s054",
+      "kind": "sentence",
+      "native": [
+        "Распрашај се кога почнува новиот курс по керамика."
+      ],
+      "roman": [
+        "Rasprashaj se koga pochnuva noviot kurs po keramika."
+      ]
+    },
+    {
+      "id": "mk-s055",
+      "kind": "sentence",
+      "native": [
+        "Избриши ги празните фолдери од десктопот."
+      ],
+      "roman": [
+        "Izbrishi gi praznite folderi od desktopot."
+      ]
+    },
+    {
+      "id": "mk-s056",
+      "kind": "sentence",
+      "native": [
+        "Фајлот зачувај го како копија."
+      ],
+      "roman": [
+        "Fajlot zachuvaj go kako kopija."
+      ]
+    },
+    {
+      "id": "mk-s057",
+      "kind": "sentence",
+      "native": [
+        "Другарка ми веќе паркираше."
+      ],
+      "roman": [
+        "Drugarka mi vekje parkirashe."
+      ]
+    },
+    {
+      "id": "mk-s058",
+      "kind": "sentence",
+      "native": [
+        "Детските чизмички се тесни, имате ли поголем број?"
+      ],
+      "roman": [
+        "Detskite chizmichki se tesni, imate li pogolem broj?"
+      ]
+    },
+    {
+      "id": "mk-s059",
+      "kind": "sentence",
+      "native": [
+        "Чекајте, попустот важи и онлајн?"
+      ],
+      "roman": [
+        "Chekajte, popustot vazhi i onlajn?"
+      ]
+    },
+    {
+      "id": "mk-s060",
+      "kind": "sentence",
+      "native": [
+        "Фала ти што ме сослуша."
+      ],
+      "roman": [
+        "Fala ti shto me soslusha."
+      ]
+    },
+    {
+      "id": "mk-s061",
+      "kind": "sentence",
+      "native": [
+        "Чувај ми малку тавче-гравче."
+      ],
+      "roman": [
+        "Chuvaj mi malku tavche-gravche."
+      ]
+    },
+    {
+      "id": "mk-s062",
+      "kind": "sentence",
+      "native": [
+        "Канцеларијата во Тетово се реновира, па оваа недела ќе работиме од дома."
+      ],
+      "roman": [
+        "Kancelarijata vo Tetovo se renovira, pa ovaa nedela kje rabotime od doma."
+      ]
+    },
+    {
+      "id": "mk-s063",
+      "kind": "sentence",
+      "native": [
+        "Ранците се намалени за 25%."
+      ],
+      "roman": [
+        "Rancite se namaleni za 25%."
+      ]
+    },
+    {
+      "id": "mk-s064",
+      "kind": "sentence",
+      "native": [
+        "На 8 јуни да го однесам велосипедот на сервис, бидејќи задното тркало постојано шкрипи."
+      ],
+      "roman": [
+        "Na 8 juni da go odnesam velosipedot na servis, bidejkji zadnoto trkalo postojano shkripi."
+      ]
+    },
+    {
+      "id": "mk-s065",
+      "kind": "sentence",
+      "native": [
+        "Испрати ѝ порака на сестра ми дека ќе ја почекам пред киното кога ќе заврши филмот."
+      ],
+      "roman": [
+        "Isprati i poraka na sestra mi deka kje ja pochekam pred kinoto koga kje zavrshi filmot."
+      ]
+    },
+    {
+      "id": "mk-s066",
+      "kind": "sentence",
+      "native": [
+        "Горан, микрофонот ти е исклучен."
+      ],
+      "roman": [
+        "Goran, mikrofonot ti e iskluchen."
+      ]
+    },
+    {
+      "id": "mk-s067",
+      "kind": "sentence",
+      "native": [
+        "Колешката предлага да ручаме во новата сендвичарница спроти канцеларијата."
+      ],
+      "roman": [
+        "Koleshkata predlaga da ruchame vo novata sendvicharnica sproti kancelarijata."
+      ]
+    },
+    {
+      "id": "mk-s068",
+      "kind": "sentence",
+      "native": [
+        "Утрово падна првиот снег годинава."
+      ],
+      "roman": [
+        "Utrovo padna prviot sneg godinava."
+      ]
+    },
+    {
+      "id": "mk-s069",
+      "kind": "sentence",
+      "native": [
+        "Имаме ли уште сено за зајакот или да купам?"
+      ],
+      "roman": [
+        "Imame li ushte seno za zajakot ili da kupam?"
+      ]
+    },
+    {
+      "id": "mk-s070",
+      "kind": "sentence",
+      "native": [
+        "Продолжи да вежбаш, веќе пливаш многу посигурно од порано."
+      ],
+      "roman": [
+        "Prodolzhi da vezhbash, vekje plivash mnogu posigurno od porano."
+      ]
+    },
+    {
+      "id": "mk-s071",
+      "kind": "sentence",
+      "native": [
+        "Љупчо, слободен ли си за кафе по работа?"
+      ],
+      "roman": [
+        "Ljupcho, sloboden li si za kafe po rabota?"
+      ]
+    },
+    {
+      "id": "mk-s072",
+      "kind": "sentence",
+      "native": [
+        "Можете ли да ни позајмите количка за да ги пренесеме кутиите?"
+      ],
+      "roman": [
+        "Mozhete li da ni pozajmite kolichka za da gi preneseme kutiite?"
+      ]
+    },
+    {
+      "id": "mk-s073",
+      "kind": "sentence",
+      "native": [
+        "Тренингот почнува во 18:15 и трае 45 минути."
+      ],
+      "roman": [
+        "Treningot pochnuva vo 18:15 i trae 45 minuti."
+      ]
+    },
+    {
+      "id": "mk-s074",
+      "kind": "sentence",
+      "native": [
+        "Пред спиење да го исклучам продолжниот кабел."
+      ],
+      "roman": [
+        "Pred spienje da go isklucham prodolzhniot kabel."
+      ]
+    },
+    {
+      "id": "mk-s075",
+      "kind": "sentence",
+      "native": [
+        "Најди ми едноставен рецепт за ѓомлезе без сач."
+      ],
+      "roman": [
+        "Najdi mi ednostaven recept za gjomleze bez sach."
+      ]
+    },
+    {
+      "id": "mk-s076",
+      "kind": "sentence",
+      "native": [
+        "По апдејтот, апликацијата се затвора штом ќе отворам камера."
+      ],
+      "roman": [
+        "Po apdejtot, aplikacijata se zatvora shtom kje otvoram kamera."
+      ]
+    },
+    {
+      "id": "mk-s077",
+      "kind": "sentence",
+      "native": [
+        "Тетка Зорица ја оставила торбата кај кројачката, па ме замоли да ја земам на враќање."
+      ],
+      "roman": [
+        "Tetka Zorica ja ostavila torbata kaj krojachkata, pa me zamoli da ja zemam na vrakjanje."
+      ]
+    },
+    {
+      "id": "mk-s078",
+      "kind": "sentence",
+      "native": [
+        "Ѓорѓи рече дека бојата треба добро да се исуши пред повторно да ја наместиме завесата."
+      ],
+      "roman": [
+        "Gjorgji reche deka bojata treba dobro da se isushi pred povtorno da ja namestime zavesata."
+      ]
+    },
+    {
+      "id": "mk-s079",
+      "kind": "sentence",
+      "native": [
+        "Донеси јогурт, јајца и два сомуна од Стокомак."
+      ],
+      "roman": [
+        "Donesi jogurt, jajca i dva somuna od Stokomak."
+      ]
+    },
+    {
+      "id": "mk-s080",
+      "kind": "sentence",
+      "native": [
+        "Прости, ти го згрешив името."
+      ],
+      "roman": [
+        "Prosti, ti go zgreshiv imeto."
+      ]
+    },
+    {
+      "id": "mk-s081",
+      "kind": "sentence",
+      "native": [
+        "Јави се кога ќе можеш."
+      ],
+      "roman": [
+        "Javi se koga kje mozhesh."
+      ]
+    },
+    {
+      "id": "mk-s082",
+      "kind": "sentence",
+      "native": [
+        "Знаеш ли каде е резервниот полнач за службениот телефон?"
+      ],
+      "roman": [
+        "Znaesh li kade e rezervniot polnach za sluzhbeniot telefon?"
+      ]
+    },
+    {
+      "id": "mk-s083",
+      "kind": "sentence",
+      "native": [
+        "Лаптопот има 16 гигабајти меморија и диск од 512 гигабајти, што ми е доволно за работа."
+      ],
+      "roman": [
+        "Laptopot ima 16 gigabajti memorija i disk od 512 gigabajti, shto mi e dovolno za rabota."
+      ]
+    },
+    {
+      "id": "mk-s084",
+      "kind": "sentence",
+      "native": [
+        "Зачувај ја сметката од Нептун за да можам да го заменам тостерот ако не работи."
+      ],
+      "roman": [
+        "Zachuvaj ja smetkata od Neptun za da mozham da go zamenam tosterot ako ne raboti."
+      ]
+    },
+    {
+      "id": "mk-s085",
+      "kind": "sentence",
+      "native": [
+        "Води ме до најблискиот влез на Градски парк."
+      ],
+      "roman": [
+        "Vodi me do najbliskiot vlez na Gradski park."
+      ]
+    },
+    {
+      "id": "mk-s086",
+      "kind": "sentence",
+      "native": [
+        "Сервисот во Кисела Вода ми ги спаси податоците."
+      ],
+      "roman": [
+        "Servisot vo Kisela Voda mi gi spasi podatocite."
+      ]
+    },
+    {
+      "id": "mk-s087",
+      "kind": "sentence",
+      "native": [
+        "Емир седна покрај прозорецот."
+      ],
+      "roman": [
+        "Emir sedna pokraj prozorecot."
+      ]
+    },
+    {
+      "id": "mk-s088",
+      "kind": "sentence",
+      "native": [
+        "Јована сака жолта торта за својот роденден."
+      ],
+      "roman": [
+        "Jovana saka zholta torta za svojot rodenden."
+      ]
+    },
+    {
+      "id": "mk-s089",
+      "kind": "sentence",
+      "native": [
+        "Не, чекај, сакав син конец."
+      ],
+      "roman": [
+        "Ne, chekaj, sakav sin konec."
+      ]
+    },
+    {
+      "id": "mk-s090",
+      "kind": "sentence",
+      "native": [
+        "Малку ми пречи гласната музика додека се обидувам да читам."
+      ],
+      "roman": [
+        "Malku mi prechi glasnata muzika dodeka se obiduvam da chitam."
+      ]
+    },
+    {
+      "id": "mk-s091",
+      "kind": "sentence",
+      "native": [
+        "Спиеш или уште си буден?"
+      ],
+      "roman": [
+        "Spiesh ili ushte si buden?"
+      ]
+    },
+    {
+      "id": "mk-s092",
+      "kind": "sentence",
+      "native": [
+        "Билјана ќе нѐ заменува додека сме на обука."
+      ],
+      "roman": [
+        "Biljana kje ne zamenuva dodeka sme na obuka."
+      ]
+    },
+    {
+      "id": "mk-s093",
+      "kind": "sentence",
+      "native": [
+        "Билетите чинат вкупно 840 денари."
+      ],
+      "roman": [
+        "Biletite chinat vkupno 840 denari."
+      ]
+    },
+    {
+      "id": "mk-s094",
+      "kind": "sentence",
+      "native": [
+        "Следниот месец да ја обновам членарината за базенот."
+      ],
+      "roman": [
+        "Sledniot mesec da ja obnovam chlenarinata za bazenot."
+      ]
+    },
+    {
+      "id": "mk-s095",
+      "kind": "sentence",
+      "native": [
+        "Намести тајмер на 9 минути."
+      ],
+      "roman": [
+        "Namesti tajmer na 9 minuti."
+      ]
+    },
+    {
+      "id": "mk-s096",
+      "kind": "sentence",
+      "native": [
+        "Поправате ли скршени екрани тука?"
+      ],
+      "roman": [
+        "Popravate li skrsheni ekrani tuka?"
+      ]
+    },
+    {
+      "id": "mk-s097",
+      "kind": "sentence",
+      "native": [
+        "Наместо пред трговскиот центар, подобро да се сретнеме кај фонтаната, таму обично има помалку гужва."
+      ],
+      "roman": [
+        "Namesto pred trgovskiot centar, podobro da se sretneme kaj fontanata, tamu obichno ima pomalku guzhva."
+      ]
+    },
+    {
+      "id": "mk-s098",
+      "kind": "sentence",
+      "native": [
+        "Годинава ќе одиме на Струмичкиот карневал, ама прво мора да смислиме маски за целото семејство."
+      ],
+      "roman": [
+        "Godinava kje odime na Strumichkiot karneval, ama prvo mora da smislime maski za celoto semejstvo."
+      ]
+    },
+    {
+      "id": "mk-s099",
+      "kind": "sentence",
+      "native": [
+        "Нарачката е без кромид, пардон, без лути пиперки."
+      ],
+      "roman": [
+        "Narachkata e bez kromid, pardon, bez luti piperki."
+      ]
+    },
+    {
+      "id": "mk-s100",
+      "kind": "sentence",
+      "native": [
+        "Баба Ратка прашува кога пак ќе ја однесеме на пазар."
+      ],
+      "roman": [
+        "Baba Ratka prashuva koga pak kje ja odneseme na pazar."
+      ]
+    },
+    {
+      "id": "mk-s101",
+      "kind": "sentence",
+      "native": [
+        "Проверив, линкот за Zoom работи и без најава."
+      ],
+      "roman": [
+        "Proveriv, linkot za Zoom raboti i bez najava."
+      ]
+    },
+    {
+      "id": "mk-s102",
+      "kind": "sentence",
+      "native": [
+        "Може ли да ги заменам панталоните број 38 за 40?"
+      ],
+      "roman": [
+        "Mozhe li da gi zamenam pantalonite broj 38 za 40?"
+      ]
+    },
+    {
+      "id": "mk-s103",
+      "kind": "sentence",
+      "native": [
+        "Треба да ги полеам цвеќињата."
+      ],
+      "roman": [
+        "Treba da gi poleam cvekjinjata."
+      ]
+    },
+    {
+      "id": "mk-s104",
+      "kind": "sentence",
+      "native": [
+        "Колку чини годишната претплата за оваа програма?"
+      ],
+      "roman": [
+        "Kolku chini godishnata pretplata za ovaa programa?"
+      ]
+    },
+    {
+      "id": "mk-s105",
+      "kind": "sentence",
+      "native": [
+        "Мерсиха го додаде клиентот во групата за новиот проект."
+      ],
+      "roman": [
+        "Mersiha go dodade klientot vo grupata za noviot proekt."
+      ]
+    },
+    {
+      "id": "mk-s106",
+      "kind": "sentence",
+      "native": [
+        "Слободно продолжете право. Продавницата е зад поштата."
+      ],
+      "roman": [
+        "Slobodno prodolzhete pravo. Prodavnicata e zad poshtata."
+      ]
+    },
+    {
+      "id": "mk-s107",
+      "kind": "sentence",
+      "native": [
+        "Додека сте во книжарницата, побарајте тетратки со широки линии, такви ни побараа за прво одделение."
+      ],
+      "roman": [
+        "Dodeka ste vo knizharnicata, pobarajte tetratki so shiroki linii, takvi ni pobaraa za prvo oddelenie."
+      ]
+    },
+    {
+      "id": "mk-s108",
+      "kind": "sentence",
+      "native": [
+        "Мислев дека зборуваш за романот, ама сега сфаќам дека ја препорачуваш збирката раскази од истата авторка."
+      ],
+      "roman": [
+        "Mislev deka zboruvash za romanot, ama sega sfakjam deka ja preporachuvash zbirkata raskazi od istata avtorka."
+      ]
+    },
+    {
+      "id": "mk-s109",
+      "kind": "sentence",
+      "native": [
+        "Тргнуваме од Кавадарци, очекувај нѐ пред вечера."
+      ],
+      "roman": [
+        "Trgnuvame od Kavadarci, ochekuvaj ne pred vechera."
+      ]
+    },
+    {
+      "id": "mk-s110",
+      "kind": "sentence",
+      "native": [
+        "Поздрав и убав ден!"
+      ],
+      "roman": [
+        "Pozdrav i ubav den!"
+      ]
+    },
+    {
+      "id": "mk-s111",
+      "kind": "sentence",
+      "native": [
+        "Утре од 09:00 до 12:30 нема да има вода во зградите со броеви 16 и 18."
+      ],
+      "roman": [
+        "Utre od 09:00 do 12:30 nema da ima voda vo zgradite so broevi 16 i 18."
+      ]
+    },
+    {
+      "id": "mk-s112",
+      "kind": "sentence",
+      "native": [
+        "Во сабота да ги однесам чизмите на чевлар."
+      ],
+      "roman": [
+        "Vo sabota da gi odnesam chizmite na chevlar."
+      ]
+    },
+    {
+      "id": "mk-s113",
+      "kind": "sentence",
+      "native": [
+        "Пребарај каде може да се нарача резервен капак за стаклен сад што оди во рерна."
+      ],
+      "roman": [
+        "Prebaraj kade mozhe da se naracha rezerven kapak za staklen sad shto odi vo rerna."
+      ]
+    },
+    {
+      "id": "mk-s114",
+      "kind": "sentence",
+      "native": [
+        "Нека остане старата верзија на серверот додека не провериме дали новата правилно ги пресметува попустите."
+      ],
+      "roman": [
+        "Neka ostane starata verzija na serverot dodeka ne proverime dali novata pravilno gi presmetuva popustite."
+      ]
+    },
+    {
+      "id": "mk-s115",
+      "kind": "sentence",
+      "native": [
+        "Тамара нѐ прошета низ чаршијата и ни го покажа Безистенот."
+      ],
+      "roman": [
+        "Tamara ne prosheta niz charshijata i ni go pokazha Bezistenot."
+      ]
+    },
+    {
+      "id": "mk-s116",
+      "kind": "sentence",
+      "native": [
+        "Би ги дале двете кошници за 600 денари?"
+      ],
+      "roman": [
+        "Bi gi dale dvete koshnici za 600 denari?"
+      ]
+    },
+    {
+      "id": "mk-s117",
+      "kind": "sentence",
+      "native": [
+        "Лидија, можеш ли да ми позајмиш цедалка за да ги процедам макароните?"
+      ],
+      "roman": [
+        "Lidija, mozhesh li da mi pozajmish cedalka za da gi procedam makaronite?"
+      ]
+    },
+    {
+      "id": "mk-s118",
+      "kind": "sentence",
+      "native": [
+        "Сања, ти ја вратив дупчалката во кутијата со алат."
+      ],
+      "roman": [
+        "Sanja, ti ja vrativ dupchalkata vo kutijata so alat."
+      ]
+    },
+    {
+      "id": "mk-s119",
+      "kind": "sentence",
+      "native": [
+        "Само да потврдам, останува ли истиот рок за извештајот или имаме уште некој ден?"
+      ],
+      "roman": [
+        "Samo da potvrdam, ostanuva li istiot rok za izveshtajot ili imame ushte nekoj den?"
+      ]
+    },
+    {
+      "id": "mk-s120",
+      "kind": "sentence",
+      "native": [
+        "Тетин ми полни 63 години на 19 август."
+      ],
+      "roman": [
+        "Tetin mi polni 63 godini na 19 avgust."
+      ]
+    },
+    {
+      "id": "mk-s121",
+      "kind": "sentence",
+      "native": [
+        "Запиши дека библиотеката затвора порано во среда."
+      ],
+      "roman": [
+        "Zapishi deka bibliotekata zatvora porano vo sreda."
+      ]
+    },
+    {
+      "id": "mk-s122",
+      "kind": "sentence",
+      "native": [
+        "Каде се фрлаат старите сијалици?"
+      ],
+      "roman": [
+        "Kade se frlaat starite sijalici?"
+      ]
+    },
+    {
+      "id": "mk-s123",
+      "kind": "sentence",
+      "native": [
+        "Вчера ѝ помогнав на Фатиме да си го врати пристапот до профилот преку резервниот мејл."
+      ],
+      "roman": [
+        "Vchera i pomognav na Fatime da si go vrati pristapot do profilot preku rezervniot mejl."
+      ]
+    },
+    {
+      "id": "mk-s124",
+      "kind": "sentence",
+      "native": [
+        "Чичко ми патува со воз наместо со автомобил."
+      ],
+      "roman": [
+        "Chichko mi patuva so voz namesto so avtomobil."
+      ]
+    },
+    {
+      "id": "mk-s125",
+      "kind": "sentence",
+      "native": [
+        "Чешмата пак капе цела ноќ."
+      ],
+      "roman": [
+        "Cheshmata pak kape cela nokj."
+      ]
+    },
+    {
+      "id": "mk-s126",
+      "kind": "sentence",
+      "native": [
+        "За Дојран понеси пешкири, крем за сончање и очила, а костимот веќе ми е во куферот."
+      ],
+      "roman": [
+        "Za Dojran ponesi peshkiri, krem za sonchanje i ochila, a kostimot vekje mi e vo kuferot."
+      ]
+    },
+    {
+      "id": "mk-s127",
+      "kind": "sentence",
+      "native": [
+        "Водата ја пуштија пред малку."
+      ],
+      "roman": [
+        "Vodata ja pushtija pred malku."
+      ]
+    },
+    {
+      "id": "mk-s128",
+      "kind": "sentence",
+      "native": [
+        "Недостига само потписот на последната страница од договорот."
+      ],
+      "roman": [
+        "Nedostiga samo potpisot na poslednata stranica od dogovorot."
+      ]
+    },
+    {
+      "id": "mk-s129",
+      "kind": "sentence",
+      "native": [
+        "Плаќам 970 денари со картичка."
+      ],
+      "roman": [
+        "Plakjam 970 denari so kartichka."
+      ]
+    },
+    {
+      "id": "mk-s130",
+      "kind": "sentence",
+      "native": [
+        "Пробата со Елиф почнува во понеделник во 19:00."
+      ],
+      "roman": [
+        "Probata so Elif pochnuva vo ponedelnik vo 19:00."
+      ]
+    },
+    {
+      "id": "mk-s131",
+      "kind": "sentence",
+      "native": [
+        "Прикажи ги фотографиите снимени минатото лето во Струга."
+      ],
+      "roman": [
+        "Prikazhi gi fotografiite snimeni minatoto leto vo Struga."
+      ]
+    },
+    {
+      "id": "mk-s132",
+      "kind": "sentence",
+      "native": [
+        "Безжичниот интернет е бесплатен, лозинката пишува на рецепција."
+      ],
+      "roman": [
+        "Bezzhichniot internet e besplaten, lozinkata pishuva na recepcija."
+      ]
+    },
+    {
+      "id": "mk-s133",
+      "kind": "sentence",
+      "native": [
+        "Влезот е од дворот."
+      ],
+      "roman": [
+        "Vlezot e od dvorot."
+      ]
+    },
+    {
+      "id": "mk-s134",
+      "kind": "sentence",
+      "native": [
+        "Ручекот веќе е во рерна."
+      ],
+      "roman": [
+        "Ruchekot vekje e vo rerna."
+      ]
+    },
+    {
+      "id": "mk-s135",
+      "kind": "sentence",
+      "native": [
+        "Кренете го огледалото повисоко, не толку, спуштете го малку за да се огледува и детето."
+      ],
+      "roman": [
+        "Krenete go ogledaloto povisoko, ne tolku, spushtete go malku za da se ogleduva i deteto."
+      ]
+    },
+    {
+      "id": "mk-s136",
+      "kind": "sentence",
+      "native": [
+        "Имаш ли време попладне да го прошеташ кучето, бидејќи нема да се вратам до вечера?"
+      ],
+      "roman": [
+        "Imash li vreme popladne da go proshetash kucheto, bidejkji nema da se vratam do vechera?"
+      ]
+    },
+    {
+      "id": "mk-s137",
+      "kind": "sentence",
+      "native": [
+        "Чекам потврда од Бесник."
+      ],
+      "roman": [
+        "Chekam potvrda od Besnik."
+      ]
+    },
+    {
+      "id": "mk-s138",
+      "kind": "sentence",
+      "native": [
+        "Алармот е наместен за 06:45."
+      ],
+      "roman": [
+        "Alarmot e namesten za 06:45."
+      ]
+    },
+    {
+      "id": "mk-s139",
+      "kind": "sentence",
+      "native": [
+        "Ориз, шеќер и цимет ми требаат за сутлијаш."
+      ],
+      "roman": [
+        "Oriz, shekjer i cimet mi trebaat za sutlijash."
+      ]
+    },
+    {
+      "id": "mk-s140",
+      "kind": "sentence",
+      "native": [
+        "Прочитај ми го составот за есента полека, за да слушнам дали некаде сум испуштил некој збор."
+      ],
+      "roman": [
+        "Prochitaj mi go sostavot za esenta poleka, za da slushnam dali nekade sum ispushtil nekoj zbor."
+      ]
+    },
+    {
+      "id": "mk-s141",
+      "kind": "sentence",
+      "native": [
+        "Тони, слушалките чинат 1800 денари, а доставата е бесплатна."
+      ],
+      "roman": [
+        "Toni, slushalkite chinat 1800 denari, a dostavata e besplatna."
+      ]
+    },
+    {
+      "id": "mk-s142",
+      "kind": "sentence",
+      "native": [
+        "Зелникот од оваа пекарница најбрзо се распродава."
+      ],
+      "roman": [
+        "Zelnikot od ovaa pekarnica najbrzo se rasprodava."
+      ]
+    },
+    {
+      "id": "mk-s143",
+      "kind": "sentence",
+      "native": [
+        "Сопри ја машината, всушност само намали ги вртежите малку."
+      ],
+      "roman": [
+        "Sopri ja mashinata, vsushnost samo namali gi vrtezhite malku."
+      ]
+    },
+    {
+      "id": "mk-s144",
+      "kind": "sentence",
+      "native": [
+        "Клучевите ти се во страничниот џеб од ранецот."
+      ],
+      "roman": [
+        "Kluchevite ti se vo stranichniot djeb od ranecot."
+      ]
+    },
+    {
+      "id": "mk-s145",
+      "kind": "sentence",
+      "native": [
+        "Екипата од Кочани ја заврши монтажата пред рокот."
+      ],
+      "roman": [
+        "Ekipata od Kochani ja zavrshi montazhata pred rokot."
+      ]
+    },
+    {
+      "id": "mk-s146",
+      "kind": "sentence",
+      "native": [
+        "Полицата е широка 80 сантиметри, па стави 4 кутии и остави 10 сантиметри слободен простор."
+      ],
+      "roman": [
+        "Policata e shiroka 80 santimetri, pa stavi 4 kutii i ostavi 10 santimetri sloboden prostor."
+      ]
+    },
+    {
+      "id": "mk-s147",
+      "kind": "sentence",
+      "native": [
+        "Да закажам шишање кај Арбен."
+      ],
+      "roman": [
+        "Da zakazham shishanje kaj Arben."
+      ]
+    },
+    {
+      "id": "mk-s148",
+      "kind": "sentence",
+      "native": [
+        "Какво ќе биде времето во Охрид утре наутро?"
+      ],
+      "roman": [
+        "Kakvo kje bide vremeto vo Ohrid utre nautro?"
+      ]
+    },
+    {
+      "id": "mk-s149",
+      "kind": "sentence",
+      "native": [
+        "Дали Ви се гледа целиот екран или само прозорецот?"
+      ],
+      "roman": [
+        "Dali Vi se gleda celiot ekran ili samo prozorecot?"
+      ]
+    },
+    {
+      "id": "mk-s150",
+      "kind": "sentence",
+      "native": [
+        "Кусурот можете да го задржите."
+      ],
+      "roman": [
+        "Kusurot mozhete da go zadrzhite."
+      ]
+    },
+    {
+      "id": "mk-s151",
+      "kind": "sentence",
+      "native": [
+        "Платив 460 денари, односно толку беше само рамката."
+      ],
+      "roman": [
+        "Plativ 460 denari, odnosno tolku beshe samo ramkata."
+      ]
+    },
+    {
+      "id": "mk-s152",
+      "kind": "sentence",
+      "native": [
+        "Заборавив да ти кажам, фризурата баш ти стои убаво."
+      ],
+      "roman": [
+        "Zaboraviv da ti kazham, frizurata bash ti stoi ubavo."
+      ]
+    },
+    {
+      "id": "mk-s153",
+      "kind": "sentence",
+      "native": [
+        "Фактурата ја внесов во системот."
+      ],
+      "roman": [
+        "Fakturata ja vnesov vo sistemot."
+      ]
+    },
+    {
+      "id": "mk-s154",
+      "kind": "sentence",
+      "native": [
+        "Резултатот остана 2 спрема 1."
+      ],
+      "roman": [
+        "Rezultatot ostana 2 sprema 1."
+      ]
+    },
+    {
+      "id": "mk-s155",
+      "kind": "sentence",
+      "native": [
+        "Забележи дека чадорот е скршен."
+      ],
+      "roman": [
+        "Zabelezhi deka chadorot e skrshen."
+      ]
+    },
+    {
+      "id": "mk-s156",
+      "kind": "sentence",
+      "native": [
+        "Прати ми ја сликата од распоредот за следната недела."
+      ],
+      "roman": [
+        "Prati mi ja slikata od rasporedot za slednata nedela."
+      ]
+    },
+    {
+      "id": "mk-s157",
+      "kind": "sentence",
+      "native": [
+        "Резервирав маса за 5 лица во Крушево на 12 септември, а ќе пристигнеме околу 13:30."
+      ],
+      "roman": [
+        "Rezervirav masa za 5 lica vo Krushevo na 12 septemvri, a kje pristigneme okolu 13:30."
+      ]
+    },
+    {
+      "id": "mk-s158",
+      "kind": "sentence",
+      "native": [
+        "Пакетот ме чека во поштата до петок, само да не заборавам да понесам лична карта."
+      ],
+      "roman": [
+        "Paketot me cheka vo poshtata do petok, samo da ne zaboravam da ponesam lichna karta."
+      ]
+    },
+    {
+      "id": "mk-s159",
+      "kind": "sentence",
+      "native": [
+        "Важи, јас ги носам грицките."
+      ],
+      "roman": [
+        "Vazhi, jas gi nosam grickite."
+      ]
+    },
+    {
+      "id": "mk-s160",
+      "kind": "sentence",
+      "native": [
+        "Можеш ли да ги собереш алиштата од терасата? Почна да дува, а јас сѐ уште патувам."
+      ],
+      "roman": [
+        "Mozhesh li da gi soberesh alishtata od terasata? Pochna da duva, a jas se ushte patuvam."
+      ]
+    },
+    {
+      "id": "mk-s161",
+      "kind": "sentence",
+      "native": [
+        "Извини, телефонот ми беше стишен."
+      ],
+      "roman": [
+        "Izvini, telefonot mi beshe stishen."
+      ]
+    },
+    {
+      "id": "mk-s162",
+      "kind": "sentence",
+      "native": [
+        "Немој да го изедеш последното колаче, знам колку останаа."
+      ],
+      "roman": [
+        "Nemoj da go izedesh poslednoto kolache, znam kolku ostanaa."
+      ]
+    },
+    {
+      "id": "mk-s163",
+      "kind": "sentence",
+      "native": [
+        "Мачката ти го зазеде креветот."
+      ],
+      "roman": [
+        "Machkata ti go zazede krevetot."
+      ]
+    },
+    {
+      "id": "mk-s164",
+      "kind": "sentence",
+      "native": [
+        "Калина, како помина првиот ден на новото работно место?"
+      ],
+      "roman": [
+        "Kalina, kako pomina prviot den na novoto rabotno mesto?"
+      ]
+    }
+  ]
+}

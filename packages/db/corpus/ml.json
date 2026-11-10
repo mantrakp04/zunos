@@ -1,0 +1,1821 @@
+{
+  "lang": "ml",
+  "starter": [
+    "ml-s131",
+    "ml-s113",
+    "ml-s061",
+    "ml-s101",
+    "ml-s045",
+    "ml-s119",
+    "ml-s093",
+    "ml-s126",
+    "ml-s019",
+    "ml-s050",
+    "ml-s046",
+    "ml-s087",
+    "ml-s026",
+    "ml-s029",
+    "ml-s145",
+    "ml-s028",
+    "ml-s077",
+    "ml-s034",
+    "ml-s002",
+    "ml-p08",
+    "ml-s052",
+    "ml-s027",
+    "ml-s083",
+    "ml-s120",
+    "ml-s044",
+    "ml-s135",
+    "ml-s122",
+    "ml-s068",
+    "ml-s055",
+    "ml-s036",
+    "ml-s081",
+    "ml-s018",
+    "ml-s005",
+    "ml-s144",
+    "ml-s141",
+    "ml-s151",
+    "ml-s106",
+    "ml-s057",
+    "ml-p06",
+    "ml-s030",
+    "ml-s154",
+    "ml-s125",
+    "ml-s090",
+    "ml-s143",
+    "ml-s031",
+    "ml-s147",
+    "ml-s056",
+    "ml-s059",
+    "ml-s035",
+    "ml-s049",
+    "ml-s013",
+    "ml-s102",
+    "ml-s110",
+    "ml-s140",
+    "ml-s039",
+    "ml-s094",
+    "ml-s069",
+    "ml-s063"
+  ],
+  "items": [
+    {
+      "id": "ml-p01",
+      "kind": "para",
+      "title": "Our New Kitten",
+      "native": [
+        "നമ്മുടെ തൃപ്പൂണിത്തുറയിലെ വീട്ടിൽ ഇന്നലെ ഒരു പൂച്ചക്കുട്ടി കൂടി വന്നു.",
+        "അനുവിന്റെ വീട്ടിലെ പൂച്ചക്കുട്ടിയെ അമ്മ തന്നെയാണ് കൊണ്ടുവന്നത്.",
+        "കുഞ്ഞിന് മിട്ടു എന്ന് പേരിടാമെന്ന് അപ്പു പറഞ്ഞപ്പോൾ എല്ലാവരും സമ്മതിച്ചു.",
+        "മിട്ടുവിന് വെളുത്ത കാലുകളും വാലിന്റെ അറ്റത്ത് കറുത്ത പുള്ളിയുമുണ്ട്.",
+        "രാവിലെ മുതൽ മിട്ടു സോഫയുടെ അടിയിൽ ഒളിച്ചിരിക്കുകയായിരുന്നു.",
+        "അമ്മ ചെറിയൊരു പന്തുരുട്ടിയപ്പോൾ മിട്ടു പുറത്തേക്ക് ചാടിവന്നു.",
+        "ഇപ്പോൾ എന്റെ ചെരുപ്പിന്റെ വള്ളിയാണ് അവളുടെ ഏറ്റവും പ്രിയപ്പെട്ട കളിപ്പാട്ടം.",
+        "കിടക്കാൻ ഒരു കുട്ടയിൽ അമ്മയുടെ പഴയ മുണ്ട് വിരിച്ചുകൊടുത്തിട്ടുണ്ട്.",
+        "നീ ഞായറാഴ്ച വരുമ്പോൾ മിട്ടുവിനെ നേരിട്ട് കാണാമല്ലോ."
+      ],
+      "roman": [
+        "Nammude Thrippunithurayile veettil innale oru poochakkutti koodi vannu.",
+        "Anuvinte veettile poochakkuttiye amma thanneyaanu konduvannathu.",
+        "Kunjinu Mittu ennu peridaamennu Appu paranjappol ellavarum sammathichu.",
+        "Mittuvinu velutha kaalukalum vaalinte attathu karutha pulliyumundu.",
+        "Raavile muthal Mittu sofayude adiyil olichirikkukayaayirunnu.",
+        "Amma cheriyoru panthuruttiyappol Mittu purathekku chaadivannu.",
+        "Ippol ente cheruppinte valliyaanu avalude ettavum priyappetta kalippaattam.",
+        "Kidakkaan oru kuttayil ammayude pazhaya mundu virichukoduthittundu.",
+        "Nee njayarazhcha varumpol Mittuvine nerittu kaanaamallo."
+      ]
+    },
+    {
+      "id": "ml-p02",
+      "kind": "para",
+      "title": "Client Meeting Follow-Up",
+      "native": [
+        "കാക്കനാട്ടെ ഓഫീസിൽ ഇന്ന് നടന്ന ക്ലയന്റ് മീറ്റിംഗിന്റെ ചുരുക്കം പങ്കുവെക്കുന്നു.",
+        "പുതിയ വെബ്സൈറ്റിന്റെ ആദ്യ രൂപം ക്ലയന്റിന് പൊതുവേ ഇഷ്ടപ്പെട്ടു.",
+        "മെയിൻ പേജിൽ കടയുടെ പ്രവർത്തനസമയം കൂടി ചേർക്കണമെന്ന് അവർ പറഞ്ഞു.",
+        "ഓരോ ഉൽപ്പന്നത്തിന്റെയും ചിത്രങ്ങൾ കുറച്ചുകൂടി വലുതാക്കി കാണിക്കാനും അവർ ആവശ്യപ്പെട്ടിട്ടുണ്ട്.",
+        "വിലവിവരങ്ങൾ അടങ്ങിയ ഫയൽ ക്ലയന്റ് നാളെ രാവിലെ അയക്കും.",
+        "ദീപ ചിത്രങ്ങൾ മാറ്റുകയും നിഖിൽ പുതിയ വിവരങ്ങൾ ചേർക്കുകയും ചെയ്യും.",
+        "പുതുക്കിയ പേജുകൾ വ്യാഴാഴ്ച ഉച്ചയ്ക്ക് മുമ്പ് എല്ലാവരും പരിശോധിക്കണം.",
+        "വെള്ളിയാഴ്ച വൈകിട്ട് 4 മണിക്ക് ക്ലയന്റിന് പുതിയ രൂപം കാണിക്കാം.",
+        "ജോലിയിൽ എന്തെങ്കിലും തടസ്സമുണ്ടെങ്കിൽ ദയവായി ടീം ഗ്രൂപ്പിൽ അറിയിക്കുക."
+      ],
+      "roman": [
+        "Kakkanatte officeil innu nadanna client meetinginte churukkam pankuvekkunnu.",
+        "Puthiya websiteinte aadya roopam clientinu pothuve ishtappettu.",
+        "Main pageil kadayude pravarthanasamayam koodi cherkkanamennu avar paranju.",
+        "Oro ulppannathinteyum chithrangal kurachukoodi valuthaakki kaanikkaanum avar aavashyappettittundu.",
+        "Vilavivarangal adangiya file client naale raavile ayakkum.",
+        "Deepa chithrangal maattukayum Nikhil puthiya vivarangal cherkkukayum cheyyum.",
+        "Puthukkiya pageukal vyaazhaazhcha uchaykku mumpu ellavarum parishodhikkanam.",
+        "Velliyaazhcha vaikittu 4 manikku clientinu puthiya roopam kaanikkaam.",
+        "Joliyil enthenkilum thadassamundenkil dayavaayi team groupil ariyikkuka."
+      ]
+    },
+    {
+      "id": "ml-p03",
+      "kind": "para",
+      "title": "Lunch Went Wrong",
+      "native": [
+        "കഴിഞ്ഞ ശനിയാഴ്ച ആലപ്പുഴയിലെ വീട്ടിൽ ബന്ധുക്കൾക്കായി ഉച്ചഭക്ഷണം ഒരുക്കുകയായിരുന്നു.",
+        "അവിയലും പരിപ്പും പപ്പടവും ചേർന്നൊരു ചെറിയ സദ്യയായിരുന്നു മനസ്സിൽ.",
+        "പരിപ്പ് അടുപ്പിൽ വെച്ചിട്ട് ഞാൻ തേങ്ങ ചിരകാൻ ഇരുന്നു.",
+        "അപ്പോഴാണ് മുറ്റത്തേക്ക് മീനച്ചേച്ചിയും കുട്ടികളും ചിരിച്ചുകൊണ്ട് കയറിവന്നത്.",
+        "വിശേഷം പറയുന്നതിനിടെ അടുക്കളയിൽ നിന്ന് കരിഞ്ഞ മണം വന്നു.",
+        "ഓടിച്ചെന്നു നോക്കിയപ്പോൾ പരിപ്പ് പാത്രത്തിന്റെ അടിയിൽ പിടിച്ചിരുന്നു.",
+        "മീനച്ചേച്ചി ചിരിച്ചുകൊണ്ട് സഞ്ചിയിൽ നിന്ന് മാങ്ങാ അച്ചാർ പുറത്തെടുത്തു.",
+        "അനിയൻ അടുത്ത കടയിൽ നിന്ന് തൈരും പഴവും വാങ്ങിവന്നു.",
+        "ഒടുവിൽ ചോറും അവിയലും തൈരും അച്ചാറും കൂട്ടി എല്ലാവരും സുഖമായി കഴിച്ചു."
+      ],
+      "roman": [
+        "Kazhinja shaniyaazhcha Alappuzhayile veettil bandhukkalkkaayi uchabhakshanam orukkukayaayirunnu.",
+        "Aviyalum parippum pappadavum chernnoru cheriya sadyayaayirunnu manassil.",
+        "Parippu aduppil vechittu njan thenga chirakaan irunnu.",
+        "Appozhaanu muttathekku Meenachechiyum kuttikalum chirichukondu kayarivannathu.",
+        "Vishesham parayunnathinide adukkalayil ninnu karinja manam vannu.",
+        "Odichennu nokkiyappol parippu paathrathinte adiyil pidichirunnu.",
+        "Meenachechi chirichukondu sanchiyil ninnu maanga achaar puratheduthu.",
+        "Aniyan adutha kadayil ninnu thairum pazhavum vaangivannu.",
+        "Oduvil chorum aviyalum thairum achaarum kootti ellavarum sukhamaayi kazhichu."
+      ]
+    },
+    {
+      "id": "ml-p04",
+      "kind": "para",
+      "title": "Balcony Garden Care",
+      "native": [
+        "കോഴിക്കോട്ടെ നമ്മുടെ ഫ്ലാറ്റിന്റെ ബാൽക്കണിയിൽ രാവിലെ നല്ല വെയിൽ കിട്ടും.",
+        "ആദ്യം ഓരോ ചെടിച്ചട്ടിയിലെയും മണ്ണ് വിരലുകൊണ്ട് തൊട്ടുനോക്കൂ.",
+        "മണ്ണ് ഉണങ്ങിയിട്ടുണ്ടെങ്കിൽ മാത്രം ചുവട്ടിൽ കുറേശ്ശെ വെള്ളം ഒഴിക്കണം.",
+        "ചട്ടിയുടെ അടിയിലെ തുളകളിലൂടെ അധികമുള്ള വെള്ളം ഒഴുകിപ്പോകുന്നുണ്ടെന്ന് നോക്കണം.",
+        "തുളസിയും കറിവേപ്പും രാവിലെ വെയിൽ കിട്ടുന്ന ഭാഗത്ത് വെക്കൂ.",
+        "ഉണങ്ങിയ ഇലകൾ എടുത്തുമാറ്റി ചെടികൾക്കിടയിൽ കുറച്ച് ഇടം വിടണം.",
+        "പുതിനയുടെ ചട്ടി ഉച്ചയ്ക്ക് വെയിൽ കുറഞ്ഞ മൂലയിലേക്ക് മാറ്റിവെക്കാം.",
+        "മഴ കനക്കുമ്പോൾ ചെറിയ ചട്ടികൾ ബാൽക്കണിയുടെ ഉള്ളിലേക്ക് നീക്കിവെക്കണം.",
+        "വെള്ളം ഒഴിച്ചുകഴിഞ്ഞാൽ താഴെ വീണ മണ്ണ് അടിച്ചുവാരി വൃത്തിയാക്കണം."
+      ],
+      "roman": [
+        "Kozhikkotte nammude flatinte balconyil raavile nalla veyil kittum.",
+        "Aadyam oro chedichattiyileyum mannu viralukondu thottunokkoo.",
+        "Mannu unangiyittundenkil maathram chuvattil kureshe vellam ozhikkanam.",
+        "Chattiyude adiyile thulakaliloode adhikamulla vellam ozhukippokunnundennu nokkanam.",
+        "Thulasiyum kariveppum raavile veyil kittunna bhaagaththu vekkoo.",
+        "Unangiya ilakal eduthumaatti chedikalkkidayil kurachu idam vidanam.",
+        "Puthinayude chatti uchaykku veyil kuranja moolayilekku maattivekkaam.",
+        "Mazha kanakkumpol cheriya chattikal balconyude ullilekku neekkivekkanam.",
+        "Vellam ozhichukazhinjaal thaazhe veena mannu adichuvaari vrithiyaakkanam."
+      ]
+    },
+    {
+      "id": "ml-p05",
+      "kind": "para",
+      "title": "A Weekend in Vagamon",
+      "native": [
+        "ശനിയാഴ്ച രാവിലെ ഞാനും രമ്യയും വാഗമണിലേക്ക് പോയി.",
+        "ഈരാറ്റുപേട്ട കഴിഞ്ഞ് മല കയറിത്തുടങ്ങിയപ്പോൾ നല്ല തണുത്ത കാറ്റുണ്ടായിരുന്നു.",
+        "താമസിച്ച ചെറിയ ഹോംസ്റ്റേയിലെ മുറിയിൽനിന്ന് പച്ചപ്പുള്ള കുന്നുകൾ നന്നായി കാണാമായിരുന്നു.",
+        "അവിടെ കിട്ടിയ ചൂടുള്ള അപ്പവും മുട്ടക്കറിയും എനിക്ക് ഒരുപാട് ഇഷ്ടപ്പെട്ടു.",
+        "മൊട്ടക്കുന്നുകളിൽ വൈകിട്ട് നടന്നതാണ് ആ യാത്രയിൽ ഏറ്റവും ഇഷ്ടമായത്.",
+        "ഉച്ചയ്ക്ക് റോഡിലെ തിരക്ക് കാരണം കുറച്ച് മടുത്തു.",
+        "എല്ലാ സ്ഥലവും ഓടിനടന്ന് കാണാൻ നോക്കാതിരുന്നത് നല്ല തീരുമാനമായിരുന്നു.",
+        "രണ്ട് ദിവസം മനസ്സമാധാനത്തോടെ ഇരിക്കാൻ ഇതിലും നല്ല സ്ഥലം വേണോ?",
+        "അടുത്ത തവണ തിരക്ക് കുറഞ്ഞ ദിവസമേ അങ്ങോട്ട് പോകൂ."
+      ],
+      "roman": [
+        "Shaniyaazhcha raavile njanum Ramyayum Vagamonilekku poyi.",
+        "Erattupetta kazhinju mala kayarithudangiyappol nalla thanutha kaattundaayirunnu.",
+        "Thaamasicha cheriya homestayile muriyilninnu pachappulla kunnukal nannaayi kaanaamaayirunnu.",
+        "Avide kittiya choodulla appavum muttakkariyum enikku orupaadu ishtappettu.",
+        "Mottakkunnukalil vaikittu nadannathaanu aa yaathrayil ettavum ishtamaayathu.",
+        "Uchaykku roadile thirakku kaaranam kurachu maduthu.",
+        "Ellaa sthalavum odinadannu kaanaan nokkaathirunnathu nalla theerumaanamaayirunnu.",
+        "Randu divasam manassamaadhaanathode irikkaan ithilum nalla sthalam veno?",
+        "Adutha thavana thirakku kuranja divasame angottu pokoo."
+      ]
+    },
+    {
+      "id": "ml-p06",
+      "kind": "para",
+      "title": "Wedding Shopping in Thrissur",
+      "native": [
+        "കീർത്തിയുടെ കല്യാണം 18 ഓഗസ്റ്റ് 2026-നാണ്. വാങ്ങാനുള്ളതൊക്കെ കുറിച്ചുവെക്കാം.",
+        "കല്യാണത്തിന് സാധനങ്ങൾ വാങ്ങാൻ 12 ഓഗസ്റ്റിന് രാവിലെ തൃശ്ശൂരിലെ സ്വരാജ് റൗണ്ടിൽ എത്തണം.",
+        "രാവിലെ 9:30 ആകുമ്പോൾ അമ്മയെയും കൂട്ടി വീട്ടിൽനിന്ന് ഇറങ്ങാം.",
+        "ആദ്യം 3 സാരികൾ വാങ്ങണം, ഒന്നിന് ₹2500 വരെ മാറ്റിവെക്കാം.",
+        "അച്ഛനും ചേട്ടനും ഓരോ മുണ്ട് വാങ്ങാൻ ആകെ ₹2000 കരുതാം.",
+        "ചെരിപ്പിനും ബാഗിനും കൂടി ₹4000 മാറ്റിവെച്ചാൽ മതിയാകും.",
+        "ഉച്ചയ്ക്ക് 1:00 മണിക്ക് ഭക്ഷണം കഴിക്കാം.",
+        "തിരിച്ച് വീട്ടിലേക്ക് 8 കിലോമീറ്ററുണ്ട്. ഓട്ടോയിൽ മടങ്ങാം.",
+        "യാത്രയും ഭക്ഷണവും ഉൾപ്പെടെ ആകെ ചെലവ് ₹15000 കടക്കരുത്."
+      ],
+      "roman": [
+        "Keerthiyude kalyaanam 18 August 2026-naanu. Vaangaanullathokke kurichuvekkaam.",
+        "Kalyaanathinu saadhanangal vaangaan 12 Augustinu raavile Thrissurile Swaraj Roundil eththanam.",
+        "Raavile 9:30 aakumpol ammayeyum kootti veettilninnu irangaam.",
+        "Aadyam 3 saarikal vaanganam, onninu ₹2500 vare maattivekkaam.",
+        "Achhanum chettanum oro mundu vaangaan aake ₹2000 karuthaam.",
+        "Cherippinum baginum koodi ₹4000 maattivechaal mathiyaakum.",
+        "Uchaykku 1:00 manikku bhakshanam kazhikkaam.",
+        "Thirichu veettilekku 8 kilometerundu. Autoyil madangaam.",
+        "Yaathrayum bhakshanavum ulppede aake chelavu ₹15000 kadakkaruthu."
+      ]
+    },
+    {
+      "id": "ml-p07",
+      "kind": "para",
+      "title": "Internet Trouble in Thana",
+      "native": [
+        "നമസ്കാരം, കണ്ണൂർ താണയിലെ വീട്ടിലെ ഇന്റർനെറ്റ് കണക്ഷനെക്കുറിച്ചാണ് വിളിക്കുന്നത്.",
+        "കഴിഞ്ഞ മൂന്ന് ദിവസമായി ഇടയ്ക്കിടെ കണക്ഷൻ പോകുന്നത് വലിയ ബുദ്ധിമുട്ടാണ്.",
+        "വീട്ടിലിരുന്നാണ് ജോലി ചെയ്യുന്നത്. കണക്ഷൻ പോകുമ്പോൾ മീറ്റിംഗുകൾ പലപ്പോഴും മുടങ്ങുന്നു.",
+        "റൗട്ടർ രണ്ട് തവണ റീസ്റ്റാർട്ട് ചെയ്തിട്ടും കാര്യമായ മാറ്റമില്ല.",
+        "വയറുകളെല്ലാം ശരിയായി കണക്റ്റ് ചെയ്തിട്ടുണ്ടോ എന്ന് ഇന്നലെ വീണ്ടും നോക്കി.",
+        "വൈകിട്ട് 6:00 കഴിഞ്ഞാൽ പ്രശ്നം കൂടുന്നുണ്ട്.",
+        "ലൈൻ പരിശോധിക്കാൻ നാളെ രാവിലെ ആരെയെങ്കിലും അയച്ചുതരാൻ പറ്റുമോ?",
+        "വരുന്നതിന് മുമ്പ് ഈ നമ്പറിൽ വിളിച്ച് സമയം അറിയിക്കാമോ?",
+        "പരിശോധനയ്ക്ക് എന്തെങ്കിലും അധിക ചെലവുണ്ടെങ്കിൽ അതും നേരത്തേ അറിയിക്കണേ."
+      ],
+      "roman": [
+        "Namaskaaram, Kannur Thaanayile veettile internet connectionekkurichaanu vilikkunnathu.",
+        "Kazhinja moonnu divasamaayi idaykkide connection pokunnathu valiya buddhimuttaanu.",
+        "Veettilirunnaanu joli cheyyunnathu. Connection pokumpol meetingukal palappozhum mudangunnu.",
+        "Router randu thavana restart cheythittum kaaryamaaya maattamilla.",
+        "Wireukalellaam sheriyaayi connect cheythittundo ennu innale veendum nokki.",
+        "Vaikittu 6:00 kazhinjaal prashnam koodunnundu.",
+        "Line parishodhikkaan naale raavile aareyenkilum ayachutharaan pattumo?",
+        "Varunnathinu mumpu ee numberil vilichu samayam ariyikkaamo?",
+        "Parishodhanaykku enthenkilum adhika chelavundenkil athum nerathe ariyikkane."
+      ]
+    },
+    {
+      "id": "ml-p08",
+      "kind": "para",
+      "title": "Mangalavanam Within the City",
+      "native": [
+        "കൊച്ചി നഗരത്തിന്റെ നടുവിലാണ് മംഗളവനം പക്ഷിസങ്കേതം.",
+        "ഹൈക്കോടതിക്ക് അടുത്തായതുകൊണ്ട് ഇവിടേക്ക് എത്താൻ എളുപ്പമാണ്.",
+        "ഇവിടെ കണ്ടൽച്ചെടികളും ഒരു ചെറിയ കുളവുമുണ്ട്.",
+        "വേലിയേറ്റമുണ്ടാകുമ്പോൾ ഇവിടെ വെള്ളം കൂടും, വേലിയിറങ്ങുമ്പോൾ കുറയും.",
+        "കൊക്കുകളും നീർക്കാക്കകളും ഉൾപ്പെടെ പലതരം പക്ഷികളെ ഇവിടെ കാണാം.",
+        "മിണ്ടാതെ നിന്നാൽ പക്ഷികളുടെ ശബ്ദവും ഇലകളുടെ അനക്കവും കേൾക്കാം.",
+        "നഗരത്തിലെ തിരക്കിൽനിന്ന് ചെറിയൊരു ഇടവേള വേണമെങ്കിൽ ഇവിടെ വരാം.",
+        "പക്ഷികളെ ശല്യപ്പെടുത്താതെ കുറച്ച് അകലെ നിന്ന് കാണുന്നതാണ് നല്ലത്.",
+        "പ്ലാസ്റ്റിക് മാലിന്യം ഇവിടെ വലിച്ചെറിയരുത്."
+      ],
+      "roman": [
+        "Kochi nagarathinte naduvilaanu Mangalavanam pakshisanketham.",
+        "Haikkodathikku aduthaayathukondu ividekku ethaan eluppamaanu.",
+        "Ivide kandalchedikalum oru cheriya kulavumundu.",
+        "Veliyettamundaakumpol ivide vellam koodum, veliyirangumpol kurayum.",
+        "Kokkukalum neerkaakkakalum ulppede palatharam pakshikale ivide kaanaam.",
+        "Mindaathe ninnaal pakshikalude shabdavum ilakalude anakkavum kelkkaam.",
+        "Nagarathile thirakkilninnu cheriyoru idavela venamenkil ivide varaam.",
+        "Pakshikale shalyappeduthaathe kurachu akale ninnu kaanunnathaanu nallathu.",
+        "Plastic maalinyam ivide valicheriyaruthu."
+      ]
+    },
+    {
+      "id": "ml-s001",
+      "kind": "sentence",
+      "native": [
+        "പുതിയ പാസ്‌വേഡ് എനിക്ക് അയക്കേണ്ട, വന്നിട്ട് പറഞ്ഞുതന്നാൽ മതി."
+      ],
+      "roman": [
+        "Puthiya password enikku ayakkenda, vannittu paranjuthannaal mathi."
+      ]
+    },
+    {
+      "id": "ml-s002",
+      "kind": "sentence",
+      "native": [
+        "സഹകരണത്തിന് വളരെ നന്ദി."
+      ],
+      "roman": [
+        "Sahakaranathinu valare nandi."
+      ]
+    },
+    {
+      "id": "ml-s003",
+      "kind": "sentence",
+      "native": [
+        "ബാറ്ററി 18% ബാക്കിയുണ്ട്."
+      ],
+      "roman": [
+        "Battery 18% baakkiyundu."
+      ]
+    },
+    {
+      "id": "ml-s004",
+      "kind": "sentence",
+      "native": [
+        "വാങ്ങാനുള്ള ലിസ്റ്റിൽ തുണി കഴുകുന്ന സോപ്പും ചേർക്കണം."
+      ],
+      "roman": [
+        "Vaangaanulla listil thuni kazhukkunna soapum cherkkanam."
+      ]
+    },
+    {
+      "id": "ml-s005",
+      "kind": "sentence",
+      "native": [
+        "മലയാളം കീബോർഡ് എവിടെ നിന്ന് ഡൗൺലോഡ് ചെയ്യാം?"
+      ],
+      "roman": [
+        "Malayalam keyboard evide ninnu download cheyyaam?"
+      ]
+    },
+    {
+      "id": "ml-s006",
+      "kind": "sentence",
+      "native": [
+        "മൗസ് അനങ്ങുന്നില്ല."
+      ],
+      "roman": [
+        "Mouse anangunnilla."
+      ]
+    },
+    {
+      "id": "ml-s007",
+      "kind": "sentence",
+      "native": [
+        "ഇത്രയും ദൂരം ദിവസവും യാത്ര ചെയ്യുന്നതിനു പകരം ജോലിസ്ഥലത്തിനടുത്ത് ഒരു മുറി നോക്കിയാലോ?"
+      ],
+      "roman": [
+        "Ithrayum dooram divasavum yaathra cheyyunnathinu pakaram jolisthalathinaduthu oru muri nokkiyaalo?"
+      ]
+    },
+    {
+      "id": "ml-s008",
+      "kind": "sentence",
+      "native": [
+        "ചീരക്കെട്ടിന് ₹30 തന്നാൽ പോരേ, പതിവായി വാങ്ങുന്നതല്ലേ?"
+      ],
+      "roman": [
+        "Cheerakkettinu ₹30 thannaal pore, pathivaayi vaangunnathalle?"
+      ]
+    },
+    {
+      "id": "ml-s009",
+      "kind": "sentence",
+      "native": [
+        "ചെറുത് പൊതിഞ്ഞോളൂ, നിൽക്കൂ, വലുതിന് എത്രയാ വില?"
+      ],
+      "roman": [
+        "Cheruthu pothinjoloo, nilkkoo, valuthinu ethrayaa vila?"
+      ]
+    },
+    {
+      "id": "ml-s010",
+      "kind": "sentence",
+      "native": [
+        "അടിപൊളി, കലക്കി!"
+      ],
+      "roman": [
+        "Adipoli, kalakki!"
+      ]
+    },
+    {
+      "id": "ml-s011",
+      "kind": "sentence",
+      "native": [
+        "എനിക്കും കുറച്ച് ചോറ് വെച്ചേക്കണേ."
+      ],
+      "roman": [
+        "Enikkum kurachu choru vechekkane."
+      ]
+    },
+    {
+      "id": "ml-s012",
+      "kind": "sentence",
+      "native": [
+        "ശ്രീജയുടെ ഓഫീസിൽ എത്തിച്ച കസേരകൾ ചെറുതായിപ്പോയി, മാറ്റിത്തരാമോ?"
+      ],
+      "roman": [
+        "Sreejayude officeil eththicha kaserakal cheruthaayippoyi, maattitharaamo?"
+      ]
+    },
+    {
+      "id": "ml-s013",
+      "kind": "sentence",
+      "native": [
+        "ഷർട്ടിന് 38 വേണ്ട, 40 സൈസ് മതി."
+      ],
+      "roman": [
+        "Shirtinu 38 venda, 40 size mathi."
+      ]
+    },
+    {
+      "id": "ml-s014",
+      "kind": "sentence",
+      "native": [
+        "അലമാരയിലെ കടലാസുകൾ അടുക്കാനുണ്ട്."
+      ],
+      "roman": [
+        "Alamaarayile kadalaasukal adukkaanundu."
+      ]
+    },
+    {
+      "id": "ml-s015",
+      "kind": "sentence",
+      "native": [
+        "ഇടിയപ്പം ഉണ്ടാക്കുന്നത് എങ്ങനെയെന്ന് യൂട്യൂബ് തുറന്ന് തിരഞ്ഞു നോക്കൂ."
+      ],
+      "roman": [
+        "Idiyappam undaakkunnathu enganeyennu YouTube thurannu thiranju nokkoo."
+      ]
+    },
+    {
+      "id": "ml-s016",
+      "kind": "sentence",
+      "native": [
+        "പ്രിയയുടെ എക്സൽ ഷീറ്റിൽ ചില പേരുകൾ രണ്ടുതവണ വന്നിട്ടുണ്ട്."
+      ],
+      "roman": [
+        "Priyayude Excel sheetil chila perukal randuthavana vannittundu."
+      ]
+    },
+    {
+      "id": "ml-s017",
+      "kind": "sentence",
+      "native": [
+        "കൂട്ടുകാരി താമസിക്കുന്നത് റെയിൽവേ ഗേറ്റിന് അപ്പുറത്തെ വീട്ടിലാണ്."
+      ],
+      "roman": [
+        "Koottukaari thaamasikkunnathu railway gateinu appurathe veettilaanu."
+      ]
+    },
+    {
+      "id": "ml-s018",
+      "kind": "sentence",
+      "native": [
+        "പെരുന്നാളിന് ആയിഷ ഇത്തവണ മൈലാഞ്ചി ഇട്ടുതരാമെന്ന് ഏറ്റിട്ടുണ്ട്."
+      ],
+      "roman": [
+        "Perunnaalinu Ayisha ithavana mailaanchi ittutharaamennu ettittundu."
+      ]
+    },
+    {
+      "id": "ml-s019",
+      "kind": "sentence",
+      "native": [
+        "ബെന്നിയല്ല, ജോബിയാണ്."
+      ],
+      "roman": [
+        "Bennyalla, Jobiyaanu."
+      ]
+    },
+    {
+      "id": "ml-s020",
+      "kind": "sentence",
+      "native": [
+        "കഴിവ് മാത്രം പോരാ, സ്ഥിരമായി വരച്ചുനോക്കണം. മീരയുടെ ചിത്രം കണ്ടപ്പോൾ എനിക്ക് അതാണ് തോന്നിയത്."
+      ],
+      "roman": [
+        "Kazhivu maathram poraa, sthiramaayi varachunokkanam. Meerayude chithram kandappol enikku athaanu thonniyathu."
+      ]
+    },
+    {
+      "id": "ml-s021",
+      "kind": "sentence",
+      "native": [
+        "ഓണത്തിന് ഇത്തവണ നാട്ടിലുണ്ടെങ്കിൽ എല്ലാവരും കൂടി തറവാട്ടിൽ ഒത്തുകൂടിയാലോ, കുറേ കാലമായില്ലേ?"
+      ],
+      "roman": [
+        "Onathinu ithavana naattilundenkil ellavarum koodi tharavaattil othukoodiyaalo, kure kaalamaayille?"
+      ]
+    },
+    {
+      "id": "ml-s022",
+      "kind": "sentence",
+      "native": [
+        "ക്ഷണം സന്തോഷത്തോടെ സ്വീകരിക്കുന്നു."
+      ],
+      "roman": [
+        "Kshanam santhoshathode sweekarikkunnu."
+      ]
+    },
+    {
+      "id": "ml-s023",
+      "kind": "sentence",
+      "native": [
+        "കേക്ക് 180 ഡിഗ്രിയിൽ 25 മിനിറ്റ് വേവിക്കണം."
+      ],
+      "roman": [
+        "Cake 180 degreeil 25 minute vevikkanam."
+      ]
+    },
+    {
+      "id": "ml-s024",
+      "kind": "sentence",
+      "native": [
+        "വ്യാഴാഴ്ച തൃശ്ശൂരിൽ പുസ്തകമേള തുടങ്ങുമെന്ന് കലണ്ടറിൽ കുറിച്ചിടൂ."
+      ],
+      "roman": [
+        "Vyaazhaazhcha Thrissuril pusthakamela thudangumennu calendaril kurichidoo."
+      ]
+    },
+    {
+      "id": "ml-s025",
+      "kind": "sentence",
+      "native": [
+        "ഇന്നത്തെ തീയതി പറയൂ."
+      ],
+      "roman": [
+        "Innathe theeyathi parayoo."
+      ]
+    },
+    {
+      "id": "ml-s026",
+      "kind": "sentence",
+      "native": [
+        "ടച്ച്പാഡ് ഓഫ് ചെയ്യട്ടെ?"
+      ],
+      "roman": [
+        "Touchpad off cheyyatte?"
+      ]
+    },
+    {
+      "id": "ml-s027",
+      "kind": "sentence",
+      "native": [
+        "ബസ് സ്റ്റോപ്പിനടുത്ത് വണ്ടി വെക്കാൻ സ്ഥലമുണ്ടോ?"
+      ],
+      "roman": [
+        "Bus stopinaduthu vandi vekkaan sthalamundo?"
+      ]
+    },
+    {
+      "id": "ml-s028",
+      "kind": "sentence",
+      "native": [
+        "തേങ്ങ പൊതിച്ചുതന്നാൽ എനിക്ക് പണി കുറയും."
+      ],
+      "roman": [
+        "Thenga pothichuthannaal enikku pani kurayum."
+      ]
+    },
+    {
+      "id": "ml-s029",
+      "kind": "sentence",
+      "native": [
+        "മുട്ട, റവ, പഴം, പിന്നെ തൈരും എടുത്തോളൂ."
+      ],
+      "roman": [
+        "Mutta, rava, pazham, pinne thairum edutholoo."
+      ]
+    },
+    {
+      "id": "ml-s030",
+      "kind": "sentence",
+      "native": [
+        "തലശ്ശേരിയിലെ ബിരിയാണിയുടെ രുചി ഇപ്പോഴും നാവിലുണ്ട്, അത്രയ്ക്ക് ഇഷ്ടപ്പെട്ടു."
+      ],
+      "roman": [
+        "Thalasseryile biriyaniyude ruchi ippozhum naavilundu, athraykku ishtappettu."
+      ]
+    },
+    {
+      "id": "ml-s031",
+      "kind": "sentence",
+      "native": [
+        "സുധേ, നിന്റെ പാർസൽ ഞാൻ കടയിൽ നിന്ന് എടുത്തു."
+      ],
+      "roman": [
+        "Sudhe, ninte parcel njan kadayil ninnu eduthu."
+      ]
+    },
+    {
+      "id": "ml-s032",
+      "kind": "sentence",
+      "native": [
+        "സവിതയ്ക്ക് അയച്ച മെയിലിൽ പഴയ കണക്ക് തിരുത്തിയിട്ടുണ്ട്."
+      ],
+      "roman": [
+        "Savithaykku ayacha mailil pazhaya kanakku thiruthiyittundu."
+      ]
+    },
+    {
+      "id": "ml-s033",
+      "kind": "sentence",
+      "native": [
+        "എന്റെ മുറി 3-ാം നിലയിലാണ്, നമ്പർ 307."
+      ],
+      "roman": [
+        "Ente muri 3-aam nilayilaanu, number 307."
+      ]
+    },
+    {
+      "id": "ml-s034",
+      "kind": "sentence",
+      "native": [
+        "നാളെ ഹന്നയ്ക്ക് പിറന്നാൾ ആശംസ അയക്കാൻ ഓർമ്മിപ്പിക്കണേ."
+      ],
+      "roman": [
+        "Naale Hannaykku pirannaal aashamsa ayakkaan ormippikkane."
+      ]
+    },
+    {
+      "id": "ml-s035",
+      "kind": "sentence",
+      "native": [
+        "ശബ്ദം കുറച്ചുതരൂ."
+      ],
+      "roman": [
+        "Shabdam kurachutharoo."
+      ]
+    },
+    {
+      "id": "ml-s036",
+      "kind": "sentence",
+      "native": [
+        "അപ്ഡേറ്റിന് ശേഷം ആപ്പ് ഇടയ്ക്കിടെ തനിയെ അടഞ്ഞുപോകുന്നു."
+      ],
+      "roman": [
+        "Updateinu shesham app idaykkide thaniye adanjupokunnu."
+      ]
+    },
+    {
+      "id": "ml-s037",
+      "kind": "sentence",
+      "native": [
+        "ഷബീറിന്റെ ബേക്കറിക്ക് മുന്നിൽ ഞാൻ കാത്തുനിൽക്കാം."
+      ],
+      "roman": [
+        "Shabeerinte bakerykku munnil njan kaathunilkkaam."
+      ]
+    },
+    {
+      "id": "ml-s038",
+      "kind": "sentence",
+      "native": [
+        "ഉപ്പ് കുറച്ച് കൂടിപ്പോയി."
+      ],
+      "roman": [
+        "Uppu kurachu koodippoyi."
+      ]
+    },
+    {
+      "id": "ml-s039",
+      "kind": "sentence",
+      "native": [
+        "ചില്ലറ കൈയിലുണ്ടോ?"
+      ],
+      "roman": [
+        "Chillara kaiyilundo?"
+      ]
+    },
+    {
+      "id": "ml-s040",
+      "kind": "sentence",
+      "native": [
+        "മുമ്പൊക്കെ വെറുതെ ഇരുന്നാൽ കുറ്റബോധമായിരുന്നു, ഇപ്പോൾ വിശ്രമിക്കാനും സമയം കണ്ടെത്തണമെന്ന് തോന്നാറുണ്ട്."
+      ],
+      "roman": [
+        "Mumpokke veruthe irunnaal kuttabodhamaayirunnu, ippol vishramikkaanum samayam kandethanamennu thonnaarundu."
+      ]
+    },
+    {
+      "id": "ml-s041",
+      "kind": "sentence",
+      "native": [
+        "ചിരിപ്പിക്കല്ലേ, എല്ലാവരും എന്നെ നോക്കുന്നുണ്ട്, ഞാനിപ്പോൾ പൊട്ടിച്ചിരിക്കും."
+      ],
+      "roman": [
+        "Chirippikkalle, ellavarum enne nokkunnundu, njanippol pottichirikkum."
+      ]
+    },
+    {
+      "id": "ml-s042",
+      "kind": "sentence",
+      "native": [
+        "ചെലവിന്റെ ബില്ലുകൾ ഇന്ന് തന്നെ അപ്‌ലോഡ് ചെയ്താൽ മാത്രമേ ഈ ആഴ്ച പണം കിട്ടൂ."
+      ],
+      "roman": [
+        "Chelavinte billukal innu thanne upload cheythaal maathrame ee aazhcha panam kittoo."
+      ]
+    },
+    {
+      "id": "ml-s043",
+      "kind": "sentence",
+      "native": [
+        "പാൽ 2 ലിറ്ററും പഞ്ചസാര 500 ഗ്രാമും വാങ്ങണം."
+      ],
+      "roman": [
+        "Paal 2 literum panchasaara 500 gramum vaanganam."
+      ]
+    },
+    {
+      "id": "ml-s044",
+      "kind": "sentence",
+      "native": [
+        "മീറ്റർ റീഡിംഗ് കുറിച്ചുവെക്കണം."
+      ],
+      "roman": [
+        "Meter reading kurichuvekkanam."
+      ]
+    },
+    {
+      "id": "ml-s045",
+      "kind": "sentence",
+      "native": [
+        "സഫിയയെ വിളിക്കൂ."
+      ],
+      "roman": [
+        "Safiyaye vilikkoo."
+      ]
+    },
+    {
+      "id": "ml-s046",
+      "kind": "sentence",
+      "native": [
+        "സുജിത്തേ, ഡെമോ തുടങ്ങുമ്പോൾ മൈക്ക് മ്യൂട്ട് ചെയ്യണേ."
+      ],
+      "roman": [
+        "Sujithe, demo thudangumpol mic mute cheyyane."
+      ]
+    },
+    {
+      "id": "ml-s047",
+      "kind": "sentence",
+      "native": [
+        "കട ഇന്നും തുറന്നില്ലേ?"
+      ],
+      "roman": [
+        "Kada innum thurannille?"
+      ]
+    },
+    {
+      "id": "ml-s048",
+      "kind": "sentence",
+      "native": [
+        "ഗ്യാസ് കൊണ്ടുവരുന്നയാൾ എത്തിയാൽ അടുക്കളവാതിൽ തുറന്നുകൊടുക്കണേ, ഒഴിഞ്ഞ കുറ്റി പുറത്തു വെച്ചിട്ടുണ്ട്."
+      ],
+      "roman": [
+        "Gas konduvarunnayaal ethiyaal adukkalavaathil thurannukodukkane, ozhinja kutti purathu vechittundu."
+      ]
+    },
+    {
+      "id": "ml-s049",
+      "kind": "sentence",
+      "native": [
+        "എനിക്ക് പച്ച നിറം മതി."
+      ],
+      "roman": [
+        "Enikku pacha niram mathi."
+      ]
+    },
+    {
+      "id": "ml-s050",
+      "kind": "sentence",
+      "native": [
+        "അനൂപേ, ആദ്യത്തെ ശ്രമമല്ലേ, പതുക്കെ എല്ലാം പഠിച്ചെടുക്കാം."
+      ],
+      "roman": [
+        "Anoope, aadyathe shramamalle, pathukke ellaam padichedukkaam."
+      ]
+    },
+    {
+      "id": "ml-s051",
+      "kind": "sentence",
+      "native": [
+        "ഫൈസലേ, ഞായറാഴ്ച ബാഡ്മിന്റൺ കളിക്കാൻ വരുന്നുണ്ടെങ്കിൽ ഒരു റാക്കറ്റ് കൂടി കൊണ്ടുവരണേ."
+      ],
+      "roman": [
+        "Faisale, njayarazhcha badminton kalikkaan varunnundenkil oru racket koodi konduvarane."
+      ]
+    },
+    {
+      "id": "ml-s052",
+      "kind": "sentence",
+      "native": [
+        "നമസ്കാരം, ഒരു കാര്യം ചോദിക്കാനുണ്ട്."
+      ],
+      "roman": [
+        "Namaskaaram, oru kaaryam chodikkanundu."
+      ]
+    },
+    {
+      "id": "ml-s053",
+      "kind": "sentence",
+      "native": [
+        "സ്കോർ 42 ആയി."
+      ],
+      "roman": [
+        "Score 42 aayi."
+      ]
+    },
+    {
+      "id": "ml-s054",
+      "kind": "sentence",
+      "native": [
+        "ചെരുപ്പ് നന്നാക്കാൻ കൊടുക്കണം."
+      ],
+      "roman": [
+        "Cheruppu nannaakkaan kodukkanam."
+      ]
+    },
+    {
+      "id": "ml-s055",
+      "kind": "sentence",
+      "native": [
+        "സ്ക്രീനിലെ അക്ഷരങ്ങളുടെ വലുപ്പം കുറച്ചുകൂടി കൂട്ടാൻ പറ്റുമോ?"
+      ],
+      "roman": [
+        "Screenile aksharangalude valuppam kurachukoodi koottaan pattumo?"
+      ]
+    },
+    {
+      "id": "ml-s056",
+      "kind": "sentence",
+      "native": [
+        "ടെക്നോപാർക്കിലെ പുതിയ കെട്ടിടത്തിൽ മൊബൈൽ റേഞ്ച് തീരെ കുറവാണ്."
+      ],
+      "roman": [
+        "Technoparkile puthiya kettidathil mobile range theere kuravaanu."
+      ]
+    },
+    {
+      "id": "ml-s057",
+      "kind": "sentence",
+      "native": [
+        "മഴയായതുകൊണ്ട് പതിവിലും നേരത്തേ ഓഫീസിലേക്ക് ഇറങ്ങി."
+      ],
+      "roman": [
+        "Mazhayaayathukondu pathivilum nerathe officeilekku irangi."
+      ]
+    },
+    {
+      "id": "ml-s058",
+      "kind": "sentence",
+      "native": [
+        "കായംകുളത്തെ അക്ഷയ കേന്ദ്രത്തിൽ ഫോട്ടോ എടുക്കാൻ സൗകര്യമുണ്ടോ?"
+      ],
+      "roman": [
+        "Kayamkulathe Akshaya kendrathil photo edukkaan saukaryamundo?"
+      ]
+    },
+    {
+      "id": "ml-s059",
+      "kind": "sentence",
+      "native": [
+        "ചൊവ്വാഴ്ച കാണാം, അല്ല, വെള്ളിയാഴ്ചയാക്കാം, അന്നാണ് ഒഴിവ്."
+      ],
+      "roman": [
+        "Chovvaazhcha kaanaam, alla, velliyaazhchayaakkaam, annaanu ozhivu."
+      ]
+    },
+    {
+      "id": "ml-s060",
+      "kind": "sentence",
+      "native": [
+        "ക്ഷമിക്കണം, കേട്ടില്ല."
+      ],
+      "roman": [
+        "Kshamikkanam, kettilla."
+      ]
+    },
+    {
+      "id": "ml-s061",
+      "kind": "sentence",
+      "native": [
+        "നിഖിലേ, ഞായറാഴ്ച നിന്റെ സൈക്കിൾ കുറച്ചുനേരം തരാമോ?"
+      ],
+      "roman": [
+        "Nikhile, njayarazhcha ninte cycle kurachuneram tharaamo?"
+      ]
+    },
+    {
+      "id": "ml-s062",
+      "kind": "sentence",
+      "native": [
+        "കോഴിക്കോട് ശാഖയിലെ പ്രിന്റർ നന്നാക്കാൻ ടെക്നീഷ്യൻ വരും, ആരെങ്കിലും അവിടെ ഉണ്ടാകുമോ?"
+      ],
+      "roman": [
+        "Kozhikode shaakhayile printer nannaakkaan technician varum, aarenkilum avide undaakumo?"
+      ]
+    },
+    {
+      "id": "ml-s063",
+      "kind": "sentence",
+      "native": [
+        "ഡിസംബർ 12-ന് പുറപ്പെടുന്ന ട്രെയിനിൽ എനിക്ക് 28-ാം സീറ്റ് ബുക്ക് ചെയ്യണം."
+      ],
+      "roman": [
+        "December 12-nu purappedunna trainil enikku 28-aam seat book cheyyanam."
+      ]
+    },
+    {
+      "id": "ml-s064",
+      "kind": "sentence",
+      "native": [
+        "ബുധനാഴ്ച ഉച്ചയ്ക്ക് സ്കൂളിൽ നിന്ന് ഇഷാനിയെ കൂട്ടിക്കൊണ്ടുവരേണ്ടത് ഞാനാണെന്ന് കലണ്ടറിൽ ചേർക്കൂ."
+      ],
+      "roman": [
+        "Budhanaazhcha uchaykku schoolil ninnu Ishaniye koottikkonduvarendathu njanaanennu calendaril cherkkoo."
+      ]
+    },
+    {
+      "id": "ml-s065",
+      "kind": "sentence",
+      "native": [
+        "പാട്ട് ഒന്ന് നിർത്തൂ."
+      ],
+      "roman": [
+        "Paattu onnu nirthoo."
+      ]
+    },
+    {
+      "id": "ml-s066",
+      "kind": "sentence",
+      "native": [
+        "അക്കൗണ്ട് ലോക്കായി."
+      ],
+      "roman": [
+        "Account lockaayi."
+      ]
+    },
+    {
+      "id": "ml-s067",
+      "kind": "sentence",
+      "native": [
+        "മിനി ചേച്ചിയുടെ വീട്ടിലേക്കുള്ള ഇടവഴി ഇടുങ്ങിയതാണ്, വലിയ കാർ അതിലൂടെ കൊണ്ടുപോകാൻ പറ്റില്ല."
+      ],
+      "roman": [
+        "Mini chechiyude veettilekkulla idavazhi idungiyathaanu, valiya car athiloode kondupokaan pattilla."
+      ]
+    },
+    {
+      "id": "ml-s068",
+      "kind": "sentence",
+      "native": [
+        "പൈപ്പ് വീണ്ടും ചോരുന്നുണ്ട്."
+      ],
+      "roman": [
+        "Pipe veendum chorunnundu."
+      ]
+    },
+    {
+      "id": "ml-s069",
+      "kind": "sentence",
+      "native": [
+        "വേറെ കപ്പില്ലേ?"
+      ],
+      "roman": [
+        "Vere cupille?"
+      ]
+    },
+    {
+      "id": "ml-s070",
+      "kind": "sentence",
+      "native": [
+        "ഭാരമുള്ള പെട്ടി എടുത്തുതന്നത് വലിയ സഹായമായി, നന്ദി."
+      ],
+      "roman": [
+        "Bhaaramulla petti eduthuthannathu valiya sahaayamaayi, nandi."
+      ]
+    },
+    {
+      "id": "ml-s071",
+      "kind": "sentence",
+      "native": [
+        "ഉറങ്ങാൻ കിടക്കുന്നതിന് മുമ്പ് അടുക്കളയിലെ ജനൽ അടച്ചേക്കണേ, പൂച്ച വീണ്ടും അകത്ത് കയറും."
+      ],
+      "roman": [
+        "Urangaan kidakkunnathinu mumpu adukkalayile janal adachekkane, poocha veendum akathu kayarum."
+      ]
+    },
+    {
+      "id": "ml-s072",
+      "kind": "sentence",
+      "native": [
+        "ഇനിമുതൽ ഉച്ചയ്ക്കും കട തുറന്നിരിക്കും, ഇടവേള ഉണ്ടാകില്ല."
+      ],
+      "roman": [
+        "Inimuthal uchaykkum kada thurannirikkum, idavela undaakilla."
+      ]
+    },
+    {
+      "id": "ml-s073",
+      "kind": "sentence",
+      "native": [
+        "മീറ്റിംഗ് ഉച്ചയ്ക്ക് 2:45-ലേക്ക് മാറ്റാമോ? 4 പേർ വൈകും."
+      ],
+      "roman": [
+        "Meeting uchchaykku 2:45-lekku maattaamo? 4 per vaikum."
+      ]
+    },
+    {
+      "id": "ml-s074",
+      "kind": "sentence",
+      "native": [
+        "പഴയ ഫോണിലെ നമ്പറുകൾ പുതിയ ഫോണിലേക്ക് മാറ്റിയ ശേഷം മാത്രം അത് കൊടുത്താൽ മതി."
+      ],
+      "roman": [
+        "Pazhaya phoneile numberukal puthiya phoneilekku maattiya shesham maathram athu koduthaal mathi."
+      ]
+    },
+    {
+      "id": "ml-s075",
+      "kind": "sentence",
+      "native": [
+        "ആലുവ മണപ്പുറത്തേക്ക് പോകാനുള്ള വഴി മാപ്പിൽ കാണിക്കൂ."
+      ],
+      "roman": [
+        "Aluva Manappurathekku pokaanulla vazhi mapil kaanikkoo."
+      ]
+    },
+    {
+      "id": "ml-s076",
+      "kind": "sentence",
+      "native": [
+        "മീറ്റിംഗിന്റെ റെക്കോർഡിംഗ് കാണാൻ ഞങ്ങളുടെ ടീമിലുള്ള എല്ലാവർക്കും അനുമതി കൊടുക്കാൻ പറ്റുമോ?"
+      ],
+      "roman": [
+        "Meetinginte recording kaanaan njangalude teamilulla ellaavarkkum anumathi kodukkaan pattumo?"
+      ]
+    },
+    {
+      "id": "ml-s077",
+      "kind": "sentence",
+      "native": [
+        "അച്ഛൻ സ്റ്റേഷനിലുണ്ട്."
+      ],
+      "roman": [
+        "Achan stationilundu."
+      ]
+    },
+    {
+      "id": "ml-s078",
+      "kind": "sentence",
+      "native": [
+        "റീനയുടെ കല്യാണത്തിന് ഉടുക്കാനുള്ള സാരി തേച്ചുവെച്ചിട്ടുണ്ട്, വളകൾ എവിടെ വെച്ചെന്ന് മാത്രം ഓർമ്മയില്ല."
+      ],
+      "roman": [
+        "Reenayude kalyaanathinu udukkaanulla saari thechuvechittundu, valakal evide vechennu maathram ormayilla."
+      ]
+    },
+    {
+      "id": "ml-s079",
+      "kind": "sentence",
+      "native": [
+        "₹120 അല്ല, ₹140 ആണ് ആകെ, കൂട്ടിയത് തെറ്റി."
+      ],
+      "roman": [
+        "₹120 alla, ₹140 aanu aake, koottiyathu thetti."
+      ]
+    },
+    {
+      "id": "ml-s080",
+      "kind": "sentence",
+      "native": [
+        "ഇത്ര ചെറിയ കാര്യത്തിനും മണിക്കൂറുകളോളം കാത്തിരിക്കേണ്ടിവരുന്നത് കഷ്ടമാണ്."
+      ],
+      "roman": [
+        "Ithra cheriya kaaryathinum manikkoorukalolam kaathirikkendivarunnathu kashtamaanu."
+      ]
+    },
+    {
+      "id": "ml-s081",
+      "kind": "sentence",
+      "native": [
+        "അമ്മയുടെ കണ്ണട മേശപ്പുറത്തുണ്ട്, ബാഗിൽ നോക്കേണ്ട കാര്യമില്ല."
+      ],
+      "roman": [
+        "Ammayude kannada meshappurathundu, bagil nokkenda kaaryamilla."
+      ]
+    },
+    {
+      "id": "ml-s082",
+      "kind": "sentence",
+      "native": [
+        "മറുപടി വൈകിയതിൽ ക്ഷമിക്കണം."
+      ],
+      "roman": [
+        "Marupadi vaikiyathil kshamikkanam."
+      ]
+    },
+    {
+      "id": "ml-s083",
+      "kind": "sentence",
+      "native": [
+        "തിങ്കളാഴ്ച രാവിലെ 8:15-ന് ക്ലാസ് തുടങ്ങും."
+      ],
+      "roman": [
+        "Thinkalaazhcha raavile 8:15-nu class thudangum."
+      ]
+    },
+    {
+      "id": "ml-s084",
+      "kind": "sentence",
+      "native": [
+        "ഇസ്തിരിപ്പെട്ടി ഓഫ് ചെയ്യാൻ ഓർമ്മിപ്പിക്കണം."
+      ],
+      "roman": [
+        "Isthirippetti off cheyyaan ormippikkanam."
+      ]
+    },
+    {
+      "id": "ml-s085",
+      "kind": "sentence",
+      "native": [
+        "മാനാഞ്ചിറയിലെ ലൈബ്രറി ശനിയാഴ്ച എത്ര മണി വരെ തുറന്നിരിക്കും?"
+      ],
+      "roman": [
+        "Mananchirayile library shaniyaazhcha ethra mani vare thurannirikkum?"
+      ]
+    },
+    {
+      "id": "ml-s086",
+      "kind": "sentence",
+      "native": [
+        "ബ്രൗസറിലെ പരസ്യങ്ങൾ കാരണം വാർത്ത വായിക്കാൻ പറ്റുന്നില്ല."
+      ],
+      "roman": [
+        "Browserile parasyangal kaaranam vaartha vaayikkaan pattunnilla."
+      ]
+    },
+    {
+      "id": "ml-s087",
+      "kind": "sentence",
+      "native": [
+        "അങ്കമാലിയിൽ ബസ് നിർത്തുമോ?"
+      ],
+      "roman": [
+        "Angamalyil bus nirthumo?"
+      ]
+    },
+    {
+      "id": "ml-s088",
+      "kind": "sentence",
+      "native": [
+        "മാങ്ങയ്ക്ക് പുളിയുണ്ടോ?"
+      ],
+      "roman": [
+        "Maangaykku puliyundo?"
+      ]
+    },
+    {
+      "id": "ml-s089",
+      "kind": "sentence",
+      "native": [
+        "പരിപാടിക്ക് വരാമെന്ന് പറഞ്ഞേക്ക്. അല്ല, അന്നല്ലേ സ്കൂളിൽ പാരന്റ്സ് മീറ്റിംഗ് ഉള്ളത്?"
+      ],
+      "roman": [
+        "Paripaadikku varaamennu paranjekku. Alla, annalle schoolil parents meeting ullathu?"
+      ]
+    },
+    {
+      "id": "ml-s090",
+      "kind": "sentence",
+      "native": [
+        "ശരി, നീ ജയിച്ചു!"
+      ],
+      "roman": [
+        "Sheri, nee jayichu!"
+      ]
+    },
+    {
+      "id": "ml-s091",
+      "kind": "sentence",
+      "native": [
+        "രേഷ്മയുടെ ഡിസൈൻ നന്നായിട്ടുണ്ട്, നിറം മാത്രം മാറ്റിയാൽ മതി."
+      ],
+      "roman": [
+        "Reshmayude design nannaayittundu, niram maathram maattiyaal mathi."
+      ]
+    },
+    {
+      "id": "ml-s092",
+      "kind": "sentence",
+      "native": [
+        "ശനിയാഴ്ച രാവിലെ 10:30-ന് സാധനങ്ങൾ ഈ വിലാസത്തിൽ എത്തിക്കണം: വീട് 16, പള്ളിക്കുന്ന്, കണ്ണൂർ."
+      ],
+      "roman": [
+        "Shaniyaazhcha raavile 10:30-nu saadhanangal ee vilaasathil ethikkanam: veedu 16, Pallikkunnu, Kannur."
+      ]
+    },
+    {
+      "id": "ml-s093",
+      "kind": "sentence",
+      "native": [
+        "ഇന്റർനെറ്റ് ബിൽ അടയ്ക്കേണ്ട അവസാന ദിവസം നോക്കണം."
+      ],
+      "roman": [
+        "Internet bill adaykkenda avasaana divasam nokkanam."
+      ]
+    },
+    {
+      "id": "ml-s094",
+      "kind": "sentence",
+      "native": [
+        "7 മിനിറ്റിന് ഒരു ടൈമർ വെക്കൂ."
+      ],
+      "roman": [
+        "7 minuteinu oru timer vekkoo."
+      ]
+    },
+    {
+      "id": "ml-s095",
+      "kind": "sentence",
+      "native": [
+        "സന്തോഷേ, കടയിലെ കണക്ക് സൂക്ഷിക്കാൻ ഇന്റർനെറ്റ് ഇല്ലാതെയും ഉപയോഗിക്കാവുന്ന ഒരു ആപ്പ് പറഞ്ഞുതരാമോ?"
+      ],
+      "roman": [
+        "Santhoshe, kadayile kanakku sookshikkaan internet illaatheyum upayogikkaavunna oru app paranjutharaamo?"
+      ]
+    },
+    {
+      "id": "ml-s096",
+      "kind": "sentence",
+      "native": [
+        "വടകരയിൽ ഇറങ്ങുമ്പോൾ ആ നീല ബാഗും എടുത്തോളൂ, മുകളിലെ തട്ടിലാണ് വെച്ചിരിക്കുന്നത്."
+      ],
+      "roman": [
+        "Vadakarayil irangumpol aa neela bagum edutholoo, mukalile thattilaanu vechirikkunnathu."
+      ]
+    },
+    {
+      "id": "ml-s097",
+      "kind": "sentence",
+      "native": [
+        "പൊതിയാനുള്ള കടലാസ് തീർന്നെങ്കിൽ സമ്മാനം ആ തുണിസഞ്ചിയിൽ ഇട്ടുതരൂ, വേറെ കവറൊന്നും വേണ്ട."
+      ],
+      "roman": [
+        "Pothiyaanulla kadalaas theernnenkil sammaanam aa thunisanchiyil ittutharoo, vere coveronnum venda."
+      ]
+    },
+    {
+      "id": "ml-s098",
+      "kind": "sentence",
+      "native": [
+        "ചക്കവരട്ടിയും ഉണ്ണിയപ്പവും ഓരോ പൊതി തരൂ. അല്ല, ഉണ്ണിയപ്പം മാത്രം മതിയെന്നാ വീട്ടിൽ പറഞ്ഞത്."
+      ],
+      "roman": [
+        "Chakkavarattiyum unniyappavum oro pothi tharoo. Alla, unniyappam maathram mathiyennaa veettil paranjathu."
+      ]
+    },
+    {
+      "id": "ml-s099",
+      "kind": "sentence",
+      "native": [
+        "കടലാസ് കൊണ്ട് പൂവുണ്ടാക്കുന്നത് എനിക്കും പഠിക്കണം, അടുത്ത തവണ എന്നെയും വിളിക്കണേ."
+      ],
+      "roman": [
+        "Kadalaas kondu poovundaakkunnathu enikkum padikkanam, adutha thavana enneyum vilikkane."
+      ]
+    },
+    {
+      "id": "ml-s100",
+      "kind": "sentence",
+      "native": [
+        "കോട്ടയത്തെ ഗോഡൗണിൽ കറന്റ് ഇല്ലാത്തതിനാൽ ചരക്ക് കയറ്റാൻ വൈകും, ഡ്രൈവറെ വിവരം അറിയിച്ചിട്ടുണ്ട്."
+      ],
+      "roman": [
+        "Kottayathe godownil current illaathathinaal charakku kayattaan vaikum, drivere vivaram ariyichittundu."
+      ]
+    },
+    {
+      "id": "ml-s101",
+      "kind": "sentence",
+      "native": [
+        "ടിക്കറ്റിന് ₹85 ആയി."
+      ],
+      "roman": [
+        "Ticketinu ₹85 aayi."
+      ]
+    },
+    {
+      "id": "ml-s102",
+      "kind": "sentence",
+      "native": [
+        "അടപ്രഥമന് ശർക്കര വാങ്ങണം."
+      ],
+      "roman": [
+        "Adapradhamanu sharkkara vaanganam."
+      ]
+    },
+    {
+      "id": "ml-s103",
+      "kind": "sentence",
+      "native": [
+        "തിരുവനന്തപുരത്ത് നിന്ന് കോട്ടയത്തേക്ക് രാവിലെ പുറപ്പെടുന്ന ആദ്യത്തെ ട്രെയിൻ എത്ര മണിക്കാണ്?"
+      ],
+      "roman": [
+        "Thiruvananthapurathu ninnu Kottayathekku raavile purappedunna aadyathe train ethra manikkaanu?"
+      ]
+    },
+    {
+      "id": "ml-s104",
+      "kind": "sentence",
+      "native": [
+        "സേവ് ചെയ്യാതെ അടച്ചതുകൊണ്ട് എഴുതിയതെല്ലാം പോയി."
+      ],
+      "roman": [
+        "Save cheyyaathe adachathukondu ezhuthiyathellaam poyi."
+      ]
+    },
+    {
+      "id": "ml-s105",
+      "kind": "sentence",
+      "native": [
+        "രമ്യ എത്താറായോ?"
+      ],
+      "roman": [
+        "Ramya ethaaraayo?"
+      ]
+    },
+    {
+      "id": "ml-s106",
+      "kind": "sentence",
+      "native": [
+        "കണക്കുപുസ്തകം കുട്ടിയുടെ സഞ്ചിയിൽ വെച്ചിട്ടുണ്ടോ എന്ന് നോക്കണേ."
+      ],
+      "roman": [
+        "Kanakkupusthakam kuttiyude sanchiyil vechittundo ennu nokkane."
+      ]
+    },
+    {
+      "id": "ml-s107",
+      "kind": "sentence",
+      "native": [
+        "സോറി, മലപ്പുറമല്ല, പെരിന്തൽമണ്ണ എന്നാണ് പറയാൻ വന്നത്."
+      ],
+      "roman": [
+        "Sorry, Malappuramalla, Perinthalmanna ennaanu parayaan vannathu."
+      ]
+    },
+    {
+      "id": "ml-s108",
+      "kind": "sentence",
+      "native": [
+        "ഉറക്കം വരുന്നുണ്ടോ?"
+      ],
+      "roman": [
+        "Urakkam varunnundo?"
+      ]
+    },
+    {
+      "id": "ml-s109",
+      "kind": "sentence",
+      "native": [
+        "ജോലിയിൽ പുതുതായി ചേർന്നയാൾക്ക് കമ്പ്യൂട്ടർ കിട്ടിയോ എന്ന് അന്വേഷിക്കാമോ?"
+      ],
+      "roman": [
+        "Joliyil puthuthaayi chernnayaalkku computer kittiyo ennu anweshikkaamo?"
+      ]
+    },
+    {
+      "id": "ml-s110",
+      "kind": "sentence",
+      "native": [
+        "നീളം 90 സെന്റിമീറ്ററാണ്."
+      ],
+      "roman": [
+        "Neelam 90 centimeteraanu."
+      ]
+    },
+    {
+      "id": "ml-s111",
+      "kind": "sentence",
+      "native": [
+        "ചെടികൾക്ക് ഇന്ന് വളമിട്ടെന്ന് കുറിച്ചിടൂ."
+      ],
+      "roman": [
+        "Chedikalkku innu valamittennu kurichidoo."
+      ]
+    },
+    {
+      "id": "ml-s112",
+      "kind": "sentence",
+      "native": [
+        "പാലക്കാട്ട് ഇന്ന് വൈകുന്നേരം മഴ പെയ്യാൻ സാധ്യതയുണ്ടോ?"
+      ],
+      "roman": [
+        "Palakkattu innu vaikunneram mazha peyyaan saadhyathayundo?"
+      ]
+    },
+    {
+      "id": "ml-s113",
+      "kind": "sentence",
+      "native": [
+        "ഡാർക്ക് മോഡ് ഇഷ്ടമാണ്."
+      ],
+      "roman": [
+        "Dark mode ishtamaanu."
+      ]
+    },
+    {
+      "id": "ml-s114",
+      "kind": "sentence",
+      "native": [
+        "ഓട്ടോക്കാരനോട് അടുത്ത ജങ്ഷനിൽ ഇറക്കാൻ പറഞ്ഞിട്ടുണ്ട്."
+      ],
+      "roman": [
+        "Autokaaranodu adutha junctionil irakkaan paranjittundu."
+      ]
+    },
+    {
+      "id": "ml-s115",
+      "kind": "sentence",
+      "native": [
+        "സലൂണിൽ മുടി വെട്ടാൻ വൈകിട്ട് ഒഴിവുണ്ടോ എന്ന് ചോദിക്കാമോ?"
+      ],
+      "roman": [
+        "Saloonil mudi vettaan vaikittu ozhivundo ennu chodikkaamo?"
+      ]
+    },
+    {
+      "id": "ml-s116",
+      "kind": "sentence",
+      "native": [
+        "ജാനകിക്ക് കൊടുത്തേക്കൂ, അല്ലെങ്കിൽ ഞാനങ്ങോട്ട് കൊണ്ടുപോകാം."
+      ],
+      "roman": [
+        "Janakikku koduthekkoo, allenkil njanangottu kondupokaam."
+      ]
+    },
+    {
+      "id": "ml-s117",
+      "kind": "sentence",
+      "native": [
+        "ഞാനും കൂടട്ടെ?"
+      ],
+      "roman": [
+        "Njanum koodatte?"
+      ]
+    },
+    {
+      "id": "ml-s118",
+      "kind": "sentence",
+      "native": [
+        "പണം അയച്ചിട്ടുണ്ട്, നിങ്ങളുടെ ഫോണിൽ ഇനിയും കാണിക്കുന്നില്ലേ?"
+      ],
+      "roman": [
+        "Panam ayachittundu, ningalude phoneil iniyum kaanikkunnille?"
+      ]
+    },
+    {
+      "id": "ml-s119",
+      "kind": "sentence",
+      "native": [
+        "അഡ്വാൻസ് ₹750 കൊടുത്തു."
+      ],
+      "roman": [
+        "Advance ₹750 koduthu."
+      ]
+    },
+    {
+      "id": "ml-s120",
+      "kind": "sentence",
+      "native": [
+        "അടുത്ത മാസം ലൈബ്രറി അംഗത്വം പുതുക്കാൻ മറക്കരുത്."
+      ],
+      "roman": [
+        "Adutha maasam library angathwam puthukkaan marakkaruthu."
+      ]
+    },
+    {
+      "id": "ml-s121",
+      "kind": "sentence",
+      "native": [
+        "ഇംഗ്ലീഷിലുള്ള ഈ മെയിൽ വായിച്ച് അതിലെ പ്രധാന കാര്യങ്ങൾ മലയാളത്തിൽ ചുരുക്കി പറഞ്ഞുതരൂ."
+      ],
+      "roman": [
+        "Englishilulla ee mail vaayichu athile pradhaana kaaryangal Malayalathil churukki paranjutharoo."
+      ]
+    },
+    {
+      "id": "ml-s122",
+      "kind": "sentence",
+      "native": [
+        "അഞ്ജലി ഷെയർ ചെയ്ത ഫോൾഡറിൽ എനിക്കും ഫോട്ടോകൾ ചേർക്കാൻ കഴിഞ്ഞു."
+      ],
+      "roman": [
+        "Anjali share cheytha folderil enikkum photokal cherkkaan kazhinju."
+      ]
+    },
+    {
+      "id": "ml-s123",
+      "kind": "sentence",
+      "native": [
+        "അവിടത്തെ ചായക്കടയിൽ വെച്ചാണ് ഞങ്ങൾ ആദ്യം പരിചയപ്പെട്ടത്."
+      ],
+      "roman": [
+        "Avidathe chaayakkadayil vechaanu njangal aadyam parichayappettathu."
+      ]
+    },
+    {
+      "id": "ml-s124",
+      "kind": "sentence",
+      "native": [
+        "കുടയാകെ നനഞ്ഞല്ലോ."
+      ],
+      "roman": [
+        "Kudayaake nananjallo."
+      ]
+    },
+    {
+      "id": "ml-s125",
+      "kind": "sentence",
+      "native": [
+        "കളിപ്പാട്ടം താഴെയുള്ള അറയിൽ വെച്ചോളൂ, കുട്ടിക്ക് എടുക്കാൻ പറ്റണം."
+      ],
+      "roman": [
+        "Kalippaattam thaazheyulla arayil vecholoo, kuttikku edukkaan pattanam."
+      ]
+    },
+    {
+      "id": "ml-s126",
+      "kind": "sentence",
+      "native": [
+        "വൈറ്റിലയിൽ ഇറങ്ങിയിട്ട് ഒരു മെസേജ് അയച്ചാൽ മതി."
+      ],
+      "roman": [
+        "Vyttilayil irangiyittu oru message ayachaal mathi."
+      ]
+    },
+    {
+      "id": "ml-s127",
+      "kind": "sentence",
+      "native": [
+        "ബജറ്റിന് അനുമതി കിട്ടി."
+      ],
+      "roman": [
+        "Budgetinu anumathi kitti."
+      ]
+    },
+    {
+      "id": "ml-s128",
+      "kind": "sentence",
+      "native": [
+        "മഞ്ചേരിയിലേക്ക് ഇവിടെനിന്ന് 18 കിലോമീറ്റർ കൂടി പോകണം."
+      ],
+      "roman": [
+        "Manjeriyilekku ivideninnu 18 kilometer koodi pokanam."
+      ]
+    },
+    {
+      "id": "ml-s129",
+      "kind": "sentence",
+      "native": [
+        "ഓൺലൈനിൽ കണ്ട മേശയുടെ അളവ് കുറിച്ചിട്ട് മുറിയിൽ അത്രയും സ്ഥലം ഉണ്ടോ എന്ന് നോക്കണം."
+      ],
+      "roman": [
+        "Onlineil kanda meshayude alavu kurichittu muriyil athrayum sthalam undo ennu nokkanam."
+      ]
+    },
+    {
+      "id": "ml-s130",
+      "kind": "sentence",
+      "native": [
+        "തേങ്ങയുടെ ചിരട്ട കൊണ്ട് ചെറിയ ചെടിച്ചട്ടി ഉണ്ടാക്കുന്ന വീഡിയോ തിരഞ്ഞു തരാമോ?"
+      ],
+      "roman": [
+        "Thengayude chiratta kondu cheriya chedichatti undaakkunna video thiranju tharaamo?"
+      ]
+    },
+    {
+      "id": "ml-s131",
+      "kind": "sentence",
+      "native": [
+        "സ്റ്റോറേജ് നിറഞ്ഞു."
+      ],
+      "roman": [
+        "Storage niranju."
+      ]
+    },
+    {
+      "id": "ml-s132",
+      "kind": "sentence",
+      "native": [
+        "പാലം കടന്നാൽ ഇടത്തുള്ള വഴിയിലേക്ക് തിരിയണം."
+      ],
+      "roman": [
+        "Paalam kadannaal idathulla vazhiyilekku thiriyanam."
+      ]
+    },
+    {
+      "id": "ml-s133",
+      "kind": "sentence",
+      "native": [
+        "ലിസി ചേച്ചി അച്ചാറിടാൻ ഒരു ഭരണി ചോദിച്ചിരുന്നു."
+      ],
+      "roman": [
+        "Lisi chechi achaaridaan oru bharani chodichirunnu."
+      ]
+    },
+    {
+      "id": "ml-s134",
+      "kind": "sentence",
+      "native": [
+        "വീഡിയോ അയക്കട്ടെ, അതോ നേരിട്ട് കാണിക്കണോ?"
+      ],
+      "roman": [
+        "Video ayakkatte, atho nerittu kaanikkano?"
+      ]
+    },
+    {
+      "id": "ml-s135",
+      "kind": "sentence",
+      "native": [
+        "പരീക്ഷ എളുപ്പമായിരുന്നോ, അവസാനത്തെ ചോദ്യം എഴുതാൻ സമയം കിട്ടിയോ?"
+      ],
+      "roman": [
+        "Pareeksha eluppamaayirunno, avasaanathe chodyam ezhuthaan samayam kittiyo?"
+      ]
+    },
+    {
+      "id": "ml-s136",
+      "kind": "sentence",
+      "native": [
+        "വിനോദ് അവധിയിലായതിനാൽ വെള്ളിയാഴ്ചത്തെ ഓർഡറുകൾ ജെസിയാണ് നോക്കുന്നത്. അവരോട് ചോദിക്കാം."
+      ],
+      "roman": [
+        "Vinod avadhiyilaayathinaal velliyaazhchathe orderukal Jessiyaanu nokkunnathu. Avarodu chodikkaam."
+      ]
+    },
+    {
+      "id": "ml-s137",
+      "kind": "sentence",
+      "native": [
+        "ഈ മാസത്തെ വരുമാനം ₹32000 ആണ്, അതിൽ 15% യാത്രയ്ക്കായി മാറ്റിവെക്കണം."
+      ],
+      "roman": [
+        "Ee maasathe varumaanam ₹32000 aanu, athil 15% yaathraykkaayi maattivekkanam."
+      ]
+    },
+    {
+      "id": "ml-s138",
+      "kind": "sentence",
+      "native": [
+        "രാവിലെ പുട്ടുണ്ടാക്കാൻ അരിപ്പൊടി കൂടി വാങ്ങിവെക്കണം."
+      ],
+      "roman": [
+        "Raavile puttundaakkaan arippodi koodi vaangivekkanam."
+      ]
+    },
+    {
+      "id": "ml-s139",
+      "kind": "sentence",
+      "native": [
+        "വാട്സാപ്പ് തുറന്ന് അവസാനത്തെ വോയ്സ് മെസേജ് ആദ്യം മുതൽ അവസാനം വരെ കേൾപ്പിക്കൂ."
+      ],
+      "roman": [
+        "WhatsApp thurannu avasaanathe voice message aadyam muthal avasaanam vare kelppikkoo."
+      ]
+    },
+    {
+      "id": "ml-s140",
+      "kind": "sentence",
+      "native": [
+        "നസ്രിന്റെ ലാപ്ടോപ്പിൽ ക്യാമറയ്ക്ക് മുന്നിലെ കവർ നീക്കണം."
+      ],
+      "roman": [
+        "Nasrinte laptopil cameraykku munnile cover neekkanam."
+      ]
+    },
+    {
+      "id": "ml-s141",
+      "kind": "sentence",
+      "native": [
+        "തുണിയൊക്കെ ഉണങ്ങി."
+      ],
+      "roman": [
+        "Thuniyokke unangi."
+      ]
+    },
+    {
+      "id": "ml-s142",
+      "kind": "sentence",
+      "native": [
+        "അറ്റാച്ച്മെന്റ് തുറക്കുന്നില്ല, വേറൊരു ഫയലായി അയച്ചുതരാമോ?"
+      ],
+      "roman": [
+        "Attachment thurakkunnilla, veroru fileaayi ayachutharaamo?"
+      ]
+    },
+    {
+      "id": "ml-s143",
+      "kind": "sentence",
+      "native": [
+        "അരുണിന് 24 ഓഗസ്റ്റ് 2026-ന് 30 വയസ്സ് തികയും."
+      ],
+      "roman": [
+        "Aruninu 24 August 2026-nu 30 vayassu thikayum."
+      ]
+    },
+    {
+      "id": "ml-s144",
+      "kind": "sentence",
+      "native": [
+        "താക്കോലിന് പുതിയ കീചെയിൻ വേണം."
+      ],
+      "roman": [
+        "Thaakkolinu puthiya keychain venam."
+      ]
+    },
+    {
+      "id": "ml-s145",
+      "kind": "sentence",
+      "native": [
+        "ബ്ലൂടൂത്ത് ഓൺ ചെയ്യൂ."
+      ],
+      "roman": [
+        "Bluetooth on cheyyoo."
+      ]
+    },
+    {
+      "id": "ml-s146",
+      "kind": "sentence",
+      "native": [
+        "അയ്യോ, ചാർജർ മറന്നു!"
+      ],
+      "roman": [
+        "Ayyo, charger marannu!"
+      ]
+    },
+    {
+      "id": "ml-s147",
+      "kind": "sentence",
+      "native": [
+        "നോട്ടിഫിക്കേഷൻ വരുമ്പോഴുള്ള വൈബ്രേഷൻ മാത്രം ഓഫ് ആക്കൂ."
+      ],
+      "roman": [
+        "Notification varumpozhulla vibration maathram off aakkoo."
+      ]
+    },
+    {
+      "id": "ml-s148",
+      "kind": "sentence",
+      "native": [
+        "വീട്ടിലെത്തി, ഇനി കുളിക്കണം."
+      ],
+      "roman": [
+        "Veettilethi, ini kulikkanam."
+      ]
+    },
+    {
+      "id": "ml-s149",
+      "kind": "sentence",
+      "native": [
+        "സമയമുണ്ടാകുമ്പോൾ വിളിക്കണേ."
+      ],
+      "roman": [
+        "Samayamundaakumpol vilikkane."
+      ]
+    },
+    {
+      "id": "ml-s150",
+      "kind": "sentence",
+      "native": [
+        "ആതിരപ്പിള്ളിയിൽ പോകുന്ന കാര്യം അച്ഛനോട് ഇപ്പോൾ പറയണ്ട, അതൊരു സർപ്രൈസ് ആയിരിക്കട്ടെ."
+      ],
+      "roman": [
+        "Athirappillyil pokunna kaaryam achanodu ippol parayanda, athoru surprise aayirikkatte."
+      ]
+    },
+    {
+      "id": "ml-s151",
+      "kind": "sentence",
+      "native": [
+        "ദീപേ, നാളെ തയ്യൽക്കടയിൽ പോകുമ്പോൾ എന്നെയും കൂട്ടണേ."
+      ],
+      "roman": [
+        "Deepe, naale thayyalkkadayil pokumpol enneyum koottane."
+      ]
+    },
+    {
+      "id": "ml-s152",
+      "kind": "sentence",
+      "native": [
+        "പരിപ്പുവട ബാക്കിയുണ്ടെങ്കിൽ രണ്ടെണ്ണം മാറ്റിവെക്കാൻ പറയണേ."
+      ],
+      "roman": [
+        "Parippuvada baakkiyundenkil randennam maattivekkaan parayane."
+      ]
+    },
+    {
+      "id": "ml-s153",
+      "kind": "sentence",
+      "native": [
+        "ട്രിപ്പിന്റെ ഫോട്ടോ കണ്ടപ്പോൾ പഴയ കൂട്ടുകാരെയൊക്കെ ഓർമ്മ വന്നു."
+      ],
+      "roman": [
+        "Tripinte photo kandappol pazhaya koottukaareyokke ormma vannu."
+      ]
+    },
+    {
+      "id": "ml-s154",
+      "kind": "sentence",
+      "native": [
+        "വൈകിട്ട് 6:30 കഴിഞ്ഞാൽ നമുക്ക് നടക്കാൻ പോകാം."
+      ],
+      "roman": [
+        "Vaikittu 6:30 kazhinjaal namukku nadakkaan pokaam."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1559 @@
+{
+  "lang": "so",
+  "starter": [
+    "so-s076",
+    "so-s036",
+    "so-s159",
+    "so-s003",
+    "so-s096",
+    "so-s114",
+    "so-s088",
+    "so-s138",
+    "so-s150",
+    "so-s123",
+    "so-s085",
+    "so-s083",
+    "so-s067",
+    "so-s009",
+    "so-s061",
+    "so-s165",
+    "so-s045",
+    "so-s029",
+    "so-p01",
+    "so-s039",
+    "so-s052",
+    "so-s146",
+    "so-s125",
+    "so-s035",
+    "so-s121",
+    "so-s131",
+    "so-s046",
+    "so-s140",
+    "so-s022",
+    "so-s109",
+    "so-s110",
+    "so-s106",
+    "so-s079",
+    "so-s059",
+    "so-s041",
+    "so-s056",
+    "so-s066",
+    "so-p06",
+    "so-s069",
+    "so-s137",
+    "so-s062",
+    "so-s084",
+    "so-s023",
+    "so-s015",
+    "so-s034",
+    "so-s011",
+    "so-s057",
+    "so-s055",
+    "so-s075",
+    "so-s135",
+    "so-s151",
+    "so-s042",
+    "so-s101",
+    "so-s043",
+    "so-s053",
+    "so-s058"
+  ],
+  "items": [
+    {
+      "id": "so-p01",
+      "kind": "para",
+      "title": "News About My New Job",
+      "native": [
+        "Hodan, shaqo cusub ayaan ka helay dukaan buugaagta lagu iibiyo.",
+        "Dukaanku wuxuu ku yaal Jigjiga Yar ee Hargeysa, waddada weyn agteeda.",
+        "Isniinta soo socota ayaan bilaabayaa, shaqaduna waa subaxdii ilaa duhurkii.",
+        "Ninkii i waraystay wuxuu ii sheegay inaan macaamiisha caawin doono.",
+        "Waxaan kaloo kala habaynayaa buugaagta iyo qalabka ay ardaydu iibsadaan.",
+        "Maalinta koowaad waxaa shaqada i baraysa gabadh la yidhaahdo Sahra.",
+        "Mushaharku waa 300 doolar bishii, gurigana lug ayaan uga tegi karaa.",
+        "Hooyo aad bay ugu faraxday markii aan warka u sheegay.",
+        "Markaan shaqada la qabsado, aan maqaaxidii shaah caano leh ku cabno."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-p02",
+      "kind": "para",
+      "title": "Client Meeting Follow-Up",
+      "native": [
+        "Deeqa, maanta waxaan xafiiskeenna Muqdisho kula kulannay maamulaha maqaaxida cusub.",
+        "Macmiilku wuxuu rabaa in liiska cuntadu telefoonka si fudud uga furmo.",
+        "Waxaan ku heshiinnay inaan marka hore soo bandhigno quraacda iyo qadada.",
+        "Qiimaha iyo sawirrada cuntada wuxuu noo soo dirayaa berri subax.",
+        "Cabdiraxmaan wuxuu diyaarinayaa bogga hore, aniguna waxaan qorayaa magacyada cuntooyinka.",
+        "Fadlan hubi in canjeerada iyo suqaartu ku jiraan liiska quraacda.",
+        "Nooca koowaad waxaan u diraynaa macmiilka Khamiista duhurka ka hor.",
+        "Haddii sawirradu dib u dhacaan, meelaha loogu talagalay bannaan ha ahaadaan.",
+        "Markaad hawshaada dhammayso, kooxda WhatsApp-ka ku soo dir si aan u eegno."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-p03",
+      "kind": "para",
+      "title": "Missing the Last Bus",
+      "native": [
+        "Sabtidii waxaan Hargeysa ka raaci lahaa baskii ugu dambeeyay ee Berbera.",
+        "Boorsadaydii ayaan diyaarsaday, tigidhkiina jeebka hore ee shaadhka ayaan geliyay.",
+        "Markaan guriga ka soo baxay, roob xooggan ayaa si kedis ah u da'ay.",
+        "Taksigii aan saarnaa wuxuu muddo ku xayirmay waddo ay biyo fadhiisteen.",
+        "Istaanka waxaan gaadhay 5:30 galabnimo, kabahaygana biyo ayaa ka tifqayay.",
+        "Ninkii tigidhada iibinayay wuxuu ii sheegay in baskii ugu dambeeyay uu baxay.",
+        "Waxaan markiiba wacay eeddaday oo deggan xaafadda Axmed Dhagax.",
+        "Eeddo waxay igu tidhi inaan gurigeeda imaado oo habeenkaas seexdo.",
+        "Subaxdii xigtay ayaan Berbera u baxay. Istaanka waxaan imid saacad ka hor intii aanu basku bixin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-p04",
+      "kind": "para",
+      "title": "Paying an Electricity Bill Online",
+      "native": [
+        "Biilka korontada ee gurigaaga ku bixi appka shirkadda korontada.",
+        "Marka hore hubi in telefoonkaagu internet leeyahay, biilkuna kuu diyaar yahay.",
+        "Appka fur oo geli lambarka telefoonkaaga iyo furaha aad hore u samaysatay.",
+        "Bogga hore ka dooro qaybta biilasha.",
+        "Geli lambarka macmiilka ee ku qoran biilka, dabadeed magaca hubi.",
+        "Lacagta shaashadda ku qoran barbar dhig lacagta ku taal biilkaaga.",
+        "Haddii aad doorato EVC Plus, geli lambarka telefoonka ee lacagtu ku jirto.",
+        "Faahfaahinta mar kale hubi, dabadeed telefoonkaaga ka xaqiiji lacag bixinta.",
+        "Markay lacagtu baxdo, kaydi rasiidka si aad mar dambe ugu noqoto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-p05",
+      "kind": "para",
+      "title": "A Series in Boosaaso",
+      "native": [
+        "Taxanaha cusub ee Boosaaso lagu jilay ayaa maalmahan la wada hadal hayaa.",
+        "Xalay ayaan daawaday laba qaybood, waxaana i soo jiitay sheekada qoyska.",
+        "Doorka hooyada maqaaxida yar maamusha si fiican ayaa loo jilay.",
+        "Markay carruurteeda la kaftamayso, waxaad mooddaa inaad qoyska deriskaaga dhegaysanayso.",
+        "Muuqaallada xeebta iyo doonyaha kalluumaysigu waxay sheekada siiyeen qurux gaar ah.",
+        "Laakiin qaybta labaad hadalku wuu dheeraaday, dhacdooyinkuna si tartiib ah ayay socdeen.",
+        "Saaxiibkay Liibaan wuxuu qabaa in muusiggu mararka qaar codadka qariyo.",
+        "Anigana arrintaas waan ku raacsanahay, gaar ahaan marka jilayaashu hoos u hadlayaan.",
+        "Haddana taxanuhu wuu fiican yahay, qaybta xigtana waan sugayaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-p06",
+      "kind": "para",
+      "title": "Monthly Budget in Burco",
+      "native": [
+        "Qoyskeennu Burco ayuu deggan yahay. Bisha Abriil 2026 waxaan haysannaa 550 doolar.",
+        "Kirada guriga oo ah 150 doolar waxaan bixinayaa 1 Abriil 2026.",
+        "Raashinka iyo caanaha carruurta waxaan bishan u reebayaa 140 doolar.",
+        "Suuqu wuxuu guriga u jiraa 2 kiiloomitir, lug ayaana ku tegayaa.",
+        "Sabtida waxaan soo adeegayaa 8:30 subaxnimo, intaan kulaylku bilaaban.",
+        "Korontada waxaan u qoondeeyey 25 doolar, biyahana 15 doolar.",
+        "Lacagta dugsiga ee 2 carruur ah waa 60 doolar bishii.",
+        "Internetka guriga waxaan bishan ku bixinayaa 20 doolar, sidii bishii hore.",
+        "Waxaa noo soo haraya 140 doolar, lacagtaasna meel ayaan ku kaydinayaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-p07",
+      "kind": "para",
+      "title": "A Leaking Kitchen Tap",
+      "native": [
+        "Sahra, waxaan kaa soo wacayaa gurigaaga xaafadda Hantiwadaag ee Garoowe.",
+        "Qasabadda jikada waxaa tan iyo shalay si joogto ah ka daadanaya biyo.",
+        "Xataa markaan si fiican u xiro, dhibco ayaa weli ka soo dhacaya.",
+        "Baaldigii aan qasabadda hoos dhigay waxaa saaka ku ururay biyo badan.",
+        "Markaan jikada ka baxayo, furaha weyn ee biyaha ayaan xiraa.",
+        "Ma soo diri kartaa farsamayaqaan qasabadda eega oo hagaajiya?",
+        "Berri waxaan guriga joogayaa wixii ka dambeeya 4 galabnimo.",
+        "Haddii farsamayaqaanku subaxdii imanayo, shaqada ayaan fasax yar ka qaadan karaa.",
+        "Fadlan ii soo sheeg waqtiga uu imanayo, si aan guriga u joogo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-p08",
+      "kind": "para",
+      "title": "Football Fans in Kismaayo",
+      "native": [
+        "Dadka Kismaayo aad bay u jecel yihiin kubadda cagta.",
+        "Galabaha ciyaaruhu dhacaan, taageerayaal ka kala socda xaafadaha ayaa isugu yimaada garoonka Waamo.",
+        "Dhallinyarada Farjanno iyo Faanoole waxay kooxahooda ku dhiirrigeliyaan sacab iyo heeso.",
+        "Taageerayaal badan ayaa yimaada iyagoo xiran funaanadaha kooxaha ay jecel yihiin.",
+        "Intaan ciyaartu bilaaban, taageerayaashu waxay garoonka hortiisa kaga doodaan kooxda badin doonta.",
+        "Odayaasha ciyaaraha daawada waxay ka sheekeeyaan laacibiintii hore ee magaalada.",
+        "Ganacsatada yaryar ee garoonka agtiisa joogta waxay iibiyaan biyo qabow iyo laws.",
+        "Marka gool la dhaliyo, sacabka taageerayaasha ayaa laga maqlaa bannaanka garoonka.",
+        "Dad ka kala yimid xaafadaha magaalada ayaa ciyaaraha ku kulma oo ku sheekaysta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s001",
+      "kind": "sentence",
+      "native": [
+        "Jaakaddayda ii soo qaad, halkan qabow baa ka jira."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s002",
+      "kind": "sentence",
+      "native": [
+        "Iska warran, shaqadii sidee u socotaa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s003",
+      "kind": "sentence",
+      "native": [
+        "Faarax wuxuu 18000 shilin Somaliland iigu soo diray ZAAD."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s004",
+      "kind": "sentence",
+      "native": [
+        "Hadiyadda qalinjabinta Ducaale waa inaan ka dalbadaa internetka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s005",
+      "kind": "sentence",
+      "native": [
+        "Kaamirada hore ii fur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s006",
+      "kind": "sentence",
+      "native": [
+        "Mouse-ka cusub wuxuu yaallaa khaanadda hoose ee miiskaaga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s007",
+      "kind": "sentence",
+      "native": [
+        "Buundada hoosteeda nagu sug."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s008",
+      "kind": "sentence",
+      "native": [
+        "Surwaalkan mid ka ballaaran ma ii haysaan, walaal?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s009",
+      "kind": "sentence",
+      "native": [
+        "Ruqiya ma timid, mise weli way soo socotaa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s010",
+      "kind": "sentence",
+      "native": [
+        "Bajiyadan dhadhankooda aad baan uga helay, gaar ahaan basbaaska."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s011",
+      "kind": "sentence",
+      "native": [
+        "Adigu kabihii waad illowday, haddana anigaad i degdejinaysaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s012",
+      "kind": "sentence",
+      "native": [
+        "Martida Burco ka imaanaysa qol u sii diyaariya, waxay tababarka nala bilaabayaan Talaadada soo socota."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s013",
+      "kind": "sentence",
+      "native": [
+        "Macallin, su'aalaha 6 iyo 7 ma wada xallinaynaa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s014",
+      "kind": "sentence",
+      "native": [
+        "Ka hor inta aan seexan, waxaan boorsada ku ridayaa dharka iyo tuwaalka dabaasha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s015",
+      "kind": "sentence",
+      "native": [
+        "Sideen ku ogaadaa in malabkani saafi yahay iyo in kale?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s016",
+      "kind": "sentence",
+      "native": [
+        "Email-kii qabyada ahaa ayaan helay, weli lama dirin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s017",
+      "kind": "sentence",
+      "native": [
+        "Meeshii aan baaskiilka dhigan jiray waxaa laga furay maqaaxi cusub."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s018",
+      "kind": "sentence",
+      "native": [
+        "Saylac ceeryaamo ayaa saaka ka jirtay, baduna way degganayd."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s019",
+      "kind": "sentence",
+      "native": [
+        "Jamaal u sheeg inaan Axadda iman doono. Maya, Isniinta dheh ee maalmaha ayaan isku khalday."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s020",
+      "kind": "sentence",
+      "native": [
+        "Safkan dheer waan ku daalay, ee aan kursi raadsanno."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s021",
+      "kind": "sentence",
+      "native": [
+        "Sawirradii ma ii soo dirtay?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s022",
+      "kind": "sentence",
+      "native": [
+        "Hawshu xaggee bay maraysaa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s023",
+      "kind": "sentence",
+      "native": [
+        "Deeqa waxay imtixaanka ka keentay 87%, aad bayna ugu faraxsan tahay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s024",
+      "kind": "sentence",
+      "native": [
+        "Markaan dukaanka Caasha ukunta ka soo iibsanayo, waa inaan hubiyaa inaysan wax jabani ku jirin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s025",
+      "kind": "sentence",
+      "native": [
+        "Jidka ugu gaaban ee Suuqa Bakaaraha loo maro i tus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s026",
+      "kind": "sentence",
+      "native": [
+        "Yuusuf wuxuu dukaanka ku tirinayaa baakadaha, aniguna app-ka ayaan ku saxayaa tirada alaabta harsan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s027",
+      "kind": "sentence",
+      "native": [
+        "Hooyadaa ma u sheegtay inaan tareenka soo wada raacayno?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s028",
+      "kind": "sentence",
+      "native": [
+        "Baqshaddan xaggee lagu diraa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s029",
+      "kind": "sentence",
+      "native": [
+        "Raalli ahow, berri baan ula jeeday."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s030",
+      "kind": "sentence",
+      "native": [
+        "Waad ku mahadsan tahay dulqaadka aad ii muujisay maanta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s031",
+      "kind": "sentence",
+      "native": [
+        "Caawa gurigaaga ayaan imaanayaa haddii aadan meel kale aadayn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s032",
+      "kind": "sentence",
+      "native": [
+        "Nasra, fasaxaagii waa la ansixiyey, shaqadana Axadda ayaad ku soo noqonaysaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s033",
+      "kind": "sentence",
+      "native": [
+        "Maro 4 mitir ah iiga jar duubka ballaciisu yahay 150 sentimitir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s034",
+      "kind": "sentence",
+      "native": [
+        "Liiska ku dar saabuun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s035",
+      "kind": "sentence",
+      "native": [
+        "Sidee bay cimilada Berbera noqonaysaa berri?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s036",
+      "kind": "sentence",
+      "native": [
+        "App-kan wuu is xirayaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s037",
+      "kind": "sentence",
+      "native": [
+        "Boorsooyinkan iga caawi. Walaashay iyo carruurteeda oo fasaxa noogu yimid ayaan garoonka ka soo qaaday."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s038",
+      "kind": "sentence",
+      "native": [
+        "Maradii ayaa khaanadda ku dhegtay, ee ma iga caawin kartaa inaan si tartiib ah u furo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s039",
+      "kind": "sentence",
+      "native": [
+        "Bacda ku rid tufaax, moos iyo canab, canabka iska dhaaf haddii uusan weli bislaan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s040",
+      "kind": "sentence",
+      "native": [
+        "Awoowe markaan la sheekaysto waan nastaa, waayo sheekooyinkiisa qosolka leh ayaa iga illowsiiya daalka maalinta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s041",
+      "kind": "sentence",
+      "native": [
+        "Bariiska wax iiga reeb."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s042",
+      "kind": "sentence",
+      "native": [
+        "Internetka xafiisku wuu go'ayaa, kulanka cod keliya aan ku galno."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s043",
+      "kind": "sentence",
+      "native": [
+        "Baytariga waxaa ka haray 23%."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s044",
+      "kind": "sentence",
+      "native": [
+        "Safarka Beledweyne ka hor, waa inaan hubiyaa taayirrada baabuurka oo aan shidaal ku shubaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s045",
+      "kind": "sentence",
+      "native": [
+        "Jooji heesta socota."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s046",
+      "kind": "sentence",
+      "native": [
+        "Excel wuxuu lambarkii aan qoray iigu beddelay taariikh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s047",
+      "kind": "sentence",
+      "native": [
+        "Xirmada gee aqalka saqafka buluugga ah leh, wuxuuna ku yaallaa saloonka dumarka gadaashiisa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s048",
+      "kind": "sentence",
+      "native": [
+        "Fadhiga cusub intaan la keenin, aan cabbirno meesha uu galayo si uusan marinka nooga xirin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s049",
+      "kind": "sentence",
+      "native": [
+        "Waxaan rabay inaan daaqadda furo, laakiin qabow baa jira ee marawaxadda uun iga dami."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s050",
+      "kind": "sentence",
+      "native": [
+        "Iga raalli noqo hadalkaas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s051",
+      "kind": "sentence",
+      "native": [
+        "Filimkaas aniguna waan daawanayaa, dhammaadkiisa ha ii sheegin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s052",
+      "kind": "sentence",
+      "native": [
+        "Burushyada anigaa dhaqaya, adiguna rinjiga harsan meel qabow dhig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s053",
+      "kind": "sentence",
+      "native": [
+        "Yaanyada 3 kiilo ah waa 45000 shilin Soomaali."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s054",
+      "kind": "sentence",
+      "native": [
+        "Berri macallinka xisaabta ayaan weydiinayaa sida jajabyada la isugu daro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s055",
+      "kind": "sentence",
+      "native": [
+        "YouTube iga tus cashar fudud oo tolidda dharka ah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s056",
+      "kind": "sentence",
+      "native": [
+        "Sumaya, meeting-ka maanta yaa qodobbada muhiimka ah qoraya?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s057",
+      "kind": "sentence",
+      "native": [
+        "Xaggee laga raacaa tagaasida?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s058",
+      "kind": "sentence",
+      "native": [
+        "Ballantii harqaanlaha waxaan ka dhigtay duhurkii, subaxdii waan mashquulsanahay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s059",
+      "kind": "sentence",
+      "native": [
+        "Musmaarro, dubbe iyo loox yar ayaan u baahanahay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s060",
+      "kind": "sentence",
+      "native": [
+        "Dadaalkaaga ha yaraysan, maalin kasta wax cusub ayaad baranaysaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s061",
+      "kind": "sentence",
+      "native": [
+        "Telefoonka codka ka yaree, ilmaha yar baa hurda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s062",
+      "kind": "sentence",
+      "native": [
+        "Lifaaqa waxaa ku jira qiimihii qalabka aad shalay dalbateen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s063",
+      "kind": "sentence",
+      "native": [
+        "Heerkulka foornada dhig 180 darajo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s064",
+      "kind": "sentence",
+      "native": [
+        "Jadwalkayga ku qor inaan Sabtida booqanayo beerta xayawaanka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s065",
+      "kind": "sentence",
+      "native": [
+        "Immisa ayaa ka haraysa 350 doolar haddii 20% laga dhimo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s066",
+      "kind": "sentence",
+      "native": [
+        "Download-ka hakad geli, fiidiyowga aan daawanayo ayaa istaagaya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s067",
+      "kind": "sentence",
+      "native": [
+        "Faadumo waxay agagaarka Suuqa Waaheen ku leedahay carwo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s068",
+      "kind": "sentence",
+      "native": [
+        "Kiilada liinta ah 30000 shilin Soomaali ma iiga dhigaysaa haddii aan dambiisha oo dhan qaato?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s069",
+      "kind": "sentence",
+      "native": [
+        "Shaadhka cagaaran ii duub, kii huruudda ahaa ma rabo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s070",
+      "kind": "sentence",
+      "native": [
+        "Ruun, cod macaan baad leedahay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s071",
+      "kind": "sentence",
+      "native": [
+        "Ayeeyo waxay Boosaaso ka soo dirtay timir, ee galabta kaalay si aan qaybtaada kuu siiyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s072",
+      "kind": "sentence",
+      "native": [
+        "Qoraalka xayeysiiska ka sax magaca shirkadda ka hor daabacaadda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s073",
+      "kind": "sentence",
+      "native": [
+        "Dalabkayga ku dar 2 baakadood oo buskud ah iyo 5 casiir, wadartuna ha dhaafin 14 doolar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s074",
+      "kind": "sentence",
+      "native": [
+        "Kombiyuutarka faylashiisa meel kale ayaan ku kaydinayaa toddobaadkan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s075",
+      "kind": "sentence",
+      "native": [
+        "Farriin u dir Hodan Cilmi oo u sheeg inaan ku sugayo iridda garoonka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s076",
+      "kind": "sentence",
+      "native": [
+        "Luul, linkigan ma furmayo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s077",
+      "kind": "sentence",
+      "native": [
+        "Abtigay xaafaddan ayuu ku cusub yahay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s078",
+      "kind": "sentence",
+      "native": [
+        "Korontoyaqaankii saaka yimid wuxuu hagaajiyey nalka jaranjarada ka dansanaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s079",
+      "kind": "sentence",
+      "native": [
+        "Maya, kan buluugga ah keen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s080",
+      "kind": "sentence",
+      "native": [
+        "Aad baan u niyad jabay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s081",
+      "kind": "sentence",
+      "native": [
+        "Ifraax, codkii aad soo duubtay aad buu iga qosliyey."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s082",
+      "kind": "sentence",
+      "native": [
+        "Laanta Baydhabo shaandhooyinkii way ka dhammaadeen, laakiin weli waxaa noo yaalla digsiyo iyo saxamo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s083",
+      "kind": "sentence",
+      "native": [
+        "Cabbirka kabahaygu waa 42."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s084",
+      "kind": "sentence",
+      "native": [
+        "Waa inaan cusboonaysiiyaa password-ka ka hor dhammaadka bisha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s085",
+      "kind": "sentence",
+      "native": [
+        "Akhri email-kii ugu dambeeyey ee la ii soo diray."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s086",
+      "kind": "sentence",
+      "native": [
+        "Update-kii ka dib, qoraalka shaashaddu aad buu u yaraaday, mana garanayo meesha laga weyneeyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s087",
+      "kind": "sentence",
+      "native": [
+        "Darawalka u sheeg inuu ku dejiyo isgoyska xiga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s088",
+      "kind": "sentence",
+      "native": [
+        "Gogosha aan wada fidinno."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s089",
+      "kind": "sentence",
+      "native": [
+        "Sonkor, bur iyo saliid keen."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s090",
+      "kind": "sentence",
+      "native": [
+        "Socodkii xeebta Marka wuxuu i xusuusiyey carruurnimadaydii, markaasaan jeclaaday inaan carruurtayda halkaas geeyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s091",
+      "kind": "sentence",
+      "native": [
+        "Sambuuskii hooyo samaysay laba xabbo ayaan kuu soo qaaday."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s092",
+      "kind": "sentence",
+      "native": [
+        "Alaabtii Kismaayo way gaartay, rasiidkiina waa naloo soo diray."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s093",
+      "kind": "sentence",
+      "native": [
+        "Ceerigaabo waxaan ku qabanaynaa tartan orod oo 5 kiiloomitir ah Jimcaha 6:30 subaxnimo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s094",
+      "kind": "sentence",
+      "native": [
+        "Dalladda albaabka agtiisa dhig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s095",
+      "kind": "sentence",
+      "native": [
+        "Ii shid tooshka telefoonka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s096",
+      "kind": "sentence",
+      "native": [
+        "EVC Plus lacagtii wuu iga jaray, rasiidse ma helin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s097",
+      "kind": "sentence",
+      "native": [
+        "Aamina waxaan shalay kula kulmay maktabadda, waxayna iga caawisay inaan doorto buug ku habboon wiilkayga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s098",
+      "kind": "sentence",
+      "native": [
+        "Hinda, macallimaddu waxay rabtaa inaan berri iskuulka imaado."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s099",
+      "kind": "sentence",
+      "native": [
+        "Muufo ii keen, iska daa, digir baan maanta rabaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s100",
+      "kind": "sentence",
+      "native": [
+        "Haye, berri ayaan kulmaynaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s101",
+      "kind": "sentence",
+      "native": [
+        "Naqshaddan waan oggolahay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s102",
+      "kind": "sentence",
+      "native": [
+        "Xafiiska cusub wuxuu ku yaal Guriga 18, Waddada Maka Al-Mukarama, waxaana la furaa 8:00 subaxnimo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s103",
+      "kind": "sentence",
+      "native": [
+        "I xusuusi inaan ubaxa waraabiyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s104",
+      "kind": "sentence",
+      "native": [
+        "Sawirka aan hadda qaaday dhinacyada ka jar, dabadeedna kaydi adigoon midabkiisa wax ka beddelin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s105",
+      "kind": "sentence",
+      "native": [
+        "Printer-ka khadkii baa ka dhammaaday."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s106",
+      "kind": "sentence",
+      "native": [
+        "Raxma waxaan isku aragnay boosteejada basaska ee Garoowe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s107",
+      "kind": "sentence",
+      "native": [
+        "Sagal waxay keentay weelashii aan ugu talagalnay xafladda meherka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s108",
+      "kind": "sentence",
+      "native": [
+        "Cawil, maqaskii xaggee baad dhigtay?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s109",
+      "kind": "sentence",
+      "native": [
+        "Shaqada cusub hambalyo! Guul ayaan kuu rajaynayaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s110",
+      "kind": "sentence",
+      "native": [
+        "Cabdirisaaq wuxuu sugayaa oggolaanshahaaga ka hor inta aanu dalabka gudbin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s111",
+      "kind": "sentence",
+      "native": [
+        "Xirmadan waxaa ku jira 6 dhalo oo min 750 mililitir ah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s112",
+      "kind": "sentence",
+      "native": [
+        "Cashada Khamiista waxaan u diyaarinayaa canjeero iyo maraq."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s113",
+      "kind": "sentence",
+      "native": [
+        "Berrito i toosi 5:30 subaxnimo, shaqo ayaan leeyahay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s114",
+      "kind": "sentence",
+      "native": [
+        "Folder-ka magaciisa beddel si aan si fudud ugu garto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s115",
+      "kind": "sentence",
+      "native": [
+        "Zamzam waxaan ku ballansannahay agagaarka Tiyaatarka Qaranka, ee aniga ha i sugin markaad baxaysid."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s116",
+      "kind": "sentence",
+      "native": [
+        "Foornada ha shidin ilaa aan cajiinka soo diyaariyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s117",
+      "kind": "sentence",
+      "native": [
+        "Daahyadan ma la dhaqay?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s118",
+      "kind": "sentence",
+      "native": [
+        "Weli ma soo jeeddaa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s119",
+      "kind": "sentence",
+      "native": [
+        "Kartoonnada madhan isku laab."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s120",
+      "kind": "sentence",
+      "native": [
+        "Boorama waxaa nooga haray 65 kiiloomitir oo keliya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s121",
+      "kind": "sentence",
+      "native": [
+        "Biyaha haanta waa inaan dalbadaa ka hor qadada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s122",
+      "kind": "sentence",
+      "native": [
+        "Dhuusamareeb ma ku taallaa beer carruurtu ku ciyaarto oo qoysasku galabtii ku nastaan?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s123",
+      "kind": "sentence",
+      "native": [
+        "Shukri Nuur ayaa WhatsApp noogu samaysay group shaqada u gaar ah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s124",
+      "kind": "sentence",
+      "native": [
+        "Eeddadaa weli ma soo degatay?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s125",
+      "kind": "sentence",
+      "native": [
+        "Dabayshu maanta way xooggan tahay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s126",
+      "kind": "sentence",
+      "native": [
+        "Duubista hadda ma bilaabaynaa, mise makarafoonka ayaad weli hagaajinaysaa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s127",
+      "kind": "sentence",
+      "native": [
+        "Roobkii baa i hakiyey, ee albaabka ha iga xirin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s128",
+      "kind": "sentence",
+      "native": [
+        "Mushaharka bishan gaadiidku ma ku jiraa mise waa gooni?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s129",
+      "kind": "sentence",
+      "native": [
+        "Qolka 24 ayaan deggenahay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s130",
+      "kind": "sentence",
+      "native": [
+        "Xusuusin ii dhig inaan buugaagta maktabadda ku celiyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s131",
+      "kind": "sentence",
+      "native": [
+        "Google ka raadi sida sabaayad jilicsan loo sameeyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s132",
+      "kind": "sentence",
+      "native": [
+        "Xariggii internetka ayaa dabcamay markaan kursiga gadaal u jiiday."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s133",
+      "kind": "sentence",
+      "native": [
+        "Dukaanka hortiisa ha istaagin, baabuurta ayaa halkaas ka leexata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s134",
+      "kind": "sentence",
+      "native": [
+        "Milixdu way ku badan tahay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s135",
+      "kind": "sentence",
+      "native": [
+        "Rasiidka ha tuurin, bal marka hore wadarta aan eego."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s136",
+      "kind": "sentence",
+      "native": [
+        "Markaad firaaqo hesho, i soo wac."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s137",
+      "kind": "sentence",
+      "native": [
+        "Canab, tolmada diracyadan hubi inta aan macaamiishu qaadan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s138",
+      "kind": "sentence",
+      "native": [
+        "Timojaraha waxaan ballan la leeyahay Jimcaha 4:15 galabnimo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s139",
+      "kind": "sentence",
+      "native": [
+        "Baaldigii aan amaahday waa inaan celiyaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s140",
+      "kind": "sentence",
+      "native": [
+        "Bluetooth-ka ku xir sameecadda aan hadda shiday."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s141",
+      "kind": "sentence",
+      "native": [
+        "Codkaygu ma idin soo gaarayaa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s142",
+      "kind": "sentence",
+      "native": [
+        "Kabahan ciriiriga ah dukaankii laga keenay ma ku celin karnaa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s143",
+      "kind": "sentence",
+      "native": [
+        "Malawaxii ma wada bislaaday?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s144",
+      "kind": "sentence",
+      "native": [
+        "Jowhar baan u socdaa, maya, Balcad ayaan ka wadaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s145",
+      "kind": "sentence",
+      "native": [
+        "Hibo, buuggii aan ku amaahiyey walaalkay u sii dhiib."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s146",
+      "kind": "sentence",
+      "native": [
+        "Kulankii ma u wareejin karnaa Khamiista 9:00 subaxnimo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s147",
+      "kind": "sentence",
+      "native": [
+        "Casharka online-ka ah wuxuu socdaa 90 daqiiqo, nasashaduna waa 10 daqiiqo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s148",
+      "kind": "sentence",
+      "native": [
+        "Arbacada roogga ayaan dhaqayaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s149",
+      "kind": "sentence",
+      "native": [
+        "Raadi dukaan qalabka ciyaaraha iibiya oo ii dhow, welina furan si aan maanta ugu tago."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s150",
+      "kind": "sentence",
+      "native": [
+        "Keyboard-kan badhamadiisu way adag yihiin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s151",
+      "kind": "sentence",
+      "native": [
+        "Labada waddo tee dhow?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s152",
+      "kind": "sentence",
+      "native": [
+        "Wiilkayga maanta anigaa xannaanada ka soo kaxaynaya, ee adigu sii qaad gabadha tababarka dabaasha aadaysa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s153",
+      "kind": "sentence",
+      "native": [
+        "Shaaha ii qabooji, weli jidka ayaan ku soo jiraa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s154",
+      "kind": "sentence",
+      "native": [
+        "Looxan dhererkiisa ka dhig 90 sentimitir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s155",
+      "kind": "sentence",
+      "native": [
+        "Nimco kala hadal dharka ciidda ee carruurta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s156",
+      "kind": "sentence",
+      "native": [
+        "Akoonkaygii waa iga xirmay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s157",
+      "kind": "sentence",
+      "native": [
+        "Ubax, shax ma wada dheelnaa inta cashadu dabka saaran tahay?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s158",
+      "kind": "sentence",
+      "native": [
+        "Galabta Liido ma ku soo lugeynaa intaan qorraxdu dhicin?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s159",
+      "kind": "sentence",
+      "native": [
+        "Ciyaartu waxay ku dhammaatay 2-0."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s160",
+      "kind": "sentence",
+      "native": [
+        "Xalwo berri soo iibso."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s161",
+      "kind": "sentence",
+      "native": [
+        "Baska ayaan raacay, marka aan Hargeysa soo gaarana waxaan kuu soo dirayaa fariin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s162",
+      "kind": "sentence",
+      "native": [
+        "Bashiir, sallaankaaga 3 mitir ah 2 maalmood ma i amaahin kartaa si aan daahyada u sudho?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s163",
+      "kind": "sentence",
+      "native": [
+        "Fadlan furaha deriska ii sii dhiib, waayo caawa waan soo daahayaa oo ma rabo inaan ku toosiyo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s164",
+      "kind": "sentence",
+      "native": [
+        "Tababarkaygu wuxuu dhammaanayaa 19 Juun 2027, shahaadadana toddobaad kadib ayaan helayaa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s165",
+      "kind": "sentence",
+      "native": [
+        "Gurigii waan imid, ha welwelin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s166",
+      "kind": "sentence",
+      "native": [
+        "Duulimaadka 507 wuxuu baxayaa Sabtida 22 Agoosto 2026, aniguna kursiga 16 ee daaqadda ayaan doortay."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s167",
+      "kind": "sentence",
+      "native": [
+        "Cabdullaahi, khudaartii dukaanka ayaan kaga soo tagay, ee markaad soo baxayso ii soo qaad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s168",
+      "kind": "sentence",
+      "native": [
+        "Gabadhaydu waxay jirsatay 9 sano."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s169",
+      "kind": "sentence",
+      "native": [
+        "Xaliimo waxay 75 doolar ku kiraysatay baabuur muddo 2 maalmood ah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "so-s170",
+      "kind": "sentence",
+      "native": [
+        "Isniinta shaqadu waxay bilaabmaysaa 7:45 subaxnimo, qadaduna waa 12:30 duhurnimo."
+      ],
+      "roman": null
+    }
+  ]
+}

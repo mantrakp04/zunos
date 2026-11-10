@@ -1,0 +1,1837 @@
+{
+  "lang": "tg",
+  "starter": [
+    "tg-s066",
+    "tg-s046",
+    "tg-s044",
+    "tg-s069",
+    "tg-s023",
+    "tg-s149",
+    "tg-s101",
+    "tg-s138",
+    "tg-s056",
+    "tg-s059",
+    "tg-s037",
+    "tg-s113",
+    "tg-s045",
+    "tg-s068",
+    "tg-s009",
+    "tg-s041",
+    "tg-s085",
+    "tg-p01",
+    "tg-s025",
+    "tg-s038",
+    "tg-s091",
+    "tg-s055",
+    "tg-s073",
+    "tg-s034",
+    "tg-s134",
+    "tg-s031",
+    "tg-s012",
+    "tg-s141",
+    "tg-s040",
+    "tg-s153",
+    "tg-s105",
+    "tg-s121",
+    "tg-s072",
+    "tg-s017",
+    "tg-s135",
+    "tg-p06",
+    "tg-s078",
+    "tg-s026",
+    "tg-s011",
+    "tg-s154",
+    "tg-s001",
+    "tg-s107",
+    "tg-s156",
+    "tg-s133",
+    "tg-s018",
+    "tg-s118",
+    "tg-s087",
+    "tg-s086",
+    "tg-s049",
+    "tg-s106",
+    "tg-s058",
+    "tg-s053",
+    "tg-s151",
+    "tg-s022"
+  ],
+  "items": [
+    {
+      "id": "tg-p01",
+      "kind": "para",
+      "title": "Back Home to Panjakent",
+      "native": [
+        "Фарҳод, рӯзи ҷумъа аз Душанбе ба Панҷакент меравам, ба модарам хабар деҳ.",
+        "Саҳар бо таксӣ мебароям, то пеш аз торикӣ ба хона расам.",
+        "Аз бозори Меҳргон барои шумо чормағз ва меваи хушк гирифтам.",
+        "Ба модарам гӯй, ки барои омаданам худашро бисёр хаста накунад.",
+        "Фақат каме мошкичирӣ пазад, таъмашро то ҳол фаромӯш накардаам.",
+        "Агар вақт дошта бошӣ, маро аз назди бозори марказӣ гирифта бар.",
+        "Халтаҳоям зиёданд, бо онҳо то хона пиёда рафтан каме душвор мешавад.",
+        "Шом ҳамроҳ чой менӯшем, ту ҳам аз корат каме нақл мекунӣ.",
+        "Рӯзи дигар ба хонаи бибӣ меравем, ӯро ҳам хеле ёд кардам."
+      ],
+      "roman": [
+        "Farhod, ruzi juma az Dushanbe ba Panjakent meravam, ba modaram khabar deh.",
+        "Sahar bo taksi mebaroyam, to pesh az toriki ba khona rasam.",
+        "Az bozori Mehrgon baroi shumo chormaghz va mevai khushk giriftam.",
+        "Ba modaram guy, ki baroi omadanam khudashro bisyor khasta nakunad.",
+        "Faqat kame moshkichiri pazad, tamashro to hol faromush nakardaam.",
+        "Agar vaqt doshta boshi, maro az nazdi bozori markazi girifta bar.",
+        "Khaltahoyam ziyodand, bo onho to khona piyoda raftan kame dushvor meshavad.",
+        "Shom hamroh choy menushem, tu ham az korat kame naql mekuni.",
+        "Ruzi digar ba khonai bibi meravem, uro ham khele yod kardam."
+      ]
+    },
+    {
+      "id": "tg-p02",
+      "kind": "para",
+      "title": "Welcoming Our New Teammate",
+      "native": [
+        "Салом, ҳамкорон, рӯзи душанбе ба гурӯҳи мо Мадина ҳамроҳ мешавад.",
+        "Мадина дар офиси Хуҷанд ба саволҳои харидорон ҷавоб медиҳад.",
+        "Ӯ пештар дар мағозаи техника кор мекард ва таҷрибаи хуб дорад.",
+        "Соати 9:30 дар ошхона ҷамъ мешавем, то бо ҳам шинос шавем.",
+        "Бахтиёр, лутфан, барои ӯ мизи назди тирезаро то душанбе холӣ кунед.",
+        "Ман имрӯз барояш почтаи корӣ месозам ва пароли авваларо алоҳида мефиристам.",
+        "Зебо, тарзи истифодаи барномаро ба Мадина нишон диҳед, то кораш осон шавад.",
+        "Дар ҳафтаи аввал фармоишҳои навро якҷоя месанҷем, баъд худаш мустақилона кор мекунад.",
+        "Савол дошта бошед, дар чати гурӯҳ нависед, то пешакӣ ҷавоб диҳам."
+      ],
+      "roman": [
+        "Salom, hamkoron, ruzi dushanbe ba guruhi mo Madina hamroh meshavad.",
+        "Madina dar ofisi Khujand ba savolhoi kharidoron javob medihad.",
+        "U peshtar dar maghozai tekhnika kor mekard va tajribai khub dorad.",
+        "Soati 9:30 dar oshkhona jam meshavem, to bo ham shinos shavem.",
+        "Bakhtiyor, lutfan, baroi u mizi nazdi tirezaro to dushanbe kholi kuned.",
+        "Man imruz baroyash pochtai kori mesozam va paroli avvalaro alohida mefiristam.",
+        "Zebo, tarzi istifodai barnomaro ba Madina nishon dihed, to korash oson shavad.",
+        "Dar haftai avval farmoishhoi navro yakjoya mesanjem, bad khudash mustaqilona kor mekunad.",
+        "Savol doshta boshed, dar chati guruh navised, to peshaki javob diham."
+      ]
+    },
+    {
+      "id": "tg-p03",
+      "kind": "para",
+      "title": "My First School Day",
+      "native": [
+        "Рӯзи аввале, ки дар Ҳисор ба мактаби нав рафтам, ҳаво салқин буд.",
+        "Модарам то назди дарвоза ҳамроҳам омад ва гиребонамро дуруст кард.",
+        "Дар сумкаи кабудам китобу дафтарҳои нав доштам.",
+        "Муаллима Гулчеҳра маро назди тахта бурд ва бо бачаҳо шинос кард.",
+        "Аз ҳаяҷон номамро бо овози паст гуфтам, вале бачаҳо ба ман табассум карданд.",
+        "Писаре бо номи Далер дар қатори дуюм барои ман ҷой холӣ кард.",
+        "Дар танаффус Далер нисфи самбӯсаашро ба ман дод ва суҳбатро сар кардем.",
+        "Баъди дарс то истгоҳи автобус якҷоя рафтем ва роҳро ёд гирифтам.",
+        "Ба хона баргашта, бо хурсандӣ гуфтам, ки аллакай як дӯст ёфтам."
+      ],
+      "roman": [
+        "Ruzi avvale, ki dar Hisor ba maktabi nav raftam, havo salqin bud.",
+        "Modaram to nazdi darvoza hamroham omad va girebonamro durust kard.",
+        "Dar sumkai kabudam kitobu daftarhoi nav doshtam.",
+        "Muallima Gulchehra maro nazdi takhta burd va bo bachaho shinos kard.",
+        "Az hayajon nomamro bo ovozi past guftam, vale bachaho ba man tabassum kardand.",
+        "Pisare bo nomi Daler dar qatori duyum baroi man joy kholi kard.",
+        "Dar tanaffus Daler nisfi sambusaashro ba man dod va suhbatro sar kardem.",
+        "Badi dars to istgohi avtobus yakjoya raftem va rohro yod giriftam.",
+        "Ba khona bargashta, bo khursandi guftam, ki allakay yak dust yoftam."
+      ]
+    },
+    {
+      "id": "tg-p04",
+      "kind": "para",
+      "title": "Setting Up Mom's Phone",
+      "native": [
+        "Оча, телефони навро, ки аз Садбарг харидем, аввал ба барқ монед.",
+        "Симкортро аз телефони кӯҳна бароварда, ба телефони нав гузоред.",
+        "Баъд тугмаи паҳлуяшро пахш карда, то равшан шудани экран нигоҳ доред.",
+        "Аз рӯйхати забонҳо русиро интихоб кунед, чун ба он одат кардаед.",
+        "Дар танзимот ба интернети хона пайваст шавед, паролаш пушти роутер аст.",
+        "WhatsApp-ро насб карда, кушоед ва баъд рақами телефони худро дар ҷойи холӣ нависед.",
+        "Рамзеро, ки бо паёмак меояд, нависед ва баъд номатонро ворид кунед.",
+        "Агар ҳарфҳо майда бошанд, андозаашонро аз танзимоти экран калон кунед.",
+        "Дар охир ба ман занг занед, то овозашро ҳам санҷем."
+      ],
+      "roman": [
+        "Ocha, telefoni navro, ki az Sadbarg kharidem, avval ba barq moned.",
+        "Simkortro az telefoni kuhna barovarda, ba telefoni nav guzored.",
+        "Bad tugmai pahluyashro pakhsh karda, to ravshan shudani ekran nigoh dored.",
+        "Az ruykhati zabonho rusiro intikhob kuned, chun ba on odat kardaed.",
+        "Dar tanzimot ba interneti khona payvast shaved, parolash pushti router ast.",
+        "WhatsApp-ro nasb karda, kushoed va bad raqami telefoni khudro dar joyi kholi navised.",
+        "Ramzero, ki bo payomak meoyad, navised va bad nomatonro vorid kuned.",
+        "Agar harfho mayda boshand, andozaashonro az tanzimoti ekran kalon kuned.",
+        "Dar okhir ba man zang zaned, to ovozashro ham sanjem."
+      ]
+    },
+    {
+      "id": "tg-p05",
+      "kind": "para",
+      "title": "My Gym in Vahdat",
+      "native": [
+        "Ман як моҳ боз дар Ваҳдат ба толори варзишӣ меравам.",
+        "Мураббии мо Зебо ҳар ҳаракатро аввал худаш нишон медиҳад.",
+        "Ба ман маъқул аст, ки мураббӣ ҳеҷ касро саросема намекунад.",
+        "Толор калон нест, лекин байни дастгоҳҳо барои роҳ гаштан ҷой ҳаст.",
+        "Бегоҳиҳо садои мусиқиро баланд мекунанд ва гапи мураббиро шунидан душвор мешавад.",
+        "Ман бештар саҳар меравам, чунки он вақт одам камтар аст.",
+        "Барои як моҳ 180 сомонӣ медиҳам, нархаш ба назарам муносиб аст.",
+        "Баъди машқ худро сабуктар ҳис мекунам ва то хона пиёда бармегардам.",
+        "Ин толорро ба дугонаҳоям ҳам тавсия медиҳам."
+      ],
+      "roman": [
+        "Man yak moh boz dar Vahdat ba tolori varzishi meravam.",
+        "Murabbi mo Zebo har harakatro avval khudash nishon medihad.",
+        "Ba man maqul ast, ki murabbi hej kasro sarosema namekunad.",
+        "Tolor kalon nest, lekin bayni dastgohho baroi roh gashtan joy hast.",
+        "Begohiho sadoi musiqiro baland mekunand va gapi murabbiro shunidan dushvor meshavad.",
+        "Man beshtar sahar meravam, chunki on vaqt odam kamtar ast.",
+        "Baroi yak moh 180 somoni mediham, narkhash ba nazaram munosib ast.",
+        "Badi mashq khudro sabuktar his mekunam va to khona piyoda barmegardam.",
+        "In tolorro ba dugonahoyam ham tavsiya mediham."
+      ]
+    },
+    {
+      "id": "tg-p06",
+      "kind": "para",
+      "title": "Planning School Enrollment",
+      "native": [
+        "Имсол духтарам Ситора ба синфи 1-уми мактаби маҳаллаамон дар Кӯлоб меравад.",
+        "Рӯзи 3 июни 2026 ба мактаб рафта, рӯйхати ҳуҷҷатҳоро мепурсам.",
+        "Мактаб аз хонаамон 2 километр дур аст, пиёда рафтан мумкин аст.",
+        "Рӯзи 6 июн 4 дона сурат мегирем, нархаш 30 сомонӣ.",
+        "Барои суҳбат бо муаллима рӯзи 8 июн соати 9:30 меравем.",
+        "Барои нусхаи ҳуҷҷатҳо боз 10 сомонӣ ҷудо мекунам.",
+        "Ҳуҷҷатҳоро то 12 июн месупорам, то баъд саросема нашавем.",
+        "Барои либоси мактабӣ 250 сомонӣ мондаам, пойафзолашро падараш алоҳида мехарад.",
+        "То 20 август ҷузвдону дафтарҳои Ситораро ҳам мехарем."
+      ],
+      "roman": [
+        "Imsol dukhtaram Sitora ba sinfi 1-umi maktabi mahallaamon dar Kulob meravad.",
+        "Ruzi 3 iyuni 2026 ba maktab rafta, ruykhati hujjathoro mepursam.",
+        "Maktab az khonaamon 2 kilometr dur ast, piyoda raftan mumkin ast.",
+        "Ruzi 6 iyun 4 dona surat megirem, narkhash 30 somoni.",
+        "Baroi suhbat bo muallima ruzi 8 iyun soati 9:30 meravem.",
+        "Baroi nuskhai hujjatho boz 10 somoni judo mekunam.",
+        "Hujjathoro to 12 iyun mesuporam, to bad sarosema nashavem.",
+        "Baroi libosi maktabi 250 somoni mondaam, poyafzolashro padarash alohida mekharad.",
+        "To 20 avgust juzvdonu daftarhoi Sitoraro ham mekharem."
+      ]
+    },
+    {
+      "id": "tg-p07",
+      "kind": "para",
+      "title": "Internet Keeps Disconnecting",
+      "native": [
+        "Салом, интернети хонаамон дар Турсунзода дуруст кор намекунад.",
+        "Аз рӯзи шанбе интернетамон ҳар ним соат канда мешавад.",
+        "Мо дар кӯчаи Мирзо Турсунзода, хонаи 16 зиндагӣ мекунем.",
+        "Чароғҳои роутер фурӯзонанд, лекин дар телефон ягон сайт кушода намешавад.",
+        "Роутерро хомӯш карда, аз нав даргирондам, лекин интернет боз канда шуд.",
+        "Пули ин моҳро рӯзи 2 июл бо барномаи Alif аз корти бонкиам гузарондам.",
+        "Лутфан, санҷед, ки мушкил аз хат аст ё аз роутери хонаамон.",
+        "Агар усто фиристодан лозим бошад, пагоҳ баъди соати 15:30 дар хона ҳастам.",
+        "Илтимос, пешакӣ хабар диҳед, ки усто тахминан соати чанд меояд."
+      ],
+      "roman": [
+        "Salom, interneti khonaamon dar Tursunzoda durust kor namekunad.",
+        "Az ruzi shanbe internetamon har nim soat kanda meshavad.",
+        "Mo dar kuchai Mirzo Tursunzoda, khonai 16 zindagi mekunem.",
+        "Charoghhoi router furuzonand, lekin dar telefon yagon sayt kushoda nameshavad.",
+        "Routerro khomush karda, az nav dargirondam, lekin internet boz kanda shud.",
+        "Puli in mohro ruzi 2 iyul bo barnomai Alif az korti bonkiam guzarondam.",
+        "Lutfan, sanjed, ki mushkil az khat ast yo az routeri khonaamon.",
+        "Agar usto firistodan lozim boshad, pagoh badi soati 15:30 dar khona hastam.",
+        "Iltimos, peshaki khabar dihed, ki usto takhminan soati chand meoyad."
+      ]
+    },
+    {
+      "id": "tg-p08",
+      "kind": "para",
+      "title": "Wrestling Fans in Istaravshan",
+      "native": [
+        "Дар Истаравшан гӯштингириро бисёр дӯст медоранд.",
+        "Дар Наврӯз ба тамошои гӯштингирӣ аз деҳаҳои атроф ҳам меоянд.",
+        "Дар гирди майдон ҳам ҷавонон менишинанд, ҳам калонсолон.",
+        "Паҳлавонон пеш аз гӯштӣ гирифтан ба якдигар даст медиҳанд.",
+        "Паҳлавон кӯшиш мекунад, ки ҳарифашро ба пушт хобонад.",
+        "Довар назорат мекунад, ки паҳлавонон қоидаҳоро риоя кунанд.",
+        "Мухлисон ба паҳлавони меҳмон ҳам чапак мезананд.",
+        "Баъди мусобиқа мардум дар чойхона боз дар бораи гӯштингирӣ гап мезананд.",
+        "Бисёриҳо ба тамошои гӯштингирӣ мераванд, то дӯстонашонро ҳам бинанд."
+      ],
+      "roman": [
+        "Dar Istaravshan gushtingiriro bisyor dust medorand.",
+        "Dar Navruz ba tamoshoi gushtingiri az dehahoi atrof ham meoyand.",
+        "Dar girdi maydon ham javonon menishinand, ham kalonsolon.",
+        "Pahlavonon pesh az gushti giriftan ba yakdigar dast medihand.",
+        "Pahlavon kushish mekunad, ki harifashro ba pusht khobonad.",
+        "Dovar nazorat mekunad, ki pahlavonon qoidahoro rioya kunand.",
+        "Mukhlison ba pahlavoni mehmon ham chapak mezanand.",
+        "Badi musobiqa mardum dar choykhona boz dar borai gushtingiri gap mezanand.",
+        "Bisyoriho ba tamoshoi gushtingiri meravand, to dustonashonro ham binand."
+      ]
+    },
+    {
+      "id": "tg-s001",
+      "kind": "sentence",
+      "native": [
+        "Чойникро мон, ҳозир мерасам."
+      ],
+      "roman": [
+        "Choynikro mon, hozir merasam."
+      ]
+    },
+    {
+      "id": "tg-s002",
+      "kind": "sentence",
+      "native": [
+        "Бубахшед, ҳозир ба анбор рафтанам лозим, муҳокимаро бе ман сар кунед, хулосаашро баъд мехонам."
+      ],
+      "roman": [
+        "Bubakhshed, hozir ba anbor raftanam lozim, muhokimaro be man sar kuned, khulosaashro bad mekhonam."
+      ]
+    },
+    {
+      "id": "tg-s003",
+      "kind": "sentence",
+      "native": [
+        "Ба ман 4 метр матоъ диҳед. Бараш 150 сантиметр бошад."
+      ],
+      "roman": [
+        "Ba man 4 metr mato dihed. Barash 150 santimetr boshad."
+      ]
+    },
+    {
+      "id": "tg-s004",
+      "kind": "sentence",
+      "native": [
+        "Сешанбе бояд пойафзоламро аз устохона гирифта биёрам."
+      ],
+      "roman": [
+        "Seshanbe boyad poyafzolamro az ustokhona girifta biyoram."
+      ]
+    },
+    {
+      "id": "tg-s005",
+      "kind": "sentence",
+      "native": [
+        "Ҷавоб навис: Ман метавонам духтаратонро баъди машқи шиноварӣ гирифта биёрам, шумо коратонро тамом кунед."
+      ],
+      "roman": [
+        "Javob navis: Man metavonam dukhtaratonro badi mashqi shinovari girifta biyoram, shumo koratonro tamom kuned."
+      ]
+    },
+    {
+      "id": "tg-s006",
+      "kind": "sentence",
+      "native": [
+        "Сироҷиддин, ноутбуки кориро ба хона бурдан мумкин аст ё барои ин аз роҳбар иҷозат пурсам?"
+      ],
+      "roman": [
+        "Sirojiddin, noutbuki koriro ba khona burdan mumkin ast yo baroi in az rohbar ijozat pursam?"
+      ]
+    },
+    {
+      "id": "tg-s007",
+      "kind": "sentence",
+      "native": [
+        "Ронанда гуфт, ки маршрутка аз нақби нав мегузарад."
+      ],
+      "roman": [
+        "Ronanda guft, ki marshrutka az naqbi nav meguzarad."
+      ]
+    },
+    {
+      "id": "tg-s008",
+      "kind": "sentence",
+      "native": [
+        "Меҳрубон барои базми хатм пойафзоли нав интихоб кард, лекин ба пояш танг омад."
+      ],
+      "roman": [
+        "Mehrubon baroi bazmi khatm poyafzoli nav intikhob kard, lekin ba poyash tang omad."
+      ]
+    },
+    {
+      "id": "tg-s009",
+      "kind": "sentence",
+      "native": [
+        "Рақсро аз нав нишон медиҳӣ ё худам санҷам?"
+      ],
+      "roman": [
+        "Raqsro az nav nishon medihi yo khudam sanjam?"
+      ]
+    },
+    {
+      "id": "tg-s010",
+      "kind": "sentence",
+      "native": [
+        "Рости гап, ранги пешинаи девор ба ман бештар маъқул буд."
+      ],
+      "roman": [
+        "Rosti gap, rangi peshinai devor ba man beshtar maqul bud."
+      ]
+    },
+    {
+      "id": "tg-s011",
+      "kind": "sentence",
+      "native": [
+        "Имрӯз ошпази хона туӣ!"
+      ],
+      "roman": [
+        "Imruz oshpazi khona tui!"
+      ]
+    },
+    {
+      "id": "tg-s012",
+      "kind": "sentence",
+      "native": [
+        "Сметаро бе тағйир тасдиқ мекунам."
+      ],
+      "roman": [
+        "Smetaro be taghyir tasdiq mekunam."
+      ]
+    },
+    {
+      "id": "tg-s013",
+      "kind": "sentence",
+      "native": [
+        "Рӯзи таваллуди Суман 18 сентябр аст, имсол 9-сола мешавад."
+      ],
+      "roman": [
+        "Ruzi tavalludi Suman 18 sentyabr ast, imsol 9-sola meshavad."
+      ]
+    },
+    {
+      "id": "tg-s014",
+      "kind": "sentence",
+      "native": [
+        "Бодиринг, сабзӣ ва равғани пахтаро ҳам ба рӯйхати харид илова кун."
+      ],
+      "roman": [
+        "Bodiring, sabzi va ravghani pakhtaro ham ba ruykhati kharid ilova kun."
+      ]
+    },
+    {
+      "id": "tg-s015",
+      "kind": "sentence",
+      "native": [
+        "Офтоб имрӯз кай менишинад?"
+      ],
+      "roman": [
+        "Oftob imruz kay menishinad?"
+      ]
+    },
+    {
+      "id": "tg-s016",
+      "kind": "sentence",
+      "native": [
+        "Номи аккаунтамро иваз кардам, акнун маро осонтар меёбед."
+      ],
+      "roman": [
+        "Nomi akkauntamro ivaz kardam, aknun maro osontar meyobed."
+      ]
+    },
+    {
+      "id": "tg-s017",
+      "kind": "sentence",
+      "native": [
+        "Гулчеҳра, баъди машқ дар қаҳвахонаи поён менишинем?"
+      ],
+      "roman": [
+        "Gulchehra, badi mashq dar qahvakhonai poyon menishinem?"
+      ]
+    },
+    {
+      "id": "tg-s018",
+      "kind": "sentence",
+      "native": [
+        "Танаффус кай тамом мешавад?"
+      ],
+      "roman": [
+        "Tanaffus kay tamom meshavad?"
+      ]
+    },
+    {
+      "id": "tg-s019",
+      "kind": "sentence",
+      "native": [
+        "Андозааш ба шумо мувофиқ аст?"
+      ],
+      "roman": [
+        "Andozaash ba shumo muvofiq ast?"
+      ]
+    },
+    {
+      "id": "tg-s020",
+      "kind": "sentence",
+      "native": [
+        "Пештар аз хато кардан метарсидам. Ҳозир мефаҳмам, ки аз хатоҳои худам ҳам ёд мегирам."
+      ],
+      "roman": [
+        "Peshtar az khato kardan metarsidam. Hozir mefahmam, ki az khatohoi khudam ham yod megiram."
+      ]
+    },
+    {
+      "id": "tg-s021",
+      "kind": "sentence",
+      "native": [
+        "Хобат бурд ё бедорӣ?"
+      ],
+      "roman": [
+        "Khobat burd yo bedori?"
+      ]
+    },
+    {
+      "id": "tg-s022",
+      "kind": "sentence",
+      "native": [
+        "Навбатдории ҷумъаро мегирам, агар шумо якшанбе ба ҷойи ман бароед."
+      ],
+      "roman": [
+        "Navbatdorii jumaro megiram, agar shumo yakshanbe ba joyi man baroed."
+      ]
+    },
+    {
+      "id": "tg-s023",
+      "kind": "sentence",
+      "native": [
+        "Заряди телефон 24% мондааст."
+      ],
+      "roman": [
+        "Zaryadi telefon 24% mondaast."
+      ]
+    },
+    {
+      "id": "tg-s024",
+      "kind": "sentence",
+      "native": [
+        "Пеш аз сафар ба Панҷакент чархҳои мошинро санҷонам."
+      ],
+      "roman": [
+        "Pesh az safar ba Panjakent charkhhoi moshinro sanjonam."
+      ]
+    },
+    {
+      "id": "tg-s025",
+      "kind": "sentence",
+      "native": [
+        "Таймерро барои 6 дақиқа мон."
+      ],
+      "roman": [
+        "Taymerro baroi 6 daqiqa mon."
+      ]
+    },
+    {
+      "id": "tg-s026",
+      "kind": "sentence",
+      "native": [
+        "Телефон гӯшмонакро намеёбад."
+      ],
+      "roman": [
+        "Telefon gushmonakro nameyobad."
+      ]
+    },
+    {
+      "id": "tg-s027",
+      "kind": "sentence",
+      "native": [
+        "Ҷӯраам аз Хоруғ меояд, барои ҳамин мехоҳам рӯзи омаданаш аз кор барвақттар ҷавоб гирам."
+      ],
+      "roman": [
+        "Juraam az Khorugh meoyad, baroi hamin mekhoham ruzi omadanash az kor barvaqttar javob giram."
+      ]
+    },
+    {
+      "id": "tg-s028",
+      "kind": "sentence",
+      "native": [
+        "Оча, муаллима барои фардо коғази ранга овардан фармуд."
+      ],
+      "roman": [
+        "Ocha, muallima baroi fardo qoghazi ranga ovardan farmud."
+      ]
+    },
+    {
+      "id": "tg-s029",
+      "kind": "sentence",
+      "native": [
+        "Кабудашро деҳ, не, сафедашро."
+      ],
+      "roman": [
+        "Kabudashro deh, ne, safedashro."
+      ]
+    },
+    {
+      "id": "tg-s030",
+      "kind": "sentence",
+      "native": [
+        "Дастатон дард накунад!"
+      ],
+      "roman": [
+        "Dastaton dard nakunad!"
+      ]
+    },
+    {
+      "id": "tg-s031",
+      "kind": "sentence",
+      "native": [
+        "Фурсат ёфтӣ, занг зан."
+      ],
+      "roman": [
+        "Fursat yofti, zang zan."
+      ]
+    },
+    {
+      "id": "tg-s032",
+      "kind": "sentence",
+      "native": [
+        "Меҳмонҳо аз Бӯстон нисфирӯзӣ мерасанд, хуб мешуд, ки то омаданашон утоқи хурдро барои мулоқот тайёр кунем."
+      ],
+      "roman": [
+        "Mehmonho az Buston nisfiruzi merasand, khub meshud, ki to omadanashon utoqi khurdro baroi muloqot tayyor kunem."
+      ]
+    },
+    {
+      "id": "tg-s033",
+      "kind": "sentence",
+      "native": [
+        "Боғча соати 17:00 пӯшида мешавад, ман соати 16:45 мерасам."
+      ],
+      "roman": [
+        "Boghcha soati 17:00 pushida meshavad, man soati 16:45 merasam."
+      ]
+    },
+    {
+      "id": "tg-s034",
+      "kind": "sentence",
+      "native": [
+        "Сачоқҳои тозаро ҷудо монам."
+      ],
+      "roman": [
+        "Sachoqhoi tozaro judo monam."
+      ]
+    },
+    {
+      "id": "tg-s035",
+      "kind": "sentence",
+      "native": [
+        "Қалъаи Ҳисор барои тамошобинон рӯзи душанбе кушода аст?"
+      ],
+      "roman": [
+        "Qalai Hisor baroi tamoshobinon ruzi dushanbe kushoda ast?"
+      ]
+    },
+    {
+      "id": "tg-s036",
+      "kind": "sentence",
+      "native": [
+        "Ҳуҷҷатро дар телефонам кушодам, вале ба ҷойи ҳарфҳо чоркунҷа мебарояд. Шрифташро иваз кардан даркор."
+      ],
+      "roman": [
+        "Hujjatro dar telefonam kushodam, vale ba joyi harfho chorkunja mebaroyad. Shriftashro ivaz kardan darkor."
+      ]
+    },
+    {
+      "id": "tg-s037",
+      "kind": "sentence",
+      "native": [
+        "Дӯкони матоъфурӯшӣ кӯчидааст, акнун рӯ ба рӯйи почта аст."
+      ],
+      "roman": [
+        "Dukoni matofurushi kuchidaast, aknun ru ba ruyi pochta ast."
+      ]
+    },
+    {
+      "id": "tg-s038",
+      "kind": "sentence",
+      "native": [
+        "Усто гуфт, ки розеткаи сӯхтаро иваз кардан даркор."
+      ],
+      "roman": [
+        "Usto guft, ki rozetkai sukhtaro ivaz kardan darkor."
+      ]
+    },
+    {
+      "id": "tg-s039",
+      "kind": "sentence",
+      "native": [
+        "Деворро ранг мекунем, ё беҳтараш аввал пардаро интихоб кунем?"
+      ],
+      "roman": [
+        "Devorro rang mekunem, yo behtarash avval pardaro intikhob kunem?"
+      ]
+    },
+    {
+      "id": "tg-s040",
+      "kind": "sentence",
+      "native": [
+        "Мастобаи ин ошхона ба назарам каме шӯр шудааст."
+      ],
+      "roman": [
+        "Mastobai in oshkhona ba nazaram kame shur shudaast."
+      ]
+    },
+    {
+      "id": "tg-s041",
+      "kind": "sentence",
+      "native": [
+        "Бегоҳ назди даромадгоҳи боғи Рӯдакӣ туро интизор мешавам."
+      ],
+      "roman": [
+        "Begoh nazdi daromadgohi boghi Rudaki turo intizor meshavam."
+      ]
+    },
+    {
+      "id": "tg-s042",
+      "kind": "sentence",
+      "native": [
+        "Ҳамкорони Хуҷанд кай намунаи бастабандиро ба мо мерасонанд?"
+      ],
+      "roman": [
+        "Hamkoroni Khujand kay namunai bastabandiro ba mo merasonand?"
+      ]
+    },
+    {
+      "id": "tg-s043",
+      "kind": "sentence",
+      "native": [
+        "Рақами фармоишам 572 аст, онро то соати 14:00 тайёр мекунед?"
+      ],
+      "roman": [
+        "Raqami farmoisham 572 ast, onro to soati 14:00 tayyor mekuned?"
+      ]
+    },
+    {
+      "id": "tg-s044",
+      "kind": "sentence",
+      "native": [
+        "Нархи асалро навис: як шишааш 55 сомонӣ будааст."
+      ],
+      "roman": [
+        "Narkhi asalro navis: yak shishaash 55 somoni budaast."
+      ]
+    },
+    {
+      "id": "tg-s045",
+      "kind": "sentence",
+      "native": [
+        "Ҷустуҷӯ кун, ки самбӯсаи кадугиро чӣ тавр мепазанд."
+      ],
+      "roman": [
+        "Justuju kun, ki sambusai kadugiro chi tavr mepazand."
+      ]
+    },
+    {
+      "id": "tg-s046",
+      "kind": "sentence",
+      "native": [
+        "Таҳрири матн дар Word бароям қулайтар аст."
+      ],
+      "roman": [
+        "Tahriri matn dar Word baroyam qulaytar ast."
+      ]
+    },
+    {
+      "id": "tg-s047",
+      "kind": "sentence",
+      "native": [
+        "Амакатон ҳамроҳи мо меравад?"
+      ],
+      "roman": [
+        "Amakaton hamrohi mo meravad?"
+      ]
+    },
+    {
+      "id": "tg-s048",
+      "kind": "sentence",
+      "native": [
+        "Шаҳло, табақи шуморо баъди маърака худам шуста бармегардонам."
+      ],
+      "roman": [
+        "Shahlo, tabaqi shumoro badi maraka khudam shusta barmegardonam."
+      ]
+    },
+    {
+      "id": "tg-s049",
+      "kind": "sentence",
+      "native": [
+        "Угроро бе қаламфур биёред, қаламфурашро дар зарфи дигар монед."
+      ],
+      "roman": [
+        "Ugroro be qalamfur biyored, qalamfurashro dar zarfi digar moned."
+      ]
+    },
+    {
+      "id": "tg-s050",
+      "kind": "sentence",
+      "native": [
+        "Насим, рӯҳафтода нашав, боз кӯшиш кун, ин дафъа мешавад!"
+      ],
+      "roman": [
+        "Nasim, ruhaftoda nashav, boz kushish kun, in dafa meshavad!"
+      ]
+    },
+    {
+      "id": "tg-s051",
+      "kind": "sentence",
+      "native": [
+        "Рустам, билети кино ба ҳар кадомамон 40 сомонӣ меафтад."
+      ],
+      "roman": [
+        "Rustam, bileti kino ba har kadomamon 40 somoni meaftad."
+      ]
+    },
+    {
+      "id": "tg-s052",
+      "kind": "sentence",
+      "native": [
+        "Салом, коратон хуб рафта истодааст?"
+      ],
+      "roman": [
+        "Salom, koraton khub rafta istodaast?"
+      ]
+    },
+    {
+      "id": "tg-s053",
+      "kind": "sentence",
+      "native": [
+        "Дастаи мо 3 гол зад."
+      ],
+      "roman": [
+        "Dastai mo 3 gol zad."
+      ]
+    },
+    {
+      "id": "tg-s054",
+      "kind": "sentence",
+      "native": [
+        "Ҷумъа устои яхдон меояд, ҳаминро дар тақвим қайд кун, то аз хона набароям."
+      ],
+      "roman": [
+        "Juma ustoi yakhdon meoyad, haminro dar taqvim qayd kun, to az khona nabaroyam."
+      ]
+    },
+    {
+      "id": "tg-s055",
+      "kind": "sentence",
+      "native": [
+        "Суруди нави Шабнами Сурайёро аз аввал то охир мон."
+      ],
+      "roman": [
+        "Surudi navi Shabnami Surayyoro az avval to okhir mon."
+      ]
+    },
+    {
+      "id": "tg-s056",
+      "kind": "sentence",
+      "native": [
+        "Ҳангоми суҳбат дар Zoom овозатон гоҳ-гоҳ канда мешавад."
+      ],
+      "roman": [
+        "Hangomi suhbat dar Zoom ovozaton goh-goh kanda meshavad."
+      ]
+    },
+    {
+      "id": "tg-s057",
+      "kind": "sentence",
+      "native": [
+        "Холаи Саодат дар маҳаллаи Зарафшон хонаи иҷора ёфтааст."
+      ],
+      "roman": [
+        "Kholai Saodat dar mahallai Zarafshon khonai ijora yoftaast."
+      ]
+    },
+    {
+      "id": "tg-s058",
+      "kind": "sentence",
+      "native": [
+        "Ҷумаки ҳаммом мечакад."
+      ],
+      "roman": [
+        "Jumaki hammom mechakad."
+      ]
+    },
+    {
+      "id": "tg-s059",
+      "kind": "sentence",
+      "native": [
+        "Рост равам ё чап?"
+      ],
+      "roman": [
+        "Rost ravam yo chap?"
+      ]
+    },
+    {
+      "id": "tg-s060",
+      "kind": "sentence",
+      "native": [
+        "Дар Ромит нағз дам гирифтам. Боз рафтан мехоҳам."
+      ],
+      "roman": [
+        "Dar Romit naghz dam giriftam. Boz raftan mekhoham."
+      ]
+    },
+    {
+      "id": "tg-s061",
+      "kind": "sentence",
+      "native": [
+        "Калиди эҳтиётӣ дар ҷевони даҳлез аст, худам то хӯроки нисфирӯзӣ баргашта наметавонам."
+      ],
+      "roman": [
+        "Kalidi ehtiyoti dar jevoni dahlez ast, khudam to khuroki nisfiruzi bargashta nametavonam."
+      ]
+    },
+    {
+      "id": "tg-s062",
+      "kind": "sentence",
+      "native": [
+        "Парвиз, рӯзи сешанбе барои суҳбат бо довталабон вақт доред?"
+      ],
+      "roman": [
+        "Parviz, ruzi seshanbe baroi suhbat bo dovtalabon vaqt dored?"
+      ]
+    },
+    {
+      "id": "tg-s063",
+      "kind": "sentence",
+      "native": [
+        "Навишта гиред: 90 000 00 00, баъди соати 17:20 ба ин рақам занг занед."
+      ],
+      "roman": [
+        "Navishta gired: 90 000 00 00, badi soati 17:20 ba in raqam zang zaned."
+      ]
+    },
+    {
+      "id": "tg-s064",
+      "kind": "sentence",
+      "native": [
+        "Ёдам бошад, Ҳалима пагоҳ духтарчаамро аз дарси расмкашӣ мегирад."
+      ],
+      "roman": [
+        "Yodam boshad, Halima pagoh dukhtarchaamro az darsi rasmkashi megirad."
+      ]
+    },
+    {
+      "id": "tg-s065",
+      "kind": "sentence",
+      "native": [
+        "Видеоро аз ҳамон ҷое давом деҳ, ки дирӯз тамошояшро бас карда будам, аз аввал сар накун."
+      ],
+      "roman": [
+        "Videoro az hamon joe davom deh, ki diruz tamoshoyashro bas karda budam, az avval sar nakun."
+      ]
+    },
+    {
+      "id": "tg-s066",
+      "kind": "sentence",
+      "native": [
+        "Беҳрӯз, дар Excel сутуни хароҷотро тасодуфан пок кардаам."
+      ],
+      "roman": [
+        "Behruz, dar Excel sutuni kharojotro tasodufan pok kardam."
+      ]
+    },
+    {
+      "id": "tg-s067",
+      "kind": "sentence",
+      "native": [
+        "Кӯча танг аст, мошинатонро назди нонвойхона монед. Аз зинаҳои паҳлуяш боло бароед, хонаам ҳамин ҷост."
+      ],
+      "roman": [
+        "Kucha tang ast, moshinatonro nazdi nonvoykhona moned. Az zinahoi pahluyash bolo baroed, khonaam hamin jost."
+      ]
+    },
+    {
+      "id": "tg-s068",
+      "kind": "sentence",
+      "native": [
+        "Баъди нисфирӯзӣ соати 4 барои мӯйсаргирӣ ҷойи холӣ доред?"
+      ],
+      "roman": [
+        "Badi nisfiruzi soati 4 baroi muysargiri joyi kholi dored?"
+      ]
+    },
+    {
+      "id": "tg-s069",
+      "kind": "sentence",
+      "native": [
+        "Нозим, панҷшанбе биё, э, не, ҷумъа вақти холӣ дорам."
+      ],
+      "roman": [
+        "Nozim, panjshanbe biyo, e, ne, juma vaqti kholi doram."
+      ]
+    },
+    {
+      "id": "tg-s070",
+      "kind": "sentence",
+      "native": [
+        "Овозат бисёр форам аст!"
+      ],
+      "roman": [
+        "Ovozat bisyor foram ast!"
+      ]
+    },
+    {
+      "id": "tg-s071",
+      "kind": "sentence",
+      "native": [
+        "Хона расидам, хавотир нашав."
+      ],
+      "roman": [
+        "Khona rasidam, khavotir nashav."
+      ]
+    },
+    {
+      "id": "tg-s072",
+      "kind": "sentence",
+      "native": [
+        "Муҳлати обуна ба барнома тамом шудааст. Боз обуна мешавем?"
+      ],
+      "roman": [
+        "Muhlati obuna ba barnoma tamom shudaast. Boz obuna meshavem?"
+      ]
+    },
+    {
+      "id": "tg-s073",
+      "kind": "sentence",
+      "native": [
+        "Поезд соати 16:40 меравад, ҷоям дар вагони 7-ум аст."
+      ],
+      "roman": [
+        "Poezd soati 16:40 meravad, joyam dar vagoni 7-um ast."
+      ]
+    },
+    {
+      "id": "tg-s074",
+      "kind": "sentence",
+      "native": [
+        "Ба Мадина гӯям, ки ниҳолҳоро ҳамроҳаш гирифта биёрад."
+      ],
+      "roman": [
+        "Ba Madina guyam, ki niholhoro hamrohash girifta biyorad."
+      ]
+    },
+    {
+      "id": "tg-s075",
+      "kind": "sentence",
+      "native": [
+        "Паёми навро аз WhatsApp хон, ҳозир дастам банд аст ва телефонро гирифта наметавонам."
+      ],
+      "roman": [
+        "Payomi navro az WhatsApp khon, hozir dastam band ast va telefonro girifta nametavonam."
+      ]
+    },
+    {
+      "id": "tg-s076",
+      "kind": "sentence",
+      "native": [
+        "Навсозиро шаб насб мекунам, чунки ҳоло бо ҳамин компютер нақшаи ошхонаро мекашам."
+      ],
+      "roman": [
+        "Navsoziro shab nasb mekunam, chunki holo bo hamin kompyuter naqshai oshkhonaro mekasham."
+      ]
+    },
+    {
+      "id": "tg-s077",
+      "kind": "sentence",
+      "native": [
+        "Автобуси охирин рафт, маҷбур шудам пиёда баргардам."
+      ],
+      "roman": [
+        "Avtobusi okhirin raft, majbur shudam piyoda bargardam."
+      ]
+    },
+    {
+      "id": "tg-s078",
+      "kind": "sentence",
+      "native": [
+        "Мавлуда, барои суманак гандумро аз куҷо харидӣ?"
+      ],
+      "roman": [
+        "Mavluda, baroi sumanak gandumro az kujo kharidi?"
+      ]
+    },
+    {
+      "id": "tg-s079",
+      "kind": "sentence",
+      "native": [
+        "Рӯйи варақро не, фақат пушташро скан кардан даркор."
+      ],
+      "roman": [
+        "Ruyi varaqro ne, faqat pushtashro skan kardan darkor."
+      ]
+    },
+    {
+      "id": "tg-s080",
+      "kind": "sentence",
+      "native": [
+        "Ниҳоят, рухсатиямро тасдиқ карданд, акнун бо хотири ҷамъ истироҳат мекунам."
+      ],
+      "roman": [
+        "Nihoyat, rukhsatiyamro tasdiq kardand, aknun bo khotiri jam istirohat mekunam."
+      ]
+    },
+    {
+      "id": "tg-s081",
+      "kind": "sentence",
+      "native": [
+        "Рӯзи шанбе кӯдаконро ба театр бурданӣ ҳастем, ту ҳамроҳамон меравӣ ё кор дорӣ?"
+      ],
+      "roman": [
+        "Ruzi shanbe kudakonro ba teatr burdani hastem, tu hamrohamon meravi yo kor dori?"
+      ]
+    },
+    {
+      "id": "tg-s082",
+      "kind": "sentence",
+      "native": [
+        "Рақамҳои ҳисобот дар акс дуруст хонда намешаванд, метавонед худи файлро бо почта равон кунед?"
+      ],
+      "roman": [
+        "Raqamhoi hisobot dar aks durust khonda nameshavand, metavoned khudi faylro bo pochta ravon kuned?"
+      ]
+    },
+    {
+      "id": "tg-s083",
+      "kind": "sentence",
+      "native": [
+        "Ҳисобатон 68 сомонӣ шуд."
+      ],
+      "roman": [
+        "Hisobaton 68 somoni shud."
+      ]
+    },
+    {
+      "id": "tg-s084",
+      "kind": "sentence",
+      "native": [
+        "Ҳафтаи оянда ба Китобхонаи миллӣ равам ва барои кори дипломӣ чанд мақола пайдо кунам."
+      ],
+      "roman": [
+        "Haftai oyanda ba Kitobkhonai milli ravam va baroi kori diplomi chand maqola paydo kunam."
+      ]
+    },
+    {
+      "id": "tg-s085",
+      "kind": "sentence",
+      "native": [
+        "Экранро равшантар кун, навиштаҳояш дар офтоб хуб намоён нестанд."
+      ],
+      "roman": [
+        "Ekranro ravshantar kun, navishtahoyash dar oftob khub namoyon nestand."
+      ]
+    },
+    {
+      "id": "tg-s086",
+      "kind": "sentence",
+      "native": [
+        "Клиент мехоҳад, ки нархнома дар шакли ҷадвал бошад."
+      ],
+      "roman": [
+        "Klient mekhohad, ki narkhnoma dar shakli jadval boshad."
+      ]
+    },
+    {
+      "id": "tg-s087",
+      "kind": "sentence",
+      "native": [
+        "Далер, маро сари роҳи Ваҳдат фароварда метавонед?"
+      ],
+      "roman": [
+        "Daler, maro sari rohi Vahdat farovarda metavoned?"
+      ]
+    },
+    {
+      "id": "tg-s088",
+      "kind": "sentence",
+      "native": [
+        "Посилкаам ба почтаи Истаравшан расидааст, барои гирифтанаш шиносномаамро ҳамроҳам бурданам лозим будааст."
+      ],
+      "roman": [
+        "Posilkaam ba pochtai Istaravshan rasidaast, baroi giriftanash shinosnomaamro hamroham burdanam lozim budaast."
+      ]
+    },
+    {
+      "id": "tg-s089",
+      "kind": "sentence",
+      "native": [
+        "Азизаро ба рӯйхати иштирокчиён илова кун, не, ист, пурсам, ки рӯзи якшанбе омада метавонад ё не."
+      ],
+      "roman": [
+        "Azizaro ba ruykhati ishtirokchiyon ilova kun, ne, ist, pursam, ki ruzi yakshanbe omada metavonad yo ne."
+      ]
+    },
+    {
+      "id": "tg-s090",
+      "kind": "sentence",
+      "native": [
+        "Маъзарат, шуморо мунтазир кардам."
+      ],
+      "roman": [
+        "Mazarat, shumoro muntazir kardam."
+      ]
+    },
+    {
+      "id": "tg-s091",
+      "kind": "sentence",
+      "native": [
+        "Манижа, аксҳои тӯйро ба гурӯҳи худамон фирист, илтимос."
+      ],
+      "roman": [
+        "Manizha, akshoi tuyro ba guruhi khudamon firist, iltimos."
+      ]
+    },
+    {
+      "id": "tg-s092",
+      "kind": "sentence",
+      "native": [
+        "Ташаккур, ҷавобатонро интизор мешавам."
+      ],
+      "roman": [
+        "Tashakkur, javobatonro intizor meshavam."
+      ]
+    },
+    {
+      "id": "tg-s093",
+      "kind": "sentence",
+      "native": [
+        "Бастаро ба кӯчаи Нисор Муҳаммад, хонаи 36, ҳуҷраи 8 биёред, ман ҳамин ҷо интизорам."
+      ],
+      "roman": [
+        "Bastaro ba kuchai Nisor Muhammad, khonai 36, hujrai 8 biyored, man hamin jo intizoram."
+      ]
+    },
+    {
+      "id": "tg-s094",
+      "kind": "sentence",
+      "native": [
+        "Фаромӯш накунам, ки қайчиро баъди истифода ба ҷояш монам."
+      ],
+      "roman": [
+        "Faromush nakunam, ki qaychiro badi istifoda ba joyash monam."
+      ]
+    },
+    {
+      "id": "tg-s095",
+      "kind": "sentence",
+      "native": [
+        "Будилникро ба соати 7:10 мон ва оҳангашро иваз кун, ки ин дафъа бедор шавам."
+      ],
+      "roman": [
+        "Budilnikro ba soati 7:10 mon va ohangashro ivaz kun, ki in dafa bedor shavam."
+      ]
+    },
+    {
+      "id": "tg-s096",
+      "kind": "sentence",
+      "native": [
+        "Микрофонатон садоро намегирад."
+      ],
+      "roman": [
+        "Mikrofonaton sadoro namegirad."
+      ]
+    },
+    {
+      "id": "tg-s097",
+      "kind": "sentence",
+      "native": [
+        "Сартарошхона дар таҳхона будааст."
+      ],
+      "roman": [
+        "Sartaroshkhona dar tahkhona budaast."
+      ]
+    },
+    {
+      "id": "tg-s098",
+      "kind": "sentence",
+      "native": [
+        "Чатратро ҳамроҳат бигир."
+      ],
+      "roman": [
+        "Chatratro hamrohat bigir."
+      ]
+    },
+    {
+      "id": "tg-s099",
+      "kind": "sentence",
+      "native": [
+        "Ҷамила, навбат ба кист?"
+      ],
+      "roman": [
+        "Jamila, navbat ba kist?"
+      ]
+    },
+    {
+      "id": "tg-s100",
+      "kind": "sentence",
+      "native": [
+        "Вақти кӯчиданатон маро ҳам ҷеғ занед, мошини калон дорам, борҳоятонро якбора мебарем."
+      ],
+      "roman": [
+        "Vaqti kuchidanaton maro ham jegh zaned, moshini kalon doram, borhoyatonro yakbora mebarem."
+      ]
+    },
+    {
+      "id": "tg-s101",
+      "kind": "sentence",
+      "native": [
+        "Рухшона, нархи тарҷумаро 180 сомонӣ монем, мувофиқ аст?"
+      ],
+      "roman": [
+        "Rukhshona, narkhi tarjumaro 180 somoni monem, muvofiq ast?"
+      ]
+    },
+    {
+      "id": "tg-s102",
+      "kind": "sentence",
+      "native": [
+        "То Исфара боз 28 километр роҳ мондааст."
+      ],
+      "roman": [
+        "To Isfara boz 28 kilometr roh mondaast."
+      ]
+    },
+    {
+      "id": "tg-s103",
+      "kind": "sentence",
+      "native": [
+        "Фатири гарм фармоиш диҳам."
+      ],
+      "roman": [
+        "Fatiri garm farmoish diham."
+      ]
+    },
+    {
+      "id": "tg-s104",
+      "kind": "sentence",
+      "native": [
+        "Суроғаи наздиктарин устохонаи таъмири велосипедро ёб ва соатҳои корашро гӯй."
+      ],
+      "roman": [
+        "Suroghai nazdiktarin ustokhonai tamiri velosipedro yob va soathoi korashro guy."
+      ]
+    },
+    {
+      "id": "tg-s105",
+      "kind": "sentence",
+      "native": [
+        "Суҳбатро сабт кунем, розӣ ҳастед?"
+      ],
+      "roman": [
+        "Suhbatro sabt kunem, rozi hasted?"
+      ]
+    },
+    {
+      "id": "tg-s106",
+      "kind": "sentence",
+      "native": [
+        "Шумо аз кадом дарвозаи варзишгоҳ даромадед, шарқӣ ё ғарбӣ?"
+      ],
+      "roman": [
+        "Shumo az kadom darvozai varzishgoh daromaded, sharqi yo gharbi?"
+      ]
+    },
+    {
+      "id": "tg-s107",
+      "kind": "sentence",
+      "native": [
+        "Тағоям аз Турсунзода як сабад ангури тоифӣ овардааст."
+      ],
+      "roman": [
+        "Taghoyam az Tursunzoda yak sabad anguri toifi ovardaast."
+      ]
+    },
+    {
+      "id": "tg-s108",
+      "kind": "sentence",
+      "native": [
+        "Батарейка, ширеш ва ресмон даркор, ростӣ, ширешро нагир, аз дафъаи гузашта дар қуттии асбобҳо мондааст."
+      ],
+      "roman": [
+        "Batareyka, shiresh va resmon darkor, rosti, shireshro nagir, az dafai guzashta dar quttii asbobho mondaast."
+      ]
+    },
+    {
+      "id": "tg-s109",
+      "kind": "sentence",
+      "native": [
+        "Дада, аз Бозори Панҷшанбе зардолуи ширин гирифта биёед."
+      ],
+      "roman": [
+        "Dada, az Bozori Panjshanbe zardolui shirin girifta biyoed."
+      ]
+    },
+    {
+      "id": "tg-s110",
+      "kind": "sentence",
+      "native": [
+        "Нусхаи охирин аллакай омода аст."
+      ],
+      "roman": [
+        "Nuskhai okhirin allakay omoda ast."
+      ]
+    },
+    {
+      "id": "tg-s111",
+      "kind": "sentence",
+      "native": [
+        "Ҷаласаро ба рӯзи чоршанбе, соати 11:15 гузаронем, розӣ ҳастед?"
+      ],
+      "roman": [
+        "Jalasaro ba ruzi chorshanbe, soati 11:15 guzaronem, rozi hasted?"
+      ]
+    },
+    {
+      "id": "tg-s112",
+      "kind": "sentence",
+      "native": [
+        "Нишондоди ҳисобкунаки обро нависам."
+      ],
+      "roman": [
+        "Nishondodi hisobkunaki obro navisam."
+      ]
+    },
+    {
+      "id": "tg-s113",
+      "kind": "sentence",
+      "native": [
+        "Сомонаи Донишгоҳи миллии Тоҷикистонро дар браузер кушо."
+      ],
+      "roman": [
+        "Somonai Donishgohi milli Tojikistonro dar brauzer kusho."
+      ]
+    },
+    {
+      "id": "tg-s114",
+      "kind": "sentence",
+      "native": [
+        "Барнома барои пардохт изи ангушт мепурсад."
+      ],
+      "roman": [
+        "Barnoma baroi pardokht izi angusht mepursad."
+      ]
+    },
+    {
+      "id": "tg-s115",
+      "kind": "sentence",
+      "native": [
+        "Ҳамкорам барои гусели падараш ба автовокзал рафтааст. Касе ӯро пурсад, бигӯед, ки то нисфирӯзӣ бармегардад."
+      ],
+      "roman": [
+        "Hamkoram baroi guseli padarash ba avtovokzal raftaast. Kase uro pursad, bigued, ki to nisfiruzi barmegardad."
+      ]
+    },
+    {
+      "id": "tg-s116",
+      "kind": "sentence",
+      "native": [
+        "Хамир ҳанӯз нарасидааст."
+      ],
+      "roman": [
+        "Khamir hanuz narasidaast."
+      ]
+    },
+    {
+      "id": "tg-s117",
+      "kind": "sentence",
+      "native": [
+        "Нархаш 85 сомонӣ буд, хато гуфтам, 95 сомонӣ."
+      ],
+      "roman": [
+        "Narkhash 85 somoni bud, khato guftam, 95 somoni."
+      ]
+    },
+    {
+      "id": "tg-s118",
+      "kind": "sentence",
+      "native": [
+        "Муқаддас, модарат кадом гулро дӯст медоранд, садбарг ё лола?"
+      ],
+      "roman": [
+        "Muqaddas, modarat kadom gulro dust medorand, sadbarg yo lola?"
+      ]
+    },
+    {
+      "id": "tg-s119",
+      "kind": "sentence",
+      "native": [
+        "Пешниҳодатонро хондам, ман розӣ ҳастам."
+      ],
+      "roman": [
+        "Peshnihodatonro khondam, man rozi hastam."
+      ]
+    },
+    {
+      "id": "tg-s120",
+      "kind": "sentence",
+      "native": [
+        "Лифт то ошёнаи 12-ум меравад."
+      ],
+      "roman": [
+        "Lift to oshyonai 12-um meravad."
+      ]
+    },
+    {
+      "id": "tg-s121",
+      "kind": "sentence",
+      "native": [
+        "Гулҳоро об додан лозим."
+      ],
+      "roman": [
+        "Gulhoro ob dodan lozim."
+      ]
+    },
+    {
+      "id": "tg-s122",
+      "kind": "sentence",
+      "native": [
+        "Роҳи кӯтоҳтаринро то фурудгоҳи Бохтар дар харита нишон деҳ."
+      ],
+      "roman": [
+        "Rohi kutohtarinro to furudgohi Bokhtar dar kharita nishon deh."
+      ]
+    },
+    {
+      "id": "tg-s123",
+      "kind": "sentence",
+      "native": [
+        "Насиба, ин флешкаро пеш аз истифода формат накун."
+      ],
+      "roman": [
+        "Nasiba, in fleshkaro pesh az istifoda format nakun."
+      ]
+    },
+    {
+      "id": "tg-s124",
+      "kind": "sentence",
+      "native": [
+        "Мунира назди дорухона истодааст."
+      ],
+      "roman": [
+        "Munira nazdi dorukhona istodaast."
+      ]
+    },
+    {
+      "id": "tg-s125",
+      "kind": "sentence",
+      "native": [
+        "Шамол сахт шудааст, кӯрпачаҳоро аз ҳавлӣ ҷамъ кун, то чангу хок ба рӯяшон нанишинад."
+      ],
+      "roman": [
+        "Shamol sakht shudaast, kurpachahoro az havli jam kun, to changu khok ba ruyashon nanishinad."
+      ]
+    },
+    {
+      "id": "tg-s126",
+      "kind": "sentence",
+      "native": [
+        "Шафтолуҳоро ба халта не, ба сабад андозед, дар роҳ зер нашаванд, меҳмонӣ мебарам."
+      ],
+      "roman": [
+        "Shaftoluhoro ba khalta ne, ba sabad andozed, dar roh zer nashavand, mehmoni mebaram."
+      ]
+    },
+    {
+      "id": "tg-s127",
+      "kind": "sentence",
+      "native": [
+        "Гӯш кун, агар боз ҷӯробҳоят гум шаванд, аз мошини ҷомашӯӣ пурс, ман хабар надорам."
+      ],
+      "roman": [
+        "Gush kun, agar boz jurobhoyat gum shavand, az moshini jomashui purs, man khabar nadoram."
+      ]
+    },
+    {
+      "id": "tg-s128",
+      "kind": "sentence",
+      "native": [
+        "Моҳира гуфт, ки пешдоманҳои нав ба ошпазҳо маъқул шудаанд, фақат ҷайбҳояшонро каме калонтар дӯхтан лозим."
+      ],
+      "roman": [
+        "Mohira guft, ki peshdomanhoi nav ba oshpazho maqul shudaand, faqat jaybhoyashonro kame kalontar dukhtan lozim."
+      ]
+    },
+    {
+      "id": "tg-s129",
+      "kind": "sentence",
+      "native": [
+        "Барои таъмири соат 45 дақиқа вақт лозим будааст."
+      ],
+      "roman": [
+        "Baroi tamiri soat 45 daqiqa vaqt lozim budaast."
+      ]
+    },
+    {
+      "id": "tg-s130",
+      "kind": "sentence",
+      "native": [
+        "Сатили партовро шабона берун монам, чунки мошини партовбар ин ҳафта субҳи барвақт меояд."
+      ],
+      "roman": [
+        "Satili partovro shabona berun monam, chunki moshini partovbar in hafta subhi barvaqt meoyad."
+      ]
+    },
+    {
+      "id": "tg-s131",
+      "kind": "sentence",
+      "native": [
+        "Либоси харидаам мувофиқ наомад, барои иваз карданаш чек лозим аст?"
+      ],
+      "roman": [
+        "Libosi kharidam muvofiq naomad, baroi ivaz kardanash chek lozim ast?"
+      ]
+    },
+    {
+      "id": "tg-s132",
+      "kind": "sentence",
+      "native": [
+        "Нигора, рамзи тасдиқ ба рақами пешинаам рафтааст."
+      ],
+      "roman": [
+        "Nigora, ramzi tasdiq ba raqami peshinaam raftaast."
+      ]
+    },
+    {
+      "id": "tg-s133",
+      "kind": "sentence",
+      "native": [
+        "Истгоҳ он тарафи пул аст."
+      ],
+      "roman": [
+        "Istgoh on tarafi pul ast."
+      ]
+    },
+    {
+      "id": "tg-s134",
+      "kind": "sentence",
+      "native": [
+        "Картошкаатонро каме арзон кунед, як халта мегирам."
+      ],
+      "roman": [
+        "Kartoshkaatonro kame arzon kuned, yak khalta megiram."
+      ]
+    },
+    {
+      "id": "tg-s135",
+      "kind": "sentence",
+      "native": [
+        "Қалам, хаткӯркунак ва дафтари катакдор гир, муқовааш сабз бошад."
+      ],
+      "roman": [
+        "Qalam, khatkurkunak va daftari katakdor gir, muqovaash sabz boshad."
+      ]
+    },
+    {
+      "id": "tg-s136",
+      "kind": "sentence",
+      "native": [
+        "Бозии дишабаро сабт кардаам, натиҷаашро нагӯ, худам тамошо мекунам."
+      ],
+      "roman": [
+        "Bozii dishabaro sabt kardam, natijaashro nagu, khudam tamosho mekunam."
+      ]
+    },
+    {
+      "id": "tg-s137",
+      "kind": "sentence",
+      "native": [
+        "Хайр, коратон бобарор бошад!"
+      ],
+      "roman": [
+        "Khayr, koraton bobaror boshad!"
+      ]
+    },
+    {
+      "id": "tg-s138",
+      "kind": "sentence",
+      "native": [
+        "Нахӯдро 8 соат тар мекунем."
+      ],
+      "roman": [
+        "Nakhudro 8 soat tar mekunem."
+      ]
+    },
+    {
+      "id": "tg-s139",
+      "kind": "sentence",
+      "native": [
+        "Қолинро баъди гирифтани маош мехарам."
+      ],
+      "roman": [
+        "Qolinro badi giriftani maosh mekharam."
+      ]
+    },
+    {
+      "id": "tg-s140",
+      "kind": "sentence",
+      "native": [
+        "Ҳавои Кӯлоб пагоҳ чӣ хел мешавад?"
+      ],
+      "roman": [
+        "Havoi Kulob pagoh chi khel meshavad?"
+      ]
+    },
+    {
+      "id": "tg-s141",
+      "kind": "sentence",
+      "native": [
+        "Принтер коғазро каҷ мекашад."
+      ],
+      "roman": [
+        "Printer qoghazro kaj mekashad."
+      ]
+    },
+    {
+      "id": "tg-s142",
+      "kind": "sentence",
+      "native": [
+        "Куртаатро дар балкон овехтам, то саҳар хушк мешавад."
+      ],
+      "roman": [
+        "Kurtaatro dar balkon ovekhtam, to sahar khushk meshavad."
+      ]
+    },
+    {
+      "id": "tg-s143",
+      "kind": "sentence",
+      "native": [
+        "Фарзона, ҷадвали кори кормандонро дар чат гузоштед?"
+      ],
+      "roman": [
+        "Farzona, jadvali kori kormandonro dar chat guzoshted?"
+      ]
+    },
+    {
+      "id": "tg-s144",
+      "kind": "sentence",
+      "native": [
+        "Пардохти аввал 240 сомонӣ аст, 60 сомонии боқимондаро то 22 июл ба корт гузаронед."
+      ],
+      "roman": [
+        "Pardokhti avval 240 somoni ast, 60 somoni boqimondaro to 22 iyul ba kort guzaroned."
+      ]
+    },
+    {
+      "id": "tg-s145",
+      "kind": "sentence",
+      "native": [
+        "Чаро баргҳои лимӯ зард мешаванд? Обашро зиёд додаам?"
+      ],
+      "roman": [
+        "Charo barghoi limu zard meshavand? Obashro ziyod dodaam?"
+      ]
+    },
+    {
+      "id": "tg-s146",
+      "kind": "sentence",
+      "native": [
+        "Шералӣ, ман меҳмонҳоро бо коргоҳ шинос мекунам, шумо метавонед тарзи кори дастгоҳро нишон диҳед?"
+      ],
+      "roman": [
+        "Sherali, man mehmonhoro bo korgoh shinos mekunam, shumo metavoned tarzi kori dastgohro nishon dihed?"
+      ]
+    },
+    {
+      "id": "tg-s147",
+      "kind": "sentence",
+      "native": [
+        "Фаридун, дутори боборо биёр, якҷоя суруд мехонем."
+      ],
+      "roman": [
+        "Faridun, dutori boboro biyor, yakjoya surud mekhonem."
+      ]
+    },
+    {
+      "id": "tg-s148",
+      "kind": "sentence",
+      "native": [
+        "Муҳосиб барои пули таксӣ аз ман чек пурсид."
+      ],
+      "roman": [
+        "Muhosib baroi puli taksi az man chek pursid."
+      ]
+    },
+    {
+      "id": "tg-s149",
+      "kind": "sentence",
+      "native": [
+        "Фирӯза, барои ман 2 кило биринҷи аланга баркашед."
+      ],
+      "roman": [
+        "Firuza, baroi man 2 kilo birinji alanga barkashed."
+      ]
+    },
+    {
+      "id": "tg-s150",
+      "kind": "sentence",
+      "native": [
+        "Офарин, ба донишгоҳ дохил шудӣ!"
+      ],
+      "roman": [
+        "Ofarin, ba donishgoh dokhil shudi!"
+      ]
+    },
+    {
+      "id": "tg-s151",
+      "kind": "sentence",
+      "native": [
+        "Саҳифаи асосии сайт кушода намешавад, сабабашро месанҷед?"
+      ],
+      "roman": [
+        "Sahifai asosii sayt kushoda nameshavad, sababashro mesanjed?"
+      ]
+    },
+    {
+      "id": "tg-s152",
+      "kind": "sentence",
+      "native": [
+        "Шимро 9 июн 170 сомонӣ харидам. Андозаи 46 танг омад, 48 доред?"
+      ],
+      "roman": [
+        "Shimro 9 iyun 170 somoni kharidam. Andozai 46 tang omad, 48 dored?"
+      ]
+    },
+    {
+      "id": "tg-s153",
+      "kind": "sentence",
+      "native": [
+        "Майлаш, китобатро пагоҳ меорам."
+      ],
+      "roman": [
+        "Maylash, kitobatro pagoh meoram."
+      ]
+    },
+    {
+      "id": "tg-s154",
+      "kind": "sentence",
+      "native": [
+        "Дигар шир нахар, дар яхдон ҳоло ҳаст."
+      ],
+      "roman": [
+        "Digar shir nakhar, dar yakhdon holo hast."
+      ]
+    },
+    {
+      "id": "tg-s155",
+      "kind": "sentence",
+      "native": [
+        "Зебо, барои ман ҳам каме қурутоб мон."
+      ],
+      "roman": [
+        "Zebo, baroi man ham kame qurutob mon."
+      ]
+    },
+    {
+      "id": "tg-s156",
+      "kind": "sentence",
+      "native": [
+        "Телефонам хомӯш буд, барои ҳамин ҷавоб дода натавонистам."
+      ],
+      "roman": [
+        "Telefonam khomush bud, baroi hamin javob doda natavonistam."
+      ]
+    }
+  ]
+}

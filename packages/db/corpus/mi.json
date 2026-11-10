@@ -1,0 +1,1851 @@
+{
+  "lang": "mi",
+  "starter": [
+    "mi-s036",
+    "mi-s117",
+    "mi-s154",
+    "mi-s165",
+    "mi-s152",
+    "mi-s021",
+    "mi-s022",
+    "mi-s040",
+    "mi-s003",
+    "mi-s138",
+    "mi-s087",
+    "mi-s173",
+    "mi-s094",
+    "mi-p01",
+    "mi-s127",
+    "mi-s181",
+    "mi-s197",
+    "mi-s132",
+    "mi-s071",
+    "mi-s027",
+    "mi-s116",
+    "mi-s130",
+    "mi-s076",
+    "mi-s142",
+    "mi-s002",
+    "mi-s085",
+    "mi-p06",
+    "mi-s026",
+    "mi-s189",
+    "mi-s202",
+    "mi-s168",
+    "mi-s123",
+    "mi-s150",
+    "mi-s056",
+    "mi-s113",
+    "mi-s053",
+    "mi-s098",
+    "mi-s023",
+    "mi-s079",
+    "mi-p07",
+    "mi-s090",
+    "mi-s007",
+    "mi-s035",
+    "mi-s184",
+    "mi-s204",
+    "mi-s044",
+    "mi-s075",
+    "mi-s081",
+    "mi-s066",
+    "mi-s031",
+    "mi-s101",
+    "mi-s125",
+    "mi-s121"
+  ],
+  "items": [
+    {
+      "id": "mi-p01",
+      "kind": "para",
+      "title": "Mum's Surprise Birthday",
+      "native": [
+        "E Hine, he whakaaro tāku mō te rā whānau o Māmā.",
+        "Me whakakao te whānau ki tōku whare i Taupō ā te Rāhoroi.",
+        "Ka haria ia e Pāpā ki te hīkoi i te taha o te roto.",
+        "Kia hoki mai rāua, kua tae kē mai ngā manuhiri ki konei.",
+        "Māku e tunu te kai, māu e tiki te keke tiakarete.",
+        "Kua tonoa e au a Rangi kia mau mai i tana kitā.",
+        "Me waiho ngā motokā ki tua o te whare, kei kitea e Māmā.",
+        "Ka taea e koe te tae mai i te 3 i te ahiahi?",
+        "Kaua e kōrero atu ki a Māmā, he ohorere hoki tēnei!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-p02",
+      "kind": "para",
+      "title": "Website Launch Update",
+      "native": [
+        "Kia ora e te tīma, kua tōmuri te mahi mō tō tātou paetukutuku hou.",
+        "Kāore anō kia tae mai ngā whakaahua o tō tātou toa i Pito-one.",
+        "Nā tēnā, kāore e taea te whakarewa i te paetukutuku ā te Rāmere nei.",
+        "Kua kōrero au ki a Anahera, ā, ka oti ngā whakaahua āpōpō.",
+        "Mā Hemi ngā utu me ngā kōrero mō ia taonga e tirotiro.",
+        "Ka whakaurua e au ngā whakaahua hou ā te Rāhina i te ata.",
+        "Me whakamātau tātou i te paetukutuku i mua i te whakarewatanga.",
+        "Hei te Rātū ka whakarewa ai tātou, ki te pai ngā whakamātautau.",
+        "Tukuna mai he īmēra mēnā he pātai ā koutou mō tēnei mahere."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-p03",
+      "kind": "para",
+      "title": "My First School Friend",
+      "native": [
+        "I taku rā tuatahi ki te kura hou i Whangārei, i tino whakamā au.",
+        "I tū au i te kēti, me taku pēke kahurangi i tōku tuara.",
+        "Ka haere mai tētahi kōtiro, ko Hana tōna ingoa, ki te mihi mai.",
+        "I taka taku pouaka kai ki te whenua, ka marara aku hanawiti.",
+        "Nā Hana au i āwhina ki te kohi i aku mea katoa.",
+        "I te akomanga, ka whakanohoia au e te kaiako ki te taha o Hana.",
+        "I te wā kai, i noho māua i raro i tētahi rākau pōhutukawa.",
+        "I homai e ia he pihikete, nā tōna kuia i tunu i taua ata.",
+        "I taku hokinga ki te kāinga, i kōrero au mō taku hoa hou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-p04",
+      "kind": "para",
+      "title": "Caring for Balcony Plants",
+      "native": [
+        "Kōwhiria he wāhi paki mō ngā tipu i tō taupee.",
+        "Whakamahia he ipu whai kōhao i raro, kia rere atu ai te wai.",
+        "Whakakīa ngā ipu ki te oneone pai, kātahi ka whakatō i te pāhiri.",
+        "Me waiho he wāhi i waenganui i ngā tipu, kia pai ai te tupu.",
+        "Whāwhātia te oneone ia ata, ā, whakainumia ngā tipu mēnā kua maroke te oneone.",
+        "Me riringi te wai ki te oneone, kaua ki ngā rau o ngā tipu.",
+        "Tangohia ngā rau maroke, ā, tirohia mēnā he pepeke kei runga i ngā rau hou.",
+        "Kohia ētahi rau pāhiri hei kai, engari waiho ngā rau ririki kia tupu.",
+        "Ina kaha te hau, nekehia ngā ipu ki te taha o te pakitara."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-p05",
+      "kind": "para",
+      "title": "Fried Bread at Ōtara",
+      "native": [
+        "I whakamātau au i te parāoa parai i te mākete o Ōtara i te Rāhoroi.",
+        "He iti te tēpu hoko, engari he nui ngā tāngata e tatari ana.",
+        "I mihi mai te wahine i te tēpu, ahakoa te nui o te tangata.",
+        "He wera, he ngohengohe tonu te parāoa, ā, he pakapaka te kiri.",
+        "I pania taku parāoa ki te pata me te mīere. He tino reka.",
+        "E $6 te utu mō ngā parāoa parai e rua. He pai tērā ki ahau.",
+        "I pai hoki te kawhe, ahakoa he iti rawa te kapu mōku.",
+        "Kāore he wāhi marumaru hei noho mā mātou. Koinei anake taku amuamu.",
+        "Ka hoki anō au ki te mākete, engari ka tae moata kia kore ai e roa te tatari."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-p06",
+      "kind": "para",
+      "title": "Our Kitchen Renovation Plan",
+      "native": [
+        "Ka tīmata te whakahou i tō tāua kīhini i Porirua ā te 12 Mahuru.",
+        "Ka tae te kāmura ā te 8 i te ata, ā te 14 Mahuru.",
+        "E 4 mita te roa o te kīhini, e 3 mita te whānui.",
+        "E $3200 te utu mō ngā kāpata e 6 kua kōwhiria e tāua.",
+        "E 3 mita te roa o te papa mahi hou, ā, e $1800 te utu.",
+        "Ka pau pea te $600 mō te peita me ngā taputapu iti.",
+        "E 2 kiromita te tawhiti ki te toa, ā, e $80 te utu kawe.",
+        "Kia $8000 te pūtea katoa, me waiho he $1000 o tērā mō ngā mea ohorere."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-p07",
+      "kind": "para",
+      "title": "Parcel at Another House",
+      "native": [
+        "Kia ora, e waea atu ana au mō taku pūhera i Kirikiriroa.",
+        "Kei te kī te karere kua tae mai taku pūhera, engari kāore i konei.",
+        "Ko tōku wāhi noho ko 24 Grey Street.",
+        "E kitea ana te nama 42 i te whakaahua a te kaikawe.",
+        "He kūaha whero tō taua whare, engari he kahurangi tōku kūaha.",
+        "Kua titiro au ki te tomokanga me te pouaka reta, kāore he pūhera.",
+        "Ka taea e koe te whakapā atu ki te kaikawe, koa?",
+        "Ka noho au ki te kāinga ā te ahiahi nei ki te tatari mō te pūhera.",
+        "Tēnā koe mō tō āwhina, ka tatari au kia waea mai koe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-p08",
+      "kind": "para",
+      "title": "Getting Around Auckland",
+      "native": [
+        "He pahi, he tereina, he waka whakawhiti hoki kei Tāmaki Makaurau.",
+        "Ka haere ngā tereina mai i Henderson me Papakura ki te pokapū o te tāone.",
+        "Ka rere ngā waka whakawhiti mai i Devonport ki te pokapū o te tāone.",
+        "Whakamahia tō kāri AT HOP hei utu mō tō haerenga.",
+        "Whakapāngia tō kāri ki te mīhini ina eke koe, ā, ina heke koe.",
+        "Ka kitea ngā wā wehe me ngā tūnga pahi i te app a Auckland Transport.",
+        "I ngā mutunga wiki, ka rerekē pea ngā ratonga nā ngā mahi whakatika.",
+        "Tirohia ngā pānui mō ngā ratonga tereina i mua i tō haerenga ki te teihana.",
+        "Me wehe moata mēnā me whakawhiti koe ki tētahi atu pahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s001",
+      "kind": "sentence",
+      "native": [
+        "Hoake tāua ki te takutai o Ōhope ā te ahiahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s002",
+      "kind": "sentence",
+      "native": [
+        "Kiri, nā tāu whakamārama i mārama ai ngā utu ki ahau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s003",
+      "kind": "sentence",
+      "native": [
+        "Māku te $45 mō te ipurangi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s004",
+      "kind": "sentence",
+      "native": [
+        "Whakapirihia he tapanga ki te pouaka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s005",
+      "kind": "sentence",
+      "native": [
+        "Me pēhea taku tono kia roa ake taku pupuri i ngā pukapuka kua namahia mai e au?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s006",
+      "kind": "sentence",
+      "native": [
+        "Whakamahia te kiore ahokore, he poto rawa te taura nei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s007",
+      "kind": "sentence",
+      "native": [
+        "He nui ngā waka i tēnei takiwā i ngā ata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s008",
+      "kind": "sentence",
+      "native": [
+        "Mākū katoa aku tōkena!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s009",
+      "kind": "sentence",
+      "native": [
+        "Ripeka, e hia te roa o te konohete?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s010",
+      "kind": "sentence",
+      "native": [
+        "Pōuri ana au i te korenga o tātou i toa inanahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s011",
+      "kind": "sentence",
+      "native": [
+        "Hohoro mai, kua tīmata tō tātou tino hōtaka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s012",
+      "kind": "sentence",
+      "native": [
+        "He moni anō mō ngā taputapu, engari ki taku mōhio, kāore e ranea mō ngā tūru hou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s013",
+      "kind": "sentence",
+      "native": [
+        "Mō ngā wā haere o ngā pahi, waea atu ki a Metlink i te nama 0800 83 83 83."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s014",
+      "kind": "sentence",
+      "native": [
+        "Rapua taku rīhiti mō te pūreretā."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s015",
+      "kind": "sentence",
+      "native": [
+        "Hurihia ngā pū katoa o te taitara hei pūmatua, engari waiho te toenga o te tuhinga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s016",
+      "kind": "sentence",
+      "native": [
+        "Mereana, kua tae atu taku tono kia uru au ki tō rōpū?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s017",
+      "kind": "sentence",
+      "native": [
+        "Rongo tonu ana au i te tereina mai i tōku whare."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s018",
+      "kind": "sentence",
+      "native": [
+        "Tatari mai, kei te rapu au i taku pēke hokohoko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s019",
+      "kind": "sentence",
+      "native": [
+        "Mōku tēnei mōkihi, mō taku hoa noho kē rānei?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s020",
+      "kind": "sentence",
+      "native": [
+        "Ināianei kua mārama au ki te take e rata ai koe ki te noho ki Te Henga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s021",
+      "kind": "sentence",
+      "native": [
+        "Me hui tātou ki Pukekura Park ā te Rāhoroi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s022",
+      "kind": "sentence",
+      "native": [
+        "Ka pai te 10:30 i te ata mō tā tāua kōrero mā Zoom?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s023",
+      "kind": "sentence",
+      "native": [
+        "Kua pau te 12 gigabyte o aku raraunga i roto i ngā rā e 4."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s024",
+      "kind": "sentence",
+      "native": [
+        "Whakamaharatia mai au ki te tirotiro i ngā wā whakatuwhera o te puna kaukau i Tawa i mua i taku wehenga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s025",
+      "kind": "sentence",
+      "native": [
+        "Pānuitia mai te karere hou kua tae mai i taku tuahine."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s026",
+      "kind": "sentence",
+      "native": [
+        "Ngaro katoa aku tohuwāhi!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s027",
+      "kind": "sentence",
+      "native": [
+        "Kikī rawa ēnei hū, he rahi ake anō ā koutou?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s028",
+      "kind": "sentence",
+      "native": [
+        "Whāngaia taku ngeru i a au e ngaro ana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s029",
+      "kind": "sentence",
+      "native": [
+        "Kāo, ā te Rāpare kē te kohinga para, kaua ā te Rātū."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s030",
+      "kind": "sentence",
+      "native": [
+        "Nāu i māmā ai taku neke whare, e Hōri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s031",
+      "kind": "sentence",
+      "native": [
+        "Āe, māku ngā tamariki e tiki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s032",
+      "kind": "sentence",
+      "native": [
+        "Nā te whakangungu inanahi i tere ake ai taku mahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s033",
+      "kind": "sentence",
+      "native": [
+        "Tuhia ki te maramataka tō tātou hui ā te Rāpare, 22 Whiringa-ā-nuku 2026, i te 11 i te ata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s034",
+      "kind": "sentence",
+      "native": [
+        "Whakaritea he wā mō te tapahi makawe i tēnei wiki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s035",
+      "kind": "sentence",
+      "native": [
+        "E hia ngā karamu o te puehu parāoa kei roto i te kapu kotahi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s036",
+      "kind": "sentence",
+      "native": [
+        "Rawinia, me tāpiri he tīwae mō ngā utu ki Excel."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s037",
+      "kind": "sentence",
+      "native": [
+        "Ākuanei ka tūtaki au ki a Pare i Newmarket."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s038",
+      "kind": "sentence",
+      "native": [
+        "Āwhinatia tō teina ki te whakakī i tana pounamu wai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s039",
+      "kind": "sentence",
+      "native": [
+        "Tāmati, i pōhēhē au kei mua te toa puāwai, engari kei muri kē i te whare."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s040",
+      "kind": "sentence",
+      "native": [
+        "Hōhā ana au i te roa o te rārangi i PAK'nSAVE."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s041",
+      "kind": "sentence",
+      "native": [
+        "Māku e horoi ngā rīhi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s042",
+      "kind": "sentence",
+      "native": [
+        "Ki te kore he panonitanga, ka tukuna atu e au te putanga hou ki ngā kiritaki ā te ahiahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s043",
+      "kind": "sentence",
+      "native": [
+        "Puritia ngā āporo e 6 me ngā pea e 3 māku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s044",
+      "kind": "sentence",
+      "native": [
+        "Whakakorengia taku ohaurunga Netflix i mua i te utu anō."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s045",
+      "kind": "sentence",
+      "native": [
+        "He aha i huna ai taku kurī i ōku hū?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s046",
+      "kind": "sentence",
+      "native": [
+        "Huri noa ana te tohu uta, kāore te whārangi e puta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s047",
+      "kind": "sentence",
+      "native": [
+        "Kotahi anake te wāhi tū waka e toe ana i waho o te toa, nō reira kia tere mai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s048",
+      "kind": "sentence",
+      "native": [
+        "Whakaitia mai te utu, koa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s049",
+      "kind": "sentence",
+      "native": [
+        "Tāpiritia he tīhi, he tōmato, me te awhekātō ki taku hanawiti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s050",
+      "kind": "sentence",
+      "native": [
+        "Kawa rawa tēnei kawhe ki ahau, me whai miraka pea."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s051",
+      "kind": "sentence",
+      "native": [
+        "Tēnā kōrua, me waiho ngā hū ki waho i te kūaha, kātahi anō au ka horoi i te papa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s052",
+      "kind": "sentence",
+      "native": [
+        "Rāwiri, kua reri ngā tuhinga mō tō whakaaturanga āpōpō."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s053",
+      "kind": "sentence",
+      "native": [
+        "Whakawhitia te $85 ki taku pūkete mō ngā pō e 2."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s054",
+      "kind": "sentence",
+      "native": [
+        "Whakaurua he pata ki te rārangi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s055",
+      "kind": "sentence",
+      "native": [
+        "Tīmatahia he matawā mō te 7 meneti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s056",
+      "kind": "sentence",
+      "native": [
+        "Motu ana te hononga Bluetooth."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s057",
+      "kind": "sentence",
+      "native": [
+        "Harikoa ana tōku pāpā a Pētera ki tōna whare hou i Porirua, he tata hoki ki te māra hapori."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s058",
+      "kind": "sentence",
+      "native": [
+        "Anaru, ka taea e koe te mau mai i tētahi arawhata mō te tapahi i ngā manga?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s059",
+      "kind": "sentence",
+      "native": [
+        "Nōnahea tēnei i tae mai ai?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s060",
+      "kind": "sentence",
+      "native": [
+        "Mutu ana taku māharahara i te taenga mai o tō karere."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s061",
+      "kind": "sentence",
+      "native": [
+        "Koinā te take kāore au e purei kāri ki a koe, ka toa koe i ngā wā katoa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s062",
+      "kind": "sentence",
+      "native": [
+        "Homai ō whakaaro mō te pānui i mua i te tina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s063",
+      "kind": "sentence",
+      "native": [
+        "Whakahekea te wherikotanga o te mata ki te 40%."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s064",
+      "kind": "sentence",
+      "native": [
+        "Whakahoutia te kupuhipa ā tēnei pō."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s065",
+      "kind": "sentence",
+      "native": [
+        "Whakamārama mai me pēhea te hono i ēnei headphones ki taku rorohiko, kāore hoki e puta ana te oro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s066",
+      "kind": "sentence",
+      "native": [
+        "E tautoko ana tēnei app i te reo Māori?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s067",
+      "kind": "sentence",
+      "native": [
+        "Heke atu i te tūnga whakamutunga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s068",
+      "kind": "sentence",
+      "native": [
+        "Kōrorihia te ranu kia māeneene."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s069",
+      "kind": "sentence",
+      "native": [
+        "Peka tāua ki Taupō, engari e hia kē te tawhiti?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s070",
+      "kind": "sentence",
+      "native": [
+        "Karawhiua, kei te pai tō haere!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s071",
+      "kind": "sentence",
+      "native": [
+        "Tukuna mai te whakaahua o tō kurī hou mā Messenger."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s072",
+      "kind": "sentence",
+      "native": [
+        "Huia, kāore anō kia tae mai te nama mō ngā taputapu i hokona e tātou i Whanganui."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s073",
+      "kind": "sentence",
+      "native": [
+        "Whakarongo mai, kua nuku te wā o tō tātou rerenga ki te 7:40 i te ata. Ka eke tātou mā te kūaha 16."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s074",
+      "kind": "sentence",
+      "native": [
+        "Tiakina te tuhinga i mua i te whakaweto i te rorohiko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s075",
+      "kind": "sentence",
+      "native": [
+        "Tēhea te teihana penehīni e tata ana ki Manukau?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s076",
+      "kind": "sentence",
+      "native": [
+        "Pakaru ana te link nei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s077",
+      "kind": "sentence",
+      "native": [
+        "Moana, kei hea tō paihikara?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s078",
+      "kind": "sentence",
+      "native": [
+        "Wehea ngā toenga kai ki roto i ngā ipu iti, kia māmā ai te kawe ki te mahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s079",
+      "kind": "sentence",
+      "native": [
+        "Ākene he ika mā tāua, he hiahia kē rānei tōu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s080",
+      "kind": "sentence",
+      "native": [
+        "Taku hē, i wareware au."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s081",
+      "kind": "sentence",
+      "native": [
+        "Tino reka te hupa paukena inanahi, tukuna mai te tikanga tunu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s082",
+      "kind": "sentence",
+      "native": [
+        "Kua whakaaetia tō tono whakatā."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s083",
+      "kind": "sentence",
+      "native": [
+        "I oma au i te 5 kiromita i roto i te 28 meneti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s084",
+      "kind": "sentence",
+      "native": [
+        "Ūkuia ngā whakaahua tārite i taku waea kia nui ake te wāhi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s085",
+      "kind": "sentence",
+      "native": [
+        "Kimi mai i tētahi toa e hoko ana i te rēwena."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s086",
+      "kind": "sentence",
+      "native": [
+        "Nō Hūhana tēnei pūrere, ehara i te mea nō te tari."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s087",
+      "kind": "sentence",
+      "native": [
+        "Tawhiti rawa te tūnga pahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s088",
+      "kind": "sentence",
+      "native": [
+        "Kua raka kē te kūaha o muri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s089",
+      "kind": "sentence",
+      "native": [
+        "Mukua taku kupu whakamutunga, koa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s090",
+      "kind": "sentence",
+      "native": [
+        "Nōku te waimarie i whai wā koe ki te whakarongo, kua tau aku whakaaro ināianei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s091",
+      "kind": "sentence",
+      "native": [
+        "Turituri, kei te moe te pēpi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s092",
+      "kind": "sentence",
+      "native": [
+        "Aroha mai, i tukuna atu e au te kōnae hē."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s093",
+      "kind": "sentence",
+      "native": [
+        "Tunua te keke mō te 45 meneti ki te 180 nekehanga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s094",
+      "kind": "sentence",
+      "native": [
+        "I mua i taku haerenga ki Ōtepoti, me kimi he tangata hei tiaki i aku tipu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s095",
+      "kind": "sentence",
+      "native": [
+        "Āhea te marama e hua ai?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s096",
+      "kind": "sentence",
+      "native": [
+        "Ka whakautu au mā te chat, he nui rawa te ngangau i konei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s097",
+      "kind": "sentence",
+      "native": [
+        "Whakawhiti i te huarahi i konei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s098",
+      "kind": "sentence",
+      "native": [
+        "Haria he paraikete mō te ahurei Pasifika ā te Rātapu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s099",
+      "kind": "sentence",
+      "native": [
+        "Tīkina he rīwai, he kāreti, he aniana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s100",
+      "kind": "sentence",
+      "native": [
+        "Rawe kē tō mahi raranga!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s101",
+      "kind": "sentence",
+      "native": [
+        "Ka tōmuri taku hoki atu, kaua e tatari mai mō te kai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s102",
+      "kind": "sentence",
+      "native": [
+        "Āpitihia tō nama kaimahi ki te puka mō ngā haora mahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s103",
+      "kind": "sentence",
+      "native": [
+        "E 18 ngā tūru kei konei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s104",
+      "kind": "sentence",
+      "native": [
+        "Tuatahi, me whakatika taku whata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s105",
+      "kind": "sentence",
+      "native": [
+        "Whakaohohia au ā te 6:45 i te ata āpōpō."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s106",
+      "kind": "sentence",
+      "native": [
+        "Wiremu, i mahue taku taura hiko i te kāinga, he taura anō tāu mō tēnei waea?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s107",
+      "kind": "sentence",
+      "native": [
+        "Inanahi i hoki mai tōku whanaunga i Whakatāne."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s108",
+      "kind": "sentence",
+      "native": [
+        "Whakahokia te pukapuka nei ki te whare pukapuka o Aranui."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s109",
+      "kind": "sentence",
+      "native": [
+        "Tapahia ngā poro kia mātotoru, kāo, kia angiangi kē."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s110",
+      "kind": "sentence",
+      "native": [
+        "Ātaahua tonu te moana i Whangamatā, ahakoa ngā kapua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s111",
+      "kind": "sentence",
+      "native": [
+        "Kāore e taea e au te haere, he manuhiri kei konei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s112",
+      "kind": "sentence",
+      "native": [
+        "Pai ana ki ahau tēnā whakaaro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s113",
+      "kind": "sentence",
+      "native": [
+        "Whakakīa kia 30 rita."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s114",
+      "kind": "sentence",
+      "native": [
+        "Penapenahia he moni mō ngā hararei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s115",
+      "kind": "sentence",
+      "native": [
+        "Whakatangihia taku rārangi waiata tino pai."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s116",
+      "kind": "sentence",
+      "native": [
+        "Hoki mai ana taku reo i ō tukuoro, e hoa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s117",
+      "kind": "sentence",
+      "native": [
+        "Tama, mā tēhea kūaha tāua e tomo ai ki Bunnings?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s118",
+      "kind": "sentence",
+      "native": [
+        "Ngahuia, e wātea ana koe mō te tina āpōpō?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s119",
+      "kind": "sentence",
+      "native": [
+        "Kōwhai, he pene anō tāu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s120",
+      "kind": "sentence",
+      "native": [
+        "Māu rā e kōwhiri te kiriata mō tēnei pō."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s121",
+      "kind": "sentence",
+      "native": [
+        "Ahakoa kua kati te tari, ka taea tonu e koutou te tuku pātai mā te īmēra."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s122",
+      "kind": "sentence",
+      "native": [
+        "Nāku ngā tīkiti e 8 i tāpui mō te 6:15 i te ahiahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s123",
+      "kind": "sentence",
+      "native": [
+        "Hokona he hopi horoi rīhi ina pau tēnei pounamu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s124",
+      "kind": "sentence",
+      "native": [
+        "Whakaaturia mai ngā hua o te whakataetae netipōro inanahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s125",
+      "kind": "sentence",
+      "native": [
+        "Whakakorehia ngā whakamōhiotanga mō Facebook."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s126",
+      "kind": "sentence",
+      "native": [
+        "Waimarie au i tūtaki ki tōku whanaunga i te pahi, ka whai hoa kōrero au mō te haerenga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s127",
+      "kind": "sentence",
+      "native": [
+        "Mehemea ka kaha tonu te hau, me nuku te tēpu me ngā tūru ki roto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s128",
+      "kind": "sentence",
+      "native": [
+        "Tangohia ngā pereti, ngā kapu me ngā koko i te pouaka, engari waiho ngā marau ki reira."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s129",
+      "kind": "sentence",
+      "native": [
+        "Āhua mārama ake te mahi kāinga ki ahau ināianei, engari kāore anō au kia whakaoti i te pātai whakamutunga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s130",
+      "kind": "sentence",
+      "native": [
+        "Whai muri i te whakangungu, ka wātea te rūma rorohiko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s131",
+      "kind": "sentence",
+      "native": [
+        "Tata ki te 600 kupu te roa o taku tuhinga ināianei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s132",
+      "kind": "sentence",
+      "native": [
+        "Whakairihia taku pēke moe ki waho."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s133",
+      "kind": "sentence",
+      "native": [
+        "Tokohia ngā tāngata e noho ana ki Tauranga?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s134",
+      "kind": "sentence",
+      "native": [
+        "Pōturi rawa te ipurangi i tō mātou tari i Tūrangi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s135",
+      "kind": "sentence",
+      "native": [
+        "Whaihia te ara ki muri o te whare pukapuka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s136",
+      "kind": "sentence",
+      "native": [
+        "Inea te matapihi i mua i te hoko ārai hou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s137",
+      "kind": "sentence",
+      "native": [
+        "Mauria he kāpia, he kutikuti, he aho hoki mō ā tāua mahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s138",
+      "kind": "sentence",
+      "native": [
+        "Kei a Hēmi tō koti, i mahue i tōna waka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s139",
+      "kind": "sentence",
+      "native": [
+        "Nā Anahera ngā haerenga katoa mō te kapa i whakarite."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s140",
+      "kind": "sentence",
+      "native": [
+        "Rēhitatia māua mō te akoranga kauhoe ā te 17 Poutūterangi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s141",
+      "kind": "sentence",
+      "native": [
+        "Tērā wiki me hoko kākahu ua mō taku haerenga ki Whangārei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s142",
+      "kind": "sentence",
+      "native": [
+        "Huakina te taupānga Google Maps."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s143",
+      "kind": "sentence",
+      "native": [
+        "Pāwhiria te pere iti kia kitea ngā kōwhiringa mō te reo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s144",
+      "kind": "sentence",
+      "native": [
+        "Mōrena, e tatari ana tō hoa mahi ki te tomokanga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s145",
+      "kind": "sentence",
+      "native": [
+        "Tāria kia tae katoa ngā mokopuna, kātahi ka tapahia te keke."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s146",
+      "kind": "sentence",
+      "native": [
+        "Ehara, ko te mea kikorangi kē."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s147",
+      "kind": "sentence",
+      "native": [
+        "Nāwai rā, ka kitea taku whakakai i roto i te mīhini horoi. Kāore rawa au i whakaaro ki te kimi i reira."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s148",
+      "kind": "sentence",
+      "native": [
+        "Mai i te Rāhina, ka mahi a Hana i Kirikiriroa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s149",
+      "kind": "sentence",
+      "native": [
+        "Neke atu ki te rūma 6."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s150",
+      "kind": "sentence",
+      "native": [
+        "Tohua ki taku maramataka te rā whakamutunga mō te whakahoki i ngā kākahu ki Farmers."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s151",
+      "kind": "sentence",
+      "native": [
+        "Ārahina ahau ki te taunga waka rererangi o Ōtautahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s152",
+      "kind": "sentence",
+      "native": [
+        "Erena, nō hea ō papamuri mō Microsoft Teams?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s153",
+      "kind": "sentence",
+      "native": [
+        "Rēhia, kei te noho tonu tō tuakana ki Ōtaki?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s154",
+      "kind": "sentence",
+      "native": [
+        "Sophie, kua maoa ngā kūmara."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s155",
+      "kind": "sentence",
+      "native": [
+        "Tata tonu au ki te hoko i tērā tēneti, engari taihoa, he $95 noa iho tēnei."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s156",
+      "kind": "sentence",
+      "native": [
+        "Waiho he kai māku, koa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s157",
+      "kind": "sentence",
+      "native": [
+        "Meri, me whakarite he kai mā ngā kaimahi, he roa hoki te awheawhe o te ahiahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s158",
+      "kind": "sentence",
+      "native": [
+        "E $24 te utu whakauru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s159",
+      "kind": "sentence",
+      "native": [
+        "Ā te Wenerei au waea atu ai ki a Miriama."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s160",
+      "kind": "sentence",
+      "native": [
+        "Kei hea he akoranga uku mā ngā pakeke i Ōtepoti?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s161",
+      "kind": "sentence",
+      "native": [
+        "Weto tonu ana taku kāmera."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s162",
+      "kind": "sentence",
+      "native": [
+        "Māmā, ka kawea koe e au ki te whare o tō hoa ina mutu taku mahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s163",
+      "kind": "sentence",
+      "native": [
+        "Rangimārie, tukuna atu taku aroha ki tō kuia mō tōna huritau."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s164",
+      "kind": "sentence",
+      "native": [
+        "Noho ora mai, e hoa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s165",
+      "kind": "sentence",
+      "native": [
+        "$235 taku rēti ia wiki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s166",
+      "kind": "sentence",
+      "native": [
+        "Kaua e wareware ki te hoko wātakirihi mō te hapa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s167",
+      "kind": "sentence",
+      "native": [
+        "Whakawetohia ngā rama o te kīhini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s168",
+      "kind": "sentence",
+      "native": [
+        "Ruiha, i whai au i tō akoranga uku mā YouTube, ā, kua oti taku peihana tuatahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s169",
+      "kind": "sentence",
+      "native": [
+        "Engari me hoki wawe tāua, he mahi āku ā te ata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s170",
+      "kind": "sentence",
+      "native": [
+        "Hōne, kāore anō kia utua mai ā tātou mahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s171",
+      "kind": "sentence",
+      "native": [
+        "19% noa iho taku pūhiko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s172",
+      "kind": "sentence",
+      "native": [
+        "Nukuhia taku akoranga kitā ki te Rāmere o tērā wiki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s173",
+      "kind": "sentence",
+      "native": [
+        "Whakanuia te oro kia rongo ai au i taku audiobook."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s174",
+      "kind": "sentence",
+      "native": [
+        "Tae rawa atu au ki te tari, kua pau te waituhi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s175",
+      "kind": "sentence",
+      "native": [
+        "Moata rawa taku oho!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s176",
+      "kind": "sentence",
+      "native": [
+        "E pai ana kia noho au ki te taha o te matapihi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s177",
+      "kind": "sentence",
+      "native": [
+        "Tūtaki mai ki ahau ki waho o Te Papa i 55 Cable Street ā te 12:30 i te ahiahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s178",
+      "kind": "sentence",
+      "native": [
+        "Horoia ngā tauera i tēnei rā."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s179",
+      "kind": "sentence",
+      "native": [
+        "Tukua he karere ki a Manaia kia mōhio ai ia kua eke au ki te tereina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s180",
+      "kind": "sentence",
+      "native": [
+        "Mēnā ka tae mai he waehere ki tō waea, patohia ki konei hei whakaū i tō pūkete."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s181",
+      "kind": "sentence",
+      "native": [
+        "Pātai atu ki a Nikau mēnā ka tae mai ia āpōpō."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s182",
+      "kind": "sentence",
+      "native": [
+        "Tirohia te rārangi utu a te kaiwhakarato i Rotorua, koa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s183",
+      "kind": "sentence",
+      "native": [
+        "Hei te 8:20 i te pō mutu ai te kēmu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s184",
+      "kind": "sentence",
+      "native": [
+        "Āta tirohia ngā rā o ngā hararei kura i mua i te tono whakatā i te mahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s185",
+      "kind": "sentence",
+      "native": [
+        "Ka pēhea te huarere ki Kaikōura ā tēnei ahiahi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s186",
+      "kind": "sentence",
+      "native": [
+        "Kātahi anō au ka tāuta i te update, ā, kua kore e taea te whakatuwhera i ngā āpitihanga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s187",
+      "kind": "sentence",
+      "native": [
+        "Hera, ka haere mai koe ki te whakaharatau poitūkohu āpōpō?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s188",
+      "kind": "sentence",
+      "native": [
+        "Ko tēhea tō hiahia mō te uiui, he waea, he īmēra rānei?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s189",
+      "kind": "sentence",
+      "native": [
+        "Whakatūria te waka ki waho o 50 The Octagon, mō te 90 meneti noa iho."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s190",
+      "kind": "sentence",
+      "native": [
+        "Ina haere au ki te māra ā te ata, me hari ngā karapu me te kaheru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s191",
+      "kind": "sentence",
+      "native": [
+        "Tāngia kia rua ngā kape o tēnei pepa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s192",
+      "kind": "sentence",
+      "native": [
+        "Hāneanea tēnei tūru mō te mahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s193",
+      "kind": "sentence",
+      "native": [
+        "Waea mai ina wātea koe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s194",
+      "kind": "sentence",
+      "native": [
+        "Tēnā koe mō te tono ki te tina i Whakatū, engari he akoranga tāku i taua rā."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s195",
+      "kind": "sentence",
+      "native": [
+        "Āpōpō ka 11 tau taku tama, ā, e 9 āna manuhiri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s196",
+      "kind": "sentence",
+      "native": [
+        "Kia maumahara au ki te nama i tētahi papakupu mō taku akoranga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s197",
+      "kind": "sentence",
+      "native": [
+        "Hinewai, ki te haere koe ki Woolworths ā muri ake nei, hokona mai he miraka mā tātou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s198",
+      "kind": "sentence",
+      "native": [
+        "Ngā mihi mō tō manawanui."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s199",
+      "kind": "sentence",
+      "native": [
+        "Koirā taku whāinga mō te kauhoe, kia oti te 500 mita i roto i te 15 meneti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s200",
+      "kind": "sentence",
+      "native": [
+        "Kua tae au ki te kāinga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s201",
+      "kind": "sentence",
+      "native": [
+        "Ko Taranaki te toa, e 21 ki te 18 ngā piro."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s202",
+      "kind": "sentence",
+      "native": [
+        "Whiua mai te urunga!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s203",
+      "kind": "sentence",
+      "native": [
+        "Utua te $68.50 ki te kāri, kaua ki te moni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s204",
+      "kind": "sentence",
+      "native": [
+        "Auē, kua pau ngā pihikete!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s205",
+      "kind": "sentence",
+      "native": [
+        "Tokorua aku irāmutu. E 7 tau te pakeke o tētahi, e 9 tau tō tētahi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s206",
+      "kind": "sentence",
+      "native": [
+        "Taihoa ake tāua ka kōrero, kei te whakairi kākahu au, ā, kua tīmata te ua ki te heke."
+      ],
+      "roman": null
+    },
+    {
+      "id": "mi-s207",
+      "kind": "sentence",
+      "native": [
+        "Kāti i te whārangi 82."
+      ],
+      "roman": null
+    }
+  ]
+}

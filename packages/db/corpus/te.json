@@ -1,0 +1,1724 @@
+{
+  "lang": "te",
+  "starter": [
+    "te-s137",
+    "te-s119",
+    "te-s099",
+    "te-s094",
+    "te-s033",
+    "te-s135",
+    "te-s080",
+    "te-s103",
+    "te-s011",
+    "te-s109",
+    "te-s141",
+    "te-s087",
+    "te-s090",
+    "te-s004",
+    "te-s102",
+    "te-s075",
+    "te-p03",
+    "te-s045",
+    "te-s022",
+    "te-s110",
+    "te-s085",
+    "te-s021",
+    "te-s030",
+    "te-s051",
+    "te-s081",
+    "te-s007",
+    "te-s067",
+    "te-s095",
+    "te-s048",
+    "te-s070",
+    "te-s037",
+    "te-s106",
+    "te-s009",
+    "te-p04",
+    "te-s013",
+    "te-s055",
+    "te-s108",
+    "te-s111",
+    "te-s014",
+    "te-s101",
+    "te-s042",
+    "te-s077",
+    "te-s015",
+    "te-s089",
+    "te-s142",
+    "te-s052",
+    "te-s025",
+    "te-s043",
+    "te-s132",
+    "te-s130",
+    "te-s060"
+  ],
+  "items": [
+    {
+      "id": "te-p01",
+      "kind": "para",
+      "title": "Weekend Back in Tenali",
+      "native": [
+        "ఈ శనివారం తెనాలి వెళ్తున్నాను, నువ్వు కూడా నాతో వస్తావా?",
+        "ఉదయం 7 గంటలకు విజయవాడ నుంచి రైలు ఎక్కుదామని అనుకుంటున్నాను.",
+        "అమ్మ మన కోసం పెసరట్టు, అల్లం పచ్చడి చేస్తానని చెప్పింది.",
+        "నాన్న ఈ మధ్య ఇంటి ముందు చిన్న తోట పెట్టారు.",
+        "మధ్యాహ్నం భోజనం అయ్యాక మన పాత స్కూల్ వైపు వెళ్దాం.",
+        "సాయంత్రం గాంధీ చౌక్ దగ్గర సరోజను కూడా కలిస్తే బాగుంటుంది.",
+        "అక్కడి నుంచి వచ్చేటప్పుడు నీకు ఇష్టమైన జిలేబీలు తీసుకుందాం.",
+        "రాత్రికి మా ఇంట్లోనే ఉండిపో, ఆదివారం నెమ్మదిగా తిరిగి రావచ్చు.",
+        "నువ్వు రావడం కుదిరితే చెప్పు, ఇద్దరికీ టికెట్లు బుక్ చేస్తాను."
+      ],
+      "roman": [
+        "Ee shanivaaram Tenali velthunnaanu, nuvvu kooda naatho vasthaavaa?",
+        "Udayam 7 gantalaku Vijayawada nunchi railu ekkudaamani anukuntunnaanu.",
+        "Amma mana kosam pesarattu, allam pachchadi chesthaanani cheppindi.",
+        "Naanna ee madhya inti mundu chinna thota pettaaru.",
+        "Madhyahnam bhojanam ayyaaka mana paatha school vaipu veldaam.",
+        "Saayantram Gandhi Chowk daggara Sarojanu kooda kalisthe baaguntundi.",
+        "Akkadi nunchi vachchetappudu neeku ishtamaina jilebeelu theesukundaam.",
+        "Raathriki maa intlone undipo, aadivaaram nemmadiga thirigi raavachchu.",
+        "Nuvvu raavadam kudirithe cheppu, iddarikee ticketlu book chesthaanu."
+      ]
+    },
+    {
+      "id": "te-p02",
+      "kind": "para",
+      "title": "Office Floor Move",
+      "native": [
+        "మాధాపూర్ ఆఫీస్ వచ్చే సోమవారం 5వ అంతస్తుకు మారుతోంది.",
+        "ప్రస్తుతం మనం వాడుతున్న 3వ అంతస్తులో శుక్రవారమే చివరి పనిరోజు.",
+        "శుక్రవారం సాయంత్రం 4 గంటలలోపు మీ వస్తువులు సర్దుకోండి.",
+        "ప్రతి పెట్టె మీద మీ పేరు స్పష్టంగా రాయండి.",
+        "కంప్యూటర్లు తరలించే పని రవీందర్ టీమ్ చూసుకుంటుంది.",
+        "కొత్త అంతస్తులో కిటికీల పక్కన మన టీమ్ కూర్చుంటుంది.",
+        "సోమవారం ఉదయం 10 గంటలకు కొత్త మీటింగ్ రూమ్‌లో కలుద్దాం.",
+        "క్లయింట్ కాల్స్ ఉన్నవాళ్లు ముందుగానే దీప్తికి మెసేజ్ పంపండి.",
+        "మీకు కావాల్సిన కుర్చీలు, మిగతా సామాన్ల లిస్ట్ నాకు పంపండి."
+      ],
+      "roman": [
+        "Madhapur office vachche somavaaram 5va anthasthuku maaruthondi.",
+        "Prasthutham manam vaaduthunna 3va anthasthulo shukravaarame chivari paniroju.",
+        "Shukravaaram saayantram 4 gantalalopu mee vasthuvulu sardukondi.",
+        "Prathi pette meeda mee peru spashtanga raayandi.",
+        "Computerlu tharalinche pani Ravinder team choosukuntundi.",
+        "Kottha anthasthulo kitikeela pakkana mana team koorchuntundi.",
+        "Somavaaram udayam 10 gantalaku kottha meeting roomlo kaluddaam.",
+        "Client calls unnavaallu mundugaane Deepthiki message pampandi.",
+        "Meeku kaavaalsina kurcheelu, migathaa saamaanla list naaku pampandi."
+      ]
+    },
+    {
+      "id": "te-p03",
+      "kind": "para",
+      "title": "Missing the Last Bus",
+      "native": [
+        "గత శుక్రవారం కాకినాడలో మా స్నేహితుడి గృహప్రవేశానికి వెళ్లాను.",
+        "మాటల్లో పడి బస్ బయలుదేరే సమయమే మరిచిపోయాను.",
+        "రాత్రి 10 గంటలకు సంచి పట్టుకుని బస్ స్టాండ్ వైపు పరుగెత్తాను.",
+        "నేను చేరేసరికి రాజమహేంద్రవరం వెళ్లే చివరి బస్ వెళ్లిపోయింది.",
+        "ఖాళీగా ఉన్న ప్లాట్‌ఫామ్ చూసి అక్కడే నీరసంగా కూర్చున్నాను.",
+        "పక్కనున్న టీ కొట్టులో వేడి టీ తాగి కాస్త తేరుకున్నాను.",
+        "ఫోన్ చేస్తే కిరణ్ నవ్వుతూ మళ్లీ ఇంటికి రమ్మన్నాడు.",
+        "అతని ఇంట్లో చాప మీద పడుకోగానే నిద్ర పట్టేసింది.",
+        "మరుసటి ఉదయం అతనే నన్ను బస్ స్టాండ్ దగ్గర దింపాడు."
+      ],
+      "roman": [
+        "Gatha shukravaaram Kakinadalo maa snehithudi gruhapraveshaaniki vellaanu.",
+        "Maatallo padi bus bayaludere samayame marichipoyaanu.",
+        "Raathri 10 gantalaku sanchi pattukuni bus stand vaipu parugetthaanu.",
+        "Nenu cheresariki Rajamahendravaram velle chivari bus vellipoyindi.",
+        "Khaaleegaa unna platform choosi akkade neerasanga koorchunnaanu.",
+        "Pakkanunna tea kottulo vedi tea thaagi kaastha therukunnaanu.",
+        "Phone chesthe Kiran navvuthoo malli intiki rammannaadu.",
+        "Athani intlo chaapa meeda padukogaane nidra pattesindi.",
+        "Marusati udayam athane nannu bus stand daggara dimpaadu."
+      ]
+    },
+    {
+      "id": "te-p04",
+      "kind": "para",
+      "title": "Paying the Electricity Bill",
+      "native": [
+        "మీ ఇంటి కరెంట్ బిల్లు ఫోన్‌పే యాప్‌లో ఇలా కట్టొచ్చు.",
+        "ముందుగా ఫోన్‌పే తెరిచి, కరెంట్ బిల్లు కట్టే ఆప్షన్ నొక్కండి.",
+        "మీ బిల్లుపై ఉన్న కంపెనీ పేరును లిస్ట్‌లో ఎంచుకోండి.",
+        "బిల్లులో ఉన్న సర్వీస్ నంబర్‌ను టైప్ చేయండి.",
+        "మీ పేరు, కట్టాల్సిన మొత్తం సరిగ్గా ఉన్నాయో చూడండి. బిల్లు ఏ నెలదో కూడా చూసుకోండి.",
+        "వివరాలు సరిగ్గా ఉంటే మీ బ్యాంక్ అకౌంట్‌ను ఎంచుకోండి.",
+        "బిల్లు కట్టడానికి మీ యూపీఐ పిన్‌ను టైప్ చేయండి.",
+        "బిల్లు కట్టాక రసీదును మీ ఫోన్‌లో సేవ్ చేసుకోండి.",
+        "అకౌంట్‌లో డబ్బులు కట్ అయినా బిల్లు కట్టినట్టు కనిపించకపోతే వెంటనే మళ్లీ కట్టకండి."
+      ],
+      "roman": [
+        "Mee inti current bill PhonePe applo ila kattochchu.",
+        "Mundugaa PhonePe therichi, current bill katte option nokkandi.",
+        "Mee billupai unna company perunu listlo enchukondi.",
+        "Billulo unna service numbernu type cheyandi.",
+        "Mee peru, kattaalsina mottham sariggaa unnaayo choodandi. Bill e nelado kooda choosukondi.",
+        "Vivaraalu sariggaa unte mee bank accountnu enchukondi.",
+        "Bill kattadaaniki mee UPI PINnu type cheyandi.",
+        "Bill kattaaka raseedunu mee phonelo save chesukondi.",
+        "Accountlo dabbulu cut ayinaa bill kattinattu kanipinchakapothe ventane malli kattakandi."
+      ]
+    },
+    {
+      "id": "te-p05",
+      "kind": "para",
+      "title": "Punugulu in Arundelpet",
+      "native": [
+        "నిన్న సాయంత్రం గుంటూరు అరండల్‌పేటలో బండి దగ్గర పునుగులు తిన్నాను.",
+        "వేడి వేడి పునుగులు బయట కరకరలాడుతూ, లోపల మెత్తగా బాగున్నాయి.",
+        "అల్లం పచ్చడి రుచి బాగుంది, కానీ కారం కొంచెం ఎక్కువైంది.",
+        "కొబ్బరి పచ్చడి ఇంకాస్త ఇస్తే బాగుండేది.",
+        "ఒక ప్లేట్ ₹40. ఆ ధరకు పునుగులు బాగానే పెట్టారు.",
+        "పునుగుల్లో పాత నూనె వాసన రాలేదు.",
+        "అయితే బండి పక్కనే వాహనాలు ఆపడంతో నిలబడటానికి చోటు తక్కువగా ఉంది.",
+        "తినడానికి బల్లలు లేవు. బండి చుట్టూ మాత్రం శుభ్రంగా ఉంది.",
+        "మళ్లీ ఆ వైపు వెళ్తే పునుగుల కోసం తప్పకుండా ఆగుతాను."
+      ],
+      "roman": [
+        "Ninna saayantram Guntur Arundelpetlo bandi daggara punugulu thinnaanu.",
+        "Vedi vedi punugulu bayata karakaralaaduthoo, lopala meththagaa baagunnaayi.",
+        "Allam pachchadi ruchi baagundi, kaani kaaram konchem ekkuvaindi.",
+        "Kobbari pachchadi inkaastha isthe baagundedi.",
+        "Oka plate ₹40. Aa dharaku punugulu baagaane pettaaru.",
+        "Punugullo paatha noone vaasana raaledu.",
+        "Aithe bandi pakkane vaahanaalu aapadamtho nilabadataaniki chotu thakkuvagaa undi.",
+        "Thinadaaniki ballalu levu. Bandi chuttoo maathram shubhrangaa undi.",
+        "Malli aa vaipu velthe punugula kosam thappakunda aaguthaanu."
+      ]
+    },
+    {
+      "id": "te-p06",
+      "kind": "para",
+      "title": "Planning the August Budget",
+      "native": [
+        "2026 ఆగస్టు నెలకు మా ఇంటి బడ్జెట్ ₹30000 పెట్టుకుందాం.",
+        "మా ముగ్గురికీ ఈ బడ్జెట్ సరిపోవాలి.",
+        "ఆగస్టు 5న ఇంటి యజమానికి అద్దె ₹10000 పంపాలి.",
+        "సరుకులకు ₹7000 పక్కన పెడితే, అందులోనే పాలు కూడా వచ్చేస్తాయి.",
+        "కందిపప్పు కిలో ₹160 దాటితే, ఈసారి 2 కిలోలే తెచ్చుకుందాం.",
+        "కరెంట్, గ్యాస్, ఇంటర్నెట్ బిల్లులకు కలిపి ₹3000 ఉంచుదాం.",
+        "ఆఫీస్ 6 కిలోమీటర్ల దూరంలో ఉంది. రోజూ బస్‌లోనే వెళ్తాను.",
+        "బస్ ఖర్చులకు ₹2000, మిగతా అవసరాలకు ₹3000 పక్కన పెడదాం.",
+        "మిగిలిన ₹5000 సేవింగ్స్ అకౌంట్‌లో వేద్దాం."
+      ],
+      "roman": [
+        "2026 August nelaku maa inti budget ₹30000 pettukundaam.",
+        "Maa muggurikee ee budget saripovaali.",
+        "August 5na inti yajamaaniki adde ₹10000 pampaali.",
+        "Sarukulaku ₹7000 pakkana pedithe, andulone paalu kooda vachchesthaayi.",
+        "Kandipappu kilo ₹160 daatithe, eesaari 2 kilole thechchukundaam.",
+        "Current, gas, internet billulaku kalipi ₹3000 unchudaam.",
+        "Office 6 kilometerla dooramlo undi. Rojoo buslone velthaanu.",
+        "Bus kharchulaku ₹2000, migathaa avasaraalaku ₹3000 pakkana pedadaam.",
+        "Migilina ₹5000 savings accountlo veddaam."
+      ]
+    },
+    {
+      "id": "te-p07",
+      "kind": "para",
+      "title": "Reporting an Unstable Connection",
+      "native": [
+        "నమస్కారం, నా పేరు రేణుక. మేము హనుమకొండలోని సుబేదారిలో ఉంటున్నాం.",
+        "మా ఇంటర్నెట్ కనెక్షన్ గత 3 రోజులుగా పదేపదే పోతోంది.",
+        "రౌటర్ ఆపి మళ్లీ ఆన్ చేసినా, అరగంటలోనే కనెక్షన్ పోతోంది.",
+        "ల్యాప్‌టాప్‌లో మీటింగ్ మధ్యలో ఆగిపోవడంతో ఆఫీస్ పని ఆలస్యమవుతోంది.",
+        "కనెక్షన్ ఉన్నప్పుడు కూడా వీడియోలు సరిగ్గా రావడం లేదు.",
+        "మీ వైపు నుంచి ఒకసారి లైన్ చెక్ చేయగలరా?",
+        "టెక్నీషియన్ రావాలంటే, రేపు మధ్యాహ్నం 2 గంటల తర్వాత ఇంట్లో ఉంటాను.",
+        "వచ్చే ముందు నాకు ఫోన్ చేస్తే, కిందికి వచ్చి దారి చూపిస్తాను.",
+        "దయచేసి ఫిర్యాదు నంబర్, టెక్నీషియన్ వచ్చే సమయం మెసేజ్ చేయండి."
+      ],
+      "roman": [
+        "Namaskaaram, naa peru Renuka. Memu Hanumakondaloni Subedarilo untunnaam.",
+        "Maa internet connection gatha 3 rojulugaa padepade pothondi.",
+        "Router aapi malli on chesinaa, aragantalone connection pothondi.",
+        "Laptoplo meeting madhyalo aagipovadamtho office pani aalasyamavuthondi.",
+        "Connection unnappudu kooda videolu sariggaa raavadam ledu.",
+        "Mee vaipu nunchi okasaari line check cheyagalaraa?",
+        "Technician raavaalante, repu madhyahnam 2 gantala tharvaatha intlo untaanu.",
+        "Vachche mundu naaku phone chesthe, kindiki vachchi daari choopisthaanu.",
+        "Dayachesi firyaadu number, technician vachche samayam message cheyandi."
+      ]
+    },
+    {
+      "id": "te-p08",
+      "kind": "para",
+      "title": "Inside Begum Bazaar",
+      "native": [
+        "బేగం బజార్ హైదరాబాద్‌లోని పాత మార్కెట్లలో ఒకటి.",
+        "ఇక్కడి దుకాణాల్లో వంట సరుకుల నుంచి ఇంటి సామాన్ల వరకు అన్నీ దొరుకుతాయి.",
+        "ఎండుమిర్చి, పప్పులు, మసాలాల కోసం చుట్టుపక్కల ప్రాంతాల నుంచి వ్యాపారులు వస్తారు.",
+        "పండుగల ముందు అలంకరణ సామాన్లు కొనడానికి చాలా మంది ఇక్కడికి వస్తారు.",
+        "కొన్ని దుకాణాల్లో ఎక్కువ సరుకు కొంటే ధర తగ్గిస్తారు.",
+        "కొంచెమే కొనాలన్నా ముందుగా ధరలు అడిగి తెలుసుకోవచ్చు.",
+        "ఈ వీధుల్లో సరుకు బండ్లు తిరుగుతుంటాయి కాబట్టి, నడిచేటప్పుడు జాగ్రత్తగా ఉండాలి.",
+        "బేగం బజార్‌కు బస్సులో వచ్చేవారు అఫ్జల్‌గంజ్ దగ్గర దిగి నడుచుకుంటూ చేరుకోవచ్చు.",
+        "సాయంత్రం కూడా ఇక్కడి వీధులు జనంతో సందడిగా ఉంటాయి."
+      ],
+      "roman": [
+        "Begum Bazaar Hyderabadloni paatha marketlalo okati.",
+        "Ikkadi dukaanaallo vanta sarukula nunchi inti saamaanla varaku annee dorukuthaayi.",
+        "Endumirchi, pappulu, masaalaala kosam chuttupakkala praanthaala nunchi vyaapaarulu vasthaaru.",
+        "Pandugala mundu alankarana saamaanlu konadaaniki chaala mandi ikkadiki vasthaaru.",
+        "Konni dukaanaallo ekkuva saruku konte dhara thaggisthaaru.",
+        "Koncheme konaalannaa mundugaa dharalu adigi thelusukovachchu.",
+        "Ee veedhullo saruku bandlu thiruguthuntaayi kaabatti, nadichetappudu jaagraththaga undaali.",
+        "Begum Bazaarku bussulo vachchevaaru Afzalganj daggara digi naduchukuntoo cherukovachchu.",
+        "Saayantram kooda ikkadi veedhulu janamtho sandadigaa untaayi."
+      ]
+    },
+    {
+      "id": "te-s001",
+      "kind": "sentence",
+      "native": [
+        "ఇప్పుడే మెసేజ్ చూశాను, వంటలో పడి మర్చిపోయాను."
+      ],
+      "roman": [
+        "Ippude message choosaanu, vantalo padi marchipoyaanu."
+      ]
+    },
+    {
+      "id": "te-s002",
+      "kind": "sentence",
+      "native": [
+        "పని అప్పగించే ముందు సాఫ్ట్‌వేర్ ఎలా వాడాలో చూపిస్తాను."
+      ],
+      "roman": [
+        "Pani appaginche mundu software ela vaadaalo choopisthaanu."
+      ]
+    },
+    {
+      "id": "te-s003",
+      "kind": "sentence",
+      "native": [
+        "స్కోరు 96 దగ్గర ఆగింది."
+      ],
+      "roman": [
+        "Score 96 daggara aagindi."
+      ]
+    },
+    {
+      "id": "te-s004",
+      "kind": "sentence",
+      "native": [
+        "సుజాతగారికి కుట్టుకూలి ₹350 ఇవ్వాలని రాసి పెట్టుకో."
+      ],
+      "roman": [
+        "Sujathagaariki kuttukooli ₹350 ivvaalani raasi pettuko."
+      ]
+    },
+    {
+      "id": "te-s005",
+      "kind": "sentence",
+      "native": [
+        "మియాపూర్ నుంచి చార్మినార్ చేరుకోవడానికి ట్రాఫిక్ తక్కువగా ఉండే దారిలో నావిగేషన్ మొదలుపెట్టు."
+      ],
+      "roman": [
+        "Miyapur nunchi Charminar cherukovadaaniki traffic thakkuvagaa unde daarilo navigation modalupettu."
+      ]
+    },
+    {
+      "id": "te-s006",
+      "kind": "sentence",
+      "native": [
+        "అకౌంట్ నుంచి లాగౌట్ అయిపోయాను, మళ్లీ లాగిన్ అవుదామంటే కోడ్ రావడం లేదు. కాసేపు ఆగి ప్రయత్నిస్తాను."
+      ],
+      "roman": [
+        "Account nunchi logout ayipoyaanu, malli login avudaamante code raavadam ledu. Kaasepu aagi prayathnisthaanu."
+      ]
+    },
+    {
+      "id": "te-s007",
+      "kind": "sentence",
+      "native": [
+        "ఆటో ఇక్కడ ఆపండి."
+      ],
+      "roman": [
+        "Auto ikkada aapandi."
+      ]
+    },
+    {
+      "id": "te-s008",
+      "kind": "sentence",
+      "native": [
+        "పండగకి ఇంటి గుమ్మానికి మామిడాకుల తోరణం కట్టాలని ఉంది."
+      ],
+      "roman": [
+        "Pandagaki inti gummaaniki maamidaakula thoranam kattaalani undi."
+      ]
+    },
+    {
+      "id": "te-s009",
+      "kind": "sentence",
+      "native": [
+        "క్షమించండి, పొరపాటున నొక్కేశాను."
+      ],
+      "roman": [
+        "Kshaminchandi, porapaatuna nokkeshaanu."
+      ]
+    },
+    {
+      "id": "te-s010",
+      "kind": "sentence",
+      "native": [
+        "రజియా చెప్పాకే అర్థమైంది, ప్రతిసారీ నేనే మాట్లాడకుండా ఎదుటివాళ్లు చెప్పేది కూడా కాస్త వినాలని."
+      ],
+      "roman": [
+        "Razia cheppaake arthamayindi, prathisaaree nene maatlaadakundaa eduthivaallu cheppedi kooda kaastha vinaalani."
+      ]
+    },
+    {
+      "id": "te-s011",
+      "kind": "sentence",
+      "native": [
+        "చెల్లీ, ల్యాప్‌టాప్ ఛార్జర్ తెస్తావా? పని మధ్యలో ఆగిపోయింది."
+      ],
+      "roman": [
+        "Chellee, laptop charger thesthaavaa? Pani madhyalo aagipoyindi."
+      ]
+    },
+    {
+      "id": "te-s012",
+      "kind": "sentence",
+      "native": [
+        "జీతం లెక్కలో అదనంగా పనిచేసిన గంటలు కలపలేదనుకుంటా, సరిచూస్తారా?"
+      ],
+      "roman": [
+        "Jeetham lekkalo adananga panichesina gantalu kalapaledanukuntaa, sarichoosthaaraa?"
+      ]
+    },
+    {
+      "id": "te-s013",
+      "kind": "sentence",
+      "native": [
+        "విజయవాడకి చేరాలంటే ఇక్కడి నుంచి ఇంకా 42 కిలోమీటర్లు వెళ్లాలి."
+      ],
+      "roman": [
+        "Vijayawadaki cheraalante ikkadi nunchi inka 42 kilometerlu vellaali."
+      ]
+    },
+    {
+      "id": "te-s014",
+      "kind": "sentence",
+      "native": [
+        "కూకట్‌పల్లి సర్వీస్ సెంటర్‌లో మిక్సీ బాగైందేమో అడిగి తెలుసుకోవాలి."
+      ],
+      "roman": [
+        "Kukatpally service centerlo mixie baagayindemo adigi thelusukovaali."
+      ]
+    },
+    {
+      "id": "te-s015",
+      "kind": "sentence",
+      "native": [
+        "స్క్రీన్ బ్రైట్‌నెస్ తగ్గించు."
+      ],
+      "roman": [
+        "Screen brightness thagginchu."
+      ]
+    },
+    {
+      "id": "te-s016",
+      "kind": "sentence",
+      "native": [
+        "అప్‌డేట్ తర్వాత యాప్ తెరవగానే వెంటనే మూసుకుపోతోంది, మీకూ అంతేనా?"
+      ],
+      "roman": [
+        "Update tharvaatha app theravagaane ventane moosukupothondi, meekoo anthenaa?"
+      ]
+    },
+    {
+      "id": "te-s017",
+      "kind": "sentence",
+      "native": [
+        "కాలువ పక్కన దారి బురదగా ఉండటంతో పాల కేంద్రానికి చేరడానికి చుట్టూ తిరగాల్సి వచ్చింది."
+      ],
+      "roman": [
+        "Kaaluva pakkana daari buradaga undatamtho paala kendraaniki cheradaaniki chuttoo thiragaalsi vachchindi."
+      ]
+    },
+    {
+      "id": "te-s018",
+      "kind": "sentence",
+      "native": [
+        "పెరుగు తోడు పెట్టావా?"
+      ],
+      "roman": [
+        "Perugu thodu pettaavaa?"
+      ]
+    },
+    {
+      "id": "te-s019",
+      "kind": "sentence",
+      "native": [
+        "వ్యాసం మొదట్లో చిన్న పరిచయం ఇచ్చాను. ప్రయాణం గురించి చివర్లో రాశాను."
+      ],
+      "roman": [
+        "Vyaasam modatlo chinna parichayam ichchaanu. Prayaanam gurinchi chivarlo raashaanu."
+      ]
+    },
+    {
+      "id": "te-s020",
+      "kind": "sentence",
+      "native": [
+        "చిన్నప్పుడు అంతగా నచ్చని ఆ పాట, ఇన్నేళ్ల తర్వాత వింటుంటే ఎందుకో మనసుకి దగ్గరగా అనిపిస్తోంది."
+      ],
+      "roman": [
+        "Chinnappudu anthagaa nachchani aa paata, innella tharvaatha vintunte enduko manasuki daggaragaa anipisthondi."
+      ]
+    },
+    {
+      "id": "te-s021",
+      "kind": "sentence",
+      "native": [
+        "ఓసారి తాతయ్యకి ఫోన్ ఇవ్వు."
+      ],
+      "roman": [
+        "Osaari thaathayyaki phone ivvu."
+      ]
+    },
+    {
+      "id": "te-s022",
+      "kind": "sentence",
+      "native": [
+        "పాత లింక్ తెరుచుకోవడం లేదు, వీలైనప్పుడు కొత్తది పంపగలరా?"
+      ],
+      "roman": [
+        "Paatha link theruchukovadam ledu, veelainappudu koththadi pampagalaraa?"
+      ]
+    },
+    {
+      "id": "te-s023",
+      "kind": "sentence",
+      "native": [
+        "నేను కొన్న చెప్పుల సైజు 7. వీటిని సైజు 8కి మార్చగలరా?"
+      ],
+      "roman": [
+        "Nenu konna cheppula size 7. Veetini size 8ki maarchagalaraa?"
+      ]
+    },
+    {
+      "id": "te-s024",
+      "kind": "sentence",
+      "native": [
+        "వసంతతో చదరంగం ఆడటానికి వెళ్లేటప్పుడు పావుల్ని డబ్బాలో సర్ది తీసుకెళ్లాలి."
+      ],
+      "roman": [
+        "Vasanthatho chadarangam aadataaniki velletappudu paavulni dabbaalo sardi theesukellaali."
+      ]
+    },
+    {
+      "id": "te-s025",
+      "kind": "sentence",
+      "native": [
+        "కర్నూలులో పెద్దవాళ్లకి ఈత నేర్పించే చోటు ఎక్కడ ఉంది?"
+      ],
+      "roman": [
+        "Kurnoolulo peddavaallaki eetha nerpinche chotu ekkada undi?"
+      ]
+    },
+    {
+      "id": "te-s026",
+      "kind": "sentence",
+      "native": [
+        "హెడ్‌ఫోన్స్ పెట్టుకుంటే బయట శబ్దాలు అంతగా వినిపించడం లేదు."
+      ],
+      "roman": [
+        "Headphones pettukunte bayata shabdaalu anthagaa vinipinchadam ledu."
+      ]
+    },
+    {
+      "id": "te-s027",
+      "kind": "sentence",
+      "native": [
+        "పక్క సీట్లో కూర్చున్న పెద్దాయన దిగేటప్పుడు సంచి మర్చిపోయారు."
+      ],
+      "roman": [
+        "Pakka seatlo koorchunna peddaayana digetappudu sanchi marchipoyaaru."
+      ]
+    },
+    {
+      "id": "te-s028",
+      "kind": "sentence",
+      "native": [
+        "పిండి మర దగ్గర గోధుమలు ఆడించుకుని వస్తాను."
+      ],
+      "roman": [
+        "Pindi mara daggara godhumalu aadinchukuni vasthaanu."
+      ]
+    },
+    {
+      "id": "te-s029",
+      "kind": "sentence",
+      "native": [
+        "ఎరుపు కాదు, నీలం కావాలి."
+      ],
+      "roman": [
+        "Erupu kaadu, neelam kaavaali."
+      ]
+    },
+    {
+      "id": "te-s030",
+      "kind": "sentence",
+      "native": [
+        "అడగకుండానే సాయం చేశారు, ధన్యవాదాలు."
+      ],
+      "roman": [
+        "Adagakundaane saayam chesaaru, dhanyavaadaalu."
+      ]
+    },
+    {
+      "id": "te-s031",
+      "kind": "sentence",
+      "native": [
+        "నాకోసం కొంచెం అన్నం ఉంచు."
+      ],
+      "roman": [
+        "Naakosam konchem annam unchu."
+      ]
+    },
+    {
+      "id": "te-s032",
+      "kind": "sentence",
+      "native": [
+        "రేపటి ట్రైనింగ్‌కి వచ్చేవాళ్ల పేర్లు సాయంత్రంలోగా లిస్ట్‌లో చేర్చండి. వాళ్లకి మెటీరియల్ పంపాలి."
+      ],
+      "roman": [
+        "Repati trainingki vachchevaalla perlu saayantramlogaa listlo cherchandi. Vaallaki material pampaali."
+      ]
+    },
+    {
+      "id": "te-s033",
+      "kind": "sentence",
+      "native": [
+        "₹200కి ₹20 నోట్లు ఇస్తారా?"
+      ],
+      "roman": [
+        "₹200ki ₹20 notlu isthaaraa?"
+      ]
+    },
+    {
+      "id": "te-s034",
+      "kind": "sentence",
+      "native": [
+        "వంటగదిలో కుళాయి మార్చడానికి ప్లంబర్‌ని పిలవడం మర్చిపోవద్దు."
+      ],
+      "roman": [
+        "Vantagadilo kulaayi maarchadaaniki plumberni pilavadam marchipovaddu."
+      ]
+    },
+    {
+      "id": "te-s035",
+      "kind": "sentence",
+      "native": [
+        "బ్రౌజర్‌లో మూసేసిన ట్యాబ్‌ని మళ్లీ తెరవడానికి ఏం నొక్కాలి?"
+      ],
+      "roman": [
+        "Browserlo moosesina tabni malli theravadaaniki em nokkaali?"
+      ]
+    },
+    {
+      "id": "te-s036",
+      "kind": "sentence",
+      "native": [
+        "పాస్‌వర్డ్ ఎవరికీ చెప్పొద్దు."
+      ],
+      "roman": [
+        "Password evarikee cheppoddu."
+      ]
+    },
+    {
+      "id": "te-s037",
+      "kind": "sentence",
+      "native": [
+        "ఫుట్‌బ్రిడ్జి ఎక్కకుండా అవతలి ప్లాట్‌ఫామ్‌కి వెళ్లే దారి ఉందా?"
+      ],
+      "roman": [
+        "Footbridge ekkakundaa avathali platformki velle daari undaa?"
+      ]
+    },
+    {
+      "id": "te-s038",
+      "kind": "sentence",
+      "native": [
+        "వడ్రంగి వచ్చి తలుపు గొళ్లెం సరిచేసి వెళ్లారు."
+      ],
+      "roman": [
+        "Vadrangi vachchi thalupu gollem sarichesi vellaaru."
+      ]
+    },
+    {
+      "id": "te-s039",
+      "kind": "sentence",
+      "native": [
+        "కాచిగూడ అనేశాను, విద్యానగర్ వరకు వెళ్తే చాలు, అక్కడే దిగుతాను."
+      ],
+      "roman": [
+        "Kachiguda aneshaanu, Vidyanagar varaku velthe chaalu, akkade diguthaanu."
+      ]
+    },
+    {
+      "id": "te-s040",
+      "kind": "sentence",
+      "native": [
+        "అబ్బా, ఎంతసేపు ఎదురుచూడాలి!"
+      ],
+      "roman": [
+        "Abbaa, enthasepu eduruchoodaali!"
+      ]
+    },
+    {
+      "id": "te-s041",
+      "kind": "sentence",
+      "native": [
+        "అయ్యో, ఫొటోలో కళ్లు మూసుకున్నాను."
+      ],
+      "roman": [
+        "Ayyo, photolo kallu moosukunnaanu."
+      ]
+    },
+    {
+      "id": "te-s042",
+      "kind": "sentence",
+      "native": [
+        "నమస్కారం, చిన్న విషయం మాట్లాడాలి."
+      ],
+      "roman": [
+        "Namaskaaram, chinna vishayam maatlaadaali."
+      ]
+    },
+    {
+      "id": "te-s043",
+      "kind": "sentence",
+      "native": [
+        "2026 ఆగస్టు 21న లాస్యకి 9 ఏళ్లు నిండుతాయి."
+      ],
+      "roman": [
+        "2026 August 21na Lasyaki 9 ellu ninduthaayi."
+      ]
+    },
+    {
+      "id": "te-s044",
+      "kind": "sentence",
+      "native": [
+        "సబ్బు కొనాలని గుర్తుచేయి."
+      ],
+      "roman": [
+        "Sabbu konaalani gurthucheyi."
+      ]
+    },
+    {
+      "id": "te-s045",
+      "kind": "sentence",
+      "native": [
+        "ఏలూరులో ఈ వారమంతా వర్షం పడే అవకాశం ఉందా?"
+      ],
+      "roman": [
+        "Elurulo ee vaaramanthaa varsham pade avakaasham undaa?"
+      ]
+    },
+    {
+      "id": "te-s046",
+      "kind": "sentence",
+      "native": [
+        "సబ్‌స్క్రిప్షన్ నెలకి ₹299 అట, ఏడాదికి తీసుకుంటే తక్కువవుతుందా?"
+      ],
+      "roman": [
+        "Subscription nelaki ₹299 ata, edaadiki theesukunte thakkuvavuthundaa?"
+      ]
+    },
+    {
+      "id": "te-s047",
+      "kind": "sentence",
+      "native": [
+        "సంతకి నడిచే వెళ్దామా?"
+      ],
+      "roman": [
+        "Santhaki nadiche veldaamaa?"
+      ]
+    },
+    {
+      "id": "te-s048",
+      "kind": "sentence",
+      "native": [
+        "మేఘన డాన్స్ క్లాస్ ఈరోజు కాస్త ముందే ముగుస్తుందట."
+      ],
+      "roman": [
+        "Meghana dance class eeroju kaastha munde mugusthundata."
+      ]
+    },
+    {
+      "id": "te-s049",
+      "kind": "sentence",
+      "native": [
+        "దోశలు అనుకున్నాను, అటుకుల ఉప్మా చేస్తే త్వరగా అయిపోతుంది."
+      ],
+      "roman": [
+        "Doshalu anukunnaanu, atukula upma chesthe thvaragaa ayipothundi."
+      ]
+    },
+    {
+      "id": "te-s050",
+      "kind": "sentence",
+      "native": [
+        "ఆలస్యంగా చెప్పినందుకు సారీ, అనవసరంగా కంగారు పెట్టేశాను కదా."
+      ],
+      "roman": [
+        "Aalasyangaa cheppinanduku sorry, anavasarangaa kangaaru petteshaanu kadaa."
+      ]
+    },
+    {
+      "id": "te-s051",
+      "kind": "sentence",
+      "native": [
+        "శ్రీనివాస్, నీ సైకిల్ తాళం కిటికీ పక్కన పెట్టాను."
+      ],
+      "roman": [
+        "Srinivas, nee cycle thaalam kitikee pakkana pettaanu."
+      ]
+    },
+    {
+      "id": "te-s052",
+      "kind": "sentence",
+      "native": [
+        "ఈసారి బాధ్యత నేనే తీసుకుంటాను."
+      ],
+      "roman": [
+        "Eesaari baadhyatha nene theesukuntaanu."
+      ]
+    },
+    {
+      "id": "te-s053",
+      "kind": "sentence",
+      "native": [
+        "టికెట్‌లో రైలు నంబర్ 12760 సరిగ్గా ఉందో చూడండి."
+      ],
+      "roman": [
+        "Ticketlo railu number 12760 sariggaa undo choodandi."
+      ]
+    },
+    {
+      "id": "te-s054",
+      "kind": "sentence",
+      "native": [
+        "ఆదివారం నర్సరీకి వెళ్లినప్పుడు బాల్కనీలో పెట్టడానికి పెద్ద కుండీలు, వాటి కింద ఉంచే పళ్లాలు కొనాలి."
+      ],
+      "roman": [
+        "Aadivaaram nurseryki vellinappudu balconylo pettadaaniki pedda kundeelu, vaati kinda unche pallaalu konaali."
+      ]
+    },
+    {
+      "id": "te-s055",
+      "kind": "sentence",
+      "native": [
+        "ఫాతిమాకి బయలుదేరుతున్నానని మెసేజ్ పంపు."
+      ],
+      "roman": [
+        "Fatimaki bayaluderuthunnaanani message pampu."
+      ]
+    },
+    {
+      "id": "te-s056",
+      "kind": "sentence",
+      "native": [
+        "రేణుక, ఎక్సెల్ షీట్‌లో ఖాళీ రోలను డిలీట్ చేసి సేవ్ చేయండి."
+      ],
+      "roman": [
+        "Renuka, Excel sheetlo khaalee rowlanu delete chesi save cheyandi."
+      ]
+    },
+    {
+      "id": "te-s057",
+      "kind": "sentence",
+      "native": [
+        "కడపలో పాత మార్కెట్ దగ్గర ఈ బస్సు ఆగుతుందా?"
+      ],
+      "roman": [
+        "Kadapalo paatha market daggara ee bus aaguthundaa?"
+      ]
+    },
+    {
+      "id": "te-s058",
+      "kind": "sentence",
+      "native": [
+        "బయట ఎండ మండిపోతోంది."
+      ],
+      "roman": [
+        "Bayata enda mandipothondi."
+      ]
+    },
+    {
+      "id": "te-s059",
+      "kind": "sentence",
+      "native": [
+        "పాలు, గుడ్లు, అరటిపళ్లు తెచ్చేటప్పుడు ఖర్జూరాలు కూడా తీసుకురా."
+      ],
+      "roman": [
+        "Paalu, gudlu, aratipallu thechchetappudu kharjooraalu kooda theesukuraa."
+      ]
+    },
+    {
+      "id": "te-s060",
+      "kind": "sentence",
+      "native": [
+        "మొదటిసారి కదా, తడబడినా పరవాలేదు, మెల్లగా నేర్చుకుంటావు."
+      ],
+      "roman": [
+        "Modatisaari kadaa, thadabadinaa paravaaledu, mellagaa nerchukuntaavu."
+      ]
+    },
+    {
+      "id": "te-s061",
+      "kind": "sentence",
+      "native": [
+        "సంక్రాంతికి ఊరికి వస్తున్నావా, లేక అక్కడే ఉంటావా?"
+      ],
+      "roman": [
+        "Sankranthiki ooriki vasthunnaavaa, leka akkade untaavaa?"
+      ]
+    },
+    {
+      "id": "te-s062",
+      "kind": "sentence",
+      "native": [
+        "భోజనానికి ఆర్డర్ పెట్టేముందు సలీమ్‌కి కూడా కావాలేమో అడగండి."
+      ],
+      "roman": [
+        "Bhojanaaniki order pettemundu Saleemki kooda kaavaalemo adagandi."
+      ]
+    },
+    {
+      "id": "te-s063",
+      "kind": "sentence",
+      "native": [
+        "పాపకి ఇప్పుడు 4 ఏళ్లు."
+      ],
+      "roman": [
+        "Paapaki ippudu 4 ellu."
+      ]
+    },
+    {
+      "id": "te-s064",
+      "kind": "sentence",
+      "native": [
+        "గురువారం మొక్కలకు ఎరువు వేయాలి."
+      ],
+      "roman": [
+        "Guruvaaram mokkalaku eruvu veyaali."
+      ]
+    },
+    {
+      "id": "te-s065",
+      "kind": "sentence",
+      "native": [
+        "అల్లిక నేర్చుకోవడానికి మొదట ఎలాంటి సూదులు తీసుకోవాలి, దారం ఎంత మందంగా ఉంటే బాగుంటుంది?"
+      ],
+      "roman": [
+        "Allika nerchukovadaaniki modata elaanti soodulu theesukovaali, daaram entha mandanga unte baaguntundi?"
+      ]
+    },
+    {
+      "id": "te-s066",
+      "kind": "sentence",
+      "native": [
+        "మౌనిక, నువ్వు స్క్రీన్ షేర్ చేస్తుంటే శబ్దం వినిపించడం లేదు, ఆడియో కూడా వచ్చేలా చూస్తావా?"
+      ],
+      "roman": [
+        "Mounika, nuvvu screen share chesthunte shabdam vinipinchadam ledu, audio kooda vachchela choosthaavaa?"
+      ]
+    },
+    {
+      "id": "te-s067",
+      "kind": "sentence",
+      "native": [
+        "అత్తయ్య ఊరికి బయలుదేరారా?"
+      ],
+      "roman": [
+        "Atthayya ooriki bayaluderaaraa?"
+      ]
+    },
+    {
+      "id": "te-s068",
+      "kind": "sentence",
+      "native": [
+        "స్కూల్ వార్షికోత్సవానికి పిల్లల్ని రంగు దుస్తుల్లో పంపమన్నారు, యూనిఫామ్ వేసి పంపాల్సిన అవసరం లేదట."
+      ],
+      "roman": [
+        "School vaarshikothsavaaniki pillalni rangu dusthullo pampamannaaru, uniform vesi pampaalsina avasaram ledata."
+      ]
+    },
+    {
+      "id": "te-s069",
+      "kind": "sentence",
+      "native": [
+        "రమణగారికి పంపు, కాదు, పద్మగారికి పంపు, పేరు మార్చు."
+      ],
+      "roman": [
+        "Ramanagaariki pampu, kaadu, Padmagaariki pampu, peru maarchu."
+      ]
+    },
+    {
+      "id": "te-s070",
+      "kind": "sentence",
+      "native": [
+        "శైలజ, నువ్వు వేసిన ముగ్గు ఎంత అందంగా ఉందో!"
+      ],
+      "roman": [
+        "Shailaja, nuvvu vesina muggu entha andangaa undo!"
+      ]
+    },
+    {
+      "id": "te-s071",
+      "kind": "sentence",
+      "native": [
+        "నాన్న, కొరియర్ వస్తే తీసుకోండి, నేను బయట ఉన్నాను కాబట్టి తిరిగి రావడానికి ఆలస్యం అవుతుంది."
+      ],
+      "roman": [
+        "Naanna, courier vasthe theesukondi, nenu bayata unnaanu kaabatti thirigi raavadaaniki aalasyam avuthundi."
+      ]
+    },
+    {
+      "id": "te-s072",
+      "kind": "sentence",
+      "native": [
+        "వరంగల్ బ్రాంచ్ నుంచి సంతకం చేసిన కాపీ ఈరోజు రావాలి."
+      ],
+      "roman": [
+        "Warangal branch nunchi santhakam chesina copy eeroju raavaali."
+      ]
+    },
+    {
+      "id": "te-s073",
+      "kind": "sentence",
+      "native": [
+        "మా కొత్త చిరునామా రాసుకోండి. ఒంగోలు గాంధీనగర్‌లో మా ఇంటి నంబర్ 24."
+      ],
+      "roman": [
+        "Maa koththa chirunaamaa raasukondi. Ongole Gandhinagarlo maa inti number 24."
+      ]
+    },
+    {
+      "id": "te-s074",
+      "kind": "sentence",
+      "native": [
+        "పాత ఫోన్ అమ్మేముందు అందులో ఉన్న కాంటాక్టులు, మెసేజ్‌లు కొత్త ఫోన్‌లోకి వచ్చాయో లేదో చూసుకోవాలి."
+      ],
+      "roman": [
+        "Paatha phone ammemundu andulo unna contactulu, messagelu koththa phoneloki vachchaayo ledo choosukovaali."
+      ]
+    },
+    {
+      "id": "te-s075",
+      "kind": "sentence",
+      "native": [
+        "డౌన్‌లోడ్ అయిన ఫైల్ ఏ ఫోల్డర్‌లో ఉందో చెప్పు."
+      ],
+      "roman": [
+        "Download ayina file e folderlo undo cheppu."
+      ]
+    },
+    {
+      "id": "te-s076",
+      "kind": "sentence",
+      "native": [
+        "డిజైన్ ఫోల్డర్‌ని పొరపాటున డిలీట్ చేశాను, రీసైకిల్ బిన్‌లో ఉంటే అక్కడి నుంచి తిరిగి తెచ్చుకోవచ్చా?"
+      ],
+      "roman": [
+        "Design folderni porapaatuna delete chesaanu, recycle binlo unte akkadi nunchi thirigi thechchukovachchaa?"
+      ]
+    },
+    {
+      "id": "te-s077",
+      "kind": "sentence",
+      "native": [
+        "బేకరీ అప్పుడే మూసేశారా?"
+      ],
+      "roman": [
+        "Bakery appude moosesaaraa?"
+      ]
+    },
+    {
+      "id": "te-s078",
+      "kind": "sentence",
+      "native": [
+        "ఉగ్గానిలో నిమ్మరసం పిండితే రుచి ఇంకా బాగుంటుంది."
+      ],
+      "roman": [
+        "Uggaanilo nimmarasam pindithe ruchi inka baaguntundi."
+      ]
+    },
+    {
+      "id": "te-s079",
+      "kind": "sentence",
+      "native": [
+        "ఆగు, రెండే చాలు."
+      ],
+      "roman": [
+        "Aagu, rende chaalu."
+      ]
+    },
+    {
+      "id": "te-s080",
+      "kind": "sentence",
+      "native": [
+        "భీమవరంలో తిన్న రొయ్యల కూర రుచి ఇప్పటికీ గుర్తుంది."
+      ],
+      "roman": [
+        "Bhimavaramlo thinna royyala koora ruchi ippatikee gurthundi."
+      ]
+    },
+    {
+      "id": "te-s081",
+      "kind": "sentence",
+      "native": [
+        "సరే, బట్టలు ఆరగానే మడతపెట్టి అలమారాలో సర్దేస్తాను."
+      ],
+      "roman": [
+        "Sare, battalu aaragaane madathapetti alamaaralo sardesthaanu."
+      ]
+    },
+    {
+      "id": "te-s082",
+      "kind": "sentence",
+      "native": [
+        "సహకారానికి ధన్యవాదాలు, మళ్లీ మాట్లాడుకుందాం."
+      ],
+      "roman": [
+        "Sahakaaraaniki dhanyavaadaalu, malli maatlaadukundaam."
+      ]
+    },
+    {
+      "id": "te-s083",
+      "kind": "sentence",
+      "native": [
+        "ఆఫర్‌లో 15% తగ్గింపుతో ఆ కుర్చీ ₹1700కి వచ్చింది."
+      ],
+      "roman": [
+        "Offerlo 15% thaggimputho aa kurchee ₹1700ki vachchindi."
+      ]
+    },
+    {
+      "id": "te-s084",
+      "kind": "sentence",
+      "native": [
+        "శనివారం లైబ్రరీ పుస్తకాలు తిరిగి ఇవ్వాలని అలారం పెట్టాలి."
+      ],
+      "roman": [
+        "Shanivaaram library pusthakaalu thirigi ivvaalani alarm pettaali."
+      ]
+    },
+    {
+      "id": "te-s085",
+      "kind": "sentence",
+      "native": [
+        "గోంగూర పచ్చడి ఎలా చేయాలో గూగుల్‌లో వెతుకు."
+      ],
+      "roman": [
+        "Gongura pachchadi ela cheyaalo Googlelo vethuku."
+      ]
+    },
+    {
+      "id": "te-s086",
+      "kind": "sentence",
+      "native": [
+        "టచ్‌ప్యాడ్ మీద వేళ్లు పెట్టగానే కర్సర్ పక్కకి జారిపోతోంది."
+      ],
+      "roman": [
+        "Touchpad meeda vellu pettagaane cursor pakkaki jaaripothondi."
+      ]
+    },
+    {
+      "id": "te-s087",
+      "kind": "sentence",
+      "native": [
+        "వేణు బయట ఎదురుచూస్తున్నాడు."
+      ],
+      "roman": [
+        "Venu bayata eduruchoosthunnaadu."
+      ]
+    },
+    {
+      "id": "te-s088",
+      "kind": "sentence",
+      "native": [
+        "జుట్టు కత్తిరించుకోవడానికి బుధవారం ఉదయం రావాలనుకుంటున్నాను, మీ పార్లర్‌లో ఖాళీ ఉంటుందా?"
+      ],
+      "roman": [
+        "Juttu kaththirinchukovadaaniki Budhavaaram udayam raavaalanukuntunnaanu, mee parlorlo khaalee untundaa?"
+      ]
+    },
+    {
+      "id": "te-s089",
+      "kind": "sentence",
+      "native": [
+        "చిన్నది చూపించండి. సారీ, ఆ గీతలున్న కప్పు చూపించండి."
+      ],
+      "roman": [
+        "Chinnadi choopinchandi. Sorry, aa geethalunna cup choopinchandi."
+      ]
+    },
+    {
+      "id": "te-s090",
+      "kind": "sentence",
+      "native": [
+        "దారిలో పూతరేకులు దొరికితే తీసుకురా, బామ్మకి అవంటే చాలా ఇష్టం."
+      ],
+      "roman": [
+        "Daarilo pootharekulu dorikithe theesukuraa, baammaki avante chaala ishtam."
+      ]
+    },
+    {
+      "id": "te-s091",
+      "kind": "sentence",
+      "native": [
+        "గురువారం డెమోకి అందరికీ వీలవుతుందా, లేదంటే శుక్రవారం పెట్టుకుందామా?"
+      ],
+      "roman": [
+        "Guruvaaram demoki andarikee veelavuthundaa, ledante shukravaaram pettukundaamaa?"
+      ]
+    },
+    {
+      "id": "te-s092",
+      "kind": "sentence",
+      "native": [
+        "రాత్రి 8 గంటల 45 నిమిషాల బస్‌లో నాకు సీటు నంబర్ 17 బుక్ చేశావా?"
+      ],
+      "roman": [
+        "Raathri 8 gantala 45 nimishaala buslo naaku seat number 17 book chesaavaa?"
+      ]
+    },
+    {
+      "id": "te-s093",
+      "kind": "sentence",
+      "native": [
+        "బొప్పాయి పండిందో లేదో చూసి ముక్కలు కోయాలి."
+      ],
+      "roman": [
+        "Boppaayi pandindo ledo choosi mukkalu koyaali."
+      ]
+    },
+    {
+      "id": "te-s094",
+      "kind": "sentence",
+      "native": [
+        "కేక్ కోసం 25 నిమిషాల టైమర్ సెట్ చేయి."
+      ],
+      "roman": [
+        "Cake kosam 25 nimishaala timer set cheyi."
+      ]
+    },
+    {
+      "id": "te-s095",
+      "kind": "sentence",
+      "native": [
+        "నెల్లూరు ఆఫీస్‌కి కనెక్ట్ అవ్వాలంటే ముందుగా వీపీఎన్ ఆన్ చేయాలి."
+      ],
+      "roman": [
+        "Nellore officeki connect avvaalante mundugaa VPN on cheyaali."
+      ]
+    },
+    {
+      "id": "te-s096",
+      "kind": "sentence",
+      "native": [
+        "భానుకి తెనాలి వెళ్లే దారిలో మన పొలం కనిపించిందట."
+      ],
+      "roman": [
+        "Bhanuki Tenali velle daarilo mana polam kanipinchindata."
+      ]
+    },
+    {
+      "id": "te-s097",
+      "kind": "sentence",
+      "native": [
+        "బొబ్బట్లు చల్లారాక డబ్బాలో సర్దుదాం, వేడిగా ఉన్నప్పుడే మూత పెడితే ఒకదానికొకటి అంటుకుంటాయి."
+      ],
+      "roman": [
+        "Bobbatlu challaaraaka dabbaalo sardudaam, vedigaa unnappude mootha pedithe okadaanikokati antukuntaayi."
+      ]
+    },
+    {
+      "id": "te-s098",
+      "kind": "sentence",
+      "native": [
+        "ప్రసాద్, అరిసెలు అర కిలో తీసుకో, వద్దులే, అందరికీ సరిపోవాలంటే కిలో తీసుకుంటే మంచిది."
+      ],
+      "roman": [
+        "Prasad, ariselu ara kilo theesuko, vaddule, andarikee saripovaalante kilo theesukunte manchidi."
+      ]
+    },
+    {
+      "id": "te-s099",
+      "kind": "sentence",
+      "native": [
+        "రేపు బేగంపేట మెట్రో స్టేషన్ దగ్గర సాయంత్రం 5 గంటలకు కలుద్దాం."
+      ],
+      "roman": [
+        "Repu Begumpet metro station daggara saayantram 5 gantalaku kaluddaam."
+      ]
+    },
+    {
+      "id": "te-s100",
+      "kind": "sentence",
+      "native": [
+        "ఈమెయిల్ చివర్లో నా పేరు తప్పుగా ఉంది, సరిచేయండి."
+      ],
+      "roman": [
+        "Email chivarlo naa peru thappugaa undi, saricheyandi."
+      ]
+    },
+    {
+      "id": "te-s101",
+      "kind": "sentence",
+      "native": [
+        "పులిహోరకి 6 నిమ్మకాయలు, 250 గ్రాముల వేరుశెనగలు తెచ్చాను."
+      ],
+      "roman": [
+        "Pulihoraki 6 nimmakaayalu, 250 gramula verushenagalu thechchaanu."
+      ]
+    },
+    {
+      "id": "te-s102",
+      "kind": "sentence",
+      "native": [
+        "జల్లెడ అరువు తెచ్చుకోవాలి."
+      ],
+      "roman": [
+        "Jalleda aruvu thechchukovaali."
+      ]
+    },
+    {
+      "id": "te-s103",
+      "kind": "sentence",
+      "native": [
+        "ఆన్‌లైన్‌లో కొన్న వస్తువుని తిరిగి పంపాలంటే ఏం చేయాలి?"
+      ],
+      "roman": [
+        "Onlinelo konna vasthuvuni thirigi pampaalante em cheyaali?"
+      ]
+    },
+    {
+      "id": "te-s104",
+      "kind": "sentence",
+      "native": [
+        "దీప్తి, నువ్వు తయారు చేసిన వెబ్‌సైట్ నా మొబైల్‌లో కూడా చాలా బాగా పనిచేస్తోంది."
+      ],
+      "roman": [
+        "Deepthi, nuvvu thayaaru chesina website naa mobilelo kooda chaala baaga panichesthondi."
+      ]
+    },
+    {
+      "id": "te-s105",
+      "kind": "sentence",
+      "native": [
+        "మీ షాపుకి రావాలనుకున్నాను, కానీ పార్కింగ్ దొరక్క వెనక్కి వెళ్లిపోయాను, వస్తువులు కొరియర్‌లో పంపిస్తారా?"
+      ],
+      "roman": [
+        "Mee shopki raavaalanukunnaanu, kaani parking dorakka venakki vellipoyaanu, vasthuvulu courierlo pampisthaaraa?"
+      ]
+    },
+    {
+      "id": "te-s106",
+      "kind": "sentence",
+      "native": [
+        "చొక్కా కొంచెం వదులుగా ఉంది."
+      ],
+      "roman": [
+        "Chokkaa konchem vadulugaa undi."
+      ]
+    },
+    {
+      "id": "te-s107",
+      "kind": "sentence",
+      "native": [
+        "పంచదార వేయాలా, వద్దా?"
+      ],
+      "roman": [
+        "Panchadaara veyaalaa, vaddaa?"
+      ]
+    },
+    {
+      "id": "te-s108",
+      "kind": "sentence",
+      "native": [
+        "వంట నీ వంతు, గిన్నెలు తోమడం నా వంతు."
+      ],
+      "roman": [
+        "Vanta nee vanthu, ginnelu thomadam naa vanthu."
+      ]
+    },
+    {
+      "id": "te-s109",
+      "kind": "sentence",
+      "native": [
+        "లతగారు, సెలవుకి అనుమతి వచ్చింది."
+      ],
+      "roman": [
+        "Lathagaaru, selavuki anumathi vachchindi."
+      ]
+    },
+    {
+      "id": "te-s110",
+      "kind": "sentence",
+      "native": [
+        "టమాటాలు కిలో ₹32 ఉన్నాయి."
+      ],
+      "roman": [
+        "Tamaataalu kilo ₹32 unnaayi."
+      ]
+    },
+    {
+      "id": "te-s111",
+      "kind": "sentence",
+      "native": [
+        "చెత్త బండి వచ్చేటప్పటికి పాడైన బకెట్ కూడా బయటపెట్టాలి."
+      ],
+      "roman": [
+        "Cheththa bandi vachchetappatiki paadaina bucket kooda bayatapettaali."
+      ]
+    },
+    {
+      "id": "te-s112",
+      "kind": "sentence",
+      "native": [
+        "కెమెరాతో చూసి, ఎదురుగా ఉన్న బోర్డు మీద ఇంగ్లీష్‌లో ఏమి రాసి ఉందో తెలుగులో చెప్పగలవా?"
+      ],
+      "roman": [
+        "Cameratho choosi, edurugaa unna board meeda Englishlo emi raasi undo Telugulo cheppagalavaa?"
+      ]
+    },
+    {
+      "id": "te-s113",
+      "kind": "sentence",
+      "native": [
+        "ప్రింటర్‌లో కాగితం ఇరుక్కుపోయింది."
+      ],
+      "roman": [
+        "Printerlo kaagitham irukkupoyindi."
+      ]
+    },
+    {
+      "id": "te-s114",
+      "kind": "sentence",
+      "native": [
+        "వంతెన దాటాక ఎడమవైపు తిరిగితే బట్టల దుకాణం వస్తుంది."
+      ],
+      "roman": [
+        "Vanthena daataaka edamavaipu thirigithe battala dukaanam vasthundi."
+      ]
+    },
+    {
+      "id": "te-s115",
+      "kind": "sentence",
+      "native": [
+        "ఈ బుట్ట ₹180కి ఇస్తే ఇప్పుడే తీసుకుంటాను."
+      ],
+      "roman": [
+        "Ee butta ₹180ki isthe ippude theesukuntaanu."
+      ]
+    },
+    {
+      "id": "te-s116",
+      "kind": "sentence",
+      "native": [
+        "విను, పచ్చడి సీసా తెరిచి ఉందా, లేక మూత బిగించావా?"
+      ],
+      "roman": [
+        "Vinu, pachchadi seesaa therichi undaa, leka mootha biginchaavaa?"
+      ]
+    },
+    {
+      "id": "te-s117",
+      "kind": "sentence",
+      "native": [
+        "నీ గొడుగు నా దగ్గరే ఉంది."
+      ],
+      "roman": [
+        "Nee godugu naa daggare undi."
+      ]
+    },
+    {
+      "id": "te-s118",
+      "kind": "sentence",
+      "native": [
+        "ఖమ్మం గోదాములో సరుకు దించేశాం, లెక్కలు ఇంకా చూడాలి."
+      ],
+      "roman": [
+        "Khammam godaamulo saruku dinchesaam, lekkalu inka choodaali."
+      ]
+    },
+    {
+      "id": "te-s119",
+      "kind": "sentence",
+      "native": [
+        "బ్యాటరీ ఇంకా 18% ఉంది."
+      ],
+      "roman": [
+        "Battery inka 18% undi."
+      ]
+    },
+    {
+      "id": "te-s120",
+      "kind": "sentence",
+      "native": [
+        "సరుకుల లిస్ట్‌లో కందిపప్పుతో పాటు జీలకర్ర కూడా చేర్చు."
+      ],
+      "roman": [
+        "Sarukula listlo kandipapputho paatu jeelakarra kooda cherchu."
+      ]
+    },
+    {
+      "id": "te-s121",
+      "kind": "sentence",
+      "native": [
+        "రికార్డింగ్ మొదలు పెట్టు."
+      ],
+      "roman": [
+        "Recording modalu pettu."
+      ]
+    },
+    {
+      "id": "te-s122",
+      "kind": "sentence",
+      "native": [
+        "అనిల్ పంపిన ప్రెజెంటేషన్‌లో అక్షరాలు మరీ చిన్నగా కనిపిస్తున్నాయి."
+      ],
+      "roman": [
+        "Anil pampina presentationlo aksharaalu maree chinnagaa kanipisthunnaayi."
+      ]
+    },
+    {
+      "id": "te-s123",
+      "kind": "sentence",
+      "native": [
+        "రాజమండ్రిలో దిగగానే రవళి వాళ్ల అన్నయ్య వచ్చి నన్ను నేరుగా వాళ్లింటికి తీసుకెళ్లాడు."
+      ],
+      "roman": [
+        "Rajahmundrylo digagaane Raavaali vaalla annayya vachchi nannu nerugaa vaallintiki theesukellaadu."
+      ]
+    },
+    {
+      "id": "te-s124",
+      "kind": "sentence",
+      "native": [
+        "దిండు కవర్ మార్చు."
+      ],
+      "roman": [
+        "Dindu cover maarchu."
+      ]
+    },
+    {
+      "id": "te-s125",
+      "kind": "sentence",
+      "native": [
+        "దుప్పట్లు ఉతకడానికి నానబెడదాం, కానీ వాన వచ్చేలా ఉంది, ఎండ కాస్తే ఆ పని చేద్దాం."
+      ],
+      "roman": [
+        "Duppatlu uthakadaaniki naanabedadaam, kaani vaana vachchela undi, enda kaasthe aa pani cheddaam."
+      ]
+    },
+    {
+      "id": "te-s126",
+      "kind": "sentence",
+      "native": [
+        "సినిమా మొదలవగానే నిద్రపోతావు, టికెట్ కొనేది చల్లగా పడుకోవడానికా లేక సినిమా చూడటానికా?"
+      ],
+      "roman": [
+        "Cinema modalavagaane nidrapothaavu, ticket konedi challagaa padukovadaanikaa leka cinema choodataanikaa?"
+      ]
+    },
+    {
+      "id": "te-s127",
+      "kind": "sentence",
+      "native": [
+        "కిరణ్, ఆఫీస్ బోర్డు కోసం ఇచ్చిన కొటేషన్‌లో ₹4800 ఉంది, ఈ ఖర్చు మన బడ్జెట్‌లోనే ఉందా?"
+      ],
+      "roman": [
+        "Kiran, office board kosam ichchina quotationlo ₹4800 undi, ee kharchu mana budgetlone undaa?"
+      ]
+    },
+    {
+      "id": "te-s128",
+      "kind": "sentence",
+      "native": [
+        "పొద్దున్న 6 గంటలకే గేదెలకు 4 కట్టల గడ్డి పెట్టాను, సాయంత్రానికి మరో 3 కట్టలు కావాలి."
+      ],
+      "roman": [
+        "Poddunna 6 gantalake gedelaku 4 kattala gaddi pettaanu, saayantraaniki maro 3 kattalu kaavaali."
+      ]
+    },
+    {
+      "id": "te-s129",
+      "kind": "sentence",
+      "native": [
+        "చెప్పులకు పాలిష్ చేయాలి."
+      ],
+      "roman": [
+        "Cheppulaku polish cheyaali."
+      ]
+    },
+    {
+      "id": "te-s130",
+      "kind": "sentence",
+      "native": [
+        "టీవీలో ప్రస్తుతం నడుస్తున్న సినిమా పేరు ఏంటో కనుక్కో."
+      ],
+      "roman": [
+        "TVlo prasthutham nadusthunna cinema peru ento kanukko."
+      ]
+    },
+    {
+      "id": "te-s131",
+      "kind": "sentence",
+      "native": [
+        "వాట్సాప్ బ్యాకప్ పూర్తయ్యేదాకా వైఫై ఆఫ్ చేయకుండా ఉంచు."
+      ],
+      "roman": [
+        "WhatsApp backup poorthayyedaakaa Wi-Fi off cheyakundaa unchu."
+      ]
+    },
+    {
+      "id": "te-s132",
+      "kind": "sentence",
+      "native": [
+        "టైలర్ దగ్గర రద్దీగా ఉంది, కాస్త ఆలస్యంగా రావచ్చా?"
+      ],
+      "roman": [
+        "Tailor daggara raddeegaa undi, kaastha aalasyangaa raavachchaa?"
+      ]
+    },
+    {
+      "id": "te-s133",
+      "kind": "sentence",
+      "native": [
+        "నేను ఇంటికి వచ్చాను."
+      ],
+      "roman": [
+        "Nenu intiki vachchaanu."
+      ]
+    },
+    {
+      "id": "te-s134",
+      "kind": "sentence",
+      "native": [
+        "ప్రస్తుతం ఆ పని చూసేది ఎవరో చెబితే, కస్టమర్ అడిగిన వివరాలు నేరుగా వాళ్లకే అందిస్తాను."
+      ],
+      "roman": [
+        "Prasthutham aa pani choosedi evaro chebithe, customer adigina vivaraalu nerugaa vaallake andisthaanu."
+      ]
+    },
+    {
+      "id": "te-s135",
+      "kind": "sentence",
+      "native": [
+        "సోమవారం ఉదయం 7 గంటలకు యోగా క్లాస్ మొదలవుతుంది."
+      ],
+      "roman": [
+        "Somavaaram udayam 7 gantalaku yoga class modalavuthundi."
+      ]
+    },
+    {
+      "id": "te-s136",
+      "kind": "sentence",
+      "native": [
+        "ముందున్న సందులో కారు పట్టదు. మెయిన్ రోడ్డు మీదే ఉండండి, నేనే అక్కడికి వచ్చేస్తాను."
+      ],
+      "roman": [
+        "Mundunna sandulo car pattadu. Main road meede undandi, nene akkadiki vachchesthaanu."
+      ]
+    },
+    {
+      "id": "te-s137",
+      "kind": "sentence",
+      "native": [
+        "అఖిల్, ఈసారి నీ పుట్టినరోజుకి ఏ గిఫ్ట్ కావాలో చెప్పు."
+      ],
+      "roman": [
+        "Akhil, eesaari nee puttinarojuki e gift kaavaalo cheppu."
+      ]
+    },
+    {
+      "id": "te-s138",
+      "kind": "sentence",
+      "native": [
+        "డ్రాఫ్ట్ బాగానే ఉంది, చివరి పేరా మాత్రం కుదించాలి."
+      ],
+      "roman": [
+        "Draft baagaane undi, chivari para maathram kudinchaali."
+      ]
+    },
+    {
+      "id": "te-s139",
+      "kind": "sentence",
+      "native": [
+        "రిసెప్షన్‌లో గది నంబర్ 208 తాళం తీసుకోండి."
+      ],
+      "roman": [
+        "Receptionlo gadi number 208 thaalam theesukondi."
+      ]
+    },
+    {
+      "id": "te-s140",
+      "kind": "sentence",
+      "native": [
+        "ఖాళీగా ఉన్నప్పుడు కాల్ చేయి."
+      ],
+      "roman": [
+        "Khaaleegaa unnappudu call cheyi."
+      ]
+    },
+    {
+      "id": "te-s141",
+      "kind": "sentence",
+      "native": [
+        "హారిక, ఆదివారం పుస్తకాల ప్రదర్శనకు వెళ్దామా? నీకు వీలవుతుందా?"
+      ],
+      "roman": [
+        "Harika, aadivaaram pusthakaala pradarshanaku veldaamaa? Neeku veelavuthundaa?"
+      ]
+    },
+    {
+      "id": "te-s142",
+      "kind": "sentence",
+      "native": [
+        "అమ్మ చేసిన మామిడికాయ పప్పు బాగుంది, ఇంకాస్త వడ్డించుకో."
+      ],
+      "roman": [
+        "Amma chesina maamidikaaya pappu baagundi, inkaastha vaddinchuko."
+      ]
+    },
+    {
+      "id": "te-s143",
+      "kind": "sentence",
+      "native": [
+        "పెళ్లి ఆల్బమ్ చూస్తుంటే ప్రతి పేజీలో నువ్వే కనిపిస్తున్నావు, అసలు పెళ్లి ఎవరిదో మర్చిపోయేలా చేశావు."
+      ],
+      "roman": [
+        "Pelli album choosthunte prathi pagelo nuvve kanipisthunnaavu, asalu pelli evarido marchipoyela chesaavu."
+      ]
+    },
+    {
+      "id": "te-s144",
+      "kind": "sentence",
+      "native": [
+        "పిల్లల్ని తీసుకురావడానికి స్కూల్ దగ్గర ఉన్నాను, ఇంటికొచ్చాక నీకు ఫోన్ చేసి మాట్లాడతాను."
+      ],
+      "roman": [
+        "Pillalni theesukuraavadaaniki school daggara unnaanu, intikochchaaka neeku phone chesi maatlaadathaanu."
+      ]
+    },
+    {
+      "id": "te-s145",
+      "kind": "sentence",
+      "native": [
+        "తమ్ముడు ఆటలో గెలిచాడట."
+      ],
+      "roman": [
+        "Thammudu aatalo gelichaadata."
+      ]
+    }
+  ]
+}

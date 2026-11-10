@@ -1,0 +1,2091 @@
+{
+  "lang": "my",
+  "starter": [
+    "my-s151",
+    "my-s124",
+    "my-s073",
+    "my-s046",
+    "my-s082",
+    "my-s076",
+    "my-s160",
+    "my-s089",
+    "my-s050",
+    "my-s031",
+    "my-s063",
+    "my-p05",
+    "my-s062",
+    "my-s162",
+    "my-s116",
+    "my-s084",
+    "my-s009",
+    "my-s125",
+    "my-s010",
+    "my-s057",
+    "my-s161",
+    "my-s075",
+    "my-s024",
+    "my-p06",
+    "my-s096",
+    "my-s019",
+    "my-s053",
+    "my-s112",
+    "my-s037",
+    "my-s098",
+    "my-s099",
+    "my-s141",
+    "my-s172",
+    "my-s086",
+    "my-s182",
+    "my-p03",
+    "my-s004",
+    "my-s029",
+    "my-s051",
+    "my-s170",
+    "my-s035",
+    "my-s107",
+    "my-s155",
+    "my-s044",
+    "my-s166",
+    "my-s018",
+    "my-s008",
+    "my-s069"
+  ],
+  "items": [
+    {
+      "id": "my-p01",
+      "kind": "para",
+      "title": "Football at the Tea Shop",
+      "native": [
+        "ညက ဘောလုံးပွဲကို တာမွေက လက်ဖက်ရည်ဆိုင်မှာ ကြည့်ခဲ့တယ်။",
+        "ပွဲစတော့ ဆိုင်ထဲမှာ ထိုင်စရာတောင် မကျန်တော့ဘူး။",
+        "ကိုဇင်က နောက်ကျမှလာလို့ အပြင်ဘက်မှာ ထိုင်ရတယ်။",
+        "ပထမပိုင်းမှာ ဂိုးမဝင်လို့ အားလုံး စိတ်မရှည်ကြဘူး။",
+        "ဒုတိယပိုင်းမှာ ကိုယ်အားပေးတဲ့အသင်းက ဂိုးသွင်းလိုက်တယ်။",
+        "ဂိုးဝင်တာနဲ့ တစ်ဆိုင်လုံး လက်ခုပ်တီးကြတာ ဆူညံနေတာပဲ။",
+        "ဆိုင်ရှင်က လက်ဖက်ရည်လာချတာတောင် ဘယ်သူမှ မသိလိုက်ဘူး။",
+        "နောက်ဆုံး အနိုင်ဂိုးရတော့ ကိုဇင် ထခုန်နေတာ ရယ်ရတယ်။",
+        "နောက်ပွဲကျရင် အဲဒီဆိုင်မှာပဲ အတူသွားကြည့်မယ်နော်။"
+      ],
+      "roman": [
+        "Nya ka baw lone pwe ko Tamwe ka la phet yay saing hmar kyi kheh tal.",
+        "Pwe sa daw saing hteh hmar htaing sa yar taung ma kyan daw bu.",
+        "Ko Zin ka nout kya hma lar loh a pyin bet hmar htaing ya tal.",
+        "Pa hta ma paing hmar go ma win loh ar lone seit ma shay kya bu.",
+        "Doo ti ya paing hmar ko ar pay deh a thin ka go thwin lite tal.",
+        "Go win tar neh tit saing lone let khote tee kya tar su nyan nay tar beh.",
+        "Saing shin ka la phet yay lar cha tar taung beh thu hma ma thi lite bu.",
+        "Nout sone a naing go ya daw Ko Zin hta khone nay tar yel ya tal.",
+        "Nout pwe kya yin eh di saing hmar beh a tu thwar kyi mal naw."
+      ]
+    },
+    {
+      "id": "my-p02",
+      "kind": "para",
+      "title": "Feedback From Mandalay Users",
+      "native": [
+        "မန္တလေးက user တွေရဲ့ အမြင်ကို စုထားပါတယ်။",
+        "ပစ္စည်းရောက်မယ့်အချိန်ကို app မှာ ထည့်ပြထားပါတယ်။",
+        "ရောက်မယ့်အချိန် မြင်ရတာ အဆင်ပြေတယ်လို့ ပြောကြပါတယ်။",
+        "စာလုံးသေးလို့ ဖတ်ရခက်တယ်ဆိုတဲ့သူလည်း ရှိပါတယ်။",
+        "မြေပုံပေါ်က ဆိုင်နေရာလွဲနေတာကိုလည်း တွေ့ရပါတယ်။",
+        "ကိုဇင်က စာလုံးအရွယ်ကို အရင်ပြင်ပေးပါ။",
+        "ဆိုင်နေရာကို ကျွန်တော် ပြန်စစ်ပေးပါမယ်။",
+        "ပြင်ပြီးတဲ့ပုံကို ကျွန်တော့်ဆီ Viber ကနေ ပို့ပေးပါ။",
+        "သောကြာနေ့မှာ user တွေနဲ့ ထပ်စမ်းကြည့်ပါမယ်။"
+      ],
+      "roman": [
+        "Mandalay ka user dway yeh a myin ko su htar bar tal.",
+        "Pyit see yout meh a chain ko app hmar hteh pya htar bar tal.",
+        "Yout meh a chain myin ya tar a sin pyay tal loh pyaw kya bar tal.",
+        "Sar lone thay loh phat ya khet tal so deh thu leh shi bar tal.",
+        "Myay pone paw ka saing nay yar lwe nay tar ko leh twae ya bar tal.",
+        "Ko Zin ka sar lone a ywel ko a yin pyin pay bar.",
+        "Saing nay yar ko kyun taw pyan sit pay bar mal.",
+        "Pyin pyee deh pone ko kyun taw si Viber ka nay poh pay bar.",
+        "Thout kya nay hmar user dway neh htat san kyi bar mal."
+      ]
+    },
+    {
+      "id": "my-p03",
+      "kind": "para",
+      "title": "Rain at Theingyi Market",
+      "native": [
+        "မနေ့က သိမ်ကြီးဈေးကို အမေနဲ့ သွားခဲ့တယ်။",
+        "ဈေးထဲမဝင်ခင်က မိုးရွာမယ့်ပုံ မပေါ်သေးဘူး။",
+        "ခရမ်းချဉ်သီးရွေးနေတုန်း မိုးက ရွာချလာတယ်။",
+        "အမေက ဈေးအိတ်ကို ရင်ခွင်ထဲ ပိုက်ထားလိုက်တယ်။",
+        "ကျွန်မတို့လည်း မုန့်ဆိုင်အမိုးအောက် ပြေးဝင်ခဲ့တယ်။",
+        "ဆိုင်ရှင်က ထိုင်ဖို့ ခုံပုလေးတွေ ချပေးတယ်။",
+        "မိုးခိုရင်း ကောက်ညှင်းပေါင်းပူပူ စားခဲ့ရတယ်။",
+        "ဈေးအိတ်က ခြောက်ပေမယ့် ဖိနပ်တွေတော့ စိုကုန်တယ်။",
+        "အိမ်ရောက်တော့ အမေက အဝတ်လဲဖို့ သတိပေးတယ်။"
+      ],
+      "roman": [
+        "Ma nay ka Thein Gyi Zay ko a may neh thwar kheh tal.",
+        "Zay hteh ma win khin ka moe ywar meh pone ma paw thay bu.",
+        "Kha yan chin thee yway nay tone moe ka ywar cha lar tal.",
+        "A may ka zay eit ko yin khwin hteh pite htar lite tal.",
+        "Kyun ma doh leh mont saing a moe out pyay win kheh tal.",
+        "Saing shin ka htaing pho khone pu lay dway cha pay tal.",
+        "Moe kho yin kout hnyin paung pu pu sar kheh ya tal.",
+        "Zay eit ka chout pay meh phi nat dway daw so kone tal.",
+        "Ein yout daw a may ka a wut leh pho tha ti pay tal."
+      ]
+    },
+    {
+      "id": "my-p04",
+      "kind": "para",
+      "title": "Making Tea Dad's Way",
+      "native": [
+        "အဖေဖျော်သလို လက်ဖက်ရည် ဖျော်ပြမယ်။",
+        "အိုးသေးထဲ ရေတစ်ခွက်ထည့်ပြီး ဆူအောင်တည်ပါ။",
+        "ရေဆူလာရင် လက်ဖက်ခြောက်တစ်ဇွန်း ထည့်ပါ။",
+        "မီးလျှော့ပြီး 3 မိနစ်လောက် နှပ်ထားပေးပါ။",
+        "ခွက်ထဲကို နို့ဆီ လက်ဖက်ရည်ဇွန်း 2 ဇွန်း ထည့်ပါ။",
+        "နို့စိမ်းတစ်ဇွန်းပါ ရောထည့်ရင် ပိုဆိမ့်တယ်။",
+        "နှပ်ထားတဲ့ လက်ဖက်ရည်ကို စစ်ပြီး ခွက်ထဲလောင်းပါ။",
+        "ခွက်အောက်ခြေက နို့ဆီပျော်အောင် သေချာမွှေပေးပါ။",
+        "အချိုကြိုက်ရင် နို့ဆီနည်းနည်း ထပ်ထည့်လို့ရတယ်။"
+      ],
+      "roman": [
+        "A phay phyaw tha lo la phet yay phyaw pya mal.",
+        "Oe thay hteh yay tit khwet hteh pyee su aung ti bar.",
+        "Yay su lar yin la phet chout tit zun hteh bar.",
+        "Mee shawt pyee 3 mi nit lout hnat htar pay bar.",
+        "Khwet hteh ko noh si la phet yay zun 2 zun hteh bar.",
+        "Noh sein tit zun bar yaw hteh yin po seint tal.",
+        "Hnat htar deh la phet yay ko sit pyee khwet hteh laung bar.",
+        "Khwet out chay ka noh si pyaw aung thay char hmway pay bar.",
+        "A cho kyite yin noh si neh neh htat hteh loh ya tal."
+      ]
+    },
+    {
+      "id": "my-p05",
+      "kind": "para",
+      "title": "A Holiday Novel",
+      "native": [
+        "ကလောမှာ အနားယူရင်း ဝတ္ထုတစ်အုပ် ဖတ်ဖြစ်တယ်။",
+        "ဇာတ်လမ်းက ပုသိမ်က မုန့်ဆိုင်လေးမှာ စတာပါ။",
+        "သားက ဆိုင်ကို ပုံစံသစ် ပြောင်းချင်နေတာ။",
+        "အမေကတော့ အရင်အရသာ ပျက်မှာ စိုးရိမ်တယ်။",
+        "သားအမိ ငြင်းကြတဲ့စကားတွေက သဘာဝကျတယ်။",
+        "ကိုယ့်အိမ်က လူတွေအကြောင်းတောင် တွေးမိတယ်။",
+        "အလယ်ပိုင်းမှာ နည်းနည်း ရှည်သွားသလိုပဲ။",
+        "ဇာတ်သိမ်းမှာ အကုန်ပြေလည်မသွားတာကို ကြိုက်တယ်။",
+        "အေးအေးဆေးဆေး ဖတ်ချင်ရင် ဒီစာအုပ်က ကောင်းတယ်။"
+      ],
+      "roman": [
+        "Kalaw hmar a nar yu yin wut htu tit oat phat phyit tal.",
+        "Zat lan ka Pathein ka mont saing lay hmar sa dar bar.",
+        "Thar ka saing ko pone san thit pyaung chin nay dar.",
+        "A may ka daw a yin a ya thar pyet hmar soe yein tal.",
+        "Thar a mi nyin kya deh sa kar dway ka tha bar wa kya tal.",
+        "Ko ein ka lu dway a kyaung taung tway mi tal.",
+        "A lel paing hmar neh neh shay thwar tha lo beh.",
+        "Zat thein hmar a kone pyay lel ma thwar dar ko kyite tal.",
+        "Aye aye say say phat chin yin di sar oat ka kaung tal."
+      ]
+    },
+    {
+      "id": "my-p06",
+      "kind": "para",
+      "title": "Dinner in Mawlamyine",
+      "native": [
+        "ညစာကို 2026 ခုနှစ် ဇွန်လ 14 ရက်မှာ စားမယ်။",
+        "မော်လမြိုင်က ဒေါ်တင်အိမ်မှာ လူ 24 ယောက် ဆုံမယ်။",
+        "ဧည့်သည်တွေကို ညနေ 6 နာရီ လာဖို့ ပြောထားမယ်။",
+        "ညနေ 4 နာရီ 30 မိနစ်မှာ ဟင်းစချက်ရမယ်။",
+        "ကြက်သား 3 ပိဿာနဲ့ ပုစွန် 2 ပိဿာ ဝယ်မယ်။",
+        "ဟင်းဖိုးကို 180,000 ကျပ်လောက် သုံးမယ်။",
+        "ဈေးက အိမ်နဲ့ 2 မိုင်ပဲ ဝေးလို့ ကိုယ်တိုင်ဝယ်မယ်။",
+        "စားပွဲ 4 လုံးနဲ့ ကုလားထိုင် 24 လုံး ငှားရမယ်။",
+        "အချိုပွဲအတွက် မုန့်လက်ဆောင်း 30 ခွက် မှာမယ်။"
+      ],
+      "roman": [
+        "Nya sar ko 2026 khu hnit Zun la 14 yet hmar sar mal.",
+        "Mawlamyine ka Daw Tin ein hmar lu 24 yout sone mal.",
+        "Eh the dway ko nya nay 6 nar yi lar pho pyaw htar mal.",
+        "Nya nay 4 nar yi 30 mi nit hmar hin sa chet ya mal.",
+        "Kyet thar 3 peik thar neh pa zun 2 peik thar wel mal.",
+        "Hin pho ko 180,000 kyat lout thone mal.",
+        "Zay ka ein neh 2 maing beh way loh ko taing wel mal.",
+        "Sar pwe 4 lone neh ka lar htaing 24 lone hngar ya mal.",
+        "A cho pwe a twet mone let saung 30 khwet hmar mal."
+      ]
+    },
+    {
+      "id": "my-p07",
+      "kind": "para",
+      "title": "A Misdelivered Parcel",
+      "native": [
+        "မင်္ဂလာပါ၊ ပါဆယ်ကိစ္စလေး မေးချင်လို့ပါ။",
+        "ကျွန်မဆီရောက်ရမယ့် ပါဆယ် မရောက်သေးလို့ပါ။",
+        "ပို့ပြီးပြီဆိုတဲ့ မက်ဆေ့ချ်ကတော့ ရထားပါတယ်။",
+        "ပို့ထားတဲ့ပုံထဲက တံခါးက အိမ်ကတံခါး မဟုတ်ပါဘူး။",
+        "အမှတ် 28၊ အုတ်ကျင်းလမ်း၊ လှိုင်ကို ပို့ရမှာပါ။",
+        "ပုံထဲမှာတော့ အိမ်နံပါတ် 82 လို့ မြင်ရပါတယ်။",
+        "ပါဆယ်ကို ပြန်ယူပြီး လိပ်စာမှန်ဆီ ပို့ပေးပါဦး။",
+        "ဘယ်အချိန် ပြန်ပို့ပေးနိုင်မလဲဆိုတာ သိချင်ပါတယ်။",
+        "ဒီနေ့ ညနေ 5 နာရီအထိ အိမ်မှာ စောင့်ပေးနိုင်ပါတယ်။"
+      ],
+      "roman": [
+        "Mingalarbar, par sel keik sa lay may chin loh bar.",
+        "Kyun ma si yout ya meh par sel ma yout thay loh bar.",
+        "Poh pyee pyee so deh message ka daw ya htar bar tal.",
+        "Poh htar deh pone hteh ka ta khar ka ein ka ta khar ma hote bar bu.",
+        "A hmat 28, Oat Kyin lan, Hlaing ko poh ya hmar bar.",
+        "Pone hteh hmar daw ein nan pat 82 loh myin ya bar tal.",
+        "Par sel ko pyan yu pyee leik sar hman si poh pay bar oo.",
+        "Beh a chain pyan poh pay naing ma leh so dar thi chin bar tal.",
+        "Di nay nya nay 5 nar yi a hti ein hmar saung pay naing bar tal."
+      ]
+    },
+    {
+      "id": "my-p08",
+      "kind": "para",
+      "title": "Kyaukmyaung Glazed Pottery",
+      "native": [
+        "ကျောက်မြောင်းမြို့ဟာ စဉ့်အိုးလုပ်ငန်းနဲ့ လူသိများပါတယ်။",
+        "ဒီမှာ အိုးကြီးအိုးငယ် အရွယ်စုံ လုပ်ကြပါတယ်။",
+        "အိုးပုံဖော်ဖို့ မြေစေးကို အရင် နယ်ရပါတယ်။",
+        "အိုးကြီးတွေကို အပိုင်းလိုက် ဆက်ပြီး ပုံဖော်ရပါတယ်။",
+        "ပုံပေါ်လာတဲ့အိုးကို အရိပ်ထဲမှာ အခြောက်ခံပါတယ်။",
+        "မီးမဖုတ်ခင် အိုးမျက်နှာပြင်ကို စဉ့်ရည်သုတ်ပါတယ်။",
+        "မီးဖိုထဲက အပူချိန်ကလည်း အရေးကြီးပါတယ်။",
+        "အိုးကောင်းကောင်းလုပ်တတ်ဖို့ အတွေ့အကြုံ လိုပါတယ်။",
+        "ဒီစဉ့်အိုးတွေကို ရေထည့်ဖို့ အိမ်တွေမှာ သုံးကြပါတယ်။"
+      ],
+      "roman": [
+        "Kyaukmyaung myoh har sint oh lote ngan neh lu thi myar bar tal.",
+        "Di hmar oh kyi oh nge a ywel sone lote kya bar tal.",
+        "Oh pone phaw pho myay say ko a yin nel ya bar tal.",
+        "Oh kyi dway ko a paing lite set pyee pone phaw ya bar tal.",
+        "Pone paw lar deh oh ko a yeik hteh hmar a chout khan bar tal.",
+        "Mee ma phote khin oh myet hnar pyin ko sint yay thote bar tal.",
+        "Mee pho hteh ka a pu chain ka leh a yay kyi bar tal.",
+        "Oh kaung kaung lote tat pho a twae a kyone lo bar tal.",
+        "Di sint oh dway ko yay hteh pho ein dway hmar thone kya bar tal."
+      ]
+    },
+    {
+      "id": "my-s001",
+      "kind": "sentence",
+      "native": [
+        "ဟင်းနည်းနည်း ချန်ထားပေး။"
+      ],
+      "roman": [
+        "Hin neh neh chan htar pay."
+      ]
+    },
+    {
+      "id": "my-s002",
+      "kind": "sentence",
+      "native": [
+        "ခွင့်ရက်အတွင်း ကျွန်မအစား တာဝန်ယူမယ့်သူရဲ့ နာမည်ကို email ထဲမှာ ရေးထားပါတယ်။"
+      ],
+      "roman": [
+        "Khwint yet a twin kyun ma a sar tar wun yu meh thu yeh nar mal ko email hteh hmar yay htar bar tal."
+      ]
+    },
+    {
+      "id": "my-s003",
+      "kind": "sentence",
+      "native": [
+        "ခွေးလေးက 4 လသားပါ။"
+      ],
+      "roman": [
+        "Khway lay ka 4 la thar bar."
+      ]
+    },
+    {
+      "id": "my-s004",
+      "kind": "sentence",
+      "native": [
+        "ကြက်ဥနဲ့ သွားတိုက်ဆေးလည်း ဝယ်လာရမယ်။"
+      ],
+      "roman": [
+        "Kyet oo neh thwar taik say leh wel lar ya mal."
+      ]
+    },
+    {
+      "id": "my-s005",
+      "kind": "sentence",
+      "native": [
+        "ကြက်ဥပြုတ်ဖို့ 7 မိနစ် တိုင်မာ ချိန်ပေးပါ။"
+      ],
+      "roman": [
+        "Kyet oo pyote pho 7 mi nit taing mar chain pay bar."
+      ]
+    },
+    {
+      "id": "my-s006",
+      "kind": "sentence",
+      "native": [
+        "မလိုတဲ့ tab တွေ အကုန်ပိတ်လိုက်မယ်။"
+      ],
+      "roman": [
+        "Ma lo deh tab dway a kone peik lite mal."
+      ]
+    },
+    {
+      "id": "my-s007",
+      "kind": "sentence",
+      "native": [
+        "အဒေါ်ရဲ့အိမ်က မုန့်ဆိုင်နောက်က လမ်းကြားထဲမှာပါ။"
+      ],
+      "roman": [
+        "A daw yeh ein ka mone saing nout ka lan kyar hteh hmar bar."
+      ]
+    },
+    {
+      "id": "my-s008",
+      "kind": "sentence",
+      "native": [
+        "အာဂျွန်ရေ၊ စာတိုက်က ပါဆယ် ထုတ်လာခဲ့ပြီလား?"
+      ],
+      "roman": [
+        "Arjun yay, sar taik ka par sel htout lar kheh pyee lar?"
+      ]
+    },
+    {
+      "id": "my-s009",
+      "kind": "sentence",
+      "native": [
+        "ခဲတံနဲ့ ပေတံ ရှိလား?"
+      ],
+      "roman": [
+        "Kheh tan neh pay tan shi lar?"
+      ]
+    },
+    {
+      "id": "my-s010",
+      "kind": "sentence",
+      "native": [
+        "အုန်းနို့ခေါက်ဆွဲက အရင်လောက် မဆိမ့်တော့ဘူးနော်။"
+      ],
+      "roman": [
+        "Ohn noh khout swe ka a yin lout ma seint daw bu naw."
+      ]
+    },
+    {
+      "id": "my-s011",
+      "kind": "sentence",
+      "native": [
+        "မွေးနေ့ပွဲကို လူဘယ်နှယောက်လာမလဲ ပြောပေး၊ မုန့်ကြိုမှာထားချင်လို့ပါ။"
+      ],
+      "roman": [
+        "Mway nay pwe ko lu beh hna yout lar ma leh pyaw pay, mont kyo hmar htar chin loh bar."
+      ]
+    },
+    {
+      "id": "my-s012",
+      "kind": "sentence",
+      "native": [
+        "ဆိုင်းနူးက အကြောင်းမပြန်သေးဘူးနော်။"
+      ],
+      "roman": [
+        "Saing Nu ka a kyaung ma pyan thay bu naw."
+      ]
+    },
+    {
+      "id": "my-s013",
+      "kind": "sentence",
+      "native": [
+        "ဒီအင်္ကျီကို မူရင်းဈေး 24,000 ကျပ်ကနေ 15% လျှော့ပေးတယ်။"
+      ],
+      "roman": [
+        "Di ein gyi ko mu yin zay 24,000 kyat ka nay 15% shawt pay tal."
+      ]
+    },
+    {
+      "id": "my-s014",
+      "kind": "sentence",
+      "native": [
+        "လက်ဆောင်အတွက် စက္ကူလှလှနဲ့ ဖဲကြိုး ဝယ်ပြီး မွေးနေ့ကတ်ပါ ရေးထားရမယ်။"
+      ],
+      "roman": [
+        "Let saung a twet set ku hla hla neh phe kyo wel pyee mway nay kat bar yay htar ya mal."
+      ]
+    },
+    {
+      "id": "my-s015",
+      "kind": "sentence",
+      "native": [
+        "နားကြပ်လေးကို ဖုန်းနဲ့ချိတ်ပြီး သီချင်းနားထောင်ချင်လို့ Bluetooth ကို ဖွင့်ပေးပါ။"
+      ],
+      "roman": [
+        "Nar kyat lay ko phone neh cheik pyee tha chin nar htaung chin loh Bluetooth ko phwint pay bar."
+      ]
+    },
+    {
+      "id": "my-s016",
+      "kind": "sentence",
+      "native": [
+        "အက်ပ်က ခဏခဏ ပိတ်သွားတယ်။"
+      ],
+      "roman": [
+        "App ka kha na kha na peik thwar tal."
+      ]
+    },
+    {
+      "id": "my-s017",
+      "kind": "sentence",
+      "native": [
+        "တည်းခိုခန်းရှေ့မှာ အငှားကား ရပ်လို့ရပါတယ်။"
+      ],
+      "roman": [
+        "Teh kho khan shay hmar a hngar kar yat loh ya bar tal."
+      ]
+    },
+    {
+      "id": "my-s018",
+      "kind": "sentence",
+      "native": [
+        "သင်္ကြန်မတိုင်ခင် ပဲခူးက အဘွားဆီ သွားမယ်။"
+      ],
+      "roman": [
+        "Thingyan ma taing khin Peh Khu ka a bwar si thwar mal."
+      ]
+    },
+    {
+      "id": "my-s019",
+      "kind": "sentence",
+      "native": [
+        "အနီမဟုတ်ဘူး၊ အပြာပါ။"
+      ],
+      "roman": [
+        "A ni ma hote bu, a pyar bar."
+      ]
+    },
+    {
+      "id": "my-s020",
+      "kind": "sentence",
+      "native": [
+        "ထားဝယ်မှာ နေခဲ့တုန်းကတော့ ပျင်းစရာလို့ ထင်ခဲ့ပေမယ့် အခု အဲဒီဘဝလေးကို လွမ်းတယ်။"
+      ],
+      "roman": [
+        "Htar Wel hmar nay kheh tone ka daw pyin sa yar loh htin kheh pay meht a khu eh di ba wa lay ko lwan tal."
+      ]
+    },
+    {
+      "id": "my-s021",
+      "kind": "sentence",
+      "native": [
+        "စာအုပ်ကို စားပွဲပေါ်မှာ တင်ထားတယ်နော်။"
+      ],
+      "roman": [
+        "Sar oat ko sar pwe paw hmar tin htar tal naw."
+      ]
+    },
+    {
+      "id": "my-s022",
+      "kind": "sentence",
+      "native": [
+        "လက်ရှိအလုပ် မပြီးသေးလို့ နောက်ထပ်တာဝန်ကို ဒီအပတ် လက်ခံနိုင်မှာ မဟုတ်ပါဘူး။"
+      ],
+      "roman": [
+        "Let shi a lote ma pyee thay loh nout htat tar wun ko di a pat let khan naing hmar ma hote bar bu."
+      ]
+    },
+    {
+      "id": "my-s023",
+      "kind": "sentence",
+      "native": [
+        "သင်တန်းကို 2026 ခုနှစ် ဇွန်လ 23 ရက် မနက် 8 နာရီ 30 မိနစ်မှာ စမယ်။"
+      ],
+      "roman": [
+        "Thin dan ko 2026 khu hnit Zun la 23 yet ma nat 8 nar yi 30 mi nit hmar sa mal."
+      ]
+    },
+    {
+      "id": "my-s024",
+      "kind": "sentence",
+      "native": [
+        "ပန်းအိုး ရေလဲရမယ်။"
+      ],
+      "roman": [
+        "Pan oh yay leh ya mal."
+      ]
+    },
+    {
+      "id": "my-s025",
+      "kind": "sentence",
+      "native": [
+        "မျက်နှာပြင် အလင်းရောင် နည်းနည်း လျှော့ပေးပါ။"
+      ],
+      "roman": [
+        "Myet hnar pyin a lin yaung neh neh shawt pay bar."
+      ]
+    },
+    {
+      "id": "my-s026",
+      "kind": "sentence",
+      "native": [
+        "ကီးဘုတ်ပေါ် ရေဖိတ်သွားလို့ စက်ပိတ်ထားတယ်။"
+      ],
+      "roman": [
+        "Kee bote paw yay pheik thwar loh set peik htar tal."
+      ]
+    },
+    {
+      "id": "my-s027",
+      "kind": "sentence",
+      "native": [
+        "ရထားနောက်ကျနေလို့ အဘိုးကို သွားကြိုမယ့်အချိန် နည်းနည်း ရွှေ့ရမယ်ထင်တယ်။"
+      ],
+      "roman": [
+        "Ya htar nout kya nay loh a phoe ko thwar kyo meh a chain neh neh shway ya mal htin tal."
+      ]
+    },
+    {
+      "id": "my-s028",
+      "kind": "sentence",
+      "native": [
+        "သားလေး အိပ်ပျော်ပြီ။"
+      ],
+      "roman": [
+        "Thar lay eik pyaw pyee."
+      ]
+    },
+    {
+      "id": "my-s029",
+      "kind": "sentence",
+      "native": [
+        "ကိုသန့်ဇင်ဆီ ပို့ပေး၊ နေဦး၊ မလှဝင်းဆီ ပို့ပေးပါ။"
+      ],
+      "roman": [
+        "Ko Thant Zin si poh pay, nay oo, Ma Hla Win si poh pay bar."
+      ]
+    },
+    {
+      "id": "my-s030",
+      "kind": "sentence",
+      "native": [
+        "ရလဒ်က ထင်သလို မဖြစ်ပေမယ့် ဒီတစ်ခေါက်မှာ အတွေ့အကြုံရလိုက်လို့ တန်ပါတယ်။"
+      ],
+      "roman": [
+        "Ya lat ka htin tha lo ma phyit pay meht di tit khout hmar a twae a kyone ya lite loh tan bar tal."
+      ]
+    },
+    {
+      "id": "my-s031",
+      "kind": "sentence",
+      "native": [
+        "အားရင် ဖုန်းဆက်ဦး။"
+      ],
+      "roman": [
+        "Ar yin phone set oo."
+      ]
+    },
+    {
+      "id": "my-s032",
+      "kind": "sentence",
+      "native": [
+        "စာရင်းပိတ်ခါနီးမို့ ပြေစာမူရင်းတွေ လာအပ်ပေးပါ။"
+      ],
+      "roman": [
+        "Sar yin peik khar nee moh pyay sar mu yin dway lar at pay bar."
+      ]
+    },
+    {
+      "id": "my-s033",
+      "kind": "sentence",
+      "native": [
+        "ဘားအံကားက မနက် 9 နာရီ ထွက်မှာမို့ 8 နာရီ 45 မိနစ်အမီ ဂိတ်ရောက်ရမယ်။"
+      ],
+      "roman": [
+        "Hpa-an kar ka ma nat 9 nar yi htwet hmar moh 8 nar yi 45 mi nit a mi gate yout ya mal."
+      ]
+    },
+    {
+      "id": "my-s034",
+      "kind": "sentence",
+      "native": [
+        "ဗဟန်းမှာ မြေအိုးလုပ်သင်တန်း ရှိတယ်၊ အခုမအားလို့ နောက်လမှ တက်မယ်။"
+      ],
+      "roman": [
+        "Bahan hmar myay oh lote thin tan shi tal, a khu ma ar loh nout la hma tet mal."
+      ]
+    },
+    {
+      "id": "my-s035",
+      "kind": "sentence",
+      "native": [
+        "မဖတ်ရသေးတဲ့ မက်ဆေ့ချ်တွေ ဖတ်ပြပေးပါ။"
+      ],
+      "roman": [
+        "Ma phat ya thay deh message dway phat pya pay bar."
+      ]
+    },
+    {
+      "id": "my-s036",
+      "kind": "sentence",
+      "native": [
+        "ဆော့ဖ်ဝဲ update လုပ်ပြီးကတည်းက မြန်မာစာရိုက်ရင် စာလုံးတွေ ထပ်နေတယ်။"
+      ],
+      "roman": [
+        "Sawt weh update lote pyee ka deh ka Myanmar sar yite yin sar lone dway htat nay tal."
+      ]
+    },
+    {
+      "id": "my-s037",
+      "kind": "sentence",
+      "native": [
+        "ဆံပင်ညှပ်ဆိုင်ကို ရွှေဂုံတိုင်ဘက် ပြောင်းလိုက်တာလား?"
+      ],
+      "roman": [
+        "San pin hnyat saing ko Shwe Gone Daing bet pyaung lite tar lar?"
+      ]
+    },
+    {
+      "id": "my-s038",
+      "kind": "sentence",
+      "native": [
+        "ပန်းချီသင်တန်းချိန်နဲ့ ရေကူးချိန် တိုက်နေတယ်။"
+      ],
+      "roman": [
+        "Pan chi thin tan chain neh yay ku chain taik nay tal."
+      ]
+    },
+    {
+      "id": "my-s039",
+      "kind": "sentence",
+      "native": [
+        "ငွေသားလား၊ ဖုန်းနဲ့ရှင်းမှာလား?"
+      ],
+      "roman": [
+        "Ngway thar lar, phone neh shin hmar lar?"
+      ]
+    },
+    {
+      "id": "my-s040",
+      "kind": "sentence",
+      "native": [
+        "ပန်းစည်းလေး သိပ်လှတာပဲ။"
+      ],
+      "roman": [
+        "Pan see lay theik hla tar beh."
+      ]
+    },
+    {
+      "id": "my-s041",
+      "kind": "sentence",
+      "native": [
+        "သော့က အိတ်ထဲမှာပဲ။"
+      ],
+      "roman": [
+        "Thawt ka eik hteh hmar beh."
+      ]
+    },
+    {
+      "id": "my-s042",
+      "kind": "sentence",
+      "native": [
+        "အစည်းအဝေးကို သောကြာနေ့ ရွှေ့လို့ရမလား?"
+      ],
+      "roman": [
+        "A si a way ko thout kya nay shway loh ya ma lar?"
+      ]
+    },
+    {
+      "id": "my-s043",
+      "kind": "sentence",
+      "native": [
+        "ဘက်ထရီ 18% ပဲ ကျန်တယ်။"
+      ],
+      "roman": [
+        "Bet ta yi 18% beh kyan tal."
+      ]
+    },
+    {
+      "id": "my-s044",
+      "kind": "sentence",
+      "native": [
+        "ပိတ်စဈေးကို ဗိုလ်ချုပ်ဈေးမှာ စုံစမ်းရဦးမယ်။"
+      ],
+      "roman": [
+        "Peik sa zay ko Bo Gyoke Zay hmar sone san ya oo mal."
+      ]
+    },
+    {
+      "id": "my-s045",
+      "kind": "sentence",
+      "native": [
+        "နားကြပ်နဲ့ ချိတ်ထားတာ ဖြုတ်ပေးလို့ရမလား?"
+      ],
+      "roman": [
+        "Nar kyat neh cheik htar dar phyote pay loh ya ma lar?"
+      ]
+    },
+    {
+      "id": "my-s046",
+      "kind": "sentence",
+      "native": [
+        "မော်လမြိုင်ဆိုင်က router ကို အဝေးကနေ တစ်ချက် စစ်လို့ရလား?"
+      ],
+      "roman": [
+        "Mawlamyine saing ka router ko a way ka nay tit chet sit loh ya lar?"
+      ]
+    },
+    {
+      "id": "my-s047",
+      "kind": "sentence",
+      "native": [
+        "ရှေ့ပေါက် ပိတ်ထားလို့ ရုံးနောက်ကနေ ဝင်ခဲ့နော်။"
+      ],
+      "roman": [
+        "Shay pout peik htar loh yone nout ka nay win kheh naw."
+      ]
+    },
+    {
+      "id": "my-s048",
+      "kind": "sentence",
+      "native": [
+        "ဇလုံအကြီးတစ်လုံးလောက် ခဏ ငှားလို့ရမလား?"
+      ],
+      "roman": [
+        "Za lone a kyee tit lone lout kha na hngar loh ya ma lar?"
+      ]
+    },
+    {
+      "id": "my-s049",
+      "kind": "sentence",
+      "native": [
+        "မျက်နှာသုတ်ပဝါ အသေးပေးပါ၊ အကြီး မလိုဘူး။"
+      ],
+      "roman": [
+        "Myet hnar thote pa war a thay pay bar, a kyee ma lo bu."
+      ]
+    },
+    {
+      "id": "my-s050",
+      "kind": "sentence",
+      "native": [
+        "တစ်ခါနဲ့ မရလည်း လက်မလျှော့နဲ့၊ ထပ်ကြိုးစားကြည့်။"
+      ],
+      "roman": [
+        "Tit khar neh ma ya leh let ma shawt neh, htat kyoe sar kyi."
+      ]
+    },
+    {
+      "id": "my-s051",
+      "kind": "sentence",
+      "native": [
+        "ဒီပုံကို ကြည့်ပြီး ရယ်လို့မဆုံးဘူး။"
+      ],
+      "roman": [
+        "Di pone ko kyi pyee yel loh ma sone bu."
+      ]
+    },
+    {
+      "id": "my-s052",
+      "kind": "sentence",
+      "native": [
+        "ခင်ယုရေ၊ သင်တန်းတက်မယ့်သူတွေ နာမည်ပေးပြီးပြီလား?"
+      ],
+      "roman": [
+        "Khin Yu yay, thin tan tet meh thu dway nar mal pay pyee pyee lar?"
+      ]
+    },
+    {
+      "id": "my-s053",
+      "kind": "sentence",
+      "native": [
+        "လစဉ်ဝင်ငွေရဲ့ 25% ကို စုငွေထဲ ထည့်ထားတယ်။"
+      ],
+      "roman": [
+        "La sin win ngway yeh 25% ko su ngway hteh hteh htar tal."
+      ]
+    },
+    {
+      "id": "my-s054",
+      "kind": "sentence",
+      "native": [
+        "လကုန်ရင် အင်တာနက်ကြေး ဆောင်ဖို့ သတိပေးပါ။"
+      ],
+      "roman": [
+        "La kone yin internet kyay saung pho tha ti pay bar."
+      ]
+    },
+    {
+      "id": "my-s055",
+      "kind": "sentence",
+      "native": [
+        "သက်တံ့ ဘာလို့ပေါ်တာလဲ?"
+      ],
+      "roman": [
+        "Thet tan bar loh paw tar leh?"
+      ]
+    },
+    {
+      "id": "my-s056",
+      "kind": "sentence",
+      "native": [
+        "ဖျက်မိတဲ့ file ကို ပြန်ယူလို့ရတဲ့ နည်းရှိလား?"
+      ],
+      "roman": [
+        "Phyet mi deh file ko pyan yu loh ya deh nee shi lar?"
+      ]
+    },
+    {
+      "id": "my-s057",
+      "kind": "sentence",
+      "native": [
+        "ကားဂိတ်မှာ ဆင်းမယ်။"
+      ],
+      "roman": [
+        "Kar gate hmar sin mal."
+      ]
+    },
+    {
+      "id": "my-s058",
+      "kind": "sentence",
+      "native": [
+        "နန်းခမ်းအေးရဲ့ မင်္ဂလာဆောင်သွားဖို့ ကလေးတွေကို အဘိုးနဲ့ ခဏ ထားခဲ့မယ်။"
+      ],
+      "roman": [
+        "Nang Kham Aye yeh mingalar saung thwar pho ka lay dway ko a phoe neh kha na htar kheh mal."
+      ]
+    },
+    {
+      "id": "my-s059",
+      "kind": "sentence",
+      "native": [
+        "ရိုက်ထားတဲ့ video ကို တင်တော့မလို့၊ အသံမပါသေးလို့ နောက်မှပဲ တင်တော့မယ်။"
+      ],
+      "roman": [
+        "Yite htar deh video ko tin daw ma loh, a than ma bar thay loh nout hma beh tin daw mal."
+      ]
+    },
+    {
+      "id": "my-s060",
+      "kind": "sentence",
+      "native": [
+        "တောင်းပန်ပါတယ်၊ အလောတကြီးနဲ့ စကားဖြတ်ပြောမိတယ်။"
+      ],
+      "roman": [
+        "Taung pan bar tal, a law ta kyee neh sa kar phyat pyaw mi tal."
+      ]
+    },
+    {
+      "id": "my-s061",
+      "kind": "sentence",
+      "native": [
+        "ခဏနေ လိုင်းပေါ်တက်မယ်။"
+      ],
+      "roman": [
+        "Kha na nay laing paw tet mal."
+      ]
+    },
+    {
+      "id": "my-s062",
+      "kind": "sentence",
+      "native": [
+        "ကူပေးတာ ကျေးဇူးပါနော်။"
+      ],
+      "roman": [
+        "Ku pay dar kyay zu bar naw."
+      ]
+    },
+    {
+      "id": "my-s063",
+      "kind": "sentence",
+      "native": [
+        "ဆူးလေအထိ တစ်ယောက် 800 ကျပ်ပဲ ကျတာလား?"
+      ],
+      "roman": [
+        "Sule a hti tit yout 800 kyat beh kya tar lar?"
+      ]
+    },
+    {
+      "id": "my-s064",
+      "kind": "sentence",
+      "native": [
+        "မသက်ထားအတွက် စံပယ်ပင် မှာပေးရဦးမယ်။"
+      ],
+      "roman": [
+        "Ma Thet Htar a twet san pal pin hmar pay ya oo mal."
+      ]
+    },
+    {
+      "id": "my-s065",
+      "kind": "sentence",
+      "native": [
+        "ဖွင့်ထားတဲ့ podcast ကို ခဏရပ်ပြီး ဒီနေရာကနေ ပြန်ဆက်ဖွင့်ဖို့ မှတ်ထားပေးပါ။"
+      ],
+      "roman": [
+        "Phwint htar deh podcast ko kha na yat pyee di nay yar ka nay pyan set phwint pho hmat htar pay bar."
+      ]
+    },
+    {
+      "id": "my-s066",
+      "kind": "sentence",
+      "native": [
+        "ကင်မရာ မှုန်နေတယ်။"
+      ],
+      "roman": [
+        "Camera hmone nay tal."
+      ]
+    },
+    {
+      "id": "my-s067",
+      "kind": "sentence",
+      "native": [
+        "ကျော်စွာနဲ့ စမ်းချောင်းမှာ နေ့လယ်စာ စားမယ်။"
+      ],
+      "roman": [
+        "Kyaw Swar neh Sanchaung hmar nay lel sar sar mal."
+      ]
+    },
+    {
+      "id": "my-s068",
+      "kind": "sentence",
+      "native": [
+        "ချိန်းထားတဲ့အချိန် မမီတော့လို့ ဆံပင်ညှပ်ဖို့ နောက်နေ့ ပြန်ချိန်းလိုက်တယ်။"
+      ],
+      "roman": [
+        "Chain htar deh a chain ma hmi daw loh san pin hnyat pho nout nay pyan chain lite tal."
+      ]
+    },
+    {
+      "id": "my-s069",
+      "kind": "sentence",
+      "native": [
+        "သကြားပါလား၊ မပါဘူးလား?"
+      ],
+      "roman": [
+        "Tha gyar bar lar, ma bar bu lar?"
+      ]
+    },
+    {
+      "id": "my-s070",
+      "kind": "sentence",
+      "native": [
+        "တကယ်ကို ဝမ်းသာပါတယ်။"
+      ],
+      "roman": [
+        "Ta kel ko wun thar bar tal."
+      ]
+    },
+    {
+      "id": "my-s071",
+      "kind": "sentence",
+      "native": [
+        "ခင်သဇင်ရေ၊ မုန့်တီဆိုင်မှာ နေရာယူထားနော်။"
+      ],
+      "roman": [
+        "Khin Thazin yay, mont ti saing hmar nay yar yu htar naw."
+      ]
+    },
+    {
+      "id": "my-s072",
+      "kind": "sentence",
+      "native": [
+        "နေ့လယ် 1 နာရီမှာ အင်တာဗျူးဝင်ဖို့ အဆင်ပြေမလား?"
+      ],
+      "roman": [
+        "Nay lel 1 nar yi hmar in tar byu win pho a sin pyay ma lar?"
+      ]
+    },
+    {
+      "id": "my-s073",
+      "kind": "sentence",
+      "native": [
+        "ယုဇနက အင်္ဂါနေ့ ညနေ 4 နာရီမှာ စန္ဒရားသင်မယ်။"
+      ],
+      "roman": [
+        "Yuzana ka In gar nay nya nay 4 nar yi hmar san da yar thin mal."
+      ]
+    },
+    {
+      "id": "my-s074",
+      "kind": "sentence",
+      "native": [
+        "စနေနေ့ည ရှမ်းခေါက်ဆွဲ လုပ်စားဖို့ လိုတာ ဝယ်ထားဦး။"
+      ],
+      "roman": [
+        "Sa nay nay nya Shan khout swe lote sar pho lo dar wel htar oo."
+      ]
+    },
+    {
+      "id": "my-s075",
+      "kind": "sentence",
+      "native": [
+        "အင်္ဂါနေ့ မနက် 6 နာရီ alarm ကို အပတ်တိုင်း မြည်အောင် ချိန်ပေးပါ။"
+      ],
+      "roman": [
+        "Ingar nay ma nat 6 nar yi alarm ko a pat taing myi aung chain pay bar."
+      ]
+    },
+    {
+      "id": "my-s076",
+      "kind": "sentence",
+      "native": [
+        "Viber က ပို့တဲ့ လင့်ခ်ကို ကျွန်တော် နှိပ်လို့မရဘူး။"
+      ],
+      "roman": [
+        "Viber ka poh deh lint ko kyun taw hneik loh ma ya bu."
+      ]
+    },
+    {
+      "id": "my-s077",
+      "kind": "sentence",
+      "native": [
+        "အပ်ထားတဲ့ လုံချည်ရပြီဆိုတော့ မခင်လေးရဲ့ အပ်ချုပ်ဆိုင်ကို ဝင်ယူလိုက်မယ်။"
+      ],
+      "roman": [
+        "At htar deh lone gyi ya pyee so daw Ma Khin Lay yeh at chote saing ko win yu lite mal."
+      ]
+    },
+    {
+      "id": "my-s078",
+      "kind": "sentence",
+      "native": [
+        "မအေးသန်းက ဂျင်းသုပ်ကို အစပ်လျှော့ခိုင်းတယ်။"
+      ],
+      "roman": [
+        "Ma Aye Than ka gyin thoke ko a sat shawt khaing tal."
+      ]
+    },
+    {
+      "id": "my-s079",
+      "kind": "sentence",
+      "native": [
+        "နို့ရယ်၊ ဒိန်ချဉ်ရယ်၊ ပေါင်မုန့်တစ်ထုပ်ရယ် ယူမယ်။"
+      ],
+      "roman": [
+        "Noh yel, dein chin yel, paung mote tit htoke yel yu mal."
+      ]
+    },
+    {
+      "id": "my-s080",
+      "kind": "sentence",
+      "native": [
+        "အလေးအပင်တွေ ဝိုင်းသယ်ပေးလို့ ကျေးဇူးတင်ပါတယ်။"
+      ],
+      "roman": [
+        "A lay a pin dway waing thel pay loh kyay zu tin bar tal."
+      ]
+    },
+    {
+      "id": "my-s081",
+      "kind": "sentence",
+      "native": [
+        "လမ်းထိပ်ရောက်ရင် ပြော၊ ထီးယူပြီး လာကြိုမယ်။"
+      ],
+      "roman": [
+        "Lan hteik yout yin pyaw, htee yu pyee lar kyo mal."
+      ]
+    },
+    {
+      "id": "my-s082",
+      "kind": "sentence",
+      "native": [
+        "နောက်အပတ်အမီ နမူနာပြနိုင်ဖို့ ဒီနေ့ design စလုပ်ထားလိုက်မယ်။"
+      ],
+      "roman": [
+        "Nout a pat a mi na mu nar pya naing pho di nay design sa lote htar lite mal."
+      ]
+    },
+    {
+      "id": "my-s083",
+      "kind": "sentence",
+      "native": [
+        "ပုသိမ်ရောက်ဖို့ 28 မိုင်လောက် လိုသေးတယ်။"
+      ],
+      "roman": [
+        "Pathein yout pho 28 maing lout lo thay tal."
+      ]
+    },
+    {
+      "id": "my-s084",
+      "kind": "sentence",
+      "native": [
+        "ဒေါ်ခင်မာဆီ မျက်မှန်အိတ် ပြန်အပ်ဖို့ ကျန်သေးတယ်။"
+      ],
+      "roman": [
+        "Daw Khin Mar si myet hman eik pyan at pho kyan thay tal."
+      ]
+    },
+    {
+      "id": "my-s085",
+      "kind": "sentence",
+      "native": [
+        "ပြင်ဦးလွင် ပန်းပွဲတော်က ဘယ်တော့ စမှာလဲ?"
+      ],
+      "roman": [
+        "Pyin Oo Lwin pan pwe taw ka beh dawt sa hmar leh?"
+      ]
+    },
+    {
+      "id": "my-s086",
+      "kind": "sentence",
+      "native": [
+        "အီးမေးလ်နဲ့ပဲ ဆက်သွယ်ရအောင်။"
+      ],
+      "roman": [
+        "Email neh beh set thwel ya aung."
+      ]
+    },
+    {
+      "id": "my-s087",
+      "kind": "sentence",
+      "native": [
+        "လမ်းဆုံမှာ ညာကွေ့ပါ။"
+      ],
+      "roman": [
+        "Lan sone hmar nyar kway bar."
+      ]
+    },
+    {
+      "id": "my-s088",
+      "kind": "sentence",
+      "native": [
+        "ခရမ်းချဉ်သီးတွေ နူးသွားမှ ငါးထည့်ချက်နော်၊ ရေတော့ အများကြီး မထည့်နဲ့။"
+      ],
+      "roman": [
+        "Kha yan chin thee dway nu thwar hma ngar hteh chet naw, yay daw a myar kyee ma hteh neh."
+      ]
+    },
+    {
+      "id": "my-s089",
+      "kind": "sentence",
+      "native": [
+        "ဗုဒ္ဓဟူးနေ့၊ အဲ ကြာသပတေးနေ့မှ လာမယ်။"
+      ],
+      "roman": [
+        "Bote da hoo nay, eh kyar tha pa day nay hma lar mal."
+      ]
+    },
+    {
+      "id": "my-s090",
+      "kind": "sentence",
+      "native": [
+        "စောင့်ခိုင်းမိလို့ အားနာတယ်။"
+      ],
+      "roman": [
+        "Saung khaing mi loh ar nar tal."
+      ]
+    },
+    {
+      "id": "my-s091",
+      "kind": "sentence",
+      "native": [
+        "ရပါတယ်၊ စိတ်မပူနဲ့။"
+      ],
+      "roman": [
+        "Ya bar tal, seit ma pu neh."
+      ]
+    },
+    {
+      "id": "my-s092",
+      "kind": "sentence",
+      "native": [
+        "စာလုံးပေါင်း ပြင်ထားတာပါ၊ အကြောင်းအရာ မပြောင်းပါဘူး။"
+      ],
+      "roman": [
+        "Sar lone paung pyin htar dar bar, a kyaung a yar ma pyaung bar bu."
+      ]
+    },
+    {
+      "id": "my-s093",
+      "kind": "sentence",
+      "native": [
+        "လက်ဖက်ရည် 2 ခွက်ကို 3,600 ကျပ် ကျတယ်။"
+      ],
+      "roman": [
+        "La phet yay 2 khwet ko 3,600 kyat kya tal."
+      ]
+    },
+    {
+      "id": "my-s094",
+      "kind": "sentence",
+      "native": [
+        "သင်ခန်းစာအသစ်ကို ညစာစားပြီးရင် ပြန်ကျက်ရမယ်။"
+      ],
+      "roman": [
+        "Thin khan sar a thit ko nya sar sar pyee yin pyan kyet ya mal."
+      ]
+    },
+    {
+      "id": "my-s095",
+      "kind": "sentence",
+      "native": [
+        "ပုံဆွဲတာ အခုမှ စလေ့ကျင့်မှာဆိုတော့ ဘယ်လိုခဲတံမျိုး သုံးသင့်လဲ?"
+      ],
+      "roman": [
+        "Pone sweh tar a khu hma sa lay kyint hmar so daw beh lo kheh tan myo thone thint leh?"
+      ]
+    },
+    {
+      "id": "my-s096",
+      "kind": "sentence",
+      "native": [
+        "Excel ထဲမှာ တွက်ထားတဲ့ ပေါင်းလဒ် ဘာလို့ မှားနေတာလဲ?"
+      ],
+      "roman": [
+        "Excel hteh hmar twet htar deh paung lat bar loh hmar nay tar leh?"
+      ]
+    },
+    {
+      "id": "my-s097",
+      "kind": "sentence",
+      "native": [
+        "အစ်မ ဘယ်အထပ်မှာလဲ?"
+      ],
+      "roman": [
+        "A ma beh a htat hmar leh?"
+      ]
+    },
+    {
+      "id": "my-s098",
+      "kind": "sentence",
+      "native": [
+        "ထမင်း ပျော့သွားပြီ။"
+      ],
+      "roman": [
+        "Hta min pyawt thwar pyee."
+      ]
+    },
+    {
+      "id": "my-s099",
+      "kind": "sentence",
+      "native": [
+        "လက်ဖက်သုပ် တစ်ပွဲ၊ ဪ ပဲစုံသုပ်ပဲ သုပ်ပေးပါ။"
+      ],
+      "roman": [
+        "La phet thoke tit pwe, aw peh sone thoke beh thoke pay bar."
+      ]
+    },
+    {
+      "id": "my-s100",
+      "kind": "sentence",
+      "native": [
+        "မိုင်ဇင်ထွေးရဲ့ အသံကို နားထောင်ရတာ စိတ်အေးချမ်းတယ်။"
+      ],
+      "roman": [
+        "Mai Zin Htway yeh a than ko nar htaung ya tar seit aye chan tal."
+      ]
+    },
+    {
+      "id": "my-s101",
+      "kind": "sentence",
+      "native": [
+        "နန်းနွယ်က စနေနေ့ကျရင် အလည်လာမယ်တဲ့။"
+      ],
+      "roman": [
+        "Nang Nwe ka sa nay nay kya yin a lel lar mal deh."
+      ]
+    },
+    {
+      "id": "my-s102",
+      "kind": "sentence",
+      "native": [
+        "လသာဆိုင်ခွဲက အရောင်းစာရင်း ရောက်လာပါပြီ။"
+      ],
+      "roman": [
+        "Latha saing khwe ka a yaung sar yin yout lar bar pyee."
+      ]
+    },
+    {
+      "id": "my-s103",
+      "kind": "sentence",
+      "native": [
+        "စာရင်းသွင်းမယ့်ဖုန်းနံပါတ်ကို 09 000 000 000 လို့ ရေးပေးပါ။"
+      ],
+      "roman": [
+        "Sar yin thwin meh phone nan bat ko 09 000 000 000 loh yay pay bar."
+      ]
+    },
+    {
+      "id": "my-s104",
+      "kind": "sentence",
+      "native": [
+        "စက်ပြင်ဆရာလာရင် ပလပ်လဲပြီးပြီလို့ ပြောရမယ်။"
+      ],
+      "roman": [
+        "Set pyin sa yar lar yin pa lat leh pyee pyee loh pyaw ya mal."
+      ]
+    },
+    {
+      "id": "my-s105",
+      "kind": "sentence",
+      "native": [
+        "သုဝဏ္ဏအားကစားကွင်းကို ကားနဲ့သွားရင် ဘယ်လမ်းက အမြန်ဆုံးရောက်မလဲ?"
+      ],
+      "roman": [
+        "Thuwunna ar ka sar kwin ko kar neh thwar yin beh lan ka a myan sone yout ma leh?"
+      ]
+    },
+    {
+      "id": "my-s106",
+      "kind": "sentence",
+      "native": [
+        "အကောင့်ထဲ ဝင်တိုင်း ကုဒ်အသစ် တောင်းနေတယ်။"
+      ],
+      "roman": [
+        "A kaung hteh win taing kote a thit taung nay tal."
+      ]
+    },
+    {
+      "id": "my-s107",
+      "kind": "sentence",
+      "native": [
+        "မေဇင်က ဒလသွားတဲ့ သင်္ဘောပေါ် ရောက်နေပြီ။"
+      ],
+      "roman": [
+        "May Zin ka Dala thwar deh thin baw paw yout nay pyee."
+      ]
+    },
+    {
+      "id": "my-s108",
+      "kind": "sentence",
+      "native": [
+        "အကြွေ မရှိတော့ဘူး။"
+      ],
+      "roman": [
+        "A kyway ma shi daw bu."
+      ]
+    },
+    {
+      "id": "my-s109",
+      "kind": "sentence",
+      "native": [
+        "စာရွက်တွေ ပစ်မလို့၊ တစ်ဖက်လွတ်နေတာနဲ့ ပုံဆွဲဖို့ သိမ်းထားလိုက်တယ်။"
+      ],
+      "roman": [
+        "Sar ywet dway pyit ma loh, tit phet lwat nay tar neh pone sweh pho thein htar lite tal."
+      ]
+    },
+    {
+      "id": "my-s110",
+      "kind": "sentence",
+      "native": [
+        "ဗိုက်ဆာလို့ နိုးလာတာ။"
+      ],
+      "roman": [
+        "Bite sar loh noe lar tar."
+      ]
+    },
+    {
+      "id": "my-s111",
+      "kind": "sentence",
+      "native": [
+        "ပရင်တာမှာ စက္ကူညပ်နေလို့ ခဏလောက် လာကြည့်ပေးပါ။"
+      ],
+      "roman": [
+        "Printer hmar set ku nyat nay loh kha na lout lar kyi pay bar."
+      ]
+    },
+    {
+      "id": "my-s112",
+      "kind": "sentence",
+      "native": [
+        "ပစ္စည်းပို့ရမယ့်လိပ်စာက အမှတ် 57၊ 82 လမ်း၊ မန္တလေးမြို့ပါ။"
+      ],
+      "roman": [
+        "Pyit see poh ya meh leik sar ka a hmat 57, 82 lan, Mandalay myoh bar."
+      ]
+    },
+    {
+      "id": "my-s113",
+      "kind": "sentence",
+      "native": [
+        "နှိုးစက် ဓာတ်ခဲလဲရမယ်။"
+      ],
+      "roman": [
+        "Hnoe set dat kheh leh ya mal."
+      ]
+    },
+    {
+      "id": "my-s114",
+      "kind": "sentence",
+      "native": [
+        "ကိုဇော်လင်းကို ခေါ်ပေးပါ။"
+      ],
+      "roman": [
+        "Ko Zaw Lin ko khaw pay bar."
+      ]
+    },
+    {
+      "id": "my-s115",
+      "kind": "sentence",
+      "native": [
+        "မီးပျက်သွားပေမယ့် စာတွေက အလိုလို save ဖြစ်ထားလို့ ပြန်ရလိုက်တယ်။"
+      ],
+      "roman": [
+        "Mee pyet thwar pay meh sar dway ka a lo lo save phyit htar loh pyan ya lite tal."
+      ]
+    },
+    {
+      "id": "my-s116",
+      "kind": "sentence",
+      "native": [
+        "စုလဲ့ကို ဒီမှာ စောင့်မယ်။"
+      ],
+      "roman": [
+        "Su Lae ko di hmar saung mal."
+      ]
+    },
+    {
+      "id": "my-s117",
+      "kind": "sentence",
+      "native": [
+        "ခြင်းတောင်းတစ်လုံးကို 8,000 ကျပ်နဲ့ ထားလိုက်ပါ။"
+      ],
+      "roman": [
+        "Chin taung tit lone ko 8,000 kyat neh htar lite bar."
+      ]
+    },
+    {
+      "id": "my-s118",
+      "kind": "sentence",
+      "native": [
+        "တောင်ကြီးကားက ဒီဂိတ်လား၊ ဟိုဘက်ဂိတ်လား?"
+      ],
+      "roman": [
+        "Taunggyi kar ka di gate lar, ho bet gate lar?"
+      ]
+    },
+    {
+      "id": "my-s119",
+      "kind": "sentence",
+      "native": [
+        "အိမ်ရောက်ပြီနော်။"
+      ],
+      "roman": [
+        "Eain yout pyee naw."
+      ]
+    },
+    {
+      "id": "my-s120",
+      "kind": "sentence",
+      "native": [
+        "မုံရွာသွားတဲ့ ခရီးချိန်ကို အလုပ်ချိန်ထဲ ထည့်တွက်လား?"
+      ],
+      "roman": [
+        "Monywa thwar deh kha yi chain ko a lote chain hteh hteh twet lar?"
+      ]
+    },
+    {
+      "id": "my-s121",
+      "kind": "sentence",
+      "native": [
+        "သမီးလေးက 9 နှစ်ရှိပြီ။"
+      ],
+      "roman": [
+        "Tha mee lay ka 9 hnit shi pyee."
+      ]
+    },
+    {
+      "id": "my-s122",
+      "kind": "sentence",
+      "native": [
+        "တနင်္လာနေ့ သင်္ဃန်းကျွန်းက အားကစားဆိုင်မှာ ကြက်တောင်ရက်ကက် ကြိုးလဲရမယ်။"
+      ],
+      "roman": [
+        "Ta nin lar nay Thingangyun ka ar ga zar saing hmar kyet taung yet ket kyo leh ya mal."
+      ]
+    },
+    {
+      "id": "my-s123",
+      "kind": "sentence",
+      "native": [
+        "အသံ နည်းနည်း တိုးပေးပါ။"
+      ],
+      "roman": [
+        "A than neh neh toe pay bar."
+      ]
+    },
+    {
+      "id": "my-s124",
+      "kind": "sentence",
+      "native": [
+        "ကိုရဲထက်ဆီ စာချုပ်ကို scan ဖတ်ပြီး ပို့ပေးပါ။"
+      ],
+      "roman": [
+        "Ko Yeh Htet si sar choke ko scan phat pyee poh pay bar."
+      ]
+    },
+    {
+      "id": "my-s125",
+      "kind": "sentence",
+      "native": [
+        "ဓာတ်ဆီဆိုင်အကျော်မှာ ခဏ ရပ်ပေးပါလား?"
+      ],
+      "roman": [
+        "Dat si saing a kyaw hmar kha na yat pay bar lar?"
+      ]
+    },
+    {
+      "id": "my-s126",
+      "kind": "sentence",
+      "native": [
+        "ပုစွန်ခြောက်ကို နည်းနည်း ဈေးလျှော့ပေးပါလား?"
+      ],
+      "roman": [
+        "Pa zun chout ko neh neh zay shawt pay bar lar?"
+      ]
+    },
+    {
+      "id": "my-s127",
+      "kind": "sentence",
+      "native": [
+        "10,000 ကျပ်လို့ ရေးမိတာ၊ 1,000 ကျပ်ပဲ ကျတာပါ၊ သုညတစ်လုံး ပိုသွားလို့ပါ။"
+      ],
+      "roman": [
+        "10,000 kyat loh yay mi tar, 1,000 kyat beh kya tar bar, thone nya tit lone po thwar loh bar."
+      ]
+    },
+    {
+      "id": "my-s128",
+      "kind": "sentence",
+      "native": [
+        "ကန်တော်ကြီးမှာ ပြေးပြီးရင် အစ်ကို့ဆီ ဝင်ခဲ့မယ်။"
+      ],
+      "roman": [
+        "Kan Taw Gyi hmar pyay pyee yin a ko si win kheh mal."
+      ]
+    },
+    {
+      "id": "my-s129",
+      "kind": "sentence",
+      "native": [
+        "မိတ္ထီလာခရီးအတွက် ကားငှားဖို့ ရုံးက စီစဉ်ပေးမယ်။"
+      ],
+      "roman": [
+        "Meiktila kha yi a twet kar hngar pho yone ka si sin pay mal."
+      ]
+    },
+    {
+      "id": "my-s130",
+      "kind": "sentence",
+      "native": [
+        "သရက်သီး 5 လုံးအတွက် 7,500 ကျပ် ပေးခဲ့ရတယ်။"
+      ],
+      "roman": [
+        "Tha yet thee 5 lone a twet 7,500 kyat pay kheh ya tal."
+      ]
+    },
+    {
+      "id": "my-s131",
+      "kind": "sentence",
+      "native": [
+        "ဖိနပ်ကို ကော်ကပ်ဦးမယ်။"
+      ],
+      "roman": [
+        "Pha nat ko kaw kat oo mal."
+      ]
+    },
+    {
+      "id": "my-s132",
+      "kind": "sentence",
+      "native": [
+        "ညောင်ရွှေက တည်းခိုခန်းတွေ တစ်ည ဘယ်လောက်လဲ?"
+      ],
+      "roman": [
+        "Nyaung Shwe ka teh kho khan dway tit nya beh lout leh?"
+      ]
+    },
+    {
+      "id": "my-s133",
+      "kind": "sentence",
+      "native": [
+        "မောက်စ်က နှိပ်မရတော့ဘူး။"
+      ],
+      "roman": [
+        "Mout ka hneik ma ya daw bu."
+      ]
+    },
+    {
+      "id": "my-s134",
+      "kind": "sentence",
+      "native": [
+        "ဘယ်ဘက်က ဓာတ်လှေကားနဲ့ အပေါ်ထပ် တက်လာခဲ့ပါ။"
+      ],
+      "roman": [
+        "Beh bet ka dat hlay kar neh a paw htat tet lar kheh bar."
+      ]
+    },
+    {
+      "id": "my-s135",
+      "kind": "sentence",
+      "native": [
+        "ရေပိုက် ပေါက်နေတယ်။"
+      ],
+      "roman": [
+        "Yay paik pout nay tal."
+      ]
+    },
+    {
+      "id": "my-s136",
+      "kind": "sentence",
+      "native": [
+        "ပန်းကန်နဲ့ ဇွန်းပဲ ယူခဲ့၊ တူတော့ မလိုဘူး။"
+      ],
+      "roman": [
+        "Pan kan neh zun beh yu kheh, tu daw ma lo bu."
+      ]
+    },
+    {
+      "id": "my-s137",
+      "kind": "sentence",
+      "native": [
+        "မုန့်ဟင်းခါး ဝယ်လာမယ်၊ အကြော်ပါ ယူမလား?"
+      ],
+      "roman": [
+        "Mont hin gar wel lar mal, a kyaw bar yu ma lar?"
+      ]
+    },
+    {
+      "id": "my-s138",
+      "kind": "sentence",
+      "native": [
+        "ပြည်ရုံးက ကြော်ငြာစာသားကို ဖတ်ပြီးရင် ပြင်စရာတွေ email နဲ့ ပြန်ပို့ပေးပါ။"
+      ],
+      "roman": [
+        "Pyay yone ka kyaw nyar sar thar ko phat pyee yin pyin sa yar dway email neh pyan poh pay bar."
+      ]
+    },
+    {
+      "id": "my-s139",
+      "kind": "sentence",
+      "native": [
+        "မီးဖိုကို 180 ဒီဂရီ ချိန်ပါ။"
+      ],
+      "roman": [
+        "Mee pho ko 180 di ga yi chain bar."
+      ]
+    },
+    {
+      "id": "my-s140",
+      "kind": "sentence",
+      "native": [
+        "အဝတ်လျှော်ဆိုင်က ပြေစာကို ပိုက်ဆံအိတ်ထဲ ထည့်ထားဦး။"
+      ],
+      "roman": [
+        "A wut shaw saing ka pyay sar ko paik san eik hteh hteh htar oo."
+      ]
+    },
+    {
+      "id": "my-s141",
+      "kind": "sentence",
+      "native": [
+        "အခု ဘယ်နှနာရီရှိပြီလဲ?"
+      ],
+      "roman": [
+        "A khu beh hna nar yi shi pyee leh?"
+      ]
+    },
+    {
+      "id": "my-s142",
+      "kind": "sentence",
+      "native": [
+        "လှိုင်ရုံးမှာ အင်တာနက်လိုင်း ပြန်ကောင်းပြီလား?"
+      ],
+      "roman": [
+        "Hlaing yone hmar internet laing pyan kaung pyee lar?"
+      ]
+    },
+    {
+      "id": "my-s143",
+      "kind": "sentence",
+      "native": [
+        "ဦးလေး ဆိုင်မှာ ရှိလား?"
+      ],
+      "roman": [
+        "Oo lay saing hmar shi lar?"
+      ]
+    },
+    {
+      "id": "my-s144",
+      "kind": "sentence",
+      "native": [
+        "ညီမလေးရဲ့ ကျောင်းစိမ်းကို မီးပူတိုက်ပေးဦး။"
+      ],
+      "roman": [
+        "Nyi ma lay yeh kyaung sein ko mee pu taik pay oo."
+      ]
+    },
+    {
+      "id": "my-s145",
+      "kind": "sentence",
+      "native": [
+        "ကြမ်းတိုက်ပြီးပြီလား? မပြီးရင် ကူတိုက်ပေးမယ်။"
+      ],
+      "roman": [
+        "Kyan tike pyee pyee lar? Ma pyee yin ku tike pay mal."
+      ]
+    },
+    {
+      "id": "my-s146",
+      "kind": "sentence",
+      "native": [
+        "မနေ့က ချေးသွားတဲ့ အားသွင်းကြိုးလေး မနက်ဖြန် ကျောင်းလာရင် ယူလာပေးပါဦး။"
+      ],
+      "roman": [
+        "Ma nay ka chay thwar deh ar thwin kyoe lay ma nat phyan kyaung lar yin yu lar pay bar oo."
+      ]
+    },
+    {
+      "id": "my-s147",
+      "kind": "sentence",
+      "native": [
+        "အသေးစိတ် ထပ်ရှင်းပေးပါ။"
+      ],
+      "roman": [
+        "A thay seit htat shin pay bar."
+      ]
+    },
+    {
+      "id": "my-s148",
+      "kind": "sentence",
+      "native": [
+        "ကိတ်မုန့်ကို 12 ပိုင်း လှီးပြီး ဗန်း 2 ဗန်းထဲ ထည့်ပါ။"
+      ],
+      "roman": [
+        "Keik mone ko 12 paing hlee pyee ban 2 ban hteh hteh bar."
+      ]
+    },
+    {
+      "id": "my-s149",
+      "kind": "sentence",
+      "native": [
+        "ရေဖိုးက ငှားခထဲ ပါပြီးသား။"
+      ],
+      "roman": [
+        "Yay pho ka hngar kha hteh bar pyee thar."
+      ]
+    },
+    {
+      "id": "my-s150",
+      "kind": "sentence",
+      "native": [
+        "မုန့်လင်မယားကို အိမ်မှာ လုပ်စားချင်လို့ လုပ်နည်းလေး YouTube မှာ ရှာပေးပါ။"
+      ],
+      "roman": [
+        "Mote lin ma yar ko ein hmar lote sar chin loh lote nee lay YouTube hmar shar pay bar."
+      ]
+    },
+    {
+      "id": "my-s151",
+      "kind": "sentence",
+      "native": [
+        "မဇင်မာရေ၊ file ကို ပြင်ခွင့်လေး ပေးပါဦး။"
+      ],
+      "roman": [
+        "Ma Zin Mar yay, file ko pyin khwint lay pay bar oo."
+      ]
+    },
+    {
+      "id": "my-s152",
+      "kind": "sentence",
+      "native": [
+        "ဝေယံရေ၊ မြေနီကုန်းရောက်ရင် လူကူးတံတားပေါ်ကနေ လမ်းကူးလာခဲ့ပါ။"
+      ],
+      "roman": [
+        "Wai Yan yay, Myay Ni Kone yout yin lu ku tan dar paw ka nay lan ku lar kheh bar."
+      ]
+    },
+    {
+      "id": "my-s153",
+      "kind": "sentence",
+      "native": [
+        "လေတိုက်လို့ အေးတယ်။"
+      ],
+      "roman": [
+        "Lay taik loh aye tal."
+      ]
+    },
+    {
+      "id": "my-s154",
+      "kind": "sentence",
+      "native": [
+        "နေဦး၊ မယူတော့ဘူး။"
+      ],
+      "roman": [
+        "Nay oo, ma yu daw bu."
+      ]
+    },
+    {
+      "id": "my-s155",
+      "kind": "sentence",
+      "native": [
+        "အဖေ့ကို လေဆိပ်ပို့ပြီးမှ ညစာအတူစားရအောင်။"
+      ],
+      "roman": [
+        "A phay ko lay zeik poh pyee hma nya sar a tu sar ya aung."
+      ]
+    },
+    {
+      "id": "my-s156",
+      "kind": "sentence",
+      "native": [
+        "ဆွေးနွေးနေတုန်း ကျွန်တော် မှတ်စုရေးပေးမယ်။"
+      ],
+      "roman": [
+        "Sway nway nay tone kyun taw hmat su yay pay mal."
+      ]
+    },
+    {
+      "id": "my-s157",
+      "kind": "sentence",
+      "native": [
+        "နေမင်းက 11 နာရီ 45 မိနစ်မှာ ဆိုင်ဖွင့်တယ်။"
+      ],
+      "roman": [
+        "Nay Min ka 11 nar yi 45 mi nit hmar saing phwint tal."
+      ]
+    },
+    {
+      "id": "my-s158",
+      "kind": "sentence",
+      "native": [
+        "ယုန်လေးကို အစာကျွေးဦးမယ်။"
+      ],
+      "roman": [
+        "Yone lay ko a sar kyway oo mal."
+      ]
+    },
+    {
+      "id": "my-s159",
+      "kind": "sentence",
+      "native": [
+        "တာမွေမှာ ဒီည မိုးရွာမလား ကြည့်ပေးပါ။"
+      ],
+      "roman": [
+        "Tar Mwe hmar di nya moe ywar ma lar kyi pay bar."
+      ]
+    },
+    {
+      "id": "my-s160",
+      "kind": "sentence",
+      "native": [
+        "Zoom မှာ အစည်းအဝေးတက်ရင် အသံပိတ်ထားမယ်။"
+      ],
+      "roman": [
+        "Zoom hmar a see a way tet yin a than peik htar mal."
+      ]
+    },
+    {
+      "id": "my-s161",
+      "kind": "sentence",
+      "native": [
+        "ဖုန်းနဲ့ 5,000 ကျပ် လွှဲပေးလိုက်ပြီ။"
+      ],
+      "roman": [
+        "Phone neh 5,000 kyat hlwe pay lite pyee."
+      ]
+    },
+    {
+      "id": "my-s162",
+      "kind": "sentence",
+      "native": [
+        "ဘတ်ဂျက်ကို အတည်ပြုပါတယ်။"
+      ],
+      "roman": [
+        "Bat jet ko a ti pyu bar tal."
+      ]
+    },
+    {
+      "id": "my-s163",
+      "kind": "sentence",
+      "native": [
+        "ရင်အုပ် 38 လက်မ၊ ခါး 30 လက်မနဲ့ ချုပ်ပေးပါ။"
+      ],
+      "roman": [
+        "Yin oke 38 let ma, khar 30 let ma neh chote pay bar."
+      ]
+    },
+    {
+      "id": "my-s164",
+      "kind": "sentence",
+      "native": [
+        "မိုးမကျခင် ပြတင်းပေါက်ဇကာ ပြင်ထားရမယ်။"
+      ],
+      "roman": [
+        "Moe ma kya khin pa tin pout za gar pyin htar ya mal."
+      ]
+    },
+    {
+      "id": "my-s165",
+      "kind": "sentence",
+      "native": [
+        "သီတာရေ၊ မနက်ဖြန် လှည်းတန်းမှာ တွေ့ကြမလား?"
+      ],
+      "roman": [
+        "Thida yay, ma nat phyan Hledan hmar twae kya ma lar?"
+      ]
+    },
+    {
+      "id": "my-s166",
+      "kind": "sentence",
+      "native": [
+        "မင်္ဂလာပါ၊ စာရပါပြီ။"
+      ],
+      "roman": [
+        "Mingalarbar, sar ya bar pyee."
+      ]
+    },
+    {
+      "id": "my-s167",
+      "kind": "sentence",
+      "native": [
+        "2 ဂိုး ဂိုးမရှိနဲ့ နိုင်ပြီ။"
+      ],
+      "roman": [
+        "2 goal goal ma shi neh naing pyee."
+      ]
+    },
+    {
+      "id": "my-s168",
+      "kind": "sentence",
+      "native": [
+        "ဓာတ်ပုံဟောင်းတွေကို ဖိုလ်ဒါအသစ်ထဲ ရွှေ့ထားရမယ်။"
+      ],
+      "roman": [
+        "Dat pone haung dway ko folder a thit hteh shway htar ya mal."
+      ]
+    },
+    {
+      "id": "my-s169",
+      "kind": "sentence",
+      "native": [
+        "ပိတ်ရက်ကျရင် ကလောသွားဖို့ စီစဉ်ထားတယ်၊ လိုက်ချင်ရင် ဒီည အကြောင်းပြန်ပေးနော်။"
+      ],
+      "roman": [
+        "Peik yet kya yin Kalaw thwar pho si sin htar tal, lite chin yin di nya a kyaung pyan pay naw."
+      ]
+    },
+    {
+      "id": "my-s170",
+      "kind": "sentence",
+      "native": [
+        "ဇယားလေး တွဲပို့ထားပါတယ်။"
+      ],
+      "roman": [
+        "Za yar lay twae poh htar bar tal."
+      ]
+    },
+    {
+      "id": "my-s171",
+      "kind": "sentence",
+      "native": [
+        "ရထားတွဲ 3 က ထိုင်ခုံ 16 ကို ယူထားတယ်။"
+      ],
+      "roman": [
+        "Ya htar tweh 3 ka htaing khon 16 ko yu htar tal."
+      ]
+    },
+    {
+      "id": "my-s172",
+      "kind": "sentence",
+      "native": [
+        "နော်ဖြူနဲ့ တနင်္ဂနွေနေ့ စက်ဘီးစီးဖို့ ချိန်းထားတယ်။"
+      ],
+      "roman": [
+        "Naw Phyu neh ta nin ga nway nay set bee see pho chain htar tal."
+      ]
+    },
+    {
+      "id": "my-s173",
+      "kind": "sentence",
+      "native": [
+        "မိုးရွာနေတော့ အဝတ်တွေ သိမ်းပေးပါဦး။"
+      ],
+      "roman": [
+        "Moe ywar nay daw a wut dway thein pay bar oo."
+      ]
+    },
+    {
+      "id": "my-s174",
+      "kind": "sentence",
+      "native": [
+        "ယွန်းသီရိရေ၊ ဖောက်သည်ကို ဈေးနှုန်း ပြန်မေးပေးပါဦး။"
+      ],
+      "roman": [
+        "Yoon Thiri yay, phout theh ko zay hnoun pyan may pay bar oo."
+      ]
+    },
+    {
+      "id": "my-s175",
+      "kind": "sentence",
+      "native": [
+        "ဆရာမရေ၊ ကျောင်းပွဲက ဩဂုတ်လ 14 ရက် ညနေ 3 နာရီမှာ ပြီးမှာလား?"
+      ],
+      "roman": [
+        "Sa yar ma yay, kyaung pwe ka Aw gote la 14 yet nya nay 3 nar yi hmar pyee hmar lar?"
+      ]
+    },
+    {
+      "id": "my-s176",
+      "kind": "sentence",
+      "native": [
+        "ပြေစာထဲက ပို့ခ 2,000 ကျပ်ကို ဆိုင်နဲ့ ပြန်ညှိရမယ်။"
+      ],
+      "roman": [
+        "Pyay sar hteh ka poh kha 2,000 kyat ko saing neh pyan hnyi ya mal."
+      ]
+    },
+    {
+      "id": "my-s177",
+      "kind": "sentence",
+      "native": [
+        "မေမေရေ၊ ညနေ ရုံးဆင်းမှ ဈေးဝင်မှာမို့ လိုတာရှိရင် အခု ပြောထားနော်။"
+      ],
+      "roman": [
+        "May may yay, nya nay yone sin hma zay win hmar moh lo tar shi yin a khu pyaw htar naw."
+      ]
+    },
+    {
+      "id": "my-s178",
+      "kind": "sentence",
+      "native": [
+        "20,000 ကျပ်ပေးထားလို့ 3,500 ကျပ် ပြန်အမ်းပေးပါ။"
+      ],
+      "roman": [
+        "20,000 kyat pay htar loh 3,500 kyat pyan an pay bar."
+      ]
+    },
+    {
+      "id": "my-s179",
+      "kind": "sentence",
+      "native": [
+        "ကြောင်လေးက ဖိနပ်အသစ်ကို အိပ်ရာလုပ်နေပြီ။"
+      ],
+      "roman": [
+        "Kyaung lay ka pha nat a thit ko eik yar lote nay pyee."
+      ]
+    },
+    {
+      "id": "my-s180",
+      "kind": "sentence",
+      "native": [
+        "ဇူလိုင်လ 18 ရက်အတွက် လူကြီး 2 ယောက်နဲ့ ကလေး 1 ယောက်စာ လက်မှတ်ဖြတ်ပေးပါ။"
+      ],
+      "roman": [
+        "Zu laing la 18 yet a twet lu kyee 2 yout neh kha lay 1 yout sar let hmat phyat pay bar."
+      ]
+    },
+    {
+      "id": "my-s181",
+      "kind": "sentence",
+      "native": [
+        "ဖိနပ်နံပါတ် 39 မတော်လို့ 40 နဲ့ လဲချင်တယ်။"
+      ],
+      "roman": [
+        "Pha nat nan bat 39 ma taw loh 40 neh leh chin tal."
+      ]
+    },
+    {
+      "id": "my-s182",
+      "kind": "sentence",
+      "native": [
+        "အခန်း 6 က လွတ်လား?"
+      ],
+      "roman": [
+        "A khan 6 ka lwat lar?"
+      ]
+    }
+  ]
+}

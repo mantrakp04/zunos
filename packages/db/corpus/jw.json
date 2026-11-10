@@ -1,0 +1,1543 @@
+{
+  "lang": "jw",
+  "starter": [
+    "jw-s159",
+    "jw-s046",
+    "jw-s083",
+    "jw-s038",
+    "jw-s099",
+    "jw-s025",
+    "jw-s107",
+    "jw-s132",
+    "jw-s056",
+    "jw-s123",
+    "jw-s074",
+    "jw-p01",
+    "jw-s066",
+    "jw-s036",
+    "jw-s032",
+    "jw-s145",
+    "jw-s113",
+    "jw-s039",
+    "jw-s110",
+    "jw-s117",
+    "jw-s160",
+    "jw-s072",
+    "jw-s009",
+    "jw-p03",
+    "jw-s024",
+    "jw-s169",
+    "jw-s079",
+    "jw-s051",
+    "jw-s045",
+    "jw-s137",
+    "jw-s012",
+    "jw-s164",
+    "jw-s091",
+    "jw-s144",
+    "jw-s016",
+    "jw-p05",
+    "jw-s133",
+    "jw-s034",
+    "jw-s007",
+    "jw-s006",
+    "jw-s017",
+    "jw-s060",
+    "jw-s118",
+    "jw-s157",
+    "jw-s112",
+    "jw-s019",
+    "jw-s029",
+    "jw-s121"
+  ],
+  "items": [
+    {
+      "id": "jw-p01",
+      "kind": "para",
+      "title": "Wedding Plans in Klaten",
+      "native": [
+        "Wulan, dina Minggu ngarep Mbak Sari arep nikah ing Klaten.",
+        "Resepsiné ing omahé Pak Hadi, ora adoh saka Alun-Alun Klaten.",
+        "Ibu ngajak awaké dhéwé mangkat bareng saka Solo jam 08.00.",
+        "Kowé nggawa klambi batik warna biru waé, ben padha karo sedulur liyané.",
+        "Sandhalé pilih sing kepénak, merga parkirané rada adoh saka omah.",
+        "Aku wis pesen lemper lan risoles kanggo sangu ing dalan.",
+        "Yèn Dinda mèlu, aja lali nggawa klambi ganti lan botol ngombéné.",
+        "Sawisé acara, awaké dhéwé bisa mampir tuku soto ing Delanggu.",
+        "Kabari aku mengko bengi, supaya kursi mobilé isa tak atur dhisik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-p02",
+      "kind": "para",
+      "title": "Customer Feedback From Semarang",
+      "native": [
+        "Bu Ratih, kula sampun ngempalaken masukan saking pelanggan toko ing Semarang.",
+        "12 pelanggan sampun nyobi fitur enggal kanggé milih jam mendhet pesenan.",
+        "Kathah pelanggan ingkang remen amargi boten kedah ngentosi dangu ing toko.",
+        "Nanging, wonten tigang pelanggan ingkang kangèlan maos tulisan ing tombol.",
+        "Pelanggan nyuwun supados tulisan ing tombol langkung ageng.",
+        "Pelanggan ugi nyuwun supados langkung gampil milih jam mendhet pesenan.",
+        "Screenshot saking pelanggan sampun kula kirim liwat WhatsApp wau énjing.",
+        "Menawi panjenengan sarujuk, bènjing énjing kula badhé nyobi tampilan enggal.",
+        "Asilipun badhé kula kirim sadèrèngipun meeting jam 10.00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-p03",
+      "kind": "para",
+      "title": "Missing the Last Train",
+      "native": [
+        "Wingi bengi aku ketinggalan sepur pungkasan menyang Yogyakarta ing Solo Balapan.",
+        "Aku wis mangkat gasik, nanging dalan cedhak Manahan macet banget.",
+        "Nalika tekan stasiun, aku langsung mlayu karo nggawa tas gedhé.",
+        "Petugas ing lawang ngandhani aku nèk sepuré lagi waé mangkat.",
+        "Aku banjur lungguh ing bangku cedhak lokèt karo ngusap kringet.",
+        "Wektu kuwi wis jam 22.15, mula aku langsung nelpon Bulik Endang.",
+        "Untungé, Bulik Endang durung turu lan gelem methuk aku ing stasiun.",
+        "Bengi kuwi aku nginep ing omahé bulik ing Laweyan.",
+        "Ésuké aku bali menyang stasiun luwih gasik supaya ora ketinggalan manèh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-p04",
+      "kind": "para",
+      "title": "Packing for Banyuwangi",
+      "native": [
+        "Yèn arep lunga saka Semarang menyang Banyuwangi, pilih tas sing kuwat.",
+        "Klambiné gulungen siji-siji supaya luwih ringkes lan ora gampang kusut.",
+        "Lebokna kathok lan andhuk ing ngisor, banjur klambi ing ndhuwuré.",
+        "Sandhal lan sepatu bungkus nganggo kanthong plastik supaya ora ngregedi klambi.",
+        "Sabun lan sampo lebokna ing wadhah cilik sing tutupé rapet.",
+        "Jaket tipis aja dilebokaké paling ngisor supaya gampang dijupuk ing bis.",
+        "Banyu botolan lan roti lebokna ing tas cilik sing gampang digawa.",
+        "Tiket, dhompet, lan charger lebokna ing kanthong njaba supaya gampang dijupuk.",
+        "Sadurungé nutup tas, cocogna isiné karo dhaptar barang sing wis koktulis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-p05",
+      "kind": "para",
+      "title": "GoFood Around Lowokwaru",
+      "native": [
+        "Aku kerep pesen panganan liwat GoFood pas lembur ing Lowokwaru.",
+        "Warung bakso lan sega pecel cedhak kampus akèh sing ana ing GoFood.",
+        "Wingi aku pesen bakso saka warung ing dhaérah Dinoyo.",
+        "Baksoné tekan isih anget, lan duduhé dibungkus dhéwé.",
+        "Ongkiré wis katon ing aplikasi, dadi aku isa ngétung totalé sadurungé pesen.",
+        "Porsi panganané kadhang luwih sithik tinimbang sing katon ing foto.",
+        "Yèn udan, aku gelem ngenteni luwih suwé supaya sing nganter ora kesusu.",
+        "Senajan ana promo, aku tetep mbandhingaké rega ing aplikasi karo rega ing warung.",
+        "GoFood pancèn praktis yèn lagi sibuk, nanging ora mesthi luwih irit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-p06",
+      "kind": "para",
+      "title": "Wedding Shopping in Kudus",
+      "native": [
+        "Adhiku arep nikah ing Kudus tanggal 18 Oktober 2026.",
+        "Aku arep blanja ing Pasar Kliwon bareng Rini tanggal 10 Oktober 2026.",
+        "Budhalé jam 08.00 waé, merga jaraké saka omah mung 6 kilomèter.",
+        "Kanggo seragam, aku kudu tuku kain 12 potong, saben potong 2 mèter.",
+        "Aku golèk kain sing regané ora luwih saka Rp50.000 saben mèter.",
+        "Kanggo bingkisan, aku butuh jenang 30 bungkus sing regané Rp15.000 saben bungkus.",
+        "Aku uga butuh tèh 3 kothak lan gula pasir 5 kilogram.",
+        "Aku arep tuku kardus bingkisan 30 iji, nanging pitané cukup 2 gulung waé.",
+        "Kanggo tuku kabèh mau, tak siyapaké dhuwit Rp2.000.000 supaya ora kurang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-p07",
+      "kind": "para",
+      "title": "A Duplicate Card Charge",
+      "native": [
+        "Sugeng énjing, kula nyuwun tulung dipunpriksa transaksi kertu debit kula.",
+        "Wingi kula tumbas piranti pawon wonten toko ing Purwokerto.",
+        "Transaksi Rp185.000 ing toko menika kacathet ping kalih ing aplikasi bank.",
+        "Kula namung blanja sepindhah lan mbayar nganggé kertu debit.",
+        "Struk saking toko taksih kula simpen kanggé bukti.",
+        "Menapa foto strukipun saged kula kirim ing chat resmi bank?",
+        "Menawi perlu, kula saged kesah dhateng kantor cabang ing Purwokerto.",
+        "Nyuwun tulung dipunpriksa rumiyin menapa transaksi menika pancèn kacathet ping kalih.",
+        "Menawi pancèn wonten kalepatan, kinten-kinten pinten dinten ngantos artanipun wangsul?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-p08",
+      "kind": "para",
+      "title": "Inside Pasar Gede",
+      "native": [
+        "Akèh wong sing blanja ing Pasar Gede, Surakarta.",
+        "Pasar Gede ana ing Jalan Urip Sumoharjo, cedhak kampung Balong.",
+        "Saben ésuk, bakul nata sayuran, woh-wohan, bumbu pawon, lan jajanan pasar.",
+        "Ing njero Pasar Gede, ana sing adol dawet telasih lan cabuk rambak.",
+        "Bakul-bakul ing Pasar Gede padha nawakaké dagangané.",
+        "Pasar Gede kuwi payoné dhuwur lan lawang mlebu pasaré amba.",
+        "Yèn arep mlaku-mlaku ing Pasar Gede, luwih becik teka ésuk sadurungé ramé.",
+        "Aja lali nggawa tas blanja dhéwé supaya ora kakehan nganggo kantong plastik.",
+        "Ana sing blanja ing Pasar Gede kanggo masak ing omah, ana uga sing kulakan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s001",
+      "kind": "sentence",
+      "native": [
+        "Aku wis tekan omah, ya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s002",
+      "kind": "sentence",
+      "native": [
+        "Bab pesenan seragam, ukurané kanca-kanca durung pepak, mula tukang jahité njaluk tambahan wektu nganti dina Senèn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s003",
+      "kind": "sentence",
+      "native": [
+        "Saben 200 gram glepung butuh 2 endhog lan 90 gram gula."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s004",
+      "kind": "sentence",
+      "native": [
+        "Dhuwit kanggo parkir ing Taman Bungkul tak sisihaké Rp5.000."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s005",
+      "kind": "sentence",
+      "native": [
+        "Video iki puteren luwih alon supaya gerakané katon cetha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s006",
+      "kind": "sentence",
+      "native": [
+        "Data stok wingi durung mlebu merga serveré lagi error."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s007",
+      "kind": "sentence",
+      "native": [
+        "Mas, kula badhé mendhet pakèt. Tokonipun wonten ing sisih kiwa menapa tengen margi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s008",
+      "kind": "sentence",
+      "native": [
+        "Mbok geniné dicilikaké sithik manèh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s009",
+      "kind": "sentence",
+      "native": [
+        "Lha, arep crita apa mau, kok malah lali?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s010",
+      "kind": "sentence",
+      "native": [
+        "Buntil gawéanmu iki énak, godhongé empuk lan bumbuné krasa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s011",
+      "kind": "sentence",
+      "native": [
+        "Rasané sikilku isih pegel merga mlaku adoh wingi, dina iki dolané sing cedhak-cedhak waé, ya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s012",
+      "kind": "sentence",
+      "native": [
+        "Nyuwun pirsa, Bu Rukmini, pelatihanipun namung kanggé pegawé enggal?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s013",
+      "kind": "sentence",
+      "native": [
+        "Bènsin Rp30.000 cukup kanggo menyang Salatiga lan bali."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s014",
+      "kind": "sentence",
+      "native": [
+        "Tanggal 12 November 2026, jahitané Mbak Endang wis kena dijupuk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s015",
+      "kind": "sentence",
+      "native": [
+        "Saiki tanggal pira, ya?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s016",
+      "kind": "sentence",
+      "native": [
+        "Akun tokoné Mbak Wulan saiki wis isa dienggo siaran langsung."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s017",
+      "kind": "sentence",
+      "native": [
+        "Warung soto pojokan durung bukak."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s018",
+      "kind": "sentence",
+      "native": [
+        "Endhogé diceplok apa didadar waé?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s019",
+      "kind": "sentence",
+      "native": [
+        "Ngapunten, angsal ijol klambi ukuran langkung ageng?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s020",
+      "kind": "sentence",
+      "native": [
+        "Mas Fajar, matur nuwun wis ngancani latihan nyetir nganti lancar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s021",
+      "kind": "sentence",
+      "native": [
+        "Dhuwit patungané wis tak kirim, bagianku Rp25.000, ta?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s022",
+      "kind": "sentence",
+      "native": [
+        "Nuwun sèwu, Bu Ratna, tagihanipun sampun panjenengan tampi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s023",
+      "kind": "sentence",
+      "native": [
+        "Diskoné 15% nganti dina Setu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s024",
+      "kind": "sentence",
+      "native": [
+        "Latihan nggambar cukup nganggo potlot, durung perlu tuku cat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s025",
+      "kind": "sentence",
+      "native": [
+        "Patènana Bluetooth ing HP iki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s026",
+      "kind": "sentence",
+      "native": [
+        "Bar tak update, aplikasi kasir malah ora isa dibukak."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s027",
+      "kind": "sentence",
+      "native": [
+        "Dian ngajak ketemu ing Taman Flora bar senam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s028",
+      "kind": "sentence",
+      "native": [
+        "Jeruk sakilo saiki regané pira?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s029",
+      "kind": "sentence",
+      "native": [
+        "Pesen rawon siji, èh, rong bungkus tanpa sambel."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s030",
+      "kind": "sentence",
+      "native": [
+        "Duh, antréané kok dawa banget."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s031",
+      "kind": "sentence",
+      "native": [
+        "Galih, latihan bandé sida ing garasimu apa ora?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s032",
+      "kind": "sentence",
+      "native": [
+        "Link lawas kuwi wis mati."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s033",
+      "kind": "sentence",
+      "native": [
+        "Pak Hadi, kula badhé pesen meja kanggé 6 tiyang jam 18.40."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s034",
+      "kind": "sentence",
+      "native": [
+        "Élingna aku nyirami lombok soré."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s035",
+      "kind": "sentence",
+      "native": [
+        "Jam pira Perpustakaan Kota Madiun tutup dina iki?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s036",
+      "kind": "sentence",
+      "native": [
+        "Password anyar aja dicathet sembarangan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s037",
+      "kind": "sentence",
+      "native": [
+        "Kowé mudhun ing prapatan sabanjuré, terus nyabrang menyang apotèk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s038",
+      "kind": "sentence",
+      "native": [
+        "Aku wis janjian cukur ing barbershop cedhak Pasar Oro-Oro Dowo jam 13.00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s039",
+      "kind": "sentence",
+      "native": [
+        "Ratri, ijolan bukuné ing pos ronda apa omahmu waé?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s040",
+      "kind": "sentence",
+      "native": [
+        "Mbiyèn tak kira ngurus kebon kuwi gampang, jebulé kudu tlaten wiwit nyebar wiji nganti panèn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s041",
+      "kind": "sentence",
+      "native": [
+        "Aja lali nggawa jaket, hawa ing kéné adhem banget."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s042",
+      "kind": "sentence",
+      "native": [
+        "Cukup seméné dhisik saka aku, rincian tugasé ditulis ing grup waé supaya kanca-kanca liyané uga ngerti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s043",
+      "kind": "sentence",
+      "native": [
+        "Kertuné dicithak 60 lembar, nganggo kertas 120 gram."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s044",
+      "kind": "sentence",
+      "native": [
+        "File rekaman latihan nyanyi tak jenengi manut tanggalé supaya gampang digolèki wektu arep dienggo manèh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s045",
+      "kind": "sentence",
+      "native": [
+        "Wacanen pesen WhatsApp sing paling anyar saka grup kantor."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s046",
+      "kind": "sentence",
+      "native": [
+        "Sari, carané share screen ing Zoom kuwi piyé?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s047",
+      "kind": "sentence",
+      "native": [
+        "Paklik lagi nyapu ngarep warung."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s048",
+      "kind": "sentence",
+      "native": [
+        "Mbak Intan, kanggo acara tedhak sitèn ponakanmu, aku kebagian nggawa jajan apa nggawé tumpeng cilik?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s049",
+      "kind": "sentence",
+      "native": [
+        "Kunciné digawa kowé, apa isih nggantung ing lawang?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s050",
+      "kind": "sentence",
+      "native": [
+        "Terusna waé olèhé sinau, salah sithik kuwi lumrah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s051",
+      "kind": "sentence",
+      "native": [
+        "Tenan, gludhugé keprungu tekan kéné."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s052",
+      "kind": "sentence",
+      "native": [
+        "Jajanan kanggo tamu saka Malang wis dipesenké apa durung?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s053",
+      "kind": "sentence",
+      "native": [
+        "Sepatu ukuran 39 iki regané mudhun dadi Rp185.000."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s054",
+      "kind": "sentence",
+      "native": [
+        "Rampung kursus ing Klaten, aku kudu mampir njupuk kain tenun pesenan ibu sadurungé tokoné tutup."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s055",
+      "kind": "sentence",
+      "native": [
+        "Ing dokumèn sing lagi tak waca iki, golèkna tembung ongkos banjur tandhani nganggo werna kuning."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s056",
+      "kind": "sentence",
+      "native": [
+        "Tombol spasi ing keyboardku macet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s057",
+      "kind": "sentence",
+      "native": [
+        "Saka terminal, Wening numpak angkot menyang Jebres merga dalan ngarep kosé lagi didandani lan ora isa diliwati."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s058",
+      "kind": "sentence",
+      "native": [
+        "Sandhangan sing dipépé ndang dientas. Mendhungé wis peteng banget."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s059",
+      "kind": "sentence",
+      "native": [
+        "Jupukna sing abang, èh, biru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s060",
+      "kind": "sentence",
+      "native": [
+        "Pangapurané, aku mau kebacut nyelani."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s061",
+      "kind": "sentence",
+      "native": [
+        "Payungmu kèri ing tèrasku wingi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s062",
+      "kind": "sentence",
+      "native": [
+        "Pak Wahyu, menapa kula saged nyuwun wekdal sekedhap kanggé ngrembag séwa gudhang ing Sidoarjo?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s063",
+      "kind": "sentence",
+      "native": [
+        "Antreanku nomer 52, kowé 53?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s064",
+      "kind": "sentence",
+      "native": [
+        "Langganan internet kudu tak perpanjang sadurungé entèk wulan iki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s065",
+      "kind": "sentence",
+      "native": [
+        "Cuaca ing Banyuwangi mengko soré kaya apa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s066",
+      "kind": "sentence",
+      "native": [
+        "Flashdisk ing toko komputer kuwi regané Rp45.000, garansiné setaun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s067",
+      "kind": "sentence",
+      "native": [
+        "Gang sisih wétan kuwi buntu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s068",
+      "kind": "sentence",
+      "native": [
+        "Rangselmu isih ana ing mobil."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s069",
+      "kind": "sentence",
+      "native": [
+        "Lawangé ditarik apa disurung, ta?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s070",
+      "kind": "sentence",
+      "native": [
+        "Lega atiku bar krungu koper sing kèri wis ketemu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s071",
+      "kind": "sentence",
+      "native": [
+        "Titip gethuk sathithik, aja sing klapané wis garing."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s072",
+      "kind": "sentence",
+      "native": [
+        "Deadline revisi iki diundur nganti sesuk soré."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s073",
+      "kind": "sentence",
+      "native": [
+        "Kursus nglangi ing Ungaran diwiwiti tanggal 6 Juli 2027, bayaré Rp275.000 kanggo sewulan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s074",
+      "kind": "sentence",
+      "native": [
+        "Buku perpustakaan kudu dibalèkké dina Jemuwah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s075",
+      "kind": "sentence",
+      "native": [
+        "Sambungna laptop iki menyang jaringan Wi-Fi sing biasané tak enggo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s076",
+      "kind": "sentence",
+      "native": [
+        "Rina, mikrofonmu isih mati, swaramu ora keprungu ing meeting."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s077",
+      "kind": "sentence",
+      "native": [
+        "Bengkel langgananku saiki pindhah menyang ruko cedhak lapangan voli."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s078",
+      "kind": "sentence",
+      "native": [
+        "Engsèl lawang pawon wis tak olèsi lenga, saiki ora muni manèh yèn dibukak alon-alon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s079",
+      "kind": "sentence",
+      "native": [
+        "Sendhok, garpu, piring, wis kabèh?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s080",
+      "kind": "sentence",
+      "native": [
+        "Apik tenan sulaman ing taplakmu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s081",
+      "kind": "sentence",
+      "native": [
+        "Wedang uwuh wis siap, kowé kari mampir ngombé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s082",
+      "kind": "sentence",
+      "native": [
+        "Jadwal presentasi ing Tembalang diundur dadi dina Kemis awan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s083",
+      "kind": "sentence",
+      "native": [
+        "Umuré ponakanku saiki 8 taun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s084",
+      "kind": "sentence",
+      "native": [
+        "Arisan ing omahé Bu Yuni dina Slasa bengi kudu tak lebokké ing kalèndher bèn ora kelalèn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s085",
+      "kind": "sentence",
+      "native": [
+        "Setèl timer suwéné 8 menit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s086",
+      "kind": "sentence",
+      "native": [
+        "Folder kosong kuwi busaken waé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s087",
+      "kind": "sentence",
+      "native": [
+        "Bulik isih ana ing salon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s088",
+      "kind": "sentence",
+      "native": [
+        "Bungkusan kanggo adikku wis tak lakban rapet, kari nulis alamaté sadurungé tak gawa menyang agen paket."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s089",
+      "kind": "sentence",
+      "native": [
+        "Dudu saiki, maksudku mengko bengi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s090",
+      "kind": "sentence",
+      "native": [
+        "Saben dolan menyang Magelang, aku isa jagongan karo kanca lawas tanpa kesusu. Rasané ayem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s091",
+      "kind": "sentence",
+      "native": [
+        "Sesuk aku ora mèlu blanja menyang Pasar Beringharjo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s092",
+      "kind": "sentence",
+      "native": [
+        "Kanggoku luwih kepénak ngrembug kontrak langsung, nanging yèn kowé lagi ing njaba, liwat tèlpon uga ora apa-apa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s093",
+      "kind": "sentence",
+      "native": [
+        "Lapangané diséwa jam 19.10 nganti 20.10 kanggo latihan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s094",
+      "kind": "sentence",
+      "native": [
+        "Sampah godhong ing mburi omah arep tak gawé kompos."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s095",
+      "kind": "sentence",
+      "native": [
+        "Tèlpon Mbak Lastri saiki waé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s096",
+      "kind": "sentence",
+      "native": [
+        "Download iki isa diterusaké mengko?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s097",
+      "kind": "sentence",
+      "native": [
+        "Sopir travel ngongkon aku ngentèni ing tèras penginapan. Mobilé ora kena mandheg suwé ing kono."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s098",
+      "kind": "sentence",
+      "native": [
+        "Gasé entèk, aku arep menyang warung mburi ngijolaké tabung."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s099",
+      "kind": "sentence",
+      "native": [
+        "Dhèwèké jenengé Damar apa Danu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s100",
+      "kind": "sentence",
+      "native": [
+        "Gawaa rakèt dhéwé, ya, senar rakètku pedhot."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s101",
+      "kind": "sentence",
+      "native": [
+        "Priksa manèh jumlahé sadurungé nota kuwi kok cithak."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s102",
+      "kind": "sentence",
+      "native": [
+        "Botol iki isiné 750 mililiter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s103",
+      "kind": "sentence",
+      "native": [
+        "Sadurungé turu, foto saka kamera kudu tak pindhah menyang laptop."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s104",
+      "kind": "sentence",
+      "native": [
+        "Piyé carané nyimpen halaman iki supaya mengko isa tak waca tanpa internet?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s105",
+      "kind": "sentence",
+      "native": [
+        "Rumus ing Excel iki wis tak beneraké, nanging asil itungané durung cocog karo cathetané gudhang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s106",
+      "kind": "sentence",
+      "native": [
+        "Simbah njaluk diteraké menyang omahé seduluré nganggo mobil."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s107",
+      "kind": "sentence",
+      "native": [
+        "Reginipun saged kirang dados Rp18.000 boten, Bu Sri?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s108",
+      "kind": "sentence",
+      "native": [
+        "Ngamplasé manut serat kayu, ya?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s109",
+      "kind": "sentence",
+      "native": [
+        "Dewi, yèn mangkat rada awan, aku isih isa mèlu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s110",
+      "kind": "sentence",
+      "native": [
+        "Anggarané wis cocog, aku sarujuk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s111",
+      "kind": "sentence",
+      "native": [
+        "Rapaté dina Rebo jam 09.15, suwéné 45 menit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s112",
+      "kind": "sentence",
+      "native": [
+        "Dina Minggu ésuk, pitku arep tak dandakké ing bèngkèl."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s113",
+      "kind": "sentence",
+      "native": [
+        "Tulung golèkna resèp klepon isi gula jawa tanpa pewarna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s114",
+      "kind": "sentence",
+      "native": [
+        "Lampiran email iki kegedhèn, mula ukuran gambaré tak cilikaké dhisik supaya gampang dikirim menyang pelanggan."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s115",
+      "kind": "sentence",
+      "native": [
+        "Ojeké mandheg cedhak gapura kampung."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s116",
+      "kind": "sentence",
+      "native": [
+        "Talangé bocor pas udan deres."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s117",
+      "kind": "sentence",
+      "native": [
+        "Èh, kursiné gèsèrna mréné. Ora, rada ngiwa sithik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s118",
+      "kind": "sentence",
+      "native": [
+        "Charger sing kok silih wingi gawanen pas mréné, ya."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s119",
+      "kind": "sentence",
+      "native": [
+        "Screenshot sing kok kirim burem, tulisané ora isa diwaca."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s120",
+      "kind": "sentence",
+      "native": [
+        "Skoré isih 2 padha, ya?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s121",
+      "kind": "sentence",
+      "native": [
+        "Adonan roti kudu ditutup rapet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s122",
+      "kind": "sentence",
+      "native": [
+        "Ganti basa keyboard dadi basa Jawa supaya luwih gampang ngetik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s123",
+      "kind": "sentence",
+      "native": [
+        "Pak Surya, kula badhé nyobi printer ing ngandhap rumiyin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s124",
+      "kind": "sentence",
+      "native": [
+        "Pak Joko, panjenengan badhé tindak Semarang nitih menapa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s125",
+      "kind": "sentence",
+      "native": [
+        "Lontong balap pesenanku sambelé dipisah waé, arep tak gawa mulih."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s126",
+      "kind": "sentence",
+      "native": [
+        "Undhangané kirimen liwat email waé. Èh, luwih becik dicithak, wong tamuné ora kabèh nduwé internet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s127",
+      "kind": "sentence",
+      "native": [
+        "Foto-foto ing Lawang Sewu wingi wis tak upload."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s128",
+      "kind": "sentence",
+      "native": [
+        "Judhulé diganti sing luwih cetha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s129",
+      "kind": "sentence",
+      "native": [
+        "Kanggé taplak 90 sèntimèter, renda 4 mèter cekap, Bu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s130",
+      "kind": "sentence",
+      "native": [
+        "Tuku benang sulam werna ungu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s131",
+      "kind": "sentence",
+      "native": [
+        "Tuduhna dalan menyang Museum Sangiran nganggo Google Maps."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s132",
+      "kind": "sentence",
+      "native": [
+        "Memori hapéku kebak merga kebacut akèh video saka grup."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s133",
+      "kind": "sentence",
+      "native": [
+        "Ketemu Niken ing Stasiun Tugu waé, panggonané gampang digolèki."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s134",
+      "kind": "sentence",
+      "native": [
+        "Tika njaluk digawakké gunting kanggo tugas prakarya ing sekolah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s135",
+      "kind": "sentence",
+      "native": [
+        "Sing methuk Sinta mengko kowé, èh, aku waé, wong arep rembugan karo guruné jam 11.00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s136",
+      "kind": "sentence",
+      "native": [
+        "Sepurané mau ora mbales chat, hapéné tak tinggal ing kamar pas ngréwangi Bapak ndandani pager."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s137",
+      "kind": "sentence",
+      "native": [
+        "Matur nuwun sampun kersa ngentosi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s138",
+      "kind": "sentence",
+      "native": [
+        "Sepurku mangkat tanggal 23 September 2026 jam 16.25, aku lungguh ing gerbong 4 kursi 11."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s139",
+      "kind": "sentence",
+      "native": [
+        "Graji silihan arep tak balèkké mengko bengi. Sing nduwé njaluk ditinggal ing tèras yèn durung mulih."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s140",
+      "kind": "sentence",
+      "native": [
+        "Golèkna video carané nyambung benang rajut supaya sambungané rapi lan ora gampang ucul wektu ditarik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s141",
+      "kind": "sentence",
+      "native": [
+        "Teknisi saka Bantul mau kandha yèn routeré kudu dipindhah rada dhuwur ben sinyalé tekan pawon."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s142",
+      "kind": "sentence",
+      "native": [
+        "Cedhak jembatan ana bakul kembang, aku ngentèni kowé ing kono waé ben ora kudu mlaku adoh."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s143",
+      "kind": "sentence",
+      "native": [
+        "Andhuk sing wis garing kuwi dilempit, terus disimpen ing lemari."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s144",
+      "kind": "sentence",
+      "native": [
+        "Tugas iki dikumpulké kapan, ta?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s145",
+      "kind": "sentence",
+      "native": [
+        "Ya wis, giliranmu milih film."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s146",
+      "kind": "sentence",
+      "native": [
+        "Mas Bagas, dhaptar barang kanggo pamèrané isih kurang apa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s147",
+      "kind": "sentence",
+      "native": [
+        "Catheten nomer anyarku, 0813-0000-0000, sing lawas wis ora dienggo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s148",
+      "kind": "sentence",
+      "native": [
+        "Kacamataku tak simpen ing laci."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s149",
+      "kind": "sentence",
+      "native": [
+        "Padhangé layar tulung dikurangi sithik."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s150",
+      "kind": "sentence",
+      "native": [
+        "Tinimbang nggawe akun anyar, aku luwih seneng mlebu nganggo akun lawas supaya riwayat kursusku ora ilang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s151",
+      "kind": "sentence",
+      "native": [
+        "Liwat Jalan Pemuda luwih cedhak tinimbang muter menyang alun-alun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s152",
+      "kind": "sentence",
+      "native": [
+        "Kardus bekas pindhahan aja dibuwang dhisik, arep tak gawé dolanan sepur-sepuran karo bocah-bocah mengko soré."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s153",
+      "kind": "sentence",
+      "native": [
+        "Laporan iki isih tak priksa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s154",
+      "kind": "sentence",
+      "native": [
+        "Kuriré tak kandhani yèn alamatku kuwi Jalan Ijen nomer 27, pageré ijo lan ana pot kembang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s155",
+      "kind": "sentence",
+      "native": [
+        "Setu iki giliranku methuk Laras ing sekolah."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s156",
+      "kind": "sentence",
+      "native": [
+        "Bukak aplikasi kalkulator, aku arep ngétung biaya ngirim barang."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s157",
+      "kind": "sentence",
+      "native": [
+        "Notifikasi Shopee kok muni terus?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s158",
+      "kind": "sentence",
+      "native": [
+        "Bu, mengko aku mulih rada wengi, ora usah dientèni merga wis nggawa kunci serep."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s159",
+      "kind": "sentence",
+      "native": [
+        "Nyicilé Rp150.000 saben tanggal 5?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s160",
+      "kind": "sentence",
+      "native": [
+        "Pira regané tiket mlebu Taman Safari Prigen kanggo wong diwasa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s161",
+      "kind": "sentence",
+      "native": [
+        "Wah, kucingé malah nguwasani kursi!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s162",
+      "kind": "sentence",
+      "native": [
+        "Kamar sing tak pesen kanggo 3 wengi kuwi ana ing lantai kaping 7."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s163",
+      "kind": "sentence",
+      "native": [
+        "Yèn adhimu wis tangi, ajaken dolanan menyang omahku waé."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s164",
+      "kind": "sentence",
+      "native": [
+        "Alarmé tak pasang jam 05.20."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s165",
+      "kind": "sentence",
+      "native": [
+        "Tulung sisihaké lawuh kanggo aku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s166",
+      "kind": "sentence",
+      "native": [
+        "Susuké kurang Rp7.500. Mau aku mbayar nganggo Rp100.000, lho."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s167",
+      "kind": "sentence",
+      "native": [
+        "Mengko kabari yèn wis ora rèpot."
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s168",
+      "kind": "sentence",
+      "native": [
+        "Kran ing kamar nomer 12 isih netes, isa didandani sadurungé jam 10.00 mumpung aku durung mangkat?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "jw-s169",
+      "kind": "sentence",
+      "native": [
+        "Layar laptopku 14 inci, boboté mung 1,3 kilogram."
+      ],
+      "roman": null
+    }
+  ]
+}

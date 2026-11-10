@@ -1,0 +1,1746 @@
+{
+  "lang": "mn",
+  "starter": [
+    "mn-s086",
+    "mn-s091",
+    "mn-s066",
+    "mn-s134",
+    "mn-s056",
+    "mn-s003",
+    "mn-s104",
+    "mn-s063",
+    "mn-s087",
+    "mn-s070",
+    "mn-s044",
+    "mn-s105",
+    "mn-s095",
+    "mn-s053",
+    "mn-s057",
+    "mn-s045",
+    "mn-s036",
+    "mn-p01",
+    "mn-s100",
+    "mn-s125",
+    "mn-s110",
+    "mn-s062",
+    "mn-s014",
+    "mn-s132",
+    "mn-s083",
+    "mn-s006",
+    "mn-s144",
+    "mn-s009",
+    "mn-s114",
+    "mn-s146",
+    "mn-s126",
+    "mn-s004",
+    "mn-s140",
+    "mn-s137",
+    "mn-s021",
+    "mn-p05",
+    "mn-s097",
+    "mn-s133",
+    "mn-s058",
+    "mn-s079",
+    "mn-s071",
+    "mn-s084",
+    "mn-s147",
+    "mn-s015",
+    "mn-s052",
+    "mn-s141",
+    "mn-s129",
+    "mn-s043",
+    "mn-s142",
+    "mn-s018",
+    "mn-s139",
+    "mn-s001",
+    "mn-s039"
+  ],
+  "items": [
+    {
+      "id": "mn-p01",
+      "kind": "para",
+      "title": "Getting Ready for the Wedding",
+      "native": [
+        "Ирэх бямба гарагт Анужингийн хурим Дарханд болохоор болсон шүү.",
+        "Чи баасан гаргийн ажлаа эртхэн дуусгаад манайхаар хүрээд ирээрэй.",
+        "Бүгдээрээ нэг машинаар явбал замдаа ч тухтай ярьж явна.",
+        "Ээж сүйт бүсгүйд өгөх бэлгээ цэнхэр цаасаар боочихсон байна.",
+        "Би харин өмсөх дээлээ өчигдөр цэвэрлэгээнээс аваад өлгөчихсөн байгаа.",
+        "Чиний бор гутал манай үүдний шүүгээнд байгаа шүү дээ.",
+        "Ням гарагт эмээгийнд очиж, хамаатнуудтайгаа бууз чимхэхээр ярьсан.",
+        "Замдаа идэх боорцог, уух усаа би аваад тавьчихъя.",
+        "Хэдэн цагт ирэхээ орой надад хэлчих, хамтдаа цагаа тохиръё."
+      ],
+      "roman": [
+        "Irekh byamba garagt Anujingiin khurim Darkhand bolokhoor bolson shuu.",
+        "Chi baasan gargiin ajlaa ertkhen duusgaad manaikhaar khureed ireerei.",
+        "Bugdeeree neg mashinaar yavbal zamdaa ch tukhtai yarj yavna.",
+        "Eej suit busguid ogokh belgee tsenkher tsaasaar boochikhson baina.",
+        "Bi kharin omsokh deelee ochigdor tseverlegeenees avaad olgochikhson baigaa.",
+        "Chinii bor gutal manai uudnii shuugeend baigaa shuu dee.",
+        "Nyam garagt emeegiind ochij, khamaatnuudtaigaa buuz chimkhekheer yarsan.",
+        "Zamdaa idekh boortsog, uukh usaa bi avaad tavchikhya.",
+        "Kheden tsagt irekhee oroi nadad khelchikh, khamtdaa tsagaa tokhiryo."
+      ]
+    },
+    {
+      "id": "mn-p02",
+      "kind": "para",
+      "title": "Feedback on Order Tracking",
+      "native": [
+        "Өглөөний мэнд. Захиалга хянах шинэ цэсийн талаар товч хэлье.",
+        "Эрдэнэтийн хэрэглэгчдээс өчигдөр ирсэн саналуудыг нэгтгээд багийн чатад орууллаа.",
+        "Ихэнх нь захиалгынхаа явцыг шууд хардаг болсонд баяртай байна.",
+        "Гэхдээ хүргэх цагийг арай томоор бичихийг хэд хэдэн хүн хүсжээ.",
+        "Зарим хэрэглэгч утсан дээрээ буцах товчийг олоход хэцүү байгааг хэлсэн.",
+        "Билгүүн ээ, эхлээд энэ хоёр хэсгийн загварыг засаад явуулаарай.",
+        "Номин зассан хувилбарыг жижиг дэлгэцтэй утсан дээр шалгаж өгнө.",
+        "Баасан гарагт үдийн хоолны дараа үр дүнгээ хамтдаа ярилцъя.",
+        "Тэр хүртэл нэмэлт санал ирвэл энэ имэйлд хариу бичээрэй."
+      ],
+      "roman": [
+        "Ogloonii mend. Zakhialga khyanakh shine tsesiin talaar tovch khelye.",
+        "Erdenetiin khereglegchdees ochigdor irsen sanaluudiig negtgeed bagiin chatad oruullaa.",
+        "Ikhenkh ni zakhialgiinkhaa yavtsiig shuud khardag bolsond bayartai baina.",
+        "Gekhdee khurgekh tsagiig arai tomoor bichikhiig khed kheden khun khusjee.",
+        "Zarim khereglegch utsan deeree butsakh tovchiig olokhod khetsuu baigaag khelsen.",
+        "Bilguun ee, ekhleed ene khoyor khesgiin zagvariig zasaad yavuulaarai.",
+        "Nomin zassan khuvilbariig jijig delgetstei utsan deer shalgaj ogno.",
+        "Baasan garagt udiin khoolnii daraa ur dungee khamtdaa yariltsya.",
+        "Ter khurtel nemelt sanal irvel ene emaild khariu bicheerei."
+      ]
+    },
+    {
+      "id": "mn-p03",
+      "kind": "para",
+      "title": "First Day in Amgalan",
+      "native": [
+        "Амгалангийн шинэ сургуульдаа анх очсон өглөө би жаахан сандарсан.",
+        "Автобуснаас буугаад сургуулийнхаа шар хашааг дагаж нэлээд удаан алхсан.",
+        "Үүдэнд зогсож байсан жижүүр ах намайг ангид минь хүргэж өгсөн.",
+        "Саруул багш намайг цонхны дэргэдэх сул ширээнд суулгасан.",
+        "Хажууд суусан Тэмүүлэн дэвтрээ над руу түлхээд хичээлийн хуваариа үзүүлсэн.",
+        "Би цүнхнээсээ дэвтрээ гаргахдаа шинэ балныхаа тагийг унагаачихсан юм.",
+        "Тэмүүлэн доош тонгойж тагийг аваад надад буцааж өгсөн.",
+        "Их завсарлагаанаар бид хоёр цайны газраас халуун боорцог авч идсэн.",
+        "Хичээл тарахад шинэ сургуульдаа нэлээд дасчихсан байлаа."
+      ],
+      "roman": [
+        "Amgalangiin shine surguuldaa ankh ochson ogloo bi jaakhan sandarsan.",
+        "Avtobusnaas buugaad surguuliinkhaa shar khashaag dagaj neleed udaan alkhsan.",
+        "Uudend zogsoj baisan jijuur akh namaig angid min khurgej ogson.",
+        "Saruul bagsh namaig tsonkhnii dergedekh sul shireend suulgasan.",
+        "Khajuud suusan Temuulen devtree nad ruu tulkheed khicheeliin khuvaaria uzuulsen.",
+        "Bi tsunkhneesee devtree gargakhdaa shine balniikhaa tagiig unagaachikhsan yum.",
+        "Temuulen doosh tongoij tagiig avaad nadad butsaaj ogson.",
+        "Ikh zavsarlagaanaar bid khoyor tsainii gazraas khaluun boortsog avch idsen.",
+        "Khicheel tarakhad shine surguuldaa neleed daschikhsan bailaa."
+      ]
+    },
+    {
+      "id": "mn-p04",
+      "kind": "para",
+      "title": "Caring for Balcony Plants",
+      "native": [
+        "Яармагт салхи ихтэй болохоор тагтан дээрх цэцгийн савнуудаа сайн бэхэлдэг.",
+        "Чи ч бас цэцгийн савнуудаа хашлагын дотор талд байрлуулаарай.",
+        "Доороо нүхтэй сав сонговол илүүдэл ус нь чөлөөтэй урсаж гарна.",
+        "Өглөө услахаасаа өмнө хөрсний өнгөн хэсгийг хуруугаараа тэмтэрч үзээрэй.",
+        "Хөрс чийгтэй байвал тэр өдөртөө дахиж ус нэмэх хэрэггүй.",
+        "Хөрс нь хуурай байвал навчийг нь норголгүй, үндэс орчимд нь услаарай.",
+        "Үдийн нар хурц байвал жижиг суулгацуудаа нимгэн хөшгөөр халхалж болно.",
+        "Долоо хоногт нэг удаа хатсан навчийг нь түүж цэвэрлээрэй.",
+        "Улаан лоолийн ишийг тулгуурт уяхдаа хэт чанга боож болохгүй."
+      ],
+      "roman": [
+        "Yaarmagt salkhi ikhtei bolokhoor tagtan deerkh tsetsgiin savnuudaa sain bekheldeg.",
+        "Chi ch bas tsetsgiin savnuudaa khashlagiin dotor tald bairluulaarai.",
+        "Dooroo nukhtei sav songovol iluudel us ni cholootei ursaj garna.",
+        "Ogloo uslakhaasaa omno khorsnii ongon khesgiig khuruugaaraa temterch uzeerei.",
+        "Khors chiigtei baival ter odortoo dakhij us nemekh khereggui.",
+        "Khors ni khuurai baival navchiig ni norgolgui, undes orchimd ni uslaarai.",
+        "Udiin nar khurts baival jijig suulgatsuudaa nimgen khoshgoor khalkhalj bolno.",
+        "Doloo khonogt neg udaa khatsan navchiig ni tuuj tseverleerei.",
+        "Ulaan looliin ishiig tulguurt uyakhdaa khet changa booj bolokhgui."
+      ]
+    },
+    {
+      "id": "mn-p05",
+      "kind": "para",
+      "title": "My New Laptop",
+      "native": [
+        "Эрдэнэтийн төвөөс авсан шинэ зөөврийн компьютер маань ерөнхийдөө дажгүй санагдлаа.",
+        "Өмнөхөөсөө хөнгөн болохоор өдөр бүр ажилдаа үүрээд явахад амар юм.",
+        "Гар нь жижиг болохоор эхэндээ бичихэд жаахан эвгүй байсан.",
+        "Тайлангаа бичихэд товчлуурын дуу нь бараг сонсогдохгүй.",
+        "Цонхны дэргэд сууж ажилласан ч дэлгэц нь тод харагдсан.",
+        "Цэнэглэгчээ мартсан өдөр орой болтол цэнэг нь хүрсэн шүү.",
+        "Харин олон зураг зэрэг нээхээр сэнс нь нэлээд дуугардаг.",
+        "2100000 төгрөгөөр авсан юм. Цүнх дагалдсан нь надад таалагдсан.",
+        "Хичээл, ажилдаа хэрэглэхэд бол ийм компьютер хангалттай юм байна."
+      ],
+      "roman": [
+        "Erdenetiin tovoos avsan shine zoovriin kompyuter maan yeronkhiidoo dajgui sanagdlaa.",
+        "Omnokhoosoo khongon bolokhoor odor bur ajildaa uureed yavakhad amar yum.",
+        "Gar ni jijig bolokhoor ekhendee bichikhed jaakhan evgui baisan.",
+        "Tailangaa bichikhed tovchluuriin duu ni barag sonsogdokhgui.",
+        "Tsonkhnii derged suuj ajillasan ch delgets ni tod kharagdsan.",
+        "Tseneglegchee martsan odor oroi boltol tseneg ni khursen shuu.",
+        "Kharin olon zurag zereg neekheer sens ni neleed duugardag.",
+        "2100000 togrogoor avsan yum. Tsunkh dagaldsan ni nadad taalagdsan.",
+        "Khicheel, ajildaa khereglekhed bol iim kompyuter khangalttai yum baina."
+      ]
+    },
+    {
+      "id": "mn-p06",
+      "kind": "para",
+      "title": "College Admission Plans",
+      "native": [
+        "Ховдод байдаг коллежид элсэхээр 2026 оны 6 дугаар сараас бэлдэж эхэлнэ.",
+        "6 дугаар сарын 15-нд сургууль дээрээ очиж гэрчилгээгээ авна.",
+        "Бүртгэлийн талаар 6 дугаар сарын 16-нд 10:00 цагт утсаар лавлана.",
+        "Материалаа бүрдүүлэхэд зураг, гэрчилгээний хуулбар гээд 4 зүйл хэрэгтэй.",
+        "Зураг авахуулахад 12000 төгрөг, хуулбар хийлгэхэд 3000 төгрөг төсөвлөсөн.",
+        "Манайхаас коллеж хүртэл 3 километр болохоор аавтайгаа алхаж очно.",
+        "7 дугаар сарын 2-нд 14:00 цагт бичиг баримтаа хүргэж өгнө.",
+        "Сургалтын төлбөрт зориулж 1800000 төгрөг хадгаламждаа хийсэн байгаа.",
+        "Хичээл эхлэхээс 2 хоногийн өмнө дотуур байрандаа орохоор төлөвлөсөн."
+      ],
+      "roman": [
+        "Khovdod baidag kollejid elsekheer 2026 onii 6 dugaar saraas beldej ekhelne.",
+        "6 dugaar sariin 15-nd surguul deeree ochij gerchilgeegee avna.",
+        "Burtgeliin talaar 6 dugaar sariin 16-nd 10:00 tsagt utsaar lavlana.",
+        "Materialaa burduulekhed zurag, gerchilgeenii khuulbar geed 4 zuil kheregtei.",
+        "Zurag avakhuulakhad 12000 togrog, khuulbar khiilgekhed 3000 togrog tosovloson.",
+        "Manaikhaas kollej khurtel 3 kilometr bolokhoor aavtaigaa alkhaj ochno.",
+        "7 dugaar sariin 2-nd 14:00 tsagt bichig barimtaa khurgej ogno.",
+        "Surgaltiin tolbort zoriulj 1800000 togrog khadgalamjdaa khiisen baigaa.",
+        "Khicheel ekhlekhees 2 khonogiin omno dotuur bairandaa orokhoor tolovloson."
+      ]
+    },
+    {
+      "id": "mn-p07",
+      "kind": "para",
+      "title": "A Misdelivered Parcel",
+      "native": [
+        "Сайн байна уу? Хүргэлтийн хаягаа шалгуулах гэсэн юм.",
+        "Миний илгээмжийг Алтай хотхоны өөр байранд хүргэсэн бололтой.",
+        "Захиалга дээр Баянгол дүүрэг, Алтай хотхон гэж зөв бичсэн.",
+        "Харин хүргэлтийн зураг дээр манайхаас өөр өнгийн хаалга харагдаж байна.",
+        "Манай байрны дугаар 18, зэргэлдээ байрных 19 байдаг юм.",
+        "Хүргэгч тань энэ хоёр байрыг андуурсан юм шиг байна.",
+        "Та хүргэгчтэйгээ холбогдоод илгээмжийг маань зөв хаягаар хүргүүлээд өгч болох уу?",
+        "Орой 18:00 цагаас хойш гэртээ байна, тэр үед хүргээд өгөөрэй.",
+        "Илгээмж олдвол энэ дугаараар над руу залгаарай. Баярлалаа."
+      ],
+      "roman": [
+        "Sain baina uu? Khurgeltiin khayagaa shalguulakh gesen yum.",
+        "Minii ilgeemjiig Altai khotkhonii oor bairand khurgesen bololtoi.",
+        "Zakhialga deer Bayangol duureg, Altai khotkhon gej zov bichsen.",
+        "Kharin khurgeltiin zurag deer manaikhaas oor ongiin khaalga kharagdaj baina.",
+        "Manai bairnii dugaar 18, zergeldee bairniikh 19 baidag yum.",
+        "Khurgegch tan ene khoyor bairiig anduursan yum shig baina.",
+        "Ta khurgegchteigee kholbogdood ilgeemjiig maan zov khayagaar khurguuleed ogch bolokh uu?",
+        "Oroi 18:00 tsagaas khoish gertee baina, ter ued khurgeed ogoorei.",
+        "Ilgeemj oldvol ene dugaaraar nad ruu zalgaarai. Bayarlalaa."
+      ]
+    },
+    {
+      "id": "mn-p08",
+      "kind": "para",
+      "title": "Knucklebone Shooting in Zuunmod",
+      "native": [
+        "Зуунмодод шагайн харвааны тэмцээн болохоор спортын заал үзэгчдээр дүүрдэг.",
+        "Шагай харвахад гарын эв дүйгээс гадна анхаарлаа сайн төвлөрүүлэх хэрэгтэй.",
+        "Харваачид хашлага дээр тавьсан сумаа хуруугаараа нясалж харвадаг.",
+        "Харваачдын уухай заалаар нэг сонсогдоно.",
+        "Багийнхан нэгнийхээ харвааг анхааралтай ажиглаж, алдаа оноог нь ярилцдаг.",
+        "Үзэгчдийн дунд олон жил харвасан ахмадууд ч цөөнгүй суудаг.",
+        "Ахмадууд сайн харвасан залууст урам өгдөг.",
+        "Завсарлагаар хүмүүс танилуудтайгаа хууч хөөрч, дараагийн харвааны талаар ярилцдаг.",
+        "Энд янз бүрийн насны хүмүүс хамтдаа харвадаг."
+      ],
+      "roman": [
+        "Zuunmodod shagain kharvaanii temtseen bolokhoor sportiin zaal uzegchdeer duurdeg.",
+        "Shagai kharvakhad gariin ev duigees gadna ankhaarlaa sain tovloruulekh kheregtei.",
+        "Kharvaachid khashlaga deer tavsan sumaa khuruugaaraa nyasalj kharvadag.",
+        "Kharvaachdiin uukhai zaalaar neg sonsogdono.",
+        "Bagiinkhan negniikhee kharvaag ankhaaraltai ajiglaj, aldaa onoog ni yariltsdag.",
+        "Uzegchdiin dund olon jil kharvasan akhmaduud ch tsoongui suudag.",
+        "Akhmaduud sain kharvasan zaluust uram ogdog.",
+        "Zavsarlagaar khumuus taniluudtaigaa khuuch khoorch, daraagiin kharvaanii talaar yariltsdag.",
+        "End yanz buriin nasnii khumuus khamtdaa kharvadag."
+      ]
+    },
+    {
+      "id": "mn-s001",
+      "kind": "sentence",
+      "native": [
+        "Чамайг хүлээсээр байгаад муур хүртэл унтчихлаа шүү."
+      ],
+      "roman": [
+        "Chamaig khuleeseer baigaad muur khurtel untchikhlaa shuu."
+      ]
+    },
+    {
+      "id": "mn-s002",
+      "kind": "sentence",
+      "native": [
+        "Оёдлын захиалга энэ сард өмнөхөөсөө нэлээд нэмэгджээ."
+      ],
+      "roman": [
+        "Oyodliin zakhialga ene sard omnokhoosoo neleed nemegdjee."
+      ]
+    },
+    {
+      "id": "mn-s003",
+      "kind": "sentence",
+      "native": [
+        "Хариулт 6500 төгрөг үү?"
+      ],
+      "roman": [
+        "Khariult 6500 togrog uu?"
+      ]
+    },
+    {
+      "id": "mn-s004",
+      "kind": "sentence",
+      "native": [
+        "Номоо сунгуулахаа мартаж болохгүй."
+      ],
+      "roman": [
+        "Nomoo sunguulakhaa martaj bolokhgui."
+      ]
+    },
+    {
+      "id": "mn-s005",
+      "kind": "sentence",
+      "native": [
+        "Өмнө нь сонсож байсан подкастыг үргэлжлүүлээд тоглуулаарай."
+      ],
+      "roman": [
+        "Omno ni sonsoj baisan podkastiig urgeljluuleed togluulaarai."
+      ]
+    },
+    {
+      "id": "mn-s006",
+      "kind": "sentence",
+      "native": [
+        "Блютүүт холболт тасарчихлаа."
+      ],
+      "roman": [
+        "Blyutuut kholbolt tasarchikhlaa."
+      ]
+    },
+    {
+      "id": "mn-s007",
+      "kind": "sentence",
+      "native": [
+        "Наад гудамж чинь мухар."
+      ],
+      "roman": [
+        "Naad gudamj chin mukhar."
+      ]
+    },
+    {
+      "id": "mn-s008",
+      "kind": "sentence",
+      "native": [
+        "Зуурсан гурилаа жаахан амрааж байгаад элдвэл нимгэн болдог юм, одоохондоо бүтээж тавьчих."
+      ],
+      "roman": [
+        "Zuursan gurilaa jaakhan amraaj baigaad eldvel nimgen boldog yum, odookhondoo buteej tavchikh."
+      ]
+    },
+    {
+      "id": "mn-s009",
+      "kind": "sentence",
+      "native": [
+        "Ачигч нь хэдийд ирэх вэ?"
+      ],
+      "roman": [
+        "Achigch n khediid irekh ve?"
+      ]
+    },
+    {
+      "id": "mn-s010",
+      "kind": "sentence",
+      "native": [
+        "Заримдаа бүгдийг амжуулах гэж яарснаас ажлаа түр орхиод амарсан нь дээр санагддаг."
+      ],
+      "roman": [
+        "Zarimdaa bugdiig amjuulakh gej yaarsnaas ajlaa tur orkhiod amarsan n deer sanagddag."
+      ]
+    },
+    {
+      "id": "mn-s011",
+      "kind": "sentence",
+      "native": [
+        "Хүслэн, чиний малгай манай машинд үлдчихсэн байна."
+      ],
+      "roman": [
+        "Khuslen, chinii malgai manai mashind uldchikhsen baina."
+      ]
+    },
+    {
+      "id": "mn-s012",
+      "kind": "sentence",
+      "native": [
+        "Энхжин өнөөдрийн сургалтын материалыг дундын хавтсанд оруулчихсан шүү."
+      ],
+      "roman": [
+        "Enkhjin onoodriin surgaltiin materialiig dundiin khavtsand oruulchikhsan shuu."
+      ]
+    },
+    {
+      "id": "mn-s013",
+      "kind": "sentence",
+      "native": [
+        "Энэ кет 240000 төгрөгөөс 180000 төгрөг болж хямдарчээ."
+      ],
+      "roman": [
+        "Ene ket 240000 togrogoos 180000 togrog bolj khyamdarchee."
+      ]
+    },
+    {
+      "id": "mn-s014",
+      "kind": "sentence",
+      "native": [
+        "Захиалгын баримтаа хадгалах хэрэгтэй."
+      ],
+      "roman": [
+        "Zakhialgiin barimtaa khadgalakh kheregtei."
+      ]
+    },
+    {
+      "id": "mn-s015",
+      "kind": "sentence",
+      "native": [
+        "Зуунмодод ирэх амралтын өдрүүдэд цаг агаар ямар байх вэ?"
+      ],
+      "roman": [
+        "Zuunmodod irekh amraltiin odruuded tsag agaar yamar baikh ve?"
+      ]
+    },
+    {
+      "id": "mn-s016",
+      "kind": "sentence",
+      "native": [
+        "Тийм ээ, бичлэг хадгалагдсан."
+      ],
+      "roman": [
+        "Tiim ee, bichleg khadgalagdsan."
+      ]
+    },
+    {
+      "id": "mn-s017",
+      "kind": "sentence",
+      "native": [
+        "Буух буудлаа өнгөрөөчихөж."
+      ],
+      "roman": [
+        "Buukh buudlaa ongoroochikhoj."
+      ]
+    },
+    {
+      "id": "mn-s018",
+      "kind": "sentence",
+      "native": [
+        "Шүүгээний нугасыг чангалчихвал хаалга нь тэгшхэн болох байх."
+      ],
+      "roman": [
+        "Shuugeenii nugasiig changalchikhval khaalga n tegshkhen bolokh baikh."
+      ]
+    },
+    {
+      "id": "mn-s019",
+      "kind": "sentence",
+      "native": [
+        "Гурван хуушуур, таван бууз авъя, уух юм хэрэггүй."
+      ],
+      "roman": [
+        "Gurvan khuushuur, tavan buuz avya, uukh yum khereggui."
+      ]
+    },
+    {
+      "id": "mn-s020",
+      "kind": "sentence",
+      "native": [
+        "Архангайд амарсан хэдэн хоногоо бодохоор буцаад тэр нам гүм газар очмоор санагдах юм."
+      ],
+      "roman": [
+        "Arkhangaid amarsan kheden khonogoo bodokhoor butsaad ter nam gum gazar ochmoor sanagdakh yum."
+      ]
+    },
+    {
+      "id": "mn-s021",
+      "kind": "sentence",
+      "native": [
+        "Маргааш Сүхбаатарын талбайн урд 11:30 гэхэд ирж чадах уу?"
+      ],
+      "roman": [
+        "Margaash Sukhbaatariin talbain urd 11:30 gekhed irj chadakh uu?"
+      ]
+    },
+    {
+      "id": "mn-s022",
+      "kind": "sentence",
+      "native": [
+        "Өөрчлөлт оруулсан мөрүүдээ тодруулаад өгвөл надад өмнөх хувилбартай нь харьцуулж үзэхэд амар байна."
+      ],
+      "roman": [
+        "Oorchlolt oruulsan moruudee todruulaad ogvol nadad omnokh khuvilbartai n khartsuulj uzekhed amar baina."
+      ]
+    },
+    {
+      "id": "mn-s023",
+      "kind": "sentence",
+      "native": [
+        "Баянзүрх дүүргийн 26 дугаар хороо, 12 дугаар байрны 45 тоотод хүргэж өгөөрэй."
+      ],
+      "roman": [
+        "Bayanzurkh duurgiin 26 dugaar khoroo, 12 dugaar bairnii 45 tootod khurgej ogoorei."
+      ]
+    },
+    {
+      "id": "mn-s024",
+      "kind": "sentence",
+      "native": [
+        "Нямд банштай цай хийхэд борц хэрэгтэйг бичээд авчих."
+      ],
+      "roman": [
+        "Nyamd banshtai tsai khiikhed borts kheregteig bicheed avchikh."
+      ]
+    },
+    {
+      "id": "mn-s025",
+      "kind": "sentence",
+      "native": [
+        "Эгчээс ирсэн мессежийг чангаар уншаад, хариуд нь замдаа явж байна гэж бичээд явуулчих."
+      ],
+      "roman": [
+        "Egchees irsen messejiig changaar unshaad, khariud ni zamdaa yavj baina gej bicheed yavuulchikh."
+      ]
+    },
+    {
+      "id": "mn-s026",
+      "kind": "sentence",
+      "native": [
+        "Ивээл ээ, агуулахын барааг утсаар бүртгэдэг болсноос хойш дэвтэр дээр давхар бичихээ больсон."
+      ],
+      "roman": [
+        "Iveel ee, aguulakhiin baraag utsaar burtgedeg bolsnoos khoish devter deer davkhar bichikhee bolson."
+      ]
+    },
+    {
+      "id": "mn-s027",
+      "kind": "sentence",
+      "native": [
+        "Авга ахынд очихдоо хашааны хойд хаалгаар ороорой."
+      ],
+      "roman": [
+        "Avga akhiind ochikhdoo khashaanii khoid khaalgaar orooroi."
+      ]
+    },
+    {
+      "id": "mn-s028",
+      "kind": "sentence",
+      "native": [
+        "Угаалтуурын цорго дусаад байна."
+      ],
+      "roman": [
+        "Ugaaltuuriin tsorgo dusaad baina."
+      ]
+    },
+    {
+      "id": "mn-s029",
+      "kind": "sentence",
+      "native": [
+        "Биш ээ, нөгөөдөр явна."
+      ],
+      "roman": [
+        "Bish ee, nogoodor yavna."
+      ]
+    },
+    {
+      "id": "mn-s030",
+      "kind": "sentence",
+      "native": [
+        "Дэлгүүрийн дараалал удаан урагшлахаар жаахан бухимдчих юм."
+      ],
+      "roman": [
+        "Delguuriin daraalal udaan uragshlakhaar jaakhan bukhimdchikh yum."
+      ]
+    },
+    {
+      "id": "mn-s031",
+      "kind": "sentence",
+      "native": [
+        "Түрүүн явуулсан бичлэгийг чинь үзээд инээд хүрчихлээ, тэр нохой өөрөө хаалгаа онгойлгосон юм уу?"
+      ],
+      "roman": [
+        "Turuun yavuulsan bichlegiig chini uzeed ineed khurchikhlee, ter nokhoi ooroo khaalgaa ongoilgoson yum uu?"
+      ]
+    },
+    {
+      "id": "mn-s032",
+      "kind": "sentence",
+      "native": [
+        "Улаангом руу томилолтоор явах хүмүүсийн нэрсийг өнөө орой багтааж явуулбал тасалбарыг нь захиалчихъя."
+      ],
+      "roman": [
+        "Ulaangom ruu tomiloltoor yavakh khumuusiin nersiig onoo oroi bagtaaj yavuulbal tasalbariig n zakhialchikhya."
+      ]
+    },
+    {
+      "id": "mn-s033",
+      "kind": "sentence",
+      "native": [
+        "Өвөө 76 нас хүрлээ."
+      ],
+      "roman": [
+        "Ovoo 76 nas khurlee."
+      ]
+    },
+    {
+      "id": "mn-s034",
+      "kind": "sentence",
+      "native": [
+        "Ховдоос ирэх илгээмжээ мягмар гарагт шуудангаас авна."
+      ],
+      "roman": [
+        "Khovdoos irekh ilgeemjee myagmar garagt shuudangaas avna."
+      ]
+    },
+    {
+      "id": "mn-s035",
+      "kind": "sentence",
+      "native": [
+        "Аружан руу залгаад өгөөч."
+      ],
+      "roman": [
+        "Arujan ruu zalgaad ogooch."
+      ]
+    },
+    {
+      "id": "mn-s036",
+      "kind": "sentence",
+      "native": [
+        "Нууц үгээ сольчихлоо."
+      ],
+      "roman": [
+        "Nuuts ugee solchikhloo."
+      ]
+    },
+    {
+      "id": "mn-s037",
+      "kind": "sentence",
+      "native": [
+        "Цонхны дэргэд сул суудал байвал суучихъя даа."
+      ],
+      "roman": [
+        "Tsonkhnii derged sul suudal baival suuchikhya daa."
+      ]
+    },
+    {
+      "id": "mn-s038",
+      "kind": "sentence",
+      "native": [
+        "Үсээ засуулах цагаа үдээс өмнө болгож болох уу?"
+      ],
+      "roman": [
+        "Usee zasuulakh tsagaa udees omno bolgoj bolokh uu?"
+      ]
+    },
+    {
+      "id": "mn-s039",
+      "kind": "sentence",
+      "native": [
+        "Түр азнаарай, хэдэн ширхэг гэсэн бэ?"
+      ],
+      "roman": [
+        "Tur aznaarai, kheden shirkheg gesen be?"
+      ]
+    },
+    {
+      "id": "mn-s040",
+      "kind": "sentence",
+      "native": [
+        "Алдсан ч шантрах хэрэггүй, дахиад оролдоод үзээрэй."
+      ],
+      "roman": [
+        "Aldsan ch shantrakh khereggui, dakhiad oroldood uzeerei."
+      ]
+    },
+    {
+      "id": "mn-s041",
+      "kind": "sentence",
+      "native": [
+        "Шинэ хөшгийн өнгө буйдантай чинь яг таарч байна."
+      ],
+      "roman": [
+        "Shine khoshgiin ongo buidantai chin yag taarch baina."
+      ]
+    },
+    {
+      "id": "mn-s042",
+      "kind": "sentence",
+      "native": [
+        "Саналыг тань дэмжиж байна."
+      ],
+      "roman": [
+        "Sanaliig tan demjij baina."
+      ]
+    },
+    {
+      "id": "mn-s043",
+      "kind": "sentence",
+      "native": [
+        "Зуухаа 190 хэмд халаагаад, жигнэмгээ 14 минут жигнээрэй."
+      ],
+      "roman": [
+        "Zuukhaa 190 khemd khalaagaad, jignemgee 14 minut jigneerei."
+      ]
+    },
+    {
+      "id": "mn-s044",
+      "kind": "sentence",
+      "native": [
+        "Бямба гарагт Барс захаас үзэм авна."
+      ],
+      "roman": [
+        "Byamba garagt Bars zakhaas uzem avna."
+      ]
+    },
+    {
+      "id": "mn-s045",
+      "kind": "sentence",
+      "native": [
+        "Ойр хавьд дугуй засварын газар байвал заагаад өгөөч."
+      ],
+      "roman": [
+        "Oir khavd dugui zasvariin gazar baival zaagaad ogooch."
+      ]
+    },
+    {
+      "id": "mn-s046",
+      "kind": "sentence",
+      "native": [
+        "Санамсаргүй устгасан хавтсаа хогийн савнаас буцааж сэргээж болох уу?"
+      ],
+      "roman": [
+        "Sanamsargui ustgasan khavtsaa khogiin savnaas butsaaj sergeej bolokh uu?"
+      ]
+    },
+    {
+      "id": "mn-s047",
+      "kind": "sentence",
+      "native": [
+        "Шатны хажуугийн жижиг хаалгаар ороод зүүн тийш эргэхээр манай тасаг шууд харагдана."
+      ],
+      "roman": [
+        "Shatnii khajuugiin jijig khaalgaar orood zuun tiish ergekheer manai tasag shuud kharagdana."
+      ]
+    },
+    {
+      "id": "mn-s048",
+      "kind": "sentence",
+      "native": [
+        "Дэлгэсэн ааруулаа тагтан дээрээс хураагаад оруулаарай."
+      ],
+      "roman": [
+        "Delgesen aaruulaa tagtan deerees khuraagaad oruulaarai."
+      ]
+    },
+    {
+      "id": "mn-s049",
+      "kind": "sentence",
+      "native": [
+        "Бодлоо өөрчиллөө. Захиалгаа хүргүүлэхгүй, өөрөө очоод авчихъя."
+      ],
+      "roman": [
+        "Bodloo oorchilloo. Zakhialgaa khurguulekhgui, ooroo ochood avchikhya."
+      ]
+    },
+    {
+      "id": "mn-s050",
+      "kind": "sentence",
+      "native": [
+        "Төгөлдөр өө, чи гитараа өмнөхөөсөө хамаагүй гоё тоглодог болжээ."
+      ],
+      "roman": [
+        "Togoldor oo, chi gitaraa omnokhoosoo khamaagui goyo toglodog boljee."
+      ]
+    },
+    {
+      "id": "mn-s051",
+      "kind": "sentence",
+      "native": [
+        "Билгүүн, ажлаасаа тараад Долоон буудал орох бол замаараа намайг аваад яваач."
+      ],
+      "roman": [
+        "Bilguun, ajlaasaa taraad Doloon buudal orokh bol zamaaraa namaig avaad yavaach."
+      ]
+    },
+    {
+      "id": "mn-s052",
+      "kind": "sentence",
+      "native": [
+        "Чөлөөний хүсэлтийг чинь зөвшөөрсөн, санаа зоволтгүй яваарай."
+      ],
+      "roman": [
+        "Chooloonii khuseltiig chin zovshoorson, sanaa zovoltgui yavaarai."
+      ]
+    },
+    {
+      "id": "mn-s053",
+      "kind": "sentence",
+      "native": [
+        "Алхалтын апп дээр 6200 алхам, 4 километр гэж гарчээ."
+      ],
+      "roman": [
+        "Alkhaltiin app deer 6200 alkham, 4 kilometr gej garchee."
+      ]
+    },
+    {
+      "id": "mn-s054",
+      "kind": "sentence",
+      "native": [
+        "Авах юмны жагсаалтад саван нэмчих."
+      ],
+      "roman": [
+        "Avakh yumnii jagsaaltad savan nemchikh."
+      ]
+    },
+    {
+      "id": "mn-s055",
+      "kind": "sentence",
+      "native": [
+        "Тэрэлж рүү явах автобусны цагийн хуваарийг олоод, сүүлийнх нь хэдээс хөдлөхийг хэлээд өгөөч."
+      ],
+      "roman": [
+        "Terelj ruu yavakh avtobusnii tsagiin khuvaariig olood, suuliinkh ni khedees khodlokhiig kheleed ogooch."
+      ]
+    },
+    {
+      "id": "mn-s056",
+      "kind": "sentence",
+      "native": [
+        "Мишээл, Zoom-ээр орохоор дуу чинь цуурайтаад байна."
+      ],
+      "roman": [
+        "Misheel, Zoom-eer orokhoor duu chin tsuuraitaad baina."
+      ]
+    },
+    {
+      "id": "mn-s057",
+      "kind": "sentence",
+      "native": [
+        "Такси буланд зогсож байгаа."
+      ],
+      "roman": [
+        "Taksi buland zogsoj baigaa."
+      ]
+    },
+    {
+      "id": "mn-s058",
+      "kind": "sentence",
+      "native": [
+        "Давс нь арай ихэдчихэж."
+      ],
+      "roman": [
+        "Davs n arai ikhedchikhej."
+      ]
+    },
+    {
+      "id": "mn-s059",
+      "kind": "sentence",
+      "native": [
+        "Аяллын цүнхэнд алчуур, сам, нарны тос хийгээд, шүхэр ч бас нэмчих, бороо орж магадгүй."
+      ],
+      "roman": [
+        "Ayalliin tsunkhend alchuur, sam, narnii tos khiigeed, shukher ch bas nemchikh, boroo orj magadgui."
+      ]
+    },
+    {
+      "id": "mn-s060",
+      "kind": "sentence",
+      "native": [
+        "Яриаг чинь тасалдуулсанд уучлаарай."
+      ],
+      "roman": [
+        "Yariag chin tasalduulsand uuchlaarai."
+      ]
+    },
+    {
+      "id": "mn-s061",
+      "kind": "sentence",
+      "native": [
+        "Хүүхдүүдийг унтсаны дараа шатар тоглоё, энэ удаа чамд амархан хожигдохгүй шүү."
+      ],
+      "roman": [
+        "Khuukhduudiig untsanii daraa shatar togloyo, ene udaa chamd amarkhan khojigdokhgui shuu."
+      ]
+    },
+    {
+      "id": "mn-s062",
+      "kind": "sentence",
+      "native": [
+        "Баримтын эх хувийг шуудангаар явуулах шаардлагатай юу?"
+      ],
+      "roman": [
+        "Barimtiin ekh khuviig shuudangaar yavuulakh shaardlagatai yu?"
+      ]
+    },
+    {
+      "id": "mn-s063",
+      "kind": "sentence",
+      "native": [
+        "Засварчин 13:00 цагаас хойш 38 тоотод орж болно."
+      ],
+      "roman": [
+        "Zasvarchin 13:00 tsagaas khoish 38 tootod orj bolno."
+      ]
+    },
+    {
+      "id": "mn-s064",
+      "kind": "sentence",
+      "native": [
+        "Хальтиргаа ихтэй байгаа болохоор Чойр орохдоо машинаа унахгүй, галт тэргээр явсан нь дээр."
+      ],
+      "roman": [
+        "Khaltirgaa ikhtei baigaa bolokhoor Choir orokhdoo mashinaa unakhgui, galt tergeer yavsan ni deer."
+      ]
+    },
+    {
+      "id": "mn-s065",
+      "kind": "sentence",
+      "native": [
+        "Унтахаасаа өмнө сонсох гэсэн юм, борооны чимээ тавиад 30 минутын дараа автоматаар унтраагаарай."
+      ],
+      "roman": [
+        "Untakhaasaa omno sonsokh gesen yum, boroonii chimee taviad 30 minutiin daraa avtomataar untraagaarai."
+      ]
+    },
+    {
+      "id": "mn-s066",
+      "kind": "sentence",
+      "native": [
+        "Болормаа, Excel дээрх томьёо чинь буруу нүд заачихсан байна."
+      ],
+      "roman": [
+        "Bolormaa, Excel deerkh tomyoo chin buruu nud zaachikhsan baina."
+      ]
+    },
+    {
+      "id": "mn-s067",
+      "kind": "sentence",
+      "native": [
+        "Урд талын дэлгүүр нүүгээд оронд нь оёдолчин орчихжээ."
+      ],
+      "roman": [
+        "Urd taliin delguur nuugeed orond n oyodolchin orchikhjee."
+      ]
+    },
+    {
+      "id": "mn-s068",
+      "kind": "sentence",
+      "native": [
+        "Түлхүүр хувилдаг газар эндээс хол байдаг уу?"
+      ],
+      "roman": [
+        "Tulkhuur khuvildag gazar endees khol baidag uu?"
+      ]
+    },
+    {
+      "id": "mn-s069",
+      "kind": "sentence",
+      "native": [
+        "Сандлаа нааш нь татчих, эсвэл би тийшээ суучихъя."
+      ],
+      "roman": [
+        "Sandlaa naash ni tatchikh, esvel bi tiishee suuchikhya."
+      ]
+    },
+    {
+      "id": "mn-s070",
+      "kind": "sentence",
+      "native": [
+        "Мөнхцэцэг эгч ээ, цамц оёж өгсөнд баярлалаа."
+      ],
+      "roman": [
+        "Monkhtsetseg egch ee, tsamts oyoj ogsond bayarlalaa."
+      ]
+    },
+    {
+      "id": "mn-s071",
+      "kind": "sentence",
+      "native": [
+        "Өнөөдөр хийсэн цуйван чинь ёстой гоё болжээ."
+      ],
+      "roman": [
+        "Onoodor khiisen tsuivan chin yostoi goyo boljee."
+      ]
+    },
+    {
+      "id": "mn-s072",
+      "kind": "sentence",
+      "native": [
+        "Дэлгэцээ хуваалцахаар хүснэгтийн баруун зах харагдахгүй байна."
+      ],
+      "roman": [
+        "Delgetsee khuvaaltsakhaar khusnegtiin baruun zakh kharagdakhgui baina."
+      ]
+    },
+    {
+      "id": "mn-s073",
+      "kind": "sentence",
+      "native": [
+        "2026 оны 8 дугаар сарын 22-ны сургалтад 25 хүн бүртгүүлж, 19 нь төлбөрөө шилжүүлсэн."
+      ],
+      "roman": [
+        "2026 onii 8 dugaar sariin 22-ni surgaltad 25 khun burtguulj, 19 n tolboroo shiljuulsen."
+      ]
+    },
+    {
+      "id": "mn-s074",
+      "kind": "sentence",
+      "native": [
+        "Саруулын төрсөн өдөр 9 дүгээр сарын 14-нд гэдгийг хуанлидаа тэмдэглэж аваарай."
+      ],
+      "roman": [
+        "Saruuliin torson odor 9 dugeer sariin 14-nd gedgiig khuanlidaa temdeglej avaarai."
+      ]
+    },
+    {
+      "id": "mn-s075",
+      "kind": "sentence",
+      "native": [
+        "Гар чийдэнгээ асаагаад өг."
+      ],
+      "roman": [
+        "Gar chiidengee asaagaad og."
+      ]
+    },
+    {
+      "id": "mn-s076",
+      "kind": "sentence",
+      "native": [
+        "Хурлын тэмдэглэлээ хамт засахын тулд энэ баримт дээр надад бичих эрх нээгээд өгөөч."
+      ],
+      "roman": [
+        "Khurliin temdeglelee khamt zasakhiin tuld ene barimt deer nadad bichikh erkh neegeed ogooch."
+      ]
+    },
+    {
+      "id": "mn-s077",
+      "kind": "sentence",
+      "native": [
+        "Хамт ажилладаг залуу маань хөрш болчихсон байна."
+      ],
+      "roman": [
+        "Khamt ajilladag zaluu maan khorsh bolchikhson baina."
+      ]
+    },
+    {
+      "id": "mn-s078",
+      "kind": "sentence",
+      "native": [
+        "Цагаан сараар өмсөх дээлнийхээ товчийг солиулах гэсэн юм, та ижил өнгийн утсаар хадаад өгөх үү?"
+      ],
+      "roman": [
+        "Tsagaan saraar omsokh deelniikhee tovchiig soliulakh gesen yum, ta ijil ongiin utsaar khadaad ogokh uu?"
+      ]
+    },
+    {
+      "id": "mn-s079",
+      "kind": "sentence",
+      "native": [
+        "Уучлаарай, томыг нь хэлсэн."
+      ],
+      "roman": [
+        "Uuchlaarai, tomiig n khelsen."
+      ]
+    },
+    {
+      "id": "mn-s080",
+      "kind": "sentence",
+      "native": [
+        "Ёстой сайхан мэдээ байна!"
+      ],
+      "roman": [
+        "Yostoi saikhan medee baina!"
+      ]
+    },
+    {
+      "id": "mn-s081",
+      "kind": "sentence",
+      "native": [
+        "Дугуйгаа унаад голын эрэг рүү салхилах уу?"
+      ],
+      "roman": [
+        "Duguigaa unaad goliin ereg ruu salkhilakh uu?"
+      ]
+    },
+    {
+      "id": "mn-s082",
+      "kind": "sentence",
+      "native": [
+        "Хариу ирээгүй болохоор үнийн саналынхаа талаар дахин биччихлээ."
+      ],
+      "roman": [
+        "Khariu ireegui bolokhoor uniin sanaliinkhaa talaar dakhin bichchikhlee."
+      ]
+    },
+    {
+      "id": "mn-s083",
+      "kind": "sentence",
+      "native": [
+        "Нийт 73500 төгрөг боллоо."
+      ],
+      "roman": [
+        "Niit 73500 togrog bolloo."
+      ]
+    },
+    {
+      "id": "mn-s084",
+      "kind": "sentence",
+      "native": [
+        "Сүлжмэлийн дугуйланд бүдүүн зүү хэрэгтэйг тэмдэглэчих."
+      ],
+      "roman": [
+        "Suljmeliin duguiland buduun zuu kheregteig temdeglechikh."
+      ]
+    },
+    {
+      "id": "mn-s085",
+      "kind": "sentence",
+      "native": [
+        "Шангри-Ла хүртэл түгжрэл багатай замаар яаж очих вэ?"
+      ],
+      "roman": [
+        "Shangri-La khurtel tugjrel bagatai zamaar yaaj ochikh ve?"
+      ]
+    },
+    {
+      "id": "mn-s086",
+      "kind": "sentence",
+      "native": [
+        "Word дээр үсгийн хэмжээг томруулбал уншихад амар юм."
+      ],
+      "roman": [
+        "Word deer usgiin khemjeeg tomruulbal unshikhad amar yum."
+      ]
+    },
+    {
+      "id": "mn-s087",
+      "kind": "sentence",
+      "native": [
+        "Халиунтай Улсын их дэлгүүрийн ард тааралдлаа."
+      ],
+      "roman": [
+        "Khaliuntai Ulsiin ikh delguuriin ard taaraldlaa."
+      ]
+    },
+    {
+      "id": "mn-s088",
+      "kind": "sentence",
+      "native": [
+        "Бөмбөгөр дээр ийм даавуу метр нь хэдтэй байна?"
+      ],
+      "roman": [
+        "Bombogor deer iim daavuu metr n khedtei baina?"
+      ]
+    },
+    {
+      "id": "mn-s089",
+      "kind": "sentence",
+      "native": [
+        "Лууван, байцаа, сонгино аваарай."
+      ],
+      "roman": [
+        "Luuvan, baitsaa, songino avaarai."
+      ]
+    },
+    {
+      "id": "mn-s090",
+      "kind": "sentence",
+      "native": [
+        "Оюун эгч маргааш ач охинтойгоо танайд очно гэсэн."
+      ],
+      "roman": [
+        "Oyuun egch margaash ach okhintoigoo tanaid ochno gesen."
+      ]
+    },
+    {
+      "id": "mn-s091",
+      "kind": "sentence",
+      "native": [
+        "Мягмар гарагийн хурлыг 10:30 хүртэл хойшлуулж болох уу?"
+      ],
+      "roman": [
+        "Myagmar garagiin khurliig 10:30 khurtel khoishluulj bolokh uu?"
+      ]
+    },
+    {
+      "id": "mn-s092",
+      "kind": "sentence",
+      "native": [
+        "Цехэд 7 ширхэг банз үлдсэн, тус бүр нь 3 метр урттай, 25 сантиметр өргөнтэй."
+      ],
+      "roman": [
+        "Tsekhed 7 shirkheg banz uldsen, tus bur ni 3 metr urttai, 25 santimetr orgontei."
+      ]
+    },
+    {
+      "id": "mn-s093",
+      "kind": "sentence",
+      "native": [
+        "Ирэх долоо хоногт цахилгааны төлбөрөө төлөхийг надад сануул."
+      ],
+      "roman": [
+        "Irekh doloo khonogt tsakhilgaanii tolboroo tolokhiig nadad sanuul."
+      ]
+    },
+    {
+      "id": "mn-s094",
+      "kind": "sentence",
+      "native": [
+        "Чихэвчний нэг тал ажиллахгүй байвал яаж засах вэ?"
+      ],
+      "roman": [
+        "Chikhevchnii neg tal ajillakhgui baival yaaj zasakh ve?"
+      ]
+    },
+    {
+      "id": "mn-s095",
+      "kind": "sentence",
+      "native": [
+        "Chrome нээх болгонд хэрэггүй шинэ цонх өөрөө гарч ирээд байна."
+      ],
+      "roman": [
+        "Chrome neekh bolgond khereggui shine tsonkh ooroo garch ireed baina."
+      ]
+    },
+    {
+      "id": "mn-s096",
+      "kind": "sentence",
+      "native": [
+        "Энхтуяа эгч Хархоринд тосож авна гэсэн болохоор унаа хайх хэрэггүй болчихлоо."
+      ],
+      "roman": [
+        "Enkhtuyaa egch Kharkhorind tosoj avna gesen bolokhoor unaa khaikh khereggui bolchikhloo."
+      ]
+    },
+    {
+      "id": "mn-s097",
+      "kind": "sentence",
+      "native": [
+        "Гадаа нэлээд сэрүүсчихжээ."
+      ],
+      "roman": [
+        "Gadaa neleed seruuschikhjee."
+      ]
+    },
+    {
+      "id": "mn-s098",
+      "kind": "sentence",
+      "native": [
+        "Бат аа, 35000 биш, 32000 төгрөг шилжүүлээрэй."
+      ],
+      "roman": [
+        "Bat aa, 35000 bish, 32000 togrog shiljuuleerei."
+      ]
+    },
+    {
+      "id": "mn-s099",
+      "kind": "sentence",
+      "native": [
+        "Зургаа явуулчих, эмээд хэвлээд хүргээд өгье."
+      ],
+      "roman": [
+        "Zurgaa yavuulchikh, emeed khevleed khurgeed ogye."
+      ]
+    },
+    {
+      "id": "mn-s100",
+      "kind": "sentence",
+      "native": [
+        "Тэгье, үдээс хойш ярилцъя."
+      ],
+      "roman": [
+        "Tegye, udees khoish yariltsya."
+      ]
+    },
+    {
+      "id": "mn-s101",
+      "kind": "sentence",
+      "native": [
+        "Захиалсан тавиурын өргөн 80 сантиметр, өндөр нь 160 сантиметр."
+      ],
+      "roman": [
+        "Zakhialsan taviuriin orgon 80 santimetr, ondor n 160 santimetr."
+      ]
+    },
+    {
+      "id": "mn-s102",
+      "kind": "sentence",
+      "native": [
+        "Лхагва гарагт гутлаа засвараас очиж авахыг сануулаарай."
+      ],
+      "roman": [
+        "Lkhagva garagt gutlaa zasvaraas ochij avakhiig sanuulaarai."
+      ]
+    },
+    {
+      "id": "mn-s103",
+      "kind": "sentence",
+      "native": [
+        "8 минутын таймер тавьчих."
+      ],
+      "roman": [
+        "8 minutiin taimer tavchikh."
+      ]
+    },
+    {
+      "id": "mn-s104",
+      "kind": "sentence",
+      "native": [
+        "QPay уншуулахаар төлбөрийн хуудас нь нээгдэхгүй юм."
+      ],
+      "roman": [
+        "QPay unshuulakhaar tolboriin khuudas ni neegdekhgui yum."
+      ]
+    },
+    {
+      "id": "mn-s105",
+      "kind": "sentence",
+      "native": [
+        "Туяа үүдэнд хүлээж байна."
+      ],
+      "roman": [
+        "Tuyaa uudend khuleej baina."
+      ]
+    },
+    {
+      "id": "mn-s106",
+      "kind": "sentence",
+      "native": [
+        "Сондорын багш эцэг эхийн хурал зарласан байна."
+      ],
+      "roman": [
+        "Sondoriin bagsh etseg ekhiin khural zarlasan baina."
+      ]
+    },
+    {
+      "id": "mn-s107",
+      "kind": "sentence",
+      "native": [
+        "Чиний илтгэлийг эхлээд сонсъё, үгүй ээ, проектор асах хооронд асуултуудаа ярилцаж байя."
+      ],
+      "roman": [
+        "Chinii iltgeliig ekhleed sonsyo, ugui ee, proyektor asakh khoorond asuultuudaa yariltsaj baiya."
+      ]
+    },
+    {
+      "id": "mn-s108",
+      "kind": "sentence",
+      "native": [
+        "Оройн киноны тасалбарыг би захиалчихъя, харин чи дүүгээ цэцэрлэгээс нь аваад ирээрэй."
+      ],
+      "roman": [
+        "Oroin kinonii tasalbariig bi zakhialchikhya, kharin chi duugee tsetserlegees ni avaad ireerei."
+      ]
+    },
+    {
+      "id": "mn-s109",
+      "kind": "sentence",
+      "native": [
+        "Ариунаа, агуулахын түлхүүрийг няравт нь үлдээж болох уу?"
+      ],
+      "roman": [
+        "Ariunaa, aguulakhiin tulkhuuriig nyaravt ni uldeej bolokh uu?"
+      ]
+    },
+    {
+      "id": "mn-s110",
+      "kind": "sentence",
+      "native": [
+        "Тэмүүлэнгийн шинэ дугаар 88003456, хуучныг нь устгачих."
+      ],
+      "roman": [
+        "Temuulengiin shine dugaar 88003456, khuuchniig n ustgachikh."
+      ]
+    },
+    {
+      "id": "mn-s111",
+      "kind": "sentence",
+      "native": [
+        "Ононтой пүрэв гарагийн үдээс хойш бадминтон тоглохоор товлочих."
+      ],
+      "roman": [
+        "Onontoi purev garagiin udees khoish badminton toglokhoor tovlochikh."
+      ]
+    },
+    {
+      "id": "mn-s112",
+      "kind": "sentence",
+      "native": [
+        "Хайлмаг хийхэд ямар орц хэрэгтэйг хайгаад өгөөч."
+      ],
+      "roman": [
+        "Khailmag khiikhed yamar orts kheregteig khaigaad ogooch."
+      ]
+    },
+    {
+      "id": "mn-s113",
+      "kind": "sentence",
+      "native": [
+        "Голомтын апп руу орох гэсэн чинь баталгаажуулах код хуучин дугаар луу очоод байх юм."
+      ],
+      "roman": [
+        "Golomtiin app ruu orokh gesen chin batalgaajuulakh kod khuuchin dugaar luu ochood baikh yum."
+      ]
+    },
+    {
+      "id": "mn-s114",
+      "kind": "sentence",
+      "native": [
+        "Сансрын туннелиэр гарвал цэцэрлэгт хурдан хүрэх үү?"
+      ],
+      "roman": [
+        "Sansriin tunnelieer garval tsetserlegt khurdan khurekh uu?"
+      ]
+    },
+    {
+      "id": "mn-s115",
+      "kind": "sentence",
+      "native": [
+        "Хүүхдийн биеийн тамирын хувцас хатаж амжаагүй болохоор нөөц өмдийг нь цүнхэнд хийчихсэн шүү."
+      ],
+      "roman": [
+        "Khuukhdiin biyeiin tamiriin khuvtsas khataj amjaagui bolokhoor noots omdiig n tsunkhend khiichikhsen shuu."
+      ]
+    },
+    {
+      "id": "mn-s116",
+      "kind": "sentence",
+      "native": [
+        "Дөлгөөнд сэтгүүлийг нь дараагийн удаа авчиръя гэж зурвас явуулаарай."
+      ],
+      "roman": [
+        "Dolgoond setguuliig n daraagiin udaa avchirya gej zurvas yavuulaarai."
+      ]
+    },
+    {
+      "id": "mn-s117",
+      "kind": "sentence",
+      "native": [
+        "Надад жаахан хоол үлдээгээрэй."
+      ],
+      "roman": [
+        "Nadad jaakhan khool uldeegeerei."
+      ]
+    },
+    {
+      "id": "mn-s118",
+      "kind": "sentence",
+      "native": [
+        "Захиалагч логогоо солихоор болсон тул танилцуулгын сүүлийн хуудсыг хэвлэхгүй байж байгаарай."
+      ],
+      "roman": [
+        "Zakhialagch logogoo solikhoor bolson tul taniltsuulgiin suuliin khuudsiig khevlekhgui baij baigaarai."
+      ]
+    },
+    {
+      "id": "mn-s119",
+      "kind": "sentence",
+      "native": [
+        "Баасан гарагийн давтлага 15:20-оос 16:50 хүртэл үргэлжилнэ."
+      ],
+      "roman": [
+        "Baasan garagiin davtlaga 15:20-us 16:50 khurtel urgeljilne."
+      ]
+    },
+    {
+      "id": "mn-s120",
+      "kind": "sentence",
+      "native": [
+        "Налайх явахаасаа өмнө машины дугуйн хийг шалгуулж, бакаа дүүргэхээ мартаж болохгүй."
+      ],
+      "roman": [
+        "Nalaikh yavakhaasaa omno mashinii duguin khiig shalguulj, bakaa duurgekhee martaj bolokhgui."
+      ]
+    },
+    {
+      "id": "mn-s121",
+      "kind": "sentence",
+      "native": [
+        "Сая татсан баримтыг бүтэн хуудсаар нь харуулаач."
+      ],
+      "roman": [
+        "Saya tatsan barimtiig buten khuudsaar ni kharuulaach."
+      ]
+    },
+    {
+      "id": "mn-s122",
+      "kind": "sentence",
+      "native": [
+        "Принтерийн хор дуусчихаж, доод шүүгээнд нөөц байгаа юу?"
+      ],
+      "roman": [
+        "Printeriin khor duuschikhaj, dood shuugeend noots baigaa yu?"
+      ]
+    },
+    {
+      "id": "mn-s123",
+      "kind": "sentence",
+      "native": [
+        "Замын ажил дуусаагүй байгаа болохоор өглөө ажилдаа явахдаа арай эрт гарахгүй бол хоцрох нь."
+      ],
+      "roman": [
+        "Zamiin ajil duusaagui baigaa bolokhoor ogloo ajildaa yavakhdaa arai ert garakhgui bol khotsrokh n."
+      ]
+    },
+    {
+      "id": "mn-s124",
+      "kind": "sentence",
+      "native": [
+        "Хормогчийг чинь хаана өлгөх вэ?"
+      ],
+      "roman": [
+        "Khormogchiig chin khaana olgokh ve?"
+      ]
+    },
+    {
+      "id": "mn-s125",
+      "kind": "sentence",
+      "native": [
+        "Дүнжингарав биш, Нарантуул руу явах гэсэн юм."
+      ],
+      "roman": [
+        "Dunjingarav bish, Narantuul ruu yavakh gesen yum."
+      ]
+    },
+    {
+      "id": "mn-s126",
+      "kind": "sentence",
+      "native": [
+        "Завтай болохоороо над руу залгаарай."
+      ],
+      "roman": [
+        "Zavtai bolokhooroo nad ruu zalgaarai."
+      ]
+    },
+    {
+      "id": "mn-s127",
+      "kind": "sentence",
+      "native": [
+        "Нэмэлт ээлжид энэ удаа гарч амжихгүй нь, харин ирэх долоо хоногт орлож болно."
+      ],
+      "roman": [
+        "Nemelt eeljid ene udaa garch amjikhgui ni, kharin irekh doloo khonogt orloj bolno."
+      ]
+    },
+    {
+      "id": "mn-s128",
+      "kind": "sentence",
+      "native": [
+        "Дархан хүрэх галт тэрэгний 9 дүгээр вагонд суучихлаа."
+      ],
+      "roman": [
+        "Darkhan khurekh galt teregnii 9 dugeer vagond suuchikhlaa."
+      ]
+    },
+    {
+      "id": "mn-s129",
+      "kind": "sentence",
+      "native": [
+        "Усны тоолуураа баасан гарагт шалгуулна."
+      ],
+      "roman": [
+        "Usnii tooluuraa baasan garagt shalguulna."
+      ]
+    },
+    {
+      "id": "mn-s130",
+      "kind": "sentence",
+      "native": [
+        "Дууг нь жаахан нэмээрэй."
+      ],
+      "roman": [
+        "Duug ni jaakhan nemeerei."
+      ]
+    },
+    {
+      "id": "mn-s131",
+      "kind": "sentence",
+      "native": [
+        "Өлгийд интернэт удаан байна, бичлэгийнхээ чанарыг багасгаад явуулчих."
+      ],
+      "roman": [
+        "Olgiid internet udaan baina, bichlegiinkhee chanariig bagasgaad yavuulchikh."
+      ]
+    },
+    {
+      "id": "mn-s132",
+      "kind": "sentence",
+      "native": [
+        "Дулмаа, ороолт нэхэхэд энэ зөөлөн утас илүү тохирох байх."
+      ],
+      "roman": [
+        "Dulmaa, oroolt nekhekhed ene zoolon utas iluu tokhirokh baikh."
+      ]
+    },
+    {
+      "id": "mn-s133",
+      "kind": "sentence",
+      "native": [
+        "Сайн байна уу, Наран аа?"
+      ],
+      "roman": [
+        "Sain baina uu, Naran aa?"
+      ]
+    },
+    {
+      "id": "mn-s134",
+      "kind": "sentence",
+      "native": [
+        "Сэрүүлгээ 6:40-д тавьчих."
+      ],
+      "roman": [
+        "Seruulgee 6:40-d tavchikh."
+      ]
+    },
+    {
+      "id": "mn-s135",
+      "kind": "sentence",
+      "native": [
+        "Update сууснаас хойш монголоор бичиж болохгүй болчихлоо, гарын тохиргоог хаанаас өөрчилдөг билээ?"
+      ],
+      "roman": [
+        "Update suusnaas khoish mongoloor bichij bolokhgui bolchikhloo, gariin tokhirgoog khaanaas oorchildog bilee?"
+      ]
+    },
+    {
+      "id": "mn-s136",
+      "kind": "sentence",
+      "native": [
+        "Цас зузаан орсон болохоор хүүхдүүдийг чаргаар нь цэцэрлэгт хүргэвэл тэргэнцэр түрснээс амар байх."
+      ],
+      "roman": [
+        "Tsas zuzaan orson bolokhoor khuukhduudiig chargaar ni tsetserlegt khurgevel tergentser tursnees amar baikh."
+      ]
+    },
+    {
+      "id": "mn-s137",
+      "kind": "sentence",
+      "native": [
+        "Солонго, хэвлэлийн газрын нэхэмжлэхийг нягтландаа дамжуулсан уу?"
+      ],
+      "roman": [
+        "Solongo, khevleliin gazriin nekhemjlekhiig nyagtlandaa damjuulsan uu?"
+      ]
+    },
+    {
+      "id": "mn-s138",
+      "kind": "sentence",
+      "native": [
+        "Манайх 7 оноогоор хожлоо."
+      ],
+      "roman": [
+        "Manaikh 7 onoogoor khojloo."
+      ]
+    },
+    {
+      "id": "mn-s139",
+      "kind": "sentence",
+      "native": [
+        "Гэртээ сая орж ирлээ."
+      ],
+      "roman": [
+        "Gertee saya orj irlee."
+      ]
+    },
+    {
+      "id": "mn-s140",
+      "kind": "sentence",
+      "native": [
+        "Онгоц 5:15-д хөөрнө, бүртгэл 60 минутын өмнө хаагдана."
+      ],
+      "roman": [
+        "Ongots 5:15-d khoorno, burtgel 60 minutiin omno khaagdana."
+      ]
+    },
+    {
+      "id": "mn-s141",
+      "kind": "sentence",
+      "native": [
+        "Хэмжээг нь андуурсан бол пүүзийг чинь солиулаад өгье."
+      ],
+      "roman": [
+        "Khemjeeg ni anduursan bol puuziig chin soliulaad ogye."
+      ]
+    },
+    {
+      "id": "mn-s142",
+      "kind": "sentence",
+      "native": [
+        "Амжихгүй нь, дараа тухтай сууя."
+      ],
+      "roman": [
+        "Amjikhgui ni, daraa tukhtai suuya."
+      ]
+    },
+    {
+      "id": "mn-s143",
+      "kind": "sentence",
+      "native": [
+        "Даалуугаа гаргаад сууж бай."
+      ],
+      "roman": [
+        "Daaluugaa gargaad suuj bai."
+      ]
+    },
+    {
+      "id": "mn-s144",
+      "kind": "sentence",
+      "native": [
+        "За, тэгвэл нямд уулзъя."
+      ],
+      "roman": [
+        "Za, tegvel nyamd uulzya."
+      ]
+    },
+    {
+      "id": "mn-s145",
+      "kind": "sentence",
+      "native": [
+        "Нойр чинь ханасан уу?"
+      ],
+      "roman": [
+        "Noir chin khanasan uu?"
+      ]
+    },
+    {
+      "id": "mn-s146",
+      "kind": "sentence",
+      "native": [
+        "Ээж ээ, буцахдаа Номиноос гурил авах уу?"
+      ],
+      "roman": [
+        "Eej ee, butsakhdaa Nominoos guril avakh uu?"
+      ]
+    },
+    {
+      "id": "mn-s147",
+      "kind": "sentence",
+      "native": [
+        "Анужин, усан санд орохдоо намайг бас дагуулаад яваач."
+      ],
+      "roman": [
+        "Anujin, usan sand orokhdoo namaig bas daguulaad yavaach."
+      ]
+    }
+  ]
+}

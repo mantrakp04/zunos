@@ -1,0 +1,1879 @@
+{
+  "lang": "el",
+  "starter": [
+    "el-s006",
+    "el-s126",
+    "el-s032",
+    "el-s010",
+    "el-s043",
+    "el-s021",
+    "el-s095",
+    "el-s025",
+    "el-s109",
+    "el-s093",
+    "el-s028",
+    "el-s026",
+    "el-s090",
+    "el-s108",
+    "el-s113",
+    "el-s103",
+    "el-s041",
+    "el-s057",
+    "el-p01",
+    "el-s084",
+    "el-s052",
+    "el-s151",
+    "el-s112",
+    "el-s069",
+    "el-s089",
+    "el-s027",
+    "el-s102",
+    "el-s097",
+    "el-s150",
+    "el-s053",
+    "el-s133",
+    "el-s143",
+    "el-s051",
+    "el-s105",
+    "el-s030",
+    "el-s031",
+    "el-s130",
+    "el-p04",
+    "el-s040",
+    "el-s012",
+    "el-s054",
+    "el-s074",
+    "el-s049",
+    "el-s107",
+    "el-s059",
+    "el-s129",
+    "el-s082",
+    "el-s085",
+    "el-s155",
+    "el-s087",
+    "el-s125",
+    "el-s067",
+    "el-s088",
+    "el-s060",
+    "el-s068",
+    "el-s061"
+  ],
+  "items": [
+    {
+      "id": "el-p01",
+      "kind": "para",
+      "title": "Back Home to Kalamata",
+      "native": [
+        "Μελίνα, το Σάββατο θα κατέβω στην Καλαμάτα με το πρωινό λεωφορείο.",
+        "Έχω μήνες να δω τη μαμά και μου έλειψε η αυλή μας.",
+        "Θα με περιμένει στον σταθμό ο ξάδερφός μου, ο Στέλιος.",
+        "Του ζήτησα να περάσουμε πρώτα από τον φούρνο της γειτονιάς.",
+        "Θέλω μια ζεστή τυρόπιτα πριν αρχίσουν οι επισκέψεις στους συγγενείς.",
+        "Η μαμά είπε πως θα φτιάξει γεμιστά για το μεσημέρι.",
+        "Το απόγευμα λέω να περπατήσω στην παραλία μέχρι το παλιό λιμάνι.",
+        "Αν είσαι κι εσύ εκεί, πάμε για καφέ κοντά στο κύμα.",
+        "Στείλε μου πότε σε βολεύει, γιατί την Κυριακή θα γυρίσω Αθήνα."
+      ],
+      "roman": [
+        "Melina, to Savvato tha katevo stin Kalamata me to proino leoforio.",
+        "Echo mines na do ti mama ke mou elipse i avli mas.",
+        "Tha me perimeni ston stathmo o ksaderfos mou, o Stelios.",
+        "Tou zitisa na perasoume prota apo ton fourno tis gitonias.",
+        "Thelo mia zesti tiropita prin archisoun i episkepsis stous singenis.",
+        "I mama ipe pos tha ftiaksi gemista gia to mesimeri.",
+        "To apogevma leo na perpatiso stin paralia mechri to palio limani.",
+        "An ise ki esi eki, pame gia kafe konta sto kima.",
+        "Stile mou pote se volevi, giati tin Kiriaki tha giriso Athina."
+      ]
+    },
+    {
+      "id": "el-p02",
+      "kind": "para",
+      "title": "Comparing Office Chair Quotes",
+      "native": [
+        "Καλημέρα σας, σύγκρινα τις προσφορές για τις καρέκλες του γραφείου στη Λάρισα.",
+        "Η προσφορά από τον Βόλο είναι 640,50 € για οχτώ καρέκλες.",
+        "Ο προμηθευτής από τα Τρίκαλα ζητάει 720,80 € για την ίδια ποσότητα.",
+        "Και οι δύο τιμές περιλαμβάνουν τον φόρο και τη μεταφορά.",
+        "Η πρώτη εταιρεία φέρνει τις καρέκλες την επόμενη Δευτέρα και αναλαμβάνει τη συναρμολόγηση.",
+        "Η δεύτερη μπορεί να παραδώσει αυτή την Παρασκευή, αλλά χρεώνει επιπλέον τη συναρμολόγηση.",
+        "Έλεγξα τις διαστάσεις και όλα τα μοντέλα χωράνε κάτω από τα γραφεία.",
+        "Προτείνω την πρώτη επιλογή, αφού δεν χρειαζόμαστε τις καρέκλες πριν τη Δευτέρα.",
+        "Αν συμφωνείτε, θα στείλω σήμερα την επιβεβαίωση για να προχωρήσει η παραγγελία."
+      ],
+      "roman": [
+        "Kalimera sas, sigkrina tis prosfores gia tis karekles tou grafiou sti Larisa.",
+        "I prosfora apo ton Volo ine 640,50 € gia ochto karekles.",
+        "O promitheftis apo ta Trikala zitai 720,80 € gia tin idia posotita.",
+        "Ke i dio times perilamvanoun ton foro ke ti metafora.",
+        "I proti eteria ferni tis karekles tin epomeni Deftera ke analamvani ti sinarmologisi.",
+        "I defteri mpori na paradosi afti tin Paraskevi, alla chreoni epipleon ti sinarmologisi.",
+        "Elegksa tis diastasis ke ola ta montela chorane kato apo ta grafia.",
+        "Protino tin proti epilogi, afou den chriazomaste tis karekles prin ti Deftera.",
+        "An simfonite, tha stilo simera tin epiveveosi gia na prochorisi i parangelia."
+      ]
+    },
+    {
+      "id": "el-p03",
+      "kind": "para",
+      "title": "Lost in Nicosia",
+      "native": [
+        "Την πρώτη μου μέρα στη Λευκωσία, κατέβηκα από το λεωφορείο στην πλατεία Σολωμού.",
+        "Ήθελα να βρω ένα καφέ στη Λήδρας, αλλά έστριψα σε λάθος στενό.",
+        "Το κινητό μου είχε μείνει από μπαταρία και δεν θυμόμουν τη διαδρομή.",
+        "Περπατούσα ανάμεσα σε μικρά μαγαζιά, κρατώντας μια σακούλα με κουλούρια.",
+        "Κάποια στιγμή πέρασα μπροστά από έναν φούρνο που μύριζε φρέσκο ψωμί.",
+        "Ρώτησα την κυρία πίσω από τον πάγκο πώς θα έβγαινα στη Λήδρας.",
+        "Εκείνη μου έδειξε τον δρόμο και μου γέμισε το παγούρι με νερό.",
+        "Μετά από δύο στροφές, αναγνώρισα επιτέλους την ταμπέλα του καφέ.",
+        "Η φίλη μου η Ιόλη με περίμενε έξω και γέλασε με την περιπέτεια."
+      ],
+      "roman": [
+        "Tin proti mou mera sti Lefkosia, katevika apo to leoforio stin platia Solomou.",
+        "Ithela na vro ena kafe sti Lidras, alla estripsa se lathos steno.",
+        "To kinito mou iche mini apo mpataria ke den thimomoun ti diadromi.",
+        "Perpatousa anamesa se mikra magazia, kratontas mia sakoula me koulouria.",
+        "Kapia stigmi perasa mprosta apo enan fourno pou mirize fresko psomi.",
+        "Rotisa tin kiria piso apo ton pagko pos tha evgena sti Lidras.",
+        "Ekini mou edikse ton dromo ke mou gemise to pagouri me nero.",
+        "Meta apo dio strofes, anagnorisa epitelous tin tampela tou kafe.",
+        "I fili mou i Ioli me perimene ekso ke gelase me tin peripetia."
+      ]
+    },
+    {
+      "id": "el-p04",
+      "kind": "para",
+      "title": "Paying the Water Bill",
+      "native": [
+        "Για να πληρώσεις τον λογαριασμό του νερού, άνοιξε το app της τράπεζας.",
+        "Συνδέσου με το δαχτυλικό σου αποτύπωμα ή με τον κωδικό σου.",
+        "Από την αρχική σελίδα, πάτησε Πληρωμές και διάλεξε την εταιρεία ύδρευσης.",
+        "Πληκτρολόγησε τον κωδικό πληρωμής που βλέπεις πάνω στον λογαριασμό.",
+        "Έλεγξε προσεκτικά τον κωδικό πριν συνεχίσεις στο επόμενο βήμα.",
+        "Γράψε το ποσό και διάλεξε από ποιον λογαριασμό θα φύγουν τα χρήματα.",
+        "Δες αν υπάρχει προμήθεια και έλεγξε ξανά το συνολικό ποσό.",
+        "Αν όλα είναι σωστά, επιβεβαίωσε την πληρωμή όπως ζητάει η τράπεζα.",
+        "Στο τέλος, κατέβασε την απόδειξη και φύλαξέ τη σε έναν φάκελο."
+      ],
+      "roman": [
+        "Gia na plirosis ton logariasmo tou nerou, anikse to app tis trapezas.",
+        "Sindesou me to dachtiliko sou apotipoma i me ton kodiko sou.",
+        "Apo tin archiki selida, patise Pliromes ke dialekse tin eteria idrefsis.",
+        "Pliktrologise ton kodiko pliromis pou vlepis pano ston logariasmo.",
+        "Elegkse prosektika ton kodiko prin sinechisis sto epomeno vima.",
+        "Grapse to poso ke dialekse apo pion logariasmo tha figoun ta chrimata.",
+        "Des an iparchi promithia ke elegkse ksana to sinoliko poso.",
+        "An ola ine sosta, epiveveose tin pliromi opos zitai i trapeza.",
+        "Sto telos, katevase tin apodiksi ke filakse ti se enan fakelo."
+      ]
+    },
+    {
+      "id": "el-p05",
+      "kind": "para",
+      "title": "Pilates in Toumba",
+      "native": [
+        "Ξεκίνησα πιλάτες σε ένα μικρό γυμναστήριο στην Τούμπα πριν από έναν μήνα.",
+        "Η προπονήτρια, η Δανάη, εξηγεί τις ασκήσεις χωρίς να μας γεμίζει άγχος.",
+        "Μου αρέσει που διορθώνει τη στάση μας χωρίς να διακόπτει συνέχεια.",
+        "Τα τμήματα έχουν μέχρι οχτώ άτομα, οπότε υπάρχει χώρος για όλους.",
+        "Η μουσική ακούγεται χαμηλά και μπορώ επιτέλους να συγκεντρωθώ στην άσκηση.",
+        "Τα αποδυτήρια είναι καθαρά, αλλά θα ήθελα λίγο μεγαλύτερα ντουλαπάκια.",
+        "Η μηνιαία συνδρομή κοστίζει 45 €, χωρίς έξτρα χρέωση για εγγραφή.",
+        "Μερικές φορές αργούμε να ξεκινήσουμε, ειδικά στο μάθημα της Τετάρτης.",
+        "Παρά τις μικρές καθυστερήσεις, φεύγω πάντα με διάθεση να ξαναπάω."
+      ],
+      "roman": [
+        "Ksekinisa pilates se ena mikro gimnastirio stin Toumpa prin apo enan mina.",
+        "I proponitria, i Danai, eksigi tis askisis choris na mas gemizi agchos.",
+        "Mou aresi pou diorthoni ti stasi mas choris na diakopti sinechia.",
+        "Ta tmimata echoun mechri ochto atoma, opote iparchi choros gia olous.",
+        "I mousiki akougete chamila ke mporo epitelous na sigkentrotho stin askisi.",
+        "Ta apoditiria ine kathara, alla tha ithela ligo megalitera ntoulapakia.",
+        "I miniea sindromi kostizi 45 €, choris ekstra chreosi gia engrafi.",
+        "Merikes fores argoume na ksekinisoume, idika sto mathima tis Tetartis.",
+        "Para tis mikres kathisterisis, fevgo panta me diathesi na ksanapao."
+      ]
+    },
+    {
+      "id": "el-p06",
+      "kind": "para",
+      "title": "Team Day in Archanes",
+      "native": [
+        "Για την εκδρομή της ομάδας, προτείνω τις Αρχάνες στις 18 Ιουνίου 2026.",
+        "Θα είμαστε 12 άτομα, μαζί με τη Νεφέλη από το λογιστήριο.",
+        "Λέω να φύγουμε από το Ηράκλειο στις 9 το πρωί με λεωφορείο.",
+        "Η διαδρομή είναι περίπου 16 χιλιόμετρα, οπότε υπολογίζω γύρω στα 30 λεπτά.",
+        "Στις 10 το πρωί ξεκινάμε το εργαστήριο, με διάλειμμα μετά από μία ώρα.",
+        "Χρειαζόμαστε 3 μεγάλα τραπέζια και μία οθόνη για την παρουσίαση των ιδεών.",
+        "Για φαγητό στις 2 το μεσημέρι, βρήκα μενού με 18,50 € το άτομο.",
+        "Το λεωφορείο κοστίζει συνολικά 180 €, ενώ η αίθουσα άλλα 90 €.",
+        "Αν συμφωνείτε, θα κλείσω το λεωφορείο και την αίθουσα μέχρι την Παρασκευή 5 Ιουνίου."
+      ],
+      "roman": [
+        "Gia tin ekdromi tis omadas, protino tis Archanes stis 18 Iouniou 2026.",
+        "Tha imaste 12 atoma, mazi me ti Nefeli apo to logistirio.",
+        "Leo na figoume apo to Iraklio stis 9 to proi me leoforio.",
+        "I diadromi ine peripou 16 chiliometra, opote ipologizo giro sta 30 lepta.",
+        "Stis 10 to proi ksekiname to ergastirio, me dialimma meta apo mia ora.",
+        "Chriazomaste 3 megala trapezia ke mia othoni gia tin parousiasi ton ideon.",
+        "Gia fagito stis 2 to mesimeri, vrika menou me 18,50 € to atomo.",
+        "To leoforio kostizi sinolika 180 €, eno i ethousa alla 90 €.",
+        "An simfonite, tha kliso to leoforio ke tin ethousa mechri tin Paraskevi 5 Iouniou."
+      ]
+    },
+    {
+      "id": "el-p07",
+      "kind": "para",
+      "title": "Internet Keeps Dropping",
+      "native": [
+        "Καλημέρα σας, σας καλώ για τη σύνδεση ίντερνετ στην Αγία Φύλα.",
+        "Τις τελευταίες τέσσερις μέρες χάνεται το σήμα αρκετές φορές κάθε ώρα.",
+        "Το πρόβλημα εμφανίζεται και στο λάπτοπ και στην τηλεόραση του σαλονιού.",
+        "Έχω ήδη κλείσει και ανοίξει το ρούτερ, όπως προτείνει το σάιτ σας.",
+        "Τα φωτάκια ανάβουν κανονικά, αλλά η σύνδεση ξαναπέφτει μετά από λίγα λεπτά.",
+        "Δουλεύω από το σπίτι και οι κλήσεις μου στο Zoom κόβονται συνέχεια.",
+        "Μπορείτε να ελέγξετε αν υπάρχει κάποιο πρόβλημα με τη γραμμή μου?",
+        "Αν χρειάζεται τεχνικός, θα με βόλευε η Πέμπτη μετά τις 3 το απόγευμα.",
+        "Σας ευχαριστώ, θα περιμένω μήνυμα με την ώρα που μπορείτε να έρθετε."
+      ],
+      "roman": [
+        "Kalimera sas, sas kalo gia ti sindesi internet stin Agia Fila.",
+        "Tis teleftees tesseris meres chanete to sima arketes fores kathe ora.",
+        "To provlima emfanizete ke sto laptop ke stin tileorasi tou saloniou.",
+        "Echo idi klisi ke aniksi to router, opos protini to sait sas.",
+        "Ta fotakia anavoun kanonika, alla i sindesi ksanapefti meta apo liga lepta.",
+        "Doulevo apo to spiti ke i klisis mou sto Zoom kovonte sinechia.",
+        "Mporite na elegksete an iparchi kapio provlima me ti grammi mou?",
+        "An chriazete technikos, tha me voleve i Pempti meta tis 3 to apogevma.",
+        "Sas efcharisto, tha perimeno minima me tin ora pou mporite na erthete."
+      ]
+    },
+    {
+      "id": "el-p08",
+      "kind": "para",
+      "title": "Pottery Making in Sifnos",
+      "native": [
+        "Στο Βαθύ της Σίφνου υπάρχουν εργαστήρια που φτιάχνουν πήλινα.",
+        "Στα εργαστήρια οι αγγειοπλάστες δουλεύουν τον πηλό στον τροχό.",
+        "Οι τεχνίτες φτιάχνουν κανάτια, πιάτα και σκεύη για τον φούρνο.",
+        "Κάθε κομμάτι χρειάζεται χρόνο για να στεγνώσει καλά πριν μπει στο καμίνι.",
+        "Στο καμίνι ο πηλός ψήνεται και σκληραίνει.",
+        "Η σκεπασταριά είναι ένα πήλινο σκεύος με καπάκι για τη ρεβιθάδα του νησιού.",
+        "Η ρεβιθάδα σιγοψήνεται για ώρες στον ξυλόφουρνο.",
+        "Στα εργαστήρια μπορείς να δεις πώς φτιάχνουν τα πήλινα και να διαλέξεις κάτι για το σπίτι.",
+        "Πολλοί στο νησί μαγειρεύουν ακόμα σε πήλινα σκεύη."
+      ],
+      "roman": [
+        "Sto Vathi tis Sifnou iparchoun ergastiria pou ftiachnoun pilina.",
+        "Sta ergastiria i angioplastes doulevoun ton pilo ston trocho.",
+        "I technites ftiachnoun kanatia, piata ke skevi gia ton fourno.",
+        "Kathe kommati chriazete chrono gia na stegnosi kala prin mpi sto kamini.",
+        "Sto kamini o pilos psinete ke sklireni.",
+        "I skepastaria ine ena pilino skevos me kapaki gia ti revithada tou nisiou.",
+        "I revithada sigopsinete gia ores ston ksilofourno.",
+        "Sta ergastiria mporis na dis pos ftiachnoun ta pilina ke na dialeksis kati gia to spiti.",
+        "Polli sto nisi magirevoun akoma se pilina skevi."
+      ]
+    },
+    {
+      "id": "el-s001",
+      "kind": "sentence",
+      "native": [
+        "Πρόλαβες να δοκιμάσεις τα κουπέπια που έφερε η θεία?"
+      ],
+      "roman": [
+        "Prolaves na dokimasis ta koupepia pou efere i thia?"
+      ]
+    },
+    {
+      "id": "el-s002",
+      "kind": "sentence",
+      "native": [
+        "Ελένη, λείπει η υπογραφή σου από τη σύμβαση."
+      ],
+      "roman": [
+        "Eleni, lipi i ipografi sou apo ti simvasi."
+      ]
+    },
+    {
+      "id": "el-s003",
+      "kind": "sentence",
+      "native": [
+        "Κλείνω τα 32 τον Ιούλιο και σκέφτομαι να κάνω πάρτι."
+      ],
+      "roman": [
+        "Klino ta 32 ton Ioulio ke skeftome na kano parti."
+      ]
+    },
+    {
+      "id": "el-s004",
+      "kind": "sentence",
+      "native": [
+        "Υπενθύμισέ μου να επιστρέψω στη Ράνια το τάπερ."
+      ],
+      "roman": [
+        "Ipenthimise mou na epistrepso sti Rania to taper."
+      ]
+    },
+    {
+      "id": "el-s005",
+      "kind": "sentence",
+      "native": [
+        "Μέχρι τι ώρα λειτουργεί η Δημοτική Αγορά της Κυψέλης?"
+      ],
+      "roman": [
+        "Mechri ti ora litourgi i Dimotiki Agora tis Kipselis?"
+      ]
+    },
+    {
+      "id": "el-s006",
+      "kind": "sentence",
+      "native": [
+        "Αγόρασα επιπλέον αποθηκευτικό χώρο στο cloud με 2,99 € τον μήνα."
+      ],
+      "roman": [
+        "Agorasa epipleon apothikeftiko choro sto cloud me 2,99 € ton mina."
+      ]
+    },
+    {
+      "id": "el-s007",
+      "kind": "sentence",
+      "native": [
+        "Χωρίς αυτοκίνητο βολεύει περισσότερο αυτή η γειτονιά, γιατί έχει κοντά σχολείο, σούπερ μάρκετ και παιδική χαρά."
+      ],
+      "roman": [
+        "Choris aftokinito volevi perissotero afti i gitonia, giati echi konta scholio, souper market ke pediki chara."
+      ]
+    },
+    {
+      "id": "el-s008",
+      "kind": "sentence",
+      "native": [
+        "Θέλει ανακάτεμα η σάλτσα."
+      ],
+      "roman": [
+        "Theli anakatema i saltsa."
+      ]
+    },
+    {
+      "id": "el-s009",
+      "kind": "sentence",
+      "native": [
+        "Αλεξάνδρα, κράτα την κορδέλα στην άκρη, ή μάλλον άσε, θα τυλίξω το δώρο με σπάγκο τελικά."
+      ],
+      "roman": [
+        "Aleksandra, krata tin kordela stin akri, i mallon ase, tha tilikso to doro me spagko telika."
+      ]
+    },
+    {
+      "id": "el-s010",
+      "kind": "sentence",
+      "native": [
+        "Χίλια συγγνώμη που σε διέκοψα."
+      ],
+      "roman": [
+        "Chilia singnomi pou se diekopsa."
+      ]
+    },
+    {
+      "id": "el-s011",
+      "kind": "sentence",
+      "native": [
+        "Πάρε με όταν σχολάσεις."
+      ],
+      "roman": [
+        "Pare me otan scholasis."
+      ]
+    },
+    {
+      "id": "el-s012",
+      "kind": "sentence",
+      "native": [
+        "Ευχαριστώ πολύ για την εξυπηρέτηση."
+      ],
+      "roman": [
+        "Efcharisto poli gia tin eksipiretisi."
+      ]
+    },
+    {
+      "id": "el-s013",
+      "kind": "sentence",
+      "native": [
+        "Αγόρασα αυτή τη ζώνη στις 16 Μαρτίου για 27,00 € και θέλω να την αλλάξω."
+      ],
+      "roman": [
+        "Agorasa afti ti zoni stis 16 Martiou gia 27,00 € ke thelo na tin allakso."
+      ]
+    },
+    {
+      "id": "el-s014",
+      "kind": "sentence",
+      "native": [
+        "Την Παρασκευή να περάσω από τη βιβλιοθήκη του Βόλου και να ρωτήσω για τη λέσχη ανάγνωσης."
+      ],
+      "roman": [
+        "Tin Paraskevi na peraso apo ti vivliothiki tou Volou ke na rotiso gia ti leschi anagnosis."
+      ]
+    },
+    {
+      "id": "el-s015",
+      "kind": "sentence",
+      "native": [
+        "Ποια υφάσματα δεν θέλουν σιδέρωμα?"
+      ],
+      "roman": [
+        "Pia ifasmata den theloun sideroma?"
+      ]
+    },
+    {
+      "id": "el-s016",
+      "kind": "sentence",
+      "native": [
+        "Ορέστη, έλεγξε μήπως έχεις κλειστό το μικρόφωνό σου."
+      ],
+      "roman": [
+        "Oresti, elegkse mipos echis klisto to mikrofono sou."
+      ]
+    },
+    {
+      "id": "el-s017",
+      "kind": "sentence",
+      "native": [
+        "Άδειασαν τα τελάρα με τις ντομάτες, φέρνεις άλλα από την αποθήκη?"
+      ],
+      "roman": [
+        "Adiasan ta telara me tis ntomates, fernis alla apo tin apothiki?"
+      ]
+    },
+    {
+      "id": "el-s018",
+      "kind": "sentence",
+      "native": [
+        "Έμεινε καθόλου χαλούμι για να ψήσουμε στα κάρβουνα?"
+      ],
+      "roman": [
+        "Emine katholou chaloumi gia na psisoume sta karvouna?"
+      ]
+    },
+    {
+      "id": "el-s019",
+      "kind": "sentence",
+      "native": [
+        "Μισό λεπτό, πατάω επιβεβαίωση ή πρέπει πρώτα να διαλέξω μέγεθος?"
+      ],
+      "roman": [
+        "Miso lepto, patao epiveveosi i prepi prota na dialekso megethos?"
+      ]
+    },
+    {
+      "id": "el-s020",
+      "kind": "sentence",
+      "native": [
+        "Στέλιο, με βοήθησες πολύ με τη μετακόμιση, να είσαι καλά."
+      ],
+      "roman": [
+        "Stelio, me voithises poli me ti metakomisi, na ise kala."
+      ]
+    },
+    {
+      "id": "el-s021",
+      "kind": "sentence",
+      "native": [
+        "Κράτα μου λίγο παστίτσιο."
+      ],
+      "roman": [
+        "Krata mou ligo pastitsio."
+      ]
+    },
+    {
+      "id": "el-s022",
+      "kind": "sentence",
+      "native": [
+        "Ιωάννα, μπορείς να αναλάβεις την παρουσίαση στον πελάτη, ώστε να τελειώσω τον προϋπολογισμό?"
+      ],
+      "roman": [
+        "Ioanna, mporis na analavis tin parousiasi ston pelati, oste na telioso ton proipologismo?"
+      ]
+    },
+    {
+      "id": "el-s023",
+      "kind": "sentence",
+      "native": [
+        "Αν καθυστερήσει η παράδοση, καλέστε στο 6 9 0 0 0 0 0 0 0 0."
+      ],
+      "roman": [
+        "An kathisterisi i paradosi, kaleste sto 6 9 0 0 0 0 0 0 0 0."
+      ]
+    },
+    {
+      "id": "el-s024",
+      "kind": "sentence",
+      "native": [
+        "Πρόσθεσε το μάθημα κεραμικής στο ημερολόγιό μου."
+      ],
+      "roman": [
+        "Prosthese to mathima keramikis sto imerologio mou."
+      ]
+    },
+    {
+      "id": "el-s025",
+      "kind": "sentence",
+      "native": [
+        "Διάβασε το τελευταίο μήνυμα που έλαβα στο Viber και πες μου ποιος το έστειλε."
+      ],
+      "roman": [
+        "Diavase to telefteo minima pou elava sto Viber ke pes mou pios to estile."
+      ]
+    },
+    {
+      "id": "el-s026",
+      "kind": "sentence",
+      "native": [
+        "Διαλέγω σύνδεση με καλώδιο, γιατί είναι πιο σταθερή από το Wi-Fi."
+      ],
+      "roman": [
+        "Dialego sindesi me kalodio, giati ine pio statheri apo to Wi-Fi."
+      ]
+    },
+    {
+      "id": "el-s027",
+      "kind": "sentence",
+      "native": [
+        "Περιμένεις έξω από το ανθοπωλείο?"
+      ],
+      "roman": [
+        "Perimenis ekso apo to anthopolio?"
+      ]
+    },
+    {
+      "id": "el-s028",
+      "kind": "sentence",
+      "native": [
+        "Χρύσα, φόρεσε το αδιάβροχό σου."
+      ],
+      "roman": [
+        "Chrisa, forese to adiavrocho sou."
+      ]
+    },
+    {
+      "id": "el-s029",
+      "kind": "sentence",
+      "native": [
+        "Αϊσέ, προτιμάς μικρό ή μεγάλο γλαστράκι για τον βασιλικό?"
+      ],
+      "roman": [
+        "Aise, protimas mikro i megalo glastraki gia ton vasiliko?"
+      ]
+    },
+    {
+      "id": "el-s030",
+      "kind": "sentence",
+      "native": [
+        "Χάρηκα πολύ με τα νέα!"
+      ],
+      "roman": [
+        "Charika poli me ta nea!"
+      ]
+    },
+    {
+      "id": "el-s031",
+      "kind": "sentence",
+      "native": [
+        "Έφτασα σπίτι, όλα καλά."
+      ],
+      "roman": [
+        "Eftasa spiti, ola kala."
+      ]
+    },
+    {
+      "id": "el-s032",
+      "kind": "sentence",
+      "native": [
+        "Ολοκλήρωσα τον έλεγχο και δεν βρήκα κανένα λάθος."
+      ],
+      "roman": [
+        "Oloklirosa ton elegcho ke den vrika kanena lathos."
+      ]
+    },
+    {
+      "id": "el-s033",
+      "kind": "sentence",
+      "native": [
+        "Σημείωσε τη θέση 17 στο βαγόνι 5 του τρένου."
+      ],
+      "roman": [
+        "Simiose ti thesi 17 sto vagoni 5 tou trenou."
+      ]
+    },
+    {
+      "id": "el-s034",
+      "kind": "sentence",
+      "native": [
+        "Υπενθύμιση: να ζητήσω από τον Πέτρο τη ρακέτα του για το πρώτο μάθημα τένις."
+      ],
+      "roman": [
+        "Ipenthimisi: na zitiso apo ton Petro ti raketa tou gia to proto mathima tenis."
+      ]
+    },
+    {
+      "id": "el-s035",
+      "kind": "sentence",
+      "native": [
+        "Τι καιρό θα κάνει στην Ξάνθη το Σαββατοκύριακο?"
+      ],
+      "roman": [
+        "Ti kero tha kani stin Ksanthi to Savvatokiriako?"
+      ]
+    },
+    {
+      "id": "el-s036",
+      "kind": "sentence",
+      "native": [
+        "Μετά την ενημέρωση, η εφαρμογή κλείνει μόνη της."
+      ],
+      "roman": [
+        "Meta tin enimerosi, i efarmogi klini moni tis."
+      ]
+    },
+    {
+      "id": "el-s037",
+      "kind": "sentence",
+      "native": [
+        "Ο Φώτης κοίταξε το καζανάκι και είπε πως αρκεί να αλλάξουμε το λάστιχο, όχι όλο τον μηχανισμό."
+      ],
+      "roman": [
+        "O Fotis kitakse to kazanaki ke ipe pos arki na allaksoume to lasticho, ochi olo ton michanismo."
+      ]
+    },
+    {
+      "id": "el-s038",
+      "kind": "sentence",
+      "native": [
+        "Ξέρεις αν το πακέτο παραμένει στο σημείο παραλαβής?"
+      ],
+      "roman": [
+        "Kseris an to paketo parameni sto simio paralavis?"
+      ]
+    },
+    {
+      "id": "el-s039",
+      "kind": "sentence",
+      "native": [
+        "Αγοράζουμε γάλα, αυγά και φρυγανιές."
+      ],
+      "roman": [
+        "Agorazoume gala, avga ke friganies."
+      ]
+    },
+    {
+      "id": "el-s040",
+      "kind": "sentence",
+      "native": [
+        "Συνέχισε έτσι, έχεις κάνει μεγάλη πρόοδο στο σχέδιο."
+      ],
+      "roman": [
+        "Sinechise etsi, echis kani megali proodo sto schedio."
+      ]
+    },
+    {
+      "id": "el-s041",
+      "kind": "sentence",
+      "native": [
+        "Χάζεψα με το κουτάβι σας!"
+      ],
+      "roman": [
+        "Chazepsa me to koutavi sas!"
+      ]
+    },
+    {
+      "id": "el-s042",
+      "kind": "sentence",
+      "native": [
+        "Δοκίμασα το λινκ, αλλά μου ζητάει κωδικό πρόσβασης."
+      ],
+      "roman": [
+        "Dokimasa to link, alla mou zitai kodiko prosvasis."
+      ]
+    },
+    {
+      "id": "el-s043",
+      "kind": "sentence",
+      "native": [
+        "Γεωργία, το σεμινάριο μεταφέρθηκε στις 14 Μαΐου 2027."
+      ],
+      "roman": [
+        "Georgia, to seminario metaferthike stis 14 Maiou 2027."
+      ]
+    },
+    {
+      "id": "el-s044",
+      "kind": "sentence",
+      "native": [
+        "Έχω να παραλάβω τις κουρτίνες από το καθαριστήριο."
+      ],
+      "roman": [
+        "Echo na paralavo tis kourtines apo to katharistirio."
+      ]
+    },
+    {
+      "id": "el-s045",
+      "kind": "sentence",
+      "native": [
+        "Βρες οδηγίες για να καθαρίσω το φίλτρο του πλυντηρίου χωρίς να γεμίσει νερά το πάτωμα."
+      ],
+      "roman": [
+        "Vres odigies gia na kathariso to filtro tou plintiriou choris na gemisi nera to patoma."
+      ]
+    },
+    {
+      "id": "el-s046",
+      "kind": "sentence",
+      "native": [
+        "Μπορείτε να ενεργοποιήσετε τους υπότιτλους για την τηλεδιάσκεψη?"
+      ],
+      "roman": [
+        "Mporite na energopiisete tous ipotitlous gia tin tilediaskepsi?"
+      ]
+    },
+    {
+      "id": "el-s047",
+      "kind": "sentence",
+      "native": [
+        "Δήμητρα, ο ξάδερφός σου μετακόμισε τελικά στην Κομοτηνή?"
+      ],
+      "roman": [
+        "Dimitra, o ksaderfos sou metakomise telika stin Komotini?"
+      ]
+    },
+    {
+      "id": "el-s048",
+      "kind": "sentence",
+      "native": [
+        "Στα 45,00 € θα μου δώσετε και το σκαμπό?"
+      ],
+      "roman": [
+        "Sta 45,00 € tha mou dosete ke to skampo?"
+      ]
+    },
+    {
+      "id": "el-s049",
+      "kind": "sentence",
+      "native": [
+        "Όχι, μισό, το πράσινο εννοούσα."
+      ],
+      "roman": [
+        "Ochi, miso, to prasino ennousa."
+      ]
+    },
+    {
+      "id": "el-s050",
+      "kind": "sentence",
+      "native": [
+        "Παλιότερα ντρεπόμουν να ζητήσω βοήθεια, αλλά τώρα καταλαβαίνω πόσο πιο εύκολα γίνονται όλα όταν συνεργαζόμαστε."
+      ],
+      "roman": [
+        "Paliotera ntrepomoun na zitiso voithia, alla tora katalaveno poso pio efkola ginonte ola otan sinergazomaste."
+      ]
+    },
+    {
+      "id": "el-s051",
+      "kind": "sentence",
+      "native": [
+        "Στείλε καμιά φωτογραφία από τη βόλτα με το ποδήλατο."
+      ],
+      "roman": [
+        "Stile kamia fotografia apo ti volta me to podilato."
+      ]
+    },
+    {
+      "id": "el-s052",
+      "kind": "sentence",
+      "native": [
+        "Προτιμώ πάντως τον πλαϊνό πάγκο, γιατί είναι πιο φωτεινός από τον πίσω."
+      ],
+      "roman": [
+        "Protimo pantos ton plaino pagko, giati ine pio fotinos apo ton piso."
+      ]
+    },
+    {
+      "id": "el-s053",
+      "kind": "sentence",
+      "native": [
+        "Πληρώσαμε 18,50 € για ταξί."
+      ],
+      "roman": [
+        "Plirosame 18,50 € gia taksi."
+      ]
+    },
+    {
+      "id": "el-s054",
+      "kind": "sentence",
+      "native": [
+        "Πρέπει να ρωτήσω αν επισκευάστηκε η ραπτομηχανή μου."
+      ],
+      "roman": [
+        "Prepi na rotiso an episkevastike i raptomichani mou."
+      ]
+    },
+    {
+      "id": "el-s055",
+      "kind": "sentence",
+      "native": [
+        "Ψάξε μια εύκολη συνταγή για γαλακτομπούρεκο με τραγανό φύλλο."
+      ],
+      "roman": [
+        "Psakse mia efkoli sintagi gia galaktompoureko me tragano fillo."
+      ]
+    },
+    {
+      "id": "el-s056",
+      "kind": "sentence",
+      "native": [
+        "Ζήτησα επαναφορά κωδικού για τον λογαριασμό μου, αλλά δεν έχει έρθει ακόμα το μέιλ με τις οδηγίες."
+      ],
+      "roman": [
+        "Zitisa epanafora kodikou gia ton logariasmo mou, alla den echi erthi akoma to meil me tis odigies."
+      ]
+    },
+    {
+      "id": "el-s057",
+      "kind": "sentence",
+      "native": [
+        "Ρεβέκκα, σε είδα χθες στην αγορά της Καβάλας."
+      ],
+      "roman": [
+        "Revekka, se ida chthes stin agora tis Kavalas."
+      ]
+    },
+    {
+      "id": "el-s058",
+      "kind": "sentence",
+      "native": [
+        "Φέτος λέμε να πάμε στο καρναβάλι της Νάουσας, αρκεί να βρούμε κάπου να μείνουμε."
+      ],
+      "roman": [
+        "Fetos leme na pame sto karnavali tis Naousas, arki na vroume kapou na minoume."
+      ]
+    },
+    {
+      "id": "el-s059",
+      "kind": "sentence",
+      "native": [
+        "Γράψε Τετάρτη, λάθος, Παρασκευή για την πρόβα χορού."
+      ],
+      "roman": [
+        "Grapse Tetarti, lathos, Paraskevi gia tin prova chorou."
+      ]
+    },
+    {
+      "id": "el-s060",
+      "kind": "sentence",
+      "native": [
+        "Κρίμα που έκλεισε τόσο νωρίς η έκθεση στο Ναύπλιο."
+      ],
+      "roman": [
+        "Krima pou eklise toso noris i ekthesi sto Nafplio."
+      ]
+    },
+    {
+      "id": "el-s061",
+      "kind": "sentence",
+      "native": [
+        "Μην αγοράσεις ψωμί, πήρα ήδη από τον φούρνο."
+      ],
+      "roman": [
+        "Min agorasis psomi, pira idi apo ton fourno."
+      ]
+    },
+    {
+      "id": "el-s062",
+      "kind": "sentence",
+      "native": [
+        "Με τα αναλώσιμα εννοείτε χαρτί περιτυλίγματος ή σακούλες?"
+      ],
+      "roman": [
+        "Me ta analosima ennoite charti peritiligmatos i sakoules?"
+      ]
+    },
+    {
+      "id": "el-s063",
+      "kind": "sentence",
+      "native": [
+        "Χρειαζόμαστε 12 φακέλους, όχι 20."
+      ],
+      "roman": [
+        "Chriazomaste 12 fakelous, ochi 20."
+      ]
+    },
+    {
+      "id": "el-s064",
+      "kind": "sentence",
+      "native": [
+        "Όταν ανοίξω το λάπτοπ, να αποθηκεύσω τις φωτογραφίες σε εξωτερικό δίσκο για να μη χαθούν."
+      ],
+      "roman": [
+        "Otan anikso to laptop, na apothikefso tis fotografies se eksoteriko disko gia na mi chathoun."
+      ]
+    },
+    {
+      "id": "el-s065",
+      "kind": "sentence",
+      "native": [
+        "Οδήγησέ με στον Λευκό Πύργο χωρίς να περάσουμε από διόδια."
+      ],
+      "roman": [
+        "Odigise me ston Lefko Pirgo choris na perasoume apo diodia."
+      ]
+    },
+    {
+      "id": "el-s066",
+      "kind": "sentence",
+      "native": [
+        "Λυπάμαι, δεν επισκευάζουμε εκτυπωτές, αλλά η Δανάη στο διπλανό κατάστημα μπορεί να σας βοηθήσει."
+      ],
+      "roman": [
+        "Lipame, den episkevazoume ektipotes, alla i Danai sto diplano katastima mpori na sas voithisi."
+      ]
+    },
+    {
+      "id": "el-s067",
+      "kind": "sentence",
+      "native": [
+        "Απέναντι από το ταχυδρομείο υπάρχει ένα μικρό τσαγκάρικο."
+      ],
+      "roman": [
+        "Apenanti apo to tachidromio iparchi ena mikro tsagkariko."
+      ]
+    },
+    {
+      "id": "el-s068",
+      "kind": "sentence",
+      "native": [
+        "Στάζει η βρύση της κουζίνας."
+      ],
+      "roman": [
+        "Stazi i vrisi tis kouzinas."
+      ]
+    },
+    {
+      "id": "el-s069",
+      "kind": "sentence",
+      "native": [
+        "Κοίτα, το ράφι χωράει, αλλά είναι αρκετά βαθύ για τα βιβλία?"
+      ],
+      "roman": [
+        "Kita, to rafi chorai, alla ine arketa vathi gia ta vivlia?"
+      ]
+    },
+    {
+      "id": "el-s070",
+      "kind": "sentence",
+      "native": [
+        "Ειλικρινά, περίμενα πιο τραγανή μπουγάτσα με τέτοια τιμή."
+      ],
+      "roman": [
+        "Ilikrina, perimena pio tragani mpougatsa me tetia timi."
+      ]
+    },
+    {
+      "id": "el-s071",
+      "kind": "sentence",
+      "native": [
+        "Άργησα να απαντήσω, είχα το κινητό στην τσάντα."
+      ],
+      "roman": [
+        "Argisa na apantiso, icha to kinito stin tsanta."
+      ]
+    },
+    {
+      "id": "el-s072",
+      "kind": "sentence",
+      "native": [
+        "Δυστυχώς, δεν μπορώ να καλύψω τη βάρδια της Νεφέλης, αλλά ευχαρίστως αναλαμβάνω το κλείσιμο αύριο."
+      ],
+      "roman": [
+        "Distichos, den mporo na kalipso ti vardia tis Nefelis, alla efcharistos analamvano to klisimo avrio."
+      ]
+    },
+    {
+      "id": "el-s073",
+      "kind": "sentence",
+      "native": [
+        "Περπατήσαμε 4 χιλιόμετρα με τον σκύλο σε 50 λεπτά."
+      ],
+      "roman": [
+        "Perpatisame 4 chiliometra me ton skilo se 50 lepta."
+      ]
+    },
+    {
+      "id": "el-s074",
+      "kind": "sentence",
+      "native": [
+        "Να ποτίσω τις γλάστρες απόψε."
+      ],
+      "roman": [
+        "Na potiso tis glastres apopse."
+      ]
+    },
+    {
+      "id": "el-s075",
+      "kind": "sentence",
+      "native": [
+        "Πόσο χώρο έχω ακόμα διαθέσιμο στον σκληρό δίσκο?"
+      ],
+      "roman": [
+        "Poso choro echo akoma diathesimo ston skliro disko?"
+      ]
+    },
+    {
+      "id": "el-s076",
+      "kind": "sentence",
+      "native": [
+        "Σου έστειλα στο τσατ το νέο πρόγραμμα βαρδιών."
+      ],
+      "roman": [
+        "Sou estila sto tsat to neo programma vardion."
+      ]
+    },
+    {
+      "id": "el-s077",
+      "kind": "sentence",
+      "native": [
+        "Βαγγέλη, φτάνω στην πλατεία Αριστοτέλους."
+      ],
+      "roman": [
+        "Vangeli, ftano stin platia Aristotelous."
+      ]
+    },
+    {
+      "id": "el-s078",
+      "kind": "sentence",
+      "native": [
+        "Αυτά τα αχλάδια είναι ώριμα ή θέλουν μέρες?"
+      ],
+      "roman": [
+        "Afta ta achladia ine orima i theloun meres?"
+      ]
+    },
+    {
+      "id": "el-s079",
+      "kind": "sentence",
+      "native": [
+        "Συγγνώμη, είπα δεξιά ή αριστερά?"
+      ],
+      "roman": [
+        "Singnomi, ipa deksia i aristera?"
+      ]
+    },
+    {
+      "id": "el-s080",
+      "kind": "sentence",
+      "native": [
+        "Καμιά φορά νιώθω ότι γεμίζω τη μέρα μου με υποχρεώσεις και ξεχνάω όσα πραγματικά με ευχαριστούν."
+      ],
+      "roman": [
+        "Kamia fora niotho oti gemizo ti mera mou me ipochreosis ke ksechnao osa pragmatika me efcharistoun."
+      ]
+    },
+    {
+      "id": "el-s081",
+      "kind": "sentence",
+      "native": [
+        "Άμα σε στενεύει το φούτερ, έχω μεγαλύτερο να δοκιμάσεις."
+      ],
+      "roman": [
+        "Ama se stenevi to fouter, echo megalitero na dokimasis."
+      ]
+    },
+    {
+      "id": "el-s082",
+      "kind": "sentence",
+      "native": [
+        "Τακτοποίησα τις κρεμάστρες στην αποθήκη."
+      ],
+      "roman": [
+        "Taktopiisa tis kremastres stin apothiki."
+      ]
+    },
+    {
+      "id": "el-s083",
+      "kind": "sentence",
+      "native": [
+        "Υπολόγισε 35 λεπτά περπάτημα για τα επόμενα 3 χιλιόμετρα."
+      ],
+      "roman": [
+        "Ipologise 35 lepta perpatima gia ta epomena 3 chiliometra."
+      ]
+    },
+    {
+      "id": "el-s084",
+      "kind": "sentence",
+      "native": [
+        "Το Σάββατο να μαζέψω τα χαλιά για πλύσιμο."
+      ],
+      "roman": [
+        "To Savvato na mazepso ta chalia gia plisimo."
+      ]
+    },
+    {
+      "id": "el-s085",
+      "kind": "sentence",
+      "native": [
+        "Δείξε μου τις φωτογραφίες που τράβηξα την περασμένη άνοιξη."
+      ],
+      "roman": [
+        "Dikse mou tis fotografies pou traviksa tin perasmeni aniksi."
+      ]
+    },
+    {
+      "id": "el-s086",
+      "kind": "sentence",
+      "native": [
+        "Κόλλησε ξαφνικά το ποντίκι μου."
+      ],
+      "roman": [
+        "Kollise ksafnika to pontiki mou."
+      ]
+    },
+    {
+      "id": "el-s087",
+      "kind": "sentence",
+      "native": [
+        "Στρίψε αριστερά μετά το περίπτερο."
+      ],
+      "roman": [
+        "Stripse aristera meta to periptero."
+      ]
+    },
+    {
+      "id": "el-s088",
+      "kind": "sentence",
+      "native": [
+        "Κατερίνα, το ολοήμερο τελειώνει νωρίτερα σήμερα λόγω της γιορτής."
+      ],
+      "roman": [
+        "Katerina, to oloimero telioni noritera simera logo tis giortis."
+      ]
+    },
+    {
+      "id": "el-s089",
+      "kind": "sentence",
+      "native": [
+        "Κοιτούσα δρομολόγια για Ρέθυμνο. Όχι, για Χανιά ήθελα να πω."
+      ],
+      "roman": [
+        "Kitousa dromologia gia Rethimno. Ochi, gia Chania ithela na po."
+      ]
+    },
+    {
+      "id": "el-s090",
+      "kind": "sentence",
+      "native": [
+        "Μπράβο, σου πέτυχε το κέικ!"
+      ],
+      "roman": [
+        "Mpravo, sou petiche to keik!"
+      ]
+    },
+    {
+      "id": "el-s091",
+      "kind": "sentence",
+      "native": [
+        "Μαρία, σε βολεύει να βρεθούμε αύριο στο Παγκράτι?"
+      ],
+      "roman": [
+        "Maria, se volevi na vrethoume avrio sto Pagkrati?"
+      ]
+    },
+    {
+      "id": "el-s092",
+      "kind": "sentence",
+      "native": [
+        "Βολεύει το γραφείο στη Λεμεσό για την εκπαίδευση?"
+      ],
+      "roman": [
+        "Volevi to grafio sti Lemeso gia tin ekpedefsi?"
+      ]
+    },
+    {
+      "id": "el-s093",
+      "kind": "sentence",
+      "native": [
+        "Μένω στην Ασκληπιού 46."
+      ],
+      "roman": [
+        "Meno stin Asklipiou 46."
+      ]
+    },
+    {
+      "id": "el-s094",
+      "kind": "sentence",
+      "native": [
+        "Στη λίστα για το μανάβικο βάλε κολοκυθάκια για μπριάμ."
+      ],
+      "roman": [
+        "Sti lista gia to manaviko vale kolokithakia gia mpriam."
+      ]
+    },
+    {
+      "id": "el-s095",
+      "kind": "sentence",
+      "native": [
+        "Σβήσε το ξυπνητήρι που έχω βάλει για τις 6 το πρωί, γιατί αύριο δεν δουλεύω."
+      ],
+      "roman": [
+        "Svise to ksipnitiri pou echo vali gia tis 6 to proi, giati avrio den doulevo."
+      ]
+    },
+    {
+      "id": "el-s096",
+      "kind": "sentence",
+      "native": [
+        "Αποσυνδέθηκε το τάμπλετ του Μιχάλη."
+      ],
+      "roman": [
+        "Aposindethike to tamplet tou Michali."
+      ]
+    },
+    {
+      "id": "el-s097",
+      "kind": "sentence",
+      "native": [
+        "Σας στενεύει καθόλου στο μανίκι?"
+      ],
+      "roman": [
+        "Sas stenevi katholou sto maniki?"
+      ]
+    },
+    {
+      "id": "el-s098",
+      "kind": "sentence",
+      "native": [
+        "Πείτε στη δασκάλα ότι θα αργήσουμε λίγο, γιατί το μικρό δεν βρίσκει την τσάντα του."
+      ],
+      "roman": [
+        "Pite sti daskala oti tha argisoume ligo, giati to mikro den vriski tin tsanta tou."
+      ]
+    },
+    {
+      "id": "el-s099",
+      "kind": "sentence",
+      "native": [
+        "Πρόσθεσα σαπούνι, οδοντόκρεμα και, κάτσε να θυμηθώ, βαμβάκι."
+      ],
+      "roman": [
+        "Prosthesa sapouni, odontokrema ke, katse na thimitho, vamvaki."
+      ]
+    },
+    {
+      "id": "el-s100",
+      "kind": "sentence",
+      "native": [
+        "Μάλλον ξέχασες πάλι τα κλειδιά."
+      ],
+      "roman": [
+        "Mallon ksechases pali ta klidia."
+      ]
+    },
+    {
+      "id": "el-s101",
+      "kind": "sentence",
+      "native": [
+        "Σχετικά με τα έξοδα αποστολής, υπολογίστε άλλα 6,00 €."
+      ],
+      "roman": [
+        "Schetika me ta eksoda apostolis, ipologiste alla 6,00 €."
+      ]
+    },
+    {
+      "id": "el-s102",
+      "kind": "sentence",
+      "native": [
+        "Βρήκα μπουφάν με 25% έκπτωση, από 80,00 € στα 60,00 €."
+      ],
+      "roman": [
+        "Vrika mpoufan me 25% ekptosi, apo 80,00 € sta 60,00 €."
+      ]
+    },
+    {
+      "id": "el-s103",
+      "kind": "sentence",
+      "native": [
+        "Αύριο πρέπει να αλλάξω σεντόνια."
+      ],
+      "roman": [
+        "Avrio prepi na allakso sentonia."
+      ]
+    },
+    {
+      "id": "el-s104",
+      "kind": "sentence",
+      "native": [
+        "Σύνδεσε τα ασύρματα ακουστικά μου με το τάμπλετ."
+      ],
+      "roman": [
+        "Sindese ta asirmata akoustika mou me to tamplet."
+      ]
+    },
+    {
+      "id": "el-s105",
+      "kind": "sentence",
+      "native": [
+        "Κάθε φορά που πατάω αποθήκευση, εμφανίζεται μια άδεια σελίδα."
+      ],
+      "roman": [
+        "Kathe fora pou patao apothikefsi, emfanizete mia adia selida."
+      ]
+    },
+    {
+      "id": "el-s106",
+      "kind": "sentence",
+      "native": [
+        "Κανονίσαμε να συναντηθούμε κατευθείαν στην είσοδο του γηπέδου."
+      ],
+      "roman": [
+        "Kanonisame na sinantithoume katefthian stin isodo tou gipedou."
+      ]
+    },
+    {
+      "id": "el-s107",
+      "kind": "sentence",
+      "native": [
+        "Όσο ψήνονται οι πατάτες, μπορείς να ετοιμάσεις τη σαλάτα και να στρώσεις το τραπέζι?"
+      ],
+      "roman": [
+        "Oso psinonte i patates, mporis na etimasis ti salata ke na strosis to trapezi?"
+      ]
+    },
+    {
+      "id": "el-s108",
+      "kind": "sentence",
+      "native": [
+        "Θέλουμε δύο σπανακόπιτες, άκυρο, καλύτερα μία τυρόπιτα."
+      ],
+      "roman": [
+        "Theloume dio spanakopites, akiro, kalitera mia tiropita."
+      ]
+    },
+    {
+      "id": "el-s109",
+      "kind": "sentence",
+      "native": [
+        "Λουκία, πώς τα πήγες στις εξετάσεις οδήγησης?"
+      ],
+      "roman": [
+        "Loukia, pos ta piges stis eksetasis odigisis?"
+      ]
+    },
+    {
+      "id": "el-s110",
+      "kind": "sentence",
+      "native": [
+        "Συμφωνώ, προχωρήστε με την εκτύπωση."
+      ],
+      "roman": [
+        "Simfono, prochoriste me tin ektiposi."
+      ]
+    },
+    {
+      "id": "el-s111",
+      "kind": "sentence",
+      "native": [
+        "Θύμισέ μου να ανανεώσω τη συνδρομή για 18 μήνες στις 28 Σεπτεμβρίου, πριν λήξει η προσφορά."
+      ],
+      "roman": [
+        "Thimise mou na ananeoso ti sindromi gia 18 mines stis 28 Septemvriou, prin liksi i prosfora."
+      ]
+    },
+    {
+      "id": "el-s112",
+      "kind": "sentence",
+      "native": [
+        "Χρειάζομαι τροφή για τη γάτα."
+      ],
+      "roman": [
+        "Chriazome trofi gia ti gata."
+      ]
+    },
+    {
+      "id": "el-s113",
+      "kind": "sentence",
+      "native": [
+        "Άνοιξε την εφαρμογή των μηνυμάτων."
+      ],
+      "roman": [
+        "Anikse tin efarmogi ton minimaton."
+      ]
+    },
+    {
+      "id": "el-s114",
+      "kind": "sentence",
+      "native": [
+        "Τελείωσε η μπαταρία του πληκτρολογίου."
+      ],
+      "roman": [
+        "Teliose i mpataria tou pliktrologiou."
+      ]
+    },
+    {
+      "id": "el-s115",
+      "kind": "sentence",
+      "native": [
+        "Στο εμπορικό κέντρο, ακολουθήστε τις πράσινες πινακίδες μέχρι τις κυλιόμενες σκάλες και ανεβείτε έναν όροφο."
+      ],
+      "roman": [
+        "Sto emporiko kentro, akolouthiste tis prasines pinakides mechri tis kiliomenes skales ke anevite enan orofo."
+      ]
+    },
+    {
+      "id": "el-s116",
+      "kind": "sentence",
+      "native": [
+        "Προτιμάτε κούρεμα το πρωί ή σας βολεύει καλύτερα μεσημέρι?"
+      ],
+      "roman": [
+        "Protimate kourema to proi i sas volevi kalitera mesimeri?"
+      ]
+    },
+    {
+      "id": "el-s117",
+      "kind": "sentence",
+      "native": [
+        "Νόμιζα ότι μιλούσες για το κόκκινο τετράδιο, τώρα κατάλαβα, θες εκείνο με τις ρίγες."
+      ],
+      "roman": [
+        "Nomiza oti milouses gia to kokkino tetradio, tora katalava, thes ekino me tis riges."
+      ]
+    },
+    {
+      "id": "el-s118",
+      "kind": "sentence",
+      "native": [
+        "Ωραία τακτοποίηση έκανα, τώρα χρειάζομαι χάρτη για να βρω πού έβαλα τις κάλτσες μου."
+      ],
+      "roman": [
+        "Orea taktopiisi ekana, tora chriazome charti gia na vro pou evala tis kaltses mou."
+      ]
+    },
+    {
+      "id": "el-s119",
+      "kind": "sentence",
+      "native": [
+        "Μπορούμε να μεταφέρουμε τη συνάντηση για την Πέμπτη?"
+      ],
+      "roman": [
+        "Mporoume na metaferoume ti sinantisi gia tin Pempti?"
+      ]
+    },
+    {
+      "id": "el-s120",
+      "kind": "sentence",
+      "native": [
+        "Υπάρχει το νούμερο 39 σε μαύρο?"
+      ],
+      "roman": [
+        "Iparchi to noumero 39 se mavro?"
+      ]
+    },
+    {
+      "id": "el-s121",
+      "kind": "sentence",
+      "native": [
+        "Να κατεβάσω τον χάρτη της Λάρνακας για να τον βλέπω χωρίς ίντερνετ."
+      ],
+      "roman": [
+        "Na katevaso ton charti tis Larnakas gia na ton vlepo choris internet."
+      ]
+    },
+    {
+      "id": "el-s122",
+      "kind": "sentence",
+      "native": [
+        "Πότε φεύγει το επόμενο λεωφορείο για την Πάτρα?"
+      ],
+      "roman": [
+        "Pote fevgi to epomeno leoforio gia tin Patra?"
+      ]
+    },
+    {
+      "id": "el-s123",
+      "kind": "sentence",
+      "native": [
+        "Μπα, η ενημέρωση δεν σβήνει τις επαφές σου."
+      ],
+      "roman": [
+        "Mpa, i enimerosi den svini tis epafes sou."
+      ]
+    },
+    {
+      "id": "el-s124",
+      "kind": "sentence",
+      "native": [
+        "Λογικά προλαβαίνεις το τραμ αν κατέβεις από τα σκαλιά."
+      ],
+      "roman": [
+        "Logika prolavenis to tram an katevis apo ta skalia."
+      ]
+    },
+    {
+      "id": "el-s125",
+      "kind": "sentence",
+      "native": [
+        "Σβήνουμε τα κεράκια μόλις έρθει κι ο παππούς."
+      ],
+      "roman": [
+        "Svinoume ta kerakia molis erthi ki o pappous."
+      ]
+    },
+    {
+      "id": "el-s126",
+      "kind": "sentence",
+      "native": [
+        "Ιόλη, πόσα ρέστα πήρες?"
+      ],
+      "roman": [
+        "Ioli, posa resta pires?"
+      ]
+    },
+    {
+      "id": "el-s127",
+      "kind": "sentence",
+      "native": [
+        "Μήπως χωράει στο πορτμπαγκάζ και η δική μου βαλίτσα?"
+      ],
+      "roman": [
+        "Mipos chorai sto portmpagkaz ke i diki mou valitsa?"
+      ]
+    },
+    {
+      "id": "el-s128",
+      "kind": "sentence",
+      "native": [
+        "Ανδρέα, ανέβασα το διορθωμένο αρχείο."
+      ],
+      "roman": [
+        "Andrea, anevasa to diorthomeno archio."
+      ]
+    },
+    {
+      "id": "el-s129",
+      "kind": "sentence",
+      "native": [
+        "Πρόσθεσε 250 γραμμάρια αλεύρι και 150 γραμμάρια γιαούρτι."
+      ],
+      "roman": [
+        "Prosthese 250 grammaria alevri ke 150 grammaria giaourti."
+      ]
+    },
+    {
+      "id": "el-s130",
+      "kind": "sentence",
+      "native": [
+        "Πριν κοιμηθώ, πρέπει να βάλω το κινητό στο αθόρυβο."
+      ],
+      "roman": [
+        "Prin kimitho, prepi na valo to kinito sto athorivo."
+      ]
+    },
+    {
+      "id": "el-s131",
+      "kind": "sentence",
+      "native": [
+        "Αποθήκευσε αυτή τη σελίδα στους σελιδοδείκτες για να τη βρω εύκολα την επόμενη φορά."
+      ],
+      "roman": [
+        "Apothikefse afti ti selida stous selidodiktes gia na ti vro efkola tin epomeni fora."
+      ]
+    },
+    {
+      "id": "el-s132",
+      "kind": "sentence",
+      "native": [
+        "Επειδή δουλεύουμε πάνω στο ίδιο κείμενο, καλύτερα να αφήνουμε σχόλια αντί να σβήνουμε ολόκληρες παραγράφους."
+      ],
+      "roman": [
+        "Epidi doulevoume pano sto idio kimeno, kalitera na afinoume scholia anti na svinoume oloklires paragrafous."
+      ]
+    },
+    {
+      "id": "el-s133",
+      "kind": "sentence",
+      "native": [
+        "Ρωτήστε τον οδηγό αν περνάει από το κολυμβητήριο."
+      ],
+      "roman": [
+        "Rotiste ton odigo an pernai apo to kolimvitirio."
+      ]
+    },
+    {
+      "id": "el-s134",
+      "kind": "sentence",
+      "native": [
+        "Φυσάει πολύ, κλείνεις το παράθυρο?"
+      ],
+      "roman": [
+        "Fisai poli, klinis to parathiro?"
+      ]
+    },
+    {
+      "id": "el-s135",
+      "kind": "sentence",
+      "native": [
+        "Στάσου, πόσα κουμπιά λείπουν τελικά από το παλιό παλτό?"
+      ],
+      "roman": [
+        "Stasou, posa koumpia lipoun telika apo to palio palto?"
+      ]
+    },
+    {
+      "id": "el-s136",
+      "kind": "sentence",
+      "native": [
+        "Πώς πήγε η πρώτη μέρα στη δουλειά? Ήταν οι συνάδελφοι τόσο φιλικοί όσο σου είχαν πει?"
+      ],
+      "roman": [
+        "Pos pige i proti mera sti doulia? Itan i sinadelfi toso filiki oso sou ichan pi?"
+      ]
+    },
+    {
+      "id": "el-s137",
+      "kind": "sentence",
+      "native": [
+        "Όποτε βρείτε χρόνο, απαντήστε μου στο προηγούμενο μέιλ για τις άδειες του προσωπικού."
+      ],
+      "roman": [
+        "Opote vrite chrono, apantiste mou sto proigoumeno meil gia tis adies tou prosopikou."
+      ]
+    },
+    {
+      "id": "el-s138",
+      "kind": "sentence",
+      "native": [
+        "Έκλεισα δωμάτιο στον 4ο όροφο για 8 βράδια."
+      ],
+      "roman": [
+        "Eklisa domatio ston 4o orofo gia 8 vradia."
+      ]
+    },
+    {
+      "id": "el-s139",
+      "kind": "sentence",
+      "native": [
+        "Δευτέρα πρωί να τηλεφωνήσω στο συνεργείο για να δω πότε μπορώ να πάω το αυτοκίνητο."
+      ],
+      "roman": [
+        "Deftera proi na tilefoniso sto sinergio gia na do pote mporo na pao to aftokinito."
+      ]
+    },
+    {
+      "id": "el-s140",
+      "kind": "sentence",
+      "native": [
+        "Ανέβασε λίγο την ένταση γιατί δεν ακούω το πόντκαστ."
+      ],
+      "roman": [
+        "Anevase ligo tin entasi giati den akouo to pontkast."
+      ]
+    },
+    {
+      "id": "el-s141",
+      "kind": "sentence",
+      "native": [
+        "Δέχεστε πληρωμές με το κινητό?"
+      ],
+      "roman": [
+        "Decheste pliromes me to kinito?"
+      ]
+    },
+    {
+      "id": "el-s142",
+      "kind": "sentence",
+      "native": [
+        "Κατεβαίνω στην επόμενη στάση."
+      ],
+      "roman": [
+        "Kateveno stin epomeni stasi."
+      ]
+    },
+    {
+      "id": "el-s143",
+      "kind": "sentence",
+      "native": [
+        "Σάββα, άφησα τον φορτιστή σου δίπλα στην τηλεόραση."
+      ],
+      "roman": [
+        "Savva, afisa ton fortisti sou dipla stin tileorasi."
+      ]
+    },
+    {
+      "id": "el-s144",
+      "kind": "sentence",
+      "native": [
+        "Παρακαλώ ενημερώστε μας μόλις παραλάβετε τα δείγματα υφασμάτων."
+      ],
+      "roman": [
+        "Parakalo enimeroste mas molis paralavete ta digmata ifasmaton."
+      ]
+    },
+    {
+      "id": "el-s145",
+      "kind": "sentence",
+      "native": [
+        "Η πτήση μας φεύγει στις 9 το βράδυ, αλλά η επιβίβαση ξεκινάει 40 λεπτά νωρίτερα."
+      ],
+      "roman": [
+        "I ptisi mas fevgi stis 9 to vradi, alla i epivivasi ksekinai 40 lepta noritera."
+      ]
+    },
+    {
+      "id": "el-s146",
+      "kind": "sentence",
+      "native": [
+        "Ας καθαρίσω επιτέλους τα γυαλιά."
+      ],
+      "roman": [
+        "As kathariso epitelous ta gialia."
+      ]
+    },
+    {
+      "id": "el-s147",
+      "kind": "sentence",
+      "native": [
+        "Ρύθμισε το χρονόμετρο για 11 λεπτά."
+      ],
+      "roman": [
+        "Rithmise to chronometro gia 11 lepta."
+      ]
+    },
+    {
+      "id": "el-s148",
+      "kind": "sentence",
+      "native": [
+        "Πάτησα κατά λάθος διαγραφή."
+      ],
+      "roman": [
+        "Patisa kata lathos diagrafi."
+      ]
+    },
+    {
+      "id": "el-s149",
+      "kind": "sentence",
+      "native": [
+        "Μόλις δέσει το καράβι στην Αίγινα, θα σου τηλεφωνήσω για να έρθεις να με μαζέψεις."
+      ],
+      "roman": [
+        "Molis desi to karavi stin Egina, tha sou tilefoniso gia na erthis na me mazepsis."
+      ]
+    },
+    {
+      "id": "el-s150",
+      "kind": "sentence",
+      "native": [
+        "Ξεκινάμε στις 7 το απόγευμα."
+      ],
+      "roman": [
+        "Ksekiname stis 7 to apogevma."
+      ]
+    },
+    {
+      "id": "el-s151",
+      "kind": "sentence",
+      "native": [
+        "Βάλε σακούλες σκουπιδιών στη λίστα."
+      ],
+      "roman": [
+        "Vale sakoules skoupidion sti lista."
+      ]
+    },
+    {
+      "id": "el-s152",
+      "kind": "sentence",
+      "native": [
+        "Στέγνωσαν τα ρούχα στο μπαλκόνι?"
+      ],
+      "roman": [
+        "Stegnosan ta roucha sto mpalkoni?"
+      ]
+    },
+    {
+      "id": "el-s153",
+      "kind": "sentence",
+      "native": [
+        "Κερδίσαμε με 2-0 χθες."
+      ],
+      "roman": [
+        "Kerdisame me 2-0 chthes."
+      ]
+    },
+    {
+      "id": "el-s154",
+      "kind": "sentence",
+      "native": [
+        "Χρωστάω στον Θοδωρή 13,00 € για τα εισιτήρια της συναυλίας."
+      ],
+      "roman": [
+        "Chrostao ston Thodori 13,00 € gia ta isitiria tis sinavlias."
+      ]
+    },
+    {
+      "id": "el-s155",
+      "kind": "sentence",
+      "native": [
+        "Εντάξει, φέρνω εγώ τις πετσέτες."
+      ],
+      "roman": [
+        "Entaksi, ferno ego tis petsetes."
+      ]
+    },
+    {
+      "id": "el-s156",
+      "kind": "sentence",
+      "native": [
+        "Απόψε διαλέγεις εσύ ταινία, αρκεί να μη μας πάρει ο ύπνος."
+      ],
+      "roman": [
+        "Apopse dialegis esi tenia, arki na mi mas pari o ipnos."
+      ]
+    },
+    {
+      "id": "el-s157",
+      "kind": "sentence",
+      "native": [
+        "Σκέφτομαι να κατέβω στην Καλαμαριά για παγωτό, ψήνεσαι να έρθεις ή έχεις κανονίσει κάτι άλλο?"
+      ],
+      "roman": [
+        "Skeftome na katevo stin Kalamaria gia pagoto, psinese na erthis i echis kanonisi kati allo?"
+      ]
+    },
+    {
+      "id": "el-s158",
+      "kind": "sentence",
+      "native": [
+        "Μίλησα με τη Μελίνα και θα περιμένει εκείνη τον υδραυλικό, οπότε δεν χρειάζεται να γυρίσεις νωρίτερα."
+      ],
+      "roman": [
+        "Milisa me ti Melina ke tha perimeni ekini ton idravliko, opote den chriazete na girisis noritera."
+      ]
+    },
+    {
+      "id": "el-s159",
+      "kind": "sentence",
+      "native": [
+        "Τελικά θα περάσουμε την Κυριακή από τη γιαγιά."
+      ],
+      "roman": [
+        "Telika tha perasoume tin Kiriaki apo ti giagia."
+      ]
+    },
+    {
+      "id": "el-s160",
+      "kind": "sentence",
+      "native": [
+        "Περάστε για επιτραπέζια, έχουμε ολόκληρο το απόγευμα μπροστά μας."
+      ],
+      "roman": [
+        "Peraste gia epitrapezia, echoume olokliro to apogevma mprosta mas."
+      ]
+    }
+  ]
+}

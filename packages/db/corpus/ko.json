@@ -1,0 +1,1674 @@
+{
+  "lang": "ko",
+  "starter": [
+    "ko-s116",
+    "ko-s004",
+    "ko-s110",
+    "ko-s085",
+    "ko-s074",
+    "ko-s037",
+    "ko-s060",
+    "ko-s005",
+    "ko-s022",
+    "ko-s067",
+    "ko-s101",
+    "ko-s069",
+    "ko-s070",
+    "ko-s134",
+    "ko-s021",
+    "ko-s130",
+    "ko-p04",
+    "ko-s026",
+    "ko-s119",
+    "ko-s024",
+    "ko-s017",
+    "ko-s078",
+    "ko-s081",
+    "ko-s136",
+    "ko-s014",
+    "ko-s057",
+    "ko-s061",
+    "ko-s129",
+    "ko-s071",
+    "ko-s111",
+    "ko-s046",
+    "ko-s122",
+    "ko-s058",
+    "ko-p01",
+    "ko-s133",
+    "ko-s086",
+    "ko-s098",
+    "ko-s105",
+    "ko-s097",
+    "ko-s042",
+    "ko-s025",
+    "ko-s127",
+    "ko-s117",
+    "ko-s121",
+    "ko-s120",
+    "ko-s015",
+    "ko-s080",
+    "ko-s089",
+    "ko-s131",
+    "ko-s055",
+    "ko-s048"
+  ],
+  "items": [
+    {
+      "id": "ko-p01",
+      "kind": "para",
+      "title": "Last Night's Match",
+      "native": [
+        "어제 우리 집에서 다 같이 축구 봤잖아.",
+        "시작할 때는 조용하더니 나중에는 다들 자리에서 벌떡 일어나더라.",
+        "후반전에 골이 들어갔을 때 아빠가 제일 크게 소리쳤어.",
+        "나는 치킨 먹다가 놀라서 들고 있던 무까지 떨어뜨렸어.",
+        "동생은 그 장면 다시 보겠다고 계속 화면을 돌려 봤어.",
+        "마지막에 공이 골대 맞았을 때는 진짜 가슴이 철렁했어.",
+        "심판이 끝났다고 휘슬 부니까 그제야 마음이 좀 놓이더라.",
+        "경기 끝나고도 다들 흥분해서 한참을 거실에 앉아 있었어.",
+        "다음 경기는 너도 우리 집에 와서 같이 보자."
+      ],
+      "roman": [
+        "Eoje uri jibeseo da gachi chukgu bwatjana.",
+        "Sijakhal ttaeneun joyonghadeoni najungeneun dadeul jarieseo beoltteok ireonadeora.",
+        "Hubanjeone gori deureogasseul ttae appaga jeil keuge sorichyeosseo.",
+        "Naneun chikin meokdaga nollaseo deulgo itdeon mukkaji tteoreotteuryeosseo.",
+        "Dongsaengeun geu jangmyeon dasi bogetdago gyesok hwamyeoneul dollyeo bwasseo.",
+        "Majimage gongi goldae majasseul ttaeneun jinjja gaseumi cheolleonghaesseo.",
+        "Simpani kkeunnatdago hwiseul bunikka geujeya maeumi jom noideora.",
+        "Gyeonggi kkeunnagodo dadeul heungbunhaeseo hanchameul geosire anja isseosseo.",
+        "Daeum gyeonggineun neodo uri jibe waseo gachi boja."
+      ]
+    },
+    {
+      "id": "ko-p02",
+      "kind": "para",
+      "title": "Moving Upstairs in Gongdeok",
+      "native": [
+        "공덕동 사무실을 이번 금요일에 4층에서 7층으로 옮깁니다.",
+        "금요일 오후 3시까지 개인 짐을 상자에 담아 주세요.",
+        "상자 옆면에는 이름과 팀 이름을 크게 적어 주세요.",
+        "노트북과 충전기는 이삿짐에 넣지 말고 직접 챙겨 주세요.",
+        "공용 모니터와 책상은 이사 업체에서 따로 옮길 예정입니다.",
+        "새 자리 배치도는 팀 폴더에 올려 두었습니다.",
+        "월요일에는 7층 회의실 앞에서 출입 카드를 받아 주세요.",
+        "인터넷 연결이 안 되면 총무팀에 바로 알려 주세요.",
+        "이사 때문에 일정 조정이 필요하시면 오늘 중으로 말씀해 주세요."
+      ],
+      "roman": [
+        "Gongdeokdong samusireul ibeon geumyoire 4cheungeseo 7cheungeuro omgimnida.",
+        "Geumyoil ohu 3sikkaji gaein jimeul sangjae dama juseyo.",
+        "Sangja yeommyeoneneun ireumgwa tim ireumeul keuge jeogeo juseyo.",
+        "Noteubukgwa chungjeongineun isatjime neochi malgo jikjeop chaenggyeo juseyo.",
+        "Gongyong moniteowa chaeksangeun isa eopcheeseo ttaro omgil yejeongimnida.",
+        "Sae jari baechidoneun tim poldeoe ollyeo dueotseumnida.",
+        "Woryoireneun 7cheung hoeuisil apeseo churip kadeureul bada juseyo.",
+        "Inteonet yeongyeori an doemyeon chongmutime baro allyeo juseyo.",
+        "Isa ttaemune iljeong jojeongi piryohasimyeon oneul jungeuro malsseumhae juseyo."
+      ]
+    },
+    {
+      "id": "ko-p03",
+      "kind": "para",
+      "title": "My First Bicycle Ride",
+      "native": [
+        "올봄에 중랑천 옆 공터에서 형한테 처음 자전거를 배웠어요.",
+        "빌린 자전거는 안장이 높아서 발끝만 겨우 땅에 닿았어요.",
+        "형이 안장을 낮춰 주니까 훨씬 마음이 놓였어요.",
+        "헬멧을 단단히 쓰고 자전거 손잡이를 두 손으로 잡았어요.",
+        "처음에는 자꾸 발밑을 보느라 핸들이 옆으로 돌아갔어요.",
+        "형이 멀리 있는 나무를 보라고 옆에서 계속 말해 줬어요.",
+        "고개를 들고 페달을 밟으니까 신기하게 앞으로 쭉 나갔어요.",
+        "뒤를 돌아보니 형은 벌써 저만치 서서 손뼉을 치고 있었어요.",
+        "연습을 마치고 근처 분식집에서 먹은 김밥이 유난히 맛있었어요."
+      ],
+      "roman": [
+        "Olbome Jungnangcheon yeop gongteoeseo hyeonghante cheoeum jajeongeoreul baewosseoyo.",
+        "Billin jajeongeoneun anjangi nopaseo balkkeunman gyeou ttange daasseoyo.",
+        "Hyeongi anjangeul natchwo junikka hwolssin maeumi noyeosseoyo.",
+        "Helmeseul dandanhi sseugo jajeongeo sonjabireul du soneuro jabasseoyo.",
+        "Cheoeumeneun jakku balmiteul boneura haendeuri yeopeuro doragasseoyo.",
+        "Hyeongi meolli inneun namureul borago yeopeseo gyesok malhae jwosseoyo.",
+        "Gogaereul deulgo pedareul balbeunikka singihage apeuro jjuk nagasseoyo.",
+        "Dwireul doraboni hyeongeun beolsseo jeomanchi seoseo sonppyeogeul chigo isseosseoyo.",
+        "Yeonseubeul machigo geuncheo bunsikjibeseo meogeun gimbabi yunanhi masisseosseoyo."
+      ]
+    },
+    {
+      "id": "ko-p04",
+      "kind": "para",
+      "title": "Packing for Jeju",
+      "native": [
+        "제주에서 2주 동안 지낼 거라면 짐을 이렇게 싸 보세요.",
+        "먼저 일기예보를 보고 얇은 옷과 바람막이를 골라 주세요.",
+        "중간에 빨래할 수 있으니 갈아입을 옷은 적당히 챙기세요.",
+        "옷은 돌돌 말아서 가방 아래쪽부터 빈틈없이 채워 주세요.",
+        "속옷과 양말은 작은 주머니에 넣으면 찾기가 훨씬 편해요.",
+        "샴푸는 작은 통에 덜고 새지 않게 뚜껑을 꽉 닫으세요.",
+        "충전기와 보조 배터리는 이동할 때 꺼내기 쉽게 따로 담으세요.",
+        "신분증과 지갑은 작은 크로스백에 넣으세요.",
+        "출발 전에는 가방을 직접 들어 보고 무게를 확인하세요."
+      ],
+      "roman": [
+        "Jejueseo 2ju dongan jinael georamyeon jimeul ireoke ssa boseyo.",
+        "Meonjeo ilgiyeboreul bogo yalbeun otgwa barammagireul golla juseyo.",
+        "Junggane ppallaehal su isseuni garaibeul oseun jeokdanghi chaenggiseyo.",
+        "Oseun doldol maraseo gabang araejjokbuteo binteumeopsi chaewo juseyo.",
+        "Sogotgwa yangmareun jageun jumeonie neoeumyeon chatgiga hwolssin pyeonhaeyo.",
+        "Syampuneun jageun tonge deolgo saeji anke ttukkeongeul kkwak dadeuseyo.",
+        "Chungjeongiwa bojo baeteorineun idonghal ttae kkeonaegi swipge ttaro dameuseyo.",
+        "Sinbunjeunggwa jigabeun jageun keuroseubaege neoeuseyo.",
+        "Chulbal jeoneneun gabangeul jikjeop deureo bogo mugereul hwaginhaseyo."
+      ]
+    },
+    {
+      "id": "ko-p05",
+      "kind": "para",
+      "title": "Delivery Dinner in Daejeon",
+      "native": [
+        "대전 둔산동에 사는데, 저녁은 요기요로 자주 시켜 먹어요.",
+        "어제는 동네 분식집에서 떡볶이랑 참치김밥을 함께 주문했어요.",
+        "배달비가 2,000원이라 직접 나갈까 잠깐 고민은 했어요.",
+        "그래도 비 오는 날에는 집에서 기다리는 게 편하더라고요.",
+        "음식은 따뜻했는데, 앱에 뜬 도착 시간보다는 조금 늦었어요.",
+        "리뷰에 양이 적다는 얘기가 있어서 조금 걱정했거든요.",
+        "막상 받아 보니 둘이 먹기에 딱 알맞은 양이었어요.",
+        "다만 가게마다 최소 주문 금액이 달라서 비교하기는 번거로워요.",
+        "저는 할인 쿠폰보다 배달비까지 합친 금액을 먼저 보게 돼요."
+      ],
+      "roman": [
+        "Daejeon Dunsandonge saneunde, jeonyeogeun Yogiyoro jaju sikyeo meogeoyo.",
+        "Eojeneun dongne bunsikjibeseo tteokbokkirang chamchigimbabeul hamkke jumunhaesseoyo.",
+        "Baedalbiga 2,000wonira jikjeop nagalkka jamkkan gomineun haesseoyo.",
+        "Geuraedo bi oneun nareneun jibeseo gidarineun ge pyeonhadeoragoyo.",
+        "Eumsigeun ttatteuthaenneunde, aebe tteun dochak siganbodaneun jogeum neujeosseoyo.",
+        "Ribyue yangi jeokdaneun yaegiga isseoseo jogeum geokjeonghaetgeodeunyo.",
+        "Maksang bada boni duri meokgie ttak almajeun yangieosseoyo.",
+        "Daman gagemada choeso jumun geumaegi dallaseo bigyohagineun beongeorowoyo.",
+        "Jeoneun harin kuponboda baedalbikkaji hapchin geumaegeul meonjeo boge dwaeyo."
+      ]
+    },
+    {
+      "id": "ko-p06",
+      "kind": "para",
+      "title": "Three Days in Gangneung",
+      "native": [
+        "강릉 2박 3일 여행 예산은 둘이 합쳐 450,000원으로 잡자.",
+        "출발은 9월 18일이고, 돌아오는 날은 9월 20일로 정하면 되겠어.",
+        "첫날은 오전 8시에 서울에서 기차를 타고 출발하자.",
+        "왕복 기차 요금으로 둘이 합쳐 120,000원 정도 따로 빼 두자.",
+        "숙소는 경포대 근처로 잡고, 2박에 160,000원까지 쓰는 걸로 하자.",
+        "첫날 점심은 중앙시장에서 장칼국수를 먹자. 둘이 18,000원 정도면 되겠다.",
+        "다음 날은 오전 10시에 안목해변에서 출발해서 바닷가를 3킬로미터쯤 걷자.",
+        "마지막 날에는 커피 원두를 사고 오후 5시 기차로 돌아오자.",
+        "남은 170,000원은 식비와 버스비, 기념품값으로 나눠 쓰면 되겠다."
+      ],
+      "roman": [
+        "Gangneung 2bak 3il yeohaeng yesaneun duri hapchyeo 450,000woneuro japja.",
+        "Chulbareun 9wol 18irigo, doraoneun nareun 9wol 20illo jeonghamyeon doegesseo.",
+        "Cheonnareun ojeon 8sie Seoureseo gichareul tago chulbalhaja.",
+        "Wangbok gicha yogeumeuro duri hapchyeo 120,000won jeongdo ttaro ppae duja.",
+        "Suksoneun Gyeongpodae geuncheoro japgo, 2bage 160,000wonkkaji sseuneun geollo haja.",
+        "Cheonnal jeomsimeun Jungangsijangeseo jangkalguksureul meokja. Duri 18,000won jeongdomyeon doegetda.",
+        "Daeum nareun ojeon 10sie Anmokhaebyeoneseo chulbalhaeseo badatgareul 3killomiteojjeum geotja.",
+        "Majimak nareneun keopi wondureul sago ohu 5si gicharo doraoja.",
+        "Nameun 170,000woneun sikbiwa beoseubi, ginyeompumgapseuro nanwo sseumyeon doegetda."
+      ]
+    },
+    {
+      "id": "ko-p07",
+      "kind": "para",
+      "title": "Requesting a School Receipt",
+      "native": [
+        "안녕하세요, 수원 영통초등학교에 다니는 이서 보호자인데 영수증 때문에 전화드렸어요.",
+        "지난 4월에 낸 방과 후 수업료 영수증을 다시 받을 수 있을까요?",
+        "도예 수업이었고, 금액은 재료비를 포함해서 모두 65,000원이었어요.",
+        "학교 앱에서는 신청 내역만 보이고 납부 확인서는 안 보여요.",
+        "혹시 영수증에는 아이 이름과 납부 날짜가 함께 나오나요?",
+        "회사에 제출할 서류라서 학교 이름도 나와 있으면 좋겠어요.",
+        "파일로 보내 주시면 제가 집에서 출력해서 가져갈 수 있어요.",
+        "이메일 주소는 통화가 끝나면 학교 앱 메시지로 보내 드릴게요.",
+        "이번 주 금요일까지 발급이 가능할지 확인해 주시면 감사하겠습니다."
+      ],
+      "roman": [
+        "Annyeonghaseyo, Suwon Yeongtongchodeunghakgyoe danineun Isseo bohojainde yeongsujeung ttaemune jeonhwadeuryeosseoyo.",
+        "Jinan 4wore naen banggwa hu sueomnyo yeongsujeungeul dasi badeul su isseulkkayo?",
+        "Doye sueobieotgo, geumaegeun jaeryobireul pohamhaeseo modu 65,000wonieosseoyo.",
+        "Hakgyo aebeseoneun sincheong naeyeongman boigo napbu hwaginseoneun an boyeoyo.",
+        "Hoksi yeongsujeungeneun ai ireumgwa napbu naljjaga hamkke naonayo?",
+        "Hoesae jechulhal seoryuraseo hakgyo ireumdo nawa isseumyeon jokesseoyo.",
+        "Paillo bonae jusimyeon jega jibeseo chullyeokhaeseo gajyeogal su isseoyo.",
+        "Imeil jusoneun tonghwaga kkeunnamyeon hakgyo aep mesijiro bonae deurilgeyo.",
+        "Ibeon ju geumyoilkkaji balgeubi ganeunghalji hwaginhae jusimyeon gamsahagetseumnida."
+      ]
+    },
+    {
+      "id": "ko-p08",
+      "kind": "para",
+      "title": "Getting Around Incheon",
+      "native": [
+        "인천에서는 지하철과 시내버스를 함께 이용하면 이동하기 편리합니다.",
+        "인천 지하철 1호선을 타면 부평에서 송도까지 갈 수 있습니다.",
+        "부평역에서는 서울로 가는 수도권 전철 1호선으로 갈아탈 수 있습니다.",
+        "환승 통로가 붐빌 수 있으니 이동 시간은 넉넉히 잡으세요.",
+        "송도 센트럴파크에 가려면 인천 지하철 센트럴파크역에서 내리세요.",
+        "교통카드는 버스에 탈 때와 내릴 때 모두 찍어 주세요.",
+        "환승 할인을 받으려면 같은 카드로 이어서 이용해야 합니다.",
+        "정류장 전광판에서는 버스가 몇 분 뒤에 오는지 확인할 수 있습니다.",
+        "네이버 지도에서 목적지를 검색하면 버스와 전철 경로를 비교할 수 있습니다."
+      ],
+      "roman": [
+        "Incheoneseoneun jihacheolgwa sinaebeoseureul hamkke iyonghamyeon idonghagi pyeollihamnida.",
+        "Incheon jihacheol 1hoseoneul tamyeon Bupyeongeseo Songdokkaji gal su itseumnida.",
+        "Bupyeongnyeogeseoneun Seoullo ganeun sudogwon jeoncheol 1hoseoneuro garatal su itseumnida.",
+        "Hwanseung tongnoga bumbil su isseuni idong siganeun neongneoki jabeuseyo.",
+        "Songdo Senteureolpakeue garyeomyeon Incheon jihacheol Senteureolpakeuyeogeseo naeriseyo.",
+        "Gyotongkadeuneun beoseue tal ttaewa naeril ttae modu jjigeo juseyo.",
+        "Hwanseung harineul badeuryeomyeon gateun kadeuro ieoseo iyonghaeya hamnida.",
+        "Jeongnyujang jeongwangpaneseoneun beoseuga myeot bun dwie oneunji hwaginhal su itseumnida.",
+        "Neibeo jidoeseo mokjeokjireul geomsaekhamyeon beoseuwa jeoncheol gyeongnoreul bigyohal su itseumnida."
+      ]
+    },
+    {
+      "id": "ko-s001",
+      "kind": "sentence",
+      "native": [
+        "보경아, 잠실 야구장 갈 때 모자 챙겨 와."
+      ],
+      "roman": [
+        "Bogyeonga, Jamsil yagujang gal ttae moja chaenggyeo wa."
+      ]
+    },
+    {
+      "id": "ko-s002",
+      "kind": "sentence",
+      "native": [
+        "행사 당일에 쓸 안내문 문구를 메신저로 남겼어요."
+      ],
+      "roman": [
+        "Haengsa dangire sseul annaemun mungureul mesinjeoro namgyeosseoyo."
+      ]
+    },
+    {
+      "id": "ko-s003",
+      "kind": "sentence",
+      "native": [
+        "약속 장소는 서울특별시 중구 세종대로 110, 정문 앞이에요."
+      ],
+      "roman": [
+        "Yaksok jangsoneun Seoulteukbyeolsi Junggu Sejongdaero 110, jeongmun apieyo."
+      ]
+    },
+    {
+      "id": "ko-s004",
+      "kind": "sentence",
+      "native": [
+        "은평구청 앞 미용실에 화요일 커트 예약을 해 뒀어요."
+      ],
+      "roman": [
+        "Eunpyeonggucheong ap miyongsire hwayoil keoteu yeyageul hae dwosseoyo."
+      ]
+    },
+    {
+      "id": "ko-s005",
+      "kind": "sentence",
+      "native": [
+        "화면 밝기 조금 낮춰."
+      ],
+      "roman": [
+        "Hwamyeon balgi jogeum natchwo."
+      ]
+    },
+    {
+      "id": "ko-s006",
+      "kind": "sentence",
+      "native": [
+        "유나 씨가 올린 댓글에 답글을 달아 놨어요."
+      ],
+      "roman": [
+        "Yuna ssiga ollin daetgeure dapgeureul dara nwasseoyo."
+      ]
+    },
+    {
+      "id": "ko-s007",
+      "kind": "sentence",
+      "native": [
+        "뒷골목 세탁소는 저녁에도 옷을 찾을 수 있대요."
+      ],
+      "roman": [
+        "Dwitgolmok setaksoneun jeonyeogedo oseul chajeul su itdaeyo."
+      ]
+    },
+    {
+      "id": "ko-s008",
+      "kind": "sentence",
+      "native": [
+        "도서관에서 빌린 책은 무인 반납기에 넣으면 돼."
+      ],
+      "roman": [
+        "Doseogwaneseo billin chaegeun muin bannapgie neoeumyeon dwae."
+      ]
+    },
+    {
+      "id": "ko-s009",
+      "kind": "sentence",
+      "native": [
+        "아차, 쪽파가 아니라 대파였지."
+      ],
+      "roman": [
+        "Acha, jjokpaga anira daepayeotji."
+      ]
+    },
+    {
+      "id": "ko-s010",
+      "kind": "sentence",
+      "native": [
+        "수원 화성을 따라 걷다 보니 멀리 여행을 가지 않아도 기분이 꽤 달라지네요."
+      ],
+      "roman": [
+        "Suwon Hwaseongeul ttara geotda boni meolli yeohaengeul gaji anado gibuni kkwae dallajineyo."
+      ]
+    },
+    {
+      "id": "ko-s011",
+      "kind": "sentence",
+      "native": [
+        "이번에 찍은 가족사진 중에서 마음에 드는 거 골라 주시면 크게 인화해 드릴게요."
+      ],
+      "roman": [
+        "Ibeone jjigeun gajoksajin jungeseo maeume deuneun geo golla jusimyeon keuge inhwahae deurilgeyo."
+      ]
+    },
+    {
+      "id": "ko-s012",
+      "kind": "sentence",
+      "native": [
+        "우선 첨부한 견적서부터 봐 주세요."
+      ],
+      "roman": [
+        "Useon cheombuhan gyeonjeokseobuteo bwa juseyo."
+      ]
+    },
+    {
+      "id": "ko-s013",
+      "kind": "sentence",
+      "native": [
+        "수건은 4장씩 2묶음 주세요."
+      ],
+      "roman": [
+        "Sugeoneun 4jangssik 2mukkeum juseyo."
+      ]
+    },
+    {
+      "id": "ko-s014",
+      "kind": "sentence",
+      "native": [
+        "정수기 필터는 주말에 갈자."
+      ],
+      "roman": [
+        "Jeongsugi pilteoneun jumare galja."
+      ]
+    },
+    {
+      "id": "ko-s015",
+      "kind": "sentence",
+      "native": [
+        "경복궁에 휠체어 타고 들어갈 수 있는 입구가 어디야?"
+      ],
+      "roman": [
+        "Gyeongbokgunge hwilcheeo tago deureogal su inneun ipguga eodiya?"
+      ]
+    },
+    {
+      "id": "ko-s016",
+      "kind": "sentence",
+      "native": [
+        "한글 문서를 열었더니 표가 옆으로 밀려서 나와요."
+      ],
+      "roman": [
+        "Hangeul munseoreul yeoreotdeoni pyoga yeopeuro millyeoseo nawayo."
+      ]
+    },
+    {
+      "id": "ko-s017",
+      "kind": "sentence",
+      "native": [
+        "맞은편 꽃집으로 오세요."
+      ],
+      "roman": [
+        "Majeunpyeon kkotjibeuro oseyo."
+      ]
+    },
+    {
+      "id": "ko-s018",
+      "kind": "sentence",
+      "native": [
+        "진주 유등축제 구경할 때는 사람이 많으니까 아이 손을 꼭 잡고 다녀야겠어요."
+      ],
+      "roman": [
+        "Jinju yudeungchukje gugyeonghal ttaeneun sarami maneunikka ai soneul kkok japgo danyeoyagesseoyo."
+      ]
+    },
+    {
+      "id": "ko-s019",
+      "kind": "sentence",
+      "native": [
+        "장갑이랑 양말, 그리고 아까 봤던 회색 니트까지 담으면 모두 얼마예요? 배송비도 붙나요?"
+      ],
+      "roman": [
+        "Janggapirang yangmal, geurigo akka bwatdeon hoesaek niteukkaji dameumyeon modu eolmayeyo? Baesongbido bunnayo?"
+      ]
+    },
+    {
+      "id": "ko-s020",
+      "kind": "sentence",
+      "native": [
+        "단발머리가 훨씬 잘 어울려요."
+      ],
+      "roman": [
+        "Danbalmeoriga hweolssin jal eoullyeoyo."
+      ]
+    },
+    {
+      "id": "ko-s021",
+      "kind": "sentence",
+      "native": [
+        "민지야, 네 우산 현관 옆에 세워 뒀어."
+      ],
+      "roman": [
+        "Minjiya, ne usan hyeongwan yeope sewo dwosseo."
+      ]
+    },
+    {
+      "id": "ko-s022",
+      "kind": "sentence",
+      "native": [
+        "화면 공유 잠깐 꺼도 될까요?"
+      ],
+      "roman": [
+        "Hwamyeon gongyu jamkkan kkeodo doelkkayo?"
+      ]
+    },
+    {
+      "id": "ko-s023",
+      "kind": "sentence",
+      "native": [
+        "마감은 11월 6일이고, 최종 파일은 전날 오후 5시까지 올려 주세요."
+      ],
+      "roman": [
+        "Magameun 11wol 6irigo, choejong paireun jeonnal ohu 5sikkaji ollyeo juseyo."
+      ]
+    },
+    {
+      "id": "ko-s024",
+      "kind": "sentence",
+      "native": [
+        "자전거 점검은 수요일로 잡아."
+      ],
+      "roman": [
+        "Jajeongeo jeomgeomeun suyoillo jaba."
+      ]
+    },
+    {
+      "id": "ko-s025",
+      "kind": "sentence",
+      "native": [
+        "오늘 속초 바람이 센지 날씨 좀 확인해 줘."
+      ],
+      "roman": [
+        "Oneul Sokcho barami senji nalssi jom hwaginhae jwo."
+      ]
+    },
+    {
+      "id": "ko-s026",
+      "kind": "sentence",
+      "native": [
+        "줌에서 소회의실로 넘어가면 채팅 내용도 그대로 남나요?"
+      ],
+      "roman": [
+        "Jumeseo sohoeuisillo neomeogamyeon chaeting naeyongdo geudaero namnayo?"
+      ]
+    },
+    {
+      "id": "ko-s027",
+      "kind": "sentence",
+      "native": [
+        "사거리 빵집 앞에 잠시 차를 세워도 괜찮을까요?"
+      ],
+      "roman": [
+        "Sageori ppangjip ape jamsi chareul sewodo gwaenchaneulkkayo?"
+      ]
+    },
+    {
+      "id": "ko-s028",
+      "kind": "sentence",
+      "native": [
+        "예약 시간 바꿔도 될까요?"
+      ],
+      "roman": [
+        "Yeyak sigan bakkwodo doelkkayo?"
+      ]
+    },
+    {
+      "id": "ko-s029",
+      "kind": "sentence",
+      "native": [
+        "샘플은 우편으로 보내려고 했는데, 담당자가 직접 받아 가겠다고 해서 아직 안 보냈어요."
+      ],
+      "roman": [
+        "Saempeureun upyeoneuro bonaeryeogo haenneunde, damdangjaga jikjeop bada gagetdago haeseo ajik an bonaesseoyo."
+      ]
+    },
+    {
+      "id": "ko-s030",
+      "kind": "sentence",
+      "native": [
+        "무거운 짐까지 들어 주셔서 정말 큰 도움이 됐어요."
+      ],
+      "roman": [
+        "Mugeoun jimkkaji deureo jusyeoseo jeongmal keun doumi dwaesseoyo."
+      ]
+    },
+    {
+      "id": "ko-s031",
+      "kind": "sentence",
+      "native": [
+        "한가해지면 전화 좀 해 줘."
+      ],
+      "roman": [
+        "Hangahaejimyeon jeonhwa jom hae jwo."
+      ]
+    },
+    {
+      "id": "ko-s032",
+      "kind": "sentence",
+      "native": [
+        "강 주임님, 교육 신청에 필요한 사번만 알려 주실래요?"
+      ],
+      "roman": [
+        "Gang juimnim, gyoyuk sincheonge piryohan sabeonman allyeo jusillaeyo?"
+      ]
+    },
+    {
+      "id": "ko-s033",
+      "kind": "sentence",
+      "native": [
+        "조카는 올해 9살인데, 퍼즐 120조각을 혼자서 다 맞췄어."
+      ],
+      "roman": [
+        "Jokaneun olhae 9sarinde, peojeul 120jogageul honjaseo da matchwosseo."
+      ]
+    },
+    {
+      "id": "ko-s034",
+      "kind": "sentence",
+      "native": [
+        "종이팩은 일반 폐지랑 따로 모아서 내놔야 해."
+      ],
+      "roman": [
+        "Jongipaekeun ilban pyejirang ttaro moaseo naenwaya hae."
+      ]
+    },
+    {
+      "id": "ko-s035",
+      "kind": "sentence",
+      "native": [
+        "흰 셔츠에 묻은 커피 얼룩은 세탁기를 돌리기 전에 뭘로 지워야 잘 빠져?"
+      ],
+      "roman": [
+        "Huin syeocheue mudeun keopi eollugeun setakgireul dolligi jeone mwollo jiwoya jal ppajyeo?"
+      ]
+    },
+    {
+      "id": "ko-s036",
+      "kind": "sentence",
+      "native": [
+        "충전 케이블이 너무 짧아."
+      ],
+      "roman": [
+        "Chungjeon keibeuri neomu jjalba."
+      ]
+    },
+    {
+      "id": "ko-s037",
+      "kind": "sentence",
+      "native": [
+        "통영 케이블카 타려면 어느 정류장에서 내려야 해요?"
+      ],
+      "roman": [
+        "Tongyeong keibeulka taryeomyeon eoneu jeongnyujangeseo naeryeoya haeyo?"
+      ]
+    },
+    {
+      "id": "ko-s038",
+      "kind": "sentence",
+      "native": [
+        "복숭아 한 상자에 25,000원인가요? 조금만 깎아 주세요."
+      ],
+      "roman": [
+        "Boksunga han sangjae 25,000woningayo? Jogeumman kkakka juseyo."
+      ]
+    },
+    {
+      "id": "ko-s039",
+      "kind": "sentence",
+      "native": [
+        "계산은 각자 할까?"
+      ],
+      "roman": [
+        "Gyesaneun gakja halkka?"
+      ]
+    },
+    {
+      "id": "ko-s040",
+      "kind": "sentence",
+      "native": [
+        "예전에는 혼자 밥 먹는 게 어색했는데 이제는 눈치 안 보고 먹으니까 오히려 편하더라."
+      ],
+      "roman": [
+        "Yejeoneneun honja bap meongneun ge eosaekhaenneunde ijeneun nunchi an bogo meogeunikka ohiryeo pyeonhadeora."
+      ]
+    },
+    {
+      "id": "ko-s041",
+      "kind": "sentence",
+      "native": [
+        "잡채는 네가 좋아하는 버섯 듬뿍 넣어서 만들었어."
+      ],
+      "roman": [
+        "Japchaeneun nega joahaneun beoseot deumppuk neoeoseo mandeureosseo."
+      ]
+    },
+    {
+      "id": "ko-s042",
+      "kind": "sentence",
+      "native": [
+        "대구 박람회에서 받은 명함은 거래처별로 나눠서 정리했어요."
+      ],
+      "roman": [
+        "Daegu bangnamhoeeseo badeun myeonghameun georaecheobyeollo nanwoseo jeongnihaesseoyo."
+      ]
+    },
+    {
+      "id": "ko-s043",
+      "kind": "sentence",
+      "native": [
+        "강의는 어제 15강까지 들었고, 진도는 60% 정도 나갔어요."
+      ],
+      "roman": [
+        "Ganguineun eoje 15gangkkaji deureotgo, jindoneun 60% jeongdo nagasseoyo."
+      ]
+    },
+    {
+      "id": "ko-s044",
+      "kind": "sentence",
+      "native": [
+        "합정에서 다은이랑 만나는 약속을 일정에 넣어 줘."
+      ],
+      "roman": [
+        "Hapjeongeseo Daeunirang mannaneun yaksogeul iljeonge neoeo jwo."
+      ]
+    },
+    {
+      "id": "ko-s045",
+      "kind": "sentence",
+      "native": [
+        "지금 무슨 노래야?"
+      ],
+      "roman": [
+        "Jigeum museun noraeya?"
+      ]
+    },
+    {
+      "id": "ko-s046",
+      "kind": "sentence",
+      "native": [
+        "지훈 씨, 카카오톡으로 받은 압축 파일이 안 풀려요."
+      ],
+      "roman": [
+        "Jihun ssi, Kakaotogeuro badeun apchuk pairi an pullyeoyo."
+      ]
+    },
+    {
+      "id": "ko-s047",
+      "kind": "sentence",
+      "native": [
+        "은호야, 어느 출구야?"
+      ],
+      "roman": [
+        "Eunhoya, eoneu chulguya?"
+      ]
+    },
+    {
+      "id": "ko-s048",
+      "kind": "sentence",
+      "native": [
+        "남은 콩나물국밥은 포장해 주실 수 있을까요?"
+      ],
+      "roman": [
+        "Nameun kongnamulgukbabeun pojanghae jusil su isseulkkayo?"
+      ]
+    },
+    {
+      "id": "ko-s049",
+      "kind": "sentence",
+      "native": [
+        "잠깐, 파란색 말고 초록색이요."
+      ],
+      "roman": [
+        "Jamkkan, paransaek malgo choroksaegiyo."
+      ]
+    },
+    {
+      "id": "ko-s050",
+      "kind": "sentence",
+      "native": [
+        "해물파전이 바삭해서 식어도 자꾸 손이 가네요."
+      ],
+      "roman": [
+        "Haemulpajeoni basakaeseo sigeodo jakku soni ganeyo."
+      ]
+    },
+    {
+      "id": "ko-s051",
+      "kind": "sentence",
+      "native": [
+        "엄마, 반찬통은 씻어서 말려 뒀으니까 다음에 갈 때 가져갈게요."
+      ],
+      "roman": [
+        "Eomma, banchantongeun ssiseoseo mallyeo dwosseunikka daeume gal ttae gajyeogalgeyo."
+      ]
+    },
+    {
+      "id": "ko-s052",
+      "kind": "sentence",
+      "native": [
+        "인쇄비가 48,000원으로 늘어서 예산을 조금 조정해야 해요."
+      ],
+      "roman": [
+        "Inswaebiga 48,000woneuro neureoseo yesaneul jogeum jojeonghaeya haeyo."
+      ]
+    },
+    {
+      "id": "ko-s053",
+      "kind": "sentence",
+      "native": [
+        "서연 씨, 공연 시작은 오후 7시지만 리허설 때문에 30분 일찍 오실 수 있을까요?"
+      ],
+      "roman": [
+        "Seoyeon ssi, gongyeon sijageun ohu 7sijiman riheoseol ttaemune 30bun iljjik osil su isseulkkayo?"
+      ]
+    },
+    {
+      "id": "ko-s054",
+      "kind": "sentence",
+      "native": [
+        "환불은 언제 들어오는 건가요?"
+      ],
+      "roman": [
+        "Hwanbureun eonje deureooneun geongayo?"
+      ]
+    },
+    {
+      "id": "ko-s055",
+      "kind": "sentence",
+      "native": [
+        "방금 닫은 탭을 다시 열어서 보고 있던 페이지로 돌아가 줘."
+      ],
+      "roman": [
+        "Banggeum dadeun taebeul dasi yeoreoseo bogo itdeon peijiro doraga jwo."
+      ]
+    },
+    {
+      "id": "ko-s056",
+      "kind": "sentence",
+      "native": [
+        "네이버 지도에 저장한 장소를 새 계정으로 옮길 수 있는지 고객센터에 물어봤어요."
+      ],
+      "roman": [
+        "Neibeo jidoe jeojanghan jangsoreul sae gyejeongeuro omgil su inneunji gogaeksenteoe mureobwasseoyo."
+      ]
+    },
+    {
+      "id": "ko-s057",
+      "kind": "sentence",
+      "native": [
+        "우체국 뒤편 계단으로 올라오면 저희 작업실이 보여요."
+      ],
+      "roman": [
+        "Ucheguk dwipyeon gyedaneuro ollaomyeon jeohui jageopsiri boyeoyo."
+      ]
+    },
+    {
+      "id": "ko-s058",
+      "kind": "sentence",
+      "native": [
+        "수도꼭지에서 물이 자꾸 새요."
+      ],
+      "roman": [
+        "Sudokkokjieseo muri jakku saeyo."
+      ]
+    },
+    {
+      "id": "ko-s059",
+      "kind": "sentence",
+      "native": [
+        "오후에는 괜찮아요. 아니, 운전 연습이 있어서 어렵겠어요."
+      ],
+      "roman": [
+        "Ohueneun gwaenchanayo. Ani, unjeon yeonseubi isseoseo eoryeopgesseoyo."
+      ]
+    },
+    {
+      "id": "ko-s060",
+      "kind": "sentence",
+      "native": [
+        "채원아, 처음부터 완벽하게 하려고 너무 애쓰지 않아도 돼."
+      ],
+      "roman": [
+        "Chaewona, cheoeumbuteo wanbyeokage haryeogo neomu aesseuji anado dwae."
+      ]
+    },
+    {
+      "id": "ko-s061",
+      "kind": "sentence",
+      "native": [
+        "헉, 내 슬리퍼 신었네?"
+      ],
+      "roman": [
+        "Heok, nae seullipeo sineonne?"
+      ]
+    },
+    {
+      "id": "ko-s062",
+      "kind": "sentence",
+      "native": [
+        "지난번 테스트에서 발견된 오류는 새 버전에서 해결했습니다."
+      ],
+      "roman": [
+        "Jinanbeon teseuteueseo balgyeondoen oryuneun sae beojeoneseo haegyeolhaetseumnida."
+      ]
+    },
+    {
+      "id": "ko-s063",
+      "kind": "sentence",
+      "native": [
+        "유자차 2잔에 인절미 1접시까지 18,000원이니까 내가 먼저 낼게."
+      ],
+      "roman": [
+        "Yujacha 2jane injeolmi 1jeopsikkaji 18,000woninikka naega meonjeo naelge."
+      ]
+    },
+    {
+      "id": "ko-s064",
+      "kind": "sentence",
+      "native": [
+        "구독료가 7,900원으로 바뀐 건 가계부에 따로 적어 줘."
+      ],
+      "roman": [
+        "Gudongnyoga 7,900woneuro bakkwin geon gagyebue ttaro jeogeo jwo."
+      ]
+    },
+    {
+      "id": "ko-s065",
+      "kind": "sentence",
+      "native": [
+        "여기서 망원시장까지 버스 타고 가는 길 찾아 줘."
+      ],
+      "roman": [
+        "Yeogiseo Mangwonsijangkkaji beoseu tago ganeun gil chaja jwo."
+      ]
+    },
+    {
+      "id": "ko-s066",
+      "kind": "sentence",
+      "native": [
+        "자동 결제를 해지해도 남은 기간에는 서비스를 이용할 수 있나요?"
+      ],
+      "roman": [
+        "Jadong gyeoljereul haejihaedo nameun giganeneun seobiseureul iyonghal su innayo?"
+      ]
+    },
+    {
+      "id": "ko-s067",
+      "kind": "sentence",
+      "native": [
+        "혜진 씨는 점심 먹고 본사로 바로 출발했어요."
+      ],
+      "roman": [
+        "Hyejin ssineun jeomsim meokgo bonsaro baro chulbalhaesseoyo."
+      ]
+    },
+    {
+      "id": "ko-s068",
+      "kind": "sentence",
+      "native": [
+        "간은 소금으로만 해도 돼?"
+      ],
+      "roman": [
+        "Ganeun sogeumeuroman haedo dwae?"
+      ]
+    },
+    {
+      "id": "ko-s069",
+      "kind": "sentence",
+      "native": [
+        "수아야, 대관료는 내가 낼게, 아니, 우리 반씩 나누자."
+      ],
+      "roman": [
+        "Suaya, daegwallyoneun naega naelge, ani, uri banssik nanuja."
+      ]
+    },
+    {
+      "id": "ko-s070",
+      "kind": "sentence",
+      "native": [
+        "괜히 재촉해서 미안해."
+      ],
+      "roman": [
+        "Gwaenhi jaechokaeseo mianhae."
+      ]
+    },
+    {
+      "id": "ko-s071",
+      "kind": "sentence",
+      "native": [
+        "할머니, 목도리 정말 따뜻해요."
+      ],
+      "roman": [
+        "Halmeoni, mokdori jeongmal ttatteutaeyo."
+      ]
+    },
+    {
+      "id": "ko-s072",
+      "kind": "sentence",
+      "native": [
+        "검토 의견 기다리겠습니다."
+      ],
+      "roman": [
+        "Geomto uigyeon gidarigetseumnida."
+      ]
+    },
+    {
+      "id": "ko-s073",
+      "kind": "sentence",
+      "native": [
+        "연락처는 010-0000-0000이고, 오후 1시부터 통화돼요."
+      ],
+      "roman": [
+        "Yeollakcheoneun 010-0000-0000igo, ohu 1sibuteo tonghwadwaeyo."
+      ]
+    },
+    {
+      "id": "ko-s074",
+      "kind": "sentence",
+      "native": [
+        "이번 달 소모품 예산에는 복사용지 비용도 포함돼 있습니다."
+      ],
+      "roman": [
+        "Ibeon dal somopum yesaneneun boksayongji biyongdo pohamdwae isseumnida."
+      ]
+    },
+    {
+      "id": "ko-s075",
+      "kind": "sentence",
+      "native": [
+        "잠금 화면에서 알림 내용이 안 보이게 해 줘."
+      ],
+      "roman": [
+        "Jamgeum hwamyeoneseo allim naeyongi an boige hae jwo."
+      ]
+    },
+    {
+      "id": "ko-s076",
+      "kind": "sentence",
+      "native": [
+        "소희 대리님, 이번 발표 자료는 외부 공개가 어려워서 사내 게시판에만 올렸습니다."
+      ],
+      "roman": [
+        "Sohui daerinim, ibeon balpyo jaryoneun oebu gonggaega eoryeowoseo sanae gesipaneman ollyeotseumnida."
+      ]
+    },
+    {
+      "id": "ko-s077",
+      "kind": "sentence",
+      "native": [
+        "건널목 지나서 오른쪽이에요."
+      ],
+      "roman": [
+        "Geonneolmok jinaseo oreunjjogieyo."
+      ]
+    },
+    {
+      "id": "ko-s078",
+      "kind": "sentence",
+      "native": [
+        "베란다 화분은 햇볕이 강해서 안쪽으로 조금 옮겼어."
+      ],
+      "roman": [
+        "Beranda hwabuneun haetbyeochi ganghaeseo anjjogeuro jogeum omgyeosseo."
+      ]
+    },
+    {
+      "id": "ko-s079",
+      "kind": "sentence",
+      "native": [
+        "밀면은 비빔으로 주세요. 맵기는 조절할 수 있나요?"
+      ],
+      "roman": [
+        "Milmyeoneun bibimeuro juseyo. Maepgineun jojeolhal su innayo?"
+      ]
+    },
+    {
+      "id": "ko-s080",
+      "kind": "sentence",
+      "native": [
+        "이 운동화는 예쁜데 오래 걸으면 발이 좀 답답하네요."
+      ],
+      "roman": [
+        "I undonghwaneun yeppeunde orae georeumyeon bari jom dapdapaneyo."
+      ]
+    },
+    {
+      "id": "ko-s081",
+      "kind": "sentence",
+      "native": [
+        "보내 준 영상 때문에 지하철에서 웃음 참느라 혼났어."
+      ],
+      "roman": [
+        "Bonae jun yeongsang ttaemune jihacheoreseo useum chamneura honnasseo."
+      ]
+    },
+    {
+      "id": "ko-s082",
+      "kind": "sentence",
+      "native": [
+        "안녕하세요, 이번에 고객 상담 업무를 맡게 되어 이메일로 먼저 인사드립니다."
+      ],
+      "roman": [
+        "Annyeonghaseyo, ibeone gogaek sangdam eommureul matge doeeo imeillo meonjeo insadeurimnida."
+      ]
+    },
+    {
+      "id": "ko-s083",
+      "kind": "sentence",
+      "native": [
+        "산책로가 2.4킬로미터니까 천천히 걸어도 35분 정도면 충분해요."
+      ],
+      "roman": [
+        "Sanchaengnoga 2.4killomiteonikka cheoncheonhi georeodo 35bun jeongdomyeon chungbunhaeyo."
+      ]
+    },
+    {
+      "id": "ko-s084",
+      "kind": "sentence",
+      "native": [
+        "택배 상자는 경비실이 아니라 무인 보관함에 있다고 남겨 줘."
+      ],
+      "roman": [
+        "Taekbae sangjaneun gyeongbisiri anira muin bogwanhame itdago namgyeo jwo."
+      ]
+    },
+    {
+      "id": "ko-s085",
+      "kind": "sentence",
+      "native": [
+        "준서한테 전화 걸어 줘."
+      ],
+      "roman": [
+        "Junseohante jeonhwa georeo jwo."
+      ]
+    },
+    {
+      "id": "ko-s086",
+      "kind": "sentence",
+      "native": [
+        "회사 계정은 지문으로 로그인할 수 있게 설정했어요."
+      ],
+      "roman": [
+        "Hoesa gyejeongeun jimuneuro rogeuinhal su itge seoljeonghaesseoyo."
+      ]
+    },
+    {
+      "id": "ko-s087",
+      "kind": "sentence",
+      "native": [
+        "이번 역에서 내리자."
+      ],
+      "roman": [
+        "Ibeon yeogeseo naerija."
+      ]
+    },
+    {
+      "id": "ko-s088",
+      "kind": "sentence",
+      "native": [
+        "날이 흐려서 옷이 잘 안 마르니까 건조대 옆에 선풍기를 틀어 두는 게 좋겠어."
+      ],
+      "roman": [
+        "Nari heuryeoseo osi jal an mareunikka geonjodae yeope seonpunggireul teureo duneun ge jokesseo."
+      ]
+    },
+    {
+      "id": "ko-s089",
+      "kind": "sentence",
+      "native": [
+        "포장하려고 했는데, 여기서 먹고 가도 되죠?"
+      ],
+      "roman": [
+        "Pojangharyeogo haenneunde, yeogiseo meokgo gado doejyo?"
+      ]
+    },
+    {
+      "id": "ko-s090",
+      "kind": "sentence",
+      "native": [
+        "태윤이 피아노 수업 끝나면 아빠가 데리러 갈 테니까 학원 안에서 조금만 기다리라고 해."
+      ],
+      "roman": [
+        "Taeyuni piano sueop kkeunnamyeon appaga derireo gal tenikka hagwon aneseo jogeumman gidarirago hae."
+      ]
+    },
+    {
+      "id": "ko-s091",
+      "kind": "sentence",
+      "native": [
+        "수정안은 이대로 승인할게요."
+      ],
+      "roman": [
+        "Sujeonganeun idaero seunginhalgeyo."
+      ]
+    },
+    {
+      "id": "ko-s092",
+      "kind": "sentence",
+      "native": [
+        "제주행 비행기는 8월 19일 수요일 오전 10시 출발이야."
+      ],
+      "roman": [
+        "Jejuhaeng bihaenggineun 8wol 19il suyoil ojeon 10si chulbariya."
+      ]
+    },
+    {
+      "id": "ko-s093",
+      "kind": "sentence",
+      "native": [
+        "목요일에는 윤재가 어린이집에서 바로 할머니 댁으로 가니까 저녁 간식은 준비 안 해도 돼."
+      ],
+      "roman": [
+        "Mogyoireneun Yunjaega eorinijibeseo baro halmeoni daegeuro ganikka jeonyeok gansigeun junbi an haedo dwae."
+      ]
+    },
+    {
+      "id": "ko-s094",
+      "kind": "sentence",
+      "native": [
+        "영상 재생 속도를 지금보다 조금만 느리게 바꿔 줘."
+      ],
+      "roman": [
+        "Yeongsang jaesaeng sokdoreul jigeumboda jogeumman neurige bakkwo jwo."
+      ]
+    },
+    {
+      "id": "ko-s095",
+      "kind": "sentence",
+      "native": [
+        "마이크가 계속 울리네요."
+      ],
+      "roman": [
+        "Maikeuga gyesok ullineyo."
+      ]
+    },
+    {
+      "id": "ko-s096",
+      "kind": "sentence",
+      "native": [
+        "외삼촌이 새로 이사한 아파트는 정문보다 후문으로 들어가야 동을 찾기가 훨씬 쉽대요."
+      ],
+      "roman": [
+        "Oesamchoni saero isahan apateuneun jeongmunboda humuneuro deureogaya dongeul chatgiga hweolssin swipdaeyo."
+      ]
+    },
+    {
+      "id": "ko-s097",
+      "kind": "sentence",
+      "native": [
+        "이 바지 검정도 있나요?"
+      ],
+      "roman": [
+        "I baji geomjeongdo innayo?"
+      ]
+    },
+    {
+      "id": "ko-s098",
+      "kind": "sentence",
+      "native": [
+        "혹시 가위 어디 있어?"
+      ],
+      "roman": [
+        "Hoksi gawi eodi isseo?"
+      ]
+    },
+    {
+      "id": "ko-s099",
+      "kind": "sentence",
+      "native": [
+        "늦잠 자서 이제 일어났는데 너는 벌써 나왔어?"
+      ],
+      "roman": [
+        "Neutjam jaseo ije ireonanneunde neoneun beolsseo nawasseo?"
+      ]
+    },
+    {
+      "id": "ko-s100",
+      "kind": "sentence",
+      "native": [
+        "설문 응답이 더 들어올 수 있으니 중간 결과만 공유하고 분석은 월요일에 마무리하겠습니다."
+      ],
+      "roman": [
+        "Seolmun eungdabi deo deureool su isseuni junggan gyeolgwaman gongyuhago bunseogeun woryoire mamurihagetseumnida."
+      ]
+    },
+    {
+      "id": "ko-s101",
+      "kind": "sentence",
+      "native": [
+        "배터리가 벌써 18%밖에 안 남았어."
+      ],
+      "roman": [
+        "Baeteoriga beolsseo 18%bakke an namasseo."
+      ]
+    },
+    {
+      "id": "ko-s102",
+      "kind": "sentence",
+      "native": [
+        "장바구니에 참기름도 추가해 줘."
+      ],
+      "roman": [
+        "Jangbagunie chamgireumdo chugahae jwo."
+      ]
+    },
+    {
+      "id": "ko-s103",
+      "kind": "sentence",
+      "native": [
+        "타이머 8분으로 맞춰 줘."
+      ],
+      "roman": [
+        "Taimeo 8buneuro matchwo jwo."
+      ]
+    },
+    {
+      "id": "ko-s104",
+      "kind": "sentence",
+      "native": [
+        "설치 도중에 재부팅하라는 창이 뜨면 작업 중인 프로그램을 모두 닫고 컴퓨터를 껐다 켜세요."
+      ],
+      "roman": [
+        "Seolchi dojunge jaebutingharaneun changi tteumyeon jageop jungin peurogeuraemeul modu datgo keompyuteoreul kkeotda kyeoseyo."
+      ]
+    },
+    {
+      "id": "ko-s105",
+      "kind": "sentence",
+      "native": [
+        "옆자리 손님이 두고 내린 모자를 기사님께 드렸어요."
+      ],
+      "roman": [
+        "Yeopjari sonnimi dugo naerin mojareul gisanimkke deuryeosseoyo."
+      ]
+    },
+    {
+      "id": "ko-s106",
+      "kind": "sentence",
+      "native": [
+        "하린이 준비물은 색종이랑 풀이라는데 집에 다 있지?"
+      ],
+      "roman": [
+        "Harini junbimureun saekjongirang puriraneunde jibe da itji?"
+      ]
+    },
+    {
+      "id": "ko-s107",
+      "kind": "sentence",
+      "native": [
+        "어, 할인이 안 됐네요."
+      ],
+      "roman": [
+        "Eo, harini an dwaenneyo."
+      ]
+    },
+    {
+      "id": "ko-s108",
+      "kind": "sentence",
+      "native": [
+        "내일 비 온다니까 소풍은 미루고 우리 집에서 영화 보면서 과자나 먹자."
+      ],
+      "roman": [
+        "Naeil bi ondanikka sopungeun mirugo uri jibeseo yeonghwa bomyeonseo gwajana meokja."
+      ]
+    },
+    {
+      "id": "ko-s109",
+      "kind": "sentence",
+      "native": [
+        "판교 사무실 방문은 목요일 점심 이후로 잡아도 괜찮을까요?"
+      ],
+      "roman": [
+        "Pangyo samusil bangmuneun mogyoil jeomsim ihuro jabado gwaenchaneulkkayo?"
+      ]
+    },
+    {
+      "id": "ko-s110",
+      "kind": "sentence",
+      "native": [
+        "부산행 KTX 좌석을 6호차 창가 자리로 바꿔 주세요."
+      ],
+      "roman": [
+        "Busanhaeng KTX jwaseogeul 6hocha changga jariro bakkwo juseyo."
+      ]
+    },
+    {
+      "id": "ko-s111",
+      "kind": "sentence",
+      "native": [
+        "기타 연습은 밤늦게 하지 말고 저녁 먹기 전에 끝내자."
+      ],
+      "roman": [
+        "Gita yeonseubeun bamneutge haji malgo jeonyeok meokgi jeone kkeunnaeja."
+      ]
+    },
+    {
+      "id": "ko-s112",
+      "kind": "sentence",
+      "native": [
+        "손전등 좀 켜 줄래?"
+      ],
+      "roman": [
+        "Sonjeondeung jom kyeo jullae?"
+      ]
+    },
+    {
+      "id": "ko-s113",
+      "kind": "sentence",
+      "native": [
+        "용산에서 산 키보드는 키를 누를 때 소리가 작아서 사무실에서도 쓰기 좋아요."
+      ],
+      "roman": [
+        "Yongsaneseo san kibodeuneun kireul nureul ttae soriga jagaseo samusireseodo sseugi joayo."
+      ]
+    },
+    {
+      "id": "ko-s114",
+      "kind": "sentence",
+      "native": [
+        "연남동 골목은 일방통행이 많으니까 차는 큰길에 있는 공영 주차장에 대고 걸어가자."
+      ],
+      "roman": [
+        "Yeonnamdong golmogeun ilbangtonghaengi maneunikka chaneun keungire inneun gongyeong juchajange daego georeogaja."
+      ]
+    },
+    {
+      "id": "ko-s115",
+      "kind": "sentence",
+      "native": [
+        "고모 생신에는 케이크 대신 꽃바구니를 보내 드리려고요."
+      ],
+      "roman": [
+        "Gomo saengsineneun keikeu daesin kkotbagunireul bonae deuriryeogoyo."
+      ]
+    },
+    {
+      "id": "ko-s116",
+      "kind": "sentence",
+      "native": [
+        "유진 씨한테 보내려던 사진인데, 잘못 보냈네요."
+      ],
+      "roman": [
+        "Yujin ssihante bonaeryeodeon sajininde, jalmot bonaenneyo."
+      ]
+    },
+    {
+      "id": "ko-s117",
+      "kind": "sentence",
+      "native": [
+        "리모컨 건전지 바꿨더니 이제 잘 작동해."
+      ],
+      "roman": [
+        "Rimokeon geonjeonji bakkwotdeoni ije jal jakdonghae."
+      ]
+    },
+    {
+      "id": "ko-s118",
+      "kind": "sentence",
+      "native": [
+        "금요일은 외근이 있어서 주간 회의에 화상으로 참석하려는데, 접속 링크를 받을 수 있을까요?"
+      ],
+      "roman": [
+        "Geumyoireun oegeuni isseoseo jugan hoeuie hwasangeuro chamseokharyeoneunde, jeopsok ringkeureul badeul su isseulkkayo?"
+      ]
+    },
+    {
+      "id": "ko-s119",
+      "kind": "sentence",
+      "native": [
+        "결승은 3대 1로 끝났어."
+      ],
+      "roman": [
+        "Gyeolseungeun 3dae 1ro kkeunnasseo."
+      ]
+    },
+    {
+      "id": "ko-s120",
+      "kind": "sentence",
+      "native": [
+        "재봉 수업 접수 시작하면 바로 알려 줘."
+      ],
+      "roman": [
+        "Jaebong sueop jeopsu sijakhamyeon baro allyeo jwo."
+      ]
+    },
+    {
+      "id": "ko-s121",
+      "kind": "sentence",
+      "native": [
+        "블루투스 이어폰 연결을 끊고 소리는 스피커로 나오게 해."
+      ],
+      "roman": [
+        "Beullutuseu ieopon yeongyeoreul kkeunko sorineun seupikeoro naoge hae."
+      ]
+    },
+    {
+      "id": "ko-s122",
+      "kind": "sentence",
+      "native": [
+        "터치패드보다 무선 마우스를 쓰는 게 훨씬 편하네요."
+      ],
+      "roman": [
+        "Teochipaedeuboda museon mauseureul sseuneun ge hwolssin pyeonhaneyo."
+      ]
+    },
+    {
+      "id": "ko-s123",
+      "kind": "sentence",
+      "native": [
+        "두부랑 김이랑 바나나, 아, 주방 세제도 부탁해."
+      ],
+      "roman": [
+        "Duburang gimirang banana, a, jubang sejedo butakhae."
+      ]
+    },
+    {
+      "id": "ko-s124",
+      "kind": "sentence",
+      "native": [
+        "이사할 때 옷 담으려고 그러는데 큰 여행 가방 며칠만 빌려 줄 수 있어?"
+      ],
+      "roman": [
+        "Isahal ttae ot dameuryeogo geureoneunde keun yeohaeng gabang myeochilman billyeo jul su isseo?"
+      ]
+    },
+    {
+      "id": "ko-s125",
+      "kind": "sentence",
+      "native": [
+        "수진 씨, 성심당 빵은 탕비실 선반에 뒀어요."
+      ],
+      "roman": [
+        "Sujin ssi, Seongsimdang ppangeun tangbisil seonbane dwosseoyo."
+      ]
+    },
+    {
+      "id": "ko-s126",
+      "kind": "sentence",
+      "native": [
+        "쿠폰으로 2,000원 빠져서 9,000원만 결제했어요."
+      ],
+      "roman": [
+        "Kuponeuro 2,000won ppajyeoseo 9,000wonman gyeoljehaesseoyo."
+      ]
+    },
+    {
+      "id": "ko-s127",
+      "kind": "sentence",
+      "native": [
+        "와이파이 비밀번호 뭐였지?"
+      ],
+      "roman": [
+        "Waipai bimilbeonho mwoyeotji?"
+      ]
+    },
+    {
+      "id": "ko-s128",
+      "kind": "sentence",
+      "native": [
+        "연극은 대학로에서 볼래, 아니면 집에서 그냥 쉴래?"
+      ],
+      "roman": [
+        "Yeongeugeun Daehangnoeseo bollae, animyeon jibeseo geunyang swillae?"
+      ]
+    },
+    {
+      "id": "ko-s129",
+      "kind": "sentence",
+      "native": [
+        "어제 산 잠옷이 작아서 교환하려는데 영수증 갖고 있어?"
+      ],
+      "roman": [
+        "Eoje san jamosi jagaseo gyohwanharyeoneunde yeongsujeung gatgo isseo?"
+      ]
+    },
+    {
+      "id": "ko-s130",
+      "kind": "sentence",
+      "native": [
+        "늘 꼼꼼히 챙겨 주셔서 감사합니다."
+      ],
+      "roman": [
+        "Neul kkomkkomhi chaenggyeo jusyeoseo gamsahamnida."
+      ]
+    },
+    {
+      "id": "ko-s131",
+      "kind": "sentence",
+      "native": [
+        "대기실은 2층 5호실이에요."
+      ],
+      "roman": [
+        "Daegisireun 2cheung 5hosirieyo."
+      ]
+    },
+    {
+      "id": "ko-s132",
+      "kind": "sentence",
+      "native": [
+        "엑셀에서 행을 어떻게 숨겨요?"
+      ],
+      "roman": [
+        "Ekseleseo haengeul eotteoke sumgyeoyo?"
+      ]
+    },
+    {
+      "id": "ko-s133",
+      "kind": "sentence",
+      "native": [
+        "아빠, 퇴근길에 우유랑 달걀 좀 사다 주세요."
+      ],
+      "roman": [
+        "Appa, toegeungire uyurang dalgyal jom sada juseyo."
+      ]
+    },
+    {
+      "id": "ko-s134",
+      "kind": "sentence",
+      "native": [
+        "알람은 오전 6시 40분으로 맞춰."
+      ],
+      "roman": [
+        "Allameun ojeon 6si 40buneuro matchwo."
+      ]
+    },
+    {
+      "id": "ko-s135",
+      "kind": "sentence",
+      "native": [
+        "강아지 밥은 내가 챙길게."
+      ],
+      "roman": [
+        "Gangaji babeun naega chaenggilge."
+      ]
+    },
+    {
+      "id": "ko-s136",
+      "kind": "sentence",
+      "native": [
+        "토요일에 성수동에서 볼까, 아니면 네 동네로 갈까?"
+      ],
+      "roman": [
+        "Toyoire Seongsudongeseo bolkka, animyeon ne dongnero galkka?"
+      ]
+    },
+    {
+      "id": "ko-s137",
+      "kind": "sentence",
+      "native": [
+        "누나, 합격한 거 축하해!"
+      ],
+      "roman": [
+        "Nuna, hapgyeokan geo chukahae!"
+      ]
+    },
+    {
+      "id": "ko-s138",
+      "kind": "sentence",
+      "native": [
+        "나 집에 잘 도착했어."
+      ],
+      "roman": [
+        "Na jibe jal dochakhaesseo."
+      ]
+    },
+    {
+      "id": "ko-s139",
+      "kind": "sentence",
+      "native": [
+        "이따 게임할 때 나도 불러, 설거지만 끝내고 들어갈게."
+      ],
+      "roman": [
+        "Itta geimhal ttae nado bulleo, seolgeojiman kkeunnaego deureogalge."
+      ]
+    },
+    {
+      "id": "ko-s140",
+      "kind": "sentence",
+      "native": [
+        "광장시장에 도착하면 입구에서 기다려 줘, 길이 복잡해서 혼자서는 가게를 못 찾겠어."
+      ],
+      "roman": [
+        "Gwangjangsijange dochakhamyeon ipgueseo gidaryeo jwo, giri bokjapaeseo honjaseoneun gagereul mot chatgesseo."
+      ]
+    }
+  ]
+}

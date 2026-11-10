@@ -1,0 +1,1692 @@
+{
+  "lang": "hy",
+  "starter": [
+    "hy-s046",
+    "hy-s005",
+    "hy-s086",
+    "hy-s026",
+    "hy-s135",
+    "hy-s045",
+    "hy-s092",
+    "hy-s124",
+    "hy-s103",
+    "hy-s142",
+    "hy-s113",
+    "hy-s102",
+    "hy-s018",
+    "hy-s109",
+    "hy-s067",
+    "hy-s014",
+    "hy-p01",
+    "hy-s079",
+    "hy-s085",
+    "hy-s101",
+    "hy-s088",
+    "hy-s056",
+    "hy-s106",
+    "hy-s021",
+    "hy-s091",
+    "hy-s090",
+    "hy-s098",
+    "hy-s049",
+    "hy-s033",
+    "hy-s020",
+    "hy-s038",
+    "hy-s053",
+    "hy-p03",
+    "hy-s025",
+    "hy-s062",
+    "hy-s019",
+    "hy-s039",
+    "hy-s133",
+    "hy-s034",
+    "hy-s132",
+    "hy-s013",
+    "hy-s061",
+    "hy-s082",
+    "hy-s004",
+    "hy-s036",
+    "hy-s008",
+    "hy-s010",
+    "hy-s134",
+    "hy-s001"
+  ],
+  "items": [
+    {
+      "id": "hy-p01",
+      "kind": "para",
+      "title": "Wedding Plans in Ashtarak",
+      "native": [
+        "Անի՛, շաբաթ օրը Նարեկի ու Մարիամի հարսանիքին միասին գնանք Աշտարակ։",
+        "Մայրիկն ասաց, որ հյուրերին սպասում են ժամը 17:30։",
+        "Եթե քեզ հարմար է, ժամը 15:30-ին մեր տնից միասին դուրս գանք։",
+        "Տատիկին էլ ենք տանելու, դրա համար մի քիչ շուտ կհավաքվենք։",
+        "Դու միայն շալդ վերցրու, այնտեղ երեկոյան կարող է զով լինել։",
+        "Ես նվերի ծրարն արդեն պատրաստել եմ ու դրել պայուսակիս մեջ։",
+        "Սոնան խնդրել է, որ Նարեկի մանկության լուսանկարներից մի քանիսը տանենք։",
+        "Ճանապարհին մի տեղ կանգնենք, տատիկի համար ջուր ու նազուկ վերցնենք։",
+        "Վերադարձին էլ միասին կգանք, որ ուշ ժամին տաքսու չսպասես։"
+      ],
+      "roman": [
+        "Ani', shabat ory Nareki u Mariami harsaniqin miasin gnanq Ashtarak.",
+        "Mayrikn asats, vor hyurerin spasum en zhamy 17:30.",
+        "Ete qez harmar e, zhamy 15:30-in mer tnits miasin durs ganq.",
+        "Tatikin el enq tanelu, dra hamar mi qich shut khavaqvenq.",
+        "Du miayn shald vertsru, ayntegh erekoyan karogh e zov linel.",
+        "Es nveri tsrarn arden patrastel em u drel payusakis mej.",
+        "Sonan khndrel e, vor Nareki mankutyan lusankarnerits mi qanisy tanenq.",
+        "Chanaparhin mi tegh kangnenq, tatiki hamar jur u nazuk vertsnenq.",
+        "Veradardzin el miasin kganq, vor ush zhamin taqsu chspases."
+      ]
+    },
+    {
+      "id": "hy-p02",
+      "kind": "para",
+      "title": "Moving Upstairs at Work",
+      "native": [
+        "Բարև բոլորին, չորեքշաբթի Կոմիտասի պողոտայի մեր գրասենյակը տեղափոխվում է 5-րդ հարկ։",
+        "Մինչև այդ օրը շարունակում ենք աշխատել 3-րդ հարկում, մեր սովորական սենյակներում։",
+        "Խնդրում եմ, մինչև երեքշաբթի երեկո ձեր իրերը հավաքեք առանձին արկղերի մեջ։",
+        "Ամեն արկղի վրա գրեք ձեր անունը, որ հետո հեշտ գտնենք։",
+        "Համակարգիչները տեղափոխելու են տեխնիկները, այնպես որ լարերը մի անջատեք։",
+        "Նստելու տեղերի ցուցակը դրել եմ Drive-ի մեր ընդհանուր թղթապանակում։",
+        "Տեղափոխման օրը կարող եք միանգամից բարձրանալ նոր հարկ ու տեղավորվել։",
+        "Այդ օրը թիմի հանդիպումը կսկսենք սովորականից կես ժամ ուշ, ժամը 10:30։",
+        "Եթե որևէ բան պակասի, գրեք ինձ կամ մոտեցեք Լուսինե Վարդանյանին։"
+      ],
+      "roman": [
+        "Barev bolorin, choreqshabti Komitasi poghotayi mer grasenyaky teghapokhvum e 5-rd hark.",
+        "Minchev ayd ory sharunakum enq ashkhatel 3-rd harkum, mer sovorakan senyaknerum.",
+        "Khndrum em, minchev ereqshabti ereko dzer irery havaqeq arandzin arkgheri mej.",
+        "Amen arkghi vra greq dzer anuny, vor heto hesht gtnenq.",
+        "Hamakargichnery teghapokhelu en tekhniknery, aynpes vor larery mi anjateq.",
+        "Nstelu tegheri tsutsaky drel em Drive-i mer yndhanur tghtapanakum.",
+        "Teghapokhman ory karogh eq miangamits bardzranal nor hark u teghavorvel.",
+        "Ayd ory timi handipumy ksksenq sovorakanits kes zham ush, zhamy 10:30.",
+        "Ete voreve ban pakasi, greq indz kam motetseq Lusine Vardanyanin."
+      ]
+    },
+    {
+      "id": "hy-p03",
+      "kind": "para",
+      "title": "An Evening Without Power",
+      "native": [
+        "Երեկ երեկոյան Աջափնյակի մեր տանը բոլորը զբաղված էին։",
+        "Ես ընթրիքն էի պատրաստում ու միաժամանակ սպասում առաքչի զանգին։",
+        "Քույրս խոհանոցի սեղանին համակարգիչն էր բացել ու դասի էր մասնակցում։",
+        "Հենց թեյնիկը սկսեց եռալ, ամբողջ շենքում հանկարծ լույսերն անջատվեցին։",
+        "Մի պահ բոլորս լռեցինք, հետո մթության մեջ փնտրեցինք մեր հեռախոսները։",
+        "Հայրիկը պահարանից փոքր լապտեր հանեց ու դրեց հացի զամբյուղի կողքին։",
+        "Առաքչին դիմավորելու համար հեռախոսիս լույսով իջա մինչև շենքի մուտքը։",
+        "Ընթրիքը կերանք պատուհանի մոտ, իսկ քույրս պատմեց իր կիսատ մնացած դասից։",
+        "Լույսերը միացան 40 րոպե անց, երբ արդեն սեղանն էինք հավաքում։"
+      ],
+      "roman": [
+        "Erek erekoyan Ajapnyaki mer tany bolory zbaghvats ein.",
+        "Es yntriqn ei patrastum u miazhamanak spasum araqchi zangin.",
+        "Quyrs khohanotsi seghanin hamakargichn er batsel u dasi er masnaktsum.",
+        "Hents teyniky sksets eral, amboghj shenqum hankarts luysern anjatvetsin.",
+        "Mi pah bolors lretsinq, heto mtutyan mej pntretsinq mer herakhosnery.",
+        "Hayriky paharanits poqr lapter hanets u drets hatsi zambyughi koghqin.",
+        "Araqchin dimavorelu hamar herakhosis luysov ija minchev shenqi mutqy.",
+        "Yntriqy keranq patuhani mot, isk quyrs patmets ir kisat mnatsats dasits.",
+        "Luysery miatsan 40 rope ants, erb arden seghann einq havaqum."
+      ]
+    },
+    {
+      "id": "hy-p04",
+      "kind": "para",
+      "title": "Caring for Balcony Plants",
+      "native": [
+        "Երևանում ամռանը պատշգամբի բույսերը ջրիր առավոտյան, մինչև արևը շատ տաքացնի։",
+        "Սկզբում մատով ստուգիր հողը և տես, թե որքան է չորացել։",
+        "Եթե հողը դեռ խոնավ է, ջրելը թող հաջորդ օրվան։",
+        "Ջուրը կամաց լցրու հողի վրա, որ տերևները թաց չմնան։",
+        "Ամեն ամանի տակ ափսե դիր, որ ջուրը ներքևի պատշգամբի վրա չթափվի։",
+        "Ջրելուց հետո ափսեներում հավաքված ավելորդ ջուրը թափիր, որ արմատները չփչանան։",
+        "Ռեհանի ու անանուխի ամանները դիր այնտեղ, որտեղ կեսօրին ստվեր կա։",
+        "Լոլիկի ճյուղերը բարակ պարանով կապիր հենակին, որ քամուց չկոտրվեն։",
+        "Շաբաթը մեկ մաքուր մկրատով կտրիր չորացած տերևները և հավաքիր թափված հողը։"
+      ],
+      "roman": [
+        "Yerevanum amrany patshgambi buysery jrir aravotyan, minchev arevy shat taqatsni.",
+        "Skzbum matov stugir hoghy ev tes, te vorqan e choratsel.",
+        "Ete hoghy der khonav e, jrely togh hajord orvan.",
+        "Jury kamats ltsru hoghi vra, vor terevnery tats chmnan.",
+        "Amen amani tak apse dir, vor jury nerqevi patshgambi vra chtapvi.",
+        "Jreluts heto apsenerum havaqvats avelord jury tapir, vor armatnery chpchanan.",
+        "Rehani u ananukhi amannery dir ayntegh, vortegh kesorin stver ka.",
+        "Loliki chyughery barak paranov kapir henakin, vor qamuts chkotrven.",
+        "Shabaty mek maqur mkratov ktrir choratsats terevnery ev havaqir tapvats hoghy."
+      ]
+    },
+    {
+      "id": "hy-p05",
+      "kind": "para",
+      "title": "Holiday Reading in Goris",
+      "native": [
+        "Գորիսում արձակուրդի ժամանակ վերջապես կարդացի Ակսել Բակունցի պատմվածքների մի ժողովածու։",
+        "Գիրքը վերցրել էի հանգստանալու համար, բայց մի քանի պատմվածք երկար ժամանակ մտքիցս չէին գնում։",
+        "Ամենաշատը հավանեցի գյուղական առօրյայի մանրուքները, որոնք շատ ծանոթ էին թվում։",
+        "Մարդկանց խոսքն այնքան բնական էր, կարծես կողքիս նստած զրուցում էին։",
+        "Որոշ նկարագրություններ երկար էին, ու երբեմն գիրքը մի կողմ էի դնում։",
+        "Իսկ բնության նկարագրություններից հետո ուզում էի դուրս գալ ու քայլել։",
+        "Գորիսի քարե տների կողքով անցնելիս հիշում էի այդ պատմվածքները։",
+        "Խորհուրդ կտամ այս ժողովածուն քիչ-քիչ կարդալ ու ամեն պատմվածքից հետո մի քիչ դադար տալ։",
+        "Վերադարձին գիրքը տվեցի Սոնային, որովհետև ուզում էի հետո միասին քննարկել պատմվածքները։"
+      ],
+      "roman": [
+        "Gorisum ardzakurdi zhamanak verjapes kardatsi Aksel Bakuntsi patmvatsqneri mi zhoghovatsu.",
+        "Girqy vertsrel ei hangstanalu hamar, bayts mi qani patmvatsq erkar zhamanak mtqitss chein gnum.",
+        "Amenashaty havanetsi gyughakan aroryayi manruqnery, voronq shat tsanot ein tvum.",
+        "Mardkants khosqn aynqan bnakan er, kartses koghqis nstats zrutsum ein.",
+        "Vorosh nkaragrutyunner erkar ein, u erbemn girqy mi koghm ei dnum.",
+        "Isk bnutyan nkaragrutyunnerits heto uzum ei durs gal u qaylel.",
+        "Gorisi qare tneri koghqov antsnelis hishum ei ayd patmvatsqnery.",
+        "Khorhurd ktam ays zhoghovatsun qich-qich kardal u amen patmvatsqits heto mi qich dadar tal.",
+        "Veradardzin girqy tvetsi Sonayin, vorovhetev uzum ei heto miasin qnnarkel patmvatsqnery."
+      ]
+    },
+    {
+      "id": "hy-p06",
+      "kind": "para",
+      "title": "Three Days in Dilijan",
+      "native": [
+        "2026 թվականի հունիսի 12-ին երկու հոգով մեկնում ենք Դիլիջան։",
+        "Երևանից շարժվում ենք ժամը 09:30, հետ ենք գալիս հունիսի 14-ին։",
+        "Երեք օրվա համար մեր ընդհանուր բյուջեն 90000 դրամ է։",
+        "Սենյակը երկու գիշերվա համար 36000 դրամ է, նախաճաշն էլ ներառված է։",
+        "Սննդի համար 24000 դրամ պահենք, որ տեղական ճաշերն էլ փորձենք։",
+        "Ճանապարհի ու տեղում մեքենայով շրջելու համար 20000 դրամ հաշվենք։",
+        "Մնացած 10000 դրամը պահենք անսպասելի ծախսերի կամ փոքր գնումների համար։",
+        "Դիլիջանից Պարզ լիճ մոտ 16 կիլոմետր է, մեքենայով կգնանք։",
+        "Վերջին օրը ժամը 16:30 դուրս գանք, որ Երևան շուտ հասնենք։"
+      ],
+      "roman": [
+        "2026 tvakani hunisi 12-in erku hogov meknum enq Dilijan.",
+        "Yerevanits sharzhvum enq zhamy 09:30, het enq galis hunisi 14-in.",
+        "Ereq orva hamar mer yndhanur byujen 90000 dram e.",
+        "Senyaky erku gisherva hamar 36000 dram e, nakhachashn el nerarvats e.",
+        "Snndi hamar 24000 dram pahenq, vor teghakan chashern el pordzenq.",
+        "Chanaparhi u teghum meqenayov shrjelu hamar 20000 dram hashvenq.",
+        "Mnatsats 10000 dramy pahenq anspaseli tsakhseri kam poqr gnumneri hamar.",
+        "Dilijanits Parz lich mot 16 kilometr e, meqenayov kgnanq.",
+        "Verjin ory zhamy 16:30 durs ganq, vor Yerevan shut hasnenq."
+      ]
+    },
+    {
+      "id": "hy-p07",
+      "kind": "para",
+      "title": "Checking a Card Charge",
+      "native": [
+        "Բարև ձեզ։ Խնդրում եմ, ստուգեք քարտով կատարածս վերջին վճարումը։",
+        "Գյումրու Շիրակացու փողոցի գրախանութում երեկ քարտով վճարել եմ 4500 դրամ։",
+        "Բանկի հավելվածում նույն գնման համար 9000 դրամ է նշված։",
+        "Կտրոնի վրա գրված է 4500 դրամ։",
+        "Այս տարբերությունն այսօր առավոտյան եմ նկատել, երբ ստուգում էի մնացորդը։",
+        "Կտրոնի լուսանկարն ու վճարման սքրինշոթը կարող եմ ուղարկել ձեր չատով։",
+        "Խնդրում եմ, պարզեք, թե ինչու է հավելվածում ավելի մեծ գումար նշված։",
+        "Եթե գումարը սխալ է գանձվել, խնդրում եմ, ասեք, թե երբ կվերադարձնեք տարբերությունը։",
+        "Շնորհակալություն օգնության համար։ Ձեր պատասխանին կսպասեմ բանկի հավելվածում։"
+      ],
+      "roman": [
+        "Barev dzez. Khndrum em, stugeq qartov kataratss verjin vcharumy.",
+        "Gyumru Shirakatsu poghotsi grakhanutum erek qartov vcharel em 4500 dram.",
+        "Banki havelvatsum nuyn gnman hamar 9000 dram e nshvats.",
+        "Ktroni vra grvats e 4500 dram.",
+        "Ays tarberutyunn aysor aravotyan em nkatel, erb stugum ei mnatsordy.",
+        "Ktroni lusankarn u vcharman sqrinshoty karogh em ugharkel dzer chatov.",
+        "Khndrum em, parzeq, te inchu e havelvatsum aveli mets gumar nshvats.",
+        "Ete gumary skhal e gandzvel, khndrum em, aseq, te erb kveradardzneq tarberutyuny.",
+        "Shnorhakalutyun ognutyan hamar. Dzer pataskhanin kspasem banki havelvatsum."
+      ]
+    },
+    {
+      "id": "hy-p08",
+      "kind": "para",
+      "title": "Football Fans in Gyumri",
+      "native": [
+        "Գյումրիում շատերն են ֆուտբոլով հետաքրքրվում ու Շիրակին երկրպագում։",
+        "Շիրակի տնային խաղերի օրերին քաղաքային մարզադաշտի մոտ սովորականից ավելի մարդ է հավաքվում։",
+        "Մարդիկ խաղին գալիս են ընտանիքով կամ ընկերների հետ։",
+        "Տրիբունաներում շատերն ունեն նարնջագույն շարֆեր ու դրոշներ։",
+        "Խաղից առաջ երկրպագուները խոսում են թիմի կազմի ու նախորդ խաղի մասին։",
+        "Խաղի ժամանակ ծափերն ու երգերը լսվում են նաև մարզադաշտի հարևան փողոցներում։",
+        "Երեխաները շատ են ուրախանում, երբ ֆուտբոլիստները մոտենում են տրիբունաներին ու ողջունում երկրպագուներին։",
+        "Խաղից հետո ֆուտբոլի մասին խոսում են նաև մոտակա սրճարաններում ու բակերում։",
+        "Գյումրեցի շատ երկրպագուներ ուրիշ քաղաք տեղափոխվելուց հետո էլ հետևում են Շիրակի խաղերին։"
+      ],
+      "roman": [
+        "Gyumrium shatern en futbolov hetaqrqrvum u Shirakin erkrpagum.",
+        "Shiraki tnayin khagheri orerin qaghaqayin marzadashti mot sovorakanits aveli mard e havaqvum.",
+        "Mardik khaghin galis en yntaniqov kam ynkerneri het.",
+        "Tribunanerum shatern unen narnjaguyn sharfer u droshner.",
+        "Khaghits araj erkrpagunery khosum en timi kazmi u nakhord khaghi masin.",
+        "Khaghi zhamanak tsapern u ergery lsvum en naev marzadashti harevan poghotsnerum.",
+        "Erekhanery shat en urakhanum, erb futbolistnery motenum en tribunanerin u voghjunum erkrpagunerin.",
+        "Khaghits heto futboli masin khosum en naev motaka srcharannerum u bakerum.",
+        "Gyumretsi shat erkrpaguner urish qaghaq teghapokhveluts heto el hetevum en Shiraki khagherin."
+      ]
+    },
+    {
+      "id": "hy-s001",
+      "kind": "sentence",
+      "native": [
+        "Արձակուրդի նկարները գցել եմ մեր չատ, նայեք, երբ ժամանակ ունենաք։"
+      ],
+      "roman": [
+        "Ardzakurdi nkarnery gtsel em mer chat, nayeq, erb zhamanak unenaq."
+      ]
+    },
+    {
+      "id": "hy-s002",
+      "kind": "sentence",
+      "native": [
+        "Ստացա փաստաթուղթը, շնորհակալ եմ։"
+      ],
+      "roman": [
+        "Statsa pastatughty, shnorhakal em."
+      ]
+    },
+    {
+      "id": "hy-s003",
+      "kind": "sentence",
+      "native": [
+        "Մարտկոցիս լիցքը 18% է մնացել։"
+      ],
+      "roman": [
+        "Martkotsis litsqy 18% e mnatsel."
+      ]
+    },
+    {
+      "id": "hy-s004",
+      "kind": "sentence",
+      "native": [
+        "Չմոռանամ Նունեի հարսանիքից առաջ կոստյումս տանել մաքրման։"
+      ],
+      "roman": [
+        "Chmoranam Nunei harsaniqits araj kostyums tanel maqrman."
+      ]
+    },
+    {
+      "id": "hy-s005",
+      "kind": "sentence",
+      "native": [
+        "WhatsApp-ում գտիր Լուսինե Ղազարյանի հետ երեկվա աշխատանքային նամակագրությունս։"
+      ],
+      "roman": [
+        "WhatsApp-um gtir Lusine Ghazaryani het erekva ashkhatanqayin namakagrutyuns."
+      ]
+    },
+    {
+      "id": "hy-s006",
+      "kind": "sentence",
+      "native": [
+        "Գաղտնաբառս չեմ ասի, կներես։"
+      ],
+      "roman": [
+        "Gaghtnabars chem asi, kneres."
+      ]
+    },
+    {
+      "id": "hy-s007",
+      "kind": "sentence",
+      "native": [
+        "Գևորգ, բակի դարպասը բաց թող, քիչ հետո վարպետը գալու է հին լվացքի մեքենան տանելու։"
+      ],
+      "roman": [
+        "Gevorg, baki darpasy bats togh, qich heto varpety galu e hin lvatsqi meqenan tanelu."
+      ]
+    },
+    {
+      "id": "hy-s008",
+      "kind": "sentence",
+      "native": [
+        "Դրսում ուժեղ քամի է բարձրացել։"
+      ],
+      "roman": [
+        "Drsum uzhegh qami e bardzratsel."
+      ]
+    },
+    {
+      "id": "hy-s009",
+      "kind": "sentence",
+      "native": [
+        "Էդգար, պահարանը խոհանոցում դնենք, այնտեղ տեղ կա։ Ամաններն էլ ներսում կտեղավորենք։"
+      ],
+      "roman": [
+        "Edgar, paharany khohanotsum dnenq, ayntegh tegh ka. Amannern el nersum kteghavorenq."
+      ]
+    },
+    {
+      "id": "hy-s010",
+      "kind": "sentence",
+      "native": [
+        "Վերջապես հանգստացա, երբ իմացա, որ ելույթս բոլորին դուր է եկել։"
+      ],
+      "roman": [
+        "Verjapes hangstatsa, erb imatsa, vor eluyts bolorin dur e ekel."
+      ]
+    },
+    {
+      "id": "hy-s011",
+      "kind": "sentence",
+      "native": [
+        "Չեմ հասցնի խանութ մտնել, տանը եղածով մի բան պատրաստեք։ Ես էլ կգամ ու սեղանը կգցեմ։"
+      ],
+      "roman": [
+        "Chem hastsni khanut mtnel, tany eghatsov mi ban patrasteq. Es el kgam u seghany kgtsem."
+      ]
+    },
+    {
+      "id": "hy-s012",
+      "kind": "sentence",
+      "native": [
+        "Գոհա՛ր, հաճախորդը խնդրել է նախահաշվում նշել տեղադրման արժեքը, որ ծախսերը համեմատելը հեշտ լինի։"
+      ],
+      "roman": [
+        "Goha'r, hachakhordy khndrel e nakhahashvum nshel teghadrman arzheqy, vor tsakhsery hamemately hesht lini."
+      ]
+    },
+    {
+      "id": "hy-s013",
+      "kind": "sentence",
+      "native": [
+        "Զբոսանքի ընթացքում 6 կիլոմետր քայլեցինք։"
+      ],
+      "roman": [
+        "Zbosanqi yntatsqum 6 kilometr qayletsinq."
+      ]
+    },
+    {
+      "id": "hy-s014",
+      "kind": "sentence",
+      "native": [
+        "Նշիր, որ Արմենուհու հետ շախմատ ենք խաղալու ուրբաթ։"
+      ],
+      "roman": [
+        "Nshir, vor Armenuhu het shakhmat enq khaghalu urbat."
+      ]
+    },
+    {
+      "id": "hy-s015",
+      "kind": "sentence",
+      "native": [
+        "Պահպանիր այս նկարի առանձին պատճենը, եզրերի սպիտակ մասերը կտրիր ու ուղարկելու համար չափը փոքրացրու։"
+      ],
+      "roman": [
+        "Pahpanir ays nkari arandzin patcheny, ezreri spitak masery ktrir u ugharkelu hamar chapy poqratsru."
+      ]
+    },
+    {
+      "id": "hy-s016",
+      "kind": "sentence",
+      "native": [
+        "Bluetooth-ը միացած թող։ Մեքենայի բարձրախոսներով երաժշտություն ենք լսելու ամբողջ ճանապարհին։"
+      ],
+      "roman": [
+        "Bluetooth-y miatsats togh. Meqenayi bardzrakhosnerov erazhshtutyun enq lselu amboghj chanaparhin."
+      ]
+    },
+    {
+      "id": "hy-s017",
+      "kind": "sentence",
+      "native": [
+        "Մետրոյի ելքի մոտ կսպասե՞ս։"
+      ],
+      "roman": [
+        "Metroyi elqi mot kspase?s."
+      ]
+    },
+    {
+      "id": "hy-s018",
+      "kind": "sentence",
+      "native": [
+        "Ծորակը փակ է, բայց դեռ կաթում է։"
+      ],
+      "roman": [
+        "Tsoraky pak e, bayts der katum e."
+      ]
+    },
+    {
+      "id": "hy-s019",
+      "kind": "sentence",
+      "native": [
+        "Գաթան կտրտե՞մ, թե ամբողջությամբ դնենք ափսեի մեջ։"
+      ],
+      "roman": [
+        "Gatan ktrte?m, te amboghjutyamb dnenq apsei mej."
+      ]
+    },
+    {
+      "id": "hy-s020",
+      "kind": "sentence",
+      "native": [
+        "Շնորհակալ եմ, Հասմի՛կ, որ համբերությամբ բացատրեցիր այդ վարժությունը։"
+      ],
+      "roman": [
+        "Shnorhakal em, Hasmi'k, vor hamberutyamb batsatretsir ayd varzhutyuny."
+      ]
+    },
+    {
+      "id": "hy-s021",
+      "kind": "sentence",
+      "native": [
+        "Երեխաները քնել են, դուռը կամաց բացիր, որ չարթնանան։"
+      ],
+      "roman": [
+        "Erekhanery qnel en, dury kamats batsir, vor chartnanan."
+      ]
+    },
+    {
+      "id": "hy-s022",
+      "kind": "sentence",
+      "native": [
+        "Վարդան, գրասենյակի համար պատվիրած աթոռներից մեկը կուզեինք փոխանակել, քանի որ նստատեղը շատ նեղ է։"
+      ],
+      "roman": [
+        "Vardan, grasenyaki hamar patvirats atornerits meky kuzeinq pokhanakel, qani vor nstateghy shat negh e."
+      ]
+    },
+    {
+      "id": "hy-s023",
+      "kind": "sentence",
+      "native": [
+        "Ավտոբուսում իմ տեղը 17-ն է, բայց եթե 18-ն ազատ լինի, կտեղափոխվեմ պատուհանի մոտ։"
+      ],
+      "roman": [
+        "Avtobusum im teghy 17-n e, bayts ete 18-n azat lini, kteghapokhvem patuhani mot."
+      ]
+    },
+    {
+      "id": "hy-s024",
+      "kind": "sentence",
+      "native": [
+        "Օրացույցում գրանցիր կավագործության դասս։"
+      ],
+      "roman": [
+        "Oratsuytsum grantsir kavagortsutyan dass."
+      ]
+    },
+    {
+      "id": "hy-s025",
+      "kind": "sentence",
+      "native": [
+        "Ալավերդիում վաղը ցերեկը օդի ջերմաստիճանը քանի՞ աստիճան է լինելու։"
+      ],
+      "roman": [
+        "Alaverdium vaghy tsereky odi jermastichany qani? astichan e linelu."
+      ]
+    },
+    {
+      "id": "hy-s026",
+      "kind": "sentence",
+      "native": [
+        "Սաթենիկ, Excel-ում բանաձևը ջնջվել է, դրա համար գումարը սխալ է։"
+      ],
+      "roman": [
+        "Satenik, Excel-um banadzevy jnjvel e, dra hamar gumary skhal e."
+      ]
+    },
+    {
+      "id": "hy-s027",
+      "kind": "sentence",
+      "native": [
+        "Տատիկիս շենքը բակի խորքում է, մուտքի կողքին նստարան կա։"
+      ],
+      "roman": [
+        "Tatikis shenqy baki khorqum e, mutqi koghqin nstaran ka."
+      ]
+    },
+    {
+      "id": "hy-s028",
+      "kind": "sentence",
+      "native": [
+        "Ատելյեում ասացին, որ տաբատս կեսօրին պատրաստ կլինի։"
+      ],
+      "roman": [
+        "Atelyeum asatsin, vor tabats kesorin patrast klini."
+      ]
+    },
+    {
+      "id": "hy-s029",
+      "kind": "sentence",
+      "native": [
+        "Մտածում էի վարել սովորել, բայց նախ հեծանիվս սարքեմ, ամռանը դրանով էլ հանգիստ գործի կհասնեմ։"
+      ],
+      "roman": [
+        "Mtatsum ei varel sovorel, bayts nakh hetsanivs sarqem, amrany dranov el hangist gortsi khasnem."
+      ]
+    },
+    {
+      "id": "hy-s030",
+      "kind": "sentence",
+      "native": [
+        "Տիգրա՛ն, սկզբում քո առաջարկին լուրջ չէի վերաբերվում, բայց հիմա ուրախ եմ, որ միտքս փոխեցի։"
+      ],
+      "roman": [
+        "Tigra'n, skzbum qo arajarkin lurj chei verabervum, bayts hima urakh em, vor mitqs pokhetsi."
+      ]
+    },
+    {
+      "id": "hy-s031",
+      "kind": "sentence",
+      "native": [
+        "Ներիր, զգեստս չեմ կարող տալ։"
+      ],
+      "roman": [
+        "Nerir, zgests chem karogh tal."
+      ]
+    },
+    {
+      "id": "hy-s032",
+      "kind": "sentence",
+      "native": [
+        "Վանաձորի մասնաճյուղից նոր պայմանների մասին դեռ տեղեկություն չունենք։"
+      ],
+      "roman": [
+        "Vanadzori masnachyughits nor paymanneri masin der teghekutyun chunenq."
+      ]
+    },
+    {
+      "id": "hy-s033",
+      "kind": "sentence",
+      "native": [
+        "Չորեքշաբթի ժամը 16:20 մատնահարդարման համար գրանցված եմ։"
+      ],
+      "roman": [
+        "Choreqshabti zhamy 16:20 matnahardarman hamar grantsvats em."
+      ]
+    },
+    {
+      "id": "hy-s034",
+      "kind": "sentence",
+      "native": [
+        "Ճաշի համար սառցախցիկից հանեմ լոբին, որ ժամանակին հալվի։"
+      ],
+      "roman": [
+        "Chashi hamar sartsakhtsikits hanem lobin, vor zhamanakin halvi."
+      ]
+    },
+    {
+      "id": "hy-s035",
+      "kind": "sentence",
+      "native": [
+        "Զանգիր Վահե Խաչատրյանին։"
+      ],
+      "roman": [
+        "Zangir Vahe Khachatryanin."
+      ]
+    },
+    {
+      "id": "hy-s036",
+      "kind": "sentence",
+      "native": [
+        "Հաշիվս վերականգնելու կոդը նորից ուղարկեք, խնդրում եմ։"
+      ],
+      "roman": [
+        "Hashivs verakangnelu kody norits ugharkeq, khndrum em."
+      ]
+    },
+    {
+      "id": "hy-s037",
+      "kind": "sentence",
+      "native": [
+        "Փեսաս առաջարկեց կիրակի իր մեքենայով գնալ սարեր, բայց դեռ չգիտենք, թե երեխաներին ով է պահելու։"
+      ],
+      "roman": [
+        "Pesas arajarkets kiraki ir meqenayov gnal sarer, bayts der chgitenq, te erekhanerin ov e pahelu."
+      ]
+    },
+    {
+      "id": "hy-s038",
+      "kind": "sentence",
+      "native": [
+        "Փոստից ծանրոցս վերցնելու համար անձնագիրս հետս պիտի տանեմ։"
+      ],
+      "roman": [
+        "Postits tsanrotss vertsnelu hamar andznagirs hets piti tanem."
+      ]
+    },
+    {
+      "id": "hy-s039",
+      "kind": "sentence",
+      "native": [
+        "Սա՞ էլ է կշռով վաճառվում։"
+      ],
+      "roman": [
+        "Sa? el e kshrov vacharvum."
+      ]
+    },
+    {
+      "id": "hy-s040",
+      "kind": "sentence",
+      "native": [
+        "Կներես, անտեղի նեղացա քեզնից։"
+      ],
+      "roman": [
+        "Kneres, anteghi neghatsa qeznits."
+      ]
+    },
+    {
+      "id": "hy-s041",
+      "kind": "sentence",
+      "native": [
+        "Սվիտերս լվանալուց հետո այնքան է փոքրացել, որ կատուս կհագնի։"
+      ],
+      "roman": [
+        "Sviters lvanaluts heto aynqan e poqratsel, vor katus khagni."
+      ]
+    },
+    {
+      "id": "hy-s042",
+      "kind": "sentence",
+      "native": [
+        "Արտակ Մանուկյանի արձակուրդի ընթացքում պատվերներով ես կզբաղվեմ, իսկ առաքման հարցերը Սոնայի հետ քննարկեք։"
+      ],
+      "roman": [
+        "Artak Manukyani ardzakurdi yntatsqum patvernerov es kzbaghvem, isk araqman hartsery Sonayi het qnnarkeq."
+      ]
+    },
+    {
+      "id": "hy-s043",
+      "kind": "sentence",
+      "native": [
+        "Զեղչով այս ականջակալները 12500 դրամ են, առաքումն էլ 900 է։"
+      ],
+      "roman": [
+        "Zeghchov ays akanjakalnery 12500 dram en, araqumn el 900 e."
+      ]
+    },
+    {
+      "id": "hy-s044",
+      "kind": "sentence",
+      "native": [
+        "Շուկայից ղափամայի համար դդում ընտրեմ, բայց նախ տանը ստուգեմ, թե որքան չիր ու բրինձ ունենք։"
+      ],
+      "roman": [
+        "Shukayits ghapamayi hamar ddum yntrem, bayts nakh tany stugem, te vorqan chir u brindz unenq."
+      ]
+    },
+    {
+      "id": "hy-s045",
+      "kind": "sentence",
+      "native": [
+        "Բացիր YouTube-ում երեկ պահածս տեսանյութը, որտեղ հեծանվի շղթան են փոխում։"
+      ],
+      "roman": [
+        "Batsir YouTube-um erek pahatss tesanyuty, vortegh hetsanvi shghtan en pokhum."
+      ]
+    },
+    {
+      "id": "hy-s046",
+      "kind": "sentence",
+      "native": [
+        "Դավիթ, Teams-ում ձայնդ շատ ցածր է լսվում, մոտեցիր միկրոֆոնին։"
+      ],
+      "roman": [
+        "Davit, Teams-um dzaynd shat tsatsr e lsvum, motetsir mikrofonin."
+      ]
+    },
+    {
+      "id": "hy-s047",
+      "kind": "sentence",
+      "native": [
+        "Պանրով կարկանդակ բերեք, սխալ ասացի, կարտոֆիլով եմ ուզում։"
+      ],
+      "roman": [
+        "Panrov karkandak bereq, skhal asatsi, kartofilov em uzum."
+      ]
+    },
+    {
+      "id": "hy-s048",
+      "kind": "sentence",
+      "native": [
+        "Հարիսան կրակից վերցնելուց առաջ մի անգամ էլ խառնիր։"
+      ],
+      "roman": [
+        "Harisan krakits vertsneluts araj mi angam el kharnir."
+      ]
+    },
+    {
+      "id": "hy-s049",
+      "kind": "sentence",
+      "native": [
+        "Շաքարավազ, սուրճ ու կակաո վերցրու, ուրիշ բան պետք չէ։"
+      ],
+      "roman": [
+        "Shaqaravaz, surch u kakao vertsru, urish ban petq che."
+      ]
+    },
+    {
+      "id": "hy-s050",
+      "kind": "sentence",
+      "native": [
+        "Գավառի այս փոքրիկ սրճարանի աղանդերն իսկապես շատ հավանեցի։"
+      ],
+      "roman": [
+        "Gavari ays poqrik srcharani aghandern iskapes shat havanetsi."
+      ]
+    },
+    {
+      "id": "hy-s051",
+      "kind": "sentence",
+      "native": [
+        "Լսիր, երեկ քո լիցքավորիչը մեր տանն ես մոռացել։"
+      ],
+      "roman": [
+        "Lsir, erek qo litsqavorichy mer tann es moratsel."
+      ]
+    },
+    {
+      "id": "hy-s052",
+      "kind": "sentence",
+      "native": [
+        "Տպարանի հետ ճշտեցի, այցեքարտերի ամբողջ խմբաքանակը 24000 դրամ կարժենա։"
+      ],
+      "roman": [
+        "Tparani het chshtetsi, aytseqarteri amboghj khmbaqanaky 24000 dram karzhena."
+      ]
+    },
+    {
+      "id": "hy-s053",
+      "kind": "sentence",
+      "native": [
+        "Սենյակս 406-ն է, 4-րդ հարկում։"
+      ],
+      "roman": [
+        "Senyaks 406-n e, 4-rd harkum."
+      ]
+    },
+    {
+      "id": "hy-s054",
+      "kind": "sentence",
+      "native": [
+        "Պատվիրելուց առաջ չափեմ պատշգամբի դուռը, հետո չափսերն ուղարկեմ Արամին, որ մոծակացանցի գինը հաշվի։"
+      ],
+      "roman": [
+        "Patvireluts araj chapem patshgambi dury, heto chapsern ugharkem Aramin, vor motsakatsantsi giny hashvi."
+      ]
+    },
+    {
+      "id": "hy-s055",
+      "kind": "sentence",
+      "native": [
+        "Որքա՞ն ազատ տեղ է մնացել համակարգչիս կոշտ սկավառակի վրա։"
+      ],
+      "roman": [
+        "Vorqa?n azat tegh e mnatsel hamakargchis kosht skavaraki vra."
+      ]
+    },
+    {
+      "id": "hy-s056",
+      "kind": "sentence",
+      "native": [
+        "Ստեղնաշարը հայերենի փոխիր։"
+      ],
+      "roman": [
+        "Steghnashary hayereni pokhir."
+      ]
+    },
+    {
+      "id": "hy-s057",
+      "kind": "sentence",
+      "native": [
+        "Հորաքրոջս ուղեկցիր մինչև վագոնը, ճամպրուկը մենակ չի կարողանա բարձրացնել։"
+      ],
+      "roman": [
+        "Horaqrojs ughektsir minchev vagony, champruky menak chi karoghana bardzratsnel."
+      ]
+    },
+    {
+      "id": "hy-s058",
+      "kind": "sentence",
+      "native": [
+        "Չեկը պահել եմ։ Տուփը բացելուց հետո նկատեցի, որ սրճաղացի կափարիչը մինչև վերջ չի փակվում։"
+      ],
+      "roman": [
+        "Cheky pahel em. Tupy batseluts heto nkatetsi, vor srchaghatsi kaparichy minchev verj chi pakvum."
+      ]
+    },
+    {
+      "id": "hy-s059",
+      "kind": "sentence",
+      "native": [
+        "Պատառաքաղ, դանակ ու փոքր գդալ բեր։"
+      ],
+      "roman": [
+        "Pataraqagh, danak u poqr gdal ber."
+      ]
+    },
+    {
+      "id": "hy-s060",
+      "kind": "sentence",
+      "native": [
+        "Ապրե՛ս, հրաշալի ես նկարում։"
+      ],
+      "roman": [
+        "Apre's, hrashali es nkarum."
+      ]
+    },
+    {
+      "id": "hy-s061",
+      "kind": "sentence",
+      "native": [
+        "Տուն հասա, ամեն ինչ լավ է։"
+      ],
+      "roman": [
+        "Tun hasa, amen inch lav e."
+      ]
+    },
+    {
+      "id": "hy-s062",
+      "kind": "sentence",
+      "native": [
+        "Էկրանդ ցույց կտա՞ս, տեսնեմ, թե որտեղ է սխալը։"
+      ],
+      "roman": [
+        "Ekrand tsuyts kta?s, tesnem, te vortegh e skhaly."
+      ]
+    },
+    {
+      "id": "hy-s063",
+      "kind": "sentence",
+      "native": [
+        "Սեդան 9 տարեկան է, ու նրա համար ընտրել ենք 32 համարի կապույտ մարզակոշիկը։"
+      ],
+      "roman": [
+        "Sedan 9 tarekan e, u nra hamar yntrel enq 32 hamari kapuyt marzakoshiky."
+      ]
+    },
+    {
+      "id": "hy-s064",
+      "kind": "sentence",
+      "native": [
+        "Վարագույրները պիտի լվանամ։"
+      ],
+      "roman": [
+        "Varaguyrnery piti lvanam."
+      ]
+    },
+    {
+      "id": "hy-s065",
+      "kind": "sentence",
+      "native": [
+        "Թարգմանիր այս էջի տեքստը հայերեն, բայց ընկերությունների անուններն ու ապրանքների մոդելները թող անգլերեն։"
+      ],
+      "roman": [
+        "Targmanir ays eji teqsty hayeren, bayts ynkerutyunneri anunnern u apranqneri modelnery togh angleren."
+      ]
+    },
+    {
+      "id": "hy-s066",
+      "kind": "sentence",
+      "native": [
+        "Բաժանորդագրության համար ամսական 2900 դրամ է գանձվում քարտիցս։"
+      ],
+      "roman": [
+        "Bazhanordagrutyan hamar amsakan 2900 dram e gandzvum qartitss."
+      ]
+    },
+    {
+      "id": "hy-s067",
+      "kind": "sentence",
+      "native": [
+        "Շնորհակալություն, հավելյալ տոպրակ պետք չէ։"
+      ],
+      "roman": [
+        "Shnorhakalutyun, havelyal toprak petq che."
+      ]
+    },
+    {
+      "id": "hy-s068",
+      "kind": "sentence",
+      "native": [
+        "Վարդավառին տատիկի բակում սեղան կդնենք։ Չոր շորեր էլ բերեք, որ հետո փոխվեք։"
+      ],
+      "roman": [
+        "Vardavarin tatiki bakum seghan kdnenq. Chor shorer el bereq, vor heto pokhveq."
+      ]
+    },
+    {
+      "id": "hy-s069",
+      "kind": "sentence",
+      "native": [
+        "Պիջակս կախիր, չէ, աթոռին թող, էլի հագնելու եմ։"
+      ],
+      "roman": [
+        "Pijaks kakhir, che, atorin togh, eli hagnelu em."
+      ]
+    },
+    {
+      "id": "hy-s070",
+      "kind": "sentence",
+      "native": [
+        "Հիմա հասկանում եմ, որ ինձ հանգիստ երեկո էր պետք, ոչ թե խնջույք։"
+      ],
+      "roman": [
+        "Hima haskanum em, vor indz hangist ereko er petq, voch te khnjuyq."
+      ]
+    },
+    {
+      "id": "hy-s071",
+      "kind": "sentence",
+      "native": [
+        "Նարե, ճանապարհին մի մատնաքաշ կվերցնե՞ս, հացը վերջացել է։"
+      ],
+      "roman": [
+        "Nare, chanaparhin mi matnaqash kvertsne?s, hatsy verjatsel e."
+      ]
+    },
+    {
+      "id": "hy-s072",
+      "kind": "sentence",
+      "native": [
+        "Խնդրում եմ, ավարտելուց առաջ վերնագրերի ուղղագրությունն էլ ստուգեք։"
+      ],
+      "roman": [
+        "Khndrum em, avarteluts araj vernagreri ughghagrutyunn el stugeq."
+      ]
+    },
+    {
+      "id": "hy-s073",
+      "kind": "sentence",
+      "native": [
+        "Պահարանի լայնությունը 120 սանտիմետր է, իսկ բարձրությունը 210 սանտիմետր է։"
+      ],
+      "roman": [
+        "Paharani laynutyuny 120 santimetr e, isk bardzrutyuny 210 santimetr e."
+      ]
+    },
+    {
+      "id": "hy-s074",
+      "kind": "sentence",
+      "native": [
+        "Երեքշաբթի գրադարանից վերցրած գիրքը պետք է վերադարձնեմ։"
+      ],
+      "roman": [
+        "Ereqshabti gradaranits vertsrats girqy petq e veradardznem."
+      ]
+    },
+    {
+      "id": "hy-s075",
+      "kind": "sentence",
+      "native": [
+        "Փակիր բոլոր բաց ներդիրները։"
+      ],
+      "roman": [
+        "Pakir bolor bats nerdirnery."
+      ]
+    },
+    {
+      "id": "hy-s076",
+      "kind": "sentence",
+      "native": [
+        "Ինտերնետը մի պահ կորավ։"
+      ],
+      "roman": [
+        "Internety mi pah korav."
+      ]
+    },
+    {
+      "id": "hy-s077",
+      "kind": "sentence",
+      "native": [
+        "Վերջին երթուղայինն անցավ, երևի ստիպված տաքսի պիտի պատվիրենք։"
+      ],
+      "roman": [
+        "Verjin ertughayinn antsav, erevi stipvats taqsi piti patvirenq."
+      ]
+    },
+    {
+      "id": "hy-s078",
+      "kind": "sentence",
+      "native": [
+        "Ներկի տուփը մի նետիր, վրան գույնի համարն է գրված, նույնից պիտի գնեմ խոհանոցի պատի համար։"
+      ],
+      "roman": [
+        "Nerki tupy mi netir, vran guyni hamarn e grvats, nuynits piti gnem khohanotsi pati hamar."
+      ]
+    },
+    {
+      "id": "hy-s079",
+      "kind": "sentence",
+      "native": [
+        "Ոչ, ապառիկով չեմ ուզում գնել։"
+      ],
+      "roman": [
+        "Voch, aparikov chem uzum gnel."
+      ]
+    },
+    {
+      "id": "hy-s080",
+      "kind": "sentence",
+      "native": [
+        "Անկեղծ ասած, հերթում այսքան սպասելը մի քիչ հոգնեցնող է։"
+      ],
+      "roman": [
+        "Ankeghts asats, hertum aysqan spasely mi qich hognetsnogh e."
+      ]
+    },
+    {
+      "id": "hy-s081",
+      "kind": "sentence",
+      "native": [
+        "Երբ ազատվես, զանգիր, մի բան պատմեմ։"
+      ],
+      "roman": [
+        "Erb azatves, zangir, mi ban patmem."
+      ]
+    },
+    {
+      "id": "hy-s082",
+      "kind": "sentence",
+      "native": [
+        "Այսօրվա համար այսքանը, բոլորիդ հանգիստ երեկո եմ մաղթում։"
+      ],
+      "roman": [
+        "Aysorva hamar aysqany, bolorid hangist ereko em maghtum."
+      ]
+    },
+    {
+      "id": "hy-s083",
+      "kind": "sentence",
+      "native": [
+        "Բաղադրատոմսում գրված է 350 գրամ ալյուր և 200 գրամ մածուն։"
+      ],
+      "roman": [
+        "Baghadratomsum grvats e 350 gram alyur ev 200 gram matsun."
+      ]
+    },
+    {
+      "id": "hy-s084",
+      "kind": "sentence",
+      "native": [
+        "Սուրենին ասեմ, որ սանդուղքը կվերադարձնեմ կիրակի, ավելի ճիշտ, երկուշաբթի առավոտյան կթողնեմ նրա ավտոտնակում։"
+      ],
+      "roman": [
+        "Surenin asem, vor sandughqy kveradardznem kiraki, aveli chisht, erkushabti aravotyan ktoghnem nra avtotnakum."
+      ]
+    },
+    {
+      "id": "hy-s085",
+      "kind": "sentence",
+      "native": [
+        "Հաշվիր, թե 5700 դրամից 14% հանելուց հետո որքան կմնա։"
+      ],
+      "roman": [
+        "Hashvir, te 5700 dramits 14% haneluts heto vorqan kmna."
+      ]
+    },
+    {
+      "id": "hy-s086",
+      "kind": "sentence",
+      "native": [
+        "Samsung-ի այս նոր հեռախոսը լիցքավորիչո՞վ եք վաճառում, թե առանձին պիտի գնեմ։"
+      ],
+      "roman": [
+        "Samsung-i ays nor herakhosy litsqavoricho?v eq vacharum, te arandzin piti gnem."
+      ]
+    },
+    {
+      "id": "hy-s087",
+      "kind": "sentence",
+      "native": [
+        "Վարսավիրանոցի դիմաց ազատ տեղ կար, մեքենան այնտեղ եմ թողել։"
+      ],
+      "roman": [
+        "Varsaviranotsi dimats azat tegh kar, meqenan ayntegh em toghel."
+      ]
+    },
+    {
+      "id": "hy-s088",
+      "kind": "sentence",
+      "native": [
+        "Լուսանկարվելու համար ազատ ժամ ունե՞ք վաղը կեսօրից հետո։"
+      ],
+      "roman": [
+        "Lusankarvelu hamar azat zham une?q vaghy kesorits heto."
+      ]
+    },
+    {
+      "id": "hy-s089",
+      "kind": "sentence",
+      "native": [
+        "Չէ, կարմիրը նկատի ունեի, կներեք։"
+      ],
+      "roman": [
+        "Che, karmiry nkati unei, knereq."
+      ]
+    },
+    {
+      "id": "hy-s090",
+      "kind": "sentence",
+      "native": [
+        "Գյումրիից եկող ավտոբուսն ուշանում է, առանց ինձ սկսեք ընթրել։"
+      ],
+      "roman": [
+        "Gyumriits ekogh avtobusn ushanum e, arants indz skseq yntrel."
+      ]
+    },
+    {
+      "id": "hy-s091",
+      "kind": "sentence",
+      "native": [
+        "Արմինե, աղյուսակի վերջին սյունակում վաճառքի թվերն էլ ավելացրու։"
+      ],
+      "roman": [
+        "Armine, aghyusaki verjin syunakum vacharqi tvern el avelatsru."
+      ]
+    },
+    {
+      "id": "hy-s092",
+      "kind": "sentence",
+      "native": [
+        "Հինգշաբթի մարզումս սկսվում է ժամը 19:10-ին ու տևում 50 րոպե։"
+      ],
+      "roman": [
+        "Hingshabti marzums sksvum e zhamy 19:10-in u tevum 50 rope."
+      ]
+    },
+    {
+      "id": "hy-s093",
+      "kind": "sentence",
+      "native": [
+        "Հաջորդ անգամ խանութ գնալիս պիտի լվացքի փոշի ու սպունգ վերցնեմ։"
+      ],
+      "roman": [
+        "Hajord angam khanut gnalis piti lvatsqi poshi u spung vertsnem."
+      ]
+    },
+    {
+      "id": "hy-s094",
+      "kind": "sentence",
+      "native": [
+        "Ցույց տուր Սիրահարների այգի ոտքով հասնելու ամենակարճ ճանապարհը։"
+      ],
+      "roman": [
+        "Tsuyts tur Siraharneri aygi votqov hasnelu amenakarch chanaparhy."
+      ]
+    },
+    {
+      "id": "hy-s095",
+      "kind": "sentence",
+      "native": [
+        "Telegram-ի ծանուցումներն անջատել եմ, որ այսօր դասի ժամանակ հեռախոսս անընդհատ չզնգա։"
+      ],
+      "roman": [
+        "Telegram-i tsanutsumnern anjatel em, vor aysor dasi zhamanak herakhoss anyndhat chznga."
+      ]
+    },
+    {
+      "id": "hy-s096",
+      "kind": "sentence",
+      "native": [
+        "Հենց անցնես գետնանցումը, աջ կողմում ծաղկի կրպակ կտեսնես, ես դրա հետևի սրճարանում եմ նստած։"
+      ],
+      "roman": [
+        "Hents antsnes getnantsumy, aj koghmum tsaghki krpak ktesnes, es dra hetevi srcharanum em nstats."
+      ]
+    },
+    {
+      "id": "hy-s097",
+      "kind": "sentence",
+      "native": [
+        "Արփիի ուսուցչուհին խնդրել է վաղվա համար գունավոր թուղթ բերել։"
+      ],
+      "roman": [
+        "Arpii usutschuhin khndrel e vaghva hamar gunavor tught berel."
+      ]
+    },
+    {
+      "id": "hy-s098",
+      "kind": "sentence",
+      "native": [
+        "Կարո՞ղ եք հենց տեղում փոխել փոշեկուլի վնասված լարը։"
+      ],
+      "roman": [
+        "Karo?gh eq hents teghum pokhel poshekuli vnasvats lary."
+      ]
+    },
+    {
+      "id": "hy-s099",
+      "kind": "sentence",
+      "native": [
+        "Զարթուցիչս դրել էի ժամը 7-ին, բայց արթնացա միայն այն ժամանակ, երբ հարևանը միացրեց փոշեկուլը։"
+      ],
+      "roman": [
+        "Zartutsichs drel ei zhamy 7-in, bayts artnatsa miayn ayn zhamanak, erb harevany miatsrets poshekuly."
+      ]
+    },
+    {
+      "id": "hy-s100",
+      "kind": "sentence",
+      "native": [
+        "Կներեք, լրացուցիչ հերթափոխ չեմ վերցնի։"
+      ],
+      "roman": [
+        "Knereq, lratsutsich hertapokh chem vertsni."
+      ]
+    },
+    {
+      "id": "hy-s101",
+      "kind": "sentence",
+      "native": [
+        "Պատվերս բերեք Կոմիտասի պողոտա 37, բնակարան 26, իսկ մուտքի կոդը 82 է։"
+      ],
+      "roman": [
+        "Patvers bereq Komitasi poghota 37, bnakaran 26, isk mutqi kody 82 e."
+      ]
+    },
+    {
+      "id": "hy-s102",
+      "kind": "sentence",
+      "native": [
+        "Գորիս մեկնելուց առաջ մեքենայի անվադողերը ստուգել տամ։"
+      ],
+      "roman": [
+        "Goris mekneluts araj meqenayi anvadoghery stugel tam."
+      ]
+    },
+    {
+      "id": "hy-s103",
+      "kind": "sentence",
+      "native": [
+        "Ժամաչափը դիր 11 րոպեի վրա, որ ձուն հանեմ։"
+      ],
+      "roman": [
+        "Zhamachapy dir 11 ropei vra, vor dzun hanem."
+      ]
+    },
+    {
+      "id": "hy-s104",
+      "kind": "sentence",
+      "native": [
+        "Թարմացումից հետո ծրագիրը դանդաղ է բացվում։ Վերագործարկեցի, բայց ոչինչ չփոխվեց, ի՞նչ փորձեմ։"
+      ],
+      "roman": [
+        "Tarmatsumits heto tsragiry dandagh e batsvum. Veragortsarketsi, bayts vochinch chpokhvets, i?nch pordzem."
+      ]
+    },
+    {
+      "id": "hy-s105",
+      "kind": "sentence",
+      "native": [
+        "Քեռիս ուղիղ կայարան է գնացել։"
+      ],
+      "roman": [
+        "Qeris ughigh kayaran e gnatsel."
+      ]
+    },
+    {
+      "id": "hy-s106",
+      "kind": "sentence",
+      "native": [
+        "Մկրատը վերևի դարակում փնտրիր։"
+      ],
+      "roman": [
+        "Mkraty verevi darakum pntrir."
+      ]
+    },
+    {
+      "id": "hy-s107",
+      "kind": "sentence",
+      "native": [
+        "Երկուշաբթի չէ, հինգշաբթի գնանք Մատենադարան, ցուցադրությունը մինչև ամսվա վերջն է։"
+      ],
+      "roman": [
+        "Erkushabti che, hingshabti gnanq Matenadaran, tsutsadrutyuny minchev amsva verjn e."
+      ]
+    },
+    {
+      "id": "hy-s108",
+      "kind": "sentence",
+      "native": [
+        "Հա, նկարդ տեսա ու ծիծաղեցի։"
+      ],
+      "roman": [
+        "Ha, nkard tesa u tsitsaghetsi."
+      ]
+    },
+    {
+      "id": "hy-s109",
+      "kind": "sentence",
+      "native": [
+        "Zoom-ի հանդիպման գաղտնաբառը փոխվել է, նորը նամակով կուղարկեմ։"
+      ],
+      "roman": [
+        "Zoom-i handipman gaghtnabary pokhvel e, nory namakov kugharkem."
+      ]
+    },
+    {
+      "id": "hy-s110",
+      "kind": "sentence",
+      "native": [
+        "Հեռախոսահամարս 093 000 000 է, զանգահարեք ժամը 12:00-ից հետո։"
+      ],
+      "roman": [
+        "Herakhosahamars 093 000 000 e, zangahareq zhamy 12:00-its heto."
+      ]
+    },
+    {
+      "id": "hy-s111",
+      "kind": "sentence",
+      "native": [
+        "Ճշտեմ, թե վերնաշապիկը փոխանակելու համար չեկից բացի ինչ է պետք։"
+      ],
+      "roman": [
+        "Chshtem, te vernashapiky pokhanakelu hamar chekits batsi inch e petq."
+      ]
+    },
+    {
+      "id": "hy-s112",
+      "kind": "sentence",
+      "native": [
+        "Միացրու խոհանոցի լույսը։"
+      ],
+      "roman": [
+        "Miatsru khohanotsi luysy."
+      ]
+    },
+    {
+      "id": "hy-s113",
+      "kind": "sentence",
+      "native": [
+        "Ռոբերտ, նոութբուքս երեկոյան կբերեմ մաքրելու։ Դեռ դասս չեմ ավարտել։"
+      ],
+      "roman": [
+        "Robert, noutbuqs erekoyan kberem maqrelu. Der dass chem avartel."
+      ]
+    },
+    {
+      "id": "hy-s114",
+      "kind": "sentence",
+      "native": [
+        "Ձախ թեքվեք կամրջից անմիջապես հետո։"
+      ],
+      "roman": [
+        "Dzakh teqveq kamrjits anmijapes heto."
+      ]
+    },
+    {
+      "id": "hy-s115",
+      "kind": "sentence",
+      "native": [
+        "Ապուրը մի քիչ թանձրացել է։"
+      ],
+      "roman": [
+        "Apury mi qich tandzratsel e."
+      ]
+    },
+    {
+      "id": "hy-s116",
+      "kind": "sentence",
+      "native": [
+        "Պայուսակում սոսինձ, կպչուն ժապավեն ու մի քանի ամրակ դիր, մնացածը տեղում կճարենք։"
+      ],
+      "roman": [
+        "Payusakum sosindz, kpchun zhapaven u mi qani amrak dir, mnatsatsy teghum kcharenq."
+      ]
+    },
+    {
+      "id": "hy-s117",
+      "kind": "sentence",
+      "native": [
+        "Բանալիներս նորից պայուսակիդ մեջ են։"
+      ],
+      "roman": [
+        "Banaliners norits payusakid mej en."
+      ]
+    },
+    {
+      "id": "hy-s118",
+      "kind": "sentence",
+      "native": [
+        "Կասե՞ք, վերանորոգման գինը պահեստամասերն էլ է ներառում, թե միայն աշխատանքը։"
+      ],
+      "roman": [
+        "Kase?q, veranorogman giny pahestamasern el e nerarum, te miayn ashkhatanqy."
+      ]
+    },
+    {
+      "id": "hy-s119",
+      "kind": "sentence",
+      "native": [
+        "Երասխ գնացող գնացքը մեկնում է ժամը 08:15։ Ես 2-րդ վագոնում եմ։"
+      ],
+      "roman": [
+        "Yeraskh gnatsogh gnatsqy meknum e zhamy 08:15. Es 2-rd vagonum em."
+      ]
+    },
+    {
+      "id": "hy-s120",
+      "kind": "sentence",
+      "native": [
+        "Երեկոյան հեռուստացույցի կարգավորումներից անջատեմ հավելվածների ավտոմատ թարմացումը։"
+      ],
+      "roman": [
+        "Erekoyan herustatsuytsi kargavorumnerits anjatem havelvatsneri avtomat tarmatsumy."
+      ]
+    },
+    {
+      "id": "hy-s121",
+      "kind": "sentence",
+      "native": [
+        "Իջեցրու երաժշտության ձայնը։"
+      ],
+      "roman": [
+        "Ijetsru erazhshtutyan dzayny."
+      ]
+    },
+    {
+      "id": "hy-s122",
+      "kind": "sentence",
+      "native": [
+        "Տպիչը միացրինք, բայց թուղթը ներս է քաշում ու կանգնում։"
+      ],
+      "roman": [
+        "Tpichy miatsrinq, bayts tughty ners e qashum u kangnum."
+      ]
+    },
+    {
+      "id": "hy-s123",
+      "kind": "sentence",
+      "native": [
+        "Վարժության վերջին մասում պատասխանը գրե՞նք, թե նկարով ցույց տանք։"
+      ],
+      "roman": [
+        "Varzhutyan verjin masum pataskhany gre?nq, te nkarov tsuyts tanq."
+      ]
+    },
+    {
+      "id": "hy-s124",
+      "kind": "sentence",
+      "native": [
+        "Երկու կիլո ծիրանը 1600 դրամով կտա՞ք, թե՞ գինը վերջնական է։"
+      ],
+      "roman": [
+        "Erku kilo tsirany 1600 dramov kta?q, te? giny verjnakan e."
+      ]
+    },
+    {
+      "id": "hy-s125",
+      "kind": "sentence",
+      "native": [
+        "Վերջինը ջնջիր, սխալ ասացի։"
+      ],
+      "roman": [
+        "Verjiny jnjir, skhal asatsi."
+      ]
+    },
+    {
+      "id": "hy-s126",
+      "kind": "sentence",
+      "native": [
+        "Ինձ համար էլ տոլմա պահիր։"
+      ],
+      "roman": [
+        "Indz hamar el tolma pahir."
+      ]
+    },
+    {
+      "id": "hy-s127",
+      "kind": "sentence",
+      "native": [
+        "Նախորդ շաբաթ խոստացել էիք փորձնական տարբերակն ուղարկել, կասե՞ք, թե երբ կարող ենք այն ստանալ։"
+      ],
+      "roman": [
+        "Nakhord shabat khostatsel eiq pordznakan tarberakn ugharkel, kase?q, te erb karogh enq ayn stanal."
+      ]
+    },
+    {
+      "id": "hy-s128",
+      "kind": "sentence",
+      "native": [
+        "Պապիկս այսօր դարձավ 78 տարեկան։"
+      ],
+      "roman": [
+        "Papiks aysor dardzav 78 tarekan."
+      ]
+    },
+    {
+      "id": "hy-s129",
+      "kind": "sentence",
+      "native": [
+        "Միանգամյա բաժակներ չեմ գնելու։"
+      ],
+      "roman": [
+        "Miangamya bazhakner chem gnelu."
+      ]
+    },
+    {
+      "id": "hy-s130",
+      "kind": "sentence",
+      "native": [
+        "Գտիր մի հեշտ բաղադրատոմս, որ բրոկկոլին պատրաստեմ ջեռոցում առանց սերուցքի ու շատ յուղի։"
+      ],
+      "roman": [
+        "Gtir mi hesht baghadratoms, vor brokkolin patrastem jerotsum arants serutsqi u shat yughi."
+      ]
+    },
+    {
+      "id": "hy-s131",
+      "kind": "sentence",
+      "native": [
+        "Մարիա՛մ, հեռախոսով փորձեցի։ Ապրանքը զամբյուղ է ավելանում, բայց վճարման կոճակը չի արձագանքում։"
+      ],
+      "roman": [
+        "Maria'm, herakhosov pordzetsi. Apranqy zambyugh e avelanum, bayts vcharman kochaky chi ardzaganqum."
+      ]
+    },
+    {
+      "id": "hy-s132",
+      "kind": "sentence",
+      "native": [
+        "Հաշվիչը որտե՞ղ դրեցի, հենց նոր ձեռքիս էր։"
+      ],
+      "roman": [
+        "Hashvichy vorte?gh dretsi, hents nor dzerqis er."
+      ]
+    },
+    {
+      "id": "hy-s133",
+      "kind": "sentence",
+      "native": [
+        "Տղայիս ծնունդը կիրակի ենք նշելու, դուք էլ անպայման եկեք։"
+      ],
+      "roman": [
+        "Tghayis tsnundy kiraki enq nshelu, duq el anpayman ekeq."
+      ]
+    },
+    {
+      "id": "hy-s134",
+      "kind": "sentence",
+      "native": [
+        "Կցված նկարը չի բացվում։"
+      ],
+      "roman": [
+        "Ktsvats nkary chi batsvum."
+      ]
+    },
+    {
+      "id": "hy-s135",
+      "kind": "sentence",
+      "native": [
+        "Հաշիվը 6800 դրամ ստացվեց։"
+      ],
+      "roman": [
+        "Hashivy 6800 dram statsvets."
+      ]
+    },
+    {
+      "id": "hy-s136",
+      "kind": "sentence",
+      "native": [
+        "Գնումների ցուցակում ոսպ ավելացրու։"
+      ],
+      "roman": [
+        "Gnumneri tsutsakum vosp avelatsru."
+      ]
+    },
+    {
+      "id": "hy-s137",
+      "kind": "sentence",
+      "native": [
+        "Ռուզաննային բան մի ասա։ Ավելի լավ է ինքս բացատրեմ։"
+      ],
+      "roman": [
+        "Ruzannayin ban mi asa. Aveli lav e inqs batsatrem."
+      ]
+    },
+    {
+      "id": "hy-s138",
+      "kind": "sentence",
+      "native": [
+        "Միքայելին շախմատի խմբակից ես կբերեմ։ Ավելի ճիշտ, պապիկն է բերելու, ես տանը կսպասեմ։"
+      ],
+      "roman": [
+        "Miqayelin shakhmati khmbakits es kberem. Aveli chisht, papikn e berelu, es tany kspasem."
+      ]
+    },
+    {
+      "id": "hy-s139",
+      "kind": "sentence",
+      "native": [
+        "Հանդիպումը տեղափոխենք ուրբաթ, քանի որ վաղն ամբողջ օրը զբաղված եմ։"
+      ],
+      "roman": [
+        "Handipumy teghapokhenq urbat, qani vor vaghn amboghj ory zbaghvats em."
+      ]
+    },
+    {
+      "id": "hy-s140",
+      "kind": "sentence",
+      "native": [
+        "Հրավերի վրա նշված է 2026 թվականի օգոստոսի 22-ը։ Այդ օրը շաբաթ է։"
+      ],
+      "roman": [
+        "Hraveri vra nshvats e 2026 tvakani ogostosi 22-y. Ayd ory shabat e."
+      ]
+    },
+    {
+      "id": "hy-s141",
+      "kind": "sentence",
+      "native": [
+        "Ջրի գումարն առանձի՞ն ուղարկեմ, թե լույսի հետ միասին։"
+      ],
+      "roman": [
+        "Jri gumarn arandzi?n ugharkem, te luysi het miasin."
+      ]
+    },
+    {
+      "id": "hy-s142",
+      "kind": "sentence",
+      "native": [
+        "Շաբաթ օրը Կասկադի մոտ կհանդիպենք, եթե անձրև չգա։"
+      ],
+      "roman": [
+        "Shabat ory Kaskadi mot khandipenq, ete andzrev chga."
+      ]
+    }
+  ]
+}

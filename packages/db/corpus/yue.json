@@ -1,0 +1,2522 @@
+{
+  "lang": "yue",
+  "starter": [
+    "yue-s027",
+    "yue-s155",
+    "yue-s042",
+    "yue-s202",
+    "yue-s007",
+    "yue-s013",
+    "yue-s036",
+    "yue-s165",
+    "yue-s203",
+    "yue-s141",
+    "yue-s089",
+    "yue-s073",
+    "yue-s064",
+    "yue-s019",
+    "yue-p02",
+    "yue-s021",
+    "yue-s123",
+    "yue-s131",
+    "yue-s041",
+    "yue-s026",
+    "yue-s144",
+    "yue-s032",
+    "yue-s136",
+    "yue-s125",
+    "yue-s215",
+    "yue-s160",
+    "yue-s039",
+    "yue-s083",
+    "yue-s055",
+    "yue-p01",
+    "yue-s010",
+    "yue-s156",
+    "yue-s183",
+    "yue-s139",
+    "yue-s204",
+    "yue-s152",
+    "yue-s129",
+    "yue-s167",
+    "yue-s184",
+    "yue-s066",
+    "yue-s189",
+    "yue-s043",
+    "yue-s149",
+    "yue-s148",
+    "yue-p03",
+    "yue-s102",
+    "yue-s003",
+    "yue-s114",
+    "yue-s020",
+    "yue-s108",
+    "yue-s059",
+    "yue-s011",
+    "yue-s124",
+    "yue-s049",
+    "yue-s034",
+    "yue-s088",
+    "yue-s051",
+    "yue-s015",
+    "yue-s116"
+  ],
+  "items": [
+    {
+      "id": "yue-p01",
+      "kind": "para",
+      "title": "Back to Tai O",
+      "native": [
+        "今個星期日我返大澳，想問你得唔得閒一齊呀？",
+        "我諗住朝早9點喺東涌搭巴士入去，唔使咁趕。",
+        "阿嫻話晏晝會煮蝦醬蒸豬肉，叫我哋返屋企食。",
+        "我想順便去街市買啲蝦米，返嚟炒飯用。",
+        "食完飯去阿婆以前住嗰條巷，睇下門口棵樹。",
+        "如果間餅店仲開緊，我買盒雞仔餅畀你帶走。",
+        "大澳嗰邊冇乜遮陰，記得帶頂帽同支水呀。",
+        "我諗住下晝5點前走，返到市區都未算夜。",
+        "你睇下個時間啱唔啱，今晚覆我就得喇。"
+      ],
+      "roman": [
+        "Gam go sing kei jat ngo faan Daai Ou, soeng man nei dak m dak haan jat cai aa?",
+        "Ngo nam zyu ziu zou 9 dim hai Dung Cung daap baa si jap heoi, m sai gam gon.",
+        "Aa Haan waa aan zau wui zyu haa zoeng zing zyu juk, giu ngo dei faan uk kei sik.",
+        "Ngo soeng seon bin heoi gaai si maai di haa mai, faan lai caau faan jung.",
+        "Sik jyun faan heoi aa po ji cin zyu go tiu hong, tai haa mun hau po syu.",
+        "Jyu gwo gaan beng dim zung hoi gan, ngo maai hap gai zai beng bei nei daai zau.",
+        "Daai Ou go bin mou mat ze jam, gei dak daai ding mou tung zi seoi aa.",
+        "Ngo nam zyu haa zau 5 dim cin zau, faan dou si keoi dou mei syun je.",
+        "Nei tai haa go si gaan ngaam m ngaam, gam maan fuk ngo zau dak laa."
+      ]
+    },
+    {
+      "id": "yue-p02",
+      "kind": "para",
+      "title": "Kwun Tong Client Follow-Up",
+      "native": [
+        "今朝喺觀塘見完客，想講返個安排。",
+        "對方揀咗藍色嗰款包裝，個 logo 就要放大啲。",
+        "盒背啲字唔使改，淨係換張清楚啲嘅產品相。",
+        "嘉欣，麻煩你聽日中午前改好個設計。",
+        "阿謙幫手問印刷廠，最快幾時可以交到貨。",
+        "報價要分開寫印刷費同運費，方便對方比較。",
+        "我會整理返份清單，晏晝 send 畀大家。",
+        "份稿未確認之前，大家唔好將舊版傳出去。",
+        "有邊項趕唔切就早啲話我知，我幫手再夾。"
+      ],
+      "roman": [
+        "Gam ziu hai Gun Tong gin jyun haak, soeng gong faan go on paai.",
+        "Deoi fong gaan zo laam sik go fun baau zong, go logo zau jiu fong daai di.",
+        "Hap bui di zi m sai goi, zing hai wun zoeng cing co di ge caan ban soeng.",
+        "Gaa Jan, maa faan nei ting jat zung ng cin goi hou go cit gai.",
+        "Aa Him bong sau man jan caat cong, zeoi faai gei si ho ji gaau dou fo.",
+        "Bou gaa jiu fan hoi se jan caat fai tung wan fai, fong bin deoi fong bei gaau.",
+        "Ngo wui zing lei faan fan cing daan, aan zau send bei daai gaa.",
+        "Fan gou mei kok jing zi cin, daai gaa m hou zoeng gau baan cyun ceot heoi.",
+        "Jau bin hong gon m cit zau zou di waa ngo zi, ngo bong sau zoi gaap."
+      ]
+    },
+    {
+      "id": "yue-p03",
+      "kind": "para",
+      "title": "A Wrong Turn in Macau",
+      "native": [
+        "上個月我第1次去澳門，落船就想行去大三巴。",
+        "我喺新馬路轉錯咗個彎，行咗入條好靜嘅巷。",
+        "條巷兩邊都係舊樓，露台仲晾住幾件衫。",
+        "我開地圖搵路，個箭嘴係咁轉。",
+        "嗰陣手機得返 5% 電，我即刻熄咗個 mon。",
+        "我見到間餅店，就入去問個店員應該點行。",
+        "個店員行到門口，指住前面叫我過馬路。",
+        "原來大三巴就喺斜路上面，我忍唔住笑咗出嚟。",
+        "我最後坐低食咗個豬扒包，對腳先冇咁攰。"
+      ],
+      "roman": [
+        "Soeng go jyut ngo dai 1 ci heoi Ou Mun, lok syun zau soeng haang heoi Daai Saam Baa.",
+        "Ngo hai San Maa Lou zyun co zo go waan, haang zo jap tiu hou zing ge hong.",
+        "Tiu hong loeng bin dou hai gau lau, lou toi zung long zyu gei gin saam.",
+        "Ngo hoi dei tou wan lou, go zin zeoi hai gam zyun.",
+        "Go zan sau gei dak faan 5% din, ngo zik hak sik zo go mon.",
+        "Ngo gin dou gaan beng dim, zau jap heoi man go dim jyun jing goi dim haang.",
+        "Go dim jyun haang dou mun hau, zi zyu cin min giu ngo gwo maa lou.",
+        "Jyun loi Daai Saam Baa zau hai ce lou soeng min, ngo jan m zyu siu zo ceot lai.",
+        "Ngo zeoi hau co dai sik zo go zyu paa baau, deoi goek sin mou gam gui."
+      ]
+    },
+    {
+      "id": "yue-p04",
+      "kind": "para",
+      "title": "Hong Kong French Toast",
+      "native": [
+        "我喺深水埗食開嗰款西多士，喺屋企都整到。",
+        "先攞2塊厚身方包，切走啲硬皮就得。",
+        "喺其中一塊搽勻花生醬，再將兩塊方包夾埋。",
+        "跟住打勻2隻蛋，加少少鮮奶再攪勻。",
+        "將夾好嘅方包浸落蛋漿，兩面都要浸到。",
+        "平底鑊落多少少油，用中細火慢慢煎。",
+        "煎到一面金黃色就反轉，邊位都要煎香。",
+        "煎好先放喺廚房紙上面，等張紙吸走啲油。",
+        "最後加塊牛油，淋啲糖漿就可以趁熱食喇。"
+      ],
+      "roman": [
+        "Ngo hai Sam Seoi Bou sik hoi go fun sai do si, hai uk kei dou zing dou.",
+        "Sin lo 2 faai hau san fong baau, cit zau di ngaang pei zau dak.",
+        "Hai kei zung jat faai caa wan faa saang zoeng, zoi zoeng loeng faai fong baau gaap maai.",
+        "Gan zyu daa wan 2 zek daan, gaa siu siu sin naai zoi gaau wan.",
+        "Zoeng gaap hou ge fong baau zam lok daan zoeng, loeng min dou jiu zam dou.",
+        "Ping dai wok lok do siu siu jau, jung zung sai fo maan maan zin.",
+        "Zin dou jat min gam wong sik zau faan zyun, bin wai dou jiu zin hoeng.",
+        "Zin hou sin fong hai cyu fong zi soeng min, dang zoeng zi kap zau di jau.",
+        "Zeoi hau gaa faai ngau jau, lam di tong zoeng zau ho ji can jit sik laa."
+      ]
+    },
+    {
+      "id": "yue-p05",
+      "kind": "para",
+      "title": "A Family Dinner Film",
+      "native": [
+        "身邊啲朋友最近都講緊飯戲攻心，我都去睇咗。",
+        "琴晚喺旺角睇完，我最記得一家人食飯嗰幾場。",
+        "一家人圍住張飯枱食飯，但個個都好似有嘢收埋唔講。",
+        "幾兄弟有啲對白好好笑，笑完又會諗返自己屋企。",
+        "套戲唔係淨係靠金句，啲演員唔出聲嗰陣都做得好。",
+        "不過去到後半段，有幾場爭拗我覺得拖長咗。",
+        "如果剪短少少，套戲嘅節奏應該會好啲。",
+        "套戲入面嗰種想關心人又唔識開口嘅感覺，我覺得好真。",
+        "對我嚟講，呢套戲最值得睇嘅反而係啲細節。"
+      ],
+      "roman": [
+        "San bin di pang jau zeoi gan dou gong gan Faan Hei Gung Sam, ngo dou heoi tai zo.",
+        "Kam maan hai Wong Gok tai jyun, ngo zeoi gei dak jat gaa jan sik faan go gei coeng.",
+        "Jat gaa jan wai zyu zoeng faan toi sik faan, daan go go dou hou ci jau je sau maai m gong.",
+        "Gei hing dai jau di deoi baak hou hou siu, siu jyun jau wui nam faan zi gei uk kei.",
+        "Tou hei m hai zing hai kaau gam geoi, di jin jyun m ceot seng go zan dou zou dak hou.",
+        "Bat gwo heoi dou hau bun dyun, jau gei coeng zaang aau ngo gok dak to coeng zo.",
+        "Jyu gwo zin dyun siu siu, tou hei ge zit zau jing goi wui hou di.",
+        "Tou hei jap min go zung soeng gwaan sam jan jau m sik hoi hau ge gam gok, ngo gok dak hou zan.",
+        "Deoi ngo lai gong, ni tou hei zeoi zik dak tai ge faan ji hai di sai zit."
+      ]
+    },
+    {
+      "id": "yue-p06",
+      "kind": "para",
+      "title": "Wedding Shopping in Prince Edward",
+      "native": [
+        "我哋婚禮定咗11月22號，今個月要買齊啲嘢。",
+        "我約咗慧敏星期6朝早10點喺太子站等。",
+        "由太子站行去金都商場，大概200米。",
+        "先訂80盒回禮曲奇，每盒預45蚊左右。",
+        "喜帖要印100張，另外預多10個信封。",
+        "裙褂租3日預1800蚊，要問清楚包唔包修改。",
+        "媽咪想買2對龍鳳鈪，價錢要去金舖再問。",
+        "新娘花球預800蚊，襟花就要買6個。",
+        "全部最遲11月8號訂好，留返兩個星期執漏。"
+      ],
+      "roman": [
+        "Ngo dei fan lai ding zo 11 jyut 22 hou, gam go jyut jiu maai cai di je.",
+        "Ngo joek zo Wai Man sing kei 6 ziu zou 10 dim hai Taai Zi Zaam dang.",
+        "Jau Taai Zi Zaam haang heoi Gam Dou Soeng Coeng, daai koi 200 mai.",
+        "Sin deng 80 hap wui lai kuk kei, mui hap jyu 45 man zo jau.",
+        "Hei tip jiu jan 100 zoeng, ling ngoi jyu do 10 go seon fung.",
+        "Kwan gwaa zou 3 jat jyu 1800 man, jiu man cing co baau m baau sau goi.",
+        "Maa mi soeng maai 2 deoi lung fung aak, gaa cin jiu heoi gam pou zoi man.",
+        "San noeng faa kau jyu 800 man, kam faa zau jiu maai 6 go.",
+        "Cyun bou zeoi ci 11 jyut 8 hou deng hou, lau faan loeng go sing kei zap lau."
+      ]
+    },
+    {
+      "id": "yue-p07",
+      "kind": "para",
+      "title": "Checking a Duplicate Card Charge",
+      "native": [
+        "你好，我姓梁，想查下信用卡有筆數係咪扣咗2次。",
+        "我用信用卡喺荃新天地買咗個電飯煲。",
+        "張單寫住628蚊，但 app 入面扣咗2次。",
+        "兩筆都係琴日下晝4點20分，舖頭名都一樣。",
+        "我問過間舖，職員話佢哋只係收過一次錢。",
+        "麻煩你幫我睇下，係咪有筆仲未正式入賬？",
+        "如果要核對收據，我可以用銀行 app 上載。",
+        "想問下呢種情況，一般要幾多個工作天先查清楚？",
+        "唔該你幫我跟進，有結果麻煩打返畀我。"
+      ],
+      "roman": [
+        "Nei hou, ngo sing Loeng, soeng caa haa seon jung kaa jau bat sou hai mai kau zo 2 ci.",
+        "Ngo jung seon jung kaa hai Cyun San Tin Dei maai zo go din faan bou.",
+        "Zoeng daan se zyu 628 man, daan app jap min kau zo 2 ci.",
+        "Loeng bat dou hai kam jat haa zau 4 dim 20 fan, pou tau meng dou jat joeng.",
+        "Ngo man gwo gaan pou, zik jyun waa keoi dei zi hai sau gwo jat ci cin.",
+        "Maa faan nei bong ngo tai haa, hai mai jau bat zung mei zing sik jap zoeng?",
+        "Jyu gwo jiu hat deoi sau geoi, ngo ho ji jung ngan hong app soeng zoi.",
+        "Soeng man haa ni zung cing fong, jat bun jiu gei do go gung zok tin sin caa cing co?",
+        "M goi nei bong ngo gan zeon, jau git gwo maa faan daa faan bei ngo."
+      ]
+    },
+    {
+      "id": "yue-p08",
+      "kind": "para",
+      "title": "Mid Autumn at Victoria Park",
+      "native": [
+        "每年農曆8月15號就係中秋節，好多人都會同屋企人食飯。",
+        "食完團圓飯，有啲人會帶埋燈籠去維園賞月。",
+        "中秋節嗰晚，銅鑼灣周圍都見到有人拎住燈籠。",
+        "除咗傳統嘅紙燈籠，而家都好多人用電燈籠。",
+        "小朋友拎住燈籠影相，大人就坐低分月餅。",
+        "雙黃蓮蓉月餅好常見，冰皮月餅都好多人鍾意食。",
+        "有啲家庭仲會帶埋碌柚，剝開同大家一齊食。",
+        "有啲中秋活動有得估燈謎，大人細路都可以一齊玩。",
+        "賞完月記得帶走垃圾，唔好留喺公園呀。"
+      ],
+      "roman": [
+        "Mui nin nung lik 8 jyut 15 hou zau hai Zung Cau Zit, hou do jan dou wui tung uk kei jan sik faan.",
+        "Sik jyun tyun jyun faan, jau di jan wui daai maai dang lung heoi Wai Jyun soeng jyut.",
+        "Zung Cau Zit go maan, Tung Lo Waan zau wai dou gin dou jau jan ling zyu dang lung.",
+        "Ceoi zo cyun tung ge zi dang lung, ji gaa dou hou do jan jung din dang lung.",
+        "Siu pang jau ling zyu dang lung jing soeng, daai jan zau co dai fan jyut beng.",
+        "Soeng wong lin jung jyut beng hou soeng gin, bing pei jyut beng dou hou do jan zung ji sik.",
+        "Jau di gaa ting zung wui daai maai luk jau, mok hoi tung daai gaa jat cai sik.",
+        "Jau di Zung Cau wut dung jau dak gu dang mai, daai jan sai lou dou ho ji jat cai waan.",
+        "Soeng jyun jyut gei dak daai zau laap saap, m hou lau hai gung jyun aa."
+      ]
+    },
+    {
+      "id": "yue-s001",
+      "kind": "sentence",
+      "native": [
+        "咁啱嘅，你又未瞓呀？"
+      ],
+      "roman": [
+        "Gam ngaam ge, nei jau mei fan aa?"
+      ]
+    },
+    {
+      "id": "yue-s002",
+      "kind": "sentence",
+      "native": [
+        "收齊各組嘅人數先叫外賣，唔食嗰幾位都覆一聲，費事預多咗。"
+      ],
+      "roman": [
+        "Sau cai gok zou ge jan sou sin giu ngoi maai, m sik go gei wai dou fuk jat seng, fai si jyu do zo."
+      ]
+    },
+    {
+      "id": "yue-s003",
+      "kind": "sentence",
+      "native": [
+        "全班有28個學員。"
+      ],
+      "roman": [
+        "Cyun baan jau 28 go hok jyun."
+      ]
+    },
+    {
+      "id": "yue-s004",
+      "kind": "sentence",
+      "native": [
+        "每晚要幫倉鼠換水。"
+      ],
+      "roman": [
+        "Mui maan jiu bong cong syu wun seoi."
+      ]
+    },
+    {
+      "id": "yue-s005",
+      "kind": "sentence",
+      "native": [
+        "暫停個計時器先啦。"
+      ],
+      "roman": [
+        "Zaam ting go gai si hei sin laa."
+      ]
+    },
+    {
+      "id": "yue-s006",
+      "kind": "sentence",
+      "native": [
+        "呢款軟件每個月收港幣68蚊，值唔值呀？"
+      ],
+      "roman": [
+        "Ni fun jyun gin mui go jyut sau gong bai 68 man, zik m zik aa?"
+      ]
+    },
+    {
+      "id": "yue-s007",
+      "kind": "sentence",
+      "native": [
+        "散場嗰陣人多，不如喺售票處集合啦。"
+      ],
+      "roman": [
+        "Saan coeng go zan jan do, bat jyu hai sau piu cyu zaap hap laa."
+      ]
+    },
+    {
+      "id": "yue-s008",
+      "kind": "sentence",
+      "native": [
+        "利是封唔夠用喇。"
+      ],
+      "roman": [
+        "Lei si fung m gau jung laa."
+      ]
+    },
+    {
+      "id": "yue-s009",
+      "kind": "sentence",
+      "native": [
+        "腸粉加甜醬、芝麻，花生醬就唔好落。"
+      ],
+      "roman": [
+        "Coeng fan gaa tim zoeng, zi maa, faa saang zoeng zau m hou lok."
+      ]
+    },
+    {
+      "id": "yue-s010",
+      "kind": "sentence",
+      "native": [
+        "對唔住，累你白行添。"
+      ],
+      "roman": [
+        "Deoi m zyu, leoi nei baak haang tim."
+      ]
+    },
+    {
+      "id": "yue-s011",
+      "kind": "sentence",
+      "native": [
+        "聽晚想喺屋企玩啤牌，有興趣就預埋你。"
+      ],
+      "roman": [
+        "Ting maan soeng hai uk kei waan be paai, jau hing ceoi zau jyu maai nei."
+      ]
+    },
+    {
+      "id": "yue-s012",
+      "kind": "sentence",
+      "native": [
+        "有消息再同你講呀。"
+      ],
+      "roman": [
+        "Jau siu sik zoi tung nei gong aa."
+      ]
+    },
+    {
+      "id": "yue-s013",
+      "kind": "sentence",
+      "native": [
+        "文慧訂咗3晚酒店，房號係8。"
+      ],
+      "roman": [
+        "Man Wai deng zo 3 maan zau dim, fong hou hai 8."
+      ]
+    },
+    {
+      "id": "yue-s014",
+      "kind": "sentence",
+      "native": [
+        "提我換支牙刷呀。"
+      ],
+      "roman": [
+        "Tai ngo wun zi ngaa caat aa."
+      ]
+    },
+    {
+      "id": "yue-s015",
+      "kind": "sentence",
+      "native": [
+        "香港歷史博物館星期日幾點閂門？"
+      ],
+      "roman": [
+        "Hoeng Gong Lik Si Bok Mat Gun sing kei jat gei dim saan mun?"
+      ]
+    },
+    {
+      "id": "yue-s016",
+      "kind": "sentence",
+      "native": [
+        "呢個瀏覽器喺邊度閂自動播放呀？"
+      ],
+      "roman": [
+        "Ni go lau laam hei hai bin dou saan zi dung bo fong aa?"
+      ]
+    },
+    {
+      "id": "yue-s017",
+      "kind": "sentence",
+      "native": [
+        "本來約咗喺渡輪碼頭見面，點知大家企咗兩邊，仲以為對方未到。"
+      ],
+      "roman": [
+        "Bun loi joek zo hai dou leon maa tau gin min, dim zi daai gaa kei zo loeng bin, zung ji wai deoi fong mei dou."
+      ]
+    },
+    {
+      "id": "yue-s018",
+      "kind": "sentence",
+      "native": [
+        "毛巾晾咗成日都未乾，成間屋都好潮濕。"
+      ],
+      "roman": [
+        "Mou gan long zo seng jat dou mei gon, seng gaan uk dou hou ciu sap."
+      ]
+    },
+    {
+      "id": "yue-s019",
+      "kind": "sentence",
+      "native": [
+        "錄完段片先加字幕，算啦，背景聲咁嘈，不如剪走頭嗰段再配旁白。"
+      ],
+      "roman": [
+        "Luk jyun dyun pin sin gaa zi mok, syun laa, bui ging seng gam cou, bat jyu zin zau tau go dyun zoi pui pong baak."
+      ]
+    },
+    {
+      "id": "yue-s020",
+      "kind": "sentence",
+      "native": [
+        "難得放假仲要改稿，諗起都覺得有啲灰。"
+      ],
+      "roman": [
+        "Naan dak fong gaa zung jiu goi gou, nam hei dou gok dak jau di fui."
+      ]
+    },
+    {
+      "id": "yue-s021",
+      "kind": "sentence",
+      "native": [
+        "媽咪煲咗紅豆沙，你收工過嚟拎盒返去啦。"
+      ],
+      "roman": [
+        "Maa mi bou zo hung dau saa, nei sau gung gwo lai ling hap faan heoi laa."
+      ]
+    },
+    {
+      "id": "yue-s022",
+      "kind": "sentence",
+      "native": [
+        "設計部嗰個新同事幾時可以開工呀？"
+      ],
+      "roman": [
+        "Cit gai bou go go san tung si gei si ho ji hoi gung aa?"
+      ]
+    },
+    {
+      "id": "yue-s023",
+      "kind": "sentence",
+      "native": [
+        "航班改咗做 CX564，7月19號朝早8點前要到機場。"
+      ],
+      "roman": [
+        "Hong baan goi zo zou CX564, 7 jyut 19 hou ziu zou 8 dim cin jiu dou gei coeng."
+      ]
+    },
+    {
+      "id": "yue-s024",
+      "kind": "sentence",
+      "native": [
+        "羽絨褸洗完唔好擰，平放喺晾衫架。"
+      ],
+      "roman": [
+        "Jyu jung lau sai jyun m hou ning, ping fong hai long saam gaa."
+      ]
+    },
+    {
+      "id": "yue-s025",
+      "kind": "sentence",
+      "native": [
+        "幫我喺 YouTube 搵條教人摺紙船嘅片，最好有埋慢動作示範。"
+      ],
+      "roman": [
+        "Bong ngo hai YouTube wan tiu gaau jan zip zi syun ge pin, zeoi hou jau maai maan dung zok si faan."
+      ]
+    },
+    {
+      "id": "yue-s026",
+      "kind": "sentence",
+      "native": [
+        "試下清咗個 cache，部電腦應該會順返啲喇。"
+      ],
+      "roman": [
+        "Si haa cing zo go cache, bou din nou jing goi wui seon faan di laa."
+      ]
+    },
+    {
+      "id": "yue-s027",
+      "kind": "sentence",
+      "native": [
+        "黃太想約喺九龍塘交收嗰本二手字典。"
+      ],
+      "roman": [
+        "Wong Taai soeng joek hai Gau Lung Tong gaau sau go bun ji sau zi din."
+      ]
+    },
+    {
+      "id": "yue-s028",
+      "kind": "sentence",
+      "native": [
+        "細妹結婚嗰日由你幫手睇住啲細路，影全家福之前唔好畀佢哋周圍走。"
+      ],
+      "roman": [
+        "Sai mui git fan go jat jau nei bong sau tai zyu di sai lou, jing cyun gaa fuk zi cin m hou bei keoi dei zau wai zau."
+      ]
+    },
+    {
+      "id": "yue-s029",
+      "kind": "sentence",
+      "native": [
+        "等陣，粉紅色嗰支先啱。"
+      ],
+      "roman": [
+        "Dang zan, fan hung sik go zi sin ngaam."
+      ]
+    },
+    {
+      "id": "yue-s030",
+      "kind": "sentence",
+      "native": [
+        "以前成日覺得學游水好難，而家終於敢落水，先知自己都做得到。"
+      ],
+      "roman": [
+        "Ji cin seng jat gok dak hok jau seoi hou naan, ji gaa zung jyu gam lok seoi, sin zi zi gei dou zou dak dou."
+      ]
+    },
+    {
+      "id": "yue-s031",
+      "kind": "sentence",
+      "native": [
+        "件衫唔啱就換過件啦。"
+      ],
+      "roman": [
+        "Gin saam m ngaam zau wun gwo gin laa."
+      ]
+    },
+    {
+      "id": "yue-s032",
+      "kind": "sentence",
+      "native": [
+        "暫時唔使催客，佢話要同拍檔商量下。"
+      ],
+      "roman": [
+        "Zaam si m sai ceoi haak, keoi waa jiu tung paak dong soeng loeng haa."
+      ]
+    },
+    {
+      "id": "yue-s033",
+      "kind": "sentence",
+      "native": [
+        "比數暫時係2比1。"
+      ],
+      "roman": [
+        "Bei sou zaam si hai 2 bei 1."
+      ]
+    },
+    {
+      "id": "yue-s034",
+      "kind": "sentence",
+      "native": [
+        "大埔個陶藝班開課嗰日，要帶埋圍裙。"
+      ],
+      "roman": [
+        "Daai Bou go tou ngai baan hoi fo go jat, jiu daai maai wai kwan."
+      ]
+    },
+    {
+      "id": "yue-s035",
+      "kind": "sentence",
+      "native": [
+        "朝早7點20分叫醒我，鈴聲用海浪聲，唔好一開始就咁大聲。"
+      ],
+      "roman": [
+        "Ziu zou 7 dim 20 fan giu seng ngo, ling seng jung hoi long seng, m hou jat hoi ci zau gam daai seng."
+      ]
+    },
+    {
+      "id": "yue-s036",
+      "kind": "sentence",
+      "native": [
+        "公司個網今日慢到連一封 email 都收唔到。"
+      ],
+      "roman": [
+        "Gung si go mong gam jat maan dou lin jat fung email dou sau m dou."
+      ]
+    },
+    {
+      "id": "yue-s037",
+      "kind": "sentence",
+      "native": [
+        "月台尾嗰幾卡冇咁逼，你行入啲先上車啦。"
+      ],
+      "roman": [
+        "Jyut toi mei go gei kaa mou gam bik, nei haang jap di sin soeng ce laa."
+      ]
+    },
+    {
+      "id": "yue-s038",
+      "kind": "sentence",
+      "native": [
+        "煲底啲飯焦好香呀。"
+      ],
+      "roman": [
+        "Bou dai di faan ziu hou hoeng aa."
+      ]
+    },
+    {
+      "id": "yue-s039",
+      "kind": "sentence",
+      "native": [
+        "橙汁定蘋果汁好呀？"
+      ],
+      "roman": [
+        "Caang zap ding ping gwo zap hou aa?"
+      ]
+    },
+    {
+      "id": "yue-s040",
+      "kind": "sentence",
+      "native": [
+        "淑芬，你整嘅馬蹄糕爽得嚟又唔會太甜。"
+      ],
+      "roman": [
+        "Suk Fan, nei zing ge maa tai gou song dak lai jau m wui taai tim."
+      ]
+    },
+    {
+      "id": "yue-s041",
+      "kind": "sentence",
+      "native": [
+        "阿爸，你副老花眼鏡擺咗喺電視隔籬呀。"
+      ],
+      "roman": [
+        "Aa baa, nei fu lou faa ngaan geng baai zo hai din si gaak lei aa."
+      ]
+    },
+    {
+      "id": "yue-s042",
+      "kind": "sentence",
+      "native": [
+        "明白，等你覆實先。"
+      ],
+      "roman": [
+        "Ming baak, dang nei fuk sat sin."
+      ]
+    },
+    {
+      "id": "yue-s043",
+      "kind": "sentence",
+      "native": [
+        "張卡仲影到32張相。"
+      ],
+      "roman": [
+        "Zoeng kaa zung jing dou 32 zoeng soeng."
+      ]
+    },
+    {
+      "id": "yue-s044",
+      "kind": "sentence",
+      "native": [
+        "下個月寬頻開始加價，付款之前要對清楚張單有冇收多咗錢。"
+      ],
+      "roman": [
+        "Haa go jyut fun pan hoi ci gaa gaa, fu fun zi cin jiu deoi cing co zoeng daan jau mou sau do zo cin."
+      ]
+    },
+    {
+      "id": "yue-s045",
+      "kind": "sentence",
+      "native": [
+        "最新嗰封速遞 email 讀畀我聽，淨係要送貨日期同時間，其他內容唔使讀。"
+      ],
+      "roman": [
+        "Zeoi san go fung cuk dai email duk bei ngo teng, zing hai jiu sung fo jat kei tung si gaan, kei taa noi jung m sai duk."
+      ]
+    },
+    {
+      "id": "yue-s046",
+      "kind": "sentence",
+      "native": [
+        "你頭先傳畀我嗰條 link 撳唔到喎。"
+      ],
+      "roman": [
+        "Nei tau sin cyun bei ngo go tiu link gam m dou wo."
+      ]
+    },
+    {
+      "id": "yue-s047",
+      "kind": "sentence",
+      "native": [
+        "隔籬就係找換店。"
+      ],
+      "roman": [
+        "Gaak lei zau hai zaau wun dim."
+      ]
+    },
+    {
+      "id": "yue-s048",
+      "kind": "sentence",
+      "native": [
+        "啲衫畀風吹咗落地。"
+      ],
+      "roman": [
+        "Di saam bei fung ceoi zo lok dei."
+      ]
+    },
+    {
+      "id": "yue-s049",
+      "kind": "sentence",
+      "native": [
+        "八達通有冇錢，定係要增值先入得閘？"
+      ],
+      "roman": [
+        "Baat Daat Tung jau mou cin, ding hai jiu zang zik sin jap dak zaap?"
+      ]
+    },
+    {
+      "id": "yue-s050",
+      "kind": "sentence",
+      "native": [
+        "有時唔一定要有人幫手解決問題，肯坐低聽我講幾句，已經覺得好安慰。"
+      ],
+      "roman": [
+        "Jau si m jat ding jiu jau jan bong sau gaai kyut man tai, hang co dai teng ngo gong gei geoi, ji ging gok dak hou on wai."
+      ]
+    },
+    {
+      "id": "yue-s051",
+      "kind": "sentence",
+      "native": [
+        "柏熙，條頸巾織到一半先發現漏咗針呀。"
+      ],
+      "roman": [
+        "Paak Hei, tiu geng gan zik dou jat bun sin faat jin lau zo zam aa."
+      ]
+    },
+    {
+      "id": "yue-s052",
+      "kind": "sentence",
+      "native": [
+        "Excel 入面有幾格數唔啱，幫我手對一對呀。"
+      ],
+      "roman": [
+        "Excel jap min jau gei gaak sou m ngaam, bong ngo sau deoi jat deoi aa."
+      ]
+    },
+    {
+      "id": "yue-s053",
+      "kind": "sentence",
+      "native": [
+        "棋會星期2比賽，每人限時50分鐘。"
+      ],
+      "roman": [
+        "Kei wui sing kei 2 bei coi, mui jan haan si 50 fan zung."
+      ]
+    },
+    {
+      "id": "yue-s054",
+      "kind": "sentence",
+      "native": [
+        "幫我加盒蝦餃落個 list，放假嗰陣蒸嚟做早餐。"
+      ],
+      "roman": [
+        "Bong ngo gaa hap haa gaau lok go list, fong gaa go zan zing lai zou zou caan."
+      ]
+    },
+    {
+      "id": "yue-s055",
+      "kind": "sentence",
+      "native": [
+        "播返我最常聽嗰首歌。"
+      ],
+      "roman": [
+        "Bo faan ngo zeoi soeng teng go sau go."
+      ]
+    },
+    {
+      "id": "yue-s056",
+      "kind": "sentence",
+      "native": [
+        "雅雯，你個戶口仲未開通喎。"
+      ],
+      "roman": [
+        "Ngaa Man, nei go wu hau zung mei hoi tung wo."
+      ]
+    },
+    {
+      "id": "yue-s057",
+      "kind": "sentence",
+      "native": [
+        "前面有條路落沙灘。"
+      ],
+      "roman": [
+        "Cin min jau tiu lou lok saa taan."
+      ]
+    },
+    {
+      "id": "yue-s058",
+      "kind": "sentence",
+      "native": [
+        "梁太，條褲改短少少要加幾多錢呀？"
+      ],
+      "roman": [
+        "Loeng Taai, tiu fu goi dyun siu siu jiu gaa gei do cin aa?"
+      ]
+    },
+    {
+      "id": "yue-s059",
+      "kind": "sentence",
+      "native": [
+        "煮意粉要番茄、洋蔥同蘑菇，蒜頭就唔使買，屋企仲有幾粒未用。"
+      ],
+      "roman": [
+        "Zyu ji fan jiu faan ke, joeng cung tung mo gu, syun tau zau m sai maai, uk kei zung jau gei nap mei jung."
+      ]
+    },
+    {
+      "id": "yue-s060",
+      "kind": "sentence",
+      "native": [
+        "天后嗰邊租金咁貴，細舖真係唔易做。"
+      ],
+      "roman": [
+        "Tin Hau go bin zou gam gam gwai, sai pou zan hai m ji zou."
+      ]
+    },
+    {
+      "id": "yue-s061",
+      "kind": "sentence",
+      "native": [
+        "經過深水埗，使唔使幫你買格仔餅呀？"
+      ],
+      "roman": [
+        "Ging gwo Sam Seoi Bou, sai m sai bong nei maai gaak zai beng aa?"
+      ]
+    },
+    {
+      "id": "yue-s062",
+      "kind": "sentence",
+      "native": [
+        "詠欣，新同事張職員證整好未呀？"
+      ],
+      "roman": [
+        "Wing Jan, san tung si zoeng zik jyun zing zing hou mei aa?"
+      ]
+    },
+    {
+      "id": "yue-s063",
+      "kind": "sentence",
+      "native": [
+        "隻兔每日食2餐，每餐30克糧就夠。"
+      ],
+      "roman": [
+        "Zek tou mui jat sik 2 caan, mui caan 30 hak loeng zau gau."
+      ]
+    },
+    {
+      "id": "yue-s064",
+      "kind": "sentence",
+      "native": [
+        "荔枝角個羽毛球場要提早上網 book。"
+      ],
+      "roman": [
+        "Lai Zi Gok go jyu mou kau coeng jiu tai zou soeng mong book."
+      ]
+    },
+    {
+      "id": "yue-s065",
+      "kind": "sentence",
+      "native": [
+        "熄咗個電筒先啦。"
+      ],
+      "roman": [
+        "Sik zo go din tung sin laa."
+      ]
+    },
+    {
+      "id": "yue-s066",
+      "kind": "sentence",
+      "native": [
+        "阿瑜話用 Teams 同同事分組討論幾方便喎。"
+      ],
+      "roman": [
+        "Aa Jyu waa jung Teams tung tung si fan zou tou leon gei fong bin wo."
+      ]
+    },
+    {
+      "id": "yue-s067",
+      "kind": "sentence",
+      "native": [
+        "司機話前面塞車，要兜路先出到大街。"
+      ],
+      "roman": [
+        "Si gei waa cin min sak ce, jiu dau lou sin ceot dou daai gaai."
+      ]
+    },
+    {
+      "id": "yue-s068",
+      "kind": "sentence",
+      "native": [
+        "花園街嗰檔遮有冇細把啲嘅款呀？"
+      ],
+      "roman": [
+        "Faa Jyun Gaai go dong ze jau mou sai baa di ge fun aa?"
+      ]
+    },
+    {
+      "id": "yue-s069",
+      "kind": "sentence",
+      "native": [
+        "鎖匙呢，喺你嗰邊呀？"
+      ],
+      "roman": [
+        "So si ne, hai nei go bin aa?"
+      ]
+    },
+    {
+      "id": "yue-s070",
+      "kind": "sentence",
+      "native": [
+        "剪短咗舒服好多。"
+      ],
+      "roman": [
+        "Zin dyun zo syu fuk hou do."
+      ]
+    },
+    {
+      "id": "yue-s071",
+      "kind": "sentence",
+      "native": [
+        "隻貓又霸住張凳喇。"
+      ],
+      "roman": [
+        "Zek maau jau baa zyu zoeng dang laa."
+      ]
+    },
+    {
+      "id": "yue-s072",
+      "kind": "sentence",
+      "native": [
+        "預算照舊係港幣600蚊，你睇下夠唔夠。"
+      ],
+      "roman": [
+        "Jyu syun ziu gau hai gong bai 600 man, nei tai haa gau m gau."
+      ]
+    },
+    {
+      "id": "yue-s073",
+      "kind": "sentence",
+      "native": [
+        "我哋星期4下晝3點45分會開 Zoom 會議。"
+      ],
+      "roman": [
+        "Ngo dei sing kei 4 haa zau 3 dim 45 fan wui hoi Zoom wui ji."
+      ]
+    },
+    {
+      "id": "yue-s074",
+      "kind": "sentence",
+      "native": [
+        "禮拜1要去郵局寄掛號信，提早出門口。"
+      ],
+      "roman": [
+        "Lai baai 1 jiu heoi jau guk gei gwaa hou seon, tai zou ceot mun hau."
+      ]
+    },
+    {
+      "id": "yue-s075",
+      "kind": "sentence",
+      "native": [
+        "開勿擾模式先啦。"
+      ],
+      "roman": [
+        "Hoi mat jiu mou sik sin laa."
+      ]
+    },
+    {
+      "id": "yue-s076",
+      "kind": "sentence",
+      "native": [
+        "發現有 bug 就影低，唔好淨係口講。"
+      ],
+      "roman": [
+        "Faat jin jau bug zau jing dai, m hou zing hai hau gong."
+      ]
+    },
+    {
+      "id": "yue-s077",
+      "kind": "sentence",
+      "native": [
+        "落車之後沿住海旁行，見到斜路就上去。"
+      ],
+      "roman": [
+        "Lok ce zi hau jyun zyu hoi pong haang, gin dou ce lou zau soeng heoi."
+      ]
+    },
+    {
+      "id": "yue-s078",
+      "kind": "sentence",
+      "native": [
+        "剪髮嗰個預約可唔可以改早半個鐘呀？"
+      ],
+      "roman": [
+        "Zin faat go go jyu joek ho m ho ji goi zou bun go zung aa?"
+      ]
+    },
+    {
+      "id": "yue-s079",
+      "kind": "sentence",
+      "native": [
+        "送去公司啦，等陣先，都係揀自提櫃方便啲。"
+      ],
+      "roman": [
+        "Sung heoi gung si laa, dang zan sin, dou hai gaan zi tai gwai fong bin di."
+      ]
+    },
+    {
+      "id": "yue-s080",
+      "kind": "sentence",
+      "native": [
+        "雖然幅刺繡仲有啲歪歪斜斜，但係每晚坐低繡幾針，個心都定返啲。"
+      ],
+      "roman": [
+        "Seoi jin fuk ci sau zung jau di waai waai ce ce, daan hai mui maan co dai sau gei zam, go sam dou ding faan di."
+      ]
+    },
+    {
+      "id": "yue-s081",
+      "kind": "sentence",
+      "native": [
+        "遲啲先傾，我沖緊涼。"
+      ],
+      "roman": [
+        "Ci di sin king, ngo cung gan loeng."
+      ]
+    },
+    {
+      "id": "yue-s082",
+      "kind": "sentence",
+      "native": [
+        "銅鑼灣個展位唔夠光，叫佈置嗰邊加盞燈啦。"
+      ],
+      "roman": [
+        "Tung Lo Waan go zin wai m gau gwong, giu bou zi go bin gaa zaan dang laa."
+      ]
+    },
+    {
+      "id": "yue-s083",
+      "kind": "sentence",
+      "native": [
+        "480蚊嗰筆退款，等咗9日都未收到。"
+      ],
+      "roman": [
+        "480 man go bat teoi fun, dang zo 9 jat dou mei sau dou."
+      ]
+    },
+    {
+      "id": "yue-s084",
+      "kind": "sentence",
+      "native": [
+        "出門口要帶遮呀。"
+      ],
+      "roman": [
+        "Ceot mun hau jiu daai ze aa."
+      ]
+    },
+    {
+      "id": "yue-s085",
+      "kind": "sentence",
+      "native": [
+        "想搵間喺筲箕灣嘅茶餐廳，最好有卡位，夜晚10點都仲開緊。"
+      ],
+      "roman": [
+        "Soeng wan gaan hai Saau Gei Waan ge caa caan teng, zeoi hou jau kaa wai, je maan 10 dim dou zung hoi gan."
+      ]
+    },
+    {
+      "id": "yue-s086",
+      "kind": "sentence",
+      "native": [
+        "支咪收唔到聲呀。"
+      ],
+      "roman": [
+        "Zi mai sau m dou seng aa."
+      ]
+    },
+    {
+      "id": "yue-s087",
+      "kind": "sentence",
+      "native": [
+        "芷珊已經喺南昌站轉咗車，應該趕得切陪你去傢俬舖揀窗簾。"
+      ],
+      "roman": [
+        "Zi Saan ji ging hai Naam Coeng zaam zyun zo ce, jing goi gon dak cit pui nei heoi gaa si pou gaan coeng lim."
+      ]
+    },
+    {
+      "id": "yue-s088",
+      "kind": "sentence",
+      "native": [
+        "兆基，你個女幅水彩畫貼咗喺禮堂呀。"
+      ],
+      "roman": [
+        "Ziu Gei, nei go neoi fuk seoi coi waa tip zo hai lai tong aa."
+      ]
+    },
+    {
+      "id": "yue-s089",
+      "kind": "sentence",
+      "native": [
+        "把刀呢，得隻叉點切呀？"
+      ],
+      "roman": [
+        "Baa dou ne, dak zek caa dim cit aa?"
+      ]
+    },
+    {
+      "id": "yue-s090",
+      "kind": "sentence",
+      "native": [
+        "阿詩，你今次個配色夠大膽，睇落好搶眼。"
+      ],
+      "roman": [
+        "Aa Si, nei gam ci go pui sik gau daai daam, tai lok hou coeng ngaan."
+      ]
+    },
+    {
+      "id": "yue-s091",
+      "kind": "sentence",
+      "native": [
+        "星期6去西貢不如搭小巴啦，架車借咗畀細佬搬屋，冇得揸。"
+      ],
+      "roman": [
+        "Sing kei 6 heoi Sai Gung bat jyu daap siu baa laa, gaa ce ze zo bei sai lou bun uk, mou dak zaa."
+      ]
+    },
+    {
+      "id": "yue-s092",
+      "kind": "sentence",
+      "native": [
+        "辛苦晒，今次活動安排得好順，遲啲得閒我哋再約時間檢討下。"
+      ],
+      "roman": [
+        "San fu saai, gam ci wut dung on paai dak hou seon, ci di dak haan ngo dei zoi joek si gaan gim tou haa."
+      ]
+    },
+    {
+      "id": "yue-s093",
+      "kind": "sentence",
+      "native": [
+        "下晝2點先有房，可唔可以寄存2個喼，夜晚8點返嚟攞？"
+      ],
+      "roman": [
+        "Haa zau 2 dim sin jau fong, ho m ho ji gei cyun 2 go gip, je maan 8 dim faan lai lo?"
+      ]
+    },
+    {
+      "id": "yue-s094",
+      "kind": "sentence",
+      "native": [
+        "租車嗰筆按金下星期會退返，要查下數。"
+      ],
+      "roman": [
+        "Zou ce go bat on gam haa sing kei wui teoi faan, jiu caa haa sou."
+      ]
+    },
+    {
+      "id": "yue-s095",
+      "kind": "sentence",
+      "native": [
+        "用日文問酒店可唔可以借把雨遮，應該點講先夠客氣又自然呀？"
+      ],
+      "roman": [
+        "Jung Jat Man man zau dim ho m ho ji ze baa jyu ze, jing goi dim gong sin gau haak hei jau zi jin aa?"
+      ]
+    },
+    {
+      "id": "yue-s096",
+      "kind": "sentence",
+      "native": [
+        "凱文喺沙田間舖買咗個新鍵盤。"
+      ],
+      "roman": [
+        "Hoi Man hai Saa Tin gaan pou maai zo go san gin pun."
+      ]
+    },
+    {
+      "id": "yue-s097",
+      "kind": "sentence",
+      "native": [
+        "許叔，你到咗赤柱廣場就喺正門等住，我泊好車即刻行過嚟。"
+      ],
+      "roman": [
+        "Heoi Suk, nei dou zo Cek Cyu Gwong Coeng zau hai zing mun dang zyu, ngo paak hou ce zik hak haang gwo lai."
+      ]
+    },
+    {
+      "id": "yue-s098",
+      "kind": "sentence",
+      "native": [
+        "旅行嗰日唔使孭成個書包，帶水同午餐就夠，玩具全部留喺屋企啦。"
+      ],
+      "roman": [
+        "Leoi hang go jat m sai me seng go syu baau, daai seoi tung ng caan zau gau, wun geoi cyun bou lau hai uk kei laa."
+      ]
+    },
+    {
+      "id": "yue-s099",
+      "kind": "sentence",
+      "native": [
+        "子謙，禮拜6去科學館，唔係，太空館，你幫我睇下仲有冇飛呀？"
+      ],
+      "roman": [
+        "Zi Him, lai baai 6 heoi Fo Hok Gun, m hai, Taai Hung Gun, nei bong ngo tai haa zung jau mou fei aa?"
+      ]
+    },
+    {
+      "id": "yue-s100",
+      "kind": "sentence",
+      "native": [
+        "最怕人哋一路食嘢一路大聲講電話。"
+      ],
+      "roman": [
+        "Zeoi paa jan dei jat lou sik je jat lou daai seng gong din waa."
+      ]
+    },
+    {
+      "id": "yue-s101",
+      "kind": "sentence",
+      "native": [
+        "部手機就嚟冇電，你有事先搵家姐啦。"
+      ],
+      "roman": [
+        "Bou sau gei zau lai mou din, nei jau si sin wan gaa ze laa."
+      ]
+    },
+    {
+      "id": "yue-s102",
+      "kind": "sentence",
+      "native": [
+        "曉彤，份合約最後嗰頁仲欠客人簽名呀。"
+      ],
+      "roman": [
+        "Hiu Tung, fan hap joek zeoi hau go jip zung him haak jan cim meng aa."
+      ]
+    },
+    {
+      "id": "yue-s103",
+      "kind": "sentence",
+      "native": [
+        "段片上載咗73%，仲要等6分鐘。"
+      ],
+      "roman": [
+        "Dyun pin soeng zoi zo 73%, zung jiu dang 6 fan zung."
+      ]
+    },
+    {
+      "id": "yue-s104",
+      "kind": "sentence",
+      "native": [
+        "熄燈瞓覺之前，將部平板較做靜音，費事半夜有通知嘈醒自己。"
+      ],
+      "roman": [
+        "Sik dang fan gaau zi cin, zoeng bou ping baan gaau zou zing jam, fai si bun je jau tung zi cou seng zi gei."
+      ]
+    },
+    {
+      "id": "yue-s105",
+      "kind": "sentence",
+      "native": [
+        "可唔可以開返上個禮拜影嘅日落相畀我睇？"
+      ],
+      "roman": [
+        "Ho m ho ji hoi faan soeng go lai baai jing ge jat lok soeng bei ngo tai?"
+      ]
+    },
+    {
+      "id": "yue-s106",
+      "kind": "sentence",
+      "native": [
+        "轉咗新電話之後收唔到驗證碼，搞到成朝都入唔返個戶口。"
+      ],
+      "roman": [
+        "Zyun zo san din waa zi hau sau m dou jim zing maa, gaau dou seng ziu dou jap m faan go wu hau."
+      ]
+    },
+    {
+      "id": "yue-s107",
+      "kind": "sentence",
+      "native": [
+        "對面條隊先係上車㗎。"
+      ],
+      "roman": [
+        "Deoi min tiu deoi sin hai soeng ce gaa."
+      ]
+    },
+    {
+      "id": "yue-s108",
+      "kind": "sentence",
+      "native": [
+        "條拉鏈卡住咗呀。"
+      ],
+      "roman": [
+        "Tiu laai lin kaat zyu zo aa."
+      ]
+    },
+    {
+      "id": "yue-s109",
+      "kind": "sentence",
+      "native": [
+        "要凍嘅，唔係，要熱嘅。"
+      ],
+      "roman": [
+        "Jiu dung ge, m hai, jiu jit ge."
+      ]
+    },
+    {
+      "id": "yue-s110",
+      "kind": "sentence",
+      "native": [
+        "多謝晒，你真係有心。"
+      ],
+      "roman": [
+        "Do ze saai, nei zan hai jau sam."
+      ]
+    },
+    {
+      "id": "yue-s111",
+      "kind": "sentence",
+      "native": [
+        "有你陪住就冇咁悶。"
+      ],
+      "roman": [
+        "Jau nei pui zyu zau mou gam mun."
+      ]
+    },
+    {
+      "id": "yue-s112",
+      "kind": "sentence",
+      "native": [
+        "郭小姐，多謝你體諒我哋今次嘅難處。"
+      ],
+      "roman": [
+        "Gwok Siu Ze, do ze nei tai loeng ngo dei gam ci ge naan cyu."
+      ]
+    },
+    {
+      "id": "yue-s113",
+      "kind": "sentence",
+      "native": [
+        "借2支鉛筆得唔得？"
+      ],
+      "roman": [
+        "Ze 2 zi jyun bat dak m dak?"
+      ]
+    },
+    {
+      "id": "yue-s114",
+      "kind": "sentence",
+      "native": [
+        "得閒釘返粒鈕。"
+      ],
+      "roman": [
+        "Dak haan deng faan lap nau."
+      ]
+    },
+    {
+      "id": "yue-s115",
+      "kind": "sentence",
+      "native": [
+        "查下屯門聽朝幾多度，會唔會落雨。"
+      ],
+      "roman": [
+        "Caa haa Tun Mun ting ziu gei do dou, wui m wui lok jyu."
+      ]
+    },
+    {
+      "id": "yue-s116",
+      "kind": "sentence",
+      "native": [
+        "原來撳住空白鍵就可以郁個游標。"
+      ],
+      "roman": [
+        "Jyun loi gam zyu hung baak gin zau ho ji juk go jau biu."
+      ]
+    },
+    {
+      "id": "yue-s117",
+      "kind": "sentence",
+      "native": [
+        "班車仲有空位喎。"
+      ],
+      "roman": [
+        "Baan ce zung jau hung wai wo."
+      ]
+    },
+    {
+      "id": "yue-s118",
+      "kind": "sentence",
+      "native": [
+        "姨媽話今年團年飯改喺屋企食，表弟會負責甜品，你淨係帶個人嚟就得。"
+      ],
+      "roman": [
+        "Ji maa waa gam nin tyun nin faan goi hai uk kei sik, biu dai wui fu zaak tim ban, nei zing hai daai go jan lai zau dak."
+      ]
+    },
+    {
+      "id": "yue-s119",
+      "kind": "sentence",
+      "native": [
+        "就揀棉布嗰件啦，等陣，麻布好似透氣啲喎。"
+      ],
+      "roman": [
+        "Zau gaan min bou go gin laa, dang zan, maa bou hou ci tau hei di wo."
+      ]
+    },
+    {
+      "id": "yue-s120",
+      "kind": "sentence",
+      "native": [
+        "敏儀，頭先誤會咗你，真係唔好意思。"
+      ],
+      "roman": [
+        "Man Ji, tau sin ng wui zo nei, zan hai m hou ji si."
+      ]
+    },
+    {
+      "id": "yue-s121",
+      "kind": "sentence",
+      "native": [
+        "笑到我啲眼淚都出埋。"
+      ],
+      "roman": [
+        "Siu dou ngo di ngaan leoi dou ceot maai."
+      ]
+    },
+    {
+      "id": "yue-s122",
+      "kind": "sentence",
+      "native": [
+        "陳生，唔該借個投影機畀我用一陣呀。"
+      ],
+      "roman": [
+        "Can saang, m goi ze go tau jing gei bei ngo jung jat zan aa."
+      ]
+    },
+    {
+      "id": "yue-s123",
+      "kind": "sentence",
+      "native": [
+        "每個月儲1500蚊，半年就有9000蚊。"
+      ],
+      "roman": [
+        "Mui go jyut cyu 1500 man, bun nin zau jau 9000 man."
+      ]
+    },
+    {
+      "id": "yue-s124",
+      "kind": "sentence",
+      "native": [
+        "逢星期3夜晚預半個鐘練電子琴。"
+      ],
+      "roman": [
+        "Fung sing kei 3 je maan jyu bun go zung lin din zi kam."
+      ]
+    },
+    {
+      "id": "yue-s125",
+      "kind": "sentence",
+      "native": [
+        "幫我駁返屋企個 Wi-Fi，唔好用流動數據。"
+      ],
+      "roman": [
+        "Bong ngo bok faan uk kei go Wi-Fi, m hou jung lau dung sou geoi."
+      ]
+    },
+    {
+      "id": "yue-s126",
+      "kind": "sentence",
+      "native": [
+        "阿嫻個工作室搬咗去長沙灣，部打印機到而家都仲未連得返。"
+      ],
+      "roman": [
+        "Aa Haan go gung zok sat bun zo heoi Coeng Saa Waan, bou daa jan gei dou ji gaa dou zung mei lin dak faan."
+      ]
+    },
+    {
+      "id": "yue-s127",
+      "kind": "sentence",
+      "native": [
+        "行到斑馬線先過馬路，唔好貪近呀。"
+      ],
+      "roman": [
+        "Haang dou baan maa sin sin gwo maa lou, m hou taam gan aa."
+      ]
+    },
+    {
+      "id": "yue-s128",
+      "kind": "sentence",
+      "native": [
+        "包裹放喺管理處，落樓嗰陣順便簽收啦。"
+      ],
+      "roman": [
+        "Baau gwo fong hai gun lei cyu, lok lau go zan seon bin cim sau laa."
+      ]
+    },
+    {
+      "id": "yue-s129",
+      "kind": "sentence",
+      "native": [
+        "淑儀，廚房嗰支豉油係生抽定老抽嚟㗎？"
+      ],
+      "roman": [
+        "Suk Ji, cyu fong go zi si jau hai saang cau ding lou cau lai gaa?"
+      ]
+    },
+    {
+      "id": "yue-s130",
+      "kind": "sentence",
+      "native": [
+        "嘩，條頸巾好襯你呀。"
+      ],
+      "roman": [
+        "Waa, tiu geng gan hou can nei aa."
+      ]
+    },
+    {
+      "id": "yue-s131",
+      "kind": "sentence",
+      "native": [
+        "叔叔，星期日去南生圍踩單車，你嗰頂頭盔可唔可以借畀我用呀？"
+      ],
+      "roman": [
+        "Suk suk, sing kei jat heoi Naam Sang Wai caai daan ce, nei go ding tau kwai ho m ho ji ze bei ngo jung aa?"
+      ]
+    },
+    {
+      "id": "yue-s132",
+      "kind": "sentence",
+      "native": [
+        "灣仔個講座撞咗期，可能要搵人代我去。"
+      ],
+      "roman": [
+        "Waan Zai go gong zo zong zo kei, ho nang jiu wan jan doi ngo heoi."
+      ]
+    },
+    {
+      "id": "yue-s133",
+      "kind": "sentence",
+      "native": [
+        "新買嗰個書架闊80厘米，高180厘米。"
+      ],
+      "roman": [
+        "San maai go go syu gaa fut 80 lei mai, gou 180 lei mai."
+      ]
+    },
+    {
+      "id": "yue-s134",
+      "kind": "sentence",
+      "native": [
+        "上堂嗰陣問老師，份習作使唔使畫圖。"
+      ],
+      "roman": [
+        "Soeng tong go zan man lou si, fan zaap zok sai m sai waak tou."
+      ]
+    },
+    {
+      "id": "yue-s135",
+      "kind": "sentence",
+      "native": [
+        "愉景灣返中環嘅尾班船幾點開呀？"
+      ],
+      "roman": [
+        "Jyu Ging Waan faan Zung Waan ge mei baan syun gei dim hoi aa?"
+      ]
+    },
+    {
+      "id": "yue-s136",
+      "kind": "sentence",
+      "native": [
+        "連住藍牙耳筒嗰陣會窒聲，掹走個 USB 接收器反而冇事喎。"
+      ],
+      "roman": [
+        "Lin zyu laam ngaa ji tung go zan wui zat seng, mang zau go USB zip sau hei faan ji mou si wo."
+      ]
+    },
+    {
+      "id": "yue-s137",
+      "kind": "sentence",
+      "native": [
+        "架車唔停呢個站。"
+      ],
+      "roman": [
+        "Gaa ce m ting ni go zaam."
+      ]
+    },
+    {
+      "id": "yue-s138",
+      "kind": "sentence",
+      "native": [
+        "粟米蒸熟咗未呀？"
+      ],
+      "roman": [
+        "Suk mai zing suk zo mei aa?"
+      ]
+    },
+    {
+      "id": "yue-s139",
+      "kind": "sentence",
+      "native": [
+        "順手買袋米、洗潔精同海綿，仲有垃圾袋呀。"
+      ],
+      "roman": [
+        "Seon sau maai doi mai, sai git zing tung hoi min, zung jau laap saap doi aa."
+      ]
+    },
+    {
+      "id": "yue-s140",
+      "kind": "sentence",
+      "native": [
+        "慢慢嚟，唔使咁心急。"
+      ],
+      "roman": [
+        "Maan maan lai, m sai gam sam gap."
+      ]
+    },
+    {
+      "id": "yue-s141",
+      "kind": "sentence",
+      "native": [
+        "詠彤，週末陪我去九龍城食泰國菜好冇？"
+      ],
+      "roman": [
+        "Wing Tung, zau mut pui ngo heoi Gau Lung Sing sik Taai Gwok coi hou mou?"
+      ]
+    },
+    {
+      "id": "yue-s142",
+      "kind": "sentence",
+      "native": [
+        "美玲，客人想提早攞貨，你同貨倉夾好時間之後話我知得唔得？"
+      ],
+      "roman": [
+        "Mei Ling, haak jan soeng tai zou lo fo, nei tung fo cong gaap hou si gaan zi hau waa ngo zi dak m dak?"
+      ]
+    },
+    {
+      "id": "yue-s143",
+      "kind": "sentence",
+      "native": [
+        "鰂魚涌嗰場戲長112分鐘，夜晚11點散場。"
+      ],
+      "roman": [
+        "Zak Jyu Cung go coeng hei coeng 112 fan zung, je maan 11 dim saan coeng."
+      ]
+    },
+    {
+      "id": "yue-s144",
+      "kind": "sentence",
+      "native": [
+        "拖地之前要吸塵。"
+      ],
+      "roman": [
+        "To dei zi cin jiu kap can."
+      ]
+    },
+    {
+      "id": "yue-s145",
+      "kind": "sentence",
+      "native": [
+        "打畀通訊錄入面嘅梓晴。"
+      ],
+      "roman": [
+        "Daa bei tung seon luk jap min ge Zi Cing."
+      ]
+    },
+    {
+      "id": "yue-s146",
+      "kind": "sentence",
+      "native": [
+        "密碼唔好周圍傳呀。"
+      ],
+      "roman": [
+        "Mat maa m hou zau wai cyun aa."
+      ]
+    },
+    {
+      "id": "yue-s147",
+      "kind": "sentence",
+      "native": [
+        "心領喇，我想自己搭火車返去，你都忙咗成日，早啲返去休息啦。"
+      ],
+      "roman": [
+        "Sam ling laa, ngo soeng zi gei daap fo ce faan heoi, nei dou mong zo seng jat, zou di faan heoi jau sik laa."
+      ]
+    },
+    {
+      "id": "yue-s148",
+      "kind": "sentence",
+      "native": [
+        "食剩啲蘿蔔糕放入雪櫃，聽朝煎返熱。"
+      ],
+      "roman": [
+        "Sik zing di lo baak gou fong jap syut gwai, ting ziu zin faan jit."
+      ]
+    },
+    {
+      "id": "yue-s149",
+      "kind": "sentence",
+      "native": [
+        "膠紙、間尺，仲欠咩呀？"
+      ],
+      "roman": [
+        "Gaau zi, gaan cek, zung him me aa?"
+      ]
+    },
+    {
+      "id": "yue-s150",
+      "kind": "sentence",
+      "native": [
+        "下次唱 K 揀間近啲嘅，唱完返去方便啲。"
+      ],
+      "roman": [
+        "Haa ci coeng K gaan gaan gan di ge, coeng jyun faan heoi fong bin di."
+      ]
+    },
+    {
+      "id": "yue-s151",
+      "kind": "sentence",
+      "native": [
+        "麻煩你批埋張假紙。"
+      ],
+      "roman": [
+        "Maa faan nei pai maai zoeng gaa zi."
+      ]
+    },
+    {
+      "id": "yue-s152",
+      "kind": "sentence",
+      "native": [
+        "今期雜誌第46頁有張8折優惠券。"
+      ],
+      "roman": [
+        "Gam kei zaap zi dai 46 jip jau zoeng 8 zit jau wai hyun."
+      ]
+    },
+    {
+      "id": "yue-s153",
+      "kind": "sentence",
+      "native": [
+        "佩珊生日之前要訂個細嘅芒果蛋糕。"
+      ],
+      "roman": [
+        "Pui Saan saang jat zi cin jiu deng go sai ge mong gwo daan gou."
+      ]
+    },
+    {
+      "id": "yue-s154",
+      "kind": "sentence",
+      "native": [
+        "幫我導航去最近海港城嗰個停車場。"
+      ],
+      "roman": [
+        "Bong ngo dou hong heoi zeoi gan Hoi Gong Sing go go ting ce coeng."
+      ]
+    },
+    {
+      "id": "yue-s155",
+      "kind": "sentence",
+      "native": [
+        "個鏡頭起晒霧喎。"
+      ],
+      "roman": [
+        "Go geng tau hei saai mou wo."
+      ]
+    },
+    {
+      "id": "yue-s156",
+      "kind": "sentence",
+      "native": [
+        "過咗天橋就轉右。"
+      ],
+      "roman": [
+        "Gwo zo tin kiu zau zyun jau."
+      ]
+    },
+    {
+      "id": "yue-s157",
+      "kind": "sentence",
+      "native": [
+        "水龍頭閂實都仲滴水，要換個膠圈喇。"
+      ],
+      "roman": [
+        "Seoi lung tau saan sat dou zung dik seoi, jiu wun go gaau hyun laa."
+      ]
+    },
+    {
+      "id": "yue-s158",
+      "kind": "sentence",
+      "native": [
+        "油麻地嗰間，唔係，石硤尾嗰間先有布賣。"
+      ],
+      "roman": [
+        "Jau Maa Dei go gaan, m hai, Sek Gip Mei go gaan sin jau bou maai."
+      ]
+    },
+    {
+      "id": "yue-s159",
+      "kind": "sentence",
+      "native": [
+        "今晚睇波帶包薯片嚟，我會整雞翼。"
+      ],
+      "roman": [
+        "Gam maan tai bo daai baau syu pin lai, ngo wui zing gai jik."
+      ]
+    },
+    {
+      "id": "yue-s160",
+      "kind": "sentence",
+      "native": [
+        "人事部想約你下晝2點傾續約，得唔得呀？"
+      ],
+      "roman": [
+        "Jan si bou soeng joek nei haa zau 2 dim king zuk joek, dak m dak aa?"
+      ]
+    },
+    {
+      "id": "yue-s161",
+      "kind": "sentence",
+      "native": [
+        "揀第7行靠邊嗰兩個位，出入方便啲。"
+      ],
+      "roman": [
+        "Gaan dai 7 hong kaau bin go loeng go wai, ceot jap fong bin di."
+      ]
+    },
+    {
+      "id": "yue-s162",
+      "kind": "sentence",
+      "native": [
+        "北角間鞋舖整好對鞋就提我去拎。"
+      ],
+      "roman": [
+        "Bak Gok gaan haai pou zing hou deoi haai zau tai ngo heoi ling."
+      ]
+    },
+    {
+      "id": "yue-s163",
+      "kind": "sentence",
+      "native": [
+        "邊款無線滑鼠適合左手用，撳落唔會好嘈，又唔使成日換電芯？"
+      ],
+      "roman": [
+        "Bin fun mou sin waat syu sik hap zo sau jung, gam lok m wui hou cou, jau m sai seng jat wun din sam?"
+      ]
+    },
+    {
+      "id": "yue-s164",
+      "kind": "sentence",
+      "native": [
+        "個 mon 啲字太細，睇到對眼好攰。"
+      ],
+      "roman": [
+        "Go mon di zi taai sai, tai dou deoi ngaan hou gui."
+      ]
+    },
+    {
+      "id": "yue-s165",
+      "kind": "sentence",
+      "native": [
+        "欣妍話佐敦間花舖有鬱金香賣喎。"
+      ],
+      "roman": [
+        "Jan Jin waa Zo Deon gaan faa pou jau wat gam hoeng maai wo."
+      ]
+    },
+    {
+      "id": "yue-s166",
+      "kind": "sentence",
+      "native": [
+        "端午節去長洲睇龍舟，細路話想戴頂新草帽，唔肯用舊嗰頂。"
+      ],
+      "roman": [
+        "Dyun ng zit heoi Coeng Zau tai lung zau, sai lou waa soeng daai ding san cou mou, m hang jung gau go ding."
+      ]
+    },
+    {
+      "id": "yue-s167",
+      "kind": "sentence",
+      "native": [
+        "麥老師，閱讀報告要寫感想、故事大綱，仲使唔使介紹作者呀？"
+      ],
+      "roman": [
+        "Mak lou si, jyut duk bou gou jiu se gam soeng, gu si daai gong, zung sai m sai gaai siu zok ze aa?"
+      ]
+    },
+    {
+      "id": "yue-s168",
+      "kind": "sentence",
+      "native": [
+        "嘉欣，你上次借我嗰個喼仲喺床底，過嚟之前話聲我知，我搵定出嚟。"
+      ],
+      "roman": [
+        "Gaa Jan, nei soeng ci ze ngo go go gip zung hai cong dai, gwo lai zi cin waa seng ngo zi, ngo wan ding ceot lai."
+      ]
+    },
+    {
+      "id": "yue-s169",
+      "kind": "sentence",
+      "native": [
+        "早晨，附件齊晒喇。"
+      ],
+      "roman": [
+        "Zou san, fu gin cai saai laa."
+      ]
+    },
+    {
+      "id": "yue-s170",
+      "kind": "sentence",
+      "native": [
+        "升降機由朝早7點到下晝1點要維修，住12樓嘅記得預早落樓。"
+      ],
+      "roman": [
+        "Sing gong gei jau ziu zou 7 dim dou haa zau 1 dim jiu wai sau, zyu 12 lau ge gei dak jyu zou lok lau."
+      ]
+    },
+    {
+      "id": "yue-s171",
+      "kind": "sentence",
+      "native": [
+        "去梅窩露營之前，check 清楚船期，再同家豪夾定邊個帶帳篷。"
+      ],
+      "roman": [
+        "Heoi Mui Wo lou jing zi cin, check cing co syun kei, zoi tung Gaa Hou gaap ding bin go daai zoeng pung."
+      ]
+    },
+    {
+      "id": "yue-s172",
+      "kind": "sentence",
+      "native": [
+        "開個錄音機畀我呀。"
+      ],
+      "roman": [
+        "Hoi go luk jam gei bei ngo aa."
+      ]
+    },
+    {
+      "id": "yue-s173",
+      "kind": "sentence",
+      "native": [
+        "個 app 頭先又彈咗出去喇。"
+      ],
+      "roman": [
+        "Go app tau sin jau daan zo ceot heoi laa."
+      ]
+    },
+    {
+      "id": "yue-s174",
+      "kind": "sentence",
+      "native": [
+        "間舖裝修緊，大家暫時要由側門入去。"
+      ],
+      "roman": [
+        "Gaan pou zong sau gan, daai gaa zaam si jiu jau zak mun jap heoi."
+      ]
+    },
+    {
+      "id": "yue-s175",
+      "kind": "sentence",
+      "native": [
+        "地下有水，小心跣。"
+      ],
+      "roman": [
+        "Dei haa jau seoi, siu sam sin."
+      ]
+    },
+    {
+      "id": "yue-s176",
+      "kind": "sentence",
+      "native": [
+        "記得留啲餸畀我呀。"
+      ],
+      "roman": [
+        "Gei dak lau di sung bei ngo aa."
+      ]
+    },
+    {
+      "id": "yue-s177",
+      "kind": "sentence",
+      "native": [
+        "其實個方向我都認同，不過而家加埋呢部分，怕大家趕唔切個 deadline。"
+      ],
+      "roman": [
+        "Kei sat go fong hoeng ngo dou jing tung, bat gwo ji gaa gaa maai ni bou fan, paa daai gaa gon m cit go deadline."
+      ]
+    },
+    {
+      "id": "yue-s178",
+      "kind": "sentence",
+      "native": [
+        "冷氣較到24度，開90分鐘就夠喇。"
+      ],
+      "roman": [
+        "Laang hei gaau dou 24 dou, hoi 90 fan zung zau gau laa."
+      ]
+    },
+    {
+      "id": "yue-s179",
+      "kind": "sentence",
+      "native": [
+        "喺日曆加返個提醒，下星期去香港公園觀鳥嗰日要帶望遠鏡。"
+      ],
+      "roman": [
+        "Hai jat lik gaa faan go tai sing, haa sing kei heoi Hoeng Gong Gung Jyun gun niu go jat jiu daai mong jyun geng."
+      ]
+    },
+    {
+      "id": "yue-s180",
+      "kind": "sentence",
+      "native": [
+        "刪走購物車入面嗰對藍色拖鞋先啦。"
+      ],
+      "roman": [
+        "Saan zau kau mat ce jap min go deoi laam sik to haai sin laa."
+      ]
+    },
+    {
+      "id": "yue-s181",
+      "kind": "sentence",
+      "native": [
+        "封 email 啲附件太大，你分開兩封寄，唔係對方收唔到㗎。"
+      ],
+      "roman": [
+        "Fung email di fu gin taai daai, nei fan hoi loeng fung gei, m hai deoi fong sau m dou gaa."
+      ]
+    },
+    {
+      "id": "yue-s182",
+      "kind": "sentence",
+      "native": [
+        "行人隧道個出口有部升降機，推車仔方便啲。"
+      ],
+      "roman": [
+        "Haang jan seoi dou go ceot hau jau bou sing gong gei, teoi ce zai fong bin di."
+      ]
+    },
+    {
+      "id": "yue-s183",
+      "kind": "sentence",
+      "native": [
+        "焗爐仲未夠熱喎。"
+      ],
+      "roman": [
+        "Guk lou zung mei gau jit wo."
+      ]
+    },
+    {
+      "id": "yue-s184",
+      "kind": "sentence",
+      "native": [
+        "得閒嗰陣打畀我啦。"
+      ],
+      "roman": [
+        "Dak haan go zan daa bei ngo laa."
+      ]
+    },
+    {
+      "id": "yue-s185",
+      "kind": "sentence",
+      "native": [
+        "茶水間啲咖啡豆用晒，落單嗰陣加多包啦。"
+      ],
+      "roman": [
+        "Caa seoi gaan di gaa fe dau jung saai, lok daan go zan gaa do baau laa."
+      ]
+    },
+    {
+      "id": "yue-s186",
+      "kind": "sentence",
+      "native": [
+        "送貨地址係荷李活道82號5樓，麻煩今日下晝4點後先嚟。"
+      ],
+      "roman": [
+        "Sung fo dei zi hai Ho Lei Wut Dou 82 hou 5 lau, maa faan gam jat haa zau 4 dim hau sin lai."
+      ]
+    },
+    {
+      "id": "yue-s187",
+      "kind": "sentence",
+      "native": [
+        "月底前要還返圖書館嗰本食譜呀。"
+      ],
+      "roman": [
+        "Jyut dai cin jiu waan faan tou syu gun go bun sik pou aa."
+      ]
+    },
+    {
+      "id": "yue-s188",
+      "kind": "sentence",
+      "native": [
+        "轉用繁體輸入法。"
+      ],
+      "roman": [
+        "Zyun jung faan tai syu jap faat."
+      ]
+    },
+    {
+      "id": "yue-s189",
+      "kind": "sentence",
+      "native": [
+        "條充電線鬆咗呀。"
+      ],
+      "roman": [
+        "Tiu cung din sin sung zo aa."
+      ]
+    },
+    {
+      "id": "yue-s190",
+      "kind": "sentence",
+      "native": [
+        "何伯每朝都喺維園耍太極，之後先去飲茶。"
+      ],
+      "roman": [
+        "Ho Baak mui ziu dou hai Wai Jyun saa taai gik, zi hau sin heoi jam caa."
+      ]
+    },
+    {
+      "id": "yue-s191",
+      "kind": "sentence",
+      "native": [
+        "驗窗嗰日留喺屋企等師傅，唔好出街。"
+      ],
+      "roman": [
+        "Jim coeng go jat lau hai uk kei dang si fu, m hou ceot gaai."
+      ]
+    },
+    {
+      "id": "yue-s192",
+      "kind": "sentence",
+      "native": [
+        "張相影到我個頭咁大，早知企後啲啦，下次唔好叫我企最前呀。"
+      ],
+      "roman": [
+        "Zoeng soeng jing dou ngo go tau gam daai, zou zi kei hau di laa, haa ci m hou giu ngo kei zeoi cin aa."
+      ]
+    },
+    {
+      "id": "yue-s193",
+      "kind": "sentence",
+      "native": [
+        "尾數啱啱入咗戶口。"
+      ],
+      "roman": [
+        "Mei sou ngaam ngaam jap zo wu hau."
+      ]
+    },
+    {
+      "id": "yue-s194",
+      "kind": "sentence",
+      "native": [
+        "阿樂下個月就18歲。"
+      ],
+      "roman": [
+        "Aa Lok haa go jyut zau 18 seoi."
+      ]
+    },
+    {
+      "id": "yue-s195",
+      "kind": "sentence",
+      "native": [
+        "舊電腦啲相要備份咗先，之後至好刪走。"
+      ],
+      "roman": [
+        "Gau din nou di soeng jiu bei fan zo sin, zi hau zi hou saan zau."
+      ]
+    },
+    {
+      "id": "yue-s196",
+      "kind": "sentence",
+      "native": [
+        "計下425克麵粉等於幾多安士。"
+      ],
+      "roman": [
+        "Gai haa 425 hak min fan dang jyu gei do on si."
+      ]
+    },
+    {
+      "id": "yue-s197",
+      "kind": "sentence",
+      "native": [
+        "而家開會有即時字幕，聽唔清楚都可以睇返，唔使成日叫人講多次。"
+      ],
+      "roman": [
+        "Ji gaa hoi wui jau zik si zi mok, teng m cing co dou ho ji tai faan, m sai seng jat giu jan gong do ci."
+      ]
+    },
+    {
+      "id": "yue-s198",
+      "kind": "sentence",
+      "native": [
+        "袁老師，你教嗰個摺紙方法好易明呀。"
+      ],
+      "roman": [
+        "Jyun lou si, nei gaau go go zip zi fong faat hou ji ming aa."
+      ]
+    },
+    {
+      "id": "yue-s199",
+      "kind": "sentence",
+      "native": [
+        "鄭老師話聽朝默書，今晚溫埋啲生字先。"
+      ],
+      "roman": [
+        "Zeng lou si waa ting ziu mak syu, gam maan wan maai di saang zi sin."
+      ]
+    },
+    {
+      "id": "yue-s200",
+      "kind": "sentence",
+      "native": [
+        "阿欣買咗戲飛，大家記得夾返錢畀佢呀。"
+      ],
+      "roman": [
+        "Aa Jan maai zo hei fei, daai gaa gei dak gaap faan cin bei keoi aa."
+      ]
+    },
+    {
+      "id": "yue-s201",
+      "kind": "sentence",
+      "native": [
+        "如果大家對個方案冇意見，我就通知供應商照呢個版本出樣辦。"
+      ],
+      "roman": [
+        "Jyu gwo daai gaa deoi go fong on mou ji gin, ngo zau tung zi gung jing soeng ziu ni go baan bun ceot joeng baan."
+      ]
+    },
+    {
+      "id": "yue-s202",
+      "kind": "sentence",
+      "native": [
+        "呢盒蛋撻賣48蚊。"
+      ],
+      "roman": [
+        "Ni hap daan taat maai 48 man."
+      ]
+    },
+    {
+      "id": "yue-s203",
+      "kind": "sentence",
+      "native": [
+        "護髮素要加落個清單。"
+      ],
+      "roman": [
+        "Wu faat sou jiu gaa lok go cing daan."
+      ]
+    },
+    {
+      "id": "yue-s204",
+      "kind": "sentence",
+      "native": [
+        "黃竹坑有邊間室內攀石場可以租鞋？"
+      ],
+      "roman": [
+        "Wong Zuk Haang jau bin gaan sat noi paan sek coeng ho ji zou haai?"
+      ]
+    },
+    {
+      "id": "yue-s205",
+      "kind": "sentence",
+      "native": [
+        "阿軒喺樓下等緊你。"
+      ],
+      "roman": [
+        "Aa Hin hai lau haa dang gan nei."
+      ]
+    },
+    {
+      "id": "yue-s206",
+      "kind": "sentence",
+      "native": [
+        "街市嗰檔魚蛋收咗舖，轉去隔籬檔啦。"
+      ],
+      "roman": [
+        "Gaai si go dong jyu daan sau zo pou, zyun heoi gaak lei dong laa."
+      ]
+    },
+    {
+      "id": "yue-s207",
+      "kind": "sentence",
+      "native": [
+        "下次打機可唔可以細聲啲，隔住房門都聽到你嗌，阿妹仲溫緊書呀。"
+      ],
+      "roman": [
+        "Haa ci daa gei ho m ho ji sai seng di, gaak zyu fong mun dou teng dou nei aai, aa mui zung wan gan syu aa."
+      ]
+    },
+    {
+      "id": "yue-s208",
+      "kind": "sentence",
+      "native": [
+        "聽日嘅培訓改喺觀塘嗰間分店搞。"
+      ],
+      "roman": [
+        "Ting jat ge pui fan goi hai Gun Tong go gaan fan dim gaau."
+      ]
+    },
+    {
+      "id": "yue-s209",
+      "kind": "sentence",
+      "native": [
+        "去旺角搭970號巴士，車程大約35分鐘。"
+      ],
+      "roman": [
+        "Heoi Wong Gok daap 970 hou baa si, ce cing daai joek 35 fan zung."
+      ]
+    },
+    {
+      "id": "yue-s210",
+      "kind": "sentence",
+      "native": [
+        "較大少少個音量呀。"
+      ],
+      "roman": [
+        "Gaau daai siu siu go jam loeng aa."
+      ]
+    },
+    {
+      "id": "yue-s211",
+      "kind": "sentence",
+      "native": [
+        "我啱啱返到屋企喇。"
+      ],
+      "roman": [
+        "Ngo ngaam ngaam faan dou uk kei laa."
+      ]
+    },
+    {
+      "id": "yue-s212",
+      "kind": "sentence",
+      "native": [
+        "收到，多謝你提我。"
+      ],
+      "roman": [
+        "Sau dou, do ze nei tai ngo."
+      ]
+    },
+    {
+      "id": "yue-s213",
+      "kind": "sentence",
+      "native": [
+        "跑完呢段4公里，再行500米就到終點。"
+      ],
+      "roman": [
+        "Paau jyun ni dyun 4 gung lei, zoi haang 500 mai zau dou zung dim."
+      ]
+    },
+    {
+      "id": "yue-s214",
+      "kind": "sentence",
+      "native": [
+        "難怪你成朝都唔覆，原來整模型整到唔記得時間，連早餐都未食。"
+      ],
+      "roman": [
+        "Naan gwaai nei seng ziu dou m fuk, jyun loi zing mou jing zing dou m gei dak si gaan, lin zou caan dou mei sik."
+      ]
+    },
+    {
+      "id": "yue-s215",
+      "kind": "sentence",
+      "native": [
+        "批咗喇，安心放假啦。"
+      ],
+      "roman": [
+        "Pai zo laa, on sam fong gaa laa."
+      ]
+    },
+    {
+      "id": "yue-s216",
+      "kind": "sentence",
+      "native": [
+        "煮粥用120克米，加900毫升水就得。"
+      ],
+      "roman": [
+        "Zyu zuk jung 120 hak mai, gaa 900 hou sing seoi zau dak."
+      ]
+    },
+    {
+      "id": "yue-s217",
+      "kind": "sentence",
+      "native": [
+        "唔該幫我淋下露台啲花，星期日就返嚟。"
+      ],
+      "roman": [
+        "M goi bong ngo lam haa lou toi di faa, sing kei jat zau faan lai."
+      ]
+    },
+    {
+      "id": "yue-s218",
+      "kind": "sentence",
+      "native": [
+        "報名表上面嘅聯絡電話填2678 9431，參加人數寫15個。"
+      ],
+      "roman": [
+        "Bou ming biu soeng min ge lyun lok din waa tin 2678 9431, caam gaa jan sou se 15 go."
+      ]
+    },
+    {
+      "id": "yue-s219",
+      "kind": "sentence",
+      "native": [
+        "阿嫲話想食豆腐花，去探佢嗰陣買碗啦。"
+      ],
+      "roman": [
+        "Aa maa waa soeng sik dau fu faa, heoi taam keoi go zan maai wun laa."
+      ]
+    },
+    {
+      "id": "yue-s220",
+      "kind": "sentence",
+      "native": [
+        "件校服係10月5號訂嘅，話要等14日，最遲19號應該有得攞。"
+      ],
+      "roman": [
+        "Gin haau fuk hai 10 jyut 5 hou deng ge, waa jiu dang 14 jat, zeoi ci 19 hou jing goi jau dak lo."
+      ]
+    },
+    {
+      "id": "yue-s221",
+      "kind": "sentence",
+      "native": [
+        "婉儀，聽日喺荃灣站邊個出口等呀？"
+      ],
+      "roman": [
+        "Jyun Ji, ting jat hai Cyun Waan Zaam bin go ceot hau dang aa?"
+      ]
+    },
+    {
+      "id": "yue-s222",
+      "kind": "sentence",
+      "native": [
+        "運費要30蚊，買滿250蚊就唔使畀。"
+      ],
+      "roman": [
+        "Wan fai jiu 30 man, maai mun 250 man zau m sai bei."
+      ]
+    },
+    {
+      "id": "yue-s223",
+      "kind": "sentence",
+      "native": [
+        "晏晝嗰餐我請，你唔好再同我爭住畀錢喇。"
+      ],
+      "roman": [
+        "Aan zau go caan ngo ceng, nei m hou zoi tung ngo zaang zyu bei cin laa."
+      ]
+    },
+    {
+      "id": "yue-s224",
+      "kind": "sentence",
+      "native": [
+        "放心，件禮物收埋咗。"
+      ],
+      "roman": [
+        "Fong sam, gin lai mat sau maai zo."
+      ]
+    }
+  ]
+}

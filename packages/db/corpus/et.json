@@ -1,0 +1,1625 @@
+{
+  "lang": "et",
+  "starter": [
+    "et-s086",
+    "et-s053",
+    "et-s058",
+    "et-s043",
+    "et-s151",
+    "et-s048",
+    "et-s091",
+    "et-s146",
+    "et-s026",
+    "et-s141",
+    "et-s136",
+    "et-s138",
+    "et-p01",
+    "et-s047",
+    "et-s059",
+    "et-s046",
+    "et-s113",
+    "et-s137",
+    "et-s073",
+    "et-s051",
+    "et-s094",
+    "et-s036",
+    "et-s132",
+    "et-s117",
+    "et-p05",
+    "et-s133",
+    "et-s174",
+    "et-s027",
+    "et-s014",
+    "et-s155",
+    "et-s040",
+    "et-s139",
+    "et-s176",
+    "et-s065",
+    "et-s153",
+    "et-s060",
+    "et-s044",
+    "et-p08",
+    "et-s072",
+    "et-s102",
+    "et-s142",
+    "et-s175",
+    "et-s039",
+    "et-s152",
+    "et-s062",
+    "et-s177",
+    "et-s031",
+    "et-s077",
+    "et-s093",
+    "et-s173"
+  ],
+  "items": [
+    {
+      "id": "et-p01",
+      "kind": "para",
+      "title": "Our New Cat",
+      "native": [
+        "Meil on nüüd kodus kass, kelle nimi on Nööp.",
+        "Tõime ta eile varjupaigast ja esialgu peitis ta ennast diivani alla.",
+        "Õhtul meelitas Liis ta väikese mänguhiirega lõpuks peidust välja.",
+        "Praegu pikutab ta aknalaual ja jälgib mööduvaid Kopli tramme.",
+        "Panin talle kööki veekausi, aga tema eelistab hoopis vannitoas kraanist juua.",
+        "Öösel leidis ta mu villased sokid ja vedas need esikusse.",
+        "Diivanit pole ta õnneks veel kordagi kraapinud.",
+        "Kui nädalavahetusel külla tuled, võta see vana sulepulk ka kaasa.",
+        "Sa pead teda nägema, tal on nii naljakalt tõsine nägu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-p02",
+      "kind": "para",
+      "title": "Feedback on the Filter",
+      "native": [
+        "Tere, Kadi! Saadan Tartu kasutajate tagasiside meie uue otsingufiltri kohta.",
+        "Esimese nädala jooksul saime tagasisidet kokku 18 kasutajalt.",
+        "Enamik leidis sobiva treeningu varasemast kiiremini ja sai broneeringu mugavalt tehtud.",
+        "Mitmed kiitsid võimalust valida korraga nii linnaosa kui ka treeningupäev.",
+        "Telefonis jäi aga otsingunupp mõnel juhul ekraani alumise serva taha.",
+        "Lisaks ei saanud kõik kohe aru, kuidas valitud filtreid eemaldada.",
+        "Palun vaata nupu asukoht üle ja lisa filtrite juurde lühike selgitus.",
+        "Saadan sulle täna Teamsis kasutajate kommentaarid koos paari selgitava kuvatõmmisega.",
+        "Kui parandused on valmis, proovime uut otsingut reedel Annelinna treeningurühmaga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-p03",
+      "kind": "para",
+      "title": "Missing the Last Train",
+      "native": [
+        "Eelmisel reedel jäin Balti jaamas viimasest Keila rongist napilt maha.",
+        "Olin Telliskivis sõbraga söömas ja hakkasin lihtsalt liiga hilja jaama poole kõndima.",
+        "Kui perroonile jõudsin, olid rongi uksed juba kinni ja tuled põlesid.",
+        "Vajutasin veel ukse kõrval nuppu, aga rong hakkas vaikselt liikuma.",
+        "Seisin seal, seljakott ühel õlal, ja vaatasin täiesti tühja perrooni.",
+        "Keila poole enam ühtegi bussi ei läinud ja takso tundus kallis.",
+        "Helistasin lõpuks vennale, kes elas sealsamas Pelgulinnas üsna jaama lähedal.",
+        "Ta pani mulle elutoa diivanile puhta lina ja tõi varuteki.",
+        "Hommikul sõitsin koju ning panin järgmise rongisõidu jaoks telefoni meeldetuletuse."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-p04",
+      "kind": "para",
+      "title": "Grandma's Potato Salad",
+      "native": [
+        "Meil tehakse pidupäevaks ikka vanaema moodi kartulisalatit.",
+        "Keeda kõigepealt 6 keskmist kartulit ja 3 porgandit koos koorega pehmeks.",
+        "Pane teises potis 4 muna keema ja keeda neid 10 minutit.",
+        "Lase kõigel jahtuda, siis koori kartulid, porgandid ja munad ära.",
+        "Lõika need väikesteks kuubikuteks ning haki juurde 3 hapukurki ja veidi sibulat.",
+        "Lisa köögiviljadele nõrutatud herned ja 300 grammi kuubikuteks lõigatud keeduvorsti.",
+        "Sega eraldi kausis 200 grammi hapukoort ja sama palju majoneesi.",
+        "Vala kaste salatile, sega ettevaatlikult läbi ning maitsesta soola ja pipraga.",
+        "Hoia salatit enne söömist vähemalt tund külmkapis, siis maitseb see paremini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-p05",
+      "kind": "para",
+      "title": "Lunch at Pärnu Market",
+      "native": [
+        "Käisin laupäeval Pärnu turul ja proovisin väikese toiduputka kalaburgerit.",
+        "Esialgu tundus 9 € burgeri eest natuke palju küsitud.",
+        "Kala oli aga mahlane ja paneering mõnusalt krõbe, mitte rasvane.",
+        "Kukli vahel oli marineeritud kurki, mis sobis kalaga üllatavalt hästi.",
+        "Kastet oleks minu meelest võinud siiski veidi vähem olla.",
+        "Teenindaja küsis kohe, kas soovin sibulat, ja see oli tore.",
+        "Tellimust ootasin umbes kümme minutit, kuigi järjekord oli päris pikk.",
+        "Sõin õues väikese laua taga, kus tuul kippus salvrätikuid lennutama.",
+        "Läheksin sinna uuesti küll, aga järgmine kord prooviksin hoopis kalasuppi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-p06",
+      "kind": "para",
+      "title": "Three Days in Haapsalu",
+      "native": [
+        "Plaanime juunis kahekesi kolmepäevast Haapsalu reisi ja paneme kulud kirja.",
+        "Väljume Tallinnast 12. juunil kell 9.30 ning sõidame Haapsallu bussiga.",
+        "Tagasi tuleme 14. juunil kell 18.00, et õhtuks koju jõuda.",
+        "Edasi-tagasi bussipiletite jaoks arvestame kahe peale kokku 40 €.",
+        "Külalistemajas maksab tuba 60 € öö eest. Jääme sinna kaheks ööks.",
+        "Söögiks jätame 75 €, sest hommikusöögi teeme majutuskohas ise.",
+        "Linnuse ja muude vaatamisväärsuste külastamiseks paneme kõrvale veel 25 €.",
+        "Iga päev võiksime kõndida umbes 4 kilomeetrit ja vahepeal rannas puhata.",
+        "Kokku on eelarve 260 €, millest peaks meile kenasti piisama."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-p07",
+      "kind": "para",
+      "title": "Parcel at the Wrong Address",
+      "native": [
+        "Tere, soovin abi pakiga, mis pidi täna Mustamäele jõudma.",
+        "Omniva äpis on pakk märgitud kättesaaduks, kuid minuni pole jõudnud.",
+        "Tellimuses on aadressiks Sõpruse puiestee 210, Tallinn, ning see on õige.",
+        "Kättetoimetamise fotol paistab aga Õismäe tee 18 maja sissepääs.",
+        "Pakis on köögikardinad, mille tellisin eelmisel nädalal ühest e-poest.",
+        "Palun uurige kullerilt, millise ukse juurde ta saadetise jättis.",
+        "Kas saaksite korraldada paki toomise tellimuses märgitud aadressile?",
+        "Homme olen kodus kell 10.00 kuni 14.00 ja saan uksele tulla.",
+        "Palun andke teada, kas pean veel mõne foto saatma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-p08",
+      "kind": "para",
+      "title": "A Walk at Vapramäe",
+      "native": [
+        "Vapramägi on Tartust umbes 20 kilomeetri kaugusel ja sobib hästi rahulikuks metsaretkeks.",
+        "Elva lähedal asuval Vapramäel on mõnus jalutada igal aastaajal.",
+        "Metsaradadel on nii tasaseid lõike kui ka järsemaid tõuse.",
+        "Märgistatud õpperajal saab metsa kohta üht-teist uut teada.",
+        "Vapramäe jalamil voolab Elva jõgi, mille kaldal tasub korraks peatuda.",
+        "Kevadel kostab puude vahelt linnulaulu, sügisel katavad radu värvilised lehed.",
+        "Vihmase ilmaga võivad nõlvad olla libedad, nii et vali hea tallaga jalanõud.",
+        "Lastega matkates varu aega ka puhkepausideks ja ümbruse uurimiseks.",
+        "Võta joogivesi kaasa ja vii prügi pärast koju."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s001",
+      "kind": "sentence",
+      "native": [
+        "Paides sajab, pista kummikud pagasiruumi ka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s002",
+      "kind": "sentence",
+      "native": [
+        "Lisasin protokolli puudunud otsuse, rohkem täiendusi pole."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s003",
+      "kind": "sentence",
+      "native": [
+        "Jõhvis tuleb 6. novembril kell 10.50 ümber istuda, järgmine buss väljub 8 minutit hiljem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s004",
+      "kind": "sentence",
+      "native": [
+        "Elektriarvesti näidu pean kuu viimasel päeval üles kirjutama."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s005",
+      "kind": "sentence",
+      "native": [
+        "Näita, mis kell Kuressaare loss täna suletakse."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s006",
+      "kind": "sentence",
+      "native": [
+        "Kerli kustutas kogemata konto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s007",
+      "kind": "sentence",
+      "native": [
+        "Mündid kukkusid leti alla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s008",
+      "kind": "sentence",
+      "native": [
+        "Esiku ukselink logiseb natuke."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s009",
+      "kind": "sentence",
+      "native": [
+        "Nii, lõnga ostan Abakhanist, vardad on olemas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s010",
+      "kind": "sentence",
+      "native": [
+        "Ausalt, mind häirib, kui nõud kraanikaussi vedelema jäetakse."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s011",
+      "kind": "sentence",
+      "native": [
+        "Põltsamaa raamatukogus pandi sulle aiandusraamat kõrvale, võin selle ära tuua."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s012",
+      "kind": "sentence",
+      "native": [
+        "Kuller pääseb kaubaga tagauksest sisse."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s013",
+      "kind": "sentence",
+      "native": [
+        "Tagastuse eest laekus kontole 36,70 €, mitte 42 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s014",
+      "kind": "sentence",
+      "native": [
+        "Harjuta pühapäevaks kitarril uus lugu aeglaselt läbi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s015",
+      "kind": "sentence",
+      "native": [
+        "Kust saaksin vaadata, kas Tartu rattaringluse lähimas parklas on praegu vabu rattaid?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s016",
+      "kind": "sentence",
+      "native": [
+        "Elisas saab vist mobiilse interneti mahtu juurde osta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s017",
+      "kind": "sentence",
+      "native": [
+        "Naabrimees lubas meid autoga lennujaama ära viia."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s018",
+      "kind": "sentence",
+      "native": [
+        "Kiluvõileivale võiks veel veidi hakitud murulauku puistata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s019",
+      "kind": "sentence",
+      "native": [
+        "Roheline kauss on vaba, või tahtsid taldrikut?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s020",
+      "kind": "sentence",
+      "native": [
+        "Andesta, ajasin nimed segamini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s021",
+      "kind": "sentence",
+      "native": [
+        "Kõht koriseb nagu muruniiduk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s022",
+      "kind": "sentence",
+      "native": [
+        "Tartus tehtud tootefotod sobivad avalehele, aga hinnakirja avaldamisega peame veel pisut ootama."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s023",
+      "kind": "sentence",
+      "native": [
+        "Raamatu pean tagastama 9. aprillil, aga kas saaksin laenutust 23. aprillini pikendada?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s024",
+      "kind": "sentence",
+      "native": [
+        "Lisa ostunimekirja kaerahelbed ja pirnid."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s025",
+      "kind": "sentence",
+      "native": [
+        "Peata praegu mängiv muusika."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s026",
+      "kind": "sentence",
+      "native": [
+        "Mikrofon sahiseb päris kõvasti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s027",
+      "kind": "sentence",
+      "native": [
+        "Kohver mahub istme alla, nii et pagasiruumi pärast pole vaja üldse muretseda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s028",
+      "kind": "sentence",
+      "native": [
+        "Küünetehniku juurde sain aja alles märtsi lõpuks."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s029",
+      "kind": "sentence",
+      "native": [
+        "Ah nii, sa kuulsid juba?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s030",
+      "kind": "sentence",
+      "native": [
+        "Alguses tundus keraamikakursus mulle üsna keeruline, aga nüüd ootan iga tundi suure rõõmuga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s031",
+      "kind": "sentence",
+      "native": [
+        "Kuule, su müts jäi eile minu autosse."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s032",
+      "kind": "sentence",
+      "native": [
+        "Arve maksetähtaeg läheneb, raamatupidaja ootab veel saatelehte."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s033",
+      "kind": "sentence",
+      "native": [
+        "Kirjuta uueks kontaktinumbriks 5550 1234, selle vana numbri võid telefonist ära kustutada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s034",
+      "kind": "sentence",
+      "native": [
+        "Uuri, kas õmblustöökoda saab mantlil voodri ära vahetada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s035",
+      "kind": "sentence",
+      "native": [
+        "Keera kõrvaklappide heli veidi vaiksemaks, palun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s036",
+      "kind": "sentence",
+      "native": [
+        "Miks Slack telefonis iga teate topelt saadab?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s037",
+      "kind": "sentence",
+      "native": [
+        "Ema sõidab täna praamiga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s038",
+      "kind": "sentence",
+      "native": [
+        "Õpetaja palus meisterdamiseks tühja tikutoosi kooli kaasa võtta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s039",
+      "kind": "sentence",
+      "native": [
+        "Joonistamiseks piisab söest, paberist ja heast valgusest."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s040",
+      "kind": "sentence",
+      "native": [
+        "Usun, et saad selle riiuli ka üksi kokku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s041",
+      "kind": "sentence",
+      "native": [
+        "Mustikaplekk ei tulnud pesus välja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s042",
+      "kind": "sentence",
+      "native": [
+        "Juhataja kinnitas puhkuse ära."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s043",
+      "kind": "sentence",
+      "native": [
+        "Maksan 8,60 € sularahas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s044",
+      "kind": "sentence",
+      "native": [
+        "Tühjad patareid viin kogumiskasti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s045",
+      "kind": "sentence",
+      "native": [
+        "Suurenda ekraani heledust."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s046",
+      "kind": "sentence",
+      "native": [
+        "Viimase update'i järel hangub programm iga kord, kui üritan suuremat faili lahti teha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s047",
+      "kind": "sentence",
+      "native": [
+        "Reet tõi istikukastid tagasi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s048",
+      "kind": "sentence",
+      "native": [
+        "Sädel jäid dressid koju."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s049",
+      "kind": "sentence",
+      "native": [
+        "Jõgeval käisin ainult tankimas. Pikema pausi teen alles hiljem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s050",
+      "kind": "sentence",
+      "native": [
+        "Kumu uus näitus pani mõtlema, kui erinevalt me samu argiseid asju näeme."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s051",
+      "kind": "sentence",
+      "native": [
+        "Täna mängime küünlavalgel, sest meil kadus elekter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s052",
+      "kind": "sentence",
+      "native": [
+        "Klient eelistab sinise taustaga kujundust, mitte halli."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s053",
+      "kind": "sentence",
+      "native": [
+        "Äratus heliseb teisipäeval kell 6.45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s054",
+      "kind": "sentence",
+      "native": [
+        "Järgmisel korral küsi mööblipoest, kas diivani saab tuua otse 5. korrusele või ainult välisukseni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s055",
+      "kind": "sentence",
+      "native": [
+        "Taasta brauseris kogemata suletud vahekaart, mul jäi seal ühe retsepti lugemine pooleli."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s056",
+      "kind": "sentence",
+      "native": [
+        "Veebikaamera pilt jääb hämaras kuidagi liiga teraline."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s057",
+      "kind": "sentence",
+      "native": [
+        "Ülekäiguraja juurest pööra vasakule, siis näed lillekioskit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s058",
+      "kind": "sentence",
+      "native": [
+        "Annate selle kannu 6 € eest ära?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s059",
+      "kind": "sentence",
+      "native": [
+        "Kristjan, kas trenn on Auras või mujal?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s060",
+      "kind": "sentence",
+      "native": [
+        "Suur tänu kannatlikkuse eest!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s061",
+      "kind": "sentence",
+      "native": [
+        "Grete, kas sul õnnestus teatrisse piletid saada?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s062",
+      "kind": "sentence",
+      "native": [
+        "Võin laost näidised tuua, kuni sa tellimusi pakid."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s063",
+      "kind": "sentence",
+      "native": [
+        "Pesuprogramm kestab 55 minutit ja vesi soojeneb 40 kraadini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s064",
+      "kind": "sentence",
+      "native": [
+        "Tühista ajakirja tellimus enne järgmise kuu algust."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s065",
+      "kind": "sentence",
+      "native": [
+        "Juhata mind jalgsi lähima avaliku joogikraani juurde."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s066",
+      "kind": "sentence",
+      "native": [
+        "Triin, jaga Zoomis ekraani asemel ainult seda akent, muidu on su vestlused teistele näha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s067",
+      "kind": "sentence",
+      "native": [
+        "Seekord tulen jalgsi, sest kesklinnas kulub parkimiskoha otsimisele rohkem aega kui kõndimisele."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s068",
+      "kind": "sentence",
+      "native": [
+        "Torumees saab lekkiva kraani üle vaadata teisipäeva pärastlõunal."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s069",
+      "kind": "sentence",
+      "native": [
+        "Sahtlis peaks olema mõõdulint, aga tead, küsin parem Helenalt, tema kasutas seda viimati."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s070",
+      "kind": "sentence",
+      "native": [
+        "Kärdla kohviku kringel oli minu meelest liiga kuiv."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s071",
+      "kind": "sentence",
+      "native": [
+        "Helista, kui aega saad."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s072",
+      "kind": "sentence",
+      "native": [
+        "Neljapäevane arutelu toimub seekord meie väikeses nõupidamisruumis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s073",
+      "kind": "sentence",
+      "native": [
+        "Koosolek tõsteti 18. septembrile ja algab kell 11.15."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s074",
+      "kind": "sentence",
+      "native": [
+        "Lapse võtan pärast saviringi koolimaja külgukse juurest peale, sest peauks pannakse varakult lukku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s075",
+      "kind": "sentence",
+      "native": [
+        "Kuhu katkine peegel visata?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s076",
+      "kind": "sentence",
+      "native": [
+        "Selle äpi tasuta prooviperiood lõpeb täna keskööl."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s077",
+      "kind": "sentence",
+      "native": [
+        "Rocca al Mare keskuses avati uus kingapood."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s078",
+      "kind": "sentence",
+      "native": [
+        "Vanaemale tellisime juubeliks suure kimbu kollaseid tulpe."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s079",
+      "kind": "sentence",
+      "native": [
+        "Oota, kus käärid on?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s080",
+      "kind": "sentence",
+      "native": [
+        "Kahju, et me viimasel ajal nii harva kohtume."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s081",
+      "kind": "sentence",
+      "native": [
+        "Rattakumm on jälle täis, võime pärast väikese tiiru teha."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s082",
+      "kind": "sentence",
+      "native": [
+        "Sander Lepik asendab mind järgmise nädala koolitusel."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s083",
+      "kind": "sentence",
+      "native": [
+        "Rasmus võtab matkale 4 liitrit vett, aga mu seljakotti mahub ainult 2 liitrit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s084",
+      "kind": "sentence",
+      "native": [
+        "Kontrolli õhtul suitsuanduri patareid."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s085",
+      "kind": "sentence",
+      "native": [
+        "Salvesta see pilt eraldi kausta nimega Taustapildid."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s086",
+      "kind": "sentence",
+      "native": [
+        "Pärnu kontoris ei ulatu wifi kööginurka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s087",
+      "kind": "sentence",
+      "native": [
+        "Töökaaslasega jagame sõidukulusid, sest elame samas kandis."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s088",
+      "kind": "sentence",
+      "native": [
+        "Saapad pigistavad, sooviksin proovida veidi suuremat paari."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s089",
+      "kind": "sentence",
+      "native": [
+        "Teeme proovi kolmapäeval, ei, oota, neljapäev sobib paremini."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s090",
+      "kind": "sentence",
+      "native": [
+        "Jaanika, sul tuli see soolo väga hästi välja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s091",
+      "kind": "sentence",
+      "native": [
+        "Kas läheme pühapäeval Kadriorgu jalutama või jääme aeda?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s092",
+      "kind": "sentence",
+      "native": [
+        "Indrek, millal sul katseaja lõpuvestluseks aega oleks?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s093",
+      "kind": "sentence",
+      "native": [
+        "Õhuniiskus langes 48% peale."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s094",
+      "kind": "sentence",
+      "native": [
+        "Enne kinno minekut tuleb Apollo kinkekaart üles otsida."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s095",
+      "kind": "sentence",
+      "native": [
+        "Vaigista kõik märguanded tunniks."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s096",
+      "kind": "sentence",
+      "native": [
+        "Paroolihaldur lukustas end automaatselt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s097",
+      "kind": "sentence",
+      "native": [
+        "Siit pääseb otse sisehoovi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s098",
+      "kind": "sentence",
+      "native": [
+        "Röstin kõrvitsaseemned kuival pannil ära, siis saad neid jahtunult salatile peale raputada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s099",
+      "kind": "sentence",
+      "native": [
+        "Pidin akna lahti tegema, aga väljast tuleb tolmu, jätan selle vist ikkagi kinni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s100",
+      "kind": "sentence",
+      "native": [
+        "Su tikand on imeilus!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s101",
+      "kind": "sentence",
+      "native": [
+        "Jõudsin ilusti koju."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s102",
+      "kind": "sentence",
+      "native": [
+        "Teamsis jagatud linki avades pean ligipääsu küsima."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s103",
+      "kind": "sentence",
+      "native": [
+        "Vanaisa saab detsembris 78."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s104",
+      "kind": "sentence",
+      "native": [
+        "Ära unusta enne ujulasse minekut ujumisprille kotti pista."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s105",
+      "kind": "sentence",
+      "native": [
+        "Saada Kadrile sõnum, et ootan teda kohvikus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s106",
+      "kind": "sentence",
+      "native": [
+        "Brauseri vahemälu tühjendamine aitas, nüüd laseb veebipood mul lõpuks ostu eest ära maksta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s107",
+      "kind": "sentence",
+      "native": [
+        "Elva kingsepp pani matkasaabastele uued tallad alla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s108",
+      "kind": "sentence",
+      "native": [
+        "Taaraautomaadi juures oli järjekord, tulen poest pisut hiljem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s109",
+      "kind": "sentence",
+      "native": [
+        "Ei, mõtlesin hoopis triibulist salli."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s110",
+      "kind": "sentence",
+      "native": [
+        "Aitäh, sain pildid kätte."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s111",
+      "kind": "sentence",
+      "native": [
+        "Vändra töökojas saab varuosa eest kaardiga tasuda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s112",
+      "kind": "sentence",
+      "native": [
+        "Algajate rühma ootame lapsi vanuses 5 kuni 7 aastat."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s113",
+      "kind": "sentence",
+      "native": [
+        "Coopist ostetud röstri vahetamiseks võtan tšeki kaasa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s114",
+      "kind": "sentence",
+      "native": [
+        "Millist ilma on homme Haapsalus oodata?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s115",
+      "kind": "sentence",
+      "native": [
+        "Varukoopia tegemiseks pole välisel kõvakettal piisavalt ruumi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s116",
+      "kind": "sentence",
+      "native": [
+        "Matemaatikaülesandes tuleb vist ainult vastus kirjutada, aga küsin õpetajalt üle, kas arvutuskäiku on ka vaja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s117",
+      "kind": "sentence",
+      "native": [
+        "Prismas olid apelsinid soodushinnaga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s118",
+      "kind": "sentence",
+      "native": [
+        "Poole pealt jäi heli ära, kuuled nüüd?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s119",
+      "kind": "sentence",
+      "native": [
+        "Kui nädalavahetuseks muid plaane pole, tulge külla, saame lõpuks uue vahvlimasina ära proovida."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s120",
+      "kind": "sentence",
+      "native": [
+        "Hinnad tõusevad järgmisest kuust, nii et anname püsiklientidele sellest juba varakult teada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s121",
+      "kind": "sentence",
+      "native": [
+        "Seadsin ahju 200 kraadi peale ja taimeri 40 minutiks."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s122",
+      "kind": "sentence",
+      "native": [
+        "Nädala menüüsse võiks lisada mulgipudru ja värske kurgisalati."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s123",
+      "kind": "sentence",
+      "native": [
+        "Mitu grammi on 2,5 kilogrammi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s124",
+      "kind": "sentence",
+      "native": [
+        "Andrese arvuti tahab enne väljalülitamist uuendusi paigaldada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s125",
+      "kind": "sentence",
+      "native": [
+        "Tädi ootab juuksuris järjekorras."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s126",
+      "kind": "sentence",
+      "native": [
+        "Laulupeole minnes võtame istumisaluse, sest märja muru peal ei taha keegi pikalt istuda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s127",
+      "kind": "sentence",
+      "native": [
+        "Võtke sepik, munad ja pakk võid, palun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s128",
+      "kind": "sentence",
+      "native": [
+        "Jäta mulle natuke suppi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s129",
+      "kind": "sentence",
+      "native": [
+        "Tere! Soovin trükise kohta hinnapakkumist."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s130",
+      "kind": "sentence",
+      "native": [
+        "Tuba on broneeritud 21. juulist 24. juulini, kokku 3 ööks."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s131",
+      "kind": "sentence",
+      "native": [
+        "Pärast tööd pean Nõmme turult tomatitaimed ostma ja rõdule suuremad potid välja otsima."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s132",
+      "kind": "sentence",
+      "native": [
+        "Lülita taskulamp sisse."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s133",
+      "kind": "sentence",
+      "native": [
+        "Bluetooth ei leia hiirt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s134",
+      "kind": "sentence",
+      "native": [
+        "Tagasiteel astun rattatöökojast läbi ja küsin hinnapakkumist."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s135",
+      "kind": "sentence",
+      "native": [
+        "Rõdupiire vajab värvimist, aga enne tuleb vana lahtine värv traatharjaga maha hõõruda."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s136",
+      "kind": "sentence",
+      "native": [
+        "Olga, kas sulle maitseb kama?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s137",
+      "kind": "sentence",
+      "native": [
+        "Õhtune buss jäi hiljaks, nii et hoia mulle palun tükk kohupiimakooki alles."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s138",
+      "kind": "sentence",
+      "native": [
+        "Merle, millega sa tööpõllelt rasvapleki maha said?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s139",
+      "kind": "sentence",
+      "native": [
+        "Palun saatke pakk aadressile Jaama tänav 14, Võru."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s140",
+      "kind": "sentence",
+      "native": [
+        "Broneeri juuksuriaeg järgmiseks kolmapäevaks."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s141",
+      "kind": "sentence",
+      "native": [
+        "Mis täna õhtul ETV pealt tuleb?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s142",
+      "kind": "sentence",
+      "native": [
+        "Printer tõmbab paberi kortsu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s143",
+      "kind": "sentence",
+      "native": [
+        "Parkimismajast viib lift kaubamaja teisele korrusele."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s144",
+      "kind": "sentence",
+      "native": [
+        "Tainas peab veel kerkima."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s145",
+      "kind": "sentence",
+      "native": [
+        "Kelle kord on täringut veeretada?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s146",
+      "kind": "sentence",
+      "native": [
+        "Koer nõuab juba õue."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s147",
+      "kind": "sentence",
+      "native": [
+        "Liis, kas jõuaksid pakkumise lõunaks üle vaadata?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s148",
+      "kind": "sentence",
+      "native": [
+        "Renditagatis on 150 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s149",
+      "kind": "sentence",
+      "native": [
+        "Õhtul pean tolmuimeja filtri puhtaks loputama ja selle enne järgmist kasutamist korralikult kuivama jätma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s150",
+      "kind": "sentence",
+      "native": [
+        "Leia Türi lähedalt koht, kus saab aiakääre teritada."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s151",
+      "kind": "sentence",
+      "native": [
+        "Excelis kaovad tootekoodide eest nullid ära."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s152",
+      "kind": "sentence",
+      "native": [
+        "Trepikoja uksekella peab üsna kõvasti vajutama, muidu see ei helise."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s153",
+      "kind": "sentence",
+      "native": [
+        "Õues sajab tihedat lörtsi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s154",
+      "kind": "sentence",
+      "native": [
+        "Tahan musta kohvi, ei, hoopis kakaod vahukoorega."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s155",
+      "kind": "sentence",
+      "native": [
+        "Su kampsun sai puhtaks, viin selle õhtupoolikul emale."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s156",
+      "kind": "sentence",
+      "native": [
+        "Ostutšekil on sama kaustik kaks korda kirjas."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s157",
+      "kind": "sentence",
+      "native": [
+        "Laupäevase töötoa jaoks varume 12 pintslit ja 500 grammi savi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s158",
+      "kind": "sentence",
+      "native": [
+        "Loe retsepti järgmine samm aeglasemalt ette, sest käed on jahused ja ekraani puudutada ei saa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s159",
+      "kind": "sentence",
+      "native": [
+        "Plaan muutus, läheme laupäeval hoopis mere äärde ja võtame termosega sooja teed kaasa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s160",
+      "kind": "sentence",
+      "native": [
+        "Piret, enne reedest esitlust võiksime slaidid koos läbi käia, et midagi olulist puudu ei jääks."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s161",
+      "kind": "sentence",
+      "native": [
+        "Lapse jalanumber on nüüd 32, eelmine paar oli 30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s162",
+      "kind": "sentence",
+      "native": [
+        "Otsi õpetust, kuidas sülearvuti pilti juhtmevabalt telerisse saata, ilma et peaksin midagi alla laadima."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s163",
+      "kind": "sentence",
+      "native": [
+        "Kertu, võta õhtul tulles mu laadija kaasa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s164",
+      "kind": "sentence",
+      "native": [
+        "Pesuruumi kuivati jätab rätikud niiskeks, kas saaksite tehniku saata ja väljakutse hinna öelda?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s165",
+      "kind": "sentence",
+      "native": [
+        "Tallinnast väljuvas rongis on mu istekoht 46, sinu oma on kohe kõrval, number 45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s166",
+      "kind": "sentence",
+      "native": [
+        "Mari, kas saaksid Selverist piima tuua, sest mul läks see poes meelest ära?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s167",
+      "kind": "sentence",
+      "native": [
+        "Pakis puuduvad kinnitusklambrid."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s168",
+      "kind": "sentence",
+      "native": [
+        "Võitsime mängu 3 punktiga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s169",
+      "kind": "sentence",
+      "native": [
+        "Ootan sind Viljandi jaama ees kollase vihmavarjuga."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s170",
+      "kind": "sentence",
+      "native": [
+        "Rapla esindus vajab suveks veel üht praktikanti."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s171",
+      "kind": "sentence",
+      "native": [
+        "Leotasin marjaplekiga laudlina 30-kraadises vees umbes 20 minutit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s172",
+      "kind": "sentence",
+      "native": [
+        "Võti on lillepoti all."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s173",
+      "kind": "sentence",
+      "native": [
+        "Manus jäi vist lisamata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s174",
+      "kind": "sentence",
+      "native": [
+        "Veebiseminar algab reedel kell 19.30 ja kestab 90 minutit."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s175",
+      "kind": "sentence",
+      "native": [
+        "Saadan retsepti edasi, kui vanaema selle üles leiab."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s176",
+      "kind": "sentence",
+      "native": [
+        "Uue monitori diagonaal võiks olla vähemalt 27 tolli."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s177",
+      "kind": "sentence",
+      "native": [
+        "Vabandust, vastan hiljem, laps tahab praegu unejuttu kuulata."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s178",
+      "kind": "sentence",
+      "native": [
+        "Aku näitab veel 23%."
+      ],
+      "roman": null
+    },
+    {
+      "id": "et-s179",
+      "kind": "sentence",
+      "native": [
+        "Ega sul poleks mulle akutrelli laenata, et saaksin kööki uue riiuli seina panna?"
+      ],
+      "roman": null
+    }
+  ]
+}

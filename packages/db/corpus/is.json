@@ -1,0 +1,1706 @@
+{
+  "lang": "is",
+  "starter": [
+    "is-s096",
+    "is-s125",
+    "is-s083",
+    "is-s168",
+    "is-s003",
+    "is-s038",
+    "is-s056",
+    "is-s182",
+    "is-s169",
+    "is-s121",
+    "is-s157",
+    "is-s100",
+    "is-s026",
+    "is-s158",
+    "is-s117",
+    "is-s036",
+    "is-s049",
+    "is-s116",
+    "is-s147",
+    "is-p01",
+    "is-s011",
+    "is-s034",
+    "is-s035",
+    "is-s142",
+    "is-s124",
+    "is-s085",
+    "is-s059",
+    "is-s017",
+    "is-s185",
+    "is-s037",
+    "is-s033",
+    "is-s153",
+    "is-s145",
+    "is-s064",
+    "is-s119",
+    "is-s134",
+    "is-s183",
+    "is-s057",
+    "is-s032",
+    "is-p03",
+    "is-s016",
+    "is-s171",
+    "is-s126",
+    "is-s090",
+    "is-s118",
+    "is-s123",
+    "is-s144",
+    "is-s129",
+    "is-s159",
+    "is-s021",
+    "is-s046",
+    "is-s066",
+    "is-s001",
+    "is-s102",
+    "is-s027",
+    "is-s022",
+    "is-s156",
+    "is-s065",
+    "is-s138"
+  ],
+  "items": [
+    {
+      "id": "is-p01",
+      "kind": "para",
+      "title": "A Weekend Back Home",
+      "native": [
+        "Ég ætla að keyra vestur á Patreksfjörð á föstudaginn eftir vinnu.",
+        "Það er orðið allt of langt síðan ég kom síðast heim.",
+        "Mamma bauð mér að gista í gamla herberginu mínu yfir helgina.",
+        "Ég hlakka eiginlega mest til að sitja við eldhúsborðið og spjalla.",
+        "Á laugardaginn langar mig að rölta niður að höfn og skoða bátana.",
+        "Ertu ekki til í að hitta mig í sundi seinna um daginn?",
+        "Við getum svo fengið okkur kaffi og rifjað upp eitthvað gamalt.",
+        "Ég tek rúgbrauð með fyrir pabba, enda bað hann sérstaklega um það.",
+        "Ég sendi þér skilaboð þegar ég er komin á staðinn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-p02",
+      "kind": "para",
+      "title": "Before My Summer Leave",
+      "native": [
+        "Sæl Hildur, ég fer í sumarfrí á mánudaginn og kem aftur eftir viku.",
+        "Ég er búin að klára tilboðið fyrir nýja viðskiptavininn á Egilsstöðum.",
+        "Þú finnur bæði tilboðið og verðlistann í sameiginlegu möppunni okkar á Teams.",
+        "Aron sér um að senda reikninginn þegar pöntunin hefur verið staðfest.",
+        "Geturðu fylgst með sameiginlega pósthólfinu og svarað því sem kemur inn?",
+        "Það þarf líka að staðfesta afhendinguna til Seyðisfjarðar fyrir hádegi á þriðjudaginn.",
+        "Tengiliðurinn hjá viðskiptavininum heitir Berglind og símanúmerið hennar fylgir pöntuninni.",
+        "Ég læt stutt yfirlit yfir stöðu verkefnanna fylgja þessum pósti.",
+        "Takk fyrir að taka þetta að þér meðan ég er í fríi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-p03",
+      "kind": "para",
+      "title": "My First Driving Lesson",
+      "native": [
+        "Ég lærði að keyra á Akureyri sumarið eftir að ég varð 17.",
+        "Kennarinn minn hét Sólveig og var alltaf með bláan kaffibolla í bílnum.",
+        "Fyrsti tíminn byrjaði á bílastæði þar sem var nánast engin umferð.",
+        "Ég stillti sætið svo langt fram að hnén snertu næstum stýrið.",
+        "Sólveig sýndi mér hvernig ég ætti að sleppa kúplingunni rólega og jafnt.",
+        "Það gekk betur þegar ég hætti að stara stöðugt niður á gírstöngina.",
+        "Síðan keyrðum við eftir Þórunnarstræti og ég mundi að nota stefnuljósin.",
+        "Þegar tímanum lauk voru lófarnir rakir og mér var orðið ansi heitt.",
+        "Ég gekk samt brosandi heim og sagði öllum frá fyrsta ökutímanum mínum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-p04",
+      "kind": "para",
+      "title": "Sunday Coffee at Grandma's",
+      "native": [
+        "Svona lögum við uppáhellt kaffi hjá ömmu í Hafnarfirði á sunnudögum.",
+        "Byrjaðu á að fylla könnuna af köldu vatni að merkinu fyrir 6 bolla.",
+        "Helltu vatninu í vatnshólfið og settu síðan hreina könnuna undir trektina.",
+        "Settu pappírssíu í trektina og athugaðu að hún sitji alveg rétt.",
+        "Mældu 6 sléttfullar mæliskeiðar af möluðu kaffi og settu í síuna.",
+        "Lokaðu lokinu og kveiktu á vélinni með takkanum sem er framan á.",
+        "Bíddu þar til kaffið er hætt að renna áður en þú tekur könnuna.",
+        "Helltu kaffinu á hitabrúsa svo það haldist heitt meðan við leggjum á borð.",
+        "Settu fram mjólk og kleinur, þá er allt tilbúið fyrir gestina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-p05",
+      "kind": "para",
+      "title": "Dinner in Stykkishólmur",
+      "native": [
+        "Ég fór á Narfeyrarstofu í Stykkishólmi með vinkonu minni um síðustu helgi.",
+        "Við sátum við gluggann og horfðum á gömlu húsin hinum megin.",
+        "Ég valdi fisk dagsins með kartöflum, en hún fékk sér fiskisúpu.",
+        "Fiskurinn var alveg mátulega eldaður og sósan yfirgnæfði ekki bragðið af honum.",
+        "Vinkona mín hrósaði súpunni og brauðinu sem kom volgt á borðið.",
+        "Það tók samt svolítinn tíma að fá matinn, þótt staðurinn væri hálftómur.",
+        "Þjónninn var hins vegar almennilegur og kom sjálfur að útskýra biðina.",
+        "Mér fannst verðið aðeins hátt miðað við hvað skammturinn var lítill.",
+        "Ég myndi samt alveg fara aftur, en kannski frekar við sérstakt tækifæri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-p06",
+      "kind": "para",
+      "title": "Planning My School Application",
+      "native": [
+        "Ég ætla að skoða 3 námsbrautir í Borgarholtsskóla í Grafarvogi fyrir haustið.",
+        "Ég stefni á að senda umsóknina 20. maí 2027, helst fyrir hádegi.",
+        "Ég ætla að prenta út einkunnirnar 17. maí og fara yfir þær með mömmu.",
+        "Ég ætla að hitta námsráðgjafa skólans 18. maí klukkan 10:30.",
+        "Ég legg af stað klukkan 9:45 svo ég hafi tíma til að finna stofuna.",
+        "Það eru um 6 kílómetrar í skólann, svo ég tek strætó.",
+        "Ég tek með mér 2.500 krónur fyrir hádegismat og eitthvað að drekka.",
+        "Á fimmtudaginn vista ég svo afrit af umsókninni með hinum skjölunum.",
+        "Ef ég fæ ekki svar fyrir 10. júní hringi ég og spyr um stöðuna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-p07",
+      "kind": "para",
+      "title": "Parcel at the Wrong Address",
+      "native": [
+        "Góðan dag, ég hringi vegna pakka sem virðist hafa farið á rangt heimilisfang.",
+        "Ég heiti Ragnheiður og bý á Austurvegi 24 á Selfossi.",
+        "Samkvæmt tilkynningunni var pakkinn afhentur á Austurvegi 26 í gær.",
+        "Myndin sem fylgdi sýnir bláa hurð, en mín er hvít.",
+        "Ég var heima allan eftirmiðdaginn og varð ekki vör við sendil.",
+        "Í pakkanum eru gönguskór sem ég ætla að nota um helgina.",
+        "Getið þið athugað hvort bílstjórinn geti sótt hann á hitt heimilisfangið?",
+        "Ég get tekið við pakkanum eftir 16:00 á morgun.",
+        "Takk fyrir að skoða málið, ég bíð þá eftir svari frá ykkur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-p08",
+      "kind": "para",
+      "title": "Grandi Through the Years",
+      "native": [
+        "Mörg gömul hús á Granda í Reykjavík hafa fengið nýtt hlutverk á síðustu árum.",
+        "Þar sem áður voru verkstæði eru nú meðal annars kaffihús og verslanir.",
+        "Á Sjóminjasafninu við Grandagarð er hægt að fræðast um sögu hafnarinnar og fólkið sem þar vann.",
+        "Margir koma líka úr öðrum hverfum til að versla í matvörubúðunum við Fiskislóð.",
+        "Enn er þó fiskvinnsla á svæðinu og ýmis önnur starfsemi tengd höfninni.",
+        "Núna er meira af fólki á ferli á Grandanum, sérstaklega í góðu veðri.",
+        "Hægt er að ganga meðfram sjónum og horfa yfir til Esjunnar.",
+        "Svæðið er orðið fjölbreyttara, en umferðin getur verið mikil á annatímum.",
+        "Þarna er því stutt á milli fiskvinnsluhúsa, kaffihúsa og verslana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s001",
+      "kind": "sentence",
+      "native": [
+        "Peysan þín er enn blaut."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s002",
+      "kind": "sentence",
+      "native": [
+        "Geturðu fært kynninguna yfir á miðvikudag í næstu viku?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s003",
+      "kind": "sentence",
+      "native": [
+        "Bensínlítrinn kostar 307 krónur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s004",
+      "kind": "sentence",
+      "native": [
+        "Jóhanna á afmæli á þriðjudaginn. Ég þarf að kaupa kort."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s005",
+      "kind": "sentence",
+      "native": [
+        "Leitaðu að myndbandi sem sýnir hvernig ég skipti um keðju á gömlu hjóli."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s006",
+      "kind": "sentence",
+      "native": [
+        "Deildu frekar hlekknum svo allir vinni í sama skjalinu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s007",
+      "kind": "sentence",
+      "native": [
+        "Vagninn stoppar handan götunnar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s008",
+      "kind": "sentence",
+      "native": [
+        "Foreldrarnir skipta með sér akstrinum á fótboltaæfingar svo enginn þurfi að keyra alla daga vikunnar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s009",
+      "kind": "sentence",
+      "native": [
+        "Stefnan var á Akranes, en förum frekar í Borgarnes."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s010",
+      "kind": "sentence",
+      "native": [
+        "Svakalega er þessi stóll óþægilegur þegar maður situr lengi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s011",
+      "kind": "sentence",
+      "native": [
+        "Hákon fékk að velja sögu í leikskólanum í dag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s012",
+      "kind": "sentence",
+      "native": [
+        "Má bjóða viðskiptavinum annan lit ef þessi klárast?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s013",
+      "kind": "sentence",
+      "native": [
+        "Buxurnar í stærð 38 eru of þröngar, fæ ég 14.990 krónur endurgreiddar á kortið?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s014",
+      "kind": "sentence",
+      "native": [
+        "Pantaðu tíma í klippingu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s015",
+      "kind": "sentence",
+      "native": [
+        "Kveiktu á vasaljósinu í símanum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s016",
+      "kind": "sentence",
+      "native": [
+        "Áskriftin kostar 3.990 krónur á mánuði eftir prufutímann."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s017",
+      "kind": "sentence",
+      "native": [
+        "Bak við gömlu sundlaugina er lítil saumastofa þar sem hægt er að stytta buxur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s018",
+      "kind": "sentence",
+      "native": [
+        "Lásasmiðurinn kemur eftir hádegi til að skipta um skrána."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s019",
+      "kind": "sentence",
+      "native": [
+        "Sindri kláraði verkefnið, eða bíddu, hann á bara eftir að skrifa nafnið sitt efst."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s020",
+      "kind": "sentence",
+      "native": [
+        "Stundum þarf maður bara rólegt kvöld einn heima til að hlaða batteríin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s021",
+      "kind": "sentence",
+      "native": [
+        "Takk fyrir pössunina, krakkarnir spyrja strax hvenær þú kemur aftur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s022",
+      "kind": "sentence",
+      "native": [
+        "Myndirnar frá vettvangsferðinni vöktu mikla lukku hjá foreldrunum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s023",
+      "kind": "sentence",
+      "native": [
+        "Við erum búin að borga fyrir bílastæðið til 17:45. Við eigum 50 mínútur eftir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s024",
+      "kind": "sentence",
+      "native": [
+        "Raðaðu kvittununum eftir dagsetningu og hentu gömlu umslögunum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s025",
+      "kind": "sentence",
+      "native": [
+        "Stilltu niðurtalningu á 12 mínútur og láttu mig vita þegar tíminn er liðinn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s026",
+      "kind": "sentence",
+      "native": [
+        "Dropbox er enn að samstilla möppuna með upptökunum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s027",
+      "kind": "sentence",
+      "native": [
+        "Ásta kemst ekki með ferjunni til Stykkishólms í kvöld, svo hún gistir hjá okkur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s028",
+      "kind": "sentence",
+      "native": [
+        "Rennilásinn á úlpunni festist alltaf."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s029",
+      "kind": "sentence",
+      "native": [
+        "Bókaðu borð fyrir fjóra, nei, við verðum víst sex."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s030",
+      "kind": "sentence",
+      "native": [
+        "Mér finnst alltaf svo notalegt að rölta um Hafnarfjörð."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s031",
+      "kind": "sentence",
+      "native": [
+        "Á morgun ætla ég í Laugardalslaug, viltu koma með og fá þér ís á eftir?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s032",
+      "kind": "sentence",
+      "native": [
+        "Samþykkt, þetta verð gengur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s033",
+      "kind": "sentence",
+      "native": [
+        "Símanúmerið hjá afgreiðslunni er 555 8062, hún lokar 16:00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s034",
+      "kind": "sentence",
+      "native": [
+        "Ég þarf að mæla breiddina á glugganum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s035",
+      "kind": "sentence",
+      "native": [
+        "Slökktu á Bluetooth svo heyrnartólin aftengist símanum mínum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s036",
+      "kind": "sentence",
+      "native": [
+        "Ólafur fær villumeldingu í hvert skipti sem hann opnar Outlook."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s037",
+      "kind": "sentence",
+      "native": [
+        "Er langt í miðbæinn?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s038",
+      "kind": "sentence",
+      "native": [
+        "Deigið þarf meiri vökva."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s039",
+      "kind": "sentence",
+      "native": [
+        "Krónan, nei, IKEA er með kertin sem mig vantar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s040",
+      "kind": "sentence",
+      "native": [
+        "Plokkfiskurinn hjá mömmu er samt miklu betri en þessi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s041",
+      "kind": "sentence",
+      "native": [
+        "Andri, ég tek með mér aukapeysu ef það verður kalt á pallinum hjá ykkur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s042",
+      "kind": "sentence",
+      "native": [
+        "Sæl Ragnheiður, hvernig gengur undirbúningurinn?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s043",
+      "kind": "sentence",
+      "native": [
+        "Rútan frá Akureyri leggur af stað 13:20 og á að vera komin til Reykjavíkur 19:45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s044",
+      "kind": "sentence",
+      "native": [
+        "Basilíkan þarf vatn annan hvern dag."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s045",
+      "kind": "sentence",
+      "native": [
+        "Finndu fljótustu leiðina að næstu hleðslustöð fyrir rafbíl."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s046",
+      "kind": "sentence",
+      "native": [
+        "Heyrist suðið líka hjá þér þegar hljóðneminn er opinn?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s047",
+      "kind": "sentence",
+      "native": [
+        "Beygðu til vinstri við ljósin."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s048",
+      "kind": "sentence",
+      "native": [
+        "Í Nettó var loksins til haframjólkin sem mér finnst best."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s049",
+      "kind": "sentence",
+      "native": [
+        "Kauptu mjólk, perur og tvö brauð, helst nýbökuð."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s050",
+      "kind": "sentence",
+      "native": [
+        "Vá, hvað teikningin er flott!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s051",
+      "kind": "sentence",
+      "native": [
+        "Hringdu þegar þú ert laus."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s052",
+      "kind": "sentence",
+      "native": [
+        "Allir 12 kassarnir skiluðu sér óskemmdir í vöruhúsið."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s053",
+      "kind": "sentence",
+      "native": [
+        "Skráning á námskeiðið hefst 6. ágúst klukkan 10:00 og það eru aðeins 24 pláss í boði."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s054",
+      "kind": "sentence",
+      "native": [
+        "Tónleikarnir í Hörpu eru á sunnudaginn, taktu kvöldið frá."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s055",
+      "kind": "sentence",
+      "native": [
+        "Taktu skjáskot af allri síðunni og vistaðu það."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s056",
+      "kind": "sentence",
+      "native": [
+        "Arna gleymdi lykilorðinu sínu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s057",
+      "kind": "sentence",
+      "native": [
+        "Þarna kemur frændi minn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s058",
+      "kind": "sentence",
+      "native": [
+        "Krakkarnir vilja vera fremst í skrúðgöngunni á sumardaginn fyrsta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s059",
+      "kind": "sentence",
+      "native": [
+        "Eigum við að prófa ramen eða sjóða bara núðlur heima?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s060",
+      "kind": "sentence",
+      "native": [
+        "Fyrirgefðu hvað ég svara seint."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s061",
+      "kind": "sentence",
+      "native": [
+        "Freyja, nennirðu að flétta hárið á mér fyrir ballið?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s062",
+      "kind": "sentence",
+      "native": [
+        "Gaman að heyra frá ykkur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s063",
+      "kind": "sentence",
+      "native": [
+        "Miðarnir okkar eru í röð 7, sæti 18 og 19."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s064",
+      "kind": "sentence",
+      "native": [
+        "Kvittunin þarf að fylgja skónum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s065",
+      "kind": "sentence",
+      "native": [
+        "Hvernig verður veðrið á Egilsstöðum um næstu helgi?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s066",
+      "kind": "sentence",
+      "native": [
+        "Nýja appið heitir Auðkenni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s067",
+      "kind": "sentence",
+      "native": [
+        "Förum frekar gangandi, það er hvergi hægt að leggja."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s068",
+      "kind": "sentence",
+      "native": [
+        "Menningarnótt væri enn skemmtilegri ef við þyrftum ekki að eyða svona löngum tíma í biðröðum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s069",
+      "kind": "sentence",
+      "native": [
+        "Heyrðu, átti veggurinn að vera grænn eða ljósgrár?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s070",
+      "kind": "sentence",
+      "native": [
+        "Núna skil ég betur hvað þú meintir, þótt mér hafi fundist það skrítið fyrst."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s071",
+      "kind": "sentence",
+      "native": [
+        "Úps, sundpokinn varð eftir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s072",
+      "kind": "sentence",
+      "native": [
+        "Sveinn getur sýnt lærlingnum hvernig við stillum sögina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s073",
+      "kind": "sentence",
+      "native": [
+        "Rafhlaðan er komin niður í 8%."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s074",
+      "kind": "sentence",
+      "native": [
+        "Ég á að fara með hjólið í viðgerð klukkan 11:30 á föstudaginn. Skráðu það."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s075",
+      "kind": "sentence",
+      "native": [
+        "Hækkaðu hljóðið aðeins."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s076",
+      "kind": "sentence",
+      "native": [
+        "Tómas notar spjaldtölvu á verkstæðinu til að sýna viðskiptavinum hvernig skáparnir líta út í mismunandi litum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s077",
+      "kind": "sentence",
+      "native": [
+        "Leigubíllinn bíður hinum megin við torgið með skottið opið."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s078",
+      "kind": "sentence",
+      "native": [
+        "Undir vaskinum er laus tenging sem þarf að herða áður en við notum kranann aftur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s079",
+      "kind": "sentence",
+      "native": [
+        "Nei, ég meinti appelsínugulu töskuna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s080",
+      "kind": "sentence",
+      "native": [
+        "Æfingin skilar sér, þó þú takir ekki eftir framförunum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s081",
+      "kind": "sentence",
+      "native": [
+        "Geymdu smá mat handa mér."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s082",
+      "kind": "sentence",
+      "native": [
+        "Ásdís, viltu renna yfir glærurnar áður en þær fara til viðskiptavinarins seinna í dag?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s083",
+      "kind": "sentence",
+      "native": [
+        "Dagný sækir sófann á Grettisgötu 26 eftir 18:30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s084",
+      "kind": "sentence",
+      "native": [
+        "Kannaðu hvort Húsasmiðjan eigi hvíta hnúða á skápana áður en við málum eldhúsið."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s085",
+      "kind": "sentence",
+      "native": [
+        "Vísaðu mér leiðina að Perlunni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s086",
+      "kind": "sentence",
+      "native": [
+        "Veistu hvort hægt sé að endurheimta eytt skjal, eða þarf ég að byrja alveg upp á nýtt?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s087",
+      "kind": "sentence",
+      "native": [
+        "Elín bíður við hliðið."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s088",
+      "kind": "sentence",
+      "native": [
+        "Ætli það rigni í nótt?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s089",
+      "kind": "sentence",
+      "native": [
+        "Sorrí, ég ætlaði að prenta báðum megin, ekki einhliða."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s090",
+      "kind": "sentence",
+      "native": [
+        "Þúsund þakkir fyrir hjálpina!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s091",
+      "kind": "sentence",
+      "native": [
+        "Loksins sofnaði litli gaurinn, svo nú fæ ég kaffið mitt."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s092",
+      "kind": "sentence",
+      "native": [
+        "Kolbrún, hentar þér að taka hádegisvaktina í staðinn fyrir mig?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s093",
+      "kind": "sentence",
+      "native": [
+        "Uppskriftin miðast við 350 grömm af hveiti og 4 egg."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s094",
+      "kind": "sentence",
+      "native": [
+        "Frysta þarf afganginn af lasanjanu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s095",
+      "kind": "sentence",
+      "native": [
+        "Lestu upp nýjustu skilaboðin frá henni Sigríði."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s096",
+      "kind": "sentence",
+      "native": [
+        "Excel reiknar þetta vitlaust."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s097",
+      "kind": "sentence",
+      "native": [
+        "Afgreiðslan er bakdyramegin, rétt hjá litla bílastæðinu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s098",
+      "kind": "sentence",
+      "native": [
+        "Tannlæknirinn á lausan tíma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s099",
+      "kind": "sentence",
+      "native": [
+        "Ha, á Daði kanínu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s100",
+      "kind": "sentence",
+      "native": [
+        "Katla, þú stóðst þig ótrúlega vel í viðtalinu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s101",
+      "kind": "sentence",
+      "native": [
+        "Næst þegar við setjum upp tjald skaltu minna mig á að lesa leiðbeiningarnar fyrst."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s102",
+      "kind": "sentence",
+      "native": [
+        "Hildur bað um að fá vöruna senda beint á Ísafjörð."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s103",
+      "kind": "sentence",
+      "native": [
+        "Gildir 75 mínútna miðinn líka á leið 15?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s104",
+      "kind": "sentence",
+      "native": [
+        "Áður en við leggjum af stað til Húsavíkur þarf að athuga opnunartímann á safninu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s105",
+      "kind": "sentence",
+      "native": [
+        "Sýndu mér myndirnar sem ég tók síðasta sumar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s106",
+      "kind": "sentence",
+      "native": [
+        "Fjarstýringin er týnd, notum bara takkann á skjávarpanum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s107",
+      "kind": "sentence",
+      "native": [
+        "Færðu þig aðeins framar svo barnavagninn komist framhjá."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s108",
+      "kind": "sentence",
+      "native": [
+        "Embla þarf að skila lestrarbókinni sinni á morgun."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s109",
+      "kind": "sentence",
+      "native": [
+        "Skildu hurðina eftir opna, eða nei, lokaðu henni svo kötturinn fari ekki inn í þvottahúsið."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s110",
+      "kind": "sentence",
+      "native": [
+        "Mig langar að heyra hvernig fyrsta skóladagurinn gekk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s111",
+      "kind": "sentence",
+      "native": [
+        "Launaseðlarnir eru komnir inn, en yfirvinnuna vantar enn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s112",
+      "kind": "sentence",
+      "native": [
+        "Skilafresturinn rennur út föstudaginn 23. október klukkan 15:00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s113",
+      "kind": "sentence",
+      "native": [
+        "Gömlu málningardósirnar fara í Sorpu, en pappakassana þarf að brjóta saman áður en þeim er hent."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s114",
+      "kind": "sentence",
+      "native": [
+        "Hvenær lokar kaffihúsið í Norræna húsinu í dag?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s115",
+      "kind": "sentence",
+      "native": [
+        "Gestirnir komast inn á þráðlausa netið með kóðanum sem stendur aftan á beininum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s116",
+      "kind": "sentence",
+      "native": [
+        "Systir mín flytur í næstu blokk eftir páska."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s117",
+      "kind": "sentence",
+      "native": [
+        "Þessi blóm eru handa brúðhjónunum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s118",
+      "kind": "sentence",
+      "native": [
+        "Ókei, þá sleppum við eftirréttinum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s119",
+      "kind": "sentence",
+      "native": [
+        "Við verðum aðeins sein. Hundurinn neitar að fara út."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s120",
+      "kind": "sentence",
+      "native": [
+        "Vegna viðgerða verður skrifstofan í Borgartúni lokuð á fimmtudag, svo við vinnum öll heima."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s121",
+      "kind": "sentence",
+      "native": [
+        "Þvottavélin tekur 7 kíló."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s122",
+      "kind": "sentence",
+      "native": [
+        "Minntu mig á að endurnýja bókasafnskortið fyrir fimmtudaginn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s123",
+      "kind": "sentence",
+      "native": [
+        "Get ég notað venjulega pottamold fyrir orkídeu eða þarf ég að kaupa sérstaka blöndu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s124",
+      "kind": "sentence",
+      "native": [
+        "Lagið heldur áfram á Spotify þótt ég opni annað app."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s125",
+      "kind": "sentence",
+      "native": [
+        "Rósa vinnur á bókasafninu í Kópavogi á þriðjudögum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s126",
+      "kind": "sentence",
+      "native": [
+        "Vantar einhvern far á ættarmótið á Laugarvatni um helgina?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s127",
+      "kind": "sentence",
+      "native": [
+        "Pakkið niður stígvélum, regnbuxum og nestisboxi og látið sjónaukann fylgja ef hann kemst fyrir."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s128",
+      "kind": "sentence",
+      "native": [
+        "Mamma fann húfuna þína undir sófanum og kemur með hana þegar hún sækir okkur á Selfoss."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s129",
+      "kind": "sentence",
+      "native": [
+        "Best væri að skiptast á í afgreiðslunni svo allir nái að borða í rólegheitum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s130",
+      "kind": "sentence",
+      "native": [
+        "Þorskhnakkinn kostaði 4.290 krónur kílóið, en ég borgaði 6.435 krónur fyrir eitt og hálft kíló."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s131",
+      "kind": "sentence",
+      "native": [
+        "Hættu við prufuáskriftina áður en næsta greiðsla fer af kortinu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s132",
+      "kind": "sentence",
+      "native": [
+        "Hvar finn ég leiðbeiningar til að tengja þennan prentara?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s133",
+      "kind": "sentence",
+      "native": [
+        "Þarf samþykki frá yfirmanni til að setja upp forritið?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s134",
+      "kind": "sentence",
+      "native": [
+        "Katrín, eigum við að borða saman á Laundromat?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s135",
+      "kind": "sentence",
+      "native": [
+        "Sækjum kjólinn í hreinsunina áður en hún lokar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s136",
+      "kind": "sentence",
+      "native": [
+        "Afsakið, er þessi klefi laus?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s137",
+      "kind": "sentence",
+      "native": [
+        "Nennirðu að sækja pakkann minn á leiðinni úr vinnunni?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s138",
+      "kind": "sentence",
+      "native": [
+        "Endilega látið vita hvort þið komist á vinnustofuna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s139",
+      "kind": "sentence",
+      "native": [
+        "Herbergið okkar er númer 8."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s140",
+      "kind": "sentence",
+      "native": [
+        "Athugaðu loftið í dekkjunum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s141",
+      "kind": "sentence",
+      "native": [
+        "Opnaðu myndavélina fyrir mig."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s142",
+      "kind": "sentence",
+      "native": [
+        "Fundarherbergið í Grósku er frátekið fyrir viðtalið á Zoom."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s143",
+      "kind": "sentence",
+      "native": [
+        "Jónas bauðst til að skutla afa í Garðabæ, en hann vill frekar hjóla sjálfur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s144",
+      "kind": "sentence",
+      "native": [
+        "Fæ ég betra verð ef ég kaupi bæði?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s145",
+      "kind": "sentence",
+      "native": [
+        "Fer glerið í þennan gám?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s146",
+      "kind": "sentence",
+      "native": [
+        "Hittumst við aðalinnganginn í Smáralind eftir korter."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s147",
+      "kind": "sentence",
+      "native": [
+        "Bjarni sér um móttöku nýju starfsmannanna á mánudaginn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s148",
+      "kind": "sentence",
+      "native": [
+        "Handfarangurinn má vega 10 kíló en minn er 9."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s149",
+      "kind": "sentence",
+      "native": [
+        "Þegar nýja uppþvottavélin kemur þarf ég að vera heima svo hægt sé að tengja hana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s150",
+      "kind": "sentence",
+      "native": [
+        "Spilaðu eitthvað með Ásgeiri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s151",
+      "kind": "sentence",
+      "native": [
+        "Snertiskjárinn virkar með hönskum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s152",
+      "kind": "sentence",
+      "native": [
+        "Úti við bensínstöðina liggur stígur niður að sjónum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s153",
+      "kind": "sentence",
+      "native": [
+        "Hangikjötið má alveg vera kalt, en uppstúfurinn þarf að hitna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s154",
+      "kind": "sentence",
+      "native": [
+        "Rakel, hengdu spegilinn neðar, nei, aðeins til hægri."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s155",
+      "kind": "sentence",
+      "native": [
+        "Þóra ætlar að baka vöfflur ef einhverjir nenna að koma."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s156",
+      "kind": "sentence",
+      "native": [
+        "Viðhengið vantaði í síðasta póst."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s157",
+      "kind": "sentence",
+      "native": [
+        "Vekjarinn hringir klukkan 06:45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s158",
+      "kind": "sentence",
+      "native": [
+        "Þrífðu síuna í þurrkaranum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s159",
+      "kind": "sentence",
+      "native": [
+        "Hvað kostar far með Herjólfi fyrir einn fullorðinn?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s160",
+      "kind": "sentence",
+      "native": [
+        "Aftengdu músina og prófaðu aftur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s161",
+      "kind": "sentence",
+      "native": [
+        "Jakkinn passar, en ég vil frekar gráan, þennan þarna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s162",
+      "kind": "sentence",
+      "native": [
+        "Ég er komin heim."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s163",
+      "kind": "sentence",
+      "native": [
+        "Góða ferð á ráðstefnuna!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s164",
+      "kind": "sentence",
+      "native": [
+        "Bakaríið á Suðurgötu 14 opnar klukkan 07:30 á laugardögum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s165",
+      "kind": "sentence",
+      "native": [
+        "Saumavélinni þarf að skila til Helgu fyrir helgi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s166",
+      "kind": "sentence",
+      "native": [
+        "Af hverju fer fartölvan alltaf í dvala þegar ég loka lokinu á henni?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s167",
+      "kind": "sentence",
+      "native": [
+        "Bíddu, virkar lyftan ekki?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s168",
+      "kind": "sentence",
+      "native": [
+        "Sendu mynd af hillunni áður en þú kaupir hana."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s169",
+      "kind": "sentence",
+      "native": [
+        "Netið datt út hjá okkur en virkar aftur núna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s170",
+      "kind": "sentence",
+      "native": [
+        "Forhitaðu ofninn í 180 gráður og smyrðu tvö mót."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s171",
+      "kind": "sentence",
+      "native": [
+        "Ekki gleyma að taka fiskinn úr frystinum í kvöld."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s172",
+      "kind": "sentence",
+      "native": [
+        "Áttu nokkuð hleðslutæki sem ég get fengið lánað í kvöld?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s173",
+      "kind": "sentence",
+      "native": [
+        "Unnur, ég get tekið við næsta viðskiptavini á stofunni svo þú náir að klára litunina."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s174",
+      "kind": "sentence",
+      "native": [
+        "Leikurinn endaði 3 gegn 2."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s175",
+      "kind": "sentence",
+      "native": [
+        "Bættu tannkremi á innkaupalistann."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s176",
+      "kind": "sentence",
+      "native": [
+        "Þú ræður tónlistinni í bílnum."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s177",
+      "kind": "sentence",
+      "native": [
+        "Væri hægt að taka mig af þessum póstlista, þar sem ég sinni þessu verkefni ekki lengur?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s178",
+      "kind": "sentence",
+      "native": [
+        "Afslátturinn er 35% út vikuna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s179",
+      "kind": "sentence",
+      "native": [
+        "Gítarinn þarf nýja strengi áður en námskeiðið byrjar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s180",
+      "kind": "sentence",
+      "native": [
+        "Komið þið með spil í bústaðinn um helgina?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s181",
+      "kind": "sentence",
+      "native": [
+        "Davíð staðfesti að ljósmyndarinn mæti í myndatökuna eftir helgi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s182",
+      "kind": "sentence",
+      "native": [
+        "Sólveig verður 28 ára þann 16. september."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s183",
+      "kind": "sentence",
+      "native": [
+        "Vigdís fær aukalykilinn að hjólageymslunni þegar hann er tilbúinn."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s184",
+      "kind": "sentence",
+      "native": [
+        "Ryksugan má alveg bíða."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s185",
+      "kind": "sentence",
+      "native": [
+        "Ullarsokkarnir kosta 2.790 krónur."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s186",
+      "kind": "sentence",
+      "native": [
+        "Erna bauð okkur í morgunmat á laugardaginn, ertu til?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s187",
+      "kind": "sentence",
+      "native": [
+        "Passaðu að færa 120.000 krónur af launareikningnum yfir á sparnaðarreikninginn þann 1. næsta mánaðar."
+      ],
+      "roman": null
+    },
+    {
+      "id": "is-s188",
+      "kind": "sentence",
+      "native": [
+        "Það var svo troðið í strætó að ég ákvað að labba frekar til þín."
+      ],
+      "roman": null
+    }
+  ]
+}

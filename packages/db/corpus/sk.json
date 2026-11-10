@@ -1,0 +1,1667 @@
+{
+  "lang": "sk",
+  "starter": [
+    "sk-s106",
+    "sk-s006",
+    "sk-s122",
+    "sk-s157",
+    "sk-s175",
+    "sk-s099",
+    "sk-s093",
+    "sk-s069",
+    "sk-s107",
+    "sk-s158",
+    "sk-s028",
+    "sk-s089",
+    "sk-p05",
+    "sk-s080",
+    "sk-s095",
+    "sk-s010",
+    "sk-s058",
+    "sk-s046",
+    "sk-s079",
+    "sk-s004",
+    "sk-s032",
+    "sk-s180",
+    "sk-s085",
+    "sk-s141",
+    "sk-s039",
+    "sk-p08",
+    "sk-s035",
+    "sk-s086",
+    "sk-s090",
+    "sk-s088",
+    "sk-s001",
+    "sk-s014",
+    "sk-s131",
+    "sk-s098",
+    "sk-s048",
+    "sk-s137",
+    "sk-s040",
+    "sk-s092",
+    "sk-p06",
+    "sk-s119",
+    "sk-s031",
+    "sk-s066",
+    "sk-s020",
+    "sk-s027",
+    "sk-s036",
+    "sk-s034",
+    "sk-s165",
+    "sk-s060",
+    "sk-s024",
+    "sk-s075",
+    "sk-s110",
+    "sk-s033"
+  ],
+  "items": [
+    {
+      "id": "sk-p01",
+      "kind": "para",
+      "title": "Last Night's Hockey Match",
+      "native": [
+        "Včera sme ten hokej pozerali všetci u Miša v Ružinove.",
+        "Aj teta Zuzka prišla, hoci inokedy ju šport vôbec nezaujíma.",
+        "Mišo nachystal chlebíčky a na stole stála veľká fľaša kofoly.",
+        "Po prvom góle Slovana sme počuli jasot aj zo susedného bytu.",
+        "Košice potom vyrovnali a dedko od nervozity prestal jesť svoj chlebíček.",
+        "V poslednej tretine sme už sedeli úplne na kraji gauča.",
+        "Ten rozhodujúci gól som skoro zmeškal, lebo som práve niesol prázdne taniere.",
+        "Mišo mi ho našťastie pustil zo záznamu hneď po záverečnom hvizde.",
+        "Škoda, že si neprišiel, nabudúce ti pri televízore určite necháme miesto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-p02",
+      "kind": "para",
+      "title": "Handover Before My Leave",
+      "native": [
+        "Dobrý deň, pani Kollárová, pred dovolenkou Vám posielam prehľad rozpracovaných úloh.",
+        "Podklady pre klienta z Trenčína nájdete v spoločnom priečinku medzi cenovými ponukami.",
+        "Najnovšia verzia rozpočtu už obsahuje aj dopravu a montáž nových políc.",
+        "Od dodávateľa ešte čakáme potvrdenie, či vie všetko priviezť vo štvrtok.",
+        "Prosím, zavolajte mu zajtra ráno a dohodnutý čas zapíšte do kalendára.",
+        "Klientovi som sľúbil hotovú ponuku najneskôr v stredu do 14:00.",
+        "Ak bude treba upraviť ceny, obráťte sa na kolegu Martina.",
+        "Prístup k objednávkam Vám dnes nastaví naša kolegyňa Zora z účtárne.",
+        "Vraciam sa budúci piatok, dovtedy pracovný telefón ani e-mail kontrolovať nebudem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-p03",
+      "kind": "para",
+      "title": "Learning to Ride",
+      "native": [
+        "Na bicykli som sa učila jazdiť až počas leta v Žiline.",
+        "Otec ma vzal k vodnému dielu, kde býva ráno málo ľudí.",
+        "Požičal mi mamin modrý bicykel a najprv mi trochu znížil sedadlo.",
+        "Na hlave som mala prilbu a vo vrecku kľúče od auta.",
+        "Spočiatku som stále pozerala pod predné koleso a kŕčovito zvierala riadidlá.",
+        "Otec mi držal sedadlo a bežal vedľa mňa po rovnom cyklochodníku.",
+        "Keď ho pustil, chvíľu som si vôbec nevšimla, že idem sama.",
+        "Zastavila som až pri lavičke, kde sa na slnku vyhrieval jazvečík.",
+        "Cestou domov sme si za odmenu kúpili zmrzlinu na Mariánskom námestí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-p04",
+      "kind": "para",
+      "title": "Our Rules for Prší",
+      "native": [
+        "Prší u nás hráme s 32 mariášovými kartami.",
+        "Najprv každému rozdaj 4 karty a zvyšok polož obrázkami nadol.",
+        "Vrchnú kartu otoč a polož vedľa balíčka. Na ňu budete postupne ukladať ďalšie karty.",
+        "Keď si na rade, vylož kartu rovnakej farby alebo rovnakej hodnoty.",
+        "Ak nemáš vhodnú kartu, potiahni si jednu z balíčka. Potom je na rade ďalší hráč.",
+        "Po sedmičke ďalší hráč potiahne dve karty a stojí, po ese iba stojí.",
+        "Horníkom môžeš zmeniť farbu, stačí ho vyložiť a novú farbu nahlas oznámiť.",
+        "Keď ti zostane posledná karta, povedz prší, aby to všetci počuli.",
+        "Vyhráva ten, kto sa ako prvý zbaví všetkých svojich kariet."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-p05",
+      "kind": "para",
+      "title": "My Circuit Training Class",
+      "native": [
+        "Na kruhový tréning na Fončorde chodím zatiaľ len druhý mesiac.",
+        "Najviac mi vyhovuje menšia skupina, kde sa človek necíti stratený.",
+        "Trénerka Lenka vysvetľuje cviky zrozumiteľne a všimne si aj drobné chyby.",
+        "Hudbu by som trochu stíšila, občas cez ňu nepočuť pokyny.",
+        "Šatňa je síce malá, ale po večernej hodine býva čistá.",
+        "Za jeden vstup platím 8 €, čo je celkom rozumná cena.",
+        "Po práci sa mi tam niekedy vôbec nechce, poznáš to.",
+        "Domov však odchádzam s čistejšou hlavou a príjemne unavenými nohami.",
+        "Ak chceš začať cvičiť bez zbytočného predvádzania, toto miesto odporúčam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-p06",
+      "kind": "para",
+      "title": "Planning Our Team Retreat",
+      "native": [
+        "Tímový výjazd do Modry by sme mohli začať 18. júna.",
+        "Vrátime sa 19. júna po spoločných raňajkách.",
+        "Z Trnavy vyrazíme o 8:30 a pôjdeme rovno na ubytovanie.",
+        "Pre 12 ľudí rezervujem 6 dvojlôžkových izieb neďaleko Zochovej chaty.",
+        "Noc s raňajkami vychádza na 48 € za osobu.",
+        "Na spoločný obed si odložme ďalších 15 € na každého.",
+        "Pracovnú časť ukončíme o 15:00, potom môžeme vyraziť do lesa.",
+        "Vyberiem nenáročný okruh dlhý 5 kilometrov, nech sa pridajú všetci.",
+        "Účasť mi potvrďte do piatka, nech môžem včas objednať izby."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-p07",
+      "kind": "para",
+      "title": "Reporting Internet Dropouts",
+      "native": [
+        "Dobrý deň, volám, lebo nám v byte opakovane vypadáva internet.",
+        "Bývam na Solivare v Prešove a pripojenie vypadáva najmä večer.",
+        "Za posledné 3 dni sa spojenie prerušilo aspoň desaťkrát.",
+        "Router som už reštartoval a skontroloval som aj všetky káble.",
+        "Internet vypadáva na notebooku aj na telefóne, nielen pri videohovoroch.",
+        "Môžete, prosím, preveriť, či nejde o poruchu na Vašej strane?",
+        "Ak bude potrebná návšteva technika, zajtra som doma po 16:00.",
+        "Prosím, zavolajte mi vopred, aby som Vás počkal pri vchode.",
+        "Ďakujem za pomoc. Spoľahlivý internet potrebujem každý deň na prácu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-p08",
+      "kind": "para",
+      "title": "A Visit to Miletička",
+      "native": [
+        "Bratislavské trhovisko na Miletičovej ulici poznajú domáci najmä ako Miletičku.",
+        "Pri nákupe sa tu môžete aj porozprávať s predajcami.",
+        "V stánkoch predávajú sezónnu zeleninu, ovocie, rezané kvety aj sadenice.",
+        "Na jar si tu ľudia kupujú priesady paradajok, v lete zase marhule.",
+        "Predajcovia zvyknú poradiť, ktoré jablká sa hodia do koláča.",
+        "Ak pri nákupe vyhladnete, môžete si tu dať aj vietnamské jedlo.",
+        "Najviac ľudí tu býva v sobotu dopoludnia.",
+        "Na nákup si radšej vezmite vlastnú tašku aj hotovosť.",
+        "Miletička má stále svoju atmosféru, aj keď sú okolité ulice rušné."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s001",
+      "kind": "sentence",
+      "native": [
+        "Tvoj kocúr mi obsadil kreslo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s002",
+      "kind": "sentence",
+      "native": [
+        "Zásielku pre pobočku v Prešove zatiaľ nenakladajte, chýba nám ešte jedna krabica s baliacim papierom."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s003",
+      "kind": "sentence",
+      "native": [
+        "Poradu presuň na štvrtok 19. 11. o 9:30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s004",
+      "kind": "sentence",
+      "native": [
+        "Ulož mi recept na bryndzové pirohy medzi obľúbené."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s005",
+      "kind": "sentence",
+      "native": [
+        "Vyhľadaj návod, ako pripojiť bezdrôtové slúchadlá k notebooku, keď ich nevidím v zozname dostupných zariadení."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s006",
+      "kind": "sentence",
+      "native": [
+        "Tento link už nefunguje."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s007",
+      "kind": "sentence",
+      "native": [
+        "S Alenou sa stretneme pri vchode do Eurovey."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s008",
+      "kind": "sentence",
+      "native": [
+        "Tomášovi objednám na promócie tortu bez orechov, ale najprv sa ho opýtam na obľúbenú príchuť."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s009",
+      "kind": "sentence",
+      "native": [
+        "Stretneme sa v Martine, nie, vo Vrútkach pri stanici."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s010",
+      "kind": "sentence",
+      "native": [
+        "Nevešaj hlavu, nabudúce už tú skúšku určite zvládneš."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s011",
+      "kind": "sentence",
+      "native": [
+        "Lukáš už našiel okuliare, celý čas ich mal na hlave."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s012",
+      "kind": "sentence",
+      "native": [
+        "Ďakujem Vám za rýchlu odpoveď."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s013",
+      "kind": "sentence",
+      "native": [
+        "Včera som odplával 750 metrov za 22 minút."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s014",
+      "kind": "sentence",
+      "native": [
+        "Lístky na koncert v Piešťanoch si kúpim po výplate."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s015",
+      "kind": "sentence",
+      "native": [
+        "Kedy zatvára plaváreň na Pasienkoch cez prázdniny?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s016",
+      "kind": "sentence",
+      "native": [
+        "Skús prepnúť klávesnicu, teraz píšeš bez diakritiky."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s017",
+      "kind": "sentence",
+      "native": [
+        "Cestou z práce sa zastavím v opravovni obuvi."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s018",
+      "kind": "sentence",
+      "native": [
+        "Lucia si na jarmoku v Skalici vybrala drevenú varechu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s019",
+      "kind": "sentence",
+      "native": [
+        "Dám si šúľance, vlastne radšej pirohy."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s020",
+      "kind": "sentence",
+      "native": [
+        "Škoda, že v Kežmarku nezostávame aspoň o deň dlhšie."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s021",
+      "kind": "sentence",
+      "native": [
+        "Pôjdeme v sobotu vlakom do Trenčína na hrad?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s022",
+      "kind": "sentence",
+      "native": [
+        "Dobrý deň, potrebujem upraviť objednávku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s023",
+      "kind": "sentence",
+      "native": [
+        "Pečieme 25 minút pri 180 stupňoch."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s024",
+      "kind": "sentence",
+      "native": [
+        "Treba kúpiť obal na tablet, najlepšie taký so stojanom."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s025",
+      "kind": "sentence",
+      "native": [
+        "Dá sa v tomto dokumente naraz nahradiť jedno slovo iným bez toho, aby sa zmenilo formátovanie?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s026",
+      "kind": "sentence",
+      "native": [
+        "Tá chyba sa objaví iba v prehliadači, ale v aplikácii objednávka prejde bez problémov."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s027",
+      "kind": "sentence",
+      "native": [
+        "Teta býva oproti cukrárni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s028",
+      "kind": "sentence",
+      "native": [
+        "Kaderníčke som odkázala, že budem meškať asi 10 minút."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s029",
+      "kind": "sentence",
+      "native": [
+        "Chcela som nahrať odkaz, ale radšej to poviem osobne."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s030",
+      "kind": "sentence",
+      "native": [
+        "Mrzí ma, že som vyrušila."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s031",
+      "kind": "sentence",
+      "native": [
+        "Prosím ťa, poleješ nám cez víkend kvety na balkóne?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s032",
+      "kind": "sentence",
+      "native": [
+        "František dnes zastupuje kolegyňu, preto schvaľovanie potrvá trochu dlhšie."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s033",
+      "kind": "sentence",
+      "native": [
+        "Izbu 216 máme rezervovanú pre 2 dospelých a dieťa."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s034",
+      "kind": "sentence",
+      "native": [
+        "Ráno si prehodím plavky do športového vaku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s035",
+      "kind": "sentence",
+      "native": [
+        "Spusti mi zvuky dažďa a zhasni svetlo v spálni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s036",
+      "kind": "sentence",
+      "native": [
+        "Mikrofón máš stále vypnutý."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s037",
+      "kind": "sentence",
+      "native": [
+        "Do Dúbravky Vás dnes nemôžem odviezť, ale kolega Šimon má v aute ešte jedno voľné miesto."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s038",
+      "kind": "sentence",
+      "native": [
+        "Máte tieto papuče aj v menšej veľkosti?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s039",
+      "kind": "sentence",
+      "native": [
+        "Knihu mi predĺžte, vlastne nie, už ju mám dočítanú."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s040",
+      "kind": "sentence",
+      "native": [
+        "Účes ti naozaj pristane."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s041",
+      "kind": "sentence",
+      "native": [
+        "Konečne sme zložili stan, ale do obalu sa nezmestí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s042",
+      "kind": "sentence",
+      "native": [
+        "Včerajší e-mail zostal bez reakcie, pripomeniem sa im popoludní."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s043",
+      "kind": "sentence",
+      "native": [
+        "Za lístok do Zvolena som zaplatila 7,80 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s044",
+      "kind": "sentence",
+      "native": [
+        "O 14:00 mám rezervovaný stôl v knižnici."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s045",
+      "kind": "sentence",
+      "native": [
+        "Stíš hudbu na polovicu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s046",
+      "kind": "sentence",
+      "native": [
+        "Platená verzia stojí 8 €, reklamy v nej nenájdeš."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s047",
+      "kind": "sentence",
+      "native": [
+        "Auto som nechala pod stromom vedľa detského ihriska."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s048",
+      "kind": "sentence",
+      "native": [
+        "Zošit zostal pod lavicou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s049",
+      "kind": "sentence",
+      "native": [
+        "Vybrala som si ten pruhovaný sveter, ale viac sa mi páči béžový, môžem si vyskúšať oba?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s050",
+      "kind": "sentence",
+      "native": [
+        "Tá kapustnica bola výborná, hneď by som si pridala."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s051",
+      "kind": "sentence",
+      "native": [
+        "Video z oslavy radšej nikomu neukazuj, lebo sestra si dodnes myslí, že viem celkom slušne tancovať."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s052",
+      "kind": "sentence",
+      "native": [
+        "Ospravedlňujem sa za oneskorené potvrdenie."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s053",
+      "kind": "sentence",
+      "native": [
+        "Do cieľa zostáva 12 kilometrov, prestávku si dáme o 11:15."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s054",
+      "kind": "sentence",
+      "native": [
+        "Ešte dnes si potrebujem pripraviť látky na šitie, aby som cez voľno mohla dokončiť sukňu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s055",
+      "kind": "sentence",
+      "native": [
+        "Otvor poslednú stiahnutú prílohu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s056",
+      "kind": "sentence",
+      "native": [
+        "Cez víkend budú v Trnave pripájať kanceláriu na optiku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s057",
+      "kind": "sentence",
+      "native": [
+        "Namiesto hlavného vchodu použi bočnú bránku pri garážach, suseda ti ju otvorí, keď zazvoníš."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s058",
+      "kind": "sentence",
+      "native": [
+        "Čerstvé jahody mali v Bille hneď vedľa hrozna."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s059",
+      "kind": "sentence",
+      "native": [
+        "Vierka, ty už odchádzaš?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s060",
+      "kind": "sentence",
+      "native": [
+        "Prekáža mi, keď niekto nechá omrvinky po celom stole."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s061",
+      "kind": "sentence",
+      "native": [
+        "Jasné, dáždnik hodím do tašky."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s062",
+      "kind": "sentence",
+      "native": [
+        "Poprosím Vás o vysvetlenie tej položky za montáž."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s063",
+      "kind": "sentence",
+      "native": [
+        "Autobus 93 má od 1. 7. nový cestovný poriadok."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s064",
+      "kind": "sentence",
+      "native": [
+        "Pridaj do zoznamu ovsené vločky."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s065",
+      "kind": "sentence",
+      "native": [
+        "Aké počasie bude zajtra popoludní na Donovaloch?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s066",
+      "kind": "sentence",
+      "native": [
+        "Dá sa pokladňa nastaviť tak, aby zákazník dostal účtenku e-mailom a nie na papieri?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s067",
+      "kind": "sentence",
+      "native": [
+        "Odtiaľto choď popri potoku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s068",
+      "kind": "sentence",
+      "native": [
+        "Poobede hlásia prehánky, preto na folklórny festival vo Východnej radšej zbalím pršiplášte pre celú rodinu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s069",
+      "kind": "sentence",
+      "native": [
+        "Prepáč, myslela som ľavú zásuvku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s070",
+      "kind": "sentence",
+      "native": [
+        "Možno sme si naložili priveľa, ale som rada, že sme sa do toho pustili spolu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s071",
+      "kind": "sentence",
+      "native": [
+        "Stihneme ešte kúpanie na Zlatých pieskoch pred západom slnka?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s072",
+      "kind": "sentence",
+      "native": [
+        "Dnes už dlhšie zostať nemôžem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s073",
+      "kind": "sentence",
+      "native": [
+        "Dedko dnes oslavuje 74 rokov."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s074",
+      "kind": "sentence",
+      "native": [
+        "Potrebujem si zopakovať násobenie zlomkov bez pomoci kalkulačky."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s075",
+      "kind": "sentence",
+      "native": [
+        "Zväčši písmo na obrazovke, bez okuliarov ho neprečítam."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s076",
+      "kind": "sentence",
+      "native": [
+        "Dušan, vieš mi ukázať, ako zdieľať obrazovku v Zoome?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s077",
+      "kind": "sentence",
+      "native": [
+        "Odboč za poštou doprava, pekáreň uvidíš po ľavej ruke."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s078",
+      "kind": "sentence",
+      "native": [
+        "Susedovi vrátim rebrík hneď po natretí plota."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s079",
+      "kind": "sentence",
+      "native": [
+        "Pri boxe stačí zadať kód alebo potrebujem aj aplikáciu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s080",
+      "kind": "sentence",
+      "native": [
+        "Vďaka za odvoz, Gejza."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s081",
+      "kind": "sentence",
+      "native": [
+        "Ktorý uterák je vlastne tvoj?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s082",
+      "kind": "sentence",
+      "native": [
+        "Denisa, môžeme si prejsť rozdelenie úloh ešte pred víkendom?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s083",
+      "kind": "sentence",
+      "native": [
+        "Vlak číslo 604 odchádza z Popradu o 14:36."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s084",
+      "kind": "sentence",
+      "native": [
+        "Najneskôr do utorka si potrebujem zrušiť skúšobné predplatné, aby mi z karty nestrhli ďalšiu platbu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s085",
+      "kind": "sentence",
+      "native": [
+        "Koľko je teraz hodín?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s086",
+      "kind": "sentence",
+      "native": [
+        "Lenke sa po aktualizácii nezobrazujú upozornenia z WhatsAppu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s087",
+      "kind": "sentence",
+      "native": [
+        "Dnes pôjdem domov trolejbusom, bicykel som nechal v servise."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s088",
+      "kind": "sentence",
+      "native": [
+        "Kvapká nám kohútik v kuchyni."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s089",
+      "kind": "sentence",
+      "native": [
+        "Teda počkaj, ktorý vypínač?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s090",
+      "kind": "sentence",
+      "native": [
+        "Čím som staršia, tým viac si vážim pokojné rána, keď sa nemusím nikam ponáhľať."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s091",
+      "kind": "sentence",
+      "native": [
+        "Ak pôjdeš okolo obchodu, vezmi mlieko a banány, na tie som pri nákupe úplne zabudla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s092",
+      "kind": "sentence",
+      "native": [
+        "Kolegom z Banskej Bystrice chýba zápis z posledného rokovania."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s093",
+      "kind": "sentence",
+      "native": [
+        "Budík nastav na 6:40."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s094",
+      "kind": "sentence",
+      "native": [
+        "Večer spustím zálohovanie dokumentov."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s095",
+      "kind": "sentence",
+      "native": [
+        "Vytoč číslo pani Blažekovej."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s096",
+      "kind": "sentence",
+      "native": [
+        "Pri prihlasovaní mi vôbec neprišiel overovací kód."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s097",
+      "kind": "sentence",
+      "native": [
+        "Beáta Kováčová ma odvezie z Levoče rovno na chatu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s098",
+      "kind": "sentence",
+      "native": [
+        "Zemiakové placky obracaj až vtedy, keď majú chrumkavé okraje."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s099",
+      "kind": "sentence",
+      "native": [
+        "Platba prešla, či ešte nie?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s100",
+      "kind": "sentence",
+      "native": [
+        "Naozaj ma potešilo, že si si spomenula na moje narodeniny."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s101",
+      "kind": "sentence",
+      "native": [
+        "Prišiel nám preplatok za elektrinu, tak za tie peniaze môžeme deťom kúpiť nové korčule."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s102",
+      "kind": "sentence",
+      "native": [
+        "Pred uzávierkou dochádzky mi dajte vedieť, ktoré dni ste pracovali z domu, nech to správne zapíšem."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s103",
+      "kind": "sentence",
+      "native": [
+        "Záloha tvorí 30 % ceny."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s104",
+      "kind": "sentence",
+      "native": [
+        "Nesmiem zabudnúť nasypať škrečkovi krmivo."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s105",
+      "kind": "sentence",
+      "native": [
+        "Prelož mi túto správu z maďarčiny do slovenčiny."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s106",
+      "kind": "sentence",
+      "native": [
+        "Bluetooth mám v aute zapnutý."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s107",
+      "kind": "sentence",
+      "native": [
+        "Marek vystúpil o zastávku skôr."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s108",
+      "kind": "sentence",
+      "native": [
+        "Ľudmila prinesie na oslavu bublaninu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s109",
+      "kind": "sentence",
+      "native": [
+        "V Jednote zober krupicu, droždie a balíček maku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s110",
+      "kind": "sentence",
+      "native": [
+        "Ten koláč je trochu krivý, ale neboj sa, aj tak bude dobrý."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s111",
+      "kind": "sentence",
+      "native": [
+        "Tlačiareň už má nový toner."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s112",
+      "kind": "sentence",
+      "native": [
+        "Zľava 15 % platí iba pri nákupe nad 60 €."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s113",
+      "kind": "sentence",
+      "native": [
+        "Zapíš mi, že tento mesiac umývam spoločnú chodbu a pri upratovaní mám utrieť aj zábradlie."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s114",
+      "kind": "sentence",
+      "native": [
+        "Vypni automatické prehrávanie videí, nech mi nemíňajú dáta."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s115",
+      "kind": "sentence",
+      "native": [
+        "Zase mi zamrzol notebook."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s116",
+      "kind": "sentence",
+      "native": [
+        "So strýkom Jozefom sme sa dohodli, že ma počká pred Hornbachom a spolu vyberieme novú vŕtačku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s117",
+      "kind": "sentence",
+      "native": [
+        "Polievku ešte trochu dosoľ."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s118",
+      "kind": "sentence",
+      "native": [
+        "Naspäť, toto nebola správna stránka."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s119",
+      "kind": "sentence",
+      "native": [
+        "Nina, vyzdvihneš zajtra malého zo škôlky namiesto mňa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s120",
+      "kind": "sentence",
+      "native": [
+        "Zajtrajší hovor cez Teams stihnem až o 10:45, dovtedy budem riešiť odovzdanie zákazky s technikom."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s121",
+      "kind": "sentence",
+      "native": [
+        "Balík má 4 kilá a meria 52 centimetrov."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s122",
+      "kind": "sentence",
+      "native": [
+        "Zajtra vyzdvihnem objednávku z Martinusu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s123",
+      "kind": "sentence",
+      "native": [
+        "Kde v Košiciach si môžem dať opraviť zips na bunde?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s124",
+      "kind": "sentence",
+      "native": [
+        "Radšej počkám na tvoj feedback, nech potom nemusím prerábať celú titulnú stranu nového katalógu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s125",
+      "kind": "sentence",
+      "native": [
+        "Starkému sa lepšie nastupuje cez predné dvere autobusu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s126",
+      "kind": "sentence",
+      "native": [
+        "Pokladničný blok mám odložený v peňaženke, takže tie príliš úzke závesy môžeme ísť pokojne vymeniť."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s127",
+      "kind": "sentence",
+      "native": [
+        "Vezmeme skrutky, hmoždinky a vodováhu, ešte niečo chýba?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s128",
+      "kind": "sentence",
+      "native": [
+        "Dochádza mi batéria, ďalšie fotky pošlem až večer."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s129",
+      "kind": "sentence",
+      "native": [
+        "Overíte mi, prosím, či je zasadačka zajtra voľná?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s130",
+      "kind": "sentence",
+      "native": [
+        "Petre pošli 36,50 € za ubytovanie a do poznámky napíš pobyt od 21. 9. 2026."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s131",
+      "kind": "sentence",
+      "native": [
+        "V piatok treba odovzdať súhlas s triednym výletom."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s132",
+      "kind": "sentence",
+      "native": [
+        "Zisti mi, prosím, koľko stojí rodinná vstupenka do Bojnického zámku a či sa dá kúpiť online."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s133",
+      "kind": "sentence",
+      "native": [
+        "Heslo si radšej zmeň."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s134",
+      "kind": "sentence",
+      "native": [
+        "Suseda dnes zametá pred vchodom."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s135",
+      "kind": "sentence",
+      "native": [
+        "Rodičovské združenie presunuli do telocvične, trieda sa práve maľuje."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s136",
+      "kind": "sentence",
+      "native": [
+        "Berie tento automat aj mince?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s137",
+      "kind": "sentence",
+      "native": [
+        "Na Štrkovci je dnes krásne, poďme sa tam prejsť."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s138",
+      "kind": "sentence",
+      "native": [
+        "Stretnutie s dodávateľom v Žiline máme potvrdené na pondelok."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s139",
+      "kind": "sentence",
+      "native": [
+        "Vstupenky sú na piatok 23. 10. 2026, máme rad 5 a sedadlá 31 a 32."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s140",
+      "kind": "sentence",
+      "native": [
+        "Musím dokúpiť zubnú pastu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s141",
+      "kind": "sentence",
+      "native": [
+        "Naviguj ma k najbližšej nabíjačke pre elektromobily."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s142",
+      "kind": "sentence",
+      "native": [
+        "Fotky produktov nahrávaj rovno na firemný disk."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s143",
+      "kind": "sentence",
+      "native": [
+        "Má táto knižnica aj vchod bez schodov?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s144",
+      "kind": "sentence",
+      "native": [
+        "Vonku poriadne fúka, zapni si bundu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s145",
+      "kind": "sentence",
+      "native": [
+        "Chcel som tú dosku skrátiť, ale najprv mi ukáž, ako sa na píle nastavuje doraz."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s146",
+      "kind": "sentence",
+      "native": [
+        "Mami, už funguje kúrenie?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s147",
+      "kind": "sentence",
+      "native": [
+        "Keď dokončíš kontrolu faktúr, napíš mi do chatu, aby som ich mohla poslať účtovníčke."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s148",
+      "kind": "sentence",
+      "native": [
+        "Potrebujeme 18 fliaš vody po 1,5 litra."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s149",
+      "kind": "sentence",
+      "native": [
+        "Skôr než pôjdem vyberať nový koberec, musím zmerať obývačku a odfotiť si našu sedačku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s150",
+      "kind": "sentence",
+      "native": [
+        "Nastav časovač na 9 minút."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s151",
+      "kind": "sentence",
+      "native": [
+        "Radovan si v dielni púšťa návody z YouTube."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s152",
+      "kind": "sentence",
+      "native": [
+        "Čakám ťa pri fontáne."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s153",
+      "kind": "sentence",
+      "native": [
+        "Dali by ste mi za obe vázy lepšiu cenu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s154",
+      "kind": "sentence",
+      "native": [
+        "Stačí na ten záhon jedno vrece zeminy, či treba dve?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s155",
+      "kind": "sentence",
+      "native": [
+        "Simona, požičiaš mi na svadbu tie strieborné náušnice?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s156",
+      "kind": "sentence",
+      "native": [
+        "Súhlasím s novou verziou letáka, pokojne ju dajte vytlačiť."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s157",
+      "kind": "sentence",
+      "native": [
+        "Výťah stojí na 8. poschodí."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s158",
+      "kind": "sentence",
+      "native": [
+        "Ivete mám priniesť požičanú formu na bábovku."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s159",
+      "kind": "sentence",
+      "native": [
+        "Električka dnes obchádza celé sídlisko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s160",
+      "kind": "sentence",
+      "native": [
+        "Už som doma, všetko v pohode."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s161",
+      "kind": "sentence",
+      "native": [
+        "Prezentáciu dokončím ešte pred obedom."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s162",
+      "kind": "sentence",
+      "native": [
+        "Oprava hodiniek stojí 24 € a trvá 5 dní."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s163",
+      "kind": "sentence",
+      "native": [
+        "Zálohované fľaše vezmem pri najbližšom nákupe do Lidla."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s164",
+      "kind": "sentence",
+      "native": [
+        "Spiatočný spoj si ešte overím, nech po divadle nezostaneme stáť na zastávke až do rána."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s165",
+      "kind": "sentence",
+      "native": [
+        "Babka posiela pagáče, zastav sa po ne cestou."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s166",
+      "kind": "sentence",
+      "native": [
+        "Monika, doplníš do tabuľky aj náklady na dopravu?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s167",
+      "kind": "sentence",
+      "native": [
+        "Výdaj obedov končí o 13:45."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s168",
+      "kind": "sentence",
+      "native": [
+        "Kartóny odnesiem zajtra do zberu."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s169",
+      "kind": "sentence",
+      "native": [
+        "Krstná nás pozvala do Pezinka na čaj, pridáš sa?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s170",
+      "kind": "sentence",
+      "native": [
+        "Občerstvenie na školenie vyjde na 85 €, môžem ho objednať?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s171",
+      "kind": "sentence",
+      "native": [
+        "Adresa dielne je Jarná 28, Nitra, otvorené majú v pracovné dni od 7:00 do 16:00."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s172",
+      "kind": "sentence",
+      "native": [
+        "Do nákupného zoznamu dopíš citróny, škoricu a papier na pečenie."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s173",
+      "kind": "sentence",
+      "native": [
+        "Nechaj aj mne trochu večere."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s174",
+      "kind": "sentence",
+      "native": [
+        "Od pani Balážovej ešte potrebujeme rozmery police do predajne."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s175",
+      "kind": "sentence",
+      "native": [
+        "Zuzana príde v stredu o 17:20, stretneme sa pred kinom."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s176",
+      "kind": "sentence",
+      "native": [
+        "Pred odchodom do Banskej Štiavnice si stiahni mapu, lebo tam nemusí byť dobrý signál."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s177",
+      "kind": "sentence",
+      "native": [
+        "Počkaj s praním, ešte ti prinesiem spotené tričko."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s178",
+      "kind": "sentence",
+      "native": [
+        "Môžete mi, prosím, sprístupniť priečinok s fotkami výrobkov?"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s179",
+      "kind": "sentence",
+      "native": [
+        "Dorota, vyzdvihni nám 4 stoličky na Komenského 35 v Prievidzi, požičovňa zatvára v sobotu o 12:30."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s180",
+      "kind": "sentence",
+      "native": [
+        "Pripomeň mi vyčistiť filter vysávača."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s181",
+      "kind": "sentence",
+      "native": [
+        "Bratovi nič neprezraď, darček mu schováme do komory."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s182",
+      "kind": "sentence",
+      "native": [
+        "Vyhrali sme 3:1, konečne!"
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s183",
+      "kind": "sentence",
+      "native": [
+        "Zavolaj mi, keď budeš môcť."
+      ],
+      "roman": null
+    },
+    {
+      "id": "sk-s184",
+      "kind": "sentence",
+      "native": [
+        "Po tréningu sa trochu zdržím, lebo sme sľúbili trénerovi, že mu pomôžeme odložiť žinenky."
+      ],
+      "roman": null
+    }
+  ]
+}

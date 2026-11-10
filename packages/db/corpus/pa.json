@@ -1,0 +1,1813 @@
+{
+  "lang": "pa",
+  "starter": [
+    "pa-s025",
+    "pa-s011",
+    "pa-s092",
+    "pa-s052",
+    "pa-s091",
+    "pa-s110",
+    "pa-s107",
+    "pa-s017",
+    "pa-s014",
+    "pa-s118",
+    "pa-s015",
+    "pa-s030",
+    "pa-s143",
+    "pa-s101",
+    "pa-s141",
+    "pa-s149",
+    "pa-s006",
+    "pa-s130",
+    "pa-p01",
+    "pa-s127",
+    "pa-s046",
+    "pa-s140",
+    "pa-s133",
+    "pa-s012",
+    "pa-s065",
+    "pa-s083",
+    "pa-s129",
+    "pa-s086",
+    "pa-s013",
+    "pa-s080",
+    "pa-s004",
+    "pa-s042",
+    "pa-s109",
+    "pa-s018",
+    "pa-s034",
+    "pa-s122",
+    "pa-s020",
+    "pa-p03",
+    "pa-s078",
+    "pa-s089",
+    "pa-s048",
+    "pa-s085",
+    "pa-s113",
+    "pa-s151",
+    "pa-s005",
+    "pa-s075",
+    "pa-s051",
+    "pa-s125",
+    "pa-s061",
+    "pa-s037",
+    "pa-s135",
+    "pa-s116",
+    "pa-s050",
+    "pa-s096",
+    "pa-s028",
+    "pa-s063"
+  ],
+  "items": [
+    {
+      "id": "pa-p01",
+      "kind": "para",
+      "title": "Jasleen's Birthday Surprise",
+      "native": [
+        "ਸੁਣ, ਸ਼ਨੀਵਾਰ ਨੂੰ ਜਸਲੀਨ ਦਾ ਜਨਮਦਿਨ ਸਰਾਭਾ ਨਗਰ ਵਾਲੇ ਕੈਫ਼ੇ ਵਿੱਚ ਮਨਾਉਣਾ ਹੈ।",
+        "ਉਸਨੂੰ ਹਾਲੇ ਕੁਝ ਨਹੀਂ ਦੱਸਣਾ, ਆਪਾਂ ਸਾਰਿਆਂ ਨੇ ਉਸਨੂੰ ਸਰਪ੍ਰਾਈਜ਼ ਦੇਣਾ ਹੈ।",
+        "ਤੂੰ ਉਸਨੂੰ ਸ਼ਾਮ 6 ਵਜੇ ਉੱਥੇ ਕੌਫ਼ੀ ਪੀਣ ਦੇ ਬਹਾਨੇ ਲੈ ਆਵੀਂ।",
+        "ਮੈਂ ਤੇ ਅਮਨ ਅੱਧਾ ਘੰਟਾ ਪਹਿਲਾਂ ਪਹੁੰਚ ਕੇ ਮੇਜ਼ ਸਜਾ ਲਵਾਂਗੇ।",
+        "ਪੂਜਾ ਚਾਕਲੇਟ ਵਾਲਾ ਕੇਕ ਲਿਆਵੇਗੀ, ਕਿਉਂਕਿ ਜਸਲੀਨ ਨੂੰ ਉਹੀ ਪਸੰਦ ਹੈ।",
+        "ਕੈਫ਼ੇ ਵਾਲਿਆਂ ਨਾਲ ਗੱਲ ਹੋ ਗਈ ਹੈ, ਉਹ ਮੋਮਬੱਤੀਆਂ ਵੀ ਦੇ ਦੇਣਗੇ।",
+        "ਤੋਹਫ਼ੇ ਲਈ ਮੈਂ ਹਰਾ ਫੁਲਕਾਰੀ ਵਾਲਾ ਦੁਪੱਟਾ ਲਿਆ ਹੈ, ਕਿਉਂਕਿ ਉਸਨੂੰ ਹਰਾ ਰੰਗ ਪਸੰਦ ਹੈ।",
+        "ਬੱਸ ਤੂੰ ਸਮੇਂ ਸਿਰ ਆ ਜਾਵੀਂ, ਬਾਕੀ ਸਾਰਾ ਇੰਤਜ਼ਾਮ ਅਸੀਂ ਕਰ ਲਵਾਂਗੇ।"
+      ],
+      "roman": [
+        "Sun, Shanivaar nu Jasleen da janamdin Sarabha Nagar wale cafe vich manauna hai.",
+        "Usnu haale kujh nahi dassna, aapan saareyan ne usnu surprise dena hai.",
+        "Tu usnu shaam 6 vaje utthe coffee peen de bahaane lai aavin.",
+        "Main te Aman addha ghanta pehlan pahunch ke mez saja lavaange.",
+        "Pooja chocolate wala cake lyaavegi, kyunki Jasleen nu ohi pasand hai.",
+        "Cafe vaaleyan naal gall ho gayi hai, oh mombattiyan vi de denge.",
+        "Tohfe layi main hara phulkari wala dupatta lya hai, kyunki usnu hara rang pasand hai.",
+        "Bass tu samein sir aa jaavin, baaki saara intezaam asi kar lavaange."
+      ]
+    },
+    {
+      "id": "pa-p02",
+      "kind": "para",
+      "title": "Comparing Mohali Printing Quotes",
+      "native": [
+        "ਮੋਹਾਲੀ ਦੀਆਂ ਦੋ ਦੁਕਾਨਾਂ ਨੇ 500 ਪੈਂਫ਼ਲੈਟ ਛਾਪਣ ਦੇ ਰੇਟ ਭੇਜੇ ਹਨ।",
+        "ਖੰਨਾ ਪ੍ਰਿੰਟਰਜ਼ ਨੇ ₹3200 ਮੰਗੇ ਹਨ, ਪਰ ਡਿਜ਼ਾਈਨ ਅਸੀਂ ਤਿਆਰ ਕਰਨਾ ਹੈ।",
+        "ਸੈਣੀ ਗ੍ਰਾਫ਼ਿਕਸ ਦਾ ਰੇਟ ₹3600 ਹੈ, ਜਿਸ ਵਿੱਚ ਡਿਜ਼ਾਈਨ ਵੀ ਸ਼ਾਮਲ ਹੈ।",
+        "ਦੋਵੇਂ ਦੁਕਾਨਾਂ ਸ਼ੁੱਕਰਵਾਰ ਦੁਪਹਿਰ ਤੱਕ ਸਾਰਾ ਕੰਮ ਮੁਕਾ ਕੇ ਦੇ ਦੇਣਗੀਆਂ।",
+        "ਮੈਂ ਦੋਵਾਂ ਦੇ ਸੈਂਪਲ ਵੇਖੇ ਹਨ, ਸੈਣੀ ਵਾਲਿਆਂ ਦਾ ਕਾਗਜ਼ ਮੋਟਾ ਹੈ।",
+        "ਸਾਡੇ ਕੋਲ ਹਾਲੇ ਡਿਜ਼ਾਈਨ ਤਿਆਰ ਨਹੀਂ, ਇਸ ਲਈ ਸੈਣੀ ਵਾਲੇ ਠੀਕ ਲੱਗਦੇ ਹਨ।",
+        "ਦੋਵੇਂ ਦੁਕਾਨਾਂ ਇਹ ਸਾਮਾਨ ਸਾਡੇ ਆਫ਼ਿਸ ਤੱਕ ਮੁਫ਼ਤ ਪਹੁੰਚਾ ਦੇਣਗੀਆਂ।",
+        "ਤੁਸੀਂ ਦੁਪਹਿਰ ਤੱਕ ਆਪਣੀ ਰਾਏ ਦੱਸ ਦਿਓ, ਫਿਰ ਮੈਂ ਆਰਡਰ ਦੇ ਦਿਆਂਗਾ।"
+      ],
+      "roman": [
+        "Mohali diyan do dukaanan ne 500 pamphlet chhapan de rate bheje han.",
+        "Khanna Printers ne ₹3200 mange han, par design asi tyaar karna hai.",
+        "Saini Graphics da rate ₹3600 hai, jis vich design vi shaamal hai.",
+        "Dovein dukaanan Shukkarvaar dupehar takk saara kamm muka ke de dengiyan.",
+        "Main dovan de sample vekhe han, Saini walian da kaagaz mota hai.",
+        "Sade kol haale design tyaar nahi, is layi Saini wale theek laggde han.",
+        "Dovein dukaanan eh samaan sade office takk muft pahuncha dengiyan.",
+        "Tusi dupehar takk apni raae dass deo, phir main order de dianga."
+      ]
+    },
+    {
+      "id": "pa-p03",
+      "kind": "para",
+      "title": "A Busy Evening Without Power",
+      "native": [
+        "ਕੱਲ੍ਹ ਪਟਿਆਲੇ ਵਿੱਚ ਸ਼ਾਮ ਨੂੰ ਬੱਤੀ ਗਈ ਤਾਂ ਘਰ ਵਿੱਚ ਪੂਰੀ ਭੱਜਦੌੜ ਸੀ।",
+        "ਮਾਂ ਰਸੋਈ ਵਿੱਚ ਪਰੌਂਠੇ ਲਾਹ ਰਹੇ ਸਨ ਤੇ ਮੈਂ ਕੱਪੜੇ ਪ੍ਰੈੱਸ ਕਰ ਰਿਹਾ ਸੀ।",
+        "ਛੋਟੀ ਭੈਣ ਨੇ ਅਗਲੇ ਦਿਨ ਸਕੂਲ ਵਿੱਚ ਆਪਣਾ ਮਾਡਲ ਲੈ ਕੇ ਜਾਣਾ ਸੀ।",
+        "ਪੱਖਾ ਰੁਕਿਆ ਤਾਂ ਕੁਝ ਹੀ ਮਿੰਟਾਂ ਵਿੱਚ ਸਾਨੂੰ ਗਰਮੀ ਲੱਗਣ ਲੱਗ ਪਈ।",
+        "ਮੈਂ ਫ਼ੋਨ ਦੀ ਟਾਰਚ ਜਗਾਈ ਤੇ ਭੈਣ ਆਪਣਾ ਸਾਮਾਨ ਵਿਹੜੇ ਵਿੱਚ ਲੈ ਆਈ।",
+        "ਗੁਆਂਢੋਂ ਰੇਣੂ ਆਂਟੀ ਵੀ ਆ ਗਏ, ਉਹਨਾਂ ਕੋਲ ਹੱਥ ਵਾਲਾ ਪੱਖਾ ਸੀ।",
+        "ਅਸੀਂ ਵਿਹੜੇ ਵਿੱਚ ਬੈਠ ਕੇ ਪਰੌਂਠੇ ਖਾਧੇ ਤੇ ਭੈਣ ਦਾ ਮਾਡਲ ਵੀ ਮੁਕਾ ਲਿਆ।",
+        "ਬੱਤੀ ਇੱਕ ਘੰਟੇ ਬਾਅਦ ਆਈ, ਫਿਰ ਮੈਂ ਬਾਕੀ ਕੱਪੜੇ ਪ੍ਰੈੱਸ ਕਰ ਲਏ।"
+      ],
+      "roman": [
+        "Kall Patiale vich shaam nu batti gayi taan ghar vich poori bhajjdaur si.",
+        "Maan rasoi vich paraunthe laah rahe san te main kappre press kar riha si.",
+        "Chhoti bhain ne agle din school vich apna model lai ke jaana si.",
+        "Pakkha rukya taan kujh hi mintan vich sanu garmi laggan lagg payi.",
+        "Main phone di torch jagayi te bhain apna samaan vihre vich lai aayi.",
+        "Guaandhon Renu aunty vi aa gaye, ohna kol hatth wala pakkha si.",
+        "Asi vihre vich baith ke paraunthe khaadhe te bhain da model vi muka lya.",
+        "Batti ikk ghante baad aayi, phir main baaki kappre press kar laye."
+      ]
+    },
+    {
+      "id": "pa-p04",
+      "kind": "para",
+      "title": "Our Amritsar Morning Tea",
+      "native": [
+        "ਅੰਮ੍ਰਿਤਸਰ ਵਿੱਚ ਸਾਡੇ ਘਰ ਸਵੇਰ ਦੀ ਚਾਹ ਅਦਰਕ ਤੇ ਇਲਾਇਚੀ ਪਾ ਕੇ ਬਣਦੀ ਹੈ।",
+        "ਦੋ ਜਣਿਆਂ ਲਈ ਪਹਿਲਾਂ ਪਤੀਲੇ ਵਿੱਚ ਇੱਕ ਕੱਪ ਪਾਣੀ ਪਾ ਕੇ ਉਬਾਲੋ।",
+        "ਹੁਣ ਅਦਰਕ ਦਾ ਛੋਟਾ ਟੁਕੜਾ ਤੇ ਇੱਕ ਇਲਾਇਚੀ ਕੁੱਟ ਕੇ ਪਾਓ।",
+        "ਇੱਕ ਮਿੰਟ ਬਾਅਦ ਚਾਹ ਪੱਤੀ ਦੇ ਦੋ ਛੋਟੇ ਚਮਚੇ ਪਾ ਦਿਓ।",
+        "ਪਾਣੀ ਦਾ ਰੰਗ ਗੂੜ੍ਹਾ ਹੋ ਜਾਵੇ ਤਾਂ ਇੱਕ ਕੱਪ ਦੁੱਧ ਮਿਲਾ ਦਿਓ।",
+        "ਖੰਡ ਦੋ ਚਮਚੇ ਪਾਓ, ਜਾਂ ਆਪਣੇ ਸੁਆਦ ਮੁਤਾਬਕ ਥੋੜ੍ਹੀ ਘੱਟ ਰੱਖ ਲਓ।",
+        "ਚਾਹ ਨੂੰ ਹੌਲੀ ਅੱਗ ਉੱਤੇ ਦੋ ਮਿੰਟ ਪੱਕਣ ਦਿਓ ਤੇ ਕੋਲ ਹੀ ਖੜ੍ਹੇ ਰਹੋ।",
+        "ਜਦੋਂ ਚਾਹ ਚੰਗੀ ਤਰ੍ਹਾਂ ਉਬਲ ਜਾਵੇ ਤਾਂ ਗੈਸ ਬੰਦ ਕਰਕੇ ਕੱਪਾਂ ਵਿੱਚ ਪੁਣ ਲਓ।",
+        "ਨਾਲ ਦੋ ਮੱਠੀਆਂ ਰੱਖ ਲਓ, ਸਾਡੇ ਘਰ ਤਾਂ ਇਹੀ ਨਾਸ਼ਤਾ ਚੱਲਦਾ ਹੈ।"
+      ],
+      "roman": [
+        "Amritsar vich sade ghar saver di chaah adrak te ilaichi paa ke bandi hai.",
+        "Do janeyan layi pehlan pateele vich ikk cup paani paa ke ubaalo.",
+        "Hun adrak da chhota tukra te ikk ilaichi kutt ke pao.",
+        "Ikk minute baad chaah patti de do chhote chamche paa deo.",
+        "Paani da rang goorha ho jaave taan ikk cup duddh mila deo.",
+        "Khand do chamche pao, jaan apne suaad mutaabak thori ghatt rakh lao.",
+        "Chaah nu hauli agg utte do minute pakkan deo te kol hi kharhe raho.",
+        "Jadon chaah changi tarah ubal jaave taan gas band karke cuppan vich pun lao.",
+        "Naal do matthiyan rakh lao, sade ghar taan ehi naashta challda hai."
+      ]
+    },
+    {
+      "id": "pa-p05",
+      "kind": "para",
+      "title": "A Village Wedding Comedy",
+      "native": [
+        "ਅੱਜਕੱਲ੍ਹ ਸਾਡੇ ਘਰ ਵਿੱਚ ਗੋਡੇ ਗੋਡੇ ਚਾਅ ਦੀ ਕਾਫ਼ੀ ਚਰਚਾ ਹੋ ਰਹੀ ਹੈ।",
+        "ਮੈਂ ਐਤਵਾਰ ਨੂੰ ਇਹ ਫ਼ਿਲਮ ਵੇਖੀ ਤੇ ਕਈ ਥਾਵਾਂ ਉੱਤੇ ਖੁੱਲ੍ਹ ਕੇ ਹੱਸਿਆ।",
+        "ਵਿਆਹ ਵਾਲੇ ਘਰ ਦੀ ਭੱਜਦੌੜ ਵੇਖ ਕੇ ਆਪਣੇ ਚਚੇਰੇ ਭਰਾ ਦਾ ਵਿਆਹ ਯਾਦ ਆ ਗਿਆ।",
+        "ਔਰਤਾਂ ਦੀਆਂ ਗੱਲਾਂ ਸੁਣ ਕੇ ਲੱਗਿਆ ਜਿਵੇਂ ਆਪਣੇ ਪਿੰਡ ਵਿੱਚ ਹੀ ਬੈਠਾ ਹੋਵਾਂ।",
+        "ਸੋਨਮ ਬਾਜਵਾ ਦਾ ਕਿਰਦਾਰ ਆਪਣੀ ਗੱਲ ਮਨਵਾਉਂਦਾ ਹੈ, ਪਰ ਕਿਤੇ ਵੀ ਬਣਾਉਟੀ ਨਹੀਂ ਲੱਗਦਾ।",
+        "ਕੁਝ ਸੀਨ ਥੋੜ੍ਹੇ ਲੰਮੇ ਲੱਗੇ, ਉਨ੍ਹਾਂ ਨੂੰ ਛੋਟਾ ਕਰ ਦਿੰਦੇ ਤਾਂ ਵਧੀਆ ਸੀ।",
+        "ਮੈਨੂੰ ਚੰਗਾ ਲੱਗਿਆ ਕਿ ਹਾਸੇ ਦੇ ਨਾਲ ਔਰਤਾਂ ਦੀ ਖ਼ੁਸ਼ੀ ਦੀ ਗੱਲ ਵੀ ਹੋਈ।",
+        "ਇਸ ਵਿੱਚ ਵਿਆਹ ਦੇ ਗੀਤ ਸੁਣ ਕੇ ਮੰਮੀ ਵੀ ਨਾਲ ਨਾਲ ਗਾਉਣ ਲੱਗ ਪਈ।",
+        "ਮੇਰੇ ਖ਼ਿਆਲ ਨਾਲ ਪਰਿਵਾਰ ਨਾਲ ਬੈਠ ਕੇ ਵੇਖਣ ਲਈ ਇਹ ਵਧੀਆ ਫ਼ਿਲਮ ਹੈ।"
+      ],
+      "roman": [
+        "Ajjkall sade ghar vich Godday Godday Chaah di kaafi charcha ho rahi hai.",
+        "Main aitvaar nu eh film vekhi te kayi thavan utte khull ke hassya.",
+        "Viah wale ghar di bhajjdaur vekh ke apne chachere bhra da viah yaad aa gya.",
+        "Aurtan diyan gallan sun ke laggya jiven apne pind vich hi baitha hovaan.",
+        "Sonam Bajwa da kirdaar apni gall manvaunda hai, par kite vi banauti nahi laggda.",
+        "Kujh scene thore lamme lagge, unhan nu chhota kar dinde taan vadhiya si.",
+        "Mainu changa laggya ki haase de naal aurtan di khushi di gall vi hoyi.",
+        "Is vich viah de geet sun ke mummy vi naal naal gaun lagg payi.",
+        "Mere khyaal naal parivaar naal baith ke vekhan layi eh vadhiya film hai."
+      ]
+    },
+    {
+      "id": "pa-p06",
+      "kind": "para",
+      "title": "Three Days Around Nangal",
+      "native": [
+        "12 ਸਤੰਬਰ 2026 ਨੂੰ ਅਸੀਂ ਚਾਰ ਜਣੇ ਜਲੰਧਰ ਤੋਂ ਨੰਗਲ ਲਈ ਨਿਕਲਾਂਗੇ।",
+        "ਪਹਿਲੇ ਦਿਨ ਸਵੇਰੇ 7 ਵਜੇ ਬੱਸ ਫੜਾਂਗੇ ਤੇ ਦੁਪਹਿਰ ਤੱਕ ਨੰਗਲ ਪਹੁੰਚ ਜਾਵਾਂਗੇ।",
+        "13 ਸਤੰਬਰ ਨੂੰ ਅਨੰਦਪੁਰ ਸਾਹਿਬ ਘੁੰਮਾਂਗੇ, ਜੋ ਨੰਗਲ ਤੋਂ ਲਗਭਗ 20 ਕਿਲੋਮੀਟਰ ਦੂਰ ਹੈ।",
+        "14 ਸਤੰਬਰ ਨੂੰ ਸ਼ਾਮ 6 ਵਜੇ ਤੱਕ ਵਾਪਸ ਜਲੰਧਰ ਪਹੁੰਚਣ ਦਾ ਇਰਾਦਾ ਹੈ।",
+        "ਦੋ ਰਾਤਾਂ ਲਈ 2 ਕਮਰਿਆਂ ਦਾ ਕੁੱਲ ਕਿਰਾਇਆ ₹4800 ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ।",
+        "ਤਿੰਨਾਂ ਦਿਨਾਂ ਦੇ ਖਾਣੇ ਲਈ ₹2400 ਰੱਖਾਂਗੇ ਤੇ ਸਵੇਰ ਦਾ ਨਾਸ਼ਤਾ ਹੋਟਲ ਵਿੱਚ ਕਰਾਂਗੇ।",
+        "ਬੱਸ ਦੀਆਂ ਟਿਕਟਾਂ ਤੇ ਉੱਥੇ ਆਉਣ ਜਾਣ ਲਈ ₹3000 ਰੱਖੇ ਹਨ।",
+        "ਕੁੱਲ ਬਜਟ ₹12000 ਹੈ, ਇਸ ਵਿੱਚੋਂ ਬਾਕੀ ₹1800 ਛੋਟੇ ਮੋਟੇ ਖ਼ਰਚਿਆਂ ਲਈ ਰੱਖਾਂਗੇ।",
+        "ਰਵਾਨਾ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਮਨਪ੍ਰੀਤ ਹੋਟਲ ਨੂੰ ਫ਼ੋਨ ਕਰਕੇ ਕਮਰਿਆਂ ਦਾ ਕਿਰਾਇਆ ਪੱਕਾ ਕਰ ਲਵੇਗੀ।"
+      ],
+      "roman": [
+        "12 Satambar 2026 nu asi chaar jane Jalandhar ton Nangal layi niklaange.",
+        "Pehle din savere 7 vaje bus pharaange te dupehar takk Nangal pahunch javaange.",
+        "13 Satambar nu Anandpur Sahib ghummaange, jo Nangal ton lagbhag 20 kilometer door hai.",
+        "14 Satambar nu shaam 6 vaje takk wapas Jalandhar pahunchan da iraada hai.",
+        "Do raatan layi 2 kamryan da kull kiraya ₹4800 ton vadh nahi hona chahida.",
+        "Tinnan dinan de khaane layi ₹2400 rakhaange te saver da naashta hotel vich karaange.",
+        "Bus diyan ticketan te utthe aun jaan layi ₹3000 rakhe han.",
+        "Kull budget ₹12000 hai, is vichon baaki ₹1800 chhote mote kharchyan layi rakhaange.",
+        "Ravaana hon ton pehlan Manpreet hotel nu phone karke kamryan da kiraya pakka kar lavegi."
+      ]
+    },
+    {
+      "id": "pa-p07",
+      "kind": "para",
+      "title": "Requesting a Fee Receipt",
+      "native": [
+        "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ, ਕੀ ਸਕੂਲ ਦੀਆਂ ਫ਼ੀਸਾਂ ਬਾਰੇ ਤੁਹਾਡੇ ਨਾਲ ਗੱਲ ਹੋ ਸਕਦੀ ਹੈ?",
+        "ਮੈਂ ਅਵਨੀ ਦਾ ਪਾਪਾ ਬੋਲ ਰਿਹਾ ਹਾਂ। ਉਹ ਤੁਹਾਡੇ ਹੁਸ਼ਿਆਰਪੁਰ ਵਾਲੇ ਸਕੂਲ ਵਿੱਚ ਪੜ੍ਹਦੀ ਹੈ।",
+        "ਉਹ ਤੀਜੀ ਜਮਾਤ ਦੇ ਸੈਕਸ਼ਨ ਬੀ ਵਿੱਚ ਹੈ। ਉਸਦਾ ਰੋਲ ਨੰਬਰ 18 ਹੈ।",
+        "ਮੈਂ 9 ਅਗਸਤ ਨੂੰ ਫ਼ੋਨਪੇ ਰਾਹੀਂ ਉਸਦੀ ₹2700 ਦੀ ਫ਼ੀਸ ਜਮ੍ਹਾਂ ਕਰਵਾਈ ਸੀ।",
+        "ਪੈਸੇ ਮੇਰੇ ਖਾਤੇ ਵਿੱਚੋਂ ਕੱਟੇ ਗਏ ਹਨ, ਪਰ ਐਪ ਵਿੱਚ ਰਸੀਦ ਨਹੀਂ ਦਿਸ ਰਹੀ।",
+        "ਮੈਂ ਪੇਮੈਂਟ ਦਾ ਸਕ੍ਰੀਨਸ਼ਾਟ ਵੀ ਸਕੂਲ ਦੇ ਵਟਸਐਪ ਨੰਬਰ ਉੱਤੇ ਭੇਜ ਦਿੱਤਾ ਹੈ।",
+        "ਤੁਸੀਂ ਇੱਕ ਵਾਰ ਰਿਕਾਰਡ ਵੇਖ ਕੇ ਦੱਸ ਦਿਓਗੇ ਕਿ ਫ਼ੀਸ ਜਮ੍ਹਾਂ ਹੋਈ ਹੈ ਜਾਂ ਨਹੀਂ?",
+        "ਜੇ ਫ਼ੀਸ ਆ ਗਈ ਹੈ ਤਾਂ ਰਸੀਦ ਮੈਨੂੰ ਉਸੇ ਨੰਬਰ ਉੱਤੇ ਭੇਜ ਦਿਓ।",
+        "ਕਾਗ਼ਜ਼ ਵਾਲੀ ਰਸੀਦ ਲੈਣ ਲਈ ਮੈਂ ਕੱਲ੍ਹ ਸਵੇਰੇ ਸਕੂਲ ਦੇ ਆਫ਼ਿਸ ਆ ਸਕਦਾ ਹਾਂ।"
+      ],
+      "roman": [
+        "Sat sri akaal, ki school diyan feesan baare tuhade naal gall ho sakdi hai?",
+        "Main Avni da papa bol riha haan. Oh tuhade Hoshiarpur wale school vich parhdi hai.",
+        "Oh teeji jamaat de section B vich hai. Usda roll number 18 hai.",
+        "Main 9 Agast nu PhonePe raahin usdi ₹2700 di fees jamma karvayi si.",
+        "Paise mere khaate vichon katte gaye han, par app vich raseed nahi dis rahi.",
+        "Main payment da screenshot vi school de WhatsApp number utte bhej ditta hai.",
+        "Tusi ikk vaar record vekh ke dass deoge ki fees jamma hoyi hai jaan nahi?",
+        "Je fees aa gayi hai taan raseed mainu use number utte bhej deo.",
+        "Kaagaz wali raseed lain layi main kall savere school de office aa sakda haan."
+      ]
+    },
+    {
+      "id": "pa-p08",
+      "kind": "para",
+      "title": "Getting Around Chandigarh",
+      "native": [
+        "ਚੰਡੀਗੜ੍ਹ ਵਿੱਚ ਰੋਜ਼ ਆਉਣ-ਜਾਣ ਲਈ ਸਿਟੀ ਬੱਸ ਸਸਤੀ ਪੈਂਦੀ ਹੈ।",
+        "ਸੈਕਟਰ 17 ਤੇ ਸੈਕਟਰ 43 ਦੇ ਬੱਸ ਅੱਡਿਆਂ ਤੋਂ ਕਈ ਰੂਟਾਂ ਦੀਆਂ ਬੱਸਾਂ ਮਿਲਦੀਆਂ ਹਨ।",
+        "ਪੰਜਾਬ ਯੂਨੀਵਰਸਿਟੀ ਤੇ ਪੀਜੀਆਈ ਜਾਣ ਵਾਲੇ ਕਈ ਲੋਕ ਵੀ ਬੱਸਾਂ ਵਿੱਚ ਸਫ਼ਰ ਕਰਦੇ ਹਨ।",
+        "ਬੱਸ ਦੀ ਉਡੀਕ ਕਰਦਿਆਂ ਸਟਾਪ ਉੱਤੇ ਲੱਗਾ ਰੂਟ ਮੈਪ ਵੇਖ ਲਓ।",
+        "ਕੰਡਕਟਰ ਤੋਂ ਪੁੱਛ ਲਓ ਕਿ ਬੱਸ ਤੁਹਾਡੇ ਸਟਾਪ ਉੱਤੇ ਰੁਕੇਗੀ ਜਾਂ ਨਹੀਂ।",
+        "ਸਵੇਰੇ ਆਫ਼ਿਸ ਜਾਣ ਵੇਲੇ ਤੇ ਸ਼ਾਮ ਨੂੰ ਛੁੱਟੀ ਵੇਲੇ ਕੁਝ ਰੂਟਾਂ ਉੱਤੇ ਭੀੜ ਵੱਧ ਹੁੰਦੀ ਹੈ।",
+        "ਛੋਟੀ ਦੂਰੀ ਲਈ ਈ-ਰਿਕਸ਼ਾ ਵੀ ਮਿਲ ਜਾਂਦਾ ਹੈ, ਪਰ ਕਿਰਾਇਆ ਪਹਿਲਾਂ ਪੁੱਛਣਾ ਚੰਗਾ ਰਹਿੰਦਾ ਹੈ।",
+        "ਸ਼ੇਅਰ ਆਟੋ ਵਿੱਚ ਬੈਠਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁੱਛ ਲਓ ਕਿ ਉਹ ਤੁਹਾਡੇ ਸਟਾਪ ਤੱਕ ਜਾਵੇਗਾ ਜਾਂ ਨਹੀਂ।",
+        "ਜੇ ਰਸਤੇ ਵਿੱਚ ਬੱਸ ਬਦਲਣੀ ਹੈ ਤਾਂ ਘਰੋਂ ਥੋੜ੍ਹਾ ਜਲਦੀ ਨਿਕਲੋ।"
+      ],
+      "roman": [
+        "Chandigarh vich roz aun-jaan layi city bus sasti paindi hai.",
+        "Sector 17 te sector 43 de bus addyan ton kayi routean diyan bussan mildiyan han.",
+        "Panjab University te PGI jaan wale kayi lok vi bussan vich safar karde han.",
+        "Bus di udeek kardyan stop utte lagga route map vekh lao.",
+        "Conductor ton puchh lao ki bus tuhade stop utte rukegi jaan nahi.",
+        "Savere office jaan vele te shaam nu chhutti vele kujh routean utte bheer vadh hundi hai.",
+        "Chhoti doori layi e-rickshaw vi mil jaanda hai, par kiraya pehlan puchhna changa rehnda hai.",
+        "Share auto vich baithan ton pehlan puchh lao ki oh tuhade stop takk jaavega jaan nahi.",
+        "Je raste vich bus badalni hai taan gharon thora jaldi niklo."
+      ]
+    },
+    {
+      "id": "pa-s001",
+      "kind": "sentence",
+      "native": [
+        "ਅੱਜ ਕੜ੍ਹੀ ਚੌਲ ਬਣਾਏ ਨੇ, ਖਾਣਾ ਇੱਥੇ ਹੀ ਖਾ ਲਈਂ।"
+      ],
+      "roman": [
+        "Ajj karhi chaul banaye ne, khaana itthe hi kha layeen."
+      ]
+    },
+    {
+      "id": "pa-s002",
+      "kind": "sentence",
+      "native": [
+        "ਦੇਰੀ ਲਈ ਮਾਫ਼ ਕਰਨਾ। ਕੱਪੜੇ ਦੀ ਚੌੜਾਈ ਘੱਟ ਨਿਕਲੀ ਸੀ, ਇਸ ਕਰਕੇ ਕਟਾਈ ਦੁਬਾਰਾ ਕਰਨੀ ਪਈ।"
+      ],
+      "roman": [
+        "Deri layi maaf karna. Kappre di chaurai ghatt nikli si, is karke katai dubaara karni payi."
+      ]
+    },
+    {
+      "id": "pa-s003",
+      "kind": "sentence",
+      "native": [
+        "ਰੇਲ ਦੀਆਂ 2 ਟਿਕਟਾਂ ਬੁੱਕ ਹੋ ਗਈਆਂ ਨੇ, ਸਾਡੀਆਂ ਸੀਟਾਂ 41 ਤੇ 42 ਇੱਕੋ ਡੱਬੇ ਵਿੱਚ ਨੇ।"
+      ],
+      "roman": [
+        "Rail dian 2 ticketan book ho gayian ne, sadian seatan 41 te 42 ikko dabbe vich ne."
+      ]
+    },
+    {
+      "id": "pa-s004",
+      "kind": "sentence",
+      "native": [
+        "ਲਾਇਬ੍ਰੇਰੀ ਦੀ ਕਿਤਾਬ ਵਾਪਸ ਕਰਨੀ ਹੈ।"
+      ],
+      "roman": [
+        "Library di kitaab wapas karni hai."
+      ]
+    },
+    {
+      "id": "pa-s005",
+      "kind": "sentence",
+      "native": [
+        "ਵਟਸਐਪ ਉੱਤੇ ਆਇਆ ਸਭ ਤੋਂ ਨਵਾਂ ਮੈਸੇਜ ਪੜ੍ਹ ਕੇ ਸੁਣਾਓ।"
+      ],
+      "roman": [
+        "WhatsApp utte aaya sabh ton nawan message parh ke sunao."
+      ]
+    },
+    {
+      "id": "pa-s006",
+      "kind": "sentence",
+      "native": [
+        "ਪਾਸਵਰਡ ਬਦਲਣ ਮਗਰੋਂ ਲਾਗਇਨ ਨਹੀਂ ਹੋਇਆ।"
+      ],
+      "roman": [
+        "Password badlan magron login nahi hoya."
+      ]
+    },
+    {
+      "id": "pa-s007",
+      "kind": "sentence",
+      "native": [
+        "ਅਨੀਤਾ ਸ਼ਰਮਾ ਨੇ ਸੰਗਰੂਰ ਵਾਲੇ ਸ਼ੋਅਰੂਮ ਵਿੱਚ ਸੋਫ਼ਾ ਵੇਖਿਆ ਸੀ, ਆਪਾਂ ਵੀ ਉੱਥੇ ਚੱਲ ਕੇ ਵੇਖ ਲਈਏ।"
+      ],
+      "roman": [
+        "Anita Sharma ne Sangrur wale showroom vich sofa vekhya si, aapan vi utthe chall ke vekh layiye."
+      ]
+    },
+    {
+      "id": "pa-s008",
+      "kind": "sentence",
+      "native": [
+        "ਧੁੱਪ ਨਿਕਲੇ ਤਾਂ ਰਜਾਈ ਸੁਕਾ ਲਈਂ।"
+      ],
+      "roman": [
+        "Dhupp nikle taan rajai suka layin."
+      ]
+    },
+    {
+      "id": "pa-s009",
+      "kind": "sentence",
+      "native": [
+        "ਉਸਨੂੰ ਕਹਿ ਦੇਵੀਂ ਮੈਂ ਵੀ ਆਵਾਂਗੀ, ਸਗੋਂ ਰਹਿਣ ਦੇ, ਬੱਚੇ ਸੁੱਤੇ ਪਏ ਨੇ, ਹੁਣ ਨਿਕਲਿਆ ਨਹੀਂ ਜਾਣਾ।"
+      ],
+      "roman": [
+        "Usnu keh deveen main vi aavaangi, sagon rehn de, bachche sutte paye ne, hun niklya nahi jaana."
+      ]
+    },
+    {
+      "id": "pa-s010",
+      "kind": "sentence",
+      "native": [
+        "ਖੰਨੇ ਵਾਲੇ ਦੋਸਤਾਂ ਨਾਲ ਬੈਠ ਕੇ ਲੱਗਿਆ ਕਿ ਭਾਵੇਂ ਕਿੰਨੇ ਵੀ ਰੁੱਝੇ ਹੋਈਏ, ਮਿਲਦੇ ਰਹਿਣਾ ਚਾਹੀਦਾ ਆ।"
+      ],
+      "roman": [
+        "Khanne wale dostan naal baith ke laggya ki bhaaven kinne vi rujjhe hoiye, milde rehna chahida aa."
+      ]
+    },
+    {
+      "id": "pa-s011",
+      "kind": "sentence",
+      "native": [
+        "ਰੋਹਨ ਦਾ ਮੈਸੇਜ ਆਇਆ ਸੀ, ਉਹ ਐਤਵਾਰ ਨੂੰ ਮੋਗੇ ਆਵੇਗਾ।"
+      ],
+      "roman": [
+        "Rohan da message aaya si, oh Aitvaar nu Moge aavega."
+      ]
+    },
+    {
+      "id": "pa-s012",
+      "kind": "sentence",
+      "native": [
+        "ਅਮਨਦੀਪ, ਛੁੱਟੀ ਦੀ ਅਰਜ਼ੀ ਅੱਜ ਹੀ ਭੇਜ ਦਿਓ।"
+      ],
+      "roman": [
+        "Amandeep, chhutti di arzi ajj hi bhej deo."
+      ]
+    },
+    {
+      "id": "pa-s013",
+      "kind": "sentence",
+      "native": [
+        "ਡੱਬੇ ਦੀ ਲੰਬਾਈ 45 ਸੈਂਟੀਮੀਟਰ ਤੇ ਚੌੜਾਈ 30 ਸੈਂਟੀਮੀਟਰ ਹੈ।"
+      ],
+      "roman": [
+        "Dabbe di lambai 45 centimetre te chaurai 30 centimetre hai."
+      ]
+    },
+    {
+      "id": "pa-s014",
+      "kind": "sentence",
+      "native": [
+        "ਅਸ਼ੋਕ ਮਿਸਤਰੀ ਵਾਸਤੇ ਦੁਪਹਿਰ ਨੂੰ ਪਿਛਲਾ ਦਰਵਾਜ਼ਾ ਖੁੱਲ੍ਹਾ ਰੱਖਣਾ ਪੈਣਾ।"
+      ],
+      "roman": [
+        "Ashok mistri vaaste dupehar nu pichhla darvaaza khullha rakhna paina."
+      ]
+    },
+    {
+      "id": "pa-s015",
+      "kind": "sentence",
+      "native": [
+        "ਮੱਕੀ ਦੀ ਰੋਟੀ ਬਣਾਉਣ ਵਾਲੀ ਵੀਡੀਓ ਯੂਟਿਊਬ ਉੱਤੇ ਲੱਭੋ।"
+      ],
+      "roman": [
+        "Makki di roti banaun wali video YouTube utte labbho."
+      ]
+    },
+    {
+      "id": "pa-s016",
+      "kind": "sentence",
+      "native": [
+        "ਤਨਵੀ ਨੇ ਰਿਕਾਰਡਿੰਗ ਸੁਣ ਕੇ ਢੋਲਕ ਦੀ ਤਾਲ ਫੜ ਲਈ।"
+      ],
+      "roman": [
+        "Tanvi ne recording sun ke dholak di taal phar layi."
+      ]
+    },
+    {
+      "id": "pa-s017",
+      "kind": "sentence",
+      "native": [
+        "ਨਸੀਮ, ਮਲੇਰਕੋਟਲੇ ਤੋਂ ਵਾਪਸੀ ਵੇਲੇ ਕਿਹੜੇ ਰਸਤੇ ਆਓਗੇ?"
+      ],
+      "roman": [
+        "Naseem, Malerkotle ton vaapsi vele kehre raste aaoge?"
+      ]
+    },
+    {
+      "id": "pa-s018",
+      "kind": "sentence",
+      "native": [
+        "ਨਲਕੇ ਵਿੱਚੋਂ ਪਾਣੀ ਟਪਕ ਰਿਹਾ ਹੈ।"
+      ],
+      "roman": [
+        "Nalke vichon paani tapak riha hai."
+      ]
+    },
+    {
+      "id": "pa-s019",
+      "kind": "sentence",
+      "native": [
+        "ਸੰਤਰੇ, ਕੇਲੇ ਤੇ ਅੰਗੂਰ ਤੋਲ ਦਿਓ।"
+      ],
+      "roman": [
+        "Santre, kele te angoor tol deo."
+      ]
+    },
+    {
+      "id": "pa-s020",
+      "kind": "sentence",
+      "native": [
+        "ਸ਼ੁਕਰੀਆ, ਤੁਹਾਡੇ ਨਾਲ ਗੱਲ ਕਰਕੇ ਮਨ ਹਲਕਾ ਹੋ ਗਿਆ।"
+      ],
+      "roman": [
+        "Shukriya, tuhade naal gall karke man halka ho gya."
+      ]
+    },
+    {
+      "id": "pa-s021",
+      "kind": "sentence",
+      "native": [
+        "ਮੇਰੇ ਲਈ ਥੋੜ੍ਹੀ ਦਾਲ ਰੱਖੀਂ।"
+      ],
+      "roman": [
+        "Mere layi thori daal rakheen."
+      ]
+    },
+    {
+      "id": "pa-s022",
+      "kind": "sentence",
+      "native": [
+        "ਬਾਕੀ ਰਹਿੰਦੇ ਸਵਾਲ ਮੈਨੂੰ ਲਿਖ ਕੇ ਭੇਜ ਦੇਣਾ, ਮੈਂ ਸੋਮਵਾਰ ਨੂੰ ਆਫ਼ਿਸ ਆ ਕੇ ਜਵਾਬ ਦੇ ਦਿਆਂਗੀ।"
+      ],
+      "roman": [
+        "Baaki rehnde sawaal mainu likh ke bhej dena, main Somvaar nu office aa ke jawab de diaangi."
+      ]
+    },
+    {
+      "id": "pa-s023",
+      "kind": "sentence",
+      "native": [
+        "ਪਰਮਿੰਦਰ ਦੀ ਧੀ 9 ਸਾਲਾਂ ਦੀ ਹੋ ਗਈ ਹੈ।"
+      ],
+      "roman": [
+        "Parminder di dhee 9 saalan di ho gayi hai."
+      ]
+    },
+    {
+      "id": "pa-s024",
+      "kind": "sentence",
+      "native": [
+        "ਪੁਰਾਣੀਆਂ ਫ਼ੋਟੋਆਂ ਵੱਖਰੇ ਫ਼ੋਲਡਰ ਵਿੱਚ ਰੱਖਣੀਆਂ ਯਾਦ ਕਰਾ ਦਿਓ, ਨਹੀਂ ਤਾਂ ਨਵੀਆਂ ਨਾਲ ਰਲ ਜਾਣਗੀਆਂ।"
+      ],
+      "roman": [
+        "Puranian photoan vakhre folder vich rakhnian yaad karaa deo, nahi taan navian naal ral jaangian."
+      ]
+    },
+    {
+      "id": "pa-s025",
+      "kind": "sentence",
+      "native": [
+        "ਬਲੂਟੁੱਥ ਚਾਲੂ ਕਰ ਦਿਓ।"
+      ],
+      "roman": [
+        "Bluetooth chalu kar deo."
+      ]
+    },
+    {
+      "id": "pa-s026",
+      "kind": "sentence",
+      "native": [
+        "ਰਾਊਟਰ ਬੰਦ ਕਰ ਕੇ ਦੁਬਾਰਾ ਚਲਾਇਆ ਤਾਂ ਵਾਈ-ਫਾਈ ਚੱਲ ਪਿਆ, ਹੁਣ ਤਾਰ ਬਦਲਣ ਦੀ ਲੋੜ ਨਹੀਂ।"
+      ],
+      "roman": [
+        "Router band kar ke dubaara chalaya taan Vi-Fi chall pya, hun taar badlan di lor nahi."
+      ]
+    },
+    {
+      "id": "pa-s027",
+      "kind": "sentence",
+      "native": [
+        "ਮਾਮਾ ਬੱਸ ਅੱਡੇ ਉੱਤੇ ਮਿਲਣਗੇ।"
+      ],
+      "roman": [
+        "Mama bus adde utte milange."
+      ]
+    },
+    {
+      "id": "pa-s028",
+      "kind": "sentence",
+      "native": [
+        "ਅਦਰਕ ਥੋੜ੍ਹਾ ਬਰੀਕ ਕੱਟ ਲਵੀਂ।"
+      ],
+      "roman": [
+        "Adrak thoda bareek katt laveen."
+      ]
+    },
+    {
+      "id": "pa-s029",
+      "kind": "sentence",
+      "native": [
+        "ਕੱਪੜਾ ਮੀਟਰ ਦੇ ਹਿਸਾਬ ਨਾਲ ਮਿਲਦਾ ਹੈ ਜਾਂ ਪੂਰਾ ਥਾਨ ਲੈਣਾ ਪੈਣਾ?"
+      ],
+      "roman": [
+        "Kappra meter de hisaab naal milda hai jaan poora thaan laina paina?"
+      ]
+    },
+    {
+      "id": "pa-s030",
+      "kind": "sentence",
+      "native": [
+        "ਕੁਲਚੇ ਵਿੱਚ ਲੂਣ ਥੋੜ੍ਹਾ ਵੱਧ ਆ, ਬਾਕੀ ਸੁਆਦ ਵਧੀਆ ਲੱਗਿਆ।"
+      ],
+      "roman": [
+        "Kulche vich loon thora vadh aa, baaki suaad vadhiya laggya."
+      ]
+    },
+    {
+      "id": "pa-s031",
+      "kind": "sentence",
+      "native": [
+        "ਦਾਦਾ ਜੀ ਹਾਲੇ ਜਾਗਦੇ ਨੇ?"
+      ],
+      "roman": [
+        "Dada ji haale jaagde ne?"
+      ]
+    },
+    {
+      "id": "pa-s032",
+      "kind": "sentence",
+      "native": [
+        "ਫ਼ਿਲਹਾਲ ਹੋਰ ਆਰਡਰ ਨਹੀਂ ਲੈ ਸਕਾਂਗੀ।"
+      ],
+      "roman": [
+        "Filhaal hor order nahi lai sakaangi."
+      ]
+    },
+    {
+      "id": "pa-s033",
+      "kind": "sentence",
+      "native": [
+        "ਪੈਟਰੋਲ 4 ਲੀਟਰ ਪਵਾਉਣਾ, ਅੱਗੇ 60 ਕਿਲੋਮੀਟਰ ਦਾ ਰਸਤਾ ਹੈ।"
+      ],
+      "roman": [
+        "Petrol 4 litre pavauna, agge 60 kilometre da rasta hai."
+      ]
+    },
+    {
+      "id": "pa-s034",
+      "kind": "sentence",
+      "native": [
+        "ਖੀਰ ਲਈ ਇਲਾਇਚੀ ਲੈਣੀ ਨਾ ਭੁੱਲਾਂ।"
+      ],
+      "roman": [
+        "Kheer layi ilaichi laini na bhullan."
+      ]
+    },
+    {
+      "id": "pa-s035",
+      "kind": "sentence",
+      "native": [
+        "ਸਲੀਮ ਨੂੰ ਕਾਲ ਲਾ ਦਿਓ।"
+      ],
+      "roman": [
+        "Salim nu call laa deo."
+      ]
+    },
+    {
+      "id": "pa-s036",
+      "kind": "sentence",
+      "native": [
+        "ਕੈਮਰੇ ਦਾ ਲੈਂਜ਼ ਸਾਫ਼ ਕਰ ਲਓ।"
+      ],
+      "roman": [
+        "Kaimre da lens saaf kar lao."
+      ]
+    },
+    {
+      "id": "pa-s037",
+      "kind": "sentence",
+      "native": [
+        "ਨਵਜੋਤ ਬਾਹਰ ਬੈਂਚ ਉੱਤੇ ਬੈਠੀ ਹੈ।"
+      ],
+      "roman": [
+        "Navjot baahar bench utte baithi hai."
+      ]
+    },
+    {
+      "id": "pa-s038",
+      "kind": "sentence",
+      "native": [
+        "ਟਮਾਟਰ ਉੱਪਰੋਂ ਤਾਂ ਚੰਗੇ ਲੱਗਦੇ ਨੇ, ਪਰ ਥੈਲੇ ਵਿੱਚ ਪਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਹੇਠਲੇ ਵੀ ਵੇਖ ਲਓ।"
+      ],
+      "roman": [
+        "Tamatar upparon taan change laggde ne, par thaile vich paun ton pehlan hethle vi vekh lao."
+      ]
+    },
+    {
+      "id": "pa-s039",
+      "kind": "sentence",
+      "native": [
+        "ਨਹੀਂ, ਨੀਲਾ ਨਹੀਂ, ਹਰਾ ਵਾਲਾ ਵਿਖਾਓ।"
+      ],
+      "roman": [
+        "Nahi, neela nahi, hara wala vikhao."
+      ]
+    },
+    {
+      "id": "pa-s040",
+      "kind": "sentence",
+      "native": [
+        "ਵਾਹ, ਕਿੰਨਾ ਸੋਹਣਾ ਗਾਇਆ ਤੁਸੀਂ।"
+      ],
+      "roman": [
+        "Wah, kinna sohna gaaya tusi."
+      ]
+    },
+    {
+      "id": "pa-s041",
+      "kind": "sentence",
+      "native": [
+        "ਅਸੀਂ ਸ਼ਨੀਵਾਰ ਨੂੰ ਲੁਧਿਆਣੇ ਮਾਸੀ ਕੋਲ ਜਾ ਰਹੇ ਹਾਂ, ਨਾਲ ਚੱਲਣਾ ਹੋਵੇ ਤਾਂ ਸਵੇਰੇ ਤਿਆਰ ਰਹੀਂ।"
+      ],
+      "roman": [
+        "Asi Shanivaar nu Ludhiane maasi kol ja rahe haan, naal challna hove taan savere tyaar raheen."
+      ]
+    },
+    {
+      "id": "pa-s042",
+      "kind": "sentence",
+      "native": [
+        "ਤਨਖ਼ਾਹ ਖਾਤੇ ਵਿੱਚ ਆ ਗਈ ਹੈ।"
+      ],
+      "roman": [
+        "Tankhah khaate vich aa gayi hai."
+      ]
+    },
+    {
+      "id": "pa-s043",
+      "kind": "sentence",
+      "native": [
+        "ਐਤਵਾਰ ਨੂੰ ਸਵੇਰੇ 8 ਤੋਂ 10 ਵਜੇ ਤੱਕ ਪਾਣੀ ਨਹੀਂ ਆਵੇਗਾ।"
+      ],
+      "roman": [
+        "Aitvaar nu savere 8 ton 10 vaje takk paani nahi aavega."
+      ]
+    },
+    {
+      "id": "pa-s044",
+      "kind": "sentence",
+      "native": [
+        "ਇਸ ਵਾਰ ਰਾਸ਼ਨ ਵਿੱਚ ਮੂੰਗੀ ਦੀ ਦਾਲ ਜ਼ਰੂਰ ਪਾਉਣੀ ਹੈ।"
+      ],
+      "roman": [
+        "Is vaar raashan vich moongi di daal zaroor pauni hai."
+      ]
+    },
+    {
+      "id": "pa-s045",
+      "kind": "sentence",
+      "native": [
+        "ਸਕਰੀਨ ਦੀ ਰੌਸ਼ਨੀ ਅੱਧੀ ਕਰ ਕੇ ਨਾਈਟ ਮੋਡ ਲਾ ਦਿਓ।"
+      ],
+      "roman": [
+        "Screen di raushni addhi kar ke night mode la deo."
+      ]
+    },
+    {
+      "id": "pa-s046",
+      "kind": "sentence",
+      "native": [
+        "ਨੋਟੀਫਿਕੇਸ਼ਨ ਆਉਣ ਨਾਲ ਧਿਆਨ ਟੁੱਟਦਾ ਹੈ, ਮੈਂ ਸਾਈਲੈਂਟ ਮੋਡ ਲਾ ਲੈਂਦੀ ਹਾਂ।"
+      ],
+      "roman": [
+        "Notification aun naal dhiaan tuttda hai, main silent mode la laindi haan."
+      ]
+    },
+    {
+      "id": "pa-s047",
+      "kind": "sentence",
+      "native": [
+        "ਫ਼ੈਕਟਰੀ ਵਾਲੀ ਵੈਨ ਹੁਣ ਦੂਜੇ ਮੁਹੱਲੇ ਵਿੱਚੋਂ ਲੰਘਦੀ ਹੈ।"
+      ],
+      "roman": [
+        "Factory wali van hun dooje muhalle vichon langhdi hai."
+      ]
+    },
+    {
+      "id": "pa-s048",
+      "kind": "sentence",
+      "native": [
+        "ਦਹੀਂ ਜਮਾਉਣ ਲਈ ਦੁੱਧ ਹਾਲੇ ਥੋੜ੍ਹਾ ਹੋਰ ਠੰਢਾ ਹੋਣ ਦਿਓ।"
+      ],
+      "roman": [
+        "Dahin jamaun layi duddh haale thoda hor thanda hon deo."
+      ]
+    },
+    {
+      "id": "pa-s049",
+      "kind": "sentence",
+      "native": [
+        "ਬੈਠੋ, ਪਹਿਲਾਂ ਨਾਸ਼ਤਾ ਕਰੀਏ, ਬਾਕੀ ਗੱਲ ਰਸਤੇ ਵਿੱਚ ਕਰ ਲਵਾਂਗੇ।"
+      ],
+      "roman": [
+        "Baitho, pehlan naashta kariye, baaki gall raste vich kar lavaange."
+      ]
+    },
+    {
+      "id": "pa-s050",
+      "kind": "sentence",
+      "native": [
+        "ਸ਼ਬਨਮ, ਤੇਰੀ ਕਢਾਈ ਵੇਖ ਕੇ ਤਾਂ ਦਿਲ ਖ਼ੁਸ਼ ਹੋ ਗਿਆ।"
+      ],
+      "roman": [
+        "Shabnam, teri kadhai vekh ke taan dil khush ho gya."
+      ]
+    },
+    {
+      "id": "pa-s051",
+      "kind": "sentence",
+      "native": [
+        "ਜਸਲੀਨ, ਕੱਲ੍ਹ ਸ਼ਾਮ ਨੂੰ ਸੁਖਨਾ ਝੀਲ ਉੱਤੇ ਸੈਰ ਕਰਨ ਚੱਲੀਏ?"
+      ],
+      "roman": [
+        "Jasleen, kall shaam nu Sukhna Jheel utte sair karan challiye?"
+      ]
+    },
+    {
+      "id": "pa-s052",
+      "kind": "sentence",
+      "native": [
+        "ਕਿਰਨ, ਰਿਪੋਰਟ ਦੇ ਅੰਕੜੇ ਇੱਕ ਵਾਰ ਫਿਰ ਮਿਲਾ ਲਓ।"
+      ],
+      "roman": [
+        "Kiran, report de ankre ikk vaar phir mila lao."
+      ]
+    },
+    {
+      "id": "pa-s053",
+      "kind": "sentence",
+      "native": [
+        "ਪ੍ਰਿੰਟਰ ਲਈ 80 ਗ੍ਰਾਮ ਵਾਲੇ ਕਾਗਜ਼ ਦੇ 5 ਪੈਕ ਚਾਹੀਦੇ ਨੇ।"
+      ],
+      "roman": [
+        "Printer layi 80 gram wale kaagaz de 5 pack chahide ne."
+      ]
+    },
+    {
+      "id": "pa-s054",
+      "kind": "sentence",
+      "native": [
+        "ਨਿਕਲਣ ਤੋਂ ਪਹਿਲਾਂ ਕੂੜੇ ਵਾਲਾ ਥੈਲਾ ਬਾਹਰ ਰੱਖਣਾ ਯਾਦ ਕਰਾ ਦਿਓ, ਗੱਡੀ ਸਵੇਰੇ ਜਲਦੀ ਆ ਜਾਂਦੀ ਹੈ।"
+      ],
+      "roman": [
+        "Niklan ton pehlan koore wala thaila baahar rakhna yaad karaa deo, gaddi savere jaldi aa jaandi hai."
+      ]
+    },
+    {
+      "id": "pa-s055",
+      "kind": "sentence",
+      "native": [
+        "ਕੈਲੰਡਰ ਵਿੱਚ ਵੇਖ ਕੇ ਦੱਸੋ ਕਿ ਇਸ ਮਹੀਨੇ ਦਾ ਆਖ਼ਰੀ ਸ਼ੁੱਕਰਵਾਰ ਕਿਹੜੀ ਤਾਰੀਖ਼ ਨੂੰ ਆਉਂਦਾ ਹੈ?"
+      ],
+      "roman": [
+        "Calendar vich vekh ke dasso ki is maheene da aakhri shukkarvaar kehri tareekh nu aunda hai?"
+      ]
+    },
+    {
+      "id": "pa-s056",
+      "kind": "sentence",
+      "native": [
+        "₹650 ਵਾਲੇ ਪਲਾਨ ਵਿੱਚ ਕਿੰਨੀ ਕਲਾਊਡ ਸਟੋਰੇਜ ਮਿਲਦੀ ਹੈ?"
+      ],
+      "roman": [
+        "₹650 wale plan vich kinni cloud storage mildi hai?"
+      ]
+    },
+    {
+      "id": "pa-s057",
+      "kind": "sentence",
+      "native": [
+        "ਟ੍ਰੈਫ਼ਿਕ ਕਰਕੇ ਕੈਬ ਦੇਰ ਨਾਲ ਆ ਰਹੀ ਹੈ, ਤੁਸੀਂ ਸਿਨੇਮਾ ਹਾਲ ਦੇ ਸਾਹਮਣੇ ਛਾਂ ਵਿੱਚ ਹੀ ਰੁਕਿਓ।"
+      ],
+      "roman": [
+        "Traffic karke cab der naal aa rahi hai, tusi cinema hall de saahmne chhaan vich hi rukio."
+      ]
+    },
+    {
+      "id": "pa-s058",
+      "kind": "sentence",
+      "native": [
+        "ਰੀਨਾ ਦੀ ਕਾਪੀ ਉੱਤੇ ਟੀਚਰ ਨੇ ਕੀ ਲਿਖਿਆ ਹੈ?"
+      ],
+      "roman": [
+        "Reena di copy utte teacher ne ki likhya hai?"
+      ]
+    },
+    {
+      "id": "pa-s059",
+      "kind": "sentence",
+      "native": [
+        "ਸੋਨੀਆ, ਪਾਸਤਾ ਨਹੀਂ, ਮੇਰੇ ਟਿਫ਼ਨ ਵਿੱਚ ਆਲੂ ਮਟਰ ਪਾ ਦੇਵੀਂ।"
+      ],
+      "roman": [
+        "Sonia, pasta nahi, mere tiffin vich aaloo matar paa deveen."
+      ]
+    },
+    {
+      "id": "pa-s060",
+      "kind": "sentence",
+      "native": [
+        "ਹੌਲੀ ਹੌਲੀ ਸਿੱਖ ਲਵੇਂਗੀ, ਪਹਿਲੀ ਵਾਰ ਕਿਸੇ ਨੂੰ ਸਭ ਕੁਝ ਨਹੀਂ ਆਉਂਦਾ।"
+      ],
+      "roman": [
+        "Hauli hauli sikh lavengi, pehli vaar kise nu sabh kujh nahi aunda."
+      ]
+    },
+    {
+      "id": "pa-s061",
+      "kind": "sentence",
+      "native": [
+        "ਵਧਾਈਆਂ, ਤੇਰਾ ਦਾਖ਼ਲਾ ਹੋ ਗਿਆ!"
+      ],
+      "roman": [
+        "Vadhaiyan, tera daakhla ho gya!"
+      ]
+    },
+    {
+      "id": "pa-s062",
+      "kind": "sentence",
+      "native": [
+        "ਲੈਪਟਾਪ ਦਾ ਮਾਈਕ ਬੰਦ ਹੈ, ਪਹਿਲਾਂ ਉਹ ਚਾਲੂ ਕਰ ਲਓ ਤਾਂ ਜੋ ਸਾਰੇ ਤੁਹਾਡੀ ਗੱਲ ਸੁਣ ਸਕਣ।"
+      ],
+      "roman": [
+        "Laptop da mic band hai, pehlan oh chalu kar lao taan jo saare tuhadi gall sun sakan."
+      ]
+    },
+    {
+      "id": "pa-s063",
+      "kind": "sentence",
+      "native": [
+        "ਬੱਸ ਜਲੰਧਰ ਤੋਂ ਦੁਪਹਿਰ ਸਾਢੇ 3 ਵਜੇ ਚੱਲੇਗੀ, ਸੀਟ 23 ਰੱਖਿਓ।"
+      ],
+      "roman": [
+        "Bus Jalandhar ton dupehar saadhe 3 vaje challegi, seat 23 rakhio."
+      ]
+    },
+    {
+      "id": "pa-s064",
+      "kind": "sentence",
+      "native": [
+        "ਅਗਲੇ ਮਹੀਨੇ ਸਕੂਟਰ ਦੀ ਸਰਵਿਸ ਕਰਾਉਣ ਲਈ ਰਿਮਾਈਂਡਰ ਲਾ ਦਿਓ।"
+      ],
+      "roman": [
+        "Agle maheene scooter di service karaun layi reminder laa deo."
+      ]
+    },
+    {
+      "id": "pa-s065",
+      "kind": "sentence",
+      "native": [
+        "ਹਾਲ ਬਾਜ਼ਾਰ ਤੱਕ ਪੈਦਲ ਜਾਣ ਦਾ ਰਸਤਾ ਵਿਖਾਓ।"
+      ],
+      "roman": [
+        "Hall Bazaar takk paidal jaan da rasta vikhao."
+      ]
+    },
+    {
+      "id": "pa-s066",
+      "kind": "sentence",
+      "native": [
+        "ਮਿਊਜ਼ਿਕ ਐਪ ਦਾ ਮਹੀਨੇ ਵਾਲਾ ਪਲਾਨ ਲਵਾਂਗੀ, ਪੂਰੇ ਸਾਲ ਦੇ ਪੈਸੇ ਇਕੱਠੇ ਦੇਣ ਦਾ ਮਨ ਨਹੀਂ ਹੈ।"
+      ],
+      "roman": [
+        "Music app da maheene wala plan lavaangi, poore saal de paise ikatthe den da man nahi hai."
+      ]
+    },
+    {
+      "id": "pa-s067",
+      "kind": "sentence",
+      "native": [
+        "ਪੁਲ ਟੱਪ ਕੇ ਸੱਜੇ ਪਾਸੇ ਕਰਿਆਨੇ ਦੀ ਦੁਕਾਨ ਆਵੇਗੀ।"
+      ],
+      "roman": [
+        "Pul tapp ke sajje paase karyane di dukaan aavegi."
+      ]
+    },
+    {
+      "id": "pa-s068",
+      "kind": "sentence",
+      "native": [
+        "ਬੁੱਧਵਾਰ ਦੁਪਹਿਰ ਕਟਿੰਗ ਲਈ ਕੋਈ ਟਾਈਮ ਖ਼ਾਲੀ ਹੈ?"
+      ],
+      "roman": [
+        "Buddhvaar dupehar cutting layi koi time khaali hai?"
+      ]
+    },
+    {
+      "id": "pa-s069",
+      "kind": "sentence",
+      "native": [
+        "ਮਾਫ਼ ਕਰਨਾ, ਰੇਸ਼ਮਾ ਕਿਹਾ ਸੀ।"
+      ],
+      "roman": [
+        "Maaf karna, Reshma keha si."
+      ]
+    },
+    {
+      "id": "pa-s070",
+      "kind": "sentence",
+      "native": [
+        "ਕਦੇ ਕਦੇ ਮਨ ਕਰਦਾ ਆ ਕਿ ਛੁੱਟੀ ਵਾਲੇ ਦਿਨ ਘੜੀ ਵੇਖਣ ਦੀ ਵੀ ਲੋੜ ਨਾ ਪਵੇ।"
+      ],
+      "roman": [
+        "Kade kade man karda aa ki chhutti wale din ghari vekhan di vi lor na pave."
+      ]
+    },
+    {
+      "id": "pa-s071",
+      "kind": "sentence",
+      "native": [
+        "ਗਾਣਾ ਬਦਲ ਲੈ, ਇਹ ਤਾਂ ਤੈਨੂੰ ਨੀਂਦ ਵਿੱਚ ਵੀ ਆਉਂਦਾ ਹੋਣਾ।"
+      ],
+      "roman": [
+        "Gaana badal lai, eh taan tainu neend vich vi aunda hona."
+      ]
+    },
+    {
+      "id": "pa-s072",
+      "kind": "sentence",
+      "native": [
+        "ਰੂਪਨਗਰ ਵਾਲੇ ਮਿਸਤਰੀ ਨੇ ਮਸ਼ੀਨ ਦਾ ਪੁਰਜ਼ਾ ਲੱਭ ਲਿਆ ਹੈ।"
+      ],
+      "roman": [
+        "Rupnagar wale mistri ne machine da purza labbh lya hai."
+      ]
+    },
+    {
+      "id": "pa-s073",
+      "kind": "sentence",
+      "native": [
+        "14 ਓਵਰਾਂ ਮਗਰੋਂ ਸਕੋਰ 96 ਹੈ।"
+      ],
+      "roman": [
+        "14 overan magron score 96 hai."
+      ]
+    },
+    {
+      "id": "pa-s074",
+      "kind": "sentence",
+      "native": [
+        "ਜੁੱਤੀਆਂ ਦਾ ਸਾਈਜ਼ ਬਦਲਵਾਉਣ ਲਈ ਦੁਕਾਨ ਦੀ ਰਸੀਦ ਸੰਭਾਲ ਕੇ ਰੱਖਣੀ ਹੈ।"
+      ],
+      "roman": [
+        "Juttian da size badalvaun layi dukaan di raseed sambhaal ke rakhni hai."
+      ]
+    },
+    {
+      "id": "pa-s075",
+      "kind": "sentence",
+      "native": [
+        "ਆਵਾਜ਼ ਥੋੜ੍ਹੀ ਘੱਟ ਕਰ ਦਿਓ।"
+      ],
+      "roman": [
+        "Awaaz thori ghatt kar deo."
+      ]
+    },
+    {
+      "id": "pa-s076",
+      "kind": "sentence",
+      "native": [
+        "ਮਾਊਸ ਦਾ ਸਕ੍ਰੋਲ ਅਟਕ ਰਿਹਾ ਹੈ।"
+      ],
+      "roman": [
+        "Mouse da scroll atak riha hai."
+      ]
+    },
+    {
+      "id": "pa-s077",
+      "kind": "sentence",
+      "native": [
+        "ਗੁਰਦਾਸਪੁਰ ਪਹੁੰਚ ਕੇ ਬਲਜੀਤ ਦੇ ਘਰ ਸਾਮਾਨ ਰੱਖਾਂਗੇ, ਫਿਰ ਉੱਥੋਂ ਸਿੱਧੇ ਵਿਆਹ ਵਾਲੇ ਪੈਲੇਸ ਚਲੇ ਜਾਵਾਂਗੇ।"
+      ],
+      "roman": [
+        "Gurdaspur pahunch ke Baljit de ghar samaan rakhaange, phir utthon siddhe viah wale palace chale javaange."
+      ]
+    },
+    {
+      "id": "pa-s078",
+      "kind": "sentence",
+      "native": [
+        "ਬਿਜਲੀ ਵਾਲੇ ਨੂੰ ਕਹਿਓ, ਪੱਖੇ ਦਾ ਰੈਗੂਲੇਟਰ ਵੀ ਬਦਲ ਦੇਵੇ।"
+      ],
+      "roman": [
+        "Bijli wale nu kahio, pakkhe da regulator vi badal deve."
+      ]
+    },
+    {
+      "id": "pa-s079",
+      "kind": "sentence",
+      "native": [
+        "ਮੈਨੂੰ ਅਬੋਹਰ ਵਾਲਾ ਪਤਾ ਭੇਜੋ। ਨਹੀਂ, ਫ਼ਾਜ਼ਿਲਕਾ ਵਾਲਾ ਚਾਹੀਦਾ, ਉੱਥੇ ਹੀ ਕਿਤਾਬਾਂ ਦਾ ਮੇਲਾ ਲੱਗਣਾ ਆ।"
+      ],
+      "roman": [
+        "Mainu Abohar wala pata bhejo. Nahi, Fazilka wala chahida, utthe hi kitaaban da mela laggna aa."
+      ]
+    },
+    {
+      "id": "pa-s080",
+      "kind": "sentence",
+      "native": [
+        "ਓਹੋ, ਵਿਚਾਲੇ ਬੋਲ ਪਈ, ਮਾਫ਼ ਕਰਿਓ।"
+      ],
+      "roman": [
+        "Oho, vichale bol payi, maaf kario."
+      ]
+    },
+    {
+      "id": "pa-s081",
+      "kind": "sentence",
+      "native": [
+        "ਵਿਹਲੇ ਹੋ ਕੇ ਫ਼ੋਨ ਕਰਿਓ।"
+      ],
+      "roman": [
+        "Vihle ho ke phone kario."
+      ]
+    },
+    {
+      "id": "pa-s082",
+      "kind": "sentence",
+      "native": [
+        "ਬਠਿੰਡੇ ਵਾਲੀ ਬ੍ਰਾਂਚ ਦਾ ਇੰਟਰਨੈੱਟ ਬੰਦ ਹੈ, ਇਸ ਕਰਕੇ ਉੱਥੋਂ ਦੀ ਸੇਲਜ਼ ਰਿਪੋਰਟ ਆਉਣ ਵਿੱਚ ਦੇਰ ਲੱਗੇਗੀ।"
+      ],
+      "roman": [
+        "Bathinde wali branch da internet band hai, is karke utthon di sales report aun vich der laggegi."
+      ]
+    },
+    {
+      "id": "pa-s083",
+      "kind": "sentence",
+      "native": [
+        "ਰੀਚਾਰਜ ₹299 ਦਾ ਕਰਿਓ, ਉਹ 28 ਦਿਨ ਚੱਲਦਾ ਹੈ।"
+      ],
+      "roman": [
+        "Recharge ₹299 da kario, oh 28 din challda hai."
+      ]
+    },
+    {
+      "id": "pa-s084",
+      "kind": "sentence",
+      "native": [
+        "ਪਰਸੋਂ ਸਵੇਰੇ 7 ਵਜੇ ਕਿਆਰੀਆਂ ਨੂੰ ਪਾਣੀ ਦੇਣਾ ਹੈ, ਨਵੀਂ ਲਾਈ ਪਾਲਕ ਦੀ ਮਿੱਟੀ ਛੇਤੀ ਸੁੱਕ ਜਾਂਦੀ ਹੈ।"
+      ],
+      "roman": [
+        "Parson savere 7 vaje kyaariyan nu paani dena hai, navin laayi paalak di mitti chheti sukk jaandi hai."
+      ]
+    },
+    {
+      "id": "pa-s085",
+      "kind": "sentence",
+      "native": [
+        "ਸਪੌਟੀਫ਼ਾਈ ਉੱਤੇ ਮੇਰੀ ਮਨਪਸੰਦ ਪਲੇਲਿਸਟ ਸ਼ੁਰੂ ਤੋਂ ਚਲਾ ਦਿਓ।"
+      ],
+      "roman": [
+        "Spotify utte meri manpasand playlist shuru ton chala deo."
+      ]
+    },
+    {
+      "id": "pa-s086",
+      "kind": "sentence",
+      "native": [
+        "ਜ਼ੂਮ ਦਾ ਲਿੰਕ ਖੋਲ੍ਹਦਿਆਂ ਹੀ ਐਪ ਬੰਦ ਹੋ ਜਾਂਦੀ ਹੈ।"
+      ],
+      "roman": [
+        "Zoom da link kholdian hi app band ho jaandi hai."
+      ]
+    },
+    {
+      "id": "pa-s087",
+      "kind": "sentence",
+      "native": [
+        "ਮੇਰੀ ਛਤਰੀ ਬੇਕਰੀ ਵਿੱਚੋਂ ਮਿਲ ਗਈ।"
+      ],
+      "roman": [
+        "Meri chhatri bakery vichon mil gayi."
+      ]
+    },
+    {
+      "id": "pa-s088",
+      "kind": "sentence",
+      "native": [
+        "ਛੋਟੇ ਦੀ ਵਰਦੀ ਦੀ ਜੇਬ ਪਾਟੀ ਹੋਈ ਆ, ਸਕੂਲ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਦੋ ਟਾਂਕੇ ਲਾ ਦੇਵੀਂ।"
+      ],
+      "roman": [
+        "Chhote di vardi di jeb paati hoyi aa, school jaan ton pehlan do taanke laa deveen."
+      ]
+    },
+    {
+      "id": "pa-s089",
+      "kind": "sentence",
+      "native": [
+        "ਤੌਲੀਆ, ਕੰਘੀ ਤੇ ਐਨਕ ਰੱਖ ਲਏ, ਬੱਸ ਟੋਪੀ ਰਹਿ ਗਈ।"
+      ],
+      "roman": [
+        "Tauliya, kanghi te ainak rakh laye, bass topi reh gayi."
+      ]
+    },
+    {
+      "id": "pa-s090",
+      "kind": "sentence",
+      "native": [
+        "ਸਾਹਿਲ, ਕੈਰਮ ਖੇਡਣ ਆ ਜਾ, ਬਾਕੀ ਸਾਰੇ ਉਡੀਕਦੇ ਪਏ ਨੇ।"
+      ],
+      "roman": [
+        "Sahil, carrom khedan aa ja, baaki saare udeekde paye ne."
+      ]
+    },
+    {
+      "id": "pa-s091",
+      "kind": "sentence",
+      "native": [
+        "ਵੀਰਵਾਰ ਦੀ ਟ੍ਰੇਨਿੰਗ ਹੁਣ ਦੁਪਹਿਰ 2 ਵਜੇ ਸ਼ੁਰੂ ਹੋਵੇਗੀ।"
+      ],
+      "roman": [
+        "Veervaar di training hun dupehar 2 vaje shuru hovegi."
+      ]
+    },
+    {
+      "id": "pa-s092",
+      "kind": "sentence",
+      "native": [
+        "ਅਲਾਰਮ ਸਵੇਰੇ 6 ਵਜੇ ਦਾ ਲਾਓ।"
+      ],
+      "roman": [
+        "Alarm savere 6 vaje da laao."
+      ]
+    },
+    {
+      "id": "pa-s093",
+      "kind": "sentence",
+      "native": [
+        "ਸਾਈਕਲ ਦੀ ਚੇਨ ਸਾਫ਼ ਕਰ ਲਵਾਂ।"
+      ],
+      "roman": [
+        "Cycle di chain saaf kar lavaan."
+      ]
+    },
+    {
+      "id": "pa-s094",
+      "kind": "sentence",
+      "native": [
+        "ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਖੁੱਲ੍ਹੇ ਆਰਟੀਕਲ ਦਾ ਲਿੰਕ ਸੇਵ ਕਰ ਲਓ ਤਾਂ ਕਿ ਮੈਂ ਬਾਅਦ ਵਿੱਚ ਇਸਨੂੰ ਦੁਬਾਰਾ ਪੜ੍ਹ ਸਕਾਂ।"
+      ],
+      "roman": [
+        "Browser vich khullhe article da link save kar lao taan ki main baad vich isnu dubaara parh sakaan."
+      ]
+    },
+    {
+      "id": "pa-s095",
+      "kind": "sentence",
+      "native": [
+        "ਸੇਵ ਕਰਨ ਵੇਲੇ ਫ਼ਾਈਲ ਦਾ ਨਾਂ ਪੰਜਾਬੀ ਵਿੱਚ ਲਿਖ ਸਕਦੇ ਹਾਂ?"
+      ],
+      "roman": [
+        "Save karan vele file da naan Punjabi vich likh sakde haan?"
+      ]
+    },
+    {
+      "id": "pa-s096",
+      "kind": "sentence",
+      "native": [
+        "ਨਵਾਂ ਅੰਡਰਪਾਸ ਖੁੱਲ੍ਹਣ ਨਾਲ ਰੋਜ਼ ਦਾ ਸਫ਼ਰ ਅੱਧਾ ਰਹਿ ਗਿਆ।"
+      ],
+      "roman": [
+        "Nawan underpass khullhan naal roz da safar addha reh gya."
+      ]
+    },
+    {
+      "id": "pa-s097",
+      "kind": "sentence",
+      "native": [
+        "ਬਾਜ਼ਾਰ ਜਾਂਦੇ ਹੋਏ ਡਾਕਖ਼ਾਨੇ ਇਹ ਲਿਫ਼ਾਫ਼ਾ ਵੀ ਫੜਾ ਆਇਓ।"
+      ],
+      "roman": [
+        "Bazaar jaande hoye daakkhane eh lifaafa vi phara aaiyo."
+      ]
+    },
+    {
+      "id": "pa-s098",
+      "kind": "sentence",
+      "native": [
+        "ਪਰਚੀ ਉੱਤੇ ₹850 ਲਿਖੋ, ਰੁਕੋ, ₹950 ਕਰ ਦਿਓ।"
+      ],
+      "roman": [
+        "Parchi utte ₹850 likho, ruko, ₹950 kar deo."
+      ]
+    },
+    {
+      "id": "pa-s099",
+      "kind": "sentence",
+      "native": [
+        "ਤੇਰੀ ਚਾਹ ਫਿਰ ਠੰਢੀ ਹੋ ਗਈ।"
+      ],
+      "roman": [
+        "Teri chaah phir thandhi ho gayi."
+      ]
+    },
+    {
+      "id": "pa-s100",
+      "kind": "sentence",
+      "native": [
+        "ਪਟਿਆਲੇ ਵਾਲੇ ਕਲਾਇੰਟ ਨੇ ਨਵਾਂ ਸੈਂਪਲ ਮੰਗਿਆ ਹੈ।"
+      ],
+      "roman": [
+        "Patiale wale client ne nawan sample mangya hai."
+      ]
+    },
+    {
+      "id": "pa-s101",
+      "kind": "sentence",
+      "native": [
+        "ਜਲੇਬੀ ₹180 ਦੀ ਪਾ ਦਿਓ।"
+      ],
+      "roman": [
+        "Jalebi ₹180 di paa deo."
+      ]
+    },
+    {
+      "id": "pa-s102",
+      "kind": "sentence",
+      "native": [
+        "ਸ਼ਾਪਿੰਗ ਲਿਸਟ ਵਿੱਚ ਸਾਬਣ ਪਾਓ।"
+      ],
+      "roman": [
+        "Shopping list vich saaban pao."
+      ]
+    },
+    {
+      "id": "pa-s103",
+      "kind": "sentence",
+      "native": [
+        "ਇੰਟਰਨੈੱਟ ਤੋਂ ਬਿਨਾਂ ਇਹ ਨਕਸ਼ਾ ਕਿਵੇਂ ਵਰਤ ਸਕਦੇ ਹਾਂ?"
+      ],
+      "roman": [
+        "Internet ton bina eh naksha kiven vart sakde haan?"
+      ]
+    },
+    {
+      "id": "pa-s104",
+      "kind": "sentence",
+      "native": [
+        "ਸਾਫ਼ਟਵੇਅਰ ਅੱਪਡੇਟ ਹੋਣ ਤੋਂ ਬਾਅਦ ਬਿੱਲ ਉੱਤੇ ਸਾਡਾ ਲੋਗੋ ਨਹੀਂ ਆ ਰਿਹਾ, ਪੁਰਾਣੀ ਸੈਟਿੰਗ ਕਿੱਥੇ ਗਈ?"
+      ],
+      "roman": [
+        "Software update hon ton baad bill utte sada logo nahi aa riha, purani setting kitthe gayi?"
+      ]
+    },
+    {
+      "id": "pa-s105",
+      "kind": "sentence",
+      "native": [
+        "ਸਾਹਮਣੇ ਵਾਲੇ ਢਾਬੇ ਤੱਕ ਪਹੁੰਚੋ ਤਾਂ ਮੈਂ ਲੈਣ ਆ ਜਾਵਾਂਗੀ।"
+      ],
+      "roman": [
+        "Saahmne wale dhabe takk pahuncho taan main lain aa javaangi."
+      ]
+    },
+    {
+      "id": "pa-s106",
+      "kind": "sentence",
+      "native": [
+        "ਭਾਜੀ, ₹320 ਵਾਲੀ ਚਾਦਰ ਦਾ ਰੇਟ ਕੁਝ ਘੱਟ ਕਰੋਗੇ?"
+      ],
+      "roman": [
+        "Bhaaji, ₹320 wali chaadar da rate kujh ghatt karoge?"
+      ]
+    },
+    {
+      "id": "pa-s107",
+      "kind": "sentence",
+      "native": [
+        "ਇਹ ਕਵਰ ਉਤਰਦਾ ਵੀ ਹੈ?"
+      ],
+      "roman": [
+        "Eh cover utarda vi hai?"
+      ]
+    },
+    {
+      "id": "pa-s108",
+      "kind": "sentence",
+      "native": [
+        "ਓਕੇ, ਬੱਚਿਆਂ ਨੂੰ ਮੈਂ ਲੈ ਆਵਾਂਗਾ, ਤੁਸੀਂ ਆਰਾਮ ਨਾਲ ਆਪਣੀ ਮੀਟਿੰਗ ਮੁਕਾ ਕੇ ਸਿੱਧੇ ਰੈਸਟੋਰੈਂਟ ਪਹੁੰਚ ਜਾਇਓ।"
+      ],
+      "roman": [
+        "Okay, bachian nu main lai aavaanga, tusi aaraam naal apni meeting muka ke siddhe restaurant pahunch jaiyo."
+      ]
+    },
+    {
+      "id": "pa-s109",
+      "kind": "sentence",
+      "native": [
+        "ਬਜਟ ਵਿੱਚ ₹3500 ਦਾ ਵਾਧਾ ਕਰਨ ਲਈ ਮਨਜ਼ੂਰੀ ਚਾਹੀਦੀ ਹੈ।"
+      ],
+      "roman": [
+        "Budget vich ₹3500 da vadha karan layi manzoori chahidi hai."
+      ]
+    },
+    {
+      "id": "pa-s110",
+      "kind": "sentence",
+      "native": [
+        "ਕਮਰਾ 7 ਦੂਜੀ ਮੰਜ਼ਿਲ ਉੱਤੇ ਹੈ।"
+      ],
+      "roman": [
+        "Kamra 7 dooji manzil utte hai."
+      ]
+    },
+    {
+      "id": "pa-s111",
+      "kind": "sentence",
+      "native": [
+        "ਬੂਟਿਆਂ ਲਈ ਨਵੀਂ ਮਿੱਟੀ ਲਿਆਵਾਂਗੀ।"
+      ],
+      "roman": [
+        "Booteyan layi navi mitti liaavangi."
+      ]
+    },
+    {
+      "id": "pa-s112",
+      "kind": "sentence",
+      "native": [
+        "ਵਿਰਾਸਤ-ਏ-ਖ਼ਾਲਸਾ ਕਿੰਨੇ ਵਜੇ ਖੁੱਲ੍ਹਦਾ ਹੈ ਤੇ ਉੱਥੇ ਜਾਣ ਲਈ ਟਿਕਟ ਪਹਿਲਾਂ ਬੁੱਕ ਕਰਨੀ ਪੈਂਦੀ ਹੈ?"
+      ],
+      "roman": [
+        "Virasat-e-Khalsa kinne vaje khulda hai te utthe jaan layi ticket pehlan book karni paindi hai?"
+      ]
+    },
+    {
+      "id": "pa-s113",
+      "kind": "sentence",
+      "native": [
+        "ਟੈਬਲੇਟ ਨਾਲ ਜੁੜਿਆ ਕੀਬੋਰਡ ਕਈ ਵਾਰ ਅੱਖਰ ਦੁਹਰਾ ਦਿੰਦਾ ਹੈ।"
+      ],
+      "roman": [
+        "Tablet naal jurya keyboard kayi vaar akhar duhra dinda hai."
+      ]
+    },
+    {
+      "id": "pa-s114",
+      "kind": "sentence",
+      "native": [
+        "ਕਰਮਜੀਤ ਦੀ ਵਰਕਸ਼ਾਪ ਵਿੱਚ ਰੰਦਾ ਚਲਾਉਣਾ ਸਿੱਖ ਰਿਹਾ ਹਾਂ, ਪਰ ਲੱਕੜ ਨੂੰ ਪੱਧਰਾ ਕਰਨਾ ਹਾਲੇ ਔਖਾ ਲੱਗਦਾ ਹੈ।"
+      ],
+      "roman": [
+        "Karamjit di workshop vich randa chalauna sikh riha haan, par lakkar nu paddhra karna haale aukha laggda hai."
+      ]
+    },
+    {
+      "id": "pa-s115",
+      "kind": "sentence",
+      "native": [
+        "ਲੋਹੜੀ ਲਈ ਮੂੰਗਫਲੀ ਮੈਂ ਲੈ ਆਵਾਂਗੀ, ਤੁਸੀਂ ਬੱਸ ਵਿਹੜੇ ਵਿੱਚ ਬੈਠਣ ਵਾਸਤੇ ਕੁਰਸੀਆਂ ਕੱਢ ਕੇ ਰੱਖਿਓ।"
+      ],
+      "roman": [
+        "Lohri layi moongphali main lai aavaangi, tusi bass vihre vich baithan vaaste kursiyan kaddh ke rakhio."
+      ]
+    },
+    {
+      "id": "pa-s116",
+      "kind": "sentence",
+      "native": [
+        "ਵੀਡੀਓ ਹੁਣੇ ਪਾਉਣੀ ਸੀ, ਪਰ ਇਸਦਾ ਨਾਂ ਕੀ ਰੱਖਾਂ?"
+      ],
+      "roman": [
+        "Video hune pauni si, par isda naan ki rakhaan?"
+      ]
+    },
+    {
+      "id": "pa-s117",
+      "kind": "sentence",
+      "native": [
+        "ਘਰ ਪਹੁੰਚ ਗਈ ਹਾਂ, ਫ਼ਿਕਰ ਨਾ ਕਰੀਂ।"
+      ],
+      "roman": [
+        "Ghar pahunch gayi haan, fikar na kareen."
+      ]
+    },
+    {
+      "id": "pa-s118",
+      "kind": "sentence",
+      "native": [
+        "ਮਦਦ ਲਈ ਤੁਹਾਡਾ ਬਹੁਤ ਧੰਨਵਾਦ।"
+      ],
+      "roman": [
+        "Madad layi tuhada bahut dhanvaad."
+      ]
+    },
+    {
+      "id": "pa-s119",
+      "kind": "sentence",
+      "native": [
+        "ਮੀਟਿੰਗ ਬੁੱਧਵਾਰ, 17 ਜੂਨ 2026 ਨੂੰ ਸਵੇਰੇ 11 ਵਜੇ ਰੱਖ ਲਓ। ਮੈਨੂੰ 12 ਵਜੇ ਤੱਕ ਨਿਕਲਣਾ ਹੈ।"
+      ],
+      "roman": [
+        "Meeting Buddhvaar, 17 June 2026 nu savere 11 vaje rakh lao. Mainu 12 vaje takk nikalna hai."
+      ]
+    },
+    {
+      "id": "pa-s120",
+      "kind": "sentence",
+      "native": [
+        "ਅਖ਼ਬਾਰ ਵਾਲੇ ਨੂੰ ਮਹੀਨੇ ਦੇ ₹450 ਦੇਣੇ ਨੇ, ਇਹ ਖ਼ਰਚਾ ਵੀ ਹਿਸਾਬ ਵਿੱਚ ਲਿਖ ਲਓ।"
+      ],
+      "roman": [
+        "Akhbaar wale nu maheene de ₹450 dene ne, eh kharcha vi hisaab vich likh lao."
+      ]
+    },
+    {
+      "id": "pa-s121",
+      "kind": "sentence",
+      "native": [
+        "9 ਮਿੰਟ ਦਾ ਟਾਈਮਰ ਲਾਓ।"
+      ],
+      "roman": [
+        "9 minute da timer lao."
+      ]
+    },
+    {
+      "id": "pa-s122",
+      "kind": "sentence",
+      "native": [
+        "ਸਿਮਰਨ, ਐਕਸਲ ਵਿੱਚ ਇਹ ਕਾਲਮ ਜੋੜਨ ਦਾ ਤਰੀਕਾ ਦੱਸ ਦਿਓ।"
+      ],
+      "roman": [
+        "Simran, Excel vich eh column joran da tareeka dass deo."
+      ]
+    },
+    {
+      "id": "pa-s123",
+      "kind": "sentence",
+      "native": [
+        "ਲਿਫ਼ਟ ਸਿੱਧੀ ਪਾਰਕਿੰਗ ਵਿੱਚ ਜਾਂਦੀ ਹੈ।"
+      ],
+      "roman": [
+        "Lift siddhi parking vich jaandi hai."
+      ]
+    },
+    {
+      "id": "pa-s124",
+      "kind": "sentence",
+      "native": [
+        "ਸੇਵੀਆਂ ਭੁੰਨ ਲਈਆਂ ਨੇ, ਹੁਣ ਚੀਨੀ ਕਿੰਨੀ ਪਾਉਣੀ ਆ?"
+      ],
+      "roman": [
+        "Seviyan bhunn laiyan ne, hun cheeni kinni pauni aa?"
+      ]
+    },
+    {
+      "id": "pa-s125",
+      "kind": "sentence",
+      "native": [
+        "ਚੱਲੋ, ਫਗਵਾੜੇ ਕੁਝ ਖਾ ਲਈਏ, ਅੱਗੇ ਦੇਰ ਹੋ ਜਾਣੀ ਆ।"
+      ],
+      "roman": [
+        "Challo, Phagware kujh kha layiye, agge der ho jaani aa."
+      ]
+    },
+    {
+      "id": "pa-s126",
+      "kind": "sentence",
+      "native": [
+        "ਮੰਮੀ, ਦਰਜ਼ੀ ਕੋਲੋਂ ਮੇਰਾ ਸੂਟ ਲੈਂਦੇ ਆਇਓ, ਮੈਂ ਪੈਸੇ ਦੇ ਦਿੱਤੇ ਨੇ।"
+      ],
+      "roman": [
+        "Mummy, darzi kolon mera suit lainde aaiyo, main paise de ditte ne."
+      ]
+    },
+    {
+      "id": "pa-s127",
+      "kind": "sentence",
+      "native": [
+        "ਪ੍ਰੋਜੈਕਟ ਦਾ ਕੰਮ ਮੁੱਕ ਗਿਆ ਹੈ, ਬੱਸ ਟੈਸਟਿੰਗ ਬਾਕੀ ਹੈ।"
+      ],
+      "roman": [
+        "Project da kamm mukk gya hai, bass testing baaki hai."
+      ]
+    },
+    {
+      "id": "pa-s128",
+      "kind": "sentence",
+      "native": [
+        "ਪਾਰਸਲ ਮਕਾਨ 36, ਸੈਕਟਰ 21, ਪੰਚਕੂਲਾ ਪਹੁੰਚਾ ਦਿਓ, ਉੱਥੇ ਮੈਂ ਸ਼ਾਮ 7 ਵਜੇ ਤੱਕ ਮਿਲ ਜਾਵਾਂਗਾ।"
+      ],
+      "roman": [
+        "Parcel makaan 36, sector 21, Panchkula pahuncha deo, utthe main shaam 7 vaje takk mil javaanga."
+      ]
+    },
+    {
+      "id": "pa-s129",
+      "kind": "sentence",
+      "native": [
+        "ਗੁਰਲੀਨ ਨਾਲ ਐਤਵਾਰ ਨੂੰ ਬੈਡਮਿੰਟਨ ਖੇਡਣ ਦਾ ਰਿਮਾਈਂਡਰ ਲਾ ਦਿਓ।"
+      ],
+      "roman": [
+        "Gurleen naal Aitvaar nu badminton khedan da reminder laa deo."
+      ]
+    },
+    {
+      "id": "pa-s130",
+      "kind": "sentence",
+      "native": [
+        "ਹੁਸ਼ਿਆਰਪੁਰ ਵਿੱਚ ਕਿੰਨੀ ਠੰਢ ਹੈ?"
+      ],
+      "roman": [
+        "Hoshiarpur vich kinni thand hai?"
+      ]
+    },
+    {
+      "id": "pa-s131",
+      "kind": "sentence",
+      "native": [
+        "ਫ਼ਰੀਦਕੋਟ ਵਾਲੀ ਦੁਕਾਨ ਨੇ ਗਲਤ ਚਾਰਜਰ ਭੇਜ ਦਿੱਤਾ ਹੈ।"
+      ],
+      "roman": [
+        "Faridkot wali dukaan ne galat charger bhej ditta hai."
+      ]
+    },
+    {
+      "id": "pa-s132",
+      "kind": "sentence",
+      "native": [
+        "ਬੀਬੀ, ਰਿਕਸ਼ੇ ਵਾਲੇ ਨੂੰ ਗਲੀ ਦੇ ਮੋੜ ਉੱਤੇ ਰੁਕਣ ਲਈ ਕਹਿਓ।"
+      ],
+      "roman": [
+        "Bibi, rikshe wale nu gali de mor utte rukan layi kahio."
+      ]
+    },
+    {
+      "id": "pa-s133",
+      "kind": "sentence",
+      "native": [
+        "ਪੂਜਾ ਮਸੀਹ ਦੀ ਮੰਗਣੀ ਕਦੋਂ ਹੈ?"
+      ],
+      "roman": [
+        "Pooja Masih di mangni kadon hai?"
+      ]
+    },
+    {
+      "id": "pa-s134",
+      "kind": "sentence",
+      "native": [
+        "ਲਿਖ ਲਓ, ਦੁੱਧ, ਆਂਡੇ ਤੇ ਬਰੈੱਡ ਲਿਆਉਣੇ ਨੇ, ਓਹ ਰੁਕੋ, ਆਂਡੇ ਤਾਂ ਫ਼ਰਿੱਜ ਵਿੱਚ ਪਏ ਨੇ।"
+      ],
+      "roman": [
+        "Likh lao, duddh, aande te bread liaune ne, oh ruko, aande taan fridge vich paye ne."
+      ]
+    },
+    {
+      "id": "pa-s135",
+      "kind": "sentence",
+      "native": [
+        "ਹਾਂ, ਚਾਬੀ ਗਮਲੇ ਪਿੱਛੇ ਪਈ ਆ।"
+      ],
+      "roman": [
+        "Haan, chaabi gamle pichhe payi aa."
+      ]
+    },
+    {
+      "id": "pa-s136",
+      "kind": "sentence",
+      "native": [
+        "ਨਵਦੀਪ, ਇੰਟਰਵਿਊ ਲਈ ਦੁਪਹਿਰ ਦੀ ਥਾਂ ਸਵੇਰ ਦਾ ਸਮਾਂ ਮਿਲ ਸਕਦਾ ਹੈ?"
+      ],
+      "roman": [
+        "Navdeep, interview layi dupehar di thaan saver da samaan mil sakda hai?"
+      ]
+    },
+    {
+      "id": "pa-s137",
+      "kind": "sentence",
+      "native": [
+        "ਕੂਪਨ ਨਾਲ ₹1200 ਵਾਲੇ ਬੈਗ ਉੱਤੇ 15% ਛੋਟ ਮਿਲ ਰਹੀ ਹੈ।"
+      ],
+      "roman": [
+        "Coupon naal ₹1200 wale bag utte 15% chhot mil rahi hai."
+      ]
+    },
+    {
+      "id": "pa-s138",
+      "kind": "sentence",
+      "native": [
+        "ਮੰਗਲਵਾਰ ਨੂੰ ਇਮਰਾਨ ਕੋਲੋਂ ਡਰਾਇੰਗ ਵਾਲੀਆਂ ਪੈਨਸਿਲਾਂ ਮੰਗ ਕੇ ਲਿਆਉਣੀਆਂ ਨੇ।"
+      ],
+      "roman": [
+        "Mangalvaar nu Imran kolon drawing walian pencilan mang ke liaunian ne."
+      ]
+    },
+    {
+      "id": "pa-s139",
+      "kind": "sentence",
+      "native": [
+        "ਅੰਗਰੇਜ਼ੀ ਵਾਲਾ ਕੀਬੋਰਡ ਹਟਾ ਕੇ ਪੰਜਾਬੀ ਵਾਲਾ ਲਾ ਦਿਓ।"
+      ],
+      "roman": [
+        "Angrezi wala keyboard hata ke Punjabi wala laa deo."
+      ]
+    },
+    {
+      "id": "pa-s140",
+      "kind": "sentence",
+      "native": [
+        "ਟੱਚਪੈਡ ਨਾਲੋਂ ਮਾਊਸ ਵਰਤਣਾ ਸੌਖਾ ਲੱਗਦਾ ਹੈ।"
+      ],
+      "roman": [
+        "Touchpad naalon mouse vartna saukha laggda hai."
+      ]
+    },
+    {
+      "id": "pa-s141",
+      "kind": "sentence",
+      "native": [
+        "ਚੌਕ ਤੋਂ ਖੱਬੇ ਮੁੜ ਜਾਇਓ।"
+      ],
+      "roman": [
+        "Chauk ton khabbe mur jaiyo."
+      ]
+    },
+    {
+      "id": "pa-s142",
+      "kind": "sentence",
+      "native": [
+        "ਪਾਣੀ ਦਾ ਬਿੱਲ ਵੱਧ ਆਇਆ, ਸ਼ਾਇਦ ਪਿਛਲਾ ਬਕਾਇਆ ਵੀ ਜੋੜਿਆ ਆ।"
+      ],
+      "roman": [
+        "Paani da bill vadh aaya, shayad pichhla bakaaya vi jorya aa."
+      ]
+    },
+    {
+      "id": "pa-s143",
+      "kind": "sentence",
+      "native": [
+        "ਇਸ਼ਤਿਹਾਰ ਦਾ ਡਿਜ਼ਾਈਨ ਮੈਨੂੰ ਪਸੰਦ ਹੈ।"
+      ],
+      "roman": [
+        "Ishtihaar da design mainu pasand hai."
+      ]
+    },
+    {
+      "id": "pa-s144",
+      "kind": "sentence",
+      "native": [
+        "ਬੈਟਰੀ ਹਾਲੇ 18% ਬਾਕੀ ਹੈ।"
+      ],
+      "roman": [
+        "Battery haale 18% baaki hai."
+      ]
+    },
+    {
+      "id": "pa-s145",
+      "kind": "sentence",
+      "native": [
+        "ਪਾਸਬੁੱਕ ਵਿੱਚ ਵਿਆਜ ਦੀ ਰਕਮ ਵੇਖਣੀ ਹੈ।"
+      ],
+      "roman": [
+        "Passbook vich viaaj di rakam vekhni hai."
+      ]
+    },
+    {
+      "id": "pa-s146",
+      "kind": "sentence",
+      "native": [
+        "ਤੁਹਾਡਾ ਡੱਬਾ ਮੇਰੇ ਬੈਗ ਵਿੱਚ ਆ ਗਿਆ, ਪਰਸੋਂ ਮੋੜ ਦਿਆਂਗੀ।"
+      ],
+      "roman": [
+        "Tuhada dabba mere bag vich aa gya, parson mor diaangi."
+      ]
+    },
+    {
+      "id": "pa-s147",
+      "kind": "sentence",
+      "native": [
+        "ਰਸੋਈ ਦੇ ਪਰਦੇ ਧੋਣ ਦਾ ਕੰਮ ਛੁੱਟੀ ਵਾਲੇ ਦਿਨ ਰੱਖਾਂਗੀ।"
+      ],
+      "roman": [
+        "Rasoi de parde dhon da kamm chhutti wale din rakhaangi."
+      ]
+    },
+    {
+      "id": "pa-s148",
+      "kind": "sentence",
+      "native": [
+        "ਬਾਹਰ ਮੀਂਹ ਪੈਣ ਲੱਗ ਪਿਆ, ਛੱਤ ਉੱਤੋਂ ਕੱਪੜੇ ਲਾਹ ਲੈ।"
+      ],
+      "roman": [
+        "Baahar meenh pain lagg pya, chhatt utton kappre laah lai."
+      ]
+    },
+    {
+      "id": "pa-s149",
+      "kind": "sentence",
+      "native": [
+        "ਫ਼ੋਟੋ ਜ਼ਰਾ ਨੇੜਿਓਂ ਖਿੱਚੀਂ, ਦਾਦੀ ਦੇ ਬੁਣੇ ਸਵੈਟਰ ਦਾ ਨਮੂਨਾ ਵੇਖਣਾ ਆ।"
+      ],
+      "roman": [
+        "Photo zara nerion khicheen, daadi de bune sweater da namoona vekhna aa."
+      ]
+    },
+    {
+      "id": "pa-s150",
+      "kind": "sentence",
+      "native": [
+        "ਬੇਬੇ, ਤੇਰੀਆਂ ਪਿੰਨੀਆਂ ਤਾਂ ਸਹੇਲੀਆਂ ਨੇ ਬੈਠਿਆਂ ਹੀ ਮੁਕਾ ਦਿੱਤੀਆਂ।"
+      ],
+      "roman": [
+        "Bebe, teriyan pinnian taan saheliyan ne baithian hi muka dittian."
+      ]
+    },
+    {
+      "id": "pa-s151",
+      "kind": "sentence",
+      "native": [
+        "ਜੈਕਟ ਮੋੜੀ ਸੀ, ਪੈਸੇ ਮਿਲ ਗਏ।"
+      ],
+      "roman": [
+        "Jacket mori si, paise mil gaye."
+      ]
+    },
+    {
+      "id": "pa-s152",
+      "kind": "sentence",
+      "native": [
+        "ਸੁਣ, ਬਿੱਲੀ ਨੇ ਤੇਰੀ ਕੁਰਸੀ ਮੱਲ ਲਈ, ਹੁਣ ਕਿੱਥੇ ਬੈਠੇਂਗਾ?"
+      ],
+      "roman": [
+        "Sun, billi ne teri kursi mall layi, hun kitthe baithenga?"
+      ]
+    },
+    {
+      "id": "pa-s153",
+      "kind": "sentence",
+      "native": [
+        "ਹਰਲੀਨ, ਤੇਰੇ ਸਮਝਾਉਣ ਨਾਲ ਭਿੰਨਾਂ ਵਾਲਾ ਸਵਾਲ ਸਮਝ ਆ ਗਿਆ, ਹੁਣ ਅਗਲਾ ਆਪਣੇ ਆਪ ਕਰਕੇ ਵੇਖਾਂਗੀ।"
+      ],
+      "roman": [
+        "Harleen, tere samjhaun naal bhinnan wala sawaal samajh aa gya, hun agla apne aap karke vekhangi."
+      ]
+    },
+    {
+      "id": "pa-s154",
+      "kind": "sentence",
+      "native": [
+        "ਜੇ ਛੁੱਟੀਆਂ ਦੀਆਂ ਤਾਰੀਖ਼ਾਂ ਪੱਕੀਆਂ ਹੋ ਗਈਆਂ ਨੇ ਤਾਂ ਦੱਸੀਂ, ਆਪਾਂ ਇਸ ਵਾਰ ਕਿਤੇ ਇਕੱਠੇ ਘੁੰਮਣ ਚੱਲੀਏ।"
+      ],
+      "roman": [
+        "Je chhuttiyan diyan tareekhan pakkiyan ho gayian ne taan dassin, aapan is vaar kite ikatthe ghumman chaliye."
+      ]
+    }
+  ]
+}
